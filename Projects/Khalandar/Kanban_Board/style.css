@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* To Box to Nav Bar */
+
+.toolbox-cont{
+    background-color: #4b4b4b;
+    height: 5rem;
+
+}
+
+.toolbox-priority-cont{
+display: flex;
+}

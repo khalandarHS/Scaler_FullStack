@@ -6,6 +6,67 @@
     <title>Registration Form</title>
 </head>
 <body>
-    
+    <h2>Registration Form</h2>
+    <form>
+        <div>
+        <label for="name">Name</label>
+        <input placeholder="Enter Name" id="Name"/>
+        </div>
+        <div>
+        <label for="email">Email</label>
+        <input placeholder="Enter Email" id="Email"/>
+        </div>
+        <div>
+        <label for="password2">Password</label>
+        <input placeholder="Enter Password" type="password" id="password" required/>
+        </div>
+        <div>
+            <label for="userage">Age</label>
+            <input placeholder="Enter Age" type="number" id="userage" min="18" max="60" style="width: 100px;" required/>
+        </div>
+        <!--Gender-->
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male"/>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female"/>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="others"/>
+            <label for="others">Others</label>
+        </div>
+        <!--Date Of Birth-->
+        <div>
+            <label for="userDOB">Date Of Birth</label>
+            <input type="date" id="userDOB" required min="2024-01-01" max="2024-02-26"/>
+        </div>
+        <!--Degree-->
+        <div>
+            <label for="userDegree">Select your Degree</label>
+            <select>
+                <option value="btech">BTech</option>
+                <option value="mtech">MTech</option>
+                <option value="msc">MSC</option>
+                <option value="bsc">BSC</option>
+                <option value="Bcom">Bcom</option>
+            </select>
+        </div>
+        <!--Addresss-->
+        <div>
+            <label for="userAddress">Address</label>
+            <textarea id="userAddress" placeholder="Enter your Address" rows="7" cols="26"></textarea>
+        </div>
+        <!--Phone Number-->
+        <div>
+            <label for="userPhone">Phone Number</label>
+            <input type="number" id="userPhone" placeholder="Phone Number" style="width: 150px;"/>
+        </div>
+        <!--Photo-->
+        <div>
+            <label for="userPhoto">Upload Profile Picture</label>
+            <input type="file" id="userPhoto" />
+        </div>
+        <!--Submit-->
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>

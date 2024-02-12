@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KanBan Board</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script
+    src="https://kit.fontawesome.com/d9edf17dc9.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+  <!-- ToolBox Creation -->
+  <div class="toolbox-cont">
+    <div class="toolbox__priority-cont">
+      <div class="color color--lightpink"></div>
+      <div class="color color--lightgreen"></div>
+      <div class="color color--lightblue"></div>
+      <div class="color color--black"></div>
+    </div>
+    <div class="action-btn-cont">
+      <div class="btn btn--add">
+        <i class="fa-solid fa-plus"></i>
+      </div>
+      <div class="btn btn--remove">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-ticket-cont">
+    <div class="ticket-cont">
+      <div class="ticket__color"></div>
+      <div class="ticket__id">1234567657656</div>
+      <div class="ticket__task-area">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, atque.
+      </div>
+      <div class="ticket__lock">
+        <i class="fa-solid fa-lock"></i>
+      </div>
+    </div>
+    <!-- More ticket-cont divs here -->
+  </div>
+  <!-- Ticket Creation -->
+  <div class="modal-cont">
+    <textarea
+      class="modal__textarea-cont"
+      placeholder="Enter Your Task Information"
+    ></textarea>
+    <div class="priority-colors-cont">
+      <div class="priority-color priority-color--lightpink"></div>
+      <div class="priority-color priority-color--lightgreen"></div>
+      <div class="priority-color priority-color--lightblue"></div>
+      <div class="priority-color priority-color--black"></div>
+    </div>
+  </div>
+</body>
+<script src="./script.js"></script>
+</html>

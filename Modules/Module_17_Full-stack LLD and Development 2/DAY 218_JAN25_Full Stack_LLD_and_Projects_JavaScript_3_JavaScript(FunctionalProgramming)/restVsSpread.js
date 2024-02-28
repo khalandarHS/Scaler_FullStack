@@ -57,3 +57,4 @@ const {lastName, ...objOtherItem}={
 }
 
 console.log(lastName, objOtherItem);
+

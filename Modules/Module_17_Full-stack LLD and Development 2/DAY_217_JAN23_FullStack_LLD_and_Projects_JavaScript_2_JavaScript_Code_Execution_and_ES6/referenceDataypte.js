@@ -4,7 +4,7 @@ const obj = {
 };
 
 // spread operator
-const obj2 = obj;
+const obj2 = { ...obj };
 obj2.firstName = "uttam";
 obj2.lastName ="sharma";
 

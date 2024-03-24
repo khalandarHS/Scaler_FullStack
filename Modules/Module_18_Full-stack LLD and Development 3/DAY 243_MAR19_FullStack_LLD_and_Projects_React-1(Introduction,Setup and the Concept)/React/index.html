@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Introduction</title>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+</head>
+<body>
+    <div id="root"></div>
+    <div id="root1"></div>
+</body>
+<script  src = "./app.js"></script>
+<script >
+    //First type of rendering
+    //Add H1 Element which syas hello from JS.
+    const greeting = document.createElement("h1");
+    greeting.innerText = "Hello from JS";
+    //document.getElementById("root").appendChild(greeting);
+    const root = document.querySelector("#root");
+    root.appendChild(greeting);
+
+   //Second type of rendering 
+    const greeting1 = React.createElement(
+        "h2",
+        {id:"h2Tag"},
+        "Hello from Khal"
+        );
+    const root1 = ReactDOM.createRoot(document.querySelector("#root1"));
+    root1.render(greeting1);
+
+</script>
+
+</html>

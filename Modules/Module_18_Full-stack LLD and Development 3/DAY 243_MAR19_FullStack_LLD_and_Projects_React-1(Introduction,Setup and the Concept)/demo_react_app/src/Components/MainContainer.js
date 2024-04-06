@@ -1,9 +1,28 @@
-import React from 'react'
+import React from 'react';
+//import '../App.css';
+import MainContainerChild from './MainContainerChild';
 
 const MainContainer = () => {
-  return (
-    <div>MainContainer</div>
-  )
-}
+  
+  const HeadingName = "Main Container";
+  
+  return (<div 
+    style={{
+    display: "flex",
+    height: "200px",
+    backgroundColor: "orange",
+    width: "100%",
+   }}
+   >
+    
 
-export default MainContainer
+    <h1>{HeadingName}</h1>
+    {10+20}
+   
+   <MainContainerChild childData = {"1 ,2 , 3 , 4 , 5"}/>
+
+    </div>);
+  
+};
+
+export default MainContainer;

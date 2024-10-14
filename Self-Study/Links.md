@@ -1,5 +1,14 @@
 # Important Links for Referece
 
+
+## WhatsApp Link
+
+[WhatsApp Group Link](https://chat.whatsapp.com/LOajbSUfLO5FWtjm0cuJh8)
+
+## GitHub Link
+
+https://github.com/kachwalUttamsharma/FullStack-Jan-2024
+
 ## Project Link
 
 [GitHub Repo Link For Portfolio Project ](https://kachwaluttamsharma.github.io/portfolioProject/)
@@ -40,6 +49,11 @@
 1. [naming convention for css](https://css-tricks.com/bem-101/)
 2. [autofill vs autofit](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
 3. [grid](https://css-tricks.com/snippets/css/complete-guide-grid/#aa-grid-properties)
+
+## Class 8 - Module 17 (JavaScript)
+
+1. [Node Js Installation Site](https://nodejs.org/en)
+2. [Research Paper](https://content.interviewbit.com/research-papers/Full-stack%20LLD%20and%20Development%202_1.pdf)
 
 ## Class 9
 

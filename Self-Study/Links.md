@@ -23,6 +23,7 @@ https://github.com/kachwalUttamsharma/FullStack-Jan-2024
 
 1. [HTML Reference Material](https://web.dev/learn/html/welcome)
 2. [How Does Internet works?](https://www.scaler.com/topics/computer-network/how-internet-works/)
+3. [Live Preview - microsoft.com] - An extension that hosts a local server for you to preview your web projects on 
 
 ### Class 3
 

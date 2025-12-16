@@ -1,0 +1,2799 @@
+you
+you
+you
+hi all good evening
+so how's everyone
+I'll share my screen hope I'm audible guys I'm audible and visible you can see my screen share
+I'll have some timer before we get started with class let's put it 3 minutes
+we'll start exactly at 9.05
+I did
+so any doubts from the previous sessions or like how's your assignment going
+any doubts guys from previous session hope everyone have solved their assignments who are present in the class currently
+I see lower in number but
+very good great munish
+so usually we get a people get drop on Saturday right
+what to choose for submit
+will exactly implement from both but it's like a you know input type or submit button right
+so even if you are getting a button is an you know HTML5 semantic
+like semantic element where you when you select the input type
+input and give type equal to you know submit then it will be used in the same way
+so it is your choice like whether you can use it anything
+okay
+so
+I see less people joining class today can anyone help me or dropping a message in WhatsApp group
+like we are able to get started please join us
+can anyone help me out or should I drop it
+can anyone help me out or should I drop it
+let me do this give me a second guys
+hey thank you munish
+inform of what purpose using method, post or get
+Kabir will see that in future classes okay
+about method, post and get actually when we will build APIs and we will deal with it
+I am supposed to explain completely in depth
+we will take it at that time okay
+currently the agenda is was earlier to understand elements and HTML part
+today we will understand interaction part of CSS then we will go ahead
+it's not mandatory submit it depends on the use cases that you are using
+three of the attributes okay
+attributes are generally enhancing the existing elements
+so whatever attributes you needed you can add as per your specific
+but there is nothing as such mandatory
+action also yes
+everything related to action because it's a redirection right
+URL being changed give me a second guys I will connect iPad
+and we will get started with today's class
+okay
+so I hope everyone is able to see the iPad screen
+okay
+yeah
+two people are there
+we usually have problem with Abhishek's in class
+there are too many Abhishek's in class
+in India we have too some bits
+great guys
+so let's get started
+we have good enough amount of people today
+to get started with
+so the class three today is an introduction to CSS class
+okay
+and we are able to get started with CSS
+but what all things we will be discussing is
+what is CSS
+and when to use it
+we already knew it but it's just a revision
+then we will go with selectors
+then once selectors is done we will talk about fonts
+then we will check
+we will work on colors
+we will discuss some things on colors
+then if time permits
+we will go with the background
+okay
+so
+CSS is a topic
+which people all like you know
+it's a one of the topic
+where people try to avoid it
+or don't think of much
+because it's sometimes people feel it's difficult
+but I will try to make sure that
+it's as easy as possible
+and as comfortable as possible
+okay guys
+so now
+getting started with today's topic
+first topic
+so introduction to CSS
+I think we have already discussed
+when to use CSS
+if anyone remembers the example
+that we discussed
+about house
+building
+and what was the part that
+you have paint right
+anyone else like interiors, paint
+right
+cool
+so this is the part
+if you remember the example of house
+we were considering this part
+so this is same thing
+now we will talk about
+let's say we have built HTML content
+we are at the point
+now we have to decide how to paint it
+or what wall to choose
+how to choose a wall
+okay as I have told you earlier
+in HTML
+you have only two things
+what are the two things that I have told you
+anyone remember those two things
+like only two things
+are there in the HTML
+that you need to remember
+all the things you can
+no worries
+I have told you there are only two things
+which are elements
+or tags
+and then you have something called attributes
+I mean everything comes under these two sections
+there are elements
+or tags
+and each element tag is enriched
+or adding more functionality
+we add it using attributes
+as such when it comes to CSS
+there are three things
+so what are the three basic things
+that you have to deal with it when it comes to CSS
+let's say
+first thing
+is like what
+then where
+and how
+let's take an example of
+like you went to a barber shop
+right
+I am considering a mail
+option guys
+pardon me if I am not taking a gender neutral one
+but let's say you went for a
+barber shop
+where you want to cut your hair
+so let's say
+I am saying that
+I want to cut my hair
+no
+so now
+when you enter the barber shop
+you would explain barber
+which hair you want to cut it
+either hair or the beard
+so you have to define it
+do you agree with me
+you have to tell him explain him
+isn't it
+so if I say
+it's like head hair
+now once it is done
+do you guys agree
+like you have to explain him how
+like what style you need it
+or else what if you make a Mahatma Gandhi style
+like hair style
+so you would be amazed right
+after half an hour or one hour
+after your haircut is done
+so you have to explain him
+the kind of style
+like when it goes to style
+you know
+Koli style
+which get trimmed on the side and somewhat
+in old days
+and few years back
+Dhoni's long hairs were famous
+so even few people
+remove their hair completely
+you can say
+you can say Gandhiji
+because I never seen a picture with
+Gandhiji where having
+too much of hair
+and then
+or the you know many styles
+but are you getting my point
+that whenever you are going
+or like
+wherever you want to beautify your hair
+like when you go to barber
+you will tell what
+cut the hair and which hair
+like where head hair
+then you have to tell him the style
+same thing happens in the
+when it comes to CSS
+now
+cutting the hair
+so when I am cutting the hair
+I mean to say that what all properties
+that I am going to deal with
+like using a color or height
+or let's say
+width
+or font
+right so these are the different
+types that you want to do it
+and for which item you want to do it
+this could be the all
+HTML elements
+okay
+and how would you do it
+is that you will define
+for color could be red
+right height could be 200px
+and width could be 150px
+right
+and font could be again
+12px
+so these are the way how you can do it
+but what is the exact syntax
+like how you define a list of CSS
+like first clause
+goes to the where
+now what do I mean by where
+is like you have to select which HTML
+you want to apply multiple things
+once you open the brace
+then you can define
+each property of hair
+or like I mean what and then
+like how let's say you want to
+make it a color
+let's say what
+and how so this is how the
+combination goes like
+is this
+clear guys
+like how does it work
+basically you have to remember
+these things like first you have to select
+an HTML element
+and then you have a list
+of properties in terms of key value pair
+each property will go for
+what type of changes you want to do
+in style like what is
+the category comes in then
+what is the exact value for that one
+these are the list of things
+let's see
+this one
+let's see this one firstly while taking one example
+let me share
+the code base
+so if you see
+I have created a new folder called
+CSS class 3
+and I will build one of the file called
+let's say index.html
+now
+I say HTML.5
+let's just take one example
+guys
+showing it how you can do it
+now if you want to
+style it right
+as I have told you
+one of the way is to you know
+you write it down in the head
+let me open
+this is coming
+fine
+now let's say I open a style block here
+inside the head
+and I say def
+and I say color
+to be red
+so what did I do here
+I have added a one def tag
+then
+I have told like hey I am selecting
+this particular
+this thing like an element HTML element
+once I selected HTML element
+I have chosen it like what I want to deal
+with this one
+once I selected where and then
+this is the what condition this is how
+right
+I hope this basic thing is clear for you
+is any doubt
+still no like
+yeah
+first thing
+what you have to do is like if you want to
+style any particular thing
+you have to select an HTML element
+now we will see there are too many
+ways of selecting an HTML element
+what I have did is here I have used an element
+selector I have selected this particular
+def and I set it like this def
+I mean to say that
+where I have to do it like I am selecting
+this image this means that I have to
+paint something or do something to this particular
+element once I have
+done that then I can customize
+it using different properties that
+I want to do ok
+let's say I say that font size
+let's say
+larger when I do this
+so you can see the size is increasing or else
+you can use the pixels which are 50px
+ok
+what if there are two diffs something will
+come to that I will come to the many selectors
+ok but this is just
+one file where I am explaining this
+ok like how do
+you do it just introduction to
+CSS now
+there are too many things
+like 3 particular
+ways of selecting like how you can do
+you know add styles
+ways of adding
+CSS
+let's say I
+create a file inside
+this again index.html
+let's rename
+this one
+once you have this
+no
+let's close this
+let's open this one
+open show preview
+let's say ways of
+adding CSS
+ok generally
+you can add CSS like
+to one particular HTML document
+in three ways ok we will discuss
+about the first thing first way
+let's say I have a paragraph
+and I have let's say lorem20
+and I generated a
+paragraph of 20 size and if I
+want to apply a style
+I can do it this way
+where I can say color blue
+or blue violet let's say this one
+ok this type of
+style whenever you are doing it inside
+element itself here
+you need not to select element because
+the element is already selected
+we are writing it directly there what type of properties
+you want to add that
+whenever you are doing this type of
+styling it is generally called as
+inline style
+is this point clear guys what is
+inline style and one way of writing
+styles to an HTML element
+now then there is a
+second way what you can do is that
+let's say you have another p tag
+let's say s lorem
+20
+5
+ok now
+let's say I have a style
+inside this if I do p and
+this way and I say color
+and I say brown
+now if you see
+this is
+now what I did is like I went
+I created a style block inside
+the head tag that's where you have to
+create a style block inside
+this style element I have added
+one p like I have selected p selector
+I mean generally
+it is called as element selector we will come back to
+those each type of selectors
+but I selected p and then I have added
+a color called as brown
+ok so
+this type of whenever you
+write down this like inside a style block right
+then it is generally called as
+internal css
+ok guys
+what is internal css what is inline
+css whenever you add
+onto that element directly
+that is called as inline css
+whenever you add inside a style block
+but in the same file
+ok you are defining all the styles then it is called
+as internal css
+is this clear guys
+no reactions
+why don't we mention
+which p need to be selected in red
+how it is represented
+so I shall come to that now
+if you see it here one question I would
+generally you know
+one should come to your mind
+is like hey I have defined
+p colored brown
+now both tags are
+p but this color
+is still blue violet
+and this color is still
+in brown color
+right like both
+should be brown or like one
+like both should be brown right that's what
+we are expecting or like which is getting
+priority or how it is getting handled
+so remember one thing
+whenever you have multiple
+types of css are defined right
+most you know css
+is executed or any html file
+is executed from top to bottom
+now whenever you are executing from top to bottom
+let's say your style block is defined
+here head will be passed
+anyways first now once it is being
+passed you have told that hey p selected
+to be brown now once you
+selected p equal to brown but
+when you come down and you are passing this one
+you have defined again style
+color to be blue violet
+that overridden it now let's say if
+I you are overriding
+color but what if you have a font size
+and let's say I have till 15
+pixel now if you see
+the font size is affecting both the things
+font size is affecting both the things now but
+again if I override it here let's say
+I override here saying font size
+20 pixel
+you see this
+it is so what I mean
+to explain here is that
+css or html is being passed
+from top to bottom now whatever
+you have defined here doesn't
+matter if you are writing inline
+style that will get a priority
+yeah you can say weightage of inline
+overrides always but
+you have to understand
+this so that how it is actually why is happening
+behind the scenes when you are coming from top
+to bottom it is executed top to bottom
+and this is the last line
+to get executed and when you are defining
+here directly it is supposed to
+attach those styles
+is that clear guys?
+okay
+I hope like inline and internal
+are clear now
+then there is another way where you can have
+your own style sheets like
+let's say I say that style.
+css file I have created a
+news file now
+I have to link this file now
+these two files are you know separate
+but I have to tell that hey I want to link
+this particular
+let's
+focus on this guys then I will take the questions
+okay now
+let's say I have the style
+file separately now
+I have to link those particular
+style.css file with this index.html
+file anyone knows like how we can
+do that
+no so let's
+say you have one tag
+again here link tag
+okay
+not in the style but I have to write
+above style let's say
+link
+okay once you have link
+tag right
+okay inside link
+tag you can always you know
+you can give href whenever we are saying
+href we mean to say that
+location of the file
+location of the url so I am saying
+that I have to go into the same folder
+and then select the style.css file
+once I select that then
+I have to write the other attribute
+is like type or
+like relation now
+what is the relation to this
+how that css file is related to
+this html file
+we say that as a style sheet
+now
+let's say once now we
+have defined let's say I have another
+p tag where
+I have let's say
+50
+I have a bigger paragraph
+now the brown color is
+being applied now let's say if I
+go in here and I
+say that color should
+be tomato
+what would be
+your guess guys
+I didn't save it yet but
+do you think tomato color should be applied
+to any of these paragraphs
+right one says yes
+two people says yes
+why do you think charm
+or hariprasad
+it will be all
+on all three ok dhanraj says all three
+ok let's see
+now I will save this
+if you see I applied tomato
+do you see anywhere that tomato is
+being applied
+no right now let's do one thing
+what if I comment this line
+let's say what if I comment this line
+let's say comment this line
+do you see that now tomato is being applied
+so what's happening as I just told you right now
+that you know all the things
+that whatever you write it
+is being passed from top to bottom
+I have defined a link stylesheet here
+so it will download it here
+then it will see that hey
+paragraph tag color says you know
+p tag color says tomato
+then fine again a style tag is
+defined here p tag says that brown in
+color so the tomato is left
+behind because new
+color has been given now
+when you go to the here now the color
+is overwritten but till for this
+two paragraph tags the color is not yet
+overwritten
+is this clear why tomato
+is not coming guys
+this is happening in the
+hierarchy from top to bottom
+now let's say what if I pull this link
+and I put it
+here down
+what do you think
+it applied that style
+now is this point
+clear when I pull it up from top
+and putting bottom now the orange is
+being applied is this reasoning
+clear enough to you all guys
+right so CSS generally
+passed from top to bottom
+now and by and
+the second point that we learned is like
+what are the different types of adding
+CSS like this is called
+something called as external CSS
+okay so generally
+you have three types of ways of writing
+a CSS one is internal one is
+external and one is
+inline CSS
+okay so
+always you can believe that preference
+will be inline
+but whenever you have definition
+I don't want to say that
+hey remember two things just remember this way
+that execution happens from top to
+bottom and whenever
+however you have defined whatever comes
+at the last that will be attached because
+that is overriding that particular property
+to this particular HTML element
+is this clear guys like
+how we are able to apply
+we are selecting a particular element
+we are grouping multiple properties
+to it and attaching it
+so I hope this three things
+how we are making it
+like you know work you got it
+but let's say
+okay this is fine now we will go
+to types of selectors
+if you see here
+what did I do is like each and every time
+like
+what I did is like I have always selected
+p tag right always selected
+p tag and I have applied
+it this way do you think that this
+would be suffice in the
+world like real time world like only
+selecting directly HTML elements
+and applying CSS you would be able
+to handle all the complexities
+that exist in the world this is
+isn't it and this is not enough right
+or like you have you can have multiple
+divs inside div
+and you can have ten layers of div
+acting as a section right
+so for dealing with all those cases
+right different cases
+we have many different types of
+you know the selectors
+we will discuss one by one
+like selectors using
+I have built one of the you know
+best way to teachers like
+using a question and answer type
+format so let's say
+we will take questions
+like format like one by one questions and then we will
+understand okay let's say
+I create a folder called selectors
+and I create one I say
+q1 question one dot html
+okay we have this
+question one dot html
+let me copy the question guys
+so
+show
+so if you see this one guys
+like
+what's being done here
+so there are multiple h1
+tags which says I am paragraph
+help me to become h1
+okay h1 dot
+now what the
+question is add CSS
+styles to the all h1 tags making
+it blue okay
+any suggestions guys how we can
+do this
+make all the
+h1 tags
+like blue in color
+we have just seen now I hope
+like everyone can write down
+inline style
+I think I have received
+good enough answers
+so few questions also
+so what while teaching
+it right while teaching it I will use
+this you know internal CSS
+to write it down since it would be
+difficult for me to switch the files I will write down
+all in the style block itself okay
+so here so first thing I have
+since if you see the question I
+have to make all the h1s
+to the blue so I have to
+select only first like h1 tag
+so when I am selecting h1
+then I am opening the brace now I have to say
+that color equal to blue
+as many of I have already
+suggested okay now
+what type of selector is
+this what type of
+selector is this
+anyone any idea what type
+of selector what we call this type of
+selectors or
+what is a h1
+no
+no I am not talking about internal
+CSS or external CSS
+I agree with you this is an
+internal CSS but when I am
+going to select h1
+yeah some
+people think tag selector
+something element selector so guys
+we call this as element selector
+okay
+so whenever
+you are directly selecting this
+whenever you are selecting directly
+like using this HTML
+elements like whatever you are
+picking that item and applying styles
+to it directly that is what we
+call as element selector is this clear
+element selector you will remember right
+everyone
+so we will move to the question
+two ways let's say
+let me pick the question two
+yeah
+q2.html
+let me copy this
+so I will give you some chance
+you know to read this question first
+then I will open the preview
+so that you know everyone can see it
+so what this
+you know question is talking about
+select the obvious p tags
+and make class one
+as blue
+and class two as red
+okay
+class is used to share common list of
+cells for different elements that's okay
+that's a quote that I might have written
+earlier but
+what we are trying to say is that
+hey you have now
+all the p tags right
+do you guys agree you have all the p tags
+now as
+we have solved this last problem
+if we go and select
+the p tag and make it color blue
+or you know red
+this question might not be
+wouldn't be solved right because it would be affecting
+these randoms also
+right
+so we have to
+individually select
+individually select them
+and make it red and blue
+okay now when we want to
+solve this particular type of things
+right
+we tend to use all
+attributes that are available
+okay now what was
+the attribute available for us
+which type of attribute is
+available for us to deal with this
+class right
+so now
+if you want to add a style
+to any class right
+now if you see I have a class one and
+class two as an E
+firstly I have to select let's say
+class one element what I will do is that
+I use a dot operator
+I say that hey
+class one so whenever
+we are using we are defining
+a CSS for a class type of
+attribute we use a dot operator
+okay remember that thing
+now it is asking me
+make me blue so I will select
+that color and blue
+okay now if you see
+only class one got
+this particular thing got affected nothing else
+got affected similarly I will
+go and do this class two
+and I will make it red
+is this clear guys
+how class can be utilized
+and how element selector can be
+utilized if you let's say
+if I want to attach a common
+like you know let's say I want to make all
+the tags
+that are present
+like fonts as equal to 16
+how can how can I make
+it
+how can I make it if I want to make all
+the fonts that are present here in the page
+equal to 16 pixels
+I will come to pixel
+whatever whenever I am using
+PX I will come to that
+but now Upendra and
+Chandni are suggesting let's go select
+the P tag and make font size
+equal to 16 pixels
+because we want to apply
+for the everything
+when we are applying for everything by
+default we can select all the P tags
+right
+32
+is this clear guys
+apply to body
+so one says apply to the body
+but what would be the right way
+of doing it was to apply
+to the P tag directly right
+you can apply to the body also but
+I don't want to do that let's say
+18 pixels
+so I hope when to use element
+selector when to use class selector is
+clear now going with the
+next question
+give me a second guys I will pick it up
+okay
+I have
+Q3
+question 3.
+HTML
+again closing this
+let's keep this open
+okay
+so now earlier
+someone had asked me question like
+whether a style block should be
+only present inside head tag
+right or what if I can
+add somewhere else you can surely
+add anywhere else but I would suggest
+you know to add it inside the head
+tag that's I'm just showing for you
+guys like you can add it bottom also
+okay but
+you should follow best practices
+go and add it in the head tag actually
+generally you don't write
+mostly you know
+internal CSS or inline CSS
+as you go for the frameworks
+always will be something will be preferred
+as external CSS okay
+now so coming back to the question
+guys here
+if you see here
+what's happening here
+so they are saying that select
+S2 with the ID
+the one and make it blue
+so they are saying what they are saying is that
+only this thing okay
+what is our like select me
+they are asking us to select only
+that particular HTML element
+and make it blue
+any ideas like if you know the
+answer you know write it down to me
+personally like don't write
+it down in the comment chat
+but any guesses guys do you think here
+I can apply element selector
+or the class selector
+if I apply element
+selector it will apply all the random
+and select me if I apply
+class selector then
+if you see here all
+this randoms also will be selected right
+because this is also S2 class
+right so when
+you have this thing right now
+what whenever you have this type of problem
+right all the attacks are same type of elements
+all the classes are also having
+like common classes
+then you should go and see that hey
+which attribute I can use
+do you see there is a one unique attribute
+for select me
+ID right as Muneshwara
+suggested
+so what we will do is like
+we will go and select ID
+now if you want to select an ID
+type of attribute right you have
+to use hash key
+and you should write the one
+ok
+let's say I have to
+make it blue so I will
+make it as blue
+and we will open this in preview
+ok now
+do you guys understand this how to add
+ID whenever you
+use ID selector you have to use
+hash key ok
+currently the things we have discussed
+this we write element
+selector ID selector and class
+selector these are really common and you will
+be using it across now
+so whoever asked me like whether I can use
+style block below let's say I go
+and put it below the body
+still it works because it's still
+passing the one means
+like if you see the ID
+whichever the ID is
+the value
+of it
+ok now but following
+the standard guys I will go
+and put it in the head itself style is supposed
+to be there ok
+yeah ok
+to clear the supendra's doubt
+so let's say I have style
+here guys now
+let's say this is an
+internal CSS right what
+if I go and write down
+style here and I make
+color equal to blue
+or color equal to red
+which color should
+apply blue or red
+ok how many people are suggesting red
+give me thumbs up for the red and thumbs
+down for the blue
+so all the people are going with
+red ok let's say I will make it
+red
+ok spelling mistake
+ok
+no so what happened here
+ok so for this thing
+how this is getting executed
+is like
+so whose question was this
+I just want to open
+now why this happened right
+though we told that
+hey from top to bottom
+whatever style should define
+it should override it now the
+style block is defined at the bottom
+and the blue is not overriding it
+that would be basic question right
+that's a confusing statement again
+but behind the scenes what's happening is
+like when your DOM is created
+I will come back to it but like when we talk
+about DOM like how DOM tree is
+created from that perspective
+this things right
+this style block
+it last right whenever you are creating
+this type of structure let's say
+I will go and
+show it to you guys
+ok
+now if you see
+how tree you know DOM
+tree is formed is first we know that
+there is an HTML element it has
+two things head and body
+ok
+then head
+might have some meta attacks
+right style links
+then this have
+multiple piece
+right
+now similarly
+when you are building a DOM
+DOM is generally
+built for you know this one
+what we say
+HTML element but there is something called
+Syscom
+ok
+Syscom is applied to
+you know define which CSS should apply
+now this tree
+generally when it is applying right
+firstly it will go through
+like external
+any if there are any
+internal right it will try to read it
+now there is a
+clarity firstly who is winning
+between them is decided
+now after that whenever you are
+building a tree right let's say whenever
+you are applying let's say body
+is there here now
+all the
+P tags are here let's say
+in external
+file you have defined color as
+red and in internal you
+made it blue considering
+link is added
+above style
+in internal
+ok so first
+it is red then overridden with blue
+now let's say for this one you have
+added inline
+ok now firstly
+all these things are resolved but when
+you are building a tree right actually
+it will say that hey I am building a
+P tag I will check what are the colors
+anything is there that I have to apply
+it says that blue ok
+applied here also blue applied
+here also blue here let's say
+for inline you made it here
+again red let's say so red will be
+updated so this is how it happens
+like structure it like
+inline will be preferred at max
+like there is also
+one of the other rules that we will see
+like what like there is one
+something that specificity
+we will see in the future classes
+when it comes to it what are the rules
+like which style will be applied
+ok for that reason
+what I usually say right
+you know if you don't want to confuse
+yourself right always
+add the style block on to the top
+of it don't focus
+don't confuse yourself keep it clarity
+because you are the developer there wouldn't
+be anyone asking you to add
+style below or why didn't you add up
+so following coding standards there
+will be a clarity to you it's not like
+multiple ways of doing it
+what is the right way of doing it
+is that fine guys
+I will explain again how html
+and syscom like
+dom and syscom is there then
+how a
+aom is built actually
+which is like exactly a copy of a browser
+web screenshot of website
+we will see in the future classes
+I will pick it up I will also share you a document
+which you can refer to and understand
+how actually all these things like
+once we understand javascript
+html and sys how these three
+are combined and how they work all together
+okay now
+going back to next
+question guys
+q4
+dot html
+let's say this one
+now if you see this
+question here
+yeah inline will override always something
+but understand behind
+the reasons why it would be that no one
+like rules happen built
+simply generically
+you should understand how behind the scenes
+are happening we will see that in the
+future classes okay
+now but coming back to this
+question guys if you see here there's a
+form element it says you know
+input button type button
+it says click me and select me
+now
+so what it is saying
+and select the input element with the
+value select me and make it
+make its background color blue
+okay
+so do you see anything that you can
+apply by the knowledge you have till now
+do you think that
+element selector would work
+or you know any selector
+that's there here do you see any
+class or id
+no right even the type is like
+buttons are same
+so always always
+look at it this way like always look at
+it this way whenever you are not sure
+of doing anything look at like
+attributes do you
+say one attribute is differing here
+value right
+yeah so they just suggest
+that attribute selector now we'll see what
+is like attribute selector is like how do
+you handle that attributes because
+each type of selector whenever you are writing
+there's a different definition of
+writing it right like how you define them
+now let's say this is an attribute
+selector
+okay
+now how do you use it attribute selector
+now what type of
+element is this guys that we want to
+select
+what type of element is this
+HTML element
+input right first you
+write down input then you
+write down like value
+okay
+so first select the HTML element
+in bracket you define the
+attribute that you want to select
+select me
+once you do this
+then open the brace and let's say
+background color
+to the blue
+now let's open the
+preview
+do you see this
+background color blue is added
+so this is how you write
+down attribute selector like any
+attribute other than class
+id or you know element
+if you have let's say
+generically you can add any number of attributes
+let's say even if you say
+let's say data
+test id this
+doesn't exist though I'm making
+it let's say I say this
+is a one
+and let's say I go in here
+add input
+data
+test id
+let's say I select
+this
+and I say
+this is a one
+background
+color
+to be
+brown
+if you see this you can add anything
+let's say in randomly you have
+something like let's say you want to select it uniquely
+but you don't have anything common
+so you can select any
+attribute that you have and attributes
+can be anything any number of attributes you can
+define for one html element
+there are few defined by html
+few you can define anything now I use
+like this some random is this clear guys
+attribute selector clear
+so I hope all the four type
+of selectors are clear till now element
+id class and
+attribute selector and now next
+will go to some you know
+bit of
+combinatorics like this are simple one
+let's say I go for
+q5
+dot html
+let's say
+I copy this
+and
+let's
+close this
+let's open now
+if you see here what this is talking
+about so it is talking about
+write css selector to select the obvious
+list of items to make it blue
+so
+what it is saying that select
+me whatever select means there right li
+tags li tags inside
+this diff ol and li
+so it is asking us to
+select them and make it blue
+now till now I told that
+hey if you have an element
+do it if you have an attribute
+pick that one but here we don't have
+ability
+to pick it element selector because
+if I pick li tag directly
+this will be also converted
+into blue right and we don't have
+any attributes also to make it
+blue so
+do you see any possibility that
+we can use our current knowledge
+in selectors and solve this question
+use diff
+so okay
+I make a diff
+and let's say I will also
+have a diff here
+to make it further difficult
+I will have a diff here
+let's say okay
+diff also works fine let's say
+I have a diff then also it will solve that
+so how many of you guys agree that
+selection of diff will solve the problem
+okay now
+let's say
+I go to style block
+I open diff
+and let's say color
+equal to blue
+okay
+so it is making all blue
+but is there any
+other way that you want to do let's say
+you also have
+ol tag
+there is an extra ol tag here
+let's say this is something present
+now so
+as I made this complicated
+now think of this way
+like if I have
+let's say this is a ul tag here
+specifically
+okay
+on order at least
+think of it like if you want to select only
+select me here
+now I am having
+both the things have made it
+to blue
+I have to make it only one
+like select me only
+so Teja says
+diff ol
+okay
+so
+guys I want to introduce here
+a new type of selector what we call it
+like this is
+a combination
+okay
+you have to use combinations
+of
+different selectors from
+now on
+since only one
+like directly if I select
+diff I am not able to solve
+because earlier using diff
+you were able to solve but I made
+complicated now like using a diff
+you might not be able to select this one
+right using
+li you won't be able to select it
+now whenever you are not able to select it
+and attributes are not helpful
+you should go for the combinations you have to search
+firstly directly element
+then attributes if attributes are
+not supportive then go for combination
+okay now writing
+a combination there is one type
+of combination that you can use is
+called as descendant selector
+okay descendant
+selector now let's see google
+descendant
+this
+I have to
+okay
+so what it is telling guys
+if you can see this
+can anyone I hope you are reading
+this one originating or coming
+from a ancestor stalker source
+right whenever you say that
+have anyone have seen
+any code notices or anything
+like they write you know descendants of
+this person
+like whenever you have something ancestor
+property coming to your name
+so you are considered your descendants of
+your four grandfathers
+right
+so whenever you are saying
+that descendant selector you mean to say
+that like defining
+what is parent and direct child
+like let's say now what do I exactly mean by
+is that that now if you see
+I have div tag
+I will select for surely because this is something
+like a grandfather let's say I have
+selected div now
+after that what I can
+do is like I can directly say
+li tag
+div
+li color
+blue
+okay now if you see
+when I am selecting li
+I am making it blue both but
+if I want to make it you know different
+I have to select ol
+okay as already
+Teja has suggested
+but how do we define
+this this is like a descendant
+now whenever you select one parent
+let's say I can always
+I can also do this
+using let's say
+you can like you can use it
+anyways like from body also you can start
+it like descendant goes from
+top parent like this is a
+parent element and these are the children
+element okay similarly
+this is the grandfather you can say
+parent and then child so multi
+levels so what we are doing
+is like from descendant so you are getting from
+ancestral you know tag
+html element you are talking about
+like what is a wrapper first wrapper
+you are starting from there then you are
+selecting here div inside div select
+the ol
+is this clear guys descendant selector
+how this works so
+here we have combined
+what if we have to color only
+select okay what if we have to color
+only select right now
+I will show you this
+but some bit I will come
+back to this one let's say there is an nth
+child I will select one
+give me a second then I have to
+go to li
+okay if you
+see this what did I make I have
+chosen grand parent
+parent child
+inside that if I have multiple
+childs I have selected
+first child out of it
+this is okay some bit I will remove it as
+of now I have just answered your question
+just let's focus
+on descendant selector okay
+because this notes will be referred again
+for your sake
+so I hope this question is cleared
+but coming back to
+next question guys
+now let's say there is another
+type of combination you can
+use
+let's say I use q6
+dot html
+okay I am again closing this
+please read through so what I am saying
+is that select I am
+direction and make it blue
+guys we have just now
+learned descendant selector
+think of it we have learned
+actually too many selectors now
+think of it like if you can apply any one
+of them
+if you can apply any one of them like
+you have element selector
+you have id selector
+you have attribute selector
+you have class selector
+we started with
+combinations we went and
+thought of like descendant selector
+if you go from descendant
+you start from top level
+even you go from body
+or you go from div
+think of it like
+someone says div h1
+span
+okay
+let's see this
+what I will do is
+div h1
+span
+color blue
+now I will open
+show preview
+so here there is something happening guys
+do you think our question is solved
+no right
+so combinations
+can be used here but
+there is a different type of combinations
+here we have to use
+we can add a class
+and we can solve some with anyways
+right but here we have to use
+a combination so
+one of the other type of combination
+that we can discuss is something called
+as children selector
+okay
+so children is something we say
+that who is next
+to our life like let's say if I
+if I have a future my
+babies I will say that they are my children
+right but my grandfather cannot say
+that they are my children he will say that they are my
+granddaughters and grandsons right
+do you
+agree with this frame first like
+in future if you have babies
+they will say that they are your children but grandfather
+will say that grandchildren so whenever
+we are saying that children selector right
+you have to be specific
+so whenever we are going through that
+hierarchy series so when
+we see that this is our dev tag
+then h1 tag and span
+so div will say hey
+if you see here inside div
+if I want to select this specifically
+this one right inside this
+this child is h1 so I will say that hey
+for selecting child I will use this
+greater than symbol
+whenever I use greater than symbol I mean
+to say that hey dev child
+h1 h1 child
+span
+do you see this
+how it is working
+so when I am saying that whenever you are using
+children selector you have
+to define a complete relationship
+till that element
+till the element you reach it
+like you have to reach you want to reach this element
+what if you want to reach
+this element what if you want to reach
+this element like you can say
+dev
+span
+and let's say color red
+okay
+so I am saying that whatever inside
+this wrapper anything is there
+make it red or else if you want to
+specifically go and touch this span
+right you have to keep on writing
+the children selector h1
+then again span
+is this clear
+like how you can use
+children selector how you can write down
+this series so children
+goes for like each level
+like if I write
+down like statement I have
+written one statement if you want to remember
+this try to remember it this way
+you have to reach
+that particular html
+if you want to remember this way
+don't stop it in mid layer you can
+always do div greater than h1
+and that will apply color blue
+but you know one thing
+I would want to say that whenever using
+combinations right even when you are in projects
+go till that target element
+and only then
+apply the css
+so that it doesn't affect in the future
+okay so I hope
+guys all the six questions are clear
+to you like the different types of selectors
+we introduced till now
+I think I have one more
+I question I guess
+let me search for it
+let's say I have
+one interesting question
+this is just a confusion
+confusing question just want to
+see like
+how we can solve this
+okay
+now if you see it here
+so what it is talking about is select the element
+with the multiple classes m1 and m2
+make them blue
+okay they are talking about
+like select me
+like they are asking us to make this blue
+not me or not me
+this one m1 m2
+if I
+do m1
+and make it blue
+this will make both this blue
+okay if I make m2
+and make it blue this will make both
+blue
+okay this is also one of the
+combination type of combination
+only but this is on a class
+you know class
+selector
+firstly we know right how we can write a class
+selector
+okay
+I have received one answer
+but
+right we remember class selector right
+what if I can if I want to
+go to specific item right if I want to
+point at one specific item
+can I consider
+this class name as m1 m2
+itself
+you know those both class
+are there I just go have to
+get that name right specific element
+I am targeting so I will do that
+same thing whenever there is a class selector I will say that
+dot m1
+and dot m2
+and let's say
+color blue
+let's see if this is applying
+okay it didn't happen
+give me a second
+yeah so there shouldn't be space
+whenever you are writing continuous elements
+okay only for descendant happen
+since this is a name right
+we are using add a name and
+classes generally use you
+use dot operator okay
+I hope this is clear guys
+how can you access this multiple classes
+just go by name
+okay
+so
+is this clear guys like
+I hope everyone
+is having a good understanding on this
+okay nice
+isn't it m1 and m2
+a single class
+yeah somewhere that is what I was talking about
+m1 and m2
+consider this as a
+single class and
+this one as a different classes
+so
+m1 m2
+okay let's say this
+way it wouldn't work whenever
+whatever you are defining inside
+a class right you use
+you need to use a dot operator
+even let's say I have
+id here
+let's say this is
+m1 id cannot be
+having a multiple things firstly id should be unique
+classes can be common
+that's how it works
+okay why dot in between
+then hey guys
+this is one class name
+this is another class name I am using this
+combination
+I am specifically
+pointing this on these are two whenever
+you want to apply multiple classes let's say
+this is m3 and you have
+m4 multiple classes if you have
+let's say one m3 class
+dot m3 class is having some other properties
+also font size
+right let's say 20 pixel
+so you want to apply
+them right you cannot
+yeah so
+you have to use dots for each type of
+class name because there is a space
+space is given only when you have to add multiple
+classes to one particular html
+element you can have
+n number of classes attached
+to one class okay it's a
+like it takes multiple things
+okay so
+nice so going back
+removing this too
+okay then there is another question
+guys let's say
+I think I have
+solve this solve this
+this is something
+again a combination
+think of this like how would you solve this
+q8
+q8.html
+typo mistake okay
+did I make anything here
+okay
+fine close this
+now coming
+back to this one I'm
+pasting this question guys please go through it
+so here
+what it is saying is to select
+direct sun and make it blue
+so the
+direct sun right and the direct sun is present
+inside the dev track
+first children which is p
+here it is present here this way
+now think of it how would you
+deal with this one
+there are many ways of writing this one
+so think of this one
+you can apply
+to c2
+one way I agree
+open draw
+one way is directly selecting
+c2 and the
+other suggestion Ashish has
+given
+you are targeting wrong element
+I believe right if you see dev span and
+p it says that I am in direction
+but we want to target
+under direction
+now okay
+shambhure says
+dev children selector p
+right okay cool
+okay
+now so there are many ways
+of doing it so I'll write down all possible
+things one was .c2
+okay and making it color
+blue okay
+so this is like when you have enough knowledge
+right you will be able to see there are many things
+that you can do one is c2 directly
+then the other suggestion that I got
+was use children selector
+dev and then p
+then go for color blue
+right this is also one
+way now the third way
+that I was thinking about is like
+combination of let's say I use
+.c1
+and
+let's say combination of this one
+p
+right what I did
+what I did is like I have combined two
+elements like using children selector
+the c1 class and p
+right so
+three ways of solving this problem
+is this clear guys like
+you can directly select that element
+or you can go from parent to child using
+element selector what did I
+combine here I have combined
+element selector and class selector
+and I have used a combinator
+using children selectors
+okay now
+good good guys
+I think you are able to understand this one
+better now
+one thing I have
+is I think I have completed exhausted all
+the things that I want to cover
+give me a second
+eight okay one question
+I have guys I will give it as a homework
+you have selected
+like let's say q9
+q9.html
+okay
+I will give it as homework I don't need
+anyone answering it so that
+you can answer it whenever
+you have time
+or I will ask in the
+next class like I will push this anyways in
+the get up okay think of
+this one okay if you
+see here what was this
+select the element with select me and make it
+simple so these are the
+two things p tag and
+div tag okay
+I have wantedly made
+some cumbersome this one
+there are c1 c2
+applying it multiple places so you
+cannot use
+actually I shouldn't talk about
+you will get any all the hints that
+you can think of you can eliminate the processes
+and you can think of it I will push
+this code okay now
+coming back to
+one of the things guys
+you know these are the list of selectors that we
+have seen but if you
+remember one person someone
+have questioned me
+in one question like I have written
+somewhere nth child right nth child
+which question I have written I
+don't remember okay
+yeah please try it some bit I will also
+what we will say what we will do is we will start a doubt
+session after this sorry
+doubt session I meant to say break I will
+keep that open tab okay you can
+think of it okay
+but I was wanted to use something
+okay no
+where is button
+give me a second guys I am trying
+to find okay coming back to this question
+let's open this in the
+preview now
+guys have you observed many times that
+you know yeah I will push the code
+but have you observed this thing many times that
+whenever you go and write
+hover over something
+the button comes up or there's some
+style changes are happening
+or images coming up right whenever you
+go move your cursor on it
+right like
+all those things are happening do you
+do you know how we haven't seen
+that thing right how we handle such behaviors
+now that
+that sort of things are called as pseudo
+selectors okay now
+we have covered simple selectors but
+that comes under the pseudo selector I will
+I will show you one of the examples how we
+can do it just let's say I
+want to make this button
+background color change
+yeah so let's say input
+data test ID
+to insert I will make it one
+again okay
+now
+what I can do
+is like all the behaviors right there are
+too many behaviors to be specific
+you can explore it
+what you can do is like if you want to add any
+pseudo selectors you can use double
+dots once you have double dots
+you can go below right
+you will have something called hover
+okay if you
+see this hover so what it
+means is that whenever you hover over
+this button or like select me button
+I will change something let's
+say what I will make is like you know
+add a border
+I will come to the border properties guys everything
+we will discuss is discuss this
+but let's say I make one pixel
+solid tomato
+okay
+what do I mean is that now if you see
+this here the behavior if I
+go and hover over click me nothing is
+much happening because this is by default
+we are getting this what
+is of data test ID I have made
+it just a random attribute to show
+that you can add multiple attributes
+into any
+HTML random
+okay so
+now let's see if I go over select
+hover me right if you see this
+there is something orange is added
+let me make 10 pixel
+to show it if you see
+this orange is coming up by
+whenever I hover over it
+so this side of this
+things right you have to explore
+further like what are properties can be
+as of now this class
+covers like how can you
+select one particular element in multiple
+ways and how can you reach that
+so that you can add multiple behaviors
+to it okay
+we will see in future classes how we can deal
+with hover or other things upcoming
+clear guys
+and also what I did
+is like
+what did I do it is that
+if you go in the links right
+show preview
+right so I have added here
+CSS selectors this link I will
+push the code you can refer to this
+you know and you can explore
+all the things because this will need
+reading time I try to make
+a questionnaire such that you know we can cover
+all the type of questions and understand and
+one can go through it anytime
+but if you want to read a documentation
+docs by specific you can use
+CSS selector hyperlink you can
+go to it okay
+now coming back to this one
+I just want to summarize what we
+have discussed in terms of selectors
+right we have
+we have discussed different types
+of selectors can anyone help
+me out naming what type of
+things we have covered till now
+right anyone
+we covered something called
+element
+class
+ID
+attribute
+then we went for
+descended
+then we went for children
+right these are the
+things that we have used right
+when you go for class
+you have to use dot operator and
+class name you go for ID you have
+to use hash key and when you go for
+attribute you have to give element
+name
+and in array bracket
+you have to define attribute value
+go for descend descendant
+any level you
+can define the parent like dev
+and li it will work
+for descendant when it comes to
+children you have to define the exact
+hierarchy of elements reaching
+the target value when you go for
+element you can directly select any
+element that you have and make
+you know add styles to it
+okay I hope this this all selectors
+are clear to you so if this
+thing is clear we'll
+go for the five minutes break guys
+I'll see there's a one question for
+me that was
+we want to add a transition speed and
+all and hover should we add
+some ways I'll cover that in doubt session
+that's a big thing like I'll
+since it's an introduction I will discuss
+that okay
+cool so
+do you want me to take a break
+or do you want me to continue guys
+you need a break or you want me to please
+push the code before break so we need
+sure sure I'll push the code
+five minutes
+continue so people are
+like let me know if you want
+me to continue please give me thumbs up
+if you need a break give me thumbs down
+if you allow me to continue we'll
+close the class certainly
+okay
+git add dot
+git commit
+minus nm
+selectors
+git push
+I'll give you the
+link
+give me a second
+so guys
+I forgot the
+poll that I asked like whether to continue
+thumbs up was for continue
+or break
+what we are supposed to do when we go for
+thumbs down we have to continue is it
+I was trying to
+commit the code push the code
+thumbs down for the break okay
+let's get the five minutes
+break guys and we'll come back
+you please go through the code that
+have pushed any doubts you have anything
+please let me know okay
+and
+meanwhile also
+check this link you know that link
+that I have give you on links dot md
+you can go and let's say
+I open that here itself
+okay
+which link I was talking about
+go to self study
+open this md file
+okay you click this one
+this will redirect you to
+you know web dev web dev is
+best for understanding HTML
+CSS according to me at least
+it gives you clear you know
+idea so go through this
+explore things also
+like you have pseudo classes and
+pseudo elements how you can deal with them
+so one of the thing that I have already showed you is
+nth child like you can how you can deal
+with it and hover thing
+but there are many other properties
+that you have to read and understand
+because everything cannot be done it
+in projects when we are building I will show
+multiple use cases of them
+okay
+sure
+I hope you go and check
+all the things that I have shared
+okay
+please take break guys
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+back
+reactions any
+reactions guys
+so
+if you
+stay in the call like
+We can end the class really like not stretching it that much because the content that I want to discuss now
+Or two topics are left. Okay?
+Because selectors was big one because I had too many questions to cover
+Let me just say like compare, you know recheck it if I have covered everything Oh
+Oh
+All right, I've covered this one this one done this one done
+cool
+So any answers guys that went nine questions anyone had thought of it or?
+Like anything any combinations that you want to use on this
+Oh
+This actually this question can be solved if you have understood those first eight questions anyone tried it
+Guys did anyone try
+Okay, no worries, let's let's move ahead let's move it guys no
+So now if we have to discuss something called us
+Colors, okay colors in CSS
+Say I have an index dot HTML file
+HTML5 now, let's say I have something like
+A
+Diff tag or P tag again lower M
+20
+Now if I open the show preview
+Now let's say I
+Try to add something called as like let's say color or to this one. I'll use a style block here and
+I'll use element selector
+And let's say I say color to be
+Dodger blue, okay. Now I made this color
+No ways how many colors you would be able to remember or you will be able to type
+Do you think there would be limitation on this
+Like seven max to seven or ten right you remember I hardly even remember eight to nine
+but if you have any time gone to like, you know any paint shop and
+Like if someone has built their home or painted their home, you have to select
+color from your catalog, right
+Have anyone experienced it like selecting a color from a catalog color code?
+You have to you have a color code, right
+Does anyone remember that color code how it was represented?
+How that color code was represented? I?
+Worry like
+Some some people are saying hash code and hex right hex. So
+Do you alright so what happened right that way like?
+Generally in world right if you go for any any places
+The colors like this way right whenever you name colors like Dodger blue even I think Dodger blue or something
+People might not remember it or know it like can I have a Dodger blue shirt t-shirt this I remember because I was having
+That same type of t-shirt. I was searching like how we can get the sky blue or there are different types of blues
+So that was one of the Dodger blue
+But there is a limitation on this type of color. How many does HTML browser support?
+For this we have only 140 colors as a limitation
+But if you want to go ahead, right if you want further more colors like same way as we have a different, you know shades of
+colors like in like when you see it
+Similarly you have if you want to remember multiple like list of things right you go you have like
+Defined it in the hex code format now
+If you go and see let's say I I say that this is a h3. Let's say I make it this h3
+Okay, and let's say I use element selector again. I do h3 and color
+No, there's other way as you as you all suggested that we can use a hash code like hash code
+Again starts with six letters after that
+Okay, there are once you say that hash key there are six things now six things inside this how it goes is like
+Let me write down in the comments
+This is like hash
+red red
+green green
+blue blue
+Okay
+So what we say that first like first two letters stands for our
+Our is go for it now, let's say if I'd elect and this range right this value of range can grow from
+Any number any letter out of this six things can go from range of zero to nine and a to F
+Okay, the combination of this. Let's say I define one sort of combination, which is nine a
+Nine four
+BC
+So this is giving us some hash type of color. Okay
+So this is giving you this sort of inside the blue
+This is giving you some other sort of color and as a developer guys you need not to worry about colors
+This is a UX designer headache
+But we just should need should need to know that how we can different ways we can use to color a particular element
+What are the abilities one is using a direct?
+color name
+The other way one is using a hex code and the hex code is generally starts with a hash and it goes with RGB
+Okay
+multiple treat three different things where first RR goes for red Gigi goes for green and blue and
+This is how it is made even if I go for any Asian paint shop or anywhere, right? They mix
+two to three colors
+And generate a new color because they have a fixed formula that how much quantity which one is treated now when I say nine a
+It starts from zero to nine and a to F zero being very less and you are F being too much height
+Okay. Now if you see
+They say that in nine a the adding a less amount of red in it. They're adding
+and
+And good amount of green in it
+But they had more amount of blue in it when you go for B and C because it is going from zero nine a F
+So BC is more it means that blue color is more
+That's the reason why if you see when I'm over a word it is showing actually inside blue color only you have selected the light
+shit
+You are able to relate this case like how that color change is happening
+Okay
+So this is how hex code is used then there is another one. Okay, then there is another one some people might not
+That is also not enough for them. So what they have designed is they use some other thing. Let's let's say this is again
+h4 tag
+Lorem 50
+Okay, what they have done no sir. Hey, I don't
+It's the same way how this has been represented there is a one extra property you can use it which is called RGB
+Okay
+Generally, it is defined using RGB itself RGB is a function
+We know that we haven't started function, but since you have already completed
+We know DSA you might be knowing a basic definition of a function
+What it is giving me now when I'm defining RGB RGB goes for again red green blue combination itself
+But here you have to define how much percentage you need each value can go up to maximum
+240 the range is again
+0 to 240, okay
+0 to 240
+Now let's say if I select 240 as this one
+Adding too much of red
+Green being completely 0 blue being 0
+Okay, and
+Alpha this is a opacity. I will come to that. Okay, let's make it one if you see this
+Do you see this when I give completely 240 as for the red it is selected last more straight
+If I add let's say somewhat of green, let's say I add 100% of green to it
+Now if you see this as completed to orange
+Because I'm adding green to it. Now, let's say if I add blue to it
+Let's say I add much of blue to it
+Now if you see the color is changing and the fourth parameter
+Which is one what I mean is like opacity how much you want to see clearly if I give it zero
+You cannot see it anything if I give 0.5. This is like light shaded
+0.6 or 0.7
+We can use RGB RGB color like hex code and RGB and simple color
+There are three different types of defining it and this is one one among this now
+if
+Any doubts guys any doubts till now in the whole class that we have discussed
+Because I will show one more thing which is called has a HSL
+This is actually rarely used actually I
+I
+Never have written myself
+Okay, but I'll show it like how does it work if you see it here
+This is like a when you say a photographer who edits right photos like once you have done it they add
+hue saturation and lightness
+so
+Considered this one this both saturation and lightness are working by percentage systems which goes from 0 to 100
+Hue is something which is going from 0 to 360 in circle. Okay, when I say hue you goes for different colors
+Okay, you were something like you can say that the different colors in a circle whenever you are rotating rotating like a clock, right?
+We are pointing to different thing color will keep changing
+Like if I show you if I do this one, right if you see orange yellow
+Green and everything is changing colors will be keep changing. Okay, that's how hue works
+Coming back at the last if you come back at after 360 degrees again to the zero it will be ready itself
+You but when it comes to lightness if you give complete lightness
+100% you won't be able to see anything
+It would be white even if you if you give zero it will become completely darkness like without any light in the night
+How you can say complete dark lightness stands for that thing?
+Okay, and is this clear guys how light lightness and hue works?
+Because I'll apply it but this is you know, better interface to show it
+Okay. Similarly, there's something called saturation. Now, let's say if I go for saturation what is happening if you see here
+This is you know adding a shade to that particular color. You have selected red color
+You have given the lightness but how much light is shade you want to add like
+Different shades of that particular color only the that is used for a saturation you wanted a saturation same thing
+You go for your anything editing your profile any picture right in your mobiles also
+You will able to see these three options like lightness which is brightness and saturation and hue the same thing
+Okay, this is something we get rarely utilized when we are coding it
+But this is a one of the way that you can use to color the no elements. Okay. I'll show you one of the thing
+Let's say
+Again, I'll use a hedge fight ag
+It's a lorem5
+And let's say h5
+Going with the color then let's say HSL I
+Give you as a let's say 0 to
+360 so let's say I give 2 3 3 then saturation is in terms of percentage. Let's say 23%
+Then let's say lightness could be
+34%
+You see I've added something like a black in color. Let's say we make this one as a
+45% if you see this had become a blue, let's say if we change this 335 it will be still that 70
+It will change the color
+Okay, I hope you got the basic idea of like what are the different types of you know
+We have colors like I'm in different types of ways of adding a color to an
+HTML element
+Right. So let's summarize this one guys on the iPad
+Okay when it comes to colors right
+Coloring any HTML element you have four things specifically one is directly color
+But it has a limitation since the colors can exist only from a max of 140
+Okay, when it comes to hex codes
+You have a hex code of defining it. This is mostly used
+At least my workplace of the experience that I have mostly I've used hex codes
+Mostly I've used hex codes to code to add colors to an any
+You know attribute any HTML elements or content, okay?
+Xcode generally after hash you have six letters, which is rrbbgg
+Okay, and this range is going from 0 to 9 and then a to f 0 being less
+F being highest
+Okay, then you had something called RGB
+Function where you can directly define the collect the percentage of RGB now this goes from 0 to
+240 you can give our
+Range from 0 to 240 it need to you need to pass three
+parameters to it
+Sorry arguments to it
+0 to 240
+Similarly you has also HSL is stand for you you is having 0 to
+360 degrees which can you can use color then saturation and
+Let's say
+And
+Lightness
+Both are having 0 to 100% of in terms of percentage
+Okay RGB is still 255
+Give me a second
+RGB is still 255 is it
+Oh
+Just a second 255
+Let me confirm this guys
+Yeah, sorry 255 pardon me guys. Thank you for correcting me
+The rich it goes for 255 inch
+Okay 0 to 255 inch
+Okay
+So guys, I hope this is this might not be much interesting one
+But this is how you add multiple types of colors. I hope this is clear. There's nothing much
+Interesting in it, isn't it?
+No reactions guys, I hope this is clear guys any doubts in this
+Okay, so I have one quiz for you
+Okay, let's say I'll play the quiz
+Okay, I didn't share my okay fine I've corrected this 255 I'll launch the quiz guys
+Yeah, yeah sure
+Can anyone see this see the quiz
+I
+See eight users have participated at least like 70% of them should answer it
+Come on like I
+See
+Fifty more than 50% of them have answered
+So I'll end the quiz guys now if you see the people who have
+Voted 67% or 140. That's right
+I've just written on the iPad and I have also on the screen this one right if you go and see I've told
+Right. There are only 140 like things that you can write it down
+There's a limitation on the class
+That's a reason why we went to X code then RGB X code and RGB both are saying same thing where you are adding a green
+red green and blue combination and
+making
+So this is also our return and reverse
+GP
+Okay
+So that's how colors are working now
+till now let's let's
+Let's move to the next topic as like so on this itself. I want to add one more thing is that
+Have you seen newspapers with like unique fonts like anytime like unique unique fonts
+Like if you see some newspapers are having different styling, right?
+Calligraphy sort of things and some are having different things
+right
+How can you deal with that? Let's say now
+Here we are having color. Now this this is some type of content
+That is there which is like first lorem, which is in the paragraph time
+Now let's say if you want to have different types of it, right?
+Let's say I had go if you want to apply different types of font style font cells
+You have to go for font family first. Then you have to select it. Okay, you have many things which are existing
+Okay, let's say I go and select Times New Roman because this is something everyone have seen it or
+Like whenever you go for Microsoft Word, many people have might have used Times New Roman, right?
+a font family
+Or else let's say you go and apply different types of it. Let's say what all available
+Let's say Helvetica now if you see this this thing has got changed now, but
+There are also limitations on this there are also limitations on this like but now how can you
+Get it like now if you see this there are also limitations on this
+But how can you add it like for colors? We had this limitation. We got something new
+And something new and something new extra options that you can manage with but for fonts, right what happened is like, you know this
+Google has given us one site where
+Like if you go for Google font family site, right they gave you all the list of you know
+different types of fonts that you can select because if you say this is something like a
+Different Mongolian language, right if you go and see this one
+If you want to write in Mongolian, you can use this like how how would you use this?
+I'll show it like but there are too many different
+You know types of fonts that you can write down and you can use it in your
+projects, okay
+Now let's say if you select one thing
+This is something you have seen in the cartoons maybe because that's where that's how you know, the headings used to come in childhood
+Like everyone has a right to fit this particular thing
+But if you see the newspaper one that I was talking about I'm scrolling through trying to find that one a
+Bit of a calligraphy type of font
+Not able to found
+But let's do one thing. Let's use something. Okay, let's use this one. Okay
+So now whenever you want to use a particular font, right you can go to the particular who are providing us
+One way of is getting is like this one Google fonts
+Now let's say I what you can do is like you can click on the plus here on the right side and
+Here you will have a link link shades
+Like if you see I can what I'll do is like I'll copy this link shades. Let's say I go and
+copy in our code base
+Now all the links should be added in meta because body doesn't need to have anything
+Now one of the link that we earlier added is like, you know
+Relation was style sheet now something we are added is like in href. We gave Google fonts link
+And we also given the other Google API's. We are importing them like what we are importing
+We are hitting their URL with family as a tech tool
+Okay, and we defined style sheet
+Relation as style sheet now once we have done this now what we can do is like we can go back and use this particular
+Style that we have done. How would you do that?
+It's also defined here itself, like let's say I copy this font family and
+I
+Go and let's say I update this particular thing second thing which is history
+Now if you see that particular type of font is applied
+Okay. So if you want to build any unique websites, right which are having different fonts and different things of you know, reading
+Ability you can always use Google fonts and download those fonts and use it. Okay, wherever you want to use
+Let's say let's play around with something else. Also, let's let's do
+some
+Let's try to add this Chinese one whether this would work
+Okay, let's remove this. Let's go down and add this
+Click on the plus
+Okay, why am I able to not access this
+Give me a second guys
+I'm getting this now
+Let's say I again copy this all the slings
+We can remove few of the things that we don't need again, which are duplicating it. Let's say I see this
+We need this link
+We need won't we don't need this font Google API's because this is something we have already used it
+removing this one and
+Preconnect also I don't need I just need extra link which is trying to download this particular font
+No, what I'll do is like I'll go and copy this particular
+Okay font family, let's say this family
+And I'll add it to this particular h4
+Okay, now if you see this what happened guys
+Okay, if you see the font here it's something like different you see here notice hands are like showing different thing
+But if you convert into two and again into English, this is how it will look like but here what we applied is like this
+comma sanctuary like how this is like
+Working is like you should understand is that if there is something like content is written this way
+Let's say I copy that content. Also. I copy this content
+Let's say I copy this content it would reflect still that in the same way
+If you see
+It makes that font much readable and much better and way to understand and view like all these fonts
+Okay, that's how Mongolian have they added specific to Mongolian because
+Mongolian, maybe they need that right amount of spaces and way to understand better
+Okay, so you have to use the respective font families and different type of things that you have
+But you know one thing that I want to say is that all this work, right?
+Which one to select which type of color to select is not a
+Friend and developer job or a full stack developers job. This is something
+designers do
+Designers are the people who try to
+Select the color and give it to you. You are just a person like hey where I have to use how to use they already
+Tell told us that we are the developers will you just develop that thing?
+Okay, but I'm just showing it like if you're building something anything personal project how you can access the different types of fonts. Okay
+So
+Any doubts guys with respect to how we can access the fonts or how we can do it
+I'll add this link also Google links
+Fonts, let's say I'm not pinning in the chat because I'm adding all here. Okay
+What if the font is installed in that doesn't work that way
+Open the it like because you are rendering it on a browser, right? If browser supports you can deal with it
+Yeah, it's it's how that HTML parsing is happening if it is supported by that browser browser will be able to understand it
+Because these are the API is that you're downloading that particular font at the runtime
+These are converting the type of format that should be rendered
+Okay
+Because this HTML is entered in browser you have to all think thing in terms of perspective of browser
+Can we upload somewhere
+Use yeah, this is how they have done it right? They uploaded on the cloud and you are using it
+Using a link tank. That's it
+But you cannot do it on a browser because you are not some more person like
+They don't have they have not made that open right that someone can upload it and can be reused it
+So is that you don't define it and you automatically get it
+Okay
+Cool so guess we covered
+Colors now one thing that left is we have to cover background properties
+I'll just go to the background properties and then I'll go to the background properties
+Left is we have to cover background properties
+I'll show you one of the things like one of the topic that how you can deal with a background property
+Of CSS, let's say I create a background. I create a HTML file
+index.html
+so let's say
+HTML5 and
+Background
+Properties
+So this is one of the unique property that for people to face challenge to understand this
+Reason I'll tell you let's say I copy some content for you
+Our diff tag
+Say I have this and I render this
+No
+Let's say
+No, so have any anyone observed right there are many use cases where you see that there's a image behind the scene a content
+on top of it like
+There is an image like behind the scene
+You see that there is something like a river image and there's some messages coming over it
+Like on the channels or the on the pictures whenever you print some greetings or stuff, right?
+So that is where the background comes in like let's see how you can add those images and how can you deal with that?
+Okay, what I am doing it here is that I'm adding a style block
+Again, let's say style inside this since I have a class background attached. I'll use a dot class
+I'm a class
+Element, I mean class attribute, you know ways of select selector
+now
+one property
+To have a background image or anything is that you have to select background image
+Property itself, but here you cannot give an image PNG or anything always this files are in terms of like bigger in size
+So you are always supposed to give a URL to it. Okay
+Now inside this URL function you are supposed to pass a particular website
+Or the location of particular that you are where it is. Well, where can I get that you are now?
+Let's say I go into any particular side
+River images
+Let's say I have this I go and select this let's say copy image address
+If you see this now, there's a unique interesting problem guys now, do you see what's happening here?
+Can anyone tell me what's actually happening here
+Repeat is happening image repeat is happening, right? So this this behavior, right only this behavior people
+Fail to handle it. Now, let's say I give some background
+Size also
+Okay, like like let's say we define a size. Let's say we say that 400 pixel
+Now if you see the picture is getting disoriented if I give 400, let's say if I give 450 also
+Okay, or let's say 500
+If I give 550 it won't repeat it will get it will come only one time
+But you see this picture is getting disoriented now for those reuse cases, right?
+You what you have to deal how you can do it, right? You have one of the property called like background repeat
+So you can say one thing is that
+Like you can say that if you want to repeat or you would want to repeat you how you want to deal it
+Like let's say no repeat. It will say that whatever size of picture is there now by default it will take that
+But there are some pictures
+Where you want to only repeat it on x-axis like let's say on the horizontal way
+Like when I say x-axis like only one thing you don't want to repeat multiple times
+Let's say so you can say that repeat x and you do it
+It will come for only one row if you want to do it for y you can do it for only one way
+But if you give repeat it will repeat it all the time
+Is this property clear guys how you can do handle this repeat property?
+Okay
+So if you if you are having an image and your background image and that background image is not supporting if that size is
+Small and you know content is way too high
+Then you can use one three things one is once you give URL you can use background repeat
+Then you can play around with let's say
+background size
+And you say you say 200 pixel
+Now let's say you say that
+Repeat X
+Okay, but I have one of the image that I had it
+So like if you do know one
+unsplash.com
+This is actually a site which gives you actually really beautiful images
+Like if you want to use any time right you can go and get it rather than directly going to Chrome
+I'll also do one thing like I'll have it here
+Like if you want to build your personal project, and then you want to use
+Fetch the images, let's say
+How do I write clean images?
+Then
+Then let's say if I write beautiful images I feel like bit yeah free images
+Okay, let's say we go to this
+Site let's say we copy this now you can always like go
+And copy image address so no one will you know copyright issues you
+Know if you see
+Still that image seems to be short for us like if I because I've given a background size to it
+Let's say remove this
+Now the picture is way too big for this one content, okay?
+Let's say I gave this I say this as a 400 pixel
+So I make 300
+Okay, anyways, I have one image readily so I'll copy that and I'll show it to you
+But where did I get that images like again unsplash let me minimize this
+Delete this particular thing I'll copy it. So what did I selected one random person who was actually a fishing it and
+Let's say I make a no repeat
+This should come actually in write-in size, but it's not coming up let's say I can give another property, which is
+background
+Position so it will help us to
+Yeah, it is help us to move that to different positions one of what I'm using is like I'm using Center and
+So one of the suggestions that I got from Teja was to
+So one of the suggestions that I got from Teja was that to use background size cover
+Let's say if I use cover
+Okay, yeah that works too Teja
+So I comment this
+But it's not coming in Center
+It will cover the whole content as you said that it will cover the whole content whatever it is needed
+But if you want to pull that again image into Center, you have to use this and let's say I say background
+Repeat to no repeat
+Okay, so this is how you can play with a different background, you know
+Properties that you have many people face challenge in putting it in right way. Like how you can you deal with it?
+So this is how you can use it on multiple places
+So there's any doubts on this
+Till now any any doubts like if you have any doubts, please
+Let me know
+Because this is what the content that I want to cover today
+The content part is over for today
+Like one thing we can do is like if you want me to build HTML right for the
+That portfolio project I can build that but today's content related to whatever CSS. I want to get started with it is covered
+Transform scale in images that that thing is bit advanced will show it like in project specific itself some bit
+Okay
+But yeah, there are too many things to explore on CSS terms
+Right. There are too many things to explore since today is an interaction class itself
+So I will show you how to do that
+There are too many things to explore since today is an interaction class itself where we have introduced a different
+types of
+Firstly, what is CSS then?
+Different ways of adding a CSS like maybe in a file writing in style block or internal external once you have cleared on that
+Different ways of selecting a tag then applying CSS styles to it
+I've seen colors like different types then background images font styles. We have covered good part of content it content
+Then tomorrow will have more on like on the next class next week
+The classes are going to be much interesting because we'll see
+Responsive layouts box model right flex boxes grid so that that that would be really interesting things will be having it in next week
+Okay, so nice can I start out session
+Will come we'll cover that some within next week, okay, I see one thumbs down
+Okay, let's let's start with a doubt session guys
+If you have any doubts, please stay in class
+If you don't have doubts, you can feel free to drop off and enjoy your weekend. Please do assignments guys
+Let me know if you have any challenge
+I know I've seen few comments about you know compiler not being working rightly like the test cases are not working rightly
+Right. So I have flagged it to the team because that's developers team who have to handle it scalar
+That they have to write a right unit test cases, right?
+Like when they are cheap when they're doing it and the processing speed is also slow. So the work is on
+So your feedback works really in a positive way for us
+So we'll we'll start to improve it because even if you see right if you go
+Anywhere like you want to go and solve any like problems based on?
+HTML or CSS there are no websites build assets now like if you go for problem-solving
+You go for
+Elite code you go for
+Like, you know geek for cakes you go for a scalar you go for an interview bit
+There are multiple people who have already built those in sons in
+Like engines and passing that code now if you want to write some unit test cases, which is passing
+Understanding HTML and writing it down
+People are trying to solve that bigger problem as of now because once scalar does it properly
+Maybe they'll be built it like an interview bit for the friends folks
+Because now that domain on the front-end right is having a different scope
+Now people are coming up learning front-end in like, you know in depth and that
+Domain is being built as strong as the back-end and even the full stackers. So this is going there's a huge scope down the lane
+right
+So even someone can build an engine which can
+Understand and pass this like, you know this problem-solving unit test cases
+That's really cool problem to solve even if you think from a problem-solving perspective as of now
+What's running behind the scene is node.js server?
+Which is running the unit test cases like checking
+Generating a dom like if someone who understands the dom
+Once your HTML is submitted
+Whatever you have to write written down that goes on to the server now that that once they receive that
+they have written some list of unit test cases, which
+Generates a dom of your copy and then the check the particular thing is there or not there
+So that's where you know, and even as somebody pointed out standardization code for HTML
+Oh
+Standardization, you know, there are multiple formats like you know, the one is a older HTML
+Now is there's a there's a HTML 5, right?
+so if you see right, let's whenever I write down even the HTML right, let's say if I
+Create a index.html file. I
+Say HTML you see I'm getting three types of image itself if I use HTML Excel
+So this is something, you know
+W3 or 1999 is the old format right if I write simple HTML
+This is like third version then there is something called HTML 5
+Where when I generate this by default, I'm getting one of the meta tag, which is saying this
+X UA compatible content IE edge what this is saying is that well if you remember we hired one of the
+You know daily browser Internet Explorer
+Which was bit old because Microsoft never paid attention to it
+They started a different project called Microsoft edge, right and they didn't add new releases on that
+now when someone like banks, right the
+Whatever banks has been in the Europe or the most of the banks what they used to prefer is they used to prefer
+Internet Explorer because that was used to come with a default software
+Default of Microsoft software because Windows was a powerful OS that was installed in every desktop and desktop was a
+Mode of using a computer in 1990s till 2005 7 till that laptops
+Error came in. Okay. So Internet Explorer was a major
+Important browser other than this Netscape or Mozilla Firefox Chrome was a different generation level
+Okay, so this meta tax what they're saying is that hey Internet Explorer
+Please use newest HTTP equivalent compatible rendering engine to pass this HTML code
+so we are specifically saying that you know browser to use this this is not needed anymore because
+Microsoft itself has removed support for Internet Explorer and that is that project is being shut down
+Right. There is no support for that. I mean there is no engineer
+Will help you out even if you face any challenge or struck on that, right? So
+Similarly, if you see this utf character 8 also utf 8. So if you know like we have
+Does anyone know this word ask I?
+I mean you have done already
+DSSO you should be knowing right ask a ask a someone like which is having a to Z
+Then capital a to capital Z
+Then you have zero to nine, right all this support which comes under asking like
+encoding, but this is not enough to render a Chinese language or they'll go for or
+Tamil type Malayali type right fonts. So this I mean this type of messages are not able to end
+So under utf 8, right?
+This has a very large encoding pattern this was developed after the ask I which can ask I is only supported for
+English format, but if you go for other languages, you need this utf 8 encoding to convert those HTML now imagine
+That we have copied one code, right of a different Mongolian language format
+If you don't have this utf 8 character some browser engines might not be able to parse it
+Still chrome might be a smart enough to handle it by itself
+But there are some older browsers which don't have support. They need some extra additional
+Information that they have to use this right?
+So there are some smart people there are not some so smart people. So yeah, Unicode encoding, right?
+So and yeah, this is for responsiveness this I'll explain like what is exactly happening here once we start with
+responsive websites
+Okay, this is pretty simple, but straightforward. I'll explain
+So standardization of HTML comes with browser support guys if you have let's say there is no
+Who is pioneering browser? What do you think?
+Who is pioneering browser like which browser do Firefox?
+Chrome
+Go do you know on this thing? Do you know this thing?
+Google right since this is a doubt session. I'll talk for some time
+Let's say how much Google pays
+To keep chrome as default
+So the pioneer right the pioneer
+The pioneer is chrome. I'll tell you I mean Firefox team is the Netscape team, right? Firefox is someone who has written
+DnDocs
+MDN is like people right whoever has been
+If you go and ask him anyone right they'll suggest like hey if you want to learn web development go to MDN docs, okay
+That's our best thing that you can refer to. Okay, they have been you know updating it since 2005
+Which is like almost 18 years. Okay, you can go to understand web API CSS nesting HTML and everything they have
+too much depth of
+content but for me, right
+Like I want something new way to understand read things I found web dev right web dev is really
+To the next level. This is again built by this content is actually handled by Google itself
+You can explore this one, right?
+They have too many things like talking about PWI have score web vitals performance explaining CSS UI designs
+Right there too many things need good things are happening around it. You can go and explore learn
+What are the links that I've been providing you are from here because they're also what like let's say if I go for HTML
+Right if I open go and let's say
+Tables
+Right you go to a read article some of them also have a you know podcast recorded for that
+I'll show you one of the podcast. I
+Mean while I was learning it we didn't have this beautiful
+website built, okay
+I
+Learn go back to
+CSS I was actually searching for better sites that I can add it
+in that
+Links, so I went to selectors because I wanted to give now if you see this, there's a podcast
+So you can even listen the podcast when you are traveling anywhere. You don't want to see it
+Just put a earphone understand the podcast. So your web development is just like going through that. It will be stored in mind like
+You go and select us. You'll remember like this
+Okay, you don't have no one will come and able will be able to fool you out or you will face any challenge with that
+Okay, so go through them. It would be really piece of cake
+So
+Yeah, now I was talking about Google right they they are actually pioneers in that
+They're paying many companies like billions of dollars like somebody has registered
+18 billion rupees they paid it to
+App to make room as a default engine like in your mobile in your mobile
+You hardly go on a different browser other than crew. Do you agree?
+You hardly at least for laptop basis you install
+Firefox you install if you are on Mac
+You might be installing Safari and deleting it right using it
+But when it comes to like Android mobiles, of course, they they own it
+They have their own OS Android on OS is there's their own India tried to build one OS
+I think Bharat OS that didn't click it. We don't have manufacturers in in India
+Can support it Bharat OS if you know anyone if anyone knows knows that but Android stack is their own
+They keep on developing new and it's stuck. So whoever install that software by default engine is
+In mobiles that particular thing is crew. Okay chrome search engine
+But if you go for other OS's right which had like, you know some
+Chinese companies has their own OS 1 plus has their own OS
+Apple has their own OS
+But whatever mobile ecosystem so this company Google goes and pay them that hey, please make our
+browser as a default
+What they're getting in back if you use more you search more they're getting that amount of data
+Now data is being king. If you know the data you can write
+Models on that like any LED models
+Last more you then you can do you can understand people's perspective and you can do many things
+So that's why they are paying it
+You should be knowing it actually does anyone know the table changes that happened recently
+with
+open AI company
+Everyone knows it right Instagram in Instagram them in many memes on it
+Their CEO
+Being removed from as a CEO then being bought into Microsoft again resigning from Microsoft going back to that place
+Microsoft has also need to release new one chatbot
+Copilot I guess
+You should explore this this is actually supposed to you know
+The is a chat GPT
+That will be specific to Windows right Windows OS
+I guess you don't need because Windows again whoever own OS right operating system
+They have much of abilities to deal with it
+So you can explore this that's also one of the unique thing I mean learn one thing be great one skill set
+But keep an open eye
+So guys I kept on talking for some time, but if you have any doubts, please let me know
+Happy to you know take them understand it right if you want to build something unique right unique things
+So you want to build something new thing?
+if you're facing any challenge share with that get up link and
+Write it down in the chat
+I can help you out or the others can help you out if you want me to work out work on that
+Tack me that tack me the cloud AI completely take our front-end engineers
+No, no somebody. It's never going to happen. It's never going to happen. No one can automize automate everything
+Can we build like an online editor as a project? You can build anything project are like
+I'm
+Asking you like if you let's say if you build if you ask right you go and say like if it is some imagine
+There's some latency when you are I've gave you already a problem statement you can think of it
+like this if you go for lead code if you go for
+If you go for lead code or gig for kicks
+There's able to parse your code of different languages and they're able to execute it and get your
+N-number of test cases like the thousand or two thousand test cases executed and within seconds and they're getting a response back
+That's not happening for HTML part
+Like if you think that as a problem statement just think of it like what should be done behind the scene
+Like how can you write a test cases for that one?
+Because if you are able to solve this problem
+You might you are getting hired
+In inside this team itself like if you come with a problem statement you ping on shuman. Hey, this is happening
+I found a problem and this is a solution to it
+It would be cool isn't it so you have to just I
+Mean if you if you have a major sites, right major sites working in open domain
+You being internally you knowing it if you are adding something to their product, right?
+You are having really good pitch to them at least like it's like a strong referral
+That you are directly you're showcasing by the action
+Right, so
+Do it that way do something unique try to go like there are many people who try to find problems in the actual sites and reporting them
+and
+Even right if you see a problem
+you
+Like there are many websites, right if you go into the github.com
+Get up calm simply get up calm. Don't go anywhere like it up calm just find
+React
+Okay, go for Facebook react, okay
+This is a actual react code base, right react code base like whole react project
+Whatever project was developed by Facebook itself
+now
+If I go here and go into the issues, there are too many problems with this framework yet. You see
+These many problems are there
+There is a bug there are many things that are happening. Why don't you pick one and solve it? This is what opens forces, right?
+Like and imagine what this thing is written on
+If you go behind the scene what this thing is written on just go and see like, okay react
+They have written what are the languages are being used behind us and if you see
+same HTML CSS C++
+JavaScript typescript coffee script. Okay
+See too many things are there JavaScript being
+How people found bug in Google Insta website as much as you use it somewhere as you found as your people found bugs in
+Scalar editor like whenever typing HTML same way
+You have to keep using it to find out and if there is a pattern repeating it same thing. So it's a bug
+Okay, you can report the bug or you can suggest three things
+Okay, you can report the bug or you can suggest it like typing down email and sending it to big people
+Or if you know right there are many people what they do really this this is like they attack people at the LinkedIn itself
+Like if this is a bug
+And tagging directly if you see this happens with a zero that mostly
+because
+Yeah, they earn money from it, but it depends on the type of post you are writing it
+Because this happened with zero the recently because there is a huge trading volume was happening and their servers were not working as expected
+so
+What happened then is like people lost their bets too many
+so people have tagged them that hey we lost because of this thing this issues because
+That on zero that it's something that is happening is real money, right trading things. So imagine
+the effect that you have
+so
+That's how you report a problem or you build your own like solution to it
+so both ways works now
+Imagine in get out and react project right this person is someone who had large amount of commit and high amount of code return
+You see in between he didn't have any contributions added, but he kept doing recently also
+Now if you go and search him in the LinkedIn, right you will be able to find his working at
+This kind of team itself actual team
+He gave his email ID and Twitter. Let's say go for his Twitter handle and x.com
+Okay, so let's say is her Dan Abramov. Let's go to LinkedIn and search his name
+Where is working and what this is how you reach out people at least I do personally
+Because you need any mentor that you have to work with in future or anything. Let's say go into LinkedIn comms
+And then what's his spelling
+This is not the person
+Let's say this is himself
+Go below he's working with NASA SpaceX
+No, you may not be the person
+Who has built this
+Maybe we are searching a wrong person, but
+I have to see like who people are, you know, handling this reporting this or building your actual frameworks that you are using it
+Cool guys
+If you don't have any doubts, then let me know we can end the session for today
+And we meet back on Tuesday and come back and learn more on it
+Hope you are having good time guys
+Hope you are able to catch up and able to understand the topics that I am discussing
+Because down the road, I am going to be talking about some of the topics that I am going to be talking about
+Hope you are able to catch up and able to understand the topics that I am discussing
+Because down the line, right? We'll take it up a bit with face where you will be able to you know
+If you keep revising, it would be a piece of cake. You won't even know when the full stack was completed
+Okay
+Just stay still. I'll be there with you to handle things
+Okay, just keep doing assignments. Keep revising the notes that I'm saying, you know get up repo
+Keep exploring if you don't understand while exploring or reading any content reach me out. I'll try to help you out. Okay
+cool guys then
+Thank you guys for attending to this session. See you in the next class
+Thank you muneshwara
+Our assignments enough never
+assignments
+Are basic that are needed but when it comes to project development, that's that's been that's been uh, you know thing
+So somebody has question like our assignments enough to good enough to you know
+Able to build projects because uh, mostly that one stack or the java stack or anything that you pick it up front end back end anything
+Until unless you build projects, right?
+The actual projects where you put the hyperlinks
+Till then nothing is enough
+Okay
+You have to build projects. You have to see how you can build it currently since
+We are only on html and css part. You might not be able to build complete projects using that powerful projects
+Once we cover things slowly, right once your javascript is covered once your react is covered
+So i'll i'll ask you to build projects on react more because that's that's what you are going to put links on
+Your resume because i'll help you build few projects three to four projects that you can add directly
+On uh, you know get your resume like one of the full stack project that we'll build is
+Uh, you know book my show a full stack project where you learn authentication authorization database all things end to end
+Which you can link it directly in your resume deploying it on your uh, you know cloud
+second thing
+I'll also help you build one imdb project which will be completely based on react and redux that you can link it
+Okay, the portfolio project that i'll share the code base with you is not good enough
+But you can uh, you can you can replicate that one that will be helpful for our practicing html and css
+But you have to build projects something that's that's a single statement that I can say
+You have to build projects and those projects should be added in your resume
+Is that clear like
+Okay, yeah
+Great guys
+then I think i'll keep on speaking guys, uh, so
+Thank you for attending today's session. I'll uh, see you on the tuesday class where we learn box model one of the core important concepts
+of css
+Okay
+Yeah, yeah, let's build online id. There's a many projects are going on to on id also
+Competing microsoft and google are competing because both people are software companies
+Google's id is something new thing. That's idx project ids. I guess you can search on that you can read more on that
+Okay, so look I said good night
+You
+You

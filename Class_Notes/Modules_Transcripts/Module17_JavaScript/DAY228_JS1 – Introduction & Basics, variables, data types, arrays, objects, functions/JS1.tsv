@@ -1,0 +1,1288 @@
+start	end	text
+30000	40560	Hi all good evening am I audible and visible guys okay thanks
+49680	50800	so how's everyone doing
+60000	72480	I'm trying to set up the screen guys give me a minute
+72480	85560	Oh start screen sharing do let me know once you can see the screen
+85560	109120	are you able to see the screen guys okay thank you so hey guys can anyone share
+109160	125200	the whatsapp group link for Avril so guys how many of you complete last 11 questions
+125200	142000	did anyone attempt it okay sure I'll do that I'll do that I'll do that
+142000	153600	give me a second my screen share to act I'm switch Wi-Fi connection
+172000	186560	guys give me a second I'll rejoin the call okay no not needed I believe like am I visible
+186560	192000	and audible clear no just want to recheck with you guys and screen share is also working fine
+192000	207640	right okay so we'll explore two properties guys margin collapse and red index and okay
+207640	218040	these two properties okay right let's wait for another two minutes we scan even post in
+218040	234200	whatsapp group we'll start in three minutes we're about to get started okay so there's
+234200	241240	anyone having any other doubts no submit you'll be able to understand we are starting with
+241240	247960	JavaScript so I don't think you missed anything but to watch the last class okay it's about
+247960	256440	advanced CSS I hope you go back and try to get a hang of it okay so this is to Sambit Basant
+256440	270040	submit drop me a github url you know then I'll check on that okay
+270040	286760	let's create another folder in the classes which will stand for JS
+286760	299960	right Sambit Tripathi and Sambit Basant both people I think you already greeted each other
+299960	311360	in two classes earlier okay great I'll keep this open with me and we'll check this Sambit later
+311360	328320	okay so github link is already shared wherever I'm pushing the code but I'll it's it's you know
+328320	334120	pinned in whatsapp also you can refer from whatsapp group also but I'll reshare it
+334120	358040	so this is the link guys okay and also in the whatsapp link I think time is also up we have
+358040	364600	good amount of people so let's get started guys with today's class okay
+364600	380120	so till now guys what we have covered in broader perspective right are two parts isn't it two parts
+381120	390440	code code two parts I would say HTML and CSS we call this as a hyper text markup language
+390440	401640	where it was just used to you know build the structure of layout right structure of our
+401640	408480	website like what content to be showed and how it should be showed whereas this used for styling
+408480	418560	the structure and we call this one as a cascading style sheet
+418560	430520	right so I hope this two parts were clear to everyone right can you guys give me thumbs
+430520	435360	up if you are clear with this two topics on broader level and the topics that we have
+435360	442080	discussed till now cool so we are going to get start with the third I'm guys today which
+442080	449400	is JavaScript so since this is a first class we'll move bit slow we'll understand best bit
+449400	457080	history about what JavaScript is why it was built and how you know web development got you know got
+457080	465080	this much of scope and how how this has been done okay so you know firstly if I go to do you
+465080	477240	understand this keyword is web 1.2 web 2.2 or web 3.2 do you know this have you heard of this one
+477240	492160	what are these are okay now let's see like what is web 1.0 firstly so not exactly versions but
+492200	498760	these are like the how web development was progressed and how they have grown over the
+498760	509520	years like if you see web 1.2 was simply built using HTML and CSS and they are only used to
+509520	517660	build something called a static sites when I say static sites you don't have really like you know
+517660	523860	behavior like you they don't have clicks or events that are being you the events you probably you
+523860	529300	click it if you see a newspaper how that newspaper is like it's only one way right consuming you're
+529300	534180	consuming the data but you cannot give data to that newspaper right it's just like you are trying
+534180	540420	to read it so initially whenever websites were built firstly in web one point of face when like
+541420	548820	.com boom was going on in 1990s so people used to only use websites for you know rendering data
+548820	553540	like you can consume the data but you cannot actually play around with that all the other
+553540	559780	things were done offline wherever you want to give a data it was offline is that point here like
+559780	565340	when I say web 1.2 what do I mean it's just that wherever it's like a newspaper sort of things like
+565340	571300	you have only you can consume that data like it's like reading a book online so that's how web
+571300	579900	development started initially and this people know after that web 2.0 is somewhere like you
+579900	589100	know the journey where people saw a problem that they want to do on automation and automation of
+589100	599020	what of all the manual work you do like so now when I say only read only content but if you want
+599020	603900	to give some data to it let's say you want to do an online banking or any other other sort of
+603900	610860	banking how can you do it how can they do it so that's where you know they converted from like
+610860	618580	art like manual efforts to automation and the first step towards doing this one or something
+618580	629420	called us grow first internet have anyone heard this word grow first internet
+629420	640860	even when I was going through right I don't know but I will show you what it was like okay
+640860	646660	first websites were built then there was you know the websites were used to look like this one if
+646700	653740	you see this image so Grover is someone like who built an internet protocol which can render you
+653740	660220	render a menu like item and on click of them they can redirect you to the content which can
+660220	665900	is only readable there are no forms or those sort of things but still the data is being shown only
+665900	673340	not being consumed but this was like hyperlinks okay so that was a stack that came into the role
+673340	679740	once they wanted to start automation like shipping more content onto the web is this clear on top
+679740	684260	view what like the first invention was in terms of grow first internet this is something like where
+684260	691140	they want to show menu sort of things if you see everywhere it would be like a hyperlink okay
+691140	699900	nothing much deep in that but it's because it was just how used it used to work okay you can
+699900	705980	explore on this if you want to read like what was a Grover and how it can be done but initial when
+705980	711460	they got started the first protocol that was developed in terms of automation going moving
+711460	722340	towards something called as web 2.0 was this one grow first internet then this one person
+722340	736740	called Brendan H does anyone know this person name Brendan H have you heard this person name
+736740	750620	okay this was a crazy guy who was also a CEO of Mozilla Firefox the team who actually went
+750620	757420	on to build web development for us okay so this person has written whole programming language
+757420	768700	case let me just show you his image okay this was a person who actually you know built the
+768700	776180	JavaScript language but he was a co-founder of Mozilla project or Mozilla foundation whatever
+776180	781140	you call Firefox is one of the product for them but he or someone who actually started
+781140	789220	but when he did this one right this crazy person who wrote whole code in 10 days
+789220	797940	what if I say you that JavaScript was built in 10 days and we are taking more than a month to
+797940	811620	understand it it's funny isn't it so this person has coded the whole JS in 10 days and do you
+811620	816380	believe like any person is so smart that one person can build full-fledged language in 10 days
+816380	826420	do you think it's possible no right so this person when he built it now he firstly he they
+826420	833860	used to call them call it as a live script okay live script okay because they wanted
+833860	839100	this website to act like a life when they were going towards developing this web 2.0 like they
+839100	844620	want more interactive so they call this has a script which will help you to interact making
+844620	852540	the website live and when he built this life script now he made many mistakes many mistakes
+852540	857380	while building it and those mistakes we famously call it as JavaScript features that will explore
+857380	862860	one by one and even interviews I don't know why they expect us to know because those are the
+862860	868780	pitfalls of JavaScript we'll explore them one by one but this language initially was built in 10
+868780	875820	days that was a crazy thing that happened then you know the people from the back end like Java
+875820	880780	they still mock front-end developers like hey you're writing a scripting language not a
+880780	888860	programming language as such does anyone have heard this or face this one or like office life
+888860	896020	or anything the world before frameworks like angular react people we used to use HTML CSS
+896020	903220	JS and JS was actually not considered a programming language by the so-called back-end developers
+903220	908500	because they say that this is just a scripting language nothing much more specific than that so
+908580	915660	they've been like many things have been mocking with they have been mocking us but after the
+915660	920500	frameworks came in after they got to know what are the challenge in challenges in it they're
+920500	927300	acknowledging it slowly slowly but still back-end people are still back-end people okay but keeping
+927300	934780	all the stuff aside now this as I said you when I say that this is not up to the mark
+938740	945140	mark language like up to the mark into the market so there should be some organization right who
+945140	953020	might be taking care of this life script who might be taking care of life script or building it so
+953020	965140	that organization was called us ECMA have anyone heard this key word ECMA okay so these people
+965580	971340	these are the group of people this is a group of people from different organizations they came in
+971340	978420	they told like hey this is a really great feature this is a real great feature and this is a value
+978420	985260	add thing that we if you want to move towards web 2.0 or do anything in the latest world right we
+985260	991620	have to come together and build some really great features to it like are more rappers are adding
+991620	998460	more things so they kept on you know releasing multiple features to this one okay multiple
+998460	1003780	features and one of the best features they released in which major amount of new changes
+1003780	1010700	or new way of handling came in was ES6 which we call it as ECMA script version 6 like you say
+1010700	1017540	anyone in the Java developer role they say that Java 8 is a more important thing because they
+1017540	1023380	have introduced streams and functional programming in it isn't it because anyone applying for Java
+1023380	1029900	roles they consider like Java 8 is mandatory I am able to relate with Java because I also
+1029900	1041300	do work on Java right so in same in the same way ES6 is a one of the major releases that this
+1041300	1049900	stream ECMA let's let me show you whose ECMA is like what they do on a brief okay this opened
+1049900	1060500	in the new page I don't need this one let's say we open here okay so if you see this what this
+1060500	1068100	is like stand you can see many things are there but if you see ECMA 6 this is a something where
+1068100	1074340	they introduced too many things on JavaScript front okay they keep on building many things
+1074340	1083780	that you need to you need help in but this is a team that who has built for us but let me see
+1083780	1087300	yeah ECMA script 21
+1095300	1097980	let me see ES6 document
+1097980	1116820	okay this was a one of the website who made who actually handled it now they have released
+1116820	1122700	too many good amount of things guys in JavaScript which made JavaScript a stable language or a more
+1122700	1128220	of a better language now if you see a JavaScript is a JavaScript but if you see the most of the
+1128220	1134220	things right whatever you see they are coming from the ECMA script now because people don't
+1134220	1140580	really call ECMA script as a I mean like you have many names to this particular language that we are
+1140580	1146380	going to learn but all those features again we say that it's HTML CSS and JavaScript that's how
+1146380	1151740	people accepted it but something we are going we are using or we will be able to we'll be learning
+1151740	1157660	something called as ECMA script because that's where you know many inventions came in and those
+1157660	1165020	things will be keep keep on using it okay now in between I've talked about something called as
+1165020	1173580	live script and ECMA script let's say this is an ECMA script but where does this name got converted
+1173580	1180660	into JavaScript how does it got converted like when the decision was took so what happened is
+1180660	1188060	right live script they gave it a name it was going good it was supporting features and everything
+1188060	1196500	they didn't do anything but since at that moment of age this language was famous right this language
+1196500	1204460	was famous so that they just use this Java and they added something like script to it that's why
+1204460	1209420	these people keep mocking us hey you are writing a scripting language but you're not actually
+1209660	1216180	coding it adding our name so this person itself Brendan H itself he is something converted and
+1216180	1225580	built for us okay so if I show you even in documentation of JavaScript let's say if we
+1225580	1236500	go for Wikipedia yeah this is a Wikipedia right so if you say designed by Brendan H of Netscape
+1236500	1244060	initially others also have contributed to the ECMA script standard can you guys see this if I
+1244060	1249740	have to zoom in okay first person like Brendan H was done it then ECMA script got introduced
+1249740	1256100	okay then many things came in okay if I show you let's say if I search something called as
+1256100	1266900	live script if it is there see in 1995 it was startingly called as live script then the name
+1266900	1273020	was changed to JavaScript for the official release in December okay generally added to create
+1273020	1280940	interactive websites that's how they have built it coming back to this one so this was a bit of
+1280940	1287980	a history guys now this people this organization right we say that ES6 is a best version but they
+1287980	1299100	kept on releasing many versions but we it got limited yeah yeah you can say that somewhere so
+1299100	1305140	they kept on increasing multiple versions like ES version numbers kept on increasing releasing
+1305140	1313380	but people stopped caring because now people have moved towards frameworks like angular react
+1313380	1321980	or you can say view but what I feel like the world will come back to this one someday because
+1321980	1329860	history repeats and things will fall back okay up to an extent you solve some problems you come
+1329860	1336460	back and solve do better things okay but this was something how what was it like history about
+1336460	1346980	JavaScript is that clear guys how JavaScript was created and why it was created I hope this was
+1346980	1351820	just a theoretical thing we'll have much theory today and then we'll get started actual coding
+1351820	1370620	okay then this is fine so this was created for adding interactivity or behavior to client or
+1370620	1381340	you can say your HTML and CSS code but just think of it this is solving problem on a front end logic
+1381340	1399060	isn't it but how come we are able to among this three guys among this three this one okay you
+1399060	1405540	can search that Google you can search it which one is famous among them you will see that according
+1406100	1413140	but this problem is if you see this this is solving front-end logic issues but what about
+1413140	1430180	backend which is a more popular among three guys I didn't miss are you talking about this one let's
+1430340	1438300	leave it this one as of now guys we will come back again pure.js okay but focus on this question
+1438300	1448700	Abhinav will take it up in future okay focus on this question now like initially we use these
+1448700	1457900	three things to solve the front-end issues now how backend you are able to build a backend servers
+1457980	1474620	or backend applications because using js what was the innovation that took place here so because
+1474620	1481500	if you see till now what we have learned from the history they were solving only to add problems
+1481500	1487300	like to add a behavior and this end-edge created some issues so the one organization who took
+1487300	1493140	responsibility of improving the language they kept on improving it okay but just think of it
+1493140	1500940	like how we were able to solve the like this actual issue of backend does anyone have any
+1500940	1521060	idea on this how we are able to code it in backend or how does murn and mean came into exist
+1521060	1533620	and why we call JavaScript developers as full stack developers today node.js okay so I'll write
+1533620	1546140	down here node.js but before going to node.js now tell me one something like if I'm considering
+1546140	1555260	only front-end part even front-end part let's say you have HTML CSS and JS now where this
+1555260	1566060	JS code is compiled and executed because we know this are both in browser where this is
+1566060	1578940	executed and you know passed so give me thumbs up for the browser give me thumbs down for the server
+1578940	1599620	okay I see equivalent okay guys both people are in a way right but I will tell you about
+1599620	1604740	like actually what happened when I'm considering front-end part it is actually executed in browser
+1604740	1613460	itself but now to understand any code or anything we need someone a machine to understand this one
+1613460	1619500	right whatever we are writing logics JS logic do you agree with that if we are entering in the
+1619500	1624300	browser and browser is not something being handled by one organization browsers are owned
+1624300	1633700	by different organizations right do you guys agree with that it is this point that a different
+1633700	1639460	browsers are there and different browsers are like owners are different organizations okay
+1639460	1647460	nothing much uncle just now we are talking about history okay but can can you give me
+1647460	1652180	a different browsers that you use in day life like what are the browsers important browsers
+1652180	1659860	that you use in day life okay OPERA but do you use OPERA uncle in this day so I have Chrome
+1659860	1672140	I have edge and one more guys brave duck duck go Safari let's say if I make this as a three
+1672140	1678780	standard one right three standard one and three big giant companies are handling this one isn't
+1678780	1686260	it and Mozilla let's say Mozilla Firefox we shouldn't miss that creators okay this has
+1686580	1692700	four people handling who's handling Chrome who's handling Chrome guys who are building
+1692700	1703660	this Chrome Google red I hope you know this and who's handling edge Microsoft
+1703660	1715820	and who is handling Safari Apple and for this one Mozilla cooperation
+1715820	1727820	these people also went on to build something called as brave okay now you know each of this
+1728540	1734060	each of these people have built their own engines which will understand this code whatever
+1734060	1741500	written in JS okay so one of the powerful machine which was introduced by Google was
+1741500	1752340	something called as a V8 engine this was actually built on a chromium OS have you heard this
+1752340	1760460	chromium OS okay so they built Google went on to build something called V8 engine now
+1760460	1768020	Microsoft edges also built on something called as chromium US oh sorry OS so they also use some
+1768020	1776740	same V8 engine to understand JavaScript and execute in their browser okay same in a same
+1776740	1784020	way Apple has something some engine called as nitro which understand JavaScript and execute it
+1784020	1795700	in their browsers and this people have something called as spider monkey who you know pass and
+1795700	1802820	execute the code is this point here like we have HTML CSS by default that we are entering a tree
+1802820	1809140	but to understand a program and execute and pass it we are seeing that it will be done in browser
+1809140	1815700	and browser is not someone who builds language who owns it browser is something external products
+1815700	1821460	like tools so each company have built their own respective engines or they took extra one like
+1821460	1828180	support from the other OS's and build their browsers okay so these are the engines that they
+1828180	1836100	have used to pass the code now this was all about front-end now people have told me to the
+1836100	1842180	earlier problem which has like how where you were able to code it in backend now to write those
+1842180	1848180	backend code also since in browser we were using one of these engines to understand code and pass
+1848180	1854420	the code we need that sort of engine right which can understand code and write it down outside of
+1854420	1858260	browser isn't it
+1861540	1866420	so for that use case itself for that use case itself there's a one person called
+1867620	1870740	have you heard person called ran Randall
+1873460	1874900	have you heard this person's name
+1874900	1876900	okay
+1879540	1887380	interesting story guys if you go and read about him right he is a person who created node.js and
+1887380	1895220	dino dino is something he also told like like same as a brendan edge he this person also
+1895940	1902100	written node.js in you know very quick time he released it then if you see
+1903060	1908100	on 27th may 2009 dial released this project called node.js runtime
+1908900	1918580	okay then in 2018 after nine years he again created a new engine called dino which will again
+1918580	1923300	execute that but what this person did if you understand about this one also this person also
+1923300	1928500	right he was doing some phd in mathematics he left that mathematics degree and he went to
+1928500	1935060	south africa to his hometown and then he went out to build something node.js now while he's
+1935060	1940580	building what he did is like he don't want to write the whole engine code like whole javascript
+1940580	1945780	parser code but what he took is like he took that same chrome engine because this was someone who
+1945780	1952500	was giving better performance okay weird engine so he took help of weird engine and
+1952500	1959140	then he added some more features to it he added some more features to it
+1960740	1964100	and created something called as node.js this this product
+1966580	1970580	by then once you had node.js you were able to write code
+1970580	1976100	and execute it on a server because this one was giving us ability to create a server
+1976100	1985540	okay i hope you can understand now that js can be executed both on browser
+1988180	1991300	and non-browser environment
+1993860	1998020	so one of the ways using any browser like chrome or anything for non-browser you have
+1998020	2006260	to use something called as node.js is this clear from execution like
+2006260	2008500	where you can use javascript and how does it work
+2013300	2023060	nice so after this what happened is now because of this only we were able to create multiple
+2023060	2029780	things like once you got the node.js you can write down the whole you can write down the whole
+2029780	2036900	backend code in the node.js but in order to make node.js code also easy a something a new
+2036900	2042740	framework which was built or something called as express.js this was specifically used to build
+2042740	2049220	apis a robust framework that we'll be learning in future but i'm just giving you a brief of front
+2049300	2056100	and back like when it comes to javascript ecosystem okay so express.js was created
+2056100	2061220	to build your apis okay we'll come to apis also when we introduce it but till then
+2061220	2067860	just consider this one i also explained apis in first class of our web development i hope you got
+2067860	2077060	what i was trying to say here okay that's that's where a full stack got to birth okay where you
+2077060	2087380	had on this client and both on server javascript can exist coexist and someone who is powering
+2087380	2091380	here powering here is node.js and here different browsers
+2094660	2099140	so that's the reason why i said that when you say that javascript can be executed both on browser
+2099140	2104020	and server this is the reason why it can be done i hope this point is clear guys
+2107860	2113620	okay now as you've seen that as you know that you know other than this one also javascript
+2113620	2120660	has many applications if you see from the client perspective of one of the clients are like laptops
+2121380	2122660	or desktop
+2126020	2133860	and what else you have desktop laptop and ipads and everything but when it comes to this one we
+2134100	2137700	when it comes to this one we were using same sort of you know
+2138660	2143540	like programming language or same type of design but when it comes to mobile programming language
+2144180	2150180	mobile apps you know we got too many people building too many things like flutter have you
+2150180	2159860	heard of flutter right so this was again powered by google they built flutter they
+2159940	2164980	powered flutter and they also you know many languages came for the mobile app development
+2166980	2173380	okay now why does mobile app development is difficult guys just think of it why mobile
+2174500	2182420	app development is compared comparatively difficult to hankit what does it mean can run a browser
+2182420	2188100	so hankit just i've told you right javascript to execute javascript we have this particular
+2188100	2193060	browsers and each browser have their own respective engines which can parse and execute the code
+2195780	2201220	okay so that's what i was pointing to that it can run on browsers because they have
+2201220	2205780	engines which can run the code whatever you write in javascript is that point clear
+2210020	2210520	okay
+2213380	2217940	so we can type the code on a chrome yeah yeah you can type the code on a chrome i can show that
+2219060	2227140	i can show that okay you can type in any browser so to say okay now
+2229700	2235300	yeah i'll show that i'll show that uh so for mobile apps uh let's complete this history then
+2235300	2241220	we'll go for practical things okay the mobile apps the difficult thing was it was not running
+2241220	2246660	in browser now when i say mobile app guys i'm not talking about something that you open chrome
+2246740	2251860	right or any browser in mobile but i'm telling you like applications like you have a play store
+2251860	2257700	app store or you say games that you have those are running on a mobile not inside the browser
+2257700	2264420	environment right if you see we talked about till now in a browser and in a server level thing but
+2264420	2271300	we didn't talk about os level right mobile os level like you have because here the os here the
+2271300	2284900	os was windows or linux or you can say mac mac os right these three things but when it comes
+2284900	2296500	to mobile you have something like android and ios right do you guys agree this like we have
+2296500	2304900	a different os is working different ways but here we don't really meant to run the websites
+2304900	2309300	in on to this os but we were running on the browser that was a fine issue we are still
+2309300	2315460	not building apps on a desktop or the ipad but when it comes to app that have to run on this
+2316420	2322740	like android or ios right we need some specifications for those reasons flutter type
+2322740	2327700	of language were introduced which are compatible in building that but flutter is a different
+2327700	2332420	language altogether but in when you learn javascript you also have an ability to build
+2332420	2339220	mobile apps and that that comes with the react native have you heard this one react native
+2339220	2344020	which is used to build native apps which are like mobile application specific like whatever your
+2344020	2349300	apps you see swiggy zomato most of them are using react native itself to build it
+2350020	2354820	so that again is based on javascript so javascript also gives you an ability to build websites
+2354820	2360420	and also mobile apps or the applications that you see on mobile okay hope that is clear and
+2360420	2368580	when it's come to you know applications from ai perspective or machine learning have you
+2368580	2374020	heard of this keyword tensorflow tensorflow.js
+2374020	2378340	or anyone heard is tensorflow
+2380180	2389540	guys explore this one i'll give you tensorflow. in python it is famous but
+2392500	2398180	okay this is a framework again which can help you to uh generally if you go for python
+2398980	2406580	huh it is generally if you go by python right it is easy to write you know read the ml models
+2406580	2412100	or build ml models right but if you if you even know the js you can still do it because
+2412100	2417620	there's a support given by google who build the tensorflow.js i'm just showing you that
+2417620	2423460	you learn one thing you will learn one good language which is javascript you will be able
+2424020	2428820	to learn both clients and server side code you will be able to build mobile apps you will be
+2428820	2434900	able to build ai ml projects also up to an extent is that point clear like why js is important
+2435860	2442500	to learn or why we are learning this one i hope like i'm able to create that vibe that how that
+2442500	2447860	is playing a major important role and why it is important all the things are built on this
+2447860	2452100	language so if you whenever there are new enhancements are happening these are happening
+2452100	2458100	on this one frameworks will come and go 10 years before there was no react
+2458100	2465860	but 20 years before until today js is there js will be there in future also okay now
+2467460	2474420	this is about 2.2 guys right when we talked about web 2.0 it was like more of a interactive
+2474420	2480500	websites where user were interacting with the website isn't it now just think of it what's
+2480500	2486740	happening in 3.0 just think of it what's happening in 3.2 guys
+2491540	2502180	anyone like seen any 3.0 websites web 3.0 or like you know the idea or the intuition
+2503060	2510180	towards web 3.0 is not yet matured okay not yet matured because whenever we say that
+2510180	2515380	web right we are pointing towards client side client side logic like how you want to improve
+2515380	2528660	client side like gpt uh uh uh that that was like for a back-end verse but if you see 3.0 is
+2528660	2536740	something krishna mentioned something called as metaverse right you might have heard metaverse
+2536740	2543620	you have seen this like uh apple's device where you wear those goggles and you are able to do
+2543620	2552820	multiple events right multiple activities have you seen that launch oculus like oculus from meta
+2553220	2558660	or like even apple had done it now in those in those advertisements they have seen yeah vision
+2558660	2564740	pro if you remember vision pro uh they were interacting with websites using hands gestures
+2564740	2572020	and even uh like you know i retinas and everything till now we had keyboard and mouses everything
+2572020	2578500	but that was web web 3.0 that was one of the application google glass you can say
+2578660	2585060	you can say this was one of the example or you can say in our uh you know in our language like
+2585060	2592260	jarvis everyone knows jarvis right at least iron man jarvis something who listens to us and does
+2592260	2601140	work so you can say that is what web 3.0 is talking about now from web 3.0 also we don't really know
+2601140	2607380	the applications or how long it will be developed or what we are trying to achieve it since for web
+2607380	2613620	2.0 it was a clear constraint that hey we want to add interactivity and that was clear but for
+2613620	2621220	3.0 there's a metaverse then there is something like cryptocurrency uh but we don't exactly know
+2621220	2628260	what how the future is going to be okay the subject is not yet perfect like the intuition
+2628260	2634500	that you want to do but there are many applications are coming where it is giving you to you know
+2635140	2640340	uh ownership of it like have you seen many things which were based on this one
+2641540	2647700	uh blockchain based technology where you can own stickers and other things and you can go into a
+2647700	2650420	dream land and buy the lines and play around with those
+2652660	2662820	nfts yeah nfts i hope you have heard of nfts okay so now what does nfts idea was like in 2.0 till
+2662820	2667060	1.0 you're consuming data and in this you are interacting and you are sharing the data
+2667700	2673940	then in 3.0 this people gave an idea that hey we are talking about ownership of a places or
+2673940	2681060	ownership of that idea okay so if i talk about three perspectives that are innovating this one
+2681060	2687380	or creating each one have their own way of explaining things right so this is what happening
+2687380	2692420	i believe still web 3.0 will also take advantage of js and will build up on it
+2692420	2697460	because interfaces are built that way okay yeah yeah creating a virtual world that's what
+2697460	2703060	actually i was talking about using nfts they used to say right it just two projects are again
+2703060	2710260	interlinked cryptogenesis nft but i i hope the basic idea is clear uh what i was talking about
+2710260	2712500	3.0 right
+2717380	2724180	so this is just an introduction guys that i was talking about like how and why javascript is
+2724180	2732980	important how the uh like how how this all came into an existence how this is happening in what
+2732980	2738740	can be the future version and thing right so i hope you enjoyed it this is just a like a talk
+2738740	2746980	that we had but now we'll go and see how we can do this and how we can use javascript excited guys
+2748100	2748980	for javascript
+2752020	2758100	is going to be a very good journey i hope uh i we travel together and learn too much so for the
+2758100	2765300	people who wanted me to write javascript in browser i go to console guys if you see here
+2766260	2773220	i just do two plus two and i'm able to do arithmetic operation okay i can run a for loop
+2776580	2781460	i'm just showing this that you can do it and i'm writing in a browser in a chrome browser
+2795540	2800900	okay i'm able to print it this is fine uncut i think you were asking it right how we can code it
+2802660	2806500	okay why did you learn python then every every application has in own importance but
+2807220	2813220	you know uh you should you should get to know it like where you are applying those tools or when
+2813220	2818340	how that's why we say that javascript is like having a vast amount of applications where if
+2818340	2822260	you learn one thing you're getting too many things and it's like buy one get many things
+2823220	2829300	and it's like buy one get many things okay this is a shop where you buy learn one thing and get
+2829300	2838260	many opportunities around okay so till now guys let's create one folder uh javascript and what
+2838260	2844100	is the last class that we ended seventh class so i'll create a class eight here
+2844260	2853700	now inside class eight let's create one simple index dot html file now this is something that
+2853700	2860900	we already know okay what this file is talking about let's render something like h1
+2860900	2869220	okay let's say heading and if we want to give a style we also know that if we if we want to link
+2869220	2879460	it we can link using style sheets isn't it let's build up one style sheet style dot css okay
+2880100	2889300	isn't it let's build up one style sheet style dot css okay
+2894420	2897700	all right let's make some color to it h1
+2901460	2901940	color
+2901940	2915300	okay random this is what we know till now isn't it this is what we have learned now let's let's
+2915300	2922580	do something and let's add another file here when you go to the html file okay what i'll do it here
+2922580	2928340	is that i'll create another now if you see i have used something called as link but if i want to
+2928340	2934740	write a javascript right anytime in javascript in html or i want to link of javascript file here
+2934740	2943140	i can write it anywhere let's say i can write a script tag script tag if i write down two plus two
+2943700	2951220	okay i can do anywhere like if i write down anywhere it it should be it would be executing it
+2952980	2955540	in body in head or anywhere okay
+2959140	2959540	oh
+2966260	2972180	you won't be able to see in the browser though let me do one thing i can do something like
+2972180	2977140	console dot log console dot log guys is equal to the print statement that you learn in a
+2977140	2983860	different language it can be system dot print dot ln or anything that you see okay now what
+2983860	2989780	i'm just i'll do is like i'll open this in the browser since visual studio code doesn't have
+2989780	2995540	an ability to run javascript but browser does it does have it right let's open with live server
+2996980	3004260	okay now if you see open inspect tool and if you see the 444 got printed three times
+3004900	3009380	and that's coming because if you go and open this file index dot html
+3009940	3014500	yeah for js javascript if you want to print anything you use console dot log
+3014500	3017300	because you are trying to print something in the console
+3018740	3022900	okay that's how it works that's how you remember how the print statement works in js
+3023620	3028900	is that point clear guys that i can add a script file anywhere that i want to
+3029380	3030580	anywhere that i want to
+3033940	3038100	okay i hope this logic is clear it will work in anywhere
+3038100	3043380	but what's the standard practice right what is the standard practice that i can do
+3046580	3053220	okay i'll comment this one one of the standard way of it's like uh there's nothing like standard
+3053220	3059620	all people write all outside of codes but like we have i've just shown you like how can you write
+3059620	3065460	js here inside the html and how can you add a create a new file let's say i have something called
+3065460	3075300	this uh index dot js file here let's say you write console log here again uh and we do uh
+3075940	3081380	you know this one a statement whenever you learn any programming language let's start with it
+3081380	3087700	okay now if you want to link that file if you want to link that file anytime what you can do
+3087700	3094340	is is inside the script tag you can always add a source what is the source of this particular script
+3094340	3102020	or what how what where is the code for this script tag you can give this way once you give this again
+3102020	3109380	i'm going inside the here uh and i'm refreshing it okay if you see this particular file was linked
+3109940	3115460	and this was the line added now if you see whenever i'm refreshing it uh this line will
+3115460	3123700	be executed let's say if i click apply here hello world was printed so that's how you connect three
+3123700	3131060	files it can be your html it can be css and it can be gs is this clear how do you link those files
+3131060	3136900	and how can you add a javascript in the same file this is just an introduction i haven't taught you
+3136900	3142180	any new topic it's just like how can you use the javascript in the html along with that
+3143540	3146420	guys no doubt till now right no doubts until now right
+3148580	3153620	okay i hope there are no doubts now now there is something new that i want to show
+3154740	3161940	it's like okay till now okay you've shown me in browser what what's a use where how can i do it
+3161940	3168020	in node.js you told about node.js that can be uh allowed you can use it to you know code it in the
+3168660	3173780	backend way and how can you build a server around that for that one right you have to
+3173780	3182740	install something called as node.js go to this website guys uh and you know go for something
+3182740	3189460	called as lts long time support which is recommended for most of the users if i give you this site
+3190260	3195780	uh take this and download it how many of you already have it or how many of you don't have
+3195780	3203860	it guys give me thumbs down if you don't have this one download it okay please go on click this one
+3203860	3212420	okay go and click this one lts one it will be automatically downloaded okay and you have to
+3212500	3217460	install it guys i'll wait for a minute or two once you install it
+3218820	3223060	okay once you like let's say you click a download i'll show you once you click a download this will
+3223060	3238260	be done uh it's taking a good amount of time 70 mb if your internet speed is good uh you'll be
+3238260	3242500	able to download it fast so i'm just showing how can you do that
+3244820	3252020	custom setup uh yeah i'll just show you like once you click this right uh for i can show
+3252020	3257140	for the mac guys because i have this macbook right or else i can share you a recording where
+3257140	3261300	how we can install the node.js okay you can continue it
+3262260	3268100	you can continue it and you can agree uh you know disagree with the like agree with the license
+3268100	3271700	and go ahead and install it okay
+3274260	3278980	guys would you be able to install it if i give you one recording or you can search in the youtube
+3278980	3283300	for the node.js installation part can i go ahead with the topic
+3283780	3285220	can i go ahead with the topic
+3288660	3295460	okay cool thank you guys now what i'll do it is like i'll open a terminal here let's say in the
+3295460	3302660	class 8 i create open a terminal since you want to run a server or anything once you are installed
+3302660	3307620	node.js right once you are installed the node.js you can verify what is the node version you are
+3307620	3315620	having let's check my my version okay uh let's say it's hyphen hyphen version if you see i have
+3315620	3322260	something a version called 18.8 but the latest version is 20.2 whatever version you are having
+3322260	3328500	that's okay or greater than 14 is something you needed okay i print this one once you check the
+3328500	3336260	version and if your node.js is available now let's see what i'll do i have this file index.js
+3336980	3342740	now i'm not executing in the chrome but i'm executing in this terminal i'm just saying that
+3342740	3350660	hey node can you execute this file of javascript and i'm clicking enter now if you see hello world
+3350660	3360340	got printed even what i can do i can do something like console.log uh let's say two plus two basic
+3360340	3367940	example uh again i execute this one now if you see two things i have it output it is that clear
+3367940	3374820	like you can run javascript in both browser you can link with html you can also run individually
+3374820	3381540	js files using node.js so i hope i have justified this part like how can you use them now
+3383540	3389140	yes if this thing is clear uh we are ready to get started and deep dive inside the language part
+3389620	3396740	okay so uh what i'll create uh you know folder here is that
+3399620	3403540	let's have a folder called variables
+3406900	3407860	and data types
+3408500	3415380	okay let's say i have something called as variables.js okay
+3417940	3422100	so guys can you give me your own definitions of understanding variables
+3422820	3430420	what do you exactly understand by variables how do you uh pursue this keyword variable
+3431380	3435220	how do you uh pursue this keyword variable
+3439220	3442980	since you have studied some sort of language if you haven't studied that's fine but
+3444020	3447380	just think of what you understand by word variable
+3456100	3456820	guys no one
+3461220	3469860	just use it to store data identifiers okay can store value can store data okay uh let's say
+3472100	3479700	let's say i'll tell you this one um i want to store milk what sort of vessel you will get it
+3479700	3485140	in the home what type of vessel you will get utensil you can say
+3485140	3493460	okay uh which is having a bottle sort of things right or a patella wherever you can pour milk in
+3494180	3506900	right right so each and every other item uh have a particular thing which can take that item and
+3506900	3511860	put it in that right you have boxes you have almaras where you can put the items in it or
+3511860	3517540	you can have complex boxes where you put your pencils in it you have mobile where you store data
+3517540	3523460	or contact list same way in programming language if you want to store data right you want to store
+3523460	3530180	data variables are somewhere are like a containers that can store the data this is definition good
+3530180	3534980	enough guys to remember it like these are the containers just containers which can take the
+3534980	3537300	value okay let's say
+3543860	3546500	variables are containers
+3549060	3561460	that can store different values or items because container can be anything a bottle or any type
+3561460	3569300	of vessel that you see or utensils in your home it can every utensil is used for you know different
+3569300	3578340	types of storing right same way variables also have different use cases okay now so one of the
+3578340	3586020	way one of the way that you can store and declare a variable now when i say declare a variable
+3586020	3592180	it means that i'm naming a variable okay uh if i tell you in a specific way how we can say that
+3592180	3604180	is that uh this is milk bottle or or you say that that way whenever you say that this is a
+3604180	3610660	particular items container then you name that particular container right cooker is for rice
+3611140	3616820	or they say something that way so you have to name so you never you are doing it you declare it
+3616820	3622740	let's say one of the way to declare it is like where a or you you say in different languages
+3622740	3630020	int a like in chava or you can say in different things right now if i'm saying that this line
+3630020	3635860	right when i'm saying this line what is this i'm saying that a is a variable and this variable
+3635860	3641300	name is a container name is a and this container will have value 10 in it this is good enough
+3641300	3646180	explanation guys are you able to understand where i equal to 10 what do i exactly mean by that
+3648500	3657460	okay now where is a old way old style of writing
+3657460	3671860	or declaring variables and this was again given by it itself who created in 20s okay
+3672820	3679620	itchway let's say itchway okay now why i'll tell you this one why this is not good enough i'll
+3679620	3689860	tell you let's say i open an integrated terminal and i clear this one i say node variables
+3692420	3700340	let's say dot j's if i execute let's say okay i okay let's say ls i have this file
+3700980	3711060	okay nice made a spelling mistakes this uh keep a eye on you know this one and keep making mistakes
+3711060	3719620	on spelling mistakes okay okay i didn't anything printed here so it doesn't didn't work let's say
+3719620	3730100	i do this one you see this 10 is getting printed here that's fine so let's say i do this one
+3730340	3735780	where is equivalent to end no i'll come to the address t give me a second okay i'll come to that
+3735780	3746820	now let's say again i use where a equal to let's say i store your name this day here
+3752740	3755220	do you think this is a right way of writing a code
+3760340	3762340	okay
+3765460	3770100	the reason guys any reason i see eight people giving me thumbs down what could be the
+3770100	3777460	why are you giving me thumbs down i just want to understand okay yeah i'm re declaring and
+3777460	3788820	initializing that same variable right so now two keywords i got declaring and initializing
+3788980	3795140	okay get out i wish it will remove an inside listing okay now great but
+3796740	3802100	what's happening here is that let's say i have told this is a milk bottle
+3802100	3805300	and inside that i'm storing a floor is it good
+3810580	3816580	all right not a right way of doing it so firstly coming back to this definition of declaring and
+3817540	3822020	initializing so this when i'm what do i mean by exactly declaring is that i declared this
+3822020	3828340	variable as a i'm named it as a it's like giving a name like you name a person or you name anything
+3828340	3834500	like declaring it but what position or what they'll contain is something like initializing it
+3834500	3838580	initializing it means that what you'll put in that container okay that that definition
+3838580	3840260	is clear right declaring and initializing
+3840260	3841940	okay
+3844500	3851140	declaring and initializing is clear guys okay now we say that this is a wrong way of writing a code
+3851140	3858260	okay but now let's understand what's happening in js if i click enter
+3859780	3866100	okay 10 is printed that's fine i go and print it again a
+3866100	3872580	okay now do you see this it's printing 10 and it's also printing rusty
+3875380	3882580	so what we thought by default is like hey you cannot re declare that same thing you cannot
+3882580	3886900	give the name same name to that particular thing right but it is a we are able to do that
+3887460	3895460	this was a one of the mistake that i created okay that hey i'm able to that's okay that if i want
+3895460	3902100	to store in a if i want to store a dristy i can update it let's say variable can take if it is
+3902100	3908660	taking let's say 10 liters of milk if it is having more space it can supposedly take 12 liters of milk
+3908660	3916740	that's fine but how can i rename that same variable right it's not it shouldn't be allowed to do that
+3916740	3922260	isn't it do you guys agree with that
+3926260	3928980	so the problem that i'm trying to point out is
+3931220	3933540	re declaring of same variable
+3936260	3942340	are you able to notice that in python it allowed okay then python
+3943460	3949380	guys i'm not sure about python but in i'm talking about some you know fixes that has been introduced
+3949380	3955460	now i'll talk about them but here what's happening is like firstly in this example guys
+3956020	3959780	let's leave python aside for this when you're whenever you're learning new language right
+3959780	3966180	learn it from fresh understand it like what is user's perspective it would be easy for you that
+3966180	3971460	to name one person and put that container item in it or like you can put any like you can always
+3971460	3978100	declare again and again it creates uh too many mistakes and too many problems of understanding
+3978100	3983460	and debugging is also important or difficult but coming back to this example guys i've just
+3983460	3989700	declared two variables and reinitialize them so using where i can re declare and also i can
+3989700	3996580	reinitialize right okay is this point clear guys that i'm able to redeclare and initialize using where
+3996660	4009700	okay now in es6 right in es6 in es6 which is our 2015 version what happened is they introduced
+4009700	4020900	two ways of declaring a variable let and const okay let and const two types of variable now let's say
+4021460	4030420	if i say that let a equal to 10 again i said let a equal to i give any name let's say i give it
+4030420	4036260	uncle do you see this it is highlighting both the a's and it is giving me a mistake destroying
+4036260	4042500	is this dot js file is throwing mistake now it says that cannot re declare a block scope variable
+4042500	4049540	now it says that cannot re declare a block scope variable a leave block scope and everything for
+4049540	4056740	now yeah it's a let and const were introduced in esx uh some bit but what i'm trying to point out
+4056740	4062340	here is that whenever i use these variables they say that you cannot re declare a like variable
+4063300	4068900	is this point clear when you use this let what what if i remove this let what if i just remove
+4068900	4076660	this let it is allowing me to store anything but it is allowing me to reinitialize it is allowing
+4076660	4090740	me to reinitialize that variable so let's write down this point let allows to reinitialize a variable
+4090740	4092580	variable
+4095060	4099860	whereas it doesn't allow to
+4102260	4102580	re-declare it
+4110180	4110580	okay
+4110580	4122420	now now let's go and see what const talks about it says a const i'll say b equal to 10
+4123460	4132740	now again if i go and const b equal to 20 again it says that same issue right firstly it doesn't
+4132740	4140100	allow to re-declare that same variable first point again even if i try to reinitialize that same
+4140100	4148260	variable let's say it is showing here it is not throwing us any error but what if i do and print
+4148260	4155460	it let's say if i go and try to run this file and print it now it says that assignment to constant
+4155540	4161380	now it says that assignment to constant assignment to constant variable okay
+4161940	4167860	when i say constant it is meant fixed final value you cannot reinitialize also
+4170020	4173460	okay is this point clear like what const does
+4176100	4184820	const doesn't allow to reinitialize or re-declare a variable
+4185940	4193860	okay is that point clear guys how where let and const behave how these three things behave
+4198580	4201860	yes anyone having any doubts these are basic things but
+4201860	4203860	i hope you will be remembering this one
+4208260	4214820	okay let's let's draw the chart for this one okay so that you remember
+4215620	4224820	so
+4230260	4234820	let's say if i say that re-declaration
+4239700	4241300	and re-initialization
+4245460	4256180	okay let's say i have where let and const
+4260660	4266580	yes help me out can i re-declare a where can i re-declare a where guys
+4268340	4271380	yes can i reinitialize the where
+4271380	4278980	okay yes can i re-declare let
+4282660	4285780	yes can i reinitialize let
+4290820	4295620	yes let no right can i reinitialize let
+4296100	4305220	okay let reinitialization yes right for const
+4309940	4316900	both the things no right great thank you guys i hope this point is clear for you that how
+4317140	4324180	these things are playing around so now understanding this point which both variables
+4324180	4326900	feels like are actually should be used
+4330100	4335220	when you are declaring any variable what would come to your mind which thing should be used
+4335220	4338660	do you think where would be a great right idea to use anytime
+4338660	4349780	okay right so in industry right in industry if you are using this variable in today's life
+4351140	4353460	this will be flagged to be fixed
+4357220	4361300	let's say i write down not to be used
+4364180	4367700	even if i'm using anywhere while coding it you'll flag me out
+4369620	4379060	okay i'll come to that someday okay whereas whereas let and const when you would go for let
+4379060	4380260	when you would go for const
+4384500	4387940	when you would go for let and when you would go for const
+4387940	4404660	whenever you want to declare a final variable final or static which doesn't change over the
+4404660	4408660	time go for a const which i think will change over time
+4408660	4416020	which needs to be
+4418900	4419380	changed
+4421780	4429300	okay so i hope these two things are clear like use let and const and i hope the basic difference
+4429300	4436180	between them is also clear now guys here there's a one more thing that i want to show you guys is
+4436180	4442260	that do you see here i'm also able to put our numbers and strings into the same containers
+4446980	4452660	like i didn't say that this is an integer or this is a string or this is something right
+4453540	4462740	like if you go for java they strictly you like typed on int long string char right all of them
+4462740	4471860	but here we don't have them so the reason is that javascript is loosely typed language
+4471860	4478260	and dynamically typed when i say dynamically let's say there are three keywords guys they used it
+4479860	4481780	weekly loosely
+4484260	4485060	dynamically
+4485060	4486580	okay
+4489380	4495780	okay these three words are used when they why they use these two keywords are they go with synonyms
+4497060	4499380	because you don't need to
+4502180	4503380	you don't need to
+4503380	4512900	say which type of container
+4516900	4520900	there's a step of container now when i say type
+4522500	4528580	is data type right what is the type of data that you want to store okay that you don't need to
+4528580	4534900	okay that you don't need to say to js it will understand it runtime dynamically
+4537780	4540900	is this point here why we say these three things
+4541940	4548340	for javascript is loosely weekly typed and at runtime dynamically it will understand
+4548340	4554100	what type of data type it is till then it won't flag you like you can store anything using
+4554100	4564660	latent cost that point is clear now okay now now coming back to this something called as data types
+4564660	4567620	let's move to the data types
+4568100	4571140	so
+4578500	4585380	okay on top level right on top level on top level what all the data types that you know
+4586820	4592500	the scheme with those guys names that you know firstly how many types of data types what are
+4592500	4598180	the categories of data types that you know you go you if you have learned any language
+4598180	4604100	every language have two types of data types firstly can you give me those categories
+4606980	4610180	there is that i understand it but how do you categorize data types
+4613140	4613940	uh no
+4616420	4621780	think of it do you remember this keyword something called as primitive
+4623460	4624980	and non-primitive
+4628020	4633940	right i hope you remember this case both things are data types only
+4638660	4645380	right now what all things that you can think of like what will come in primitive
+4645380	4646260	primitive
+4650500	4657780	as you many member told earlier like int car floats here for most of the things i'll tell
+4657780	4665780	you two things guys number is a data type which can store int and float and double
+4665780	4676740	and long to say so okay from for the people who are coming from jar background number is a
+4676740	4682820	keyword which like number is a data type which will store everything is that clear
+4685220	4687300	now then there is something called as string
+4689540	4695140	this will store both string and care what is the different between care and string guys
+4696260	4702340	guys i'm writing this now not to confuse you but this is for the people who are coming from
+4702340	4706420	different language background if they are able to understand if you are completely beginner
+4706420	4711380	no issues number is a place where you store you can know you can store any number and string is
+4711380	4716420	a place where you can store any string like string and i say string it's a group of characters
+4717220	4718420	alphabets okay
+4721220	4724900	what's the different between okay i've already told you car is a single character
+4726020	4732260	single letters you can say a string is a group of characters okay then what would be the third
+4732260	4744260	type guys commonly you think boolean right right which stores true or false
+4749780	4755300	then here the in primitive they also introduce something called as null which doesn't mean
+4755300	4760260	like whenever you have to give any empty value like just you can introduce null
+4762020	4765460	empty is something called as null okay i hope this point is clear
+4768580	4774900	okay on top level guys on top level these are the type of data that you would generally deal
+4774900	4779940	with isn't it strings numbers booleans and null
+4785940	4797140	i see one thumbs down right there are other few parameters too but i don't think that you would
+4797140	4802980	be using it in day-to-day life if i go for standards give me a minute
+4809540	4810020	okay
+4816820	4820660	so there's one more thing guys that i want to talk about is something called as
+4820660	4833300	big num big int okay big int again used for larger numbers okay that but not needed here the
+4833300	4841300	range of number is too high okay not like java or any other language the range of this particular
+4841300	4847940	data is too high and the funny thing about java script is that you don't need to declare type of
+4847940	4852500	that you don't need to declare a type of data type right you don't need to say that it should
+4852500	4859460	be a long or it should be anything by default it will get it okay but on top level these are
+4859460	4864660	the four things which are in the primitive and when it comes to non-primitive what are things
+4864660	4866020	that you generally see
+4868740	4869300	arrays
+4873780	4874340	and this
+4877620	4883220	no don't need it not needed somewhere typecasting anything map okay
+4886500	4888260	classes objects
+4888340	4895540	here instead of classes java script is mostly preferred as a functional programming language
+4895540	4902820	serial so you can say functions instead of classes we'll talk about classes use case of classes in
+4902820	4909060	javascript how they come how they are working but we'll say functions okay these are the top
+4909060	4913780	broader level category guys like how this primitive and non-primitive works but let's
+4913860	4919060	explore them one by one it will take hardly 10 minutes i guess all you you already know this one
+4919060	4924260	but i'll just take 10 minutes of this one to just clear uh re-explain and close it up okay
+4926580	4932100	so let's say i have i'll start with numbers firstly
+4934100	4938020	so what all things you can store let's say const a equal to 10
+4938260	4946100	so what all things you can store let's say const a equal to 10 also you can store const a equal
+4946100	4953540	b equal to let's say minus 10 a negative and positive okay then you can also store const c
+4953540	4964260	equal to let's say 10.345 something like in a decimal unit again i can also store
+4964900	4973380	minus 10.345 all the four things i can store let's say i show you console logging all of them okay
+4977860	4986900	let me see clear ls node so whenever you are typing it you have to execute those file names
+4986900	4994740	execute those file names data types dot j's now if you say i'm able to execute all of them
+4994740	4999700	right this is a one special operator guys one special operator if you want to know
+5001380	5006900	what is a data type of any particular thing then you have to use something called as type
+5008260	5015220	of whenever you give something called as type of that particular you know it will give what
+5015220	5021220	type of data type it is let's say if i re-execute this file do you see this it's suggesting it's a
+5021220	5031380	number this is clear what this keyword is type of i will keep on introducing new things so that
+5031380	5037300	you get used to it okay now numbers are done let's go for something called as strings
+5037300	5046980	okay i'll do const e i'll store single character q okay
+5048580	5056820	const f let's say i store hello or whatever suggesting okay i can print both of the things
+5057460	5063380	i'll also print let's say type of e and also i'll print both the things okay
+5063380	5073620	okay now if you see when i'm typing type of e it is giving me as a string for both like though it
+5073620	5080020	is a single character and here the funny thing is single quotation or double quotation doesn't
+5080020	5087700	matter everything is considered string okay in javascript whatever you give okay i hope that
+5087700	5093460	point is also clear like string data type and number data type now
+5096180	5101060	next thing is something like i was talking about something called as null right
+5102980	5112740	g let's say if i print gif null and i also do console log of console log of type of g and let's
+5112740	5122260	say i also do print g okay so you can use commas in console log which will print all the types okay
+5123620	5130500	you see type of g it says as an object because a null by default it's an empty thing
+5131060	5135460	till you don't assign a value it will show that way type of g
+5136260	5143460	uh this one i'll tell you why we got is an object i'll get because uh you know most of the languages
+5143460	5149380	which have been oriented such an object oriented programming right behind the scene everything is
+5149380	5155940	considered object isn't it if you are bit experienced with any programming language
+5156740	5162340	but i'll explain in javascript terms when we go for uh the concepts actual concept but remember
+5163300	5170100	this like when i type when i check the type of a null value i'm getting an object and value as
+5170100	5178820	a null itself but we'll pick it up in the future okay why object data type is coming as like this
+5178820	5191300	one like object okay then uh bullions right let's say h true uh
+5196020	5197300	okay
+5197300	5199780	okay
+5206740	5211700	now if i print this now if you see i'm able to print two true false and type is becoming
+5211700	5217540	bullion so these are the broad level categories guys what you generally see okay
+5219380	5226580	uh right let me write down bullion but i want to show you one thing here is
+5227700	5233780	there's something called undefined in javascript does anyone have uh
+5236180	5238500	yeah i was coming to that something right away
+5241700	5251700	okay now two things says one we need to understand undefined and not defined but before going to this
+5251700	5256980	one i hope these examples are clear right i was using const everywhere because i was initializing
+5256980	5263940	and reusing the same thing but if all this all these things are clear can anyone explain
+5264660	5267220	what do you exactly understand by these two things
+5271220	5276660	let's say i print something like console log of alpha
+5276900	5284260	what i am supposed to get as a value output do you see do you see anywhere we have a declared alpha
+5284820	5292340	variable no right now when you haven't declared it what you are supposed to get
+5295300	5298340	if you haven't declared we have not declared it
+5298580	5301300	if you haven't declared we have not declared it
+5306500	5309700	is it's in the word itself like we haven't declared it we
+5309700	5317380	not defined it we have not defined it right so that's what error upendra like if you see this
+5319060	5322820	what sort of error you will get it says that alpha is not defined
+5322820	5324820	so
+5325540	5328740	is undefined is clear what undefined talks about
+5331220	5339300	sorry not defined not defined not defined talks about variable
+5342180	5344980	which is not declared
+5344980	5353380	it okay clear guys now i'll do something like
+5356340	5362900	if you say till i we have declared i'll declare something like j let's say j and
+5362900	5364980	do something like console dot log of j
+5364980	5378420	okay and i try to print it now okay let's say i'll clear this console using clear i'll comment
+5378420	5382900	this line because this will throw error and stop the execution that's how i print this
+5386500	5389780	do you see this i'm getting undefined
+5390180	5395860	so what undefined talks about is
+5403460	5417700	when variable is declared but not initialized is that clear two steps guys firstly not defined
+5417700	5422420	goes for simple thing like if you haven't declared anything if you want me to use type
+5422420	5429540	of i can do that also type of let's say what we'll get here in the type of okay parallel
+5429540	5437940	let's say also i print the j and for not defined you'll you'll be thrown some error but here
+5437940	5443940	let's execute this one and see this you see this type of is also undefined because runtime
+5444820	5451060	you don't know what type it is now is this definition clear
+5455540	5462660	i'll explain undefined keyword in further depth in further depth in the next class when we declare
+5462660	5469300	when we understand one more concept called harvesting we'll come to that but i hope
+5469300	5475060	primitive data types is clear guys whatever things we have discussed or you hope those
+5475060	5482420	topics are clear now we'll go to something called as reference data types are non-primitive data
+5482420	5491860	types let's say non-primitive first one as you suggested let's go for arrays what is an array
+5492340	5493060	according to you
+5496740	5497620	what is an array
+5504580	5512500	give it don't try to get a bookish definition just say collection of same data type or collection
+5512500	5518420	of items all right collection of items let's say collection of items now but here the only
+5518420	5523380	difference in javascript is that we don't care about type of items we can store any item
+5524100	5531060	it's like a person like a foodie like keep on serving i'll eat everything
+5532180	5540500	that's how arrays are in js like they can take and consume anything let's say if i define after j
+5540500	5547780	uh let's say okay now inside this one thing surely you can declare same data type
+5548660	5559060	or else you can say that i'll have string let's say my anyone's name some bit okay then i say
+5560500	5569540	one then i say two then i can say true then i can say null so i stored all the values okay
+5570820	5572740	now let's say console dot log of
+5576260	5586820	type of k and print k similarly console dot log of type of l and print l okay clear this console
+5587540	5594980	print it you see this here type of kl is coming as an object
+5594980	5600180	object because we came for the non-primitive data types by default
+5600180	5603140	in non-primitive data types everything is as an object
+5605780	5610180	okay in primitives you will have different data types but when it comes to non-primitive
+5610180	5615940	everything is an object arrays whatever you are storing inside is an object object can be of any
+5615940	5621620	type it can it doesn't need to be a same type of data that you are putting it here it's a collection
+5621620	5625620	of items everything that whatever you can you want to put it you can declare in that
+5627140	5636340	is that clear guys arrays in javascript collections of values
+5636340	5651780	which can store different data type values okay yes anyone having any doubt till now
+5657780	5663700	right now comes actual main powerful concept guys objects in js
+5664420	5671540	now whenever you go for any object oriented programming or anything right whenever you think
+5671540	5679300	of objects right abhinav will take in 10 minutes will take the in break in 10 minutes then
+5680340	5685700	five minutes i'll complete the object and functions then we can take it five minutes on works
+5685860	5686200	works
+5690500	5697700	okay guys just cooperate with me for some time we can end the class soon if it's up to you but
+5697700	5704900	let's see whenever you think of objects in any language what do you see it what do you
+5705700	5709700	get an idea of what are you storing in objects
+5716260	5721620	okay think of it guys whenever you are thinking in terms of object what type of data you are
+5721620	5726020	storing let's say you are building a class why are you building a class
+5728500	5735700	anyone coming from object oriented programming why this class works data of a group or
+5736740	5739940	let's say can i say this as a custom data type
+5739940	5748660	okay because whenever i say class like whenever i say create a class of a building i'm storing
+5748660	5756340	a building as a data type and so i'll declare multiple things isn't it so objects are generally
+5756340	5767220	used to build your custom data types where which can store any data that you want okay
+5767780	5774900	let's say how can you declare an object here let's say isaac const object whenever you're
+5774900	5782340	declaring an object you can create open a brace and let's say instead of object let's say we're
+5782340	5790820	creating some kind of person object a person will have first name let's say some bit
+5793540	5794660	last name will have
+5797380	5805940	uh we have three party and under some bit so i'll be using some let's say i'll use my back
+5805940	5811380	and last name shatma okay and let's say he'll have also a phone number
+5813780	5821300	right let's say i give some random number okay and also he'll have h
+5821300	5831940	okay let's say 20 okay so this is what a custom data type looks like right like if you go for
+5831940	5836900	someone coming from a background of java he would have built a class like this one
+5836900	5843460	and he would initialize or else he would say this way right guys pardon me if i'm writing this
+5844580	5848500	but this is how it looked like right last name then you declare all the things
+5849220	5856020	and you build up because you can create instances and you can use it right but the idea is here is
+5856020	5860660	that you building a custom data type there is no data type declared in this language which can help
+5860660	5865540	you to store this content so we created a data type called person and in that we are storing all
+5865540	5875140	these details is this clear now one way of accessing this items right let's say i'll show
+5875220	5879540	accessing a object later but how can you declare and console log it
+5880180	5888820	and now if i do something like type of let's say type of okay and i print it if you see i'm
+5888820	5898500	still getting an object and it is printing this one okay clear guys about uh like objects
+5899220	5904740	so now we'll take break and we'll come back uh so that i can get your full energy
+5904740	5921620	uh how many minutes break you need okay uh let's say if you want that type of first name right
+5924260	5924760	okay
+5929380	5929880	okay
+5930980	5934100	you see the string is being printed because it's a type of string
+5935700	5941700	some bit uh guys how many minutes break you need it please put it in the chat uh
+5942820	5948020	because i would need uh can we use let instead of course yeah you can surely use
+5949620	5950500	you can surely use
+5952820	5958180	but if what why i'm putting this constant right i'm not trying to update this one
+5959220	5966980	uh guys do you need a break or should i continue because i've received mixed uh you know uh
+5967620	5970260	reactions if you need a break give me thumbs up
+5972580	5978340	okay many people are needing it uh guys let's take some break and let's come back and because
+5978340	5985540	i would need uh 20 25 minutes or more like to close the class uh let's say i give you
+5985540	5993380	eight minutes break okay let's meet back in ten by eight minutes guys
+6001140	6005380	thank you
+6015540	6016340	you
+6045540	6046340	you
+6075540	6076340	you
+6105540	6106340	you
+6135540	6136340	you
+6165540	6166340	you
+6195540	6196040	you
+6225540	6226040	you
+6255540	6256040	you
+6285540	6286040	you
+6315540	6316040	you
+6345540	6346040	you
+6375540	6376040	you
+6405540	6406040	you
+6435540	6436040	you
+6466020	6466040	you
+6484420	6485700	guys is everyone back
+6490500	6493300	i see three people four
+6493300	6504100	four cool five great guys thank you thank you so now till now everything is clear right
+6504100	6512500	arrays objects and primitive data types everything we have one thing left which is called as functions
+6514980	6520740	now what do you think function is all about what do you think function does
+6521700	6530820	or when we use uh methods or functions what is the use case of functions when do we actually need a function
+6533380	6536660	like any random definition that comes to you on the top of the mind
+6537380	6545380	type it that down type type that inside a block of code that can reuse okay uh anything else guys
+6551220	6555140	shoshanga suggested a definition a block of code that can be used
+6565060	6568260	there's any other definitions which performs a task
+6569460	6576980	okay i got two definitions a block of code reusable code right great so can i say this way
+6577540	6594820	okay create a function when you want to perform a specific
+6598740	6602900	task again and again
+6607060	6614660	can i say this a function definition like it's a that function is doing a task for us
+6614660	6618900	but when we want that thing to do it again and again we can create those functions
+6619860	6626500	and the definition how do you declare it in javascript is something you use a function
+6626500	6631060	keyword once you use a function keyword now you have to give a name to that function
+6631060	6637540	uh krishna you have raised hand okay you have lowered your hand again
+6639300	6645460	okay oh once you give this keyword function then you have to give the phone like let's say
+6646180	6656740	coffee machine is a function now after that you give this braces then you have this something
+6656740	6665460	called this one now inside this braces let's say inside this braces whatever values you give
+6667620	6673940	are comma separated and those values are called as parameters or specifically function parameters
+6676180	6680900	okay and whatever you are writing between these braces right
+6681380	6684420	is called as
+6687140	6688020	function body
+6691700	6693060	is this point clear guys
+6704180	6710420	uh props the arun will come to that when when you can say props and why we say props
+6710420	6715380	will come to that use case but future but whenever you are talking about a js function
+6716100	6722100	generally whatever you are passing inside this one is called as functional parameters
+6722100	6727940	and whatever you write a logic inside this is called like let's say a function body no
+6728900	6735860	i'll return a simple string guys i'll return a simple string i'll talk about the syntax the way
+6735860	6743220	i am writing a string where i am i trying to you know write a dynamic string i'll talk about it
+6744180	6748500	i need let's say this is something like i'm trying to say quantity
+6751460	6758020	how much quantity of coffee i need and i say that also type of coffee or let's say drink
+6758740	6764340	okay and i can do something it's like i can receive quantity here and also drink
+6766020	6768420	okay this is a function that i declared it
+6770740	6778420	now if i want to call if i want to execute this function or let's say what we say
+6779220	6783460	in order to execute this function you have to suppose to call this coffee machine
+6784820	6793380	i mean you're going to a coffee machine and saying that hey i need uh 200 ml of coffee
+6794180	6795700	let's say espresso
+6798660	6805700	okay or else you can say coffee machine 200 ml of coffee and can you be a latte
+6810420	6817300	this is syntax clear guys how you declare a function you pass a parameters and you execute
+6818260	6822420	call that function this logic is clear right
+6825220	6832260	when i'm calling this now let's say give me a second i'm not doing a console log here
+6832900	6839300	let me make a console log because i'm not printing whatever is being returned from the function
+6839860	6843300	now this particular string is returned right so i have to print that back
+6847300	6857220	okay clear it and print it now do you see that i need 200 ml of espresso 200 ml of latte something
+6857220	6862740	being printed now i can write this thing multiple times but what if this coffee machine is like
+6862740	6867380	dynamic right whatever quantity you pass you'll get that item so that's where function should
+6867380	6872980	be designed or used or created whenever you have a same logic and same task to be done again and
+6872980	6879460	again i hope uh this particular data types are clear like if i have to show you type of also i'll
+6879460	6889940	show this one type of a function uh coffee machine let's say uh i print this one i'm getting as a
+6889940	6896180	function okay for all the other primitive non-primitive data types we got as an object
+6896180	6900420	for this one we got as a function i'll tell you why we got this as a function also in future
+6900900	6908340	but remember this one any doubts guys still know in data types file whatever we have typed
+6909460	6911300	no doubts right now
+6913780	6918980	this is the part that actually i wanted to teach you that's the content of it but i want to teach
+6918980	6924420	you some more things like some methods on arrays because in future classes we might not have time
+6924420	6929860	to deal with them instead of this can we use let and later const uh
+6936100	6942180	this is a dynamic way or else you can use this way also let's say i can use
+6945300	6952740	one of the ways writing this one very i'll talk about the syntax later const uh kabir let's say
+6952820	6958980	uh how can i build this because these variables are already initialized and you are just you need
+6958980	6966020	to consume that one of the ways like if you want to build a string and return it let's say
+6967380	6976180	item uh and you can say this one directly let's say i need uh and you can say quantity
+6976180	6981220	quantity all right you see you can say drink
+6983620	6987140	and also you can return this item both both things will work
+6989220	6995940	okay let's type it down you see this i'm also getting that but just to add more spaces right
+6995940	7003220	let's say i'm having the space also i'm having more space what's that one line of okay
+7006900	7011700	this is how also you can write you can also directly return it i hope this is clear
+7016580	7016900	okay
+7020340	7026900	going right guys uh few things on arrays right few things on arrays that i want to discuss
+7028340	7034580	yeah using dynamic strings is a practice that's how you will be doing it but yes let's focus on
+7034580	7040740	this let's say i have uh this list of elements till 10
+7043940	7048260	okay now how can i know how many items are there in this array
+7050020	7057140	what is the one thing that we can use like what is this particular how many items are there in
+7057140	7066500	this array like length right uh let's say if i do console dot log a dot
+7069300	7076740	length okay let's say this is a function uh i don't remember this is a function
+7077780	7084180	okay i am not executing right file uh let's say ls cd dot dot ls
+7084500	7093620	uh node arrays dot js okay it's not a function actually whenever you do this you'll be able to
+7093620	7100900	print it okay directly whenever it's like a primitive value where it will be updated so if
+7100900	7111460	you want to use uh know the size of it so size of an array you can use array dot length i hope this
+7111460	7115940	property is clear guys length property
+7118260	7127220	right now for i trading an array you have two ways okay one is a simple loop where i can you can do
+7127220	7133460	this what i'm doing is like i'm i trading from its particular a zeroth index to its length and i'm
+7133460	7143860	trying to print each index okay let's do this one i'm able to print it the other the other way
+7143860	7153780	around is using map a dot map or let me not teach map as of now we'll go back to uh map again in
+7153780	7162500	future uh what else i have to cover give me a second guys yeah map we can learn later
+7163300	7172740	we'll go for forage example let's say now what does forage does is that it will pick item by item
+7174580	7181140	it will pick item by item instead like sometimes yeah let's say
+7181140	7187860	okay now here you are getting an access to a index level let's say you want to access by indexes
+7188660	7194020	in arrays indexes always start from zero that is what we we know clearly when we have already
+7194020	7199300	learned dsa now this both loops are working in same way i trading through from zeroth index to
+7199300	7206260	last index but here you have an ability to select an index here it will you know do the like it will
+7206260	7210500	run through the loop it will try to print each and every element let's say i try to do this
+7211140	7216820	you see it is trying to print that same one to ten one to ten both the two times okay two ways
+7216820	7222100	of i trading for loop i hope this thing is clear is uh how you can i treat an array
+7227140	7232900	yes i treating an array is clear right when to use what okay now whenever you have you're dealing
+7232900	7240100	with an index right let's say uh now if i want to print only even based index items or odd based
+7240100	7245380	index items you would do this logic right you will do this one right console log off
+7248180	7254180	you have in this use case only printing even items but you cannot write that logic here you don't know
+7256100	7264660	simply but you always here also you have uh index let's say i write down this logic here
+7264660	7275220	uh both the things can be used actually
+7280260	7283540	let's say i comment this because this is clear for us anyways
+7284100	7288580	a simple use case let's see if this is working see i'm able to still print
+7288580	7292580	uh all the
+7294980	7301860	hey okay index if i do i'm printing all the odd elements right
+7305140	7308340	so index here starting is from i think it's starting from
+7308340	7314340	from
+7317620	7321300	give me a second if i print only index
+7327860	7332660	so i'm getting all the index zero to nine that's fine i'm checking to i'm trying to print only even
+7332660	7338100	indexes so this should be working fine right it should give me all the elements
+7340420	7344260	or let's say you can get only index value here that will give you again
+7348660	7354420	but generally the more handling like for each loop is going through whenever you want to do
+7354420	7362340	some iteration let's say now each element you want to do some operation on it let's say return
+7363380	7371380	or console do console dot log a common operation let's say element dot element multiplied by three
+7371380	7377940	you want to do a common operation across them then you can use something like a for each loop
+7377940	7383620	where you are trying to do for every item like for each item you are doing some some same logic
+7384260	7388660	okay but whereas you need a more control over it then you have to go for this one
+7388660	7393700	this one if you need a further more control then you can go for map i'll tell you
+7393700	7398020	of which one to use when in the future once we introduce map i'll take all three of examples
+7398740	7403300	but i'm just trying to teach you syntax check there are the two ways of iterating over the loop
+7403300	7415700	is that point clear yes no then let's say now i want to add an item into this an array if i want
+7415700	7422420	to add an item into this an array then you have something called as method called as push we just
+7422420	7431620	do a push of 11 item if you do console log of a let's say i try to print a now
+7436100	7445380	do you see this item 11 got added because we pushed an item into it now the push method adds
+7446180	7453300	item into into the array at the last position
+7456580	7461620	okay and let's say if i do something like a dot pop
+7466900	7470900	console log of a now let's say if i'm doing this i am trying to re-execute it
+7470900	7477780	now if you see first when i pushed an item and console log i am able to see one to 11 items
+7477780	7482980	and when i'm when i try to print one to like i after pop i'm trying to print it again
+7483860	7487380	you are able to see like oh that item 11 has been removed right
+7490100	7490660	isn't it
+7493540	7499780	here in the next take second example so what pop does it it removes an item from the last portion
+7500900	7505620	okay and i think guys earlier also this was working fine when i was running through the index
+7506260	7511060	reason i'll tell you let's say if i print this and i use this logic
+7513620	7517620	let's say i use i here instead of index i declared it at this way
+7518660	7525860	now let's say i call this as a function of the index and let's say i call this as a function of
+7525940	7532500	index i declared it at this way now let's say i comment below things for a second
+7535780	7544660	and i print it so if you see i'm printing uh three uh nine oh okay uh element into three so
+7544660	7551860	i don't need to do this uh i'm print only element let's say clear this again i'm able to three
+7551860	7556660	print one three five seven nine reason i'll tell you one three finance one because we started with
+7556660	7564100	index one two three four always like the zeroth index is even index so it starts for one and then
+7564100	7573220	it printed uh index two then index four right we are doing uh printing all even index item so we
+7573220	7581460	are also having an index inside the for each i hope that point is clear right are also having
+7581460	7592820	index in for each look also going back to this one i hope push and pop is also clear now here
+7592820	7599220	uh one of the new tools methods are available in javascript if you want to play around with the
+7599220	7604340	first element of an array add a new element of the first to the array it's like you know
+7604980	7612740	to dq where you can in the queue you have a double like nq right sorry dq where you can add
+7612740	7617540	and remove from the first and last both places right it works in the same way here like if you
+7617540	7627700	want to let's say i do something called a dot shift okay and i try to console log now let's
+7627700	7636260	say what is the output what happened guys i pushed an 11 item 11 and i console log one to 11 are
+7636260	7642580	there then i popped an item so 11th item was removed when i popped it and it did something
+7642580	7649700	called a shift now when i shifted the first item got removed so whenever you use shift method it
+7649700	7656900	means that it is it will remove an item from the start i hope that point is clear shift is used to
+7658260	7663540	remove items from start of an array
+7666260	7672580	okay if you want to add an item into the start right let's say i go and do something like unshift
+7674660	7678420	unshift and add okay this will help us
+7681220	7685780	to add an item onto the start again let's say i clear this console for us
+7687700	7701460	okay if you see we removed item one then we did unshift of one it added item one onto the first
+7703140	7705140	is this clear guys shift unshift
+7705140	7709140	okay
+7716900	7719620	i hope this all the methods whatever we discussed are clear
+7720260	7723860	then there is some one method called as slice
+7727220	7730500	let's say i use something called as a dot slice
+7730500	7736660	slice is used to you know like works like a
+7737380	7743940	knife generally what it does is like whenever you say that whenever you cut let's say you have a
+7743940	7753380	banana you slice the banana what it does once you do a slice what it does it is broken into two parts
+7753380	7761540	right and you get the one part and you give the other person the other part if you are slicing it
+7761540	7767780	right so it works in the same way slice is actually dividing an array into two pieces
+7767780	7772260	now if i say slice when i'm making a slice i have to decide the position where i want to make a
+7772260	7779060	slice of it so if i did if i let's say that i am making a slice of position three when i'm giving
+7779060	7785140	a three i mean to say that i'm giving an index three and what is slice doesn't slice gives back as
+7785780	7792820	an array after being sliced now when it is being sliced right let's say this is a banana
+7792820	7799380	you sliced it in between let's say in middle element middle index the first half of the
+7799380	7806100	banana you will get it back returned in the b item okay let's say i try to do console log of b
+7809380	7814100	i'll show you here with an example let's say i comment this thing
+7818020	7819540	okay clear
+7822260	7829620	do you see uh sorry guys you return you actually get last items i mean to say starting from that
+7829700	7840100	index like first like if you go by writing an index right zero one two and three when you slice
+7840100	7846980	this item you got actually all the remaining items is that clear like slice is actually dividing an
+7846980	7854020	array into two pieces given a starting index you you have to that will be returning you you
+7854020	7859220	cannot use that immediately but you have to store it in a new variable to slice it okay
+7860580	7869860	um divides an array into two pieces
+7873860	7878500	and returns other half as new array
+7878500	7882660	okay other half
+7884820	7891140	that's new array okay because why i'm saying is a new array is like let's say
+7891700	7896020	i try to print a here now let's see what's there in a
+7898580	7905700	do you see the one array is not disturbed only uh like whatever copy you are getting in b
+7905700	7909540	that will be there like you can get the items that you want and store it here
+7910740	7914580	okay item a will be still uh persist tejal
+7919300	7922020	i'll show you like if you want only item let's say
+7925780	7932100	con see a dot slice let's say i give zero comma three
+7932100	7940340	okay when you do this console dot log of c you will get the initial items
+7942180	7946580	if you see here so it takes either of index start index and index if you are giving only
+7946580	7952260	one index it will consider as a end index yeah it's like a substring but it works on array
+7954500	7961460	cool so you can say uh start and end index
+7962260	7966020	whatever you want to give the whenever whenever you are giving three
+7966020	7970820	and you're not defining the last index by default it will consider the length of that array
+7970820	7977860	okay which is a dot length minus one this is something we know right by default but
+7977860	7985140	it's given by default okay uh is slice clear guys
+7985940	7994660	okay i hope uh no one else is having doubts on this then i'll give you one uh homework guys
+7994660	8003780	to understand it one method called as splice i'll take this in the first uh point when we start the
+8003780	8011780	class i'll tell it what it does it is helped to it it is helpful to add items remove items
+8011780	8016820	and replace items in an array
+8019300	8025300	this one particular method can be helpful to do all the operations splice is that powerful
+8025300	8032100	it's a combination of adding removing and replacing okay you guys just explore this one
+8032100	8035620	and we'll come back in the next class and i'll try to help you out understand this
+8035780	8044180	okay with few more i'll i'll try to enlarge more uh you know uh with more amount of examples then
+8044180	8052340	we'll explore this there are few more methods like you know uh because uh there are methods like map
+8054100	8062500	okay reduce filter all this like methods are there on array which are like bit advanced
+8062500	8066740	i'll take one by one with the concept these are the initial set of methods that you might be
+8066740	8073700	dealing with manipulating an array or i treating to an array okay we'll pick them in future but
+8073700	8078660	these are the usual uh arrays like whatever methods that you see in daily life but the
+8078660	8083620	other advanced methods that you come across we'll explore that in future i hope that point is clear
+8083620	8091060	guys so guys uh i hope you guys enjoyed this video and i hope you guys enjoyed this video
+8091380	8097300	so guys uh are there any doubts are there any doubts in today's class if you have doubts please
+8097300	8104980	stay in call or else uh the content for today's class is over i hope you like liked it uh enjoyed
+8104980	8113700	it with history of js and getting started with js part and uh meet you soon in the next class
+8113700	8120180	on tuesday but one thing i want to say you guys is that prepare well and give your best attempt
+8120180	8126980	in the context or whatever html css we have learned revise it complete your assignments
+8127540	8137780	and let's come back okay but uh okay vignesh i'll try to revise what slice does okay firstly slice
+8137780	8145860	divides array into two pieces okay and it returns let's say returns and as a new array
+8145860	8153860	okay okay now so a slice generally takes two things
+8156180	8157460	starting index
+8160020	8161220	and ending index
+8163700	8169540	like from where to where you need an array because it it is returning we have to tell like when we
+8169540	8175620	are storing inside a variable from where to where you need it if you are giving only one variable
+8175860	8181460	it means it will consider that is as a starting index and by default if you're not giving an
+8181460	8188900	ending index it will consider ending index as a last element of this array that's the reason why
+8189540	8194660	we were able to get from starting from index third till the last item of 10
+8196980	8200820	when when i did this so how does it work like even if i give
+8200820	8208180	a dot length minus one it is still same even if i don't declare it here by implicitly it
+8208180	8215540	will take that one as an end of array but if you want a specific uh you know range of elements in
+8215540	8224500	your new array that you're creating you can give starting index and end index okay now guys i have
+8225220	8231300	one topic actually that you know one question actually in assignments that was asked
+8232740	8239300	okay that i have to take it i forgot it i hope no one got dropped off the call right i can pick it up
+8241540	8245460	let's say i'll create a new file new folder
+8248580	8249780	css doubts
+8250660	8255940	i'll keep keep as css doubts for us so that if if anytime we are
+8260980	8269700	uh not exactly that one but uh i think some bit you yourself you yourself reached it right
+8269700	8271700	z index and what was the other one
+8271700	8273140	index and what was the other one
+8278020	8285540	what was the other one what is that like who raised it guys in the initial class
+8285540	8294740	margin collapse right yeah akabey thank you so uh give me a second i'll pull an example
+8302260	8304740	so
+8308900	8320180	okay let's say i have a diff and i have a paragraph tag in that i see lorem 20
+8322260	8325700	okay and i try to recreate this one
+8325700	8327700	so
+8329780	8331300	and i go into style block
+8333620	8336180	uh i'll talk to the talk to about large ungeth
+8338500	8341620	okay i use div tag then
+8343940	8350980	uh i what i'll do is like i'll add something called as margin let's say first we give uh border
+8351540	8359540	of two pixel solid black and let's say i have some padding of 10 pixel
+8361140	8367700	and i'll keep margin as a 10 pixel on each side there's nothing new i have done right kabir
+8368580	8376100	till now where it comes to uh things that we have discussed let me open with this one as a live server
+8380980	8384100	so
+8387700	8398340	now if you see here one thing firstly i'll go into the body tag i'll open the diff now for diff i've
+8398340	8406100	declared margin for top bottom left right as 10 pixel is that clear now when i have two diffs
+8407060	8412580	for this one margin bottom would be 10 pixel for this one margin top would be 10 pixel right
+8414100	8416100	like first day when second day just
+8420900	8426980	are you able to follow uh guys everyone like first day when second day first day margin bottom will
+8426980	8432900	be 10 pixel and for second day margin top will be 10 pixel so combined height of both margin should
+8432900	8442340	be 20 pixel isn't it the gap between here should be 20 pixel right but here if you go and see
+8444100	8449780	if you go and see what it is 10 pixel if i go and hit here it's still 10 pixel
+8452020	8459940	why that is happening so what it will does is it will take it will collapse the margin it will
+8459940	8467220	combine like let's say there are now i have took an example of 10 10 pixel okay just it should be
+8467220	8471860	20 but it worked as a 10 reason i'll tell you whenever you have two elements working right
+8472900	8480500	uh again when i explained your box model what we thought of margin as a distance between two houses
+8480500	8481060	isn't it
+8483620	8491940	let's say this is a house one this is a house too if i say this house should be 10 pixel away from
+8491940	8498660	the left house this house will say that i should be 10 pixel away from the right house it doesn't
+8498660	8504820	mean that both should be away of 20 pixel when i add it if they maintain 10 pixel of gap that
+8504820	8516580	is enough isn't it that is what margin collapse happens margin collapse is a phenomenon
+8517940	8526260	which will take like a maximum amount let's say this says that but this example is clear let's
+8526260	8535220	take something else what i'll do is that i'll give an id here as first item
+8537540	8540820	i'll give id as second item
+8543220	8548260	okay now let's say this is hashtag first item
+8551220	8553540	i'll say copy this one and i say
+8556420	8559540	second item and i'll give something margin as 12 pixel
+8561540	8570420	okay now let's see what happened if i go over here and i select the pixel okay let's say i
+8573060	8580100	let's say i select for first item first okay here still the margin is 10 pixel only
+8580100	8588100	okay but there is a space between below right if you see there is a some space if i try to zoom it
+8588100	8597940	in i'm not able to zoom in this one if i hover this item top item there is a space a slight
+8597940	8605380	space right that two pixel extra that is coming from below stop margin margin top because here
+8605380	8611540	this item is having 12 so whenever there is a house right or whenever there is a something
+8611540	8619220	diff margin collapse will always take maximum of two items margin
+8623620	8628180	as margin okay let's say as margin
+8628180	8636740	so are you able to understand margin collapse property guys
+8641300	8642900	yeah it's a default behavior open
+8646500	8653780	okay uh i'll just check kabir has given me thumbs up yeah great now then
+8653780	8659940	then there was another question that kabir has asked me is like about
+8662260	8668980	uh like absolute uh like this one z index now let's say i make both the positions as absolute
+8668980	8673220	guys help me out what will happen if i make both the positions as absolute
+8676020	8681620	what should be the behavior we have learned this one you should know it
+8682420	8687300	and i'll give something background color as red and blue
+8696660	8697620	yes what should happen
+8699780	8703780	whenever position absolute is applied let's go back to this one
+8707060	8710740	top right window right both will move to top right window with respect to top
+8711220	8715860	top right window parent related if here we don't have parent related if so everything both should
+8715860	8722980	be aligned to the top left right if you see both are aligned to top left firstly because the content
+8722980	8730660	is more if i reduce the content let's say if i reduce the content as uh lorem five four okay
+8734020	8737940	lorem four uh
+8740740	8748820	okay now they are both are aligned to top left but do you see here blue is coming on top of
+8749700	8758660	this item first item is that point clear like both are moved both are having color different
+8758660	8767140	color one is having red one is having blue now what if i want red to come on top what if i want
+8767140	8775780	on top what if i want red to come on top then i can do something called as z index
+8777860	8778820	and i can say two
+8782020	8788260	what does it mean whenever z index is a property that can be applied only to something like
+8788260	8798580	position absolute or multi-layered and this multi-layer can happen only when i say this layers
+8798580	8805140	example right if you see here does this portion create layers when applied if you see these
+8805140	8811460	examples relative fixed sticky and absolute whenever this layering is happening if you want
+8811460	8817300	a particular box to be top off on something or behind something you can play around with this
+8817300	8825220	property called as z index what if i want now blue item to come on the top z index value of red
+8825220	8836500	is two and i'll go here i'll say z index of this item make it three so whatever z index will have
+8837460	8843060	no not exactly an absolute kabir i'm saying that whichever is creating multi-layers right
+8843860	8849940	sticky absolute anything you apply z index value is generally like whichever is creating multi-layer
+8850580	8856980	okay multi-layer for them you can use z index which one should come on which on top of it
+8856980	8862820	so you can generally is used to show which will override the other one behind the scenes
+8863620	8866980	i hope z index is also clear guys what does that index do
+8867460	8875220	okay great guys so yeah this was the two doubts kabir has asked me so i hope these are also
+8875220	8883700	resolved one thing i'll do is i'll push the code and i'll push the other things like content that
+8883700	8893780	you can refer to and other things later class eight notes welcome class eight notes
+8893780	8899940	welcome kabir so
+8903140	8909300	yeah you can say that something let's say if i say if i show you right z index property
+8914340	8921060	okay if you see they use an example of absolute like they say that z index property specifies
+8921060	8925700	the stack of order of element now the stack becomes only when you have multi-layered
+8925700	8930020	okay now they said z index only work on a position element absolute relative
+8930020	8936740	fixed and sticky right that's when you create multi-layer right two three layers of items
+8938660	8947300	yeah yeah that's how works okay they also say that flex items that are directly children of
+8947300	8953540	flex items because using flex right you you you some people specifically play around with items
+8953540	8959700	right position of items in grid you you can see like you explore from grid row one by three grid
+8959700	8966260	column two by three or you extend it now if both things are colliding how can you manage it so
+8966260	8971060	those sort of properties but z index is generally used when you have multi-layer structure that
+8971140	8972260	concept should be clear
+8975140	8983220	okay so other than this one i had some bit question
+8985220	8991540	let me go back and check this guys i'll start the doubt session for our sake before i start
+8991540	8998340	taking any other things so anyone having any doubts they can stay guys in the call or else
+8998340	9004500	free free free free to drop the call saturday we don't have class please attempt your contest
+9004500	9011380	and do well guys i would be waiting for your feedback like how was the contest and how how
+9011380	9016420	you're able to do it do let me know if you face any challenges do let me know drop in whatsapp chat
+9016420	9026580	okay well i'll help you out if you need anything from my side so this seems to be a react project
+9028740	9032580	okay grid layout
+9046820	9057380	uh this is a base file home page.js you have nav header slides and footer and then you have
+9059300	9062340	okay you you didn't anything print as a new layout
+9065460	9073780	okay fine home page then you went to homepage.css then applied a grid properties into it
+9075060	9079540	and this property is some bit yeah i'll do this one unmute you
+9080180	9090260	yeah some bit uh try to speak i want to mute you yeah i'm audible yes yes yeah so like my question
+9090260	9100020	is if you like run this js file right do npm start or something let's say i clone clone your website
+9100020	9102500	let's say i clone clone your website
+9109220	9114500	this js file even though it has the same css right it doesn't cover the whole page but the
+9115060	9124500	same css file if you can go to that layout.html file which is in new layout or some file it covers
+9124500	9142980	the whole page that's the doubt why there's a difference okay i will check that
+9154500	9158980	version
+9170100	9172980	bbill plugin version
+9172980	9187540	then i have issue with the installation of this one like i was also getting that same issue but
+9187540	9194260	it was running in my system it was just showing it as a warning okay uh let's do one thing clean
+9194260	9200100	this one npm cache clean hyphen hyphen force
+9213540	9215060	then npm i
+9215060	9225060	the existing package dot lock dot json file right that's what creating an issue
+9226660	9234660	but you can delete that file and clean the cache like i tried to add a dependency in that okay
+9236500	9238260	but again there was some version
+9238820	9245860	you used create react app no yeah this one
+9247860	9254260	white is also good but we'll use react create react app itself for learning react but that's
+9254260	9257140	easy because it's that's been legacy how it works
+9257140	9257780	how it works
+9261220	9267220	let's wait for a minute till it install but uh like then app.css
+9269300	9274500	it doesn't cover whole thing you know you can go to view change or something that above file
+9275940	9284420	view change yeah you can do this show preview thing uh okay that's fine uh okay this is not
+9284420	9291540	working uh for me this is fine this is something example we have already learned tensors that's
+9291540	9299540	fine correct so this thing has the same css okay in that home page dot css okay this is a js file
+9300180	9304660	but for this i have to run the react app right uh let's do one thing what i'll do
+9306260	9312340	is like can i create a new project itself here uh let's say i
+9314900	9318900	have a test app
+9342740	9343720	test app
+9344420	9372660	I guess it's NPX, sorry, note package executor, what I believe is that, where you might have
+9372660	9379780	messed up, so there are two things, if you see, what is a root file, app.js, if you go
+9379780	9388940	and see here, in app.js, there are some default styles, you wouldn't clean it up, those are
+9388940	9396540	applied directly on an app file, and second thing that you might have messed up is that
+9396540	9403660	one, this on the index.css, if you see, on body, margin is fine, but padding and everything
+9403660	9409660	should be cleaned up, I'm assuming that root files have not been cleaned up, but if there
+9409660	9416180	are any other issues, right, I'll explore that, yeah, like what's happening is it's only covering
+9416180	9423340	the whole three columns, right, they're only covering one third of the page, okay, that,
+9423340	9434780	we can explore that issue, not a big deal, let's say I copy our, this one, app.js, let's
+9434780	9447980	say, copy this, then I'll try to replicate your issue, firstly, home page, let's say
+9447980	9463620	I copy this file, and I paste it in the src, and I also copy this one, I paste it in here,
+9463620	9478940	okay, I minimize this one, and I go to package.json, then I start command run, okay, I have another
+9478940	9497260	app running, why, starting development server 302, let's say I have this site, so if you
+9497260	9502620	see this, firstly, it's covering one by third, right, one thing you can always do is, like
+9502620	9509420	you can go and see, what are the other things, if you see by default, grid is applied, so
+9509420	9515940	grid is applied, and first column is only coming for 20%, okay, if I edit this one,
+9515940	9527420	and I make one fr, let's say directly, one fr, okay, this will work by default, but where
+9528420	9536060	coming, that we have to figure it out, right, if I explore this, div root, on this thing,
+9536060	9545140	we don't have the grid, on the body level, I'm having, okay, I agree, this grid is coming
+9545140	9554860	here in the body tag, if you go and see, firstly, index.js, css, on the body, we have applied
+9554860	9559420	some of the things, let's say, in app.js, we can remove that import, I guess, that import,
+9559420	9575100	right, I can say directly padding, zero, margin zero, okay, now, if I refresh the app, no,
+9575100	9588620	I need to restart it, it compiled, is it compiled, npmbram start, okay, let's say, I go to package.json,
+9588620	9605900	again, I still execute this file, why, okay, still, I'm able to see the grid, okay, yeah,
+9605900	9617740	let's go back and see why this is happening, what if I remove this, this is fine, as soon as I gave
+9617740	9628700	this, height is 100 vh, now, let's make width, yeah, if I increase the width, it's working, like,
+9628700	9637580	it is taking 100 view, okay, so, by default, we are assuming that width is not being consumed
+9637580	9645820	completely, you know, yeah, so, let's do this one, why it is not consuming whole width, firstly,
+9646300	9658300	and if I remove this property, one thing, it's, if you see grid, right, grid, whatever grid areas
+9658300	9664300	you used, okay, that thing is being applied, because if you see the sections, right, side
+9664300	9671420	section is coming here, content section is here, those sections are divided right away, footer
+9672380	9679340	section here, but all things are assumed to be in this one, correct, so, it's coming inside the 20
+9679340	9685180	pixel, now, if I go in the header section, now, what is being applied here, it's the same example,
+9685180	9692700	though, but where did it messed up, let's explore this one, yeah, there is some issue in the template
+9692700	9700940	areas, huh, so, let's explore this one, firstly, header is grid area, header section, fine,
+9701580	9709420	but here, if I go and check in the, this one, the way grid template areas, we have defined it,
+9711020	9716140	header section, header section, header section, this is fine, supposed to consume whole thing,
+9722940	9725260	okay, by default, it is consuming,
+9727500	9734860	because, one thing, if I remove this width, let's say, I make three columns, I don't give FR unit,
+9734860	9747740	okay, 20%, and I say 20%, let's see, this is working, no, no, I have tried every, like,
+9748380	9756700	thing, 44, other units, other units you have tried, yes, yes, only the, every change that we make on
+9756700	9763340	the first one, right, only that is getting affected, the rest two are, okay, because,
+9763340	9768620	what I assumed, right, firstly, the value by default, whatever you have applied,
+9768620	9775260	it was having FR unit, if you don't provide width, how this FR will be calculated is something that
+9775260	9780380	I'm assuming, okay, I was thinking, like, with respect to the window size, it's calculating
+9780380	9786140	something like that, okay, if we consider that way, let's say, if I select this item,
+9788620	9791580	let's say, I'm not able to select this content area itself,
+9794380	9798380	because everything is dissolving here itself, but,
+9798380	9805500	yeah, I think it's about something that,
+9808220	9815580	like, let's say, is it, is it necessary to provide
+9815740	9831740	width of container while using grid?
+9837740	9842300	Okay, I'm trying to learn, yes, I know,
+9843020	9852060	yeah, they have provided a width of 100%, right, so, I believe we need to provide width,
+9852060	9856460	why not write a simple code, but,
+9862540	9867420	and also, I guess, HTML provides some default width, because it was written, like, when we,
+9867420	9875660	if we can go to the file, right, okay, which file, any HTML file, by default, any default
+9875660	9886780	HTML file, right, yeah, let's say, this is an index, index.html, and I think you can do, yeah,
+9887740	9890780	like, width is equal to device width or something,
+9891500	9899420	yeah, if I, if I use this meta tag, then, if I use this meta tag, let's say, in this app itself,
+9900060	9906620	let's go, yeah, I guess, then it might work, it might work, but let's explore this index,
+9906620	9916220	this is a JS file, where is the HTML public folder, HTML, and either with device width, yeah,
+9916220	9924140	yeah, so, this is not coming from there, okay, I'll explore the reasoning and I'll get back to you,
+9924140	9928780	but, I think, width is something we have to provide, but, I am not exactly sure whether
+9928780	9934380	it is mandatory, Sambit, I'll come back and let you know on that, yeah, sure, I'll also try to
+9934380	9942380	see now, yes, well, this is really corner case, like, generally, like, firstly,
+9943260	9949260	whenever you are using fractional unit, how does fractional unit is calculated, that we have to
+9949260	9956060	specifically tell, that is what my belief is, but, if you are not, let's say, if I don't keep height
+9956060	9963740	also, do you see, it also broke the height part, yeah, so, I believe this height and width is
+9963740	9969100	something that needed to be provided, and by default, for index, that simple file, right,
+9969100	9973500	while we are rendering, in your example, right, in your app, where you use this one,
+9975420	9982700	let's explore this one, if I open this on a live server, okay, this file, right,
+9983500	9991020	let's say, I go and open a grid layout, I have height, if I remove this height also, if you see,
+9991020	9998540	it's breaking in a way, yeah, okay, but, how does width is calculated as 100%, you know,
+9999580	10003580	if I go for the computed, always go for the computed, if you want to calculate what is
+10003580	10011580	the height and width of it, I got height, then, let's say, I go for width, if you see,
+10012300	10020220	by default, I'm able to get it, but, for our app, if I go in the app, if I select for the body tag,
+10020220	10028940	and I go for computed, width I'm getting as 1433, but, if I go for the, this root element,
+10029900	10036540	this is the body, right, I go and select here, my width is coming as 286, do you see this, yeah,
+10036540	10042940	correct, there's a difference between what our content is being consumed, and what our
+10042940	10048460	screen is providing, yeah, so, wherever, I believe, wherever you are using a grid, right,
+10048460	10053500	it is supposed to, you give that how much percentage of screen I need, then, it will be fixed,
+10054140	10057660	yeah, got it, yeah, it's better to always give the
+10059660	10066140	that's how, I mean, behind the scenes, how, because, I'll tell you, now, inside the react,
+10066140	10072620	right, this thing that you are building, returning back that, this each and every step, if you see,
+10073980	10080620	default folder, it is creating a, inside using react-dom, it is creating a new element, right,
+10081020	10087580	root element, that is acting as a base file, now, how they are appending, how they are distributing
+10087580	10092380	is something we don't exactly know, so, it is assumed to be, take full content, and play around
+10092380	10100380	with that, yeah, it might be different in case of html, and this thing, right, yeah, good, good one,
+10100380	10108300	you tried on react, that's good, okay, yeah, I hope your doubt is solved, up to an extent, right,
+10108940	10114300	yeah, yeah, yeah, I'm clear, sure, thank you, so, I'm muting, yeah, thanks a lot, yeah, sure,
+10121660	10126700	guys, any other doubts, if you have any other doubts, or any other one, who tried this use
+10126700	10144220	cases, let me delete this, thank you, Maneshwara, Ankit, if Ankit is there, Ankit is there,
+10147100	10152300	Ankit, you are facing challenge in understanding JS, or how, what was your opinion on that,
+10153260	10158060	I just seen your comment, I was not able to respond to that, but I just want to understand like,
+10160700	10169900	it's hard for you, so, one thing, one thing I would say is that, whenever you feel this one right,
+10172140	10175980	something that I don't understand, right, one time, what we are supposed to do, we are going,
+10175980	10180540	we are supposed to go and understand, repeat it, right, or else go to github repo, and just see
+10180540	10185420	those syntaxes, but if you are facing any challenge, understanding that concept,
+10185420	10190620	talk to me in the class itself, directly, I'll try to repeat that content, I'll try to do best
+10190620	10196540	for myself, if it's something new, you are trying to learn, it is supposed to be difficult, and
+10197260	10202620	let's try to put best efforts from our side, and let's see, if it is still not working out,
+10203420	10209740	we'll figure it out, okay, yeah, it's something new, I would definitely say that, it's difficult
+10209740	10215100	to verify, understand, or even if you understand it, that needs some practice to come with,
+10215980	10223260	okay, so, let's keep spending some time at the end of the journey, right, just try to give your
+10223260	10229820	best efforts from this Jan 18 to Feb month, all the concepts, I, hopefully, I'll drive you to the
+10229820	10237260	best of knowledge, and I hope you will be confident with this language, okay, because today,
+10237260	10242540	it was really simple, basic variables and data types, just go through it, revise the content,
+10242540	10246140	any challenge, bring me directly, I'll try to help you out, okay,
+10250300	10252620	so, hello guys, then, if that is solved,
+10255740	10258860	I'll close the session for today, see you on Tuesday, guys,
+10259580	10268380	yeah, yeah, I'm there on WhatsApp group, I'm there, okay,
+10274300	10275500	okay, great, no worries,
+10278780	10281820	yeah, good night, Ankit, good night, all, good night, all, take care,
+10282700	10287180	see you on Tuesday, hope you do your assignment and have fun on this weekend,
+10287180	10294540	or complete assignments and then have fun, that is what I would say, so, hello, guys, bye-bye,

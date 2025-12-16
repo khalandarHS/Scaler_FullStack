@@ -1,0 +1,1616 @@
+Hi all, good evening.
+Guys, am I audible and visible?
+Can you guys hear me all?
+Guys, can you listen to me?
+Right, great.
+Okay.
+So, we'll wait for some amount of people, right?
+Let's wait for some time, then we'll speak, then we'll start on it.
+But do let me know guys if you can see the screen share too.
+I'll start the screen share, right?
+If you can see the screen share, right?
+Great.
+So, let's say I have five minutes timer.
+We'll wait for five minutes and then we'll get started.
+In case if you have anything, you guys can ping me out here in the chat.
+If you have doubts or anything, we'll take it up.
+Meanwhile, we'll start again in five minutes.
+Okay.
+Okay.
+Okay.
+Yes, Sabino, today it's going to be the last day for JS officially from the content point
+of view like from the curriculum point of view like what topics we have to cover.
+But, you know, the journey of learning chairs will be still continued when you go through
+React and NodeJS till we completely cover all the things.
+Yeah, we have covered mostly all of the content which is required and needed for day-in,
+day-out development.
+I have always pointed out that in case you need anything specific, do you feel if you
+want me to cover anything, I was always open.
+Even if you bring it up, anything new, you want to figure it out, do let me know.
+We'll cut that.
+Okay.
+Then I'll talk about like we'll see like how we have covered all of them.
+So we'll share it with an example like have we actually covered or not.
+Okay.
+I'll wait for some more time.
+I see really less amount of people yet.
+Okay.
+Anyone having anything nice and the one having any doubt on anything like if you have anything,
+do let me know.
+Okay.
+I mean, today we have time.
+Can you share the link for the polyphys related with promises?
+Okay.
+So this is one repository.
+I was maintaining it.
+I'll build more, add things more there.
+I'll get that for you.
+Okay.
+I don't have all the promises related, but I have to figure it out.
+I'll get that.
+And so firstly, guys, how are you feeling?
+Like after complete, like we have completed it most like nine, 29 classes.
+Do you feel, you know, good?
+Do you have that good confidence on the web?
+Do you understand things when you see some any interfaces?
+Can you think of it?
+Like how did it work?
+How can you build them?
+What is actually it takes?
+Right.
+Guys, do you feel confident in that?
+Like, do you feel like comfortable seeing any website?
+Like, yeah, at least I'm able to relate things.
+I'm able to relate all the things.
+Isn't it?
+Okay.
+Very much less responses.
+Let's see this.
+So first, let me pull the iPad.
+So we'll take one real time use case, guys, in order to start with our class concept.
+Right.
+Let's let's pick any of your favorite website.
+Like, let's pick some e-commerce website.
+Okay.
+Any e-commerce website.
+Do you like it?
+Or do you find it interesting?
+Amazon.
+Anyone else?
+Guys.
+Any any other website?
+Flipkart.
+By the way, there's something going on in Flipkart.
+Do you know the latest news?
+They are actually planning to build their own UPI interface.
+I mean, integration with a UPI where they want to give a service like a payment service like all the fintech stars.
+So they are hiring heavily for UPI related things.
+I mean, front end, back end, everything, they are hiring it.
+So keep an eye on it.
+So keep an eye on it.
+Like if in case if you are interested in working with Flipkart or Walmart, they are hiring it.
+Okay.
+So.
+Okay.
+I've got the call for same.
+So so I got I to personally got the call from Flipkart.
+So I just wanted to tell right that, hey, they are hiring for the specific new domain they are going to build.
+More back end engineers.
+I agree that, you know, back end engineers because back end is like, you know, 10 services, whereas you have front end also.
+But there are openings, good amount of openings compared to earlier you have it some bit.
+But there are good amount of openings available for the front end.
+Okay.
+So let's pick.
+Let's pick Mintra or any other website you want to.
+Okay.
+Or else let's pick something like Quinn's.
+Have you heard this?
+This is also a Bangalore based startup.
+I mean, not a Bangalore based startup, but a US startup.
+They are also like they have their own.
+I mean, development team is in-house in Bangalore where they build everything.
+I don't know why this website is so slow.
+Say if I click something.
+But let's say, let's say now as an engineer, as an front end engineer or the knowledge we have currently.
+If you if you think from this one end to end, if you think this from end to end, how would you build this thing?
+Like what what could be the initial steps that you might be taking it?
+Any ideas just like if you can jot it down, it would be really helpful for me.
+Like what as an engineer, just think of it like as you used to answer me questions for the JS part.
+Right.
+I've given a question.
+You guessed out what could be the output.
+But now think it from this interface point of view.
+Like if you want to build this out, let's say I say this, this particular products page.
+Right where you're rendering products.
+How would you do this?
+How would you do this?
+Let's say you have wireframe somewhere.
+OK, from engineering point of view, let's say you have an engine like just you have to do a dev work.
+What would you look at it first?
+What could be the first step, guys?
+HTML code for the blocks, header, footer, related items, grid, wireframes, HTML, yes.
+But guys, do you see this?
+Like do you need you need information about the different products?
+Firstly, you need information about different products.
+Like there's a different images.
+There is a different pricing for each thing.
+Like let's say name and the color and everything, the way you render.
+Right. So where do you get this data from?
+Who is supposed to give you this data?
+Like if you remember in Async calls, we try to get data from some JSON server.
+So here, who's supposed to give you the data?
+Some backend API, right?
+Some backend API is supposed to pull in the data like you have to show it for the 59 cash made dollars, isn't it?
+So what would be the first like if you're taking it from the data point of view, what would be the first step?
+To make an API call.
+And fetch product data.
+And a product data can have good amount of things.
+Let's say it has an ID, a unique ID.
+Then let's say it has an image URL.
+So there's some image URL.
+Then let's say you have title.
+Price.
+Right. Rating.
+All this information will be there.
+Right. This is one product, but you'll have array of products which will be rendering.
+Isn't it?
+Just we got started something. We are just thinking about a case study.
+Like if you remember last classes, we tried to answer for different JS questions like given option ABC.
+How would you think of it?
+So here we are thinking in terms of let's say if there is an interface, let's say this is an interface of Quince.
+How would you approach it, build it?
+So the first point we figured out that, hey, we need this data for some somehow.
+So there is some back end API which will give us data.
+The data might look like this format.
+It's an array of multiple objects.
+So this is how the object will be.
+And do you guys know how to achieve this?
+Firstly, have you learned something related to this?
+Like how can we achieve this?
+Right. What? How? How would you do it?
+Like from, I don't know, from JavaScript point of view.
+Like how would you make an API call?
+How would you make an API call? Have you seen anywhere?
+Right. Fetch. Now that fetch.
+Fetch is an, what does fetch returns as?
+What is the return type of fetch?
+Once you make an API call, what does it returns as?
+It returns as a promise.
+Now in order to handle this promises,
+how would you handle it?
+Like is this, are we a consumer or a producer from this point of view?
+Like when we are consuming a data, are we acting like a promise consumers?
+Is it? So when you go for consumers,
+how would you handle a promise?
+How would you handle it?
+So a promise can be fulfilled, resolved or rejected.
+You have to use cases in order to handle promises.
+What were those?
+There are two methods, right?
+Which were used to handle dot then and dot catch.
+There are two things. One is dot then, which takes a callback function.
+There is a dot catch.
+So this was like if promise.resolved is called.
+If promise.reject is called, it will go into catch block.
+These were the syntax.
+Then there was another syntax like we have seen, like using async await.
+Right?
+So the function, whatever function you define, that itself is an async mode.
+We say that a function itself is an asynchronous.
+Then whenever you make a call, you actually wait for the fetch to resolve.
+And this wait actually resolves in response.
+Okay, now this is how you write in async await,
+but you always try to wrap these elements, right?
+Whatever things you are writing for the better,
+like whatever rightful use cases, you try to wrap them in try block.
+Like all the logic goes here.
+And if there is a promise.reject or any mistake that you have done,
+it will be cached in the catch block.
+Right? So this is something we have learnt.
+Yeah, always the backend APIs over the network are the producers
+who are producing the promise.
+Here you are a consumer.
+Until unless you don't do this syntaxes where you do new.promise
+and you are resolving reject.
+So by default, your network is deciding whether the promise is resolved
+or rejected, isn't it?
+So you are consumer here all the time, whenever you are.
+So most of the time, most of the time as a front end developer,
+you are the consumer of a promises.
+Whenever you are talking in terms of like actually getting the data,
+because you are just consuming it.
+And most and 100% other than 99% of all the async methods,
+other than setTimeout and setInterval,
+all the asynchronous functions usually returns your promises
+because that is a better way of handling asynchronous call
+rather than using a callbacks.
+Right?
+So I hope this point is clear.
+First point, how would you do it and get the data for us
+and store it in a response object?
+So first part is clear, guys.
+If you go think from this like Queen's building thing,
+like you got the data and it is having an array of,
+let's say, array of objects available.
+Now, how would you approach this?
+Let's say you have an array of objects.
+Now this array of each object is having the whole information about the card.
+Now, how would you build here?
+What would be the next step?
+How would you render this into the HTML?
+What would you do it?
+Let's say you have got the wireframe and everything is ready for you.
+But how would you do it as a developer once you got the data?
+Store it in object and use it.
+How would you use it?
+How would you use it?
+What could be the exact steps?
+Let's say if I want to do it second step,
+what would I do once I got the data?
+Firstly, is it a static content or a dynamic content?
+It's a dynamic, right?
+It depends upon what product might come first or second.
+You don't know it, right?
+So as Dheera says, create element using JS and populate the data.
+Now, so firstly, once you got the object,
+for each object in this array, you will build a card element, isn't it?
+For each of this object, do you guys agree that in your JS code,
+you will write a function, function create card,
+where you pass on a product object information.
+Let's say this is a product object.
+Once you receive this, then you use create element,
+then devs, then for the image and everything, right?
+Once you got, once you build, let's say you call for each of the object,
+whatever project, product, object you got, out of that,
+you go and for each, or let's say since, let's say for each,
+you got and you call this create card.
+Okay, now let's say what you will do the next step.
+What could be the next step?
+Once you created this one, where would you append it?
+How would you append it?
+So you are supposed to get a container, right?
+Parent container where you can render all the cards.
+Do you guys agree?
+Right, you first, if the element is created,
+let's say you have built this element,
+you are supposed to get the parent container,
+this specific container, then render it one by one, right?
+Appending the child.
+Let's say you have one dev, you build one common dev,
+you have all added item one, item two, item three, right?
+And you take this dev, add it to a container, right?
+So this would be it, isn't it?
+So anything difficult here, guys?
+Anything difficult do you see?
+From first rendering part, I'm not going for event handling
+or clicking yet, right?
+This is something we already know.
+Is this topics covered?
+Like in order to build this interface,
+whatever we have discussed, is this topics all covered?
+Right, now just think of it this way.
+Like if I hover over it, the picture is going something like,
+you know, the size of picture is changing.
+What property you can leverage here out of CSS?
+On hover.
+So on hover, you are actually changing the like on mouse hover
+or on mouse hover is an event upendra,
+on hover is a pseudo selector, right?
+I hope I hope you know the difference between them like mouse over.
+OK, so you here if you see something says that transform scale reduce it.
+So you can use different ways of handling it.
+But I hope that is clear now.
+Also, here you have this, you know, love like a symbol where once you click it,
+you make it a favorite.
+But do you know how to handle this click?
+If I click something, would you do you know it?
+How to do it?
+Would you be able to handle it?
+Like this click?
+There may be maybe there are two images,
+but each product has its own ID, right?
+Now, if you might be knowing that which ID has been selected, right?
+And you can also handle this click, isn't it?
+So once you click it now, let's say this interface, what happened?
+So this click actually puts into the cart.
+Let's say let's say this card is a different use case.
+But here you get for each card when you create it, there is an ID.
+And once someone clicks this part on the image, you try to make it as a favorite.
+So it is a different storage or a different data structure, let's say.
+No.
+But once this is clear, now here you'll have something like an ad event listener.
+Click and you'll have a callback function with right down the logic.
+But again, if you see it here, once I'm clicking it, what I'm doing it here,
+have you seen this sort of use case anywhere?
+Like once something someone is clicking, a model is opening.
+Have you seen this use case?
+Right.
+Model pop up we have seen in Kanban board and we have seen like to do list in general.
+Right. So there you again, if you see it on the left side,
+we know how we can different, you know, make a different screen.
+Right.
+Z index or top of it.
+But this is how I want you to think.
+Like if you think right from this perspective, think like what we haven't covered, what we have covered.
+So but if you see, if I keep on asking this question, there will be an answer from your side.
+So this is what actual preparation or project building happens.
+Like you see any random website, which is in production already.
+You think of it like you should have if you have at least 20, 25 percent of idea,
+you will be able to figure it out and revise those concepts and, you know, syntaxes wouldn't take long.
+Do you guys agree with this point?
+That if you have the complete basics build, you will be able to achieve things.
+So one API call and then data can be used at the multiple places like in the car.
+OK, once I made an API call, I store it in a one data structure.
+Let's say it's an array itself.
+Then I can use that array information the anyway that I want.
+Right.
+So it's up to us as a developer.
+So just I'm thinking like what all the possible minimum bare minimum steps will be required.
+If you want to replicate this, it might take some time, but it's not that difficult.
+When I teach you react, you will do it within three to four hours.
+Not more than that.
+OK, it would be super easy.
+You guys you guys will see that why react makes things so easy.
+But the next thing next thing that I want to talk about is.
+Let's say.
+We have known like if you remember first class, we talked about something like how web works.
+Does anyone remembers how that works?
+We have actually discussed, I guess, two months back.
+Where we introduced like what is full stack?
+What is a client server architecture?
+What all things are involved on the client?
+What all things are involved on the server?
+I hope you have remembered this case.
+We are a store and example.
+We have picked it up.
+Muneshwara remembers it.
+Right.
+So if you remember that part, I've talked about a full full cycle scope.
+Like from starting point to the end point client to server whole ecosystem.
+Right.
+Client IP address browser back to client.
+Right.
+Everything TCP handshake.
+We have discussed of everything.
+Like how do you actually this server is, you know, this connection network is connected.
+How you can interact between two systems.
+Right.
+HTTP.
+We haven't seen them in practical yet.
+We'll see them in practical.
+Maybe once we complete react when we build two layers like client and server layer, we'll
+see them how they actually work.
+OK.
+Two things, two quotes running on a different server, how they communicate with each other.
+OK.
+But this was about talking about a cycle from a too big level.
+Now let's say let's let's focus on some small part.
+OK.
+Like how does rendering works?
+When I say rendering, what I exactly meant is that how your HTML, CSS and JS is actually,
+you know, go and see something that you build it, you know, that there is something you
+write HTML for scale 10 CSS for making it beautiful.
+JS for, you know, writing behavior of like handling behaviors on a web page.
+We know all this use cases.
+But how does rendering, what are the steps involved?
+Like once you want to render any page on the screen, so we'll figure it out that step by
+step.
+OK.
+As you remember, there is an server which always sends us some data.
+OK.
+So most of the times, let's say if there is a server, you know, there are two types of
+architecture which are CSR, SSR.
+I'll talk about that in future.
+But, you know, as we have a client, we have a server.
+So server used to send HTML files to the client.
+OK.
+But over the network, do you think actually HTML file is shared?
+Like, you know, over the network, over this network, do you think like HTML file is shared?
+Right.
+If HTML file is shared, but not in the exact form, but there's a different forms like have
+you do you know there's something called bytes, byte array data, like bytes of code is actually
+transferred over the network.
+So from here to here, first bytes of data is sent back.
+Now these bytes, right?
+These bytes at the client, when it receives it, it converts into back into characters.
+Now this process is actually called as decoding.
+So somebody encoded one format into other format and other person decoded the one format
+into other format.
+Now let's say there are different bytes of alphanumeric values.
+Now when I meant by characters, let's say this is a character, a body tag.
+Let's say in it, it has a depth tag.
+OK.
+Once you are byte array, you see bytes of information.
+First thing, it is converted into characters, these characters.
+When I said decoding, actually there is a bytes of array, right?
+Whenever you have used files, all the files are broke down into multiple pieces and sent
+over the network from server to client somewhere.
+And those bytes are actually recovered and form the structure the way we actually wanted
+to send this particular structure.
+Is this clear?
+OK.
+Now once we have the characters, once we have the characters, those are again converted
+into something called as tokens.
+Now what this might be?
+If you think like what is a token?
+Now each of this character, right?
+Each of this character are broke down into multiple parts.
+There might be a start tag.
+There might be a let's say content.
+There might be end tag.
+So each tag for each one, there will be different data.
+And for each tag, there will be different attributes added and different content added.
+So these are actually broken down into tokens first.
+Then then comes the main thing where each token, once these things are analyzed, they
+are converted into nodes.
+Now this node is converted into nodes.
+OK.
+This data structure, let's say now if you think about example of body tag, this node
+of body is actually created where in this tree, if you remember entry, we used to store
+only the value, right?
+And it's left and right pointer.
+But here you store a lot of information in the one node.
+So this node is actually converted into nodes.
+Right.
+And it's left and right pointer.
+But here you store a lot of information in the one node.
+Start tag, end tag, content, attributes, all the information is stored in the node.
+Right.
+Earlier, if you remember, you had something like node, node left, node right, and interval.
+This was one of the like how you construct a class used to look like, isn't it?
+Now, this is how nodes are actually separately formed.
+Now, once these nodes are ready, right, then comes your actually of completion of tree.
+And this tree is called as a drum tree, which is like document object model.
+So this is actually happens behind the scenes.
+First, you receive the bytes.
+Let's say you receive the bytes.
+Then you convert into the characters.
+I mean, you decode it.
+Then you convert into tags.
+Then you get into the builder nodes.
+Then dom tree is created.
+So now is it clear like how actually for over the network, your bytes array is converted
+into something called as dom tree.
+Now, these same steps.
+Now, you know, if you remember in HTML, in HTML, when we create an HTML, we used to add
+somewhere, you know, CSS properties, isn't it?
+Style sheet or style is something used to add it.
+Now, if you think that way, how this use case is handled, how the style sheets are handled.
+Now, as I've told you earlier, the CSS, JS, all and HTML all are blocking the rendering
+process.
+They are in that nature, by the way, but if we have an optimization to handle each thing
+now, as soon as you mention a particular style sheet, right in a HTML, they are also fetched
+from the server or your file path.
+When I say file path, let's say you have a CSS separately in a different file other than
+your code.
+So it fetches a start and it goes through again all this process, right?
+All the same process that we have just now discussed by its characters, tokens, nodes.
+And then it builds something called as syshorm tree.
+Okay.
+So there are generally two types of trees created.
+One is DOM tree.
+Then there is something of syshorm tree.
+This refers for HTML.
+This refers for CSS.
+Is this clear, guys?
+Okay.
+Now, yeah, I'll talk about that, Upendra.
+I'll talk about that.
+But I hope this part is clear.
+Now, these two things are actually separate now.
+Next step, actually what's the next step happens is you try to combine this together, combine
+this together to form the actual output, which is called as the render tree.
+Now, this tree is actual final tree, which is actually rendered in the browser.
+So what they do is like, hey, we got the nodes, we got the which style to be applied for the
+which particular node, and they mix all together.
+I mean, here is where, you know, kind of merge sort or the complicated, more complicated
+algorithms over the trees are applied because these trees are N array trees.
+You might have N siblings or, you know, N children inside one node.
+So you might be knowing those if you know those algorithms since something that you've
+been asked in interviews are binary trees or BSTs, not more difficult than that.
+But if you go for N array, when I say N array, each parent can have N children.
+Right.
+So then comes a use case where you have a different algorithms to actually build this
+something called as render tree.
+Trice is on a different data structure.
+This is actually where you're trying to merge two trees to bring out one output tree.
+Trice is different.
+You can think of thinking that way, but it's different altogether.
+N array tree is different, trice are different.
+OK.
+So, guys, now if you think this once render tree is done, not by default.
+Can this render tree magically show in the display?
+Yeah.
+OK.
+Gesture trees with more than nodes.
+No, I was talking about N array.
+You might have been on N array trees.
+We'll see this sometime later.
+But let's focus on this.
+So I hope this point is clear.
+First your DOM is constructed.
+Then your CSOM is constructed.
+Then then comes a render tree.
+Now, once your render tree is ready, you actually your website goes through its own
+level of algorithms which design layout for you.
+So this layout is calculated in such a way that on this, let's say if you remember,
+on the DOM till render tree, the tree is decided.
+The pixel sizes all are decided.
+But layout, media, I mean the screen size or the media device screen size.
+According to that, everything is not yet, nodes are not yet distributed on screen.
+So then actually when layout is actually building right, it takes up the steps like
+OK, my screen sizes, let's say 120 pixel or height and width.
+Then according to the height and width, it tries to build this layout using this particular tree.
+This is clear layout goes through multiple steps that are not actually that really important.
+OK, once your layouts are ready, it goes to something called as paint.
+Now, this paint is a most important metric.
+OK, where, you know, your performances of your websites are, you know, tested upon something like
+large content, full paint, like how long it took a website to completely pass this one
+and do the process and paint the largest content, full paint, like the most amount of the website.
+How much it took the time that is like loading the screen.
+OK, so this is all this all part.
+Whatever we have just seen, all the steps is called as something called as critical rendering path.
+So would you guys would be able to explain what is critical rendering path in future?
+If someone asked you.
+OK, I hope you will be able to explain.
+Now, along this critical rendering pathway, there are a few things.
+If you remember, JS JavaScript files also used to add in HTML, isn't it?
+Now, those JavaScript files where sometimes the code can be huge in size.
+Right. In order to handle that code, how parsing execution happens, we have learned two things like
+Async and Differ.
+Isn't it like in order to do it parallel processing.
+And once your downloading is done, you can execute.
+But this is like doesn't block anything.
+It lets HTML process completely.
+Then it downloads the JS.
+I mean, it downloads the JS parallely.
+And once HTML is done, then pass the JS code.
+I hope this thing again, you can go back and revise this.
+What is Async versus Differ?
+When to use which one on the JS scripts?
+Whenever you introduce scripts in HTML, when to use each word, you have to be thorough with that.
+OK, I hope now you are able to think, understand better from a front end developer.
+But we'll see them like what it actually takes.
+Let's go back to the Queen's website once.
+Let's use this one.
+Let's figure out what it takes.
+Give me a second, guys.
+OK, my browser is hanging a bit.
+OK, anyways, now if you see this here.
+If we go for performance, right?
+What are the metrics that are compared?
+Let's see this out.
+OK, let's see this out.
+If I hit record it, once I click record, and then I try to refresh this page.
+OK, once I refresh it, it is actually loading it now.
+And a parallel API calls will be done.
+And once this reloading stops, I'll try to stop the profiling here.
+Let's stop this and let's figure it out.
+Guys, do you feel my system is hanging too?
+Does it feel like the system is hanging?
+I'm not sure.
+Just a second.
+I might, you know, it got heated up.
+Voice is also breaking.
+OK, sorry.
+OK, I'll join back in a minute, guys.
+Guys, rechecking.
+Do you feel my voice is still breaking?
+If it is, do let me know.
+It's fine, right?
+I didn't restart my machine for a good time, so maybe that's an issue.
+Anyways, so I hope my screen share is also working fine.
+You can see the screen share.
+OK, let's say I tried to load the quiz again.
+Let's go to the URL.
+$59 cash made.
+Once you open the performance, let's clean up this console, go to the performance.
+I tried to hit it.
+Now the profiling has started.
+What I'll do is like I'll refresh it.
+OK, now once I refresh the, you know, the loader got stopped here.
+But now let's see what actually it does.
+It is loading.
+It will take some time.
+Now, if you see it here, if you see this data, what just happened here?
+If you see, so each place, right, each place, it will talk about multiple things like.
+It will talk about different things.
+Firstly, like how much time each step took.
+You'll be able to see like everything step by step.
+How much time each JS code behind the scenes it took to calculate like how many query selectors you have.
+You can check each one one by one and there will be also given a percentages which one is actually taking much more time.
+If you see this particular function is taking much more time.
+But the summary part will give you more important, better things.
+If you see it here, firstly, it took loading is some amount of time.
+But if you see that yellow part, which took actually two seconds to download and load it, the scripting part is actually JavaScript code.
+We took more good amount of time to download it.
+That's the reason why we use something like words like async away.
+Sorry, I mean, async differ on the script when to do it, how to do it.
+OK, and you see this rendering part and painting rendering is where you actually build a render tree and then layout happens.
+Then once that system then if you this is idle time because I also kept that profiling continue.
+So it showed me that how much time I was idle actually.
+OK, I hope this is clear.
+You guys go and explore each part.
+OK, explore each part step by step.
+You know, if you go and explore right, you'll get to see the different use cases like how many what is a heap size.
+If you see here, heap sizes of 45 MB and 79 MB.
+So for each of the website, you can go into minor, minor things and you will be able to explore.
+Like you can see the memory like there are too many things, guys.
+So these are the actual, you know, timing.
+If I say first content paint, you know, if you go and explore this right, first content paint, how long it took.
+OK, how long it took.
+You can explore again.
+If you see this, if I go to learn more, you will be actually redirected to the site that I gave you in the watch.
+Like it is actually from web dev, which is actually Google built it.
+How long each content page takes and how can you optimize it?
+OK, now the second thing is like the largest containment.
+So this is a parameter which is more important.
+OK, more and more important.
+So this thing, someone, if someone in the future, right, who becomes a senior web developer and who actually are working on performance optimization, they'll see that.
+How can I make sure that, you know, large paint, large file, large first part of good amount of page is rendered at one shot.
+It's in a less amount of time.
+OK, whatever I have explained you over the iPad, it's like it's like a 30 feet high from the ground.
+Like I've given you on a broader level.
+What are the steps happen?
+But if you want to go in depth, right in depth of like it's like a case study, you pick it up any website, you try to load it in your browser.
+You'll be able to see the case studies like actually how long it is taking.
+What is the time now?
+How that each of the events is calculated?
+OK, I hope whenever you have time, whenever you are idle may not be today, maybe in future or any time.
+Explore this, go step by step.
+You'll be able to see all the things happening.
+How much CPU is consumption where how JS is downloaded.
+OK, you'll be able to see the network tabs.
+If you see this, they're trying to get the product information.
+All the you know, seeing get get a pretty product, get website information.
+All the parallel calls that you'll be able to see all the frames that are actually being built, you know, each animation.
+OK, the frames thing is also important because you might be seeing the GPUs working behind the scenes, which is rendering the 60 frame rate or depending on your screen frame rate, how actually things have been built.
+But those are really, really in depth.
+You might not be needed to do that amount of data, but it's good to know.
+It's good to know like what is actually behind the scenes happening.
+OK, hope this is quite interesting for you guys.
+Hope you will try to explore this offline and do it for your favorite website.
+Figure it out.
+OK, so I'll talk from the developers point of view more.
+Now, what does developers generally play around with this?
+Is that something layout?
+Let's say if I show you layout.
+Now, what happens if I show the layout?
+OK, let's say I click this.
+Now, if you see, I select this boxes.
+You will be able to see all the different layouts are actually designed, how this particular website is designed.
+You see each product, each product is having a 3 mm of like if you see this is a first product, second product, third product and fourth product.
+And the size, if you see all things are the heights are in REM and the width are consistent, like 165 pixel.
+OK, you will be highlighted and you will be able to learn.
+OK, what if I remove the grid?
+Now, actual game is actually this website is built using the grid layout, right?
+They might have done like, hey, can you repeat it?
+Auto fit your the pixels.
+I mean, auto fit the image with taking this grid template rows and grid template areas.
+I mean, columns, right?
+Whatever one effort or whatever which you keep min max of the function.
+OK, even you can do something like you can have the search box.
+If you see the search box, this particular search box, you'll be able to see the padding, a light green color padding.
+OK, one thing you can do is like, let's say if you want to go the grid and explore it, you click this, you will be actually diverted to this grid.
+And you go to the styles of this grid, you will be able to see it like grid template columns.
+They have used to repeat.
+They need a four products with this each column height of twenty twenty nine.
+So the way you consume more data, the way you consume more is going through the going through the actual research of the products.
+Whatever products you see in the world, if you want to be really great front end developer, try to go and read your existing websites which are available.
+And they are going to teach you hell of a knowledge than what you will apply through building it.
+OK, because there's somewhere around you might not be getting a chance to build everything.
+Right. I mean, I got one chance when I was in a United Health Group that I have to build a voice recorder.
+Let's say what used to happen is like I was to work in a project where pharmacists were there now before.
+So in insurance companies in developed countries like US for even claiming the medicines, you have a prescription.
+And once you provide a prescription, you have an ability to claim those prescription also under insurance.
+Now, whenever they do it, so sometimes what people does it, they come in live to the pharmacist and pick it up.
+But sometimes they call it now in order to show the proof of call.
+What they used to do is they used to do the recording of that call and upload it in our like, you know, our tool.
+Now that tool, we actually have built a component where you can actually hear out what the other person is seeing, maybe storing that information again.
+It would be really interesting to know like how audio is stored, how audio is transferred over the network, how do you render it.
+OK, but I got one one such experience by the way, but I might not get all such experiences to good experiences to build or no one would provide me the time.
+So whenever these sort of use cases happen, you go and try to explore each and everything.
+OK, I hope this actually opens more case studies, more knowledge.
+So one more important thing is, guys, one more image optimization is very much important, very much important.
+We'll talk about that step by step again.
+Now, one more most important parameter that is just upon is like accessibility.
+Now, when I say accessibility, it is more about like how I make it my system more readable.
+OK, like it like if you if you see this.
+Actually, like if I make it in a real only mode, it will be start speaking about each and everything.
+You know, if you want to see that accessibility tree completely here in terms of what I have to reload it, maybe you can check that offline.
+But there are other things, you know, there is a one common standard that I've shown you already.
+It's called as lighthouse testing, which actually checks your performance, accessibility and best practices, all the things together.
+OK, let's say if I try to analyze for this website, which is already in production.
+So each person write whatever the products build, getting a production access is some people like try to, you know, wait for that day when I'll get a production access,
+I'll be able to see my code working.
+But I feel like I never had that curiosity either.
+Like every every website is available.
+I can go anywhere and I can, you know, do it in the browser itself directly.
+OK, so you just go pick your favorite website, test it, what they're doing, how they can optimize better.
+What are the nuances?
+Let's say you go and do something like Google website issues.
+You figure it out.
+You try to write down to those managers have figured out this thing.
+This can be optimized.
+So that way, it really helps to build your knowledge, to make it better.
+But this is actually when you grow as a senior devs, like on the path.
+This is post what you can build interfaces coding.
+This comes from the optimization parts like if you want to optimize images, content, first content paint, like how do you break a multiple pages?
+Right.
+One big page into multiple pages, small pages and chunks.
+And how do you render it?
+OK.
+Now, if you see, we got 86 as a performance parameter.
+Now, if you see in the performance parameter, which is a step took big amount of time.
+If you see large content full paint, it took two point one second.
+OK.
+So this it gives you actual, you know, like if you see this is a heap map in this heap map, you will be able to see all the content like what it took, what it did behind the scenes.
+Everything.
+OK.
+Connecting with Facebook, connecting with Cloud front Chrome extensions.
+OK.
+You know, Webpack, React DevTools, it shows about my machine.
+What are the things I have in my DevTools?
+But there are too many things happening.
+You will be all be able to see that step by step like each thing.
+OK.
+This is super.
+I mean, super duper interesting, guys.
+Like if you go and explore this one, right?
+As an engineer, I don't understand completely 100 percent because this is not something my manager rates me out like doesn't doesn't really show it in, you know, result output.
+But as an engineer, it's really good to know internals of it inside depth of it, like trying to figure out how things works completely to the bottom level.
+OK.
+Now you'll be able to see one by one step.
+You can explore it, right?
+Figure out if you see the use script is there now.
+I mean, someone from the Queens may be able to identify things better because he notes what are the things.
+These are actually things are running behind the scenes.
+OK.
+But this is something website like if it also gives the result like how can you do it better?
+What do you have to optimize it?
+So, guys, this is what I wanted to talk on like a rendering part like how can you actually render it?
+How can you work on it?
+Right.
+There's one more big thing around is with memory.
+This thing actually leveraged memory fixing, you know, memory issues.
+Like if you say that, let's say if I start this profiling and I click it.
+You know, I'll get so what you used to do is like all the objects in the like, you know, in a browser.
+I used to see that which is the biggest object that is taking the whole consuming the size of it.
+You see, the compiled code is about 48 percent retained.
+Retained code is 51 percent.
+So maybe you can explore this part of code, which is actually consuming more amount of more amount of data.
+So fixing memory issues is one of the I mean, it helps you to the root, right?
+To figure out everything from a base level.
+But I feel like really thankful for the someone who built Chrome as this is like a more of a developer tool.
+Like as a front end developers, like which brings good amount of features for you to leverage, explore and play around with this.
+OK, so explore this case, explore everything that you see in the, you know, I mean tools, whatever you have it.
+I'll keep explaining the things that I know from my side.
+I'll keep on adding things.
+OK, but I hope you liked it.
+OK, I could have ended with that theory content, but I just wanted to show like picking up one website, what it takes, how can you play around and what what all things are there.
+OK.
+So if this part is clear, we have one more small part of thing that I have to cover, which is maps and sets, right?
+So these are like, you know, without this also, we can survive it because these are like actual problem solving use cases itself.
+I agree that you might need it in some cases, but till now we didn't had those complication issues where you have to pick it up.
+OK, let me open my VS code.
+I will pick it up maps and set.
+Let's say I have it here.
+New folder.
+Set class 30.
+Inside this class 30, let's say I open one script.js.
+Now, let's discuss about firstly about map guys.
+Now, what do you think map is?
+Because you have completed already data structures and algorithms and you have solved a number of problems till now.
+So what do you think like a map data structures?
+Anyone?
+Key and value pairs, right?
+It's like a.
+Key value pair.
+In memory storage.
+In memory storage, I can say this, right?
+And this is actually by hash tables, hash tables, the data itself, which is leveraged behind the scenes from Java point of view.
+But from JS point of view, I'll check on that.
+But this is like a natively build this way.
+OK, so the syntax of creating, you know, any objects or any data structure that you see in array.
+One of the way that you can always create is using using constructor functions.
+Now, how do you create a object using constructor functions, guys?
+Let's say if I want to create an array or even if I want to create anything, how would I create it?
+You remember constructor function, guys, firstly.
+Remember, we've taken car example and we have seen, like, how do you create a new car out of one car function?
+Multiple cars, like we picked up a data factory example, right?
+In the same way for maps also, let's say if you want to store fruits information, let's say if you want to show fruits information.
+The way to call this is like using this constructor function.
+So you invoke a constructor function and keep it this way.
+OK, so if you want to add information, like you have always you have four operations that are happening on anything, right?
+Crude operations. Let's figure out step one by one.
+If I want to add any information to the fruits, I go by add.
+Sorry, I pick I select set that inside this set, I have to provide key and value pair.
+OK, now inside this, let's say if I'm keeping a table of fruit and the value is a price of item.
+Now, let's say I have different fruits.
+Now, let's say you have a mango season coming up or it's a mango season by default.
+Let's say the current price since we haven't entered into the exam season, let's say they quoted 160 per kg.
+OK, then let's say you have Goa.
+You know, in my childhood, right?
+In our childhood, if I go, we used to get three to four rupees, isn't it?
+I mean, the size.
+I mean, in our school days today, they charge 20, 25, 30 for one piece.
+Then X, then X valuation.
+Too much, isn't it?
+80 per kg and too much costly.
+Let's say 80 rupees per kg.
+Then you have let's say oranges.
+They also cost you 100 rupees kg.
+One of the affordable fruit is one of the what is affordable fruit that you that you can think of where everyone is right.
+Banana.
+Even I have it.
+Post class, I have a banana and sleep.
+Let's say it's at 60 rupees.
+They give it 60 rupees, doesn't it?
+How come?
+How come somebody?
+How could you go off of it?
+Do you have trees at your home?
+Then we cannot like you.
+You should get it for us to then you have let's say seasonal fruit.
+One of the things that people, you know, doesn't get chance is like I don't remember the name of in English.
+Can I say a supporter?
+I hope you get it.
+What does support ice mean?
+Like in India, they call it as chiku.
+You have a chiku juice, a pota juice, right?
+Brown color.
+Yeah, right.
+Small one.
+So they are also let's say costing 60 rupees kg.
+So let's say this is something like how do you add items into the map?
+It's a key value pair again.
+This is how you set the items.
+Yeah, support.
+They got the right name.
+I mean, since I put it, I remembered my biology.
+We used to have, you know, even for the trees, right?
+There are difficult names.
+We know that there's a name tree.
+This is some other tree, banyan tree or papaya tree.
+But their scientific names are so difficult to pronounce.
+I don't know who used to keep those scientific names coming might be from Europe or the North American region.
+But those are really difficult, crazy names to remember.
+Had tough time in school.
+Right.
+Let's say if I want to get an item, it's again same syntax case as you do it.
+Let's say I get it and more mango and let's say I try to print it here.
+Oh, yeah.
+And before moving, I'd also try to print here.
+Fruits and then let's say if I want to.
+So this is something like how do you set and get it?
+Now, in order to delete it, there is a same syntax.
+Like if you want to delete it, you can use the deleted directly.
+Let's say you delete that mango itself.
+You can do this.
+So I hope how do you set, get and delete is clear.
+Updating is like, again, getting that value.
+And again, you can use a set operation.
+There is no something like update.
+OK, these three operations are pretty clear, right?
+Similar to what you might have learned in a different languages.
+Guys, let me console our fruits again.
+And let's execute and show it to you.
+Let's say no script dot GS.
+Let's see what happened.
+Let's just see this.
+What happened?
+Now, firstly, when we created, we had added five fruits into it.
+OK, we added five fruits, mango, go up, oranges, banana and support.
+Now, after that, we try to print, you know, all the fruits.
+That's the reason why we were able to print the map.
+OK, then we were able to, if I want to get any key out of it, I can use like fruit dots.
+Get the key value, which will get me the value of it.
+OK, then if I want to delete a particular item entry, a key value pair out of that map,
+I can call the delete function and pass on the particular key that I passed on mango.
+So that has been removed here.
+OK, if I want to update it, let's say a fruit start.
+Set, let's say the prices of Goa as increased.
+To 120.
+Once I again print it.
+If you see Goa price got upgraded.
+So this is how you try to handle the four operations that are basic operations that you see on a map.
+OK, I hope this four basic methods are clear.
+Firstly, guys.
+OK.
+So once this four methods are clear, we'll talk about a few more operations that you can leverage on this.
+So in order to get right size of the map, you again you have an access to something called a size,
+which gives you access to the size length of the or let's say size of map itself.
+And for iteration, right?
+We want to iterate.
+So anything most of the data such as you have something like for each function and for each again takes a callback from callback again,
+which gives you the key value pairs each time.
+OK, this is a common syntax that you'll be able to see.
+And one of the most easiest syntax to deal with it when you go on to iterate over something.
+OK, go for forage.
+I take it and print it.
+All things are done.
+And then you have another method called as entries.
+Now, when you do an entry, let's say if I store it, if I store it here in the entries, what what I get it here.
+It's an array.
+So I try to print dot console dot log.
+OK, once I execute this one.
+OK, fruit dot size.
+OK, it's not a.
+OK, it's not a method.
+It's just a it's kind of like accessing a variable out of the object now.
+But here if you see still when I am trying to print map dot entry,
+it's actually returns you an object object enough array where each array will have its key zero index as a key and the value as a one.
+OK, then in case if you want to do it this way, right?
+If you want to get all the key sort of an object.
+Also, you have an access like get get.
+I'm sorry, you have a keys object where you can call keys and your keys can be stored anywhere.
+Or else you can always do like for each on each like using a chaining operations like we have seen many chaining operations.
+And you can keep on writing the logic that you want.
+OK, then there is some other operations like fruit dot value.
+Values is again keeps you the other other side of the like the right side values like 120, 160, all of them.
+You can on this also you can do for each and same logic.
+OK, these are the things which you can iterate with.
+Like if you see once you know the size, if you want to iterate it, you can do it using entries.
+Entry is a key value pair where if you want to only do it or iterate or keys, you can do it this way using keys.
+If you want to do the values, you can do it this way.
+OK, I hope this is clear, guys, till here.
+OK, once if this is clear, then there is a one really important method that we play around with map is that fruit.
+Does it contain now whether when you say that it contains, you have to pass down key here.
+Let's see if I say that I check for a mango.
+OK, since you deleted mango on top, this won't be executed.
+Say I tried to print console dot log.
+Mango is present in map.
+Let's say I do this pasted not present in the map.
+OK, if I do this, let me check what happened.
+OK, key start for each.
+OK, I let's say I'll comment the syntax since we are not leveraging the syntax of now.
+OK, that works.
+If you see mango is not present in the map says it says so using a hash function, you can check for the keys, whether the particular key is present or not.
+OK, then also you have one more function, which is like if you want to delete right individually, you can use the function.
+But if you want to delete all of them, you can use clear and call clear, which will clean up everything present in this.
+So these are like, you know, top level, interesting and important methods, guys, that you come across maps.
+OK, but to revise it again, OK, to revise it again, you have four operations basically include you can do set.
+OK, when to set, you have to call key and value.
+Then also you have, you know, get key.
+You have to pass on the key to get the item value.
+Then you can again set.
+Existing key.
+To update the value.
+Then you have the other operation is delete.
+Delete the key, you pass on the key, it will delete it.
+So this is one of the thing.
+Let's say I try to move it to the two lines.
+OK, then you have size, which gives you the information about size.
+Then you have for each method to iterate over key value pairs.
+Then you have entries, which gives you a key value pairs of in the presented map.
+Then you can get keys and values separately.
+OK, and then there's something like clear function, which clears all the things present in the map.
+OK.
+And it has to check if there is a particular key which is present in the map.
+OK, these are the basic things you might have already, you know, got used to it.
+You might know it.
+We have discussed this specifically because it has few more utility methods available in JS compared to the other languages.
+OK, guys.
+Now, one more thing, one more data structure.
+Firstly, is this clear?
+This is simple and straightforward, isn't it?
+OK, let's say I go for.
+Script1.js inside this, we'll pick it up about sets.
+Now, what is the one common property that we run after set, guys?
+Why we would run after set when we need this data structure of set?
+Set has only unique elements, right?
+It only stores the unique elements.
+It doesn't have a duplicate present in it.
+And does it store according to the indexes that you put in?
+Right. It doesn't remember the indexes.
+It just guarantees that it has all the unique items.
+Just that it's an ordered unique element data structure.
+OK, in the same way, JavaScript definition also stands in the same way.
+It can have only one type of unique element.
+It cannot have multiple items.
+Now, again, in this also, again, in order to create a set, you can always, again, you have to call the same constructor function.
+Let's say I say that my set inside this, you have to, again, call the constructor function on set.
+Once you do this, my set will have access to list of methods.
+OK, on this, the methods are pretty easy, like add.
+If I say one, I'll try to replicate this one, guys.
+Let's say I do it.
+Two, three, four.
+Let's say we add it one itself.
+Now, if you want to access it, can you guys think if you need to access any time in the value?
+Can we access the value out of set?
+There is no way to do it right.
+If you cannot have a key value pair, like you get it by value, you don't have an index stored.
+So you cannot do that.
+But here, again, there is one trick.
+Firstly, let's print this, then go back to that one.
+OK, here, if you see only the four elements out of five, one is skipped.
+The last one is skipped.
+Now, the one way to access values right, one way if you want to access the values is,
+you know, this is odd property.
+If I say so, my set dot, you can say that, hey, values.
+If I do this values right, let's see what happens.
+OK, why do this?
+My values.
+You see this?
+It gives me a set iterator.
+Do you understand what does iterator is meant?
+It keeps on iterating.
+It gives you an iteratable value.
+Like it's something gives you like where you can actually add it to the items one by one.
+So I hope you know the basic difference.
+Like let's say if I can store this, I can store this and let's say this is the rest.
+My result dot values.
+Because directly you cannot iterate the set.
+What you do is you convert into an iteratable.
+Now, on this iteratable, you can do something like iterate over this list response.
+OK, let's say I do rest dot length and I can print.
+Console dot response dot.
+Let's do this.
+I saved it right.
+OK, didn't it print anything?
+Let's say you indexes are not possible here.
+You have to do for off loop.
+Let's say const.
+Well, of this.
+So each value of this console log.
+Let's see.
+So here this is not index press array.
+Even if you convert into values here, you have to use like off operator.
+Like getting I mean, if you say you have three types of loops in chairs, one is far in.
+And then there is something like far off.
+And you have a normal for.
+Then you have something like for each four different for loops.
+Just try to revise when to use which one.
+OK, whenever you have objects format, whenever you have objects format, you can you can go for.
+And for in most of these cases, normal index space items, you go for these two things.
+OK, that's a broader level, broader level understanding.
+If you say this, I can do this replicated again.
+Why I was saying odd is that if I if I can use your keys.
+Let's say if I wrote keys and I try to print rest one.
+OK, still.
+You see, it is still giving me all the values out of the set.
+So even if you can do keys and the values.
+So this data is not purely built in the right way.
+So it gives like even if you do keys, it gives an iterative where you can iterate over the elements.
+Like even if you do values, you'll be able to access it that way.
+OK, so I hope these two parts are clear, guys.
+So hash map and map hash map, sorry, maps and sets have the same rate of even the the.
+You know, this thing is that you can you can use entries also.
+If I save it in entries, right, let's say const response to console log of rest two.
+It also gives an ability to store in terms of it.
+So whichever thing you call, you call everything will give you the entries.
+Now, if you see in the entries, it returns you like since it is returning one comma one,
+two comma two, three comma three, four comma four.
+Reason is because if you see it half in a way, this set is built behind the scenes using the map.
+OK, it is built using the map where key and value are pointing to the same thing.
+That's the reason why whenever I do values, I still get the values.
+Whenever I do keys, I still get the keys.
+Even if I do entries, I get the iterative.
+OK, because interest gives the keys and value.
+Is this clear? Like behind the scenes set as leveraging the map itself.
+Whereas whenever you insert into the map, the set operation is happening.
+It checks. It just does this condition behind the scene is that if map has already
+this key is present, don't put it into the key.
+So this is the operation the set does from the chase point of view,
+because this is the proof that it still works like in a map.
+Is this clear, guys?
+I hope this point is clear behind the scenes. Everything is map.
+OK, and if you remember one of the use case, one of the difficult thing
+why I used to face that whenever I used to do type of right type of array or let's say type of.
+OK, my said.
+So I tried to do console log of this one.
+So whenever we used to do this right, we used to get like return type is object object object.
+We have seen this use case when we were actually trying to do like polyfill.
+So then I told like we'll use array array dot is array to verify whether a particular data type is an array or not.
+Isn't it? Do you remember that in polyfill example?
+So the you know, the another way of figuring out is let's say if I try to show you another method,
+let's say if I do something like instance of what is the instance of this one?
+OK, instance actually instance of method gives an ability to check.
+OK, like this particular thing compared to things to data types, let's say how would you do is that
+let's say if I do it this way, my set right, my set is an instance of set or not.
+OK, let's see what it returns.
+So if you see this, it is returning true.
+So there is another way to check whether a comparison like it still returns a Boolean.
+So we check like each part of thing is a data type of an array or not.
+Let's say if I try to do a console dot log.
+Array instance of array.
+Let's say this works.
+Let's say it still works. So is array array dot is array or instance of operator still works.
+So the other way, since everything is an object behind the scenes, you can use as a hack for us.
+OK, I don't have map map. I have a different friend.
+So I hope you got this basic methods, guys, how set and map can be leveraged,
+how actually set is like behaving like a map and the scenes.
+And if you want to check the data type of particular thing of these objects, you can always use constructors, right?
+Sorry, instance of operators and leverage it.
+So, guys, with this, with this, you know, I'll end the content for.
+Yeah, right. Yeah. So that's what I was talking about.
+So with this, I'll end the content for HTML, CSS, JS from my set from a curriculum point of view.
+I've covered more topics than what actually have to cover what I've been told to.
+OK, I kept on adding because I felt like this is more important.
+This is more important reason behind I keep on improving the curriculum day by day as we go into it.
+And we keep on pushing the module owners and the different respective stakeholders.
+Right. Hey, this is something students might need because I come from an industry.
+I know it what is needed at my office, what people are lacking or what I'm lacking as an engineer, what other people are lacking.
+So it's an iterative process where you keep on improving things.
+So I've covered a good amount of things. I've covered debugging paths.
+I've covered, you know, the style guide, you know, the two things that actually, you know, if I would say, right, have to be covered.
+I mean, no one covers that. Even if you go for any, you know, curriculum, any courses, you might not be seeing that.
+But have you guys heard about something like, you know, SAS or SCSS, SAS, SCSS, less, right?
+What what what these are called as? What these are called as?
+Anyone any idea what these are called as?
+These are called as CSS predecessors.
+OK, so each one comes, you know, with the own with the own, you know, abilities.
+So own abilities like, you know, few things are rendered on server side.
+So if you see, I've told about, you know, every operation, everything is actually working on to solve this problem of rendering,
+like to create a system or DOM or for that matter, like how JS need to be downloaded or rendered.
+OK, so yeah, CSS preprocessors, spelling.
+OK, guys, you can include three here.
+So what this generally are doing is that, you know, they help you to write CSS in a better way.
+Like where I have particularly worked with SCSS for a really long amount of time in SCSS in CSS files, I can write JS code.
+I mean, I can write loops. I can write different languages.
+I'm not JS code, but this works like a, you know, Ruby syntaxes because these things are behind the scenes built in Ruby.
+OK, you might have heard a language called Ruby, right?
+They use the same like you might be seeing like a dollar symbol.
+Then you define a value. Then you go for something like braces and all these things.
+The properties, the key value pairs, the properties, all those things are same.
+But you get a few more properties like, you know, abilities, how to use CSS.
+Like you will be able to see mixins.
+OK, all those things will be there.
+So I would ask anyone, right, who is actually working on.
+Maybe I'll see if I can give you a project which is built with the SAS and less differently.
+But I need some time for that.
+I'm running parallely, you know, completely occupied.
+But, you know, one thing I would say is that if you see yesterday, I think I had Muneshwar Shashank, you know,
+and I think I had Ankit for some time.
+Then I had Sham.
+All of the people, you know, were available with me on YouTube where we're streaming and studying it together.
+So, you know, during that moment, right, whenever we have something off topic or off to the curriculum,
+if you want to revise, learn something which is an industry, how things are being done,
+explore it, we'll use and, you know, try to understand during those time.
+OK, we'll read there itself and we'll figure it out because I what I thought of it, like I felt really good.
+So, you know, there were four or five people who had joined with me and leveraged those one and a half hour of sessions where we spent continuously reading.
+And even I focused on something.
+I completed my task.
+I was working on my office work parallely.
+Even if you have office work, you can do that along with me.
+But this is actually I'm doing it on alternate days after the class.
+Like if you have a class today, tomorrow I'll share a link again in WhatsApp group where you can join from there.
+I had some troubles.
+Pardon me for that.
+I was doing it for the first time.
+So it would be same same time somebody like I'll start at nine.
+We'll go for, let's say, maximum living.
+Not more than not more than two hours where you have to 45 minute sessions.
+OK, well, we won't disturb each other.
+We'll be reading together.
+But in between 15 minutes and 15 minutes where we'll be communicating, communicating more.
+And it may be 15 minutes at the starting.
+So it's more of a conversational learning where you do it.
+You pick up a topic.
+Let's say let's say you pick something like dom manipulations.
+You want to revise it.
+Go through the notes.
+Revise it.
+And there in case you have doubts, you can discuss it in the interval that you have because we did it yesterday and I believe it was fruitful.
+So guys, do you felt it fruitful?
+Shashank and Muneshwara.
+So right.
+So hope you guys again join tomorrow where we can leverage, go through the articles, write whatever articles you find, whatever you want to do.
+It's not about only studying it.
+My main goal that I started this thing is that reason is that to push you to take it up this mark.
+My goal was like if you if you join me for the sessions, right, if you do it six to seven sessions, all the topics what we have discussed will become covered.
+Because you don't need more than that time.
+So my agenda was to conduct this one was that hey, I am doing my office work.
+I'm prepping for class.
+I'm studying for my own piece.
+Also, I'm teaching.
+So if I'm doing multitask, you can also do it.
+And let's make it in a fun way where we sit together and figure it out.
+OK, it's it's it's not only I help you out.
+It's you guys also help me out figuring out new things where we you guys bring it up new things.
+Maybe I'll learn from you.
+Right.
+Looking forward to see me.
+OK, so I'll share the link in the WhatsApp group.
+At that moment, join it.
+We'll try to leverage it.
+I'll try to keep it, you know, better atmosphere with you guys.
+Can you figure it out?
+I'll share it.
+So but again, coming back to that.
+So you have something preprocessors of CSS where you have to, you know, revise it, figuring, figuring, figuring it out.
+Because those are, again, concepts.
+You have a different frameworks coming up.
+You know, we'll figure it out.
+One, two frameworks like you might have heard this one, right?
+Tailwind, right?
+Tailwind like too much useful, too much handy, too much easy and trendy thing to use.
+So this thing, we will be building a project with this tailwind where I'll help you out, figure out, cover the basics while I'm building it.
+OK, so let me share this link.
+Right?
+Shashank says very easy.
+I agree, Shashank.
+That reduces a lot of headache, right?
+Yeah, in a while, you know, so, you know, what happens, right?
+How we will be writing it is that more of a.
+Now, when we go into something called libraries.
+And framework.
+You know, they are both framework is I'll talk about differences in the next class and what they are, how they actually work.
+But, you know, these are the two things where you will keep on exploring more and more things.
+OK, I mean, each one and each and everything is solving a different problem statement.
+We'll pick it up, problem statement and one by one.
+And why we use tailwind?
+What's the problem that is solving?
+And after that, right?
+There are many, many things that I would talk about it.
+Yeah, I've, you know, just clarified that there's something, but we'll talk like why this has been built this way and what are the other use cases, right?
+Then.
+Many people, many things like if you go for SAS.
+SCSS, you might have heard jQuery.
+This is something we haven't picked it up in a curriculum.
+Do you know any reason why we haven't picked up the jQuery?
+Any idea, guys, why didn't we pick it up jQuery?
+Right, so if you see, go into.
+Google Trends.
+Just saw this jQuery.
+OK.
+The amount of the amount of interest, right?
+I mean.
+Let's say if I compare with other libraries, like let's say React is also a library.
+Right.
+If I try to compare this right, jQuery popularity has go down and people are not leveraging it much.
+People have come came, you know, there are better things that are solving.
+There are many better use cases that you have seen.
+OK.
+If you see if I say all the India over jQuery is 12 percent, 10 percent, really less percentage of people who are actually leveraging it.
+So our idea is like to help you out.
+What is more important and how do you figure it out?
+OK.
+But each of the library, each of the framework is solving some problem.
+You guys have to, you know, go to the depth.
+Keeping that as a behavior.
+Right.
+So.
+Then we'll also see some of the, you know, have you guys heard something like bootstrap, guys?
+Everyone might have come across the bootstrap.
+What does bootstrap used to do?
+Let's open the site of bootstrap.
+OK.
+This this actually gives us a list of built in components.
+OK.
+Let's say, how do you actually build a bootstrap?
+OK.
+Let's say how do you add multiple things?
+OK.
+So let's say if I want to build something like grid, how can I do it?
+Let's say I just define it.
+If you see the way of writing CSS classes with bootstrap is completely easy.
+Like if you say that I need a container text center, make it a row column.
+It will make our like it's a bootstrap using the grid.
+They are using a flexbox to build this one layout.
+So you'll be able to see like they have actually helped us, you know, solving many problems like.
+Maybe I'll show the examples.
+You have icons available.
+That's fine.
+But I was thinking about components.
+Let's say you go for.
+I don't need it.
+It got downloaded downloading the examples.
+But if you see it is solving the different problems, it actually making your work better.
+If you go for SAS, you'll be able to see like how it is actually implementing, you know, doing your better work for the SAS.
+How do you import and write down your CSS?
+OK.
+Better way.
+But I think I have a bootstrap components also.
+OK.
+Yeah.
+So let's say there are least of components that bootstrap also provides you like built in.
+I've been actually will end the session.
+I've been OK.
+Not much time.
+OK.
+Within the one go.
+OK.
+So.
+Bootstrap brings in a list of components built in components that you can use.
+Let's say if you want an accordion, you can always like, you know, use the tags like you have a diff tag HTML tag.
+They give you something like accordion tag, which you can directly use it.
+And, you know, build this passing some content, whatever needs.
+So we don't need to design everything.
+Like if you see on how things are happening, too many things are happening.
+So all those things like carousel.
+So we'll also see one of the few more websites which are actually, you know, building, building already like this competence.
+They have built it where we leverage them to do our development really fast.
+OK.
+I'll talk about what frameworks or what libraries will be using more.
+I'll talk about more famous libraries.
+You know, one of the most famous library for the react does anyone know what is a free open source that reacting prefers mostly like for components or the designs.
+Anyone any idea?
+There are too many available, but there's something like material UI.
+Have you heard this material UI?
+Right.
+Let's say if you go for react, this is a right.
+The material UI actually gives you a built in competence.
+So let's say at my office, there is a platform team which builds components, so we cannot use something open source.
+We have our own designs.
+OK.
+So this is like, you know, let's say if you say that auto complete, I'll pass the all the information, whatever attributes it needs.
+The all the other works will be taken care by that particular thing.
+I don't need to create an input how the label will be appear, how this movie name is going up and setting as a legend.
+Right.
+This is what legend is called, like whenever the name is going and sitting here right on top.
+So you'll have too many, you know, good functionalities already built in, which will give you.
+So one of the most used use case right here is something like a table.
+Like if you go and see table already, just you have don't have to build it, call it pass on the data, whatever you need.
+Like if you see data grid, you see data grid, how many columns and rows need pagination data and, you know, checks and checkbox selection,
+whether you need a checkbox selection or it's a Boolean value.
+So they make our work really easy.
+So we'll talk about like how do you consume this components also.
+And we'll we know we are going to do leverage at most good amount of things.
+But before going to any things like big things.
+Firstly, let's make sure that our basic building blocks, the knowledge we consume till now is clear to us.
+OK, so revise things, join with me in the sessions, completely revise all the notes at least right.
+If you are going with any third party external nodes, anything, I don't say that anyone who is published into production,
+put it on the normal websites might be teaching in a wrong way, anything.
+But what I want to say is that we have picked it up a good amount of examples we have written here in the GitHub.
+If you are firstly clear with this, right, if you have still more just in you to learn more, you can pick them up.
+OK, you can read a number of articles.
+I would even urge you to go and read a good amount of articles.
+OK, even write it on the post for that matter.
+OK, so but at least revise this thing.
+I hope to see you everyone tomorrow in the stream where, you know, I want to stream it tomorrow and Saturday.
+We don't have a class, but I'll stream it on Saturday too.
+I'm doing it two sessions or 45 minutes for class for the reason behind you have a contest coming up.
+So where if you sit with me for this 1990 to like around 180 minutes, you will be more thorough with the contest.
+You will be revising it. You will be meeting better confident about, you know, facing a mocks because mocks are able to start.
+And I want to see your journey along with you, like how are you able to clear mocks and how we can do it better.
+OK, at least the basic building blocks, the HTML, CSS, JS should be pretty easy, straightforward.
+Someone asked you to do it a machine coding. You should be like some with built two websites.
+Right. I've seen I've received few people who are actually building again can ban board trying to replicate it.
+I appreciate those efforts who called me directly for the issues.
+Harish was one among them.
+I sat with him personally, fixed some issues in his court. Right. OK. Hey, lost it, buddy.
+Somebody can ban board is off. You can recheck. OK.
+But there are people who have built. I felt really happy that you customized it. So let's do that.
+I was I was also asking like if you are actually, you know, building like portfolio website, a basic portfolio website that we have done it.
+Maybe can you build that? So all these things will be going into resumes, right?
+Depending on your experience point of view, you have to put those projects to a fresher.
+It's all good to go. OK.
+So this with this, I'll start the doubt session. If you have any doubts, please stay in the class.
+If not, feel free to drop, share your feedback. Really helpful.
+If you have any constructive feedback, I'm happy to take and work on it. OK.
+But to drop the feedbacks and second thing is like thank you for, you know, this journey.
+It's been really awesome. Like we have covered a good amount of basics module now.
+And I'm excited enough to, you know, go into the next two months of roller coaster ride where we cover actual things that I'm doing in day in day out at my office or been doing at my office since like last three, four years or five years of experience.
+Mostly so.
+The next let's let's let's pull in the people who are not joining the pleasure.
+Let's pull in. Let's sit together because things will be moving bit fast from next Tuesday.
+OK. Things will be moving fast. So I hope everyone stay there.
+Alternate is that you stay with me, go through the articles, revise the concepts, keep it completely your base ready.
+OK. Thank you.
+So then I'll start the doubt session.
+So I had a question how to optimize paint and other steps.
+What are the things taken care in paint like images, font, color, etc.
+OK. So firstly, right.
+I'll talk about from the experiences I have the things that I've built.
+OK.
+Because I keep learning from the optimization part.
+OK.
+Firstly, your major metric, right.
+So even optimizing the paint paint optimizing the paint is not something that you can do it.
+Painting may be however the big site is.
+You can reduce the amount of load on let's say if you have a page.
+Of big scrollable page.
+OK. But your viewport size is this much only.
+And this part is not visible to the user.
+Do you need this to show on the screen?
+Firstly, it first started.
+If you load this part of content, it's good enough, right?
+Right. So this part actually, how do you reduce them?
+It's like, you know, this comes under the first LCP.
+Like first LCP is actually completed when users start interacting with site.
+Largest content.
+The other part where you are actually trying to reduce the load is by doing something like lazy loading.
+Lazy loading is one of the steps.
+How do you actually reduce the amount of pressure you put it on those engines like JS engine or the, you know, the DOM creations and everything, right?
+So only like after some time, once you this loaded, if users cross it, multiple, multiple JS files, HTML files, CSS files are pulled and recreated.
+OK, so only when it is required, they load it.
+OK, that things happen.
+And this lady lazy loading concept is heavily used.
+And one more thing is if you have heard this thing, I'll talk it later also.
+But I'm just speaking because you have asked it.
+Do you know this keyword code splitting?
+Have you heard this code splitting?
+OK, code splitting.
+I'll speak it.
+I'll speak when we go into the react.
+But on a top level, right?
+What it generally happens is the amount of JS code, the amount of JS code you actually shipping to the client should not be heavy.
+Like if you see the files of JS is right in the network tab, any you go to any bigger websites, you'll see that there are 20, 30, 40 art files getting downloaded at one shot.
+But there is no one file which is more than three MB or 30 MB or 300 MB files are downloaded.
+Right.
+There are no bigger size of files are downloaded.
+There are like all things are converted into small chunks and the small chunks of code is actually transported and that code splitting is not done automatically.
+It is what you manually write on code.
+Logics.
+How do you do it?
+And in order to do code splitting itself, we use lazy loading.
+OK, we'll see this example.
+How do you actually do the splitting of code?
+How do you share it only the required amount of code to the client?
+I'll talk more on that.
+But these are like again, not from the beginner scope of point of view.
+So I'll share more knowledge.
+If you are interested, you build a use case.
+I'll try to help you out.
+Completed.
+OK, now the second thing, the like once you do the lazy loading and this one optimization then comes like how are you rendering?
+Firstly, you know what happens is you have HTML.
+You have CSS in JS.
+You write some HTML.
+You try to bind with the DOM.
+Update it.
+Now, when you are updating it right.
+When you're updating from JS to the HTML.
+All the DOM says some.
+I mean, the whole to say so critical rendering path.
+Path is reconstructed.
+I mean, each update is actually refreshing the page.
+Hold down.
+I mean, you're building the tree again doing it.
+So what people used to say is that if you are actually doing DOM manipulation, try to reduce the amount of DOM manipulation.
+You do it.
+Try to make sites such a way that you purely render the all the HTML needed at most.
+OK, some some way around.
+We have to reduce the DOM manipulation because it is heavy in size.
+They are like huge operations.
+OK, from browser point of view, the amount of processing it does.
+Now, I have we have solutions for this one optimizations, how they have done it, because I'll keep talking like the problem statement for the react.
+So we'll figure it out one by one things.
+OK, but these are the initial things that I want to talk about is like one is two things are taking more time.
+First thing is like the amount of code transported to the client at one shot.
+And second thing is like all the manipulations that user events happen, which re renders that critical rendering path.
+So you have to figure out the initial chunk.
+Initial chunk should be lighter and the amount of the manipulations that you are actually doing with Dom should be reduced.
+OK, figure out that way or you have to optimize such a way that Dom should not be completely rendered.
+Only some part of Dom should be rendered.
+I'm talking really high level upendra.
+OK, I hope you get this.
+But we'll see one by one more more ideas will come up where you will be able to see things.
+OK, but I would request right.
+I would request you go through web dev.
+Web dev core web vitals.
+If you go for the learning section.
+I think it's in the performance itself.
+You go for performance.
+If you say you will have all the performance related issues like understanding critical path, then how do you process the image, optimize the resource loading,
+the amount of resources loaded, video performance, optimizing for funds.
+The code splitting and lazy loading is something that I talked about.
+And pre fetching pre rendering is actually where you go for CSR SSR.
+OK, service worker pre caching.
+OK, these are like again, these are like some advanced, but these are like really used, commonly used.
+And image performance is something like where you try to store that image nearby in the CDN server where you can pull it because those are big in size.
+Right.
+So those all things have been done.
+But most of them you will also learn like from the NHLD class.
+But this is a one particular course, which is reading material.
+You have to read it one over over the time to get complete understanding of this.
+OK, so I'll share this link with you.
+I hope I answered your question up in the.
+It was a big one, but.
+Yeah, I'll go through this where it will talk about why speed matters, how to optimize, because these are the people who actually build the lighthouse.
+OK, so this is something that I was talking about, like how do you do code splitting?
+Read this article.
+This is one of the common use case that everyone does.
+OK.
+Like if you see, they are preparing the data, starting it.
+Now, after that, they did it.
+So that's how that is to work.
+But yeah, it's good to read because this is the side I've shared with you is this.
+I mean, this will cover most of the web related.
+If you don't need to go any.
+No one can teach you better than the people who have built this, you know, Chrome and the build tools.
+You will see more about responsive designs and, you know, CSS part.
+I even shared that CSS links when we were actually learning it, like how to understand in depth.
+OK, how what browsers understand.
+OK, and responsive design.
+Anyways, you can explore it.
+It's again grid and Flexbox.
+Other things are good enough, like performance is something interesting here.
+OK.
+So then if I have any doubts, I'm happy to take it up.
+If not, we'll close the session and people who will be joining will be meeting it tomorrow.
+Then if not, we'll be joining on Tuesday.
+We'll be meeting on Tuesday.
+But all the best for, you know, contest.
+Take it up.
+Revise the notes completely so that before we complete react, you complete the mock interview for HTML, CSS, JS.
+OK, revise the things.
+I've given you the all the material that you need from the notes, from the links and everything.
+OK.
+I'll wait for one to minutes, guys, then we'll close the session.
+Learning Figma developer mode.
+Firstly, developer mode is something that I've heard for the first time.
+I know Figma. Figma is actually a web design platform.
+Let me see this.
+But what happens, this one is right.
+Upendra.
+I mean, I've told myself when I started my journey right from.
+Like this is my own.
+I try export assets and everything.
+OK, let's see.
+I mean, the UX tool, but just for.
+And say if I if I use this.
+So what I can do here, Upendra, like, let's say if I have this image.
+So how can I export it?
+Because I use this in day in day out, but I don't know the thing that you are talking about.
+We have Miro, if you know Miro.
+Right bottom.
+Export.
+Let's say export tomato as an image is.
+Cool.
+As I already.
+I mean, this is fantastic, but this again lets you to handle only static data.
+You know.
+That's a plan to handle.
+OK.
+So while that works up to what like, you know.
+My my personal opinion is that.
+I won't go, but like, you know, my way of seeing development is that I've made myself myself to the, you know, whatever trending things are there and what is most used in the market.
+So I try to go from that perspective and I try to stick to open source guys like whatever things are there in open source because.
+Open source gives you an ability to learn.
+You know, do things that you generally cannot do with the something enterprise applications like Figma is an enterprise thing, which is handled by Adobe.
+Right.
+Right. So Adobe might whatever features it gives.
+Right. OK. Developer is a toggle button.
+Once I switch on.
+It says to use dev mode in this file, move it to the paid item.
+Where is the paid item?
+Maybe I not I not have the access.
+Maybe I'll second office once.
+I cannot switch it.
+But not much idea on this case to be frank.
+Right. If I say things that might be wrong.
+So keeping it frank.
+Right.
+I mean, I've used Figma left Adobe when they bought it last year.
+I don't think my Adobe.
+I just did a month ago.
+I think. OK.
+I didn't know this because it was a really cash deal.
+Right. For the Figma.
+I mean, they're getting paid really great amount of money.
+Because too much competition was coming like I we play around a tool called Miro.
+I use this for my design documentation and things more like office.
+You know, whatever I want to do, I leverage this one.
+I mean, we have one common access.
+So we use this to it.
+This is also cool.
+Then for whatever diagrams I draw and share with you.
+Right. That's I think everyone knows exactly draw.
+Right.
+See, I have this already things, whatever I pasted to you in chat.
+Yeah.
+So I use Accelerator also up to an extent.
+But yeah.
+Miro is really cool.
+I mean, if you're going for system design, HLD, right.
+Try to see if you can integrate a draw.io with a Miro and take the into this mock into this in the future.
+Hello, guys.
+Then we didn't even took the break.
+We'll close the session.
+We'll come back tomorrow.
+Okay.
+Thank you, guys.
+Thank you.
+See you guys.
+See you guys tomorrow.
+Bye.
+Take care.
+Good night, guys.
+Try to solve PSP, improve your PSP, guys.
+Problem solving percentage for assignments.
+Work on that part.
+Okay.
+Good night, guys.
+Good night, guys.

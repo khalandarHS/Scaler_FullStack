@@ -1,0 +1,1188 @@
+hi all I'm audible and visible guys good evening great so let me share my
+screen do let me know if my screen share also works fine great let me start
+five minutes timer
+yes how many of you did went home and tried or like I after the class tried
+you know reopening that project and checking on that can man board have you
+all gone through the code base
+okay so how is the experience I say in turn project his timers he has j's are
+you able to understand and great some with Kabir we can check it we have four
+minutes or else if you're not able to complete informants we can take it you
+know after class that's all that's also fine right we can we'll take it post
+class let's take it that way great some with them it can you raise a PR or show
+it to everyone okay great so let me open this link so he has deployed yes let's
+see what somebody has done
+well this looks cool so he had played around you know with CSS and made
+something looking make it look cool cool so if you see to do in progress and
+QA and done so I really appreciate this one because you played around with some
+of the styles and you know on hover of this button other than take you know
+great so this thing you can fix it some it's still like you can make it look
+further better this empty space I think you missed some padding on the right
+okay I'm not exactly sure where it is coming from but you can address this
+one's okay that's a small thing and then let's say if I make task one you can
+also make this rounded one let's say to do okay he had given a create button can
+you see this guys instead of giving alt button so we can also he has created a
+create button like on click of this thing I think the activity will take
+place right let's say okay nice another pop-up which shows that hey ticket got
+created instead of alert box where we were trying to delete it he has done
+this now let's say if I try to edit this one hey edit button enabled for the
+ticket ID cool so let's I update this 101 and I close this let's see if this
+all things have been updated in the local storage too
+okay to do right great so that got updated now it also has a status and
+everything fine now let's see if I move to in progress nothing is there a good
+in progress double-click it I can see everything now let's say I have another
+task let's say zero or task zero two and I say in progress create fine let's
+say if I filter by zero two cool zero one great so this was really cool you
+know add on some bit appreciate it so guys do you like this I'll bookmark this
+one in the class so this is an add-on from the features that some with tried
+it hopefully everyone explored this you know if someone want to add more
+features on to this one he can you can talk to him if one thing you can do
+somebody said share your kit link in group it's up to it's your personal
+project maybe what this onto your resume if you want to share with everyone
+that's okay or else anyone some someone can take inspiration from this deployed
+website they can add on their own things right but I've do I did I make justice
+that I explained everything properly but everyone can do you know built on their
+own side of things right so great this is really appreciated appreciable so one
+thing I did it guys is that for you okay I pushed another code like I believe
+like you can go through this code and understand this one initially I was
+talking about portfolio project right like I made some dummy data I did some
+starting in so currently we haven't moved to react so let's make it a simple
+portfolio project then you can improve on so if you see if you see this is a
+project earlier I have shown at the starting of the when you started no for
+this code base I have pushed into this gate of repo I have added so now let's
+say you have built two projects right one is weather project and another is
+Kanban what if you link those both things here and on click of this thing
+you redirect to let's say Kanban board or any other board okay so I'm giving
+you this thing you also link your gate of repos lead code LinkedIn and whatever
+you have write it down your things just update the content that would be enough
+okay update the content in the HTML file everything will be auto done and you can
+add your description so that you are a web developer a portfolio is built
+parallel okay group of projects that you need the tech whatever you need I am
+moving pushing this code so if you see I have added some changes I'll move that
+so that everyone can use this one let me open a new terminal
+get commit
+okay so one thing I'll do is that I'll you know I'll bookmark this for showing
+some other parts like when I take this I did
+okay cool great on some bit so I hope everyone go and you know try it out put
+your hands on hands around you can see this how this is working fine or not one
+thing why I wanted to test this one is that let's say if I make it responsive
+cool so cool I can see it's working fine great one so one thing you can do here
+one suggestion some bit just you know make this in a in a button like you can
+explore like how can you like a hamburger button or anything okay this
+this only this thing like you can use media query and just add one more thing
+like instead of horizontal you can make it vertical or any anything like as you
+like it only filter by okay great other than that everything looks cool good one
+so guys let's get started with today's class I think we are on time I see good
+amount good amount of people but can you can anyone ping in whatsapp group for a
+second that we are getting started with today's class
+okay
+great
+thank you guys so let's let's get started with do let me know once you can see the
+iPad I'll share this iPad
+so it's loaded right okay good now I hope everyone can see this and I'm
+okay good now I hope everyone can see this and let's get started with today's
+class guys so we'll talk about agenda and what we are going to cover and how
+it is going to be so today's and next class will be basically focused on
+something called as machine coding so these are the questions that are used
+for LLD interviews so I'll share you one of the repo where you know you have to
+practice a different side of LLD equations now those LLD equations have
+to be solved by both using vanilla JS and react JS so one is using HTML CSS
+JS now this using again simple framework or library okay so the same set of
+questions you should be able to solve both things because this will be the
+interview specific projects that are you are building or we are learning will be
+helpful to build our portfolio and also for the practice purpose to get into an
+understanding of all the concepts we are learning and how we'll apply okay so
+this is what our plan is going to be for the current today's class and
+upcoming next class and in this right currently we'll focus on today we'll be
+focusing on building two things one is a counter component like it's really
+basic we'll get started with really basic example counter component like you
+click off button you should be able to increase the account on the click of
+minus but we should be able to decrease account and similarly you can also add
+an form element which can help you to increase by decrease by value and then
+there will be a star rating star rating component is something like you can see
+on many apps right if you go for any app if you want to give a rating or on your
+Ola over or any Amazon flipkart any site that you see online they always can
+take the rating as a basic feedback because no one is willing to write a
+content full feedback so rating is component is something really used so
+we'll see how we can build it using HTML CSS and JS so once we do this we'll go
+into the next class where we'll learn something like OTP how do you enter OTP
+then comment section how do you build comment section right and then there is
+another thing that we explore but this is for the next class currently we'll be
+learning today applying our knowledge to this one like how would you actually
+approach an interview okay and other than this thing there's a one concept
+that I have to cover but few people say that it has been already covered few
+people say it not it was not covered so I just want to know whether do you
+understand something called event propagation how many of you understand
+this word even propagation see four six seven okay great so some someone told me
+that Sasha has covered this one so I just got confused okay no worries if it
+is not covered we'll get started with even propagation then once we understand
+this then we'll come to this too I hope the basic agenda is clear is like what
+we are going to do it today so let's let's get started with the even
+propagation then yeah yeah yeah yeah so firstly like you know in the DOM right
+whatever DOM tree is created now whenever let's say DOM is looking like
+let's say if I try to down a particular tree it looks like something like this
+right if we try to replicate let's say this tree itself let's say I have a
+particular level div container inside that let's say I have another two divs
+okay this is something you can say root node then let's say I give the naming
+convention one then two then three right let's say this is zero this is one this
+is two then you have this is let's say three right let's make it as two three
+fine
+zero okay in mistake say this is one this is two this is three then you have
+well let's say a span here an image here okay let's say this is four this is five
+then again in this between let's say you have video here then you have input here
+okay six seven now what we exactly meant by propagation is that whenever
+whenever we click whenever we click something let's say we click on this
+particular day or for the matter let's say even HTML whenever we click on a
+whole page there are two types of propagation does happen there are two
+types of propagation that happen one is in words second one is outwards now how
+does we can resist like let's say you have a boxes this way our parent-child
+relationship let's say this is a grandparent this is parent then this is
+child now whenever you have this sort of children relationship when we say
+grandparent parent-child let's say this is a HTML this is a div and this is
+something like a span no whenever by default right what whatever the default
+nature of HTML is that you know all the events usually bubbles up this is the
+default nature default nature right whenever let's say what if what if you
+had event listener added here when you had an event listener here okay and by
+any chance by any chance if you click by any chance if you click on a parent
+right let's let's see this with an example but there are you know I will
+draw the will go to the example and we'll see basically what I'm trying to
+say that even propagation happens in two ways which is one is called as
+bubbling one is called as capturing okay when we say bubble in general we mean to
+say that it comes out it bubbles out when you click a child element you will
+be also be able to hear in the parent element okay but that's what it says
+that like whenever you click a child element parent element will also be able
+to listen that click but what capturing says is that if you click parent element
+child element will also be able to listen like it works from this bubble up
+capturing so we'll see by default nature is something called as bubbling okay by
+default is about let's say this actual you know using HTML CSS for the better
+understanding we'll come back to this diagram in a minute let me create a class
+of 17 in JS part only folder class 17 which I have simple index start HTML
+inside this let me generate auto HTML part then we'll build a simple dip like
+the diff and I'll say this as a grandparent let's say okay inside this
+let's say I have Dave parent so I have Dave child okay simple three dips that I
+talked about now what I'll do here is that I'll create a script and okay
+before this let's add some CSS to this so that will be able to identify these
+boxes okay let's say body for this one I'll say display flex align item center
+justify content center and have some padding across of 20 pixel okay fine or
+let's say I can say 20 percent fine and now what I'll do is that I'll give you
+know like a basic CS styles for this one so that we are able to play around with
+this content okay let me pick up this part of style for each diff I added
+minimum height and minimum width and padding around it okay let's let's go to
+open this one and browser no okay this is what we were able to build out of
+that but now what we'll do is that we'll also do something like we'll add what is
+child what is parent and everything let's let me do this say child parent
+grandparent let's say this reflects yeah fine now what I'll do simply is that I'll
+add basic listeners to all of them now to add this listeners what we will be
+doing it is like fairly simple getting all these elements okay getting an
+access to the element let's say const I say that grandparent document dot query
+selector inside this since it's an ID I'm trying to access my ID I'll say that
+grandparent okay const then parent say document dot query selector I say
+hashtag parent again const child
+document dot query selector child okay so I had created a prank to access all
+the elements which are created and no HTML so let's once we have this access
+to this dom elements what I'll do is like I'll add a listener to each of them
+let's say and event listener and I'll specifically listen to this click event
+inside this click event I won't be doing anything but I'll console log let's say
+console dot log I'll say that this is a grandparent grandparent clicked then
+let's say I copy this I paste again twice I'll see this as a parent I'll
+convert this as a parent I'll put it as a child I'll keep it as a child
+so any doubts guys on this till now what we have done this is a pretty basic right
+what we have achieved here like straightforward creator three days box
+inside box inside box how we were able to create box we know that using a box
+model will be able to achieve that and I've just tried to put those elements
+in center using these properties and I tried to get access add event listeners
+to them now let's see what's happening in the console okay I come to the
+console now I just want you to know check on this one behavior what happens
+like if I click here if I click here on the grandparent let's see what's what
+we are able to see output do you see when we click it grandparent clicked is
+something out we got it in console as an output this is the reason why this has
+been effective because we added a listener to the grandparent and we
+directly console dog but now what if what if I go and click on a parent if I
+click on a parent now if you see both parent and grandparent got clicked no I
+didn't click anything on a grandparent I didn't click any button on this
+grandparent but grandparent automatically got clicked now this
+particular feature is called as bubbling that am clicking something
+innermost child element now all the parents are also getting clicked
+automatically when the listeners are attached to it okay now let me show you
+again if I click child now child they click then parent then grandparent are
+you able to see this bubbling effect like how this bubbling effect is
+happening so this is what an even propagation that by default whenever you
+click any child element parent if parent is having a listener or any
+subsequent parent is having listener those are those parents will be always
+listening like when whenever you have this sort of listeners let parent have
+it they'll listen this I hope you understand that how at even bubbling is
+how even propagation happens in even bubbling and by default the nature of
+this particular events whatever by default are even bubbling format okay
+this point is clear now let's let's explore what is capturing now if you
+see if I hover on add event listener then okay now if you see here what's
+happening here they say that in the event add event listener first is type
+when I say type it is talking about the event type like click mouse over mouse
+mouse leave and everything to or like any sort of events then it it takes the
+listener object or the function that we had now then there are multiple sets of
+options like optional options that you can give we haven't given any option yet
+but this is working as expected but there is a one thing that you can play
+around with there's a one thing you can always play around with is that let's
+say if I give here false okay let's say if I give here false what happens let's
+say if I go and click it here still nothing is nothing is you know no
+problem everything works fine everything is looking good but what if I go on to
+give false everywhere
+let's say this is a third parameter that I am adding in this add event
+let's see if it's still affecting anything when I click child child is
+printed parent is printed a grandparent is printed now did anyone observe
+anything any change there do you see any change guys
+is there any change no change right now what this third parameter is talking
+about so firstly when we say this event listener right takes three things first
+thing is like type of event then it takes something like a function a call
+back function what we'll do once listeners click then you have use
+capture now whenever you say that use capture by default is use capture is
+set to the false the reason is that by default when you said use capture as
+false it works in the event bubbling fashion okay now let's see if I convert
+okay now let's see if I convert all of them into true let's say if I convert
+them into true that I am using in the capture format now if I want to
+propagate events or anything that according to like you in the capture
+format even capturing let's see how this works now if you see if I click on a
+child
+no if I click on a child you see here first grandparent got clicked okay then
+parent got clicked then child got clicked so event whenever you click
+innermost element the bubbling happened from top most to bottom earlier it was
+happening from target element to top most now it is happening from top most
+to the target element now even if I click parent grandparent and parent
+will be clicked is this flow clear guys how capture and bubbling differs like
+one is going from a target element to the top the other one is come coming
+from the top to the target element that's a basic difference between event
+bubbling and capturing opposite to each other by default you'll seen bubbling
+nature now what if what if you don't want this behavior to happen why like
+how these there is any way that we can stop this event flow like sometimes you
+don't want to leverage this flow like if there is something that we can stop it
+so for in order to stop this execution a like what you have is like you have one
+of the ability called stop event propagation okay now how can you do
+that how can you do that let's say if I have here event okay I say that event
+dot stop propagation once I call this event inside the listener I mean call
+back function let's say when you when you are exiting callback callback
+function let's see if this is working fine now what if we are able to stop the
+propagation and we are in the capture phase if I click child what should be
+the output we are in even capture phase it should start from the topmost
+element and come to the child you know target element grandparent parent then
+okay how many of you are agreeing with Arun Sambit okay great now let's see if
+I click on a child still do you see do you see child didn't even print it though
+we added listener to the child though we added listener to the child since we
+had stop propagation in the parent element itself and the parent element
+itself we had stop propagation so it didn't let this listener this console
+lock print or it didn't let execute this callback function is this clear how this
+event propagation works like doesn't matter where you click what you do if
+in the flow it stops stops like that flow completely now let's say even if I
+click let's convert this into bubbling format and let's see what's the
+difference now when I'm trying to bubble it now if I click on a child again it
+goes from target element to parent or topmost element now when I click child
+let's say if you see child and parent got printed but grandparent didn't
+print because we stopped propagation there itself so I hope this point is
+clear like how stop propagation works so the reason behind right why we don't
+use this even propagation we should know this concept but if you see this like
+how events are flowing how the events have been triggered it's really tricky
+to handle or you know build a code on this one so it is suggested that you
+try to you know you can take advantage to it but if you are really great with
+but if someone beginner comes or someone new to this project it would be really
+difficult for him to understand how bubbling and you know like capturing is
+working up to an extent of a whole when a whole project is built on that sort of
+idea okay so it's good to build what if stop propagating at a grandparent and
+it will block the parent okay let's see this let's say this I cut it here and
+make it true okay
+no case I'm in the capturing phase I know what if I click on a child element
+what could be the out of output of it I'm in capturing face just think of it
+some bit think of it triparty
+okay yeah so only GP people just like let's say if I click on a child if you
+see only grandparent got clicked even if I'm clicking child or parent okay
+anything so that's how even propagation works so it is not suggested to play
+around with this event bubbling and you know capturing at a bigger extent
+because that's confuses people even it's really difficult to build project
+according to this okay I hope this points is clear guys how even bubbling
+capturing works and even propagation works if someone asked you into would
+would you be able to answer taking the simple example just like from target
+element to complete outwards or complete outwards to the target element
+two flows by default it bubbles up any doubts on this topic guys anyone having
+any challenge understanding this topic can we go ahead with machine coding cool
+so let's say simply we can say that when when we put an event prop will block
+all the child yeah propagation will block it however you define depending on
+the concept whether coming inverse or going outwards it will stop outgoing
+thing counter dot HTML let's say I have this counter dot HTML firstly I'll show
+you what I exactly mean like how we want to build this counter let me open my new
+other repository and launch it and show it to this second guys
+no this is really basic don't judge me on my CSS but if you see it here can you
+guys see this let me know if you can see the screen okay can you see this on
+screen okay now so what happens in many of the machine coding runs or what I
+faced it from my experience or I'll tell you a few things what happens right some
+times in some use cases you may not be given a complete problem to solve you
+will be given a partially completed problem where you have to understand the
+document they give and the code it is already written so the it will have a
+combination of such that you understand the code and fix the issues in the code
+existing like they'll create a box in the existing code okay so firstly will
+understand like hey can you fix this issue can you fix that issue once you do
+this you'll also have an ability like next would thing would be like you add
+on some features to the existing project okay so that's a one type of LLD rounds
+whereas other types of LLD rounds are basically based on building a simple
+components where end-to-end things you have to build in one hour or given a
+time there are some times that they'll give will they'll give you a use case
+where you have to build end-to-end things so you can't they won't stop you
+from taking advantage of library or mostly they if they are it's a pair
+programming they'll stop you from using AI tools though they'll allow you to do
+it in company but they might not allow you to do it in interview process is this
+clear what type of rounds are expected at LLD level in front end okay so if I
+try to summarize again like simple thing complete
+scratch
+to full feature this will be small questions there will be some incomplete
+projects
+incomplete projects deep so I'll tell you what sort of skills are tested on
+this thing okay so here your skills of like how are you trying to build
+everything like from end to end when you're doing end to end right so your
+thinking process will be common for both the things but when you build end to end
+project right this is like more important around this will be like for
+the initial levels screening okay once you are able to only clear this will
+come to incomplete project where you will be tested on debugging like how we
+are able to debug existing code because you have to fix defects debugging is
+important for fixing defects and understanding existing code okay once
+you're able to do it then creating or building
+add-on implementation okay here more leaf when you do from scratch clean code
+clean code should be opted okay now but I hope you understood these two points
+like how LLD goes when it comes to front end right there will be there can be two
+rounds and there can be both the rounds for some companies okay some might give
+complete scratch one some people might give incomplete project and try to help
+you know you should have been working and understand the existing code and
+then debug it and complete it that's the reason why that is the reason why I
+also parallelly debug and show you that how I'm doing it whether it is in
+browser or whether it in visual studio code okay I hope you follow each and
+everything okay guys is that clear no now comes the point is that now let's
+say there is some interview interview when you go and someone says that hey
+you have to build this you have to build this this encounter he won't talk much
+he'll say he'll say that have to build this now you go and test it out let's
+say if I say increment by five okay and I click on let's say plus so it is added
+by five each time if I reduce each time it is reducing by five what if I go on
+increase by six no it is increasing by six but the route the thing you have to
+work on is each time they are updating the item is not being reset to zero but
+it is keep on adding to that existing value okay and on click of reset the
+value is becoming zero is this clear is the functionality wise now you guys
+will help me out to build end-to-end a simple HTML CSS and JS now you have to
+help me out build this one now first and foremost thing what we'll do is that
+we'll build it HTML okay no can anyone okay you guys help me out what we want
+to do it I'll just open a file let's say this is an in default HTML file no let's
+make this a div container let's say our Dave with a container class keep on
+pitching it guys now why have this container what should I contain inside
+this container
+okay counter text h1 counter text okay let's say if I make this h1 okay counter
+okay cool then then yeah great guys next one before input you have something a
+number before label also guys do you see output value you see this output
+value in orange color how would you address that one so Abhishek Pratap has
+given everything no let's say can I say this way they've dev dot let's say
+hashtag number and I give it zero let me open or show preview also on the site so
+that you can see step by step what we are doing currently we have built this
+one now then we have input value right let me build this one I'll say there's
+a div a simple live I'll have like increment or decrement by
+once I have written this then I can have input element
+okay and type would be what could be the type guys number right number so that
+you have a element anything you can add it but you cannot type down anything
+string well like string data where it is a data now what's the next thing plus
+and minus button div then inside two buttons right let's say I have div then
+inside that I'll have button and let's say ID would be add and inside that add
+to give it I'll give it as plus icon then button hashtag subtract then I'll
+give minus let's say this one get the better sheet now after this you have
+reset but isn't it now let's say I have again button hashtag reset I have this
+reset okay I hope this is clear a basic pretty simple thing anyone having any
+doubts this thing everyone would be able to do this one right if someone asks you
+to build this layout pretty simple straight forward now now comes the
+styles let's say if we are trying to add styles here itself for the class
+purpose I'm adding it here okay now let's say what you are seeing here okay
+container let's say a container so display is flex okay I see all the items
+went justify content center and center
+cool now do you guys see any issues here
+okay can can anyone fix this so whatever is comments I get it I'll try to add
+that one other people will help me out okay flex direction column let's say I
+have flex direction column cool now now comes the next thing let me show you
+this
+no for buttons okay there's a margin and okay let's say I have a margin of 10
+pixel okay fine now then border 2 pixel solid black okay then gap of 10 okay
+let's say if I give gap of 10 pixel okay good no border radius of one rim
+let's say I convert this into rem units itself let's say 0.7 rim I keep it a 0.7
+rim so 0.2 rim okay cool now okay height 25 VH
+the height VH 25 VH is not helpful make it 45 good no a basic set of colors a
+basic set of colors like let's say hashtag firstly let's let's make it
+style that reset button okay let's style that reset button it's come step by step
+going from the bottom reset button
+busy color coral button blue okay let's say hashtag reset background color
+coral cool no after that
+let's make this lighter one okay let's add up order radius of 0.15
+rim this is not enough let's make it one rim itself okay now this one thing
+and okay let's make this hashtag ID
+fine now the color for this content ID number is left okay so what color I have
+coral well that's a tomato fine so I hope this this is something orange okay
+anything yes I hope this is pretty basic and clear right whenever you see a
+layout you will be able to imagine how that layout was built and what it might
+need to require to build that one okay I hope that amount of confidence you as
+you guys are getting it now by now okay now comes the JS path logic part now
+let's say how would you approach this one let's I have a script tag here
+itself okay once I have the script tag now let me know what I want to write
+because this is something that you are going to teach me out I'm not going to
+teach you out because this is pretty simple example get the access to the
+required buttons help me out help me out let's say I have add
+const subtract
+then you have reset okay okay now how can I get access to this one document
+query selector inside this I have to give something no tell me or guess what
+I should add like for the ad if I want to get at okay this is the suggestions
+hashtag add and then let's say hashtag subtract okay then you have something
+like reset okay so this buttons are clear enough to us now you have input
+element also now in order to get input element let's say I can say const I can
+say something like counter underscore increment or decrement okay document
+dot query selector okay I'll get an access to this one as we don't have here
+anything entered now let's give some information here okay let's give
+something ID as increment or underscore decrement okay let's select this ID
+hashtag okay then we had const counter document dot query selector inside this
+if you see I have number hashtag number cool so guys did we get access to all
+the things that we need now great now what could be the next step what could
+be the next step what would be the next step
+add click listeners to add okay add event listeners to let's say add dot add
+event listener now let's say I added a event listener here then do I need to
+add even further it further more event listeners right now let's say I have to
+add further more listeners now what all event listeners I need for subtract and
+then reset anything else guys and do we need to listen to click for all of them
+now now comes the role play now tell me what we have to do now let's say on
+click of add what we'll do let's say I have a event okay no on click of I event
+let's say I have one user clicked on plus what should happen on add get the
+value from the input add to the update the value of the number with the
+counter plus input value great the it's it's great how do I get access get value
+from the number that's my question that's my question how do you get it
+value from that input value what is the where that input get attribute works
+fine but on the form elements you can directly get using one of the value on
+event or target dot value we won't be having that because on that's a click
+event is for add button okay now few people suggested that let's say I say
+current number if I say current number and I just keep that counter okay I get
+the counter dot value whether this will give me the value current value
+no so that's that's present in the div that's present in the div isn't it so we
+can get it in a text okay once this is done how can we convert this one into
+integer how can we convert this into integer percent
+this is clear like how current number we are able to get access to this
+particular number now let's say I have another variable called once increment
+or decrement by let's say I have this one now how would you get this
+can I do this increment decrement dot value
+right input dot value that's how I convert this also pass end not
+necessarily needed but let's for the safe side no so we got the two numbers
+now how we should be able to update it how we should be able to update it same
+thing counter dot in a text equal to current number plus increment decrement
+right so I hope you guys all agree with this one let's say default number I put
+it as one now and let's say I also have here let's say this is a zero by default
+and here inside this value let me give it one as a number okay no once I click
+this what should be the value of this particular value once I click plus now
+it should be updated as one right as per our idea let's say this is working fine
+if I convert into two it's working fine three great guys now now comes a
+subtract part isn't it same things that we have to use it only one operation
+that we have to change
+just change the sign cool no let's say I update this then I am able to reduce it
+cool but I want to do something I want to handle one of the use case you guys
+have to help me out I don't want negative outputs negative numbers if
+let's say if I my current number is by 3 and I'm decrementing by 5 reset it to 0
+reset it to 0 but don't give me negative okay so can we do it this way like if I
+can write this condition if only greater than 0 execute this statement else apply
+zero a basic condition
+no if I'm trying to reduce it let's say it is always on the zero if I have
+further it can reduce to 2 1 it won't let's let us take the negative number
+this is clear now on click of reset what we should be doing it let's say I have
+this number and also let's say I have this number now what should be the two
+things that we should be doing on the click of reset make it 0 input value
+equal to default no input value equal to default let's get that input value
+equal to default let's make that dot value equal to 0 once we make this reset
+button then also counter dot in a text equal to 0
+to 0 let's let's make this input value in y1 let's see this if this is working
+fine I have this random number let's say 3 then I increase it then I'm reducing
+it if I click reset this is working fine so how does it feel guys is it simple
+like machine coding would be able to do this sort of problems if asked in
+interview straight forward and simple isn't it so now now I have one more
+interesting question that we can pick it up okay this is going to be bit
+tricky okay let me show you that give me a second how it would look like
+but great guys you are able to follow up I'm really proud of that point now you
+are able to see the star component now again some basic HTML CSS but now I have
+this I have when I click this I'm getting count as 2 if I'm clicking this
+getting count as 3 then 2 and then 1 okay I hope this is you are able to get
+it how this is have to be built and what is the logic behind it okay so one thing
+I'll do is that since this is the last topic for today's class I am making it
+much lighter today or else we can pick it up one more question if we want to
+but what we'll do is that I'll give a five minutes break you guys figure it
+out how you can build this one we'll come back and we'll build okay some
+which says let's pick two three more I'll give it as a homework some bit
+because I have a number of questions that you can solve and number of
+questions that you have to solve because people were asking me like they need a
+few set of questions 2.5 that would be a part of a homework what currently we are
+building like to build like whole thing you should be able to give 2.5 okay so
+you should be able to figure out like how like if I'm clicking on the left
+part of but the so you have to figure it out how we could be able to do this but
+let's come back okay I'll give a five minutes a break then we'll come back and
+build this one okay
+today is going to be shorter class I believe you know so starting the timer
+guys okay seven minutes I can give it no issues since classes shorter today okay
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+guys I hope everyone is back
+ok so Pradeep was asking me to re-explain the subtract part so Pradeep the only thing that
+change we had done in subtract is that I don't want to address negative values in the output
+so whenever I'm doing a subtraction between current number and increment decrement by
+I'm only if it is greater than if subtraction is greater than 0 then I'm doing a subtraction
+or I'm resetting it the value of 0 I hope this point is clear Pradeep ok still it is not clear
+so let's say if you see my current number is 5 and I'm trying to reduce what should be the
+value if I click on minus 4 then 3 then 2 and then 1 then what could be the next value 0 now
+if I try to subtract further minus 1 minus 2 right but if I am clicking it again do you see
+the value is getting subtracted further no right so I was trying to handle this edge case
+where I'm saying that in output what if you don't want the negative values so I was saying
+that whenever I'm updating the counter inner text value this inner text value I was saying
+that hey whenever you are doing a subtraction compare this is a tertiary operator I hope you
+understand tertiary operator how does it work I'm checking if the subtraction is only greater
+than 0 then subtract and assign this value to the counter or else assign 0 to it like even if I'm
+reducing minus 1 the value becomes minus 1 so it is resetting it with 0 I hope this point is
+clear how this works this is equivalent to if condition then if and else condition simple if
+else condition okay great so guys let's start get started with other example if you are still
+interested in pursuing another example we'll pick it up OTP today then we'll have further examples
+in next class okay star dot HTML okay let's make it star rating okay let's close this let's open
+this no default HTML 5 this again as you suggested me earlier I need your help again so you are in
+interview again you are given a discretion so what could be your approach firstly let's build
+HTML itself let's build HTML itself firstly guys is everyone the class one by one thing
+let's say I'll start typing it down div with a container okay once I have the container inside
+that I have same h1 tag as earlier with the star component then I'm supposed to have a list of
+stars inside the dev let's say dev dot class star container okay we'll come to stars how can you
+build the stars and we'll come to that now let's say next time next thing we have is something like
+ratings count okay font also we can leverage right agree now then you have something like
+let's say h2 inside that I can say that ratings count and I'll say this way and I'll keep the
+value let's span zero to ID I'll give us count ID for just for reference now now let's let's
+explore this one how does how does this should work firstly for icons if you go to font awesome
+and go to the icons I say star I have this star icon whatever we need right we have fs
+solid fs star both things are there but do you know so how many of you understand difference
+between ascii and utf it how many of you understand difference between ascii and utf it
+doesn't even know what ascii values are or what utf values are okay so ascii values are in general
+starts from a to Z capital A to capital Z and zero to nine so all these numbers are ranging
+in ascii value so basically initially when applications were built mostly they have
+based on ascii support okay what whatever you see that you know like deep by default ascii
+was something was considered but utf8 was like used for global which has a 8 encoding bit where
+you can go and build you know as many characters you want like if it's a Chinese or Telugu or
+Hindus Hindi scripts all those things can be still written on the websites and right they can be
+leveraged or anything so such kind of things can be encoded in the utf8 that's the reason why
+whenever you see in the meta care set they say that this particular HTML is utf8 compatible it's
+not only ascii compatible but it is utf8 like a wrapper where you can also write Hindi Telugu
+English right whenever you go for if you remember when we were using when we're trying to use a
+font family for like when we are learning font family we saw that every different type
+of language can be rendered in HTML and HTML should be able to understand and render it right
+so that that's that's where utf8 comes into the role I hope this difference is clear basic
+difference like ascii goes from A to Z A to Z and zero to nine but utf8 is much more than like
+everything comes into it okay just an encoding but now what I was trying to point out is that if
+you want to use font awesome that's very good idea but there is something also like utf8 icons
+HTML let's say if you go and see right miss all the icons there are different sort of icons by
+default HTML will provide you we didn't explore this one yet but we are exploring this one because
+sometimes this like interviewer might ask like what other than font awesome what is a default
+HTML provided icons if you see in the utf8 you will see in different cassettes like ascii win
+ISO symbols utf8 here you will be able to see that all the Greek letters punctuation marks currency
+symbols letter like number forms so all those all of those things concerned are emojis are also
+there like whatever emojis you need to that's by default you'll be you'll have under this utf8
+encoding okay so how let's say if you see here spade right now in order to render the spade they
+have different like they use ampersand symbol for your letting it know that hey we are trying to
+use the this dex code okay I mean we are trying to you write something in a utf8 then you use
+hashtag or this one symbol to depend whether you are using Dex or hex code okay here if you
+see for the star symbol we are having something black star and white star do you see this black
+star and white star so star symbol is by default being provided here so let's let's try to use
+this and let's see how we can use this one also what I'll do is that I'll copy this Dex code
+I'll copy this Dex code and then I'll create a diff of let's say star into 5 okay I created
+a five diffs of star and I'll paste it let's say ampersand hashtag or do you see that star
+is coming by default let me copy this okay yeah it works in any platform because it is
+browser compatible now if I if I change this cassette to ask I still it is working because
+it in you know modern browsers it they pass it okay but by default these are utf8 compatible
+and most of the HTMLs are come utf8 compatible like you go for any project and you go for the
+headers the basic cassette would be utf8 compatible I hope this point is clear okay you go and pick
+it up anything today's world they uses now once we have built this now comes the main CSS part
+let's help me out with the basic CSS that we have to apply here
+it's the same sort of CSS right on a container I'll apply same still display flex
+align items also let's say flex direction column align items center justify content center okay
+no but if I don't give this if I do I need this doesn't really matter but let me know this star
+icons do you see the star icons as aligned as we need it okay let's say also suggestion the
+next suggestion is let me go to star container display flex okay I got this icons as suggested
+let's say if I want to increase this icons so as we know that our icons font size is something
+applicable let's say I say that 3 rem okay now now comes let's say for firstly I let me add a
+border to this container border radius of 1 rem also border of 2 0.2 rem solid black
+okay cool now then there is something let's say if I want to give some padding to each of
+this particular class whatever star we have let's say I have some styling to it now do you see here
+there's something that we were doing when you click it it was orange color yellow in color that
+something filling or gold in color then there's something changing okay let's address that one
+and I want to see you something firstly we'll come to ratings count display in line rightly I
+said but if you see here there is any change do you see anything change in my mouse do you
+see cursor getting changed from this this particular key to hand key cursor is pointer
+right let's let's make that okay cursor is pointer now also let me add some padding it
+to it so that they look differentiated 5 pixel or 0.3 rem okay cool then we had let's say by
+default right let's say by default I'll say that these are white in color by default okay let's say
+gray does it look better by default gray okay fine no if I make it white guys here are the
+completely you know they are erased so I'm using so instead of white star I was thinking to you
+know instead of toggling this content in our text like as you suggest if I go there are two
+ways to build this one one is like if I if I want to use an inner text I will be on click of each
+things I will change using inner text like replace this 97 double 3 with 9734 or else I can play
+around with the color of a CSS right on click of this thing fill this particular star with the
+color I hope these two approaches are like one approach and this approaches are clear right one
+is toggling the CSS class the other one is updating the divs in us inner content in a text now then
+firstly what I'll do is like you know for identifying each child uniquely for identifying
+each child uniquely and what I'll do is that I'll add a separate attribute which will help me to
+identify which particular star or which particular value I'm clicking it because if you see here
+there's a one use case if I click on three third star do you see first three are getting filled
+if I click on first four four are getting filled right so that's each case that we have to handle
+when you click one only one when I'm clicking for all the four from left should be filled it's
+not only one thing okay so let me give someone a data index so as you know that we can give
+a number of attributes as we want so I'm just adding an index to the stars like two in order
+to identify better okay now I'll add as to then three then four then five once we have this now
+comes the main rule so now this you have okay we have to fix something which is like H2 make
+it H2 as display in line as does this fix as one thing we still left help me out this one
+ratings and this number how can we address this one
+okay one way to fix this one is like and if you don't want to do it using CSS always cut
+and put it here inside this one okay this is one of the hack you can always use it okay now
+because I when I'm trying why did we do this one is that yeah right Ashish one one why I have to
+put this zero inside the span tag is because I need to access the count using ID and then
+that's the reason why we have written this way okay now comes the actual part where I'm
+adding script tag where our logic should be handled now so one of the suggestion I've
+already got from Kiran was can we get put further for loop which goes from one to the number
+represented by star click and this loop would change CSS of star according right Kiran agree
+but now you guys help me out how would you approach actual logic part here
+which all things I should get access to which all things I should get access to
+think of which strategies would you get access to all stars and then span okay let's say I get
+const star document document dot query selector all and I use star okay I got the star then also
+I got const count document dot query selector inside this I can say since it's an ID I have
+to say this account now a good I got access to both the elements now is what I should do
+where would you add an event listener where would you add an event listener for each on the star
+event listener okay so I just want you to think we have learned even propagation technique can
+we leverage that one or we have to add it on individual item which one is more preferable
+like this is a simple question like okay we can run a for loop on star also I agree let's say let's
+build this both things star dot for each let's say each star that's how I make it this has a
+stars once we get each star we can say that star dot add event listener inside this event listener
+we are listening to click okay on click of this listener what we'll do it's a both ways like
+propagation is better since event account is decreased right somewhere I agree with that but
+let's build this way and then that way so that everyone have that understanding right okay once
+only one event is listeners click to the container later I think I agree with you
+Kiran as that some bit suggested both are you know standing with same point but here let's say
+I've added event listeners to all of them now what should we doing it now let's say I have an event
+here now can I know how can I know which index item is clicked just help me out with that one
+let's see
+inner text in the inner text I don't have any value right in the inner text I have only this one
+do you see any identifier that I added in order to identify which item is being clicked
+data index right data index how would you access the data index
+so let's see can I do something like
+index what I can do is that let's say I start I say a particular star event now this is the star event
+whichever star user is clicking get attribute
+the data index
+let's see if we are able to get this output
+okay star pardon me guys now let's see if this we are able to get the output I'll copy the url
+I'll put it here
+so I have added our listeners everywhere now once if I click this I'm able to get it I'm able to
+get that index as expected right now
+line 50 star spelling I've addressed that one okay now guys what's the next thing what's the
+next thing do I have to again go through each of stars
+like I have to run a loop for let i equal to zero then till till where I have to go till the index
+right till I reach index less than when I start from zero with index or else let's say start from
+first index equal to this one right
+now
+one thing I have to do here is that star dot on each of the particular out of the stars
+I'll get access to this each of the star on this star which particular attribute will have classes
+on an element which particular attribute will have classes like
+I've got one answer yeah great guys classes do you remember this that we on class list we will be
+able to get all the classes that we need for a particular hsv now here what we are supposed to
+now here what we are supposed to do we are supposed to add a new css class which will
+fill the particular star now let's say I have a css class called star and I say fill
+I say that color should be good okay no I'll say that can you add the css
+class okay
+is that it
+is class list is default element no on each element on each element you will be able to
+access what are the amount of classes that are applied using class list like if you say
+go here dev dot class list you should be able to do it but div is not defined here but
+like I can show you
+but that's how it works actually I can have to put the debuggers and show it to you but here
+one thing guys one thing I want to show you is that let's say I click on
+yeah I have an access let's say I go to script tag let's I'll show you this one how this thing
+works let's say I have here I put debuggers here as of now okay now let's say I have this
+debuggers now if I click it on this third point if I click it in this third point let's say for
+what is the index value I got I got to the as third that's great okay one thing one mistake
+can anyone help me out what is the one mistake that I've already did it
+no index 2 is fine data type can you see what is the data type of index
+in for loop I'm no no this index is showing in the string format right 3 as a string but it should
+be a number right because we are iterating through the loop I should be less than index
+but I shouldn't be less than any string value right are you able to see this case this bug
+are you able to see this case this bug so this is how debugging helps you like I put a debugger
+point you know that what is the issue that where you got stuck now let's say I update this one
+as a pass int
+okay once I do this let's say this is working fine though but it by default it converted that one
+but now
+let's let's redo this one okay let's redo this one now if you see I
+got the index as three now I'll update this index has three now let's get
+we go to the stars now if you see each star let's say if I get go and do here star
+star starts dot index of one that's how I do this index of one and
+class list when I do this class list do you see a particular class list called star you can see it
+how can you see this one that already there is a star added this is where you will be able to
+identify
+I hope this is clear to submit
+okay now once we got this now once we got this let's see what's happening
+let's say if I go and do this dot add
+now I'm making another mistake here if you guys see you have to suggest me what mistake I did it
+I'm adding a star fill once I click a play another time I click a play I click a play again now
+now does this particular star fill got applied
+now firstly does this star fill got applied till here
+no let's see what happened here do you see here there is some mistake that star
+fill is applied but it is applied in a wrong way
+okay are you able to find the mistake guys
+right when I'm adding a class if you see I'm adding as a dot
+dot star where I have to add as a only css class name okay once I do and fix this one
+and then there's another mistake that when I'm moving it from the index I have to start from
+0th index because the divs will start from 0th index for the class list also it works like a
+start from 0th index okay now now let's say I click on this one three times now if you see
+first star got good second got good third got good now now what if I click on two elements only two
+elements I want to give two ratings now do you see in that third element is not uncolored how
+can we address this issue how can we address first we need to remove the class list okay great
+so I hope this point is clear to everyone like we have to remove a particular class first then
+we have to do it for like everything right let's say I go from let's say
+on the loop I run the loop from stars index instead of this one I say stars dot length
+okay and I do remove that's it right now let's say this is working fine
+from rating point of view if I click that's how I remove the debugger as of now three then I'm
+clicking two then I'm clicking one then I'm four then three till five then two I hope this is clear
+how this is working guys anyone any doubts till now like how we are able to add CSS particular CSS
+class how we are able to remove that now now comes the ratings part how would you update this ratings
+pretty simple straightforward anyone can get it help me out
+do I need to have a counter really
+okay let's say can I can I do this count dot in our text
+right now let's say if I click this star do you see this rating got in automatically added
+because this index is giving me the data attribute index a data index value which star you are
+clicking I'm getting that value and updating it simple and straightforward right
+now let's say I'm going to add this index right now let's say I'm going to add this index
+simple and straightforward right
+now now this is the approach one
+but before I go to approach second I hope for this this how this problem is being solved using
+this way is clear to everyone anyone having any doubts in the whole class
+I hope everyone is clear right so if if this sort of question comes you would be able to solve
+in interview confidently without a sweat on face or any mark
+so every problem whichever lld problem you face in interview take it step by step create a HTML
+create a HTML go to basic CSS then access those elements add eventlessness simple
+with the sweat on the face yeah that pressure will be there but I'm just trying to say that
+once you build HTML part right you will be confident when it comes to JS part
+right now guys
+now I have this one that what if you want to build the same logic using event bubbling concept
+firstly we need to have access to the container right the star container
+let's say I get an access to star container
+okay document dot query selector then I have dot class star container
+let's say I pick the star container now on this container I attach one add event listener
+I attach one add event listener click event is clicked and I have to be
+able to do everything inside this one now
+inside this event how would I will be able to get the values is the trick
+only one thing I have to get it is that only this thing
+only this thing is the trick that I have to get it other things let's say other things I copy paste
+it other things I copy paste it simple I say const index also
+okay now
+no
+okay current target no but
+how would you get out of that event event dot
+just I'm trying to get that okay let's let's do this let's do this
+one thing I'll do it here is that let's comment this part okay and let's do
+comment this part let's console log event here for a second
+and let's comment this logic also
+now go back to this one let's say if I remove this all this parts and I click something like
+this one I click first star now if you see it here if you go to target element let's say
+we go to target now we have this element now here inside this target let's say we go to
+firstly let's see
+the no
+inside attributes do you see this data index
+does this data index gives us the value that we need let's see this okay
+I apply here I go to console I clean it up I select this one now let's say
+event say I print just event dot target dot attributes
+okay let's say I still get attribute inside that I pass it as data index
+is my job done still
+can I leverage this one
+okay now let's see if I try to click it on the other one let's say click on fourth element
+and I try to print this fourth element I'm still getting it
+okay now let me do that same logic
+so just uncommenting this one event dot target dot get attribute of data index
+removing this part
+okay this is still working so guys I hope this approach event bubbling concept is also clear
+right how did we approach this one anyone having any challenge understanding this one how did we
+approach this one
+I hope this part is clear now I want to talk about something is that do you really think
+we should be listening to click event or it should be something like
+once you hover over it it should be filling that one
+it should be a click event or listening to click is the right way or hover would be like let's
+let's explore a real time now let's explore something like amazon what could be there
+like I don't need anything okay hover changes the CSS but if you see
+but if you see okay I'm getting the overall ratings here
+okay only while buying we can keep the rating right
+we cannot give the rating okay top reviews can we write a review
+do I have an access to review write a review
+okay write a product review
+so they're asking me contact details and all but so but what if okay IMDB
+yeah IMDB is right example let's say I go to this one
+let's say I pick some movie
+have anyone watched this movie good to caram
+did you guys like this
+okay average won't be able to take it pardon me
+so if I hover over it do you see this here it is working on hover
+I mean I like Mahesh Babu so I don't judge it is it good or bad I'll watch
+good amount of times even I like Salar movie because I like Prabhas too so it doesn't matter
+whether it's good or bad
+it now so do you see this like until I hover there's a one sort of event once I click it
+the number is updated
+but while I'm hovering over it so there are two types of event
+the color filling and the color removing is working on I mean the CSS class ticker is working on
+mouse over and mouse leave event
+are you able to see this
+color filling is happening on mouse over and only the count is updated
+on click of click now let's say leave it everything
+what if I come and tell you build this whole component would you be able to do this
+okay straight forward right we know how to build a overlay
+we'll be just moving it to the width and height or according to the viewport
+we'll make it this z index as high we'll give some background color for the whole container
+when we open it and just add stars like 10 stars and give a one big star and rating button okay
+this is fine right you would be able to do this guys
+no I'm just asking like from your idea because I'm giving a one homework
+that homework would be like how would you do it on mouse hover and mouse leave
+and just I'm trying to think like would you be able to replicate this one
+like if you want to replicate this one how would you be able to do it
+okay so that confidence we need it you see go anytime real-time application any website that
+you see think like from now on whenever you see any website or anything just think of it like
+if you're adding devs header or h1 tags h2 tags okay how they're doing it now if you see this one
+this is pretty simple right add four five devs four five items then add different states make
+them display flex flex horizontal add a border make it keep a border radius
+right pretty simple and straightforward right you will be able to design this one also
+this particular India United States United Kingdom Bangladesh Canada
+so whenever you see any website right you should be able to think that hey what is
+how this layout has been designed what it took behind the scenes to build this one so it
+should be that easy for you to know like what how that is being done okay it should be that
+straightforward because we are doing enough things and we will be also building in next class but
+I just want to know that this part of today's class content is clear like how we approach
+this both the things now I want to talk about one thing before I start explaining how we can debug
+so Arun had added a question like how should we able to debug I won't be picking up in the doubt
+session but I'll pick it in the class itself because it's important for one person to know
+how do we do it okay right before I do it so one thing I have to call out is that two people might
+not have attended it there's a one site that is built by some with do you remember this there's
+something likely like have you seen this website earlier anywhere have you seen this
+right this looks cool right so some with the party has built this one he has you know changed
+there was also an extra requirement of filtering the stars he has done that part so from now on
+this is something looks like cool to me better to me okay now I hope you you also go and build
+your own prototype of the project that we have built so that you can attach to the resume
+second thing I've also pushed a code base related to my portfolio project where I want you to you
+know edit your content as in the HTML part and link link to projects one is weather app
+one is weather app and other one is your to-do list app or Kanban board
+hope you will be doing this hope a few people will share me like the url some bit has done
+done it hope you share it to me so that when we go on building the multiple projects across our
+like cycle you will be able to have four or five projects added in your portfolio which you will
+add it in a resume because when you put your scalar website you all portfolio website like you
+generally show that how many dsa problems you have solved that's cool but when you have learned
+front end or you have built full end-to-end language or build projects you should be also
+able to show that I hope that you will be doing but one request I would make it is don't paste it
+as it is because earlier batch also might have pasted that same projects wouldn't look good
+add your own flavor of touch is that fine add your own sort of flavor so that you would be
+your project might be looking like same functionalities but some css changes or
+some additions that you can do is that is good enough I wouldn't say kiran like any project is
+good enough or anything is good enough okay what I just want you to is think of it like whether
+I'm clicking on this project I'm able to navigate to it you'll see I'm not able to go to that section
+part still but I want you guys to you know get I'm trying to help you out with some part of it
+so that you can build it the other things I'm there with you guys if you're not able to do
+it anything we can we have the community and whatsapp group where we can like help each other out
+if it is not possible you can message me directly if I'm available I'll try to take those questions
+if I'm not I'll take it in the doubt session of the class
+is that good enough kiran but I'm giving you a part of a code which you can edit and you can
+add it like let's say get in touch on flick of the send how would you click off send how would
+you make a function call like that will learn further when you when you go further and you know
+send to your particular email id okay this information then same thing like how on click
+of this let's say this other calculator shopping card or to to list I want you to edit this container
+and show it like how can you do it these are the different containers I gave like about you about
+yourself section the links you can add maybe if you want to add a picture then you can add a
+project that you have done it okay add much of the content that you can but I've given a basic
+prototype that you can do it okay great guys so if this is clear now I'll come to actually how
+can you do the debugging part now so please pay a focus here guys now if you see one thing I'm
+doing is like this is a source tab where I'm trying to debug it now I'll show it today in
+how do you do it in browser I'll come to come back in future cases when I how you can do it in
+visual studio code but now if you want to debug anything here firstly you you have this control
+p or command p button I'm in macbook so I'm using macbook once you do command p whatever by default
+whatever by default source code is there that you will be able to see here like you can search the
+file names like I have star rating file name I'll be able to search it let's say if I have this
+counter file no I don't have it because I loaded on this particular inside this classes javascript
+star html in this particular thing I have only this one file I can open that file using command
+is that point here how can you access your file firstly okay once you are able to access it now
+once your code is loaded so what I can do is that mainly when you're debugging it you are trying to
+in windows it is I think control p not control p but windows windows p I guess windows button you
+can check that okay but it's suffix is p that is I can show a little
+okay search button just search okay now what I'm doing only mostly will be trying to debug the
+code part now let's say on this buttons right the line of code what I'm trying to do is that
+I'm clicking on any of the line now let's say if I click on this line 67 or numbers when I'm
+clicking on this numbers on the right side you will be able to see that where you have added
+firstly you know this debuggers you can also delete this debugger if you want okay or else you can
+also add it okay now also you can like you can write down the conditions if you want this is
+really rarely I use it because I added conditions directly in the console log
+okay I leverage console log I don't really add the conditions here
+like in order so it's up to you but let's say I remove this debugger again I add it again
+I hope these points are clear how can you add a debugger firstly
+okay I see one thumbs down
+we'll start
+Krishna like I'm just selecting the number now when I select this number by default a debugger
+is added to those particular lines and you'll be able to see all the debuggers on the right side
+here below the breakpoint section okay if you want to remove the debugger either you can click
+on that same line again or else you can click this cross button okay same thing now on whenever
+a particular line of statement a code is getting stopped then you can add a conditions if you want
+to add up whatever like if you want to test something like you want to do like let's say
+console dot log of index now you can add this condition here okay now let's say if I refresh it
+and I click this one
+it will try to execute that particular point but I'm what I'm saying is that never use this way
+like whatever condition I have used it here don't write that way but if you want to play around
+if you want to play around right
+if you want to play around with anything what you can do is like once you put the debuggers always
+you if you want to if you want to if you want to write if you want to play around with the
+like application now once you put the debuggers refresh this page once you refresh it or launch
+the code then you will be able to apply the logics now once I click star button this part of code
+will get executed now what you can do is at runtime right at runtime whatever values are there you
+will be able to access everything now let's say in the memory if you see in the memory whatever in
+this memory you can see here you will be able to access all the elements inside the console if I
+want to access event I will be able to access event now in the memory I have also the value index
+I'll be able to access index okay now similarly you also have the values like
+since index is not yet loaded values and available once index is loaded once I click a play here so
+there are two ways of doing it once you click a play the next time debugger will stop at the place
+where you have the debugger point I mean the code execution will stop whenever you have the next
+debugger point like let's say click a play it will stop at this point it won't stop at the for loop
+okay this point is clear how this play button affects and how would you be able to access
+all the values which are present in memory okay these are the items present in the memory that
+you can see and even if you want to also check the call stack you can also leverage that and see that
+now this is it guys nothing much you add a debugger's point this is like debugging any part
+of the code you can do it on lead code you can do it on your code bases or anything
+just add the debugger's point when you click a play it will go to the next debugger if you go to
+the you can use all these functions like you can use this function to go to the next line
+like it will go to if you see that when I click this one it will go line by line it will go to
+for for the condition then it will execute next line so whatever the step by step if you want to
+execute the code you can do this if you want to go inside this class list remove how it is working
+you can click it inside okay if there's a library function added it will go inside that library
+okay you have to explore all of these buttons but I am explaining on top level once you click a play
+it goes to the next debugger and if you want to remove it you can remove it here cross button
+or you can double click here which will remove that okay I mean click and re-click that's it
+then if you want to disable all the debuggers just disable using this button once you disable
+and you click a play everything will be loading as as you want I hope this point is clear a basic
+level of debugging once you keep practicing this thing you will be able to get this case
+is this clear Arun and everyone I I want everyone to explore this one so that you will be getting
+hands-on it will take time and do you think what the way I was able to get start.html I'll be able
+to get Amazon code complete Amazon code on here in my network tab
+do you think it is possible
+do you think it is possible to get the whole code base
+so what happens here guys is that you know once your code is deployed right at the at the scale
+happens here guys is that you know once your code is deployed right at the at the scale of this
+like site mostly they combine these files into smaller you know files like let's say if I try
+to filter html or let's say index.js if you see there are many index.js
+but you don't have access to any of this code
+let's say I go to this one I go to this one you can explore the how they have deployed everything
+okay gif files and everything whatever downloaded things are getting downloaded are present here
+now this min.js if you see this is the code they have written and this is like they have written
+in some other language but it is minified it is bundled and minified to convert it into this file
+min.js now this is the logic you can see there's a lot of javascript written inside this this is
+system generated or you can say webpack bundled this is the logic you can see there's a lot of
+or you can say webpack bundled we'll see all of them how this thing works but at real time
+you might not be able to debug the application at only development time because at development
+time we are trying to load the whole source code and I'm trying to experience this one we have not
+bundled completely now let's see if I if I go to some with netlify app are we able to see this
+project code now but if do you see this I'm able to access some bits code completely
+this project code now this is not a right way right if I want to
+copy all some bit css I can do it right away
+okay so I'm with your project is copied now I'm sorry for this
+I didn't want to show this one but yeah that's that's how
+it works if you want to build this right if you want to build you have bundlers you have bundlers
+let's say friend and bundlers
+so
+okay there are many js bundlers which are available okay one is like have you heard this
+keyword called okay I'll start the doubt session guys I hope I've answered how debugging is
+is done right can I start a doubt session guys because content is covered I'll keep on talking
+uh and can I mark Arun your question has answered
+I don't know marking your question has answered
+okay great now so have you heard this webpack earlier so webpack is one of the most
+uh used bundler in our whole projects they we use this bundler like what happens is like
+a project will have n number of html files n number of js files n number of css files because
+you cannot really build whole amazon or flipkart or netflix in three files right one css one
+html and one js file do you guys agree with that point at least like only three files if you write
+down it will be more than 50 60 thousands of code now if you write down that way it is really
+difficult so what does this this do is you have n number of files you have to merge all of those
+files into basic three files which is one index file one index css file one index js file now for
+doing this thing right for understanding all the code and bundling together is being done by this
+part of packages now webpack is one of the thing which handles it for that one you have to give a
+certain set of configuration what is the entry file okay how can you access that entry file
+okay what is a path then how you want to use loaders okay mode browser compatibility
+a list of configurations you have to write okay then it will be able to bundle it then you have
+browserify i have parcel fusebox fusebox i never heard it roll up roll up is really common
+explore this one also guys roll up
+wheat wheat.js is a really great one
+but there was something new thing that got
+uh jspopular frameworks let's say
+no there's a one website
+so
+react is anyways on the top stack or survey but this is not the site
+so
+okay
+now okay uh they have awsl lrt no i don't really know okay they might have
+i'll get you one site guys where you will be able to see
+the actually things
+free code camp popular
+okay free code pack camp 30,000 stars i don't want to go to org but where is this github repo
+they have more than
+three eight three stars now if you go to different things
+let's say i go for web what i have it in web
+cd npm i so this is a basically react project you can explore this one
+but why so many stars what they are building here
+so you have issues of 290 okay you have 71 pull requests which are open you can always
+know there's something called babel also we'll explore react does this right
+no react is just a library we'll see what all things are there what or not now we'll come to that
+everything guys
+but you see this free code camp is one of the most popular website where you can add
+if you want to do open source you have to do this
+there are some awesome uh front-end projects that are being built if you are good with really
+HTML CSS JS right uh you will be able to do this now if you see if you want to learn system design
+design in future they have built one project called system design okay this looks cool
+best you see this designer hash map least recently used cache call center deck of cards
+parking lot chat server circular array everything is available explore this explore this
+really popular github website so you can find all the code that you need in github itself
+and also that's something you will be learning in future maybe sometime later
+cap theorem and everything this is really cool and people pay a really great amount of money
+for this one on educative.io i've shared this link i was also just exploring see if you go to
+explore what are the possible uh facebook react is also one of the popular github repo
+if you want to see how where react code is there this is a github repo where
+all the code is there now if you see it's had having a 219 uh k like stars and if you see it
+is having more than 1.2k problems still present in this uh library it has more than 417 pull
+requests which are open that need to be merged so every day continuous developments keep on going
+okay anyways i'll keep on talking but i'll address the question
+need help with css position like if we add position css how can we make it
+stable when page is minimized or maximized
+uh some with uh how pages uh okay uh yeah like are you meant to say that uh for example in my
+to-do app search icon works good at 100 window okay okay let's let's do that
+this one
+okay uh for this okay when i reduce this one is it
+i think you have used your vh and that one right percentages for the model
+so that will be automatically calculating here not there then in search bar okay
+if i minimize further just a second
+okay this icon you mean to say that search icon
+okay now
+for that one uh let's let's see what's the css apply let me close this one first
+okay position relative uh okay that because you have used with respect to parent uh you have
+kept it that here now
+let's say inside this container if i go here uh you have the solid icon
+no
+you have made it that one like let's say then you have
+uh if you want to move with respect to this one uh you also have to make a simple position as
+absolute then you have to give the exact ratio like let's say if i have this position absolute
+always added now let's see if this is moving as expected it's coming inside as of now okay
+okay i am having this one but i have to make it let's say for this one container you have always
+our display justify content center uh which is uh let's say if i use space around
+one
+and i remove this okay this is fine but now
+okay i'll check on that and come back somewhere because i have to figure out
+how we'll be able to do that not getting any direct ideas but if anyone is having any better
+ideas uh can you go to css file okay uh let's let's let's go to this css file
+in my local
+okay last
+search icon bottom left you have added two fields like
+okay but again uh see when you are minimizing it with respect to
+it is always you have given in terms of percentages that's cool thing
+you're having a search icon class right let me see search icon class you're having this
+field value given now that's fine but if i'm reducing it further if i
+you're having this bottom left that's fine
+now the problem here in terms of percentages happening is that uh that the screen percentages
+somewhere if you see it here the screen percentages for earlier 23 percent of value is something
+and 60 percent value is something but now uh when you uh fix this uh like let's say if you fix this
+using vh and let's say you fix this with uh because percentages are not supporting really
+because if i tell you this uh if i minimize this one the 23 percent for uh the larger screen is
+different uh when you reduce the screen size 23 percent is different
+we can fix this by media query update right uh media query will support it but uh what if
+you want to address it directly at one shot uh do this
+well how we can if i if i use any other units if i use any other units like let's say uh
+now since we are moving with respect to uh this parent right search container let's say
+we are moving with respect to this container itself
+then we are positioning this bottom end
+now i made this container position uh position relative then i'm using this to make it uh look
+up move around the question with this one that's cool but how would we make it in terms of other
+than percentages
+this
+if i can i use
+let's say if i use uh
+bottom is fine bottom is always ticking it right bottom is always ticking it until i reduce it
+until i reduce it from uh this way bottom is ticking it now if i uh reduce the screen size
+by this way uh still my bottom is reducing it uh sticking it now i have to only fix something is
+left one let's say instead of left uh what if i give right value as always 40 percent
+40 percent or let's say if i increase it by further reduce it say 38 now but if i
+no it it still doesn't matter because we have to move according to the sibling
+vertically it's absolute search parent okay
+okay let's say uh we don't want to play around with something like
+a relative absolute let's say i go there i remove this absolute value also
+no
+no the search container uh let's say i just make it as center
+and
+align items center fine no
+no uh also i say that i also have some gap of five pixel or let's say i make it
+30 pixel then if i do this
+this will work fine but uh if this will work fine but but but i have to do another thing which is
+aligning that vertically in between this is working some bit like i'm just using a gap
+property to move it across a common gap between each of the element but also
+like rather than using position relative or absolute for this one if you want to
+use it for resizing uh this will work better
+but the only thing i'm thinking is like of you okay you have padding on the top is it
+padding on the top uh how come the padding i can see the padding here
+inside the search box container input tag element you might be having a default values coming up
+let's say uh padding top i try to make it zero so that everything looks alike
+i try to make it zero so that everything looks aligned
+and margin is something like or else let's say i go to this class search icon i also add
+in order to make it look even i have to replicate that same css which are added there let's say i
+go and have a padding of seven uh
+pixel and let's say i also have a margin of
+one pixel now if i have this i don't need a padding uh margin would work fine
+but i have to increase it further only i have to need it in the margin top
+to make it center aligned but let's see if this is working fine
+this is addressed uh up to good extent some bit
+do you agree with my point or do you uh do you have to uh say anything on this i just uh
+uh address this issue using gap property which will help me from the flex but using even even
+but using even even using this position right even using this position absolute and relative
+we should be able to figure out because flex was not always available in nature right uh
+there might be a way but i am not it's not clicking me direct i'll check on that and come back
+okay uh so yeah filter by text is also having same issue okay uh
+uh okay that also you can check like you can always use list of such things but
+this will help you to figure it out okay
+cool guys uh kabir has one question yeah kabir please go ahead i'll take your question
+uh do you want me to unmute or you'll be sharing it
+okay i'll do you unmute you
+please go ahead kabir
+hello can you hear me
+uh i've unmuted you can you speak
+hello
+hello yeah uh kabir
+try speaking i'm not able to hear you can anyone hear okay i'm not able to hear guys uh just a second
+uh
+pardon me i'm not exactly able to hear because if you see if i try to remove my headphones
+okay
+hello
+hello
+okay
+so
+you
+you
+Okay, not exactly sure I was not able to listen to Kabir with my headsets on I tried to remove
+then I was able to hear his voice but when I was trying to speak you were not able to
+listen maybe some glitch guys I'll have to recheck but Kabir if it's possible write it
+down or else I'll connect with you offline if it's big one how do you want me to take it up
+right let's connect offline we can connect on call works well okay want to show some
+okay you share me the link show me the link or else we can connect the offline we'll connect
+post this class Google meet link I'll join that
+great guys in that case can we end the sessions today's session I hope you all
+have enjoyed and learned a bit from machine coding point of view we just got but I wanted
+to give you one thing that maybe I'll give it in next class itself for practicing purpose right
+what are the most interview asked questions how where can you get those things from LLT
+perspective so I'll share that do you know this person he is a front-end senior front-end
+developer currently he's working with Atlassian he was used to work with coin I think coin DCX
+okay these are the set of many challenges that you can solve with JS you have a set of questions
+that you can solve we have solved coin counter and we might have also stopped a solved a question
+of ratings but there are some least of questions that you can solve like star rating display we
+have solved whether app we have build okay we have covered few set of questions I view have to
+like footer we have covered you have to see like what you can build and what you're not okay these
+are the least of which that you have to be okay work around and built it simple HTML then you are
+I'll talk on this in next class okay there for now chill and just try to you know solve if you
+have any assignments complete them and let's meet back on the Thursday guys I think I have
+tried to wanted to make this session extended to us 36 minutes okay so you guys then good night
+take care take rest and meet back on Thursday so guys can I end the session give me thumbs up one
+final thumbs up shall always bye bye

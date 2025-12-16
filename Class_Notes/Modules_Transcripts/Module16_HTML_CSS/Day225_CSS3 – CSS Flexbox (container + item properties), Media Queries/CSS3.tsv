@@ -1,0 +1,2065 @@
+start	end	text
+0	2060	you
+30000	32000	you
+40280	42280	Hi all good evening
+47040	50500	Can anyone confirm if you can if I'm audible and visible this
+53720	55720	Thank you
+56440	58440	I
+59040	63040	Share my screen if my skin share is also visible guys
+65960	68640	So let's have time of four minutes
+86600	93820	Yeah, so how are you all how's everyone doing? How's your work going at offices? How's your preparation going?
+96080	98080	Any challenges
+101960	109360	So how many of you have already sold all the assignments guys if you have sold all the assignments give me thumbs up once I
+112480	114480	See three people
+116720	118720	Okay
+120840	125520	People who couldn't do it right who are not able to do the assignments in the challenges guys
+125520	132600	That would be really helpful for our analysis also like we can really try to do if you are having time issues
+133360	138040	Understand that but any other thing like you have it if you have any challenges do let me know
+138840	140840	enlighteners or enlighten me so that
+140920	144760	We'll try to work out on a part such that we can help you out
+149640	152160	To left yeah, sure. Thank you promote
+158880	160880	Okay
+161880	168400	So I'll drop a message in the what's up guys all great. Thank you station great work keep doing
+171080	173080	I
+181320	183320	Just a second
+192040	197480	I'm I am NOT great great something
+200840	203840	You
+230840	232840	So
+237960	239960	What's up link
+240720	242720	Give me a second guys
+242840	247200	Can anyone share the whatsapp link guys I have to open and laptop
+247840	251080	So if anyone can share it I can you know pin that
+251720	253720	I
+254680	262520	Great summit and scalar editor they have already one CSS style sheet is linked. What is the purpose of that? We can see it
+266080	272920	Scalar editor I'm not sure because and I didn't open the scalar editor guys. Give me a second. I'll do it and
+273880	275880	Let you know on that
+276680	278680	We can use it I
+279360	285300	Hope it should be editable, but not sure like how that works. I'll confirm to it Kabir
+285300	288360	I'll check on that and confirm to it often. Okay
+290480	297560	Yeah, okay, you might be having seen that link is attached in HTML is it like you hyper reference
+298560	301480	Yeah, you can type it down using style tag directly
+305080	307080	Okay
+307240	309880	Yeah, so somebody's I shared what's up chat
+311400	313400	In this thank you something
+314320	317840	So guys, you know, let's get started with today's class
+319000	324040	You know, okay. Did anyone go through get a prep? Oh guys. I have actually
+328640	332440	I've added actually one of the screenshot earlier
+333440	337320	So facing issues in question to anyone test cases are failing
+337880	341520	We'll check that in touch in some bit. Can you add that as a question?
+341520	346600	I will fix that one will verify okay add that as a question. We'll pick it up in touch
+347440	351800	But guys did anyone got chance to go to get a repo?
+351800	356320	I've added one of the you know picture which can help you to revise
+357160	359160	positions
+359560	362720	Okay positions property can anyone see
+363720	365160	so
+365160	368160	I've summarized all of them into one sheet
+368920	373780	Will revise this thing again and we'll move ahead with the flexbox. Okay
+374840	376800	so
+376800	380640	Let's get started with agenda today what I have in my mind
+382560	388560	So today's class is mostly based on one topic called flexbox will be spending more time on that
+389160	394240	We'll understand what is this and why if we are using or why it is being used across like
+394480	401880	Why it is like bread and butter for the person for the front-end developers who's working on CSS and will also understand media query
+402640	405200	But this is the most important thing
+405200	410920	I hope I'll try to explain my best and hope you solve all the doubts that you have if you are facing anything
+410920	415760	Let me know. Okay, but before going to flexbox guys, I just want to revise
+416520	418240	property position
+418240	422160	So can anyone help me why or when that party position?
+422960	426840	Property comes into the role in CSS. What is a use case of this?
+428560	430800	When does we use position property?
+433480	437160	Where do we actually use this position property anyone
+437160	439160	Guys
+446520	454320	To set something at a required place to allow to move aside any side, right?
+454400	459520	So if by default when you write CSS like HTML
+460040	466680	The every HTML element will have a desire, you know a place where it will render, right?
+467320	474160	But that's a default place by from but if you want to move it from that default place to some other place around the
+474520	475560	HTML, you know
+475560	482360	I mean whole rendering box or the browser or any device that you are working on then you go for the position
+482960	489560	Property where you by which you can move all the elements to any side that you have and to move all the elements you have
+489560	491560	four properties top
+491560	493000	bottom
+493000	494160	left
+494160	496680	And right right we use them
+496800	504720	So any of the combination of two either this two or this two will help you to move the item any side, right now
+505240	512120	When we started if we thought we say that by default default proper what would be the default property of position guys?
+512120	514120	What we have discussed?
+514320	516320	What would be the default property of version?
+516960	523120	Static right, so by default all the HTML elements will have position called static, right?
+523120	526280	So this is what we discuss then we went with discussion
+526280	532720	There are two properties which plays major important role and major confusion, which is like related versus absolute
+533840	535840	right
+537760	543600	Now what we have understood is that if we want to move the element
+544560	548000	With respect to its original position
+554520	558920	Okay, whenever so imagine this thing if you are
+559240	562640	There is a certain defined path like this is a HTML
+562640	566000	Positioning by default when you add all the HTML content
+566000	569840	But if you are moving any other part right using the same method
+570760	574600	But if you are moving any other part right using position property
+574600	579440	It is being moved on to the different layer once it comes under the different layer length
+579440	583920	Then it can move or hover around the other properties, but it doesn't happen on the same layer
+583920	585920	So all the properties through which
+586720	595120	Which you can apply top bottom left right are generally on a different layer. Okay. Similarly, we also discussed absolutely something element
+595920	598000	that moves with respect to
+600840	602840	Window position
+606360	611520	Right then we discussed went on to discuss with fixed and sticky
+616440	622600	Fixed is wherever you define once you define a fixed again this axe element is set
+625120	627120	With respect to window
+630720	632720	Right and
+633000	638680	Once you define any position it will be fixed even if you scroll this element doesn't move
+641000	643000	Even if you scroll
+645520	648040	Element is fixed so that's a unique thing
+652480	658360	Sticky is also same thing, but you know when when you scroll it the behavior changes
+659000	661000	The behavior of sticky
+667080	669080	Changes
+670840	672840	When you scroll
+676120	682360	Right, so this is what we have discussed earlier in the class, right any doubts till now guys this thing, right?
+682360	684960	You I hope everyone have a clarity on this one
+685520	687920	Still if anyone have doubt, please let me know
+688840	690840	And I hope everyone is clear on this
+691440	697560	So now I want to add one of the other like, you know, then there's some one condition
+697560	699880	I didn't want to complicate it in the last class
+700240	705360	No, so as this one thing that I have want to talk about absolute property
+708240	710240	Let's say
+713400	717920	Now this thing we say that it will work with respect to windows
+719360	725600	Okay, but this can be configured configured such that
+728520	734440	It was configured such that it works
+738520	742880	Or moves with respect to that element
+745840	747840	Like to parent element
+748880	750880	Or
+751880	759320	Do I exactly mean by this is that let's say there is a div inside and then there is something called span or
+761880	763880	Let's say span
+768280	770280	Right
+770800	775760	So what we are saying is that if let's say this is absolute position absolute
+778640	782720	We think that now by default when we apply position absolute
+783280	786960	If this will be moving according to window position, right?
+786960	790400	Like it will be in your top zero or anything. It will move to window position
+790400	797680	But this thing behaves differently when your parent element any parent element is having position
+798400	800400	relative
+803440	805440	So what I'm saying is that
+805480	808760	Firstly whenever you apply any element absolute value
+810200	816200	Then it goes into the hierarchy checks if there is any parent element or a wrapper around it
+817080	822520	Which is having position relative if it is having it will move with respect to that parent element
+823240	826280	Or else it will go to the window position
+827840	830880	Is this point here guys how many of you have understood this one?
+830880	832880	I'll give you an example of this one
+834600	841280	Imagine like you have a drop-down value like you remember drop-down value
+844640	846640	Let's say you have dropped on input type
+852240	854240	Is equal to drop down
+855040	857040	When you have drop-down value
+857440	859440	Is equal to drop down
+860400	864800	When you have this whenever you click here, which where you're having arrow
+864800	869760	Let's say this is an arrow whenever you click you will see that there's a pane a list of
+870360	874000	The list of items that comes exactly below it, isn't it?
+877360	879360	It comes exactly below it
+881040	884880	Right it will have a list of values, let's say these are the list of countries
+887400	892760	You'll have India, let's say Bangladesh
+896400	898400	Sri Lanka
+902080	903440	Right
+903440	908480	You'll usually this is the behavior of drop-down rate and whenever you see a drop-down, right?
+908760	914320	This is usually looks like on a highlighted pin. Let's say this is a drop-down input
+914800	921640	Then whenever you click that button, right the drop-downs like values you usually see in a bit of upper plane
+921760	926720	Like you can use it using layers and you can verify that but that's how behavior looks right
+927040	931760	Now in order to fix this one, right in order to fix this sort of behavior now
+932480	940320	How would you approach? How would you approach this problem that you want something a child elements this being the parent element?
+940720	942720	This being child element
+942760	946120	To something which is moving with respect to this one
+946240	950960	Like something is which in which is coming down and moving according to the parental
+951120	955400	So in those use cases, you will see a combination of relative and absolute
+956480	958480	Is this point here is?
+963240	968400	So if you have any doubts on this let me know because I'll open that sheet again
+970800	971800	Okay
+971800	973040	Let's go to this sheet
+973040	978840	Now if you see this what I made it I have all the properties static relative fix sticky and absolute
+978960	983560	And I've given all the five parameters like distance like when I say distance
+984000	987240	Where you can move can you move other element top bottom left right?
+987360	992600	it's static you cannot move it because default nature in all other properties you will be able to and
+993600	999000	Does it create layers like when you apply this property when we say layers what we exactly mean
+999000	1002480	Is that whenever your top bottom left and right are being applied, right?
+1002560	1007360	that usually it means that that element is already elevated into the different position and
+1007840	1014720	Whenever that element is elevated then only you will be able to move on to the different place because default nature will be on below
+1015280	1016840	Okay. So
+1016840	1023160	Wherever you will say for distance is yes and same layers will be having the same. Yes. Okay now
+1023920	1030320	The important thing is what is the starting position when you apply like for static it will be default place for relative
+1030320	1034600	It will be the original place wherever it started and for fixed it will be
+1035160	1041520	Window like with respect to window top left like for sticky also with respect to window and for absolute
+1041960	1043960	window or parent relative
+1044680	1046680	right and when it comes to
+1047560	1052080	Like this does it maintain the original place once applied these are like same thing
+1052080	1057080	Like if you see this will like static is yes relative is yes
+1057600	1062880	Fixed is no sticky will behave. Yes, because here I have to add another condition
+1062880	1064640	I'll edit this one
+1064640	1071760	But for sticky it will act like for with respect to it original position initially then when you scroll right when you scroll
+1072280	1075120	It behaves in a different way. So that's why
+1075840	1081200	With respect to like it start from original position, then it acts like with respect to window both the things
+1081840	1088440	With a very whereas we come to this one absolute again. It doesn't maintain its original question, right?
+1089120	1093160	now when it comes to scrolling all the elements, you know
+1093840	1100160	Move like with the scroll but only fixed element doesn't move because they are particularly fixed at one particular position
+1100840	1104840	Same goes with a sticky it moves like until it comes into the role
+1104840	1107880	It the all the elements will move as as usual
+1107920	1114280	But once the elementary it it is comes into the viewport then it behaves in a different way as you configure it, right?
+1114280	1119600	I hope you'll go and revise this part and explore this one, right? So
+1122040	1129200	How many of you feel confident about now position property post understanding this concepts I
+1132200	1134200	See only one thumbs up guys
+1134320	1135480	For
+1135480	1141720	Shin there are many people in our class. I just need few more words to understand that like if you're feeling confident
+1142720	1149240	Okay now so if you are confident, I need one help from you
+1149320	1153040	Let's say we are building something now what I want to build
+1153760	1155360	is that
+1155360	1156920	where
+1156920	1160000	We'll try to do something such that will have
+1160800	1164080	Let's say a layout in which I have to fix the header
+1165280	1171000	Like if you go and see any device any application that you want to see, let's say you pick it. I'm a song
+1171840	1175320	Or flipkart or anything like if you go and see here
+1176160	1183720	Five scroll if I scroll if you see this header is fixed, isn't it by scroll? This is fixed
+1184360	1187400	How can I build that? How can I build that?
+1190080	1195600	Just just let me help me out such that I can understand like how can we build this
+1202600	1204600	Can anyone think of something guys
+1213320	1217080	Any ideas guys, let's say I have a header
+1217080	1219080	I
+1219880	1221880	Say this is
+1223800	1229080	Header of page I write down this one and I also let's say I have
+1230760	1232760	Sections multiple sections
+1233960	1235960	it says a
+1236080	1237600	content
+1237600	1239600	box one
+1240120	1242400	And let's say I have content box two
+1242640	1244160	Now
+1244160	1248000	For going to style block, let's say we style a few of things
+1248720	1250720	Yeah, what we'll do is that
+1252560	1254560	Firstly
+1255120	1260000	Let's say we say that section whatever section it is, okay
+1262240	1265000	And let's say I also have an class
+1265880	1267880	called box one and
+1268040	1270040	Class as box two
+1272000	1280240	Okay, now let's say I give her default height HEIT or 200 pixel and width is
+1282000	1284000	Let's say again 150 pixel
+1286560	1288560	Okay
+1288560	1291080	And let's say we have a border of
+1291880	1293880	two pixels solid
+1293880	1302160	We have a border of two pixels solid black right let's say I have a box one
+1305600	1307600	Background color
+1308440	1311360	To be RGB
+1314040	1316360	Say some random 24
+1318600	1320600	45
+1321600	1328960	63 okay. Similarly, I'll select the other one which will have box two
+1330880	1334720	Let's reverse this one I'll put 45 here
+1336640	1338640	I'll put 63 here
+1340040	1341960	Okay
+1341960	1343960	Say 45 here
+1346800	1350200	Okay, now let's open the preview here firstly
+1351600	1356080	If you see here, we got the two boxes and let's say
+1356960	1358960	If you see one thing guys
+1359640	1365960	Here on the top. There is an empty space on the left is also empty space. Why this space is coming guys?
+1366000	1368000	How can I fix this issue?
+1368560	1371640	We have discussed this problem. Also, how can we fix this issue?
+1374360	1377400	Right, yeah, we have to give the universal selector
+1377920	1381560	Such that we define that hey, we don't need any margins or
+1384800	1390200	Right, let's say padding zero and there is another property that we prefer is
+1393040	1396360	Border box sizing right
+1398640	1406480	Border box to apply the exact things right now, let's say we go for height is as like this way
+1407680	1409680	With this
+1409720	1411160	300
+1411160	1413160	Okay, fine. No
+1413400	1415400	Height is let's say 500
+1417280	1423980	No, okay fine if you see here, let's say I also add some styles to the header part
+1426160	1428160	Say I say color
+1429440	1431440	Background color
+1431800	1433800	Any background colors guys?
+1434320	1436320	I
+1436520	1438520	Have having the same
+1438720	1443320	Okay, and I'll make it with as hundred percent. I don't want to give pixel
+1443760	1451440	Okay. No, this is how the behavior is now what I want to talk about is that I want to fix this header header
+1451440	1454680	Is something like we are able to scroll so how can I fix this header?
+1455920	1458520	What do you guys were suggesting to me earlier? I?
+1459480	1465680	I didn't look into the chat position fixed. Okay, let's say I call it as position fixed
+1466680	1469600	Now I fix the question does it solve it
+1471200	1477320	But do you see this that my behind the scene the box one is like, you know hiding
+1477880	1482680	Behind it. How can I fix this that you know my box one comes below?
+1482680	1484680	This is position sticky
+1485440	1489720	Okay, I will try that so let's say I try that sticky, okay
+1491000	1494840	Now even if I try that sticky if you see that
+1495400	1501840	Issue seems to be fixed which I was mentioning that a content one box is not visible when I
+1503000	1509240	Select fix but still when I'm you know, scrolling it you see that that is not fixed onto the top
+1509400	1511400	What can be the issue is
+1512800	1516160	Padding where you want to add padding some bit
+1518720	1520720	Where you want to add padding
+1521280	1526520	Let's say I'll give a padding also, but doesn't matter padding is not the right thing
+1527280	1528720	Think of it
+1528720	1533680	Once we apply once we apply position. What are the fields we play around with?
+1533960	1537240	Once we apply position, what are the fields we play around with
+1539040	1541800	What are the fields we use it to move the element
+1543880	1548940	Top bottom right or left right. So once I am giving this fixed
+1550600	1554020	Where this item I wanted to be fixed where this item should be fixed
+1555560	1557560	Top zero, right
+1559480	1561480	You guys agree firstly
+1563760	1567100	Even then if you see it's not working
+1569600	1571600	What could be the issue
+1575520	1581620	Like even then let's say refresh even still I am not able to see
+1582840	1585980	My element to be on there. Like how can we fix this?
+1586760	1592140	Think of it guys. Like if you go back into the Amazon, let's say I'm scrolling you can see
+1594680	1600120	It is still sticking there like let's say inspect it now, let's see the behavior how it is built
+1601720	1606280	If I go around and let's say this is the diff but
+1607520	1609520	This is the whole day, right?
+1609800	1615000	Let's go and see here. What is the position? This is there using position static, but
+1615440	1617440	Let's say I scroll it down
+1618640	1622520	It's not coming now, let's use some different website maybe
+1624360	1626360	Flipkart
+1631360	1633800	This is working as expected at least
+1634840	1638560	Let's say I go and select this one. This is their Dave
+1639600	1641600	Let's say this is their Dave. Okay
+1642560	1644560	Let's say this is their Dave, okay
+1644920	1650600	If you see here, they use display flex will see understand all the points here border boxing is fine
+1651120	1653120	But I'll select this one
+1653480	1655240	and
+1655240	1657240	All this are fine
+1661360	1666440	Okay, let's go to computer and see if there is any position property applied
+1667800	1669800	No
+1671600	1673600	So
+1679960	1682080	There is no position property applied this
+1683280	1688840	So, how do you think that this particular thing is working like when I'm scrolling it is still fixed there
+1697080	1701480	Can't we just increase the width of the header and add the index? Okay, let's try it
+1701960	1704040	Let's try it out. Let's say I give this
+1704560	1706720	height of the header of
+1707480	1709480	hundred pixel and
+1710200	1712200	width of
+1713040	1714160	100%
+1714160	1715160	Okay
+1715160	1722800	No, I've done this now. What I'm saying is that you want z-index, right? Let's say I add a z-index of
+1723440	1725560	thousand if you need like
+1726600	1729200	Even then my content box is not visible
+1730040	1737040	Even then my content boxes make the section as relative and keep the top value
+1738560	1740940	Here it says makes a section. Okay
+1742680	1747640	Okay, let's say I make this position as section as position relative
+1748760	1750760	fine now and
+1751480	1755960	Give the top value equal to height. Okay, let's say I give top
+1756960	1758960	Which is 500 pixel
+1761520	1766920	Only to the first section, okay, let's I cut it here and I waste it here again
+1769040	1771040	Do you see any change here
+1773680	1775680	If I comment this
+1778840	1783400	Then the position relative is applied and it is moved to the below
+1783920	1785920	But if I'm not commenting this one
+1787240	1789240	If I'm not commenting this one
+1789720	1794880	Because this is coming into the different layer guys just thinking from perspective of this one
+1796000	1798000	Let me refresh it
+1802080	1804080	Guys give me a second
+1809360	1811360	Okay, and
+1811400	1813400	Where did I mess up yeah
+1814440	1820600	So this is what we were doing it can we use Omni food website, which is practice for okay
+1820600	1822600	Shall we make box relative?
+1824200	1826760	So guys what I'll do is that I
+1827240	1831320	Want you to think on this problem and come back. This is a really basic problem
+1831320	1838240	You can go into any site and search right we have seen that how can we make a position like, you know stick it
+1838240	1842680	How can we make a position like, you know stick it now if you go to the
+1844040	1848640	Earlier class also if you go for the position if you go for fixed item
+1848680	1855840	We have shown like how can you fix that item, right? How can you fix that item to the top? But
+1856480	1862860	We have to learn like how can we make it obvious that you know, the other items are like visible, right?
+1863200	1865440	Make a margin top of a section height
+1866200	1868400	I don't know you can try it down this one
+1868640	1874960	Please come up with solution so that we'll move it with the class and we'll address this one in break time
+1875920	1877840	works is
+1877840	1884400	We're addressing break time. I'll give you 10 minutes in the break. I'll push the code you guys think of it post the break
+1884400	1886160	I'll fix it
+1886160	1887840	Okay
+1887840	1889240	so
+1889240	1891360	Let's get started with today's class now
+1891360	1897760	Coming back to because when you up like by theory, right what I just wanted to show by theory you can
+1898640	1901760	You can understand topics, but when you apply it, right?
+1901760	1904960	So there's too many, you know suggestions and too many things
+1905440	1907360	Now if you go and try to fix it on your own
+1907360	1914480	You'll understand like what is actually when you can apply the all the concepts taking in all the possible positions, right? Okay
+1915520	1916960	now
+1916960	1918960	Let's get started
+1919600	1921600	Let's get started
+1922560	1924560	With the flexbox guys
+1928400	1930400	Okay
+1935680	1937680	Have anyone used flexbox earlier
+1939040	1941040	Have anyone used flexbox earlier?
+1942320	1943840	No
+1943840	1945840	No, cool
+1946480	1948480	Great
+1949200	1950480	So
+1950480	1954800	Guys till now we discussed property called display, right?
+1956640	1961840	How this property used to help us how this property used to help us display property
+1963440	1966320	What are the possible values we have learned in line
+1968000	1970000	Block
+1970960	1972960	In line block
+1976400	1978400	Then none right
+1979840	1985520	We were be able to align elements as we wanted using them right on a on an axis level
+1985520	1987520	Let's say horizontally or vertically
+1987920	1992800	Using this one and then we were able to apply height and width using in line block, right?
+1992800	1996960	We can we are able to hide using none. So this is what we have learned right till now
+1998000	2000000	Do you guys agree with me?
+2002080	2007120	On display property now there is a new value that you can
+2008080	2011360	Provide it for display which is flexbox flex
+2012000	2013840	display flex now
+2013840	2021680	What or how what problem this flex is solving actually till now whatever websites we have seen or designed it, right?
+2022080	2024480	We have designed it without considering
+2025040	2026080	any
+2026080	2032800	Size of the particular device right my laptop your mobile or your laptop your tv screen anything
+2033360	2040260	So when we say client client can be anything right it's like multi-device or cross-device applications
+2044640	2047440	So you whatever websites you build it should be cross
+2047840	2053040	Uh, you know cross-device application like once you're designing it should be applicable for all the things
+2053520	2058720	So what they told is like what if you want to build something like, you know layout structures
+2059120	2063600	Layout structures like if you want to align elements in layout like or you want to build a layout like
+2063920	2069120	Hey this this thing should be here that thing should be there and how you want to arrange in terms of layout
+2069520	2071520	for the cross-device applications
+2072400	2075840	The solution introduced was flexbox and this is
+2077040	2079040	one direction
+2080480	2082480	One direction layout
+2083520	2085760	This can be used for a
+2086720	2088720	Small to medium scale applications
+2089120	2095440	We'll see in the next class another property called grid which can be used which which is actually two direction layout
+2096320	2098320	Okay
+2099200	2103760	Which will be a two direction layout and will be solving for the bigger applications, okay
+2105360	2110080	So I hope this introduction is clear like flexbox is usually used to solve
+2110880	2119120	Cross-device application problems or you can say responsiveness how many of you heard this word responsive websites?
+2123280	2131280	When we say responsive website what we exactly mean like one application should be supporting to the all media devices media devices when I say
+2132320	2134320	All types of screen could be a mobile
+2134880	2138400	Mobiles can be of different size rates some screens are because some screens are larger
+2138400	2142880	but every website that you open or app you open in mobile all are like
+2144080	2146800	Working in a right way as we expected isn't it?
+2147120	2151760	So if you want to build those kind of applications or though if you want to do it that way
+2152240	2156800	Then yeah, rightly said something we go with one of the layout
+2157600	2161040	If you want to lay out the design then you go for the flexbox now
+2161680	2163760	To understand few basic things, right?
+2165280	2169840	How many you have you on how many of you know this like x-axis and y-axis?
+2169840	2172340	How many of you understand this x-axis and y-axis?
+2175600	2181600	So basic geometry, right? Basically basic maths in geometry, right? So
+2183920	2189520	All the flexbox revolves around this axis axis game only right so
+2191040	2192960	in general
+2192960	2194800	This direction right?
+2194800	2199700	There's a one property in flexbox like once you define display as flex
+2202320	2207600	You have to design since it's a one direction as I say one direction you have to decide
+2208400	2210160	Hey where
+2210160	2212400	My items will be aligned
+2217520	2219520	Will be aligned
+2220400	2222160	Like
+2222160	2228560	We were earlier used to convert inline to block block to inline because we are converting from horizontal vertical vertical to horizontal
+2228720	2232000	Still still that same concept still it is the same concept. So
+2232560	2235440	To convert to make this one, right? We have
+2236000	2238000	One property called flex direction
+2239680	2246320	In the flex direction you have four values, but we'll consider we'll filter out two values are only
+2247120	2249120	row or column
+2249680	2253220	Okay, now by default
+2254800	2262640	Flex direction is true. So whenever you have multiple elements, let's say we go and design and we come back to this part
+2262800	2267120	Okay, let's say we go back and create one file called
+2269600	2273460	You know flexbox dot html
+2274480	2278820	Okay, and what we'll do is that we'll use html5 extension
+2279840	2283620	And we'll close this we'll call something as flexbox
+2286160	2288160	Fill open show preview
+2288560	2290560	Will minimize this one?
+2290800	2296480	Let's say what i'll do is like i'll have a container inside that i'll have a multiple types called one
+2299920	2302640	Uh, let's say I have a four
+2302640	2304640	So
+2308240	2313040	Okay, now what i'll do is that let's say these are the class
+2315360	2321440	I call it as flex items flex item. I'll apply the common class to all
+2321440	2323440	So
+2327600	2334960	Now if you see this I i'm not doing anything else like let's say I call this class as a flex container so
+2339280	2343920	Okay, and what I'll do is that i'll open the style block
+2345520	2347680	And i'll select this flex container
+2348240	2354080	And let's say I give display equal to flex
+2358080	2362160	What's happening is all the elements are aligned horizontally right though
+2362880	2370480	These are block level elements. What's the default nature of block level elements? It starts on new line and take whole row space, isn't it?
+2373920	2375920	That is what we have learned right
+2376480	2382240	Takes the whole row space, but once we apply display flex those are all aligned into horizontal
+2383120	2388080	Now we'll come back to this explanation like why this is happening actually what is happening here?
+2388720	2389600	Okay
+2389600	2394880	As i've told you that this is it always align the elements in one direction
+2395360	2401440	Whether it is like a row or column you have to choose by default flex direction is zero
+2402560	2404560	Okay now
+2404800	2412000	Whenever your elements are like consider i'm considering flex direction and row and i'm trying to explain this approach
+2412880	2413760	Okay
+2413760	2416320	The x-axis is called as major axis
+2419040	2421040	And the y-axis is called as
+2422480	2424480	Minor axis
+2426000	2431840	Okay, this is the convention that people generally use to explain okay flexbox
+2434560	2438180	Is that clear guys, uh, give me a second
+2442480	2450100	Okay, uh, let's let's move this we call it as main axis and cross axis
+2453680	2458720	These are not specific to x and y these are not specific to x and y
+2459200	2465040	These are specific to flex direction if your flex direction becomes column then this would become
+2465600	2467760	Main axis and this would become cross axis
+2470160	2472160	Is this point clear guys
+2472640	2479440	Refer to it if row flex direction is row main axis would be x
+2481840	2484800	And cross axis would be y
+2485360	2490160	And if flex direction is column main axis would be
+2493120	2495520	Y and cross axis would be x
+2498560	2500560	Okay now
+2500720	2508560	Once this is clear now all the css properties right in flexbox are divided into two things
+2509040	2511040	Between container
+2512640	2514640	And its items
+2515600	2521680	Okay now every time you apply display as flex
+2523840	2530960	To a container item or the parent element so that you want to align all the child elements
+2531920	2534960	So that you want to align all the child elements
+2536800	2542720	Okay, you apply display flex to the container or the parent item so that you can align all the child elements
+2543040	2545680	Similarly what we have done here if you see the example
+2546160	2550160	We applied display flex to the container like which is a wrapper here
+2550880	2554000	And we are trying to align this children elements, right?
+2554960	2555920	Now
+2555920	2560160	So there are a few list of properties which applies to container
+2560160	2562800	There are a few list of properties which apply to items
+2563360	2565360	We'll see them one by one
+2565440	2570160	But till now the concept is clear, right? What is main axis cross axis?
+2570800	2572960	And container and items definition
+2574160	2576160	How you can relate with it?
+2579040	2581040	Guys any doubts till now
+2581680	2582800	I
+2582800	2586880	Hope there are no doubts now. We'll go to the practical thoughts all things. Okay
+2587920	2592000	Now let's say what I'll do is that I'll have a container height
+2594000	2599840	Container height as let's say 500 pixel and width
+2601840	2603840	As
+2604240	2609120	100 percent and what I'll do is that I'll have a border
+2611120	2613840	Two pixel solid black
+2615840	2619760	Okay, let's say I have this I also make again
+2622800	2626500	Margin zero padding
+2631120	2634800	Zero, right? No
+2634800	2636800	So
+2637680	2644160	Also, I say that margin should be five pixel so that we can see the box now
+2645040	2646480	Let's go
+2646480	2653920	And apply some properties to this flex containers or flex items also so that we can see all the changes that we'll be applying to each
+2655280	2656400	Okay
+2656400	2658160	flex item
+2658160	2660160	Let's say I can give
+2660240	2662080	height of
+2662080	2664080	Each item, let's say 50 pixel
+2665520	2667520	And width would be
+2669040	2671040	Again 100 pixel
+2671920	2673920	Okay, I let's say border
+2675440	2677440	Two pixel solid
+2678960	2680960	Blue
+2681040	2685840	And let's say margin of five pixel, okay
+2687920	2691840	And we'll have let's say this other item one
+2691840	2695360	One item two
+2697920	2701200	Item three and item four
+2703200	2709440	I go and select the item one first and I'll give the background color
+2711840	2715300	As let's say tomato
+2715300	2717300	So
+2719540	2721540	Let's say item two
+2723380	2728980	Background color as dodger blue
+2732100	2735300	Okay, so item three as
+2735300	2737300	This
+2740420	2747860	Blue violet doesn't look good, but let's go with brown then we'll go with item four
+2750900	2753620	Background color as
+2757380	2760020	Okay, let's convert this into black
+2760020	2762020	Okay
+2764260	2765780	Okay now
+2765780	2772180	So what we have done is we have just distributed all the elements like we have created a box inside that
+2772740	2775940	We uh just have done this now. Okay
+2777620	2782180	Flex item text align center cool. Okay
+2783940	2785940	We've aligned it now
+2786500	2791780	But what we have done we have created just a box inside that i've set up the all the items and given basic css
+2792100	2797620	I should I hope everyone should be wouldn't be having any doubts till now because I haven't done anything new
+2798260	2800260	Till now, right? So
+2800820	2802980	Now our container is flex
+2804020	2809140	What is the by default guys? What is the default position of flex direction that I have told you just now?
+2809540	2811620	What was the default direction of flex direction?
+2812580	2816100	Row right now, let's say I give it row again
+2816660	2818340	now when the
+2818340	2823060	When I give it row, there is no change if you see but when I convert into column
+2823540	2826420	If you see all the elements will be again converted into
+2826900	2834180	This like vertically now, what would be the main axis guys? What would be the main axis when flex direction is a column?
+2834180	2836180	So
+2836260	2840260	Why right then cross axis would be x remember that thing that basic definition
+2840660	2847940	Now also flex direction gives us ability in order to rotate the items. Okay, let's say I say column reverse
+2848580	2853540	When I say reverse if you see it took to the it went to the bottom position
+2854020	2856340	And it reverted it started from below
+2857060	2861060	Right started from down. It went to the bottom and then started from reverse
+2861540	2864020	Similarly also you can apply row reverse
+2865140	2868900	Is this clear say is this clear like how this thing is working?
+2869540	2877700	Like how flex direction can be used to align items vertically or horizontally. Okay. Let's say I make it as only
+2878260	2879620	now
+2879620	2881220	Once this is done
+2881220	2885540	You also have an ability. Let's say I have much space now if you see
+2887860	2891300	There is one property called justify content
+2892260	2894420	Whenever you go for justify content
+2895140	2898420	If you see this x-axis having more space, isn't it?
+2899220	2903940	Let's say if I drag it further if I drag this further is having more space
+2904500	2909460	Like on x-axis it started from left corner, but it is having some empty space, isn't it?
+2910660	2912660	Guys, can you see this empty space?
+2912740	2917540	What if you don't you want to utilize this space like you don't want to sit on any website?
+2917620	2922980	If you see this space is like looks ugly what you can do if you want to move these elements
+2923620	2928580	Left right or anyway, you can use justify content property and you can give
+2929140	2930820	values like center
+2930820	2932260	Which will move
+2932260	2937460	Like however width your x-axis can be but it will move all the elements into the center
+2938260	2941860	Or else you can give like if you want it to be flex start
+2942500	2946260	When I say flex start it means that it will be aligned to the left only
+2947540	2951460	Okay, if I wanted to align to the right I can go to flex end
+2954180	2954980	Okay
+2954980	2963300	Similarly if I wanted to align like such that if they're all are distributed all are distributed and occupies complete space
+2964020	2971060	Right, we can use something called a space between now as much as you as much as you drag as much as you drag
+2971540	2975140	So these are being you know taking space as it needs. Can you see this guys?
+2975460	2980980	So why we call this flex box is as you develop as you even if you pull the screen out
+2981380	2987780	You make it big or small it will automatically it works like a jelly if you pull it it will stretch if you leave it
+2987780	2989140	It will come close
+2989140	2993220	Do you see that feeling where we use display flicks? I didn't apply many properties yet
+2993620	2999140	But it is spreading like a jelly and taking it whatever it is. That's how magical it is
+2999220	3004660	That's why we say that whenever we are using flexor, we are we are building actually cross device application
+3005140	3007780	Okay. Now, let's say i've used the space between
+3008740	3013860	Now that's okay. I'm moving something i'm moving something around the x-axis
+3013940	3017780	What if I want to move along the y-axis? There's a lot of empty space below
+3017860	3022500	What if I want to utilize that then you have something called as align items?
+3023540	3028180	You can go and use align items where if I let's say I give flex start
+3028660	3032260	Nothing will change because it is sticking to the start only on the top
+3032820	3038100	If I give it as end see it went to the bottom it stick to the bottom
+3039860	3042020	Right if I give it as a center
+3044660	3046660	It stick to the center
+3047220	3048740	right
+3048740	3054260	Now many people have asked me like how can you center at dips the simple solution you go on internet?
+3054260	3056020	You will find it this one
+3056020	3056980	right
+3056980	3058980	design a box
+3059300	3061140	Dip box which is
+3061140	3066020	Make it display flex and give it like justify align content as a center handle
+3066340	3068340	Now if you see even if I stretch it further
+3068900	3070900	The box will look like in
+3070980	3072980	at the center
+3074260	3081220	Yeah, these all properties whatever properties i'm applying all with respect to only display flex if I comment this display flex
+3082580	3085540	Or let's say I comment this display fix if you see this
+3086340	3091940	No property will be aligned by default this div are the block elements block level elements
+3091940	3094100	So all the elements still works like a block level
+3095140	3097140	Is that clear aswini?
+3098740	3102100	So these all elements works only when your display is flexed
+3102580	3108740	So we are applying all these properties to the container. Just remember that guys that we are applying all these properties to the container
+3109380	3111300	okay
+3111300	3112900	now
+3112900	3119700	Let's do you want me to write those definitions also here in comments so that you can remember or if I share notes that would work
+3120660	3123780	I need your comments guys so that it works for both of us
+3125380	3132020	Like if you want me to write I can I have already returned some definitions I can
+3134820	3139780	Let's say I paste it here such that flexed a flex item, okay
+3143860	3147700	Yeah, okay, let's say I use this
+3150420	3152420	Also I
+3152820	3154820	I mean I have
+3155540	3159860	Testing already written in different batch. So I'm just copying it from my notes
+3160420	3166260	Okay. So what we have said that flex direction it is it defines a flexed items direction like flex items
+3166580	3168580	These are the items in it, right?
+3168660	3174900	Are the least items like where you want to be shown them and it has which are directly proportional to main axis
+3175380	3182020	Okay, wherever like if you are if it is zero main axis is zero if flex section is column main axis is column and
+3182900	3189140	Items will be aligned that way and justify content. This property is always applied to main axis since it is a row
+3189940	3195540	According to row it is working in center and align items. This will work according to cross axis
+3195860	3199700	So remember in terms of main axis and cross axis, this will be really helpful
+3200340	3201700	now
+3201700	3208420	Guys, do you see this if I reduce it further if I reduce it further these boxes are getting stringed isn't it?
+3209780	3213700	These boxes are getting stringed but we have given each box
+3214420	3220340	A particular height and width right this boxes are we have given this items each particular box height and width
+3220660	3223860	What if we want it to stick it? What if we want to stick it?
+3224820	3232180	So for that we can say that hey can we wrap these items if your space is getting reduced
+3232180	3238260	You can always wrap the items now if you see what automatically when I use wrap this items got
+3239220	3246900	Distributed taking that same width and height if I increase my space again, the items will be aligned in the same room now
+3248420	3251540	Uh, let's say I reduce the height as 30
+3251620	3254740	Uh, this is fine 50 but
+3257860	3259220	Okay
+3259220	3260260	No worries
+3260260	3261140	so
+3261140	3268500	I hope you're getting the understanding like what flex wrap does flex wrap is usually helpful to define like hey
+3268740	3271300	My item height and width are this 100 pixel
+3271780	3275140	But if the space is reducing can you move the item to the next line?
+3275220	3278340	Like if you are writing a paragraph in your notes, right?
+3278500	3283220	Let's say you start from a line one and you are writing it your line one is finished
+3283300	3285860	You'll start writing the paragraph in the next line, right?
+3286740	3293700	But you wouldn't reduce the font size of your first line and you try to adjust all the paragraph in only line one, isn't it?
+3298020	3301780	Like just consider like you're taking our notes and you have a rule book
+3302340	3306340	You're starting in the line one. Now your line one is completely finished
+3306420	3311540	You have moved to the end. I have the book now you want to go and write on the second line, right?
+3311620	3314260	This is the same thing if you give flex wrap as a wrap
+3314580	3317460	It will take whatever space it have and if it is not
+3318020	3322660	Having enough space to render the next element or write the next element. It will move to the next room
+3323140	3327620	Okay, what if I give it as no wrap? Let's say no wrap if I give it no wrap
+3328500	3334740	And if I reduce the space it will try to align that same thing like you are you want to adjust whole paragraph in only line one
+3335220	3337220	Remember it that way
+3337780	3339380	Okay
+3339380	3342260	I hope this would be clear guys how wrap works
+3342900	3344900	When to use a wrap?
+3345380	3348340	Right, there's also something called as wrap reverse
+3349780	3352020	It will move the items up and down order
+3352820	3358100	Okay, we don't basically use it, but this is a property is used for flex wrap
+3359940	3362980	Now, uh, i'll add a content for this one also
+3363940	3368900	Let's see it helps to wrap elements as per width available like reference screen width
+3369060	3373220	Whatever screen width is available according to that it will adjust the element width
+3374260	3381140	Okay, I hope these properties are clear guys, whatever we have discussed till now. Okay, four properties we discussed display flex
+3381540	3385300	Flex direction justify content align items and flex wrap
+3386180	3388100	after that
+3388100	3390100	You know, there is one property
+3390660	3391620	called
+3391700	3393700	Flex flow
+3394260	3395940	Flex flow
+3395940	3402260	Like it generally defines in which direction you are generally flowing like when if when we say in which direction
+3402260	3404980	You are all the elements are flowing. It's a combination of
+3405700	3407700	flex direction
+3407700	3410260	It's a combination of flex direction and flex wrap
+3411620	3412660	Okay
+3412660	3416660	If you say let's say I make it flex flow as row wrap
+3417540	3419540	Okay, and I can comment
+3420020	3422980	These two things still it would work in the same way
+3424740	3426740	It still would work in the same way
+3427220	3429460	So it's a combination of two fields
+3430420	3432740	like a short short format like you go for
+3433140	3436980	Uh, we've seen that padding left padding right padding top padding bottom
+3437060	3442260	We can design it only one thing we we have discussed like top right bottom left right same way
+3442580	3444820	If you want to combine two properties and write down
+3445060	3449860	You can use flex flow you can design direction and you can say that whether you want to wrap it or no wrap
+3450420	3455780	So people generally use right they directly go use instead of flex direction and flex wrap
+3455860	3459940	They directly use flex flow and they use column wrap or row wrap
+3460580	3462580	That's easier, right?
+3467140	3470180	So I hope this this point is also clear guys there's nothing
+3470740	3478180	Uh like to be understood here. It's just a combination of flex direction flex wrap you can give space separated both the fields
+3481060	3482180	Okay
+3482180	3484340	Now there's a one last item
+3485220	3488580	That that which is present something called as align content
+3490420	3495620	Now this is different from the align items guys, this is different from the aligned. Let's just see what's happening
+3496180	3498180	If I use as flex start
+3499140	3501140	What just happened guys
+3504180	3510100	If anyone can explain what is happening from the behavior I would be I would really appreciate you like let's say I move flex end
+3511060	3513220	Or else, let's say I I just make it center
+3520020	3525620	Okay, the children got aligned with the container right now let's say uh
+3525780	3526900	Uh
+3526900	3532020	Align to canvas. Okay. Now, how would I explain this? Okay, let's say I
+3532900	3534980	Take an ip i i'll explain an ipad
+3537220	3538660	So
+3538660	3540580	Let's say you are
+3540580	3542580	boxes of this size
+3542980	3544980	Okay, and you define
+3545860	3550740	Flex items here. This is a container you have one two, three four
+3551700	3553700	Items which are having let's say one
+3554340	3556340	Two three four
+3556660	3558740	I hope this is visible guys
+3559620	3566420	Like for a while i'll zoom it in. Okay, this is where your container is there. This is a whole html document
+3567460	3570420	Or your device width viewport you can say
+3573140	3577860	Okay, and then let's say this is your flex container
+3579540	3581540	And the items
+3582340	3583300	Now
+3583300	3585300	This is aligned onto the
+3585460	3587140	Like top left, right?
+3587140	3593300	But what if we want to move this container in this free space anywhere like what if we wanted to move
+3593780	3598180	Somewhere around center, let's say you wanted to move here center or somewhere you want to move to end
+3598820	3602260	Now till now you were aligning all the internal items
+3603700	3607780	You are aligning all the internal items like whether flex start flex and center
+3607780	3609780	But this particular
+3609780	3615620	Aligned content right that works with respect to html like absolute field used to work for the position
+3616420	3620440	So this container where it should be returned with respect to html
+3622740	3626820	Is that clear according to your viewport or html you can say
+3628340	3631140	Guys how many of you understood this property align content?
+3631540	3638340	Uh, I see two thumbs up I need a few more guys if you're convinced, okay, cool. Thank you
+3640580	3642580	Cool. Thank you
+3643860	3649700	As per html as in like this is our whole viewport right some bit like whole
+3650420	3655460	Whatever viewport it is like even if you have less space, let's say if I reduce it
+3656420	3658420	Uh
+3658420	3659620	It wouldn't work that way
+3659620	3662180	But I have this is list of com terminal section
+3662180	3667540	But what i'm saying is that hold your screen size in your screen size if all the elements are lying on the one end
+3667780	3671700	But your screen other screen is empty. You want to move on the anywhere in the empty screen
+3671860	3677940	Then you can use align content. So that's why i'm saying that with respect to window or html. Okay now
+3678020	3680020	So
+3680900	3686020	I have written some specific definition like considering height and width property
+3686340	3688980	So if you see what I have given as a comment here
+3689540	3692260	It works same as a align and align item
+3692340	3698180	But if container height is very large in that case, it helps to put the element as a respective version using this property
+3700180	3701380	Yeah
+3701380	3707060	So it it takes the free space inside the body. No, not exactly. Let's say I also add
+3708900	3710900	a flex item
+3716420	3719380	Give me a second. I'll help you out understand this one
+3723860	3726660	If you see I reduce to 100
+3728020	3730020	Now when I move it to the 100
+3730660	3733780	This align items if I give flex start
+3735460	3737460	Or flex end
+3738740	3740740	Or center
+3742660	3745300	Okay, nothing major change is being applied here
+3745780	3751300	but only if your container if you are like whole container height is way much or
+3751860	3756180	Like whatever your container is there in that that flex
+3756900	3758580	Sorry flex container
+3758580	3764980	Whatever flex container height is there in that if you have empty space you can move align the items the children's all the children
+3765860	3767860	Okay
+3767940	3769380	so
+3769380	3772340	Guys, these are the things that you can actually apply
+3774900	3782660	To the flex container, I hope all these properties are clear. I'll try to revise here once. Okay. Give me a second
+3785860	3787860	Okay, so
+3790820	3792820	Let's say
+3793300	3795700	For the container as we have seen it here
+3796420	3798420	So one of the property is called
+3799140	3800820	flex direction
+3800820	3802820	Which is used to define?
+3802980	3809140	In which direction the elements will be now what what all we have seen here what all properties are available row
+3809940	3811940	column
+3813620	3817540	Then you have row reverse column reverse
+3820020	3824360	Right then we have seen the other property called justify
+3826340	3828340	Content
+3829060	3832980	Justify content always aligns with main axis
+3835540	3840420	Right so here you can align always the items on the main axis
+3842260	3845860	Yeah on the main axis like flex start
+3847860	3849860	Flex end
+3851860	3855060	Then you have center space between
+3855700	3857460	Or space around
+3857460	3862660	You have a list of properties that you can apply to move elements around your main axis
+3865780	3868900	Okay, then you have something like
+3870580	3872580	Align items
+3876020	3878020	This applies to cross axis
+3881460	3885620	Right again all these properties whatever you have here same
+3886340	3889460	Then we have discussed something called as flex wrap
+3893700	3901460	Like to to adjust according to the width how you want to adjust all the elements like you have here properties like
+3906260	3910120	Wrap no wrap wrap reverse
+3910120	3912120	Then
+3915720	3919480	We talked about something called as flex flow
+3921560	3923800	Right which is a combination of
+3926840	3929080	Flex direction
+3931320	3933720	Space flex wrap
+3934280	3935720	A
+3935720	3944840	Shortcut but you can define it then we talked about one of the other field which is align content
+3948920	3950920	To move
+3952120	3954840	All the items
+3958120	3960120	Flex items
+3960120	3962120	Like
+3962760	3964760	Inside container
+3970680	3972440	Like
+3972440	3976280	To start end or anything. These are the properties that we have learned
+3976440	3980440	So any doubts on these guys anything you want me to revise in this or this is clear
+3981720	3986120	If you are if you have understood these properties and their usage give me thumbs up guys
+3987320	3989320	If you are clear with these properties
+3990120	3992120	Okay
+3992520	3996360	I see four people giving me thumbs up few more guys. It would be really helpful
+4001560	4003560	Great, thank you. So now
+4004600	4006120	Let's go to the items
+4006120	4012360	Now we have said that all these properties whatever we applied are respective to container
+4012600	4019640	Right all the properties that we applied are on only on container wherever we have defined as flex container now for how
+4020200	4023000	Let's say I also give some background color here
+4027800	4029960	Any background color guys that you like
+4033720	4038360	It's a slate gray, that's fine. Okay. Yeah slate gray. Thank you
+4039240	4041160	so now
+4041160	4046120	All the properties till now whatever we applied are for the container right now
+4046200	4052600	But what how children's canvas like how children's can all the child elements right flex items
+4053160	4058520	how they can change for them there are basically a set of properties like
+4059880	4062040	One of the property is called order
+4062760	4067880	Now if you see here the items of order order of these items are one two, three four
+4068280	4070840	What if I want this fourth item?
+4072040	4074040	To be displayed first
+4074600	4080360	Or the third item to be displayed in between these two
+4081720	4085080	Can we do it this arrangement using CSS?
+4085960	4088280	So this can be done in flexbox
+4088840	4092840	How can we achieve it? Let's go to that property something called as order
+4093320	4095320	now by default
+4095840	4098680	Anything will have order zero
+4099640	4104520	Okay order zero now, let's say I rearrange this one. Firstly, uh
+4105240	4109480	I'll arrange and show like something like let's say I give order zero to each item first
+4114680	4116680	Okay
+4118600	4125160	Order zero now what what we want to do is like we want to align them again such that one two, three four
+4126040	4130120	No, so whichever value will have less order now that will
+4130920	4137800	Be coming first. Let's say what I mean exactly is that let's say I make item order four as a four order
+4138520	4142360	Okay, so it went to the last if I make order item of three
+4142840	4149480	Then it will come last a second. Then if you see by default it is zero zero, but I can make two and one
+4150440	4157400	Right, so this is how order works whichever is having the lower order by default it will come first if
+4157960	4162760	There is a chance that let's say if I make this both order zero and zero
+4164120	4166360	By default one is coming first
+4167480	4171880	The reason behind the first is present above the item two
+4171880	4173880	Okay
+4174760	4175800	Okay
+4175800	4184120	Now let's say if we want to rearrange this item, let's say I again, uh, what I do it is that I fix this one firstly
+4184840	4187320	Let's say I fix this item three
+4188360	4190120	Keeping it here
+4190120	4192200	item four keeping it below
+4193160	4199080	So by default what I did is like I kept the normal nature. However, the items are there. What if I want
+4199640	4205480	Fourth item to be first what I can do is if I want this fourth item to come first in in place of one
+4206840	4212200	What I can do the order of item four should be less compared to the order of other items
+4214520	4216520	How can we do that
+4217960	4222360	Like can we make order order of item four equal to zero
+4223880	4228920	Then this is the first element, right? This will become the first element that to come in the screen
+4229800	4231800	so generally the order
+4232360	4236600	Is used to rearrange the items that are children's or like flex items
+4236920	4241720	Like in which order you want to represent if you want to play around with order, then you can use this property
+4243960	4250120	I hope this is the thing is clear guys how order works or how order helps us in order to rearrange
+4250440	4253000	the existing children flex, uh items
+4253960	4256840	Uh negative values. It doesn't work. Let's say I make
+4257320	4261320	Minus three it is working, but by default it starts from zero
+4262120	4263800	Have you know
+4263800	4267880	Let's say I make minus three three is coming. Let's say I make again minus two
+4269400	4272520	Three still there if I make minus four it still works but
+4274040	4279320	I never used a negative go with positives starting from zero because by default
+4279880	4284600	By default order value for any element would be zero there wouldn't be like minus
+4285000	4287000	Integer value max integer value
+4287640	4289000	Okay
+4289000	4292760	That's how the reason that's why I say that only play around with the positives
+4293320	4298120	Okay, but I hope uh, okay vigneshwar what's what I was trying to say that
+4299320	4303400	Uh, let's say I remove order property all the order property, okay
+4303400	4305400	Okay
+4309640	4314760	Do you see all the items are aligned as like we have written in html 1 2 3 4
+4315800	4318840	Right now what I want is that
+4319640	4322120	One to come at last one to come at last
+4323320	4329960	Like instead of uh one coming at the first one two three four. I want to see it as two three four one
+4330360	4336920	Then what I can do by default the item two and three and four are having default value of order as zero
+4337320	4342120	I can go I can use define order. I can give order as one
+4342760	4349320	Once I give order one all these are item like order having zero then by default this is having a higher order
+4349320	4355960	So it will come at last whichever is having lower order. It will come at first it starts from ascending order
+4356920	4359880	Consider zero as a default value, okay
+4360200	4365320	If I want to move the item three should be the like last second
+4365480	4367880	Then I can say that order should be two
+4368280	4372360	Once I give it to if you say two and four are having still order zero
+4372840	4375560	And then item will one come then item three will come
+4376200	4381000	That's how it rotates. I hope the order definition is clear what order does
+4381720	4383720	Okay
+4384680	4390520	Okay, so i'll add it here guys what order does order is helpful in order to rearrange the
+4390920	4395000	Order in which elements are rendered too much order order in the definition also what I've written
+4395800	4401240	But I hope this thing this definition makes it further clear like what is exactly we are doing dealing with this
+4402680	4407240	Okay now then there is something else guys then there is something else now
+4407240	4409240	Now
+4409560	4412280	We have used something called as flex wrap
+4413400	4417080	If you see it is coming into the second position if I reduce it further
+4418360	4422840	If I reduce it further if you see one item, but what like let's say I open in
+4424920	4426920	Live server
+4428680	4435240	Okay, let me open this one I want to show you other some other properties or how it works
+4435720	4438520	Now if you see this, this is how we defined items
+4442040	4447160	Now I convert into different sizes I can use this one to move to different sizes
+4447160	4453160	I am going for the mobile version now if I reduce it further if you see i'm going into one direction if I reduce it further
+4453160	4455160	This is shrinking isn't it?
+4456120	4461800	Or else if I increase it these are increasing this much but as as soon as I increase the screen
+4461800	4467320	As soon as I increase the screen they are like even like till here they are into one size
+4467720	4474360	Even if I increase further, they're not increasing in nature, right? They are that small only but what if your screen?
+4477160	4479160	Yeah hamburger menu
+4480120	4481960	I didn't get that
+4481960	4483960	Okay, this one responds here. Okay
+4484520	4490200	Yeah, you can use this mobile any mobile version that you have. Okay, but I am using response in order to drag it
+4491160	4493160	Yeah
+4493400	4498520	So what I was saying guys here is that understand the problem let's say I have
+4500040	4502040	A tv
+4502600	4504600	Uh, I have to make 100
+4509000	4511000	Just let me refresh this
+4511480	4515000	Okay. Anyways, if you see let's say I have a tv
+4515880	4518200	And my tv is smaller in size
+4519160	4525560	I'm able to see fully filled i'm able to see all the pictures, but what my what if my tv size increases
+4526200	4528200	The item size are still same
+4529000	4532120	Let's say you are seeing the cricket match on a
+4533480	4535160	32 inch screen
+4535160	4536680	Okay, that's fine
+4536680	4541800	But what if that same 32 inch screen you will see all the players like very small in size
+4542280	4546440	If that same match is rendered on a cinema theater size of screen, let's say that big
+4547080	4551240	70 mm 90 mm screens right in that that range of screen
+4551240	4554760	Do you if you see that say your small players are playing would be able to see that?
+4556120	4560760	Will it be able you will be able to see your neck by your naked eye or you need a binoculars to see them, right?
+4561400	4564520	So what we say when you go for the responsive nature
+4565560	4570120	Whenever you are increasing the size the elements whatever children items are there
+4570520	4575960	Their size size should increase and with reduction their size also should decrease
+4576520	4578920	How many of you agree with this point guys?
+4581800	4587320	How many of you agree with my this point the size should increase and decrease along with the screen size, isn't it?
+4587640	4591160	If size is same then we'll have a lot of issues, isn't it?
+4591880	4594520	So to address them right to address them
+4595400	4598360	We have two properties in order to address the sizes
+4599160	4603480	Something called as let's say I remove the order property because we know it how order works
+4603960	4607000	We have something called as flex grow
+4609400	4611400	When we use flex grow
+4611400	4614600	We say that by what size you want to increase this item
+4615400	4617400	Let's say I say one
+4617640	4621320	And let's say I say here flex item two as a two
+4625880	4631960	Okay, and I again I give it here I comment this order
+4634360	4638200	This one has a one and this one also one
+4640520	4644280	But do you see uh behavior here guys what's happening
+4645800	4652680	Like we have defined flex items to have height of 50 and 100 pixel once we gave flex flow
+4653160	4654840	flex grow
+4654840	4659800	They are behaving as the fish right according to the screen size. They are not taking this height and width
+4660200	4662200	Right
+4662200	4669400	Whatever default height and width are there this width and height we defined it when we thought of this screen particular screen
+4669560	4672040	But we didn't thought of like whole approach, right?
+4672440	4677480	How many screens we can have many screens we can have n number of mobiles we can have new mobiles can come
+4677800	4683320	But we want to support all of them. So for that reason whatever items by default you give
+4684200	4686200	Like this width property, right?
+4687160	4691800	Width or height depending on how we align the items now it is according to the row
+4692120	4697800	So width is not playing the role if you align align according to vertically then height wouldn't play any role
+4698280	4703960	Now, let's see once I gave flex one item flex item to us flex two only
+4704280	4709720	Remember this thing that only item two is having flex guru as two all other items are having flex grow as one
+4710360	4713560	Now let's go onto the browser and see what's happening
+4714440	4716760	Now let's say this is the browser that I have
+4717320	4721800	Now the if you see on the mobile since the space is small only
+4723000	4728120	Using a flex wrap of the container. It took whatever space it needs if I reduce this further
+4729480	4733160	Okay, if you see it is reducing further, but what if I keep growing?
+4733800	4740120	If I keep going if I keep growing again, do you see this like there is something that I want to see you
+4740920	4747000	It's like can you see the item two comparatively it is double of size of all the other items
+4750280	4753880	Item two is double size of all the other items when we are growing the screen
+4755400	4759400	Isn't it so whenever we want one particular item
+4759480	4762840	Let's say there is a particular item in which there are too much paragraph
+4762920	4767320	Let's say this is having something along with two. Let's say there is a span tag
+4771080	4776780	And too much of paragraph let's say lorem 20 right
+4788040	4792780	Let's say this is a too much amount of paragraph, okay, let's give lorem 5 only
+4792780	4794780	Okay
+4798780	4800700	Okay, the paragraph is there now
+4800700	4803740	Let's see now if I reduce it that's fine
+4803980	4809740	But if I want that paragraph to contain to be readable when I grow right I want that item to grow
+4810300	4815180	So that it can be visible as such. We want we also want to increase the font size
+4815820	4819180	That's where media queries will come. I'll show you how can you deal with that?
+4819420	4824700	But for the from the item level from the flex item level, I hope this point is clear
+4825420	4832620	Whenever you want a particular item to grow at a double rate or 1.5 rate or any rate compared to the other elements
+4832860	4836380	You can specifically define the values of flex go that with respect to that
+4837100	4843500	Now let's me let me give you the definition how you can remember that what how do I remember it?
+4843980	4845980	Okay, if you see this
+4846700	4852140	What I say is that flex i flex grow is used when we want the items to grow with the ratio
+4854940	4860300	When the fifth of screen is in the width of screen increases like whatever ratio like this is increasing
+4860780	4865180	Item two is increasing with the with the double of all the other items
+4866140	4868140	one is to two ratio
+4869100	4872300	Okay, I hope this is clear guys how the flex grow works
+4872860	4879020	Is that clear guys flex grow similarly we have something called as flex shrink also
+4881900	4886540	Now flex shrink is also in the same way. Let's say I shrink it by two
+4887340	4890620	And I have let's say this is as one
+4891660	4893660	And let's say this is as one
+4894300	4896700	This is also same definition as flex grow
+4897100	4903500	This is also same definition as flex grow, but this is like when you are reducing the width of a particular
+4904060	4905580	Screen, let's say I reduce it
+4905580	4911740	Now if you see the after a some extent rate after some extent the one will reduce further at speed
+4911820	4915920	Our rate one will reduce our speed rate if you see one is comparatively smaller
+4922700	4926300	If you want me to show let's say i'll pick it as
+4927020	4929020	three
+4929500	4931500	So each to one ratio
+4933260	4935260	If you see
+4938540	4944540	Let me comment flex grow as of now then you will be able to see how that flex shrink is working
+4948060	4949100	Okay
+4949100	4952460	Now what I have done is like I have just used flex
+4953100	4959260	String three as for the item one and all other items are still flex like one
+4959980	4961500	If I go back
+4961500	4963500	And I reduce it
+4969500	4972060	Why this is not working as expected
+4974460	4976460	Give me a second guys
+4979660	4981660	Refresh
+4982620	4984620	Wouldn't work it but
+4987980	4994300	Let's say I did I mess up with some property let me remove this pan tag we don't need it
+4997980	5002140	Uh, I use flex string for the one of the thing then I
+5004060	5011580	Did I use right spelling that's that's that's fine, but let's say I have a width of 100 pixel
+5013020	5014540	uh
+5014540	5019660	1000 pixel and if I reduce it all are reducing it same rate
+5026620	5031500	Uh guys i'll fetch the example for first thing, but it's it is in same way
+5031820	5038620	how flex grow works if you want the one of the particular item that you want to you know shrink in the faster rate compared to
+5039500	5044780	The existing thing then you can use a flex string like if I write down the exact definition, right?
+5047900	5049900	This is how it works
+5050700	5056620	Flex string is used when we want the items to shrink when the width of screen is when the width of screen decreases like
+5057340	5058700	uh
+5058700	5064940	Let's say I remove the wrap for now flex wrap if I remove the flex wrap you will be able to see now
+5065820	5067340	that
+5067420	5073820	If you see the item one is of one by third of size, let's say I go and reduce this
+5074620	5076620	whatever
+5076620	5081820	Flex string we applied let's say I reduce this one now just see this if i'm reducing it
+5083180	5086780	If I give it one now all the items are having the same space
+5086780	5092220	But if I take it as two it will have less like if I enter it
+5092460	5095740	It will have it will string further at a speeder rate
+5098300	5103420	I hope this thing is clear like if I increase it further if you see that size is increasing a bit
+5103500	5106540	But it will reduce by half of the size each time
+5108460	5114300	We can give 1.25. Yeah, I can we can give any unit as we want
+5115420	5116940	Okay
+5116940	5120540	Like if you see it's reducing it double rate now, whatever
+5121100	5125820	Reduce this is reducing with that comparatively it reduces with a speeder rate
+5126060	5130060	But exact dimensions when you're dealing with flex screw and flex string, right?
+5130700	5132700	You have to decide like
+5133020	5135340	Exactly, like how proportionate you want to do it
+5135980	5140620	but whenever i'm applying the flex wrap it is automatically adjusting the
+5141100	5143740	You know alignment since it is going to the next row
+5144140	5149660	The flex link is not applying because it is having the enough space to render the each item in a row
+5150940	5155100	Is that clear guys how flick why flex string is not working when we have flex wrap?
+5156540	5162700	Because it is having enough space. It is it don't need to increase any of the item firstly until unless they are in one row
+5163020	5165020	It is not needed
+5166300	5168300	Okay
+5169580	5171900	Then then there is another one
+5172780	5177980	Field another property which is like a property called basis. Okay
+5178140	5179340	Okay
+5179340	5180300	now
+5180300	5182720	Let's say I comment this one also flex string
+5187660	5191040	Now basis is something like guys. What is the default?
+5191980	5193980	Now basis is also applies
+5194300	5197500	Along the main axis itself. It's a flex basis
+5198300	5204380	Whenever you give flex basis, you are supposed to define what is our default height of the item
+5205340	5209020	What would be the default height of the item let's say if I give 100 pixel
+5209980	5215020	100 pixel now if you see let's go on to the screen and what's happening here
+5216300	5223740	Okay, I go and apply here the flex basis is 100 now if I reduce it if I reduce it see this what's happening
+5225100	5232700	So by default when even when you grow even when you grow you want certain items to have that particular space only, right?
+5233340	5236060	So imagine what are these three properties?
+5236060	5243340	Right are dealing with it whether increase with the screen size or reduce with the screen size or keep it a fixed size
+5244220	5250460	Doesn't matter. Uh, like if the size is increasing it will be minimum of that size
+5252460	5256780	Let's say now what happened with the item one if you see it if I have the more space
+5257420	5262220	Item two three four are increasing in width but item one is constant because maximum
+5262780	5265900	It will have only 100 pixel if I reduce it
+5266700	5271900	It will reduce to any content any extent but maximum height is at maximum width
+5272060	5278700	Whatever it can be i'm defining using flex basis. You can also give in terms of percentages. Let's say I give
+5279720	5281820	25 percent
+5281820	5283100	Okay
+5283180	5289660	Now if I give 25 percent it will be like whatever according to screen size it will fix according to 25 percent
+5292140	5293340	Okay
+5293340	5300460	So flex basis is generally user to define what could be the item's maximum height. Sorry maximum width and
+5301020	5304620	Even you will increase the screen size. It will like if you give it percentages
+5304620	5308860	It will auto adjust because of screen width when you are increasing reducing
+5308860	5314700	But if you give a fixed unit like pixels or rem or em, then that is the maximum, you know width
+5315180	5321180	It will be considered but if you are already shrinking it it will shrink as much as it can it is needed
+5322220	5326060	Is that clear guys like how this property works flex basis?
+5328940	5330940	I
+5334380	5336380	I'll add a definition to this
+5337340	5343580	So i'll show you an application for this one all guys like we'll build something so that you know
+5343580	5345580	You are you'll be able to remember
+5352780	5354780	When you have
+5357260	5360380	Fix width or height
+5363340	5365340	With respect to
+5366700	5368700	Flex direction
+5371800	5373800	Particular
+5374860	5376860	Size of item
+5381340	5385900	Okay, so guys revising again, let's go to ipad and then
+5387020	5392300	Uh, so hey mangi you want me to repeat this one? I'll repeat it. So what I was saying is that
+5392940	5398620	Flex basis is generally used to define what would be let's say if I have certain certain things, right?
+5399580	5400940	Let's say
+5400940	5404780	I want this particular item to be minimum of 100 pixel
+5405900	5410380	Consider this as a minimum of sorry maximum of 100 pixel not more than that
+5411660	5416860	If I go on to the screen here, let's say even if I increase the screen size width
+5417340	5419340	It is only maximum of 100
+5419340	5421900	But if I reduce it it can still reduce it
+5422620	5427340	So whenever you want to fix a particular item height like this is a maximum
+5427900	5432700	Width it can take or maximum height can take you can you should go for the flex basis property
+5433660	5436700	So all these three properties whatever we have learned
+5437340	5442940	Are dealing with whether to grow a particular item or reduce the particular item or it
+5443340	5448860	At which ratio it should grow with compared to the other one or what would be the maximum height to it?
+5449580	5452860	So these are all processing but dealing with actually
+5453580	5454620	item
+5454620	5456620	item flex items width
+5457260	5461900	How they should play around when you increase them reduce the screen size?
+5463900	5467340	Is that clear hey mangi you are able to relate it
+5469900	5476620	Yeah, okay, so i'll try to revise this guys again, uh, let me come back to ipad once
+5479660	5481660	Okay, let's come to items
+5485500	5488620	So we discussed three properties one is flex crow
+5493260	5495260	Like
+5495980	5497980	It takes numbers
+5503180	5505180	And user to define
+5505820	5507820	The ratio
+5510140	5512140	At which
+5514060	5516060	Particular item
+5517980	5519980	That's a flex item
+5522700	5524700	Should increase
+5525260	5527260	Should grow
+5528060	5530060	When size of screen grows
+5530460	5532460	When size of screen grows
+5540620	5545280	Okay, next we have same thing as a flex string
+5552300	5558140	So this is actually mostly same definition right it takes again number
+5560940	5564540	And use it to define
+5567180	5569180	Ratio
+5571020	5573020	At which
+5574040	5576040	Particular
+5577580	5579580	Flex item
+5582540	5585420	Should reduce decrease
+5585420	5587420	Decreases
+5589100	5591100	When
+5591660	5594380	Size of screen reduces
+5597340	5599340	Decreases
+5600620	5604780	Okay, then we had something discussed about something called a flex basis
+5608540	5610540	This is user to define
+5616380	5618380	Size of
+5620940	5622940	Each element
+5625900	5627900	That it can take
+5631420	5634300	As max value
+5638460	5640460	You can assign percentages
+5646060	5648060	Or
+5648060	5651020	Pixel or em or rem
+5651660	5655420	We'll come to all the units different units, but this is how it works
+5656060	5658060	so guys
+5658700	5660860	I hope these points are clear how
+5661580	5667100	Basically what we are dealing with yeah order. I have to write order just a second. I'll write order
+5672380	5674380	If you
+5674460	5676460	Want to
+5677260	5680400	Change order existing order
+5688620	5690620	Of element
+5692620	5694620	You can use
+5697420	5699820	To change
+5700780	5705500	And default order is
+5709900	5714380	Zero and ascending
+5716860	5718860	Order will be rendered
+5724460	5726460	Okay, so
+5726620	5729500	We have discussed some least of properties guys, I hope
+5730060	5735900	These properties are clear to you firstly like when it comes to container when it comes to item
+5736540	5741980	So what I'll do is like once we have these nodes and these examples, right? I want you to go and play around with them
+5742620	5743580	Okay
+5743580	5744380	so
+5744380	5748700	Uh, can I have one thumbs up if you have understood all these properties guys?
+5749340	5751340	So that we can go ahead with the break
+5751740	5753740	And I'll push the code
+5753900	5759340	And if you are able to solve that problem, right where we got stuck in the position I would be happy
+5760060	5762060	Others I'll address that
+5776220	5778220	Okay
+5779100	5782540	So how many do you need do you need break guys or should I continue
+5783100	5786060	Like what do you prefer like how many minutes break you need if you need it?
+5787100	5789020	You need five minutes
+5789020	5791020	Or how much you need it?
+5793340	5799260	Continue, oh, okay. Hey man says continue guys people in favor of continue
+5800700	5803100	Okay, uh, so I see two two votes
+5804060	5810300	Let's take five minutes break guys so that you can think of problem also position then we'll come back and continue the other items
+5811660	5817260	Okay. Next we will build some layouts. Actually, we'll actually build layout and we'll see how we can leverage flexbox
+5818300	5820300	Okay
+5821100	5823100	Let's say
+5823740	5825740	Five minutes break
+5833100	5835100	Okay
+5839420	5845840	I'm starting this guys. Please take your break. I've pushed the code. Uh, you can verify that problem. Okay
+5863100	5865340	You
+5893100	5895340	You
+5923100	5925340	You
+5953100	5955340	You
+5983100	5985340	You
+6013100	6015340	You
+6043100	6045340	You
+6073100	6075340	You
+6103100	6105340	You
+6133580	6135580	You
+6146940	6148940	Uh guys is everyone back
+6149740	6155920	Opened I didn't understand your question for the first time. Uh, dev css is enough or doping reaches
+6156160	6158160	Uh
+6160720	6164640	Can you explain me better further I can understand
+6166000	6167520	Check on that
+6167520	6172880	So guys, can you give me again thumbs up guys if you're back some reactions you displayed a timer in the break time
+6175440	6182800	Okay for that timer we need uh, js we need js because there's a buttons right button you click it you reset it
+6183520	6185520	So for all of them we need
+6185920	6187920	So guys anyone able to figure out?
+6188720	6191760	What was the issue with that problem position one?
+6195040	6201280	I believe everyone was somewhere near around only while if we are fixing this one we have to just move the
+6202000	6203920	this one right
+6203920	6205760	like box one
+6205760	6210480	whatever height whatever height of the header is let's say if we have to fix the
+6211200	6212640	header height
+6212640	6220000	And the header height was defined using this one, let's say if I have a height header height of header as 15 pixel
+6222080	6226480	Okay, once we have that we can give margin top right for the box
+6229840	6233120	Margin top as 15 pixel
+6235360	6240480	Now let's say you have to address it like let's say 25 or let's say
+6243600	6248000	Since this is a paragraph, right? Let's say 40 pixel and not enough
+6249920	6257600	100 is also not enough. Let's say 300 my god 500
+6261840	6268480	Just let's let's do one thing. Let's do one thing. I open this with the live server. I pick it up
+6268800	6270800	I
+6271680	6276020	Use rem units since I haven't thought Kabir I cannot use that
+6284800	6286800	Okay
+6299280	6301280	So let's say 100 pixel
+6308400	6314480	So box one is the right thing that I'm applying right yeah, this is a header then I'm saying this one
+6316960	6318960	Margin top 200 pixel
+6322960	6324960	And this is too much 150 pixel
+6325280	6327280	And this is too much 150 pixel
+6329600	6334560	So this is generally i'm applying randomly but what how you can prefer this one is like you can
+6335120	6337120	Always go and select this link
+6337760	6345440	And then you can go here and see this is the height of 164.8. Right if I go and give that same height
+6346080	6347680	to box one
+6347680	6349680	As a margin top
+6350720	6352720	Right
+6352800	6354960	Uh, and let's say this is a pixel
+6357440	6364800	So you'll be able to see that it's having right thing then let's say I also give width as 100
+6365900	6367900	percent
+6369840	6372320	And I have to reduce it further
+6376060	6380160	150 pixel or 155 pixel
+6381120	6383120	Let's say somewhere around that place
+6383440	6387920	So what you can do is like whenever you scroll it now that header will be fixed now
+6388640	6389680	so
+6389680	6394320	This is how you actually use it that container, but i'll give you the exact example
+6394400	6398480	But this is how I thought I thought like I was expecting something like margin top
+6399040	6401040	Is that you know basic example?
+6402080	6404080	Okay
+6404640	6410160	Let's going back to one more example guys that we want to build full full-fledged one
+6411280	6414320	Is that let's say if we want to build something like nav bar
+6416240	6420160	Nav bar dot html. Let's say we have nav bar
+6422320	6427280	So what is the first thing that comes to your mind whenever you hear nav bar
+6430000	6432800	What's the first thing that comes to your mind whenever you hear nav bar
+6434480	6437600	All the menu items right guys if you go back to again flip cart
+6438640	6444240	All the menu items right same thing like but what are the menu items that you have like this list of gross?
+6444640	6447120	Let's say groceries mobile fashion
+6447680	6448560	right
+6448560	6450000	even
+6450000	6452000	So how you can do this? Let's say
+6453440	6459040	We have something like unordered list. Let's say I have something like unordered list inside that li
+6460480	6462480	Let's say I have li
+6462720	6465140	Inside that let's say I have something like anchor tag
+6469840	6472960	Okay, and I'll list multiple items, let's say
+6473900	6475280	default
+6475280	6477280	I'll use it like home
+6478080	6480080	And like basic things right
+6481520	6483520	Like let's say a boat
+6485580	6487580	Products
+6488380	6490960	And let's say I have something like contacts
+6494540	6495900	Okay
+6495900	6503580	To make this something href pointing to right we always have to give something. So I'll give i'm giving something like hash
+6504860	6507340	Uh, this doesn't lead to anywhere
+6508300	6510300	so
+6513580	6515580	Fine no
+6517980	6521740	If you go and render this one, let's say if you go and render this one guys
+6523020	6528460	To go and render this is how you expect. Uh, like you know nav bar like
+6529260	6533100	Unordered list to work right generally. This is how unordered list work, right?
+6535900	6539260	Right guys now so what i'll do is that let's say I have
+6540060	6543660	A class called i'll call it as navigation bar
+6544280	6546280	Navigation let's say I have a navigation
+6547580	6553340	Okay, what I'll do is that i'll apply here all the flexbox properties that we have learned
+6553580	6557580	Now what I'll do is that let's say I have a class so i'll select navigation
+6558300	6563740	And I open the braces now, let's say first thing what we'll do is like we'll use display flex
+6564700	6567740	What it will do is when I give display flex firstly
+6568540	6570540	What it's supposed to do?
+6572380	6576220	In align along the align along
+6577800	6583900	The x-axis right which is my main axis, right? Let's say I apply flex now
+6585660	6587660	Once I give this these are assigned now
+6587980	6593900	Usually you see the menu on the right side, right? Usually you see the menu on the right side, isn't it?
+6594380	6598380	Let's for the sake right for the sake i'll give uh, this as a row also
+6599180	6600300	and
+6600300	6605500	When you see on the right side if I move if I want all the items to move to the right side what I can do
+6608300	6611100	What I can do if I want to move all the items to the right guys
+6615820	6617820	Justify content
+6619740	6626700	So justify content always plays around with the main axis now main axis is row so I can say that
+6627260	6628700	flex end
+6628700	6631180	Isn't it? This is what we wanted to do
+6632620	6633980	now
+6633980	6635500	here
+6635580	6636940	now
+6636940	6637900	here
+6637900	6639900	Inside this navigation
+6640780	6642460	Okay
+6642460	6643500	now
+6643500	6650700	Just think of let's say if we give a background here background color for this banner background color could be something like a
+6651580	6653580	dark
+6654300	6656300	Let's say dark
+6657900	6663180	Let's say this darkly it doesn't look good, but that's fine. Let's say this is a background color that we gave
+6664060	6666060	Or let's say
+6669500	6672060	Let's say we have this khaki color as of now
+6673420	6674940	right now
+6674940	6680940	What would be the next thing guys? What would be the next thing to fix like what would we should like firstly?
+6681580	6686940	Can we uh for the menu, right? We don't really see the dots coming up, right?
+6687500	6689500	There shouldn't be dots, right?
+6690380	6693180	The whatever you see in the unordered list these dots
+6693980	6695020	right
+6695020	6696780	If we can remove them
+6696780	6698380	Yeah, so
+6698380	6700380	Hemangi says least styles, right?
+6700860	6702860	least style
+6703100	6705100	I'll go and say say none
+6705900	6713740	Once I remove that if you see the everything got cleared now now what we can do is what we have to do
+6713740	6715740	Do
+6716300	6718300	What we are supposed to do
+6718300	6721820	We need a gap between all of the elements, right? Let's let's do something
+6722380	6729100	Like for all the navigation and anchor type what's what type of selector is this guys? What type of selector is this?
+6729800	6731980	Navigation and a what type of selector is this?
+6733660	6735660	When I write down this way
+6737020	6743100	Uh, that's fine class selector, but this kind of combination what we call it as this kind of combination
+6744700	6748460	Descendant selector, right? Do you remember that descendant selector?
+6749740	6751740	parent-child fine, but uh
+6751980	6757500	Even if you go for children selector, it will be like a parent-child only but this is something comes in the descendant category
+6758620	6759660	Okay
+6759660	6762300	You can always say okay all you can also say parent-child
+6762300	6770220	But this is something descendant category like all the descendants and the navigation will be applied least of property now for this anchor
+6770780	6771900	Firstly
+6771900	6777260	There's one property that I can use uh to remove underscore guys this we have already learned
+6777900	6784220	How we can remove these underscores or like we can add top layer or bottom layer how we can do that guys?
+6785180	6788300	Anyone remember? Yeah text decoration. Thank you
+6789980	6791980	Let's say text decoration to the none
+6793260	6795260	fine now also
+6795740	6797660	What if I want to?
+6797660	6804540	What if I want to make uh, let's say I color the changes here, let's say I make it look at white here
+6805500	6809020	Okay, and basically I want to also add some padding
+6809900	6813180	Let's say I give four pixel. Okay basic things
+6813900	6817420	Uh, and let's say I use something like deep sky blue
+6818220	6820220	Does it looking good or?
+6822220	6825180	Fine this is looking good rgb color now
+6825980	6829500	So a basic, uh make it black preview with color
+6830380	6832380	This is fine. Uh
+6832780	6835660	Now this look good right now. Let's see
+6837660	6843740	I want to add one of the pseudo selector now what sort of buttons on one hover of button
+6843820	6849500	There is something right happens right now on hover. I want to add some background color. How can I do that guys?
+6850940	6852940	On hover
+6853020	6856940	Right, I have to use pseudo selector hover, right? Let's say I go for the navigation
+6857580	6864060	Again, I use descend selector. I go for the hover and I say that there should be something background color should be coming
+6864460	6868140	No, I have to use some background color. Uh, let's say
+6869500	6871500	It should be something around this one only
+6873260	6875260	Uh, let's say I copy this
+6877340	6879020	And
+6879020	6881420	I select this one. I go to this one
+6882380	6887980	Now if you see, uh on hover guys, there's a background color that is something is coming, right?
+6889020	6892220	And one thing we have to make is like this navigation bar
+6892860	6894140	height
+6894140	6896620	To be a bit more but let let it be that way for now
+6897420	6899420	but do you guys agree like
+6899900	6902700	Uh, this is how your menu bar generally looks like
+6903740	6905740	Uh basic menu bar
+6908380	6910380	Let's make it more lighter
+6911420	6913420	Okay
+6920620	6922620	Okay
+6923420	6925420	Now uh
+6926780	6928780	Okay
+6929100	6930860	Once this is done
+6930860	6936380	Now comes the main rule guys till now we haven't used much of display properties display flex
+6936460	6938860	We have used direction. We have justify content we have
+6939420	6941340	but
+6941420	6943420	When i'm reducing it
+6943900	6951580	Is it reducing or is it happening same something like what how it should behave for the other mobile screens is something we have to decide
+6953180	6958380	Like we have told that we this child children item will be aligned or we can play around with that
+6958700	6962700	But what if we have to use only container properties and we have to say that
+6963100	6969580	Uh, depending on this maybe we are changing the flex direction, right? If you go for the mobile, right mobile
+6969740	6971740	Let's say I go for the mobile
+6973020	6978380	If I go for the mobile the menu now if you see it converted into hamburger hamburger icon, right
+6979260	6982720	Can you see this on flipkart? This is converted into hamburger
+6984300	6989100	If I if I don't use it in mobile format all the items are available here itself
+6991180	6995260	Do you guys see this so there's a difference in how you render the menu
+6996140	7000380	So if you want to fix this sort of issue or address this kind of things
+7000940	7003420	Then this should be aligned in a vertically, right?
+7004060	7010700	This should align vertically now for that what we'll do is that fill apply something called as media query
+7012620	7015440	How many of you have heard something called as media query earlier
+7019260	7024060	Okay, let's let's go and explore what is media query. Okay firstly
+7025020	7026940	media query
+7026940	7028460	in css
+7028460	7029260	so
+7029260	7031260	I'll go for this one itself
+7031660	7037500	Now what it says is that you have different types of media first what sort of medias you have
+7038140	7039100	firstly
+7039100	7045180	Whether it is printing or screen size or even audio. I believe I don't remember
+7045660	7047660	There should be an audio also
+7047740	7048620	Okay
+7048620	7055100	But for the all the different preview modes, right if you want to add something conditional, how can you add conditional?
+7055660	7058700	Let's say this is a syntax now. We say that at the rate media
+7059260	7061260	like whether to apply
+7061340	7064380	Only or not only and you have to select media type
+7065100	7070220	Always, uh, you prefer screen, but I go with all okay at the rate media
+7071740	7074940	All and then you have to select the feature
+7075580	7077420	When I say media feature
+7077420	7082060	What we exactly mean is that we have to write the condition. Let's say this is an example if you see
+7082940	7086620	They are applying here at the rate media onto the screen
+7087260	7090220	And if minimum width of the screen is 480 pixel
+7091020	7092620	then apply
+7092620	7094620	This particular css to the body
+7095820	7100860	So firstly you have to define at the rate media and for the all screens and then you have to define condition
+7101420	7103420	And this is like a if condition
+7104060	7109500	Only if this condition meets then the all the css watch are defined inside would be applying
+7111260	7114620	Is that clear guys is that point clear how this actually works
+7116700	7121260	Right, so let's see let's say we apply some one css where we say that
+7122700	7124300	Let's say
+7124300	7129420	At the rate media now. I'll use that same thing. I'll use something like media all
+7130940	7132060	and
+7132060	7134300	Let's say I use something like max width
+7137580	7142940	Okay, and I select something like let's say 600 pixel which is like ipad or less than ipad
+7145420	7147820	Now inside this I have to write
+7148460	7153500	Again a new list of css now whenever you have let's say a navigation
+7154300	7159340	Imagine now what will happen what we have seen just now. Let's say we don't want to
+7159820	7161820	Completely build that solution like
+7162520	7167420	converted to hamburger like this hamburger button will come and then you will be able to
+7168060	7170060	Click it or deal with it, right?
+7170380	7173340	But what if we can do is like align all the elements vertically
+7174060	7176460	To align all the items vertically what we have to do
+7178940	7183600	To align this all the items vertically what we can do guys since this is a flexbox
+7185500	7188620	By default for the navigation flexbox is applying
+7189580	7191580	Flex direction column, right?
+7191580	7193420	great
+7193420	7196380	Let's say flex direction if I convert into column
+7197020	7202220	Now if you see as i'm reducing it, it is converted into column if I increase it
+7202860	7205100	It it will go into the end action
+7206140	7208300	Now when i'm converting into columns
+7209340	7211340	When i'm converting into column
+7211820	7214140	What if we want to move the elements to the center?
+7215260	7217340	What if we want to move the elements to the center?
+7219740	7221740	I
+7222780	7224780	Think of it guys
+7225660	7228300	I would go with align items or justify content
+7229820	7231820	This is columns
+7233420	7237580	Okay, let's say I give align items center
+7239580	7240620	Thank you
+7240620	7247180	So if you see what we have done it whenever you align items now, well, let's say I also have something like border
+7247820	7249820	For each of one
+7250140	7252140	So that it looks like bit
+7255180	7257180	One pixel solid
+7261740	7263580	Black
+7263580	7267420	It looks hard. I don't want to play around with this one, but
+7268940	7270380	No
+7270380	7272380	Also what we can do is that
+7273100	7276460	Let's say whatever padding is there whatever padding is there
+7277180	7279180	If I make it zero
+7281180	7283180	Zero is not applying
+7283900	7290140	Because we are applying to navigation for navigation. We didn't give any padding as such so we don't need it
+7292060	7293580	Okay, fine
+7293580	7294380	now
+7294380	7297260	To the anchor tags, let's say to the anchor tags
+7297980	7300300	What we can do what we can apply further?
+7301180	7303180	What we can deal with this further guys?
+7303580	7305580	Think of it
+7305580	7310780	Now I was trying to add the border which was failing because I was adding to a navigation
+7311980	7315260	But I want to add here into the anchor text, right?
+7315900	7317900	Let's say I go and say that
+7321340	7324140	I can give specific borders right like
+7325020	7330860	Border top let's say I go for border top like i'm giving only the top like one pixel
+7332940	7334940	Let's say solid
+7336140	7338140	Black
+7338700	7340940	Okay, now instead of black, let's say
+7341980	7348080	I go for this one something like and also let's say we say something like border bottom
+7351740	7353920	Say one pixel solid
+7366380	7368380	Now
+7368620	7372540	So looking all odd right isn't it if you are trying to apply
+7372940	7377500	What if we gave some padding to each item then might be five pixel?
+7379100	7381100	No, it doesn't work
+7381580	7383020	rightly
+7383020	7385900	Let's say we don't want to deal with this all this navigation
+7386700	7392860	But this is how you generally move the items right now. What if there is some other thing?
+7393260	7398700	Like let's say I also add one condition at the rate media
+7401660	7408380	All and max width now, let's say max width is 800 pixel
+7410860	7417740	Now I want to explain me the difference like how how these things are applied like when I say something like
+7417740	7422780	When I say something like 600 max and there is 800 max both conditions are true
+7423340	7428460	Let's say i'm having a screen size width of 700 pixel. Now, which one should apply guys?
+7431420	7437980	Which one should apply let's say I have something like navigation and I say justify content
+7439580	7441580	To the space around
+7442540	7447660	Let's say I have screen width of 700
+7448940	7453820	Consider screen width of 700 now, let's see this what's happening if you see
+7456300	7461180	Whenever i'll show you here, let me render it where is this
+7461420	7463420	This
+7467900	7469900	If you see it here what will happen
+7470860	7476300	Generally, we are having three types of media query three types of resolutions that we have written as of now
+7477020	7479020	One thing is like diff by default
+7479660	7485260	But if you see the dimensions here, this is the width that is acting if I reduce this width if you see
+7485660	7487660	Something we came under 800
+7488060	7495740	Now below whenever we are we are saying that below 800 maximum width whenever we are hitting below the 800 this justify
+7496780	7498780	Content is applied
+7499180	7503020	Right 801 will apply like if you see i'm reducing it further
+7503420	7509340	The space like space is getting added to them if I reduce it further below 600
+7510140	7512700	This this type of like anchor tag will come
+7513500	7519900	Now this is how your nav bar works right with this like uh, like as you go for flexible patterns
+7520220	7526860	Like your menu will come like will be in a different way for the bigger screens for the smaller screens it changes, right?
+7527740	7530220	This was one of the example that I wanted to show you
+7531820	7534700	Okay that how we can build a flexible nav bar
+7535340	7540940	But I have some css written. Let's say I apply all of the css and see
+7542940	7544940	Uh how this is changing
+7547980	7550060	I had some predefined colors with me
+7553580	7559900	Okay, I guess the all the padding and everything was not applying because I didn't add box sizing
+7561980	7565260	Because of box sizing I was having issue earlier
+7567340	7571020	Okay now uh what I just made it guys is uh
+7571980	7575820	Same thing I've added same thing media all for max 800 width
+7576460	7578460	And this is also same thing
+7578780	7580380	but here
+7580380	7582380	If you see
+7582460	7584460	Uh, we don't need this
+7585340	7588060	Nothing matters here margin zero
+7589260	7591260	Padding zero
+7592780	7593980	Right
+7593980	7595500	Not needed
+7595500	7600460	If I expand it again, it's the same way. It's the same behavior like if I expand further
+7601100	7603340	That that will come one one direction
+7604300	7608380	I've just enhanced that properties how they are looking like, you know, there's a division
+7609100	7612140	And just like that css changes small css
+7613020	7621360	But overall, I hope you got the basic idea like how you can build a flexible nav bar using display properties display flex properties
+7625180	7630460	Guys if you understand this, can you give me thumbs up if we can go to some other example and build it one more?
+7631100	7635340	So I have one more example guys like which you can which we can explore
+7635980	7637500	let's say
+7637500	7639500	I want to build like
+7639500	7645260	Uh, one of the basic example right where you have carts when you have many carts like you see netflix one
+7645820	7648160	Let's say carts dot html
+7649180	7651180	Uh will build this step by step
+7651980	7654380	Can you show the inline css?
+7656140	7659500	Uh mobile view, okay, this is the mobile view
+7660060	7662700	Uh minimum width so this is what we have applied
+7662780	7669740	So just we have moved text item to center and we added padding guys and there's like, you know border that has been added
+7670220	7673020	This is a border like top border top and bottom bottom
+7673900	7678380	And on hover property anyways, this is coming because we have added background color
+7682940	7688700	Same thing just that color differences. So can media queries be applied to images?
+7689260	7690780	uh
+7690780	7696220	Yeah, it should be it should be if you're applying for normal screens, you can be able to apply for all the things somewhere
+7697980	7702140	We'll see that let's say we have a carts example we'll build this carts example
+7705820	7711660	Let's say we'll build uh carts uh demo using flexbox
+7714300	7717740	Like where you have a list of cards you want to show it how you can build it
+7718860	7719900	now
+7719900	7723020	Firstly, let's have something like a container
+7725580	7727580	Our div is a normal container
+7728700	7729900	Yeah
+7729900	7734380	then for each card, right i'm using something like let's say this
+7735420	7738220	Instead of div we'll go with a semantic tax like main
+7738940	7743100	Then for each card, let's say I have something like a section or article
+7743580	7745580	Which I go and use article
+7746220	7748220	Okay
+7748620	7752140	Now inside this article i'll have something like let's say image
+7753740	7759500	Inside this i'll have something as src and inside image i'll have something like let's say
+7760380	7765100	Uh content which i'll render here firstly what this image is talking about
+7765820	7766780	and then
+7766780	7771100	Uh description about that whole image and for description i'll use something like p tag
+7771660	7772860	Okay
+7772860	7776540	Like this is a basic guys. So what i've done i have picked one card
+7777260	7781820	Let's say I also give a class as a card for you know, uh, so that we can
+7783260	7785900	Feel that and let's say these are the least of uh diff
+7786460	7788460	Pural form of cards
+7788940	7795180	Okay, what i'm giving i'm giving an image under that image. I want to talk about what this image is talking about
+7795500	7797500	Let's say if I give something
+7798360	7799580	randomly
+7799580	7803280	What we'll do is like to build this one. We'll go for unsplash
+7805420	7809360	Unsplash website, let's say this is unsplash
+7812060	7814380	Now let's say I select this one copy
+7817100	7821440	Image address copy. Yeah link address
+7821440	7823440	Okay
+7826160	7829920	Okay, once we give this let's say what this image is talking about
+7830380	7835620	Uh currently I say lorem 5 lorem 5 and let's say this is a lorem
+7837660	7839660	20 okay
+7840160	7842240	Uh
+7842240	7844240	Show preview
+7845360	7847360	So the image is not coming
+7848800	7850800	So did I copy
+7851600	7853600	as
+7854720	7856720	Copy image address
+7860160	7866960	Alt i'll add it but yeah, this is uh, I have I have to copy image address. So let's say alt
+7868000	7870000	Since I am talking about
+7871760	7873760	Say uh
+7874400	7876400	Man staring at cave
+7876560	7878560	Cave
+7879440	7881440	Let's say this is what he's trying to do
+7882160	7884160	Is staring at a cave
+7884160	7891120	Then we'll add some of the css to this one to show and we'll build multiple cards using this card
+7891600	7893600	Let's say I have a style
+7894000	7897440	And let's say I have a container called cards inside this
+7898160	7901940	Let's say I have I copy this one and create multiple items
+7902820	7904820	Okay
+7905780	7912260	Okay, I have address added four five items now if I use something like display flex first
+7912980	7919460	Let's have this only one property for the cards and let's open this in the uh live server
+7921780	7923780	Okay, if you see here
+7924180	7926180	Multiple cards are added horizontally
+7927620	7930500	Okay, we'll copy all the images one by one
+7931060	7937220	But uh, i'm just want to build this firstly then we'll go and do all the things that we want to do
+7937780	7939060	now
+7939060	7944820	So one thing what we wanted to do guys is that if the full screen is covered right if you see here it is
+7946020	7951860	Assuming complete screen and it it is horizontally scrollable, but we don't want to do do this
+7952260	7954260	we want that hey if the
+7955300	7960340	Screen width is consumed please take take the next image go next in the next line
+7960500	7962660	Or go to the next line how we can do that?
+7964420	7966500	Like come below the first image
+7967460	7968980	There's a one property
+7968980	7973620	We have learned that can help us like if you're i've told you that example, right?
+7974340	7979860	On a notebook if you are starting from the left and you are ending it the right you're supposed to start on the next line
+7982020	7986260	Flex wrap, right? Let's say if I use flex wrap as wrap
+7986900	7992580	You see all the items are aligned in a vertically now, okay once we have gave direction now
+7993540	8001300	And i'll say that hey, uh all the aligned items right to the stretch now stretch is something like consume full space like
+8001940	8006500	Don't leave empty spaces. Uh, if you are having empty space take it full things. Okay
+8007300	8009300	Uh, also i'll make this
+8009860	8011140	default
+8011140	8013140	styles, right
+8013780	8015780	Margin zero
+8017300	8019300	Adding zero
+8021060	8023620	And box sizing as border box
+8024580	8025460	Okay
+8025460	8031300	Now let's say it came to the completely at the left end now what we'll do is that?
+8032580	8034900	Uh, let's say by default we'll have
+8035780	8037780	margin here
+8038100	8041860	Margin of uh 10 pixel around each thing
+8042500	8044500	Okay, fine. No
+8045540	8049380	What I want to do is let's let's say now i'll go for the cards
+8052340	8056180	Before that card there is something I have to fix this image size, right?
+8056740	8060180	Let's say I go for card then I select image inside that
+8061860	8068580	Now how can I what what I have to fix on this guys on this image I have to just fix the width and height, right?
+8068580	8070580	Width and height, right?
+8070820	8078260	But to fix only the height and width so i'll go and say that hey max height max width max width can be
+8078880	8080880	100% of screen and
+8081540	8083540	max height can be
+8084180	8086180	Let's say 80% of the screen
+8086900	8092660	So i'm giving in terms of percentages as of now so till now we have gave uh like pixels
+8093060	8097060	Now what I did is like I just I've built such a way that hey if you
+8097780	8104260	Uh, like i'm telling that what height it can take and maximum height and width just simple properties. Nothing much in that
+8105220	8108020	Let's say this is left and right fine
+8108740	8110740	top and bottom three pixel
+8112260	8114260	Okay now
+8114340	8120340	also, uh, let's say the kind like inside this card now inside this card I want to add
+8120820	8123140	Uh, let's say firstly border
+8123620	8128340	Border because to differentiate also one pixel solid
+8130100	8134100	Then I can give something like let's say black or
+8136340	8143780	This is something like uh showing, you know, a light line. Can you see this light line here a simple line, right?
+8145300	8148580	That is what i'm using it currently this line as a border
+8148980	8155620	But now to show a card as a card right to show a card as a card something this there's one property
+8156100	8158100	which is called as
+8158900	8163860	Uh, which which is used to show like a deviated one or which other than z-index
+8163940	8167940	There is something like if you want to show there's a box shadow, right? Yeah
+8168820	8170820	Uh, thank you for catching this
+8170900	8177140	Box shadow now to giving box shadow again it you have to define shadow on the all the directions like four directions
+8177220	8181620	Let's say i'm taking again two pixel two pixel two pixel
+8182820	8188020	Right again two pixel all the four sides. I've added box shadow then I can also give the color
+8189140	8195140	But I don't need a color. Let's say what type of shadow it is and for rgb. I select zero zero zero
+8195780	8200020	Then there's a fourth property guys. What is the fourth property which used to deal with?
+8200960	8206740	Opacity right and rgb whenever we are dealing with so that's like how transparent you want to deal with
+8206980	8210580	So let's say I give 0.3 or 0.4 anything
+8211300	8213300	Now do you see this like a image?
+8214020	8219940	You know image which is coming lifted up in air like something like lifted up in there
+8223220	8229220	You know, so box shadow is something like all the directions that you can decide then you can give the styles to it
+8230100	8231860	Okay now
+8231860	8236020	Once this we have add this border and this one then let's say
+8236740	8238740	We give for each card
+8240420	8242420	Let's say for each cards
+8242580	8249780	Instead of okay for each card because these cards are attached, right? Let's say we give a margin top of
+8250500	8254100	Let's say 15 pixel. Okay such that they are separated
+8254900	8255940	Okay
+8255940	8259140	once this is done now what we'll do is that
+8259460	8266740	We'll make all of them like flex grow all the these are items, right? So flex grow
+8267380	8274420	To be default like i'll give a default zero. Don't grow or don't shrink it keep it as it is
+8275940	8280420	Okay, keep it as it is whatever we have do we have blur and direction
+8282100	8285540	In shadow, yeah, we can do that. We can do that. We can do that open
+8285540	8287540	I'll show it like how we can do that
+8287620	8292260	But let's say next if you want to fix the size of a card
+8293060	8295060	If you want to fix the size of a card
+8295460	8297540	What is the one property that we can deal with?
+8298420	8300900	Like whenever you are having screen speaker or size
+8301460	8304660	We can deal with one of the property i've already thought you
+8306260	8312500	Flex grow shrink and there's another order other than that one property. There's something called a flex basis, right?
+8313060	8315060	Which sets the maximum?
+8315700	8317700	width or height
+8318820	8325860	Let's say I select flex basis and I say that this is like maximum of 200 pixel let's say
+8327700	8334260	If you see whenever I give maximum height an image can take it automatically fixed all the things now
+8334900	8336260	for me
+8336260	8338900	If I am increasing the space, let's say
+8339780	8343460	If it can accommodate multiple things like if I don't have flex wrap
+8343860	8348180	It will come in all will come in one row or center line that I don't want it
+8349460	8351460	Okay, and let's say I have
+8351780	8353300	border
+8353300	8355300	background color here
+8363380	8365380	Let's say I don't need this
+8365460	8367380	Okay
+8367380	8369380	So what I have done is guys is that
+8369940	8372100	I've added something like flex basis
+8372100	8377460	Now if I remove flex basis all the images and everything is taking uh, you know this
+8377940	8382580	Like taking whatever space it is having. Okay, let's say if I use this inspect tool
+8383460	8388340	Uh, and I try to play around like all the other views. Let's say I increasing it
+8389300	8391220	All things are working fine
+8391220	8397060	But if I reduce it the still the size is like whatever it is defined we have defined it is taking that but
+8397540	8401320	If I give maximum size, let's say flex space is 200
+8402660	8405060	Which is like minimum you have to have this size
+8405700	8408980	Then it is like it doesn't get affected much
+8409060	8413940	But even if you are increasing further the size wouldn't increase it will come in only one row
+8414980	8417860	I'm just trying to use all the properties that has been thought guys
+8418580	8419700	Okay
+8419700	8420660	now
+8420740	8422740	Let's say
+8424340	8428100	Now one thing what I'll do is like for this articles, right?
+8428660	8434820	I have already selected images and content what we have to write. I'll copy that content actually
+8436500	8438500	Let me take that
+8444340	8447860	Because I also added a button that I wanted to show you
+8447860	8449860	You
+8450100	8452100	Give me a second
+8452260	8454260	I'll copy that html
+8456820	8461220	Let's say I minimize this one main content I replace with this one
+8462740	8466820	Now if you see what I have done is like I have selected a different sort of images
+8468020	8470500	And I have one button below that. Okay
+8471460	8472660	now
+8472660	8474660	Just nothing. Uh
+8475620	8478740	Creative wise just those again those images itself
+8479460	8484020	Uh, we have extra button here. So we'll style them. Okay the content and the button now
+8484020	8489300	Let's say I have to style button now if you see the button is present inside
+8490660	8492660	div
+8492820	8497620	This particular text dot button now, let's say if I go and do this way
+8499540	8501540	Dot text dot button
+8501940	8503140	I
+8503140	8507700	Can I can do all the css that I want to apply using again descendant selector?
+8508660	8509700	Okay
+8509700	8513700	Now let's say I say that a background color to be gray
+8514900	8518020	Okay, I added background color to be gray for each element
+8519300	8520660	And let's say
+8520660	8526740	Uh, I also deal with border making them zero because there's an underline which we don't need it
+8527220	8529220	Let's say I make it zero then
+8530180	8533720	Also, let's make color as white
+8537780	8544100	Padding I'll add it. I'll add it. Let's say padding we need padding for this box. Let's say 10 pixel
+8544820	8545860	Okay
+8545860	8549060	We added 10 pixel for this one and then we want to align them
+8549700	8551460	align them into
+8551460	8552660	center
+8552660	8558180	Or let's say I can consume the whole space width of should be the hundred percent. Let's say
+8559220	8561460	So the button will come here like here. Why?
+8562660	8564020	so
+8564020	8565380	now
+8565380	8569300	Also for this text right text is not really greatly aligned
+8569300	8573220	So what we'll do is that we'll add some padding to it around the box
+8573300	8579540	Let's say card and I select text inside each card and I say that I'll give just a padding
+8580180	8581700	on each side
+8581700	8587780	Let's say on top and bottom. I don't need it. So I'll go with zero then I'll say that 0.4 pixel
+8590020	8594340	Left and right not working this way. Let's say I give
+8596180	8598260	Five pixels two pixel
+8599780	8601780	That's not exactly
+8602820	8605540	But let's say I play around with 10 pixel
+8606980	8608980	then
+8609060	8611700	10 pixel then let's say 10 pixel
+8612980	8614980	Okay
+8616820	8618820	Now
+8619940	8627060	If I remove flex wrap it will be let's say item switch items if I comment this one
+8629220	8631220	Uh doesn't matter
+8632660	8640900	What i'm thinking is that if there is a space available if you see the uh, the next problem would be this space
+8641940	8644500	If you see the space of between each card
+8646260	8648260	Is not rightly assigned
+8648980	8652740	Yeah border radius we can add right thanks somebody for a suggestion
+8653300	8655300	Let's say I go and add here
+8655700	8659460	Border radius for the cards. Let's say I give eight pixel
+8661060	8663060	So that they look rotated
+8664660	8667540	But if I give a space then it will look like that
+8671380	8673460	Let's say if we go and fix this one
+8674180	8679140	Uh giving we have margin top, uh, let's say I convert this into margin
+8684260	8689940	Okay, now let's say instead of 15 pixel on the top let's say I have 10 pixel on the top
+8690580	8697300	On the right side, let's say I have 5 pixel on the bottom again. Let's say I have 10 pixel then 5 pixel
+8699540	8701940	This is looking better so let me
+8702900	8704900	Go and update this one as
+8707460	8710980	Uh, this is the one right under the card
+8714900	8717620	10 pixel and 5 pixel, okay
+8719300	8724020	Fine so there is a space between the cards exactly what we can see now
+8724580	8731380	So, uh, whatever border radius I have added 8 pixel is not something visible. Let's say I make 15 pixel
+8732580	8734580	Or 20
+8734660	8738420	Nothing is applying. Let's say why it's not anything applying
+8740180	8745140	Okay, I haven't I shouldn't apply for the whole container it should be for each card
+8746660	8747700	Right
+8747700	8749860	It should be for the each card that you apply
+8750820	8755220	Instead of 20, let's reduce this as a 10 so that you have a rotated
+8755940	8757940	card like borders which are
+8758420	8760420	Like
+8760500	8762500	Border radius
+8763380	8765700	Now along with this
+8768100	8773620	What do you think guys what what else we can uh, you know edit or like what what else we can make better
+8774340	8776340	What do you guys think?
+8776340	8780340	Let's say if you go for uh, you know this one, uh flexible layout
+8781220	8784340	Uh, yeah, we can add button on hover
+8784340	8786340	Hover
+8786340	8788340	Let's say I select a button
+8790900	8792900	Text
+8793620	8801460	Button hover, uh, let's say background color to be changed to white say you can say
+8804100	8806820	Can any color can you suggest any colors guys?
+8806820	8808820	Okay
+8812820	8819860	Yeah bottom should stick to the like like but i've given some padding right, uh, that's why it is coming out to be that way
+8823300	8829700	If I give this that's fine, yeah background color is changing, but let's say uh, if I want to make
+8831700	8834820	Top right bottom zero pixel
+8835700	8837700	Than 10 pixel
+8841860	8844340	Uh, no, this is changing the content of it
+8846980	8850180	But let me go and fix this one i'll do this
+8852420	8854420	Uh
+8857140	8861620	You want me to stick this button below and because it's having some space
+8862420	8869380	This is coming from card level, let's say firstly the top right bottom, let's say we make bottom zero pixel first
+8872340	8878500	Now it is still like, you know, all other things are getting changed, uh, so
+8882900	8887860	We can address many things here, okay all buttons should align horizontally right agree
+8888100	8893940	So firstly you can also add, you know, too many styles to the pop button also, let's say
+8895460	8902420	Uh border radius you can give it here, uh, which is eight pixel so that they look a bit curved then
+8907620	8910020	You can always say uh position
+8912660	8914660	How can you fix this guys
+8918820	8923220	Fixed and let's say okay. This is coming out of whole container
+8924420	8925540	right
+8925540	8926900	bottom
+8926900	8928900	All the all the buttons are coming below
+8930020	8933700	So let's say, uh, how can you move it to the below?
+8934660	8936660	Stick it to the bottom
+8937380	8939700	Firstly how where the space is coming here?
+8943620	8947300	The space is coming from here like wherever text is there
+8948340	8949540	Okay
+8949540	8954900	If I reduce this then it is completely taking it. I think it is already stick to bottom guys
+8954900	8958020	It's just a padding that we are having around it, right?
+8958980	8960980	so
+8961460	8964020	No, no, it is already sticking to the bottom itself
+8964820	8968740	It's just that whatever padding it is having it is consuming it for the each card
+8972020	8974260	So there is something extra space also
+8974820	8982100	But inside that text container only since we have that button or that css of text is generally applied here
+8982820	8984820	Because that's how I have written
+8985060	8989300	Our div is wrapped around the text container inside the text if you see
+8994020	8996020	Uh card or text
+8996660	8998820	I've applied multiple things to here. So
+8999700	9001940	Let's keep it this way guys. Let's keep it this way
+9002500	9008180	So I hope uh, you got to learn today related to flexbox a lot
+9009380	9014580	Basic properties how we can use it and how can you relate with them? Right if you felt
+9015940	9020340	Good, give me thumbs up seeing this one or you know building this along with me
+9022260	9028820	I hope the basic knowledge right on flex properties. Uh, you can all refer to one of the link that i'll give you
+9029780	9034420	Uh, I said i'll paste it in the notes itself. Let's say I go here
+9036740	9038740	Uh links dot empty
+9040660	9045620	This is only one major topic that we picked it up today class five
+9049620	9051620	Uh flexbox
+9059220	9061220	Okay
+9063540	9066100	So refer to this link guys i'll also
+9067780	9069780	Uh pin here
+9070500	9075620	And there's one more site that I wanted to show you uh, it's something called as can I use
+9077860	9080260	Can I use css
+9082260	9086020	So this website guys actually css are applied on
+9086580	9091060	Uh, all the different browsers, right you can always refer to this one. Let's say flexbox
+9091620	9093220	If you go and search
+9093220	9098420	It will give all the like uh browsers on which browsers you can apply this particular css styles
+9098980	9100580	Okay
+9100580	9107160	So also refer to this any property if not applying on any browser then you can refer to this one
+9116420	9118420	Okay
+9128260	9132100	Guys if these things are clear, uh, I would like to start the doubt session
+9132740	9135460	Uh, the content part is completed for today
+9136100	9141780	Uh, so i'll be starting out session if you feel free to drop whoever have understood the topic
+9142420	9148340	Uh, and if someone is having doubts, please stick around we'll discuss some doubts whatever questions have been there, okay?
+9151140	9153140	So i'll start the doubt session guys
+9154100	9161220	So, thank you for attending today's session guys who are dropping but let me say uh, some bit some some all small sounds and first like
+9162500	9163940	Okay, uh
+9163940	9165540	like
+9165540	9168660	Whatever things that I picked it like for flexbox, right?
+9169460	9174020	You have to practice flexbox which is used for you know building layouts some with
+9174740	9179300	Go and I would say directly right try to replicate anything like, uh
+9179940	9182660	bigger website itself like how they are behaving in a
+9183300	9189940	Responsive design pick it only small thing. Let's say you go and try to replicate any site like let's say you go
+9191060	9192580	and
+9192580	9194580	Go and replicate myndra itself
+9194580	9196580	So
+9198580	9200180	Like
+9200180	9204980	If you see this will look like bit simple because these are like, uh, you build cards already
+9205060	9209700	These are corazel corazel component how these are being built you can check on that
+9210260	9211540	uh
+9211540	9215140	I'm not getting a right click here. I think inspect is not allowed on this one
+9216100	9218740	Uh their design but you can feel it
+9219380	9223780	Yeah, econ sites are particularly power without function, right? Yeah, so they are simple
+9224180	9227460	So try to build a part by part. Let's say these are
+9228180	9230180	Menus, right now think of this
+9230820	9235460	Firstly, uh, whoever they're in class think of this one like whenever i'm hovering over men
+9236180	9240980	I'm able to see below this particular thing right this list of things how this can be built
+9242180	9244180	How this thing can be built?
+9244660	9248900	Yeah, how this can be built guys under menu or women you we are able to see this
+9249460	9254660	And wherever i'm going right if you see it is taking the same space till that beauty part
+9255220	9258420	It is taking the same space, but only content is changing
+9260340	9265620	So think in that way like if you go for even for like this one, right if you see here
+9265620	9270260	Yeah, they're coming multiple things like if you go and check one this one, right?
+9270260	9275460	Uh, i'm selecting it but if you apply you will be able to see like let's say I
+9277060	9279060	Select this one
+9280660	9285780	This is a fashion but I think there are on click events, right?
+9288580	9292260	There are no on click events present in this to verify like one click
+9292980	9295540	So if you go and check this one, right?
+9295940	9303300	There are no on click events present in this to verify like what all the elements that are rendering below because this is like, uh,
+9304900	9309540	Not sure like how can I show that example how that works but try to explore them
+9310100	9316980	Uh on hover. Yeah, they're setting that like display none to changing it and rendering it using position
+9317780	9322580	Uh, but try to verify look into that. Okay, but i'll go with the questions
+9322820	9324660	Go with the questions
+9324660	9326500	I see
+9326500	9331700	Assignment second question. Uh, let me uh check that just to let me open that
+9332740	9334740	some which for you
+9336340	9338980	Which assignment second question firstly like
+9340740	9342740	I just want to know
+9344580	9346740	Last last class is it last class?
+9353380	9355380	Uh, let me go
+9359940	9365780	What's our current batch name like I don't remember, uh, just a second
+9368580	9372900	March 23 beginner fe right academy much bigger
+9377860	9379860	Yeah, uh
+9383300	9387540	So it's just a second guys i'm trying to open it
+9392820	9394820	So it's css display
+9405220	9410260	The box model question is it like I see there are too less many people who attempted it
+9411220	9413540	Uh, how can I attempt it? Okay
+9414740	9419860	Cute question a position in css or box model one
+9427540	9429540	Okay, uh
+9430500	9434420	Let's create an html that distribute demonstrates a user position property
+9434980	9438100	Inside a container div the page should have display four boxes
+9439060	9445300	Diffs with a box as a class and each unique class, uh, let's say show it on here itself
+9449780	9451780	Okay
+9453060	9455060	So let's say
+9456180	9458180	I go to this
+9459060	9461060	This was the question, right?
+9461620	9465700	Okay, uh, you gave me the that one. Okay, i'll try to
+9468740	9470740	Copy this one
+9478260	9480260	HTML compiler
+9490020	9492020	Okay
+9492980	9497700	Uh some boxes one, two, three four, okay
+9498420	9500420	But let's go to the question back
+9500740	9504900	Each page should have four display work dips with the box as a class
+9506100	9509060	With each unique item absolute relative, okay
+9511700	9517780	Use css to set associated position attribute respectively given all the boxes unique
+9518740	9520980	Top right bottom left values as well. Okay
+9522020	9524020	So
+9534260	9537540	Okay, there should be four dips generally with a box as a class
+9539780	9541780	Uh
+9541780	9543780	so
+9544020	9550020	Yes here your class name is class one class two class three class four you have to address that one first
+9550740	9553060	So the first line says it's like
+9554340	9560180	Uh, you have to make a you know box as a css class here. They have also given a suggestion, right?
+9561380	9564900	Yeah, so you can add a box here firstly
+9567060	9569620	Then once you have this
+9571860	9578260	Each with each with unique class, uh, then you have absolute relative classes to be attached to each one
+9580500	9582500	Let's say relative
+9590580	9594100	You tried it already it didn't work, but that's what it's suggesting, right?
+9600740	9602740	Okay, let's see this let's see this
+9603700	9605700	Okay
+9606740	9609220	Okay, you have four things now you mentioned it
+9609940	9614420	Now a class container, which is not necessary because if they haven't mentioned it
+9615380	9616420	Okay
+9616420	9618420	Just do what they mention it
+9619620	9624260	Use css to set associated position attribute respectively. Okay
+9626100	9628100	Now
+9628580	9630580	You
+9635780	9641400	How can I attempt this problem is there any way that I can attempt this problem
+9659060	9665620	I'm not sure if I can attempt this problem submit but okay paste the code I can submit. Okay
+9670580	9676260	So whatever by default you are having right let's say your box firstly class box then
+9677220	9680180	Uh, you have all the css different css
+9681060	9683060	so
+9683140	9685380	Firstly your dot absolute
+9686340	9688340	Will have position absolute
+9691300	9696500	Let's say then you have relative you'll have position relative
+9699780	9704260	Then you have fixed you will have position fixed
+9709060	9711060	Then you have something called static
+9712900	9714900	So position static
+9715540	9717540	Okay
+9718500	9722420	Okay, and what is their suggesting?
+9729780	9736980	And give all boxes unique top right left bottom values, okay, let's say I give top bottom
+9739700	9743300	Top zero bottom
+9743940	9745940	As zero
+9746980	9748980	Left as zero
+9749460	9755220	They're basically not asking you to build any layout. They're just asking you to assign a list of values
+9756100	9758100	Yeah, which are unique
+9759060	9766180	Just like one two and three and let's say, okay, let's keep it one
+9766180	9768180	One
+9771220	9774040	Similarly you will have the other things also
+9797140	9801540	Once you have this then let's say remove all of this
+9804580	9812660	Okay, and let's say we make border box sizing as border box
+9816500	9818500	Okay
+9819220	9821220	And
+9824820	9826820	Once we have this then
+9829220	9831220	I don't miss this wrapper
+9839460	9844340	Okay, all that items are aligned then let's say I have a css box
+9845300	9847300	Then i'll say let's say
+9847540	9853640	A particular height of 50 pixel into width of 50 pixel
+9858900	9860900	And let's say background color
+9867540	9869540	Okay
+9869540	9871540	Okay
+9875620	9879240	Oh anything else in that question guys got the issue
+9882980	9886680	Okay, uh, i'll try look I have made mistake my box absolute
+9888020	9892820	Is that working guys like is it that issue solved or I was like solving one way
+9893940	9895940	Can you try this this should work?
+9899700	9901700	Okay
+9902020	9906500	Let me know if all the test cases are passing or having still any issues because
+9908020	9913940	Doesn't seem to have any thing like assets to build isn't it like should have four boxes
+9915140	9917780	dips with the boxes a class and
+9919780	9922580	Each with a unique class absolute relative use css
+9923540	9928100	To set associated position with reds respectively and give all the unit boxes
+9929860	9932340	Top right left bottom values as well
+9934500	9940260	Try it some with if it is working if not, let me know there's anything else guys if you want me to address
+9944180	9948900	So how dsa helpful in front end dev, okay open the uh
+9953220	9958020	Firstly a dsa is helpful first because it's a
+9959780	9966180	Like when you learn dsa, what do you think like what like yeah, thanks that's working fine
+9967460	9973380	Uh, so when you're learning dsa, right it's like, you know, you are trying to learn problem solving firstly
+9973460	9977700	That's something that comes to your mind right could be any language or could be anything
+9978260	9985540	That's you are trying to build the intuition like what happening now if you go for javascript, that is also a programming language
+9986020	9991700	We will have n number of issues to solve currently we are dealing only with the layout and things
+9992260	9997540	But javascript has so many things that will also go for the back end right in back end you'll write
+9998100	10004100	The logics that all the things dsa you have learned in a way you will be applying those learnings in the back end more
+10004580	10006500	But when it comes to front end
+10006500	10013220	The scope of problem solving would be less because the scope of problems in the front end would be more of a design like
+10013780	10017380	How you are making uh using csn html in the right way
+10019940	10021300	Because
+10021300	10022420	moreover
+10022420	10028260	If you are writing logics on a front end or in any project you are forced to write many logics on front end
+10028580	10030820	then that's a bad design practice because
+10031380	10033380	Clients are supposed to be light
+10033700	10036900	And more business logic is supposed to be on the server side
+10037620	10046820	Okay, if you go for specifically front end interviews, right specific front end interviews the dsa, uh, I mean
+10047620	10051940	The interviews if you have dsa interviews, those are going supposed to be easier
+10052500	10057460	Medium not going to be hard that I can say specifically like if someone comes to me
+10058420	10062660	Like with a front end, uh, no role or front end interview
+10063060	10068180	I wouldn't be testing them on a problem solving, but I would give them a layout. Hey, can you build this layout for me?
+10069060	10072580	Right, of course backend developer cannot do it for them. We'll test this
+10073540	10076660	For our lld itself is based on uh design
+10077380	10079380	Like how can you build the components?
+10079700	10081700	We'll come to that
+10082260	10084260	Okay
+10084420	10087620	Uh guys anything else do you have anything else? Okay
+10089060	10090820	Yeah, thank you pendra
+10090820	10091860	so
+10091860	10098500	I'll upload the notes and uh the site that i've told you right, uh, there's something that I uploaded css tricks one
+10099300	10102500	Uh flexbox, please go through this one, right all the things
+10103460	10108660	Uh, i'll also refer for the grid also from here only because they have given a right
+10109300	10114260	Where like how you can feel it like flex direction how they are working in this is the row reverse row reverse
+10114660	10117780	Column column reverse the exact content also
+10118260	10124180	If you want to revise you can refer to our code or else you can come to this one. It's a 10 minutes read
+10124580	10129860	Uh spend at least three to four days on this like uh revising through it like three to four times
+10130260	10135860	You will be clear because all the properties are I've already told you applied only on two things
+10135940	10141460	Which is container and children or container and items on container. There are five on children
+10141460	10147140	There are three properties if you learn how to use them. It's good enough. Then there is something called
+10148580	10150580	Flex froggy
+10151700	10153700	Yeah, flex froggy this one
+10155700	10162680	You can use this to learn flexbox I would suggest everyone to go through this one as a practice
+10170100	10174020	I use this, uh, generally, uh to revise my
+10174580	10179700	Concepts let's say one of the thing is like, uh, it says that I welcome to all this stuff
+10179780	10182900	And I want to move this particular person to this end
+10183860	10185620	Let's say how we can do that
+10185620	10191300	So it will say that justify content to the flex end because we are not giving flex direction by default
+10191860	10198100	It is zero now. Once you give this value and you will semicolon you click next you will go to the next level
+10198500	10203380	Next problem. Okay, so you keep solving these things like now you have to just do it
+10203860	10205860	Like justify content to the center
+10210340	10215300	So this game will actually help you to solve all the levels
+10216180	10217460	Okay
+10217460	10224820	Now this is like space in between or space. Sorry space around so this will help you try to play around with this game guys
+10228340	10230340	Okay, uh then
+10231140	10234180	Okay, so if everything is clear, can we close the session today?
+10238900	10240900	Thank you, maneshwara
+10241860	10246980	So, hope you go through it enhance whatever you want to enhance on the existing things that you have
+10247620	10252740	Uh, i'll try to come up with assignments if you need personal assignments like a problem statement
+10253380	10256340	Uh where you can solve it and push the github repo
+10256420	10261380	The github repo i've asked people to you know, add github, uh get
+10262020	10268580	Recordings to you also on portfolio project recording if available. I'll check with them. Okay, but get i've told them
+10269380	10272500	So that should be available next week most probably
+10272900	10274900	Okay
+10275620	10278360	So the question thank you, let's see you on saturday
+10279620	10286180	Where we learn css grid, uh much more advanced layout structure, which will be more interesting
+10286340	10292340	There are too many properties in that we have seen only eight to nine properties here, but that's two direction layout
+10292340	10294660	So let's learn that let's explore that
+10295620	10296980	Okay
+10296980	10302740	So see you on saturday. Hope you have a great good night. Have good sleep solve all the assignments
+10303060	10307620	Okay, if you're not able to solve again try to connect with me. I'll try to help you out whatever way I can
+10308260	10310260	Okay
+10310340	10312360	So love I said have a good night
+10316340	10318420	You

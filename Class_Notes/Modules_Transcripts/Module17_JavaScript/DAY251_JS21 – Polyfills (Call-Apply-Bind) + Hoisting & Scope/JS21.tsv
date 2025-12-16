@@ -1,0 +1,1102 @@
+start	end	text
+0	28040	hi all good evening guys am i audible and visible
+28040	36080	guys can you hear me out
+36080	46440	good evening all let me share my screen too
+46440	54240	hello rajni so screen share is also working fine guys
+54240	72840	so I hope everyone is you know doing their assignment problems and you know
+72840	77760	keeping up with right amount of PSP's and prepping for the mock too many
+77760	82920	things are going to come up next week because next weekend I guess you have a
+82920	90920	mock like contest for the whole HTMLC as a JS part so irrespective of any
+90920	95120	frameworks guys these are going to play really important you know the whatever
+95120	99800	topics we have covered whatever concepts we have covered from day in till today
+99800	105720	are most important I would request right everyone to keep revising the go
+105720	115600	through the github and it's that's more important related to certification
+115600	123960	contest is it about mock interview Ashish are you talking about that once
+123960	129080	you do a mock interview you'll be able to get a certification isn't it
+129800	150160	certification contest let me check on this hi okay I'll talk about that on
+150160	160640	used I have to gather complete knowledge on that yeah because I okay
+160640	168600	Muneshwara says that is for DSA technical certification test okay that
+168600	178880	might be DSA test is it only for practice so I hope Ashish your question
+178880	188720	was actually answered by Muneshwara github link sure just a second
+188720	212200	I have attached here in the chat history great so how's your weekend going
+212200	223480	us guys how's the weekend going are you prepping continuously or there's
+223480	232360	something happening spy stuff news are you applying it any forms I know many of
+232360	239040	the many of you have told me that after react will start applying I but as you
+239040	247520	know there is a lot of calls from HRS of different organizations I think she
+248120	258640	nice so you are in Hyderabad itself right Muneshwara
+259240	284600	I'll type anglo okay so we'll wait for some time till people join classes class
+284600	294840	so then we'll get started let me bring in chart
+314600	339160	maybe we can plan make for this batch if possible or got clemency I sure sure
+339360	347160	I'll sometime visit Bangalore maybe this month and itself my sister stays there
+347160	353400	so they moved out to Bangalore so I'll probably coming there electronic city
+353400	364280	maybe they stay there guys did anyone understand the picture that I have a
+364320	379920	send in whatsapp chat like whatsapp group chat yeah we can meet but did anyone saw
+379920	389280	that picture CSR SSR CSR plus SSR did you guys just understood that point like
+389280	406320	anyone just did they understand anything on that part no no but that's
+406320	416280	one of the architectural discussions architectural decisions like but I'll
+416360	419960	talk about that in future class but just wanted to know if anyone have the
+419960	424400	context on that already because it's a really big topic to discuss once
+424400	429280	complete once we complete react then we'll talk on that part how things are
+429360	456160	working how completely things are rendered let me see one document this
+456160	460080	was the article that you have to
+468040	475920	good guys I'll urge everyone to go through this article after the class or
+475920	481080	anytime you find time but you know you should be knowing each and everything
+481080	486440	like how three things combined firstly how things are built like how Dom is
+486440	492680	built behind the scenes how CSS is actually mapped to each of the HTML
+492680	498960	node in that Dom key then how JS is actually downloaded and you know mixed
+498960	504760	and rendered with them how things works coordinate okay so I hope everyone goes
+504760	510560	through this article in a break or post class but in case you have any doubts
+510560	515720	bring it up with me in the next class I will discuss that in further okay spend
+515720	522920	some time understanding how complete rendering works because most of the the
+522920	531760	concepts that that I've shared picture right CSR SSR plus CSR plus SSR all
+531760	539120	these things will make sense only once you know how rendering works now when I
+539120	549440	talk about rendering how HTML CSS and JS are actually loaded and works in
+549440	553640	browser because we know that there is something called Dom tree but you also
+553640	559240	have something like Sysarm Sysarm is for CSS tree then Dom tree then you have
+559240	564600	mix both the things then you build something called as a render tree now
+564600	569520	this render tree is actually rendered in the browser so before actually you know
+569520	575480	working with anything once your HTML and CSS are downloaded in the network they
+575480	580040	build these two data structures of Dom and Syscom then they merge to build
+580040	585440	something called render tree then it works finally you also have JS and we
+585440	591120	have seen that how JS get downloaded you have async keyword then you have differ
+591120	595680	keyword then you don't do it anything then you know how it works so
+595680	602360	combinations of these things is actually how you should be understanding this how
+602360	607440	browser is handling all the edge cases once you know this maybe then we'll talk
+607440	613320	on this completely like sometime later of once we cover that yet because this
+613320	620320	is like specifically architectural decisions like how do you build certain
+620320	626200	components of the apps what's the best strategy okay this is really
+626200	631320	important from a senior a depth point of view I found that interesting I found
+631320	636440	it that in LinkedIn so I've just shared it but I but the whatever article have
+636440	640000	shared with you please understand those those will covered about this for this
+640000	644680	part and this part and this one and this thing we have anyways covered how JS
+645280	652000	okay and then we'll get started but I hope everyone you know find some time
+652000	657960	five minutes they can keep that open in the tab in your machine so that you will
+657960	662360	find time anyways go through that article because this will build your
+662360	669280	basics from rendering point of view because the JavaScript HTML CSS I'll
+669280	674640	teach it I'll teach up to an extent behind the scenes how things works but
+674640	678480	there might be some parts where I'll share the documentation or things where
+678480	682320	you have to put in efforts but in case you don't understand anything going
+682320	691040	through the commit documentation I'll be there to help you out okay I see less
+691040	699440	amount of people Saturday but what should we do guys it's ten minutes
+699440	708880	already should we get started I see only one thumbs up few more guys few more
+708880	720920	thumbs up so nice but yeah thank you guys so just wanted to know like did you
+720920	728440	understand what polyfills are and how can you write polyfills for HOF that we
+728440	739600	have discussed in last class could be filter could be map for each and we also
+739600	745640	consider reduce and flat these are the all methods which are built on array
+745640	749960	like these are the utility methods there can be a number of utility methods you
+749960	753920	might be writing in your project that we have just rewritten the logics how those
+753920	759960	things should work right now once this part is clear like we have further three
+759960	766760	things to rediscuss and reimplement it which are call bind apply polyfills for
+766760	770800	them we have discussed the concept for this one but just want to know if you
+770800	775400	remember the concept for this one guys can anyone summarize the concept for
+775400	788400	this one do you remember guys call bind apply when when we actually use this
+788400	800840	method three methods when does when what is your use case like why do we
+800840	806760	actually use this three methods if you don't remember it give me thumbs down if
+806760	813400	you remember it trying to put it in sentence give a thumbs up okay I see five
+813400	821800	people don't remember it okay so as you remember that we use this method to
+822800	836360	of this while borrowing function like we were actually changing what this should
+836360	843480	be pointing to we were specifically passing an object and we say that hey
+843480	847640	this should point to this particular object we were making sure that and all
+847640	851160	of them were doing the same things but everyone was behaving in a different way
+851160	856640	we know that call takes a list of arguments whereas apply takes an array
+856640	860280	of arguments extra arguments whereas bind used to return a function which can
+860280	864200	be called a number of times are we able to recall this with this short
+864200	868720	introduction again because I'll build those examples one by one and we'll
+868720	872680	write polyfills for them once we cover this polyfills will have some
+872680	879720	interesting you know JS sort of revision concepts but want to discuss about few
+879760	884320	of the you know basics that you have to work on okay so we'll have some of the
+884320	888440	more of conversational things going on today after this polyfills will cover
+888440	893200	them in half an hour I don't think it would need more time but next one one
+893200	898320	eight of our class would be much interesting okay let's let's go back to
+898320	901800	this one so can I get started with call bind apply or do you want me to re
+901800	907880	explain this topic guys because this was covered in earlier class there was a
+907880	913040	specific amount of time was given to this class on call by bind apply we have
+913040	921520	spent more than an hour right continue right okay let's not waste the time and
+921520	930760	focus on this so one of the one one example I'll pick it up so that everyone
+930760	944280	can recall it let's say I'll build one file polyfill call bind apply not JS
+944280	950320	let's say this is one of the file that I have and let's say we you know doing it
+950320	954360	again now if you say that I have a simple I'll take the same example person
+954360	961320	object and object will have again let's say name and age say name and age okay
+961320	965480	let's keep it name itself make it further simple and let's say you also
+965480	979160	have let's make this const you have another const percent two you have name
+979160	988240	again let's say we call it as a myth right then we had some common function
+988240	997760	let's say a function of separate age where it's I receive an age but when I
+997760	1022000	try to do a console dot log I'll say that this start name is years old let's
+1022000	1029020	say years old now this was a use case when we wanted to use call bind apply
+1029020	1036480	let's say I'm using an example of call what I can do is that since I just need
+1036480	1040480	to call it what first thing is that something always I used to call it on an
+1040480	1046480	object let's say firstly I call it as this print age function now on this
+1046480	1050640	print age always when I'm borrowing this function I can apply three methods on it
+1050640	1056400	call blind apply I'll call this one then I can pass what this should point to I'll
+1056400	1060720	say that this should point to person object and then also can pass an age
+1060720	1065840	because we are accepting an age in this print age right so this is how we have
+1065840	1083240	learned it now let's see if this is working fine node so I hope this is
+1083240	1088240	something how it is working I hope everyone knows it one final thumbs up if
+1088240	1094400	you can further recall this one better right like why this is working this way
+1094400	1098880	and how this is this generally if you remember what this should be pointing to
+1098880	1104600	in a normal function what this is usually points to can you guys remember
+1104600	1114280	that one what they should point to it's a node.js non-strict environment it
+1114280	1121160	should point to an empty object isn't it this is the example this is sorry this
+1121160	1125600	inside a function it should point to a global object isn't it like this inside
+1125600	1130280	a function so I hope you remember these differences all the things that we have
+1130280	1135880	covered now we change that one from window object to this person object now
+1135880	1143480	just let's think like how can we approach now a polyfill for this one like
+1143480	1147880	where we are changing a context for this one we have covered this one in one of
+1147880	1152240	the class where we were discussing in doubt session but I made a pretty much
+1152240	1156080	simple code now but just want to just want you to think like what is actually
+1156080	1160800	this thing is doing this is just changing what this is pointing to isn't
+1160800	1170280	it nothing else and we are passing that inside this function how would you
+1170280	1173080	approach this one
+1182360	1195120	so I want to call this one as a printage dot my call person 2 and 23 let's say
+1195120	1200040	this should print Amit is years of 23 years old so this is something like my
+1200040	1204400	call function we have to build it but how would you approach this one guys
+1204400	1209760	what we have discussed in last class firstly this should be available on
+1209760	1216480	which library like which part of this my call should be available on what is the
+1216480	1221840	data type of this parentage function isn't it so let's slide down that
+1221840	1229440	syntax step by step okay function dot prototype dot my call once we have this
+1229440	1236640	then there is a function okay inside this function there's something happening
+1236640	1244160	but inside this function on my call what we are taking it they shall just wait
+1244160	1249120	talked about like how call works call wind apply and then we started with a
+1249120	1261560	prototype of call nothing much okay so if you remember if you see it here my
+1261560	1266760	call is actually taking two parameters one is object and the other one is the
+1266760	1272720	edge so let's say we say that this is a context object where we are changing new
+1272720	1285000	context and also we can say that we have a list of arguments okay now what I'll
+1285000	1295960	do here is that firstly I'll check that if context is undefined then I'll say
+1295960	1303080	put context equal to this one a check normal check but later on you have to
+1303080	1315400	you guys have to explain me what this would be pointing out here if you if you
+1315400	1321680	crack this what this is pointing here everything will be clear is it context
+1321680	1326640	that's that's coming out of you know autocomplete but think from a concept
+1326640	1332600	point of view neshara if you remember in last class if you remember in last class
+1332600	1339720	when we covered for each or anything this was pointing to add a right
+1339720	1344960	because we were calling added or for each this was pointing to an array same
+1344960	1347880	way here this should be actually pointing to
+1348040	1358920	function itself right yes are you able to link that point why this like let me
+1358920	1371920	try to console log this here you see when I'm trying to console log this
+1371920	1380080	actually I'm getting a print age function okay now I have this function I
+1380080	1385240	have to call this function in a such a way that I have to change the context of
+1385240	1399680	this one and with value 23 how can I do it how can I make sure that like this is
+1399680	1405600	actually pointing to my current object and you can always you know or try to
+1405600	1415200	open in a new tab this particular box you you will be able to see that this is
+1415200	1421600	a third is a use case like if you see third number this object function what
+1421600	1426320	we are saying I mean this inside an object which is it again there is a
+1426320	1430960	function inside a function so we are returning object itself this is the use
+1430960	1436760	case that we have to replicate it isn't it like there is an object inside that
+1436760	1446080	we have function inside that we are having a disk keyword what I exactly
+1446080	1451800	meant to meant by this is that if you can build something let's say a const
+1451800	1464200	object where you have let's say let's say some function funk pointing this
+1464200	1471360	then also if you remember in the context anyways we have all the things if I
+1471360	1481320	spread context this way do you think the no inside this context anyways
+1481320	1485680	whatever when I try to refer here inside the function I'll be able to get that
+1485680	1493240	values right whatever is needed like this is same way this is same way as
+1493240	1513280	let's say I have OBJ 2 I say name John age 42 let's say print age okay let's
+1513280	1522240	remove this arrow function convert into function okay and console dot log of
+1522280	1533680	this start name is years old even if I do this start age or if I pass an age
+1533680	1548200	here how can I call this I can make a call like OBJ 2 dot print age and pass
+1548200	1556440	on some age this should work right if we are able to replicate this one inside
+1556440	1562480	here the work should be done isn't it because we know that whenever we are
+1562480	1568400	making a call this way it the this is particularly pointing to object itself
+1568400	1574880	and inside that you have this dot name and age available so stocking but this
+1574880	1578680	like you if you can replicate this particular functionality of this third
+1578680	1586960	key your job will be done so how many of you are able to connect this dots there
+1586960	1591280	are people trying you know facing challenge and understanding this one give
+1591280	1604440	me thumbs down okay I see one person who don't understand two people three
+1605560	1618000	just let me see okay so firstly promote Kabir so are you able to recall this
+1618000	1623520	example firstly this this sort of use case that what this will be pointing
+1623520	1634160	here firstly all of you all of you three guys like this example right how we made
+1634160	1638760	sure that you know this object should be this object should be actually
+1638760	1643520	pointing to this if I remove this function outside if I remove this
+1643520	1648800	function outside and I try to say that trying to print this we know this
+1648800	1654440	example that it will be pointing to a global object right if I remove this
+1654440	1660440	function out of it like if I am able to pull this out this will point into global
+1660440	1667640	object isn't it and what I'm saying is that convert this use case convert this
+1667640	1673520	use case into this use case from second to third which will fix our polyfill
+1673520	1681880	okay because because we are already having this function here this and this
+1681880	1687480	is already pointing to window this is already pointing to window now I should
+1687480	1694920	make sure in a way inside this prototype prototype dot my call to build a function
+1694920	1702880	of like this way since I have all the variables needed here because if you
+1702880	1708840	see in the context if you see the context we are passing that object we
+1708840	1714040	have all the information needed like name and everything is available also I
+1714040	1721320	have H and inside of this keyword also I'm having a function so can't I
+1721320	1734240	replicate this use case so I hope approach approach is clear like how we
+1734240	1739840	are actually thinking like how we can build this one let me say that if I say
+1739840	1745760	that let's say I have one more check one more check is that firstly I'll check
+1745760	1762240	like if type of this is not equal to function then I'll return throw error
+1770560	1784800	can be called only on function okay now once I have this now let's say if I'm
+1784800	1791320	actually if you see this this is an object that I'm having right can I do
+1791320	1801480	something like adding a new property I say that object dot let's say function
+1801480	1810160	new function which I want to add what this single sentence has done it what
+1810160	1814640	this particular single sentence has done it this particular single sentence has
+1814720	1824760	changed if you see this use case if I try to remove all of them now if you
+1824760	1828440	remember if you want to add a new property into an object this is the one
+1828440	1834320	way of doing it or else you can always write down context start funk once we
+1834320	1839600	write this I added a new property and this is actually pointing to an object
+1839600	1845600	now inside this context currently what what else what we have we have name can
+1845600	1851080	be any name whatever we pass in the context also I created a funk and here
+1851080	1859320	I have something like print age now when I do this use case once I do this use
+1859320	1866480	case my problem is solved isn't it I can call this function directly guys are
+1866480	1875680	you able to relate this one again I see only one thumbs up if I need few more to
+1875680	1880600	understand whether you are able to follow up or not I'll show you in the
+1880600	1887040	debugging mode once more let's say once I make this I've added a new thing into
+1887040	1894000	this one I have to just call this funk right once I have to call this funk with
+1894000	1897640	all the arguments that I have
+1900120	1908000	I'm just calling this funk and what else you can do you need not to return
+1908000	1911800	anything because this is not returning anything it is just executing with
+1911800	1917200	changing the context now let's say if this is working fine I'll comment this
+1917200	1923840	part I'll remove this part let me show you step by step
+1947200	1970480	so have you guys tried debugging in JS like both browser and VS code have
+1970480	1977520	taught you how to do it right so I hope everyone is doing it now guys if you see
+1977520	1984280	it what just happened here what we have done it just in order to implement my
+1984280	1990520	call as I've told you that firstly this is inside this we have this function
+1990520	1994360	print age is coming because we are calling print age that my call always
+1994360	2000800	this will be pointing to plug-in I don't we don't really need plug-in
+2000800	2004640	muneshwara we can directly do it I'll talk about that but let's focus on this
+2004640	2012960	example again guys that if you see here when I try to print this if I see if I
+2012960	2019800	console log here this you will see this I'm getting print age function because
+2019800	2025800	we are calling print age here once now if I do like context dot now let's see
+2025800	2030200	if I execute this part of line and I move to next line now what happens in
+2030200	2034400	the context as I've told you that earlier that a new key is created inside
+2034400	2040200	the object called funk and print age is applied and this is somehow we converted
+2040200	2051600	into this use case isn't it third line so once we've done this we know that
+2051600	2056640	always in this use case if I call a function like this one like context dot
+2056640	2065320	funk we note that this will be pointing to the context itself you know that is
+2065320	2069160	the reason why we we tell that you know you should revise this or you should
+2069200	2073960	revise all the things so that you'll have a better clarity now I'm passing the
+2073960	2079400	arcs which will actually is similar to the age 23 whatever I'm receiving here
+2079400	2084440	I'm passing that and just executing it now this once we execute it let's see
+2084440	2092200	output now if you see I got Amit is 23 years old because percent two having the
+2092200	2098040	Amit name in it so let me know guys if there is still anyone who don't
+2098040	2101720	understand this one if there is anyone who don't understand this one please let
+2101720	2109440	me know I'll try to repeat it again if this thing is clear can give me
+2109440	2114520	thumbs up once this thing is clear can you give me thumbs up once I see three
+2114520	2122200	people further I have more than 25 people guys can you give me some you
+2122200	2127880	know reactions so that I understand that whether should I move forward or not
+2128880	2139520	okay I see four people okay I hope you are able to follow up I received eight
+2139520	2148200	people routine 50% of not even 50% of class but it's okay I hope but everyone
+2148200	2152480	is able to follow up and able to understand this concept like how we are
+2152480	2157960	building up in a polyfill for call now there is a only small change we know
+2157960	2162320	that if you want to call it for apply let's say if I again on a same function
+2162320	2169040	if I want to call and apply same thing I can do is that I can say a percent or
+2169040	2175440	two and I have to pass arguments in an array isn't it this is the only
+2175680	2186000	difference isn't it in call and apply do you guys remember this right now let's
+2186000	2190080	say that if I want to build a polyfill for this one what will be a small change
+2190080	2194400	that we have to address it what will be a small change we have to address it
+2194400	2204460	here inside this if I let's say if I copy this and let's say I paste it here I say
+2204460	2210740	that my apply what I should be doing it here on this only on the list of
+2210740	2215580	arguments what I have to do it
+2215580	2234860	take array instead of box okay let's say I have an array no once I have an array
+2234860	2242340	again I can I'll have to destructure here right I have to spread it I have to
+2242340	2257900	spread those items isn't it I can say something here is that if type of ARR
+2257900	2270220	is not equal equal to can I say that our array then throw a new array
+2279380	2286940	Kabir for call and apply so I didn't get it like what comments you need it how
+2286940	2293460	this is working because this concepts we have discussed earlier in the class
+2293460	2300780	right that's why I'm not focusing on the concept but on a polyfill more
+2300780	2320460	guys do you want me to okay okay let's say I have a divider here firstly
+2330780	2356420	okay yeah no worries but guys is there anything else like I have to do it
+2356420	2365100	specifically for handling apply from logical point of view because they're
+2365100	2370820	still doing that same thing isn't it on my apply it's just that we are receiving
+2370820	2376740	an array and anyways if I want to execute that item function again I have
+2376740	2388460	to destructure them and pass it on isn't it are you are you able to recall like
+2388460	2399180	how apply used to work let's say I try to show it taking the same set example
+2399620	2409140	I recall person one and instead of this I'll say my apply let's say we re-execute
+2409140	2423540	this one I'll remove debuggers from here okay I got an error
+2423540	2448820	okay person one was a person is not a person one object no okay say what is
+2448860	2478700	a type of it's an object like say clear this again re-executing this one okay
+2478700	2486860	we are still going inside this so let me write this again not equal equal to
+2486860	2514420	object so you cannot actually compare so single string but the other capital O is
+2514420	2527220	a mistake let's play this one re-execute this one okay now guys the only difference
+2527220	2533420	we had with call and apply was like the way the extra arguments are being passed as we
+2533420	2538780	have discussed earlier also in the class that you know doesn't really matter if you use
+2538780	2544900	call and apply today's age because you have destructuring syntax where you can extract
+2544900	2550140	and spread you know spread up you can use the spread operator where you can spread all the
+2550140	2556500	arguments that you are getting in an array isn't it still that same syntax and just whatever you
+2556500	2562740	are receiving here if you see array is having an item with the zero at the index 23 which I'm
+2562740	2568380	spreading it now depending upon how the function is accepting parameters it will be the same if you
+2568380	2573940	want manually you can do it here manually but this is how you should be building it and this
+2573940	2586300	would be working fine for the interviews okay this is this point here what's the basic difference
+2586300	2596020	funda here between my apply and my call the both are same in a way behind the scenes right let
+2596020	2619900	me add a comment here okay then we have pretty much simple implementation again we have bind
+2619900	2629420	if you remember bind also it used to return a function for us isn't it let's say return
+2629420	2637500	function I call this as this one and if I call print my age dot bind and I pass the object and
+2637500	2646500	again it takes any are any way of elements defined let's say I pass again 32 let's see
+2646540	2661340	what we get in return if I try to console dot log return function firstly now if you see I'm
+2661340	2667500	getting a bounded a print age now that bounded print age is like if you try to execute this part
+2667500	2676740	again it will work like a same my call apply where context is changed and you get the way
+2676740	2685100	you want it so you remember this how bind works bind used to return a function after changing the
+2685100	2691180	context and whenever you want to execute this function anywhere you can always execute this
+2691180	2698180	depending upon your use case it's still doing the same part where it's changing the context
+2698180	2711340	of this inside it as do you remember bind I kept asking like do you remember do you remember but
+2711340	2718460	I'm not sure like if you are able to recall those examples like what we have picked it up but these
+2718460	2726340	are pretty straightforward so that's the reason why I'm moving in bit speed again if I have to
+2726340	2733700	build a prototype on this one let's say I call function dot prototype dot my bind and if you
+2733700	2740540	see I have a function against like let's say this is a function and where you receive two things
+2740540	2751260	and context object and least of arguments once you have this one check you can do is this one
+2751260	2760100	if I write down the same logic what is the one thing that I should be doing it here what is the
+2760100	2768820	one difference I should be doing it here can you guys think what is the one common difference that
+2768820	2784340	my bind does it return some function isn't it it returns your function it returns you some function
+2784340	2790980	do you agree with that point it is returning some function and what that function usually do it once
+2790980	2796140	it is returned let's say this you call this function whatever you are returning here once
+2796140	2802380	this function is received when you call this there is something executed inside it there is
+2802380	2808780	something which is executed inside it now the way you can always execute is like again if I try to
+2808780	2822500	rewrite this line here this is it right now if you remember if I call somewhere my bind I'm call
+2822700	2828180	returning a function and if I execute this particular function this one this will be
+2828180	2841460	executed automatically with the least of arguments I what I will do is that guys is that I'll repeat
+2841460	2849220	it again all of this thing so that you remember this okay there's a one tweak you can always do
+2849220	2862780	it but before that let me show you that this works fine so I call it as one if you see I've
+2862780	2869780	got again a bounded vintage still we are getting that same output with our instead of this one
+2869780	2884860	let's say I call my bind I shouldn't be calling on library itself okay got an error okay let's
+2884860	2898500	add it here once you have it you will be able to pass on the information now what is one thing
+2898540	2911260	here we have to address it what do you guys think that why my aux is not being actually declared
+2911260	2925340	but values okay let's say I pass on my aux here I was not reading it properly so it is working
+2925340	2930940	fine but there's a small tweak tweak that you can always do is that let's say you passed on
+2930940	2937500	information this way that's all fine it is returning your function and this function is
+2937500	2944460	actually being returned what if we can pass our parameters to this one also like what if I can
+2944460	2951940	say that I can pass some parameter like let's say random string something like how would you
+2951940	2962140	accept this parameter you can also accept arguments here once this is returned and you
+2962140	2971220	can what you can do is like you can always merge here a list of arguments okay whenever
+2971220	2977500	you are returning let's say if you want to pass like this information let's go to this
+2978020	2987180	I'll also since we are accepting age only here let's say one string something we are
+2987180	2992860	receiving here let's say if I try to console dot log of string you will be able to see that that
+2992860	2998780	is being outputted in all other cases you will get an undefined because we are not passing
+2998780	3006260	something extra if I re-execute this one if you see every place I got undefined because we're
+3006260	3012580	not passing there but here we pass something like random where the extra parameter was
+3012580	3021420	passed inside the return function guys are you able to connect with connect the dots with this
+3021420	3035420	one like what my call my bind how these things are working just want to I don't think that you
+3035420	3040900	got the confidence on this is it isn't it I see only a few people reacting it so just want to
+3040900	3051060	know that we are able to understand this one or not give me honest response guys like did
+3051060	3058700	you understand this concept of poly full of call by apply buying need to revise so let me give you
+3058700	3066740	you know just off it again so on the iPad you know as I've told you that firstly all of these
+3066740	3076340	things were only changing the context of this this might be our sub you know in order to you
+3076340	3084580	know rewrite your own libraries poly fields okay so in that interviews they might ask it but not
+3084580	3089700	in real time like you would be doing it in development purposes mostly because you use
+3089700	3094100	latest process itself as I have introduced when I introduced a poly fields I talked about that
+3094100	3104140	like how would you do it and why would you do it okay but just let me let me share like what's
+3104140	3116500	actually happening if you see we had two objects like person one and name some random string and
+3116500	3132060	person to object of name and we had print age function which was taking age and trying to
+3132060	3140940	print this not name and let's say and age let's say we are printing this one now we know that
+3140940	3153540	whenever we call in a node.js non-strict environment in a simple function this points to global object
+3153540	3162980	so if I pass on something let's say for pass on I call directly person let's say if I call
+3162980	3178820	print age passing 23 it will give me undefined and 23 right so this was something that we already
+3178820	3187500	know that how this would work right now what was our role was that hey this undefined shouldn't
+3187500	3194900	be actually undefined this is something should be all anyways is with this object so what I've told
+3194900	3200900	is that for the all the functions right all the functions prototype I'll build some method like
+3200900	3208500	my call and that my method call will take two parameters one is this object itself called
+3208500	3223540	person one and age now the call would become actually my call dot person one and 23 but once
+3223540	3232380	I have this what I was actually doing here is that if you see this object right whenever person
+3232380	3239860	one object this person one is having what I was doing is that person one dot new function and
+3239860	3247220	that function I was attaching to this because if you remember I call always my call on this
+3247220	3257100	print age function itself the call was actually print age dot my call and I was doing it this
+3257100	3265020	when I do this this will be actually available in this function so after doing this what happened
+3265020	3273700	here inside this object a new func key was added and we had the whole function available inside it
+3273700	3282500	now once that was available the next step was only calling this function person one dot func we know
+3282500	3289500	that in order to call from object you can always call this way and I can pass age this was my call
+3289500	3299900	isn't it I've just changed how you remember how how the this is actually pointing to when I
+3299900	3306620	converted it this way you always know that if I write down this inside this one and this name
+3306620	3311860	is available here so this dot name will always return me the name instead of anything else
+3313380	3333380	instead of global object right this I see only one reaction but did you get that context did
+3333380	3337860	you understood like how the concept how we are changing it just like if you you can always go
+3337860	3344340	to that image that we have applied because this poly fields right for call by and apply
+3344340	3349100	test your knowledge like how this is working and how would you convert from one format to the other
+3349100	3354900	format here just we are converting from yeah today's class is challenging because this again
+3354900	3361180	I'm asking you to recall the other concept and how would you convert from the you know objects
+3361180	3367300	like how that pointing to this is changing that's the reason why we took whole one class spending
+3367300	3377060	time on this one understanding yeah but do one thing I would request everyone after the class
+3377060	3384100	right put the debuggers on try to convert it what I'll do it is that I'll have add some comments
+3384100	3393580	on this so that you guys remember it now here let's say till this point I'll add comments for
+3394140	3404860	one part context object is actually having one thing name John okay and this is actually
+3404860	3416980	available function print age so what I did I created for context equal to name John and funk
+3416980	3427500	print age okay I have created object this way how did I was able to do this like I call I just
+3427500	3435380	said that this line when I say this line this was actually done okay let me write down the top now
+3435380	3442660	we know that in an example whenever you try to get at this inside out of this context like when
+3442660	3452020	I call this way context dot funk execute it whatever I pass here age or anything but this
+3452020	3460100	name is available here so this dot name is always working so there's only one example which we tweak
+3460100	3474700	something to build all of this because all of them were seen okay guys one final reactions
+3474700	3481060	guys so that we can move ahead because there are too many bounces coming up now you have to face
+3481060	3500300	too many things today okay now I'll build an file called example.js just example.js file nothing
+3500300	3508100	else here let's say I have a few list of questions I want you to expect or answer me what could be
+3508100	3519660	the output of this one okay let's say if I try to do console dot of X okay what could be the output
+3519660	3534660	here if I just do this console dot of X directly what can be the output rethink it okay Arun and
+3534660	3543060	Ashish says that undefined Kabir says that X anyone else having any other Ashish again says
+3543060	3557940	X changes answer Muneshwara says X okay undeclared so what was undeclared Dheeraj what used to say
+3557940	3583140	that we had two keywords undefined and not defined what should be the output here so rethink it guys
+3583140	3589380	you know like what should be the like what do you think like whether it should be X are not
+3589380	3597860	defined or undefined actually testing your whole knowledge right refining whole things that we have
+3597860	3603940	learned to throughout chase so how many of you think it should be if you think undefined give
+3603940	3615940	me thumbs up if you think it's not defined give me thumbs down I see save seven people eight all
+3615940	3622900	people are saying not defined okay great so firstly I want to put one thing is that it doesn't print
+3622900	3629860	X because X is not a string here if I added a string format it would have printed X that point
+3629860	3635460	is clear it wouldn't print X the reason is that it is not a string it is a value it is trying to
+3635460	3642420	refer to something it's a variable value and this variable X is not defined isn't it let's to show
+3642420	3649060	you guys what I will do is that after every question I'll try to print it here in the console
+3649060	3658420	let's say I refresh it I try to print it you see that X is not defined is an error I hope everyone
+3658420	3664820	got it right and confident about this one so sometimes in interviews they might trick you
+3664820	3677780	this way now let's say second question is I have Y equal to one console dot of Y I say that where Y
+3677780	3690900	just think of this context what could be the answer here Dheeraj says one
+3690900	3701900	and if you think one why would you think it should be one what is the reason behind it
+3702780	3706060	muneshwara says not defined hoisting
+3715180	3723340	okay where key hoisting global so if how many of you think that if it is a one give me thumbs
+3723340	3725900	up guys if you think there is some other thing give me thumbs down
+3726700	3749660	okay I have three people who say it's not one okay just a second muneshwara pradeep shashank says not
+3749660	3759420	one hoisting concept so how many of you remember execution context and hoisting concept guys
+3763420	3769260	now what usually happen with hoisting what usually happen with the hoisting what generally it says
+3769260	3777420	that all the variables yeah let and const are in temporal zone dead zone but all the variables
+3777420	3783980	which are with var and functions are generally hoisted or declared but not initialized right
+3786620	3793180	all the variables in the file all the variables and functions are declared okay but not
+3794300	3801100	initialized here when I when I try to load a file when I try to load the file
+3801740	3808780	var y is there it will skim through it it will it will create or declare this variable y right
+3808780	3814860	on through the top this will be actually converted at real time let's say if I write down at real
+3814860	3825660	time this will be converted as like var y then y equal to one then console dot log of y this
+3825660	3830540	will be converted into reverse order do you guys agree with this my point
+3831420	3834380	how this will be actually done in behind the scenes
+3837660	3842620	okay let's see this let's see this output uh okay
+3845740	3849020	if I try to print it now do you see this one is coming out
+3849900	3854620	okay I hope you are able to follow up why this thing has actually happened in question two
+3855980	3862620	and then I'll put up another question let's say I try to console dot log
+3863980	3874380	or let's say z and let's say I give var z equal to one what should be the value of this one
+3879420	3882380	uh
+3890140	3897100	theory says undefined uh kabir uh kabir what's your question it's one okay uh promote says one
+3899500	3900700	muneshwara says one
+3900700	3902060	um
+3904940	3909660	so if you if you guys think answer should be one can you give me thumbs up and if you think
+3909660	3912060	undefined can you give me thumbs down
+3917420	3918860	rajnees is not defined
+3922060	3929820	okay uh so there's a complete split but let me ask you one question difference between
+3929820	3932940	declaration and initialization
+3935340	3940860	people whoever gave me one I just want to ask the difference between declaration and initialization
+3944460	3952300	how behind the scenes in hosting used to work is that if you remember whenever this logic is done
+3952300	3958540	you will be initializing where's that then you still have console dot log z
+3959580	3966300	okay then you have z equal to one this was converted into this way and at this point
+3967180	3975500	z is undefined we know that first time when the things are wasted it holds a value of undefined
+3975500	3986060	okay right so people who have gave me uh for one right do you understand this
+3988140	3992220	kabir muneshwara pramod why did one is wrong here
+3995820	4003980	let me show you here executing in the browser again let me copy this I clean it up I paste it
+4003980	4015500	here okay do you see this undefined coming out okay so firstly when I say this step is called
+4015500	4026860	declaration I declared a variable called z but I didn't put a value called one in it yet
+4026940	4034380	when I'm hosting the value the declaration happens value is not assigned the default
+4034380	4036700	value which is assigned is undefined for the variables
+4039340	4045020	okay so when I'm trying to print it here I'll get an undefined because at the line number 19
+4045020	4052380	actual value is being supplied okay so this will output in undefined
+4053180	4057740	are these three questions clear clear guys what is why behind the scenes and what the things are
+4057740	4063340	going on for these three questions is there anyone who is having any doubts in this
+4064300	4079740	okay now let's say if I go with a question for
+4082700	4084380	let's say I have a equal to one
+4084380	4089180	one then if I try to do console log a
+4091420	4099180	I I do something let a this one what do you think output should be now
+4099420	4103980	so
+4114060	4121980	okay mixed answers undefined error one
+4121980	4122780	okay
+4129020	4132540	firstly is this line valid
+4138460	4139660	is this line valid
+4142940	4144700	okay no
+4144700	4153100	okay let's let's check this like actually firstly because in the let first we have to declare then
+4153100	4160380	initialize what was your answer you said error right now right
+4163500	4171580	how let and const used to work there is a basic difference between where let and const when it
+4171580	4179020	comes to hoisting concept because let and const actually fixed hoisting issues isn't it
+4181820	4188140	now let me show you the output firstly what it would be there you clean it up
+4189420	4194300	I throw it you see cannot access a before initialization it says
+4194300	4206060	this when I'm trying to console log we say that a is not initialized if I convert this itself if
+4206060	4217020	I convert this into where this is fixed okay because this memory is loaded already if I clean
+4217020	4225100	it up reload the browser if I give it up here I'll be able to print it but if I try to
+4226460	4233260	just change from where to let there is a change in hoisting concept there is something like
+4233260	4239020	temporal dead zone in temporal dead zone this doesn't really you know hoisted to the global
+4239020	4246140	space they are actually hoisted to their local space in that use cases it is it works as expected
+4246140	4252780	guys read as it is when it comes to let and const okay you have to declare it then initialize
+4252780	4258140	it when it comes to let and const because we are fixing that random behavior which is happening
+4259340	4265340	is this point here like why we are getting here error because we haven't first we have to declare
+4265340	4273820	then initialize then go on okay that's a basic difference that has happened I'll put it as an
+4273820	4278780	error here let's say I have another question five
+4283420	4295180	now simple thing console dot log b let's say I have let b equal to one now what do you think
+4295180	4308860	I've just I've just told you that when it comes to let and const read as it as it is through
+4311580	4313020	read as it as it is
+4315580	4323020	like is it be accessible first guys is it be accessible first does b exist
+4325580	4331180	right if if it would have been here below that would be good that's the reason why I'm saying
+4331180	4337660	that hey consider it there's a temporal dead zone but that's a theory concept but what I'm saying
+4337660	4344220	is that when you use let and const go through go through a process of read it as it is like
+4344220	4349660	the first line if only if b is declared on the top then it will come but if when you are using
+4349660	4354220	let and const it should like you should line by line like you should go from top to bottom
+4355260	4360860	okay read it as it is that will help you to understand better like how would you actually
+4360860	4367260	deal around with the let and const okay now if I considered that thing this should be also return
+4367260	4376460	me an error right there is no b b is not defined itself when I'm trying to initialize here call it
+4377580	4384220	right let's see this if this if it if it returns the same thing like cannot access a before
+4384220	4385020	initialization
+4390780	4392700	you see b is not defined it says
+4396780	4402540	because this is coming after it is this clear guys how this is working
+4405500	4411580	okay for this whenever you see let and const for me the symbol use case is that
+4412380	4417340	I try to understand like what is our top line by line I try to understand the code and
+4417340	4423100	fix it up only the problem comes with a var that's the reason we avoided var to write it down
+4424140	4431980	everywhere that you see okay now one simple use case console dot log of c
+4434140	4436300	now where c equal to one
+4436300	4437020	one
+4441020	4445020	what do you think
+4460460	4461020	interesting
+4461660	4469820	uh one thing again if I want to declare a variable in js how can I do it if I want to declare a
+4469820	4479900	variable in js what is the syntax that I can use I have three things var let and const
+4480780	4483100	let and const
+4485260	4491740	isn't it am I using it here if I don't use this thing do you think the hosting works
+4492620	4496780	hosting works with respect to type of variable isn't it
+4499340	4507020	depends upon type of variable now even if I if you remember that we this used to work
+4507900	4514460	like like this will work only in the use case where you like this is a simple use case right
+4514460	4520620	what we have done is that I had declared it one but I have created a variable which will
+4520620	4526220	be hoisted and then it will work but here I haven't created that variable itself I'm trying to
+4526220	4532940	put it log for it okay this should also be returning a some error
+4535660	4543580	you see c is not defined but if I try to console log again if I try to console log c again
+4546700	4548620	it still says not defined let's say
+4548620	4556220	let's say we say that
+4559580	4566140	c equal to one and console dot log of c
+4570140	4576540	this is working this way in a reverse because once a way when anything is declared that was like
+4577100	4581740	I've told you that in non-stick environment this was supported but in strict environment this will
+4581740	4588460	also break earlier we have seen this example where this was actually working reason behind
+4588460	4593260	first when this is parsed when this actually values initialize this was considered as a variable
+4593820	4600140	and the var keyword was added automatically and then we were able to access it but when
+4600140	4604780	there is no var keyword hosting doesn't really happen for this one that's why we were getting
+4604780	4610940	error for this use case and the way even if I write this this is working this wouldn't
+4610940	4613900	work in a strict environment is this clear
+4622940	4629180	yeah if we are not declaring a variable type by default it will take it as a var keyword
+4629740	4636460	and post that you can use it but in strict environments when you use like
+4636460	4641820	browser strict or node.js strict level environments it will throw you an error
+4645100	4649820	okay I've enough if you use like this is a non-strict environment we haven't mentioned
+4649820	4655580	anywhere use strict or anything so that's why it is working even if I re-declare c equal to one and
+4655580	4662940	console log c but that doesn't really work it shouldn't be used that way okay
+4665420	4673260	now just want to recheck guys this six questions I've covered let's say one one final question
+4675740	4683740	before we take a break console.log of sum if I do this what do you think output should be
+4685580	4687740	okay
+4691740	4692620	not defined right
+4695180	4697740	sum is not defined let's recheck this one
+4701660	4710060	sum is not defined okay so I try to cover all the use cases which again covers up your hosting
+4710060	4718300	concept and you know the topics that you have to revise it basic topics so hope the this seven
+4718300	4724060	questions keeps you better understanding about things once we'll take a break for five minutes
+4724060	4730540	we'll come back we'll have like I have still further 10 questions which will actually cover
+4730540	4735900	one more concept that I actually want to introduce it I'll talk about that but we'll learn through
+4735900	4742620	this examples itself building one by one okay really interesting topic guys come back in five
+4742620	4747980	minutes where you will try to refresh your knowledge on this and we'll move ahead so five
+4747980	4753180	minutes is fine right or else can I continue it depends on your thing like if you want a break
+4753180	4758700	we can take a break or else if you want me to continue I can continue give me thumbs up for break
+4758700	4761900	guys
+4762540	4772620	okay let's take five minutes of break I'll start a five minutes timer we'll meet back in five minutes
+4788700	4789500	you
+4818700	4819500	you
+4848700	4849500	you
+4878700	4879500	you
+4908700	4909500	you
+4938700	4939500	you
+4968700	4969500	you
+4998700	4999500	you
+5028700	5029500	you
+5058700	5060700	you
+5074700	5076700	uh guys is everyone back again
+5076700	5078700	uh
+5081900	5086220	okay uh give me thumbs up guys give me thumbs up if you are back
+5086220	5089820	see it only one a few more would be really helpful
+5093900	5101740	okay great so it was like going back to the question number seven
+5102700	5113180	uh as it was not defined what if what if I add where sum here and I declare a function
+5114460	5118060	a comma b and I try to return
+5121420	5122140	a plus b
+5125020	5125740	what it should be
+5132140	5136380	does the answer need to change or answer will be still same
+5145020	5150780	guys I'm waiting for your comment error might be now you need not to be might be use case
+5150780	5160460	have enough so let's clear it up firstly uh is it a variable is it a variable which is storing
+5160460	5161420	a function in it
+5165340	5169260	let's just think in that perspective is it a variable which is showing a function in it
+5173420	5181980	now oh first thing did I if I declare function this way then you can say that this was a function
+5182940	5190780	but I declared a variable called sum isn't it so whenever I use where keyword and I declare
+5190780	5197820	something it is mostly consider that where is always hoisted so we are talking about type of
+5197820	5205020	data types right dive where is always hosted now even if you have function in it this where some
+5205020	5210380	will be hoisted so it should be converting from not defined to undefined isn't it
+5211980	5219900	going back from that concept wherever you see this keyword this culprit which will this will
+5219900	5226380	work like in a hoisting concept and this will declare that where some it may not create that
+5226380	5234780	function in it but it will declare it and that will be storing so this person actually irritated
+5234780	5238780	many js developers so that's why we killed it we introduced let and const
+5243020	5252540	okay but do you understand why this is undefined guys again let me try to re-show you this one
+5252540	5266300	see this is coming as undefined that's that's what happens that's what happens when you build
+5266300	5274380	a coding language in 10 days okay now there's another question a question related to this
+5274380	5281980	concept itself let's say I have a console dot log I try to print total now
+5284220	5288700	but see that how I'm talking how I'm introducing total now
+5294780	5299660	still I'm returning that function itself so what do you think the output should be here
+5299660	5311820	firstly think from hoisting concept itself whether the const total should be hoisted in global space
+5316460	5323180	it shouldn't right it should not be like whenever I say that let and const go go as per reading I
+5323180	5328940	said that hey console log total I am seeing anywhere total no it's below it's there below
+5328940	5336300	but the variable is not var so it's a const I'll be getting something output here it will be
+5336300	5344140	resulting in some error and that error is like you cannot use it before like total is not defined
+5344140	5351340	or it doesn't exist you see that total is not defined
+5352220	5359260	did you understand difference where a var really irritates people like in old age that's the reason
+5359260	5364540	why people say that javascript is a headache that was headache was solved because this was a pill
+5364540	5367260	which was solving our problem
+5370780	5375260	guys did you understand this example difference between these two both seven and eight
+5375660	5379980	seven and eight can we move it to next question
+5383740	5390700	so question number nine let's see how many of you can answer this one this is interesting thing
+5391820	5398460	let's say I try to console log and I say that some one of two comma three
+5398940	5408140	and I have function some one and I return it a plus b what should be my output
+5412220	5417580	whenever I declared about hoisting or talked about hoisting I talked about like two things get
+5417580	5426220	hoisted variables and functions so once function is hoisted right I'll be able to access it I'll
+5427180	5434060	be able to execute it isn't it so how if you if you guys think five give me thumbs up if you
+5434060	5437900	if you guys think other the other way around give me thumbs down
+5441420	5449260	right great guys I got once first time I got all people aligned with one answer
+5450060	5457100	happy for that yeah it is five okay now let's take about some other example
+5459580	5460460	question 10
+5466860	5475660	okay let's have function called example one which is doesn't have anything in it
+5476220	5482540	but I have one if condition which is all the ways true and when it is always all the ways true
+5482540	5495020	I have var aa equal to one and let b be equal to two okay after that I'm trying to access them
+5496460	5497100	both the things
+5498060	5503260	now there is a one concept behind the scenes for this one but I just want to know like
+5503260	5506140	how many of you think what should be the output for this one
+5514380	5516700	one and undefined okay
+5517100	5519100	one and undefined okay
+5522060	5527900	one and not defined so I've received two answers how many of you if you guys agree
+5527900	5531820	with Dheeraj answer give me thumbs up if you agree with Ashish answer give me thumb strong guys
+5537740	5540380	guys please try to answer this one
+5547660	5552860	okay one and one four people if your people are not able to think let me
+5552860	5559820	know if you're not able to think anything okay we just executed the function then but
+5562380	5568540	just want to know Ashish what's the reason behind you let's see let me show you first output
+5569260	5571420	what generally happens when I execute this one
+5571420	5579900	one if you see I got one and b is not defined so Ashish answer is right
+5580620	5585260	Dheeraj you got it wrong here we'll explore the reason for that but Ashish do you know reason
+5587340	5590860	or the person who's what what you can how
+5590860	5595260	how can you say that it won't be available or not defined why do you think it that way
+5602300	5612860	okay right so yeah firstly there's a one concept called let and const variables
+5616940	5618540	are block scoped
+5622700	5626780	have you heard this one have you heard the statement anytime
+5626780	5637740	okay block scope now when to when we go for block when we go for block like if you if you cannot
+5639100	5641020	if you cannot write
+5641820	5657260	like logic in one line you go for block right if I say so example if let's say if I have this way
+5657340	5666220	let's say if I have this way if true I can say where a equal to
+5669420	5675100	one if there is only one thing I can write down this way but when I have multiple statements
+5676620	5680300	when I have multiple statements I'm always opening two braces
+5681100	5689100	whenever I'm opening a two braces whatever I write logic in it in between here whatever magic
+5689100	5708620	happens here whatever magic happens here stays here with respect to let and const variables
+5710300	5728620	whereas still where variables are hoisted in global space
+5733420	5735260	is this clear guys this statement
+5735820	5743100	like where and let are always block scope if there is a if you if you try to console log here
+5743100	5750460	if you try to console log here you will be able to access bb but if you come out of this block
+5751580	5756300	these two braces then you won't be able to access anything this and const which are coming inside
+5757260	5757820	this block
+5760300	5760620	okay
+5763980	5769980	I hope this logic is clear why the output one and not defined is coming up
+5769980	5773100	if there is anyone who didn't understand yet let me know
+5778140	5782300	guys if you understood can you give me a thumbs up if you understand what is block scope and how
+5782300	5787020	does it work for let and const whereas var is always hoisted it will come into the global
+5787020	5790140	space and pollute it okay
+5793820	5798300	so one strict suggestion would you ever use it a wire keyword in your project
+5801420	5806380	it's just for learning guys it's just for learning js but never ever go to go to that keyword
+5807260	5813820	never ever use that keyword where it's it's really bad if you use it in today's date okay
+5816940	5824620	we are trying to understand how yeah like it created too many problems initially when I started
+5825180	5830780	understanding out of college the repository I was working on was really 780 years old
+5830860	5836620	and that happened five years back if you can imagine two years old code of js
+5838540	5845660	first one month was like I literally had nightmare understanding concept literally
+5845660	5854940	nightmares like var was such a I can say I mean it gives you goosebumps sometimes it behaves in
+5854940	5859180	some way sometimes in different ways when you don't really understand js it's really difficult
+5860140	5860380	okay
+5863100	5870460	I revised this concept so that you will be able to figure it out yeah Ashish I completely like
+5870460	5876540	because even I had that because I seen production bugs issues right how should we address them
+5878780	5886300	now let's say I have var cc I created a variable called variable cc20 now let's
+5886300	5895020	say I have a function example and inside this function I'm doing something is that true
+5896300	5908540	and cc equal to one and not only this I'm creating it again and I'm trying to do console.log
+5910940	5912700	cc also
+5912700	5917100	so I'm calling an example
+5919420	5924940	this one executed also I'm trying to do console.log cc
+5927180	5934940	so I need output for this one a and output for b from here on game will be interesting guys
+5935660	5937660	so people say sir one and one
+5940060	5942060	okay
+5953260	5960060	one and 20s guys if you think it's one and 20 give me thumbs up if you think one and one give me thumbs down
+5965500	5973580	okay I've seen one and 20 people are four one and one are one but
+5977420	5981420	let's let's see the exit let's see the output for this one I'll copy and I'll
+5982140	5991260	give it to you show it to you like how this thing works okay and if you see I got an output of one
+5991260	5997340	and 21st got an output of one and 21st but what I'll do it here is that what I'll do it here
+5998540	6004300	in order to explain people who have got wrong right let me go to terminal
+6007340	6014700	what just happened here let's see this one okay clear I'll put a debugger here
+6015260	6019980	here here and even before the line starts
+6026940	6029500	let's say I make it an example.js
+6031740	6039900	okay I have to comment few things because all the not defines will result in error
+6045660	6051740	okay I hope all things are clear but let's check this
+6055180	6058540	okay where a equal to one where it is a equal to one
+6063980	6068300	like if I try to execute this one a comment
+6068300	6082620	and still have too many other let it be what I'll do is that in order to explain this
+6082620	6094940	let's say firstly I'll write down answer here one and 20 so let me build
+6097580	6099420	example one dot js
+6103100	6104460	so that I can show you guys
+6105100	6113740	let's say I have this example and I paste it here I have a debugger here itself
+6118940	6121740	let's see what's happening here clearing it
+6122540	6131820	and I try to execute this particular file okay now debugger is attached just see that
+6134460	6146300	yeah use pad I didn't get your okay ipad okay just wanted to show real time so that I'm using
+6146300	6152380	a debugging which is much better so the reason I'm doing this one is that even before the first
+6152380	6158940	line of statement is executed let's see what things all are available here inside this globe this object
+6158940	6168220	if you see inside this global object now let's say if I go to check this one firstly an example function
+6171100	6174220	okay this is not coming inside this one but
+6174860	6176700	let me see where this is loaded
+6184780	6187100	okay this is not coming inside this one but
+6191340	6193260	this is working in node js part
+6193260	6200780	let me see where this is loaded
+6206620	6208700	this is file path and example
+6214380	6218300	okay this is local scope whereas if I go for global scope
+6223820	6226860	let's see this in browser itself guys that will be better easy
+6229900	6232300	I'll create a index dot html
+6235260	6240460	uh html5 let's say rdev
+6243180	6243820	debugging
+6246220	6247420	so I have a script
+6247420	6252700	src
+6255980	6257900	okay launch it
+6267660	6272380	okay uh just a second we'll verify it here Kabir
+6278300	6286220	if I go into sources I open this one I put a debugger here itself now once I refresh this one
+6286220	6293660	now let's see what's actually happening here okay inside the global whenever this is done if you see
+6293660	6302140	the cc is actually initialized as for the hoisting concept with undefined key also you will have an
+6302220	6307340	example function which is present okay these two points are clear isn't it
+6308540	6312860	now after that the next execution line would be eight right
+6315020	6317740	do you guys agree the next execution line will be eight
+6320540	6327260	now let's say if I go into eight what happens here now when this eight example is actually
+6327260	6335580	executed it goes inside this if condition okay let's see if it goes inside this if condition
+6335580	6342380	it is whenever I create a new variable it is created inside its particular scope
+6343820	6351100	this particular scope is this clear firstly this variable got created
+6351100	6358540	not inside the global scope it created inside the local scope inside this if you see it also has
+6358540	6365500	a window object coming along with it now this window object also has cc but we are not using
+6365500	6375740	that parent one we are using its custom inside its scope is this clear like why the we are not
+6375740	6381180	updating the outer one which is why because the reason outer one still be 20 we have redeclared
+6381180	6387340	that one a new one in its local scope I hope now what is this is called here
+6389100	6396220	what is this is called here for this condition for all this for this example itself
+6397500	6404300	what this is called here this is something called is called as lexical environment have you heard
+6404300	6414140	this keyword lexical environment okay so lexical environment let's open this
+6416060	6419020	lexical environment in javascript
+6425020	6426460	let me open any medium
+6426460	6432540	if you see
+6435100	6439100	what it is saying lexical environment in the javascript is a data structure
+6442060	6448380	yeah if what it is talking about that stores the variable and function that are defined in the
+6448380	6456220	current scope and all of the outer scopes okay it is also known as lexical scope now whenever we say
+6456220	6464860	that lexical scope what is exactly meant is that this current cc plus parent scope now the parent
+6464860	6474540	scope for this one this particular function is a global scope isn't it so the lexical environment
+6474540	6480540	whenever we say that lexical environment the current local scope plus it's all parent scopes
+6480540	6487900	combined together is called a lexical environment that is what a lexical scope is called as
+6487900	6494220	is it this point here just one definition that the current scope and all the outer scopes combined
+6494860	6501820	is called as a lexical environment because if you see it here the example what they gave okay
+6503420	6509980	global execution context is having a var a equal to one and execution context one when
+6510060	6515900	when they're executing function one they have var a equal to two okay now
+6517740	6523260	if i have this further example i can show but i'll give you four more example better examples
+6523260	6529100	to understand this one but the basic definition is this one itself is the current scope plus all
+6529100	6537260	the outer scopes combined together is called as a lexical environment okay if i have other definitions
+6540380	6546220	if you see uh this definition also lexical environment in a javascript is simple object
+6546220	6552220	consisting of two parts a reference to the outer environment and the environment record the current
+6552220	6557020	environment record the current environment record is always present in local scope and this is
+6557020	6561260	pointing to an outer environment is it clear this point is clear
+6563500	6568540	one final thumbs up guys like if this point is clear that you got understanding of what lexical
+6568540	6575340	environment is okay and why the 1920 output is coming because this is not being changed which
+6575340	6580060	is in global environment a local scope is created inside that only the value is updated
+6581020	6589500	okay now if this point is clear let's go back to the questions uh question number 12
+6599180	6605100	this is another interesting questions from now on we'll see how many of you can think of this one
+6605100	6614700	let's say where dd i have 20 initialized here and let's have a function called example two
+6616060	6626380	and inside this example two what i'll do is that i'll say that if true dd equal to one
+6626700	6635660	also i'll do something like console dot log dd let's say this is one and i execute this example
+6635660	6645420	two and also i console dot log dd which is p here so what should be output guys for this use case
+6645500	6646460	for this use case
+6652460	6658940	everyone says one and one is there any other answer guys like if you think uh it should be
+6658940	6666540	one and twenty muneshwara says one and twenty uh one final check if you believe one and one
+6666540	6669900	give me thumbs up if you think one and 20s are right answer give me thumbs down
+6669900	6676060	okay i see two people three people three versus three
+6680060	6683020	okay now
+6685100	6690700	uh let's say what what would be answer let's say debug and see it directly i
+6694380	6698220	it should be both one and one actually why it should be one and one firstly i'll talk about
+6698220	6705500	that before that i'll execute it here and word to you you see one and one the reason why it is
+6705500	6715340	one and one i'll talk about that okay re-executing this okay first line number dd is initialized
+6715340	6720860	in global scope you'll have dd but if i go to line number eight where i'm executing function two
+6721500	6727900	if i see in the global scope i'll have dd 20 initialized but once i go into a separate
+6727900	6733580	execution context when separate execution context is created uh from execution if you
+6733580	6741420	remember execution context we made uh we create a new scope the local scope is there here in the
+6741420	6748380	local scope if you see i'm having this here here i'm not recreating value here but i'm having a
+6748380	6753420	attachment reference like when you say that lexical environment the lexical environment
+6753420	6760460	is current environment plus its parent environment uh here you have dd you are you are making an
+6760460	6769020	update to this dd let's say if i go to this line you update a dd now inside this if you see you
+6769020	6774380	made a dd updated one now this one is actually pointing to which one is it to global scope itself
+6774460	6780060	like dd one inside the global is also in each updated is this point clear how that
+6780780	6788940	one is actually updating the global scope logic so here when we refer again to refer this dd we
+6788940	6797260	have still global scope itself which is a lexical scope it prints one then again here it's still
+6797260	6803340	we are having one so is this clear guys why one and one people who gave me thumbs down for one
+6803340	6816860	and twenty muneshwara pramod abhinav okay i got two thumb two thumbs up uh abhinav
+6819020	6820060	did you got this point
+6823660	6829180	okay cool now once this is clear let's go for another example
+6833500	6841260	uh i'm not able to scroll system hanged or what okay i'll remove the debuggers
+6849260	6856380	let's say i go for 13 example in this example number 13 let's say i
+6856380	6861180	make something i build some function let's say i have a function called parent
+6864220	6871500	let's say i also have a declared a variable called a equal to 20 then also think like i
+6871500	6880860	have a child function in it what i'm trying to do is i'm trying to do a console dot log here of a
+6883740	6887420	and i execute child here
+6887420	6892220	here plus i execute parent outside here
+6894300	6901420	okay so what do you think the output should be here for this a
+6907500	6908780	what will a point do
+6909740	6916140	uh 20 guys do you agree with 20
+6923740	6931340	uh no one is acting anything no one is saying anything uh abhinav says no dira says 20
+6931340	6937580	muneshwara says 20 so abhinav what what you're you're saying undefined right okay uh
+6938780	6946780	rajini is saying 20 so firstly uh let's say what uh can you say lexical environment lexical
+6946780	6956940	scope for this one what could be lexical scope for this one current scope plus parent scope
+6957180	6961100	so
+6964220	6967100	it reaches global scope
+6971180	6971600	okay
+6975980	6977900	let's i cut this from here
+6977900	6980060	here
+6982300	6985260	i cut it i paste it here
+6991740	6998620	i hope you got the point like what is lexical scope here if you see
+6999660	7005900	in my current scope do i have a in my current scope do i have a when i'm executing this child
+7008860	7015820	do i have in my current scope does value a is available variable a is available no but when i
+7015820	7024220	go and see it in my parent does a is available in my parent does a is available so i'll be should be
+7024220	7031740	able to print 20 here isn't it once it is available it shouldn't be undefined or not defined anything
+7031740	7037660	anything right let's see this let's see this if we are getting this output
+7041900	7046780	if you see i'm getting a 20 output uh do i need to debug and show is show this guys because
+7046780	7051180	this is pretty straightforward example isn't it just now we understood lexical scope using
+7051180	7058780	two examples i hope abhinav you your doubt is also resolved did you get this point
+7062540	7067580	okay great now then there is another interesting question guys
+7069580	7074860	question number 14 from now on it would be much trickier i would give enough time
+7074860	7082700	for you to think of it okay so just understand complete question guys before you know answering
+7083500	7084300	anything
+7087260	7094860	let's say i have a parent i have a var so wherever you see a var you have to think
+7094860	7100780	slowly okay if later in const it's pretty straightforward i have child
+7102860	7111100	inside child i'll try to console dot log a again i have function child two inside it
+7112060	7120620	inside child two i console dot log a okay now here i try to call
+7124620	7128540	let's say i don't call child to here but i call child to here
+7133340	7139900	and i try to execute parent one what do you think my output should be
+7141420	7142140	for this one
+7144780	7154620	a and this one b ashi says error how many of you think it should be returning an error
+7160140	7163900	abhinav says here any reason guys why do you say that it should be an error
+7171100	7178380	okay muneeshwara says 20 and not defined
+7180620	7188140	because we call child to after child right so firstly this should be resulting an error guys
+7188140	7195500	if you think why is that i don't if i collapse this one i don't have child to execute anywhere
+7195500	7202540	here first in the scope okay parent is available by default to the child but child elements are
+7202540	7210300	not available to parent it's a children child child who is inside a child if we execute child
+7210300	7216620	here then we might get some output but other cases i should be getting an error is this clear
+7217740	7223020	why this should be actually coming out returning an error let's see if this is happening it
+7225980	7232300	if you see child two is not defined but if i convert this into child one
+7233340	7238140	if i convert this into child let's say what should be my output
+7245100	7248620	what should be my output still only 20
+7248620	7255980	okay do you think b should be printing or b shouldn't be throwing an error itself
+7259260	7265180	we are not even executing this function guys so b won't be outputting anything isn't it only 20
+7267020	7270540	i hope that is making sense because we are not executing this part
+7271500	7277420	only if i call this one then the both the outputs will be 20 and 20
+7279580	7282380	isn't it when i execute all the things it will go for the pair
+7283020	7287660	its whole lexical scope in the lexical scope the value of a is equal into 20
+7287660	7294060	and then i'll be able to print 20 and 20 okay with one example i try to replicate three scenarios
+7295580	7298220	because here comes a new question
+7302220	7305420	okay let's say
+7305420	7312060	a function i call it as parent two
+7314300	7318780	inside this parent function i have again where a equal to 20
+7321260	7327420	inside this function where let's say i have a child inside this channel i'll try to console.log
+7327420	7339260	a after console.logging a i'll try to build a child to inside this child too i'll try to console.log
+7343500	7357340	a okay but but when i'm trying to console.log child to here i initialized where a equal
+7357420	7374620	to 10 and i call child to then i executed child here and i called parent to here
+7377980	7382300	what do you think output should be for a and b
+7388300	7390300	ashish says 10 and 20
+7396140	7399180	20 and 10 corrected yourself very fast
+7403740	7411660	guys take your time i need few of answers zeerat says 10 and 10 yeah ashish take your time take
+7411660	7414380	your time muneshwara says 20 and 10
+7420380	7426380	if you go from lexical scoping point of you right like think one function is created then
+7426380	7431100	there is a another execution context created it has a own scope and its parent scope
+7431900	7436700	divide it that way if a value is available in current scope it don't it won't even reach out
+7436700	7442380	to the parent scope only if not available then it will go up
+7452620	7459100	frankly frankly if i would say i didn't receive a right answer yet
+7459100	7461500	anyone no one has given me right answer
+7466220	7470700	no one has given me right answer all the combinations were wrong just think of it
+7470700	7477980	guys where things are going to just imagine from execution context point of view hoisting point
+7477980	7483420	of view because here i have told you that there is a one person sitting that person is like you
+7483420	7488460	know the var keyword really create a tabl
+7498300	7502780	can anyone think of it if not i will talk about it
+7504620	7510140	okay let's let's go step by step guys let's go step by step this function is there
+7510540	7515980	okay this function is there this will not be called unless this line is executed isn't it
+7517740	7523500	this function once we call this function this line will be executed this whole function once
+7523500	7531740	we go inside this function i see that it it has a memory certain memory coming from the global
+7531740	7539420	scope and its current scope in the current scope value a 20 is available and the child function
+7540300	7546700	is you know declared initialized but not yet executed called then i'm calling it here
+7547260	7553660	once i'm calling it i am going inside it here then i see a separate execution context for
+7553660	7563900	each function as it is created i see there is a var is available when i see a variable with var
+7564860	7571740	that is hoisted when it is hoisted what is our default value assigned to the value which is hoisted
+7574780	7579180	default value muneshwara this line is not yet executed we are still here at the line
+7579180	7592620	execution of 124 it would be undefined right guys are you able to relate like
+7592620	7598780	this value is actually it's it's in its current scope they say it's it's made this block it's in
+7598780	7606060	current scope in that scope a new value is created whenever we saw we just saw that on above
+7606060	7613660	simple examples var examples that always get var get hoisted and initial value is undefined
+7613660	7620060	so what should be the value of a here what should be the value of a here
+7622700	7629180	undefined right okay guys is this clear to everyone why we are getting undefined here first
+7630060	7632780	everyone is there anyone who didn't understand this point
+7633660	7637740	is there anyone who didn't understand this point rechecking with you all
+7644140	7646460	guys is there anyone who didn't understand this point
+7646460	7658860	okay i'll take it as no then once this is executed this line will be executed then in our local scope
+7659580	7668140	in this current scope of child value is updated a equal to 10 then child two is called once this
+7668140	7673900	is called i'm trying to execute it here in the current scope it doesn't have so it will go to
+7673900	7680140	its parent scope which is of child scope what is the value of value of a child scope
+7681580	7685020	it is 10 so the value should be undefined and 10
+7687660	7689820	so are you able to relate this guys
+7695180	7703500	this might of questions might be asked in your contest you see undefined and 10 is coming out
+7703900	7711020	okay do you want another further questions on this like i can create more complicated questions
+7712300	7713340	want to practice more
+7715820	7719500	because i just introduce only var variables what if i combine with let
+7727580	7729740	right it will create my further confusion
+7730700	7736860	there can be multiple uh you know if i take one more example just think of this thing i have two
+7736860	7746140	questions left with me which i prepared it so that you will be all uh clear with the concepts
+7747660	7755660	now if you see this example guys see this example take your time take the amount of time that you
+7755820	7760620	need i am here if you need one hour also that's fine we will understand this one and leave it
+7760620	7769180	because uh this place are tricky where we people fail to understand things how execution context
+7769180	7775340	lexical scoping hoisting three things are working together it builds so much amount of knowledge
+7775340	7780380	over the classes that we are able to at least relate them things will come with practice but
+7780380	7785580	able to at least relate them things will come with practice but just think of it what could
+7785580	7791500	be an expected answer for this one go step by step
+7794540	7802220	how i it happened with me when i was learning concepts but i that's the reason why i'm putting
+7802220	7807180	all the examples in one file so that you go through it you revise once in a short
+7807820	7815740	huh execution context hoisting and uh you know uh lexical scope everything is one short may
+7815740	7822140	a key file may everything will be clear all the concepts so just think of this guys what
+7822140	7835100	will be the output for a and b and c part
+7835180	7838060	so
+7845500	7856860	okay uh ashi says 20 then he says undefined right then he says 10
+7856860	7860620	okay
+7864380	7867420	okay then he says 10
+7870620	7872460	okay then 20
+7874780	7878220	as you had two answers promotes answer and ashi's answer
+7878940	7882620	uh anyone else who's trying out figuring out answer for this one
+7886860	7897740	let's let's solve this case let's solve this let's figure out now muneshwara says undefined
+7897740	7903740	10 and 20 okay no no worries case let's let's break down again step by step
+7905340	7913100	let's break down step by step i called parent three he called parent three uh in its scope
+7913660	7922860	uh in its scope value is there child function is declared and called once i'm going inside
+7922860	7930700	this child function i see a console log a but before it start executing we know that memory
+7930700	7937420	execution phase happens and uh it checks if there is any new variables and functions are declared
+7937420	7942540	we see that it is uh child who is declared it will be hoisted but there is no other extra
+7942540	7950540	variables are uh you know declared so directly it it sees that okay value a variable a is not
+7950540	7955900	available in current scope it will go and check for the parent scope it says that hey in parent
+7955900	7967100	scope 20 is available so from the lexical scope of parent it will get 20 okay then i see that hey
+7967100	7975980	i am updating value of a equal to 10 now this value of 10 should be actually updated here
+7976540	7982220	which is parent scope because a variable is declared in the parent scope isn't it till here
+7982220	7989820	it's clear guys till here it's clear what just happened where how we updated 20 equal to 10
+7989820	7996860	then we went on to call a child function inside child once a separate execution context is created
+7997580	8003900	memory uh creation phase happens and function variables are hoisted now i see that hey where
+8003900	8011100	a is hoisted and set to undefined now i'm trying to access a which is undefined not yet
+8011100	8016380	dick uh initialized isn't it so i get here undefined
+8019580	8025180	now how i'm able to solve how i'm able to solve is i'm actually trying to read it through step
+8025180	8030700	by step it will help you whenever you are attempting this because it's on my screen on
+8030700	8035980	my laptop i'm able to drop close the functions and read it through but whenever you get these
+8035980	8042060	use cases read it through one by one separate execution context hoisting memory execution then
+8042060	8050540	code execution okay now once child two is closed now i come back i this part is done then this part
+8050540	8055820	is done then i try to access console log of a if this value is already updated by 10
+8056540	8060060	so i'll get 20 undefined and 10
+8063820	8064780	is this clear guys
+8067420	8077900	dhiraj you just called it out 20 undefined and 20 okay now let's see this if if my answer is right
+8080540	8090380	okay you see 20 undefined and 10 okay great guys people who are able to guess it kudos to them
+8091340	8095020	one final example uh okay for this part
+8098700	8101020	let's say the question number 17
+8104300	8105100	this question
+8105980	8108780	here comes a combination with let guys
+8111420	8117820	now you not not even need to think from perspective of execution context memory
+8117820	8120380	creation you want to have to think in terms of scopes
+8120620	8124380	context memory creation you want to have to think in terms of scopes
+8129740	8136060	okay i have four outputs now in this this is further actually complicated one
+8138700	8141900	but i hope a few people at least get it right
+8141900	8146460	or even out of four options if you get a good amount of things right that's also cool
+8180460	8186460	okay
+8203580	8204940	oh just one change
+8204940	8211900	one change other things are right
+8211900	8222180	think of it again
+8222180	8229100	why did you call an undefined check undefined that firstly
+8229100	8241700	if a variable is not available in local context it checks parents lexical scope what if I'm
+8241700	8248940	updating some parent value now updating a parent value it's logical right I can do it or if I'm
+8248940	8265900	trying to print it I should be able to get it from a parent and Ashish for you you have
+8265900	8292940	to check the last one anyone else trying it guys anyone else trying it right so I got
+8292940	8300860	one right answer but let's explore this guys again step by step firstly going back executing
+8300860	8314660	this one to cross checking if you see it's triple 10 and 20 firstly Pramod has answered right Pramod
+8314660	8321260	has sent me personally kudos Pramod but we'll come back to this one okay we'll see why this
+8321300	8332420	has actually worked and why not okay I'll minimize everything firstly parent fold 4 is
+8332420	8343020	called variable a 20 is initialized I go inside the child here I see when I host things nothing
+8343020	8350100	is with aware so I have to read it as it is later equal to 10 I got a console log of a I
+8350340	8364820	print 10 here okay then I went into the child too okay and I seen console log of a okay I
+8364820	8373620	don't have a value available here a well is not available so I'll update it value I mean I'll
+8373620	8381460	get it from a parent scope lexical scope which is this one then then I'm updating a equal to
+8381460	8389180	30 now let's say a equal to 30 which value will be should be actually updated this one of this
+8389180	8404220	one Ashish when I do this a equal to 30 here at line number 160 immediate parent right which
+8404220	8412460	is this one you know now if it is so if it is so let's see this let's see if I am updating
+8412460	8422060	this immediate parent and I come out of that one here I should be getting an output as output
+8422060	8430220	should be 30 here right if the immediate parent is outputted immediate parent is updated actually
+8430220	8444700	then if I come out if I come out by default firstly here it should be 20 itself but now
+8444700	8450980	let's see what actually happened here what actually happened here okay what why this a
+8450980	8460060	equal to 30 didn't apply when I updated I mean executed the same piece of code okay I'll show
+8460100	8467060	you guys here in the debugger mode I'll copy that that's the reason why when I told that I'll
+8467060	8478740	introduce later in const it will change a bit okay this is the expected thing but the output
+8478740	8496100	surprising was 10 here printing before calling child to hmm right yeah sorry pardon me yeah
+8496100	8506980	it was called before thanks Munesh for a pointed out so did you guys see this that I even got
+8506980	8516420	confused but the child was called later on and it updated this let later then we got 11 and 20
+8516420	8525140	but kudos to promote promote got it right and there's one more example guys last one example
+8525140	8531020	then we'll end the session today we'll come to will introduce closures in the next class
+8536980	8550780	just think of this thing guys I have again four things there's a one change that I have done it
+8550780	8562380	here I think I asked his answer you can actually copy paste your answer I guess think of it
+8566980	8595180	right this is the answer that we were expecting earlier but it was here at 10
+8595180	8605820	but only the changing the way we called got changed so it should be 10 again 10 here since
+8605820	8611180	it got updated we should be value should be updated as 30 then this is actually getting
+8611180	8617540	from the large parent scope complete scope so it should be 20 I hope this is clear to everyone
+8617540	8625380	guys I hope you got you had fun thinking about execution context harvesting concept mixing them
+8625380	8640620	I prefer question yeah got it even I didn't think at that moment even I got confused but
+8640620	8645060	it's okay once you go through step by step and read it properly guys you'll be able to figure
+8646060	8656260	but guys had you had fun revising this concepts how was it it was good like going through this
+8656260	8662860	questions and refreshing all the things that concepts that we have gone through and explored
+8662860	8671580	it so next class next class mostly will be based on this knowledge where you have to have a
+8671580	8678900	understanding on scopes understanding on hoisting with respect to where keywords and let and const
+8678900	8687780	and how this lexically you know we are able to access the parent variables once those things
+8687780	8694220	are clear we'll start something called as a closure if I say what is enclosure if it would
+8694220	8699500	be like 90% we have already covered only some part of his remaining which I'll cover it in
+8699500	8703620	next class I don't want to push it further today because we have covered good amount of
+8703620	8715940	content today okay so we have one major topic two things once one thing I'll prefer to help you
+8715940	8724700	out learn it like one I want to teach you guys is something called as currying functions function
+8724700	8733380	currying this is which is again of curriculum I'll try to put it in same set of examples where
+8733380	8742420	we have it then you will have this one closures will spend one class completely on closures okay
+8742420	8748540	these two topics will cover in next class then we'll have one final class where I'll try to
+8748540	8757060	spend one hour on the content then I'll give you enough amount of time to revise go through
+8757060	8764660	the whole notes of get up what we have learned it if you have doubts I'd be it will be like a long
+8764660	8772580	session where I can be you can we can sit together discuss any topic related to JS from execution
+8772580	8779980	context to event loop all synchronous asynchronous codes event handling the projects we have discussed
+8779980	8785580	all the array methods polyfills too much of content was covered guys I know it is really
+8785580	8792580	huge but I'll be here where we can spend one hour of time going through all the notes and
+8792580	8797460	figuring out everything trying to see remember all the things right on the next Thursday class
+8797460	8804100	but before that I just want you to go through these examples and come back we'll spend some
+8804100	8809460	good amount of time understanding closures because that's also one of the concept which
+8809460	8815980	is beautiful concepts one of the beautiful concept I would say that where people struggle to
+8815980	8825060	understand it okay this is the reason why I've took more than around 18 19 20 examples breaking
+8825060	8830140	down one example into multiple parts to understand and you know make yourself pressed up with these
+8830140	8845860	things and then we'll go to that topic okay guys so with this I'll start the doubt session guys I'll
+8845860	8851540	push the code if you have any doubts we can still hang in around if it is related to call
+8851540	8858140	bind apply polyfills or anything I'll still sit here and we can discuss further okay I'm
+8858260	8868340	going to start the doubt session okay let me push the code sorry
+8868340	8892980	so we have you know catered 30 classes for building all the basics of HTML CSS and JS
+8892980	8899220	where it is an intense amount of knowledge I completely agree that to carry on all the
+8899220	8906380	things one so if someone is starting from beginner but I hope you got to learn this
+8906380	8916460	one thank you Ashish okay so revise those projects revise those all the events how do
+8916460	8924500	you handle events and everything right because what I'm worried much about is that from my
+8924500	8932460	previous experience people struggle whenever I talk about this one right mock interviews
+8932460	8939540	they they try to think like what topic should I prepare well what topic shouldn't I prepare
+8939540	8947900	well so if you see that asynchronous JS we have covered it much in detail and that will
+8947900	8953620	be much more focused from the mock interview perspective like what are promises what is
+8953620	8959060	async await how you make a series calls how we make parallel calls how we make an API call how
+8959060	8967020	things works in event loop what is an execution context how things are actually passed why var
+8967020	8976780	variable is such a thing why we all the developers hate it right too many things going on but I try
+8976780	8983260	to make it as easy as much possible for you to understand it and ready open forum in order to
+8983260	8994460	like if you have it any questions happy to be here and discuss it right anything you have it do
+8994460	9002020	let me know guys open for understanding and discussing it I'll wait for two three minutes
+9002020	9015100	in case you have doubts or else will close the session most of the I mean things right all these
+9015100	9022180	things that we are learning are like for our basic building blocks for our react because if
+9022180	9029900	you go in today's era this all things will help you to build your basics and clear interviews per
+9029900	9036420	se but this understanding this one will make your journey of learning react will be further easy
+9036420	9047740	so this is for from interview perspective this is important but few people I know is that someone
+9047740	9052740	have started journey in reverse they pick it up what is more important in industry react let's
+9052740	9058860	start learning react and from there they come back to HTML, CSS and JS but the way we are learning
+9058860	9066740	it's I believe this curriculum is really designed in a way that we cover whole topics and you know
+9066740	9073820	sit together I my idea is that since I'm covering beginner there are people who don't even know
+9073820	9081540	anything for them it is difficult at one shot to get it everything so I ask them like it's a six
+9081540	9087620	month journey where I'll cover the whole web try to put in hours where we'll cover the whole web
+9087620	9098500	part and you'll completely love it and remember that that I've shared you a block yeah I've shared
+9098500	9105460	you a block where how things run behind the scenes combining HTML, CSS, JS hope you go
+9105460	9112540	through it read through it and in case you have anything doubt with that we are I'm here you can
+9112540	9118140	ping me in whatsapp chat I'll do that but let's let's read it through let's build that knowledge
+9118140	9123860	and when you face when you get a call interview call right we shouldn't be like that I don't know
+9123860	9129460	this or don't understand or not confident on that I'm trying to give my all of us you should
+9129460	9137500	be getting from your efforts guys so Muneshwar I hope you are learning lot you are getting concepts
+9137500	9145460	cleared like all things I've seen you one of the consistent person who attends classes okay so I
+9145460	9155660	hope your PSP percentages are also high and you've been maintaining things right so keep
+9155660	9167820	doing that guys keep your PSPs high and keep learning things yeah sure sure Ashish like
+9167820	9174140	there are too many people who help help can help us and even like you know you have a big
+9174140	9179900	community the main advantage of scaler is the community you have many people in your batch
+9179900	9186860	itself are experienced professional you being fresher they many people can refer you like you
+9186860	9192420	pick you talk to 10 20 people 10 20 people are working in different talks if you are confident
+9192420	9196700	with your knowledge reach out them if even 10 people refer you even if you get three calls
+9196820	9203740	convert one out of three so 20 odd people reach out 10 people referral three calls convert one
+9203740	9212260	the job is set if not scalar placements are anyways there if you keep your PSPs and everything
+9212260	9236700	and with that thank you Ashish with this I'll end the session guys I don't say doubts it's
+9236700	9245300	me continuously speaking so hope you have a great weekend and learning time again a special
+9245300	9249900	request is just go through it go through the things I'll update this readme file which class
+9249900	9255660	is covering which concepts I've written till class 20 I have to cover eight classes content
+9255660	9262900	which will I'll update it just now and then I'll push it so that you can see a topic and go to
+9262900	9271780	that particular class and read it through okay so guys then with that good night take
+9271780	9278580	care see you on Tuesday good night guys bye bye

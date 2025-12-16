@@ -1,0 +1,8096 @@
+1
+00:00:00,000 --> 00:00:02,060
+you
+
+2
+00:00:30,000 --> 00:00:32,000
+you
+
+3
+00:00:51,280 --> 00:00:53,280
+Hi all good evening
+
+4
+00:00:54,280 --> 00:00:59,580
+I'm I audible and visible guys any thumbs up reactions
+
+5
+00:01:01,160 --> 00:01:05,660
+Thank you. Yes. Thank you. So let me share my screen
+
+6
+00:01:07,840 --> 00:01:11,080
+To let me know if you can see the screen good evening Tejal
+
+7
+00:01:13,320 --> 00:01:15,480
+Just to let me know if you can see the screen share too
+
+8
+00:01:16,880 --> 00:01:20,120
+Good so let me open the code base
+
+9
+00:01:23,280 --> 00:01:27,000
+This is something that I was building an open source project for myself
+
+10
+00:01:37,480 --> 00:01:39,480
+Give me a second
+
+11
+00:01:48,480 --> 00:01:50,920
+Good evening, I appreciate good evening some bit
+
+12
+00:01:54,000 --> 00:01:56,000
+So
+
+13
+00:01:57,120 --> 00:02:01,900
+Guys I've seen there's a drop in you know assignment problem solving percentages
+
+14
+00:02:02,560 --> 00:02:09,200
+Are you able to catch up or having any challenges that you want to point out or do I need to take it anything from?
+
+15
+00:02:09,200 --> 00:02:11,200
+my side
+
+16
+00:02:11,400 --> 00:02:19,340
+Just want to know if there's any reason that you know this or you are able to do it till now easy in JS, okay
+
+17
+00:02:20,060 --> 00:02:23,020
+So I hope everyone is able to catch up, right
+
+18
+00:02:24,620 --> 00:02:26,380
+Great I wish it
+
+19
+00:02:26,380 --> 00:02:33,180
+Right. Great. So whatever responses I'm getting I believe from that part of you, you know, this
+
+20
+00:02:33,900 --> 00:02:37,580
+Assignments, whatever there are those are comparatively easy, isn't it?
+
+21
+00:02:38,300 --> 00:02:41,040
+So let's start with a screen share of iPad
+
+22
+00:02:41,680 --> 00:02:43,680
+Uh
+
+23
+00:02:45,120 --> 00:02:47,120
+And the second thing guys
+
+24
+00:02:47,120 --> 00:02:51,520
+I hope all the topics that we have covered till now in the js are those are clear
+
+25
+00:02:52,240 --> 00:02:57,760
+Uh related to maybe introduction of variables data types and then harvesting concept
+
+26
+00:02:58,320 --> 00:03:04,400
+Then we understood how behind the scenes things work. We also learned bit of debugging in, you know browser
+
+27
+00:03:04,720 --> 00:03:06,720
+Meanwhile when I was trying to show that
+
+28
+00:03:07,280 --> 00:03:09,440
+So I hope all those concepts are clear, right?
+
+29
+00:03:10,400 --> 00:03:14,240
+Whatever we have covered till now difference between let and
+
+30
+00:03:15,840 --> 00:03:17,840
+Const
+
+31
+00:03:18,000 --> 00:03:24,240
+Great, uh, can anyone help me drop me a message in whatsapp group for the people to join?
+
+32
+00:03:27,280 --> 00:03:33,140
+So i'll start a two minutes timer meanwhile because I want to start at nine or five
+
+33
+00:03:39,440 --> 00:03:41,440
+So
+
+34
+00:03:46,720 --> 00:03:48,720
+Let's keep it this way
+
+35
+00:03:54,080 --> 00:03:56,000
+So guys, uh, if you thank you manesh
+
+36
+00:03:57,600 --> 00:04:02,880
+So if you if you see, uh the topics that we have discussed till now when we introduced it
+
+37
+00:04:03,600 --> 00:04:05,600
+a series listening to
+
+38
+00:04:09,440 --> 00:04:11,440
+Okay
+
+39
+00:04:18,960 --> 00:04:20,960
+How should I stop this
+
+40
+00:04:22,960 --> 00:04:24,480
+Okay, fine
+
+41
+00:04:24,480 --> 00:04:30,960
+Great. So till now if we have learned like we have introduced what js is and how you know the web has
+
+42
+00:04:31,680 --> 00:04:35,200
+You know came into the picture of two days and what could be the future?
+
+43
+00:04:35,600 --> 00:04:40,480
+And how they how you know web 1 web 2.0 and 3.2 got evolved then
+
+44
+00:04:41,360 --> 00:04:44,000
+Uh, we have started with something like variables
+
+45
+00:04:44,880 --> 00:04:45,840
+right
+
+46
+00:04:45,840 --> 00:04:48,480
+Then we have understood something called as data types
+
+47
+00:04:49,600 --> 00:04:51,600
+You've seen some examples on this
+
+48
+00:04:52,160 --> 00:04:57,760
+Right different data types we have explored iris and objects in depth and their respective functions
+
+49
+00:04:59,600 --> 00:05:04,320
+Then we have picked one of the core concept of javascript which is called hoisting
+
+50
+00:05:05,520 --> 00:05:06,480
+right
+
+51
+00:05:06,480 --> 00:05:10,160
+and we have understood hoisting with respect to var and
+
+52
+00:05:10,960 --> 00:05:12,960
+latent const
+
+53
+00:05:13,120 --> 00:05:18,480
+So for both hoisting exists, but latent const behave differently. There's a better error handling
+
+54
+00:05:18,880 --> 00:05:22,880
+The only reason is there's something like latent const are initialized in temporal
+
+55
+00:05:24,720 --> 00:05:26,560
+Dead zone
+
+56
+00:05:26,560 --> 00:05:31,520
+The whatever hoisting is happening. It's happening here in temporal dead zone and then it behaves
+
+57
+00:05:32,320 --> 00:05:33,680
+In a single way
+
+58
+00:05:33,680 --> 00:05:38,880
+Right. So I hope this concept still now whatever we have discussed if those things are clear
+
+59
+00:05:38,880 --> 00:05:42,240
+Can you give me thumbs up so that we can get started with today's content?
+
+60
+00:05:44,560 --> 00:05:46,880
+Great guys, great. So
+
+61
+00:05:48,400 --> 00:05:51,360
+I want to talk about something that I left in last class
+
+62
+00:05:52,000 --> 00:05:53,280
+Is that
+
+63
+00:05:53,280 --> 00:05:57,120
+If you see in the class 9, uh when I was discussing about objects
+
+64
+00:05:57,680 --> 00:06:04,480
+I think in the here in the reference data, right? So I have used something called a spread operator. Let's get started with this one
+
+65
+00:06:05,360 --> 00:06:06,400
+Okay
+
+66
+00:06:06,400 --> 00:06:09,280
+So in javascript, right if you pick js
+
+67
+00:06:10,080 --> 00:06:12,560
+Inside this this three dots
+
+68
+00:06:13,280 --> 00:06:17,040
+Is a common thing and this can be used in a two parts. Okay
+
+69
+00:06:17,600 --> 00:06:21,520
+Sometimes it is called as rest operator. Sometimes this is called a spread operate
+
+70
+00:06:22,640 --> 00:06:26,320
+Okay, we'll give you an examples of them in depth one by one
+
+71
+00:06:26,880 --> 00:06:28,160
+but
+
+72
+00:06:28,160 --> 00:06:34,320
+Uh, like both these things are called in a you know with the different names depending on the use cases we have
+
+73
+00:06:35,120 --> 00:06:40,560
+Spread is something which is trying to spread like if you see on a toast you try to spread a
+
+74
+00:06:41,040 --> 00:06:44,880
+Butter or any jam that you have right? That's the same thing the same way
+
+75
+00:06:45,600 --> 00:06:47,920
+It spreads all the items in it
+
+76
+00:06:51,680 --> 00:06:53,680
+All items in it
+
+77
+00:06:56,320 --> 00:07:01,780
+Okay, so which items it will be able to spread something which are i-triple
+
+78
+00:07:04,240 --> 00:07:07,680
+Now what are the i-triple data types that we know anyone
+
+79
+00:07:09,840 --> 00:07:14,320
+What all i-triple data types that we know on which you can apply for loop when I say i-triple
+
+80
+00:07:14,400 --> 00:07:20,080
+I mean to say that on which type of data types we can apply I like this one array, right?
+
+81
+00:07:21,840 --> 00:07:23,840
+And the other thing guys
+
+82
+00:07:26,480 --> 00:07:29,200
+Okay in js you can also iterate for objects
+
+83
+00:07:30,880 --> 00:07:34,080
+I'll show you a loop like how you can do it and maps
+
+84
+00:07:34,640 --> 00:07:39,360
+If maps are like a data structure a bit advanced data structure when compared to js
+
+85
+00:07:39,920 --> 00:07:47,120
+Okay, but i'll come to that. So basic things are like whenever you are trying to do something like let's say there's an array
+
+86
+00:07:47,760 --> 00:07:49,440
+of items
+
+87
+00:07:49,440 --> 00:07:51,440
+one two three
+
+88
+00:07:51,520 --> 00:07:54,560
+Then you are let's say you are declaring an array one
+
+89
+00:07:55,040 --> 00:08:00,160
+Then you want to let's say if you want to use this one reuse the same elements which are there
+
+90
+00:08:00,480 --> 00:08:05,760
+Then you can do dot triple dot and spread all the items present in an array
+
+91
+00:08:06,320 --> 00:08:12,400
+So since this is an i-triple item i-triple data type on those things whenever you are using dot triple dots
+
+92
+00:08:12,640 --> 00:08:17,520
+So and you are trying to spread all the items in it in those case use cases. We call this as spread operator
+
+93
+00:08:18,240 --> 00:08:20,000
+Is that point clear guys?
+
+94
+00:08:20,000 --> 00:08:22,000
+Like what is spread operator in general?
+
+95
+00:08:23,280 --> 00:08:24,240
+So
+
+96
+00:08:24,240 --> 00:08:28,080
+This is the same thing that I did here in the last class if you see
+
+97
+00:08:28,720 --> 00:08:30,720
+I have told that there is an object
+
+98
+00:08:31,120 --> 00:08:33,120
+Something called as a first name and last name
+
+99
+00:08:33,600 --> 00:08:37,200
+so the object can be you know, iterated using a
+
+100
+00:08:37,920 --> 00:08:39,280
+let's say
+
+101
+00:08:39,280 --> 00:08:40,240
+key
+
+102
+00:08:40,240 --> 00:08:42,000
+in object
+
+103
+00:08:42,000 --> 00:08:45,440
+So all for all the keys, let's say if you iterate through it
+
+104
+00:08:45,520 --> 00:08:49,040
+You will be able to get all the key and you can get a respective value for that one
+
+105
+00:08:50,560 --> 00:08:52,000
+So
+
+106
+00:08:52,000 --> 00:08:56,400
+I'll try to repeat this case whatever i'm covering. I'll show the examples till now. I'm just getting
+
+107
+00:08:57,120 --> 00:08:59,920
+Covering up theory so do not worry. Okay
+
+108
+00:09:00,960 --> 00:09:02,960
+Nothing I searched something
+
+109
+00:09:03,840 --> 00:09:05,200
+so
+
+110
+00:09:05,200 --> 00:09:10,480
+What I was talking about is I was talking about something called a triple dot operator that you see in js commonly
+
+111
+00:09:10,640 --> 00:09:17,520
+And it's called with two different names. One is one time they call rest and sometimes they call spread. I was talking about
+
+112
+00:09:18,240 --> 00:09:20,240
+When do you call it as a spread?
+
+113
+00:09:20,400 --> 00:09:21,200
+Okay
+
+114
+00:09:21,200 --> 00:09:23,440
+When do you call it as a spread now spread operator?
+
+115
+00:09:23,840 --> 00:09:27,920
+You call that a particular three dots as spread operator only on like when you are trying to
+
+116
+00:09:28,240 --> 00:09:35,120
+You know spread all the items in a i-tribbles. No, what are the i-tribbles exist on top level are like array and object
+
+117
+00:09:35,760 --> 00:09:38,160
+No when I used in this example
+
+118
+00:09:38,320 --> 00:09:43,200
+So I mean to say that i'm using like a spread operator i'm spreading all the items present in an object
+
+119
+00:09:43,920 --> 00:09:47,360
+I hope this example and this thing is cleared guys to everyone
+
+120
+00:09:47,920 --> 00:09:54,720
+I've really figured the thing that I had just introduced till now right now. Let's see some of the examples. Okay
+
+121
+00:09:55,520 --> 00:09:57,840
+Let's see some of the examples. I'll create a class 10
+
+122
+00:09:59,360 --> 00:10:01,360
+Folder class 10
+
+123
+00:10:04,480 --> 00:10:08,660
+So let's name it as rest versus spread
+
+124
+00:10:08,660 --> 00:10:10,660
+Spread
+
+125
+00:10:13,460 --> 00:10:19,940
+Dot js, okay. So what I did here is let's say I have something like const array
+
+126
+00:10:21,060 --> 00:10:24,580
+uh, and I have one two three, uh, and let's say I
+
+127
+00:10:26,260 --> 00:10:29,300
+Go by four comma I click a tab
+
+128
+00:10:30,100 --> 00:10:35,940
+So I have this an array since it's an i-tribble. Now, what if I let's say I have an array one
+
+129
+00:10:36,820 --> 00:10:41,380
+Now let's say I have some elements like let's say 12 13
+
+130
+00:10:42,180 --> 00:10:43,300
+14
+
+131
+00:10:43,300 --> 00:10:45,060
+and remaining items
+
+132
+00:10:45,060 --> 00:10:47,060
+What if I want to build a new array?
+
+133
+00:10:47,780 --> 00:10:54,580
+Including this two like let's say I want to update such that array one will have all the elements from one to twenty
+
+134
+00:10:55,380 --> 00:10:58,500
+So one of the ways that you can build a new array called
+
+135
+00:10:59,060 --> 00:11:05,540
+Uh array two and initialize is empty and then you can run a for loop over it
+
+136
+00:11:06,820 --> 00:11:08,260
+I mean
+
+137
+00:11:08,260 --> 00:11:11,060
+says that you can you know, you keep on pushing the items like
+
+138
+00:11:12,020 --> 00:11:14,020
+Let's say you write a for loop
+
+139
+00:11:14,820 --> 00:11:16,820
+let
+
+140
+00:11:17,220 --> 00:11:21,620
+I equal to zero then array dot length i plus plus
+
+141
+00:11:21,620 --> 00:11:28,740
+And then you can do something like array dot push array to dot push and
+
+142
+00:11:32,500 --> 00:11:36,740
+Right the same syntax you can do for array one also and
+
+143
+00:11:39,540 --> 00:11:42,420
+Let's say this is how we are supposed to build it, right?
+
+144
+00:11:42,820 --> 00:11:49,860
+So this is how we can merge two arrays into the one isn't it? Like if you want to build a new array or
+
+145
+00:11:50,420 --> 00:11:56,820
+Which is having all the elements from one to twenty and this is just an example where you have to merge two things, right?
+
+146
+00:11:57,140 --> 00:12:02,420
+But the what js provides you is like, let's say you are building in a new array like array two
+
+147
+00:12:03,860 --> 00:12:05,140
+As here we have an example
+
+148
+00:12:05,140 --> 00:12:10,020
+Let's take an array three one of the simple ways of doing it is like let's say I want to spread all the items since
+
+149
+00:12:10,020 --> 00:12:14,580
+I'm pushing all the items in it. I'm not picking one by one all I mean specific items
+
+150
+00:12:15,060 --> 00:12:18,180
+What I can do is like I can just spread this three dots
+
+151
+00:12:18,660 --> 00:12:21,460
+I can say that hey take all the elements from array
+
+152
+00:12:22,100 --> 00:12:26,660
+And also take all the elements from the array one and put it in array three
+
+153
+00:12:27,300 --> 00:12:32,100
+So both the in a both use cases if I try to do console dot log, let's say
+
+154
+00:12:33,860 --> 00:12:35,860
+Array two
+
+155
+00:12:36,100 --> 00:12:38,100
+And console dot log
+
+156
+00:12:38,820 --> 00:12:40,180
+Array three
+
+157
+00:12:40,180 --> 00:12:42,180
+Now if you do this
+
+158
+00:12:42,580 --> 00:12:46,820
+Let's see the example if it is working in both, you know, both are satisfied
+
+159
+00:12:47,780 --> 00:12:51,620
+node rest versus spread
+
+160
+00:12:53,540 --> 00:12:55,300
+Dot js
+
+161
+00:12:55,300 --> 00:12:58,340
+If you see in the both the examples i'm able to get the all the elements
+
+162
+00:12:58,900 --> 00:13:03,940
+So do you find it easy like when you want to merge two things or like if you want to build it something
+
+163
+00:13:04,180 --> 00:13:08,820
+You need not to iterate and push it all the items. You can actually spread all the items whatever you need it
+
+164
+00:13:09,380 --> 00:13:13,460
+So I hope the basic idea of spread operator is clear to you all isn't it?
+
+165
+00:13:14,260 --> 00:13:15,860
+Okay
+
+166
+00:13:15,860 --> 00:13:17,380
+now
+
+167
+00:13:17,380 --> 00:13:22,900
+What i'll talk about is something like a called as a rest operator. So one of the use case, right?
+
+168
+00:13:22,980 --> 00:13:24,980
+Whenever you see the rest
+
+169
+00:13:24,980 --> 00:13:26,980
+So what is the general meaning of rest?
+
+170
+00:13:28,900 --> 00:13:30,900
+Let's say can I say is the rest of items
+
+171
+00:13:32,500 --> 00:13:35,860
+Rest of items in an array or an object or anything
+
+172
+00:13:37,300 --> 00:13:42,100
+Can we like this is just a rest when I say i'm just trying to get the meaning of it
+
+173
+00:13:42,500 --> 00:13:46,020
+Like whenever I say rest rest operator, it's something getting a rest of items
+
+174
+00:13:46,020 --> 00:13:51,460
+Now how this use case works is let me give you an example. Let's say you have a function called my bio
+
+175
+00:13:52,420 --> 00:13:54,420
+Okay, and in my bio
+
+176
+00:13:54,980 --> 00:13:58,420
+Let's say you have something like first name and last name as a mandatory fields
+
+177
+00:13:58,500 --> 00:14:00,500
+Then you don't know what all things are there
+
+178
+00:14:00,900 --> 00:14:02,180
+So let's say
+
+179
+00:14:02,180 --> 00:14:04,180
+rest bio
+
+180
+00:14:05,140 --> 00:14:11,140
+So whatever user provides it you will fulfill it but these are the two mandatory things and you don't know what are the
+
+181
+00:14:11,620 --> 00:14:18,020
+Exist like parameters like you need to accept in the bio and one thing you can do here is that let's say
+
+182
+00:14:19,700 --> 00:14:21,700
+You can return an object
+
+183
+00:14:22,100 --> 00:14:23,940
+Which is saying first name
+
+184
+00:14:23,940 --> 00:14:25,700
+then last name
+
+185
+00:14:25,700 --> 00:14:28,020
+Then you can say rest of items
+
+186
+00:14:28,900 --> 00:14:30,500
+now
+
+187
+00:14:30,500 --> 00:14:35,060
+Okay. Now let's say how you can do how can you call this? It's a dynamic function
+
+188
+00:14:35,140 --> 00:14:42,100
+Now, let's say I have a my bio building it and I call it as a them then I can give it as you know
+
+189
+00:14:42,660 --> 00:14:44,100
+Sharma
+
+190
+00:14:44,100 --> 00:14:46,500
+Then I can give something like a contact number
+
+191
+00:14:47,540 --> 00:14:49,540
+Like let's say some random
+
+192
+00:14:49,780 --> 00:14:55,540
+Then I can give city like hydropad. So if you see what what's going to happen here?
+
+193
+00:14:55,940 --> 00:15:01,300
+Now I say that whatever the first argument that i'm passing in the my bio is first name
+
+194
+00:15:01,940 --> 00:15:03,940
+And the second thing is called as last name
+
+195
+00:15:04,580 --> 00:15:09,620
+And then after these fields are not mandatory as many fields you want you can pass it down
+
+196
+00:15:09,700 --> 00:15:13,380
+So it says that hey, can you get me the rest of all the items that user is passing?
+
+197
+00:15:14,100 --> 00:15:18,580
+Accept it and then i'll use it in the future discuss depending on the whatever you write in function board
+
+198
+00:15:18,980 --> 00:15:20,980
+So in these use cases
+
+199
+00:15:21,300 --> 00:15:26,100
+Whenever you have something like a get me the all the rest of items other than this first name and last name
+
+200
+00:15:26,500 --> 00:15:30,840
+Then you call this particular three dot and that particular key as a rest operator
+
+201
+00:15:31,800 --> 00:15:35,900
+Is this clear guys when we say when we call it why we call it as a rest operator
+
+202
+00:15:39,480 --> 00:15:41,800
+Uh, let me try to rerun this file
+
+203
+00:15:43,080 --> 00:15:47,720
+Uh, okay, I didn't console log it. Let's do something like console dot log
+
+204
+00:15:53,000 --> 00:15:53,960
+Okay
+
+205
+00:15:53,960 --> 00:15:55,960
+So let me clear this
+
+206
+00:15:56,280 --> 00:16:00,440
+Yeah, if you see i'm getting all the things like when i'm getting the rest operator
+
+207
+00:16:00,520 --> 00:16:05,000
+I I don't know the exact param like you know the items keys what it should be
+
+208
+00:16:05,080 --> 00:16:07,160
+So i'm getting a zero and one with the default
+
+209
+00:16:07,880 --> 00:16:15,080
+How the objects prepares it right the more important use cases of rest operator comes when you use something called as
+
+210
+00:16:15,940 --> 00:16:17,940
+destructuring
+
+211
+00:16:19,640 --> 00:16:22,300
+Has anyone came across this keyword destructure
+
+212
+00:16:22,300 --> 00:16:28,320
+Here does anyone know have heard this word destructure
+
+213
+00:16:31,660 --> 00:16:33,660
+Okay, see one
+
+214
+00:16:37,980 --> 00:16:42,940
+Yeah, uh by default right when you don't provide any key, uh for the object
+
+215
+00:16:43,340 --> 00:16:49,820
+Some bit so it starts from zero like zeroth key and first key then it goes on iterating whatever things you provide in an object
+
+216
+00:16:49,820 --> 00:16:51,820
+Okay
+
+217
+00:16:54,060 --> 00:16:58,700
+Okay, now so let's let's see understand this what's destructure is now
+
+218
+00:16:59,340 --> 00:17:02,460
+Whenever I say i'm destructuring a building. What is it?
+
+219
+00:17:03,260 --> 00:17:05,260
+Converting a hole into variables
+
+220
+00:17:05,500 --> 00:17:07,180
+Yeah now
+
+221
+00:17:07,180 --> 00:17:12,700
+But let's let's take this an example in terms of building. Let's say if I say have anyone in noida
+
+222
+00:17:12,780 --> 00:17:15,020
+Have anyone been into noida city?
+
+223
+00:17:15,020 --> 00:17:17,020
+Okay
+
+224
+00:17:17,180 --> 00:17:19,740
+Right there was a building beside my college imity
+
+225
+00:17:19,980 --> 00:17:24,620
+Uh, there's a huge building like uh, I don't remember the tower which was in circular shape
+
+226
+00:17:24,860 --> 00:17:28,940
+So they destructured they bombed that whole building like more than 30 floors
+
+227
+00:17:29,820 --> 00:17:34,860
+Right breaking down into small pieces like destructuring like if you constructing it
+
+228
+00:17:34,940 --> 00:17:40,460
+You are trying to build one onto the together, but when you're destructuring you're trying to pull out into the pieces
+
+229
+00:17:41,100 --> 00:17:43,420
+Okay, like uh, you can say
+
+230
+00:17:45,100 --> 00:17:47,100
+Breaking down
+
+231
+00:17:47,100 --> 00:17:49,100
+breaking down into
+
+232
+00:17:49,900 --> 00:17:51,500
+smaller
+
+233
+00:17:51,500 --> 00:17:58,700
+Parts so this is a generic meaning but now let's say how this works. Okay deal demolishing right now, let's say
+
+234
+00:18:00,540 --> 00:18:06,700
+One of the first programming question that you might have come across in terms of dsa or any problem solving
+
+235
+00:18:07,500 --> 00:18:11,100
+Uh, you might have thought of like doing something like a swap of our two numbers
+
+236
+00:18:11,820 --> 00:18:13,820
+Have you got across that?
+
+237
+00:18:13,980 --> 00:18:15,980
+Swap of our two numbers
+
+238
+00:18:16,300 --> 00:18:19,420
+Right. Let's say I have const a equal to 10
+
+239
+00:18:20,300 --> 00:18:26,380
+And const b equal to 20 so they might ask you to you know, swap the numbers, isn't it?
+
+240
+00:18:28,940 --> 00:18:34,380
+So let's say if I want to destructure what I can do here is that let's say I have a const array
+
+241
+00:18:35,100 --> 00:18:37,100
+Uh an empty array
+
+242
+00:18:37,740 --> 00:18:38,540
+So
+
+243
+00:18:38,540 --> 00:18:43,020
+Don't go into something like i'm using an extra space or those things, but that's that's fine
+
+244
+00:18:43,100 --> 00:18:45,340
+I'm just trying to explain for extra, you know
+
+245
+00:18:46,140 --> 00:18:48,940
+Way of doing it. So let's say I use array four
+
+246
+00:18:50,060 --> 00:18:52,860
+dot push a then I can do something like
+
+247
+00:18:53,980 --> 00:18:58,540
+Same array four dot push b the time i'm pushing this both the elements a and b
+
+248
+00:18:59,020 --> 00:19:00,540
+now this will be like
+
+249
+00:19:00,540 --> 00:19:02,540
+array four will be something like
+
+250
+00:19:02,700 --> 00:19:04,860
+10 and 20 isn't it?
+
+251
+00:19:05,660 --> 00:19:07,660
+So this is how the array
+
+252
+00:19:08,940 --> 00:19:17,260
+Will be right. Yeah. Now if I want to swap it something that I can do here is that I can declare an array on the left
+
+253
+00:19:18,300 --> 00:19:22,940
+Okay, I can declare an array on the left then I can say
+
+254
+00:19:24,380 --> 00:19:26,380
+b comma a
+
+255
+00:19:27,660 --> 00:19:30,620
+Now, let's see what happens if I do console dot log
+
+256
+00:19:30,620 --> 00:19:32,620
+If I do console dot log
+
+257
+00:19:35,500 --> 00:19:38,460
+B console dot log a
+
+258
+00:19:39,660 --> 00:19:41,660
+Okay
+
+259
+00:19:43,900 --> 00:19:45,900
+Let me see this
+
+260
+00:19:45,980 --> 00:19:52,380
+Let declare this as a let because you are trying to re change there, you know the definition of it
+
+261
+00:19:52,860 --> 00:19:55,420
+I'll clear it. I'll comment this
+
+262
+00:19:56,060 --> 00:19:58,060
+Whatever I am having it
+
+263
+00:19:58,380 --> 00:20:02,140
+All the console logs, let's say I comment this I comment this
+
+264
+00:20:04,540 --> 00:20:06,540
+I try to read on this
+
+265
+00:20:08,780 --> 00:20:14,720
+Now I fail to get this one, uh, it's a spelling mistake, I guess yeah c 1 s t
+
+266
+00:20:20,540 --> 00:20:22,540
+No
+
+267
+00:20:23,260 --> 00:20:25,260
+Okay
+
+268
+00:20:26,700 --> 00:20:28,700
+Now let's say what I'm doing here is that
+
+269
+00:20:30,620 --> 00:20:33,500
+Let's see this firstly whether we were able to swap it
+
+270
+00:20:35,580 --> 00:20:37,180
+Okay
+
+271
+00:20:37,180 --> 00:20:41,580
+Now if you see I was trying to print a b value here. Let's say I say b
+
+272
+00:20:42,620 --> 00:20:44,620
+And this is a string
+
+273
+00:20:47,740 --> 00:20:49,740
+And this is something like a
+
+274
+00:20:53,020 --> 00:20:55,020
+So
+
+275
+00:20:55,900 --> 00:21:00,700
+If you see something that I got as converted b equal to 10 and equal to 20
+
+276
+00:21:01,020 --> 00:21:04,220
+So one of the easiest ways right if you can comment this part also
+
+277
+00:21:04,220 --> 00:21:08,620
+I was trying to just explain you things like let's say I have something like 10 comma 20
+
+278
+00:21:09,500 --> 00:21:13,580
+So the process of doing this one, right the process of doing this one
+
+279
+00:21:13,580 --> 00:21:17,980
+Like what I or what I was just doing is like I was trying to change the way like
+
+280
+00:21:18,460 --> 00:21:20,460
+Let's say if you have an array of items
+
+281
+00:21:20,460 --> 00:21:21,500
+Uh
+
+282
+00:21:21,500 --> 00:21:26,780
+Another example, this is like just a swapping of elements that how you can you how can you do that?
+
+283
+00:21:28,060 --> 00:21:32,780
+Let's say you have something like one, two, three, four five. This is enough. Uh, and
+
+284
+00:21:33,900 --> 00:21:35,900
+Let's say you building a new
+
+285
+00:21:37,660 --> 00:21:39,340
+Array six
+
+286
+00:21:39,340 --> 00:21:42,540
+Let's say you are doing something like can you get me an a b?
+
+287
+00:21:43,580 --> 00:21:46,380
+c and then let's say all the e
+
+288
+00:21:46,940 --> 00:21:49,760
+Me from arr5
+
+289
+00:22:07,980 --> 00:22:10,640
+So i'm here i'm trying to use you
+
+290
+00:22:17,180 --> 00:22:22,540
+You in elements like f and g and give me all the other elements like three four five in e
+
+291
+00:22:22,860 --> 00:22:24,860
+Let's see this if this is working
+
+292
+00:22:36,700 --> 00:22:39,440
+Let's see, uh, my audible i'm audible
+
+293
+00:22:43,500 --> 00:22:45,500
+Uh
+
+294
+00:22:46,460 --> 00:22:48,460
+So
+
+295
+00:22:50,700 --> 00:22:53,260
+Give me a second my screen share stopped, right, isn't it?
+
+296
+00:23:01,420 --> 00:23:03,820
+Let me switch to the net different network base
+
+297
+00:23:08,540 --> 00:23:10,540
+Uh, i'm can you see me guys
+
+298
+00:23:10,620 --> 00:23:12,620
+I
+
+299
+00:23:13,820 --> 00:23:16,780
+Switched off my you know video
+
+300
+00:23:18,460 --> 00:23:20,460
+But can you see me now
+
+301
+00:23:20,940 --> 00:23:22,940
+Is it fine?
+
+302
+00:23:23,020 --> 00:23:25,020
+Now working fine, right now
+
+303
+00:23:25,580 --> 00:23:27,740
+Screenshare is working. Everything is fine now
+
+304
+00:23:29,020 --> 00:23:30,540
+Okay, cool
+
+305
+00:23:30,540 --> 00:23:31,740
+great, so
+
+306
+00:23:31,740 --> 00:23:38,060
+Uh guys what I was talking about is that I constructed a new array called array five one, two, three, four five elements
+
+307
+00:23:38,460 --> 00:23:40,460
+And I created a new array this way
+
+308
+00:23:40,860 --> 00:23:45,660
+Then I was trying to destructure like destructure is breaking this array fine into multiple paths
+
+309
+00:23:46,300 --> 00:23:48,300
+Okay, then
+
+310
+00:23:48,700 --> 00:23:50,700
+Yeah, i'm trying to re-explain up. You know, okay
+
+311
+00:23:51,180 --> 00:23:52,460
+I'm trying to re-explain it
+
+312
+00:23:52,460 --> 00:23:58,460
+So what I was doing is that I was trying to destructure this array fine into multiple parts such that I say that
+
+313
+00:23:58,620 --> 00:24:03,260
+Gave me first two elements in f and g variable and all the remaining
+
+314
+00:24:03,900 --> 00:24:07,340
+Rest operator gave me all the rest of elements in e key
+
+315
+00:24:08,140 --> 00:24:14,060
+Okay, let's e variable. Let's say if I execute this one if you see what's the output here?
+
+316
+00:24:14,540 --> 00:24:17,020
+I got one and two for the f and g
+
+317
+00:24:17,660 --> 00:24:21,100
+Then I got e as all the other other items
+
+318
+00:24:22,460 --> 00:24:25,900
+Is this clear like how this rest operator is working?
+
+319
+00:24:28,540 --> 00:24:33,900
+Like i'm just talking in terms of rest operator for destructuring i'll come to that step by step
+
+320
+00:24:34,620 --> 00:24:40,140
+Yeah, in general can you get me all the rest of items it just says that
+
+321
+00:24:42,140 --> 00:24:46,620
+Any iterable let's say if you when if you have an object, let's say I have an object
+
+322
+00:24:47,500 --> 00:24:48,780
+uh
+
+323
+00:24:48,780 --> 00:24:52,060
+Let's say let's build an object same thing as a first name john
+
+324
+00:24:52,780 --> 00:24:56,460
+Let's say you have a last name do then let's say you have something like
+
+325
+00:24:57,580 --> 00:24:59,580
+phone number
+
+326
+00:24:59,580 --> 00:25:01,580
+Okay
+
+327
+00:25:02,540 --> 00:25:04,700
+Okay
+
+328
+00:25:04,700 --> 00:25:06,300
+and
+
+329
+00:25:06,300 --> 00:25:11,100
+Let's say you can do something here is that let's say i'm getting the first i'm getting a name
+
+330
+00:25:11,740 --> 00:25:12,700
+and
+
+331
+00:25:12,700 --> 00:25:19,260
+Uh, let's say whenever you destructure an object you should destructure in terms of object. Let's say you're getting a name then you say that
+
+332
+00:25:20,780 --> 00:25:26,460
+Uh, you actually should get that particular key only you only then you can you will be able to get it
+
+333
+00:25:26,540 --> 00:25:28,460
+Let's say less lost items
+
+334
+00:25:28,460 --> 00:25:30,460
+Object other items
+
+335
+00:25:31,660 --> 00:25:36,060
+Okay, so now let's see if I try to do a console log what i'm able to get it here
+
+336
+00:25:38,140 --> 00:25:40,140
+Object other items
+
+337
+00:25:40,780 --> 00:25:42,860
+If I try to re-execute it now if you see
+
+338
+00:25:43,740 --> 00:25:47,180
+If I particularly picked one particular key, right?
+
+339
+00:25:47,660 --> 00:25:52,620
+For while destructuring I say that hey, please break that particular room out of an this one
+
+340
+00:25:53,100 --> 00:25:58,460
+So i'm also parallelly expressing explaining what destructuring is combining with rest operator
+
+341
+00:25:59,020 --> 00:26:07,180
+So when I use rest operator other than last key last name this particular key i've got the first name and phone number here
+
+342
+00:26:07,880 --> 00:26:12,620
+Parallelly, I also try to destructure this one such that I can give me that last name
+
+343
+00:26:13,180 --> 00:26:16,140
+So that if I want last name anywhere, I can use this way
+
+344
+00:26:17,740 --> 00:26:22,300
+Is this example clear guys like how destructuring and rest operator is working?
+
+345
+00:26:23,080 --> 00:26:25,080
+combination
+
+346
+00:26:25,900 --> 00:26:27,900
+Fing okay, cool
+
+347
+00:26:27,900 --> 00:26:32,700
+So guys what I did here is that I created a new array called array phi
+
+348
+00:26:33,500 --> 00:26:35,980
+And I had items from one to three four five
+
+349
+00:26:36,540 --> 00:26:41,180
+Now I want to destructure them. Okay such that i'll get i'll use this first two elements
+
+350
+00:26:41,740 --> 00:26:47,260
+Like let's say if I use fing then i'm saying that can you give me the first element and second element of this array?
+
+351
+00:26:47,980 --> 00:26:49,980
+Then pack all the rest of items
+
+352
+00:26:50,540 --> 00:26:52,540
+into this e variable
+
+353
+00:26:53,580 --> 00:26:57,340
+So when i'm trying to do console log here if you see for the
+
+354
+00:26:57,980 --> 00:27:03,740
+F and g i'm getting like one and two for the e i'm getting all the three all the three
+
+355
+00:27:05,020 --> 00:27:07,020
+three four five
+
+356
+00:27:07,580 --> 00:27:14,700
+Is this clear guys now I hope like a rest versus spread operator and then destructuring on a top level is clear because
+
+357
+00:27:15,100 --> 00:27:20,060
+This concept will will be keep on using it now and when when we
+
+358
+00:27:20,620 --> 00:27:24,700
+Going we will reuse it again again. I will keep rebrushing this one. Okay
+
+359
+00:27:25,900 --> 00:27:29,820
+Yeah, all the things will be stored in an array because you're trying to destructure an array
+
+360
+00:27:30,220 --> 00:27:35,100
+So it will come in an array if you see object other items when i'm trying to destructure i'm getting an object
+
+361
+00:27:37,100 --> 00:27:39,100
+Is that clear somebody
+
+362
+00:27:43,740 --> 00:27:47,740
+So great guys, I hope if we are clear can we move ahead with the next topic
+
+363
+00:27:50,140 --> 00:27:51,660
+Great
+
+364
+00:27:51,660 --> 00:27:55,100
+So if you have any doubts do let me know any name is fine
+
+365
+00:27:55,180 --> 00:27:59,500
+Yeah, any name is fine. Even uh, let's say you can give something like alias names also
+
+366
+00:27:59,500 --> 00:28:01,500
+Let's say I gave this as a name
+
+367
+00:28:01,660 --> 00:28:05,180
+Uh, and I can print this name here if you want to do it
+
+368
+00:28:05,820 --> 00:28:07,820
+That's also possible
+
+369
+00:28:08,300 --> 00:28:11,340
+If you see for the name also when i'm trying to do console log
+
+370
+00:28:11,900 --> 00:28:12,940
+uh
+
+371
+00:28:12,940 --> 00:28:18,460
+Like I i'm not supposed to give use this particular way like a name constraint
+
+372
+00:28:19,020 --> 00:28:25,660
+So since it stays deprecated but I can give any alias names to the properties whatever I have
+
+373
+00:28:28,440 --> 00:28:34,380
+Destructuring hemangi when i'll use react right in each file i'll be using this concept again and again destructuring
+
+374
+00:28:34,380 --> 00:28:36,380
+I'll show you many of the examples
+
+375
+00:28:37,260 --> 00:28:41,980
+Like I introduce this topic so that once I start right when i'm trying to do this one
+
+376
+00:28:42,620 --> 00:28:45,500
+Like if you remember in last class, I did this something called
+
+377
+00:28:46,140 --> 00:28:51,580
+Spread operator now you will be able to see in future like when i'm destructuring how I can do it. Okay
+
+378
+00:28:52,220 --> 00:28:58,060
+So you go for any react component something that you receive props you destructure the props first
+
+379
+00:28:58,700 --> 00:29:05,020
+So if I tell it on a top level, but i'll give you many more examples in real time when we keep on doing the projects. Okay
+
+380
+00:29:06,140 --> 00:29:07,420
+so
+
+381
+00:29:07,420 --> 00:29:09,420
+Let's move ahead guys
+
+382
+00:29:10,140 --> 00:29:15,980
+So the second topic that we have to pick it up today is something called as
+
+383
+00:29:16,860 --> 00:29:18,460
+from the functional
+
+384
+00:29:18,460 --> 00:29:20,380
+programming point of view
+
+385
+00:29:20,380 --> 00:29:22,380
+uh now let's say
+
+386
+00:29:22,620 --> 00:29:25,020
+What are the types of programming that you might have?
+
+387
+00:29:25,900 --> 00:29:27,500
+here heard or
+
+388
+00:29:27,500 --> 00:29:29,500
+You know seen those
+
+389
+00:29:29,500 --> 00:29:31,500
+Uh
+
+390
+00:29:37,340 --> 00:29:40,540
+What type of different types of programming styles that you might have heard of
+
+391
+00:29:45,740 --> 00:29:51,660
+Uh guys, uh programming styles, right? Uh, some people say oops
+
+392
+00:29:54,300 --> 00:29:56,300
+And functional
+
+393
+00:29:56,460 --> 00:29:58,460
+And procedural
+
+394
+00:29:59,820 --> 00:30:04,220
+Right this type of programming languages you might have heard isn't it
+
+395
+00:30:07,340 --> 00:30:10,540
+Guys, can you give me thumbs up if you have heard this these are the principles
+
+396
+00:30:11,500 --> 00:30:15,340
+No, this is the way of writing code or getting your work done. I've been
+
+397
+00:30:16,780 --> 00:30:19,980
+It's a different way of writing your building projects you can follow any of this
+
+398
+00:30:20,460 --> 00:30:26,060
+Your building projects you can follow any of this, uh, you know, yeah, you can say the principles also, but
+
+399
+00:30:26,780 --> 00:30:29,580
+This is a you know, different language supports different sort of things
+
+400
+00:30:30,460 --> 00:30:31,820
+Okay
+
+401
+00:30:31,820 --> 00:30:39,420
+But now if you see any any example for oops, which language does oops use like any examples, which language you have seen oops more
+
+402
+00:30:40,520 --> 00:30:42,140
+utilized
+
+403
+00:30:42,140 --> 00:30:43,340
+java
+
+404
+00:30:43,340 --> 00:30:45,340
+And any other language case other than java
+
+405
+00:30:46,540 --> 00:30:48,540
+python
+
+406
+00:30:48,540 --> 00:30:54,880
+And any other c++ more right now when it comes to procedural
+
+407
+00:30:58,860 --> 00:31:00,860
+I'll come to javascript
+
+408
+00:31:02,780 --> 00:31:05,740
+And comes to procedural sequel, okay and
+
+409
+00:31:06,780 --> 00:31:13,340
+One of the first book that you might have studied in computer science if if you are from computer science background or any other engineering background
+
+410
+00:31:13,500 --> 00:31:15,500
+You
+
+411
+00:31:15,740 --> 00:31:17,820
+See right have you got
+
+412
+00:31:18,620 --> 00:31:22,140
+Went across this book called let us see by kushvan connect
+
+413
+00:31:23,180 --> 00:31:26,700
+In libraries or anywhere that you've been if you remember in your college
+
+414
+00:31:27,420 --> 00:31:29,420
+right, so
+
+415
+00:31:30,220 --> 00:31:36,380
+That's so what happens in procedural language like yeah if I came in top level, right?
+
+416
+00:31:36,380 --> 00:31:41,100
+I'll just try to explain what's happening in the in in these three types of you know
+
+417
+00:31:42,060 --> 00:31:43,580
+A paradigm
+
+418
+00:31:43,580 --> 00:31:44,780
+Okay
+
+419
+00:31:44,780 --> 00:31:51,420
+I agree. I didn't like c2. So what happens here is that in c most of the things are, you know top to down
+
+420
+00:31:52,700 --> 00:31:54,700
+top to bottom
+
+421
+00:31:55,420 --> 00:31:57,420
+Level of execution
+
+422
+00:31:58,940 --> 00:32:06,140
+Right c executes from top to bottom and those are the procedures like from one by one procedure it will execute that's how
+
+423
+00:32:07,100 --> 00:32:09,420
+C used to when it comes to java
+
+424
+00:32:10,060 --> 00:32:15,120
+This works on all the like object-oriented programming concepts, which are like inheritance
+
+425
+00:32:16,060 --> 00:32:21,660
+And all this thing firstly inheritance and everything revolves around something like class and object once you know them
+
+426
+00:32:21,740 --> 00:32:23,740
+Then you can apply principles like
+
+427
+00:32:24,520 --> 00:32:26,780
+inheritance then abstraction
+
+428
+00:32:31,100 --> 00:32:33,840
+Then you have something like polymorphism
+
+429
+00:32:37,100 --> 00:32:39,100
+What is the last thing guys
+
+430
+00:32:42,600 --> 00:32:44,600
+Encapsulation
+
+431
+00:32:45,020 --> 00:32:50,780
+Right, so these are the things that generally an object-oriented programming looks like isn't it?
+
+432
+00:32:55,420 --> 00:32:57,340
+Now
+
+433
+00:32:57,340 --> 00:33:03,120
+So what happens to this function of programming language is that javascript?
+
+434
+00:33:03,920 --> 00:33:11,280
+Is actually a functional programming language, okay, but this also
+
+435
+00:33:13,920 --> 00:33:15,120
+Yeah
+
+436
+00:33:15,120 --> 00:33:17,120
+But it's a more of a procedural
+
+437
+00:33:17,520 --> 00:33:21,440
+Specific abhishek like how that is executed. I mean to talk about that
+
+438
+00:33:22,640 --> 00:33:27,120
+On a top level i'm trying to talk about this one, but nothing much in depth as of now
+
+439
+00:33:27,760 --> 00:33:32,320
+Because i'm particularly focusing on what's functional programming language as of now
+
+440
+00:33:33,280 --> 00:33:35,280
+Okay
+
+441
+00:33:35,760 --> 00:33:37,680
+so
+
+442
+00:33:37,680 --> 00:33:40,480
+Javascript is completely functional programming language
+
+443
+00:33:42,000 --> 00:33:43,360
+now
+
+444
+00:33:43,360 --> 00:33:48,960
+How like you know everything that you write everything that you write in javascript will be
+
+445
+00:33:49,520 --> 00:33:54,720
+Around everything is like around the functions like you write down all the functions and then only you do it
+
+446
+00:33:55,280 --> 00:34:02,640
+You cannot write down anything like variable and then you type on you write the arithmetic operations and keep on writing those like top to bottom
+
+447
+00:34:03,200 --> 00:34:08,880
+So this is like function if you do if you even define the function below above you can reuse them as per your use
+
+448
+00:34:09,520 --> 00:34:11,520
+so javascript also
+
+449
+00:34:12,300 --> 00:34:14,300
+supports
+
+450
+00:34:15,580 --> 00:34:17,580
+Object-oriented
+
+451
+00:34:18,060 --> 00:34:19,520
+programming
+
+452
+00:34:19,520 --> 00:34:20,720
+but
+
+453
+00:34:20,720 --> 00:34:25,280
+How does it do it will explore in the future classes when I teach object-oriented programming?
+
+454
+00:34:26,080 --> 00:34:28,080
+But behind the scenes
+
+455
+00:34:28,240 --> 00:34:30,240
+Okay
+
+456
+00:34:31,120 --> 00:34:33,120
+It's functional programming
+
+457
+00:34:38,800 --> 00:34:42,320
+Okay behind the scenes it's completely a functional programming
+
+458
+00:34:44,240 --> 00:34:48,240
+So just keep this is just a overview like the different types of you know
+
+459
+00:34:49,200 --> 00:34:53,760
+What type of paradigm paradigm we follow and what are the existing things that have been done?
+
+460
+00:34:54,320 --> 00:34:58,160
+But let's not explore the definitions and what's going in depth but
+
+461
+00:34:58,800 --> 00:35:02,340
+You have to come back to the one concept called callbacks
+
+462
+00:35:04,560 --> 00:35:07,460
+Have anyone heard about word callback
+
+463
+00:35:11,680 --> 00:35:13,680
+Callback
+
+464
+00:35:15,680 --> 00:35:17,680
+No
+
+465
+00:35:18,080 --> 00:35:20,080
+When I say
+
+466
+00:35:20,720 --> 00:35:24,400
+If I say you can you call me back later, what do you exactly mean that
+
+467
+00:35:27,840 --> 00:35:33,840
+If I say that someone is calling me i'll say that can you call me back later now that person other person will decide right
+
+468
+00:35:34,240 --> 00:35:36,240
+Uh that when he'll call me back
+
+469
+00:35:36,400 --> 00:35:38,400
+I'm giving him
+
+470
+00:35:39,200 --> 00:35:45,920
+Yeah, uh, but let's talk it in real, you know real time examples guys firstly not going into javascript as of now
+
+471
+00:35:46,320 --> 00:35:50,240
+But think of it if you're on a phone call and if you're saying that someone
+
+472
+00:35:51,280 --> 00:35:57,600
+Yeah contact later like if you say as for as himang is himang you suggest like wait for now, but contact later
+
+473
+00:35:58,000 --> 00:36:05,040
+Now if you say that when i'm saying that hey you call me back later. Now that person decides right you're giving a control to that person
+
+474
+00:36:06,000 --> 00:36:11,920
+To call you back whenever after some time, but you are not specifying like can you call me back later at this particular time?
+
+475
+00:36:12,880 --> 00:36:20,560
+Okay, when you say just call back it's it's it's his responsibility to call you back whenever he needs isn't it
+
+476
+00:36:22,560 --> 00:36:26,880
+At least that level definition like you remember call me back later
+
+477
+00:36:30,800 --> 00:36:32,800
+Okay now
+
+478
+00:36:33,120 --> 00:36:38,480
+Let's understand this one in terms of you know javascript now. Let's take that example by example
+
+479
+00:36:39,040 --> 00:36:41,040
+Let's say I have a function call
+
+480
+00:36:42,880 --> 00:36:44,880
+Print
+
+481
+00:36:45,680 --> 00:36:52,240
+First name so i'm taking really simple examples guys, uh, which will help you to understand concepts one by one
+
+482
+00:36:52,320 --> 00:36:55,360
+Okay, let's say i'm trying to do something like console.log name
+
+483
+00:36:56,080 --> 00:36:58,800
+And I say that i'll also try to print this again
+
+484
+00:37:00,240 --> 00:37:02,240
+as a last name
+
+485
+00:37:05,440 --> 00:37:08,160
+And let's say I try to do something like console.log
+
+486
+00:37:08,160 --> 00:37:15,760
+And I say that print first name dot inside that uh, let's say I pick it up
+
+487
+00:37:17,360 --> 00:37:19,360
+Himagi
+
+488
+00:37:20,080 --> 00:37:24,560
+Then I can say print last name as
+
+489
+00:37:25,920 --> 00:37:27,920
+power
+
+490
+00:37:28,160 --> 00:37:30,160
+Okay
+
+491
+00:37:30,160 --> 00:37:31,120
+now
+
+492
+00:37:31,120 --> 00:37:35,200
+Let's try to first execute and verify this one if this is working fine
+
+493
+00:37:35,440 --> 00:37:37,440
+Verify this one if this is working fine
+
+494
+00:37:39,440 --> 00:37:41,440
+Clear ls
+
+495
+00:37:42,160 --> 00:37:44,160
+uh node
+
+496
+00:37:44,400 --> 00:37:46,400
+Call back
+
+497
+00:37:46,480 --> 00:37:53,440
+Hof dot js now when I execute so first thing i'm getting is like i'm getting this output himangi power. That's fine
+
+498
+00:37:53,840 --> 00:37:59,040
+But here ignore this undefined undefined. We'll talk about that why it is coming and when it's use case
+
+499
+00:37:59,040 --> 00:38:00,960
+What is the use case of this one?
+
+500
+00:38:00,960 --> 00:38:02,960
+now
+
+501
+00:38:03,440 --> 00:38:05,840
+Do you say this function both functions are like
+
+502
+00:38:07,360 --> 00:38:09,360
+This is there's something common like
+
+503
+00:38:10,160 --> 00:38:12,160
+Do you really need these two functions?
+
+504
+00:38:12,720 --> 00:38:15,600
+To do some activity which is like just printing it
+
+505
+00:38:16,480 --> 00:38:18,320
+Isn't it duplicating?
+
+506
+00:38:18,320 --> 00:38:20,320
+code
+
+507
+00:38:24,240 --> 00:38:28,400
+Guys, uh, it's it's just printing that name right console log nothing else it's doing
+
+508
+00:38:28,400 --> 00:38:34,640
+Right, so if you want to so it's what's what's principle breaking what's oh have anyone heard of this something called dry?
+
+509
+00:38:36,000 --> 00:38:38,000
+Have anyone heard of this something called dry?
+
+510
+00:38:41,760 --> 00:38:43,760
+Have anyone heard this something called dry?
+
+511
+00:38:46,160 --> 00:38:48,160
+Can't see it properly, uh
+
+512
+00:38:55,120 --> 00:38:57,120
+Abhinav can you rejoin the class?
+
+513
+00:38:58,560 --> 00:39:00,560
+Okay
+
+514
+00:39:04,960 --> 00:39:13,680
+Is anyone else facing net internet, uh, okay great so dry stands for something like don't we use it
+
+515
+00:39:15,920 --> 00:39:24,240
+Don't try to repeat I mean if I exactly term this one don't repeat yourself
+
+516
+00:39:24,560 --> 00:39:26,560
+Abhinav
+
+517
+00:39:27,440 --> 00:39:32,480
+So if you see this is breaking some of the design principles such that we are saying that
+
+518
+00:39:33,200 --> 00:39:37,840
+Uh, we are repeating that same logic right functional body same right at least names are different
+
+519
+00:39:37,840 --> 00:39:40,800
+But this particular body both things are same, isn't it?
+
+520
+00:39:43,440 --> 00:39:49,600
+Is that clear like uh what this principle is talking like don't repeat yourself so it is asking us to fix this issue
+
+521
+00:39:50,000 --> 00:39:51,600
+Now, how can we fix this issue?
+
+522
+00:39:51,600 --> 00:39:54,560
+Let's say this one of the way that you can do
+
+523
+00:39:55,280 --> 00:39:57,280
+Okay, one of the way that you can do
+
+524
+00:39:57,360 --> 00:39:59,360
+So what I'll do is that let's say
+
+525
+00:40:00,080 --> 00:40:03,040
+One of the basic thing that I can do is like let's say I have some
+
+526
+00:40:04,000 --> 00:40:05,600
+function
+
+527
+00:40:05,600 --> 00:40:07,600
+I can say print
+
+528
+00:40:08,240 --> 00:40:10,240
+Full name
+
+529
+00:40:10,240 --> 00:40:12,000
+and
+
+530
+00:40:12,000 --> 00:40:14,800
+What I can do here is that let's say I have
+
+531
+00:40:15,840 --> 00:40:16,960
+name
+
+532
+00:40:16,960 --> 00:40:19,200
+And then have something like callback function
+
+533
+00:40:19,360 --> 00:40:21,680
+I'll come back to what's callback function is
+
+534
+00:40:22,480 --> 00:40:28,640
+Now what I'll do here is that I'll just return here this callback function
+
+535
+00:40:29,680 --> 00:40:31,680
+Passing name into it
+
+536
+00:40:32,160 --> 00:40:36,400
+Now let's decide what this callback function will do
+
+537
+00:40:37,120 --> 00:40:42,720
+Now let's say I say this callback function will take the name and try to print the name
+
+538
+00:40:42,720 --> 00:40:44,720
+And try to print the name
+
+539
+00:40:46,080 --> 00:40:51,520
+Now how do you exactly execute the both the things now if I say console dot log
+
+540
+00:40:53,440 --> 00:41:00,800
+Okay, I say print full name inside that I can pass let's say hey monkey
+
+541
+00:41:03,840 --> 00:41:06,880
+Also, I can give something like callback function
+
+542
+00:41:08,720 --> 00:41:11,440
+And similarly I can again say this logic
+
+543
+00:41:13,440 --> 00:41:15,440
+Power
+
+544
+00:41:16,560 --> 00:41:21,280
+Now do you see this case what I was trying to just do is that I'm changing now if you see
+
+545
+00:41:22,080 --> 00:41:24,080
+The body is different
+
+546
+00:41:24,640 --> 00:41:25,680
+I am
+
+547
+00:41:25,680 --> 00:41:30,080
+Something what I'm doing here is that when I'm passing inside when I'm calling this function
+
+548
+00:41:30,080 --> 00:41:34,880
+I'm passing a function which is declared now in last class. We have understood that
+
+549
+00:41:35,680 --> 00:41:40,880
+Functions in javascript as called as first-class citizens reason behind it
+
+550
+00:41:40,880 --> 00:41:46,320
+It can be used as method variables expression. It can accept functions. It can return function
+
+551
+00:41:46,560 --> 00:41:53,680
+Now if you see I'm just re-executing that statement. So I'm passing a function and it is executing that function and returning it
+
+552
+00:41:55,280 --> 00:41:58,800
+Okay, now let's see how this is working if I try to
+
+553
+00:41:59,360 --> 00:42:00,880
+Re-execute this one
+
+554
+00:42:00,880 --> 00:42:06,000
+Still I'm getting hey monkey power. Is this at least clear like how I'm getting output?
+
+555
+00:42:06,000 --> 00:42:08,000
+Is this clear how I'm getting output
+
+556
+00:42:12,720 --> 00:42:14,880
+Yes, is this clear how I'm getting output
+
+557
+00:42:16,080 --> 00:42:18,000
+Okay now
+
+558
+00:42:18,000 --> 00:42:23,760
+Now let's say what is callback? Okay. So let's say whenever I'm saying that on a phone call
+
+559
+00:42:23,840 --> 00:42:27,840
+Hey call me back later. So I'm saying that this is let's say a person b
+
+560
+00:42:30,400 --> 00:42:35,920
+Uh, give me a second. Let's say this is a person b and this is something like a
+
+561
+00:42:36,320 --> 00:42:38,320
+okay
+
+562
+00:42:39,200 --> 00:42:41,200
+Now let's say
+
+563
+00:42:41,760 --> 00:42:46,960
+Whenever you are trying to print this one print full name you are
+
+564
+00:42:48,240 --> 00:42:53,440
+Passing a callback function, but you are not saying anything to this print full name when you're calling it
+
+565
+00:42:54,080 --> 00:42:58,480
+Saying that hey call me back at particular time. You're not passing any say saying anything
+
+566
+00:42:58,480 --> 00:43:01,520
+But this function inside this its body
+
+567
+00:43:02,400 --> 00:43:07,520
+It will execute whenever it needs so whenever I are using something like a
+
+568
+00:43:08,000 --> 00:43:10,640
+You're saying that can you call me back later?
+
+569
+00:43:10,720 --> 00:43:16,160
+So whenever this particular thing is being used it says to a particular function in which it is being passed
+
+570
+00:43:16,160 --> 00:43:19,200
+Can you call me back later? Like can you call me later like something like
+
+571
+00:43:20,080 --> 00:43:24,800
+Uh, I I hope you are able to relate this that a saying that call me later
+
+572
+00:43:24,880 --> 00:43:28,160
+And this person is calling it later whenever it can use it in the body
+
+573
+00:43:28,640 --> 00:43:32,960
+Why undefined if I'll come to that, okay if I execute this in the browser I won't get that
+
+574
+00:43:34,080 --> 00:43:42,880
+Okay, but now callbacks are those functions a callback function is those functions which are passed inside a function
+
+575
+00:43:44,560 --> 00:43:50,320
+Okay, whenever you are passing any function as a argument into any other function
+
+576
+00:43:50,880 --> 00:43:54,720
+Those functions are called as callback functions because those will be called
+
+577
+00:43:54,720 --> 00:44:03,200
+Inside those functions at any of any time we don't have any control over it when we are passing into it
+
+578
+00:44:03,600 --> 00:44:09,840
+Whatever function body is defined in it will move it will behave and execute according to that
+
+579
+00:44:10,480 --> 00:44:13,600
+Is that point clear guys like how what is callback?
+
+580
+00:44:14,400 --> 00:44:17,040
+Like let me give you a definition
+
+581
+00:44:17,760 --> 00:44:21,440
+Yeah, uh, let me give you an exact definition if you go through it
+
+582
+00:44:25,280 --> 00:44:31,440
+Like let's say I copy this and I put it here let's read it through now what it says is that
+
+583
+00:44:32,800 --> 00:44:38,640
+A callback function is a function passed into another function as an argument now here
+
+584
+00:44:39,440 --> 00:44:45,040
+We are passing a function as an argument into this function. Okay
+
+585
+00:44:46,320 --> 00:44:47,920
+and
+
+586
+00:44:47,920 --> 00:44:52,560
+Which is invoked inside the outer function to complete some sort of action
+
+587
+00:44:52,720 --> 00:44:58,800
+So this function will be invoked out out the outer function to do some action
+
+588
+00:45:01,280 --> 00:45:05,360
+So I hope it doesn't mean really anything great guys
+
+589
+00:45:05,440 --> 00:45:06,800
+It's just a bookish definition
+
+590
+00:45:06,800 --> 00:45:11,920
+But what I exactly mean by callback is whenever you are passing a function inside any other function
+
+591
+00:45:12,000 --> 00:45:16,480
+It's just that is called as a callback. It's because you're giving that power to that other function
+
+592
+00:45:16,480 --> 00:45:19,120
+Hey, you can call me back anytime that you want or behave
+
+593
+00:45:19,680 --> 00:45:21,680
+You use me as you want it
+
+594
+00:45:23,280 --> 00:45:25,780
+Guys are you able to relate with what callback is?
+
+595
+00:45:33,920 --> 00:45:39,120
+Uh, where are we gonna use this thing? Okay, i'll come to that. Okay. This is like one of the core concept
+
+596
+00:45:39,600 --> 00:45:42,080
+Really useful concept. Let me do one thing. Uh
+
+597
+00:45:43,920 --> 00:45:46,000
+Let me do one thing say I use
+
+598
+00:45:46,960 --> 00:45:48,560
+Uh
+
+599
+00:45:48,560 --> 00:45:54,320
+You know, I can show you the debugging in the ps code also what you can do is like you can click on this button
+
+600
+00:45:54,960 --> 00:46:00,800
+And you can open this javascript terminal, uh, and it is pointing here. Let's move to that particular thing
+
+601
+00:46:02,480 --> 00:46:04,480
+CD classes
+
+602
+00:46:05,520 --> 00:46:08,160
+Ls cd javascript
+
+603
+00:46:10,880 --> 00:46:12,880
+Ls
+
+604
+00:46:13,520 --> 00:46:15,520
+CD
+
+605
+00:46:15,760 --> 00:46:17,760
+Class 10
+
+606
+00:46:19,520 --> 00:46:23,760
+And this node uh callback
+
+607
+00:46:25,980 --> 00:46:27,980
+Hof dot gs
+
+608
+00:46:29,040 --> 00:46:31,040
+Now if you see
+
+609
+00:46:31,200 --> 00:46:34,880
+These are both functions. Let's understand flow by flow guys step by step
+
+610
+00:46:35,680 --> 00:46:42,320
+You can see a call stack on the left. It is executing this particular step. Uh, let me close this watch
+
+611
+00:46:42,400 --> 00:46:44,400
+I don't need this
+
+612
+00:46:45,120 --> 00:46:49,280
+Now if you see so firstly i am executing this print full name
+
+613
+00:46:49,920 --> 00:46:53,680
+Then it will go inside this print full name. Now if I go inside this print full name
+
+614
+00:46:53,760 --> 00:46:56,560
+If you see a callback function is holding this function
+
+615
+00:46:57,200 --> 00:46:59,200
+This particular function, right?
+
+616
+00:46:59,760 --> 00:47:02,400
+Print full name is added on the stack here
+
+617
+00:47:03,040 --> 00:47:04,080
+then
+
+618
+00:47:04,080 --> 00:47:10,000
+If I re-execute this one, then if you see on a new execution context for the callback is created
+
+619
+00:47:10,640 --> 00:47:12,640
+and this callback
+
+620
+00:47:13,120 --> 00:47:16,240
+Is getting something called as a name attribute called hey monkey
+
+621
+00:47:17,600 --> 00:47:20,560
+So in order to avoid something called a dry principle
+
+622
+00:47:21,440 --> 00:47:23,440
+like in order to use like
+
+623
+00:47:24,080 --> 00:47:28,000
+In order to avoid duplication of code what we have done done it here is that
+
+624
+00:47:28,480 --> 00:47:32,000
+We pass whatever common use case would be there. We have written a function
+
+625
+00:47:32,080 --> 00:47:37,520
+We gave this power to you know, print full name and we'll print it whatever it you want to do it
+
+626
+00:47:38,560 --> 00:47:39,840
+Okay
+
+627
+00:47:39,840 --> 00:47:42,900
+Is this example clear guys how this is working step by step?
+
+628
+00:47:50,800 --> 00:47:56,400
+So it's it's nothing but whenever you pass a function inside any other function
+
+629
+00:47:56,960 --> 00:48:02,640
+That which function is being passed inside is called as a callback function. Just remember that simple definition
+
+630
+00:48:03,120 --> 00:48:08,000
+I was just trying to make it complicated because I want to explain you how this will be executed
+
+631
+00:48:08,560 --> 00:48:10,400
+You know step by step
+
+632
+00:48:10,400 --> 00:48:14,800
+But the basic definition is in whenever in arguments if you are passing any function
+
+633
+00:48:15,120 --> 00:48:20,160
+Like let's say this is a function or any other function if you are passing it that particular function will be called as callback because
+
+634
+00:48:20,240 --> 00:48:22,000
+That will be called back
+
+635
+00:48:22,000 --> 00:48:26,000
+Inside this function at any random time depending upon how this is defined
+
+636
+00:48:27,920 --> 00:48:29,920
+So I hope no doubts guys in this case
+
+637
+00:48:30,720 --> 00:48:33,120
+Hey, this undefined undefined
+
+638
+00:48:34,800 --> 00:48:36,320
+like
+
+639
+00:48:36,320 --> 00:48:39,520
+Let me see where i'm getting it. How i'm getting it
+
+640
+00:48:40,160 --> 00:48:43,920
+Not exactly sure because i'm not printing something undefined here if you see
+
+641
+00:48:44,880 --> 00:48:48,480
+The name is available. Everything is available, but we'll see this
+
+642
+00:48:49,840 --> 00:48:51,840
+Okay
+
+643
+00:48:51,840 --> 00:48:58,560
+I'll come to that but is the concept of the function is the concept of the function is the concept of the function is the concept of the function
+
+644
+00:48:58,560 --> 00:49:01,360
+Come to that but is the concept of callback is clear firstly
+
+645
+00:49:05,360 --> 00:49:10,160
+Right now now i'll explain one more thing guys one more definition, let's say
+
+646
+00:49:11,360 --> 00:49:13,360
+I'll come to call something called hof
+
+647
+00:49:14,160 --> 00:49:16,480
+Now hof stands for something called as high
+
+648
+00:49:17,520 --> 00:49:18,560
+order
+
+649
+00:49:18,560 --> 00:49:20,560
+function
+
+650
+00:49:20,880 --> 00:49:22,880
+Or you can say higher order function
+
+651
+00:49:23,680 --> 00:49:24,880
+Okay
+
+652
+00:49:24,880 --> 00:49:26,880
+Now what hof is
+
+653
+00:49:26,880 --> 00:49:29,620
+It says that let me copy this definition that i have written
+
+654
+00:49:34,800 --> 00:49:35,920
+Now if you
+
+655
+00:49:35,920 --> 00:49:43,280
+Read this definition any function that takes in a function or returns one out is a higher order function
+
+656
+00:49:45,360 --> 00:49:51,680
+So it says that any function that takes in a function like it means when it says that takes in a function
+
+657
+00:49:52,160 --> 00:49:55,280
+This is this particular printful name is taking a function in it, right?
+
+658
+00:49:57,360 --> 00:50:00,800
+So can I say printful name is a higher order function?
+
+659
+00:50:06,640 --> 00:50:13,040
+Right, let's say I change this uh print name instead of callback
+
+660
+00:50:14,640 --> 00:50:16,640
+I give this
+
+661
+00:50:17,920 --> 00:50:19,920
+And let's say I change this
+
+662
+00:50:19,920 --> 00:50:23,680
+Uh print name instead of callback
+
+663
+00:50:25,440 --> 00:50:27,440
+I give this here
+
+664
+00:50:29,680 --> 00:50:40,640
+Right now so here in this example if you see print full name is an higher order function
+
+665
+00:50:40,640 --> 00:50:42,640
+So
+
+666
+00:50:45,120 --> 00:50:50,880
+Reason it's taking accepting a function inside it as a parameter
+
+667
+00:50:52,080 --> 00:50:54,080
+and print name
+
+668
+00:50:54,800 --> 00:50:56,800
+Is a callback function
+
+669
+00:50:57,040 --> 00:51:00,160
+Because that is being passed into a function
+
+670
+00:51:02,560 --> 00:51:05,360
+And that function function will decide when to execute this one
+
+671
+00:51:06,320 --> 00:51:12,400
+Is that clear guys what callback and higher order function is with small example i've tried to explain you this one
+
+672
+00:51:13,040 --> 00:51:19,760
+So this both things are allowing us to this combination is allowing us to you know, avoid something called as dry repeating ourselves
+
+673
+00:51:21,360 --> 00:51:23,040
+Okay
+
+674
+00:51:23,040 --> 00:51:24,400
+so
+
+675
+00:51:24,400 --> 00:51:26,400
+Any doubts guys still no any doubts?
+
+676
+00:51:26,400 --> 00:51:28,400
+Okay
+
+677
+00:51:32,720 --> 00:51:34,720
+Not outside, okay, let's let's go
+
+678
+00:51:35,360 --> 00:51:39,600
+Moving ahead with the one, uh, you know small simple dsa problem for you all
+
+679
+00:51:40,160 --> 00:51:43,280
+So, please help me out guys to you know address this problem
+
+680
+00:51:44,240 --> 00:51:45,760
+uh
+
+681
+00:51:45,760 --> 00:51:50,240
+Let's say I have something like uh, uh my radius array
+
+682
+00:51:50,720 --> 00:51:52,720
+Okay
+
+683
+00:51:53,600 --> 00:51:57,040
+Inside that i've given us different radiuses, okay
+
+684
+00:51:57,600 --> 00:51:59,600
+Let's say I have this radius seven
+
+685
+00:52:00,000 --> 00:52:04,560
+two five two three five six seven eight and this radiuses are of
+
+686
+00:52:08,160 --> 00:52:12,240
+Let's say radius of different circles
+
+687
+00:52:16,480 --> 00:52:19,280
+Okay now i'm I want to
+
+688
+00:52:20,240 --> 00:52:22,240
+find
+
+689
+00:52:24,560 --> 00:52:27,440
+For each circle
+
+690
+00:52:30,560 --> 00:52:37,380
+Three things what are those three things that I want to find area then circumference
+
+691
+00:52:41,440 --> 00:52:47,360
+And diameter how would you write a logic?
+
+692
+00:52:50,960 --> 00:52:55,680
+Is this question clear guys three functions
+
+693
+00:52:58,720 --> 00:53:03,760
+Good now, let's say I try to write function called calculate
+
+694
+00:53:05,680 --> 00:53:09,120
+Area I am receiving a radius here
+
+695
+00:53:11,440 --> 00:53:14,400
+In it now what could be the
+
+696
+00:53:14,640 --> 00:53:16,640
+What could be the
+
+697
+00:53:17,040 --> 00:53:22,320
+Formula for this one. Let's say I pass on whole radius array inside this one
+
+698
+00:53:23,760 --> 00:53:31,680
+So one of the ways like let's say area of a result area. I can say that this is something like a result area
+
+699
+00:53:34,480 --> 00:53:39,840
+And you have an array then you iterate through the loop
+
+700
+00:53:40,640 --> 00:53:42,640
+Then you iterate through the loop
+
+701
+00:53:45,280 --> 00:53:47,280
+Right
+
+702
+00:53:49,120 --> 00:53:53,360
+So you have a result area dot of i equal to
+
+703
+00:53:58,160 --> 00:54:04,240
+So i'll leave that mathematical equation as of now and i'll say that fit on result area
+
+704
+00:54:04,240 --> 00:54:06,240
+So
+
+705
+00:54:08,400 --> 00:54:14,240
+So it says 2 pi r is everyone agreeing guys it's 2 pi r for area
+
+706
+00:54:18,160 --> 00:54:23,040
+Yes, just think of it what is the formula for area of circle
+
+707
+00:54:24,400 --> 00:54:27,360
+Pi r square. No, what is the value of pi?
+
+708
+00:54:29,760 --> 00:54:31,760
+Value of pi
+
+709
+00:54:32,320 --> 00:54:35,840
+3.14 I said 3.14 into
+
+710
+00:54:37,680 --> 00:54:40,480
+My radius array of I
+
+711
+00:54:42,080 --> 00:54:46,480
+Into my radius array of I
+
+712
+00:54:48,000 --> 00:54:51,440
+This is it right this is how you will be able to calculate
+
+713
+00:54:54,480 --> 00:54:59,280
+So let's say instead of putting here as I index I do something like push
+
+714
+00:54:59,760 --> 00:55:02,800
+Because here I want to push it each item into an array
+
+715
+00:55:04,080 --> 00:55:06,080
+This is what a function looks like
+
+716
+00:55:06,720 --> 00:55:11,200
+Right calculate area similarly what we would do is like we'll create another function here
+
+717
+00:55:12,880 --> 00:55:17,520
+And it does the only thing difference here is that formula now what would be the formula
+
+718
+00:55:19,920 --> 00:55:25,600
+Let's say I do this result I just make it result instead of result area
+
+719
+00:55:25,760 --> 00:55:29,700
+Uh, and actually declare a small
+
+720
+00:55:41,520 --> 00:55:44,260
+And let's say I call I am trying to calculate circumference
+
+721
+00:55:47,280 --> 00:55:53,360
+And what could be the formula for second 2 pi r, okay, right so I make uh two
+
+722
+00:55:54,320 --> 00:55:58,080
+Two into this one and this one right
+
+723
+00:55:59,840 --> 00:56:03,760
+Let's say another function that I have I'll I'll replicate this one
+
+724
+00:56:04,560 --> 00:56:08,160
+I'll put it here then something that I have to calculate is diameter
+
+725
+00:56:09,840 --> 00:56:11,840
+Diameter is
+
+726
+00:56:17,040 --> 00:56:19,760
+2r so let's remove this pipe
+
+727
+00:56:20,720 --> 00:56:27,680
+Right now if I try to console.log console.log and I say let's say area
+
+728
+00:56:36,160 --> 00:56:44,560
+Uh, I calculate calculate area and I pass my radius array into it and let's say I try to
+
+729
+00:56:45,520 --> 00:56:50,740
+Copy and create this one. Let's say I say circumference
+
+730
+00:57:01,200 --> 00:57:08,900
+Right, let's say I do the same thing I say calculate diameter. This is our diameter
+
+731
+00:57:09,860 --> 00:57:16,740
+Right now if let's say if this is working fine, I'll try to comment all the epoch code for a second
+
+732
+00:57:23,140 --> 00:57:25,140
+Let's try to re-execute this one
+
+733
+00:57:26,660 --> 00:57:34,980
+Uh, okay, there's a debugger here. I don't need it now if you see here what's happening is that we are able to print
+
+734
+00:57:35,780 --> 00:57:41,220
+All the values here that's working fine if you see here I'm able to get all the things that we need
+
+735
+00:57:43,540 --> 00:57:47,220
+Okay, but but do you see
+
+736
+00:57:48,740 --> 00:57:54,340
+Anything again are we breaking any principle that just we have discussed just now we have discussed something
+
+737
+00:57:56,100 --> 00:57:58,100
+Are we repeating any logic here
+
+738
+00:57:58,100 --> 00:58:00,100
+Are we repeating any logic here
+
+739
+00:58:04,900 --> 00:58:08,340
+Are we repeating any logic here guys just think of it like
+
+740
+00:58:10,020 --> 00:58:14,820
+Loops right. It's a common thing that we are trying to redo again and again again again, right?
+
+741
+00:58:15,380 --> 00:58:18,500
+Just a formula is changing isn't it all the other structure is same
+
+742
+00:58:21,300 --> 00:58:22,740
+Right
+
+743
+00:58:22,740 --> 00:58:31,300
+Param is same just a formula is changing now. Can anyone think of like the the structure that we have like this can be
+
+744
+00:58:32,260 --> 00:58:37,860
+Made a better readable code in terms of using something like high order function and a callback function
+
+745
+00:58:38,580 --> 00:58:41,780
+Can anyone think of it like that combination? How can we do that?
+
+746
+00:58:46,340 --> 00:58:48,660
+Anyone think of it like how can we do this?
+
+747
+00:58:53,140 --> 00:58:55,140
+So
+
+748
+00:58:56,020 --> 00:58:58,420
+Right now let's say let's say if I give you an
+
+749
+00:58:59,140 --> 00:59:00,900
+You know idea
+
+750
+00:59:00,900 --> 00:59:03,780
+What if I have a common function function?
+
+751
+00:59:04,720 --> 00:59:06,720
+calculate
+
+752
+00:59:07,300 --> 00:59:11,060
+And I say that i'll have something like accepting parameters
+
+753
+00:59:11,780 --> 00:59:15,380
+What i'll accept here is that so let's say radius array
+
+754
+00:59:16,900 --> 00:59:18,900
+I'll see i'll still have
+
+755
+00:59:19,620 --> 00:59:21,620
+my radius array
+
+756
+00:59:21,940 --> 00:59:24,900
+But also hell i'll have something like callback function
+
+757
+00:59:26,820 --> 00:59:28,660
+Say callback
+
+758
+00:59:28,660 --> 00:59:34,180
+Now what i'll i'll i'm supposed to do here is that i'll copy this thing whole thing
+
+759
+00:59:36,180 --> 00:59:38,980
+I'll put it here, but instead of this thing
+
+760
+00:59:40,340 --> 00:59:42,340
+I'll do something like callback
+
+761
+00:59:44,900 --> 00:59:48,340
+And i'll pass inside my radius of like
+
+762
+00:59:48,900 --> 00:59:50,900
+So
+
+763
+00:59:50,900 --> 00:59:54,580
+So what i'm just trying to do is that i'm just i've put all this thing here
+
+764
+00:59:55,460 --> 00:59:57,460
+and
+
+765
+00:59:58,740 --> 00:59:59,860
+Yeah
+
+766
+00:59:59,860 --> 01:00:04,260
+Right somewhere. So now we made one common function called calculate
+
+767
+01:00:04,820 --> 01:00:09,300
+Which is accepting a callback now, let's declare those callback functions. Let's say
+
+768
+01:00:10,080 --> 01:00:11,620
+calculate
+
+769
+01:00:11,620 --> 01:00:17,940
+Let's say I try to this is a the top one is version one of a code. Let's say I make this as a
+
+770
+01:00:19,300 --> 01:00:21,300
+version one
+
+771
+01:00:21,300 --> 01:00:22,820
+something like
+
+772
+01:00:22,820 --> 01:00:24,100
+v1
+
+773
+01:00:24,100 --> 01:00:25,060
+Okay
+
+774
+01:00:25,060 --> 01:00:29,860
+Now we are trying to build something called as version 2 v2 of code
+
+775
+01:00:31,460 --> 01:00:38,340
+Let's say calculate area inside this area what i'll receive i'll receive a radius of it
+
+776
+01:00:39,940 --> 01:00:46,740
+What I can return here return that same formula isn't it area is 3 pi r square
+
+777
+01:00:48,340 --> 01:00:51,400
+I mean pi r square. Sorry, let me copy this
+
+778
+01:00:58,100 --> 01:01:00,100
+Instead of this I can do radius
+
+779
+01:01:02,980 --> 01:01:04,980
+And radius
+
+780
+01:01:08,020 --> 01:01:09,620
+Okay
+
+781
+01:01:09,620 --> 01:01:17,400
+So this is supposed to give me area now if I try to copy this one, I paste it here, let's say diameter
+
+782
+01:01:18,340 --> 01:01:20,340
+of
+
+783
+01:01:20,980 --> 01:01:23,780
+It would be 2 r
+
+784
+01:01:26,500 --> 01:01:30,420
+Right and twice of radius then let's say I have
+
+785
+01:01:32,480 --> 01:01:34,480
+Circumference
+
+786
+01:01:39,300 --> 01:01:43,380
+Now circumference again picking up that formula 2 pi r
+
+787
+01:01:43,860 --> 01:01:45,860
+So
+
+788
+01:01:47,140 --> 01:01:50,820
+I do 3.14 into this one
+
+789
+01:01:53,060 --> 01:01:59,540
+Okay, so what I've just stated here is that I've created one function which will iterate and do all the handling
+
+790
+01:02:00,180 --> 01:02:05,860
+I'll pass on a function which is supposed to handle the logic part. Why did I separate this way is that
+
+791
+01:02:07,060 --> 01:02:09,140
+This is simple
+
+792
+01:02:09,140 --> 01:02:11,140
+Area diameter and circumference
+
+793
+01:02:11,140 --> 01:02:17,940
+But what if there are some complicated problems that you see in the circle like when you studied any mathematical chapters
+
+794
+01:02:18,420 --> 01:02:21,220
+Which are related to menstruations or geometry?
+
+795
+01:02:22,180 --> 01:02:24,260
+Wherever circles comes in
+
+796
+01:02:24,260 --> 01:02:30,100
+There are difficult problems comes in so what if those calculator parameter calculator that particular function will be common
+
+797
+01:02:30,500 --> 01:02:36,020
+And this result if for each radius array, it will try to calculate and push it and build back the logic
+
+798
+01:02:36,740 --> 01:02:40,580
+So i'm trying to separate the concerns so this will handle the logic part
+
+799
+01:02:41,060 --> 01:02:44,980
+This will try to work on a building an output for us. Okay
+
+800
+01:02:45,860 --> 01:02:48,500
+Now let's say how do we actually call this?
+
+801
+01:02:49,300 --> 01:02:51,300
+let's say I do
+
+802
+01:02:51,380 --> 01:02:53,460
+console dot log
+
+803
+01:02:53,460 --> 01:02:55,620
+Let's say I have an again
+
+804
+01:02:56,740 --> 01:02:58,740
+I tried to copy this whole thing
+
+805
+01:03:06,980 --> 01:03:12,260
+So we have calculated instead of calculate area i'll call calculate
+
+806
+01:03:13,060 --> 01:03:13,940
+and
+
+807
+01:03:13,940 --> 01:03:16,340
+I'll give let's say calculate area
+
+808
+01:03:17,380 --> 01:03:18,500
+here
+
+809
+01:03:18,500 --> 01:03:19,620
+now
+
+810
+01:03:19,620 --> 01:03:22,900
+Uh in the same way, let's say I update this I update this
+
+811
+01:03:23,620 --> 01:03:25,620
+And I pass something like
+
+812
+01:03:25,840 --> 01:03:27,840
+calculate
+
+813
+01:03:28,020 --> 01:03:31,140
+Circumference then again, I say calculate
+
+814
+01:03:32,020 --> 01:03:34,020
+diameter
+
+815
+01:03:34,260 --> 01:03:40,340
+Is this logic clear guys what i'm trying to do when I why how i'm able to avoid this particular for loop
+
+816
+01:03:40,740 --> 01:03:44,180
+Write it once a dummy logic, which is applicable for every function
+
+817
+01:03:44,900 --> 01:03:48,100
+And i've written separated the point of concerns also
+
+818
+01:03:50,660 --> 01:03:52,660
+Is this clear
+
+819
+01:03:53,460 --> 01:03:59,300
+So tell me what is higher order function here and what is a callback function here?
+
+820
+01:03:59,540 --> 01:04:05,940
+Here in this example, what is a higher order function when what is a callback function according to you?
+
+821
+01:04:16,580 --> 01:04:18,580
+Yes, can anyone write down
+
+822
+01:04:19,140 --> 01:04:20,420
+okay
+
+823
+01:04:20,420 --> 01:04:24,100
+So somebody says calculate is a high order function
+
+824
+01:04:24,740 --> 01:04:30,360
+So somebody says calculate is a higher order function is everyone agreeing on that
+
+825
+01:04:34,900 --> 01:04:36,180
+Right
+
+826
+01:04:36,180 --> 01:04:43,540
+Anyone having any doubt whether calculate is a higher order function or not because it's it's it is something which is accepting a function
+
+827
+01:04:44,340 --> 01:04:48,500
+And or it is returning even if it is returning or accepting it
+
+828
+01:04:49,140 --> 01:04:51,620
+That this particular function is called as higher. So here
+
+829
+01:04:52,500 --> 01:04:54,900
+Calculate is something called as higher order function
+
+830
+01:04:58,740 --> 01:05:05,540
+Whereas this particular calculate area circumference diameter are called as callback functions, isn't it?
+
+831
+01:05:07,780 --> 01:05:12,600
+They will be called depending on whenever whatever use case it is
+
+832
+01:05:22,340 --> 01:05:24,340
+Right
+
+833
+01:05:25,380 --> 01:05:27,380
+I hope this uh
+
+834
+01:05:27,940 --> 01:05:29,940
+Now you got the better clarity
+
+835
+01:05:30,180 --> 01:05:34,020
+Like how higher order functions and callbacks helps us to write a better code
+
+836
+01:05:34,580 --> 01:05:37,460
+And it's a clear-cut simple basic two concepts
+
+837
+01:05:38,740 --> 01:05:43,860
+Is everyone agreeing that you got it you got better understanding about what is callback and higher order function now?
+
+838
+01:05:43,860 --> 01:05:45,860
+So
+
+839
+01:05:49,220 --> 01:05:51,220
+Great summit
+
+840
+01:05:51,220 --> 01:05:53,220
+so now
+
+841
+01:05:53,940 --> 01:05:55,220
+now
+
+842
+01:05:55,220 --> 01:06:00,180
+We have something really interesting guys something really interesting that I want to talk about
+
+843
+01:06:01,620 --> 01:06:08,020
+Called as imperative versus declarative way of writing code. Has anyone heard of this one?
+
+844
+01:06:08,020 --> 01:06:13,860
+Okay, uh, do you want me to execute this i'll execute this give me a second
+
+845
+01:06:16,500 --> 01:06:18,500
+Uh callback
+
+846
+01:06:19,700 --> 01:06:21,700
+Open integrated terminal
+
+847
+01:06:22,500 --> 01:06:25,620
+Let's say this this is a terminal which is having code
+
+848
+01:06:26,500 --> 01:06:28,980
+Now if you see still i'm able to execute that code
+
+849
+01:06:29,620 --> 01:06:35,060
+And top code I have commented it and still i'm able to get that same result whichever I got it earlier
+
+850
+01:06:35,940 --> 01:06:37,940
+Is that clear?
+
+851
+01:06:38,180 --> 01:06:40,180
+Okay now
+
+852
+01:06:41,380 --> 01:06:45,480
+Now, uh, I want to talk about something called imperative
+
+853
+01:06:47,140 --> 01:06:49,140
+Versus uh declarative
+
+854
+01:06:57,220 --> 01:07:01,540
+Let's say this is just uh, you know a theory concept that I want to talk about because
+
+855
+01:07:02,340 --> 01:07:04,020
+Um
+
+856
+01:07:04,020 --> 01:07:10,100
+In future i'm going to say that this is a declarative way of writing a code or this is an imperative way of writing a code
+
+857
+01:07:10,500 --> 01:07:14,020
+I just want you to understand that when I say that keyword, okay
+
+858
+01:07:14,740 --> 01:07:16,740
+now
+
+859
+01:07:20,340 --> 01:07:25,540
+Let me think of it guys example, okay now let's say
+
+860
+01:07:25,780 --> 01:07:27,780
+Okay
+
+861
+01:07:28,660 --> 01:07:31,620
+If you see there are some people uh in real life
+
+862
+01:07:31,620 --> 01:07:34,900
+You might have seen like where you have to guide them step by step
+
+863
+01:07:35,300 --> 01:07:38,900
+Like one by one like if you are asking them to do one work
+
+864
+01:07:39,540 --> 01:07:41,060
+You have to tell them
+
+865
+01:07:41,060 --> 01:07:43,880
+Let's say if you have seen tarak mitaka ultra chashma
+
+866
+01:07:49,140 --> 01:07:54,420
+So in that there's something some character called as baga bhai where you have to introduce tell him step by step
+
+867
+01:07:54,420 --> 01:08:00,660
+Hey do this step then this step then this step you're not supposed to tell him that can you complete this work?
+
+868
+01:08:01,380 --> 01:08:02,340
+so
+
+869
+01:08:02,340 --> 01:08:04,900
+Uh, how do I tell this one is that let's say
+
+870
+01:08:06,020 --> 01:08:10,260
+There are some people slow learners. There are some one like fast learners
+
+871
+01:08:11,220 --> 01:08:15,060
+Okay. Now for the fast learner, you'll say that hey, there is some bug
+
+872
+01:08:16,580 --> 01:08:18,180
+In your project
+
+873
+01:08:18,180 --> 01:08:23,060
+Go and find it out and close it off. There is something let's say your manager comes and tell you that hey
+
+874
+01:08:23,060 --> 01:08:27,220
+There is a p3 bug and close that one and let me know once you close it
+
+875
+01:08:27,780 --> 01:08:31,460
+Now he calls you this phone and he says this one and it's done
+
+876
+01:08:33,300 --> 01:08:38,900
+Now there are two two types of people now firstly he he told that there is something p3 bug
+
+877
+01:08:39,220 --> 01:08:42,260
+We don't know who reported it where it is there
+
+878
+01:08:42,900 --> 01:08:48,340
+Uh what of whom to contact what to do. There's no message specifics have been given, right?
+
+879
+01:08:49,220 --> 01:08:53,860
+When someone comes to and tell you that complete this one, but there's no specifics given
+
+880
+01:08:54,740 --> 01:08:55,700
+but
+
+881
+01:08:55,700 --> 01:09:03,620
+If you are someone professional and better at knowledge, right and responsible you'll understand what he's trying to say
+
+882
+01:09:03,860 --> 01:09:08,100
+It's like hey, uh, if you know, there's a p3 bug you'll go and check
+
+883
+01:09:08,740 --> 01:09:10,740
+Yeah, you'll go and check
+
+884
+01:09:11,140 --> 01:09:14,900
+Inside your emails there might be someone who reported and uh bug
+
+885
+01:09:15,380 --> 01:09:20,020
+Then you will go and do the debugging part and then you will face the pr and fix it up
+
+886
+01:09:20,500 --> 01:09:26,340
+And push it to the live then you will say go back to the manager and say that hey, I've addressed the issue
+
+887
+01:09:26,740 --> 01:09:29,380
+right, you are trying you reduce that all the efforts, but
+
+888
+01:09:30,340 --> 01:09:33,300
+This is one of the use case and the other use case is let's say
+
+889
+01:09:35,620 --> 01:09:37,220
+Um
+
+890
+01:09:37,220 --> 01:09:39,300
+He called it same call to the fresher
+
+891
+01:09:40,260 --> 01:09:42,420
+Now fresher doesn't know where to find a bug
+
+892
+01:09:43,060 --> 01:09:49,860
+He doesn't know whom to contact. He doesn't know how to raise a pr. He doesn't know where to get approvals. He doesn't know
+
+893
+01:09:50,660 --> 01:09:56,900
+Uh, like once pr is merged to go for the deployment. He doesn't know like then go back and respond to him
+
+894
+01:09:57,620 --> 01:10:00,580
+For in order to know all of this right you have to tell him
+
+895
+01:10:01,060 --> 01:10:06,580
+Go and check this bug you that might be there in some e-mail that user might have reported it
+
+896
+01:10:07,060 --> 01:10:09,060
+Once you find that email
+
+897
+01:10:09,060 --> 01:10:12,580
+Try to recreate those scenario on your product once you recreate it
+
+898
+01:10:12,980 --> 01:10:16,740
+If you are able to recreate it then fix that bug push that code
+
+899
+01:10:17,300 --> 01:10:19,300
+Right when i'm saying that
+
+900
+01:10:19,700 --> 01:10:26,740
+When i'm when a person who is whoever is telling that right step by step procedure like one by one command
+
+901
+01:10:27,460 --> 01:10:29,460
+to other person
+
+902
+01:10:29,460 --> 01:10:33,860
+That one by one type of command is something called as imperative way of coding
+
+903
+01:10:34,260 --> 01:10:37,300
+Like when you try to guide each line of step
+
+904
+01:10:39,540 --> 01:10:41,540
+by step
+
+905
+01:10:48,100 --> 01:10:50,100
+Step by step process
+
+906
+01:10:52,820 --> 01:10:55,220
+Whereas something like declarative is
+
+907
+01:10:58,260 --> 01:11:00,260
+You just say it
+
+908
+01:11:02,420 --> 01:11:06,020
+Like they handle all the things like you just say that
+
+909
+01:11:09,140 --> 01:11:11,140
+I want this thing to get done
+
+910
+01:11:19,300 --> 01:11:20,820
+Right
+
+911
+01:11:20,820 --> 01:11:23,620
+Yeah, now the better example i'll say
+
+912
+01:11:24,260 --> 01:11:30,820
+Now i'll take a simple example, but did you get the theory part at least a theory logic that I was talking about till now
+
+913
+01:11:32,180 --> 01:11:37,140
+Did you understand the theory? Uh, just I was speaking about no, let's say
+
+914
+01:11:37,300 --> 01:11:40,900
+Let's say we know that there's an array
+
+915
+01:11:43,460 --> 01:11:49,060
+1 2 3 4 and what if I want to do push an element 4 into it
+
+916
+01:11:50,500 --> 01:11:53,540
+Right and I try to do a console dot log of array
+
+917
+01:11:54,580 --> 01:11:56,580
+now, let's say
+
+918
+01:11:56,660 --> 01:11:59,460
+uh instead of executing this file, let's say I
+
+919
+01:12:00,420 --> 01:12:02,240
+node
+
+920
+01:12:02,240 --> 01:12:05,240
+Imperative versus a declarative
+
+921
+01:12:08,100 --> 01:12:09,780
+Don't chase
+
+922
+01:12:09,780 --> 01:12:14,100
+If you see I I got output as expected all the items are there but
+
+923
+01:12:14,820 --> 01:12:16,980
+You call a function called push
+
+924
+01:12:18,020 --> 01:12:22,500
+But did you explain that array? How can you push that four item into it?
+
+925
+01:12:23,460 --> 01:12:27,620
+Like how can you push a particular what should you do in order to push that item?
+
+926
+01:12:28,660 --> 01:12:34,180
+Like you have to increase the size of an array by one then add that item at the last of the item
+
+927
+01:12:34,660 --> 01:12:36,260
+Then only do it
+
+928
+01:12:36,260 --> 01:12:41,540
+Right. We didn't say that particular all those statements. So we didn't guide it step by step. How can you do it?
+
+929
+01:12:41,940 --> 01:12:43,940
+We just say that hey push it
+
+930
+01:12:44,820 --> 01:12:48,660
+You you decide like how you want to do it's your headache. I don't know get it done
+
+931
+01:12:49,940 --> 01:12:54,340
+So this is when i'm when i'm using something library, right to do some other work
+
+932
+01:12:56,100 --> 01:13:01,540
+Then I say that i'm i'm trying to write a declarative code i'm trying to write a better cleaner code like
+
+933
+01:13:02,100 --> 01:13:06,900
+If I if I don't have a push out of library available or method available
+
+934
+01:13:06,980 --> 01:13:14,100
+Imagine if I want to write this custom logic native logic, it would be really tough, right to do all the use cases that are available
+
+935
+01:13:14,980 --> 01:13:16,980
+like step by step process
+
+936
+01:13:18,020 --> 01:13:19,300
+so
+
+937
+01:13:19,300 --> 01:13:22,340
+most of the coding that you do in today's world is like a
+
+938
+01:13:23,200 --> 01:13:25,200
+declarative way of doing it
+
+939
+01:13:26,160 --> 01:13:27,120
+But
+
+940
+01:13:27,120 --> 01:13:31,760
+When you'll go to the web development, right when you are actually dealing with dom
+
+941
+01:13:32,400 --> 01:13:33,760
+uh that
+
+942
+01:13:33,760 --> 01:13:35,760
+in next class, uh, you will be
+
+943
+01:13:37,040 --> 01:13:44,560
+Meeting shashvath will be taking those classes for next three classes. I wouldn't be available, but when he'll start teaching the dom
+
+944
+01:13:45,760 --> 01:13:48,080
+When you're trying to change something on a web
+
+945
+01:13:49,040 --> 01:13:50,320
+On screen
+
+946
+01:13:50,320 --> 01:13:55,760
+Using some javascript on screen when you're changing something you have to tell it step by step
+
+947
+01:13:56,240 --> 01:14:01,520
+What you are doing like you have to select a particular item then you can change the color or update it
+
+948
+01:14:02,160 --> 01:14:04,880
+So when you're actually dealing with dom, it's like
+
+949
+01:14:05,680 --> 01:14:07,920
+Doing writing an imperative way of coding
+
+950
+01:14:09,120 --> 01:14:12,900
+You got the basic understanding right? What is imperative versus declarative?
+
+951
+01:14:13,460 --> 01:14:15,460
+Right now, uh
+
+952
+01:14:16,180 --> 01:14:22,340
+Now if you if someone says that react is a declarative way of code declarative way of writing a code
+
+953
+01:14:22,660 --> 01:14:25,620
+At least you will be able to get a meaning of it like
+
+954
+01:14:26,340 --> 01:14:32,260
+There's a much of work being done behind the scenes rather than we saying it react is doing much of work for us
+
+955
+01:14:33,220 --> 01:14:34,740
+Isn't it?
+
+956
+01:14:34,740 --> 01:14:37,300
+So you can explore like uh imperative
+
+957
+01:14:38,100 --> 01:14:39,620
+versus uh
+
+958
+01:14:40,180 --> 01:14:44,820
+Imperative versus uh declarative programming
+
+959
+01:14:48,660 --> 01:14:56,500
+So if you see declarative program is a paradigm describing what program does without explicitly specifying it control flow
+
+960
+01:14:57,600 --> 01:15:05,620
+Imperative programming is a paradigm describing how the program should do something explicitly specifying each instruction or step statement step by step
+
+961
+01:15:06,580 --> 01:15:10,020
+So are you able to relate this now this definition
+
+962
+01:15:12,020 --> 01:15:17,380
+Yeah, bootstrap is also declarative you are not doing much of work right somehow the other person is 20
+
+963
+01:15:19,540 --> 01:15:21,540
+Okay
+
+964
+01:15:21,780 --> 01:15:24,580
+So if you go and see
+
+965
+01:15:27,700 --> 01:15:29,380
+If you see
+
+966
+01:15:29,380 --> 01:15:36,500
+Is c++ declarative or imperative for trans java c c++ are example of imperative programming
+
+967
+01:15:38,420 --> 01:15:40,740
+Uh, this is not the right, uh, maybe
+
+968
+01:15:42,740 --> 01:15:48,100
+Example but i'll give you further more right examples like to relate it because this will confuse you again
+
+969
+01:15:53,620 --> 01:15:59,220
+But the on top level this is the definition guys just try to relate with that one
+
+970
+01:15:59,380 --> 01:16:01,380
+Okay
+
+971
+01:16:02,100 --> 01:16:07,700
+Someone else is doing work for you. This is a declarative way when you are trying to guide through each step by step
+
+972
+01:16:09,620 --> 01:16:15,860
+Yeah, mostly libraries and frameworks are declarative because whenever you are using the libraries and frameworks
+
+973
+01:16:16,500 --> 01:16:24,500
+Are imperative but when you are consuming or using that library, then you can say that i'm i'm writing a declarative code because i'm using someone else work
+
+974
+01:16:25,380 --> 01:16:29,800
+I've been up. This is a example of this one, right? This is a theoretical concept
+
+975
+01:16:37,300 --> 01:16:43,240
+Okay, same as like if I say object oriented functional programming or anything that's like, uh, yeah
+
+976
+01:16:43,800 --> 01:16:47,960
+This is for imperative what about declarative I didn't get your exact question
+
+977
+01:16:51,160 --> 01:16:56,760
+This is a declarative code buddy, this is not an imperative imperative is where you do step by step process
+
+978
+01:17:00,520 --> 01:17:07,160
+Okay, so this is a declarative code body this is not an imperative imperative is where you do step-by-step process
+
+979
+01:17:07,160 --> 01:17:10,280
+This is not an imperative imperative is where you do step by step process
+
+980
+01:17:13,960 --> 01:17:15,960
+The above example
+
+981
+01:17:18,760 --> 01:17:20,520
+This is for declarative example
+
+982
+01:17:20,520 --> 01:17:24,280
+This is a declarative where you are trying to when you're pushing an item four into an array
+
+983
+01:17:24,280 --> 01:17:27,160
+You're not saying like how you should be able to push it
+
+984
+01:17:29,080 --> 01:17:32,600
+How you can increase the size of an array and add an item new item into it
+
+985
+01:17:32,760 --> 01:17:34,760
+Okay
+
+986
+01:17:37,000 --> 01:17:43,880
+Yeah, let's say if you say imperative logic, uh, i've got a suggestion from some bit some bit let's say if I say
+
+987
+01:17:45,560 --> 01:17:47,560
+X equal to 10
+
+988
+01:17:47,640 --> 01:17:52,600
+And const y equal to 20 then I can say if I want to add
+
+989
+01:17:53,160 --> 01:17:54,520
+let's say
+
+990
+01:17:54,520 --> 01:17:56,520
+sum
+
+991
+01:17:56,840 --> 01:17:58,840
+Equal to x plus y
+
+992
+01:18:03,560 --> 01:18:07,000
+Console dot log sum this is an imperative code
+
+993
+01:18:11,240 --> 01:18:14,540
+Step by step process. This is somewhat declarative in nature
+
+994
+01:18:22,200 --> 01:18:26,280
+Got it. So I hope guys this this basic definition is clear now
+
+995
+01:18:27,720 --> 01:18:31,000
+I'm going to talk about few of the you know existing
+
+996
+01:18:31,940 --> 01:18:34,440
+Existing higher order functions
+
+997
+01:18:35,480 --> 01:18:37,480
+Those are present on array
+
+998
+01:18:38,040 --> 01:18:39,800
+Does anyone know?
+
+999
+01:18:39,800 --> 01:18:41,800
+Uh, like some higher order functions
+
+1000
+01:18:42,520 --> 01:18:44,760
+If anyone have came across and understood that
+
+1001
+01:18:45,560 --> 01:18:47,320
+like
+
+1002
+01:18:47,320 --> 01:18:49,320
+Some advanced functions on arrays
+
+1003
+01:18:50,120 --> 01:18:52,120
+That you might have come across
+
+1004
+01:18:52,920 --> 01:18:57,560
+Because we have introduced a list of functions which are already on arrays when we discuss in depth
+
+1005
+01:18:58,120 --> 01:19:00,120
+But some more functions
+
+1006
+01:19:01,080 --> 01:19:02,280
+Okay
+
+1007
+01:19:02,280 --> 01:19:04,280
+Have you have anyone heard of?
+
+1008
+01:19:06,920 --> 01:19:12,360
+No slice shift and all all those things we have covered right, uh, but some more advanced
+
+1009
+01:19:13,960 --> 01:19:15,960
+Yeah map no
+
+1010
+01:19:17,400 --> 01:19:19,980
+Let's say I have map.js
+
+1011
+01:19:21,480 --> 01:19:27,160
+No, what does i'm doing let's say I pick an example, uh
+
+1012
+01:19:27,880 --> 01:19:29,880
+Uh
+
+1013
+01:19:30,840 --> 01:19:37,320
+I have an array again basic example. I'll try to use that and explain this concept
+
+1014
+01:19:38,760 --> 01:19:40,600
+Say I have an
+
+1015
+01:19:40,600 --> 01:19:42,600
+two three four five six
+
+1016
+01:19:43,160 --> 01:19:45,240
+Let's say I have this elements now
+
+1017
+01:19:46,360 --> 01:19:48,360
+I want to
+
+1018
+01:19:48,900 --> 01:19:51,400
+Multiply each item by
+
+1019
+01:19:53,480 --> 01:19:56,200
+Like three or four or five anything let's say, uh
+
+1020
+01:19:57,320 --> 01:20:00,200
+Or let's say I can say calculate squares of each number
+
+1021
+01:20:01,800 --> 01:20:06,120
+If I want to calculate squares of each number i'll write a function right calculate
+
+1022
+01:20:08,200 --> 01:20:10,200
+Square
+
+1023
+01:20:10,760 --> 01:20:16,040
+Of each number where i'll have an array then what i'll do i'll isolate through the loop
+
+1024
+01:20:17,160 --> 01:20:19,160
+Let's say I have a lit
+
+1025
+01:20:19,240 --> 01:20:21,800
+result of an array then
+
+1026
+01:20:23,560 --> 01:20:25,560
+For loop
+
+1027
+01:20:26,040 --> 01:20:28,040
+Doing this then
+
+1028
+01:20:28,120 --> 01:20:30,120
+result dot push
+
+1029
+01:20:30,440 --> 01:20:32,440
+array of i into
+
+1030
+01:20:32,520 --> 01:20:35,800
+array of i this is what a function looks like right for
+
+1031
+01:20:37,800 --> 01:20:43,400
+Calculate squares do you guys agree square is like multiplied by itself
+
+1032
+01:20:45,080 --> 01:20:46,200
+You know
+
+1033
+01:20:46,200 --> 01:20:48,520
+This is right way of writing code. I agree
+
+1034
+01:20:49,800 --> 01:20:53,800
+I agree that you can always do this thing and
+
+1035
+01:20:54,280 --> 01:20:57,240
+Let's say calculate squares and then you can say that
+
+1036
+01:20:57,880 --> 01:20:59,880
+Hey, I want to pass this array
+
+1037
+01:20:59,960 --> 01:21:02,680
+Uh, and if I try to execute this let's say node
+
+1038
+01:21:03,320 --> 01:21:05,320
+map dot js
+
+1039
+01:21:05,320 --> 01:21:12,200
+If you see i'm able to get what output as expected for a 9 16 25 36. That's fine
+
+1040
+01:21:12,840 --> 01:21:14,120
+but
+
+1041
+01:21:14,120 --> 01:21:19,640
+What if there is a utility that you don't need to do this and you have something like higher order function?
+
+1042
+01:21:20,600 --> 01:21:23,000
+Now what map suggest is
+
+1043
+01:21:24,280 --> 01:21:31,480
+Here where map comes but what one thing I want to explain here is that for each item in an array
+
+1044
+01:21:31,560 --> 01:21:33,560
+Are we doing same operation?
+
+1045
+01:21:34,600 --> 01:21:37,000
+Are we doing same sort of logic same operation here?
+
+1046
+01:21:38,680 --> 01:21:40,680
+Like multiplying by itself
+
+1047
+01:21:41,720 --> 01:21:47,320
+Same operation right so you should prefer map only on when
+
+1048
+01:21:48,040 --> 01:21:53,340
+Each index of an of the array
+
+1049
+01:21:58,760 --> 01:22:04,940
+You are executing same operation or expecting same operation
+
+1050
+01:22:09,240 --> 01:22:12,860
+To be done, okay, so let's say
+
+1051
+01:22:17,480 --> 01:22:20,680
+How does map works now let's explore how does map works
+
+1052
+01:22:21,480 --> 01:22:24,680
+If you see here one of the common principle is like
+
+1053
+01:22:25,560 --> 01:22:30,760
+Whenever we have studied problem solving right we are supposed to not disturb existing
+
+1054
+01:22:31,960 --> 01:22:39,080
+Input arrays right or whatever you are receiving array in a function you are supposed to build a new array and return it
+
+1055
+01:22:39,400 --> 01:22:43,000
+This is not considered an extra space, but this is something by default you do it
+
+1056
+01:22:43,480 --> 01:22:46,520
+Instead of disturbing this existing array you create a new array
+
+1057
+01:22:47,000 --> 01:22:49,000
+This is a common core principle, right?
+
+1058
+01:22:52,280 --> 01:22:54,280
+You guys agree with that point
+
+1059
+01:22:57,800 --> 01:22:59,080
+So
+
+1060
+01:22:59,080 --> 01:23:04,040
+Map also what it does it internally map is an higher order function, okay?
+
+1061
+01:23:04,680 --> 01:23:09,640
+Whenever say is I say higher order function on each array you can call something like map
+
+1062
+01:23:11,080 --> 01:23:13,160
+What what does higher order function does?
+
+1063
+01:23:13,960 --> 01:23:17,820
+What does higher order function does when we can call a particular function as higher order
+
+1064
+01:23:22,680 --> 01:23:27,640
+Again trying to re-revise that same definition when it when it takes an callback function into it, right?
+
+1065
+01:23:29,160 --> 01:23:35,560
+Do you guys agree with that point when it has a callback now, let's declare something a callback function. Let's say this is a callback
+
+1066
+01:23:37,320 --> 01:23:41,080
+Have a callback function inside this i'll have let's say
+
+1067
+01:23:41,480 --> 01:23:43,480
+Number
+
+1068
+01:23:44,200 --> 01:23:48,920
+And what is all this something i'm doing is i'm returning number
+
+1069
+01:23:50,120 --> 01:23:52,120
+into number
+
+1070
+01:23:52,680 --> 01:23:55,240
+Okay, i'm multiplying by number by number now
+
+1071
+01:23:55,960 --> 01:24:00,360
+What I can do inside this map is that let's say if I hover over it if you see
+
+1072
+01:24:02,200 --> 01:24:07,560
+Let me do this if you see it takes a callback function
+
+1073
+01:24:08,040 --> 01:24:10,040
+And number array
+
+1074
+01:24:16,680 --> 01:24:20,360
+Right if you see it again
+
+1075
+01:24:22,200 --> 01:24:29,000
+Honestly one way of writing this logic is like you can always do this callback function pass this callback function into it
+
+1076
+01:24:31,000 --> 01:24:33,000
+Okay
+
+1077
+01:24:33,000 --> 01:24:35,000
+now
+
+1078
+01:24:35,640 --> 01:24:38,760
+Though the the better way of writing this one is like, let's say
+
+1079
+01:24:39,960 --> 01:24:42,760
+you declare a callback function here itself and
+
+1080
+01:24:43,800 --> 01:24:47,000
+So what it does is like it iterates through each of the item
+
+1081
+01:24:47,560 --> 01:24:53,960
+Let's say now each item is having a number and its index. We can have you'll have an access to the index each time
+
+1082
+01:24:55,240 --> 01:24:59,000
+Okay. Now you can return something here. Is that
+
+1083
+01:24:59,640 --> 01:25:01,640
+number into number
+
+1084
+01:25:02,040 --> 01:25:07,240
+Same thing again, so what maps does it it works like a for each loop
+
+1085
+01:25:09,480 --> 01:25:11,480
+For each loop
+
+1086
+01:25:14,360 --> 01:25:21,320
+But you can directly write like this logic and you can store as a output array
+
+1087
+01:25:25,720 --> 01:25:27,720
+Okay now
+
+1088
+01:25:28,680 --> 01:25:34,680
+Also, if you want to do a console log you can do something like console dot log
+
+1089
+01:25:35,480 --> 01:25:38,360
+Number and index let's say if i'm doing this also
+
+1090
+01:25:39,160 --> 01:25:43,480
+And I try to do console dot log of a number output array
+
+1091
+01:25:45,480 --> 01:25:46,440
+No
+
+1092
+01:25:46,440 --> 01:25:48,440
+So what map does map?
+
+1093
+01:25:49,080 --> 01:25:51,960
+Takes a callback function since it's a higher order function
+
+1094
+01:25:52,600 --> 01:25:59,080
+Once it takes it it iterates through each of the array index like for each loop for each item
+
+1095
+01:25:59,880 --> 01:26:04,600
+And this is number is that particular item and it also has an something like index
+
+1096
+01:26:05,240 --> 01:26:11,320
+This value can be you can define anything like you can say num or anything up to you. It's up to you
+
+1097
+01:26:11,960 --> 01:26:13,960
+Like whatever you want you can define it
+
+1098
+01:26:14,360 --> 01:26:19,560
+Okay. So how can you say that I can define anything if you hover over it if you see
+
+1099
+01:26:19,960 --> 01:26:21,960
+It has something like value
+
+1100
+01:26:23,160 --> 01:26:25,160
+then index
+
+1101
+01:26:25,160 --> 01:26:30,760
+Then array of numbers like if you even want the whatever array you are having you can also access the array
+
+1102
+01:26:31,480 --> 01:26:36,200
+Okay, you can also scroll down and you can see what all definitions of this are
+
+1103
+01:26:37,160 --> 01:26:39,160
+but on top level
+
+1104
+01:26:39,400 --> 01:26:45,320
+Since it's a higher order function it takes an in your callback function and it's iterating through each of the index
+
+1105
+01:26:45,320 --> 01:26:50,120
+Each of the index then it's getting that index value and return this returning this one
+
+1106
+01:26:50,840 --> 01:26:52,840
+let's say if I
+
+1107
+01:26:52,840 --> 01:26:54,840
+Try to execute this one node
+
+1108
+01:26:55,320 --> 01:26:57,320
+map dot js
+
+1109
+01:26:58,360 --> 01:27:00,360
+Now do you see this?
+
+1110
+01:27:00,360 --> 01:27:03,080
+What's happening here? I will try to comment this again
+
+1111
+01:27:03,720 --> 01:27:08,680
+Clear this console clear and try to re-execute this one now if you see
+
+1112
+01:27:09,880 --> 01:27:11,160
+firstly
+
+1113
+01:27:11,160 --> 01:27:12,760
+What's happening?
+
+1114
+01:27:12,760 --> 01:27:16,840
+Here in the array we had something like two three four five six
+
+1115
+01:27:17,560 --> 01:27:23,800
+So it picked first item and the index of that particular item is zero because we we were trying to output something like
+
+1116
+01:27:24,600 --> 01:27:29,480
+Number and index and the next item was three and its index was one
+
+1117
+01:27:30,040 --> 01:27:34,600
+So why I was trying to print index is that I was wanted to show that that you know
+
+1118
+01:27:34,600 --> 01:27:37,320
+This works like a for each loop for each of item
+
+1119
+01:27:37,880 --> 01:27:39,880
+This callback function will be executed
+
+1120
+01:27:40,600 --> 01:27:45,880
+Like for each item this callback function will be executed some the other syntax that I was writing was
+
+1121
+01:27:47,080 --> 01:27:49,400
+I was I wanted to show you this how this works
+
+1122
+01:27:50,440 --> 01:27:52,280
+callback
+
+1123
+01:27:52,280 --> 01:27:54,280
+Now let's say you have here
+
+1124
+01:27:54,680 --> 01:27:59,720
+You can have num and index same logic. Let's say if I cut this
+
+1125
+01:28:02,520 --> 01:28:04,520
+And paste it here
+
+1126
+01:28:07,160 --> 01:28:09,160
+And you can say
+
+1127
+01:28:09,480 --> 01:28:11,480
+You have this callback function here
+
+1128
+01:28:12,600 --> 01:28:14,600
+Each time you'll call it
+
+1129
+01:28:14,680 --> 01:28:16,120
+passing
+
+1130
+01:28:16,120 --> 01:28:18,120
+num and index
+
+1131
+01:28:18,600 --> 01:28:22,120
+You can still do that. I just extracted that logic outside
+
+1132
+01:28:23,240 --> 01:28:27,800
+So that you can feel that i'm still passing a function instead writing the inside it
+
+1133
+01:28:28,760 --> 01:28:29,960
+Okay
+
+1134
+01:28:29,960 --> 01:28:32,460
+I hope this is clear guys how map works
+
+1135
+01:28:32,460 --> 01:28:34,460
+This
+
+1136
+01:28:37,900 --> 01:28:43,100
+Oh, there are too many guys so too many functions like because it's a functional programming language itself
+
+1137
+01:28:43,180 --> 01:28:48,060
+I just want you to introduce step by step. What is an higher order function and the main
+
+1138
+01:28:48,700 --> 01:28:51,340
+Core higher order functions what are existing in it
+
+1139
+01:28:51,740 --> 01:28:58,300
+Now if you see when to go for map again trying to repeat guys because this is somewhat interview specific
+
+1140
+01:28:59,020 --> 01:29:01,020
+And you will be trying to use this
+
+1141
+01:29:02,620 --> 01:29:05,900
+More than anything else even if you go for react
+
+1142
+01:29:06,460 --> 01:29:08,060
+Okay
+
+1143
+01:29:08,060 --> 01:29:13,500
+A map function is used when you want to do a same operation on each item of an array
+
+1144
+01:29:13,980 --> 01:29:20,140
+Same item of an array you picked each item and you try to do that same operation like you're trying to multiply it
+
+1145
+01:29:20,540 --> 01:29:22,140
+It's a square
+
+1146
+01:29:22,140 --> 01:29:24,060
+Okay
+
+1147
+01:29:24,060 --> 01:29:29,020
+So map is something where we can pass the function inside it and perform a task directly inside it
+
+1148
+01:29:29,100 --> 01:29:31,100
+but for but for each it's just like
+
+1149
+01:29:32,540 --> 01:29:35,980
+To cover it all elements to cover all the elements only
+
+1150
+01:29:37,100 --> 01:29:45,020
+Uh last point I didn't understand some with a performer task directly inside but for each is like just to cover all the elements
+
+1151
+01:29:45,900 --> 01:29:47,180
+Yeah for each
+
+1152
+01:29:47,180 --> 01:29:50,060
+Uh, yeah, it covers all the elements but here
+
+1153
+01:29:50,620 --> 01:29:54,700
+Uh, if you see it is also returning as a new array
+
+1154
+01:29:56,060 --> 01:29:58,540
+Like you are storing here inside a new array
+
+1155
+01:29:59,100 --> 01:30:01,260
+This is working like a same this function
+
+1156
+01:30:02,460 --> 01:30:07,420
+Whatever function we have written it is working like the same function, but it just replaced our logic
+
+1157
+01:30:08,780 --> 01:30:10,780
+Yeah
+
+1158
+01:30:10,940 --> 01:30:12,940
+Okay, so
+
+1159
+01:30:13,260 --> 01:30:15,980
+Is map clear guys when to use map and what is map?
+
+1160
+01:30:16,460 --> 01:30:17,500
+of
+
+1161
+01:30:17,500 --> 01:30:18,460
+like
+
+1162
+01:30:18,460 --> 01:30:20,460
+On what data type you can use map?
+
+1163
+01:30:21,420 --> 01:30:23,420
+All those points clear, right?
+
+1164
+01:30:23,820 --> 01:30:26,460
+I've took it very slowly. I took it really slowly
+
+1165
+01:30:26,460 --> 01:30:28,460
+Okay
+
+1166
+01:30:28,620 --> 01:30:35,580
+Do you need a break or I can take uh 20 minutes I can close the session today. It's up to you guys
+
+1167
+01:30:45,420 --> 01:30:52,720
+Okay continue, okay, then uh, let's say I have a some simple problem like cons or transaction
+
+1168
+01:30:56,540 --> 01:31:02,940
+Uh and an array of transactions, let's say I have like thousand three hundred five hundred
+
+1169
+01:31:04,220 --> 01:31:05,980
+two hundred
+
+1170
+01:31:05,980 --> 01:31:08,860
+Hundred like these are the list of transactions. No
+
+1171
+01:31:09,500 --> 01:31:13,900
+These are let's say these are in rupees. I want to convert into uh
+
+1172
+01:31:16,140 --> 01:31:19,020
+Ust like let's say inr to usd
+
+1173
+01:31:19,020 --> 01:31:21,020
+Ust
+
+1174
+01:31:21,820 --> 01:31:29,180
+So let's say the currency currently inr to usd is at valuing it 83 rupees to one dollar now
+
+1175
+01:31:30,780 --> 01:31:36,300
+Do you think here I can use some somewhere around a map function here
+
+1176
+01:31:39,980 --> 01:31:41,980
+Do you think I can use map here
+
+1177
+01:31:42,300 --> 01:31:48,220
+Because what what would be the operation that I actually have to do divide by it right divide each
+
+1178
+01:31:48,860 --> 01:31:51,580
+uh value of an array by 83
+
+1179
+01:31:52,780 --> 01:31:55,740
+So let's write down write down this logic. Let's say I have
+
+1180
+01:31:56,780 --> 01:31:58,780
+output
+
+1181
+01:31:59,320 --> 01:32:01,320
+Transaction array
+
+1182
+01:32:03,180 --> 01:32:06,380
+I can do transaction dot map
+
+1183
+01:32:07,660 --> 01:32:12,620
+Again a callback function inside it. Let's say I have each transaction and I have index
+
+1184
+01:32:13,420 --> 01:32:19,900
+Which I won't be using it as of now and what I have to do I have to return something like transaction
+
+1185
+01:32:21,900 --> 01:32:28,780
+Uh, it's txn each item of this one divided by inr to usd
+
+1186
+01:32:30,140 --> 01:32:35,740
+And I can console dot log of output transaction array
+
+1187
+01:32:36,460 --> 01:32:38,460
+Okay
+
+1188
+01:32:40,860 --> 01:32:45,580
+Is that clear guys how can how we can write down okay how we can use this map
+
+1189
+01:32:45,580 --> 01:32:47,980
+I just gave gave one more example simple example
+
+1190
+01:32:49,020 --> 01:32:56,220
+So if this is clear, let's move with the something called as filter filter dot js. No, so i'm introducing
+
+1191
+01:32:57,900 --> 01:33:00,460
+No exact dollar value on it. Yeah
+
+1192
+01:33:00,620 --> 01:33:02,620
+Yeah
+
+1193
+01:33:03,580 --> 01:33:05,020
+So
+
+1194
+01:33:05,020 --> 01:33:08,380
+Guys coming to second higher order function called filter
+
+1195
+01:33:09,100 --> 01:33:14,140
+Now let's take an example of an array where you will have item from one
+
+1196
+01:33:14,700 --> 01:33:19,100
+To three five then let's say I have nine then let's say I have this then I have this
+
+1197
+01:33:20,620 --> 01:33:24,140
+So what we have one to twenty in the items in an array, okay
+
+1198
+01:33:25,420 --> 01:33:27,740
+Uh, what if I want only even numbers?
+
+1199
+01:33:28,620 --> 01:33:30,620
+What if I want only even numbers
+
+1200
+01:33:31,180 --> 01:33:35,820
+Okay out of this array what I can do is that let's say I have a function
+
+1201
+01:33:37,020 --> 01:33:39,020
+Get even
+
+1202
+01:33:39,660 --> 01:33:45,420
+Okay again same thing an array inside it I can have let output
+
+1203
+01:33:47,740 --> 01:33:54,940
+Right then I can go for the loop then the basic logic would be array of i
+
+1204
+01:33:58,300 --> 01:34:00,620
+Percentage of twice is equivalent to zero
+
+1205
+01:34:03,020 --> 01:34:07,440
+Then I would add element into this one, isn't it?
+
+1206
+01:34:14,460 --> 01:34:20,060
+Guys this would be a logic for writing an even getting an even numbers out of an array, isn't it?
+
+1207
+01:34:20,860 --> 01:34:25,980
+Like i'm just iterating through each item then i'm checking if it is like, uh, you know
+
+1208
+01:34:26,940 --> 01:34:28,940
+Kind of matching this condition
+
+1209
+01:34:30,140 --> 01:34:31,100
+Uh
+
+1210
+01:34:31,100 --> 01:34:34,140
+Ankit I I need to show around this like you can google this
+
+1211
+01:34:35,340 --> 01:34:37,340
+What it does is like two?
+
+1212
+01:34:37,420 --> 01:34:41,660
+Amper cent of two gives you zero. It's just i'm checking reminder if the reminder of value
+
+1213
+01:34:42,700 --> 01:34:45,500
+When it is divided by two is equal to zero then
+
+1214
+01:34:46,700 --> 01:34:49,100
+It says we can say that it is an even number
+
+1215
+01:34:50,700 --> 01:34:51,900
+Like
+
+1216
+01:34:51,900 --> 01:34:56,460
+That's a basic formula right how to know if a number is even or not
+
+1217
+01:34:58,780 --> 01:35:00,300
+Okay
+
+1218
+01:35:00,300 --> 01:35:03,260
+I can execute this one and show you uh node
+
+1219
+01:35:04,060 --> 01:35:06,060
+Let's say I have to call this function
+
+1220
+01:35:06,700 --> 01:35:08,700
+Uh get even of array
+
+1221
+01:35:10,700 --> 01:35:12,700
+I have to console log this one
+
+1222
+01:35:22,220 --> 01:35:28,380
+Okay node filter.js if you see i'm getting only the even numbers out of it
+
+1223
+01:35:31,740 --> 01:35:35,340
+Guys is this clear the point is clear, right? Uh, this is a basic function
+
+1224
+01:35:35,340 --> 01:35:39,900
+You might have came across multiple times in the dsa. No, but what we are doing here
+
+1225
+01:35:40,700 --> 01:35:46,940
+Like earlier in map we were iterating through each of item and then we were doing some same operation here
+
+1226
+01:35:48,700 --> 01:35:51,420
+Are we filtering out an existing array?
+
+1227
+01:35:52,620 --> 01:35:56,540
+Do you think we are doing that filtering out on a basic each kind one condition?
+
+1228
+01:36:00,060 --> 01:36:04,780
+Are we filtering out an array aren't we filtering out this array?
+
+1229
+01:36:06,620 --> 01:36:09,740
+Basing on a condition like based just on if condition
+
+1230
+01:36:12,140 --> 01:36:17,500
+Yes, right muneshwar do you think any even like other way around
+
+1231
+01:36:17,980 --> 01:36:19,980
+So
+
+1232
+01:36:21,580 --> 01:36:24,300
+The same thing can be done using filter
+
+1233
+01:36:25,340 --> 01:36:27,340
+Function which is a hydra function
+
+1234
+01:36:27,900 --> 01:36:31,180
+Let's say if I want to do something get even numbers
+
+1235
+01:36:31,740 --> 01:36:33,740
+here
+
+1236
+01:36:34,140 --> 01:36:37,660
+What you can do here is that let's say I have an array dot filter
+
+1237
+01:36:38,380 --> 01:36:45,580
+I'll say that filter items based on a particular condition. How can I do it? Let's I'll get each number
+
+1238
+01:36:46,220 --> 01:36:53,100
+On each number check one condition check one condition what condition if
+
+1239
+01:36:58,060 --> 01:37:02,140
+I'll say that if only number multi divided by two
+
+1240
+01:37:03,340 --> 01:37:05,020
+only if
+
+1241
+01:37:05,020 --> 01:37:07,100
+Only if this statement is true
+
+1242
+01:37:07,820 --> 01:37:13,100
+Only if this statement is true, then include it in the ket even numbers or else
+
+1243
+01:37:13,740 --> 01:37:15,340
+Don't include it
+
+1244
+01:37:15,340 --> 01:37:17,740
+So filter is generally used
+
+1245
+01:37:18,940 --> 01:37:20,300
+whenever
+
+1246
+01:37:20,300 --> 01:37:24,140
+You want to filter and particular array based on some condition
+
+1247
+01:37:25,340 --> 01:37:27,340
+Let's say I put it here
+
+1248
+01:37:27,340 --> 01:37:29,340
+And I try to re-execute this one
+
+1249
+01:37:32,220 --> 01:37:34,780
+Uh, okay, just a second get you
+
+1250
+01:37:37,580 --> 01:37:39,580
+Okay
+
+1251
+01:37:40,220 --> 01:37:42,700
+Uh, it's not a function here
+
+1252
+01:37:50,220 --> 01:37:52,220
+Do you see this guys
+
+1253
+01:37:53,660 --> 01:37:57,980
+Uh, i'll help you out with that, uh bishek, uh, give me some time, okay
+
+1254
+01:37:58,860 --> 01:38:02,060
+But let's focus on the concept so that we can finish our day today
+
+1255
+01:38:02,620 --> 01:38:03,420
+now
+
+1256
+01:38:03,420 --> 01:38:07,020
+Filter logic is now what if I want to get odd numbers here?
+
+1257
+01:38:07,820 --> 01:38:14,300
+What if I get need to get odd numbers it would be really simple right I have to change one condition get odd numbers
+
+1258
+01:38:16,300 --> 01:38:18,780
+Filter it with return
+
+1259
+01:38:20,620 --> 01:38:22,620
+Not equal to
+
+1260
+01:38:28,860 --> 01:38:30,860
+Is entry
+
+1261
+01:38:32,620 --> 01:38:34,620
+So
+
+1262
+01:38:37,660 --> 01:38:39,660
+Okay
+
+1263
+01:38:40,620 --> 01:38:42,620
+Yeah, i'll come to that somewhere
+
+1264
+01:38:43,020 --> 01:38:44,380
+so
+
+1265
+01:38:44,380 --> 01:38:49,900
+I hope now map and filter logic is clear when to go for map if you want to apply any common
+
+1266
+01:38:50,520 --> 01:38:57,660
+operation on each of item like multiplication division or any logic on anything or any item you go for map
+
+1267
+01:38:58,300 --> 01:39:03,180
+Right if you want if whenever you are choosing filter actually you are filtering out items
+
+1268
+01:39:03,180 --> 01:39:09,660
+Like I want only this thing or that thing basing on a one condition and if this particular condition is satisfied only that
+
+1269
+01:39:10,300 --> 01:39:17,820
+Only then this whatever you are returning right? Whatever is happening like this logic same thing in that output array that will be there
+
+1270
+01:39:19,100 --> 01:39:23,260
+Okay, base if you want to this is just a simple condition like a if condition
+
+1271
+01:39:23,820 --> 01:39:28,140
+Okay, is that clear guys filter one map and filter both things?
+
+1272
+01:39:28,860 --> 01:39:30,860
+Now I want to talk about
+
+1273
+01:39:31,820 --> 01:39:36,940
+One thing triple equal to versus double equal to
+
+1274
+01:39:39,100 --> 01:39:45,820
+Does anyone know what this does if anyone knows can we pick can they ping me personally if anyone knows this?
+
+1275
+01:39:54,300 --> 01:39:55,580
+This is a
+
+1276
+01:39:55,580 --> 01:40:01,980
+Like if you see I used sometimes a triple equal to sometimes I used double equal to somewhere
+
+1277
+01:40:02,780 --> 01:40:04,540
+Right i'll show it
+
+1278
+01:40:04,540 --> 01:40:06,540
+But I use this one
+
+1279
+01:40:07,980 --> 01:40:09,100
+Okay
+
+1280
+01:40:09,100 --> 01:40:12,540
+Now let's let's see this what it does. Okay, firstly
+
+1281
+01:40:14,700 --> 01:40:18,960
+Both the things are used for comparison. These are comparison
+
+1282
+01:40:22,680 --> 01:40:24,680
+Operators, okay
+
+1283
+01:40:25,900 --> 01:40:28,620
+Now how does it compare let's say I say const
+
+1284
+01:40:32,860 --> 01:40:39,260
+X equal to 10 or let's say 10 and const y equal to 10
+
+1285
+01:40:42,060 --> 01:40:45,500
+Now if I try to do console dot log
+
+1286
+01:40:47,980 --> 01:40:49,820
+Let's say
+
+1287
+01:40:49,820 --> 01:40:51,820
+x double equal to y
+
+1288
+01:40:52,700 --> 01:40:54,220
+comma
+
+1289
+01:40:54,220 --> 01:40:56,220
+X triple equal to y
+
+1290
+01:40:58,220 --> 01:41:05,740
+Just let's explore this by this example, uh, i'll try to come let's be that also we'll see all the outputs
+
+1291
+01:41:06,540 --> 01:41:08,220
+now if you see
+
+1292
+01:41:08,220 --> 01:41:10,220
+for the first thing
+
+1293
+01:41:10,300 --> 01:41:15,340
+When I used double equal to I got something as a true. Can you see this guys?
+
+1294
+01:41:16,140 --> 01:41:19,820
+When I use double equal to I got true and when I use triple equal to I got false
+
+1295
+01:41:19,820 --> 01:41:26,460
+So behind the scenes when you are using something like double equal to
+
+1296
+01:41:28,460 --> 01:41:30,940
+Is just checking
+
+1297
+01:41:33,420 --> 01:41:35,420
+Content
+
+1298
+01:41:36,620 --> 01:41:38,220
+Content value
+
+1299
+01:41:38,220 --> 01:41:44,060
+So there's a one big huge concept going on behind the scenes when you use double equal to
+
+1300
+01:41:44,620 --> 01:41:46,620
+But when you are using triple equal to
+
+1301
+01:41:47,660 --> 01:41:49,420
+checking
+
+1302
+01:41:49,500 --> 01:41:50,460
+both
+
+1303
+01:41:50,460 --> 01:41:52,460
+Data type and value
+
+1304
+01:41:54,540 --> 01:41:56,140
+Okay
+
+1305
+01:41:56,140 --> 01:41:58,140
+now how can
+
+1306
+01:41:58,140 --> 01:42:05,580
+A particular string can be converted into number or a number can be converted into string when using double equal to
+
+1307
+01:42:05,980 --> 01:42:10,220
+That's a type conversion by default. It is happening in js
+
+1308
+01:42:10,700 --> 01:42:12,700
+That's really one of the difficult
+
+1309
+01:42:13,660 --> 01:42:16,060
+Uh, you know, I would say way to
+
+1310
+01:42:16,940 --> 01:42:20,700
+Understand there are some set of rules that you can always remember
+
+1311
+01:42:21,340 --> 01:42:22,300
+but
+
+1312
+01:42:22,300 --> 01:42:25,260
+in my coding practice in my experience
+
+1313
+01:42:26,060 --> 01:42:30,780
+Whenever if someone is using double equal to I flag it or i'm being flagged
+
+1314
+01:42:31,340 --> 01:42:35,660
+So you're always supposed to use triple equal to which will do exact
+
+1315
+01:42:36,840 --> 01:42:39,500
+Comparison check like if both are equal or not
+
+1316
+01:42:40,540 --> 01:42:44,460
+Is this clear what is double equal to and what is triple equal to and what to use it?
+
+1317
+01:42:46,780 --> 01:42:47,980
+Okay
+
+1318
+01:42:47,980 --> 01:42:50,220
+Because behind the scenes this particular thing
+
+1319
+01:42:51,260 --> 01:42:53,260
+10 of string is converted into
+
+1320
+01:42:54,140 --> 01:42:55,900
+number 10
+
+1321
+01:42:55,900 --> 01:43:00,620
+There are many use cases how this thing works because javascript is really
+
+1322
+01:43:01,420 --> 01:43:07,180
+Irritating language when you because that's been developed in 10 days. Now this triple equal to is solving those issues
+
+1323
+01:43:07,180 --> 01:43:11,420
+So you if you are using double equal to you might sometimes fell into problems
+
+1324
+01:43:12,380 --> 01:43:16,460
+Uh, like if you're using it in any pro like when you're writing code huge code
+
+1325
+01:43:16,940 --> 01:43:22,220
+Please avoid using double equal to if you want a statements like a series of rules
+
+1326
+01:43:22,300 --> 01:43:24,300
+Which thing is converted into which one?
+
+1327
+01:43:24,620 --> 01:43:30,060
+I would give it but I won't recommend you to remember all of them those conditions. It's generally useless
+
+1328
+01:43:30,620 --> 01:43:35,020
+Why don't you write a write a coding practice use statistic or triple equal to?
+
+1329
+01:43:36,940 --> 01:43:39,260
+Okay, I hope this basic uh
+
+1330
+01:43:39,340 --> 01:43:43,420
+Uh, idea is clear. I hope map and filter is also clear
+
+1331
+01:43:44,220 --> 01:43:46,700
+So if this thing is clear, can we move it guys?
+
+1332
+01:43:48,060 --> 01:43:50,060
+Can we move it to the last thing?
+
+1333
+01:43:50,860 --> 01:43:53,180
+and uh people generally
+
+1334
+01:43:55,660 --> 01:43:58,460
+Uh avoid this one and but
+
+1335
+01:44:00,620 --> 01:44:06,060
+Let's say uh again, I just want to end this filter with one example, uh, if you go for the map
+
+1336
+01:44:06,060 --> 01:44:08,060
+I had this transaction, right?
+
+1337
+01:44:08,220 --> 01:44:10,860
+let's say I have this an array and also
+
+1338
+01:44:11,660 --> 01:44:15,980
+I have uh inside this array. I have some negative numbers. Also, let's say
+
+1339
+01:44:16,600 --> 01:44:18,600
+Minus 200 220
+
+1340
+01:44:19,100 --> 01:44:21,820
+Minus 300 minus 400
+
+1341
+01:44:22,460 --> 01:44:26,460
+So i'll say that uh, can you get me only positives? Let's uh get me
+
+1342
+01:44:27,820 --> 01:44:29,820
+only positive
+
+1343
+01:44:31,240 --> 01:44:33,240
+Transactions
+
+1344
+01:44:33,740 --> 01:44:35,740
+So how can you do this guys?
+
+1345
+01:44:36,940 --> 01:44:38,940
+Okay
+
+1346
+01:44:39,900 --> 01:44:41,900
+How can you do this
+
+1347
+01:44:45,180 --> 01:44:49,440
+Can anyone give me uh, what condition I should write on filter?
+
+1348
+01:44:58,460 --> 01:45:02,460
+Just one condition transaction greater than zero, right?
+
+1349
+01:45:03,180 --> 01:45:09,040
+This should solve my issue right only get me the positives simple if condition
+
+1350
+01:45:11,580 --> 01:45:15,980
+Or else imagine for doing this also sometimes we have to write the loops
+
+1351
+01:45:16,540 --> 01:45:21,580
+For loop and write those many conditions and find the length of an array and all those things, right?
+
+1352
+01:45:22,140 --> 01:45:26,620
+We can avoid this using filter. Do you understand the power of this functions that we are learning?
+
+1353
+01:45:27,260 --> 01:45:30,780
+It it eases your code now if you see those have been filtered out
+
+1354
+01:45:30,780 --> 01:45:32,780
+Now comes one of the
+
+1355
+01:45:33,580 --> 01:45:40,300
+Best thing guys that I feel uh, you know reduce what reduce does or the problem statement for the radius. Okay?
+
+1356
+01:45:41,660 --> 01:45:43,660
+How many of you remember something like prefix sum?
+
+1357
+01:45:45,580 --> 01:45:47,580
+Dsa problems
+
+1358
+01:45:47,900 --> 01:45:49,900
+Where you have to you know
+
+1359
+01:45:50,780 --> 01:45:55,500
+Prepare an array which is storing all the sums from the array
+
+1360
+01:45:56,460 --> 01:46:03,020
+Uh prepare an array which is storing all the sums from the before index still there, right?
+
+1361
+01:46:03,660 --> 01:46:08,300
+so you have to write a loops and store it or let's say something like
+
+1362
+01:46:11,020 --> 01:46:13,260
+Sum of all numbers sum of all the numbers
+
+1363
+01:46:15,820 --> 01:46:19,420
+Let's go back to the prefix sum later, but sum of all the numbers
+
+1364
+01:46:20,780 --> 01:46:22,220
+right
+
+1365
+01:46:22,300 --> 01:46:26,700
+What could be the basic use case? How do you do this one? Let's say again I take this array
+
+1366
+01:46:26,940 --> 01:46:32,140
+I'm using this example. I can use prefix one, but that will complicate a way of understanding it
+
+1367
+01:46:32,700 --> 01:46:35,340
+But let's say I have this one to the way
+
+1368
+01:46:36,300 --> 01:46:41,260
+What is a way that you can calculate the sum? Let's say if I go for for loop again
+
+1369
+01:46:41,900 --> 01:46:45,980
+Uh, I can still do something like is that let's say I have let
+
+1370
+01:46:46,700 --> 01:46:48,700
+sum equal to zero and
+
+1371
+01:46:49,580 --> 01:46:51,660
+I have to declare this outside. This is
+
+1372
+01:46:53,180 --> 01:46:55,260
+This is not the right way to do it
+
+1373
+01:46:56,140 --> 01:46:58,140
+Let's say this is a function
+
+1374
+01:46:58,460 --> 01:47:00,460
+sum of numbers
+
+1375
+01:47:01,580 --> 01:47:03,580
+array
+
+1376
+01:47:10,860 --> 01:47:16,220
+Right, then something you would do is sum plus array of i then you will return sum
+
+1377
+01:47:19,660 --> 01:47:22,540
+Right, this is the example that you would do it, right?
+
+1378
+01:47:23,420 --> 01:47:28,460
+If you say say if someone says that write a method for finding a sum of numbers
+
+1379
+01:47:30,220 --> 01:47:32,220
+Isn't it
+
+1380
+01:47:34,380 --> 01:47:37,420
+Guys give me thumbs up thumbs up if you are aligned with me
+
+1381
+01:47:40,140 --> 01:47:45,100
+Okay, this is a like a function where you can find sum of numbers now what if
+
+1382
+01:47:45,180 --> 01:47:50,780
+If here what we are doing it here, let's say I'll execute this one for our sake
+
+1383
+01:47:52,460 --> 01:47:56,460
+But what what we are trying to do it here what sort of operation is happening here
+
+1384
+01:47:57,740 --> 01:47:59,740
+Just think of that way
+
+1385
+01:48:02,140 --> 01:48:08,380
+Aren't we reducing all the items of an array into one number?
+
+1386
+01:48:08,380 --> 01:48:10,380
+Number
+
+1387
+01:48:13,340 --> 01:48:15,340
+Just think it from that perspective that
+
+1388
+01:48:16,540 --> 01:48:21,580
+Aren't we reducing all the array in numbers into one number like a sum?
+
+1389
+01:48:23,420 --> 01:48:30,220
+Like we are not utilizing here the logic here is just that if you see in the earlier filter or
+
+1390
+01:48:30,700 --> 01:48:32,860
+When we write a simple functions or map
+
+1391
+01:48:34,300 --> 01:48:38,220
+I'll put it, uh them by one by one. Let's say I split this one
+
+1392
+01:48:39,340 --> 01:48:41,340
+Again, I go
+
+1393
+01:48:41,980 --> 01:48:43,980
+I pick up a map here
+
+1394
+01:48:44,700 --> 01:48:49,820
+So I pick up a map and let's say close my filter now
+
+1395
+01:48:51,660 --> 01:48:54,940
+I'll pull this one bit down here
+
+1396
+01:48:56,700 --> 01:48:58,700
+Let's say I reduce this one
+
+1397
+01:49:02,300 --> 01:49:03,820
+Yeah
+
+1398
+01:49:03,820 --> 01:49:09,900
+If you're seeing there's all those examples when we write the simple functions right a sum of number calculate square or get even
+
+1399
+01:49:10,460 --> 01:49:13,980
+We were storing results in an array when it comes to filter and map
+
+1400
+01:49:14,540 --> 01:49:20,060
+But when we went when we went for some of our numbers, we are actually using only one variable and we are returning it
+
+1401
+01:49:20,780 --> 01:49:23,020
+We are not using of our each index right?
+
+1402
+01:49:23,100 --> 01:49:27,100
+We are not doing it for each index item or some operation or filtering out on some condition
+
+1403
+01:49:27,420 --> 01:49:31,100
+But we are reducing an array of items into one number. Can I say that?
+
+1404
+01:49:34,460 --> 01:49:38,220
+Yeah, that's common analogy that I want to catch it so
+
+1405
+01:49:39,580 --> 01:49:43,180
+What I want to say is that reduce is a higher order function
+
+1406
+01:49:44,860 --> 01:49:46,860
+Reduce is a higher order function
+
+1407
+01:49:48,780 --> 01:49:50,780
+Should be used
+
+1408
+01:49:53,260 --> 01:49:55,260
+When you want to
+
+1409
+01:49:58,940 --> 01:50:00,940
+Reduce
+
+1410
+01:50:01,180 --> 01:50:03,180
+Array of
+
+1411
+01:50:04,620 --> 01:50:06,620
+Numbers or items
+
+1412
+01:50:07,660 --> 01:50:09,100
+Into one
+
+1413
+01:50:09,100 --> 01:50:14,700
+Into a single item. Okay. Now, how can you do this? I'm just showing you one example
+
+1414
+01:50:15,740 --> 01:50:17,340
+Let's say
+
+1415
+01:50:17,340 --> 01:50:18,460
+const
+
+1416
+01:50:18,460 --> 01:50:20,460
+someone
+
+1417
+01:50:23,900 --> 01:50:26,060
+I'll just go on array. I'll say reduce
+
+1418
+01:50:26,060 --> 01:50:31,500
+Reduce again since this is a higher order function. It is supposed to take a callback function
+
+1419
+01:50:32,540 --> 01:50:34,700
+Once it takes a callback function here
+
+1420
+01:50:35,420 --> 01:50:37,420
+It has two things
+
+1421
+01:50:37,980 --> 01:50:39,980
+One thing is called accumulator
+
+1422
+01:50:43,820 --> 01:50:49,500
+Or acc and this can be number so when I say acc
+
+1423
+01:50:49,500 --> 01:50:51,500
+Okay
+
+1424
+01:50:52,380 --> 01:50:58,380
+You can always relate to the some variable that we used where we are appending each time again and again
+
+1425
+01:50:58,780 --> 01:51:02,220
+Okay, or else let's declare this as a result
+
+1426
+01:51:03,020 --> 01:51:04,540
+result variable
+
+1427
+01:51:04,540 --> 01:51:07,020
+Which will be appended again and again now
+
+1428
+01:51:07,740 --> 01:51:09,900
+What and how you will reduce this one?
+
+1429
+01:51:10,540 --> 01:51:12,060
+is that
+
+1430
+01:51:12,060 --> 01:51:14,060
+You will return
+
+1431
+01:51:15,900 --> 01:51:17,900
+Result plus now
+
+1432
+01:51:18,540 --> 01:51:21,820
+So what we are doing earlier if you see here one variable
+
+1433
+01:51:22,540 --> 01:51:26,620
+that we have kept it that will be first now if I hover it if you see
+
+1434
+01:51:28,060 --> 01:51:35,260
+A callback function and it says that previous value previous value when I say that first value will be zero
+
+1435
+01:51:35,820 --> 01:51:39,180
+Then I'll go with the first number number would be one
+
+1436
+01:51:39,900 --> 01:51:42,860
+Then I'll store number one here in the result
+
+1437
+01:51:44,780 --> 01:51:47,100
+Then i'll keep on updating this one
+
+1438
+01:51:48,860 --> 01:51:56,160
+Is are you able to relate this how this will work I can show you step by step give me a second
+
+1439
+01:52:07,100 --> 01:52:10,460
+If you see for both the things we are able to get that same output
+
+1440
+01:52:12,060 --> 01:52:15,280
+But what i'm saying is that it takes two parameters
+
+1441
+01:52:16,240 --> 01:52:23,440
+One is accumulator or like one person who is accumulating operation results like this is a variable which is
+
+1442
+01:52:24,480 --> 01:52:29,920
+You know defined outside of a loop that is accumulating all the results right consecutive results and attaching to it
+
+1443
+01:52:30,560 --> 01:52:36,320
+And it is being reduced and returned at last. So this is how it is working if I can show you
+
+1444
+01:52:37,360 --> 01:52:39,360
+Let me debug this logic
+
+1445
+01:52:40,640 --> 01:52:42,320
+If you see here
+
+1446
+01:52:42,320 --> 01:52:44,240
+firstly
+
+1447
+01:52:44,240 --> 01:52:46,800
+What I got here if you see first time
+
+1448
+01:52:47,600 --> 01:52:50,320
+When I entered it the initial result
+
+1449
+01:52:51,360 --> 01:52:52,640
+is one
+
+1450
+01:52:52,640 --> 01:52:58,080
+Because index one is executed the second item i'm getting as num as a number two
+
+1451
+01:52:59,120 --> 01:53:02,400
+And when I execute this one, let's say if I press enter
+
+1452
+01:53:03,280 --> 01:53:06,480
+Again when I come here if you see this number is updated as three
+
+1453
+01:53:07,120 --> 01:53:12,960
+Because it summed first two items then the third item that I have in the result is to sum the three
+
+1454
+01:53:13,680 --> 01:53:16,320
+If I click again press, uh, you know play
+
+1455
+01:53:16,960 --> 01:53:18,960
+If you see the number become
+
+1456
+01:53:19,120 --> 01:53:23,200
+The num is four and the result becomes six because it had
+
+1457
+01:53:23,760 --> 01:53:29,200
+Like some of the elements still now like three plus two plus one six and the number is four
+
+1458
+01:53:30,160 --> 01:53:32,160
+Next step the result will become ten
+
+1459
+01:53:33,840 --> 01:53:35,840
+Then I have num five
+
+1460
+01:53:35,920 --> 01:53:38,480
+Then i'm executing result then it will do some
+
+1461
+01:53:39,440 --> 01:53:46,800
+I hope this point is clear guys how this is result is working accumulating all the consecutive results that you have
+
+1462
+01:53:48,320 --> 01:53:49,600
+Okay
+
+1463
+01:53:49,600 --> 01:53:50,560
+now
+
+1464
+01:53:50,560 --> 01:53:52,320
+you can
+
+1465
+01:53:52,320 --> 01:53:54,000
+Let's explore how
+
+1466
+01:53:54,000 --> 01:53:58,560
+Think of it. How can you do something like prefix sum logic here?
+
+1467
+01:54:00,000 --> 01:54:02,240
+Just think of it if you can apply prefix sum
+
+1468
+01:54:08,480 --> 01:54:10,480
+So
+
+1469
+01:54:12,560 --> 01:54:18,900
+Time complexity same for yes time complexity same, but uh, the way of writing code is easier upendra
+
+1470
+01:54:24,400 --> 01:54:30,800
+Right this this particular thing the whatever higher order functions we have discussed filter map
+
+1471
+01:54:32,160 --> 01:54:34,160
+Reduce are generally
+
+1472
+01:54:35,120 --> 01:54:42,080
+Yeah, pre-push those results so those are actually making you to write a better code with a clear code
+
+1473
+01:54:44,640 --> 01:54:46,640
+Okay, I have uh
+
+1474
+01:54:47,680 --> 01:54:51,280
+You know a function i'll give you an example. Let's say I
+
+1475
+01:54:52,320 --> 01:54:57,120
+Copy the code. I just generated this logic. Okay in chat gpt
+
+1476
+01:54:58,880 --> 01:55:01,680
+Uh to just show you like how this works, okay
+
+1477
+01:55:01,920 --> 01:55:07,600
+If you see uh calculate prefix sum if you are doing someone is you writing in js code
+
+1478
+01:55:08,000 --> 01:55:10,640
+They should have done this way now if you see
+
+1479
+01:55:11,120 --> 01:55:13,280
+Accumulate the sum previous sum
+
+1480
+01:55:14,000 --> 01:55:16,000
+What we are doing here?
+
+1481
+01:55:16,000 --> 01:55:23,120
+Like uh, it's an input array then i'm calculate prefix sum if I go inside this i'm getting an array of item
+
+1482
+01:55:23,120 --> 01:55:25,120
+I'm reducing array of item here
+
+1483
+01:55:25,520 --> 01:55:28,160
+Now each time i'm getting an accumulator
+
+1484
+01:55:28,800 --> 01:55:30,800
+and a current value
+
+1485
+01:55:31,760 --> 01:55:35,680
+When i'm getting this current value now inside accumulated dot push
+
+1486
+01:55:36,560 --> 01:55:40,240
+Okay, i'm considering this element now. There is something
+
+1487
+01:55:40,880 --> 01:55:43,440
+Extra thing that I want to help you understand you that
+
+1488
+01:55:44,160 --> 01:55:46,160
+I have to define
+
+1489
+01:55:46,480 --> 01:55:52,000
+What is a default value of result if I give a default value of result as zero?
+
+1490
+01:55:52,960 --> 01:55:58,160
+So if you see it is asking me point out the initial value. What would be the initial value?
+
+1491
+01:55:58,720 --> 01:56:00,160
+After a callback
+
+1492
+01:56:00,160 --> 01:56:05,040
+So it takes two things here first is a callback callback function then a default value here
+
+1493
+01:56:05,760 --> 01:56:06,800
+when I
+
+1494
+01:56:06,800 --> 01:56:14,080
+Did when I explained i'm trying to explain prefix sum the default value for prefix sum would be because we need an array of
+
+1495
+01:56:15,360 --> 01:56:17,360
+Items calculated till that range right?
+
+1496
+01:56:17,920 --> 01:56:19,280
+Now if you see
+
+1497
+01:56:19,280 --> 01:56:23,120
+I had a default value as an empty array then i'm trying to push
+
+1498
+01:56:23,920 --> 01:56:25,920
+each item into this uh
+
+1499
+01:56:26,880 --> 01:56:34,000
+It array such that if accumulated dot length is greater than zero like if the item is greater than zero
+
+1500
+01:56:34,880 --> 01:56:36,880
+and
+
+1501
+01:56:37,120 --> 01:56:40,480
+Here with something used called as a tertiary operator, okay
+
+1502
+01:56:41,680 --> 01:56:48,560
+Something as a tertiary operator then i'm accumulating current item whatever item is there now
+
+1503
+01:56:48,720 --> 01:56:57,600
+So if you see this if I can write down this condition in a easier way to make you understand here what's happening if
+
+1504
+01:56:58,720 --> 01:57:00,480
+This is there
+
+1505
+01:57:00,480 --> 01:57:03,600
+If accumulator dot length is greater than this one
+
+1506
+01:57:07,280 --> 01:57:12,480
+Let's say I can push the pull this one outside because they have returned tertiary operator
+
+1507
+01:57:13,200 --> 01:57:16,240
+Let's say if I make it easier to understand this one
+
+1508
+01:57:19,520 --> 01:57:25,920
+Let's say if this is greater than length zero then I'll use something like
+
+1509
+01:57:29,040 --> 01:57:33,120
+Okay accumulator dot push
+
+1510
+01:57:37,440 --> 01:57:39,440
+Plus current value
+
+1511
+01:57:44,880 --> 01:57:46,880
+Or else
+
+1512
+01:57:49,280 --> 01:57:52,000
+I'll push accumulator dot push current value
+
+1513
+01:57:53,120 --> 01:57:59,840
+This is a condition they have written simple condition like if the first if it is not the first element push the current value if it is like
+
+1514
+01:58:00,560 --> 01:58:07,920
+Uh other elements like second index just keep on adding get the last element. What was in the accumulator and keep on adding it
+
+1515
+01:58:09,520 --> 01:58:12,800
+Is this clear guys how this prefix sum is function is written
+
+1516
+01:58:13,440 --> 01:58:21,520
+If I reduce remove this comments, right you will be able to see how clearer this code works when you use the reduce function
+
+1517
+01:58:25,920 --> 01:58:33,120
+But it just comes with a practice like what is a again like if you can write down in a simple js and compare this one
+
+1518
+01:58:33,920 --> 01:58:38,160
+Then you will be able to relate like how reduce actually is trying to help us out
+
+1519
+01:58:39,200 --> 01:58:41,200
+writing a better code
+
+1520
+01:58:42,800 --> 01:58:44,800
+Okay
+
+1521
+01:58:45,120 --> 01:58:51,120
+Uh, if you want to use all of this hos on objects which has an array, uh, can we just directly pass object?
+
+1522
+01:58:51,440 --> 01:58:54,480
+Yeah, uh, we can do that some bit. Yes, we can do that
+
+1523
+01:58:55,200 --> 01:58:58,640
+Always right. Let's say I push this inside an object itself
+
+1524
+01:59:00,080 --> 01:59:03,920
+Uh const object inside that let's say I have an array
+
+1525
+01:59:05,920 --> 01:59:07,920
+All right, I have this one
+
+1526
+01:59:08,720 --> 01:59:15,680
+Okay, if I have this one, so whenever i'm calling a function i'm supposed to call object dot array
+
+1527
+01:59:17,360 --> 01:59:19,360
+That's it, uh, everything will be solved
+
+1528
+01:59:21,200 --> 01:59:27,920
+And here if I want to do it added object dot array reduce still it would work as expected
+
+1529
+01:59:27,920 --> 01:59:33,120
+So, let me remove this debugger and play it if you see i'm able to get all the things
+
+1530
+01:59:33,440 --> 01:59:36,240
+prefix sum is also working i've just copy pasted it because
+
+1531
+01:59:37,040 --> 01:59:42,640
+Uh, you all all people, you know all know that logic actually what prefix sum does and by this example
+
+1532
+01:59:42,640 --> 01:59:45,120
+You might be able to better relate how reduce works
+
+1533
+01:59:48,880 --> 01:59:54,160
+So, let's say I have an array of objects which has an array and I want to use it as an array
+
+1534
+01:59:54,160 --> 01:59:56,160
+So, let's say I have an array of objects
+
+1535
+01:59:58,960 --> 02:00:00,960
+So guys, uh, is this
+
+1536
+02:00:01,040 --> 02:00:06,160
+Clear what we have done? Yeah, syntactically I would say it takes time
+
+1537
+02:00:06,720 --> 02:00:11,280
+But to you know in order to revise this thing, right? Uh, just let me give five minutes on it
+
+1538
+02:00:11,920 --> 02:00:15,280
+What we have done where you have understood first thing something called as
+
+1539
+02:00:15,920 --> 02:00:17,920
+higher order function and callbacks
+
+1540
+02:00:18,720 --> 02:00:27,760
+Higher order is a function which takes function in it along with other arguments or doesn't matter if it doesn't
+
+1541
+02:00:28,560 --> 02:00:33,200
+Callback is something which one is passed inside it that example we have cleared it
+
+1542
+02:00:33,760 --> 02:00:36,720
+Then we went on to discuss some existing library
+
+1543
+02:00:37,200 --> 02:00:38,880
+higher order functions
+
+1544
+02:00:38,880 --> 02:00:42,660
+Before this we understanding something something called imperative versus declarative
+
+1545
+02:00:43,620 --> 02:00:47,220
+Coding now whenever you are using something existing library higher order functions
+
+1546
+02:00:47,220 --> 02:00:52,980
+We are writing a more declarative code rather than writing a it's like more and the more declarative code you write
+
+1547
+02:00:53,220 --> 02:00:58,900
+It's a more cleaner code. You can always solve the functions like whatever functions we have discussed
+
+1548
+02:00:59,460 --> 02:01:04,020
+Map filter reduce if you see we were all we were able to do
+
+1549
+02:01:04,740 --> 02:01:10,340
+Build or get the result out of this using for loops that we can write it logic
+
+1550
+02:01:10,660 --> 02:01:16,900
+But the more declarative code you write the syntaxes are shorter and it's a better cleaner thing now
+
+1551
+02:01:17,380 --> 02:01:20,020
+If you when you now when you want to go for map
+
+1552
+02:01:20,660 --> 02:01:23,140
+When you want to apply same operation?
+
+1553
+02:01:24,260 --> 02:01:26,260
+on each item
+
+1554
+02:01:31,060 --> 02:01:38,180
+And when you want to go for filter filter in order to filter items of an array
+
+1555
+02:01:40,900 --> 02:01:42,900
+of items
+
+1556
+02:01:43,860 --> 02:01:45,860
+Based on condition
+
+1557
+02:01:55,220 --> 02:01:57,940
+Go for reduce when you want to
+
+1558
+02:02:02,740 --> 02:02:07,620
+Reduce array of items into one value
+
+1559
+02:02:10,340 --> 02:02:12,340
+So
+
+1560
+02:02:16,500 --> 02:02:22,040
+Is this clear guys how this all things works whatever we have discussed today
+
+1561
+02:02:29,380 --> 02:02:34,100
+Uh cheat sheet, uh cheat sheet. I'm not exactly sure upendra, but
+
+1562
+02:02:34,740 --> 02:02:42,500
+Uh for me right whenever I want to prepare anything, so it's a javascript info, uh, if you search here
+
+1563
+02:02:43,700 --> 02:02:45,460
+uh
+
+1564
+02:02:45,460 --> 02:02:47,460
+Let's say reduce
+
+1565
+02:02:48,180 --> 02:02:53,780
+It's not there here. I'll show you the document where you can prepare map reduce filter, but
+
+1566
+02:02:55,220 --> 02:02:59,140
+This is a better document where you can understand things
+
+1567
+02:03:00,500 --> 02:03:01,780
+Okay
+
+1568
+02:03:01,780 --> 02:03:06,340
+For the javascript level, but i'll share documents whichever you won't be able to find here
+
+1569
+02:03:08,900 --> 02:03:11,060
+But I hope uh, you will be able to
+
+1570
+02:03:12,020 --> 02:03:18,660
+Understand the concepts of higher functions callbacks and some existing higher functions which are there. Okay
+
+1571
+02:03:19,140 --> 02:03:21,140
+So if all these points are clear guys
+
+1572
+02:03:21,380 --> 02:03:25,300
+Uh, can we start doubt session because this is the content I wanted to uh, you know
+
+1573
+02:03:26,500 --> 02:03:28,500
+Take it
+
+1574
+02:03:28,820 --> 02:03:30,500
+So nice guys
+
+1575
+02:03:30,500 --> 02:03:32,500
+I'll start the doubt session. So
+
+1576
+02:03:33,460 --> 02:03:36,980
+Whoever had better understanding, uh, feel free to drop
+
+1577
+02:03:37,620 --> 02:03:42,420
+So from the next class guys for the next three classes, uh, I won't be available
+
+1578
+02:03:42,980 --> 02:03:44,500
+so
+
+1579
+02:03:44,500 --> 02:03:48,500
+Your uh three next three classes which will be more related to dom
+
+1580
+02:03:49,460 --> 02:03:52,260
+Since we have introduced js up to an extent
+
+1581
+02:03:53,060 --> 02:03:55,700
+Now we will be talking more on a how
+
+1582
+02:03:56,580 --> 02:03:58,580
+You will be able to use html
+
+1583
+02:03:59,620 --> 02:04:01,620
+css and js
+
+1584
+02:04:02,020 --> 02:04:06,180
+And use js to interact with html and play around with those things
+
+1585
+02:04:06,900 --> 02:04:08,900
+So these things will be taken by
+
+1586
+02:04:09,840 --> 02:04:11,540
+shashwat
+
+1587
+02:04:11,540 --> 02:04:16,920
+Okay, he works at geocinema one of the really great co, uh, you know web developer
+
+1588
+02:04:17,160 --> 02:04:19,160
+Okay
+
+1589
+02:04:20,040 --> 02:04:20,840
+Okay
+
+1590
+02:04:20,840 --> 02:04:26,840
+So he has been associated with scaler for more than eight months and he has proven himself to be a good instructor
+
+1591
+02:04:26,840 --> 02:04:30,600
+So hope you will enjoy classes for the next three classes
+
+1592
+02:04:31,160 --> 02:04:35,660
+Then i'll come back and we'll build a project called canban
+
+1593
+02:04:36,440 --> 02:04:43,240
+So once you understand basics of dom and how do you interact and what are the events that are generally handled how events are handled?
+
+1594
+02:04:43,640 --> 02:04:45,000
+in a browser
+
+1595
+02:04:45,000 --> 02:04:46,280
+Okay
+
+1596
+02:04:46,280 --> 02:04:49,400
+So once you get those clarities, we'll build something like a canban board
+
+1597
+02:04:50,440 --> 02:04:53,960
+So project level project level item. I'll pick it up again back
+
+1598
+02:04:56,200 --> 02:04:58,200
+Okay guys
+
+1599
+02:05:00,280 --> 02:05:04,840
+So did you like today's class in last class fns data type we had used something cons and then we
+
+1600
+02:05:05,160 --> 02:05:07,160
+Try to change the values. It should be technically
+
+1601
+02:05:08,520 --> 02:05:13,320
+Ah, okay. I'll answer this question share your code base also. Okay. Uh, yeah, i'll do that munish
+
+1602
+02:05:13,960 --> 02:05:21,160
+So shashar will be pushing his code i'll also uh may make sure that i'll try to update my code so i'll answer
+
+1603
+02:05:21,720 --> 02:05:23,720
+some bits question
+
+1604
+02:05:24,440 --> 02:05:31,480
+So some bits where basic question is like if you remember in last class we declared an object
+
+1605
+02:05:33,000 --> 02:05:35,000
+Uh, like let's say this is uh, one
+
+1606
+02:05:35,960 --> 02:05:40,040
+Let's say I have something like one and two. I have something like two
+
+1607
+02:05:40,440 --> 02:05:45,080
+And I go on to say that object two
+
+1608
+02:05:46,840 --> 02:05:52,680
+And I say object and I say that hey object two dot
+
+1609
+02:05:53,880 --> 02:05:56,360
+One equal to let's say three
+
+1610
+02:05:58,040 --> 02:06:00,040
+If i'm doing this way so
+
+1611
+02:06:02,200 --> 02:06:06,920
+Or this is the question, isn't it sambit are you talking about this one?
+
+1612
+02:06:10,600 --> 02:06:15,240
+Right now what's happening when I explained last time in reference data type
+
+1613
+02:06:17,080 --> 02:06:18,760
+Let's take this one
+
+1614
+02:06:18,760 --> 02:06:20,280
+Let's take this example
+
+1615
+02:06:20,280 --> 02:06:27,880
+First object was declared and uh memory was created which is storing this particular thing, right?
+
+1616
+02:06:28,520 --> 02:06:30,520
+Let's say what it is storing
+
+1617
+02:06:30,520 --> 02:06:31,640
+one
+
+1618
+02:06:31,640 --> 02:06:33,640
+one
+
+1619
+02:06:34,280 --> 02:06:36,280
+And two two
+
+1620
+02:06:37,160 --> 02:06:40,840
+Right now when i'm assigning
+
+1621
+02:06:41,880 --> 02:06:44,360
+Object two to this one
+
+1622
+02:06:45,080 --> 02:06:47,080
+Right when i'm assigning this to it
+
+1623
+02:06:47,940 --> 02:06:49,940
+actually
+
+1624
+02:06:50,440 --> 02:06:52,440
+Const is something we say that final
+
+1625
+02:06:53,560 --> 02:06:55,240
+final value
+
+1626
+02:06:55,240 --> 02:06:56,200
+right
+
+1627
+02:06:56,200 --> 02:07:01,160
+So what I mean to say that for the object to one object you cannot change it
+
+1628
+02:07:01,480 --> 02:07:06,920
+But when you're actually considering reference data type, right when you're considering array also
+
+1629
+02:07:08,280 --> 02:07:10,760
+Array also you can declare array
+
+1630
+02:07:11,400 --> 02:07:13,000
+Like one two, three
+
+1631
+02:07:13,000 --> 02:07:19,000
+Four if you see when you're declaring a const as an array you are able to do something like a push operation
+
+1632
+02:07:19,960 --> 02:07:21,960
+or pop operation
+
+1633
+02:07:22,440 --> 02:07:27,560
+Or shift or unshift or any sort of operations because on reference data types
+
+1634
+02:07:28,120 --> 02:07:32,760
+You're not actually you know, there's something like it's not working like pass by value
+
+1635
+02:07:35,800 --> 02:07:37,800
+It's working like a pass by reference
+
+1636
+02:07:39,400 --> 02:07:46,600
+I'll discuss this in depth actually how this is working why const why even after declaring const you are able to update
+
+1637
+02:07:46,920 --> 02:07:52,680
+When you're declaring it pass by reference, right each copy will have the reference and they can update it
+
+1638
+02:07:53,000 --> 02:07:55,960
+It's not that you are updating the like this value
+
+1639
+02:07:56,680 --> 02:07:58,680
+But if you declare
+
+1640
+02:07:58,680 --> 02:08:02,360
+Like a primitive data type right const x equal to two
+
+1641
+02:08:03,640 --> 02:08:07,480
+Right, then you cannot go and say that x equal to three
+
+1642
+02:08:08,440 --> 02:08:10,440
+Because this will be stored
+
+1643
+02:08:10,920 --> 02:08:17,660
+Here in the stack and stack value will be final. But when it comes to reference data type, you can still do the manipulation
+
+1644
+02:08:20,040 --> 02:08:23,160
+Yeah const behaves like a let so when you go for
+
+1645
+02:08:24,120 --> 02:08:29,720
+Like let's make let me fix this issues like i'll show you wherever I use let right
+
+1646
+02:08:30,600 --> 02:08:32,760
+Since we were discussing more about
+
+1647
+02:08:33,880 --> 02:08:35,400
+for some works
+
+1648
+02:08:35,400 --> 02:08:39,720
+For map, let's say, uh, if you see here wherever I used it
+
+1649
+02:08:41,080 --> 02:08:43,480
+Let's say this is a loop, right if you see loop
+
+1650
+02:08:45,080 --> 02:08:50,840
+Uh, let me uncomment this code in the map I have let's say if I make a const
+
+1651
+02:08:51,800 --> 02:08:53,800
+I comment this out code
+
+1652
+02:08:57,640 --> 02:09:03,480
+Okay, if I comment this code and if you see I made a const result array now, let's say I
+
+1653
+02:09:05,240 --> 02:09:08,680
+Clear this and I say node map dot js
+
+1654
+02:09:11,160 --> 02:09:13,160
+You see I didn't get error
+
+1655
+02:09:13,400 --> 02:09:19,080
+But we are adding something to it. So for reference data type const will work like a let but
+
+1656
+02:09:20,040 --> 02:09:23,800
+It's a standard that you would declare them as a constraint itself
+
+1657
+02:09:24,680 --> 02:09:26,360
+Is that clear?
+
+1658
+02:09:26,360 --> 02:09:28,360
+Let's say even if I do right
+
+1659
+02:09:28,520 --> 02:09:30,520
+Even if I do this way, let's say
+
+1660
+02:09:30,660 --> 02:09:32,660
+const
+
+1661
+02:09:32,920 --> 02:09:35,080
+Object let's say I have an object
+
+1662
+02:09:36,840 --> 02:09:38,840
+Also
+
+1663
+02:09:39,880 --> 02:09:42,360
+And I return something like result
+
+1664
+02:09:44,360 --> 02:09:48,440
+Let's say i'm returning result comma object
+
+1665
+02:09:49,800 --> 02:09:51,160
+Okay
+
+1666
+02:09:51,160 --> 02:09:57,240
+Of object now, let's say i'm trying to just manipulate it. I'll undo this one or whatever. I'm trying to do it
+
+1667
+02:09:57,800 --> 02:09:59,800
+Let's say object dot
+
+1668
+02:10:00,520 --> 02:10:04,680
+Like whenever you don't know the value like you can do array of i
+
+1669
+02:10:06,280 --> 02:10:08,280
+And you can say
+
+1670
+02:10:10,520 --> 02:10:12,520
+Square of this one
+
+1671
+02:10:13,640 --> 02:10:16,040
+Okay, now let's see what will be the output of it
+
+1672
+02:10:19,080 --> 02:10:23,960
+If you see what I got and the output object for the 2 the square value is 4 for the 3
+
+1673
+02:10:24,040 --> 02:10:27,160
+It is 9 for the 4 it is 16 5 25 6 36
+
+1674
+02:10:27,800 --> 02:10:32,040
+Do you get that even if I declare a const even if i'm manipulating it you can do that
+
+1675
+02:10:35,560 --> 02:10:37,560
+So for reference data types actually
+
+1676
+02:10:37,640 --> 02:10:38,680
+uh
+
+1677
+02:10:38,680 --> 02:10:41,320
+let const behave doesn't behave differently, but it's
+
+1678
+02:10:42,120 --> 02:10:44,840
+standard practice to declare constraint use
+
+1679
+02:10:45,320 --> 02:10:49,320
+Uh, I mean the standard practice is wherever you are it's possible to use
+
+1680
+02:10:49,800 --> 02:10:50,840
+uh
+
+1681
+02:10:50,840 --> 02:10:57,000
+Const you should go for it until unless there is you are not updating that value again. Don't go for let for the primitives
+
+1682
+02:10:58,120 --> 02:11:00,120
+Okay
+
+1683
+02:11:00,840 --> 02:11:03,900
+Uh, so can I mark this as answered uh some bit?
+
+1684
+02:11:10,520 --> 02:11:14,600
+Great, uh any any anything else because any other questions you have
+
+1685
+02:11:15,160 --> 02:11:17,160
+Okay
+
+1686
+02:11:18,040 --> 02:11:22,860
+So are you able to catch up guys whatever i'm teaching the concepts wise and everything
+
+1687
+02:11:26,040 --> 02:11:31,320
+Could be rest operator spread operator destructuring that we have discussed in depth a bit clearer way
+
+1688
+02:11:33,960 --> 02:11:35,960
+Right great
+
+1689
+02:11:40,760 --> 02:11:43,240
+Class 10 nodes
+
+1690
+02:11:45,480 --> 02:11:52,440
+Because my way of understanding logics is that right, uh, basically I try to think like
+
+1691
+02:11:53,080 --> 02:11:59,320
+Even if I call back, what is the call back in real terms? Like when I say call back or reducing it filtering it
+
+1692
+02:12:00,200 --> 02:12:03,800
+Mapping each item like i'm mapping it to particular thing. So
+
+1693
+02:12:04,820 --> 02:12:06,820
+generalized, right
+
+1694
+02:12:08,040 --> 02:12:14,600
+Any such like when you generalize exactly with uh, use cases like you deal in real time
+
+1695
+02:12:14,920 --> 02:12:18,840
+You will be able to relate and you know, remember it easily. So that's my idea
+
+1696
+02:12:18,920 --> 02:12:20,920
+So that's why I try to take those examples
+
+1697
+02:12:22,120 --> 02:12:25,900
+Also any such gaming revisions for this concept like flex froggy
+
+1698
+02:12:28,840 --> 02:12:32,600
+Some bit if you see, uh, I don't have
+
+1699
+02:12:34,600 --> 02:12:40,920
+Anything like uh practicing if you see i've shown you for each example for each higher order function
+
+1700
+02:12:41,560 --> 02:12:44,840
+I've written a for loop logic. I optimized and written a bit
+
+1701
+02:12:44,920 --> 02:12:47,660
+I'm not I didn't optimize time complexity or space complexity
+
+1702
+02:12:48,120 --> 02:12:54,040
+But I made it to write a cleaner code even I took a prefix some even if I give you a prefix some problem
+
+1703
+02:12:54,600 --> 02:12:59,720
+If you are writing in js, you are supposed to write a for loop, but you can use it to reduce function
+
+1704
+02:13:00,840 --> 02:13:02,840
+So this will come with a practice
+
+1705
+02:13:03,080 --> 02:13:07,000
+All the things that you do with a for loop you will try to avoid those for loops writing
+
+1706
+02:13:07,320 --> 02:13:10,920
+Because you know that on an array or sort of logic you have this higher order functions
+
+1707
+02:13:10,920 --> 02:13:13,480
+Which can do most of the concepts that you want to do
+
+1708
+02:13:14,920 --> 02:13:20,120
+Because this will come when you try to go for problem solving pick it up problem solving try to do it in js
+
+1709
+02:13:20,440 --> 02:13:22,440
+You will be able to see this one
+
+1710
+02:13:23,480 --> 02:13:28,760
+But there are nothing like specific, uh things that I found it as such, but I'll check and get back to you
+
+1711
+02:13:29,800 --> 02:13:35,000
+Okay, so it's more of a problem solving in js. You'll be able to select you're using this higher order functions
+
+1712
+02:13:37,000 --> 02:13:39,000
+Okay
+
+1713
+02:13:42,680 --> 02:13:46,040
+So guys if everything is clear can we close the session
+
+1714
+02:13:48,120 --> 02:13:50,120
+If you don't have doubts
+
+1715
+02:13:54,360 --> 02:13:59,080
+We ended it really quick right two hours 13 minutes or 14 minutes clocked
+
+1716
+02:14:00,920 --> 02:14:02,920
+Linked to practice, uh
+
+1717
+02:14:03,400 --> 02:14:05,880
+problem solving functional programming, uh
+
+1718
+02:14:07,720 --> 02:14:11,260
+Let's say let's say let's say I do I'll show you something guys. I'll show you something
+
+1719
+02:14:15,800 --> 02:14:17,800
+Do this thing go to the late code
+
+1720
+02:14:19,320 --> 02:14:22,920
+Right problems pick it anything you have
+
+1721
+02:14:25,000 --> 02:14:30,840
+I think I have solved some list of problems, but let's say you go for two some anything that you have
+
+1722
+02:14:32,680 --> 02:14:34,680
+Right, uh, that's fine
+
+1723
+02:14:35,240 --> 02:14:36,440
+Okay
+
+1724
+02:14:36,440 --> 02:14:43,240
+You pick it in js simple you can practice it here right anything you can do good anywhere like num sign target value
+
+1725
+02:14:44,840 --> 02:14:50,540
+You know, so whenever you are trying to calculate you will get to see if there's a target value available
+
+1726
+02:14:55,640 --> 02:15:00,520
+We can pick it up any uh function like if you go for javascript right abhishek or anyone
+
+1727
+02:15:01,400 --> 02:15:04,440
+You will be seeing a default as a functional programming language
+
+1728
+02:15:04,600 --> 02:15:08,680
+That's the reason why I was saying I was saying that hey js is a complete functional program
+
+1729
+02:15:08,760 --> 02:15:15,880
+You pick this problem or let's say you pick it like let's say I pick something like lru cache lru cache is something a complicated problem
+
+1730
+02:15:15,880 --> 02:15:17,000
+right
+
+1731
+02:15:17,000 --> 02:15:19,000
+As I pick a lru cache
+
+1732
+02:15:24,360 --> 02:15:26,360
+Okay, if you see in javascript
+
+1733
+02:15:26,920 --> 02:15:33,400
+They you they declared in functions and there are something like prototypes we'll declare we'll understand what prototypes are in future, but
+
+1734
+02:15:34,040 --> 02:15:36,600
+Everything is a function. You will see a function key
+
+1735
+02:15:38,040 --> 02:15:43,800
+Uh attached to it. So whenever you write down the logics to it, right you are supposed to use these functions more and more
+
+1736
+02:15:46,360 --> 02:15:52,040
+So you'll get used to it like how do you do it now lru cache you you you basically if you go for java
+
+1737
+02:15:52,040 --> 02:15:55,960
+Right, even I think I solved it in java itself if you go for my submissions
+
+1738
+02:15:56,840 --> 02:15:58,840
+uh
+
+1739
+02:16:09,080 --> 02:16:15,800
+Right, so i've solved in java, but where when you go for java, you will be able to see like, uh, you know a simple
+
+1740
+02:16:16,760 --> 02:16:19,800
+Class-based approach, but when you go for javascript, uh
+
+1741
+02:16:20,200 --> 02:16:22,920
+Uh, you will be again writing in this functions
+
+1742
+02:16:22,920 --> 02:16:28,040
+I didn't practice in javascript as much because I was a full stack developer. I also work in java
+
+1743
+02:16:28,760 --> 02:16:30,760
+and for more most of the
+
+1744
+02:16:32,760 --> 02:16:35,400
+Yeah, i'm talking to both guys I got confused
+
+1745
+02:16:39,400 --> 02:16:41,880
+But i'm just saying that if you want to practice, uh
+
+1746
+02:16:44,760 --> 02:16:48,440
+If you want to practice, okay, just go for any problem solving you'll be able to do it
+
+1747
+02:16:49,800 --> 02:16:51,800
+Okay
+
+1748
+02:16:55,560 --> 02:16:57,560
+Yeah, thank you maneshwara
+
+1749
+02:16:58,280 --> 02:17:03,240
+I I would I wish for taking all the classes even I love it because uh
+
+1750
+02:17:04,520 --> 02:17:09,880
+I get to learn when I teach also because I get to uh study in depth. I study
+
+1751
+02:17:10,600 --> 02:17:14,680
+With better examples. It's like a revision for me. Also i'm trying to explain people
+
+1752
+02:17:15,640 --> 02:17:17,560
+And also i'm trying to
+
+1753
+02:17:17,560 --> 02:17:19,560
+Okay road map sh
+
+1754
+02:17:21,480 --> 02:17:23,480
+Okay
+
+1755
+02:17:23,480 --> 02:17:28,280
+So it's it's a really great journey for me also when I thought of becoming an instructor
+
+1756
+02:17:28,760 --> 02:17:29,800
+so
+
+1757
+02:17:29,800 --> 02:17:34,120
+Even I'll miss it. But yeah family event one of the big thing. So this is a
+
+1758
+02:17:35,400 --> 02:17:37,400
+Link shared by ankit
+
+1759
+02:17:37,400 --> 02:17:43,000
+So he's talking about like roadmaps. Let me ping pin this one for everyone
+
+1760
+02:17:44,040 --> 02:17:46,040
+One can explore this
+
+1761
+02:17:47,000 --> 02:17:50,680
+I can do anything share it in whatsapp. I'll pin this in the whatsapp group also, okay
+
+1762
+02:17:52,680 --> 02:17:55,560
+You have whatsapp you are added in whatsapp group
+
+1763
+02:17:58,920 --> 02:18:02,040
+Uh share it there i'll pin there for anyone like if you see
+
+1764
+02:18:03,000 --> 02:18:05,000
+Let's say if I open role-based
+
+1765
+02:18:05,400 --> 02:18:06,920
+They have really
+
+1766
+02:18:06,920 --> 02:18:12,600
+Man, I believe one who want to you know increase their followers on instagram like linkedin
+
+1767
+02:18:13,240 --> 02:18:15,960
+They can use this site and they can keep on pasting roadmaps
+
+1768
+02:18:17,160 --> 02:18:19,160
+Every day one post
+
+1769
+02:18:19,240 --> 02:18:21,400
+Uh, it'll get good enough good amount of followers
+
+1770
+02:18:25,240 --> 02:18:30,440
+But yeah going going into this one or what we have learned till now, okay what we have learned till now
+
+1771
+02:18:30,440 --> 02:18:33,960
+Let's say we talked about front end right? Uh now
+
+1772
+02:18:34,440 --> 02:18:37,640
+Even if you think like what we have learned if you think in front front end
+
+1773
+02:18:37,960 --> 02:18:41,960
+We have covered this now. How does internet work? What is http domain name?
+
+1774
+02:18:42,840 --> 02:18:47,720
+dns server browser how they work we have covered most of the topics isn't it
+
+1775
+02:18:49,320 --> 02:18:53,240
+Hosting will learn when you deploy it when you go for build a project and deploy it
+
+1776
+02:18:53,720 --> 02:18:58,600
+Right and when you go for html, we learned basic. What is semantic html?
+
+1777
+02:18:58,680 --> 02:19:04,120
+We heard we learned form we didn't learn validation because we'll go learn validation only when
+
+1778
+02:19:04,760 --> 02:19:06,280
+We know javascript
+
+1779
+02:19:06,280 --> 02:19:08,200
+We are learning javascript
+
+1780
+02:19:08,200 --> 02:19:10,520
+Then accessibility i've shown you, uh
+
+1781
+02:19:11,160 --> 02:19:19,000
+SEO basics and accessibility while i'm trying to generate a report on a apple.com or youtube.com, but i'll discuss that in depth
+
+1782
+02:19:20,120 --> 02:19:26,200
+Yeah hosting, uh is uh, yeah, you might have hosted it anket, uh, but there's a different ways, right?
+
+1783
+02:19:26,280 --> 02:19:29,160
+How do you deploy front end back end and combination of them?
+
+1784
+02:19:29,640 --> 02:19:33,800
+Uh, maybe a simple static project or a dynamic project. There are too many things in hosting
+
+1785
+02:19:33,880 --> 02:19:35,880
+We'll see what all possible things are there
+
+1786
+02:19:36,600 --> 02:19:38,040
+and when you
+
+1787
+02:19:38,040 --> 02:19:42,680
+Come to css. We learned basics. We made our layouts. We made a responsive day designs
+
+1788
+02:19:43,320 --> 02:19:51,240
+And when it comes to javascript, we learned basics now dom manipulation shashut will cover then i'll build projects once we learn dom manipulation
+
+1789
+02:19:51,960 --> 02:19:59,720
+Fetch api will be introduced also and for git guys git, uh, those videos are added in archive section or not
+
+1790
+02:20:00,920 --> 02:20:04,760
+Has anyone seen in archive section does git link is added. Oh
+
+1791
+02:20:04,760 --> 02:20:06,760
+So
+
+1792
+02:20:06,840 --> 02:20:13,880
+Okay, uh, i'll i'll do that i'll check with the team again, uh, i've asked them two times to add it, okay
+
+1793
+02:20:15,480 --> 02:20:20,680
+So we'll do that and once it is added this part will be covered
+
+1794
+02:20:21,480 --> 02:20:23,080
+then
+
+1795
+02:20:23,080 --> 02:20:29,160
+Package managers, uh will be using npm package, uh node package manager, which is given by node.js
+
+1796
+02:20:29,800 --> 02:20:36,760
+We're already using it when we execute using node, then we'll pick a framework we'll pick a for surely I think we'll pick a react
+
+1797
+02:20:37,400 --> 02:20:38,600
+Okay
+
+1798
+02:20:38,600 --> 02:20:43,740
+We'll pick a react then we'll start writing css. So we learned, uh tailwind css
+
+1799
+02:20:44,680 --> 02:20:49,480
+Uh shared cnui is a great one, but we'll talk about this one later
+
+1800
+02:20:49,880 --> 02:20:55,800
+Uh, we'll pick up tailwind. We'll also build a project using tailwind here and then we will go for css architecture
+
+1801
+02:20:55,800 --> 02:21:00,680
+I've talked about bem. I've given you a you know article to read on bem. Did I
+
+1802
+02:21:02,200 --> 02:21:05,960
+When we discuss css, right? So go with that one
+
+1803
+02:21:06,520 --> 02:21:12,040
+Then css preprocessors, uh, i'll give you a high overview of what sas and post css are
+
+1804
+02:21:12,520 --> 02:21:18,220
+Like how they use it. This is actually a compilation like how do you use it? Uh preprocessors
+
+1805
+02:21:19,180 --> 02:21:20,860
+Uh
+
+1806
+02:21:20,860 --> 02:21:26,380
+This is from a deployment point of view like not from writing code, uh, but how do you write it in a better way?
+
+1807
+02:21:27,100 --> 02:21:30,220
+And build tools, uh will come to that step by step
+
+1808
+02:21:31,100 --> 02:21:34,780
+Because these are like, uh depth in depth like when you understand this one
+
+1809
+02:21:36,060 --> 02:21:38,220
+In testing, uh, we'll learn just
+
+1810
+02:21:39,100 --> 02:21:40,780
+We'll learn just
+
+1811
+02:21:40,780 --> 02:21:44,140
+Play write or strip press is out of scope. These are used for automation
+
+1812
+02:21:44,860 --> 02:21:46,140
+um
+
+1813
+02:21:46,140 --> 02:21:48,780
+Yeah, uh for bem article, right? Bem, uh
+
+1814
+02:21:49,580 --> 02:21:50,620
+Bem
+
+1815
+02:21:50,620 --> 02:21:52,620
+Let's say if you go for this one
+
+1816
+02:21:53,580 --> 02:21:55,580
+They have a particular bem
+
+1817
+02:21:56,220 --> 02:21:58,220
+Now you can practice this one
+
+1818
+02:21:59,580 --> 02:22:06,300
+Where uh, we will be learning testing i'll introduce testing uncle like how do you can you do testing and i'll give you the roadmaps?
+
+1819
+02:22:06,380 --> 02:22:10,540
+Like actually i'll give you more of a content where you can develop knowledge on it
+
+1820
+02:22:11,100 --> 02:22:17,100
+Uh, because if I complete this we are covering at most all of the things that you see in this road map
+
+1821
+02:22:17,740 --> 02:22:18,780
+Okay
+
+1822
+02:22:18,780 --> 02:22:23,580
+I'll if if i'm not going to teach you something i'll help you out with how can you learn and how can you
+
+1823
+02:22:24,140 --> 02:22:26,140
+Expand your knowledge on this
+
+1824
+02:22:26,940 --> 02:22:28,060
+Play write
+
+1825
+02:22:28,060 --> 02:22:31,020
+Yeah unit testing. Yeah testing as a unit testing, right?
+
+1826
+02:22:31,420 --> 02:22:35,820
+We'll use a just a package here if someone is uh familiar with java
+
+1827
+02:22:36,300 --> 02:22:39,820
+They might have used something like j unit, right?
+
+1828
+02:22:40,700 --> 02:22:42,700
+j unit testing, uh
+
+1829
+02:22:43,340 --> 02:22:46,220
+and for uh, uh like functional test
+
+1830
+02:22:47,720 --> 02:22:49,500
+functional
+
+1831
+02:22:49,500 --> 02:22:51,500
+test in spring
+
+1832
+02:22:59,980 --> 02:23:02,240
+Functional test, uh framework
+
+1833
+02:23:10,540 --> 02:23:12,540
+Okay
+
+1834
+02:23:22,060 --> 02:23:24,060
+J unit is fine, but
+
+1835
+02:23:25,500 --> 02:23:30,700
+There are other languages other I don't remember the exact one that we used it at paypal
+
+1836
+02:23:31,980 --> 02:23:35,100
+Mockito is there mockito is for mocking but
+
+1837
+02:23:35,100 --> 02:23:37,100
+But
+
+1838
+02:23:37,180 --> 02:23:42,460
+Yeah fun, uh, no no maven is different thing maven is a build tool so
+
+1839
+02:23:43,740 --> 02:23:49,260
+Seperous is used for automation testing guys like just in browser testing like you're not using it
+
+1840
+02:23:49,260 --> 02:23:53,340
+But you are making an application to run it like you'll try to write a test
+
+1841
+02:23:54,060 --> 02:23:58,220
+But you have to explore uh, even I at my office, right what I do
+
+1842
+02:23:58,700 --> 02:24:04,400
+I write seplus test. I write j unit test. I mean using just also develop code. I write the documentation
+
+1843
+02:24:04,720 --> 02:24:06,720
+So as a developer you have to do
+
+1844
+02:24:07,280 --> 02:24:12,720
+Six seven things when you get the complete ownership of a particular thing, right? You're supposed to do all of those things
+
+1845
+02:24:13,440 --> 02:24:14,480
+so
+
+1846
+02:24:14,480 --> 02:24:18,900
+Learning like you have to learn this all these things are up to an extent authentication
+
+1847
+02:24:19,520 --> 02:24:22,660
+We'll use jwt. I'll explain jwt completely
+
+1848
+02:24:23,360 --> 02:24:28,000
+In depth oauth is something i'll give you a documentation to understand oauth is
+
+1849
+02:24:28,960 --> 02:24:34,240
+Where you will learn like, you know login with google or gmail or anything, right?
+
+1850
+02:24:34,400 --> 02:24:36,400
+Yeah
+
+1851
+02:24:37,280 --> 02:24:42,400
+Yeah, full stack is actually completely bigger module guys to cover it, uh
+
+1852
+02:24:43,680 --> 02:24:44,640
+right
+
+1853
+02:24:44,640 --> 02:24:45,840
+so
+
+1854
+02:24:45,840 --> 02:24:49,680
+I don't think web components are needed typescripts are needed as of now
+
+1855
+02:24:50,240 --> 02:24:53,360
+Uh server-side rendering I can talk about it, but
+
+1856
+02:24:54,240 --> 02:24:58,400
+Um as you as you will grow right as you'll grow over the ladder
+
+1857
+02:24:59,280 --> 02:25:01,120
+um
+
+1858
+02:25:01,120 --> 02:25:04,000
+You're supposed to know most of this guys you're supposed to know most of this
+
+1859
+02:25:04,960 --> 02:25:10,960
+Because I see I use graph ql. I use server-side rendering initial page. I use typescript at office
+
+1860
+02:25:11,600 --> 02:25:18,800
+Right next.js is somewhere. We are uh exploring it, uh, because we use simple react and we have our own crackin framework
+
+1861
+02:25:18,880 --> 02:25:20,880
+But when xjs is we are in the uh
+
+1862
+02:25:21,680 --> 02:25:26,980
+We are piloting it using again. Does anyone have heard of this one? Uh module federation
+
+1863
+02:25:29,360 --> 02:25:31,360
+Someone experienced with react
+
+1864
+02:25:31,680 --> 02:25:34,660
+So someone came across this module federation
+
+1865
+02:25:38,400 --> 02:25:40,400
+Did anyone heard this earlier
+
+1866
+02:25:42,240 --> 02:25:43,920
+So
+
+1867
+02:25:43,920 --> 02:25:45,280
+uh
+
+1868
+02:25:45,280 --> 02:25:52,880
+I'll talk about this once we learned uh react right once I completely teach you remind me that time. What is module federation?
+
+1869
+02:25:53,520 --> 02:25:57,680
+Okay, how can you use this and what are the use cases when it comes across? Okay?
+
+1870
+02:25:58,400 --> 02:26:02,560
+I'll talk about this one later, but not to pick it up right now, okay
+
+1871
+02:26:04,560 --> 02:26:11,200
+Then yeah, see where I told you earlier right once you learn react and javascript you will be able to build application in react native
+
+1872
+02:26:11,440 --> 02:26:17,040
+Which is a mobile-based application and for desktop, uh, there's something like electron
+
+1873
+02:26:17,820 --> 02:26:22,880
+Electron.js that you can use for desktop web applications like you have flutter here
+
+1874
+02:26:24,160 --> 02:26:25,600
+right
+
+1875
+02:26:25,600 --> 02:26:30,640
+And even here, uh, if you see this is not completely things that we are going to learn
+
+1876
+02:26:30,720 --> 02:26:33,840
+But there are more than this what we are going to learn if we go for node.js
+
+1877
+02:26:34,560 --> 02:26:36,960
+I'll talk about node.js use history
+
+1878
+02:26:37,680 --> 02:26:42,800
+Then i'll talk about node.js versus browser. This is something we have already covered node.js versus browser
+
+1879
+02:26:43,520 --> 02:26:45,520
+Running code in node.js. We have covered
+
+1880
+02:26:46,080 --> 02:26:48,080
+I do it every day
+
+1881
+02:26:48,080 --> 02:26:48,960
+uh
+
+1882
+02:26:48,960 --> 02:26:54,640
+I'll talk about error handling using debugger. I just showed you debugging right? How can you do it in debugging here?
+
+1883
+02:26:55,440 --> 02:26:56,400
+then
+
+1884
+02:26:56,400 --> 02:27:02,560
+Handling async errors even all this thing mostly will cover everything guys mostly on top of level it will cover everything
+
+1885
+02:27:02,960 --> 02:27:05,680
+But if you want to go pick by pick by topic by topic
+
+1886
+02:27:06,080 --> 02:27:10,480
+Maybe some things we have we won't be covering it, but most of the things we'll be covering it
+
+1887
+02:27:13,360 --> 02:27:20,000
+Uh, we are going to build web projects since mobile apps are specific to react natives on with
+
+1888
+02:27:20,960 --> 02:27:24,480
+Our responsive websites, we are going to build a responsive websites
+
+1889
+02:27:25,200 --> 02:27:28,400
+But mobile apps are like native. It's up that
+
+1890
+02:27:29,040 --> 02:27:34,880
+That framework we have to use there are some changes once you learn react native react native would be really easy for you
+
+1891
+02:27:35,600 --> 02:27:38,400
+Okay, we'll learn mongoose document db
+
+1892
+02:27:39,120 --> 02:27:41,600
+Right. We won't be using a relational db
+
+1893
+02:27:43,200 --> 02:27:45,200
+And testing will use just
+
+1894
+02:27:45,920 --> 02:27:51,440
+Again cpress is common across them mocha is common across java and everything for mocking it
+
+1895
+02:27:53,200 --> 02:27:54,560
+Uh
+
+1896
+02:27:54,560 --> 02:27:59,200
+Someone can learn memory leaks right garbage collection these two topics in depth
+
+1897
+02:28:00,080 --> 02:28:01,920
+They're really great
+
+1898
+02:28:01,920 --> 02:28:07,840
+Will understand fs, uh file system, uh, like library will understand paths
+
+1899
+02:28:08,960 --> 02:28:10,240
+right
+
+1900
+02:28:10,240 --> 02:28:18,000
+We'll use uh, like someone want to build a command line application they can use this process, uh arcs commander.js like
+
+1901
+02:28:18,640 --> 02:28:22,720
+I've i've built one application guys if you want to explore right?
+
+1902
+02:28:24,880 --> 02:28:26,980
+Uh, I just built something
+
+1903
+02:28:33,120 --> 02:28:35,120
+Repositories
+
+1904
+02:28:35,840 --> 02:28:37,840
+Your repository
+
+1905
+02:28:39,280 --> 02:28:44,400
+I've used node.js one can explore this one. Uh, just i've did it last week itself
+
+1906
+02:28:45,920 --> 02:28:49,280
+Something called as uh cron parser
+
+1907
+02:28:50,240 --> 02:28:52,240
+I built a rest api
+
+1908
+02:28:52,880 --> 02:28:54,880
+Backend application using node.js
+
+1909
+02:28:55,680 --> 02:28:57,680
+only one api, uh
+
+1910
+02:28:58,480 --> 02:29:03,440
+I also gave you here exported collection, uh that you can use it in postman directly
+
+1911
+02:29:04,400 --> 02:29:08,720
+You can go here. You can see that it's an mvc structure. I have also added some test cases
+
+1912
+02:29:08,800 --> 02:29:13,920
+I've also gave you a documentation that you could clone this, uh npm install run it
+
+1913
+02:29:14,560 --> 02:29:18,400
+Run the test cases end points and everything. I've given everything like what it will does
+
+1914
+02:29:20,720 --> 02:29:25,520
+You can do anything that you want again like we can build it we can explore that how we can do
+
+1915
+02:29:25,520 --> 02:29:27,520
+So
+
+1916
+02:29:29,840 --> 02:29:33,120
+Keep on building projects because I do it myself you can also do it
+
+1917
+02:29:34,240 --> 02:29:36,240
+Yeah, yeah, you should do it
+
+1918
+02:29:36,960 --> 02:29:38,960
+Guys, can we close the session?
+
+1919
+02:29:40,640 --> 02:29:42,640
+I'll keep on talking
+
+1920
+02:29:49,280 --> 02:29:52,080
+Trading bot, uh, it would be tricky. Uh
+
+1921
+02:29:56,160 --> 02:30:02,160
+Okay, uh who will execute trades on my behalf, um, you know, uh other than that one ankit
+
+1922
+02:30:02,640 --> 02:30:05,200
+I'll tell you something like if you can build one thing
+
+1923
+02:30:10,160 --> 02:30:13,600
+It's just an interest some bit like you can do that now
+
+1924
+02:30:14,560 --> 02:30:18,240
+I'll be busy for next week. All else. I keep on doing this in learning point of
+
+1925
+02:30:19,200 --> 02:30:23,200
+Like let's say, uh web crawler someone did anyone?
+
+1926
+02:30:26,080 --> 02:30:29,200
+Explore this one anytime in future. What is web crawler?
+
+1927
+02:30:30,640 --> 02:30:31,920
+so
+
+1928
+02:30:31,920 --> 02:30:37,520
+Uh somebody if you want to build a uh a tool which will execute trades for you, right?
+
+1929
+02:30:38,400 --> 02:30:39,360
+but
+
+1930
+02:30:39,360 --> 02:30:41,680
+For executing trades, you will need information
+
+1931
+02:30:42,800 --> 02:30:46,080
+Like which stock to buy which stock to sell and when to buy when to sell
+
+1932
+02:30:46,880 --> 02:30:50,580
+You need information to need if you need that information
+
+1933
+02:30:51,380 --> 02:30:58,100
+Uh, you want to read maybe multiple business channels or news or anywhere something on internet, right?
+
+1934
+02:31:00,100 --> 02:31:04,020
+So if you want to consume let's say on six seven websites
+
+1935
+02:31:04,500 --> 02:31:12,340
+Or data, let's say if you want to understand buy signal, let's say there's an sell signal for hgfc or buy signal for hgfc
+
+1936
+02:31:13,380 --> 02:31:15,380
+If you want to collect the data
+
+1937
+02:31:15,540 --> 02:31:20,580
+From our different websites you have to build something like a web crawler or a sprider
+
+1938
+02:31:21,140 --> 02:31:26,740
+That will keep on reading that sites and will give you the filtered information that which to buy which to sell
+
+1939
+02:31:27,460 --> 02:31:30,340
+Let's say there are seven sites you are following in seven sites
+
+1940
+02:31:30,340 --> 02:31:36,740
+They say that six six sites says that buy hgfc today and one will say that one won't talk about hgfc
+
+1941
+02:31:37,220 --> 02:31:42,820
+So you'll get a clear idea that which one to actually do it. So you you should actually build a web crawler
+
+1942
+02:31:43,380 --> 02:31:47,300
+Uh to get the information rather than like someone who is executing it
+
+1943
+02:31:48,180 --> 02:31:51,620
+Okay. This is also a bot. Uh, you can explore in the images
+
+1944
+02:31:53,620 --> 02:31:58,740
+I mean I got this from my one of the senior director who had built a web crawler
+
+1945
+02:31:59,460 --> 02:32:01,620
+He does too much of trading
+
+1946
+02:32:02,100 --> 02:32:04,100
+so
+
+1947
+02:32:04,180 --> 02:32:06,180
+Like
+
+1948
+02:32:06,340 --> 02:32:08,900
+He doesn't share the code actually but uh
+
+1949
+02:32:09,220 --> 02:32:13,780
+Uh, but really insightful if you go and sit with those genius people, right?
+
+1950
+02:32:15,700 --> 02:32:18,900
+They can explore web crawler. How does it work and how do how can you build it?
+
+1951
+02:32:22,340 --> 02:32:29,460
+Okay, like web crawler url data url list and you can request an htm like you can do this process engine
+
+1952
+02:32:30,660 --> 02:32:32,660
+Yeah
+
+1953
+02:32:33,380 --> 02:32:36,260
+If you if you know, uh web crawlers are like
+
+1954
+02:32:37,220 --> 02:32:42,740
+Uh products on web crawler like if you if you can build a
+
+1955
+02:32:43,460 --> 02:32:46,180
+Uh, like if you want to build a business out of it, let's say
+
+1956
+02:32:47,780 --> 02:32:50,740
+If you want to build a business out of it, how can you do it?
+
+1957
+02:32:52,100 --> 02:32:56,180
+Uh, like if you have it, uh, let's say you could go you are the person who want to suggest
+
+1958
+02:32:56,500 --> 02:32:58,980
+Someone to buy someone to sell you can explore this one
+
+1959
+02:32:59,140 --> 02:33:04,740
+Like data extraction to like this is a data extraction to create webcaller like you pull the data out of it
+
+1960
+02:33:05,220 --> 02:33:07,220
+Now they are also selling this information
+
+1961
+02:33:07,700 --> 02:33:08,500
+see
+
+1962
+02:33:08,500 --> 02:33:14,980
+Crawl and extract data from any website any language any script any location even location sensitive websites
+
+1963
+02:33:14,980 --> 02:33:16,980
+They found a way to go into that website
+
+1964
+02:33:17,700 --> 02:33:23,540
+Complex navigation structure complex javascript menu or pagination improvement bypass any bot protection
+
+1965
+02:33:24,260 --> 02:33:30,660
+Bypass any bot protection these people are saying that we will spy data for you
+
+1966
+02:33:32,500 --> 02:33:40,020
+Imagine if you can spy anyone's mobile like uh, there was something like uh, you know, if you remember, uh
+
+1967
+02:33:41,380 --> 02:33:48,180
+That opposition of india had raised the clause that their mobiles has been spied, right?
+
+1968
+02:33:49,940 --> 02:33:52,580
+Uh, their mobile has been spied and uh
+
+1969
+02:33:53,220 --> 02:33:54,980
+uh
+
+1970
+02:33:54,980 --> 02:33:58,280
+Pegasus pegasus right pegasus. Did you heard this word pegasus?
+
+1971
+02:34:02,020 --> 02:34:06,820
+You know, they use something software called pegasus installed in everyone's mobile and uh,
+
+1972
+02:34:07,780 --> 02:34:11,060
+Uh, they were trying to read the data now
+
+1973
+02:34:11,860 --> 02:34:13,540
+What pegasus does?
+
+1974
+02:34:13,540 --> 02:34:15,860
+Pegasus goes and sits on everyone's mobile
+
+1975
+02:34:15,860 --> 02:34:23,780
+Mobile sits on everyone's mobile and it's crawling the data. Generally, it's reading the data whatever they are doing
+
+1976
+02:34:23,780 --> 02:34:25,780
+It's so pegasus in a way
+
+1977
+02:34:26,340 --> 02:34:27,620
+Is something
+
+1978
+02:34:27,620 --> 02:34:31,620
+Uh web web crawler instead of web scrawler. It's an app mobile scrawler
+
+1979
+02:34:32,340 --> 02:34:35,300
+So you can build those but you have to have
+
+1980
+02:34:36,420 --> 02:34:40,100
+Is it not something it's a crime. That's why they shout it, right?
+
+1981
+02:34:40,100 --> 02:34:41,620
+Okay
+
+1982
+02:34:41,620 --> 02:34:46,980
+Yeah, yeah people does it know can I get password people does it but once you are caught you are inside the bar?
+
+1983
+02:34:51,300 --> 02:34:53,860
+You can uh cannot you cannot go into
+
+1984
+02:34:55,140 --> 02:34:57,380
+Uh, you know privacy privacy issues
+
+1985
+02:34:57,940 --> 02:35:01,860
+Uh, like someone private a mobile is a private device, but you can go
+
+1986
+02:35:02,660 --> 02:35:07,060
+You should understand norms like if you are even reading a data from some websites, right?
+
+1987
+02:35:07,460 --> 02:35:12,740
+You should know that whether those websites are does not have any rules which are protecting their data
+
+1988
+02:35:14,180 --> 02:35:16,740
+Let's say you go for get uh geek for geeks
+
+1989
+02:35:17,940 --> 02:35:19,060
+uh
+
+1990
+02:35:19,060 --> 02:35:25,140
+Now if I go for geeks for geeks and I read the post from it and I write a linkedin post on it
+
+1991
+02:35:25,860 --> 02:35:29,460
+They won't uh, uh claim rights, right for that one
+
+1992
+02:35:30,020 --> 02:35:34,660
+That hey you copied content from me you will I'll file a case against you or suit against you
+
+1993
+02:35:35,620 --> 02:35:41,860
+If if they are doing those sort of things then you shouldn't go for their uh part while reading the content
+
+1994
+02:35:42,420 --> 02:35:47,380
+So pegasus is not legal but company pays it because they do it without people knowing it
+
+1995
+02:35:48,020 --> 02:35:52,340
+And they do it on something like an iphone which says that uh, you know protected device
+
+1996
+02:35:56,980 --> 02:36:02,180
+You can do anything man if you have a list of learning right learning and exploring things and time
+
+1997
+02:36:03,060 --> 02:36:05,060
+Time is a main factor
+
+1998
+02:36:05,380 --> 02:36:06,740
+uh
+
+1999
+02:36:06,740 --> 02:36:08,020
+I would say
+
+2000
+02:36:08,020 --> 02:36:13,380
+You know focus on one path and be good at that one. You can do many things many many things you can do
+
+2001
+02:36:13,940 --> 02:36:14,820
+but
+
+2002
+02:36:14,820 --> 02:36:16,820
+focus on one part where you can
+
+2003
+02:36:17,300 --> 02:36:19,300
+uh
+
+2004
+02:36:19,860 --> 02:36:26,100
+Yeah, job is killing me. I agree. Okay, like that's that's that's uh, that's an issue, right you focus on one part and
+
+2005
+02:36:27,220 --> 02:36:31,060
+Explore that go into depth understand it. You will do amazing jobs
+
+2006
+02:36:32,500 --> 02:36:33,700
+right
+
+2007
+02:36:33,700 --> 02:36:34,900
+but
+
+2008
+02:36:34,900 --> 02:36:40,900
+If you keep on picking multiple 10 15 items, right you won't be learning one thing in depth and you will not be
+
+2009
+02:36:42,100 --> 02:36:45,860
+Sure about anything I can talk about any topic, but if you ask me
+
+2010
+02:36:47,460 --> 02:36:49,460
+What i'm good at
+
+2011
+02:36:49,460 --> 02:36:51,460
+so i'll say that hey i'm
+
+2012
+02:36:52,900 --> 02:36:56,500
+Good at what i'm teaching for sure and in depth like
+
+2013
+02:36:57,540 --> 02:37:00,820
+But after me if I if I go into complete depth, right?
+
+2014
+02:37:01,380 --> 02:37:06,180
+Even for a whole month stack i've told you when I went through that path, right?
+
+2015
+02:37:06,260 --> 02:37:09,220
+I've seen like hey, I know this I know that I can teach this I'll teach that
+
+2016
+02:37:09,460 --> 02:37:13,300
+This is something we have already covered. This is something we'll pick it up in future
+
+2017
+02:37:14,180 --> 02:37:19,860
+So as soon as you focus as you focus on one thing on on you will be covering all those things
+
+2018
+02:37:20,100 --> 02:37:22,100
+So don't divert yourself
+
+2019
+02:37:23,060 --> 02:37:28,740
+Only once you have time enough time once you make good amount of money, then you can focus on 10 15 items if you have
+
+2020
+02:37:29,700 --> 02:37:31,700
+So just think of anything in that way
+
+2021
+02:37:34,100 --> 02:37:37,220
+So, okay, then i'll drop for today
+
+2022
+02:37:38,820 --> 02:37:44,100
+Hope to see you next saturday then have fun. Good night guys. Take care
+
+2023
+02:37:46,180 --> 02:37:53,220
+Keep learning keep solving assignments. Okay. So guys good night. Bye. Bye. Thanks. Thanks
+
+2024
+02:37:58,740 --> 02:38:00,980
+You
+

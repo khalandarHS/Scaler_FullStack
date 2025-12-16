@@ -1,0 +1,1269 @@
+start	end	text
+0	29840	Hi all, good evening, am I audible and visible guys, yes great, thank you Abhinav, give me
+29840	51320	a second, I'll share my screen, yeah I will do that, okay we'll do that, please let me
+51320	59560	know if you can see my screen, screen share is visible right, yeah great thank you, so
+81960	87560	I wanted to ask one thing like you know there's a drop in number of people who have solved
+87560	95080	assignments for the last class css one, is it because of attendance or you had any challenge,
+95080	101000	I just want to understand if you had any challenge or those straightforward or anything you have
+101000	111160	faced it, anyone, okay let's see we have 16 people in the class, how many of you
+111160	116200	have solved it, if you have solved it give me thumbs up, if you haven't tried it give me thumbs down
+118680	119000	okay
+122760	135080	great, so among them three what could be the possible reason guys like you were not able to
+135080	145240	find time or like any challenges or if I can help you out, okay great Abhinav, time,
+147400	153320	sure it would take I think believe me this full stack related assignments right
+153320	157880	shouldn't be taking more than half an hour for you to solve them like two three questions so
+157880	163640	maybe you can try it down okay because I don't want your backlog to you know fill up
+164600	171000	right so people who gave me thumbs down right please try to you know manage it
+172440	178120	and give your you know like time some time to it at least half an hour or one hour whatever it is
+178120	190040	like depending on your speed okay so yeah no worries Abhishek please
+190520	196200	just cover it up only you have two classes right so moving forward you won't have that backlog
+197960	205640	okay thank you Abhishek, so guys anyone can drop message in whatsapp again
+205640	208280	would be really helpful like we are getting started
+209560	213480	frequently traveling because of work from different state to state
+213640	214440	state to state
+217160	218280	Dhanraj where do you work
+225000	232440	uh can you add that as a question like I'll try to take it commonly like this
+234440	237720	you have your own business okay
+243480	247080	okay let's let's do one thing guys what we'll do is like
+247880	252200	firstly we'll revise what we have discussed in session one then we'll get started okay
+255080	261480	I'll drop a message in group give me a second yeah Tejal has dropped a message
+262280	264040	thank you Tejal thank you Raman
+266200	269480	okay great so let's
+274280	280600	okay guys you can discuss with Abhishek discuss with Dhanraj later on but he maybe he's trying
+280600	285880	to build his career in IT let's focus on that last part okay so
+288440	294680	we'll get started guys it's seven of nine oh five already okay so today's agenda is
+294680	299720	morally specifically based on box model display and position these three particular fields
+300040	305560	particular fields but before going on to that I want you to you know shoot the something that
+305560	310840	you remember what we have learned in last last class like what you have learned or what we have
+310840	320600	discussed so what are the sections css we have introduced right we talked about what is css then
+323640	325960	we have discussed what is inline css
+330120	330840	selectors
+333960	341320	then we have discussed colors right if you remember colors and font and background property
+341320	348360	these are the things that we introduced already in last class now just trying to revise guys
+349320	352840	trying to revise if you come to selectors what all selectors you have
+353480	361720	like what all selectors you have can I say id then you have something called as class
+363080	368840	after that you have element selector then you have attribute selector
+371080	375800	these are the simple selectors that you can see other than this thing you have combinatorics
+375800	381160	when you go for combinatorics combinations you have descendant selector
+381400	382520	descendant selector
+387960	394920	and then you have children's selector right we have discussed all of this so I hope all
+394920	400280	these things are basic things are clear right how do you access a particular field using id class
+400280	407240	attribute descendant and children right okay great now if you have also seen about colors like
+407960	413480	how many types of how many ways you can choose colors what all things are there guys
+414760	420200	three right what would be the first way like you want to select directly you can directly
+420200	426200	write it down blue green red what we have limitation how many colors this way we can
+426200	434040	add it 140 right great right but what was the second way of doing it rgba function
+436520	445400	where r goes for red then green then blue then alpha goes for opacity like how much
+445400	454040	transparency you need it in color right then you also had hex code hex code again starts with hash
+454600	466120	then rr bb gg right then you had hsl we stand for hue saturation
+468920	473080	and what was l rise lightness right
+473080	482600	right this was from 0 to 360 which is used to manage the red and this was for
+484120	490200	like saturation 0 to 100 you can give it this also goes for 0 to 100
+490920	494360	which is used to you know darker or lighter and this used to generate
+494360	498680	different shades of a particular color right
+498680	504280	what is 255
+508520	519320	255 was this one right 0 to 255 was the range for this one right yeah great no worries
+519320	525720	after this we also discussed background right and background what all things we have discussed
+525800	533560	right like one thing we had is image like how we can add an image or a background image right
+537560	545720	then how can you center it or you know position it right so we had discussed about background
+545720	551320	properties if i put it in there are many properties in background but we have discussed about
+551320	555560	background in general repeat no repeat like if you want to repeat or gently if you want to
+555560	561240	repeat that vertically right so these are things that we have discussed also we have seen fonts
+561240	566840	like how we can import the fonts of different like if you want extra things which are other
+566840	573800	than the browser which will provide support if you can download from google fonts link your
+573800	579000	api google api and then attach your fonts and you can use them in the font family property
+579000	585000	right so i hope this is something that we have discussed and there are no doubts on this right
+585800	588840	if there are no doubts we can get started with today's class guys
+591640	600280	yeah great great guys let's let's get started with today now first thing that i want to discuss
+600920	609960	is that few properties i want to talk about on font and text right so these are the two things
+609960	617800	which are that will be for the total positive if we import and use that in app yeah yeah right
+617800	623400	some bit so it will be you can use it like wherever you want to define it for each element or every
+623400	628440	element font you can use it okay depends on it like if you want to use it for the whole project
+628440	633720	or like it's your specifications what your ux designer or your if you are designing your own
+633720	638840	app you can define it okay i've just showed you the way you can do it it's up to you how
+638840	647480	you want to do it okay now so guys uh so let's start with font and text these are the two short
+647480	653000	properties that i want to discuss first because if you go and see right uh the most of the websites
+653080	659080	any website you pick it up in today's world every site is filled with most of the content in it
+659080	664360	right where you consume the data like reading website you go for geek for geeks you go for
+664360	669720	medium.com or you go for the reference material that i was giving you it has more of a text
+669720	675960	content isn't it other than streaming apps that you see more of the apps or everything that you
+675960	683080	have is more of a content text right related to or you can say typography right so we'll see
+683800	689000	what are the properties that are available on the text and what all things you can deal with
+689000	694280	okay so i'll create one html file and we'll see like what all things you can apply firstly
+694280	701000	this is again referring to the same thing let's say you go open a microsoft word or anything
+701560	708600	and you start let's say typing it down a content or a paragraph that you write in microsoft excel
+708600	715080	and what all things you deal with okay so the same things that what what you can do it in
+715080	721960	microsoft excel will be able to we should be able to do all of them so let's see okay i hope my
+722040	723320	vs code is visible guys
+728200	734680	okay thank you so let's say i'm using m8 again i would say this is font and
+737160	744520	text part okay now let's say i have one h1 tag so
+745480	754520	uh okay munishwar i'll push it this is heading one uh and i'm using another paragraph p tag again
+754520	763160	i'm using lorem 20 so let's say i've generated this code now i'll try to open it in show preview
+763160	771160	on the right side let's say i minimize this now let's say we open style block here to write down
+771800	775400	let's say we open style block here to write down all the styles we have
+776760	782520	now so last time in last class we have discussed like related to font
+783960	792200	like font already font family right let's say we use it again okay one is a font family which used
+792200	798200	to change the type of fonts that we are using like if you see the current current one we can
+798200	802680	change it by using any of the font family that you have let's say i've used this for heading
+802680	808120	you see the heading type of the style that heading is generally applicable is changing let's say we
+808120	814200	apply that other thing so this thing i've already shown you that if you want it even you can uh
+814200	820120	change the like you know you can if you the particular properties if whichever are available
+820120	824760	if not enough you can also import it right so let's say i'm using here
+824760	832680	uh georgia times new sheriff then let's say i also use for paragraph where
+834680	842600	font family let's say this one okay so font family was something we have already discussed in last
+842600	848520	class now i want to talk something let's say this heading how do you like other than the font like
+848520	853400	the height of this word what is the difference between this one and this one guys what do you
+853400	856520	see a difference between two two of these lines other than the height
+861560	866840	other than the height like what do you see the difference boldness right so if you if can we
+866840	873800	make this particular paragraph content also increase the boldness and spacing agree right
+873800	878840	so we'll try to do something like such that we can make this you know paragraph track convert
+878840	884840	into h1 somehow so if you want to increase or play around with the boldness of a particular
+884840	891000	paragraph or a content right you can always use a one property called font weight which keeps your
+891000	897320	value from 0 100 to 900 and or else if you can use it by words you can use it by words like lighter
+897320	903400	bolder let's say if we use lighter it is still the same but what if we use bold see that converted
+903400	908200	into bold but if i convert into bolder it will be same way as you see it for the h1
+909240	916040	okay or else you can give 800 or 900 this all things again define on the same range of lighter
+916040	921240	bold and bolder okay this font weight here guys what font weight does for us
+923640	930520	right now the other thing imagine like if you want to increase the size of this paragraph size
+930520	935720	equal to like h1 let's say we want this paragraph to be equivalent to h1 somehow
+935720	942600	and we do it or use can we do it some achieve that or do we have any property if anyone knows
+943880	951720	right let's say there is one property already i've got suggestions right font size so even
+951720	959320	you have font size using that you can always deal with it it takes all the types of yeah so
+959320	964200	i was talking about like can we convert this paragraph size like the size of the words you
+964200	971800	can see to the size of this one or you can increase the size okay let's say font size again
+971800	978040	font says what are the least of values it takes okay so different types of units i haven't introduced
+978040	984760	it like pixels em or rem right relative units so we'll discuss them in the future classes but for
+984760	991320	now consider there are the pixels now pixels are like each screen can have a depending on a screen
+991320	996600	width and height it have a list of size of pixels now you have to define in the terms of like how
+996600	1001640	many pixels that you want to cover on a screen okay similarly let's say you also have this
+1002360	1007800	you know words given due like like large larger medium small and smaller which again define the
+1007800	1013160	different size of sizes so i'm using just by default like larger which will be converting into
+1013160	1018680	nearly same side of font okay others if you want to convert into it directly like you can give a
+1018680	1025720	30 pixel okay which is like let's say 28 pixel is something i guess equivalent to
+1026280	1033720	h1 heading okay now we have converted two of the things now but there is something
+1033720	1041000	let's say what if you want to move anything let's say the content right if i let's say i expand it
+1041960	1049320	okay let's say i make this as a low ram 10
+1056200	1065320	okay now if you see what's happening is that it's taking full space and full width but what i
+1065320	1069160	wanted to show you guys is that let's say i'm having a div here
+1078520	1082920	okay i'm adding some css guys i'm converting this div into container
+1083800	1091960	okay i'm having a border of two pixels solid i'll talk about this one
+1092920	1098920	black and let's say i also give height of
+1101560	1107160	400 pixel and let's say width of 100 percent
+1109720	1117080	okay now let's say this now there is something let's say if you see this word side this whatever
+1117160	1123800	paragraph and h1 tags are there all of them are left aligned right all of them are left aligned
+1123800	1129640	do you guys agree with this they are left aligned right they are starting from the left most like
+1129640	1135400	if you take a note you start writing from the left left most writing right but if you go for
+1135400	1142840	some languages like urdu they write it from right side right they start it from right side and they
+1142840	1149080	they come back they that's how they write it what if we have such kind of languages or
+1149080	1153880	what we have such kind of scripts if you want to move it from the start the content left or right
+1153880	1161160	for that also we have one of the field called anyone does know it anyone do do you know it
+1162360	1170040	text align right where you want to align the text let's say if i put it end if you see like as you
+1170040	1174920	see maybe it didn't convert like this is the heading from the reverse but if you see that
+1174920	1181880	content has been pushed to the end okay now imagine if i have this in the span tag
+1184040	1187880	span tag again this is heading one
+1187880	1197080	okay and let's say that i say i say i have a span
+1199480	1204680	and text align left let's say center
+1207080	1212440	do you see guys span for this particular text align is not being applied for the center
+1213320	1218840	do you see this text align is not working for the span tag so i'll keep that open-ended question
+1218840	1226680	for some time what i'll do i'll do i'll go into us like i'll go and apply text align center
+1227640	1236360	for the paragraph meanwhile okay it converted into center so i've kept open this span uh so
+1236360	1243560	this one difference that you can find it like between these three types of elements can anyone
+1243560	1254920	figure it out what is the difference in this so shant has said in line span is not a block
+1254920	1261960	element span is right so what what exactly meant is guys like let's say when you go for h1
+1261960	1268440	let's say when you go for h1 and paragraph these are block level elements so only there
+1268440	1274920	are few css properties that applies for the block level elements and the few properties
+1274920	1280520	which doesn't apply for inline because inline takes only the amount of space it needs it starts
+1280520	1285400	from the place where you have defined it and it ends at the place where it is like the content if
+1285400	1291720	it space is whatever content it has once it occupies that space it doesn't do anything like
+1291720	1298520	you cannot change its location because the if you see uh let's open this uh particular thing
+1298520	1306200	uh in the live server open in live server uh give me a second guys
+1311080	1315080	yeah we can use it shortly now
+1315960	1324280	if you see this inline element right the span tag is ending here itself but when i go for h1
+1324280	1331560	if you see it's occupying whole row when there is a space of row in the whole row it can move left
+1331560	1339400	right center right but when it when it is like when it's occupying only the amount of space it needs
+1339880	1344680	it's occupying only the amount of space it needs then you cannot move it because the space is
+1344680	1350600	already fulfilled do you guys understand why first this property is not applying
+1353880	1361880	anyone having any doubt on this why uh you know this text alignment is not working on span tag
+1361880	1376760	okay thank you guys okay so what i mean to say is that uh arun tejal okay okay so firstly
+1378680	1383720	if you come and see here i have used three types of elements one is h1 one is span and one is
+1383720	1392120	paragraph h1 and paragraph are block level elements whenever you go for block level elements
+1392120	1397480	it takes whole space like whole row space like if you see this is a block level element it is
+1397480	1403080	taking whole row space if you go for this paragraph it is taking whole row doesn't matter how much
+1403080	1409400	content it is having or it doesn't have it okay but when it comes to span it is taking only the
+1409400	1414840	amount of space it needs it it is not consuming whole space whole row space is this point clear
+1418280	1425640	tejal arun hariprasad ankit right so now what happening is let's say i have more amount of
+1425640	1430920	space if let's say if you go into the uh train and the whole coach is empty you can set it in
+1430920	1436280	any table but if it is only one set you will be able to go and sit in only that set right
+1436280	1441960	but here if you see the for this uh block level elements there is a space it can move left right
+1441960	1449960	bottom anywhere i mean it has a start end and uh and like start end and center only three places
+1450520	1454920	right so what we have done is like we told that whenever you go for block level elements
+1454920	1460360	textile and property will be used to assign elements to the left right or the center it
+1460360	1465400	will apply for only block level elements because it they consume whole space of a row
+1466920	1472120	i hope this point is clear now and it won't apply for the span level elements because these are
+1472120	1483400	inline elements okay great guys now coming to the next property once textile and we completed
+1483400	1489400	excellent now there's something called let's say you you remember there are like if you go for
+1489480	1496040	microsoft word or google docs you have like underlines you know strike off through the
+1496600	1502920	content that you have right so we'll try to apply if we can do that same property since
+1502920	1508840	there's a heading available for us this is a heading okay
+1512120	1517240	let's say text decoration some width will discuss them one by one okay
+1520360	1526120	not going completely in depth because if i cover each and every property classes might not be
+1526120	1531880	enough you have to explore few i'll explore explain few of things in that okay it's like
+1531880	1539800	both the ways okay we'll see but i'll explain that part if you go for text decoration if you see
+1539800	1546040	there is something like if you see uh overline if you see overland what overland does it like
+1546120	1551880	adds over the heading so there are basic three properties that you use generally for the text
+1551880	1559000	decoration one is overline then there is something called underline which adds you know underline
+1559000	1565800	over the heading then there is something called line through which cuts the line these are the
+1565800	1571720	three things that you keep on using in the words right or you are preparing any documentation or
+1571720	1575800	you're writing things these are the basic three things type of decorations that you use with the
+1575800	1581320	text isn't it so i'll use this underline here
+1584760	1589880	as of now i hope this point is clear what does text decoration gives us
+1592760	1598680	right then there is some someone told me right there's a you know word spacing there's a word
+1598680	1604920	spacing difference between this is heading and this lot of paragraph content if you want to give
+1604920	1611000	a spacing or increase of spacing right between words there's a property again you have something
+1611000	1617960	like word spacing you can go and add word spacing let's say you go for and say two pixel now if you
+1617960	1627640	see once i gave two pixel this both looks like a line bit of a line right so word spacing generally
+1627640	1634280	gives a space between the words and there is something another property called line spacing
+1634280	1636920	which gives
+1641400	1648600	sorry letter spacing which gives space between the letters let's say i give to 0.2 pixel
+1649880	1654600	okay so there are two things word spacing and letter spacing like if you want to give a space
+1654600	1659560	between two words then you can use word spacing if you want to give space between two letters you
+1659560	1666680	can use letter spacings okay and there is something also called as line height line height is used to
+1666680	1672440	adjust this one height like what are the heights like let's say if i give uh i'll show you the
+1672440	1678280	difference since it's a paragraph we have yeah line spacing
+1678280	1684680	uh it's a line height guys let's say if i give eight pixel
+1686920	1696840	okay let's say i give uh 20 pixel let's say 25 pixel for the space now what do you see this what
+1696840	1703960	what do you understand like if you see uh like if i let's say i go to the chrome now since line height
+1703960	1713560	is 25 now if you see here what i applied here uh let's not refresh let me refresh this one
+1716200	1722280	okay i didn't save it let's save it come back here this is an element selector guys i use
+1722280	1727160	this element selector i hover over this and i click on this so it takes me to that paragraph
+1727800	1732440	and i can see here what are the styles are applying now on the paragraph if you see line
+1732440	1738200	height 25 pixel is there now if i keep on increasing if you see the each line right uh
+1738200	1743880	the under the paragraph let's say a paragraph is having a five six lines of paragraph now we are
+1743880	1751960	deciding what would be the size of each line if you see there are books which have bigger lines
+1751960	1758440	divided blocks such that in early age when you write down like if you remember hindi sort of
+1758440	1763640	whenever you write a hindi language you learn you have a different sort of lines distributed book
+1763640	1769160	when you go for english you have a rule book of different lines right so that way each line
+1769160	1773480	can have a certain space that depending on that we can customize it okay
+1777880	1784280	can you show where and how you increase that okay now if you see okay if it is not visible
+1784280	1793480	give me a second can you see this now uh shan if you see i selected element selector then i select
+1793480	1799720	this content now if you see in the style block right i have this line height now line height is
+1799720	1804360	usually used for each row height what is the row of each each row height if i reduce it it will
+1804360	1809320	both will collide or else i can increase it which will give me a spacing between two lines like how
+1809400	1814840	much spacing do i need between lines okay so i hope these three things are clear one is word
+1814840	1819480	spacing how much space you need between words and then there is something called letter spacing how
+1819480	1823800	much space you need between the letters and then there is space between lines how many how much
+1823800	1831560	space you need this between the lines i i hope these properties are clear to all like can you
+1831560	1838600	give me thumbs up if this properties are clear related to font i see three good good guys thank
+1838600	1846120	you so i'll try to summarize here what all things that we have learned okay so related to
+1846120	1852520	font something that we have seen in last classes field called font family which is used to you know
+1852520	1859560	add different type of uh font like text like font which are handling like maybe calligraphy or
+1859560	1865000	chinese or any sort of things like different types of fonts that you see something in newspaper or
+1865800	1871080	same language but writing it in a different way okay then we have discussed something called font
+1871080	1879000	size which is used to increase the size of like letters how much uh size you want to see okay
+1879000	1885240	again it has all the things large larger smaller bold like and pixels it takes and every other
+1885240	1890920	different unity it takes okay then we have discussed something called font weight which
+1890920	1897160	is used to handle boldness like how much bold content you need it then something we discussed
+1897160	1906840	about is text align right then we have discussed something called as text decoration which is used
+1906840	1915880	to add underscores are or like you know line through i mean scratch the line or get underscore
+1915880	1922680	on the top right then we have discussed three types of spacing between like words
+1924520	1925320	word spacing
+1928120	1929640	then we had letter spacing
+1933400	1935080	then something called as line height
+1939080	1944520	i hope this this whatever words you have seen now all this you are familiar now you would be
+1944520	1948760	familiar with it like if you see if you want to use it in future you will be able to use them
+1948760	1952120	right a basic idea that you have it in your mind right
+1956520	1957720	great guys now
+1961000	1961480	thank you
+1967560	1972600	now we'll start with some of the some of them in one of the important topic of css actually
+1973320	1975800	okay which is called box model
+1979880	1986440	okay but before coming to box model let's take off one example okay let's take this one example
+1987240	1993080	that uh have anyone been to vilas like have anyone seen vilas society
+1996040	1999880	like a society filled with vilas or anyone seen in movies or
+2000120	2003720	you know so like what we say series says
+2008680	2011720	open there i'll share you the links you click you can go through them
+2011720	2016200	okay for the like all the attributes are the properties for each one right
+2017000	2024760	well i'll share you all these things you can refer to them okay now so has everyone seen it
+2024760	2028680	firstly let's say there is something like this is an villa
+2030440	2042200	uh consider and hot sort of villa guys okay but now each villa uh has some specialty like
+2042200	2044920	uh around the villa what do you usually see guys
+2047640	2055720	some carpet area filled of gardens right can you imagine right now let's say i have this
+2055880	2058440	now let's say i have this
+2062760	2069400	let's say this is a garden i'll pick some other color okay this is a garden area right
+2069400	2075880	where you have plantation also you have a pathway right a pathway to the home but there is something
+2075880	2084440	like garden now after that garden then do you think uh the other home the other building right
+2084440	2089400	let's say if i draw again other building other house will be attached to this one or there will
+2089400	2099960	be a space let's say if i if i want to create a new building here it would be attached to this
+2099960	2109880	border or there will be some space space right let's say i do the same thing
+2109880	2117000	let's say i design other two villas let's say i keep it this way
+2121960	2127160	okay now so what we have seen here is that firstly
+2129400	2138200	let's say i go to a house there is something like a house area right let's say i if i write
+2138200	2143160	down the architectural part there is a house area where you can stay
+2145800	2150760	right outside house area then there is something like garden area
+2154760	2159160	right then there is a boundary wall right
+2159160	2162120	right
+2164920	2172680	once your boundary wall is done then you have something like called as space empty space
+2178120	2179320	let's say empty space
+2181480	2187080	which is like mandatory or i have seen people fighting for this space right if someone attaches
+2187080	2194040	their building for this one there are too many fights mandatory
+2198200	2207800	empty space right so overall overall this is how things look like right house structure or
+2207800	2218200	something like now right this is how a generally a house looks like now each element in html is
+2218200	2227240	also same i know you won't believe it but each html element is also you can consider it as a villa
+2228520	2234920	okay now let's talk about it when i say each element is a villa itself now what do i exactly
+2234920	2242920	mean by that is now if you are writing something in the paragraph content or between a heading
+2242920	2249320	content anything that you write in between those elements each elements each tags okay
+2250280	2256760	will have the same properties you can define them now let's say you have
+2258200	2264120	told like let's say this is a content area again i'm talking in terms of now html okay
+2264760	2266440	this is content area
+2269160	2274760	around that content area as you need a garden you have something called as padding
+2276920	2284120	okay padding is you can say the gardens for the the html elements you added after that
+2285000	2290520	you need a border or a fencing okay this is something called as border
+2290520	2297720	border okay you can say a border then you have something called
+2301800	2302280	margin
+2305160	2312200	okay margin is something which keeps space between two of the content like if you go and see
+2312200	2320280	in any textbooks or anything a each paragraph have a some space around it right that thing is
+2320280	2325080	same thing like these are the three basic things that you can relate with box model when you go
+2325080	2331080	for box model we are talking about only three properties okay those are margin
+2334760	2338040	padding and border
+2340360	2347400	okay i hope these three things are not like new to new to you now you are able to understand
+2347400	2352440	or relate with this one right with this example i'll show you the real time application of this
+2352440	2359960	one but now let's see the content that we have already prepared right now i'll go to the example
+2359960	2368520	of fonts that we have used now let's say i go to this paragraph now do you see this paragraph the
+2368520	2376360	if i highlight our paragraph the yellow line the yellow everyone can see that
+2376360	2378600	yellow line before over the lorem right
+2381400	2386280	right now let's see what that yellow line is about so where you can see the box model
+2386280	2391480	once you expand this tab and you go to the bottom in the style now if you see
+2391480	2397960	there is something called margin border and padding and the content area the content area
+2397960	2403480	is the height and width of the content that you see let's say if i highlight over it if you see
+2403480	2409480	this is the content area or you can say the area of that particular house that needs
+2410200	2416840	fine we told that hey this content doesn't need any garden or it doesn't need border
+2416840	2424120	but it surely need margin on the top and bottom so what it says that before the next line content
+2424120	2430440	or the earlier content whatever the this is heading right the content it should be separated
+2430440	2436440	i need a space between the each of the houses so that each of the space between each of houses
+2436440	2442680	is decided by margin if you want to add a garden around it let's say if i go to the padding let's
+2442680	2450920	say i go and select here and i want to add a like padding on the top side i can give 20 as as soon
+2450920	2457240	as i enter see this what's happened on the this highlighted one so as soon as i click enter now
+2457240	2462600	if you see there's something called green space added which is like what what do i exactly mean
+2462600	2468600	by that is like i've added a garden let's say if i want to add a garden on left side okay which is
+2468600	2476680	15 right now if you see that content moved it so are you able to relate like how this thing works
+2477320	2482040	guys are you able to relate the box model now better
+2484040	2489560	it is that is it guys like how each element in the html i've shown with a p tag now if you go
+2489560	2495800	and go and select the h1 tag also it will also have that same box model so all the properties
+2495800	2502760	in html everything that you have it you can define three properties to it which are padding margin
+2502760	2509560	three properties to it which are padding margin and border to it everything is a box in a html
+2509560	2517160	so now let's do one thing let's do one thing we'll go and do some of the you know we'll build some
+2517160	2523160	boxes and we'll see how how uh you can build actually how can you apply this all this fields
+2523160	2530920	okay let me go here and create one new folder called box model
+2533560	2541320	okay inside this i'll create new file called index.html let's say i have html5
+2542840	2544680	and i say this as a box model
+2545400	2554280	okay so what we'll do it here is simply i'll copy some content for you don't need it actually
+2554280	2563480	can type it let's say this is a div okay inside this let's say i say there's a paragraph i say this is
+2563480	2576680	a scalar class simply okay now i'll go to the style block let's say i open this in the view
+2581880	2587400	you can see this is a scalar class is something coming already now what we'll do is like let's
+2587400	2589000	say i go to this style block
+2592440	2599960	and i select this particular p tag so let's say i give a class as scalar class
+2601960	2610040	name let's i minimize this one and i go into style block for selecting class how can i select
+2610040	2619560	this class selector is how can i write it using dot operator right it's a scalar class
+2622200	2627720	now let's say first what we want to do is let's say we want to have some border let's say we want
+2627720	2636680	to have border now if i go and write border okay so border has again three list of properties guys
+2637240	2643960	okay you can define how many pixels border you need let's say you have two pixel of border
+2644920	2651960	okay now the solid and the color which selects is like let's say i select this one then you go for
+2651960	2660040	border style okay let's say i go for border style here border style is like something some
+2660040	2664840	some peoples have fencing with current something some people have small walls some have big walls
+2664840	2670760	some have big walls right similarly in html elements also you can have different types of
+2670760	2677160	borders like you can have dashed line or you can have dotted lines around it
+2679320	2689000	or else you can also have solid which is like single line then you can also have border color
+2689000	2695880	to it okay when you go for border color let's say i select as brown
+2698120	2704760	okay i hope this property is clear now what happens is we can write all these things into
+2704760	2714760	together into one line now if i define a border i can say two pixel solid brown this is what i
+2714760	2722280	was doing it earlier like i was combining border border style and color is this clear guys
+2724760	2729000	i hope this border property is clear like how we can leverage how we can add it
+2729000	2735160	now once border is done so each thing right as i've told you earlier if you see in the box
+2735160	2740920	you can have each customized let's say now when i'm applying border to pixel right what's happening is
+2740920	2746840	on top bottom left right two pixel is being applied but if i want to change it on a top and
+2746840	2755320	bottom how can i do it is that let's say border i can say top okay i can say border top and i can
+2755320	2767320	say 10 pixel solid brown if you see what i exactly doing is like if you want to customize like here
+2767320	2771400	all the fields are different different like you can apply for left right bottom top or anything
+2771400	2778760	that you want to have right customizable any way that you can have it okay now even you can add it
+2778760	2787800	for border border bottom let's say you go for eight pixel solid brown
+2788600	2795960	okay you might have seen many rajinikanth movies right where his name comes in between top border
+2795960	2803400	and bottom borders are thick lines which comes like left to right in a low lines or in old movies
+2803400	2813560	you can see right so this is how you can what about border size yeah this is a border size right 10
+2813720	2819160	yeah this is a border size right 10 pixel 8 pixel on the sides also you can do
+2820360	2827240	border left you can apply left and right also you have left right and everything you can define it
+2828360	2835480	clear you can also do one thing let's say let's say you i want to comment this thing
+2835560	2840600	let's say i want to comment this thing i say 10 pixel
+2842600	2849640	okay for border you have to individually define it let's say i comment this one also uh i keep this
+2849720	2851800	open
+2859080	2869480	okay i keep this comment border then i say 10 pixel 5 pixel 3 pixel then 2 pixel
+2873160	2877640	no it's not working for the border but border is something simply you can apply
+2878280	2884040	uh like how much you need it i hope this this properties are clear guys how this thing works
+2884040	2889960	how border you can apply it and how we can deal with this like there are three properties you
+2889960	2895400	deal generally apply one is but the the size of the border then the style and the color
+2896280	2903240	then there is something like border radius when you select border radius you can select
+2903240	2909640	how much curvature you need on the edges let's say if i give 8 pixel okay if i give 8 pixel
+2911800	2917960	now do you see this this is like a bit curved this looks like bit curved like the buttons are
+2917960	2925240	that are built these days like curved buttons okay so border radius is generally used for this one
+2925240	2929880	mostly images right uh what if you see the pictures like uh in link then you see that
+2929880	2933480	there is a picture in circle right let's say i
+2937000	2943160	i don't have linkedin login here but you can explore linkedin go put a debugger if you give
+2943160	2949320	50 percent right let's say if i give 50 percent you'll see that converts into a circular okay
+2949320	2954760	border it is used to convert that border into sub like depending on the type of items that
+2954760	2961480	you can play around you can give or use this properties okay now moving to the next property
+2962440	2968360	what i'll do is now i'll go and play around with the padding part now let's say i add some padding
+2969240	2974040	okay what i what i'll say is that let's say i give some padding like 10 pixel
+2976040	2981960	now here if you go and see here again the padding is around left right bottom right
+2981960	2990440	right top left right bottom now similarly if you want to give it each side padding you can give
+2990440	2996840	again padding left or padding right or padding bottom everything you can deal with it but what
+2996840	3003400	if you want to define a different heights of padding in a same value you can do it like let's
+3003400	3015560	say i if i give it this way 8 pixel 10 pixel 8 pixel if you see here what's happened is
+3015560	3021320	top and bottom padding are same left and right padding are same now what does exactly mean is
+3021320	3024920	how you how we can define things like this way is that when you
+3026920	3032600	let's say i'll define what is the rule for when you define it all properties in one line
+3033480	3045960	you select first top then bottom then like sorry top right bottom left
+3047880	3053000	does this look like something something is clock right so you have to define properties
+3053000	3060680	in terms of clock right let's say if i give 18 pixel so right property doesn't matter because
+3060680	3066200	if you see if i give let's say this instead of this this is a class if i give lower m 20
+3067160	3074360	if you just see now what will happen if i increase the right if you see right side padding is added
+3080280	3085960	i'll come to that somewhere i'll come to that now if you see what's happening here when i
+3085960	3091480	added pattern let's say if i go and add 20 now bottom padding is increased let's say if i give
+3091480	3098680	50 okay let's similarly let's give 50 here okay this is how you can deal with padding like you
+3098680	3105960	can add it padding across left right bottom and if you want to define let's say you also can do
+3105960	3111240	one thing is that if you want to give it a top and bottom to be same and left right right to be same
+3111240	3116760	then you can what you can do is you can define it in two terms itself let's say i go and say
+3116760	3124440	padding 10 pixel and 8 pixel it will take it as like top and bottom as 10 pixel
+3124440	3134200	and left and right as 8 pixel so the convention for this one goes as top bottom will be same left
+3134760	3135640	right will be same
+3138600	3145240	okay i hope this is clear guys how padding you can define it individually or for one side or
+3145240	3151800	all the sides right if you want to define it like if you're going for in one line it goes in the
+3151800	3156440	clock signal if you are defining like both the sides top and bottom are same left and right are
+3156440	3161960	same you can define it in two ways okay so this is how you can deal with padding now let's say
+3161960	3167000	you also have something like margin to show margin what i'll do is that let's say i create
+3167000	3177240	another paragraph if you see now let's say i open this in a live server too
+3184680	3186440	because i wanted to show you something
+3187240	3190280	do you see space between this each paragraph guys already
+3193640	3201720	do you see space between this paragraph already like this space after border right
+3205480	3209880	where this space yellow space is coming from why this yellow space is coming from where this is
+3210040	3213560	coming from why this yellow space is coming from where this is coming from
+3214680	3221400	this padding margin 16 we haven't given it right have we defined margin 16 for any of the paragraphs
+3224680	3228360	no right so what happens how it happens guys is that you know
+3229720	3237160	mostly div and span are the empty tags that you generally see all other tags are like semantic
+3237160	3243160	tags now each semantic tags build with certain style in html but if you wanted to build it like
+3243160	3249800	a raw you have to define few properties okay have anyone seen many times that on the top of the
+3249800	3254520	project whenever you go and see they add some universal selector does anyone know universal
+3254520	3263320	selector here does anyone know universal selector so what does universal selector is means it means
+3263320	3269800	say that it should apply for the all the properties when i say hash when i say star so it means that
+3269800	3275320	i am applying for the all the properties and whenever you start it is supposed to make
+3275880	3282680	padding equal to zero and margin equal to zero by default so what happens is now let's say now
+3282680	3287320	when i declare padding and margin as zero now if you see all of them have sticked together
+3287880	3292680	i'm just saying that whatever by default your style is there now whatever your default style is
+3292680	3298760	there it don't bring that one i'll define my custom one because my calculation is going wrong
+3301080	3305000	this is point here like how this is working padding and margin
+3307320	3313720	because paragraph by default let's say if i read remove this margin and i save it so if you see
+3314040	3318840	so if you see even though we haven't defined margin by default paragraph tag is bringing
+3318840	3325400	some of the margin along with it so if you want to override and custom make it custom according to us
+3325400	3331240	we can all it is suggested it is a like a good practice that you you know you clear all the
+3331240	3337720	existing margins then only you go and design your custom margins is this clear guys
+3337720	3339720	please
+3343240	3347240	how many of you understand understood this point like why i'm making margin zero
+3350840	3357960	or how many did not understand it okay now going to next point now here
+3357960	3363560	let's say i see one two great okay thank you people i would request you right if you're not
+3363560	3368920	understanding it give me thumbs down instantly no specific no space between the paragraph
+3371080	3376920	no pendra what i'm doing is saying is that let's say this paragraph is a built-in head stream
+3376920	3382440	melting that i'm using it already but what i'm saying is that hey there are some you know they
+3382440	3389320	are bringing some their inlines like styles which are defined by browser itself so whenever i'm
+3389320	3394280	going and saying that hey i'm i'm suddenly seeing that i've designed a paragraph next to each other
+3394840	3402600	i don't know how the space is coming suddenly right how the space is coming we are we haven't
+3402600	3407240	defined that space right so i'm saying that to overcome this come of shortcomings right
+3407240	3411960	because i'm showing you simple structure here that's why you don't find a problem
+3411960	3418200	but imagine you are building a big scale project and let's say you defined like content
+3419160	3426280	or let's say netflix dashboard right there are images cards side on side if there is a space by
+3426280	3431960	default is coming because of in built-in html elements that is not right right you want to
+3431960	3438200	override as per your need so what it is generally suggested is that if there are some whatever
+3438200	3444840	html elements since every html element is a box in nature all the html elements will have certain
+3444840	3450440	styles attached with it so what we say that hey don't give me those styles bring all the properties
+3450440	3456760	whatever you have but give me mad padding and margin as zero so we are overriding at the start
+3456760	3466600	and applying for every html element on the top i hope this is clear guys to abhinav and hariprasad
+3466680	3469880	also
+3470600	3478360	cool now once once this is done so we remove for all the elements yeah so we are
+3478360	3485720	yeah overriding for removing for all the elements right now i have some mathematical question guys
+3485720	3493720	now tell me the height of this each box now what would be the height and width of this each box
+3497080	3498600	what would be the height of this box
+3504440	3508120	what would be the general formula of this height and width how would you calculate
+3508760	3512760	you have you can see 37 pixel
+3516040	3516360	okay
+3516360	3520120	yeah
+3522120	3529720	sheik has suggested that content plus padding plus border open says that margin padding border
+3530360	3537480	and 37 pixel so in general whenever you go for height and width right whenever you go for height
+3537480	3544600	and width of a particular html element something like if you go for height it would be like
+3544920	3553560	content area or html element like 37 pixel we had plus padding on y-axis
+3555640	3558840	plus border
+3560440	3563560	on y-axis plus margin on y-axis
+3566040	3568040	similarly for width
+3568520	3573400	width content area width
+3576840	3578040	plus padding x
+3582120	3583080	plus border x
+3586760	3596280	plus margin x right do you guys agree this actual height and actual width would be this is the
+3596280	3601720	summation of this one can you guys give me thumbs up guys quick thumbs up if you are
+3601720	3608920	able to agree with this point because the other element will start after only this and height
+3608920	3615000	and width is consumed right now if you go and see the height of this particular element is like
+3615000	3624600	37 pixel plus 10 plus 10 plus 2 plus 2 right 20 plus now if you see 37 plus 20 plus 2 4
+3627000	3630840	57 plus 4 61 right the height would be 61 right
+3635480	3642680	do you guys agree the height would be 61 now let's say i also add margin for for the space
+3642680	3651640	right i override it let's say i also add margin now margin let's say 5 pixel i added 5 pixel margin
+3651640	3659160	around okay now if i do it 5 pixel 61 plus 10 which is 71 is height now but
+3661160	3667640	do you see any problem this way like if you are saying that hey uh like whatever you are adding
+3667640	3674440	all of those things and consuming that space but what if i want you to consume only 37 pixel of
+3674440	3680200	height and you can deduct whatever padding height border and margin from inside that because if you
+3680200	3687560	go uh go and buy a property or a villa right they'll give you a complete space in that only
+3687560	3692200	you have to content area space will be given like whole villa space would be given inside that only
+3692200	3700840	you should have uh like padding border right do you guys agree like they wouldn't you be giving
+3700840	3706120	extra space for you right for you can have garden you can have also border how many ways you want
+3706120	3713400	you can build it it doesn't work that way right so for that one let's say if you want the formula
+3714040	3719320	the currently we have discussed this one if you want this formula to work this way let's say
+3720680	3724440	this is default in nature whatever we have discussed this is default in nature but if
+3724440	3730360	we want this to work such way that height is equal to content area
+3731160	3736360	uh minus padding of y
+3739720	3744440	minus border of y margin of y
+3747640	3750840	i mean uh this would actually result
+3753160	3758120	this would actually equal to the content height
+3760600	3765800	right let's say i replace this one with content instead of content area height
+3767080	3770920	whatever height is defined by you isn't it
+3773400	3779000	so if you want this thing to work this way if you want this work to this if you want your
+3779000	3784920	html environment to work this way right there's a one property that you add globally that is called
+3784920	3787000	as border box
+3792040	3793160	give me a second guys
+3797800	3798840	sorry box sizing
+3804040	3808440	these are one-time elements guys if you see when i when you click border box
+3808680	3817560	it changes nothing seems to be changing but if you go and see here below let me refresh it
+3822120	3823720	now give me a second
+3827000	3829960	let me to cut this here and apply it for the body
+3838440	3840440	uh
+3844840	3846200	i didn't yet apply it
+3850920	3857080	give me a second okay i have to go for custom element not for the whole element uh let's say
+3857880	3864360	if i want to go and apply for the scalar classes let's say i go and uh do it for here when i apply
+3864360	3871880	it here now even then it's not changing
+3874760	3879800	but if i go and let's say okay if we haven't defined height here actually
+3879800	3885400	we have to define height to see the changes here let's say i go and define height 200 pixel firstly
+3887320	3889320	okay now
+3889320	3901240	now if you see here what just happened here uh let me make it 100 guys uh for a sec now how this
+3901240	3911080	formula will work now i've gave paragraph height as 100 pixel if you see on the top 100 pixel
+3911720	3917080	but the content area space whichever this content area space is made into 76
+3919800	3925880	how it is coming up to 76 because it detected the space for padding border and margin
+3928120	3933560	this is the same way how this formula that i've just wrote it like height whatever you define
+3933560	3939960	height for each html element if you want that to consume only that amount of height let's say
+3939960	3946280	you you say that hey my height of the box is 100 but if you don't say box box sizing as border
+3946280	3954120	box now let's see how this behaves the height of the box ultimately become 100 plus 20 plus 4
+3954120	3960760	which is 124 plus 10 134 but we said that box should be size of only 100
+3962360	3967480	okay if you want to that stick all those sizes heights to be that same thing right then you
+3967480	3975800	have to go and use this property as box sizing as border box is this point clear guys how that box
+3975800	3976840	sizing is helping us
+3980680	3983960	anyone did like anyone having any doubts here
+3986040	3993720	i see two people thumbs down cool further three guys please vote it so that i am
+3993720	4000600	you are not getting it okay cool okay fine let's say going back and taking this example
+4006360	4006860	okay
+4012760	4017720	let's say your villas dimensions
+4022120	4030040	is width into height or height into width let's say i gave width as 200 pixel and height as 100
+4030040	4039000	pixel right if i've given this height and width of your dimensions of villa now you are supposed
+4039000	4052280	to add garden border inside this one itself right leave it extra space now this is a box
+4052280	4058840	leave it this extra space but this till this border is supposed to be in 100 percent 100
+4058840	4066520	pixel height itself right now so that is what i'm saying now whenever you go by default html
+4066520	4071000	right what happens is whenever you say that hey height should be 100 pixel
+4073800	4075000	and padding should be
+4077560	4084040	10 pixel and margin should be sorry border should be
+4084040	4092360	5 pixel then this is like going on top and bottom so it will be 20 pixel this is also
+4092360	4099400	going on top and bottom so it this will be 10 pixel now the total height of actual building
+4099400	4108360	is calculated as 120 plus 10 130 pixel but do you have 130 pixel of size available according
+4108760	4115240	but do you have 130 pixel of size available according to your plot you have only 100 pixel right
+4117800	4121640	if you construct an extra if you take an extra space and construct it
+4121640	4126440	they'll come municipality will come and demolish your house right or that society will fight with
+4126440	4133320	you so that is what happening here if you see if i go and say let's say this is my house
+4134040	4141720	okay i will remove this box sizing and if you see i didn't save it now
+4143000	4152200	save it now if you see i've told that hey my house size is 100 height but i'm adding a garden plus
+4152200	4158200	border to it now the what what is happening it is increasing the height of that whole house
+4159080	4165480	because we are adding garden and borders to it but we don't want it we want something that
+4165480	4173480	hey let's say i'm having garden of 10 pixel on top and bottom then i would say that if i remove
+4173480	4180280	this i'll have only for the house i'll have only 70 pixel height left right this is how it should
+4180280	4188840	be now if i'm having actual house i'm building it height content or house height
+4192680	4196440	should be 70 pixel then padding should be
+4198360	4204440	20 since i'm considering top and bottom top 10 bottom 10 border should be top and bottom 10 pixel
+4204440	4211480	is this clear now like this example is clear at least
+4215240	4222440	guys who people who gave me thumbs down so i would i'm asking you them so it's this example
+4222440	4227800	that i'm not going into html part as of now i'm just explaining this mathematical thing now this
+4227880	4234680	is by default nature this is the default nature whatever you give height padding and border it
+4234680	4241640	will be added as extra but if you want this sort of calculation to work which is actually right
+4241640	4246920	according to our rules of understanding with real life then you are supposed to use something
+4246920	4252520	called as border box sorry box sizing as border box
+4253000	4259800	when i say border box i mean to say that whole like include whole till till the border area
+4260600	4268520	okay now let's go and see what's happening when i don't apply box sizing property my height becomes
+4268520	4277640	100 plus 20 plus 4 124 it becomes what if i go and apply this property what if i go and apply
+4277640	4283160	this property what if i go and apply this property i come back and i see
+4283160	4293800	that it becomes 76 plus 20 which is 96 plus 400 is this clear what problem this box sizing is
+4293800	4306760	solving for us uh guys if there are still someone who don't understand it please give
+4306760	4310920	me thumbs up thumbs down that works for me i can re-explain this topic
+4314840	4319160	okay it's just that if you are still facing challenge i would request you to watch the
+4319160	4324120	video you'll be able to get it completely is it automatically yeah it is automatically adjusting
+4324120	4331480	on kids so it is fixing it okay i'm just adding one property i'm saying it that the height of
+4331560	4338600	the whole box should be only maximum 100 pixel now if you want margin like padding and border
+4338600	4344280	you would deduct it from inside that let's say if i make five five pixel of border and i save it if
+4344280	4352360	you go and see here my height of border earlier it was 76 now it became 70 only it won't include
+4352360	4359400	margin shake so margin is separate if i made it return that way i'll clean it up margin formula
+4361880	4369160	okay it won't include margin it would include only these three parts okay let me make this part
+4369160	4379640	also clear okay margin is separately because the space will be given by society only yeah it will
+4379640	4385640	adjust calculations automatically but the default value for box sizing is content box if you again
+4385880	4389640	box sizing is content box if you again convert into content box right
+4391400	4396280	the box will be size of 100 these are extra added again 10 and uh extra 10
+4397640	4401720	if you you can always fix this using border box
+4404680	4408120	okay i hope this box sizing property is clear now
+4408760	4416040	uh so how many of you are clear with this like properties like why we made padding margin zero
+4416040	4421880	and what this property is making so generally these three fields right if i take it on this one
+4421880	4427560	these three fields are by default every project they certainly add these things like margin
+4428200	4433240	padding and box sizing because they assume that they will define for everything what they need it
+4433240	4438680	it doesn't want it they don't want system to bring anything their sizes or anything
+4438680	4447000	we'll define it our own okay i hope uh all this current topics that we have discussed are clear
+4447000	4454600	guys like related to box model or like uh you know the padding margin all of these three properties
+4455160	4461960	i hope everyone is clear anyone having still doubts please let me know uh or else i'll start
+4461960	4483320	one quiz for you okay so so one simple quiz guys uh try to attempt it i'm starting it
+4492040	4495320	so
+4497720	4509320	take your time guys uh time is there
+4509320	4512680	okay
+4520200	4527000	i see only 22 people voted in uh people uh i have seen many people are there in class guys try to
+4527800	4528520	mark your vote
+4531080	4532680	mark your option actually
+4532680	4540040	come on guys
+4548920	4557080	okay so i'm ending the quiz guys so i've seen 28 people have voted in and out of that 75 people
+4557080	4562360	have said right answer so actually when i've told you already right the property is here itself you
+4562360	4571960	can see on the uh like samvith has answered in very quick time right so we have already discussed
+4571960	4578120	like if you want to add margin or padding you can add it in terms of clock size like top right
+4579000	4585960	top right bottom left so if you if you want to add respective you know sizes of
+4586680	4592360	padding or margin to it okay i hope uh this thing is clear guys like how
+4593160	4600760	this thing uh like box model and font text area related content till now so this is clear
+4601400	4607160	we'll go ahead with one of the next content of today's class which is display property
+4607160	4615800	okay from now on guys uh these have been uh display property has been simple i would say
+4615800	4622920	that we have we already know that uh what does display do okay uh pretty simple
+4624360	4634600	okay let's say i go and design index start html i have okay let's have go for display property
+4635320	4645320	and i have div tag inside that again i have div tag let's say i have one this i have four elements to it
+4648120	4655960	say i have something like two three and four and let's say this is something like class container
+4655960	4665320	okay and let's say these are class like items
+4675640	4679880	okay uh so i'm making it preview
+4679880	4686920	okay now let's say i have some default styles i added to
+4688920	4694120	container let's say selecting a container class since we have introduced all the properties i'll
+4694120	4701320	try to write it down such that you know we are hands-on with them firstly i'll go and make the
+4701320	4704200	j star
+4708040	4715000	margin to be zero pixel and padding to be zero pixel now as soon as i do this guys
+4715000	4717640	just see what's happening and
+4724760	4725560	box sizing
+4725560	4736920	okay now once i have been this we have done this what i'll do is like let's say i have this div
+4736920	4743480	container so i'll have some certain height and width to it let's say 300 pixel to it and width
+4743480	4752200	should be 300 pixel and let's say we have some border to it i say five pixels solid or let's say
+4752200	4766760	dotted and gray okay uh doesn't look good so solid okay now once we have added this let's
+4766760	4771320	say we also have some padding let's say we say 10 pixel around each element
+4773240	4780440	and margin should be 20 pixel from each side okay this is something we have already discussed
+4780440	4786360	till now uh nothing new i'm just applying those properties so that we get used to it so can we
+4786360	4793000	align them in single line each is it in the box yeah that is where i'm coming okay no no
+4794680	4800600	which type of these elements are like which category this elements comes in dips i have
+4800600	4806120	seen discussed this one already whether this is an inline element or this is an block element guys
+4806680	4814520	block element right now block elements always starts in new line and uh like we said that item
+4814520	4819960	one item two item three item four it's it's always starting in new line but what if we want to
+4819960	4827160	convert them into inline element what if we want them to come side by side as just ankit mentioned
+4827160	4829880	them to come side by side as just ankit mentioned
+4832360	4838920	so there those sort of places itself we use property called as display display property
+4838920	4845880	is used to deal with these items to convert them into uh different types of like you know display
+4845880	4852360	to uh like inline to block block to inline let's say i go and say item display to inline
+4852360	4861320	okay as soon as i do this i add dot now if you see this these are converted into
+4862040	4868920	uh not flexed some with yet don't let's not go there yet okay let's pick to fix to display
+4869640	4876920	can you see this ankit your problem is solved as soon as i told it that uh you know item should
+4876920	4884200	be converted into inline now what if what is the one property that inline elements we cannot
+4884200	4889400	apply to like what if we want can we can we apply width and height to this one guys
+4891160	4893320	can we apply width and height to inline elements
+4897960	4905640	let's say i apply 25 pixel let's say i apply height to be 20 pixel and let's say i also have
+4905640	4921880	a border uh five pixel solid pink let's say i make it three and i also have some padding to it
+4923960	4929720	five pixel around it okay also let's say i gave some margin to it
+4930680	4937400	10 pixel but do you see any height and width are getting affected let's say i make for
+4937400	4945800	100 also not being applied right no heights are see height and width are generally not applied
+4945800	4951560	for inline elements that is what we have discussed earlier when i have told you about font text when
+4951560	4959080	we discuss related to this example right what is the difference between span and h1 and p tag same
+4959080	4964360	same example right same example we picked it up like text align center is not happening because
+4964360	4969080	it can it takes only the space it needed you cannot deal with it you cannot add extra height
+4969080	4973800	and width to it but what if i comment this one what if i comment this one
+4976120	4978040	would the width and height would be applied
+4978040	4980040	right
+4982680	4985960	that's right let's see this if i apply this if you see
+4987480	4994040	let's say i make this as container height as 100 percent 100 percent
+4996840	5005720	100 percent okay this can you see this let's say i make in terms of percentages uh 10 percent
+5009000	5020040	and let's say this is 20 percent right and let's say width would be 60 percent of it
+5021880	5027800	just to view it now i hope they are able to get it like what is our difference between
+5031240	5037000	inline and block and how can you convert an inline element into block block and inline let's say i
+5037320	5045640	have a span text now i'll have next items as a span okay let's say these are the span text
+5045640	5062520	uh let me repeat a span okay five six seven eight okay i'll have a class here
+5063320	5071400	which will say span item or let's say this is uh item one
+5079640	5085560	these are spanned by default the nature of this one is like if we want to convert them into a
+5085560	5092040	block how would we do this as you should help me out uh with this example because
+5092040	5097640	i have solved for one thing you have to suggest me take how can i make them same as this one let's
+5097640	5105560	say we apply all of these properties right by default we know that height and width wouldn't
+5105560	5116680	be applied display equal to block right let's see if i see this now this is working fine right
+5116680	5129880	right now but what i'm saying is that what i'm saying is that now let's say i converted into
+5129880	5136840	this one as a uh six and six i'm figuring this one
+5139960	5144360	so i hope this is clear like how item can be converted to block block to inline inline to block
+5144360	5148920	this is clear to everyone guys final thumbs up i will shoot next question
+5151000	5158360	okay now let's say next element next thing that i have is uh okay which should be more
+5158360	5163240	uh let's say i save 10 let's say make it 15
+5167240	5174120	okay fine what my question is i want to align them in a single row i want to align them in
+5174120	5181400	a single row all of these items and apply height and width through it how can how can i do it
+5186840	5194280	so there are div elements there are span elements i want to apply
+5195720	5200520	let's say let's solve for first four elements first four elements let's solve problem for
+5200520	5205880	first four elements let's say we have item one two and three four uh no we don't want
+5205880	5212680	to use display flex hashvini here so dhira suggest inline block how many of you think
+5212680	5215800	that inline block in inline block would solve the problem
+5222840	5223960	i see one thumbs up
+5224520	5229240	uh if you don't know if you're not sure you can give me a thumbs down if you're not sure
+5230360	5235720	but i just want to know you all of you got the question right all of you got the question
+5235720	5242840	right i just want to convert them into horizontal row but i also want them to have height and width
+5243960	5251640	so guys what we can do is that if you want to convert any element into let's say inline
+5251640	5257160	you converted into inline they are fine but if you want to apply height and width to it
+5257160	5264440	you can always use something called inline block when you use inline block right it is supposed to
+5264440	5273560	take the height and width whatever you mention it is that clear guys whenever you apply inline block
+5273560	5279000	all the elements inside it would be converted into inline but you can apply height and width
+5279000	5283720	converted into inline but you can apply height and width to it that's only the difference
+5285000	5291080	okay the difference between inline and block we know but if we convert something into inline block
+5291080	5295640	we are converting such that those are aligned in horizontal line and it is taking only the
+5295640	5302680	amount of space it needs right we can apply height and width to those particular elements clear
+5303160	5308920	okay now can you see this like all the boxes are arranged in a right like a let's say if i have a
+5308920	5315720	nine element so i have a nine element this is looking like a dialer if i reduce the
+5326840	5327320	right
+5327320	5333320	let's say whatever it is so i hope a difference between let's let's say i write it down on the
+5333320	5341240	ipad so that it's a kind of a revision so we know that there are some elements let's say we are
+5341240	5347960	taking something like inline block and inline block
+5348040	5353720	something like inline block and inline block
+5357160	5364920	right if i write down definition takes only the space needed
+5364920	5369880	right
+5372200	5377480	height and width not applied
+5383080	5384360	but when it comes to block
+5386600	5389320	takes whole row
+5390200	5394280	new row to render data
+5398600	5402120	and height and width
+5404280	5406280	can be applied
+5406280	5413240	applied
+5416280	5427240	when it comes to inline block we say that takes only the space needed
+5429560	5430360	and also
+5430360	5437320	we can apply height and width
+5444200	5448360	right these are the basic differences guys is everyone aligned with this
+5450040	5452040	between inline block and inline block
+5452040	5460840	okay if everyone is aligned with this i have another thing to show you guys okay
+5462760	5464280	then there is another property called
+5466760	5474680	display none what does it do display none anyone any idea display none
+5475480	5477480	let's say if i make it none
+5480520	5488200	you see this all the items been removed nothing will display but there is something called also
+5489640	5491640	display hidden
+5493000	5500600	sorry display none is a one property i can also achieve this using
+5500600	5506120	visibility hidden what would be the difference between these two guys
+5507640	5511160	like both are achieving same thing right both are achieving same thing firstly
+5512040	5517720	let's say i make it display none you see we are not able to see elements if i comment this and
+5517720	5521080	uncomment this one still the same thing right
+5521320	5527640	so people are saying the space will be there space will be affected okay display equal to none what
+5527640	5535720	will happen think in terms of answer in terms of dom guys let's say i open this in live server
+5536360	5537560	give me a second
+5538600	5543480	let's say i open this in live server give me a second
+5543480	5550600	in terms of dom guys let's say i open this in live server give me a second
+5561160	5569720	okay okay there are too many answers but let's say i go to inspect
+5570200	5577560	i select inspect selector i just hit here this is a container that we have written now if you see
+5578680	5584680	what is the property that we applied on item one we say that visibility hidden when visibility
+5584680	5589560	hidden like if you see i'm hovering over this property i can see those boxes right actually
+5591080	5598280	but it is like present here present in the dom but what if i uncomment this one and i make this one
+5599880	5610680	okay still it are present in dom firstly okay some people confuse you with this question firstly
+5610680	5617480	like whether the elements are removed from the dom or those are there first question is this one
+5617480	5622360	second thing goes for the space when you can see about the space when you can see the problem
+5622360	5627400	about the space is when you have extra elements below firstly let's say i go and add
+5628040	5633800	why that issue why that question of item element is present in dom or not comes is i'll tell you
+5634440	5642360	let's say i go and add 10 okay now if you see 10 is there but where you can see the 10
+5643080	5649560	it is below the 3 whereas it's supposed to be after 4 isn't it
+5649640	5650200	isn't it
+5655240	5660760	because we defined after 4 right it is after 4 directly because these elements are removed
+5660760	5667960	if these elements are removed after 4 the 10 should be there right but 10 is coming
+5667960	5673080	here at the edge the reason for this one is because for the visibility hidden
+5673080	5681000	then all the properties which are defined only they are hidden but not removed
+5683480	5690520	is this clear for visibility the items are hidden but not removed like there is a box
+5690520	5697720	you just throw a cloth on it but there is a box under the cloth but when it comes to display equal
+5697720	5707000	to none the boxes are removed itself so when the people say that display equal to none do you think
+5708200	5712680	the items are not removed i mean items are present in dom they ask this question
+5712680	5718040	because if you see in the dom still you have these elements present you can still play around with
+5718040	5725960	them isn't it so remember with this only one thing as you said that space will affect it that is all
+5725960	5734040	good but related to dom also remember this point okay i hope this is clear guys how visibility and
+5734040	5742520	display works now when you define both the properties display is overriding the visibility
+5742520	5747560	okay can you repeat from the point of dom okay so what i was saying is that sambit here
+5748280	5754600	like this though i haven't introduced the word dom like it's a just a document object model
+5754600	5760680	which represents a tree tree like data structure builds a whole like a tree we'll see it in the
+5760680	5766920	javascript initial class but here this is what a representation of dom looks like all the html
+5766920	5774360	in the element tag what's happening is when i'm using display equal to none right because when
+5774360	5780280	i'm display equal to none the element 10 is coming exactly after the four it means that all the
+5780280	5786120	elements are removed from that space right that that items are not there itself there's a difference
+5786120	5792920	between hiding and removing it so display equal to none works as something that removed it so when
+5792920	5799400	we are removing it we mean to say that those are shouldn't be present even if you consider a tree
+5799800	5807400	even if you consider a tree if you have a nodes of 10 nodes if you say that display none for the
+5807400	5813560	some five four nodes it means that we are removing that nodes right but remember that it present in
+5813560	5819960	the dom in both the cases okay only something like the behavior how display equal to none and
+5819960	5827800	visibility hidden is working hiding and removing kind of that okay so let me say this one
+5830200	5831800	uh
+5836120	5837080	display none
+5840040	5843160	removes elements
+5845480	5851800	from screen you can say this way whereas visibility hidden
+5859400	5876200	takes space and hide the elements
+5879240	5885960	okay so i hope these points are clear guys how visibility and display none works
+5886600	5891960	so i'm converting this into display equal to inline block for our sake
+5894360	5900760	okay so even with the display none the elements will be present in dom yeah that's what it is
+5900760	5905960	looking like right that's what it is showing here you can still see that the element here it is there
+5905960	5914280	like let's say i use display none right okay i remove this one if you see i'm hovering over it
+5914280	5918600	but it's not present in the element but they are present in the dom tree right
+5919720	5923080	they're not on the hd document but they're present in the dom tree
+5925400	5933400	that is what i was talking about shape right so i mean they try to confuse your test they
+5934280	5940200	basically all the answers that you gave were right that uh here the space will get affected
+5940200	5944600	or there will be some items where hidden or removed but i want to say that hey
+5945800	5950440	yeah dom will not be affected in general dom will be there okay
+5955000	5962280	okay so if this is this thing is clear display property is also completed okay i hope this
+5963240	5967720	things are clear if you need break let me know how many minutes you need it because i have one of
+5967720	5974360	the important property to cover uh which is a position where i've seen people been asking me
+5974360	5979240	from the first class about the position which is like difficult one we'll come back and we'll
+5979240	5987000	discuss on a position property you need 10 minutes okay i'll keep 10 minutes but as i need your full
+5987000	5995880	attention after uh 10 minutes okay because that's a one of the uh important topic an easier topic
+5995880	6004040	to say so this push the code yeah okay i'll do that uh give me a second i'll push the code
+6004520	6008200	so
+6024600	6032040	uh done some bit okay i'm starting 10 minutes guys uh so please uh come back with full energy
+6032040	6037720	because i need uh you to understand that topic well okay because that is somewhere people
+6037720	6041720	try to struggle and it has been asked in interviews also
+6045640	6053640	which software i'm using to teach uh which one ankit i'll start the timer i can discuss with you
+6053720	6059880	guys take the brick uh html this one uh this one is vs code
+6060600	6068440	okay visual studio code if you go to the project repo right uh you go to self-study link uh let's
+6068440	6074120	say i show it in the pre-open and preview i've given this uh vs code editor download link also
+6074120	6082120	you can download it from here okay and also uh if you want uh live server i've given that and all
+6082120	6086040	the reference material whatever you need to go through i'm giving in self-study document you can
+6086040	6091000	refer to that class by class okay i'll keep on adding the document that you have to go through
+6091000	6097160	after each class because all the things cannot be thought or i cannot go in depth because i have the
+6097160	6102680	time like time right that two and a half hours three hours whatever it is so if you read more
+6102680	6106360	you can come back and we can discuss in depth more if you have those questions
+6106360	6111160	okay so guys take the break i'll come in a minute
+6136360	6137160	you
+6166360	6167160	you
+6196360	6197160	you
+6226360	6227160	you
+6256360	6257160	you
+6286360	6287160	you
+6316360	6317160	you
+6346360	6347160	you
+6376360	6377160	you
+6406360	6406860	you
+6436360	6437000	you
+6466360	6467000	you
+6496360	6497000	you
+6526360	6527000	you
+6556360	6557000	you
+6586360	6587000	you
+6616360	6617000	you
+6646360	6647000	you
+6663080	6664520	guys i hope everyone is back
+6667960	6671000	guys can you give me some reactions uh if you're back
+6676360	6681000	okay thank you thank you i see six people
+6683000	6689720	so guys what we have discussed till now font text
+6692280	6694040	then we discussed box model
+6697560	6703480	then we discussed display on top level we discussed all the types of things that
+6703480	6714760	that you can do here we learned margin padding and border and box sizing
+6714760	6733520	property right in display we have understood in line in line block then
+6733520	6747480	lock then none and visibility right hidden so I hope when you see this
+6747480	6752440	property is whatever I've just wrote now everything is clear to you right
+6752440	6756440	anything do you feel like still new to you or anything you feel under
+6756440	6767560	confident about any property let me know if I write down font size weight text
+6767560	6781320	decoration spacing all type of spacing right guys are you confident about this
+6781320	6788000	properties we discussed give me thumbs up if you are feeling confident about
+6788000	6792720	this one or like from concept point like I don't assume that you are expert at
+6792720	6800800	them because it will come with practice but you understand them right I see six
+6800800	6806760	thumbs up okay if I'm not getting thumbs down I'll agree I'll consider that you
+6807600	6815200	had a good understanding on them okay moving it this to the property one of
+6815200	6822720	the confusing property is position how many you have faced under problem
+6822720	6828560	understanding this one if you have studied earlier if you have studied
+6828560	6833680	early how many of you have faced challenge understanding this one three
+6833680	6845920	people okay okay okay cool no worries I see three people no yes when I say when
+6845920	6850560	I say this position at office what do you exactly know about it like position
+6850560	6859880	at office let's say I'm sd2 I'm sd2 what would be the role like sd1 then I can go
+6859880	6866600	to sd3 or senior software then maybe at my office we call it as MTS one which
+6866600	6872160	is tough right this is the hierarchy right we say this one as a position only
+6872160	6879640	know in in general terms which keeps changing with your experience and your
+6879640	6888560	performance right do you guys agree like what's your position at your office
+6888560	6893720	not a multitasking the member of technical stuff they call it as a staff
+6893720	6898680	engineer they were working in on actually you know renaming this
+6898680	6907520	convention also but this is what position looks like right similarly if
+6907560	6914520	you go for this one also we have said that all the elements are like boxes
+6914520	6921600	HTML elements are like boxes now all this boxes whatever boxes are there are
+6921600	6927000	present in one of the box which is your laptop or your device or whatever it is
+6927000	6931600	take right what does whatever the size of your screen is that is a one big box
+6931600	6941800	inside the box box only all the boxes are designed and kept right but if let's
+6941800	6947640	say this is how we design that one to nine inline block one item then what if
+6947640	6956400	we want to move this elements to any side from their respective position
+6956600	6963080	right let's say my phone is currently here if I want to move it from position
+6963080	6969000	that's a left right or top bottom on to the table from its particular position I
+6969000	6979440	can use this property called position okay so position property generally
+6979440	6985200	allows you to move the elements from its designed place place like when I say
+6985200	6989640	design place all the elements whatever we have defined like item one two three
+6989640	6994960	four are designed to be this way side by side but if we want to move from their
+6994960	7000960	position to some other position or like move from with respect to anything if
+7000960	7005440	you are moving them any side if you want to move them any only different places
+7005440	7009520	then we have to go to the position property at least this thing is clear
+7009520	7013880	when to use position and what is position
+7015360	7019440	guys give me some reactions if not if not give me thumbs down if you don't if
+7019440	7024520	you're not getting it give me thumbs down that's okay I'll take it slow okay
+7024520	7029480	I see one thumbs down cool now what do I exactly mean to say is that when I say
+7029480	7041880	HTM element I'll have div one right and div two I'm supposed to render one and
+7042040	7052760	two on the screen right this is a screen right the person Ankit do you agree this
+7052760	7060440	is how it will render right on screen but what if I want to move let's say one
+7060440	7067560	and two here or one is somewhere here and two is still here like this thing
+7067560	7071800	moving the particular element from their respective position though the
+7071800	7077320	dom will be represented this way itself you got this if I have to move that
+7077320	7081760	element to the left right top bottom then I have to approach for this person
+7081760	7087400	position from their respective position like whatever these are position are
+7087400	7093560	default positions okay the default the default there's a one property all the
+7093560	7099200	elements whichever has same element you see the default property is static being
+7099200	7104920	applied to it already whenever I say static what do we mean a difference
+7104920	7112600	between like if you go for physics also static and dynamic right static is
+7112600	7117240	someone who's to who is residing there itself right is not in motion is not
+7117240	7125760	moving anywhere right stable there itself bodies at rest so all the elements
+7125760	7131800	which are like already which are defined in HTML all the that you do it the items
+7131800	7136040	will be defined till now whatever HTML we have written all the elements are by
+7136040	7140160	default are having position static which means that they are not moving from
+7140160	7143680	their position not moving from the question it means whatever you are
+7143680	7150240	defined by default those are applied is this clear guys
+7151240	7158120	till now the whatever story I explained is it clear to everyone right now if we
+7158120	7163960	want them to be dynamic if we want them to dynamic or move from their position
+7163960	7168760	whatever position is like assigned by Dom to them render while rendering we
+7168760	7174720	want to move them and behave in certain way then we go for a properties like
+7174720	7189840	relative absolute then fixed and sticky okay what all these properties are doing
+7189840	7195360	you know one property should be actually enough to move the element like to move
+7195360	7205160	the element you generally use something like top bottom left right again this
+7205160	7212760	all the properties takes values in pixels REM and EM so I haven't discussed
+7212760	7217520	this too I'll discuss in future but current currently consider pixels okay
+7217520	7222160	these are the properties you can define once you define any position this one
+7222160	7229040	this one or this one or this one or anything you are using okay but I hope
+7229040	7234040	position static is clear by default it is rest that's a default nature and it
+7234040	7238560	keeps the values in the same way but when it comes to other things let's say
+7238560	7242920	relative and absolute let's pick them first okay this is somewhere people
+7242920	7256160	confused relative and absolute okay we'll discuss this first now both things
+7256160	7260600	are helpful to move the element from one position to other position from their
+7260600	7268440	assigned well assigned place let's say this is a table and my phone is here
+7268600	7276800	okay what I'm doing is I'm moving my phone from here to here okay I'll say
+7276800	7289480	that this is a distance X and I'll say that this is a distance Y okay what is
+7289480	7301240	happening here which I also make a dotted line I moved my mobile from there
+7301240	7309360	to here now what is generally happening is like if my phone is moving with
+7309360	7315960	respect to its original position like what do I say when I say X X is a
+7315960	7329800	distance which is moving with respect to
+7331840	7341840	original question I mean if I say an element let's say my phone is here let's
+7341840	7345680	say my phone is here at this particular question and I say I'm moving this mobile
+7345680	7351860	to this one this thing can be only done like we are moving it from the
+7351860	7356040	particular question where it was there let's say you say 10 pixel move towards
+7356040	7360840	the right from your point of view left if I'm moving 10 pixel this side I mean
+7360840	7364320	to say that I'm moving it from with respect to its actual original position
+7364320	7372160	and when you can apply this thing when position is relative
+7376680	7394960	but when this role of Y comes role of Y comes when item is moved with respect to
+7397000	7403720	window or you can say table top corner
+7406680	7418000	this is clear guys what I'm denoting X&Y top left yeah top left so I'll show you
+7418000	7422760	this examples both again I'll come back to this example but but how many of you
+7422760	7430160	got this diagram or representation that I was trying to explain if you didn't
+7430160	7433640	get it that's also fine give me thumbs down if you didn't get it I'll explain
+7433640	7440320	with a real-time example then I'll come back okay see too cool further yeah three
+7440320	7444900	people got it no this case let's come back let's do some coding and then come
+7444900	7460000	back so let's say let's create a folder calling as position again inside this
+7460000	7470880	I'll use index start HTML okay let's see the magic is what's happening now I'll
+7470880	7481400	close this I'll render this don't need a server live server but there is nothing
+7481520	7489360	in it yet but let's say this is absolute
+7492840	7502280	versus related okay but before that what I'll do is that let's say I go and define
+7502880	7515000	let's say I have a paragraph I use lorem 20 lorem 5 that's enough again I'll replicate
+7515000	7528200	this one multiple times let's say okay and I say this as class first I use
+7528200	7546160	class as second as third classes second third fourth okay now what I'm doing
+7546160	7551480	here is like I'll create a style block now let's say I created a style block
+7551480	7562800	and I'm just trying to access first element and even if I give display first static okay I'm
+7562800	7574960	giving static okay and if I'm trying to define this property top 10 pixel or bottom 10 pixel
+7574960	7583920	or left 10 pixel actually one of the set of the properties would be enough either
+7583920	7587680	you pick top or bottom and right or a top and left anything would be enough for you
+7587680	7596080	to align the item let's say I'm doing it this way nothing is being applied firstly do you
+7596080	7604040	guys agree I made this change I applied to this first class do you see when I make it
+7604040	7609680	static and I'm trying to apply this property this top bottom left right first those are not
+7609680	7616600	applying to it is this clear because static property doesn't take any changes along with it
+7616600	7627280	it doesn't move the element from its position it keeps it static okay now let's say I'm making
+7627280	7641480	it relative okay sorry I have to pardon me is no one reminded me I have to make position static
+7641480	7650400	I went on to define as display again but I'm I want to reconfirm that nothing is changing okay
+7650400	7661280	let's say I comment this and I make it relative okay still there is no change in this lore but
+7661280	7674120	what if I make this particular thing here do you see there's something happened to it let's say
+7674960	7696640	I create a border of one pixel solid black okay I'll give a color of red so that you can see if
+7696640	7703920	I comment this now let's say there's a particular position this particular red one is already
+7703920	7710520	present what I'm saying is that what if I want to move from that particular position to below
+7710520	7719040	then I can say move it from below 10 10 pixel if I say top equal to 10 pixel so I'm saying it
+7719040	7726960	now wherever it is actual position is there move it 10 pixel below is that clear let's say I open
+7726960	7735520	this I'll show it in the browser I want to explain you basic difference how actually absolute
+7735520	7746200	and relative works firstly if you see I am selecting the element selector okay if you
+7746200	7752040	select this one if I remove this if you say it is going to that actual position from its wherever
+7752040	7759800	it is actual position where it should be residing but as soon as I apply this one it is moving
+7759800	7775440	towards below and if I give let's say left value let's say I give left 10 pixel now can you see
+7775440	7781960	this it is moving from that particular position to left to the towards moving towards left I'm
+7781960	7790520	going towards right yes how many of you understand how relative works it is actually moving from
+7790520	7798120	its X its position itself like if you see that diagram right whatever I was saying so whatever's
+7798720	7808080	definition I'm so like my mobile was here not this one but I don't know which yeah this one
+7808080	7816040	let's say this was a position I moved it to this position that's I said left equal to 10 pixel when
+7816040	7821600	I'm moving with actual its respective post position which was actual position not horizontal axis
+7821600	7827400	somebody don't take it that mode towards left yeah so from its actual position wherever it
+7827400	7833760	was residing I'm moving from there okay but what if I make now let's see what if I make this
+7833760	7844000	particular value I remove this and I make it absolute do you see one thing something happened
+7844000	7858280	guys do you see something I had four content here I had four content and the values got merged do
+7858280	7875760	you see you can see only three things there what if I make color to be blue okay and I go and add
+7875760	7884720	let's say top 10 pixel or let's say 20 pixel can you see what happened here guys
+7884720	7895440	how many of you understood what happened here so what I said earlier from diagram
+7895440	7910200	let's say item is moved with respect to window like top left corner I mean to say that it will
+7910200	7916000	start whenever you define it absolute right so that particular position wherever that item is
+7916000	7921760	there it will be removed pulled up from there it will be taken to the starting position let's say
+7921760	7927520	I don't want to deal with the first item okay let's say I don't want to deal with the first
+7927520	7933480	item I'll select the fourth item itself if you are confused about first item that's I select the
+7933480	7943640	fourth item no okay so fourth item it is relative let's make absolute do you guys agree now even
+7943640	7948960	the fourth item was pulled and took to we took it to the first position top most position top most
+7948960	7955480	like windows position and from there we are moving it wherever position we want to now is
+7955480	7962480	the difference is clear guys what does relative and what is absolute absolute always moves from
+7962480	7967960	the window position like whatever top left right bottom you give it moves with respect to that
+7967960	7973440	window position whereas relative takes from its actual position where it was earlier there from
+7973440	7979280	there will move left and right and bottom this is basic difference clear guys how many of you
+7979280	7988080	have understood this one if there is still someone who didn't understand let me know because the
+7988080	7994160	only difference between absolute and relative is this one I see one thumbs down do you want
+7994160	8008480	me to unmute you some bit you want me to unmute you okay okay just recap okay I'll do this one
+8008480	8016240	let's say again re-explaining yeah no matter where it will be pulled it will be pulled it's
+8016240	8024000	like boss I'm I'm the boss of the HTML I don't care I'll be removed from my position I'll go
+8024000	8032760	anywhere I want okay you define me where I want to go using top left right bottom absolute is
+8032760	8048160	that that kind of person is that clear some with okay yeah no then let's say I actually
+8048160	8054080	write down few examples to it it's the same thing guys but what I'm trying to do is that let's say
+8054080	8062640	I copy paste some of the content for you so that you can refer it better okay I made this one but
+8062640	8070200	let's say I have an example I build this again lorem ipsum itself now with let's say what I have
+8070200	8081640	done is I add some styles to this paragraph div container let's say these are the things that
+8081640	8087600	I added nothing just like 5 pixel border and I've given height and width nothing much in it then
+8087600	8095680	we know that static doesn't matter right even if I declare you know here since these are all
+8095720	8104960	paragraphs let's say if I declare p tag and I add it like position static doesn't matter
+8104960	8114360	that should be clear to you okay but I'm removing it then let's say I have here IDs like para 1 para
+8114360	8129400	2 because I have defined it using IDs here let's say I go for para 2 and no if you go in major
+8129400	8136720	websites right major websites like if I go for let's say HDFC life insurance itself life
+8136800	8146920	insurance okay I'll show you one thing here they I won't give my contact details to them
+8146920	8161760	the stuff too much but okay it's very slow isn't it their website is slow or like okay
+8161760	8173200	yeah anyways so what I was what I was trying to show you guys is that let it load
+8173200	8185280	huh now do you see this on top right chat and this one these two things chat with us and this
+8185280	8194160	one these are defined let's say if I go and search in the DOM right I go and search here
+8194160	8206360	in the DOM let's say chat with us if you see this is the class applied message icon okay now if you
+8206360	8215040	go here what they applied here what is the thing applied here what is the position applied here
+8215040	8223160	absolute right and they made something like top zero what is the behavior now if you see if you
+8223160	8228640	want to define a footer for your website this is how you do it you said that hey can you come out
+8228640	8236680	of your actual HTML flow and always stay wherever I define always stay like from top to zero select
+8236680	8242160	like reverse it or else you can also also say this way let's say if I'm this I'm defining a
+8242160	8253760	footer here using para one I can say ID para one I can say position absolute and I also can say
+8253760	8264040	bottom zero okay now if you see this particular thing let's say I define it in the color red
+8264040	8275320	doesn't matter if I have height of let's say 1400 pixel okay you see it is always let me close
+8275320	8280880	this one if you see it will be always there whatever your height of your absolutely like
+8280880	8287840	this one is in the size of it it will be stick to there or else let's say if I make top to be
+8287840	8299680	zero if you see it will go to the top to the particular viewport yeah is this clear guys how
+8299680	8307600	now absolute property works I hope this is clear like how absolute and relative are working now
+8307600	8313840	I'll show you the example of really I'll write down for relative also let's say I have this
+8313840	8322840	styling I've just build this example let's say now if you see para 3 right para 3 I made it
+8322840	8330580	related and I've gave it would be actual position would be this one and the top and left are moving
+8330580	8335280	like from its actual position wherever it was position was this one but I made let's say if
+8335280	8341320	I move again top let's say 20 or 30 its position should be somewhere here but we are moving it
+8341320	8347160	down and also we are moving it from left side we are moving 30 pixel that way okay I hope now
+8347160	8353960	absolute and relative should be clear to you like how they are working okay now I have two
+8353960	8360200	other examples guys they are pretty simple so I'll I'll explain you why pasting it okay because
+8360200	8372480	we are running out of time fixed dot HTML so fixed is like let me show I'll show you with the
+8372480	8385760	example itself that I have let's say I build this HTML 5 and I reclose this one I open show
+8385760	8396040	preview let's say I have a div again I have a list of four paragraphs again I built it using
+8396040	8410480	lorem itself let's say copy and paste it nothing new in this same thing one div as a container
+8410480	8417560	inside that four paragraph with ID para 1 para 2 para 3 para 4 IDs okay and lorem lorem being
+8417560	8424240	added for div what I'll do is like let's say I've added this one inside a style block I'm
+8424240	8431000	adding just for container height and width I'm giving it okay what I did I gave food 400 pixel
+8431000	8437960	okay by default browser will give me a scroller if my page size is more than it is viewport like
+8437960	8443240	my laptop sizes are certain height but if the height is more than my laptop height I'll
+8443240	8453120	automatically get a scroller okay now what I'm going to do is that let's say let's say what
+8453120	8460280	I want to do is like I want this paragraph to be sticked here only like like if you see in the
+8460280	8467440	going back here if this HDFC right the resume application premium the header header part you
+8467440	8476480	can see this this is always stick there can you see this it is always on the top itself it has
+8476480	8482840	hanged but the page is like going below the page is going below once like we are scrolling it okay
+8482840	8488840	so we are saying that hey that position should be fixed when we are getting so that even if the
+8488840	8493600	viewport is changing pages crawling down you want to be something to be fixed you can use
+8493600	8505120	position fixed let's say how can you do it I have para one as an ID para one I use position as
+8505120	8523240	fixed and let's say I define it as top equal to zero okay and I say color equal to right now
+8523240	8528880	though they both are residing if you see even if I'm scrolling it it will be always there the
+8529720	8535320	going it is converted into two layers so the whenever you fix the particular position it
+8535320	8542760	will be always be there now even if you go for bottom right bottom zero okay now whenever I'm
+8542760	8548560	even scrolling it is still stick there the difference between now let me show absolutely
+8548560	8558640	if I open this absolute right index dot HTML show preview okay now if you see this absolutely made
+8558640	8563720	bottom zero if you are scrolling it is coming again it will be only fixing to the viewport I
+8563720	8570280	mean which is using absolute or relative you can make changes till particular viewport only
+8570280	8576560	on current page but if you want to play around with the different level like you you have to
+8576560	8580720	go with fixed one if you want it to be header and footer sort of implementation
+8580720	8594480	here guys can we use both like give me an example some bit like how do you want to use both because
+8594480	8600080	fixed is something in doesn't matter where you give it particular location that hey whether you
+8600080	8604440	fixed has been designed for that use case itself like it will be always stick to the bottom or
+8604440	8615240	top that's how they have used it I hope this thing is clear guys absolute relative and fixed
+8615240	8628320	right now I have the final one let's say I say sticky sticky is really similar to fixed actually
+8628320	8634320	but there's some change in its behavior I will show you how it works left and right can be used
+8634440	8647560	fixed let's say I'll show you it can be used it can be used some bit it can be used just a second
+8647560	8665600	I made some how it can I take your doubt in break we can explore further but I'll complete
+8665600	8676000	the fix sticky part then I'll pick it up okay let's say I open in a show preview no sticky
+8676000	8684080	is actually similar to fixed one but the behavior of sticky starts when it comes to the viewport
+8684080	8699920	I'll show you how let's say this is a sticky and let me copy the this is pretty simple example I
+8699920	8710000	have container and four dips let's say I design container this way using style property okay I
+8710000	8719040	had this dodger blue color and I can do like I may making them all the boxes converted into in line
+8719040	8728240	in line block okay and I've given him height and width okay I don't need this in line block also
+8728480	8733520	okay let it make let it be there so that height and width are applied margin top is applied okay
+8734080	8741040	if you see here what's happening is like I've just made it like I've added margin 300 picture
+8741040	8746480	and given the height and width to the each box nothing new I have done it but there are sometimes
+8746480	8752080	right on the websites right when you're scrolling through there is something right like when you
+8752240	8758080	keep on seeing there is some picture gets stick and if you keep on solving scrolling below but
+8758080	8763760	that they that stick to the viewport there is some picture always stick to the viewport like
+8763760	8770800	there are some advertisements that happens comes let's say there is an overlay overlay comes and
+8770800	8778880	it stick like but the other ones keep scrolling like menu I don't think it I try to find that
+8778880	8785600	example but let's say this is the one even if I scroll I cannot scroll it yeah I'm able to
+8785600	8793680	scroll it but this is not the exactly sticky example nothing is available here as a sticky
+8794400	8801520	even if I go to let's say google news ad okay let's say google news I go to google news
+8801760	8805920	uh use precise location I don't need
+8808000	8810000	okay not now India
+8812160	8813760	let's say I scroll it
+8815920	8819440	there is no behavior as such guys but I'll show you what I exactly mean
+8820160	8825520	okay you will get a sticky ad okay geek for geeks but I hope you got the basic thing now I'll show
+8825520	8830400	you how that actually plays a role okay let's say I select the box three here
+8833920	8842080	box underscore three and I open this and I just add position as sticky so what I'm saying that
+8842080	8848560	box three this particular box should be sticky and I'll give that position let's say top and zero
+8849360	8856080	okay now if you see there's nothing happening but there's nothing happening till that box three
+8856080	8863040	comes as soon as box three comes and goes right even if I'm scrolling box three sticks to the
+8863040	8870000	top position so it behaves like a fixed but only after some extent
+8872800	8876480	only after it reaches the actual viewport it comes into the role
+8876480	8877600	it comes into the role
+8879760	8882640	is that clear guys how sticky is different from
+8883600	8888960	fixed it acts as a fixed only when you get introduced let's say if I make it bottom zero
+8890960	8895280	okay let's say I scroll through if you see
+8895280	8911440	only only like let's say from when you're coming from top three will be there till it's till that
+8911440	8916960	position actual position of three comes okay after that position of three has been entered
+8917600	8924880	it behaves like a normal element goes away but generally this is used for top like as soon as
+8924880	8930240	you've seen that picture it will stick on to the top until even if you scroll it it will stick there
+8932000	8938880	clear so sticky is similar to the fixed type of you know element generally it that comes into
+8938880	8947440	the role whenever you visit that element how you want to behave it okay guys so I hope these are
+8947440	8953760	the basic examples I picked it up if you still have any doubts stay here in the class I'll try
+8953760	8959360	to explain you all those properties like whatever you have doubt what I'll do is like I'll share the
+8959360	8965760	content that you can read through I'll get push the push in the data while you know ping in the
+8965760	8972400	whatsapp group so that you all have the notes okay or wherever you want to refer to okay but
+8972400	8977440	any doubts from today's class if you have please stick to the stick for the doubt session guys
+8977440	8985840	okay uh guys so with your permission can I start doubt session
+8991440	8992080	thank you guys
+8994560	9001200	uh I'm supposed to pick few things uh I have missed it okay some bit has pushed it equation
+9001600	9008560	so normally most of the time I use margin right uh and left to fix the position
+9008560	9017360	is it always recommended to use position uh like as I told you firstly some bit think of this way
+9021120	9028880	uh firstly I'll answer uh some bit question some bit now think of this way the use case right uh
+9029840	9035280	when to go for position I've told you that firstly if I'm moving it from the current position
+9035280	9039680	right I'm moving it from the current position all the other elements are also getting disturbed
+9040720	9045200	okay I'm taking a huge risk that whether I will be able to manage the viewport
+9045200	9051520	or how it will be rendered if you are using position mainly they are dealing with like you
+9051520	9057440	are uh like whatever flow of your document right you are you are removing you are playing around
+9057440	9064800	with that document flow mostly people what they do is like they deal uh use position for headers
+9064800	9073040	footers and menu sort of fields okay and there are some things right like like fixed and sticky
+9073040	9079200	they use it but if you want to use position people are using relative because if you want to move
+9079200	9083440	like let's say you want you said you told that you want to move it from left or right of that
+9083440	9087920	particular uh existing position then you can use relative you can make that position as
+9087920	9094960	relative and move left and right okay that you can do but like there if you again if you use
+9094960	9099840	absolute somewhere below that things will overlap it's up to you if you are designing how you want
+9099840	9106000	to do it but if you are using margin right margin left that is again a box model which that space
+9106000	9113280	will be consumed okay you have to decide your way of designing like with how you want to pick it up
+9113440	9119520	but if i'm at your place i would go ahead with the position but i want to see your exact use
+9119520	9128800	case like how when you are using it is that answered some bit can i take it as answer
+9130720	9136320	yeah with because that will clutter it right that will clutter it like you have to see uh
+9137760	9142960	like because if you if you don't take care of other elements they can overlap and you
+9142960	9150240	may not be able to see because how this happens it right the fixed and uh the sticky one if you
+9150240	9155520	see absolute one they are removed from their existing position and they come over the layer
+9155520	9160640	on a different layer they come on to the different layer and they behave like these are like html is
+9160640	9168320	of two layered uh pages on a viewport so there's a one page running on the bottom there are some
+9168320	9172560	elements that you defined with position are running on the different layer this happens
+9172560	9177280	this happens because you told that here there is an existing flow but i want to remove from
+9177280	9182880	their existing flow and move it to the different position using top right bottom left so you have
+9182880	9189120	to think uh from the viewer perspective because we are viewing in 2d 2d format now let's say i
+9189120	9198560	open this right i open this itself uh let me say open in live server
+9202080	9207920	uh give me a second i'll show you why you need to think it in uh other elements also
+9208720	9211440	let's say this is a thing available for us
+9214960	9216960	which one i opened sticky one is it
+9220080	9226080	okay let's keep it this way okay now there is something called layers
+9230080	9237280	now if you go and open this okay till the third part and i do something like let's say i
+9249440	9254560	let's say if i bend down and i use scroll a bit of a scroll
+9256400	9261840	if you see that third part right here below i'm not sure if you can see it because it's really
+9261840	9267600	small like you you can use this layers section and you can rotate and you can see that how
+9267600	9272560	it is actually changing let's say even if i remove paint it will be black in color but i can show
+9272560	9278240	like how that are coming over each other so you have to play around with that other elements
+9278240	9284080	also if you're using position okay something but most of the time right
+9285120	9291440	um i mean i use uh like only for headers and footers position but mostly
+9292400	9297520	grids and display flexes flex pause are solving most of the problems right
+9297520	9308960	right yeah z position by z position is uh is z index is different one uh that is for multi-layer
+9308960	9314080	whether you want to show priority order how we want to show it that that i agree upendra
+9314080	9321120	but this generally what happens let's say if i open the other one absolute let's say i open this one
+9321120	9324320	so again
+9326320	9330560	it's just that you can you would be able to see it in your screen i'm not sure if i'll be able
+9330560	9342880	to zoom it this part right let's say i paint this uh i mean
+9343280	9349200	you will be actually able to see how they are actually behaving but guys you can explore this
+9349200	9355280	layers actually how can you use it uh i can show that like how layers you can see in the screen
+9355280	9360000	different screens because generally they whenever you define this property they are coming from the
+9360000	9366720	actual flow uh then out of the flow and they're sticking to that question it is converted into
+9367520	9372160	sticking to that question it is converted into two layers screen and z index will uh
+9373360	9377200	yeah you can explore layers there are too many things to explore we'll explore one by one i've
+9377200	9383360	just shown uh elements and i didn't even talk about computed actually what computed does
+9383360	9388160	i'll talk about this computed in next class like how computed works there are too many things to
+9388160	9390000	explore somebody will explore step by step
+9392080	9401040	huh uh yep and uh any other so ankit was saying sir i'm working on a project of mine using
+9401040	9410720	wordpress wordpress i never used it uh okay but what's your doubt i can take it if you have
+9410720	9411760	anything specific to it
+9419280	9422960	okay yeah anything if you want to add on that
+9426880	9435040	i was just confused for the positioning okay uh okay great great if you are clear that's
+9435040	9443200	that's super great thank you so anything else guys anything else you have i'll push the code
+9444000	9449520	yeah thank you ankit hope you enjoyed it keep attending keep solving assignments guys which
+9449520	9456640	will you know uh actually i wanted to keep one reading session uh earlier i used to take morning
+9456640	9464080	batch so on saturday uh i used to have one document reading session but when we have saturday class
+9464080	9469920	it's night it's 12 o'clock people are in weekend mode uh i'm not sure if i'm even if i open an
+9469920	9475360	article where i can read or something related to front end or back end how many people are going
+9475360	9483600	to be there i mean i had a habit of doing that one uh but anyways i'll i'll try to say uh you know
+9483600	9489600	share uh articles in that whatsapp group where you can go through whatever i'm reading right content
+9489600	9490560	related to web
+9492880	9497520	if anyone is also exploring something they can also drop i can read it can understand
+9511360	9512000	thank you sam
+9519840	9526160	uh one okay um not take it's getting difficult to remember htmlc syntax tags any suggestions
+9526160	9535680	class concept here but takes time uh from what uh i carry four plus uh i remember concepts
+9536240	9542720	i refer to still syntaxes okay never worry that if you are not able to remember syntax
+9543760	9549120	because there are too many things to remember from too many things like uh how many of you
+9549120	9555760	how many will remember like i've told i have only today if we pick up css right i have discussed
+9555760	9563120	for text i've discussed seven to eight properties for display i discussed uh four properties i mean
+9563120	9569040	values for property there are too many things will be coming even if you go for further class
+9569040	9575760	right it will be difficult but what's uh you know uh you need not to mug up anything i would say
+9575760	9582080	that concept keep it clear you should be able to figure out how you can do it even in interviews
+9582080	9589840	right uh i mean uh interviewer should allow like if you remember if you know the basic syntaxes
+9589840	9594560	but there is some syntax that you don't remember you can communicate with him he'll help you out
+9594560	9600240	or you can go and copy uh like check on it you can google it because once one is not supposed
+9600320	9608880	to mug up uh syntaxes basics should be clear concept should be clear you can always refer okay
+9611040	9617920	because a web uh in a way web development is very much huge guys very much huge whatever the
+9618960	9623360	the content that i'm discussing would be overwhelming in itself but i would say that
+9623360	9629840	we are covering uh not completely in depth i'm trying to pick up easy examples such that you
+9629840	9635920	are able to get that concept clear first once the concept is clear then uh then you can go
+9635920	9647440	in depth and experiment with that part okay uh how will be interview task uh upendra mostly
+9647440	9653680	from find and write uh or full stack level those are mainly based on machine coding
+9654400	9660400	uh when it comes to machine coding you are supposed to build html css and javascript
+9660400	9668080	if it is they are talking about vanilla js or else uh they might go to react specific machine
+9668080	9673840	coding i will be sharing those parts like how can you prepare for that how can i help you that
+9673840	9678640	okay we'll see we'll solve some of the machine coding rounds machine coding problems also
+9679280	9683680	okay interesting problems but for that i have to build all the basics for you like
+9683680	9690960	all the html css javascript once i cover basics of these three then you we can will do some
+9690960	9696640	machines coding solve problems in uh using plain vanilla js then we'll learn react then we'll do
+9696640	9702560	some more machine coding related uh problems in react then we'll build some projects also
+9702560	9708080	then we'll go to node js so it's a huge module too many things to cover i'll try my best and
+9708080	9712640	also keep sharing extra things that how you can you keep yourself focused and keep learning
+9714720	9718640	works upendra there will be theoretical rounds too
+9718640	9723120	but something where much will be deciding will be machine coding rounds
+9733280	9733680	thank you
+9733680	9737680	and
+9757360	9761520	so hello guys then uh hope you have a you know take a rest
+9761600	9767200	solve assignments see you on thursday where we'll introduce one of the much interesting topic which
+9767200	9772800	is flexbox which you will be using in day in day out like once you start your journey
+9775120	9781120	if you are writing css uh 70 percent of time you are going to deal with flexbox which i feel it
+9781120	9787920	because that's how my journey has been uh okay so come back uh and try to understand everything
+9787920	9793280	revise this content if you have any doubts bring back me pull pull me in that whatsapp also if you
+9793280	9798880	want to learn anything new tag me there we'll explore things okay so see you on thursday guys
+9798880	9806160	hope you solve assignments and meet you on okay meet you there so hello guys good night take care
+9807440	9808480	stopping screen share
+9812480	9812960	good night
+9812960	9816000	you
+9842960	9844960	You

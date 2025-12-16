@@ -1,0 +1,2768 @@
+WEBVTT
+
+00:00.000 --> 00:19.520
+Hi all good evening so how's your weekend going guys so give me thumbs up from audible
+
+00:19.520 --> 00:29.920
+and visible thank you guys can anyone share the whatsapp group link
+
+00:29.920 --> 00:53.120
+so how's your weekend going guys I have to log in in my system
+
+00:59.920 --> 01:15.600
+how's weather at your respective places is it hot does it feel like summer already
+
+01:15.600 --> 01:34.680
+we feel it completely different like why you know there's no winter in Hyderabad this year
+
+01:34.680 --> 01:56.240
+must be our batch name was scale of instruction okay bangalore even bangalore okay then you
+
+01:56.240 --> 02:04.840
+can say that if Bangalore is hot now Hyderabad is off to be I've been in Bangalore only for
+
+02:04.840 --> 02:21.760
+three months and I have really great time there my voice is echoing okay let me recheck
+
+02:22.360 --> 02:33.800
+is it better now guys can you if I speak okay still the same issue how many of you
+
+02:33.800 --> 02:44.280
+feel that my voice is echoing not clear okay let me try to reconnect it
+
+03:21.760 --> 03:34.120
+guys can you hear me again like I'm trying retrying it I rejoined the class
+
+03:34.120 --> 03:48.720
+now okay is my voice is also good great great so okay there's a water issue in Bangalore
+
+03:48.720 --> 03:58.040
+that's that's really crazy still still like we have much of summer is yet to be started because
+
+03:58.040 --> 04:04.120
+I consider summer according to me is after Holi or Shivaratri specific to specifically
+
+04:04.120 --> 04:19.600
+like isn't it that's how people say to us isn't it so let me share my screen let's test this one
+
+04:19.600 --> 04:28.840
+also yeah someone is off the channel global warming you can see the my screen share right
+
+04:28.840 --> 04:39.680
+guys is my screen share visible cool so let's have three minutes timer then we'll get started
+
+04:50.160 --> 04:54.640
+I'll drop a message here and what's up
+
+05:07.320 --> 05:18.480
+the message no cases is there any challenge with your assignments or like did anyone attempt
+
+05:18.480 --> 05:26.040
+contests in practice mode the last vegetables is this one because I see there is a drop in
+
+05:26.040 --> 05:31.720
+percentages of people who are trying to solve it I usually get the metrics of a bad so I'm
+
+05:31.720 --> 05:38.360
+just thinking from your perspective like is everyone following up with their assignment
+
+05:38.360 --> 05:48.320
+problems are everyone solving it okay I see less amount of people today in class is it because of
+
+05:48.320 --> 06:10.560
+weekend Saturday class no idea okay something I'll come to that point yeah right the topics
+
+06:10.560 --> 06:15.720
+we are discussing yes the problems that you get post class right those are the questions
+
+06:15.720 --> 06:30.400
+that if you are able to solve could good enough okay he monkey has said that she's at school
+
+06:30.400 --> 06:44.680
+it's such night okay notice okay after some revision will solve it okay the only reason
+
+06:44.680 --> 06:49.920
+that I say that keep solving after each class is because the moment you will go for revision
+
+06:49.920 --> 06:56.760
+right I'll be moving towards react I'll be moving towards node J's so it will be really difficult
+
+06:56.760 --> 07:01.640
+to come back and catch it up that's the reason why I would suggest right after each class go
+
+07:01.640 --> 07:07.200
+and try to solve it if you face any challenges to let me know because that's how you can keep
+
+07:07.200 --> 07:23.360
+up in the right way or else it will be a burden for you at the last moment okay okay
+
+07:23.360 --> 07:28.960
+let me set up iPad screen sharing
+
+07:53.360 --> 08:07.880
+guys do let me know if you can see the screen share of iPad can you explain about the filtering
+
+08:07.880 --> 08:14.560
+part we'll come to that coming so we'll come to that we'll cover it up everything so guys
+
+08:14.560 --> 08:21.400
+let's get started I think we are high time isn't it can we get started a final thumbs up if you
+
+08:21.400 --> 08:33.560
+can get started with today's class good so let's do this case till now this is the final class
+
+08:33.560 --> 08:45.400
+for a can ban so we'll be completing all the features we discussed in the starting all features
+
+08:45.400 --> 08:54.880
+then we'll go for deployment so two things that will be doing it okay now when it comes
+
+08:54.880 --> 09:05.920
+to features we have already discussed like create a ticket or create a task delete a task
+
+09:05.920 --> 09:31.080
+like change status of task and filter the task based on status so on top level these are the
+
+09:31.080 --> 09:39.280
+four features right what we are trying to build in can ban would is it so we have addressed all
+
+09:39.280 --> 09:45.200
+of this but first we'll try to recheck like if we have done this and we'll try to go through
+
+09:45.200 --> 09:51.800
+each of this one use cases again revision of this one first we'll get started with this then
+
+09:51.800 --> 10:03.120
+we'll come to something like storages in browser okay once we understand will implement one of one
+
+10:03.120 --> 10:09.240
+of the storage that we use in browsers to our existing application and then we'll see what are
+
+10:09.240 --> 10:14.920
+the advantages we get from out of that okay let's let's get started with the revision guys firstly
+
+10:14.920 --> 10:32.240
+let's move to the code directly and launch the application so okay open here so firstly
+
+10:32.240 --> 10:45.640
+going back again step by step for the each thing okay let's go here in the code now so for firstly
+
+10:45.640 --> 10:50.280
+let me know if that create and delete part is clear now for everyone out of these four features
+
+10:50.280 --> 10:55.680
+because create and delete is something that I have already explained more than two times or
+
+10:55.680 --> 11:01.360
+three times while coding I have talked about it twice then why also explaining and revision
+
+11:01.840 --> 11:07.200
+it in the last as I have done it multiple times so I'll talk about change of change status of a
+
+11:07.200 --> 11:15.560
+task like how we are able to change the status and then filtering the task based on okay give
+
+11:15.560 --> 11:26.400
+me a second I'll share the github link can anyone I'll pin that okay let me fetch it
+
+11:26.400 --> 11:37.720
+this is a github order okay so guys let's let's go back and first let me create the
+
+11:37.720 --> 11:43.800
+task let's say this is our task one I try to set the status of the pink then let's say also
+
+11:43.800 --> 11:55.240
+I have a task to as a pink no once I do this so earlier we have done how we are creating it
+
+11:55.240 --> 12:00.960
+how we are deleting it and how we are able to edit this particular thing right we have done all
+
+12:00.960 --> 12:09.400
+of those use cases and we have implemented this one now let's see again revising the way we have
+
+12:09.400 --> 12:14.240
+handled this change status like once you click on the top of this particular you know bar which
+
+12:14.240 --> 12:19.720
+is pink in color like which is meant to be what we understood by that is the something a task
+
+12:19.720 --> 12:24.680
+which need to be done or which is like not it started we haven't picked up to work on so once
+
+12:24.680 --> 12:29.920
+you click on the top of the pink like it changes into green then to blue then to black this is a
+
+12:29.920 --> 12:36.360
+status of a particular task right now how we have addressed this one is that if you see first and
+
+12:36.360 --> 12:40.800
+foremost thing is we know that we have to have a event listener added to the each of the ticket
+
+12:40.800 --> 12:47.280
+on the top of this bar again we went to the place where we were creating a ticket once we came to
+
+12:47.280 --> 12:54.160
+this ticket we say that handle color function which is supposed to handle all the use cases so we went
+
+12:54.160 --> 13:01.280
+into handle color and we had a ticket for each ticket we try to fetch this particular color band
+
+13:01.280 --> 13:07.880
+okay like which is what I mean what I mean by color band is this is the color band okay once I get
+
+13:07.880 --> 13:15.320
+this color band I added event listener to it okay click event listener then we have written the you
+
+13:15.320 --> 13:20.400
+know statement that we have to do it like find the color of the band then the index of that color
+
+13:20.400 --> 13:26.000
+from the colors array which is this colors array and then we need to update the color of a band
+
+13:26.000 --> 13:32.520
+with the next color of the next index of the color let's say colors array okay this is what
+
+13:32.520 --> 13:40.240
+we have understood it earlier so in order to find like the color which is like existing color we
+
+13:40.240 --> 13:45.920
+have done iteration through the loop because we have discussed like while adding always new color
+
+13:45.920 --> 13:51.200
+get added into the next next and next end status so there are basically two colors on the color
+
+13:51.200 --> 13:58.920
+band two CSS classes specifically if you see it in the here right so what is like ticket color
+
+13:58.920 --> 14:05.840
+which is dynamic in nature which will get light pink black and blue in the ticket color so while
+
+14:05.840 --> 14:11.760
+iterating through the loop we were trying to find which is other than ticket color that is a current
+
+14:11.760 --> 14:17.920
+color okay which is applied of the status then we were getting index out of the current color from
+
+14:17.920 --> 14:24.000
+the colors array which is this one then once we got the index we were getting the new updated
+
+14:24.000 --> 14:30.560
+index like which is an X color which where we have to move the status so once we have updated it to
+
+14:30.560 --> 14:37.960
+handle the edge cases of rotational array or index out of bound we you know we use reminder in colors
+
+14:37.960 --> 14:44.080
+of 10th which will put all the values between 0 to n minus 1 range or whenever you try to get
+
+14:44.080 --> 14:50.680
+access from this particular array then we were removing existing color and adding new color so
+
+14:50.680 --> 14:56.720
+this is something that we have handled it and I hope this is clear by now like how we did this
+
+14:56.720 --> 15:05.000
+one guys is this clear give me thumbs up if you feel this is clear to you all I see one thumbs up
+
+15:05.000 --> 15:16.960
+too cool anyone having any doubt anyone having any doubt on this part okay great but this logic
+
+15:16.960 --> 15:22.240
+only works on the first ticket for me we'll check that on some bit we'll check like why where things
+
+15:22.240 --> 15:29.640
+are failing I'll get back to you we can debug this in the like you know doubt sessions works
+
+15:29.640 --> 15:36.760
+because I'm able to show you right different colors it's having currently okay we'll check
+
+15:36.760 --> 15:44.360
+that now next thing next thing what we have seen is like like on selection of this one let's say
+
+15:44.360 --> 15:49.960
+now you have the different tasks being created with a different statuses what if you want to
+
+15:49.960 --> 15:55.880
+filter the task based on the colors like all that like the status so when I click on a green if you
+
+15:55.880 --> 16:04.280
+see okay let me see this why is this breaking did I miss this up
+
+16:04.280 --> 16:16.080
+or did I do any change here let me reset this code
+
+16:16.080 --> 16:24.760
+okay
+
+16:24.760 --> 16:39.080
+don't save let's recreate the task task hyphen one pink color then let's say you have task
+
+16:39.080 --> 16:45.680
+hyphen two green in color okay once you have this we should be able to filter this one like
+
+16:46.000 --> 16:51.680
+pink and with green or like whenever you click double click you should be able to render all
+
+16:51.680 --> 16:58.280
+the tasks depending on whichever thing you click it now how did we address this one was like firstly
+
+16:58.280 --> 17:02.680
+again writing a event listener from point of view like because user is clicking somewhere so we
+
+17:02.680 --> 17:06.800
+should be able to figure out where user is clicking and how we should be able to add a
+
+17:06.800 --> 17:12.880
+listener to this one so if you see from the elements perspective right and I select this
+
+17:12.880 --> 17:19.320
+one all these four particular depths which are rendering color there's a common class called as
+
+17:19.320 --> 17:25.520
+color so we can do query selector all with this particular color class and fetch all the four
+
+17:25.520 --> 17:32.200
+different colors right same thing we have done here in the code that we were trying to fetch the
+
+17:32.200 --> 17:38.720
+colors okay query selector all and on this each of this color we were adding an event listener
+
+17:38.720 --> 17:46.240
+of click once we added event listener then we from from that click event we were able to find
+
+17:46.240 --> 17:51.400
+which color user is selecting this was we were able to do it this one because when you see in
+
+17:51.400 --> 17:57.000
+this let's say if user is clicking this one from the class list 0th index belongs to light pink
+
+17:57.000 --> 18:03.560
+light green light blue and black so using the first index like 0th index from the class list
+
+18:03.560 --> 18:09.040
+we are able to find the current I mean filter that you are clicking user is clicking on once
+
+18:09.040 --> 18:15.160
+we get this color we were filtering the existing tickets available from the ticket array where
+
+18:15.160 --> 18:21.360
+we stored all the tickets right once we have the filter tickets which is again having an area of
+
+18:21.360 --> 18:29.320
+filtered different tasks now then we went on to remove all the tickets existing in the screen
+
+18:29.320 --> 18:34.360
+like whatever tickets are there using quick ticket container if you say what is this ticket
+
+18:34.360 --> 18:40.240
+container go back and if you see here in the main main card ticket container all the tickets
+
+18:40.240 --> 18:46.480
+are basically having a class of ticket content we are selecting all tickets and then trying to
+
+18:46.480 --> 18:51.440
+remove all of them which are existing in their dog like on the screen then we are recreating
+
+18:51.440 --> 18:58.200
+all the tickets which using the filtered array this was something that we have done in the last
+
+18:58.240 --> 19:08.520
+class so I hope this part is clear guys like how this filter is working anyone having still
+
+19:08.520 --> 19:14.080
+any doubt on this one if anyone is having doubt they can give me thumbs up they can
+
+19:14.080 --> 19:24.640
+state their point I can repeat it no issues because as far as considering the development
+
+19:24.760 --> 19:30.600
+mostly we have covered the development part today it will be like you know talking about
+
+19:30.600 --> 19:37.760
+some storages and deployment that's it if you have doubts I can repeat it okay great so if
+
+19:37.760 --> 19:44.000
+this point is clear I want to show you one of the bug okay now if you see in the console right this
+
+19:44.000 --> 19:51.520
+was an array which is having a ticket information now if you see the ticket info says task one now
+
+19:51.520 --> 20:00.160
+what if I go and update this ticket information as task zero one okay and I close this one do
+
+20:00.160 --> 20:06.120
+you see whether this particular thing is getting updated like this particular array information
+
+20:06.120 --> 20:10.960
+where we're storing all the tickets this is not getting updated right so this was the one point
+
+20:10.960 --> 20:15.760
+that we missed in the last class that's something that we have to address it so I'll show you the
+
+20:15.760 --> 20:22.000
+code just think of it where we can how we can deal with this one let me open that code where
+
+20:22.000 --> 20:42.440
+we were adding this one yeah this is the handle lock now if you see it here we were handling the
+
+20:42.440 --> 20:49.480
+lock and we were making that container as a editable but here we have to update this
+
+20:49.480 --> 20:55.240
+particular ticket right whichever thing is being edited now you can you guys think for one two
+
+20:55.240 --> 21:02.240
+minutes and what we can do it here what approach we can follow here use the code base that you
+
+21:02.240 --> 21:09.440
+have with you like the github share if you need a reference to go up and move up and down okay go
+
+21:09.440 --> 21:14.920
+to this file in the Kanban board script.js just think for a one two minutes if you can come up
+
+21:14.920 --> 21:20.240
+with any point or anything that you can address it because on editing each ticket we are not
+
+21:20.240 --> 21:23.520
+updating this array it's just that we have to update this array
+
+21:39.440 --> 21:49.680
+meanwhile I'll change some code here if anyone are trying to think it please do think it
+
+21:49.680 --> 21:57.160
+meanwhile I'll update some changes here let's say I write down on the top say return
+
+21:57.160 --> 22:14.600
+ticket array dot find index inside this will get each time I get a new ticket and I have to check
+
+22:14.600 --> 22:24.680
+something where ticket ID is equal to ticket ID so we can update the unique ID of a ticket that
+
+22:24.680 --> 22:28.840
+is updated and update the content and yeah that's a straightforward thing right Thiraj
+
+22:28.840 --> 22:35.360
+thanks for pointing it down so first thing guys I'll come to that point as Thiraj suggested if
+
+22:35.360 --> 22:42.200
+you see this is the same code as this one just I've used a find index point like a method a library
+
+22:42.200 --> 22:47.120
+method which is provided on arrays like you're trying to find an index where this condition is
+
+22:47.120 --> 22:53.160
+meeting like getting the ticket based on the ticket ID I mean from the ticket array whole
+
+22:53.160 --> 22:56.880
+tickets array where we are storing all the tickets so I'll remove this part of code just
+
+22:56.880 --> 23:04.720
+instead of iterating and doing with this condition now firstly in order to find which ticket we are
+
+23:04.720 --> 23:10.200
+doing here we don't have identifier which we have to update it so if we need something here is
+
+23:10.200 --> 23:16.800
+ticket ID so let's get that ticket ID first like which ticket we can update it okay I go back here
+
+23:16.800 --> 23:25.040
+and they go back here this is handle lock so let me pass here ticket ID so here we have ticket ID
+
+23:25.040 --> 23:32.360
+so I'm passing it down once I have ticket ID what I can do it here is that let's say firstly
+
+23:32.360 --> 23:43.800
+let's let's get the index okay ticket index from ticket array where we are storing all the tickets
+
+23:43.800 --> 23:54.440
+right how we can do this same condition again find instead of like find index and writing this
+
+23:54.440 --> 24:01.920
+down I'll use this reusable method just we have below it's a get ticket let's say this is something
+
+24:01.920 --> 24:15.840
+that we have and I can pass ticket ID okay once we give this ticket ID we will be getting the
+
+24:15.840 --> 24:27.360
+exact ticket we need it okay and let's say I once we have this inside this let's say we'll have a
+
+24:27.360 --> 24:34.040
+ticket index inside this one right so out of this object what we'll do is that inside this ticket
+
+24:34.040 --> 24:44.120
+array we'll try to get that particular ticket dot whatever we have ticket ticket dot ticket ID get
+
+24:44.120 --> 24:51.560
+me that index out of that ticket array then we will be updating the particular task right if you
+
+24:51.560 --> 25:00.440
+remember the variable that we were storing while creating it if you go on to top ticket info right
+
+25:00.440 --> 25:07.560
+let me get this as a ticket info and we'll update with the content whatever content is there now in
+
+25:07.560 --> 25:16.120
+order to get the content also like you can do something here is that ticket task area dot value
+
+25:16.120 --> 25:31.040
+isn't it or so what I'm trying to do it here is that just updating the content let's see if this
+
+25:31.040 --> 25:37.520
+is working firstly and I don't need this as a let let's make it as a const trying to get the
+
+25:37.520 --> 25:44.680
+ticket from the you know using the ticket ID once I get the ticket out of that I'm getting ticket
+
+25:44.680 --> 25:50.800
+ID and trying to update the information now let's see if I create something okay ticket
+
+25:50.800 --> 26:10.280
+has been already declared let's say what I can say yeah it's a task to be updated
+
+26:15.240 --> 26:23.520
+okay now let's see if this is fine yeah now let's create one task saying some gibberish
+
+26:23.520 --> 26:33.240
+and let's say I have this okay cannot set property of undefined this thing happened
+
+26:33.240 --> 26:43.880
+because something we have done at the position this has failed create ticket 110 handle lock
+
+26:43.880 --> 26:55.520
+okay inside this handle lock it got failed now why did I get failed okay so this is trying to
+
+26:55.520 --> 27:07.920
+update each time so let's let's cut this word and and we have to do it only when country data
+
+27:08.400 --> 27:25.080
+right only when we are trying to edit it or else we can say let's put it here itself but
+
+27:25.080 --> 27:42.480
+adding the edge case now the edge case would be only if you are able to get the ticket then do
+
+27:42.480 --> 28:01.200
+this one let's see if this is working fine yeah now what I'm trying to do it here is that once
+
+28:01.200 --> 28:06.480
+let's say if you have you see go and see the existing ticket I have something serious already
+
+28:06.480 --> 28:15.720
+something is written there let me try to update this as a task one okay and let me try to close
+
+28:15.720 --> 28:24.400
+this one it didn't execute it but let's say if it is coming inside this part of code let's say I
+
+28:24.400 --> 28:46.640
+try to update it again let's see I have this ticket ID and when I say this let's say if
+
+28:46.640 --> 28:56.200
+we have something meeting this condition now this is never getting true let's fix this one how can
+
+28:56.200 --> 29:09.080
+we do this no okay instead of writing it here only when we are making it as a false when we
+
+29:09.080 --> 29:14.560
+are stopping edit right then we can update the content of it let's say if this is working as
+
+29:14.560 --> 29:32.800
+expected now once I click here like an edit button and let's say I try to update content
+
+29:32.800 --> 29:56.040
+as task hyphen one then once I click this no once I get this task I got 0th index okay first and
+
+29:56.040 --> 30:00.480
+foremost thing is that instead of getting a ticket here we are actually getting the index
+
+30:00.480 --> 30:07.480
+out of it let me reverse this code give me a second guys or it will break the multiple use
+
+30:07.480 --> 30:19.000
+cases yeah whatever I have done let me re-paste this one then it will work
+
+30:19.000 --> 30:40.520
+let me remove this let me play this one update this as a task hyphen one and then close it up
+
+30:40.520 --> 30:47.960
+once I try to close it up I'm going here then let's say I come to this statement return
+
+30:47.960 --> 30:53.280
+statement so I'm getting the ticket information which need to be getting updated and once this
+
+30:53.280 --> 31:00.880
+is returned I'll get the ticket here so I'll have a ticket ID okay so I'm having the ticket
+
+31:00.880 --> 31:11.440
+ID but not index so I supposed to find index here okay so the method that I was using was
+
+31:11.440 --> 31:20.560
+altogether I have to find here from the ticket array using this ticket ID ticket array dot
+
+31:20.560 --> 31:33.800
+find index let's say I have ticket inside this ticket I'll get ticket ID dot let's say I have
+
+31:33.800 --> 31:51.440
+ticket ID here once I have this I can use directly then update it pardon me guys I'm
+
+31:51.440 --> 32:03.920
+trying to confuse you all the one final check let me check this task hyphen one then let me
+
+32:03.920 --> 32:10.000
+try to close this button once I have now I have the index as a minus one that's great
+
+32:10.000 --> 32:26.760
+hmm why this is happening okay there is nothing as ID here ticket ID is supposed to be this one
+
+32:26.760 --> 32:50.640
+so let me do the final check task hyphen one and then let's click close button once we are here
+
+32:50.640 --> 32:57.720
+let's hopefully this time it gets the right thing now I got the zeroth index that's great
+
+32:57.720 --> 33:05.480
+and I'm trying to get the exact info but when I get this I'm getting as a undefined now ticket
+
+33:05.480 --> 33:17.320
+task area let's say I say that ticket task area inside that dot value okay I don't have this one
+
+33:17.320 --> 33:24.000
+let me check inner text okay inner text is something that I should be using it for the
+
+33:24.000 --> 33:38.720
+text area field this is not a form field form group field so I have to update this way so I
+
+33:38.720 --> 33:45.320
+hope you understand how debugging really helps like if you see the way I'm trying to fix the
+
+33:45.320 --> 33:51.600
+issues or try to find the you know use cases let's say now I go back here in the console I
+
+33:51.600 --> 34:02.360
+have task one I once I close this I'm supposed to update it as a zero one no it is updated here it
+
+34:02.360 --> 34:07.720
+is not printing it because the cons yeah it is updated as a task zero one so this was a one of
+
+34:07.720 --> 34:12.240
+the edge case that we were missing in the last class I hope this point is clear how this is
+
+34:12.280 --> 34:22.480
+working guys guys did I confuse you doing all this stuff parallelly or is it clear
+
+34:22.480 --> 34:32.640
+because I was debugging it parallelly I was speaking on that one guys is anyone able to
+
+34:32.640 --> 34:37.200
+follow up or give a thumbs down if you didn't understand it it's pretty cool right I can
+
+34:37.400 --> 34:44.640
+jump on to it and we explain the things okay great one thumbs down guys let's keep this
+
+34:44.640 --> 34:54.280
+interactive okay yeah sure I'm coming back to this code so this the main issue was that we
+
+34:54.280 --> 34:58.760
+were not able to you know update the current when we are updating the content we are not
+
+34:58.760 --> 35:04.760
+updating this an array memory array that we were using it right this particular ticket array so
+
+35:04.800 --> 35:12.840
+what I did is that once user is you know clicking on edit once user is clicking on edit like edit
+
+35:12.840 --> 35:18.880
+button and updating the content then locking that particular ticket when user is locking
+
+35:18.880 --> 35:25.840
+the ticket I come into this part where user is locking it I go and pick it up the current
+
+35:25.840 --> 35:32.640
+ticket index like from the ticket array where all the tickets are stored using this ticket ID
+
+35:32.880 --> 35:39.400
+whichever is passed into handle lock using that ID I try to find which particular ticket is where
+
+35:39.400 --> 35:45.160
+it is stored the existing ticket which are trying to edit it once I find the index out of it then
+
+35:45.160 --> 35:53.080
+I'm going inside the ticket array fetching that particular object of ticket then I'm getting
+
+35:53.080 --> 35:58.760
+the ticket info and updating with the existing whichever user has updated the content and how
+
+35:58.760 --> 36:04.120
+I'm able to get this because here itself we got the access to this attribute and we were
+
+36:04.120 --> 36:09.400
+actually updating the whether it is content available or contained in a true or false condition
+
+36:11.400 --> 36:23.720
+now is are you able to relate this one I see only one two three okay great guys so I hope all the
+
+36:23.960 --> 36:31.280
+logical paths right from the features of the project those points are clear isn't it like
+
+36:31.280 --> 36:36.960
+because we have handled four use cases now if you see handle remove handle lock handle color
+
+36:36.960 --> 36:45.920
+the handle color is changing the status now even here even here even here the thing that we have
+
+36:45.920 --> 36:52.800
+missed is we have to update this one also isn't it we have to update this one also color when color
+
+36:52.920 --> 36:58.040
+status is changing we are still not updating here let's say if I click on a green light
+
+36:58.040 --> 37:03.520
+pick is not converted into light green here so we have to update this particular thing also let's
+
+37:03.520 --> 37:10.560
+fix this up same thing same thing I'll go on to the top where I'm passing I'll pass the ticket ID
+
+37:10.560 --> 37:18.240
+here same thing once I pass a ticket ID I'll go below in the handle color let's say I have
+
+37:18.240 --> 37:25.560
+ticket ID once I have ticket ID let's say you're going to handle lock I'll fetch this particular
+
+37:25.560 --> 37:38.320
+thing okay and I'll keep it here okay I'll keep here and it should be instead of ticket info I'll
+
+37:38.320 --> 37:47.040
+say say it as ticket color because ticket color is something the object that we are trying to
+
+37:47.040 --> 37:55.640
+update it and instead of ticket task area dot inner text which is now we don't have here but
+
+37:55.640 --> 38:02.960
+something that we have to update it as new color right whichever user is changing it to new color
+
+38:02.960 --> 38:11.440
+now let's see if this is affecting here firstly I'll go and create some random task and I'll
+
+38:11.440 --> 38:19.240
+create options button once I have this let's say cool if I if I go and check in the console
+
+38:19.240 --> 38:36.280
+okay ticket is not printed let's say I edit this task as a task one once I am able to edit it let's
+
+38:36.280 --> 38:44.920
+say I try to print the ticket array itself here nothing is printing ticket array okay this is
+
+38:44.920 --> 38:51.600
+we are having it 0th index now this sdcd is whatever it is it should be updated with task
+
+38:51.600 --> 39:01.600
+FN 1 once this is done okay let me reprint this one ticket array then yeah it is updated as task
+
+39:01.600 --> 39:07.160
+FN 1 now let's change the color from light pink to light green now once it is changed let me see
+
+39:07.160 --> 39:14.160
+if it is in memory updated or not yeah it is updated as a light green I hope this this is
+
+39:14.160 --> 39:18.820
+also clear right same lines I copied but I'm updating the ticket color inside that object
+
+39:18.820 --> 39:25.720
+whichever particular ticket I'm selected so we have handled all the use cases edge cases for this
+
+39:25.720 --> 39:31.560
+one so I hope this code point is clear like how we are doing handling it what I'll do is
+
+39:31.560 --> 39:51.600
+that I'll give a commit as a code completion features completion okay now let's let's do
+
+39:52.080 --> 40:00.080
+so guys I have you know modified some of the CSS and things I have stashed the code I will try
+
+40:00.080 --> 40:11.720
+to show you what I have done okay let me see this okay I have some made changes I'll show
+
+40:11.720 --> 40:17.560
+you those changes now if you see here the changes have done here is that I have added added a new
+
+40:17.560 --> 40:22.240
+header okay from the existing changes I'm just trying to teach you because these are something
+
+40:22.240 --> 40:28.720
+that doesn't really take time to explain so if you see between this text right light pink light
+
+40:28.720 --> 40:33.400
+green light blue black I've added content like to be done in progress validated and completed and
+
+40:33.400 --> 40:40.080
+also I've added a new div under this colors like you know having a header as a Kanban board and
+
+40:40.080 --> 40:46.880
+added one image from the particular website okay which keeps a Kanban to do list side of thing one
+
+40:46.880 --> 40:53.440
+then again going back to the colors wherever you have colors have added the content to verify so
+
+40:53.440 --> 40:59.320
+that we know it by the whenever you add it in resume you need to know like what when you select
+
+40:59.320 --> 41:05.280
+particular color what you are exactly doing it okay so I hope this this changes are fine right
+
+41:05.280 --> 41:15.280
+easily understandable whatever changes I made in HTML okay then going back to CSS if you see
+
+41:15.280 --> 41:23.400
+right let me go back to the CSS part I've just added for whatever header I've created same
+
+41:23.400 --> 41:28.400
+display properties and for the image whatever image I added in the header I've added some
+
+41:28.400 --> 41:34.480
+height and width same I've manipulated some height and widths nothing much more interesting
+
+41:34.480 --> 41:40.840
+things now let's see once how does our project look once we loaded it now if you see it here
+
+41:40.840 --> 41:48.080
+well how what changes I made I have made it every box as a rounded edge to be done in progress and
+
+41:48.080 --> 41:55.400
+validate and completed then I've manipulated the CSS also now let's say you create a task one and
+
+41:55.400 --> 42:01.960
+say that here task needs to be done and you click this one tickets also how these are getting
+
+42:01.960 --> 42:09.120
+created I've moved from the center to the start now let's see if I create another task task hyphen
+
+42:09.120 --> 42:14.440
+2 and let's say this task is already in progress I want to keep it in progress now this is talking
+
+42:14.440 --> 42:18.840
+about progress let's say if I want to filter it which are the tasks which need to be started on
+
+42:18.840 --> 42:23.520
+you can always check that to be done or else if you want to check which task is in progress
+
+42:23.520 --> 42:29.160
+the by wording you will be able to find us and when user clicks double click you will all be you
+
+42:29.160 --> 42:34.400
+will be able to again reload back okay again still all those functionalities will be still working
+
+42:34.400 --> 42:41.360
+like if you want to delete it you can still delete it okay so does this look better guys
+
+42:41.360 --> 42:49.120
+after some CSS changes and things that I try to play around with cool so let me push this code
+
+42:49.120 --> 43:19.080
+also let me push this code to okay now cool let's get back on to the browser
+
+43:19.080 --> 43:24.480
+and let's create one task let's create one simple task as a task on itself now comes
+
+43:24.480 --> 43:29.120
+the one of the feature that is the last feature that we have to work on once I create a task
+
+43:29.120 --> 43:36.400
+and if I let's say if I close this browser or if I refresh this page we are not able to
+
+43:36.400 --> 43:42.360
+persist this task isn't it the task are gone because all the tasks that are trying to store
+
+43:42.360 --> 43:48.280
+is real-time memory which is like when the script file is loaded and this script file is always
+
+43:48.280 --> 43:55.280
+loaded as a new file whenever your HTML file is loaded isn't it once you load HTML this script
+
+43:55.280 --> 43:59.680
+file is loaded and each time the script file is loaded if you see on the top itself we are
+
+43:59.680 --> 44:06.840
+creating an empty ticket array you know so all the time whenever we are not able to store this
+
+44:06.840 --> 44:14.240
+data anywhere so now we'll try and find out what are the possible you know abilities of features
+
+44:14.240 --> 44:19.640
+that browser provides or where we can store these tickets or what we can do around around
+
+44:19.640 --> 44:32.120
+these things okay now let's go to iPad no I will talk about bit storages okay no why firstly why
+
+44:32.120 --> 44:40.520
+we do need storages let's talk on that part actually storages in browser first thing if
+
+44:40.560 --> 44:48.280
+you remember all the websites right you go for Facebook or Instagram or any of the websites
+
+44:48.280 --> 44:57.000
+YouTube your scalar right scalar website or something you might be also using a sleep code
+
+44:57.000 --> 45:03.800
+right each time you go to the sites you need not to log in like once you log in there somehow it
+
+45:03.800 --> 45:12.320
+remembers your username and password and whenever you try to log like load it to your website you
+
+45:12.320 --> 45:20.800
+are automatically logging back into the system isn't it have you seen that use case right now
+
+45:20.800 --> 45:29.320
+how this is possible how this is possible any any idea guess how this is working that once you
+
+45:29.320 --> 45:35.920
+log in into an application you need not to log in again and again so just think of in a
+
+45:35.920 --> 45:48.400
+way where your username and passwords are stored like once you enter somehow your browser remembers
+
+45:48.400 --> 46:00.960
+your credentials or the okay so one of the suggestions I got is cookies any other ideas
+
+46:00.960 --> 46:15.440
+case browser cache it how many of you have got through this keywords browser cache and cookies
+
+46:15.440 --> 46:21.080
+how many of you heard this one in your life I hope everyone have heard this keywords right
+
+46:21.080 --> 46:38.880
+okay great now I'll talk about few things here from storage perspective right so this all the
+
+46:38.880 --> 46:55.480
+development in web its perspective web it happened before HTML 5 after HTML 5 okay now
+
+46:55.480 --> 47:03.480
+this cookies whatever cookies are there now this cookies were used before HTML 5 and this
+
+47:03.480 --> 47:15.840
+was our data storage our data storage was provided by browser and accessible you can
+
+47:15.840 --> 47:26.160
+always access on document API okay on document API you will always able to access the cookies
+
+47:26.160 --> 47:36.080
+now let's see if I go on to my browser and I try to load scaler.com let it load now
+
+47:36.080 --> 47:55.200
+once I open the inspect tool parallelly it's working too slow my voice and internet is fine
+
+47:55.240 --> 47:59.680
+right you are able to hear me out now I am not sure why scaler is loading so slow
+
+48:30.680 --> 48:35.360
+okay my system started working slow
+
+48:44.160 --> 48:52.560
+okay give me a second yeah it's lagging a bit right
+
+49:00.400 --> 49:09.760
+okay I'll rejoin the class give me a second I'll rejoin the class now this looks this looks better
+
+49:09.760 --> 49:16.240
+is it okay I'll rejoin the class give me a second I'll try to load it again once this is working fine
+
+49:16.240 --> 49:24.280
+once I rejoin it okay it's not working I think I have to restart the browser yeah give me a
+
+49:24.280 --> 49:25.560
+second yes I'll rejoin it
+
+49:38.160 --> 49:42.600
+okay I'm not able to cut the call even cut the class call
+
+49:54.280 --> 50:03.480
+okay let me rejoin it
+
+51:25.280 --> 51:34.280
+guys rechecking sorry for disturbance am I audible and visible now
+
+51:34.280 --> 51:50.400
+okay great let me try to reshare the screen okay let's do this
+
+51:50.400 --> 51:59.480
+I think I didn't restart my system from long that's an issue but do let me know if you can
+
+51:59.480 --> 52:11.000
+see the screen share good no let's try to load scaler.com yeah thank God it's loading
+
+52:11.000 --> 52:22.200
+it's loading quite fast now so coming back to the console now let's see there are too many things
+
+52:22.200 --> 52:29.040
+are happening but I was talking about talking about cookies now as I say that cookies will be
+
+52:29.040 --> 52:41.160
+part of document API let's say if you say document dot okay okay you will be able to print all the
+
+52:41.160 --> 52:47.080
+cookies that you are actually you know actually a scaler is using no cookies are the one of the
+
+52:47.080 --> 52:55.560
+solution that was earlier used okay earlier used before HTML5 was introduced as one of the storage
+
+52:55.560 --> 53:02.400
+capacity okay this cookies if you see they have already you know converted this cookies into a
+
+53:02.400 --> 53:07.680
+different language or they have you know what you can say mask this data with different things like
+
+53:07.680 --> 53:14.040
+encryption format so you might be seeing like a different visitors and everything but now let's
+
+53:14.040 --> 53:20.880
+say if I go back into that application if you see if I go back into applications and I go into cookies
+
+53:20.880 --> 53:27.360
+part let's say if I go into cookies part and let's say if I clear this cookies but if I let's say
+
+53:27.360 --> 53:36.880
+if I clear all the cookies if you see here whatever my if you see my name is here you can see right I
+
+53:36.880 --> 53:47.640
+have logged in as a thumb now if I refresh it you see I got logged out so it what what we can infer
+
+53:47.640 --> 53:54.800
+from here is that at least this cookies is storing some information about my user details isn't it
+
+53:54.800 --> 54:02.760
+username and password or authentication details can we say that so cookies were used before
+
+54:02.760 --> 54:13.160
+HTML5 but still they are used till today's date where you store user info and you can
+
+54:13.160 --> 54:24.960
+have personalization data like the if you see I have something like a mentee access
+
+54:24.960 --> 54:32.000
+instructor access so this thing will be also present inside this here itself in the cookies
+
+54:32.000 --> 54:39.120
+now why this cookies comes into the rule is like earlier if you want to share information right
+
+54:39.120 --> 54:45.240
+let's say this is a client and this is a server whenever there is an exchange of resources happening
+
+54:45.240 --> 54:52.200
+yeah it's storing inside the browser somewhere so whenever there's an exchange of information
+
+54:52.200 --> 54:59.040
+is having whenever you send a request and response to the server each time you send a request to the
+
+54:59.040 --> 55:03.800
+server server should be able to identify that hey this particular user is trying to get the resource
+
+55:03.800 --> 55:12.000
+resource right now in order to identify for each API call you make you are supposed to send user
+
+55:12.000 --> 55:18.600
+information along with that credentials which can be identified on the server okay so once
+
+55:18.600 --> 55:25.040
+user locks in what this do is once the user you know login into any website this particular
+
+55:25.040 --> 55:36.640
+website they what they do is the store credentials store credentials inside cookies and each time
+
+55:36.640 --> 55:43.240
+you make an API request each time you make an API request to the server they always also share
+
+55:43.240 --> 55:49.600
+credit credentials in the request to the server so that server can authenticate and give back
+
+55:49.600 --> 55:58.160
+the response and user need not to log in each time each time he is trying to interact with the
+
+55:58.160 --> 56:08.840
+server I are you able to follow up guys yeah okay let me try to re-explain this logic what I was
+
+56:08.840 --> 56:13.720
+talking about now what I was saying is that earlier I've just shown you in from the scaler
+
+56:13.720 --> 56:19.160
+website where once I cleared the cookies you know I got locked off automatically so we can
+
+56:19.480 --> 56:24.440
+infer from that particular perspective is that you know we are storing something like user
+
+56:24.440 --> 56:35.840
+information user personalization information okay okay so in a same way for how these cookies
+
+56:35.840 --> 56:42.760
+are used even in today's date is that like you have two things client and server once you have
+
+56:42.760 --> 56:48.240
+this client and server like let's say I'm trying to getting into interact with some other servers
+
+56:48.320 --> 56:53.320
+which are present in the back end now each time I go and try to get me get information I'll say
+
+56:53.320 --> 56:58.160
+that hey can you give me this information to this meeting or this data or anything I have to
+
+56:58.160 --> 57:02.400
+authenticate right I have to say that I'm a genuine person I have access to your content
+
+57:02.400 --> 57:09.240
+can you give me this credit this information so each time once user logs in what in what we
+
+57:09.240 --> 57:16.520
+does in website is that you know like we store user credentials in like cookie and each and
+
+57:16.560 --> 57:22.800
+every time whenever you make a request to the server you also send this cookies in the request
+
+57:22.800 --> 57:29.720
+object to the server and server will parse that authenticate whether the request is valid okay
+
+57:29.720 --> 57:38.800
+once only we find that this request is valid only then it sends back the response is this clear
+
+57:38.800 --> 57:48.840
+guys what I'm trying to explain here what cookies does okay so cookies were used in real time only
+
+57:48.840 --> 57:56.080
+nowadays only when you're trying to communicate between two systems this is all cool but now
+
+57:56.080 --> 58:04.800
+cookies have a limitations cookies have a limitation with respect to size you cannot
+
+58:04.800 --> 58:11.680
+store GBs of amount of data in it so only 4 KB amount of data that you can store 4 kilobytes
+
+58:11.680 --> 58:20.240
+of data okay only 4 kilobytes of data that you can store in it and this thing will be in terms
+
+58:20.240 --> 58:27.400
+of a string data type like if you see whatever I printed here earlier okay whatever I printed
+
+58:28.080 --> 58:39.520
+in the console let's say even if you try to get the cookie now let me try to clean this up and log
+
+58:39.600 --> 58:49.320
+in okay now I just got logged in into this one let me do this
+
+58:49.320 --> 59:08.160
+okay
+
+59:08.160 --> 59:27.600
+now once I log in back and I show you that you know document.cookie and guys is my screen lagging
+
+59:27.600 --> 59:32.960
+again like I see there is too much slowness let me see my internet connection
+
+59:44.960 --> 59:52.120
+okay it's fine right now if you see each time right each time you make a request
+
+59:52.120 --> 59:59.080
+each time you make any API calls right let me explore this one
+
+59:59.080 --> 01:00:14.440
+now let's say you are trying to fetch this one whenever you are trying to make a request
+
+01:00:14.440 --> 01:00:22.440
+right you will be sending all the cookies along with it like in each in request headers there
+
+01:00:22.440 --> 01:00:30.240
+is something called as request headers let me see this one expand this one
+
+01:00:30.240 --> 01:00:43.800
+inside the request URL itself they are appending it okay now if you go and try to compare this one
+
+01:00:43.800 --> 01:00:52.560
+right all these things let's say if I copy and paste it and in console you will be able to see
+
+01:00:52.560 --> 01:01:00.680
+all these parameters right here somewhere kept so you'll see you what I generally meant to say is
+
+01:01:00.680 --> 01:01:06.320
+that whatever details are there here all those details are being generally sent over each API
+
+01:01:06.320 --> 01:01:13.720
+call to the server to identify and you know get the access for us from the server and get the data
+
+01:01:13.720 --> 01:01:22.960
+back okay this is what cookie does on top level is this clear what cookies does what's the role
+
+01:01:22.960 --> 01:01:28.600
+of cookies in real time and this cookies comes with another another use case which is like having
+
+01:01:28.600 --> 01:01:35.800
+expiry date now if you see if I try to minimize this one each cookie will have its expiry date
+
+01:01:35.800 --> 01:01:41.040
+you can always when when you are setting up the cookie right you can always give it like what is
+
+01:01:41.040 --> 01:01:51.800
+expiry date if you go and say the console and try to find here expiry date okay they
+
+01:01:51.800 --> 01:01:59.640
+haven't introduced here expiry date okay but only when user is logging out the cookies are
+
+01:01:59.640 --> 01:02:06.480
+getting clean but there is no expiry date for this one as of now okay now if this point is clear
+
+01:02:06.480 --> 01:02:12.640
+I'll come to the other parts what happened in the history of web development after HTML5 was
+
+01:02:12.640 --> 01:02:21.840
+introduced okay so after HTML5 it got introduced in web there were two other sort of browsers those
+
+01:02:21.840 --> 01:02:29.040
+came into the role one thing is called as local storage the other one is called a session storage
+
+01:02:29.040 --> 01:02:38.160
+now how many of you have heard this two words I think something session storage is something
+
+01:02:38.160 --> 01:02:48.240
+like really like day-to-day used word isn't it okay now these two words let's explore this what
+
+01:02:48.240 --> 01:02:54.200
+are the common things that this helps us and how they are really helpful okay now first and
+
+01:02:54.200 --> 01:02:59.280
+foremost thing since these are acting as a databases or a storages on the client side
+
+01:02:59.280 --> 01:03:09.640
+now what first use case they did it is that in browser level they added more space let's
+
+01:03:09.640 --> 01:03:15.800
+say I write down some differences space amount of data that you can store when it come to local
+
+01:03:15.800 --> 01:03:22.960
+storage they say that you can add a 10 MB of data and when it comes to session storage they say that
+
+01:03:22.960 --> 01:03:34.200
+5 MB of data can be stored 5 MB okay now this one what they say is that if you want if you want
+
+01:03:34.200 --> 01:03:42.360
+let's say if you go if you go if you see this if I go back on a scalar and what if I close if I
+
+01:03:42.360 --> 01:03:50.480
+close this and I reopen this scalar academy right still I have locked into it right now but if you
+
+01:03:50.520 --> 01:03:55.880
+want to clean up once the user is closing that app once user is closing the tab or going to the
+
+01:03:55.880 --> 01:04:00.820
+next tab if you're if user is doing that thing if you want a particular you know user to be
+
+01:04:00.820 --> 01:04:08.720
+logged out then you can use something called a session storage what do I exactly mean is
+
+01:04:08.720 --> 01:04:13.720
+that let me write down the sentence that it will be able you will be able to understand this one
+
+01:04:13.720 --> 01:04:19.560
+like let's say expiration date
+
+01:04:25.320 --> 01:04:42.440
+okay as soon as browser is closed or tab is closed so what do we exactly mean is
+
+01:04:42.440 --> 01:04:48.440
+that once a user is closing the browser or the tab right in which website is loading if you are
+
+01:04:48.440 --> 01:04:54.960
+closing that by any chance all this 5 MB free space will be freed up okay and this is not
+
+01:04:54.960 --> 01:05:00.400
+particular one for you know but these are particular for websites okay and for when
+
+01:05:00.400 --> 01:05:07.720
+comes to local storage there is no expiration date until unless user manually clears it
+
+01:05:13.120 --> 01:05:22.760
+clears the memory is this clear guys like what is a basic difference like between local storage
+
+01:05:22.760 --> 01:05:28.320
+and session storage related to expiration date session storage is like something related to
+
+01:05:28.320 --> 01:05:34.880
+particular session and how do you define a session until unless user is logging out from the website
+
+01:05:34.880 --> 01:05:41.440
+closing that app or closing the browser itself once you user closes the particular website or
+
+01:05:41.440 --> 01:05:46.960
+thing it means that session for that particular use case is completed once that session is closed
+
+01:05:46.960 --> 01:05:54.160
+this memory will be freed up and when it comes to local storage it like until unless you go user
+
+01:05:54.160 --> 01:06:02.080
+goes and particularly clean it up this memory will be there all the time okay guys is this clear a
+
+01:06:02.080 --> 01:06:06.880
+basic difference between local storage and session storage I got only one thumbs up I have good
+
+01:06:06.880 --> 01:06:11.280
+amount of people in class I just need few more if there is anyone who don't are not able to
+
+01:06:11.280 --> 01:06:27.880
+follow up difference between cookie local storage and session storage okay this was
+
+01:06:27.880 --> 01:06:43.480
+used for communication between networks okay and only 4 KB of size and so they were storing string
+
+01:06:43.480 --> 01:06:52.720
+format content okay and like you know this like both on client side and server side you'll have
+
+01:06:53.560 --> 01:07:02.200
+and this cookie is provided by browser under the document API when it comes to local storage this
+
+01:07:02.200 --> 01:07:10.560
+was used in HTML 5 once HTML 5 was introduced to store like this is an actual DB on a client
+
+01:07:10.560 --> 01:07:15.880
+side where it acts like a database until unless you manually clears it the data will be there
+
+01:07:15.880 --> 01:07:30.920
+okay 10 MB of data that you can store and this is a persistent data source until unless user clears it
+
+01:07:30.920 --> 01:07:46.120
+memory no when it comes to session storage 5 MB of data and when whenever user is closing the
+
+01:07:46.120 --> 01:07:52.280
+tab or you know ending the like closing the browser so you know this this memory will be
+
+01:07:52.280 --> 01:07:58.960
+freed up and reset it okay those points so I hope the top level basic difference is clear now
+
+01:07:59.000 --> 01:08:05.840
+according to our project use case just let me know what could be the type of storage that we
+
+01:08:05.840 --> 01:08:22.200
+want to use what type of storage that we want to use local storage any any any suggestions guys
+
+01:08:22.200 --> 01:08:27.080
+why do you think local storage why not cookies or any other thing
+
+01:08:33.080 --> 01:08:40.160
+firstly we have tickets and the tickets are the objects in size and they can go the content
+
+01:08:40.160 --> 01:08:46.720
+can be greater and we might need more amount of space and we want those tickets to be persistent
+
+01:08:46.880 --> 01:08:54.000
+those tickets to be you know persistent like they stay in the browser with us okay not that
+
+01:08:54.000 --> 01:09:01.880
+once we close the tab that all the tasks are gone isn't it so we don't have user credentials
+
+01:09:01.880 --> 01:09:06.760
+because we don't have login details we don't have server we need to authenticate so cookies
+
+01:09:06.760 --> 01:09:11.960
+is out of picture session storage we don't need it because that's use case is completely different
+
+01:09:11.960 --> 01:09:16.440
+we are not building something like a bank website where once user clicks a close on a tab
+
+01:09:16.440 --> 01:09:24.240
+or closing a browser we want to erase all the data isn't it so clearing like using local storage
+
+01:09:24.240 --> 01:09:30.280
+where user manually deletes or you know play around with the local storage directly that
+
+01:09:30.280 --> 01:09:36.360
+gives us more user control as some bits is so I hope everyone agreeing with point like why we
+
+01:09:36.360 --> 01:09:43.400
+are actually choosing local storage over the other things that point should be clear which
+
+01:09:43.400 --> 01:09:51.200
+one to use in which use case okay now let's say I try to discard this change as of now no
+
+01:09:51.200 --> 01:09:58.400
+so for interacting with local storage right let's go back to the browser okay my browser is here
+
+01:09:58.400 --> 01:10:07.520
+okay by default we if you want to access a local storage right you have three methods let's say
+
+01:10:07.520 --> 01:10:14.080
+if I go and type down local storage dot set item okay whenever you are trying to add it you can
+
+01:10:14.080 --> 01:10:21.440
+always set it now in while you're setting it up this function takes two things key and value now
+
+01:10:21.440 --> 01:10:30.360
+inside the key let's say I say that my username okay and inside value I can always pass on any
+
+01:10:30.360 --> 01:10:36.160
+string it should be string objects needs to be serialized when you're trying to store it inside
+
+01:10:36.160 --> 01:10:43.360
+the local storage now once I click enter here let's see once I click enter and I go into this
+
+01:10:43.360 --> 01:10:53.040
+application storage and I open the local storage okay so if you see here my username is got stored
+
+01:10:53.040 --> 01:10:58.200
+inside this database inside the key value pair this looks like a no SQL database okay at runtime
+
+01:10:58.200 --> 01:11:04.840
+but doesn't have so many features as you have it in no SQL okay now if you want to get any
+
+01:11:04.840 --> 01:11:11.000
+information right if you want to get any information out of this local storage you have to use get item
+
+01:11:11.000 --> 01:11:18.680
+and you have to pass on the key this works like a hash map where you see in a hash map you store
+
+01:11:18.680 --> 01:11:24.800
+this was a hash map of string comma string general use cases like that once I do this local sure to
+
+01:11:24.800 --> 01:11:30.480
+get item I'm able to access whatever value is set and if I want to clean up I can say
+
+01:11:30.480 --> 01:11:49.160
+local storage dot remove item okay and I can pass on the key my username once I do this if I go
+
+01:11:49.160 --> 01:11:57.120
+back inside the application if you see there is no key present here so one way of doing this one
+
+01:11:57.120 --> 01:12:02.400
+is like let's say one way of doing this one is like doing it using code the other way around is
+
+01:12:02.400 --> 01:12:07.200
+let's say that you once you set this item the other way of clearing this one is like you go
+
+01:12:07.200 --> 01:12:13.600
+back here you manually clear it up you manually clear it up using this key okay and there's
+
+01:12:13.600 --> 01:12:17.480
+the other way around like you can go and say that empty the cache and hard reload once you
+
+01:12:17.480 --> 01:12:21.880
+do empty a cache and hard reload you are trying to remove the cache which is present inside the
+
+01:12:21.880 --> 01:12:28.360
+browser so I hope these points are clear like how can you set it get the like local storage
+
+01:12:28.360 --> 01:12:35.160
+item and how can you remove the item then there is another thing another method that is used which
+
+01:12:35.160 --> 01:12:41.880
+is clear once you clear it right you manually are doing same thing which is like clear the
+
+01:12:41.880 --> 01:12:49.480
+cache and hard reload okay the clearing the whole local storage from the code okay if this thing is
+
+01:12:49.480 --> 01:12:58.520
+clear can we go and implement this logic case in our code can we do this let's let's do this
+
+01:12:58.520 --> 01:13:09.040
+guys let's implement this one let's go step-by-step firstly we'll go to create ticket let's go to
+
+01:13:09.040 --> 01:13:15.600
+create ticket wherever ticket is being created now when this ticket is being created when this
+
+01:13:15.600 --> 01:13:21.960
+ticket is being created one thing we have to do how is what we have to do is like let's say local
+
+01:13:21.960 --> 01:13:30.400
+storage dot set item setting the item and we can say that what type of let's say we say that a task
+
+01:13:30.400 --> 01:13:39.280
+okay I can say all the tasks and since it stores only strings as I have told you what I'll do is
+
+01:13:39.280 --> 01:13:46.800
+that I'll do JSON dot stringify to convert an array into string object okay then I'll pass inside
+
+01:13:46.800 --> 01:13:55.240
+that ticket array once I do this once I do this okay let's see if we are able to store all the
+
+01:13:55.240 --> 01:14:02.080
+tasks that we are creating inside this local storage this way going back to browser loading
+
+01:14:02.640 --> 01:14:16.200
+launch our website again let's say once we have this I go to inspect okay let me have application
+
+01:14:16.200 --> 01:14:25.840
+open parallely inside the local storage if you see currently whenever I launched it there was
+
+01:14:25.840 --> 01:14:32.640
+already a ticket task present okay let me clean this manually firstly and let's create a task
+
+01:14:32.640 --> 01:14:41.720
+step-by-step okay now I'll say that a task one and I say to be done and once I click this let
+
+01:14:41.720 --> 01:14:49.000
+me remove this debugger and let's go back to application storage now if you see inside this
+
+01:14:49.000 --> 01:15:01.360
+task one got stored okay now let's create another task as a task two now if I refresh
+
+01:15:01.360 --> 01:15:08.280
+if I refresh do you think still like we have information stored okay that's fine we have two
+
+01:15:08.280 --> 01:15:14.840
+tickets we are able to store this data but what if if I refresh the script will be automatically
+
+01:15:14.840 --> 01:15:20.360
+loaded and be running from top to down isn't it the script will be loaded from top to down
+
+01:15:20.360 --> 01:15:36.720
+now in order to address that issue right in order to address that issue or in the use case that when
+
+01:15:36.720 --> 01:15:44.720
+whenever we close the tab and reopen the tab what I have to do is that each time this ticket get you
+
+01:15:44.720 --> 01:15:50.760
+know created a ticket array empty I have to do one condition is that I'll check in this as a
+
+01:15:50.760 --> 01:15:59.400
+local storage get items and I'll see that if there are tasks already what was the exact key
+
+01:15:59.400 --> 01:16:08.360
+plural task okay if there are already present tasks in local storage if there are tasks hey do
+
+01:16:08.360 --> 01:16:14.560
+one thing get this ticket array update this ticket array by getting this information how
+
+01:16:14.560 --> 01:16:22.280
+can you do this let's say local storage again dot get item of task but the trick here is
+
+01:16:22.280 --> 01:16:31.680
+that since since it will give is give us like instinct format I'll have to pass this code I
+
+01:16:32.400 --> 01:16:40.200
+have to pass this code convert this into array isn't it whatever the string is there I have to
+
+01:16:40.200 --> 01:16:45.080
+pass that to convert back into an array and upgrade this ticket array once this ticket
+
+01:16:45.080 --> 01:16:54.840
+array is updated I have to recreate all the tickets which are present inside inside ticket
+
+01:16:55.680 --> 01:17:06.080
+let's say I have each ticket now for creating each ticket we were using earlier create ticket
+
+01:17:06.080 --> 01:17:12.720
+inside this create ticket we were passing three informations earlier if you see if I
+
+01:17:12.720 --> 01:17:23.240
+find create ticket okay this information isn't it let's copy this and paste it here
+
+01:17:24.840 --> 01:17:38.600
+so so is this clear guys what I was trying to do it here I'm just updating this array with
+
+01:17:38.600 --> 01:17:43.800
+the existing information and also trying to recreate them onto the page let's see if this
+
+01:17:43.800 --> 01:17:49.800
+is working fine as of now now if you see we have two tickets inside this memory anyways it won't
+
+01:17:49.800 --> 01:17:59.080
+be deleted once it is stored that we know it right even if I refresh it okay it's it's I see
+
+01:17:59.080 --> 01:18:04.840
+that I'm getting the error assignment to a constant variable let me recheck okay this is
+
+01:18:04.840 --> 01:18:12.240
+how I have to make it as let okay now going back into the application still I have in memory two
+
+01:18:12.240 --> 01:18:20.880
+tickets are there task 1 and task 2 if I refresh it I still see one error cannot access create
+
+01:18:20.880 --> 01:18:28.240
+ticket okay let's let's do one thing since we have used constant variable though the hosting
+
+01:18:28.240 --> 01:18:33.000
+works hosting works in a different way right we have that those are throwing error because
+
+01:18:33.000 --> 01:18:44.120
+of ES6 syntaxes now once I had do here add create ticket on top and once I click play now
+
+01:18:44.120 --> 01:18:52.240
+let's say this task 1 got created but let's see in the application we have two tickets only task
+
+01:18:52.240 --> 01:19:02.440
+1 got created cannot access handle remove before initialization okay so let me do one thing I have
+
+01:19:02.440 --> 01:19:21.760
+to move all the methods on to the top also this method
+
+01:19:21.760 --> 01:19:36.520
+okay now let's see if this is working fine now do you see this ticket task 1 and task 2 got
+
+01:19:36.520 --> 01:19:43.960
+created automatically I didn't do anything I just refreshed the browser now now let's say if we
+
+01:19:43.960 --> 01:19:50.120
+create if I even if I close this let's say for even if I close this even if I close this and I
+
+01:19:50.120 --> 01:19:58.600
+reload it let's say I clean this I reload it once I load this and I click play now if you see the
+
+01:19:58.600 --> 01:20:06.320
+task 1 task 2 got created automatically because in memory this task was present is this clear
+
+01:20:06.320 --> 01:20:17.080
+guys how local storage is helping us now now these are use cases completely handled is our
+
+01:20:17.080 --> 01:20:21.320
+use cases completely handled do you think we have still use cases that we have to handle here
+
+01:20:21.320 --> 01:20:31.960
+adding part is done we have to handle remove also isn't it whenever user is deleting a ticket we
+
+01:20:31.960 --> 01:20:42.360
+have to update the local shortage also right so let's go to that part let's go to that part where
+
+01:20:42.360 --> 01:20:51.840
+we go for removing that items okay now if I go and check for the remove we are already slicing
+
+01:20:51.840 --> 01:20:59.520
+you know if we are already splicing the ticket array so what if instead of using a remove item
+
+01:20:59.520 --> 01:21:10.400
+I go to local storage let's say I try to find local storage I just do this thing again there
+
+01:21:12.360 --> 01:21:20.240
+let's say I do this again so why I'm doing this again is that because ticket array is being
+
+01:21:20.240 --> 01:21:25.280
+updated here ticket array got updated when we removed one item from it again I'm updating this
+
+01:21:25.280 --> 01:21:31.960
+local storage with the updated array simple you are able to understand this point right why I'm
+
+01:21:31.960 --> 01:21:42.340
+writing it this way again instead of using remove item okay so I hope this point is clear now once
+
+01:21:42.340 --> 01:21:48.700
+I let's say once we go check this let's say if I go and click the delete once delete button is
+
+01:21:48.700 --> 01:21:57.580
+activated if you see here we have two tasks 0th and first index bottom let me minimize this one
+
+01:21:57.580 --> 01:22:06.820
+okay and I go and click on this task to if you see the 0th task task one got deleted here okay
+
+01:22:06.820 --> 01:22:13.380
+so that's how we are handling remove part also no do you still think that every use case is
+
+01:22:13.380 --> 01:22:25.100
+handled think of this guys if is all use cases handled update is left isn't it no what if I
+
+01:22:25.100 --> 01:22:34.820
+copy this content again go to handle log and update it here itself because again if you see
+
+01:22:34.820 --> 01:22:42.140
+ticket array is getting kept in sync again so ticket array is having updated information I'm
+
+01:22:42.140 --> 01:22:50.100
+just updating the local storage using set same thought process okay that's the reason why I have
+
+01:22:50.100 --> 01:22:54.500
+everywhere I'm using set item that's the reason why earlier I for it first time itself I've taught
+
+01:22:54.500 --> 01:22:59.660
+you that how all the methods you can use it what are the what are the all methods that you can
+
+01:22:59.660 --> 01:23:06.060
+leverage it okay now let's say if we want to convert this into task one once I create into
+
+01:23:06.060 --> 01:23:12.780
+task one and I close this back you see here this also got updated as task one let's say if I go
+
+01:23:12.780 --> 01:23:21.340
+and update as a task zero one and I update this one this has been updated as task zero one you
+
+01:23:21.340 --> 01:23:26.780
+find this good guys like everything is stored in your database on each click it is getting
+
+01:23:26.780 --> 01:23:33.620
+updated in your database local database right and imagine if I deploy and give it to you you can
+
+01:23:33.620 --> 01:23:39.420
+actually use as a to-do task for to-do list for yourself in day-to-day life can man more you can
+
+01:23:39.420 --> 01:23:44.460
+keep on adding more features I thought like if you're going to add this in your resume I should
+
+01:23:44.460 --> 01:23:49.060
+make it bit more look neat and tidy that's the reason why I try to make it everything rounded
+
+01:23:49.060 --> 01:23:56.220
+I didn't play it on one use case which is this ticket one you can make this ticket look really
+
+01:23:56.220 --> 01:24:02.260
+beautiful depending on the your wish like how you want to do it I would be really happy if anyone
+
+01:24:02.260 --> 01:24:07.580
+want to you know play around with this one because tomorrow is Sunday if I even receive one PR I would
+
+01:24:07.580 --> 01:24:13.980
+be really happy with that would anyone would be interested contributing this one like make it
+
+01:24:13.980 --> 01:24:20.500
+look beautiful add it into your resume because we'll deploy this what you can do is like you can
+
+01:24:20.500 --> 01:24:25.640
+always add a bookmark like I have a bookmark you can always bookmark as a Kanban board you can
+
+01:24:25.640 --> 01:24:30.400
+maintain your to-do list in your browser that you have built it so you will say that hey this is
+
+01:24:30.400 --> 01:24:37.440
+application built by me and I'm using it it would feel good that you are building something and you
+
+01:24:37.440 --> 01:24:42.400
+know the real-time production bucks you've won't fix it whatever features you want to add it okay
+
+01:24:42.400 --> 01:24:50.000
+now yeah I'll talk about how to deploy but all the logic still now I hope everything is clear
+
+01:24:50.000 --> 01:24:56.920
+everything is clear right no what I'll do is that
+
+01:24:56.920 --> 01:25:05.840
+guys can I remove this file because I want to when I go for deploy I don't need this
+
+01:25:05.840 --> 01:25:12.240
+script file to be present here so I'll delete this file anyways I have taught you like how
+
+01:25:12.240 --> 01:25:20.560
+can you handle that even bubbling okay yeah we can host this I'll talk about that so let's say
+
+01:25:20.560 --> 01:25:32.560
+I push this code as a code completion get commit minus nm code Kanban board
+
+01:25:40.560 --> 01:25:48.760
+now I have one assignment guys one feature one thing that I want to give it to you is that let's
+
+01:25:48.760 --> 01:25:56.360
+say you go back tomorrow if some if you try to implement that's all good or else if you want me
+
+01:25:56.360 --> 01:26:03.160
+to implement I'll do that it as a offline because it's a homework for us all of us okay just I'll
+
+01:26:03.160 --> 01:26:09.520
+tell you what you can do it is that if you see here we are able to filter the task based on a
+
+01:26:09.520 --> 01:26:16.000
+status isn't it we are able to filter based on a status but what if we want to filter based on the
+
+01:26:16.000 --> 01:26:22.720
+task content if you go into any e-commerce site right you go into e-commerce site you have a
+
+01:26:22.720 --> 01:26:33.600
+search bar right always search bar right this thing just think of it how can you implement it
+
+01:26:33.600 --> 01:26:40.240
+let's just like let's write down the lines right let's say if I try to write down what we can do
+
+01:26:40.240 --> 01:26:44.960
+it here if you want to implement this let's say this is an extra add-on feature
+
+01:26:44.960 --> 01:27:00.040
+okay what you can do it is that you keep a like let's say key up key up event okay when I say
+
+01:27:00.040 --> 01:27:06.720
+key up event whenever user is typing it down when user leaves that key listener will be
+
+01:27:06.720 --> 01:27:20.440
+listener will listen right now whenever user types down anything you go pick this
+
+01:27:20.440 --> 01:27:37.960
+ticket array okay filter it and render firstly filter it filter it and store and remove all
+
+01:27:38.080 --> 01:27:54.960
+the tickets and render filtered tickets now you have to write only this filter function
+
+01:27:54.960 --> 01:28:03.680
+now the filter function will apply on this ticket array task info object and also you
+
+01:28:03.680 --> 01:28:12.240
+can use task ID also this seems to be easy enough when you go and see from our project
+
+01:28:12.240 --> 01:28:18.680
+perspective if you want to go and implement this search on straightforward even you can
+
+01:28:18.680 --> 01:28:23.840
+find each piece of code already in our that script file you have to just pick it right
+
+01:28:23.840 --> 01:28:29.280
+things and build it if I have to build it it will take me 15 minutes hardly I can build it
+
+01:28:29.280 --> 01:28:37.960
+but what I want where the logic part you will be able to do it in half an hour 30 minutes but
+
+01:28:37.960 --> 01:28:46.400
+where I am trying to push you guys is that I made design changes now you think of it how would you
+
+01:28:46.400 --> 01:28:54.480
+accommodate search bar and how would you allow user to do it and how you make it better experience
+
+01:28:54.480 --> 01:29:00.960
+build experience now as a product developer or engineer you also have to think right how
+
+01:29:00.960 --> 01:29:08.320
+can you improve your existing application so I hope the problem statement is clear like what
+
+01:29:10.080 --> 01:29:15.760
+yeah maybe under the Kanban board or anything if you want to reduce this font and give it you have
+
+01:29:15.760 --> 01:29:21.600
+to think go and research the existing thing you go and check myntra flipkart Amazon or whatever
+
+01:29:21.600 --> 01:29:28.000
+they have how how you can do it okay so just think of it that way or you want to add a toggle
+
+01:29:28.000 --> 01:29:33.840
+button which will toggle between this filters and a search bar like anything that you want or else
+
+01:29:33.840 --> 01:29:38.320
+you want to give it a create and delete button as a different thing it's up to you anything that
+
+01:29:38.320 --> 01:29:46.560
+you can do but it's it's your choice so I want some innovation from your side also spend some
+
+01:29:46.560 --> 01:29:52.480
+time this will push you to you know rewatch this whole code go through this code and then come back
+
+01:29:53.840 --> 01:30:00.240
+so guys if you allow me 10 minutes we'll end the class for today can we go ahead and deploy this
+
+01:30:00.240 --> 01:30:10.080
+application okay let's let's do this guys let's do this so for deployment also right this is a
+
+01:30:10.160 --> 01:30:18.080
+static website isn't it when I say static website when I say static website what I exactly means
+
+01:30:18.080 --> 01:30:28.320
+is that there is no specific interaction with real-time server okay only it has three things
+
+01:30:28.320 --> 01:30:41.760
+html css js with no api calls being triggered okay so this static website you can always
+
+01:30:41.760 --> 01:30:48.240
+you know there are a few set of deployments that you can use for static website so have anyone
+
+01:30:48.240 --> 01:30:54.880
+explored something like github pages have anyone heard github pages
+
+01:30:58.640 --> 01:31:00.480
+okay let me show you github pages
+
+01:31:02.720 --> 01:31:06.480
+if I have I think I have one two projects guys I can show you
+
+01:31:08.160 --> 01:31:16.880
+let me see if I have it give me a second guys I will go through my repository and see
+
+01:31:28.640 --> 01:31:37.760
+so I'll show you this thing firstly let's say github also provides an ability to deploy your app
+
+01:31:37.760 --> 01:31:44.960
+okay it's pretty straightforward like you can what whenever you create a repository right you
+
+01:31:44.960 --> 01:31:56.560
+can go to repository once you create it okay then once you have updated it you can go to repository
+
+01:31:56.560 --> 01:32:03.680
+create it give me a second they haven't provided everything here
+
+01:32:08.640 --> 01:32:09.600
+okay terminal
+
+01:32:15.120 --> 01:32:21.520
+okay they are showing through github let's say if I do this do this do this
+
+01:32:26.880 --> 01:32:31.120
+okay let me see if I have any websites that I deployed I remember I have deployed but I
+
+01:32:31.120 --> 01:32:35.520
+have to recheck it I've done some time back
+
+01:32:44.960 --> 01:32:48.960
+this was something that I deployed when I was learning react long time back
+
+01:32:49.840 --> 01:32:55.840
+okay like this is again you know add a meetup if you want to add a new meetup like you can
+
+01:32:55.840 --> 01:33:05.600
+add something dummy data uh let's say www.google.com
+
+01:33:09.680 --> 01:33:14.800
+okay I gave the right url now let's say image url uh images
+
+01:33:26.320 --> 01:33:39.600
+okay yeah so this was one of the website but this is not the thing oh let me recheck if I have
+
+01:33:50.080 --> 01:33:51.200
+yeah maybe this one
+
+01:33:51.920 --> 01:33:57.760
+okay this is an empty repository but so I'll share you guys like how you can leverage github
+
+01:33:57.760 --> 01:34:04.800
+pages okay but if you see this this is something that I deployed on worcel now worcel is actually
+
+01:34:04.800 --> 01:34:14.160
+built by uh next.js team uh same team who built uh firstly react okay you can deploy your
+
+01:34:14.240 --> 01:34:20.400
+applications here also like just if you click on start deploy okay once you connect with your
+
+01:34:20.400 --> 01:34:26.480
+github repo once I authorize this one
+
+01:34:30.640 --> 01:34:36.640
+okay now uh let's say I import this one
+
+01:34:36.960 --> 01:34:39.280
+uh let's say I import this one
+
+01:34:42.000 --> 01:34:46.160
+and it keeps me directly deploy button I don't need this way but
+
+01:34:50.960 --> 01:34:55.040
+this is something that I deployed earlier so if you see this is the same website
+
+01:34:55.760 --> 01:35:02.080
+but inside github pages also have deployed things I just want to know where did I do this
+
+01:35:07.520 --> 01:35:12.720
+hmm anyways I'll come back to that one guys how did I do it on github pages github pages
+
+01:35:12.720 --> 01:35:17.200
+is really simple you can do it directly on github you don't need any other website
+
+01:35:17.200 --> 01:35:20.320
+uh you it's it's straightforward completely
+
+01:35:24.720 --> 01:35:28.240
+I'll show you that one anyway straight one okay fine
+
+01:35:28.240 --> 01:35:32.000
+but something that we are going to use today is netlify
+
+01:35:32.000 --> 01:35:38.320
+okay have you heard of this one netlify earlier
+
+01:35:40.720 --> 01:35:45.040
+so I was talking about three things right as of now if you see github pages
+
+01:35:48.800 --> 01:35:57.520
+then you have let's say worcel and netlify these are really commonly used because for
+
+01:35:57.600 --> 01:36:02.400
+static websites they allow you to freely deploy applications okay if you want a
+
+01:36:02.400 --> 01:36:08.000
+free deployment you can use most probably github pages that's a really easy one like
+
+01:36:08.000 --> 01:36:12.160
+you can go through documentation it will be written inside git only when you try to create
+
+01:36:12.160 --> 01:36:18.400
+a repository but when you go for netlify this is a third party uh you know application which is
+
+01:36:18.400 --> 01:36:24.240
+used to host your websites so let's see how you can do it this is pretty simple it's a one-step
+
+01:36:24.240 --> 01:36:30.720
+game like let's say if i go into netlify and log in let's see if i have logins
+
+01:36:32.720 --> 01:36:34.720
+uh let's say i log in with github
+
+01:36:38.640 --> 01:36:44.880
+and okay did i deploy any applications earlier
+
+01:36:47.280 --> 01:36:51.680
+okay we'll anyways build this in future guys there's one more application that i deployed
+
+01:36:51.680 --> 01:36:58.480
+for the last patch but now if you if you want to deploy any other new website right uh let's say
+
+01:36:58.480 --> 01:37:08.800
+go to sites add new site deploy if i hear what i'll do is like i'll i'll select deploy manually
+
+01:37:08.800 --> 01:37:14.960
+and what i'll do it is that i'll pull the code and paste the code here okay so how would i do
+
+01:37:14.960 --> 01:37:25.440
+that i'll click the browse to upload okay i'll uh have to go to dev full stack manjan
+
+01:37:26.160 --> 01:37:32.160
+uh projects part uh let's say kanban board once i do this here we have three files index html
+
+01:37:32.960 --> 01:37:40.320
+script js and style.css let's say click on upload just upload okay if you see
+
+01:37:40.320 --> 01:37:49.280
+okay automatically everything will be handled for us now okay uh let's see if you see here
+
+01:37:49.280 --> 01:37:55.520
+uh the initialization building deploying clean up everything is skipped but you know everything
+
+01:37:55.520 --> 01:38:01.600
+was deployed the code is uploaded into this one and if you go and click this one right or open
+
+01:38:01.600 --> 01:38:10.160
+production deploy your application is actually deployed so i made this fonts really less i guess
+
+01:38:10.160 --> 01:38:17.040
+i have to play around with this fonts by default my browser was zoomed at 250 but can anyone check
+
+01:38:17.040 --> 01:38:25.760
+if this is url is working for you try to access this url if anyone is able to access this kanban board
+
+01:38:32.640 --> 01:38:38.160
+okay so it starts that straightforward you can try to create your own task check this
+
+01:38:39.040 --> 01:38:44.240
+check this like once you let's say what i can what you can do is that let's say i bookmark this
+
+01:38:46.000 --> 01:38:53.360
+okay instead of scalar let's say i make it to bookmarks bar kanban board now if i want to do
+
+01:38:53.360 --> 01:39:00.160
+play around with this one let's say i'll open the kanban board and then let's say task one is to
+
+01:39:00.160 --> 01:39:06.000
+complete assignments let's say i want to make it this one to be done uh assignments
+
+01:39:08.160 --> 01:39:14.560
+okay and click options now once you do this let's say to be done maybe in progress then validate
+
+01:39:14.560 --> 01:39:18.640
+once it is done you can do can complete and also you can delete that as whatever you want
+
+01:39:19.280 --> 01:39:23.760
+okay this is something that i'm doing on production base so this is one of the way that
+
+01:39:23.760 --> 01:39:29.120
+you can deploy it it's really simple when you can we add custom we can do that we can do that
+
+01:39:30.240 --> 01:39:36.080
+we can do that uh let me explore this one i go to deploy settings
+
+01:39:37.040 --> 01:39:39.040
+uh
+
+01:39:43.360 --> 01:39:44.800
+okay configure
+
+01:39:50.960 --> 01:39:54.080
+not this one pretty let's say this documentation
+
+01:39:56.400 --> 01:39:59.600
+uh this doesn't allow us custom uh url
+
+01:40:06.080 --> 01:40:09.600
+so
+
+01:40:21.760 --> 01:40:25.120
+okay this is a site id that i got change the site name if you see
+
+01:40:26.160 --> 01:40:30.400
+uh let's say this is a site name i can say kanban board
+
+01:40:30.400 --> 01:40:41.120
+uh let's say it is it i say uttam uh i save it now once i did this i updated this as a site name
+
+01:40:42.000 --> 01:40:48.000
+and site id will be consistent let's say if i go back to site overview
+
+01:40:49.280 --> 01:40:55.440
+and i try to open this now so if you see i made this custom url upendra
+
+01:40:55.440 --> 01:41:03.600
+so if you see i made this custom url upendra so just go into settings uh you will be able to update
+
+01:41:03.600 --> 01:41:10.080
+it how the way you want to do it okay not a big deal so there's one more thing that if you want
+
+01:41:10.080 --> 01:41:17.920
+to redeploy right uh let's say you go and uh let's say now that's fine uh let's say even if
+
+01:41:17.920 --> 01:41:20.240
+we can do the lighthouse testing for this one plug in
+
+01:41:23.040 --> 01:41:30.800
+uh okay key kanban board as i wrote kan board okay fine anyways
+
+01:41:34.480 --> 01:41:39.520
+you can anyways i'll go back and update i'll show you back again how can how we can do this site
+
+01:41:39.520 --> 01:41:50.400
+configuration uh change site name i say instead of this kanban board
+
+01:41:55.520 --> 01:42:02.800
+let's say kanban board scale be appropriate okay now the site will be updated as this one
+
+01:42:03.200 --> 01:42:12.880
+okay fine anyways like if you see uh for each one right now i'll have one question to you
+
+01:42:12.880 --> 01:42:20.880
+just think of it like if it's if it is clicking to you now i have something like kanban board
+
+01:42:20.880 --> 01:42:28.240
+and also i have something like local application which is running now i have this ticket one got
+
+01:42:28.240 --> 01:42:33.280
+created here and for kanban board if you see tickets are not there here
+
+01:42:36.000 --> 01:42:40.080
+why do you think it's not there for why it is this particular
+
+01:42:40.080 --> 01:42:46.400
+thing is having like even if i refresh task on this day though if you see go and explore in the
+
+01:42:47.360 --> 01:42:53.280
+application local storage i'm having this task if i go to kanban board
+
+01:42:53.600 --> 01:42:59.520
+if i go to application in the local storage i don't have it
+
+01:43:01.360 --> 01:43:08.320
+no why do you think this is how it is behaving it's so we earlier when i taught you this one
+
+01:43:08.320 --> 01:43:16.720
+like having of 10 mb uh size so that 10 mb size is per one site you can have 10 sites
+
+01:43:16.720 --> 01:43:24.160
+have 10 sites loading in a browser so each site can have 10 mb of data that can store in the
+
+01:43:24.160 --> 01:43:30.800
+local storage that's the reason why when you keep on adding more and more websites right more and
+
+01:43:30.800 --> 01:43:37.040
+more tabs the more amount of data that browser need to handle and the more amount of passing more
+
+01:43:37.040 --> 01:43:43.840
+amount of things that are happening at long time if you see if you have 10 15 websites you can see
+
+01:43:43.840 --> 01:43:50.160
+amount of the cpu consumption that is done by actually browser it's that makes really you know
+
+01:43:50.160 --> 01:43:54.880
+slow your application your all sites are slow if you've just seen that in the earlier class
+
+01:43:54.880 --> 01:44:00.960
+i had many websites open parallely for me okay so that's the reason why some it's it's not
+
+01:44:00.960 --> 01:44:06.160
+suggestible that you know you do it that way sometimes you have a strong application which
+
+01:44:06.160 --> 01:44:12.560
+is using more amount of memory from your let's say 32 gb 64 gb rams then it works fine but it
+
+01:44:12.560 --> 01:44:17.120
+is supposed to try to use as many like let's say eight nine tabs not more than that
+
+01:44:18.080 --> 01:44:23.840
+but i hope you got this point that you know the 10 mb size is not per a website not for the
+
+01:44:23.840 --> 01:44:28.320
+particular key but it is for different all websites will have its own 10 mb and 5 mb
+
+01:44:30.560 --> 01:44:33.760
+and 4 kb of data that point is clear right
+
+01:44:34.400 --> 01:44:43.040
+uh guys so did you guys enjoy kanban board completely we have spent more than eight to nine
+
+01:44:43.040 --> 01:44:50.080
+hours so do let me know if you have any doubts or any things that you want to share with me okay
+
+01:44:50.720 --> 01:44:57.520
+but as of now i would say that this development part for kanban board from my side is completed
+
+01:44:58.240 --> 01:45:03.920
+this development part for kanban board from my side is completed i hope someone goes and
+
+01:45:03.920 --> 01:45:09.040
+implement that search filter and make some design changes and share it with me if it is something
+
+01:45:09.040 --> 01:45:15.120
+that you can add on that i'll go and teach that subsequent batches also that this is done by a
+
+01:45:15.120 --> 01:45:22.640
+previous batch some student then i'll name you there then we can bring it back okay someone
+
+01:45:22.640 --> 01:45:27.200
+else will add on more future features then someone else will do right so i want to make
+
+01:45:27.200 --> 01:45:36.480
+this as a proactive development task okay so guys if this is clear i would like to end the
+
+01:45:36.480 --> 01:45:41.840
+session today here itself i'll start the doubt session uh you have enough time i would say that
+
+01:45:41.840 --> 01:45:49.600
+have you know enjoy the weekend take rest uh get back with new energy where we'll learn
+
+01:45:49.600 --> 01:45:54.080
+machine coding from the next session that's going to be further interesting things guys
+
+01:45:55.760 --> 01:46:01.680
+please join me back in the tuesday's class okay so let me start the doubt session
+
+01:46:06.000 --> 01:46:06.480
+okay
+
+01:46:09.680 --> 01:46:14.400
+guys i have started the doubt session now anyone having any doubts they can post their doubts
+
+01:46:14.640 --> 01:46:23.600
+uh and we can discuss this further uh if everything is clear feel free to drop uh and
+
+01:46:25.280 --> 01:46:29.600
+can we go forget okay uh let me do one thing guys i'll share one website
+
+01:46:32.160 --> 01:46:37.600
+i'm not sure guys like why they are not adding it i'll flag this one
+
+01:46:37.600 --> 01:46:40.800
+um
+
+01:46:43.520 --> 01:46:43.840
+okay
+
+01:46:51.520 --> 01:46:57.120
+okay i'll i'll try to teach you basics of gits that i do in day to day okay now let's have since
+
+01:46:57.120 --> 01:47:05.120
+we have some time now okay let's do this i'll take 10 15 minutes of kit class also i'll teach
+
+01:47:05.120 --> 01:47:11.920
+you whatever i know okay so
+
+01:47:18.960 --> 01:47:21.920
+how many of you understand something called remote repository
+
+01:47:26.640 --> 01:47:28.000
+and local repository
+
+01:47:28.000 --> 01:47:30.000
+okay
+
+01:47:34.800 --> 01:47:41.520
+can we add domain name like uh canbatboard.com uh no that won't be possible up in there
+
+01:47:41.520 --> 01:47:46.320
+because you have to buy that canbanboard.com uh domain only then you could be able to do
+
+01:47:47.200 --> 01:47:53.680
+because for domain names you have to buy it yeah i'll share that can but uh canbanboard link
+
+01:47:54.400 --> 01:48:02.000
+uh let's say i also started i thought someone will ask okay this test uh this is still working
+
+01:48:02.000 --> 01:48:08.080
+but let me go to netlify and share the exact sites
+
+01:48:08.320 --> 01:48:14.480
+so
+
+01:48:18.640 --> 01:48:25.520
+i'll pin this kabir zoom it to 250 percent you can refix this one you know
+
+01:48:27.840 --> 01:48:34.560
+the sizes of things like i i'll fix it up later but you can fix it up okay so coming back to this
+
+01:48:34.640 --> 01:48:38.720
+one guys how many of you know understand this something called remote and local repository
+
+01:48:46.160 --> 01:48:49.040
+does anyone understand this local and remote repository
+
+01:48:51.760 --> 01:48:55.920
+no right so remote repository something which is present on your github
+
+01:48:57.040 --> 01:48:59.920
+okay local repository something present on your machine
+
+01:49:00.480 --> 01:49:07.760
+both can be pointing to same thing let's say if in our case fullstack jan batch fullstack jan
+
+01:49:07.760 --> 01:49:17.040
+okay this is the github repository let's say we have this is this is on github now as soon as you
+
+01:49:17.040 --> 01:49:23.680
+make any changes in everyday code whenever i'm making any changes or adding changes so i'm making
+
+01:49:23.680 --> 01:49:29.840
+changes so i'm making changes in my local repository every time after my class i'm trying
+
+01:49:29.840 --> 01:49:37.200
+to push something onto my report remote repository right so if you go and see if i show you something
+
+01:49:37.760 --> 01:49:47.120
+in my here let's say i write down git remote okay if you see origin uh get a remote
+
+01:49:54.160 --> 01:50:01.200
+okay so if you see there are a list of things if you see that what what it is showing like you can
+
+01:50:01.200 --> 01:50:09.600
+add n number of things like git remote you can add a new urls set url okay remove the urls also
+
+01:50:09.600 --> 01:50:14.800
+whatever things you have you can play around with this on you where you want to push this code now
+
+01:50:14.800 --> 01:50:21.280
+when i say origin when it says origin now if you go and see in the github right let's say if i go
+
+01:50:21.760 --> 01:50:30.160
+on open the github account uh this was a batch right now this main branch is something like
+
+01:50:30.160 --> 01:50:36.400
+acting as my origin now if you see this is a particular uh link where i'm trying to push code
+
+01:50:36.400 --> 01:50:43.760
+this https code right in general i'm interacting with this one okay this is the url which can be
+
+01:50:43.760 --> 01:50:48.960
+helpful to clone it and this is the remote url where i'll be pushing my code using the local
+
+01:50:48.960 --> 01:50:54.720
+repository this point is clear what is remote and local and whenever you are making changes
+
+01:50:54.720 --> 01:51:00.160
+you are making it local you have to push them into remote repository so that changes can be
+
+01:51:00.160 --> 01:51:07.920
+added here okay so this is just a theory as of now now so here whenever you do git remote
+
+01:51:08.720 --> 01:51:11.280
+in local you will be able to see what is the
+
+01:51:11.280 --> 01:51:21.120
+uh like remote repository url you will be able to see that okay or here we got an origin because
+
+01:51:21.120 --> 01:51:26.160
+we are using only one branch as of now if you have multiple folks you will be able to see
+
+01:51:26.160 --> 01:51:34.960
+uh exact url but now whenever i'm making changes okay now in order to push the code to here right
+
+01:51:35.920 --> 01:51:41.600
+it goes through certain steps firstly all the changes that you do let's say if i show you the
+
+01:51:41.600 --> 01:51:47.280
+changes that i do let's say i make some changes as a uh add something here extra string
+
+01:51:49.120 --> 01:51:56.080
+okay now i am adding an extra string here and i save this if you see here in the vs code i can
+
+01:51:56.080 --> 01:52:02.800
+see that there are changes now when i click plus there is something you can see as a staged
+
+01:52:02.800 --> 01:52:10.960
+staged changes staged changes this one now let's say here i clear
+
+01:52:13.040 --> 01:52:18.080
+git status if you see when i do git status
+
+01:52:20.400 --> 01:52:27.520
+here if you see this changes to be committed changes to be committed if something is in green
+
+01:52:28.480 --> 01:52:33.840
+whenever you use git commit this whatever in green color there that will be pushed
+
+01:52:34.480 --> 01:52:41.200
+that is going to be pushed with this origin main why origin origin is some remote repository
+
+01:52:41.200 --> 01:52:47.200
+as i've shown you remote repository url and it will be pushed to this particular branch called as main
+
+01:52:48.240 --> 01:52:54.640
+now whenever you are doing this now let's say if i do this minus again i've added into changes now
+
+01:52:54.640 --> 01:53:00.560
+let's see what is happening now if you see changes are not staged so it says that red in
+
+01:53:00.560 --> 01:53:07.360
+color if you want to uh like you know add if you want to commit these changes you have to move this
+
+01:53:07.360 --> 01:53:14.880
+to stage so what happens is whenever you are making any changes in your local right whenever
+
+01:53:14.880 --> 01:53:20.400
+you are making changes you have to add them into called something called the staging area
+
+01:53:20.400 --> 01:53:28.640
+staging area you can do it using git add file name
+
+01:53:32.720 --> 01:53:37.040
+or git add dot when you do dot
+
+01:53:37.040 --> 01:53:37.680
+dot
+
+01:53:46.320 --> 01:53:52.000
+whenever you do dot you are adding all the files once you are added onto staging area then
+
+01:53:52.960 --> 01:53:59.440
+you would be able to commit that code now whenever you want to commit it if you see here
+
+01:53:59.440 --> 01:54:05.600
+it is also suggesting the command like it's it also keeps the suggestions like you can say git
+
+01:54:05.600 --> 01:54:12.000
+add git commit so one of the best ways right if you stuck anywhere in the kit you can do something
+
+01:54:12.000 --> 01:54:19.120
+like git help it will give you all the definitions like uh branch details commit merge rebase switch
+
+01:54:19.120 --> 01:54:25.040
+tag you know fetch pull push now i'll come to what is like fetch full pull and push okay now
+
+01:54:25.680 --> 01:54:31.920
+let's say if i want to push this change let's say i don't want to push this change but i'll
+
+01:54:31.920 --> 01:54:39.760
+add some change let's say i say that i want to push something called as colors array i'm
+
+01:54:39.760 --> 01:54:45.680
+adding this comment and i want to push this now once if you see in my change i'm adding colors
+
+01:54:45.680 --> 01:54:51.920
+array i have added let's say i remove this now if you see if i do again git status
+
+01:54:53.440 --> 01:54:59.520
+it is not added into staging area changes are not staged for the commit once i click git add
+
+01:55:00.240 --> 01:55:06.880
+dot and i do git status again if you see changes are to be committed do you see the
+
+01:55:06.880 --> 01:55:11.440
+difference between these two things once you make changes you have to move something from
+
+01:55:11.440 --> 01:55:22.080
+changes to staging area is this point clear okay once we make this then we have to commit the code
+
+01:55:22.080 --> 01:55:27.840
+let's say if i when i'm committing it what do i mean i'm saying that hey this is store this as
+
+01:55:27.840 --> 01:55:33.920
+a one of the memory like like with one number like key value pairs only a key with a multiple
+
+01:55:33.920 --> 01:55:46.160
+files memory now let's say i say that hey comments added no when i go and add it now if you see while
+
+01:55:46.160 --> 01:55:53.440
+one file change changes got done and one insertion happened now this insertion happened inside this
+
+01:55:53.440 --> 01:56:00.560
+particular commit inside the main branch but now this commit is still is in local repository
+
+01:56:02.640 --> 01:56:06.560
+okay then once staging is done git commit
+
+01:56:08.800 --> 01:56:13.600
+once you committed the code still it is in local repository you are supposed to move these changes
+
+01:56:13.600 --> 01:56:21.360
+from here to here and you can do this using push the changes to origin so if you see many people
+
+01:56:21.360 --> 01:56:26.240
+write down git push origin you sometimes when you are directly pointing to origin you need not to
+
+01:56:26.240 --> 01:56:36.240
+give origin also so if you see if i do git push see that data got written and it is being pushed
+
+01:56:36.240 --> 01:56:45.200
+into this particular url let me open this url okay now if i go into commits i have committed 34
+
+01:56:45.200 --> 01:56:50.480
+comments now if you see in the comments commit this was a commit code if you see just now
+
+01:56:50.480 --> 01:56:54.320
+that we will be able to use the information and everything what we have added
+
+01:56:56.000 --> 01:57:03.440
+so i hope till now we are able to understand what is git commit git add git push what we are doing
+
+01:57:03.440 --> 01:57:11.680
+what is local repository and remote repository right now imagine if someone else like you you
+
+01:57:11.680 --> 01:57:18.800
+might not be alone working right on this git repo and let's say if someone else also added some
+
+01:57:18.800 --> 01:57:29.120
+changes in your report repositories right let's say two people are working here on full stack chat
+
+01:57:33.200 --> 01:57:39.200
+uh consider use case when i was teaching and shashut was teaching
+
+01:57:39.280 --> 01:57:46.080
+right pardon with spelling both were teaching right earlier i was pushing code to remote
+
+01:57:46.080 --> 01:57:52.480
+repository then shashut jumped in he taught you three classes he pushed code but in my local
+
+01:57:52.480 --> 01:58:00.480
+repository do i have code what shashut has added into my repository as a collaborator
+
+01:58:00.560 --> 01:58:03.360
+has added into my repository as a collaborator
+
+01:58:07.040 --> 01:58:11.360
+by default do i have the code whatever he pushed
+
+01:58:13.520 --> 01:58:17.680
+guys are you able to follow up i'm or i'm wasting my time like just want to know
+
+01:58:18.960 --> 01:58:25.280
+like do i have the code what shashut has pushed maybe shashut would have added into this repository
+
+01:58:25.280 --> 01:58:35.200
+if you go and see if i uh if you see uh intro to dom read me updated
+
+01:58:35.920 --> 01:58:42.800
+event handling even dynamic dom right these codes were verified by me and he added this code yes
+
+01:58:43.440 --> 01:58:50.160
+so this thing is present this changes whatever he have pushed into will be present in remote
+
+01:58:50.160 --> 01:58:55.600
+repository but in local in my machine automatically code won't be downloaded which
+
+01:58:55.600 --> 01:59:04.800
+is pushed by shashut i have to say can you give me all the information updated information in the
+
+01:59:04.800 --> 01:59:11.200
+this remote repository when i say get pull i'm trying to pull from a particular branch
+
+01:59:12.000 --> 01:59:19.520
+i'm updating my local repository on my machine i'm trying to fetch the updated now how can i do that
+
+01:59:19.520 --> 01:59:26.000
+i can suggest say that git pull when i say git pull it says that already updated
+
+01:59:26.880 --> 01:59:33.360
+okay let's let me show you something like how can you uh there's a difference how i'll show you
+
+01:59:33.360 --> 01:59:44.000
+let's say now i go into read me and let me uh fetch some read me changes i'll fetch it from
+
+01:59:44.000 --> 01:59:48.240
+past patch i'll update the read me let's say i go to read me file
+
+01:59:52.000 --> 01:59:52.240
+now
+
+01:59:56.080 --> 01:59:57.120
+this is rendering
+
+02:00:02.880 --> 02:00:07.040
+let's say i try to push something called as canban board
+
+02:00:07.680 --> 02:00:12.080
+uh how do i load this
+
+02:00:17.760 --> 02:00:25.520
+anyways let's say we add something here if i want to edit this one
+
+02:00:37.760 --> 02:00:45.040
+okay here let's say if i go and add it here okay now if you see it here what i'll do is i like have
+
+02:00:45.040 --> 02:00:51.760
+to make changes let's say till can bad board one i've added here i missed for the last two classes
+
+02:00:51.760 --> 02:01:00.480
+read me content let's say i go and update this one okay let's say i add for the next two classes
+
+02:01:00.480 --> 02:01:02.400
+let's say class 15 and class 16
+
+02:01:06.880 --> 02:01:15.040
+let's say it is i did this and let's say i commit changes here itself now i commit changes uh update
+
+02:01:15.040 --> 02:01:21.600
+read me main branch okay now i don't need to push it because i committed changes directly
+
+02:01:21.600 --> 02:01:28.400
+on remote repository oh hope that point is clear like how did i only with commit this was
+
+02:01:28.400 --> 02:01:37.040
+100 right now if i go back to my local code do i have the recent commit that was made here
+
+02:01:38.320 --> 02:01:43.360
+do i have that recent commit made there like can you see can board board 15 16
+
+02:01:44.240 --> 02:01:50.800
+now if i want some changes which were done on the remote repository into my local let's say
+
+02:01:50.800 --> 02:01:58.320
+if i want something to be pushed or pull the data whatever updates are done on the remote repository
+
+02:01:58.320 --> 02:02:05.760
+if i want to get those data okay so if you see if you go into the collaborate section you will
+
+02:02:05.760 --> 02:02:13.920
+see that it will that fetch and integrate if you when i say git pull it will fetch the data from
+
+02:02:13.920 --> 02:02:20.240
+the top branch let's say i do git pull now once i do git pull let's see if you see read me file
+
+02:02:20.240 --> 02:02:25.760
+got updated there are 13 new changes that were added now do you see this can man board can man
+
+02:02:26.080 --> 02:02:32.800
+changes got added here automatically so do you understand how git pull and git push works
+
+02:02:32.800 --> 02:02:38.480
+so whenever you are interacting with remote repository you have two things git push and
+
+02:02:38.480 --> 02:02:50.720
+git pull is this clear so guys i believe i have covered some basics of it
+
+02:02:51.200 --> 02:02:59.040
+then all the other things you can explore step by step is anyone able to follow up like
+
+02:02:59.040 --> 02:03:02.160
+are you able to follow up right did you understand this a basics of git
+
+02:03:03.520 --> 02:03:06.080
+i spent some 20 odd minutes on that okay
+
+02:03:10.480 --> 02:03:11.040
+great guys
+
+02:03:12.960 --> 02:03:19.520
+chalo then if this is clear how do you install git in vs code okay you don't need to install
+
+02:03:19.520 --> 02:03:28.880
+git in vs code by default it will be there and someone was like if you see that if i open my
+
+02:03:28.880 --> 02:03:38.720
+terminal let's say this is my terminal i have to show you if i have git installed here
+
+02:03:39.360 --> 02:03:49.200
+git hyphen hyphen version if you say 2.3.81 or 2381 same will be here also git hyphen hyphen
+
+02:03:49.200 --> 02:03:57.440
+version same version will be there so once you install on your like on your level of your
+
+02:03:58.160 --> 02:04:05.120
+system that will be auto installed in your git this one also terminal okay kabir have some
+
+02:04:05.120 --> 02:04:09.040
+small talk can we make task flag equal to false in the model event listener because
+
+02:04:09.040 --> 02:04:12.480
+while creating a critic paper is an alt key should uh
+
+02:04:17.200 --> 02:04:26.480
+okay sure we can do that
+
+02:04:35.760 --> 02:04:44.480
+okay can we make uh yeah we have to install in the system some bit
+
+02:04:47.040 --> 02:04:48.480
+model event listener
+
+02:04:55.920 --> 02:04:56.480
+here right
+
+02:04:56.480 --> 02:04:59.840
+now
+
+02:05:05.920 --> 02:05:07.840
+it was add or remove
+
+02:05:11.600 --> 02:05:17.840
+just let me check that keyword because we have two things add and remove
+
+02:05:17.840 --> 02:05:25.200
+so
+
+02:05:27.440 --> 02:05:32.880
+this one you want me to update right add task flag kavi
+
+02:05:35.440 --> 02:05:39.200
+just rechecking with you
+
+02:05:39.200 --> 02:05:42.560
+so
+
+02:05:43.440 --> 02:05:50.000
+okay going back to while doing a model container
+
+02:05:52.000 --> 02:05:53.040
+model container
+
+02:05:55.600 --> 02:05:59.200
+no this will reset it let's say i launch this
+
+02:06:01.440 --> 02:06:03.760
+no when i create it
+
+02:06:03.760 --> 02:06:09.920
+it okay this is breaking then all the time
+
+02:06:15.360 --> 02:06:25.120
+okay did i make some error 152
+
+02:06:25.120 --> 02:06:34.480
+okay fine this is working fine thanks kabir
+
+02:06:40.800 --> 02:06:48.480
+no thank you so even if you want to set up the git right you can go github
+
+02:06:49.040 --> 02:06:56.640
+uh tutorial i guess github tutorials you can go github docs
+
+02:07:03.840 --> 02:07:09.840
+let's say you can explore documentation but download github
+
+02:07:09.840 --> 02:07:21.600
+you can check here like how can you download how can you play around with this one okay
+
+02:07:21.600 --> 02:07:24.000
+github installation and setup
+
+02:07:28.080 --> 02:07:34.080
+guys any other things that you want to point or likely can we end the session today
+
+02:07:40.080 --> 02:07:44.080
+so
+
+02:07:44.320 --> 02:07:46.320
+you
+
+02:08:03.840 --> 02:08:08.160
+so i don't see any other doubts guys so i'll end the session today here
+
+02:08:08.880 --> 02:08:16.640
+so thank you for joining enjoy the your time thank you pendra hope you enjoyed the whole project
+
+02:08:16.640 --> 02:08:22.400
+project can band board so you have some homework part to be done on this if you're not able to do
+
+02:08:22.400 --> 02:08:26.640
+even then i can help you out building the search bar because it's straightforward as i've told you
+
+02:08:28.400 --> 02:08:33.840
+try it out do let me know let's meet back on the tuesday's class where we'll do actual machine
+
+02:08:33.840 --> 02:08:39.840
+coding rounds because web development can be learned through projects but in interviews
+
+02:08:39.840 --> 02:08:45.520
+something that you would be tested on is like machine coding rounds okay so let's meet back
+
+02:08:45.520 --> 02:08:52.800
+and explore them okay so take rest solve the assignment problems let's meet back guys
+
+02:08:55.600 --> 02:09:00.800
+so thank you for attending tuesday's sessions i'm stopping screen share see you on tuesday guys
+
+02:09:03.920 --> 02:09:04.000
+you
+
+02:09:07.520 --> 02:09:08.000
+anyways
+
+02:09:33.840 --> 02:09:35.840
+You
+

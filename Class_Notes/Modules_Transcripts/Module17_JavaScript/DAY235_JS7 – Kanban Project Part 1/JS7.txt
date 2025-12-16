@@ -1,0 +1,1676 @@
+hi good evening how's everyone doing hi muneshwara good good great guys let me share my screen
+do let me know if you can see the screen share it was great i mean it was great i think you
+can see my dp it was one of the haldis dp i'm not able to share my screen guys give me a
+second i need to rejoin the call maybe asa asa i didn't invite it uh it was all like yeah we
+would celebrate it if you if you are here nearby hydropad yeah yeah sister's responsibility is very
+yeah like it's big man like big thing right here okay sure let's meet someday then some talk or
+somewhere and catch up guys i think i have an issue from you know sharing the screen
+i'll join back in a minute okay then we'll continue with the class give me a second
+you
+uh guys recheck again i'm visible audible right uh let me try to share the screen again
+hopefully this time it works
+so uh did you guys enjoy the teachings by shashwood are you able to catch up with the
+concepts that he was able to uh like understand it okay can we share some with uh can we revise
+wait once so we'll have uh one whole like three classes for a sink event i will be covering them
+in depth something so no need to worry uh we'll be covering them in depth once we
+okay do you feel still there is a network issue guys anyone still facing uh facing network issue
+feel like there's a network issue
+okay in past class okay uh no worries so uh let me try to
+rethink okay yeah uh is screen share working fine guys are you able to see
+i ask visual studio code being shared cool so let me connect with my ipad too in a minute
+we are on time
+hey kenny can anyone drop a ping in whatsapp group so that because it's a continuation you know
+classes next day classes will be building one project together applying all the concepts i
+want everyone to be there so if you have any doubts from the previous sessions we'll be able
+to cover that's the reason why i'm pushing bit uh give me a second
+so
+so you can see you see my ipad too right right great okay uh
+uh so can we get started guys are you all excited for one of the final projects
+in like from html css javascript point of view one project keeping all of them together in depth
+we'll see what how how much we are empowered now to build what sort of projects we can build
+okay so we'll try to see of all of them so before that uh give me a second i need to open few of
+the sites from my side i have my notes actually written
+so does anyone earlier have heard about this keyword called kanban board
+board
+really anyone came across this keyword called kanban board if yes can you guys tell me like
+what is this all about like what do you know about this one like kanban board jeera okay great
+anything else guys
+so guys are you able to hear a fan sound you want me to shut it down
+uh is my voice clear
+okay great great so jeera now so did anyone came across something called to do list in their life
+any applications that you see related to to do list right so so can i say something like uh
+tracking tool of your task
+this thing comes under those categories right something which manages your task and whereas
+jeera is a uh one product solution a product used to
+to manage project development
+so this is enterprise based an application where uh you know we have our own to-do list like when
+you start a day you might have a certain things to do it uh but when you go for the project level
+thing right there are too many things to address too many things to handle so what jeera jeera is
+a tool given by atlassian they have prepared to build this one end to end they are the owners
+for this one so what they give is they give you an ability to run a project like whole end to end
+life cycle like maybe from the inception to the end it will track whole things it will help you
+to divide them into sprints have anyone come came across words something like agile or sprints or
+anything have you heard of these keywords okay yeah so this is something like a to-do list now
+let's let's let's see this like how this works uh let me get the browser open uh give me a second
+like let's say if i show you a example of canban board
+if you see these are like uh uh like canban board now if you like a simple example is to-do
+in progress and testing and done this is a process of a development that happens right
+once you are given a task you do complete the development uh like i can open a picture from
+here let's see but this picture is visible right uh there should be a picture of the
+uh but this picture is visible right uh they're showing me too many advertisements but this
+picture like generally it is a an application which helps us to drive the work okay that's an
+idea if i show you something that you're talking about uh the tool jeera like this is the tool
+like if i go by so this looks like some this way uh if i zoom it in uh let's say if i zoom it in
+uh if you see this in jeera also they have to-do in progress in review and done so there are four
+stages for everything there is a four stages now we we are going to build some you know a prototype
+which is uh based on this like uh an inspiration from this uh a board which will help us to you
+know manage our task and apply the concepts that we have learned so let me show you the uh you know
+a built already built app give me a second i'll launch that app and i'll show you what we are
+going to build it projects uh second guys i am trying to launch the app i'm trying to launch
+from a different repo as of now so okay this is something a weather app that i launched but
+did you guys got you know everyone understood the weather app right how it was built
+right okay great now so if you see this is a kanban board that looks like now these are the four
+filters firstly this is a navbar section on the top whatever you can see a navbar section so this
+is again an inspiration for a to-do list whatever a to-do list with a better features okay uh maybe
+you can improve on this but this is what we will be learning where we allow where we'll apply all
+the knowledge okay now if you see these other filters firstly in order to create tasks one
+user need to click it on a plus once you click it here you will be able to enter whatever information
+is related to task let's say if you want to create a task considering scalar life cycle like if you
+when i say scalar life cycle uh let's say first thing that you would do is attend the class right
+and let's say i select this color pink setting the priority now i'll tell you talk about the
+colors that what we have understood what we have decided through these colors you can change to
+text later on but now once you select this and i click the shift key uh give me a second
+okay this isn't okay now if you see what just happened now i have created a ticket now saying
+a ticket now saying that attending a class now if you want to edit this content like editing the
+content of a class like whatever task you have you have a lock button once you click a lock button
+you would be able to edit the text like you can add anything in jeopardy you want to add
+and once you do it you can also lock the back lock it back so that the edit is done this is
+working like an edit button okay is that clear guys till now like how can you create a ticket
+and how can you uh like edit the ticket so two functionalities one is creating a ticket
+editing the ticket now third functionality that i'm talking about is like if you see in the jira
+board or the kanban board you have different statuses like to do in progress in review undone
+now how we are managing them in our application that we are going to build is that like if you
+see this pink color bar if i click it it is going to green then it is going to sky blue then it is
+going to black okay so we are saying that whenever we are moving it from one status to other status
+it generally meant that we are moving the task like let's say task from this stage to this stage
+this stage to this stage like one stage to the next stage is that clear guys like what this color
+palette is talking about like whenever you are clicking here you are able to change the color
+and update the status of the task that you have created now once let's say once you have created
+yeah we can we can add multiple tasks i'll show that once you have created you also have an
+ability to delete the task how can you delete it in order to enable the delete right in order to
+enable the delete first you have to click cross button once you have let's say when you click the
+cross button delete button has been activated it says now once it is delivered and activated
+you go on anything and click on it like on a whole other task anywhere you click it it will be deleted
+like again you can stop the delete button okay again is that clear how delete works
+now let's try to create a multiple task let's say let's say i say this as a task one okay pink
+status and now task one is done let's say i create again a task two okay
+uh let's say i edit it i add content as task two
+and i close it now let's say i have something like task three now let's say i'm clicking the
+shift key guys that's why the ticket has been created but i'll show you why i uh choose switch
+uh shift key instead of enter key for creating a task but i'm just like now i'm trying to create
+multiple tasks task four uh and pink and shift key okay now if you see this i've created four tasks
+now let's say i move the task one to in progress let's say green is something like in progress
+and we have sky blue and let's say this is green in color now let's say this is completed if i move
+to black it is meant to be completed now when you move this way uh like when i move this way now if
+you want to filter out which are the in progress tasks like you need filter right uh what are the
+completed what are in progress what i have complete like status if you want to see filter by the
+status now these are the filters like if i click the pink i'll be only able to see the one task
+if i if i want to see only like green i'll be able to see this task if i want to see sky blue
+i will be able to see one task if i select black i'll be able to see this one but if i refresh
+now i'm able to see all the task is that clear guys how filter works
+yeah yeah yeah yeah kiran that's that's where i'll give you a lot of homework and task for you to in
+order to improve this application i'll give you as many uh pointers that you can work on because i
+want you to you know paste this in your resume uh improving this application because this task
+is also borders are not clean you can make it that instead of this delete button you can
+delete button you can give edit button actually but i'm giving you the knowledge and functionality
+it's up to you how you want to make it much more experience a better experience application
+okay how can you improve the experience okay now the another thing that we are going to learn here
+is that if you see even after a refresh right we are able to persist the data right any guesses
+guys how we are able to persist this data like if you see even if i'm refreshing the task i created
+somewhere i'm storing in memory those are not being refreshed those variables those tickets
+are stored somewhere any guesses where yeah database is a right thing and in browser we have
+certain kind of databases like as some bit says there's something like local storage that is what
+we are going to explore here if you see here if you come here in the applications part there's
+something called as local storage which we will be using to store the stickers if i expand this one
+if you see i have four tasks for four tasks i'm having the color task information in the ticket
+id ticket id is a dynamic id first create generated for each task you create is that clear like what
+we are going to learn and what what what's context of this project is like did you understand the
+workflow like what we are able going to build in next three classes now i'm going to take it
+everything slowly guys so slowly such that if needed any topic to be revised i'll try to cover
+that and you know move ahead step by step okay now let's go back to our ipad write down the things
+that we have understood okay now okay now let's say so firstly i'll talk about something like color
+priorities that we have created
+that colors we have given four colors this is something you can improve on
+instead of colors uh no worries i just started talking your project i still didn't code it
+anything okay so the colors that we have uh given in the project just will will check the or like
+i'll define what they are talking about let's say task which task to be done
+like let's say they are in black in color and then we have something like task in progress
+then we have something like let's say not by black in color let's make since it's a starting
+red light pink and instead of light i'll write green then let's say task to be validated
+right blue
+task
+which are completed
+a black in color right so these are the classes like these are the tasks like colors that we have
+decided just now i've shown you all the different colors when i say pink in color it means to say
+that task is which need to be complete or like start working on once you start working on
+anything let's say this is a task is currently working progress so you'll be seeing the green
+in color and to be validated task is done but it needs to it's need to be reviewed which is task
+one and if it is completed it is black in color are this point clear clear guys like what this
+color priorities are talking about now now like i'll talk about some of the you know theory concept
+about industry standards about how actually development goes okay let's say i coin this one
+as something like industry standard like when you go and join any firm could be a bigger like i'm
+talking from a big organization perspective startups may not have those many roles but let's
+say if you go from one great organization what how the how does uh you receive and what's your
+role going to be in future if you join some good good comp like i don't want to say good company
+but a great big company okay now so firstly there are the three teams that are involved
+okay one team is called as product then the other team is called ui ux then third time is called def
+or engineering team
+i hope everyone have heard this keywords earlier right like ui ux engineering team qa
+qa comes under dev somewhere so if you come at my office there is no role for qa it's something
+that we do it we write automation tests we write unit tests we write we do qa and everything is
+done by developers developer when you say all on developer you are responsible for the
+features that you are building that's where ownership comes into the role in product
+okay so now i'll talk a bit about uh product now product is a team who are actually let's say if i
+talk about atlasian jeera right this team jeera team our product team will be discussing like how
+can they can add more features or how can they bring uh do better or how can they improve the
+existing application so they think from product point of view like what we can add let's say
+they are giving us tasks filters editing timeline dates and everything like if we go for instagram
+you can update a photo update a video update send a reel create a reel like send messages
+so this all like uh you know requirement gathering part those things are done by
+product team so these people are someone who gathers requirement
+is that clear who is the product team in general i hope everyone
+okay
+right now once product team gets those requirements right they discuss with something called as
+uiuxt these people are responsible to understand these requirements and build something called as
+wireframes
+wireframes
+or they sometimes say figma screens and figma is a really
+industry's uh leader you can say too has anyone came across this keywords wireframes and figma
+screens right so once your product information requirements are ready they see how can they
+can build user experience when i say user experience i mean to say that
+what would be the flow of an application okay then or you can say user interface if it is a
+one screen layout okay so once uiuxt is ready requirements are ready then once this all things
+are spoon-fitted to us about the requirements and the journey then comes solutioning
+by engineering team
+so mostly when this wireframes are also built right one of the leads are involved to say what
+are the feasibility whatever they give we might not be able to build because we have certain
+limitations okay but this engineering team is who builds the idea once this idea is gathered
+wireframes are ready we are we are supposed to build it okay is this clear guys like how what
+would the actual workflow when it comes to a front end developer or like how does in industry it
+works happen works okay so once this is done now let's follow the same process let's follow
+the same process uh let's let's say firstly we'll we'll act like uh let's say we are here
+wearing a hat of a product we say that we note down product requirements
+we'll try to make notes of all the requirements so first can we we need an ability
+to create task
+and add status to it right
+add status to it right
+we are able to create task and add status to it like color maybe any color selecting
+then ability to edit the task
+then ability to filter
+task depending on status
+then ability to delete the task
+so
+post-completion
+and the final requirement is browser should be
+able to
+store task
+and it should process and data should persist
+right these are the features that we have discussed initially right do you guys agree
+this is something we are going to build
+this has something we are going to build
+let's give me some reactions if you agree
+so nice so these are the things that we are going to build in all upcoming like next class
+in today's class now once this is done let's say this once this product requirement is done we
+have something called as wireframes okay now i don't have figma tool or i'm not good at that
+but i will design wireframe here in the ipad using my bare hands like just to understand
+it what we are going to build okay to just show you what happens in industry okay like
+if you see wireframe we have something called as a clean layout let's say i down a bit below
+let's say this let's say this is a screen that we have inside the screen we have two things
+one is nav bar inside this nav bar we have something like you know a filter color filter
+okay now inside this color filter we have four different colors to filter depending on the status
+of the task the same way we have two buttons one is like let's say
+a plus then a cross now once this is done then we have something like
+ticket creation one let's say this is how you can create a ticket inside cricket let's say this is a
+ticket firstly you have ticket status then you have a unique task id then you have content of
+the task okay when you go for like when you go for creating a ticket let's say you have here
+where you can enter the information then you have four colors okay now let me write down all
+those things what this is talking about okay firstly this is something like let's say if i
+say toolbox because this is allowing us giving us a multiple tools or you can also say navbar
+okay this is create a ticket button
+okay and this is enable delete
+ticket functionality ticket button let's say right then these are the filters
+then you will have something like ticket status
+here you have ticket id
+let's say ticket content
+here you have something like enter your task
+like enter your task
+like let's say task content
+then parallelly you'll have status of the task
+right this is how y-frame looks like this is what we are going to build isn't it
+like on a top level what if there is no ticket what if there is no ticket then you won't be
+able to see this one and this one both when so it's just that what what are the all possibilities
+things they give you you try to sit with them and understand it and then you get started okay
+okay
+now once this is clear we'll get started with you know what is the third task guys
+once your product requirements are ready wireframes are ready to start with the dev work
+okay now so in the development part let's say
+okay
+we'll cover today developing the screen we'll develop whole the screen
+and we'll do css part html part we'll get started with one small functionality using js
+but we'll pick we'll pick functionalities one by one in the later stages is that clear guys
+what is going to be today's agenda from the development point of view
+great now it's time to get started with project okay
+okay
+great so let me move to vs code give me a second guys
+right
+okay
+now i created a subsection in the projects i'll be supposed to move weather app inside this i'll
+reset some of the changes i'll make some changes in the repo but firstly i'm creating three simple
+files index.html style.js then let's say
+sorry style.css
+then let's say i have script.js okay now let's go to index.html
+and create some simple html let's say this one as can band board
+once we have defined the scan band board now let's connect this you know styles using link tag
+so i have give relation as a style sheet and also i'm trying to link style.css using the current
+okay now in let's say i just to review this one right i'll have a one div container
+inside that i'll say can band board i'll open this in the live server
+okay let me go back the browser
+so this is our project as of now okay now so firstly what we'll do is that we'll try to target
+building something called as this snapper sort of thing that you can see it here
+okay we'll focus on that one now let's say when when we are focusing on this we'll say this
+as a container a container called toolbox container now let's say i have div
+toolbox container when i say this and i click enter
+oh once i click this enter now once if in this we have two things in this we have two things if
+you see from the wireframe or the perspective here you have something filter and now one action
+buttons now let's create this two other containers inside this okay one thing we'll call it as
+toolbox priority container so like we're filtering it based on priority so i'll say
+priority content this is one day then we have something like second thing is called action
+button container because we are we are acting on it whether creating a ticket or you know
+giving an ability to delete a ticket right so these are the two dips inside this now
+once we create these two dips now what we'll do is that inside this we have four colors
+right four colors are different palette colors so for this one what i'll do is like i'll just
+create four simple dips with different css classes i can say light pink
+and let's say i can also say deaf dot light green
+then i can also say they've got light blue then i can also say they've got black
+okay so if you see what i've done here i just created the four things that we have if you can
+see here we don't we don't see anything on the screen but what we can do is we can create
+anything on the screen but what we can do is like if you want to see anything on screen you can write
+pink green blue or black let's say instead of this one i'll say completed
+then to be validated
+okay in progress
+to be done okay now if you see i say four things here but let's try to make them but let's add some
+css to it okay what i'll do is i'll divide them into two screens such that you know we can we'll
+be able to see it parallely i'll close this one i'll close this one as of now i hope screen is
+visible right guys to everyone
+okay done so now we'll get started with a few of the css okay now one of the first thing
+you guys have to explain to me if i write two things what i'm generally trying to address it
+okay let's say i write universal selector hash trick and then i say something like box sizing
+to be border box and let's say i give margin as zero then padding as zero
+can anyone help me out what is this all about
+what this will do
+what's this box sizing border box or margin padding does
+is remove the default css which are coming and try to you know address width and height
+whatever i'm giving it don't add it separately right like hope that concept is clear now if
+you see it is starting from top left exactly without no space like to be done okay now going back
+next thing if you see here in the firstly like this all this task like to be filters are coming
+in horizontal line isn't it firstly first and first most thing and we know how we can convert
+a vertical divs into horizontal guys can you help me out with that
+okay now let's say i'm writing a you know separator so that you can remember it now
+for display effects i should select this class right toolbox container inside the toolbox once
+i click this and i do display as flex once i do this but by default flex direction is zero so
+by default flex direction is zero so it should be converted into row let's try to review this
+okay this uh it didn't work uh maybe i did i mess up okay i need to apply onto this one
+not that one right okay if you see go and see these are converted into horizontal
+is that clear guys like this is really basic one that you have suggested me but now what i'll do
+is that uh firstly i'll add two toolbox so that we can see all the things that we are applying
+okay some of the default styles i'll give it i hope you will be able to understand that one
+so first thing i'll do is like if you see one of the uh like i'll add something like a background
+color okay and i'll give something like hash uh 4b 4b 4b okay
+okay now once i give this black background color let's see this this is coming as a background
+now let's say i give some this parameter you need to explain me what is the value in terms of pixels
+if i give it as a fire what could be the value in terms of pixel
+what would be the value of in terms of pixel for fire
+let's think of this one
+yeah 16 into 5 80 pixel right so i hope everyone understand when i write rem what i exactly meant
+in terms of pixel okay now now if you see this particular task right this particular task
+are having two containers now let's say i i go to the other container let's say we have some
+differentiation right like if you see this hash color uh this ash color this hash color a bit
+different there's some change color change so let's do that okay firstly i'll go and select
+this action button container let's pick this up and
+okay let's pick this up now inside this container what i'll do is like again i'll give some height
+let's say give it height as a uh let's say uh firstly i'll give a height to this container
+firstly to visualize this one say height as 3.5 rem then i'll also give a background color to it
+a common background color for both one hash 3d 3d a 3d a better darker version that was a 4d 4d
+4d this one was a 3d now in order to keep this both boxes same i'll give same 3.5 rem and
+background color as like hashtag 3d 3d 3d okay let's save this and if you see you're not able
+to reflect this one isn't it we'll see that why it is not happening exactly because it is
+completely consuming box as of now we'll come to this step by step okay now
+once we did this uh let's say i gave also i'll have some width to each of the item let's say i
+have width in terms of 18 which is really big unit but we'll see if this is suiting us suiting
+in right way now after being display flex if i need to put them uh let's say if i go back okay
+okay this there's something that happened uh let me zoom out a bit it's a 250 pixel uh no
+uh we won't be able to see it right away let's do something guys firstly i'll comment this for
+some time now if you go back and see you can you guys see this like uh if i try to
+these are the four boxes content that we are able to see and we gave that a particular height
+and a background color and we made display flexor center but do you see this content is aligned
+as we needed like this is in between right if you see from the y-axis point of view it is in the
+center isn't it from the y-axis point of view now how can we move that into the center from y-axis
+from y-axis how can we move that from y-axis as a center anybody
+align items right let's make align items as center no let's see this if this is working
+now do you see this there's a space in top there's a space in bottom too isn't it
+the space in top and so is in bottom too now second thing do you see space equally equally
+distributed on the left and right of each color left and right of each color equally distributed
+equally distributed left and right color for that on the horizontal axis we'll do justify
+content i wouldn't be doing it to center some bit because
+space event rightly rightly said so you have space around space between space evenly when
+you go for evenly it will be evenly around each box space around i'll show you the difference
+of space around also like but can you see this uh now let's say i go
+and let's say let's wait let's try to uh firstly let's give some color to it let's remove these
+names as of now the width is not enough uh and what i'll do it here is that in order to improve
+this one just addressing width will be fine but i'll try to address uh yeah space around can be
+used too but i'll come to why why i'm going with uh space evenly some okay now let's do something
+let's do something we have this colors right let's give them some colors okay let's take this class
+light pink uh inside this color i'll give something like background color
+i'll say background color for the light pink uh let's say light pink
+okay now after that you have a light
+green background color as light green okay once you have this then you have light
+blue once you do this let's say background color
+uh light blue
+okay now then let's say i i say something like uh black
+background color to black
+okay now what we have done here is that just now we have given some background colors and
+i know uh to each of them i'm getting a call guys
+okay uh go back now if you see there is no color being applied why kiran says that we haven't provided
+uh like height and width we can use it some that we can use it you can you can build customize your
+result experience as as you need it so we have to give height and width to each of the box so what
+experience as as you need it so we have to give height and width to each of the box so what i'm
+doing is that since height and width for each of the box will be same as we see in the uh like
+you know prototype app that we have i'll try to add a common css color class here let's say i
+create a class as a color okay
+inside this color i'll just go and say hey to all classes which have property as color
+we'll add some color now let's say i i i mean i mean to say we want to give height let's say
+let's say 1.5 rem since each uh this whole container is 3.5 rem i'm taking 1.5 rem as a height
+and let's say i also take some width for it uh let's say it as a 3 rem since 18 rem is whole
+space we have i have four boxes in it i'm seeing that 12 rem of boxes and other spaces around
+between them and around them okay now let's say let's see if this is working fine
+okay this is clear guys how i'm able to replicate and build this one
+because you yourself has suggested me how we can build it it's nothing as nothing unique thing i
+have done here okay as i told you it's a revision of all the concepts we have learned we'll apply
+all of them now but do you see there's something happening here when i hover over it there's some
+color is coming on when i'm hovering over each of the palette right do you see this
+right so we'll try to uh you know try to work on that part now let's say we go and say hey
+on color hover whenever you hover over the color i want to give a different background
+so i'm using a pseudo selector color then i'm going for the background color and let's say
+i say something like hashtag four eight five four six zero okay now
+now let's see if i'm if you see this this is up line is this fine guys how this is working
+this is up line is this fine guys how this is working
+yeah great now
+now i want to show you something i want to show you something like if you see this colors right
+if you see color uh is being duplicated this 4b 4b did we use anywhere no
+uh toolbox container we use 3d 3d here okay i'll come to that part when we replicating the color
+okay now but we have completed till now the css and html part for this particular thing now we
+haven't moved them down but if you see we haven't moved them down or aligned according to this
+aligned according to this particular thing right this navbar background so how can we do that
+which part is preferred kiran i would say go with the css part because mostly pseudo
+selectors are given for that reason itself js is compiled and executed later on later of the time so
+it's better if you can give it with css because ultimately when you try to do act like hover
+it is come it is converted into css then rendered onto the screen
+thinking from the thinking from the part of rendering perspective guys coming back to my
+question if you see here this is not aligned as we needed from the top or the left side can we do
+something here to fix this one can we do something here to fix this one let's say if i go back here
+into the toolbox container can we make it them display flex and align items to the center
+so that there's a vertically centered right for if you see after applying that now i if you see
+here some let's say this is fine we'll come to horizontal one in a second you can always you can
+give also like justify content uh let's say for a while let's give justify content as uh space
+space space evenly fine works now since you have only one event you won't be able to
+like if you see this it moved into center but we'll address this one slowly but is this fine
+guys any doubt till now any doubt till now what we have built did anyone face any challenge
+understanding this one okay great now now i'm going to introduce guys uh
+one thing uh like anyone heard a word called font awesome font awesome
+did anyone came across word font awesome okay let's say if i go to font awesome i'll give this site
+uh
+okay so
+guys the here i want you to you know take the site and do one thing like enter your email id
+and send embedded code kit okay just if you see it here if you just see it below you will be able
+to see the steps that we are supposed to do okay we are we are supposed to do okay what it will
+does it like it will give you once you enter that as per your email id it will give you one script
+tag i mean you don't really need it but if you are customizing it's supposed to be you generate
+your own script tag from the font awesome site you can do it i can help you in the doubt session
+if anyone want to screen share it because i already have it i'm not trying i'm not able to
+you know redo that step is that fine guys it's just that you know the same things are written
+here in the steps two steps first two steps okay so what i'll do it here is that i'll paste that
+same script that you will be able to generate it this you will be able to generate it kit.font
+awesome.com and this is my id and i'm trying to download the javascript code this is like
+dynamic id and the file the you know file name is dynamic file that i'm getting okay this is
+something you'll be generating it now once you do this once you do this if you go to icons icons
+page and you try to search here like let's say if you see here we need something like plus icon and
+cross icon okay if you see here we need plus and cross icon something here it's like you also have
+our docs in order to explore you know all the different things like what are the things that
+you need like like you can say that use a kit how can you start with the kit you will get the
+information completely explore this one this is just you know a freelance website which allows you
+to use yeah it's a freelance website open so like where it where you are allowed to use icons
+okay free icons because you cannot design icons right for each of your own project
+so let's say if i'm giving as a plus and i try to do a google search if you see here i'm able to
+get all the plus icons can you see this there are some of the free versions some of the pro versions
+if i select this first free version when i click here it if you see i'll be having multiple filters
+that i can play around with like making it sharp making it classic if you see if i'm making a
+classic i'm getting a rounded edges if i'm making it sharp i'm getting as this one okay and also you
+can you know change it a light like what type of plus you want so it gives you all the abilities
+all the abilities to do it and you can also as per your project you can also import it
+currently we are dealing with only html what i'll do is like i'll try to copy this tag
+once i click it here the tag will be copied so i tag goes for icon tag okay so once i go here
+and i try to create a sub def and the desk day will talk as like let's say add
+button inside this add button i'll try to paste this italic tag
+uh let's say i try to show it properly
+okay so this is fa solid fa plus so when i say solid it's in solid color filled color
+and talking about fa plus now can you see this fa plus being generated here guys
+so are you able to follow what font why i am using font also in my you know i'm using those
+icons and how would you be able to do it in case anyone faces challenge do let me know
+uh how can you import it okay you have to custom download the kit and then you can use it okay
+okay now after this plus i have something like a remove sign let's say
+let's i say cross
+so go for remove itself
+cancel yeah let's pick this x marks this is what we need now again i'm trying to copy this
+uh cancel yeah wonderful now if you see uh i'll go here again i'll create a def dot
+remove button or delete button you can say i am trying to paste it here now once we have this
+let's go to kanban board if you see this we are again getting them in a vertical
+way now again same display flex once you apply them it will be converted to horizontal
+now going back something that we commented earlier i'll try to enable that
+and i'll try to push it up between i and i apply display as flex
+okay align items so do we need an aligned items here guys
+think of it i don't need an alignment as of now but if you see this is how the box is created
+this is the kind of box that we are expecting
+okay now what could be the next thing now if you see
+now let's say for the both the child elements for the both this child elements
+we want to add some common properties we want to add for both of the child elements some common
+properties now just a question if i don't have a class like let's say class but for the all the
+children elements if i want to add some default properties how can i do that
+anyone what type of selector i can use it
+i want to add it to all the child children selector right now how that children selector looks like
+anyone
+greater than symbol right greater than now for the greater than symbol now if you see for this action
+button i want to give some common properties to all the child can i say hashtag since it's a when
+i say universal selector i would say that all the children to this parent element will apply
+this particular things isn't it is this point clear guys now same thing we can also do it here
+if you see color we added color here as a common property we can also remove this and we can say
+like instead of this color we can also say toolbox priority container
+let's say we can also say toolbox creative container and also sorry guys
+this both things are same isn't it
+pardon me so it's always it's an uh you know i'm just trying to show you what are possibilities
+again so i added at one place a common color at one place i'm using a children selector
+combinatorics okay here now for each of this plus and minus will add since it's these are
+containers we are supposed to give them a certain width and height okay now let's give them a width
+now if you see it here these are consuming 50 50 percent of width of this parent container right
+50 50 percent of parent container exactly 50 50 this one 50 this one you know so let's do that
+let's give width as a 50 once we give this uh now and when it comes to height let's say once we give
+this now once we give this 50 50 if i give height let's say if i'm giving height
+is 100 percent and let's go and see this one do you see any change here once i apply height
+no right so i'll show you something if you see if i go and select this part
+like like this add button height and width now so even if i increase let's say height of 200
+pixel 2000 pixel this no style height will be applied to this one reason behind for icons right
+whatever icons you see this if you want to play around with height you have to play around with
+font size because font is something that applies to this one now do you see this like the icons
+are getting bigger and smaller
+so so if you are applying any if you want to apply height to this but
+like icons you have to play around with something called as font size so instead of
+height i'll use something like let's say font size
+and let's say i use something to them
+now do you see that it has taken whatever width it needs
+now if you go and see it here if you go and see it here they are properly aligned and consuming
+the whole space firstly what i'll do it here is that uh let's move them each of item to the center
+to the center along the y-axis and x-axis if you see the both are on the y-axis on the top
+let's move them to the center both the sides
+align items center justify content center okay once we do this
+uh does anything happen here nothing is happening uh did i apply for right place yeah i applied for
+the right place
+okay let's give a width to this one a default width is also for the height we have given
+something so for this one i'll give something like eight rem once i give this width to a trim
+if you see these buttons are coming here but this align item justify content is not working
+because i didn't give flex right guys so that's how i give flex once i give this this is how it
+is working all right now once we have given this now if you see here this color of symbols are
+white in color now not in black in color let's do that i go back here and i say for the act this
+button two buttons both the buttons color should be white okay now both the colors of the this one
+are white okay now is this clear guys whatever we have built till now what we have built till now
+okay one thing i'll fix it is that when i'm using display flex like this property let's say i go and
+do let's say i select this container and on container if you see i've used space evenly
+even if i use space around uh things would be different if i give space between uh there are
+between uh there are not exactly as we want it okay there is a common space around both the things
+and there's an empty space on the right so this can be done by how we can achieve this case
+so you know aligning across the horizontal element is not working but how can we do this
+so we have discussed in the box model there's a one property which can help you to move the elements
+okay think of it guys
+in the box model can i can i see here margin left is equal for both of them
+because margin is outside the border isn't it so what i'll say it here is that hey i'll go
+onto the top i'll remove this property and i'll use something like let's say for the all the
+children inside the toolbox container for all the children whatever children you have give margin left
+a certain margin let's say i give four rem
+now let's go and see if this is we are able to reflect now are you able to reflect with the
+navbar that we have thought of initially building it and we have built it same thing right
+and do you see anything missing
+no hover right hover is missing now earlier uh someone asked me like can we do hover okay
+we can do over using js also uh who was that kiran you are the you are the one right who asked
+me like can we we can add hover also to js so i'll do that one hover through js once someone comes
+on uh like on a button i'll show you that implementation currently i can add that
+uh let's say but i can i'll show that through code too but how we can add it let's say
+for the all the things uh we go pick this one or the children i say this uh over
+background color let's say green
+green let's say i see this color no not green yellow but let's make this as a green
+is that clear guys as of now like we have addressed all the things that happen in navbar
+but we'll also uh see this how we can do it through code for this point okay now any doubts
+till now any doubts till now because i'm going to make some changes i'm going to make some changes
+no doubts right no doubts right now let's say have anyone came across this thing
+like what if i write colon root
+this stack colon root tag anyone seen anywhere
+open this is hi he has seen any any idea any idea what this does what this does
+so let's see let's see this like if i open in the colon root
+uh let's say this opened a new tab colon root
+okay uh let's say root selector
+uh okay now if you see
+they say that it selects a root element which is like a top level element in the css
+model which is syscom i'll actually i'm supposed to share your documentation if i had taken the
+dom i would have done it but uh i'll i'll show you what what i was talking about now
+this is a root tag when you come when you consider a like since you have a dom tree
+similarly for css you have com syscom syscom tree for that one initial in the tree right you have
+a root parent root element same way you have a root for css now inside the css you can declare
+all the types of fields that you want now those can be dynamically utilized like this is like
+trying to when you declare something in the root you are trying to reuse it like wherever you have
+duplication right whenever you have something like duplication like let's say do you see here
+background color four four four b is being duplicated or let's say three b is duplicated
+at least 3d 3d is duplicated right this both colors are duplicated right background color
+now how can you remove this uh like duplication code what you can say is that it's in going inside
+the root what what you will say is that let's say uh background for toolbox once you go and do and
+write it down let's say you give this value once you give this value let's say you go you
+copy this value and put it here once you give this value what you can do here is that wherever
+you want to use that value you can call a function here function is called as where inside that fire
+you are you are you should be you would be able to call this background for toolbox
+now let's say i go and replicate this one below where i'm using this 3d
+sorry above
+uh where i was using the here right here
+here
+is that clear guys like why if we are using root uh what is the use case like generally to avoid
+duplication of writing css now if you go and see whether it is working now if you see
+still it is working fine isn't it now same way same way uh like let's say i select some of the
+colors let's say uh i i'll improve uh like you know uh let's say instead of this light blue
+we have some color like let's say i use these two colors guys
+hash codes let's say i use this two hash codes now what i'll do here is like going for the blue color
+color i'll say that hey where
+blue let's say for green i'll use where green i just see i recreated this one to just show you
+that hey for how you can use the where uh function uh and you're trying to get all the variables
+declared inside the root okay now if you see those colors got changed like green and blue
+okay this is fine guys did you understand what i was trying to do here
+okay cool so uh this is it about the neighbor guys now if we have to get started with
+something called as not something called less but something that we want to build uh when you click
+on a plus this particular thing so do you need a break or can we continue
+okay we'll build html part of it then we'll take a break
+we'll build the html part of it when then after break we'll come back to the css
+okay if you if you are okay with my point can give me thumbs up
+the html part will be done in five minutes okay then we'll take break okay now let's say
+okay okay great uh i see great number amount of thumbs up so let's do one thing uh i minimize
+this toolbox toolbox container whole thing now let's go back to another diff called as
+model container because this is a model i'll say this as a model container inside this model
+container i have two things if you see one is text area and the other one is just what like
+color balance simple thing right now for text area i have text area uh let's say text area dot
+text area container i'll use this
+okay uh for initially i'll keep it as it is whatever the content they have given
+i'll remove it as of now i don't need these items okay and i'll add only one thing if you
+see go back and see what we have generated here this is a default container called as
+enter your task information okay let's add that a placeholder enter your task information
+ask information
+okay let's see if this is fine yeah we are able to see this fine now after this we have
+uh like a color one a different list of colors now let's say i try to uh since those are still
+same colors i'll what i'll do is that i'll copy it from here uh which i copied from here i'll
+change some css classes from the top here i'll say instead of toolbox i'll say these are priority
+colors container
+because these are the button clicks and statuses we want we want some unique name here that's the
+reason that i'm adding and i'll give some default like in order to change the default css one i'll
+change something like uh i'll add this keyword priority color
+that's it right guys do you see anything
+uh else you can do it here
+because this is what we have seen it just a text like text area then a different colors but all
+the magic will be done using css you cannot see the colors applied because we have manipulated
+the styles of it right
+so uh it's moving towards the break now how many minutes break you need it
+five would be fine
+okay so i'll add a five minutes timer we'll come back in five minutes and
+so today i believe we'll be ending class early we'll see that i mean when i say early for
+me it's like two hours 20 minutes 15 minutes or 20 minutes something around that
+yeah so guys take the break and let's see you see you back
+later
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+is everyone back guys
+and can we get started
+so great
+so let's get started with something
+you know designing this particular text area itself
+now think of it this one
+do you see I'm having resizing ability here
+like if you see here
+I have some ability to resize
+do you see that is available here
+no right
+do you remember
+that what we can do in order to remove that
+this right
+let's let's do that let's do that
+so firstly what I'll do is that
+I'll add a differentiator
+saying
+CSS for
+ticket creation
+container
+inside this container I'll select
+dot text area
+container
+inside this text area container let's let's add some CSS classes
+now as you suggested first thing that I do is like resize none
+once I do this resize none
+you see that I won't have resize ability now anymore
+but do you see this blue color border
+we don't need this blue color border also
+right
+we don't need this blue color border also
+so for that reason
+I'll add two more properties like you know border
+to none
+and also outline
+whatever outline you are having to make it none
+so when I do this
+if you see I'm having task information I can type it down
+as much I can want it
+but I don't have ability to resize or do anything
+as of now
+okay let's let's add some background color to this one
+let's add some background color to this
+and let's give some height and width also
+background color would be
+let's say like kind of light color
+DFE
+for EA
+let's say yeah
+this is the color that we want to give you see here
+this is the same color we are having
+okay for this one let's give some background color
+sorry height and width
+let's say I have height
+of
+hundred percent
+whatever height I'm having
+and let's say I also have width of 75%
+okay
+so what I'm trying to say it is that
+let's say when I do this I refresh
+if you see I'm having height of 100%
+whenever I give the height as 100% it will take
+whatever it needs it to the content
+when I give the width as 75 it is taking 75% of the screen width
+you see here we needed if you consider this as a box
+complete box we got the 100% height for this content
+and 75% width for this text area content
+is that clear why did I add that height and width
+to this particular text area container
+okay great guys
+so I see one thumbs up it will be more clear
+once I add few more properties to it
+let's say wait and see
+okay to increase the font of that information
+that placeholder we see right
+I'll use font size as 1.5 rem
+let's use this and go back
+let's see this yeah 1.5 rem
+this is fine
+okay
+now once we have this
+we'll go towards coloring this boxes
+priority colors container now
+going back
+let's pick this CSS classes in order to avoid
+mistakes and spelling so I'm trying to copy it
+so I select this
+and I give height again as 100%
+since I consume the width of 75% for text area
+I'll consume 25% for this colors
+okay
+now let's see this
+you won't be able to see any difference
+because colors are not even given a color
+okay now
+now once we have given height and width
+to this one let's give some background color
+that we have in common
+and this would be again
+let's say I have
+this particular toolbox container background color
+let's say background if I declare a variable as
+background color
+dark
+okay and keep the smiling
+and let's say I declare here where
+and I'll say background color dark
+okay and same thing I'll use this variable below
+now once we give this background color
+still it doesn't visible because for the elements
+we want to we need to give some height and width
+selecting this particular priority color
+common thing I'm just updating this color
+like height and width for each of element
+let's say height is 3 rem
+and width is 5 rem
+why did I give a separate naming convention for this one
+is that if you go and say evo color
+we have height and width as different in the filter
+and in the like the text part where we are covering
+okay if you go back and see
+this is what we got it
+is that clear guys how we were able to replicate this part till now
+guys any doubts in the CSS we have written till now
+just I've used 3 paths I've given some default styles to it
+so why did I change the name
+I kept all the CSS classes as common
+except common CSS class from color to the priority color
+I gave it as priority color reason is
+the height and width for this colors
+and colors in the toolbox are different
+because if you see evo
+in the colors we have 1.5 rem and 3 rem
+here we have 3 rem and 5 rem
+that's the reason why I gave a different name
+again I'll try to repeat each and everything
+give me a minute once I complete this
+next thing that we have to do is that
+something moving on to this particular level container
+let's select this container
+priority colors container we already have this
+we have given height width and this one
+then let's make display as flex
+again flex direction as column
+we want each of them to be aligned in the column
+because top to bottom
+and then let's say align items to the center
+and let's say justify content to space evenly
+same thing
+let's see this if this works
+yeah they are moved towards this one
+but if you see even though we gave 100% and 25
+the width it is not being consumed as we expect
+as we expect
+any idea why this thing is not coming on right of this one
+any idea why this thing is not coming on right of this one
+any idea guys why this is not coming in right of
+block level elements right now let's say
+if I select model container
+model container
+and if I make display as flex
+let's see now this is covered
+isn't it
+first point is that
+if I make display as flex
+now this is covered isn't it
+first point is clear like how did it work
+like moving from bottom to the right
+now I'll
+use some properties guys
+now do you remember
+let's say do you remember what is VH
+and VW
+units of CSS
+view height and view width
+it's like viewport related height and width right
+I hope the concept is clear for you all like if I'm going to use
+let's say I say height of the container
+whole container should be 50%
+of view height of the screen
+I'll also say that width
+should be 45% of view width
+do you understand
+when I declare this height
+and width are you able to understand what's going to happen
+behind the scenes right fine
+now also I'm going to
+use a property now let's say
+a background color I'll give us some background color as a
+let's say light salmon
+okay
+once we give this now if you see I
+was able to create this one
+I don't really need to give
+background color
+as of now
+like height is 50 VH
+and the text area container is consuming 100 colors
+also consuming 100
+75% width is for area and 25% width is for
+colors that's what it is looking like isn't it
+now comes the role
+of making it to look like a model
+now do you guys help me out
+this is the default place of
+diff but if you see
+when I'm creating when I'm trying to click button
+here this is coming in between the
+page but actual place
+where I'm declaring is like when I'm writing
+HTML is below the toolbox container
+how can I move that from
+one layer to the next layer
+just answer my this question how can I move them from one layer
+to the next layer position property right
+and which position property would be really helpful for us to move them
+around the whole page
+absolute guys absolute
+with respect to page right
+with respect to page now let's say if I give
+let's say if I give some properties like
+going back here
+relative is always going to be relative to body
+even if I use your relative that would work fine
+because relative would work with respect to parent
+for this model anyways relative is like
+body right according to body it will
+that's also works fine but go with the right
+yeah
+if I give absolute and
+let's say if I give like top
+hey move it from top 30 percent
+and move it from left
+27 percent
+let's see what is the change we are getting
+do you see this
+this is moved from top like
+wherever the element was there from here to 30 percent
+and from left 27 percent
+this is clear to everyone right no one is having
+any doubts how I am able to achieve this part
+now this is on second layer right
+what if let's say what if when we create a tickets right
+when we create a tickets now if you see this tickets are there
+this tickets are there but even when I am creating
+this model this is coming showing on the top right on the
+over the layer how we can ensure that this can be
+this should be on the top set index right
+right so I will use set index property
+and I will say for safety side
+I will make it as a file anyways by default
+zero for the other cards I will make it as a file that works
+so I hope this this property is also clear why
+I am using this
+now does it look same
+guys isn't it
+it's looking same isn't it
+only one thing
+is like whenever you selected there is a something hover
+property that will cover it anyways in the code
+while we are coding it ok I am not adding it here
+wantedly I will cover it on hover how you can do it
+ok now
+now comes
+once we have this
+let's do something let's do this one
+let's do some JS part let's do some JS
+part coding
+so before going to JS let's link
+JS file ok let's say that I have
+a script source and say
+I have the script.js
+now guys our interesting
+task would be let's say I divide this
+I pull this here
+and now
+the problem statement try to
+listen this problem statement clearly now by default
+even if I load it you can see the overlay
+coming up right
+everything is there right
+we want to make this toggle
+on click of this plus button on click of this plus button
+we have to make it toggle like when you click there
+when you again click plus it shouldn't be there
+that is what we have to do now if you see
+there is another thing like when I click outside
+it doesn't go when I click only plus it goes off
+ok on off like switch on switch off
+ok now we have to achieve that
+now you guys have learned DOM
+operations now you guys have to suggest me how can
+I do it because I am trying to listen some button
+here how can I listen to this button
+just think of it I will open the HTML part
+you guys suggest me now if you suggest me quick
+add an event listener
+to which part to which part I should add
+add a listener
+button plus button right let's say I build
+something like const button add button
+and how can I
+get an access to that button firstly how can I
+get an access to that button
+how can I
+document dot query selector great
+document dot query selector once I do
+this query selector
+let me move this code base bit this side once I have
+this query selector what I have to do
+I have to select add button
+class that particular div
+that we are targeting isn't it
+no
+second thing
+which thing you are toggling
+which thing you are toggling
+which container you are toggling what is the
+we need a reference to this one also
+model container let's say I create
+a reference to that one also let's say const
+model model
+container
+document dot query selector
+model
+container
+this is clear right
+now for add button
+I am adding a listener click
+now I have a problem statement
+again now you guys suggested me that
+add an event listener
+ok
+thank you
+guys now you suggest me
+how can I toggle this
+how can I toggle this
+display block great
+but
+for toggling we have to toggle display none right
+and for this property model container
+we have given a default property
+if you go into model container
+we have given a display as flex
+we have to toggle between display flex and display none
+right first point that point
+is clear we have to toggle between display flex and display none
+for on of model
+great now now comes
+the actual code part this is just a small
+one liner problem statement add a toggle
+event
+if we don't have that
+if you don't have that how would you toggle it
+it's just a if else condition right if else
+condition let's say if I
+if I think of it this way in terms of
+code let's say if I have a variable
+add task
+flag I'll say I'll I'm having a flag
+I'll say by default it is false
+ok and I'll say that
+if add task flag
+is equal equal to triple equal to true
+then do something or else do
+other thing
+by doing this thing what I'll do is like I'll say model container
+dot what should I do guys
+if I want to change this style
+I can use inline style right inline style
+style block
+style dot display
+only if button is on then use
+like this one or else use it not
+flex
+ok now when
+user is clicking this when user is
+clicking this we are toggling this add task button
+let's say when we want to toggle this particular
+thing I'll select this one I'll make it as
+whatever value is there update that value
+with the negation of that
+is that clear guys like how did I
+write this logic why did I use this part
+ok no no going back
+going back to style
+going back to styles.css by default
+do you think the style should be flex or style should be
+none for this model
+by default
+by default the overlay shouldn't be available right
+that point is clear no
+let's say make none
+ok by default this should be no
+coming back so when
+I say none when
+user like let's debug this I'll show you
+step by step ok when I debug this I'll show you step by step
+going back to project now let's say click this
+the task is working fine as of now
+but I'll show you how this is working for the people
+who didn't understand the conditional logic how it is working
+whenever I refresh it
+by default this code is not executed
+until unless you click this button because this
+button is listening to a click
+when user clicks it only then this code will be
+executed so a by default when the page
+loads the flag value is false
+we are making a negation and making true when we are making
+a true the model whatever model
+is there container which model we have here that's
+element in that model container
+we are toggling it we are adding inline style
+that make it a display as a flex
+if you see next line will be executed this one
+and we are making it as a flex now
+once I click this again if I click this again
+now the true value will become false and it will make it display
+as none is that clear guys
+how that is working
+ok so
+if this part is done
+any doubts guys any doubts in the whole class
+that we have discussed till now any doubts in this whole class that we have
+discussed
+no right ok now let's say
+I will make a comment as tool box creation
+now what we will do is like we will create a
+dummy ticket and flag part once again
+open the unit again once again ok let me explain you
+here it steps step by step by default
+for this model container right whatever model container
+is there default the style is none
+so whenever your js file is loaded
+the flag at task flag is false
+so you won't be able to see anything on the screen
+once user is clicking this button
+I am making it as a true and once it is true
+I am applying the display as flex else
+I am making it as a none
+is that clear like open the
+ok simple
+now let's build guys
+if you see only the part
+which thing is left is like
+what we will do is that we will just build
+this static ticket
+we will make it dynamic in the upcoming classes
+but we will build a simple html part
+for that one though this html part will be coded
+from javascript I will show you one basic ticket
+how we can do it ok
+now let's go and build a
+div.main.ticket
+container
+let's say say this I have this container
+let's say I create a ticket container
+div.ticket
+container
+ok inside this ticket container
+if you go and see we have three things
+one is color one is ticket id then you have ticket
+information right three things basically
+top level three things now let's try to replicate
+that one first would be
+div.ticket
+color
+right next would be
+div.ticket
+id
+guys if you are able to see this
+if I am missing
+anywhere BEM right BEM convention do let me know
+if I am missing anywhere BEM convention
+I hope you
+you know address those
+BEM convention mistakes that I have done in this class
+hope you come back and let me know what mistakes I have done
+ok that's the one homework that I am giving
+only standards
+would you be able to do that
+CSS naming convention mistakes
+ok just check that and let me know
+where we can improve on
+cool good
+after ticket this one then I will have something like
+tick task area
+let's say task area
+let's say I have some content as lower M
+10 I save this
+then I have something let's say id as some random gibberish
+so this is what
+a container looks like let's go back
+this is our container
+looks like right we haven't provided any ticket
+color so we will do that using CSS
+and let's see this how we can do it
+ok first and foremost thing what I will do
+is that I will create multiple tickets
+let's say I copy paste this
+multiple tickets
+and created five tickets I believe
+no I have five tickets now we will make it
+you know CSS changes for this one
+going back opening CSS
+dividing screen into two parts
+let's say we have this particular things
+now let's get started with CSS
+ok now
+first and foremost thing
+let's say tickets
+I will apply some CSS
+for the main container
+main
+ticket container
+ok
+now for the main ticket container
+first and foremost thing if you see
+these are aligned one after the other
+in a horizontal task one is coming here task two is going next
+horizontal alignment how we can do that
+horizontal alignment
+I think in terms of display only
+that would work grid is like really for
+top bigger screens where you set out the layout
+but flex would work fine right as of now
+this is not that complicated
+one right
+right let's say if I use display flex
+I use display flex
+and I simply give it
+as justify content I mean content
+should be along the center
+and let's say also
+if you see I will use
+some property called as gap
+gap property is used to
+give space between each of its children
+element whatever items are there flex items are there
+on left right bottom top there should be like
+two rem of gap this is coming from flex level
+property this can be applied only when display flex for the particular
+container is that clear guys
+now if you see it applied to
+rem of space on
+between them
+now once we applied this
+once we applied this one thing I will do is that if there is
+extra space right for the content if there is an extra
+space I will use something like flex wrap
+right thank you sir
+so we will use flex wrap to make it
+wrap the content now if you see it moved
+bottom once we made it trap it moved one after
+the other because why did it
+move the other item to the down because it took the whole
+space and consumed it we haven't given
+it width and height yet so it is trying to consume
+that thing is that clear like
+it is saying that a whole space is there only
+if the space is consumed then I will wrap it up now if
+I if you want me to show it up how it can when it can
+happen let's say I say lower m 100
+sorry guys I think I got the code
+if you see it's wrapping things down
+going back editing this part
+once this is done then
+comes the main part once the container
+part let's say this is what we will do for container
+now comes the inside container
+which is ticket container let's say
+I select one ticket container
+individual ticket container what will apply for individual
+ticket container
+going back to ticket container I will say
+given height to the particular container as 12
+and let's say I give a width
+as 14
+okay and if you see I will have
+a background color of
+coral a bit of orange one
+right if you see in the tickets you will have
+orange color background but will change for this
+individual item level things okay
+now once we did this
+then go for a ticket color
+ticket color let's
+give it you know color for them
+say height is
+I'm giving a default color as of now
+I'm not making it dynamic so I'm giving it
+as a background color as a black
+so since the color will be
+dynamic in nature which will be keep changing on
+click of button but I'm making it as a something
+as long you know just for sake as of now
+is that fine guys I'm making
+a static black color
+and I'll give some margin top here
+so that it looks differentiated
+10 pixel let's say 1 rem
+unit
+yeah fine now once this is done
+is this clear guys till now what I've done it
+nothing new right
+any doubts
+all right let's go for ticket
+ID ticket
+ID once you go
+come for ticket ID let's say height is
+2 rem for the ID part
+and let's say I give a background color as
+light
+hello
+let's see if this is
+looking fine yeah it looks
+odd let's make it yellow as of now I'll select
+better color later
+so this is yellow
+now
+do you see this anything missing yet
+or we are able to replicate it whatever we want
+guys
+do you see this is
+covered everything is covered right
+lock icon edit button will add it dynamically
+on each ticket
+because if I go and add it right
+let's say if even if I go to
+font awesome let's say we pick font awesome
+let's say I pick a lock
+lock
+lock
+I select this lock I copy
+this
+let's say
+I didn't add it here
+let's say I go and say
+this place
+I copy and paste it everywhere
+after the content area
+it shouldn't be inside this task area
+lock should be in separate part
+let me delete this
+because this will be editable right editable
+in nature once you click that button so button should be
+yeah change
+that same thing but we'll see
+lock implementation completely in a different
+way through JS actually
+we'll code it down completely through JS so we'll see there
+let's say I have this
+three places
+so
+so
+so
+so
+so I have done this
+now if you go back to can man board you are
+able to see the lock here but now if you have to move it to the
+yeah
+height will be covered from the parent right
+now if you see when we say rem units relative
+units now
+for this one
+for this one
+do you see any
+like parent ticket container in the ticket container
+we have given a particular
+height and width like
+height and width now from that perspective
+this rems will be calculated
+is that clear Kabir
+it's related to parent
+now
+guys can you
+do CSS for lock
+and move it to the bottom
+and move it to the bottom
+right corner
+anyone want to volunteer anyone want to volunteer I can unmute
+them and we can do that or else you want to take it as a homework
+and you want to do that anything works
+but I want you to help me out
+let's say somebody says
+position absolute bottom zero right zero
+let's let's do that
+I have lock
+position
+absolute
+bottom zero
+right zero
+do you
+do you see this lock
+came down completely
+what could be the mistake guys
+here we can use relative version now let's use relative version
+if I use relative version
+still the lock is sticking here
+now let's say I select this lock
+now this is the lock
+position just a second guys
+did I
+CSS classes not applied
+for everything
+this is the lock
+give me a second no if I
+remove this bottom zero or anything it's not
+working yet
+add position relative to
+previous part right let's say
+I make it a main ticket container
+as relative
+position relative
+and if I make below
+one as absolute
+let's see if this works
+do you guys see this what just happened
+okay I did a mistake again
+I did it for the main container instead
+of this part
+I should make for ticket container
+right
+is this fine guys
+display
+flag justify and align
+and would work fine
+only if
+you have multiple items
+because you are applying it for container think from the container
+perspective that those are applied to
+container like
+it's not it won't work for individual one element like
+you are you need to think from children perspective
+because this particular item is already a children
+yeah so what we did position
+right now when I select
+absolute as a further lock
+what's happening is that when you when I select absolute
+absolute checks for the two conditions
+first condition is like whether down
+like when it goes over the chain
+if there is any parent element with relative
+if there is any parent with relative it will move
+top right left bottom with respect to
+that position but if there is no
+parent element with position as related
+it will move with respect to the top
+most left place like if I show you
+the chart that we have
+that's the reason why I added a chart
+here so that we can refer
+right anytime we have confusion
+if you see go for
+absolute with respect
+like starting position of element once applied with
+respect to window top left or parent relative
+is that clear Kabir
+why we were we are adding relative to the container
+then making it the lock item as absolute
+so guys is everyone clear about what we
+did it everything what we have wanted to achieve
+and did we achieve everything
+from the project HTML and CSS part
+now all the functionality is remaining but
+we added paint and structure to the application
+isn't it
+so I hope the concept is clear to everyone
+now the one homework that I gave is you know
+BEM convention I think I also added
+inside the links
+go for the BEM convention and explore it
+and like
+actually I would say right actually I would say that
+hey
+once your BEM convention is fixed
+raise a PR to my
+you know my kitab repo that I have it
+I would be really happy if anyone does that
+just only changing CSS names
+just raise a small PR
+and like changing the naming convention
+if I put a lock it's not a right way
+I try to defining lock lock is for what
+lock is for ticket where you have mentioned ticket
+think of in terms of that like naming convention should be
+clear when you go into the style file
+is that clear guys
+would you be able to do that
+go and read the BEM conventions
+and I think I have talked about it
+multiple times
+you can you can go and see this
+here CSS tricks I will pin this
+I will also pin it
+in the reading document
+okay I won't be
+addressing this issue guys you would be addressing it
+I would be really happy if you can do that
+okay
+let's say class
+today is a class number
+what is a class number guys today I don't remember
+if you go in JavaScript we have
+covered 13th, 14th class
+okay I have registered it can you please check and update git recordings
+oh they didn't provide it guys
+git
+guys can you give me thumbs up thumbs down
+if you have recordings added in your archive section
+and even portfolio project that
+we didn't cover this part portfolio project
+I will push the code today but I want this
+part to be also thought to you
+okay I will ask the recordings to be added guys
+like maybe I will recheck with the team
+and I will get it added
+okay I will get it added
+so guys if everything is clear
+can we start doubt session for today
+so it's 2 hours 10 minutes
+so I am starting doubt session guys if anyone have doubts
+extra session that's a recording
+will be available some bit so you can go through that
+as for autocomplete
+I have tab 9 starter package
+if you see here I will start doubt session
+and talk about it Kabir
+so I am using tab 9 starter
+if you see
+this is tab 9 AI like
+it generally suggest you the code
+it understands it and suggest you
+you can use actually better extensions
+also I didn't update it
+you can go for copilot
+github copilot
+like if you say 12.7 million people are using
+you can go and use this copilot
+that works fine
+like it's a pay programming like let's say
+you are working with someone you are having a friend
+who is suggesting you what need to be done here
+so I try to in my office I try to use as much
+AI as it is like I can use it for
+because today's
+generation of development would be how much fast you can
+you code it down rather than
+I mean deliver your task rather than
+how much challenge because if you know the basics
+clearly right you will google it
+the AI tools will suggest you those
+small small petty things
+syntax is not a big deal today
+so that's the reason why I say that if someone in interview
+for getting syntax I will help them out
+I mean that's a basic thing anyone will figure out once they are in office
+but it's just that they should be able to think like how they can do it
+ok so you can use copilot
+also something that I am using is
+tab 9 I will show you
+this thing I think I have
+this is 6.9 million people
+it needs a reload I will reload it
+ok also
+I have many actually you know
+things installed like
+mermaid and tailwind CSS thunder clients
+I will help you out understanding one by one like
+whenever things come
+Cody let's explore Cody
+yeah code assistant it's not that famous
+yet Arun maybe sometimes in future
+let's say Cody AI
+152k people are using it
+autocomplete features yeah you can use it you can search it
+at my office I use something Amazon one
+Amazon
+yeah code whisper so they named it
+as a code whisper because it whispers
+your code I mean it whispers into your
+like let's say onto your editor how you can code it
+just giving them script right like
+if you go for chat GPT you write it on
+what you need but here it says
+if you see here how can you do it if you see code whisper it's
+really great one I mean I use it this one at office
+in my office laptop I don't use tab 9 there
+for this one you need access like
+what we say enterprise level access
+okay it does
+security scans it does find vulnerabilities in your code
+so it's really help you to write cleaner better
+code
+you can explore this guys this is like really
+I mean if you the only thing
+is like now even if you see
+for this one right there only two lakhs people are using it
+so
+but you have to explore like what you can use it much
+now
+yeah it's up to you guys anything you can use it
+anything else case anything else you want me to discuss on
+so guys like if you enjoy
+sessions please give us good ratings if you
+have anything right you can write it down
+constructive feedback I'll try to read it
+through I'll make it you know better
+I mean I'm just want to because it's
+really heavy for us like if you get less ratings it's really
+heavy for us like if you enjoyed write it down if you have any comments
+do suggest me I'll work on it and
+it's somewhere right it's a peer learning process I'm
+working on one skill you are also working learning
+on one skill so I'm trying to teach what I'm
+good at maybe I'll work on my teaching spreader if you have
+good comments works guys
+great
+okay thank you Kabir
+so
+so
+hello guys then I'll close the session
+for today we'll see again in next class I hope
+you'll fix those BEM conventions
+and come back and
+because it's a thank you Kiran
+yeah yeah needs a hands on right
+that's the reason why I'm giving some when once you're trying
+to go through BEM conventions right you will read it
+you will have to go through the code
+you will understand CSS you will update the CSS
+so in a way you are reading the whole code because from
+tomorrow once I write JavaScript in the next class
+you will be feeling bit you know
+lethargic to go through it how
+how to develop more logic
+on JS Sambit it comes with practice
+for me if I say
+directly from my experience right
+directly writing in JS I too have
+up to an extent knowledge like
+because
+more of my experience comes from frameworks knowledge
+like where I worked on react and angular
+also for some time but more on react
+so on react specific knowledge I have
+more but when it comes to JS right
+at PayPal we have a Kraken framework on
+so Kraken framework works like Kraken itself is
+a full stack app full stack framework
+where you write more on a server side logics on
+client code where we write whole
+node.js code because that Kraken framework is
+compression of node.js and react so
+on node.js you write clean JS so
+on node.js and year and half I'm writing more JS
+and I'm improving on it if I if you asked me
+wanted of year back I would say that I'm 50
+50 or 30 80 sort of thing 30 70 sort of
+thing but it comes with practice as much as you
+write it you'll get to know it from it
+okay it comes with practice that's only the one thing that I can say
+practice more
+practice more like how can
+you do it it's like same if you go for problem solving
+open lead code solve problems
+you can use JS logics there
+but if you want to actually work on DOM manipulation
+for DOM manipulation you have to do machine
+learnings because machine learning problems I'll introduce
+three four machine learning problems
+three four machine learnings only will be solving after
+this Kanban board once we cover
+racing code then I'll give you a
+list of machine coding like you know problems
+that you can solve I'll push it this
+something that we discussed right in the class I'll push
+it onto the separate repo as a machine coding with
+HTML.js also I'll give a list of
+problems that you can solve you can contribute to that
+repo that will be a practice like solving actual problems
+because that is someone ping me
+on whatsapp also do you find any website where we can
+practice machine coding
+like machine coding is related specific to HTML.js
+DOM interaction right so for that
+I'll help you out first we'll discuss few problems then I'll tell you
+what problems you can solve and how you can solve
+work somewhere
+Opendra says CSS looks easy
+it will take time Opendra I would
+agree
+we'll help you out some with that
+CSS is like since we have learnt in
+in better way right we are able to figure it out
+in future classes when I'm working on react and
+when I'm working on some more difficult projects
+right then I won't be able to teach you CSS
+like one by one property I'll be trying to paste
+down the properties I'll skim through it I'll explain you
+through it but I cannot go through it
+completely because I'll be writing more and more logic
+going at
+yeah yeah CSS anything right
+anything you use more more focus on one thing
+you'll be being good at it so
+as much as time you give it on it you'll become better on it
+okay guys then
+can we close the session
+guys
+I think I got cough I have to check it
+thank you Opendra thank you all thank you all for attending
+I hope to see you in the next class
+so that we'll cover JS part for this one if you
+completely understand this one project right you will be
+surely having a good knowledge on these three parts
+all of them thank you Sambit thank you Sambit
+both Tripathi and Basant
+thank you all see you in the next class
+guys bye bye
+I'll push the code guys see it I'm committing the code
+okay bye bye
+you
+you
+you

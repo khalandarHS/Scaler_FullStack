@@ -1,0 +1,3254 @@
+WEBVTT
+
+00:30.000 --> 00:41.560
+hi all good evening guys am I audible and visible if you can hear me out can you give
+
+00:41.560 --> 00:49.080
+it a thumbs up yeah great guys thank you so let me do the screen share
+
+00:49.080 --> 01:14.920
+I know what topics for upcoming context will be yeah I'll come to that
+
+01:14.920 --> 01:31.840
+so guys let me know if my screen share is also working fine okay so great so one small
+
+01:31.840 --> 01:37.280
+announcement is that this weekend we won't have any class and you will be having the
+
+01:37.280 --> 01:46.120
+contest on 24th and 25th Jan right two days of the weekend you can leverage it to attempt it and
+
+01:46.120 --> 01:58.000
+this will be based on completely Dom plus HTML plus CSS till Dom part okay and it will also
+
+01:58.000 --> 02:08.440
+include the bonds and throttling concept till last class the object oriented programming that
+
+02:08.440 --> 02:16.240
+will start today will not be involved in it so I hope you are able you will be able to do it and
+
+02:16.240 --> 02:22.240
+be prepared with this guys I think Dom is something you might be experienced with it like we have done
+
+02:22.240 --> 02:29.000
+good enough project and you know machine coding and things so you know be prepared with these
+
+02:29.000 --> 02:36.400
+two concepts also understand them maybe build your own example try to learn it is this clear
+
+02:36.400 --> 02:45.320
+Kabir do you get the contest of like what will be asked in okay great so I hope everyone is
+
+02:45.320 --> 02:50.800
+preparing eyes for the contest can we use our own data for solving questions in the contest
+
+02:50.800 --> 03:02.400
+you should be able to I'm not exactly sure here as I have to you know I have to check on that how
+
+03:02.400 --> 03:12.120
+does it work okay so firstly I'm not sure exactly whether it will be MCQ based it will be having
+
+03:12.120 --> 03:20.240
+again machine coding around so and there might be a question where you have to code it down so
+
+03:20.280 --> 03:28.360
+three things can be possibilities yeah but we have to submit there only yeah so you know if
+
+03:28.360 --> 03:35.240
+it is of and machine coding around the questions will be have simple and straightforward it know
+
+03:35.240 --> 03:41.200
+it wouldn't be that big because you have one one hour of context contest and you have to we have
+
+03:41.200 --> 03:46.840
+to test you on base of three three knowledge right so if you think from that perspective
+
+03:47.240 --> 03:56.640
+mostly it won't be there but you will be having a code and MCQ you have an MCQ mock interview
+
+03:56.640 --> 04:02.160
+on Saturday also so can we take it on Sunday no you have two days right contest will be on
+
+04:02.160 --> 04:14.080
+two days is it a flag should not be you know writing HTML will be same way right there
+
+04:14.080 --> 04:20.320
+shouldn't be any plagiarism issues there okay if you face any of those challenges to let me know
+
+04:20.320 --> 04:27.800
+we'll check with the team okay if you are able to execute all the test cases that's that's fine
+
+04:27.800 --> 04:32.680
+like that's it that is what main discussion would be it wouldn't be like we are checking
+
+04:32.680 --> 04:37.760
+plagiarism although all those things will not be considered right so you just have to execute the
+
+04:37.760 --> 04:50.160
+test cases even you will be discussing right I think in HLD sessions where you will be
+
+04:50.160 --> 04:55.520
+discussing how actually submission of this questions in contest happens like how what is
+
+04:55.520 --> 05:02.840
+the workflow how they test all those you know test cases right like when you would submit your
+
+05:03.200 --> 05:10.360
+question there are like 100 or 120 test cases runs simultaneously and you error is in populated
+
+05:10.360 --> 05:14.960
+those things happen so fast you will be able to see like how they're working so it's not a
+
+05:14.960 --> 05:22.320
+distributed system that of that scale but the processing is the mathematical computation is
+
+05:22.320 --> 05:33.000
+heavy okay so we'll get to learn that also okay guys can anyone drop a message in chat
+
+05:33.000 --> 05:42.120
+okay okay great some it will use it that thing itself so somebody has built another application
+
+05:42.120 --> 05:50.120
+so let me bookmark this one also if you want me to use it for our whole batch
+
+05:50.120 --> 06:06.960
+let me see great I have this okay this is a stopwatch I don't have a timer right how
+
+06:07.000 --> 06:16.160
+many minutes timer I have to do or build this one some bit so you played around with the box
+
+06:16.160 --> 06:23.120
+shadow where you are toggling the colors for each second each time the box had is changing
+
+06:23.120 --> 06:28.000
+you have four types of classes flip being played around running through the loop is it
+
+06:28.000 --> 06:39.720
+for each second you are having the inner text yeah you set interval and then you
+
+06:39.720 --> 06:51.040
+are checking and updating the color right great good idea so I believe like somebody
+
+06:51.040 --> 06:56.120
+has applied the same knowledge that we have all just learned it's really great that you
+
+06:56.160 --> 07:00.840
+are applying in terms of project because this is where you get on add-on right that you are
+
+07:00.840 --> 07:06.880
+learning a concept then you are applying back so from I think somebody are very much clear
+
+07:06.880 --> 07:16.640
+with the dom right by now like dom and all those parts but good one good one some would
+
+07:16.640 --> 07:20.880
+keep doing keep building good projects for us so I'll reset it I'll set for two minutes
+
+07:20.880 --> 07:28.240
+guys then we'll get started but meanwhile anyone having any doubts from the last class
+
+07:28.240 --> 07:35.320
+because we have you know picked up bit heavy heavy things like firstly we clear set timeout
+
+07:35.320 --> 07:47.800
+then we understood set interval then we went on to understand debouncing then we understood
+
+07:48.360 --> 07:56.560
+these are the four concepts we picked it up we used same sort of example as input search
+
+07:56.560 --> 08:04.400
+okay but there are many other examples where you can use trottling that I have also given you
+
+08:04.400 --> 08:10.640
+examples but hope you try it out and build it out guys you can expect at least one one question
+
+08:10.640 --> 08:17.480
+on each of this in the contest so what I have done it for you guys is that as I promised in
+
+08:17.480 --> 08:23.320
+last class that I will give you a screenshot where you know you directly see differentiation
+
+08:23.320 --> 08:28.280
+and the kit of repo so I'll push this image where you can see that what is the purpose when to use
+
+08:28.280 --> 08:33.700
+the bouncing when to use our trottling and what are the different parameters and the examples
+
+08:33.700 --> 08:41.600
+events where you can build it okay I hope this thing also helps guys sort of a notes where you
+
+08:41.600 --> 08:50.680
+get overview of debouncing and trottling okay so other than this thing guys is everything clear
+
+08:50.680 --> 08:59.560
+so just want to know give me thumbs up if you are confident with HTML CSS and DOM operations
+
+08:59.560 --> 09:06.920
+and beginning level of JS 2 because we are getting started with new part of JS I just
+
+09:06.920 --> 09:14.000
+want to know how confident you are feeling so I see five thumbs up guys is there anyone who's
+
+09:14.000 --> 09:19.080
+facing still challenge with the topics that we have learned or if there is anyone who feels like
+
+09:19.080 --> 09:24.400
+he's feeling lack you know lacking behind if there is anyone give me thumbs down maybe if we can have
+
+09:24.400 --> 09:31.080
+a conversation in the doubt session there is anyone give me thumbs down this because the things we
+
+09:31.080 --> 09:42.240
+have covered are all basics are done now from the last class I say to people hey monkey and promote
+
+09:42.240 --> 09:49.760
+guys waiting down session will have a conversation will discuss your point of view right so because
+
+09:49.760 --> 09:58.000
+you from today on will be moving bit forward and fast so that you don't feel lacking behind okay
+
+09:58.000 --> 10:06.320
+and then we'll pick it up so great I don't see people coming up we are 10 minutes of the start
+
+10:06.320 --> 10:16.800
+so let's do one thing we'll start with today's class guys so today let's let me start agenda
+
+10:16.800 --> 10:26.040
+discussion firstly you know we have three classes for oops and the topics will be covering inside
+
+10:26.040 --> 10:38.240
+oops this keyword will understand what is this keyword in context of JavaScript then
+
+10:38.240 --> 10:55.440
+we'll understand constructor function okay then we'll understand classes in JS and inheritance
+
+10:55.440 --> 11:12.040
+once we cover this then we have I'll talk about that prototype and prototypical inheritance
+
+11:12.040 --> 11:39.040
+then we'll have call apply bind methods and we'll understand again in depth again memory of objects
+
+11:39.040 --> 11:46.800
+because you know object oriented again it's everything is about objects so we'll come to
+
+11:46.800 --> 11:53.440
+them so these are the broader six level topics will be picking up so this will both will go
+
+11:53.440 --> 12:04.640
+for first class and then we'll pick it up again these two items in second class then we have third
+
+12:04.640 --> 12:14.320
+class for this one okay so these are the topics that will be picking up so firstly we understood
+
+12:14.320 --> 12:21.760
+that you know JS is functional programming based language but why did oops coming to the picture
+
+12:21.760 --> 12:29.440
+right how many of you understand what oops is firstly how many of you understand what oops is
+
+12:29.440 --> 12:45.840
+if there is anyone who don't understand oops okay I see three people cool so object oriented
+
+12:45.840 --> 12:58.400
+program so in object oriented programming we'll see of this examples when you come to something
+
+12:58.400 --> 13:11.600
+called as constructor function in depth but you know everything revolves around objects
+
+13:15.040 --> 13:21.200
+just let's keep this no lighter definition for now but we'll come to the depth understanding oops
+
+13:21.200 --> 13:27.280
+and its principles you know object oriented programming is a one of the one of the best
+
+13:27.280 --> 13:33.600
+oldest fashion that people have leveraged to build applications because using this thing
+
+13:33.600 --> 13:42.160
+they are more able to relate with the real world I'll show you this one
+
+13:45.120 --> 13:49.360
+how how they how we are able to relate and what things have all those things are ever
+
+13:50.000 --> 13:56.560
+will come to that step by step but before that we have to start one of the topic
+
+13:57.440 --> 14:06.560
+understand one of the concept of JS itself like have you heard keyword called use strict in JS
+
+14:06.560 --> 14:11.120
+guys have you heard this keyword use strict
+
+14:11.600 --> 14:23.360
+I see five people yeah great many people didn't hear it off okay and so what happens is right
+
+14:25.760 --> 14:33.520
+yeah bishak rightly pointed out but let's come back to this use strict okay firstly when we
+
+14:33.600 --> 14:39.840
+introduce JavaScript we all know that JS comes with a many you know errors or many
+
+14:41.440 --> 14:47.360
+functional issues because that was developed in 10 days right and then there was a ECMA team
+
+14:48.080 --> 14:54.960
+who kept on improving the JS to write better JavaScript this is something we know the story
+
+14:54.960 --> 15:00.880
+right we know what happened and why this happened and how it was JavaScript was developed and there
+
+15:00.880 --> 15:09.280
+was too many issues like if you remember we had issues like hosting right that was fixed again
+
+15:09.280 --> 15:16.160
+using let and const I mean let and const are still hosted but they are hosted in temporal red zone
+
+15:16.160 --> 15:23.040
+right so similarly we had many things right many issues that were there in JS like when it's when
+
+15:23.040 --> 15:29.680
+you go for initial JS you had a var keyword which was a global variable all the time and
+
+15:30.320 --> 15:35.840
+we had also seen potential issues with a var keyword right all those things were part of the
+
+15:35.840 --> 15:45.600
+initial JS issues now also initial JS was not you know throwing us the good required amount of errors
+
+15:45.600 --> 15:50.400
+like if you see there are many parts of the code which is not expected to write such way but people
+
+15:50.400 --> 15:55.440
+were writing it and that code was being passed inside the system because system was able to
+
+15:55.440 --> 16:06.640
+understand but after you know ES5 ES5 okay when ES5 was introduced like this is the code that we
+
+16:06.720 --> 16:18.320
+but after you know ES5 ES5 okay when ES5 was introduced like ECMA version 5 ES5 when I say that
+
+16:18.320 --> 16:24.960
+they introduce something keyword called as you sticked so what they say is that when you use
+
+16:24.960 --> 16:29.840
+this on the top of the page okay top of the JS page
+
+16:29.840 --> 16:41.680
+JS file let me write this one so if there are any issues it throws us errors with the right messaging
+
+16:46.960 --> 16:54.880
+or I can say better messaging so what happened is they have handled exceptional handling they
+
+16:54.880 --> 16:59.920
+have done better in ES5 version and when you use use stick method and they gave it so now that
+
+16:59.920 --> 17:07.280
+same use stick method is also used for react also they have launched in react 17 so 16 I guess so
+
+17:07.280 --> 17:11.760
+we'll be exploring that in terms of firstly you will see like what one of the example I'll show
+
+17:11.760 --> 17:16.800
+what happens with use stick non-stick but in general what have what happened is when you use
+
+17:16.800 --> 17:22.480
+this you are supposed to write a better JS code okay let's see one of the example how that is
+
+17:22.720 --> 17:33.040
+this affects moving back to code guys I'll start class number 21 let's say class
+
+17:34.240 --> 17:39.600
+81 once I have this I close this one
+
+17:41.760 --> 17:42.880
+let's say I write
+
+17:43.360 --> 17:55.200
+okay now let's say I write down name equal to my name and I write down console.log
+
+17:57.280 --> 18:04.400
+okay and I print name what is expected to happen this year what is expected to happen
+
+18:06.400 --> 18:09.680
+should it be throwing error or should it be shouldn't be throwing it
+
+18:12.880 --> 18:13.680
+okay
+
+18:18.800 --> 18:21.920
+did I declare a variable what is the syntax of declaring a variable guys
+
+18:28.320 --> 18:33.760
+how variables are declared firstly let's see first let's see what happens okay I'll open
+
+18:33.840 --> 18:40.480
+integrated terminal I'll use a node strict.js
+
+18:44.000 --> 18:50.480
+okay I'm able to print out them so is anyone amazed like how this is working firstly without
+
+18:50.480 --> 18:56.400
+using any let const var or anything you didn't declare any variable but still it is executing
+
+18:57.360 --> 19:00.080
+do you see this this should be a flagged write error
+
+19:00.880 --> 19:06.640
+if it can work without using any let var const why we need to introduce that thing first place
+
+19:08.160 --> 19:08.720
+isn't it
+
+19:12.560 --> 19:18.640
+guys are you able to follow up so now let me show you one thing like what happens if I
+
+19:18.640 --> 19:26.160
+use use strict here okay once I use strict and again I rerun that same file now do you see this
+
+19:26.160 --> 19:31.920
+what use strict says that hey reference error name is not defined you didn't define the name
+
+19:31.920 --> 19:35.440
+variable and you're trying to directly assign a value to it
+
+19:38.400 --> 19:43.600
+are you able to see what that use strict does use strict try to follow the right side of guidelines
+
+19:43.600 --> 19:49.120
+and rules and gives you the right sort of errors that you need in real time so this was introduced
+
+19:49.120 --> 19:54.400
+in ECMAS 5 this was one of the examples that I wanted to show where you declare a variable
+
+19:54.400 --> 19:59.840
+without any var let const but it gives you the right amount of error codes okay and it also
+
+19:59.840 --> 20:06.560
+explains you properly okay so I hope you got the gist of what top level use strict and non-strict
+
+20:06.560 --> 20:12.080
+mode is by default every js file is non-strict mode if you see whatever we were writing it down
+
+20:12.080 --> 20:16.960
+at here everything was a non-strict now but when you use this keyword use strict you're supposed
+
+20:16.960 --> 20:21.040
+to follow the guidelines that we have learned till now where if you don't follow it you will
+
+20:21.040 --> 20:25.600
+be flagged that error and you can fix that one I hope this point is clear guys
+
+20:28.800 --> 20:32.080
+guys is this point here with use strict and non-strict mode what are those things
+
+20:35.040 --> 20:41.440
+I see three thumbs up good now so now let's say I have one question to you where
+
+20:42.000 --> 20:44.000
+js can be compiled or passed
+
+20:46.160 --> 20:50.000
+where js can be compiled or passed where all js can be compiled or passed
+
+20:51.760 --> 20:56.400
+I ain't passed sorry compiled and passed where all
+
+20:59.600 --> 21:04.160
+browser is there anything else guys browser
+
+21:10.640 --> 21:20.000
+node yeah node js right right okay then Abhishek says the use strict will be slower than non-strict
+
+21:20.000 --> 21:25.840
+it shouldn't be abhishek like what if like imagine you are not declaring a variable and
+
+21:26.560 --> 21:32.400
+just trying to execute in strict non-strict mode by default behind the same system is actually
+
+21:32.400 --> 21:37.520
+applying a variable right so they are doing the two works instead it will throw an error to us
+
+21:37.520 --> 21:42.400
+so it's better if you go for any production-based apps you will always see a use strict flag will
+
+21:42.400 --> 21:48.000
+be used okay any js file you go for production-based code you will see that use strict is used
+
+21:48.800 --> 21:56.560
+it doesn't affect that performance okay now so as we know that we have the two environments
+
+21:57.760 --> 22:02.880
+browser and node js so we'll understand this keyword with respect to all of them
+
+22:02.880 --> 22:08.720
+but let's understand what this is talking about you know this is a keyword which usually
+
+22:09.440 --> 22:12.960
+points to an object let me write those sentence
+
+22:15.520 --> 22:16.240
+this keyword
+
+22:18.960 --> 22:23.040
+always refer to an object
+
+22:29.840 --> 22:32.480
+refer to an object and the value
+
+22:32.800 --> 22:36.800
+of this keyword
+
+22:40.800 --> 22:42.800
+will depend on
+
+22:48.320 --> 22:51.520
+on how it was called
+
+22:53.280 --> 23:00.800
+okay so basically whenever we say that let's say this dot something
+
+23:01.200 --> 23:06.960
+this dot something you might have seen there's some many syntaxes this dot name or
+
+23:06.960 --> 23:12.720
+trying to console log or assigning a value to it right you are using always so we are talking
+
+23:12.720 --> 23:18.640
+about what this is standing for we all we almost we always know that this operator dot operator is
+
+23:18.640 --> 23:24.320
+always used on objects mostly in js so we are still saying that the same thing that this is
+
+23:24.320 --> 23:30.720
+always referring to the object and value of this particular which object we are pointing will depend
+
+23:30.720 --> 23:36.080
+on from where it is being called okay this is a top level definition guys we'll come back to this
+
+23:36.080 --> 23:41.760
+one we'll understand multiple times okay so that we'll get a complete just of it and we will be
+
+23:41.760 --> 23:48.880
+exploring this in in both the browser environment and node js environment whereas both in strict
+
+23:48.880 --> 23:54.240
+and non-strict mode okay let's start with one by one we'll pick it up one environment and we'll
+
+23:54.240 --> 24:00.160
+see what all behaviors are there then we'll go to the next environment okay let me go back
+
+24:00.720 --> 24:09.440
+to the code base let's let's understand this keyword in depth now okay let me build a folder
+
+24:09.440 --> 24:17.760
+called node js so firstly we'll understand in terms of node js and i'll create a new file called non-strict
+
+24:21.120 --> 24:28.560
+js now let's understand in terms of non-strict firstly okay i'll write down comments also so
+
+24:28.560 --> 24:37.280
+that you can refer this whenever you feel confused let's say if i say that simple console log
+
+24:40.400 --> 24:49.680
+what if i do console dot log this keyword in non-strict mode we say that this will always
+
+24:49.680 --> 24:58.160
+point to an object now what can be the object initially where it can point out any ideas guys
+
+24:58.160 --> 25:06.960
+anything that you remember window says diraj i'm in non-strict mode in terms of node js
+
+25:08.160 --> 25:09.760
+anyone else any ideas guys
+
+25:13.760 --> 25:17.600
+okay let's let's explore this no this this is always will point to
+
+25:18.400 --> 25:24.400
+some of the object here okay some says empty okay let's explore this what happens okay
+
+25:25.040 --> 25:37.040
+let's say node cd node js no non-strict dot js
+
+25:40.960 --> 25:48.080
+okay now one of the common problem with node js is whenever you are using this contest simply
+
+25:48.160 --> 25:54.960
+right you may not be able to you know access the object that you need it and this
+
+25:54.960 --> 26:04.000
+generally should be pointing to a global object so here in node js environment window object is
+
+26:04.800 --> 26:12.080
+similar to global object here they call it as a global object okay remember that thing here
+
+26:12.080 --> 26:17.280
+but when you do simple a simple console log this this is referring to an empty object which doesn't
+
+26:17.280 --> 26:24.880
+have any values okay there's no proper explanation to this why this behavior comes out but in node
+
+26:24.880 --> 26:29.600
+js whenever you are trying to do console log without any context here there is no context
+
+26:29.600 --> 26:37.280
+for this one so this is actually acting as an empty object okay now let's see what happens if i
+
+26:38.080 --> 26:47.760
+put this put let's say this inside a function okay when i do inside a function let's say i
+
+26:47.760 --> 26:53.600
+have a function called test and i try to do console log of this same thing
+
+26:55.520 --> 27:03.120
+and what i'll be doing is i'll be executing this just now what could be our expectations guys
+
+27:07.280 --> 27:23.360
+so empty empty again okay now so if you go and write down the execution process for this one
+
+27:23.360 --> 27:28.800
+what could the execution process for this one like if you go create a memory phase and
+
+27:29.520 --> 27:35.520
+execution phase like our code execution phase separate execution context will be created for
+
+27:35.520 --> 27:40.800
+each function right
+
+27:45.280 --> 27:52.400
+okay so many says it should be empty or an error but let's see what happens then if you see
+
+27:53.760 --> 27:59.760
+here whenever we are doing inside the function now inside the function you are expected to write
+
+28:00.640 --> 28:06.720
+this functions right set interval set timeout clear timeout all these functions you would be
+
+28:06.720 --> 28:14.000
+writing it generally set immediate micro task you accessing global object now these all methods
+
+28:14.000 --> 28:21.440
+these all methods are referring to a global object now inside a function will this particular this
+
+28:21.440 --> 28:29.280
+keyword refers to an window object or a global object okay this thing you know i'll help you
+
+28:29.280 --> 28:34.320
+to understand step by step how this works but let's explore examples more and then we'll come
+
+28:34.320 --> 28:48.080
+back to this one so even if i show you why this happens okay if i put a debugger here let's say
+
+28:48.080 --> 28:58.880
+if we do this
+
+29:02.800 --> 29:12.880
+let's say i move to okay i'm here let me say i'll open here
+
+29:18.080 --> 29:26.880
+so
+
+29:26.880 --> 29:29.680
+okay
+
+29:43.600 --> 29:51.280
+second guys just i'm going inside that path folder so to execute you know in terms of
+
+29:51.280 --> 29:57.520
+testing i'm debugging more non-strict dot js
+
+29:59.440 --> 30:05.440
+and if you see here firstly we are getting of calling a functional call if you see in the call
+
+30:05.440 --> 30:11.200
+stack we are you know having an ominous step at line number 10 once i call this a separate
+
+30:11.200 --> 30:17.120
+execution context is created pushed onto it where test is executed now if you see here always
+
+30:17.760 --> 30:23.920
+it will be having an access to global object as i told you in terms of node just window object
+
+30:23.920 --> 30:30.000
+is equaled into global object only the use case where it fails is like it will refer to an empty
+
+30:30.000 --> 30:36.320
+object only when you are using simple console log dot but always in other cases it tries to refer
+
+30:36.320 --> 30:42.080
+to this this refers to some object and this this object here it is trying to refer to a global object
+
+30:42.080 --> 30:49.520
+it checks in the local scope it finds that this is pointing to global object i hope this point
+
+30:49.520 --> 30:59.280
+is clear we'll go ahead with the next example one more thing is that let's say what happens if this
+
+30:59.280 --> 31:05.600
+keyword is inside an object itself
+
+31:05.600 --> 31:15.920
+okay let's see this example guys i'm trying to use as many examples as possible uh we'll try to
+
+31:16.720 --> 31:21.360
+give you just stuff it with all different environments to understand this one okay
+
+31:22.160 --> 31:30.880
+let's have adam uh and let's say age is of adam is something 32 and let's say we are seeing that get
+
+31:30.880 --> 31:40.240
+it print info a function uh let's say i call an anonymous function where i try to return
+
+31:41.440 --> 31:47.280
+or let's say we try to console dot lock here this start name
+
+31:47.280 --> 32:03.120
+and this start h okay we did this then what if i call let's say object dot get print info if i
+
+32:03.120 --> 32:10.080
+execute this thing what should be my output here any ideas guys what should be my output
+
+32:10.720 --> 32:16.320
+always remember that this points to an object and where it is being called now if you see
+
+32:17.040 --> 32:23.600
+the context here whenever i'm getting inside this it will check whether this is pointing to any object
+
+32:23.600 --> 32:29.360
+now if you see this function context is always being changed because you are having this object
+
+32:29.360 --> 32:35.440
+here referred and whenever in in any when if you're trying to create any key variable keep
+
+32:35.520 --> 32:42.240
+any key value pairs and if it's a part of object it always refers to its current object okay
+
+32:42.800 --> 32:53.680
+now let's see if this is working fine clear it if you see here i'm getting adam and 32 as printed
+
+32:53.680 --> 32:59.520
+because here this object is referring to the current object where it is being called from so
+
+32:59.520 --> 33:05.360
+you are using this object itself the current object dot great in print info is this clear guys
+
+33:05.360 --> 33:12.160
+how i adam and 32 is coming are you able to follow guys
+
+33:14.720 --> 33:20.560
+so i've shown you three of the examples where one of the thing is by default any function right if
+
+33:20.560 --> 33:26.880
+you write a console log of this and it is outside any context and it is it is always referred to the
+
+33:26.880 --> 33:34.720
+global execution context okay and simple this is always pointing to an empty object if this always
+
+33:34.720 --> 33:40.640
+it will point to some object but it is either pointing to empty global or the object where it
+
+33:40.640 --> 33:48.480
+is being called from okay now let's see another example if i write down this way let's say this
+
+33:48.480 --> 33:52.960
+keyword from a function
+
+33:55.520 --> 33:58.800
+that is inside a
+
+34:03.600 --> 34:04.080
+function
+
+34:07.040 --> 34:13.120
+inside an object now i return one j bridge line guys let's understand this one firstly okay
+
+34:13.520 --> 34:20.240
+okay so what it says is that let's say i have an object to
+
+34:22.400 --> 34:28.560
+you know from here again i'll use same thing name would be now instead of adam let's say we have
+
+34:28.560 --> 34:36.160
+steve and let's say also age is something around 26 and let's say i again have the
+
+34:36.880 --> 34:43.440
+let's say i define as a test function inside the test function i have a function
+
+34:44.720 --> 34:50.800
+okay this this function will again have a function inside it
+
+34:56.080 --> 35:04.320
+okay that'll revise anyways okay so now inside this function i'm trying to console dot log of this
+
+35:06.960 --> 35:15.280
+this dot name and this dot age and also i'll try to console log of this here
+
+35:19.680 --> 35:24.880
+so guys can you expect here what will be happening let's i'm executing g also here
+
+35:25.600 --> 35:29.840
+and i try to call object to dot test function
+
+35:30.640 --> 35:36.640
+so firstly let's understand this line whether this keyword from a function okay this keyword
+
+35:37.200 --> 35:41.040
+from a function that is inside a function
+
+35:43.760 --> 35:50.880
+inside an object so this is what it is actually meaning that particular sentence now let's
+
+35:50.880 --> 35:57.200
+expect like what do you expect an output here can anyone think can anyone think it like what
+
+35:57.200 --> 36:02.000
+can anyone think it like what could be the output we have seen three use cases
+
+36:07.680 --> 36:17.440
+steve and 26 is from earth anyone else steve 26 how many of you believe that output should
+
+36:17.440 --> 36:25.680
+be steve 26 this will point an object and steve and 26 okay great so i see one thumbs up
+
+36:26.480 --> 36:31.840
+is anyone is all able to follow up guys i see i don't see all people reacting it if you don't
+
+36:31.840 --> 36:36.800
+understand it at any point of time do let me know we'll try to spend time on that understanding it
+
+36:36.800 --> 36:45.520
+okay now let me show you one thing you will be astonished to see this one the output of this
+
+36:45.520 --> 36:54.080
+one let's say i try to comment above console locks i'll stop this execution i'll stop this
+
+36:54.080 --> 37:03.760
+execution okay i'll stop this execution okay let's say i try to print this one now
+
+37:04.560 --> 37:09.680
+if do you see this here what what just happened now this is pointing to
+
+37:12.160 --> 37:14.160
+a global object and
+
+37:14.880 --> 37:22.080
+this particular this dot name this dot is caught undefined undefined now
+
+37:23.920 --> 37:29.680
+i've shown you output i've shown you this thing can anyone think of what could have just happened
+
+37:29.680 --> 37:36.160
+here just see this code guys i believe you should be able to understand try to draw an
+
+37:36.160 --> 37:41.280
+execution context for this one how it would execute it you'll be able to think what will be
+
+37:41.280 --> 37:50.400
+able to think what will be the output for this one
+
+37:55.280 --> 38:03.440
+okay meanwhile what i'll do is start so you are thinking it that's fine also i'll try to replicate
+
+38:03.440 --> 38:08.880
+this in the ipad i'll show you what is exactly actually happening let's say i have that same
+
+38:08.880 --> 38:16.320
+object const object to where i have name called steve
+
+38:18.960 --> 38:28.480
+and age as 26 and then we have something like text function inside that we had another function
+
+38:32.080 --> 38:36.080
+an ominous function inside that let's say i have function
+
+38:39.520 --> 38:42.080
+g i try to console log
+
+38:44.320 --> 38:44.880
+of this
+
+38:48.080 --> 38:49.600
+i console log of
+
+38:54.000 --> 38:55.040
+the start name
+
+39:02.160 --> 39:03.120
+the start age
+
+39:03.120 --> 39:12.640
+h i'm executing g here then i'm closing this function closing this object and i'm calling
+
+39:13.280 --> 39:19.680
+object to dot test function this is what we are doing it right
+
+39:24.080 --> 39:26.400
+now let's see what just actually happened
+
+39:33.680 --> 39:57.440
+okay this is what we have just written now firstly this whenever i create an execution
+
+39:57.440 --> 40:05.040
+context right whenever i create an execution context let's say this is an execution context
+
+40:05.040 --> 40:10.880
+one now whenever i try down here we have two faces right
+
+40:14.000 --> 40:20.480
+memory creation code execution now first step whenever i do it memory execution you know that
+
+40:20.560 --> 40:27.600
+object 2 will be stored here and on a heap you will be having all the content right
+
+40:27.600 --> 40:33.600
+and that will be referring here and then we have we say that from this object can you execute
+
+40:34.160 --> 40:41.200
+test function now in the code execution i go and try to say that test function i execute it
+
+40:42.240 --> 40:50.240
+right once i do this no once i do this i go here i see that in this execution context when this
+
+40:50.240 --> 40:57.600
+test function execution context okay test function execution context when this is created
+
+40:58.320 --> 41:06.640
+it has two things again memory creation code execution here if you see in this you have
+
+41:06.640 --> 41:13.680
+function g which will be initialized and left and on this this is always pointing to
+
+41:14.240 --> 41:21.360
+this particular execution context which is object 2 till here as we have this object
+
+41:21.360 --> 41:28.080
+but now when you have g and you are trying to execute g here and it will create another
+
+41:28.080 --> 41:38.240
+execution context of function g and here this won't be pointing to through the chain it won't
+
+41:38.240 --> 41:44.240
+be going from here to here but it will be for this it's a separate execution context is created
+
+41:44.240 --> 41:54.240
+so this will be pointing to global object okay and when you try to console log this you will
+
+41:54.240 --> 42:05.120
+be see you will be seeing this one here and whereas if you try to see name and age in this
+
+42:05.120 --> 42:10.720
+global object we don't have name and age so both will be undefined
+
+42:15.600 --> 42:20.160
+do you guys understand this one what just happened like i just try to show you in terms of
+
+42:20.880 --> 42:27.600
+yeah right cover okay i see one thumbs down guys can you give me further
+
+42:27.600 --> 42:29.200
+thumbs down if you don't understand it
+
+42:33.040 --> 42:40.320
+no okay cool i see many people who don't didn't understand it now i'll show you once
+
+42:40.320 --> 42:44.800
+with actually you know debugging it so that again we'll come back to this one
+
+42:44.800 --> 42:53.200
+now let's say i put a debugger here also here here okay i go back and try to execute the same file
+
+42:54.080 --> 43:00.000
+now you guys just check it on this okay firstly when i'm when i'm executing it
+
+43:01.200 --> 43:08.640
+in the local context or if you go for global context okay firstly it checks in local context
+
+43:08.640 --> 43:14.160
+whether there is something like this is if there is an object or memory is loaded
+
+43:14.160 --> 43:23.760
+okay guys i hope this you are able to see this one right this is visible enough or you are not
+
+43:23.760 --> 43:30.800
+able to look at it okay cool now this is a call stack now at call stack we are at the line number
+
+43:30.800 --> 43:38.000
+37 if you see 3776 it's it shows it highlights that one and here in the memory you have object
+
+43:38.000 --> 43:42.880
+two and object one now let's see what happens when you go inside this function whenever you
+
+43:42.880 --> 43:50.880
+are trying to execute the test function okay now i click the play button now if you see whenever
+
+43:50.880 --> 43:56.720
+i'm going to the new function test function there's a new thing that i got added into
+
+43:56.720 --> 44:02.480
+call stack now when you whenever you see this one right so i've told you that initially when
+
+44:02.480 --> 44:08.240
+memory loads this is the step one that is happening then you have the execution context two
+
+44:08.240 --> 44:14.400
+which is for test function okay which is pushed onto the call stack here when i go inside this
+
+44:14.400 --> 44:21.120
+if you see when i go inside this test function still this object is referring to the globe or
+
+44:21.120 --> 44:26.960
+this object too because that is calling this function that is calling this function and it
+
+44:26.960 --> 44:34.800
+is wrapped with these names okay so if you expand this one if you see age and name and age will be
+
+44:34.800 --> 44:40.960
+available here is this point clear till now how the test function is able to access this name and
+
+44:40.960 --> 44:49.680
+age because that is that is itself calling right so as i told you here this will be always pointing
+
+44:49.680 --> 44:54.160
+to the object to itself because it is acting as a wrapper yes i see only one thumbs up can you give
+
+44:54.160 --> 44:58.560
+me thumbs up if you are able to understand this how we are able to access age and name inside the
+
+44:58.560 --> 45:05.840
+test function uh i don't see any reactions
+
+45:09.680 --> 45:17.280
+okay cool now what happens let's see what happens let's see here if i go and create call the function
+
+45:17.280 --> 45:24.000
+g now a new execution context will be created altogether if you see a new execution context
+
+45:24.240 --> 45:32.000
+created for this it is this is pointing to global it doesn't have any context related to
+
+45:32.000 --> 45:37.840
+previous functions previous object it doesn't remember this thing it doesn't remember because
+
+45:37.840 --> 45:44.000
+this is completely getting executed in altogether different context it doesn't have any understanding
+
+45:44.000 --> 45:49.120
+of what is happening in the previous so this thing you will be able to refer better when you
+
+45:49.120 --> 45:56.320
+think in terms of this way okay this is a step one this is the step two then you will see that
+
+45:56.320 --> 46:04.240
+g function is a step three okay this is one where you have an object you loaded memory you are
+
+46:04.240 --> 46:11.360
+calling test function then you execute text function where you have access to this keyword
+
+46:11.360 --> 46:16.880
+because the object to dot test function something we are calling an object to data will be there
+
+46:16.880 --> 46:22.720
+once test function execution starts we say that we need to execute g function once we go for g
+
+46:22.720 --> 46:28.400
+for every function we know that the separate execution context is created and once it starts
+
+46:28.400 --> 46:36.640
+it it always points to as we know and this this is behaving same way as this one isn't it
+
+46:38.080 --> 46:44.720
+if you see here also we wrote a simple function always execute uh points to global object
+
+46:45.280 --> 46:45.840
+isn't it
+
+46:51.040 --> 46:56.720
+guys is this clear like how this thing is this thing is working so how many of you uh are able
+
+46:56.720 --> 47:03.200
+to relate with execution context process like did anyone practice it once we learned in hoisting
+
+47:03.200 --> 47:10.000
+concept uh because there we practiced it i've drawn execution context diagram so hopefully
+
+47:10.000 --> 47:19.120
+you are able to relate with this one okay now so let's let me revise again guys for you all
+
+47:20.160 --> 47:27.200
+so if you see it here i've took four examples first example was simple when i tried to console
+
+47:27.200 --> 47:35.680
+lock this in non-strict mode it always point to an empty object okay let me write here empty object
+
+47:36.640 --> 47:41.120
+okay this is one of the edge case where you will be seeing a different output
+
+47:41.120 --> 47:46.880
+but when it comes to function dot test it will this will point to the global object which
+
+47:46.880 --> 47:53.040
+it refers to in new execution context that we we just seen this okay and when it comes to object
+
+47:53.040 --> 47:58.160
+when you're trying to access this i mean inside the object it will always refers to its same object
+
+47:58.160 --> 48:05.680
+where it is calling from okay then you have a i mean a function inside a function which is
+
+48:05.680 --> 48:10.880
+inside an object then this will be executing in a separate execution context so this will
+
+48:10.880 --> 48:16.720
+behave as a simple function and the simple function we know that it always points to a global object
+
+48:16.720 --> 48:31.600
+okay is this clear guys i hope i revised it again you are able to get through it so one thing we'll
+
+48:31.600 --> 48:37.680
+do is that one thing we'll do whenever we are going through these four examples we'll try to
+
+48:37.680 --> 48:44.480
+make a notes of this one here so that you can come back and see remember these examples let's say
+
+48:44.480 --> 48:48.640
+i write down for the
+
+48:58.160 --> 49:02.640
+nojs and this is non-stick mode
+
+49:05.760 --> 49:11.760
+okay here let's say first example was simple we know that console log this
+
+49:14.960 --> 49:17.760
+object what this points to guys
+
+49:20.640 --> 49:25.840
+this always points to some object but which object would be pointing it in simple the console of
+
+49:25.840 --> 49:35.040
+this context empty right let me write down this one in second example we had this inside a function
+
+49:36.320 --> 49:38.800
+and wherever it's inside a function what it points to
+
+49:39.680 --> 49:49.920
+is a global object right and then we have another example this is inside an object
+
+49:51.520 --> 49:54.160
+okay let me write down this way
+
+49:57.920 --> 50:06.640
+this is inside a function and that function is inside an object and i'm calling object dot
+
+50:07.200 --> 50:11.520
+function and what will be the output for this one
+
+50:19.680 --> 50:23.760
+think of this one this is the same example i'm calling object dot function
+
+50:25.840 --> 50:35.840
+if you see this i'm calling here object dot function so i was able to get the object itself
+
+50:35.840 --> 50:42.400
+right now here can i say that here it will be our object itself
+
+50:44.720 --> 50:45.440
+as output
+
+50:48.960 --> 50:50.240
+guys are you able to follow up
+
+50:52.720 --> 51:00.240
+okay great now then there was something that we tried experimenting on this inside and function
+
+51:01.200 --> 51:07.600
+and which is again inside and function and which is part of object now here
+
+51:07.600 --> 51:15.760
+we are again calling object dot funk when we are doing this we got global object
+
+51:18.560 --> 51:22.480
+right i hope this differences are clear these four examples
+
+51:23.200 --> 51:28.800
+so usually this keyword confuses you so i'm trying to you know note down all the possible
+
+51:28.800 --> 51:32.960
+use cases which will give you a gist of it completely when we complete for the all the
+
+51:32.960 --> 51:40.240
+modes okay let's go and explore the same use cases same examples in the strict mode how this thing
+
+51:41.040 --> 51:44.400
+how this thing behaves okay
+
+51:48.640 --> 51:56.880
+now we'll go to something called a strict mode let's say i go to a strict mode and i remove this
+
+51:56.880 --> 52:05.360
+one and let's say i try to control dot log of this now what could be the expectation in the strict
+
+52:05.360 --> 52:12.160
+mode because strict mode was acting as an enhancement and by default do you think there
+
+52:12.160 --> 52:15.360
+should uh without any context this should be pointing to something
+
+52:23.520 --> 52:30.720
+all right we think that it should be creating an error but there is a one of the edge case guys
+
+52:30.720 --> 52:38.000
+one of the you know default exception case you can say for this one simple console log
+
+52:38.000 --> 52:40.000
+but because if you see the output
+
+52:42.880 --> 52:49.040
+it still points to an empty object this is without meaning in non-strict mode or strict mode it is
+
+52:49.040 --> 52:56.880
+always pointed to an empty object is this clear like always uh this one simple console log this
+
+52:56.880 --> 53:03.360
+will point to empty object whether it is strict or non-strict when it comes to node.js environment
+
+53:03.360 --> 53:10.960
+okay now let's say that i go and try to replicate this function okay let's say this thing i copy
+
+53:11.600 --> 53:16.800
+and i paste it here now think of it what it should be pointing to
+
+53:19.440 --> 53:20.800
+uh let me remove this
+
+53:27.200 --> 53:32.240
+in the strict mode uh do they have any object available here
+
+53:36.560 --> 53:45.120
+global function right let's explore this okay do you see this it is printing undefined
+
+53:47.440 --> 53:53.760
+in the strict mode there is nothing as such that you will be able to access uh in simple function
+
+53:53.760 --> 53:57.520
+like you won't be having any global function by default attached to it
+
+53:58.080 --> 54:02.160
+you have to define a context for that if there is only context for that
+
+54:02.160 --> 54:07.680
+only then you will be able to access that global function global object uh to say
+
+54:08.960 --> 54:13.040
+is this clear guys how the strict mode is saving for saving us like trying to protect from
+
+54:13.040 --> 54:17.680
+all the sites the all the errors that we see that you know all the use cases that creates
+
+54:17.680 --> 54:23.600
+this confusion when you use a strict mode it simplifies our pain point okay now let's
+
+54:23.600 --> 54:28.320
+see uh with the third example if i pick it up this example
+
+54:36.000 --> 54:43.600
+let's say comment let's say i have here i'll say this points to
+
+54:44.080 --> 54:52.720
+undefined okay now what would be the output for this one guys uh object where we are trying to
+
+54:52.720 --> 55:03.440
+print get print info are we binding this operator with this object so i done 32 says the edge how
+
+55:03.440 --> 55:05.680
+many of you agree with the edge point of view
+
+55:05.840 --> 55:08.160
+how many of you agree with the edge point of view
+
+55:11.520 --> 55:16.640
+i see two people so i hope you understand the reason behind why you are agreeing because
+
+55:16.640 --> 55:22.080
+we say that him using this object itself we are calling this function and this will always have
+
+55:22.080 --> 55:28.720
+an access to this one in its context in its local context itself uh and this will be always printing
+
+55:28.720 --> 55:35.280
+the right thing so there is no magic if you see adam 32 sprinting here okay so it is working
+
+55:35.280 --> 55:43.440
+in a right format now if i pick it up fourth one this example if i pick it up fourth example
+
+55:49.280 --> 55:50.320
+what should be the output
+
+55:54.080 --> 55:56.480
+now this is calling from object inside an object
+
+55:58.560 --> 56:02.240
+earlier it was pointing to a global object but what this will point to
+
+56:02.240 --> 56:08.960
+to undefined how many of you agree with or disagree with guys pradeep and diraj
+
+56:11.280 --> 56:19.680
+here agree right great let's see if this is giving me undefined okay now it gives me undefined it
+
+56:19.680 --> 56:27.280
+also throws me an error that you cannot read the property name and age if you see earlier uh if you
+
+56:27.280 --> 56:32.880
+see earlier in non-stick mode we didn't get this error isn't it we got undefined simply undefined
+
+56:32.880 --> 56:38.800
+isn't it for name and age also but here in the strict mode as i told you earlier that when you
+
+56:38.800 --> 56:43.680
+use use strict flag it gives us the right understanding of errors it gives throws us
+
+56:43.680 --> 56:49.360
+errors that we need to see it says that type error cannot read properties earlier if i still
+
+56:49.360 --> 56:54.720
+execute this point right if i still go and execute this file non-stick mode i'll show you the
+
+56:54.720 --> 56:55.920
+difference what happens
+
+57:02.880 --> 57:07.600
+you see i'm getting undefined undefined pointing to window object you see this there's a difference
+
+57:07.600 --> 57:12.800
+here it is returning as undefined but whereas in strict mode it throws us error so this was
+
+57:12.800 --> 57:17.280
+an implementation that uh you stick flags giving us i hope you understand this
+
+57:18.000 --> 57:26.640
+okay guys are you following up great now let's let's fill in this blanks that we were preparing
+
+57:26.640 --> 57:31.680
+notes for now in the strict mode what this console log adopt this prints
+
+57:37.280 --> 57:43.680
+what does it prints for the first one console empty right still and second one when we are
+
+57:43.680 --> 57:50.080
+inside the function the stick mode undefined
+
+57:53.440 --> 57:57.280
+and in the third one still do we print object
+
+58:00.400 --> 58:06.800
+data right object itself in the fourth one
+
+58:06.800 --> 58:17.680
+error and undefined both things right so i'll write here undefined because i'm i haven't written
+
+58:17.680 --> 58:23.520
+logic just i'm trying to say that what how the context switching is happening so i hope everyone
+
+58:23.520 --> 58:29.520
+is but having a clarity here like how things are differing in terms of strict and non-stick mode
+
+58:29.520 --> 58:34.720
+with respect to node chase environment and with these examples is anyone having any challenge
+
+58:34.720 --> 58:41.840
+understanding this one do let me know guys if you want me to repeat it give me thumbs up if you
+
+58:41.840 --> 58:47.440
+want me to repeat it again completely or else if you want me to go ahead give me thumbs down
+
+58:48.800 --> 58:57.760
+okay i see people are asking me to repeat it once i see three four okay great okay let's say uh i'll
+
+58:57.760 --> 59:06.160
+repeat it once uh so what i was saying is that you know always this operator uh refers to some
+
+59:06.160 --> 59:11.600
+object now that object we have to figure it out whether it's an empty object or the object is
+
+59:11.600 --> 59:16.240
+doesn't exist or whether it's a global object or window object or the object itself that we are
+
+59:16.240 --> 59:23.280
+calling on now that which type of object that uh this is pointing to depends upon how it is being
+
+59:23.280 --> 59:28.880
+called so the basic definition is always this points to an object but we need to know how
+
+59:29.920 --> 59:33.520
+how this is changing because this changes depends on how it is being called okay
+
+59:34.320 --> 59:38.880
+now we have seen in the strict a non-strict environment that whenever we are trying to do
+
+59:38.880 --> 59:44.160
+a simple console log this is an uh you know exception case uh you do it in strict and
+
+59:44.160 --> 59:49.040
+non-strict mode it always points to an empty object okay it doesn't mean anything but when
+
+59:49.040 --> 59:55.040
+it comes inside a function uh if you go for non-strict mode it always refers to a global
+
+59:55.040 --> 01:00:01.440
+object where you can access all the set timers set time or functions you know uh set interval
+
+01:00:01.440 --> 01:00:08.320
+all those functions inside the non-strict mode okay and when it comes to a simple object here
+
+01:00:08.320 --> 01:00:13.840
+if you see the way we are calling this function get print info function we are calling this function
+
+01:00:13.920 --> 01:00:19.920
+using the object itself so the context of this changes to this object this is always pointing
+
+01:00:19.920 --> 01:00:26.640
+to this object itself okay and inside that object memory we have add a name and h so we are able to
+
+01:00:26.640 --> 01:00:35.280
+print name and h here okay so if we go for the next example if you see it here till if you say
+
+01:00:35.280 --> 01:00:40.640
+object to dot test function wherever we are calling this function of this test function
+
+01:00:40.640 --> 01:00:46.800
+we always have the this operator append pointing to this object to this test function will have an
+
+01:00:46.800 --> 01:00:53.200
+access to name and age but when this g function is getting executed it executes an altogether
+
+01:00:53.200 --> 01:00:59.200
+separate execution context where there is no object that is particularly calling this function
+
+01:00:59.200 --> 01:01:05.440
+so whenever it is getting created as an empty use case it behaves in a same way as a simple function
+
+01:01:05.520 --> 01:01:14.240
+and when this happens it always this refers to a global object and this dot name and age are
+
+01:01:14.240 --> 01:01:20.080
+set to undefined because global object doesn't have name and age whereas if you go for strict mode
+
+01:01:20.880 --> 01:01:27.200
+still see this is an edge case so it still points to an empty object generally in the strict mode
+
+01:01:27.200 --> 01:01:33.040
+it behaves as we look at it now when we say that we are trying to print something this operate
+
+01:01:33.040 --> 01:01:37.600
+directly inside a function there is nothing like we're defining an object here so it always point
+
+01:01:37.600 --> 01:01:43.920
+to undefined whereas for this example we are strictly straightforwardly defining that hey
+
+01:01:43.920 --> 01:01:49.840
+object to dot great print info and we are doing this this particular object already have this name
+
+01:01:49.840 --> 01:01:54.960
+and it so it is giving us that output and when coming to this one again this function is acting
+
+01:01:54.960 --> 01:02:01.200
+as a simple function and there is no this keyword pointing to anything there's no context for this
+
+01:02:01.200 --> 01:02:10.080
+one so it gives us undefined and for this one we it throws an error type error i hope the
+
+01:02:11.840 --> 01:02:16.720
+guys i hope you are able to follow up and things are clear now how this works in strict and
+
+01:02:16.720 --> 01:02:22.160
+non-strict mode which comes with respect to node.js environment now let's explore
+
+01:02:23.200 --> 01:02:29.360
+how this thing changes with with respect to browser because we know that you know js works
+
+01:02:29.360 --> 01:02:33.280
+in both the environments now we have explored one part of it now let's explore this in the
+
+01:02:33.280 --> 01:02:44.080
+second part of it okay going to browser and again non-strict.js let's say i try to copy this code
+
+01:02:44.080 --> 01:02:53.280
+whatever code i have let's say i comment or else let's say we type it down one by one
+
+01:02:54.240 --> 01:03:04.640
+let's pick one by one okay and if we want to if we want to execute a file in the browser we have
+
+01:03:04.640 --> 01:03:13.200
+to have a one html file okay let's say i'll remove this one let's say i have an index html file
+
+01:03:15.440 --> 01:03:19.760
+and this index html let's say i have this and we
+
+01:03:24.240 --> 01:03:27.600
+define script we have source tag
+
+01:03:35.520 --> 01:03:44.160
+non-strict.js let's say i say strict versus non-strict
+
+01:03:44.160 --> 01:03:54.560
+okay let me refine this other day i'll copy this
+
+01:03:59.680 --> 01:04:06.880
+context of this key let's say we write this thing and i launch this html
+
+01:04:07.120 --> 01:04:14.800
+so i haven't done anything great guys so just a thing that i created an html connected with this
+
+01:04:14.800 --> 01:04:20.000
+non-strict file and i try to console lock this simple thing now what do you think in terms of
+
+01:04:20.000 --> 01:04:28.000
+browser this points to when i do the console log of this one any guesses you might have played
+
+01:04:28.000 --> 01:04:34.560
+around with a browser many times till now you might not have used node.js environment as as much as
+
+01:04:34.560 --> 01:04:41.840
+environment as as much as we have used document or window says zrash okay let's see this case
+
+01:04:42.560 --> 01:04:49.680
+no one thing i want to know why do you think document zrash just want to understand your
+
+01:04:49.680 --> 01:04:59.120
+point of view document is a dom api right and that is not an object which is having all the
+
+01:04:59.120 --> 01:05:07.440
+functions that we need it will always point to a window object okay which have all the browsers
+
+01:05:08.880 --> 01:05:17.360
+functions available in it submit as in terms of node.js as we had edge case in strict and
+
+01:05:17.360 --> 01:05:22.480
+non-strict it was pointing to an empty in terms of browser it will always point to window okay
+
+01:05:22.720 --> 01:05:31.120
+this is also another edge case okay so here guys if you see if i try to write down simple this here
+
+01:05:31.120 --> 01:05:37.680
+what do you see see this window is building out if i say this dot document
+
+01:05:41.120 --> 01:05:49.120
+so document is a part of window object itself zrash this dom is a part of whole object that's
+
+01:05:49.280 --> 01:05:54.960
+a whole object which is having everything okay document will be there but it's a part of window
+
+01:05:54.960 --> 01:05:59.760
+itself you will see when i open the window right in the browser you will have too many things
+
+01:05:59.760 --> 01:06:06.160
+too many methods available if you go and try to use navigation right a location based too many
+
+01:06:06.160 --> 01:06:10.720
+events too many things that you will be able to see what all things that you can see on the browser
+
+01:06:10.720 --> 01:06:15.360
+that all things will be available here you'll be able to see performance and you know
+
+01:06:15.360 --> 01:06:29.680
+be able to see in the window object so simply in non-strict mode when it comes to browser simple
+
+01:06:29.680 --> 01:06:40.080
+console of this points to the window now let's say in function okay let's say yeah that's that's
+
+01:06:40.080 --> 01:06:48.480
+depending on how you know the js is executed i don't because now if a browser is built by
+
+01:06:48.480 --> 01:06:54.000
+different teams node js is built by one of the different open source organization
+
+01:06:54.640 --> 01:07:00.320
+they called it that way particularly that's how you write you've been writing the code legacy code
+
+01:07:00.320 --> 01:07:06.560
+indirectly in browser you can access like the timer functions and everything okay that's how
+
+01:07:06.560 --> 01:07:11.120
+the wrapper has been built whereas in node js it behaves differently okay
+
+01:07:13.520 --> 01:07:19.280
+so let's say console lock this and let's say if i execute test now
+
+01:07:20.960 --> 01:07:26.720
+what do you guys think what was the answer for this one in the node js environment
+
+01:07:26.720 --> 01:07:30.080
+anyone remember it in the non-strict mode
+
+01:07:36.560 --> 01:07:47.760
+global right here as i told you in node js if it is a global is equal to window object let's see
+
+01:07:47.760 --> 01:07:54.000
+if this is working fine okay i go back here i try to console log if you see still we are able to see
+
+01:07:54.800 --> 01:08:00.320
+window object coming from the line number five okay this line number five is this one itself
+
+01:08:00.640 --> 01:08:07.520
+okay i hope this is clear now this global and window object name is convention is also changed
+
+01:08:07.520 --> 01:08:15.760
+by the respective teams who build this node js framework and you know browser okay now let's
+
+01:08:15.760 --> 01:08:24.240
+see the third example which is this one and i hope this is a straightforward example one final check
+
+01:08:24.480 --> 01:08:28.240
+uh one final check guys would be the output still same for this one
+
+01:08:29.280 --> 01:08:36.800
+would you see the adam in 32 still getting printed for this use case let's see let's see this
+
+01:08:38.720 --> 01:08:45.520
+okay do you see that adam in 32 is printing so when it comes to this use case it's a straightforward
+
+01:08:45.520 --> 01:08:50.320
+right object is calling and this will always point to the object so in those use cases it's
+
+01:08:50.320 --> 01:08:55.120
+straightforward and simple now let's go and try to execute this use case
+
+01:09:02.800 --> 01:09:03.040
+no
+
+01:09:05.840 --> 01:09:10.080
+do you think still it should point to global object in a separate execution context
+
+01:09:13.200 --> 01:09:13.840
+for this one
+
+01:09:21.040 --> 01:09:21.920
+someone says no
+
+01:09:29.120 --> 01:09:35.920
+okay okay still if you see as i told you earlier this will work like a
+
+01:09:37.200 --> 01:09:42.080
+same function as this one right a simple function in a new execution content it was
+
+01:09:42.080 --> 01:09:47.200
+pointing to window this will also be pointing to the window object okay
+
+01:09:51.200 --> 01:09:53.200
+so
+
+01:09:57.920 --> 01:10:04.320
+now let's see do you see it here it points to window object and it throws an undefined here
+
+01:10:04.320 --> 01:10:10.240
+reason behind we are trying to access this one if i try to comment this one you will be able to see
+
+01:10:10.240 --> 01:10:17.600
+only window i hope these points are clear guys like how in terms of non-strict environment
+
+01:10:17.600 --> 01:10:24.800
+browser is behaving the only change is again this console of this this behaves by default
+
+01:10:24.800 --> 01:10:30.960
+it provides us access to window and all the use cases you see window object getting printed or
+
+01:10:30.960 --> 01:10:37.680
+the subject itself right let's try to fill in the notes that we are preparing for understanding
+
+01:10:38.640 --> 01:10:40.160
+okay let's say
+
+01:10:42.400 --> 01:10:45.280
+i write down as browser
+
+01:10:49.600 --> 01:10:52.400
+okay and i say that non-strict mode
+
+01:10:58.800 --> 01:11:04.240
+simple console log of this so what was this pointing to guys again
+
+01:11:07.920 --> 01:11:19.280
+uh you'll help me out right writing this thing down so
+
+01:11:25.280 --> 01:11:31.120
+window right inside this also window isn't it this inside the function
+
+01:11:31.120 --> 01:11:41.840
+now the third example was this inside a function which was a part of object and we were calling
+
+01:11:43.120 --> 01:11:52.560
+object dot function and we should be able to print object itself here this is a common across
+
+01:11:52.560 --> 01:12:00.960
+each environment strict non-strict browser or anything now this inside a function inside a
+
+01:12:00.960 --> 01:12:08.720
+function and that is inside an object right and this points to again window
+
+01:12:11.680 --> 01:12:16.640
+is this clear guys like how this works in the non-strict environment
+
+01:12:17.600 --> 01:12:24.560
+is this clear guys like how this works in the non-strict environment with respect to browser
+
+01:12:27.360 --> 01:12:31.920
+you know i'm doing this exercise for on this particular keyword is because
+
+01:12:31.920 --> 01:12:36.480
+people get confused so you should be able to understand how this works
+
+01:12:37.120 --> 01:12:41.920
+if you are clear with the execution context point of view you will be always be able to figure out
+
+01:12:42.000 --> 01:12:48.560
+other than this one of the edge case okay now let's go and see what happens in the strict mode
+
+01:12:50.400 --> 01:12:59.120
+let me create inside a browser strict dot js and let me link
+
+01:13:03.760 --> 01:13:11.600
+strict dot js once i link this i'll go to this file i'll try to print this one now what do you
+
+01:13:11.600 --> 01:13:22.240
+think guys the output should be in the strict dot js in terms of browser and define let's see
+
+01:13:22.240 --> 01:13:31.040
+this if this is working that way browser always gives you window object as i told you the edge
+
+01:13:31.040 --> 01:13:40.640
+case for this one is that in as in strict and non-strict mode always console log okay let's
+
+01:13:40.640 --> 01:13:52.240
+me use that that one use strict okay let me go back you see this see this i refresh it
+
+01:13:54.880 --> 01:13:59.680
+now as i told you this is one of the edge case that happens like in simple console log this
+
+01:13:59.680 --> 01:14:07.120
+either it is pointing to empty object or like it is pointing to window object here in both
+
+01:14:07.120 --> 01:14:12.880
+in strict and non-strict mode this is pointing to window object okay now let's see if i write
+
+01:14:12.880 --> 01:14:17.520
+down a function again test inside the console dot log
+
+01:14:20.720 --> 01:14:26.640
+this and let's say i execute this here now what would you expect here again
+
+01:14:27.840 --> 01:14:35.360
+in the strict mode what was from earlier experience what would be the output in terms of
+
+01:14:35.360 --> 01:14:39.840
+node js strict mode
+
+01:14:42.320 --> 01:14:49.600
+undefined isn't it there in node js let's see what happening here still do you see this undefined
+
+01:14:50.240 --> 01:14:55.360
+that those both are aligned because there is no binding object binding is happening here there
+
+01:14:55.360 --> 01:15:03.280
+is no context for this one this okay now let's go with the third example which we have now
+
+01:15:04.160 --> 01:15:09.200
+this should be pretty straightforward that each time because this is one of the valid use case
+
+01:15:09.200 --> 01:15:14.160
+it should be still printing adam32 right it's still printing adam32
+
+01:15:16.000 --> 01:15:19.280
+now then there's one of the other last case
+
+01:15:22.400 --> 01:15:26.400
+let's say i try to take this and print it
+
+01:15:26.560 --> 01:15:31.040
+it now what should this point to here guys
+
+01:15:34.320 --> 01:15:39.680
+again undefined isn't it let's see so i guys align how this is working
+
+01:15:41.680 --> 01:15:47.920
+in the strict mode same way so which environment do you find better guys
+
+01:15:47.920 --> 01:16:00.000
+this strict mode now let's say i write down here in the notes that first point
+
+01:16:00.640 --> 01:16:06.720
+it's still pointing to window object this one it points to undefined
+
+01:16:09.760 --> 01:16:11.760
+this points to object itself
+
+01:16:11.760 --> 01:16:18.160
+this points to undefined
+
+01:16:22.640 --> 01:16:27.600
+so which is a better environment for to use for the production spaces just let me know whether
+
+01:16:27.600 --> 01:16:33.840
+you would use strict or non-strict which would be preferred guys from your understanding strict
+
+01:16:33.840 --> 01:16:39.120
+right strict mode is preferred and when it goes to that's the only difference if you see the
+
+01:16:39.120 --> 01:16:45.280
+outputs right if i zoom it out when it comes to strict or non-strict both the things this one or
+
+01:16:45.280 --> 01:16:51.280
+this one only the this use case right first use case are behaving differently but in all other
+
+01:16:51.280 --> 01:16:59.760
+use cases you'll be able to see that they are behaving in a same way okay so in production
+
+01:16:59.760 --> 01:17:05.200
+basis we go with the strict mode and this is what you have to remember i've but i have given you
+
+01:17:05.200 --> 01:17:10.080
+the context of everything which i'll be again taking a screenshot and i'll be adding that into
+
+01:17:11.280 --> 01:17:17.600
+you know as i've added it for these two things like you have a debouncing throttling the topics
+
+01:17:17.600 --> 01:17:22.240
+whichever you feel confusing right like the position property i'll be adding an image for
+
+01:17:22.240 --> 01:17:27.360
+this one so that you remember it if you are not able to access this notes whatever we are preparing
+
+01:17:27.360 --> 01:17:33.440
+i'll add this one if you need it do you want me to add it add this one there guys this differences
+
+01:17:33.440 --> 01:17:41.920
+block okay great i'll do that i have to prepare this one i'll add this one there okay great so
+
+01:17:43.440 --> 01:17:50.560
+are you feeling confident about like understanding this this is always again repeating the you know
+
+01:17:50.560 --> 01:18:00.960
+definition definition of this is like this this is pointing to some object now this object can be of
+
+01:18:03.600 --> 01:18:12.160
+how many types it can be window or global depending upon which node chase or the
+
+01:18:12.160 --> 01:18:20.960
+like browser then you have sometimes it object itself sometimes it is undefined
+
+01:18:22.080 --> 01:18:29.520
+now the undefined gives whenever in the considering strict mode if no context
+
+01:18:30.480 --> 01:18:34.560
+like there is nothing like whenever you're executing you are simply calling that function
+
+01:18:34.560 --> 01:18:41.920
+like function dot whenever you're calling this without any object context then you it will give
+
+01:18:41.920 --> 01:18:46.880
+you undefined whenever you're calling from the object point of view it will always print object
+
+01:18:46.880 --> 01:18:55.280
+itself and this is by window and global is like in strict mode when you will be able to access guys
+
+01:18:56.000 --> 01:19:01.520
+only in simple console lock this other times you won't be able to access
+
+01:19:03.680 --> 01:19:08.880
+directly the reason they have done right in strict mode you will be only able to
+
+01:19:08.880 --> 01:19:14.160
+access the window or empty object from friend end point of view in browser is that
+
+01:19:14.160 --> 01:19:18.320
+you always try to add this set timeout and everything right
+
+01:19:18.720 --> 01:19:23.200
+okay so the definition is simple this is pointing to some object we should know where it is being
+
+01:19:23.200 --> 01:19:27.600
+called from once this point is clear you will be able to figure it out
+
+01:19:29.600 --> 01:19:36.880
+so guys do you need a break or should i go ahead i need another half an hour to complete the class
+
+01:19:36.880 --> 01:19:43.840
+if you need a break so you can go ahead and complete the class and then you can go ahead and
+
+01:19:44.240 --> 01:19:48.800
+i need another half an hour to complete the class if you need a break let me know
+
+01:19:48.800 --> 01:19:54.400
+or else if you want me to continue i can continue okay you need a break how many minutes guys
+
+01:19:55.680 --> 01:20:03.120
+so we'll use some bits application some say seven some say ten okay so
+
+01:20:05.280 --> 01:20:09.440
+okay what i'll do is that i'll give it for seven minutes guys so i'm starting a timer
+
+01:20:10.320 --> 01:20:16.000
+once it is clocking seven minutes so i hope some bit you will improve this application redeploy
+
+01:20:16.000 --> 01:20:22.240
+and give it to me where i can enter the number of minutes okay i'm just waiting to clock it seven
+
+01:20:22.240 --> 01:20:31.360
+next week surely done so i've started guys take the break and come back in seven minutes
+
+01:20:39.440 --> 01:20:40.240
+you
+
+01:21:09.440 --> 01:21:10.240
+you
+
+01:21:39.440 --> 01:21:39.600
+you
+
+01:22:09.440 --> 01:22:10.240
+you
+
+01:22:39.440 --> 01:22:40.240
+you
+
+01:23:09.440 --> 01:23:09.600
+you
+
+01:23:39.440 --> 01:23:39.600
+you
+
+01:24:09.440 --> 01:24:09.600
+you
+
+01:24:39.440 --> 01:24:39.600
+you
+
+01:25:09.440 --> 01:25:09.600
+you
+
+01:25:39.440 --> 01:25:39.600
+you
+
+01:26:09.440 --> 01:26:09.600
+you
+
+01:26:39.440 --> 01:26:39.600
+you
+
+01:27:09.440 --> 01:27:09.600
+you
+
+01:27:29.840 --> 01:27:35.920
+uh guys i hope everyone is back can you give me one thumbs up if you are back guys
+
+01:27:36.880 --> 01:27:43.440
+cool uh so one check can anyone check if in archive section do you see
+
+01:27:43.440 --> 01:27:48.800
+github uh class and uh you know portfolio project class is added
+
+01:27:51.120 --> 01:27:56.400
+i got confirmation today i've been asking for some days uh but can you check
+
+01:28:06.720 --> 01:28:07.200
+so
+
+01:28:08.800 --> 01:28:24.400
+is anyone confirming guys is anyone checking
+
+01:28:24.400 --> 01:28:30.880
+so
+
+01:28:34.400 --> 01:28:39.600
+so please go through those classes guys it will really help you to fill up the other content which
+
+01:28:39.600 --> 01:28:45.280
+is not been covered so okay
+
+01:28:47.920 --> 01:28:52.960
+great uh again uh i would again ask you like you know uh whatever classes are there please
+
+01:28:52.960 --> 01:28:58.480
+try to go to check them once you have bandwidth uh even if you need any other content other than
+
+01:28:58.480 --> 01:29:03.520
+this thing if we are missing any topic or anything you can uh you know mention to me in whatsapp group
+
+01:29:03.520 --> 01:29:08.560
+or anywhere visionary or in class we'll try to cover it up we'll try to pick it up okay
+
+01:29:09.680 --> 01:29:13.120
+but can we move it guys can we move it the next topic
+
+01:29:16.400 --> 01:29:22.240
+great so let's say next topic is uh something called as constructor function
+
+01:29:23.680 --> 01:29:32.080
+before going to its name or anything what it is let's let's do something let's build something okay
+
+01:29:35.280 --> 01:29:38.000
+let's say i create a file called constructor
+
+01:29:40.240 --> 01:29:43.600
+dot j s now let's say
+
+01:29:43.600 --> 01:29:53.760
+let's say let's just think of this one that what if you want to build an car what all things you need
+
+01:29:56.960 --> 01:30:01.520
+let's say you went to a tata factory uh let's say you say that
+
+01:30:01.520 --> 01:30:06.240
+hey this is a car one uh what all properties it can have firstly
+
+01:30:13.760 --> 01:30:23.920
+color model can i say name firstly let's say it will have some name and then color then model
+
+01:30:27.680 --> 01:30:33.360
+and features all these are features itself upendra so company have fixed this is a tata
+
+01:30:34.560 --> 01:30:41.120
+manufacturing date can i use another top speed keyword let's say four things okay
+
+01:30:41.680 --> 01:30:48.640
+now let's say that uh one of the car arun suggestors is nexon let's say nexon tata nexon
+
+01:30:48.640 --> 01:30:55.360
+now inside nexon which color you want it arun which color i pick it any color guys nexon looks
+
+01:30:55.360 --> 01:31:02.880
+cool cool in coral do we have coral nexon available okay let's say nexon
+
+01:31:02.880 --> 01:31:03.440
+nexon
+
+01:31:05.760 --> 01:31:13.120
+petrol okay then you have a top speed of nexon as let's say 160 kmph
+
+01:31:16.320 --> 01:31:19.680
+okay this is an object now if you want to create an another object
+
+01:31:22.320 --> 01:31:29.120
+bumblebee uh okay but let's come back to this guys if you want to build how many other car
+
+01:31:29.120 --> 01:31:34.320
+like in tata factory there are many other models also are being built right now if you want to
+
+01:31:34.320 --> 01:31:41.600
+build another model which would be you're picking up tiago let's say you have a tiago
+
+01:31:42.560 --> 01:31:50.560
+and let's say color of tiago is a black and let's say this is uh electrical
+
+01:31:50.560 --> 01:31:52.560
+model
+
+01:31:54.960 --> 01:32:03.680
+and let's say this runs on up to 160 kmph still tiago i'm not sure but it goes okay safari
+
+01:32:06.640 --> 01:32:11.520
+this is one of my favorite model no one mentioned it yet i'm seeing comments
+
+01:32:11.520 --> 01:32:14.960
+tiago only 80 let me give 100 at least
+
+01:32:15.600 --> 01:32:25.120
+safari okay let's say safari is red in color it's a petrol engine heavy uh sorry diesel engine
+
+01:32:25.120 --> 01:32:36.560
+heavy vehicle uh and it goes up to 240 kmph no yeah i was waiting for this harrier have you been
+
+01:32:36.720 --> 01:32:42.400
+waiting for this harrier have you been in harrier guys have you experienced harrier
+
+01:32:44.400 --> 01:32:51.840
+have you seen harrier it's it's it's literally wow for me uh it's really classical car
+
+01:32:53.280 --> 01:32:54.320
+i really like it
+
+01:32:58.480 --> 01:33:03.520
+i mean my neighbors have it we give it my car to him i pick it up other car
+
+01:33:06.560 --> 01:33:15.520
+so yeah uh yes there's one more car uh kind of a hatchback can you guess it
+
+01:33:17.520 --> 01:33:25.600
+but it's really cool car also yeah altros right let's say i pick it up altros
+
+01:33:26.160 --> 01:33:28.000
+hey this will go up to 240
+
+01:33:30.560 --> 01:33:34.160
+altros let's say it's blue in color
+
+01:33:37.280 --> 01:33:46.960
+uh it's again petrol let's let's say it goes up to 160 kmph now yes uh we have uh ferrari it's not
+
+01:33:46.960 --> 01:33:54.160
+part of tata motors so if you see here there's one thing what we are doing is that the one way
+
+01:33:54.160 --> 01:33:59.360
+of creation object is this way right whenever object whenever see where object what we are
+
+01:33:59.360 --> 01:34:06.400
+actually meant to say that we are trying to envision the real time entity right a real time
+
+01:34:06.800 --> 01:34:14.320
+entity like a car it can have a number of properties yeah uh classes i don't want to
+
+01:34:14.320 --> 01:34:19.280
+talk in terms of class some bit we didn't introduce the word class or we don't know what class is
+
+01:34:19.840 --> 01:34:24.240
+but let's just talk in terms of objects functional objects or javascript objects that we discussed
+
+01:34:24.800 --> 01:34:30.160
+but are you able to relate like if i give any real time entity or real world entity you will
+
+01:34:30.160 --> 01:34:37.120
+be able to create objects this way like defining a space square i mean curly braces and defining
+
+01:34:37.120 --> 01:34:42.800
+its properties and functions in it right you will be able to relate with any any real world entity
+
+01:34:42.800 --> 01:34:48.560
+like take it a house take it a building take it apartment or anything you will be able to
+
+01:34:48.560 --> 01:34:56.400
+relate it right anything you will be able to build it this way yeah providing reality to idea
+
+01:34:56.400 --> 01:35:02.480
+because this is where objects helps you to connect with you real time things like you can
+
+01:35:02.480 --> 01:35:07.360
+build even if you want to build a macbook or windows you can keep on defining properties
+
+01:35:07.360 --> 01:35:12.400
+functions everything so you'll be able to do that so now but do you see here some use cases
+
+01:35:12.400 --> 01:35:18.080
+like if i want to build n number of cars let's say if i want to build i feel i build five cars
+
+01:35:18.080 --> 01:35:25.120
+i have defined five objects specifically to it okay like car 1 car 2 car 3 car 4 car 5 each time
+
+01:35:25.120 --> 01:35:32.640
+i'm trying to type a car name model top speed right so i'm trying to duplicate i'm duplicating
+
+01:35:32.640 --> 01:35:36.000
+the code here do you see this this is a duplication code duplication happening
+
+01:35:38.160 --> 01:35:48.000
+so imagine now even what if i want altros of red in color i don't have a way if i want to create
+
+01:35:48.000 --> 01:35:54.240
+altros of red in color i have to create another object of altros red what if i need altros blue
+
+01:35:54.240 --> 01:36:00.320
+of desert i have to create another object so if i'm trying to build that way there's a lot of
+
+01:36:00.320 --> 01:36:08.240
+you know the code gets lengthy and you know way of defining the objects is really it looks not
+
+01:36:08.240 --> 01:36:15.360
+that you know good to eyes right whenever you see that code so in order to fix these issues there
+
+01:36:15.360 --> 01:36:20.960
+is a one of the other way how you can define this object creation one of the way you can create
+
+01:36:21.040 --> 01:36:26.080
+object is this way in js the other way is something called as constructor function
+
+01:36:26.080 --> 01:36:32.160
+but do you know what constructor is called in any language whenever you say that whenever you
+
+01:36:32.160 --> 01:36:37.680
+hear this word constructor what do you exactly understand by this keyword
+
+01:36:41.120 --> 01:36:43.760
+what do you understand by this keyword call constructor
+
+01:36:47.280 --> 01:36:50.640
+any idea what do you understand by this keyword call constructor
+
+01:36:51.280 --> 01:36:59.120
+in any language go to java python c++ anything that you bring there is a this keyword is common
+
+01:36:59.120 --> 01:37:04.560
+across each and every language but i just want to understand what do you exactly understand by this
+
+01:37:04.560 --> 01:37:07.280
+keyword call constructor anyone
+
+01:37:09.600 --> 01:37:14.400
+called every time an object is created somebody says and any other definitions guys do you
+
+01:37:14.400 --> 01:37:16.320
+remember any other definitions
+
+01:37:21.680 --> 01:37:22.180
+okay
+
+01:37:26.080 --> 01:37:32.960
+is anyone trying out anyone from java backgrounds that's one of the basic color definition
+
+01:37:37.280 --> 01:37:40.000
+any object-oriented programming so there were many people
+
+01:37:40.880 --> 01:37:44.160
+who were working around with java object-oriented programming
+
+01:37:44.720 --> 01:37:48.960
+so just want to know what do you understand a function to create or initiate object okay
+
+01:37:51.440 --> 01:37:56.480
+okay it's like creating ones initializing constructor using multiple to create object
+
+01:37:56.480 --> 01:38:02.160
+okay great now one of the you know clarity that i want to give it to all you is that
+
+01:38:02.160 --> 01:38:10.720
+you know constructor is used to initialize object variables
+
+01:38:13.520 --> 01:38:15.440
+in order to create object
+
+01:38:21.280 --> 01:38:29.120
+you use new keyword generally new keyword is something which is creating memory
+
+01:38:29.840 --> 01:38:35.680
+right which is creating an empty memory for you where in constructor you pass on the values which
+
+01:38:35.680 --> 01:38:41.440
+initializes the variables right whatever you define it in a class like i don't want to say that but
+
+01:38:41.440 --> 01:38:45.360
+if you want to relate it that way so do you agree with this definition
+
+01:38:45.360 --> 01:38:51.680
+okay guys whoever commented in the chat do you agree with this definition
+
+01:38:54.640 --> 01:39:00.560
+now and i just want to know in the class how many of you are able to understand this thing
+
+01:39:00.560 --> 01:39:04.880
+firstly i hope there are many people who don't understand these two sentences even
+
+01:39:04.880 --> 01:39:16.560
+okay great now i hope everyone is able to relate it but now let's see how do you do it in javascript
+
+01:39:16.560 --> 01:39:21.600
+if you want to create these objects like you want to reduce the amount of this code duplicacy and
+
+01:39:21.600 --> 01:39:27.520
+how would you do it so one of the thumb rule for creating a you know constructor function is
+
+01:39:27.520 --> 01:39:32.560
+whichever function you are creating if you are trying to make it as a runner as a constructor
+
+01:39:32.560 --> 01:39:37.440
+function you have to define that function starting with a capital letter let's say
+
+01:39:38.080 --> 01:39:47.840
+i say it as data cars do you see i have mentioned capital t there okay this is first thing now
+
+01:39:47.840 --> 01:39:54.240
+inside this data car it will receive a list of variables now let's say you have this name color
+
+01:39:54.800 --> 01:40:04.720
+model and top speed okay these are the variables that you have now in order to create these
+
+01:40:04.720 --> 01:40:10.000
+variables what i'll do it here is something i'll just show you guys you have to tell me
+
+01:40:10.000 --> 01:40:13.760
+whether this will work or not
+
+01:40:22.080 --> 01:40:23.200
+the start model
+
+01:40:25.680 --> 01:40:34.160
+equal to model the start top speed equal to top speed
+
+01:40:34.160 --> 01:40:38.320
+okay just let me know whether this will work or not
+
+01:40:42.240 --> 01:40:48.400
+okay now what i did it here is start now let's say if i if i create a new memory how can i call
+
+01:40:48.400 --> 01:40:53.920
+this function if i want to create an object anytime let's say i am creating a const altros
+
+01:40:53.920 --> 01:41:00.800
+if i'm trying to create an altros here let's say i will say that hey can you give me a new car
+
+01:41:01.360 --> 01:41:07.760
+and uh let's say tata car inside that i'll give all the information i need
+
+01:41:07.760 --> 01:41:09.440
+i'll say that this is in altros
+
+01:41:12.160 --> 01:41:20.000
+and let's say i'll give the customization let's say blue i'll say model is electric
+
+01:41:22.640 --> 01:41:25.280
+and i'll say top speed is 180 kmph
+
+01:41:25.280 --> 01:41:35.600
+okay now the let's let's see if this i'm able to execute as expected uh what i'll do is i'll try
+
+01:41:35.600 --> 01:41:40.720
+to console log this object okay then i'll try to explain what's happening behind the scenes
+
+01:41:41.760 --> 01:41:43.600
+first let me see if this is working fine
+
+01:41:47.280 --> 01:41:50.400
+constructor dot js
+
+01:41:51.120 --> 01:41:57.440
+if you see it here i'm printing something called a star tata car with this all things now but what
+
+01:41:57.440 --> 01:42:03.040
+is exactly happening here let's understand what happens when i call this function
+
+01:42:05.600 --> 01:42:12.800
+uh when i call this function let's say new dot tata car what do you think this will be initialized
+
+01:42:12.880 --> 01:42:15.680
+what do you think this will be initialized with
+
+01:42:18.800 --> 01:42:21.440
+can i say step one
+
+01:42:23.920 --> 01:42:28.320
+would be whenever you are creating an object whenever you are trying to initialize using a
+
+01:42:28.320 --> 01:42:34.800
+new tata car whenever you say this this first thing initializes a new empty object here
+
+01:42:34.800 --> 01:42:41.280
+i mean this is pointed to an empty object because you created a whole whole together new object
+
+01:42:42.000 --> 01:42:47.760
+is this clear guys step one what is happening whenever you use new keyword you are generally
+
+01:42:47.760 --> 01:42:53.200
+creating a whole together new object which this is pointing to this empty object once this is done
+
+01:42:53.760 --> 01:42:58.720
+then wherever you have this variables right wherever you have this variables this start
+
+01:42:58.720 --> 01:43:04.880
+name model it takes those all those variables whatever defined in the function it takes those
+
+01:43:04.880 --> 01:43:12.560
+variables let's say it takes this like this start name is always pointing to undefined
+
+01:43:13.920 --> 01:43:23.600
+like then the start model values will be undefined okay the start color undefined the start color
+
+01:43:25.760 --> 01:43:32.880
+undefined so this is how this will be working in second step like all the way
+
+01:43:32.880 --> 01:43:40.320
+initial first is empty object then this object then at step three all these values will be
+
+01:43:40.320 --> 01:43:49.920
+filled with actual data now this object whatever object you have it with this will point this will
+
+01:43:49.920 --> 01:43:58.560
+change to such a way that this will point to an object which will have name auditors
+
+01:43:58.560 --> 01:44:15.280
+then you'll have color let's say blue then you'll have model as electric
+
+01:44:17.280 --> 01:44:21.280
+then you'll have top speed as some random value
+
+01:44:21.920 --> 01:44:28.320
+so are you able to relate to this case how actually object is being created using constructor function
+
+01:44:29.920 --> 01:44:37.440
+okay even this doesn't work this way it takes like a model it initializes all values with the
+
+01:44:37.440 --> 01:44:43.440
+undefined like same like a memory execution execution phase all the variables first initialize
+
+01:44:43.440 --> 01:44:48.800
+with undefined okay this is what happening in the second step then third step it is this is
+
+01:44:48.800 --> 01:44:54.080
+what it is building it now if i want to rebuild all of these models right it's really simple
+
+01:44:54.080 --> 01:45:00.080
+right one of the simple use cases would be for me to it's like replicate this one let's say i want
+
+01:45:00.080 --> 01:45:11.920
+to create a safari i'll go and say that get me the new car i'd say safari color would be red
+
+01:45:12.720 --> 01:45:18.560
+uh color would be red model would be petrol
+
+01:45:20.880 --> 01:45:28.400
+uh top speed will be let's say 240 kmph right so i hope you are able to
+
+01:45:28.400 --> 01:45:33.440
+connect with this case how concept of functions are used how can you optimize the code the way
+
+01:45:33.440 --> 01:45:39.120
+you write right i can end up this in five lines of code like if i can create a number of objects
+
+01:45:39.120 --> 01:45:44.960
+that we want so hope you are able to know understand the new way of creating an object
+
+01:45:45.440 --> 01:45:52.560
+uh like if you have a really reusable object let's say each and every object will be having
+
+01:45:52.560 --> 01:45:57.600
+a same sort of fields like say they will be having the same sort of fields then we will be using this
+
+01:45:57.600 --> 01:46:03.200
+one right like we can write a constructor function and we can reuse it this is the one of the core
+
+01:46:03.200 --> 01:46:14.400
+concepts of javascript now i hope you got to know now two ways of creating objects in js
+
+01:46:16.720 --> 01:46:25.120
+one is simple using curly braces then you will have constructor function so why we when we need
+
+01:46:25.120 --> 01:46:29.680
+to go to constructor function the only in the use case where you have the where you have to create
+
+01:46:29.680 --> 01:46:36.640
+a multiple objects with similar variables or even that's the same definition right when you
+
+01:46:36.640 --> 01:46:42.880
+want to go for a class whenever you have multiple objects are of same type or with changing the
+
+01:46:42.880 --> 01:46:47.520
+types of variables but i'll come back to the class in the next class i hope this point is
+
+01:46:47.520 --> 01:46:53.360
+clear guys anyone having any doubts why constructor function and how constructor function works
+
+01:46:53.360 --> 01:47:03.520
+okay can you please scroll to the first method uh step what if you miss a variable in the
+
+01:47:03.520 --> 01:47:10.320
+uh new constructor okay what if we missed it let's say i try to build it up that way like color
+
+01:47:10.320 --> 01:47:15.760
+uh let me miss this okay let's say i have i don't have this color okay let's say
+
+01:47:15.920 --> 01:47:22.000
+let's say i have i don't have this color okay let's say i've gave only three values now
+
+01:47:24.640 --> 01:47:28.320
+okay uh let's say i try to print safari
+
+01:47:34.160 --> 01:47:40.880
+here if you see it here what happened whenever you miss some variable here
+
+01:47:40.880 --> 01:47:44.080
+so it or the last variable will be assigned undefined
+
+01:47:47.600 --> 01:47:53.680
+like it the petrol was assigned earlier so that's how it works as per index
+
+01:47:54.720 --> 01:48:01.360
+as per index other than that thing like it's not as per index but if you see i'm picking name then
+
+01:48:01.360 --> 01:48:07.760
+i'm applying yeah like you can say the the exact way that how it is defined in the parameters the
+
+01:48:07.760 --> 01:48:11.440
+same way you have to pass the arguments the function okay
+
+01:48:17.520 --> 01:48:24.560
+so great guys guys any anything else any doubts if you don't have any doubts uh so uh today's
+
+01:48:24.560 --> 01:48:31.040
+classes that's that much itself because i don't want to confuse you introducing new things like
+
+01:48:31.040 --> 01:48:37.440
+classes as of now but this is what today we are talking about like what this is talking about
+
+01:48:37.440 --> 01:48:43.280
+this context of this in no like understanding strict and non-strict environments and both
+
+01:48:43.280 --> 01:48:47.840
+like how this works in both browser and node.js then understanding a constructor function
+
+01:48:47.840 --> 01:48:53.840
+up to an extent then we'll come back with the new topics again right samvith yeah we have
+
+01:48:53.840 --> 01:48:56.160
+ended the content that we have to discuss for today
+
+01:49:00.640 --> 01:49:05.280
+so if there are no doubts can i start doubt session and we can go ahead
+
+01:49:08.400 --> 01:49:11.040
+great guys so let's say i start the doubt session
+
+01:49:14.400 --> 01:49:20.000
+okay so i've started out session guys but uh what i'll we'll be doing it right uh something
+
+01:49:20.000 --> 01:49:22.640
+i just want to talk about it once i introduce classes
+
+01:49:25.600 --> 01:49:33.680
+yeah uh we started early quite early today right uh doubt session but uh next in next class we
+
+01:49:33.760 --> 01:49:39.520
+actually will start with actual object-oriented programming that you reflex with which is esx
+
+01:49:39.520 --> 01:49:46.800
+syntaxes esx concepts where you see classes and classical inheritance and then we'll try to see
+
+01:49:46.800 --> 01:49:52.320
+how they have built it actually what is the behind the scenes you know how they were able to build
+
+01:49:52.320 --> 01:50:02.560
+this class samvith was waiting for ankit's reactions things so guys uh so i i knew that
+
+01:50:02.560 --> 01:50:06.720
+i was able i'll be closing up early today that's the reason why i asked people who were facing
+
+01:50:06.720 --> 01:50:13.600
+challenge i'll be discussing with them so guys uh earlier uh whoever gave me thumbs down right
+
+01:50:13.600 --> 01:50:18.800
+who were not able to follow up with the class or the content uh let's have the conversation
+
+01:50:18.800 --> 01:50:24.320
+uh just you know raise your hand so that i'll unmute you we can have discussed broadly we'll
+
+01:50:24.320 --> 01:50:29.920
+understand your points i'll try to add my uh you know my vision or my way of understanding
+
+01:50:29.920 --> 01:50:31.040
+how can you do it better
+
+01:50:34.080 --> 01:50:39.920
+uh good night guys if uh if there are no doubts feel free to drop uh we'll connect back on the
+
+01:50:39.920 --> 01:50:52.800
+thursday uh okay kiran's has shared me uh you know kanban board get kiran let me share it to everyone
+
+01:50:52.960 --> 01:51:00.960
+okay uh i'll come to come to you for a second so this is built by kiran kudos to kiran for building
+
+01:51:00.960 --> 01:51:06.080
+it uh putting all the efforts so one suggestion i can give you is that you know the font size are
+
+01:51:06.080 --> 01:51:13.200
+really small if you can improve a bit big uh would be really cool this one this are all to do okay
+
+01:51:14.080 --> 01:51:23.200
+this one this are all to do okay maybe a little bit bigger okay uh no screen size
+
+01:51:31.840 --> 01:51:38.000
+okay i see search filter going at below so i just want to see uh
+
+01:51:38.000 --> 01:51:44.960
+uh yeah i it's looking a bit different on my system i agree so there might be few things
+
+01:51:44.960 --> 01:51:52.640
+breaking uh yeah uh we have to address that issues we have to address that issues like how why it is
+
+01:51:52.640 --> 01:51:57.600
+breaking let's say if i give you some pointers uh let's say i zoom it out
+
+01:52:03.040 --> 01:52:04.240
+hey it was working fine
+
+01:52:04.240 --> 01:52:15.680
+now if you see uh at 100 zoom uh the search is going inside it but when i'm opening debugger
+
+01:52:15.680 --> 01:52:23.520
+i'm able to see that one now if you see how this is working this been added or dealt with
+
+01:52:23.520 --> 01:52:26.800
+with
+
+01:52:28.960 --> 01:52:35.840
+or the search container css position relative uh position relative to which one is this this
+
+01:52:35.840 --> 01:52:40.880
+container with this container if you do seven rem uh when i
+
+01:52:43.440 --> 01:52:49.680
+when i when i do this right when i play around with this my screen sizes and width it will be
+
+01:52:49.680 --> 01:52:53.280
+breaking this one search container what if i remove this
+
+01:52:56.160 --> 01:53:00.240
+i remove this by default uh
+
+01:53:04.000 --> 01:53:09.840
+let's say we have a wrapper around here i say display as a flex
+
+01:53:12.400 --> 01:53:15.760
+and flex direction as a column
+
+01:53:19.680 --> 01:53:31.120
+let's say as of now um i'm just editing i'm trying to figure it out okay when i put this
+
+01:53:31.120 --> 01:53:42.000
+column reverse uh it still goes inside because this toolbox container is defined in terms of
+
+01:53:42.000 --> 01:53:46.640
+height of 15 percent 15 percent of width let's say you give some
+
+01:53:50.000 --> 01:54:02.000
+let's say 25 pixels uh 250 pixel which is too huge 100 pixels try to use relative unit so that
+
+01:54:02.000 --> 01:54:08.640
+it would be good kiren right in terms of uh use relative units you'll be able to figure it out
+
+01:54:08.640 --> 01:54:17.680
+use rems okay now if you see uh once i fix that 15 pixel one even if i go and try to use your
+
+01:54:18.640 --> 01:54:28.640
+properties like if i use this now let's say i go and remove this display flexion direction
+
+01:54:29.760 --> 01:54:37.040
+this works fine i have to only address this issue i guess this whatever height you are using 15vh
+
+01:54:37.040 --> 01:54:43.760
+that's the thing which was creating an issue okay uh and another uh keep check this font sizes uh
+
+01:54:43.760 --> 01:54:48.880
+use relative units as per screen width it will change it okay uh keep it default
+
+01:54:48.880 --> 01:54:55.120
+using rem units so that will work fine uh trying to create ticket uh this looks cool
+
+01:54:56.000 --> 01:55:05.920
+let's say i again use task one uh and i click pink so i have a really yeah the highlighter is
+
+01:55:05.920 --> 01:55:12.720
+you can add a much more box shadow because box shadow is of same color and the background is
+
+01:55:12.720 --> 01:55:20.080
+same color right so that the click feel the click feel is not that up to an extent maybe
+
+01:55:20.080 --> 01:55:26.080
+ticket this feedback as a positive way okay hope you are not feeling offended okay
+
+01:55:27.520 --> 01:55:35.280
+because we all are learning right now once i click so how do this ticket get created
+
+01:55:35.280 --> 01:55:42.080
+what key i should use here what you have decided shift or enter or how does it work
+
+01:55:43.520 --> 01:55:46.080
+because i'm trying shift and enter it's not working
+
+01:55:48.720 --> 01:55:58.400
+okay option alt key okay great so i have alt uh now let's say i create another task task hyphen
+
+01:55:58.400 --> 01:56:08.320
+two i have green in color i click alt and then i inspect it i go to application
+
+01:56:08.960 --> 01:56:21.200
+and storage uh let's say okay uh one thing do you see ticket content i have task hyphen one
+
+01:56:21.760 --> 01:56:30.640
+slash n now if i go and edit it i don't have that slash n which is like entered into the next line
+
+01:56:31.520 --> 01:56:37.120
+check this this bug can exist in all the apps like created across okay this slash n because
+
+01:56:37.120 --> 01:56:45.280
+i clicked enter and then pressed alt like alt yeah trim would work trim would work
+
+01:56:50.000 --> 01:56:57.520
+okay check check on that kiran okay if that works now i'll update it as zero one and again i click
+
+01:56:57.520 --> 01:57:04.960
+alt uh i lock this button so it got updated as expected let's say if i update color it is
+
+01:57:04.960 --> 01:57:12.320
+expected working as expected to be review cool in progress cool to do nothing double click
+
+01:57:14.160 --> 01:57:21.600
+uh how do i get all okay all all is the button you have given all okay will that matter
+
+01:57:22.160 --> 01:57:28.000
+uh it is a usual string right let's say if i create uh what what will happen let's say i create
+
+01:57:28.000 --> 01:57:34.960
+another task file i'll show it here uh let's say i say task hyphen three and i'll keep on
+
+01:57:34.960 --> 01:57:41.600
+entering it since it's a text area i've came to last time i click uh pink as a default color
+
+01:57:41.600 --> 01:57:47.920
+i come back here i click alt now if you see what happens do you see here the text content what if
+
+01:57:47.920 --> 01:57:54.240
+you are sending this data to api you will be having slash and slash and slash n so this will
+
+01:57:54.240 --> 01:57:58.160
+matter when you're actually sending it to server so trimming it is a better option
+
+01:58:02.240 --> 01:58:10.080
+you get that okay great so yeah it is great kiran like only one css fix that i see uh which is
+
+01:58:10.080 --> 01:58:16.960
+respect to height of ph and other things are looking cool only font sizes and good one so
+
+01:58:16.960 --> 01:58:21.920
+if i filter it out let's say task okay uh do you see this
+
+01:58:24.080 --> 01:58:32.080
+okay uh it's case sensitive isn't it kiran's case sensitive so one suggestion again here
+
+01:58:32.080 --> 01:58:40.240
+uh try to use uh like uh not make in sensitive uh let's say case insensitive we should make this
+
+01:58:40.240 --> 01:58:46.640
+one maybe use lower two lower case or two upper case anything works okay uh anything that you
+
+01:58:46.640 --> 01:58:52.880
+are trying to check like uh the check condition uh let's say if you uh there are too many console
+
+01:58:52.880 --> 01:58:58.320
+locks also try to remove this console locks from the application uh things are getting printed so
+
+01:58:59.280 --> 01:59:05.120
+one of the way that i was talking about is let's say this is a task uh you will always have a two
+
+01:59:06.720 --> 01:59:16.000
+local uppers case i don't think two local two upper case okay and so you can always triple check
+
+01:59:16.960 --> 01:59:25.280
+with task to upper case you have to do use uh for both the conditions something that you are getting
+
+01:59:25.280 --> 01:59:31.920
+it from uh local storage and the value which is area okay you will be able to get this way
+
+01:59:31.920 --> 01:59:35.040
+and you'll be able to filter it and return or based on the filter
+
+01:59:37.600 --> 01:59:46.240
+got this hidden uh this point okay yeah uh and the other one is like if i enable delete uh
+
+01:59:46.240 --> 01:59:55.760
+let's say i hey this is cool samit you got a new point to implement our c on this one
+
+01:59:57.360 --> 02:00:04.160
+so if i hover over it again kiren there's a one suggestion what do i do it if i hover over it
+
+02:00:04.160 --> 02:00:11.600
+do i get a different feel no like i'm able to delete this one what if this bulges up again
+
+02:00:11.600 --> 02:00:18.640
+again like i'm just adding my idea uh like uh whenever i'm hovering over it the cursor should
+
+02:00:18.640 --> 02:00:23.040
+change to pointer first then only you will be able to know that you are going to delete this
+
+02:00:23.040 --> 02:00:29.760
+pattern this particular card uh particular task so at least cursor make a change of cursor
+
+02:00:30.800 --> 02:00:33.600
+whenever on hover the cursor will change to pointer
+
+02:00:34.320 --> 02:00:36.320
+uh
+
+02:00:37.280 --> 02:00:42.960
+yeah uh no no no worries no worries uh no worries uh i all like i understand it right
+
+02:00:45.280 --> 02:00:53.680
+yeah can we make it a burst uh you can actually you can make changes uh but uh i would say even
+
+02:00:53.680 --> 02:00:59.280
+if you did it in hurry right uh you you really got some great changes you can keep on like
+
+02:00:59.360 --> 02:01:06.480
+you know improving it yeah uh yeah you you you can do that right you can do it you can keep on
+
+02:01:06.480 --> 02:01:13.760
+implementing i have so that's where our ideas come right uh as a front-end developers if you
+
+02:01:13.760 --> 02:01:19.760
+see the same application functionalities are same the app that i built was different the sam with
+
+02:01:19.760 --> 02:01:26.560
+version was different your version was different uh those two functionalities are same so uh kudos
+
+02:01:26.560 --> 02:01:31.760
+to your efforts guys so try to think like how can improve uh because it will help you to improve
+
+02:01:31.760 --> 02:01:38.400
+your uh ui ux skills more and css skills more i would say like yeah because those
+
+02:01:38.400 --> 02:01:43.280
+devs are still going to exist uh the functionality is still going to exist the same way it's just
+
+02:01:43.280 --> 02:01:48.800
+that you are playing around with the css and some of some of your ux ideas okay so try to improve
+
+02:01:48.800 --> 02:01:54.240
+uh like i mean i won't say that improve maybe whatever idea clicks inside your mind try to
+
+02:01:54.240 --> 02:02:01.120
+implement that because i i feel if you are able to come for this the only deployment took two
+
+02:02:01.120 --> 02:02:10.720
+hours truth and i get that uh okay uh even if null check is also not needed uh one thing i suggested
+
+02:02:10.720 --> 02:02:16.400
+you know optional chaining also you can take it up get an optional chaining i suggested in the chat
+
+02:02:16.480 --> 02:02:25.040
+uh that will also work uh yeah null check uh all optional chaining if you add it here optional
+
+02:02:25.040 --> 02:02:31.040
+chaining now this will also work because it checks now if object is empty it won't go for for each
+
+02:02:33.760 --> 02:02:37.040
+okay optional chaining i have already taught you know uh let's say uh
+
+02:02:39.040 --> 02:02:43.680
+let's say this is uh let me go to some random file
+
+02:02:46.720 --> 02:02:54.320
+let's say i say this is an index dot js okay let's say this was an array right empty array
+
+02:02:54.320 --> 02:03:03.920
+so on this forage was breaking so let's say array dot forage uh whatever element i have i'm trying
+
+02:03:03.920 --> 02:03:07.440
+to print it
+
+02:03:13.600 --> 02:03:19.120
+right this is what we were doing it now now if i try to go and execute this file let's say
+
+02:03:20.320 --> 02:03:27.360
+i'm supposed to get an undefined error you know or else let's say uh earlier we were actually
+
+02:03:27.360 --> 02:03:33.680
+you know since this is an array this will still work let's say a node index dot js it will still
+
+02:03:33.680 --> 02:03:38.640
+work it won't output anything but earlier on the step two we were getting values from
+
+02:03:41.520 --> 02:03:47.920
+you know local storage or else it is setting as undefined now if i do this you see i get forage
+
+02:03:47.920 --> 02:03:53.040
+as a property of undefined now whenever i want to handle this issue one of the check is i can do
+
+02:03:53.040 --> 02:03:58.560
+null check or any undefined check or else i can add this condition when i add this if you see i
+
+02:03:58.560 --> 02:04:04.400
+still don't get any error because this checks uh whether if there are only values only then
+
+02:04:04.400 --> 02:04:12.160
+it will execute it okay so this is an optional changing if find it checks like if array is not
+
+02:04:12.160 --> 02:04:19.920
+empty go for the next method if array is like that sort of things like okay i hope you got this uh
+
+02:04:19.920 --> 02:04:23.680
+try to use this use case like if you don't want to use that null check
+
+02:04:29.360 --> 02:04:34.720
+no null check works null checks works by default but i'm saying that better way of writing is like
+
+02:04:34.720 --> 02:04:36.720
+this optional changing
+
+02:04:42.080 --> 02:04:48.960
+so uh i had to stringify store it in local yeah yeah string because local storage stores only
+
+02:04:48.960 --> 02:04:53.600
+strings you have to convert json's into strings and only then you can store it you have to parse
+
+02:04:54.160 --> 02:05:00.240
+it you have to parse back whenever you are using it that happens with even api api sometimes
+
+02:05:00.240 --> 02:05:06.080
+doesn't send you json you have to parse it uh then you have to use it so you should know that
+
+02:05:06.080 --> 02:05:16.320
+those those are like uh yeah okay no no worries no worries uh going back to the people who wanted
+
+02:05:16.320 --> 02:05:22.320
+to discuss here uh ankit how you doing i just want to know how are you going well is your
+
+02:05:22.320 --> 02:05:28.080
+preparation yeah thank you kiran thank you for putting effort so you are getting to learn and
+
+02:05:28.080 --> 02:05:34.720
+apply those knowledge okay uh try to improve on this one uh but hey one thing guys uh since
+
+02:05:34.720 --> 02:05:43.040
+classes are added i since you have now three apps right uh of a portfolio app or weather app uh and
+
+02:05:43.920 --> 02:05:49.440
+this one like to do list app why don't you integrate them if someone can integrate them
+
+02:05:52.720 --> 02:05:56.160
+okay trying to link portfolio app uh with a link
+
+02:05:59.920 --> 02:06:08.960
+oh okay your health is not good um but let me know ankit if i can help you out by some way
+
+02:06:08.960 --> 02:06:13.920
+uh if you want me to connect with you in any session we can maybe discuss a strategy
+
+02:06:13.920 --> 02:06:19.680
+which can help you to you know cope up with the things uh once you are you are good now
+
+02:06:19.680 --> 02:06:23.120
+yeah going good good now or like you still your health is affected
+
+02:06:33.200 --> 02:06:40.640
+uh job is affecting my studies too much okay uh that thing here uh it's it's like you know tricky
+
+02:06:40.640 --> 02:06:41.280
+thing if you
+
+02:06:45.360 --> 02:06:53.600
+look uh okay so one of the way i consider it right one of the way i say strictly right
+
+02:06:55.600 --> 02:07:05.360
+it's not to be said this way but i should say it like what happens in job is that uh like
+
+02:07:05.840 --> 02:07:09.840
+uh do you follow agile process in your system
+
+02:07:12.640 --> 02:07:21.680
+agile do you follow agile okay no yes okay so if you're following agile you always have a
+
+02:07:23.200 --> 02:07:30.800
+story points right when you start the sprint so i always uh what i do is that
+
+02:07:30.960 --> 02:07:39.920
+i discuss with my leads uh and think that you know if a sprint a sprint is usually at my place
+
+02:07:39.920 --> 02:07:48.160
+is of two weeks okay in two weeks we have to estimate how much amount of work we'll do
+
+02:07:48.720 --> 02:07:57.600
+so for us when i go for two weeks i have 10 days of working with four week uh leaves or four weekends
+
+02:07:57.600 --> 02:08:06.240
+or four weekends right so i have 10 days so what i pick is like i pick 10 story points work
+
+02:08:10.000 --> 02:08:16.320
+not more than that if there is something ad hoc if there is something ad hoc like let's say let's
+
+02:08:16.320 --> 02:08:21.600
+say there is something i don't which happens usually okay if there is something i don't that
+
+02:08:21.600 --> 02:08:27.120
+you want to do or you want to work on something what i do is that again i go to jeera board
+
+02:08:27.120 --> 02:08:32.320
+i say that if i'm working on ad hoc story i'll add those points there hey that i work two story
+
+02:08:32.320 --> 02:08:36.960
+points of work this one so i'll reduce two points story work i'll move it to the next sprint
+
+02:08:39.200 --> 02:08:43.840
+because this is what you are getting paid for not more than 10 story points
+
+02:08:43.840 --> 02:08:49.600
+if you are doing it more than that then your manager is able to leverage you better
+
+02:08:50.400 --> 02:08:55.840
+and doing this 10 story punch should you should be able to quantify it because i'll tell you it's
+
+02:08:55.840 --> 02:09:03.280
+not today's time even if you change your job after putting off so much of hard work uh whenever you
+
+02:09:03.280 --> 02:09:09.760
+go to let's say you cracked amazon or fang mang or anything or a good product based mnc or any
+
+02:09:09.760 --> 02:09:15.760
+company that you want to even if you go there you have to know like how much work you should be able
+
+02:09:16.400 --> 02:09:22.080
+to take it how much you would be able to deliver it because when it comes to work-life balance
+
+02:09:22.080 --> 02:09:28.720
+no company provides work-life balance it is up to you how do you choose it i've seen in paypal
+
+02:09:28.720 --> 02:09:36.400
+or any aux that i worked in people working 16 17 hours whereas i was working only for the amount
+
+02:09:36.400 --> 02:09:41.200
+of thing that i was paid because i was always upscaling myself focusing on things that i wanted
+
+02:09:41.200 --> 02:09:47.920
+myself focusing on things that i wanted to learn as an engineer okay so considering these things
+
+02:09:47.920 --> 02:09:54.560
+you should always set up you mean you should fight for yourself because end of the day when
+
+02:09:56.080 --> 02:10:03.520
+when your appraiser hits when your appraiser hits your manager has 100 rupees in his bucket
+
+02:10:04.080 --> 02:10:12.240
+he have to distribute between the whole team doesn't matter if you work 18 20 hours he won't
+
+02:10:12.240 --> 02:10:18.880
+get extra like someone is working of more than nine hours of time that is working extra five six
+
+02:10:18.880 --> 02:10:25.760
+hours he won't get extra money like 120 or 130 per year in order to distribute if he's getting
+
+02:10:26.320 --> 02:10:31.840
+it's it's good to put in those efforts but he's not getting it so he'll be having only 100 rupees
+
+02:10:31.920 --> 02:10:37.360
+he'll be distributing it so first thing is communication understanding how do you drive it
+
+02:10:37.360 --> 02:10:44.720
+whether it's your business analyst who's driving the scrum or scrum master the respective product
+
+02:10:44.720 --> 02:10:53.440
+owner or the client or your manager lead whoever is a stakeholder you have to understand how do
+
+02:10:53.440 --> 02:10:59.120
+you build it how do you build it so that you have to manage your time otherwise you'll keep on
+
+02:10:59.440 --> 02:11:04.800
+otherwise you'll keep on working and you won't be able to learn things other than your work
+
+02:11:07.440 --> 02:11:11.520
+this is clear guys like there's a strategy that you have to build
+
+02:11:16.480 --> 02:11:26.400
+uh so that okay i'll come to your use case and uh kit now because i'm not uh like because i have
+
+02:11:26.400 --> 02:11:31.680
+been into this role right i know how things work so i was talking about that from that perspective
+
+02:11:31.680 --> 02:11:36.000
+but from your perspective uh i would say that
+
+02:11:39.600 --> 02:11:41.520
+it's it's it's six months hard work
+
+02:11:45.440 --> 02:11:46.000
+somehow
+
+02:11:46.000 --> 02:11:58.480
+how maybe while you're i agree i agree uh i agree that but but you know six months hard work from
+
+02:11:58.480 --> 02:12:05.600
+scratch if you are able to put on effort i'll give you my time also to help you out to you know do
+
+02:12:05.600 --> 02:12:12.800
+it but if you if you are doing it then i'll be also doing it okay if you have any challenge i'll
+
+02:12:12.800 --> 02:12:17.440
+be also doing it but if you should be putting it from your side so that i can contribute from my
+
+02:12:20.000 --> 02:12:22.800
+i'll be available you can ping me but it's it's that
+
+02:12:24.400 --> 02:12:33.120
+you have to find time i cannot i even i need it i need it like i need more than 25 even sometimes
+
+02:12:33.120 --> 02:12:39.280
+i have too much workload i'm my eyes are burning right now uh my day started morning seven i want
+
+02:12:39.280 --> 02:12:46.240
+system for continuous okay so but there are some days you'll have tough days there are some days
+
+02:12:46.240 --> 02:12:51.440
+you'll have good days okay but it's it's our job like we will be should be able to figure it out
+
+02:12:52.320 --> 02:12:58.800
+how we'll be able to doing it okay so if you are able to figure it out time in this 24 o'clock
+
+02:12:58.800 --> 02:13:03.760
+cycle as unshuman says right unshuman might have told you if you have been into is one of
+
+02:13:04.320 --> 02:13:11.120
+any classes he talks about something called a focused hours do you know this concept of focused
+
+02:13:11.120 --> 02:13:21.200
+hours focused hours uh so they what he says is what generally happens with the people right
+
+02:13:21.200 --> 02:13:27.840
+when you're too much busy when you are too much busy uh in your life work life uh even right right
+
+02:13:27.840 --> 02:13:37.360
+like i it for me uh if i if i have to say so my job plus if you go back sometime back my sister's
+
+02:13:37.360 --> 02:13:41.840
+marriage right i had family when they have to take care of shopping and things supporting parents
+
+02:13:42.400 --> 02:13:52.640
+that one family support then preparation for class then taking class so i had four five items going
+
+02:13:52.640 --> 02:13:57.200
+on in my day life these are the things that i can mention in class so i'm mentioning them
+
+02:13:57.200 --> 02:14:03.440
+but there were few more things add on so but if you see how i'm able to manage all of these things
+
+02:14:03.440 --> 02:14:09.360
+is that i i will leverage this one something called focus task technique now focus hours is
+
+02:14:09.360 --> 02:14:17.920
+let's say i say that from seven to seven a.m to nine a.m nine a.m i'll do for surely focus on
+
+02:14:17.920 --> 02:14:25.840
+something one activity maybe it is my family time or it's a preparation time or it's taking class
+
+02:14:25.840 --> 02:14:34.320
+or job time anything i'll surely during this moment of time i have completed that like in
+
+02:14:34.320 --> 02:14:40.320
+your office you have meetings right which are scheduled in your calendar and you are supposed
+
+02:14:40.320 --> 02:14:45.760
+to take that you cannot say that i'll sometimes you can say that when you're a really high head
+
+02:14:45.760 --> 02:14:52.240
+position that can remove this meeting to other time but this is fixed so prepare your google
+
+02:14:52.320 --> 02:14:58.400
+calendar such a way that you are able to take this and this thing not only will help you for
+
+02:14:58.400 --> 02:15:03.440
+this next six months of preparation after cracking job but will help you in future also because i've
+
+02:15:03.440 --> 02:15:09.440
+used family also here because how do you manage that time the better you manage your 24 hour
+
+02:15:09.440 --> 02:15:18.400
+talk cycle the better more happier and driven you will be okay so when i say for the and even i
+
+02:15:18.800 --> 02:15:27.360
+my focus stars are divided into something called as promodoro techniques so have you heard this
+
+02:15:27.360 --> 02:15:40.800
+promodoro like i use 45 hour promodoro technique like yeah i use 45 hours because initially i
+
+02:15:40.800 --> 02:15:47.280
+started with 15 30 and now my strength goes for 45 minutes i can focus on things for up to 45
+
+02:15:47.280 --> 02:15:53.040
+minutes not more than that it's it's really difficult to focus for 45 minutes continuously
+
+02:15:53.040 --> 02:15:59.040
+on one thing but i use this to push my productivity
+
+02:16:05.840 --> 02:16:10.640
+like i push my productivity for 45 minutes then i relax for 15 minutes
+
+02:16:11.200 --> 02:16:18.720
+then again i move it okay so that we will be able to complete our task in this 45 minutes focus like
+
+02:16:19.920 --> 02:16:26.000
+so this is how my things works i can talk about you but when it comes to people who are following
+
+02:16:26.000 --> 02:16:31.280
+agile i would say that hey take up the work which you have it if there is something add up add those
+
+02:16:31.280 --> 02:16:35.680
+story points and deal with it because you're not supposed to work because i've told you it doesn't
+
+02:16:36.080 --> 02:16:42.800
+matter you're putting extra hours 16 20 hours or 23 hours also working doesn't matter
+
+02:16:42.800 --> 02:16:48.320
+you add only 100 rupees you'll distribute in the whole day there are no extra money any manager
+
+02:16:48.320 --> 02:16:56.000
+is writing this is applicable for even if you're working google or any company say so okay uh that's
+
+02:16:56.000 --> 02:17:05.600
+a thing guys so there's a theme of working extras like doesn't matter because if you see most of
+
+02:17:05.600 --> 02:17:14.160
+the companies are based out of europe and us the people leave like as soon as the time clicks
+
+02:17:14.160 --> 02:17:18.720
+they leave the office and they go and they enjoy their life but for us
+
+02:17:20.960 --> 02:17:26.880
+indians indians works comparatively more than what around the globe people work because their
+
+02:17:26.880 --> 02:17:32.560
+way of looking at life is different our way of looking at life is different too much hardworking
+
+02:17:32.560 --> 02:17:38.240
+people are japanese in nature japanese continuously can stretch it even they sleep
+
+02:17:38.240 --> 02:17:44.960
+it in office they don't have uh like kitchens in their home uh like they eat outside in the
+
+02:17:44.960 --> 02:17:54.720
+restaurants uh japanese culture is completely different like uh post uh like this one right
+
+02:17:56.480 --> 02:18:01.440
+world war their culture changed it completely if you see them now they are struggling to maintain
+
+02:18:01.440 --> 02:18:06.320
+this they pay people like if they have planned kids family planning if they do family planning
+
+02:18:06.320 --> 02:18:13.600
+they government pays the money to them for taking care of them kids like it's it's really uh that
+
+02:18:13.600 --> 02:18:17.840
+culture is different if you go for country by country the cultures are different so you can
+
+02:18:17.840 --> 02:18:25.360
+take leverage of those cultures okay like you really like to work go to japan like they will
+
+02:18:25.360 --> 02:18:31.920
+pay you good also as per your work if you want to enjoy it manage thing go for europe or us based
+
+02:18:31.920 --> 02:18:40.000
+companies they have their own uh cultural policies you can check them uh they leave after the bosses
+
+02:18:40.000 --> 02:18:45.760
+like yeah it's it's everything every company will have their own culture guys so but i hope
+
+02:18:45.760 --> 02:18:50.960
+you got the gist of it that you have to figure it out the time and use focused hours such that
+
+02:18:50.960 --> 02:18:58.800
+you leverage all the learnings uh and if you need my time right in anywhere i'll try to help you out
+
+02:18:58.800 --> 02:19:04.400
+but i'll make sure that doom inform me such that i'll you know i have to manage that time also
+
+02:19:04.400 --> 02:19:10.880
+right my time then i'll try to focus with you so that's what i'm talking about like if you are
+
+02:19:10.880 --> 02:19:19.840
+able to put efforts i'll also try to give my add-on points okay let's say this is class 21
+
+02:19:20.960 --> 02:19:31.360
+okay so hello guys then we'll uh yeah yeah i'll i'll try to connect on some time on sunday
+
+02:19:31.360 --> 02:19:39.040
+if possible okay if things are clear we have discussed good enough things
+
+02:19:42.240 --> 02:19:48.640
+yeah great yes good night take care guys see you on the next class bye good night guys
+
+02:19:50.960 --> 02:19:58.640
+okay i've stopped screen sharing in the session guys see you on thursday
+
+02:20:20.960 --> 02:20:21.840
+you
+

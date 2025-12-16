@@ -1,0 +1,4715 @@
+WEBVTT
+
+00:00.000 --> 00:27.360
+Hi all, good evening.
+
+00:27.360 --> 00:35.040
+Give me a thumbs up if I'm audible and visible cool thank you guys hello so
+
+00:35.040 --> 00:42.240
+we'll wait for some time today since it's a first class before I start
+
+00:42.240 --> 00:51.440
+speaking on something I'll share my screen meanwhile so can you see my screen
+
+00:51.440 --> 00:57.920
+share also so I'll keep the five minutes timers as that will start with the
+
+00:57.920 --> 01:01.960
+content post five minutes meanwhile if someone want to talk about anything or
+
+01:01.960 --> 01:10.720
+do you have anything we can discuss among among us okay so how's everyone
+
+01:12.440 --> 01:19.560
+class strength I'm not sure I've enough have to check on that but currently I
+
+01:19.600 --> 01:24.400
+see 15 people are there in the class so we'll wait for some more time and get to
+
+01:24.400 --> 01:31.480
+know okay so how how is your preparation with our DSA and sequel do you feel
+
+01:31.480 --> 01:38.160
+confident how many of you have cleared mock interviews for them or attempted
+
+01:38.160 --> 01:48.040
+pretty good great little little good so how many of you are freshers if you are
+
+01:48.080 --> 01:52.000
+give me thumbs up for the freshers
+
+01:54.080 --> 02:01.680
+I'm due to job okay most excited for efforts great great okay I see six
+
+02:01.680 --> 02:09.400
+people which I can say 25% of batches freshers cool since full stack is a
+
+02:09.400 --> 02:14.560
+beginner course right for the it's designed for religion for freshers
+
+02:14.560 --> 02:19.800
+perspective and we'll slowly speed it up do we cover react and Redux also yes
+
+02:19.800 --> 02:23.480
+I've been I will cover that but it will come in the later part of the you know
+
+02:23.480 --> 02:29.200
+curriculum initially we'll pick it up slow but slowly one after the other so
+
+02:29.200 --> 02:34.820
+once we reach at good pace then we'll cover react Redux and other state
+
+02:34.820 --> 02:44.400
+management tools and node express all things a complete monstack okay so we'll
+
+02:44.440 --> 02:51.360
+wait for another three minutes you only take over the LDF here after yes I'll be
+
+02:51.360 --> 02:58.800
+here Emma okay so I'll be helping you out okay my LinkedIn introduce myself
+
+02:58.800 --> 03:05.760
+then I thought to share it give me a second I'll pull it up okay and what's
+
+03:05.760 --> 03:10.200
+up group yeah I just want to create give me a second meanwhile when since we have
+
+03:10.200 --> 03:15.480
+two minutes I'll create a whatsapp group for us
+
+03:15.480 --> 03:28.640
+just a second till it loads I have to scan this
+
+03:29.120 --> 03:42.800
+okay device
+
+03:53.120 --> 03:58.480
+creating whatsapp group guys just a second
+
+03:58.640 --> 04:18.960
+group so let's say
+
+04:18.960 --> 04:41.200
+let me do one thing I'll create it in the break and I'll give it with you I'll
+
+04:41.200 --> 04:46.440
+give to you okay so do we go into deep dive in each points of this module or
+
+04:46.440 --> 04:53.760
+will go into deep dive permission so we'll build projects over the each module
+
+04:53.760 --> 05:00.120
+if you learn react how much different is difficult angular to adopt so I'll tell
+
+05:00.120 --> 05:04.760
+you on that part I'll come to that part frameworks are really after right so
+
+05:04.760 --> 05:09.120
+just focus on basics once you build that I'll tell you how it is different and
+
+05:09.120 --> 05:15.760
+what you need to learn okay you know so let's not jump into that depth like many
+
+05:15.760 --> 05:20.760
+people might not know might have heard words like angular and react but they
+
+05:20.760 --> 05:25.480
+might not know everything okay so I see we have good enough people today to get
+
+05:25.480 --> 05:33.240
+started let me stop this timer and let's get started with the class okay give me
+
+05:33.240 --> 05:38.840
+a second I hope you can see my iPad too
+
+05:39.920 --> 05:49.960
+great so how's the juice guys give me a thumbs up if you can get started with
+
+05:49.960 --> 06:02.040
+full stack LLD month stack right hi thank you so okay so firstly I want to
+
+06:02.040 --> 06:10.280
+introduce myself so I'm Uttam Sharma right so I carry more than four point
+
+06:10.280 --> 06:26.600
+seven years of work X working at PayPal since 1.5 years as SD 2 okay previously
+
+06:26.600 --> 06:34.320
+I worked with UHG and HCL 2 that had really less amount of time spent here so
+
+06:34.320 --> 06:39.240
+more on a PayPal basis so I've been a full stack developer since start of my
+
+06:39.240 --> 06:46.440
+career with major centric focus centric was on front end and I had good
+
+06:46.440 --> 06:54.080
+experience on node and Java stack to up to an extent on a back end and a middle
+
+06:54.240 --> 07:00.880
+but major was on front end okay so this is just a introduction about myself so
+
+07:00.880 --> 07:08.680
+this is what I've been doing or what what my experience is about but now let's
+
+07:08.680 --> 07:17.040
+get started with today's content okay so firstly since it's a first class we'll
+
+07:17.040 --> 07:20.960
+talk some some about like you know or something about web fundamentals
+
+07:20.960 --> 07:26.280
+firstly once we cover what fundamentals will go for the introduction of HTML and
+
+07:26.280 --> 07:33.640
+the thing okay so let's start with one of the basic questions okay one of the
+
+07:33.640 --> 07:39.800
+basics questions that you come across okay like what do you think you know
+
+07:39.800 --> 07:46.280
+when I go when I say let's say consider this will can start with the overview of
+
+07:46.280 --> 07:57.480
+full stack how many of you understand what is full stack so how many of you
+
+07:57.480 --> 08:06.760
+understand what is full stack okay front end place back end okay I see two
+
+08:06.760 --> 08:11.760
+thumbs up two thumbs down maybe if it is more reactive right like let's keep
+
+08:11.760 --> 08:18.320
+people if you can react thumbs up thumbs down maybe more okay I see many
+
+08:18.320 --> 08:22.920
+of the people are you know giving me this answer which whether whether say
+
+08:22.920 --> 08:33.320
+this is a front end plus back end okay it's equivalent to full stack so how
+
+08:33.320 --> 08:38.120
+many of you agree with this which is friend and just back end is equal to
+
+08:38.120 --> 08:43.800
+full stack right great so full stack is someone who knows end-to-end domain guys
+
+08:43.800 --> 08:48.680
+who knows end-to-end domain so this is what they are trying to define it here
+
+08:48.680 --> 08:53.840
+but let me you know not talking about technical let's pick up an example and
+
+08:53.840 --> 08:59.200
+try to understand what full stack is okay so how many of you have been to
+
+08:59.200 --> 09:04.360
+restaurants like many restaurants is taste like you been visiting right you
+
+09:04.360 --> 09:07.920
+might everyone might in the class have been visited restaurant anytime in the
+
+09:07.920 --> 09:14.080
+life right so can anyone help me out like what is once you go to go to
+
+09:14.080 --> 09:17.340
+restaurant what things happen what are the events that happens in the
+
+09:17.340 --> 09:23.200
+restaurants what are things are there like let's say this is a restaurant you
+
+09:23.200 --> 09:27.480
+let's say let me draw a box here
+
+09:31.320 --> 09:35.920
+okay so what all things can be there in a restaurant let's say this is a
+
+09:36.080 --> 09:48.120
+restaurant so do we see a kitchen can there be a kitchen and restaurant table
+
+09:48.120 --> 09:54.040
+chairs fine let's say this is our table and where you have many people sitting
+
+09:54.040 --> 10:04.680
+over here okay and there can be a kitchen to write and fan AC menu all
+
+10:04.720 --> 10:09.760
+this fine but now let's say when you go to the restaurant what we go for we go
+
+10:09.760 --> 10:16.200
+for a lunch or the dinner or anything right so let's say consider we are the
+
+10:16.200 --> 10:21.480
+people who are going to the restaurant to utilize its services okay once we are
+
+10:21.480 --> 10:27.960
+going there there's a one person who comes and shows us menu who is that
+
+10:28.960 --> 10:37.920
+waitress or waiter right let's say I'll turn down this thing waiter okay then
+
+10:37.920 --> 10:43.680
+one is one is a person like let's say I write it down here so these are we
+
+10:43.680 --> 10:50.640
+people who are visiting restaurant then we can say there's a waiter and waiter
+
+10:50.640 --> 10:57.940
+brings us and gives us menu and what we do what we do then what we do then
+
+10:57.940 --> 11:02.980
+once the waiter gives us menu we select and order it right we select and order
+
+11:02.980 --> 11:12.380
+it once we select and order it then what waiter does then what waiter does once
+
+11:12.380 --> 11:17.860
+we select and give it order what he do bring the food right so for bringing the
+
+11:17.860 --> 11:23.660
+food he places an order into the kitchen right let's say this is a kitchen okay
+
+11:23.660 --> 11:36.500
+so he sends an order and this you know what he brings back his food and this
+
+11:36.500 --> 11:44.340
+food is actually served to us this is what the cycle is right the food is
+
+11:44.340 --> 11:51.020
+served here isn't it this is what happens in restaurant do you guys agree
+
+11:51.020 --> 11:57.940
+with this example at least like a simple example now let's say if I say
+
+11:57.940 --> 12:03.900
+that under we if I put it this as a client
+
+12:09.900 --> 12:19.780
+and under kitchen if I put it as a backend okay let's say something that is
+
+12:19.780 --> 12:28.020
+transferring data or a waiter can be the HTTP protocols or HTTP has a DBS
+
+12:28.020 --> 12:34.220
+protocols okay so I am what I'm saying is something that we are using it
+
+12:34.220 --> 12:40.660
+utilizing it when I say client we can consider an example of mobile or desktop
+
+12:40.660 --> 12:47.540
+or laptop any sort of this interfaces right whatever you see on screen that is
+
+12:47.540 --> 12:52.100
+called a client which is interacting let's say we went to the restaurant and
+
+12:52.100 --> 12:56.500
+we saw we sat down we are trying to utilize the services but we are saying
+
+12:56.500 --> 13:01.260
+that hey I need this particular thing but we don't know how he's going to cook
+
+13:01.260 --> 13:06.220
+it in kitchen isn't it we don't know how is going to cook it kitchen in kitchen
+
+13:06.220 --> 13:11.860
+did he already prepared it or not or how we are going to get it but then there is
+
+13:11.860 --> 13:16.620
+something called backend in backend you have something called servers okay this
+
+13:16.620 --> 13:22.980
+is where kitchen kitchen lies so in backend you have two parts one is
+
+13:22.980 --> 13:33.740
+application code then there is a databases okay now what happens in
+
+13:33.740 --> 13:42.340
+application code let's consider this in the kitchen as a fridge or storage where
+
+13:42.500 --> 13:47.500
+have groceries where you have everything put up like maybe cereals pulses rice
+
+13:47.500 --> 13:53.180
+and everything you use this items and you cook it in an application code and
+
+13:53.180 --> 13:59.020
+then you give it back the data to the client to show it onto the screen okay
+
+13:59.020 --> 14:03.660
+now this communication whatever things are happening here now if you are
+
+14:03.660 --> 14:09.900
+handling all the task right can the task of you know serving a customer could be
+
+14:09.900 --> 14:14.860
+a waiter job which is actually related to the client and then which is a
+
+14:14.860 --> 14:18.940
+cooking where you are trying to cook the items or like you know we're cooking it
+
+14:18.940 --> 14:23.300
+like maybe anything that you order so that back-end job if you're handling all
+
+14:23.300 --> 14:27.860
+these three jobs is generally called as full stack
+
+14:27.860 --> 14:39.740
+is this a better way to understand it do you guys agree with me if you can
+
+14:39.740 --> 14:44.900
+understand this or relate this now if someone asked about you know full stack
+
+14:44.900 --> 14:49.380
+development now you can see that hey there is someone who is serving someone
+
+14:49.380 --> 14:53.940
+serving us that's a client right like that's something like being served then
+
+14:53.940 --> 14:57.140
+you have a back-end system like a kitchen where it's being cooked but we
+
+14:57.140 --> 15:01.460
+don't know how it is being cooked it's something hiding behind us so these are
+
+15:01.460 --> 15:05.620
+the machines which you cannot see it but these machines like the interface that
+
+15:05.620 --> 15:10.940
+you are seeing like if you see on a scaler you are able to see me website I'm
+
+15:10.940 --> 15:16.220
+able to screen share it we know that this is being done on the back end the
+
+15:16.220 --> 15:21.420
+servers of scaler are trying to you know stream the data of my me being teaching
+
+15:21.420 --> 15:25.380
+you are you learning from whatever I'm trying to teach that are happening on
+
+15:25.380 --> 15:28.980
+the back end which we don't know how it is happening but just happening those
+
+15:28.980 --> 15:35.500
+systems are there now so this is just an overview of how you know friend how
+
+15:35.500 --> 15:41.260
+these things are connected when you when we say front-end exactly what we mean by
+
+15:41.260 --> 15:46.260
+that is something our development which you are trying to do it on a client
+
+15:46.260 --> 15:52.460
+side when I say client side basically all the devices in world it can be an
+
+15:52.460 --> 15:59.380
+Apple watch it can be a smaller device to like bigger 65 inch screens okay
+
+15:59.380 --> 16:05.260
+whatever it is whichever software it can be an Android iOS or web browsers or
+
+16:05.260 --> 16:10.340
+anything whatever a end customer is experiencing so that customer
+
+16:10.340 --> 16:14.740
+experiences built by a front-end which is done on the client side okay on back
+
+16:14.740 --> 16:24.940
+end the scope is very huge which is server side are generally who handles
+
+16:24.940 --> 16:33.100
+business logics mainly when I say business logic just a word keep it that
+
+16:33.100 --> 16:36.940
+way that someone is cooking food for us we don't know how he is doing is
+
+16:36.940 --> 16:41.820
+managing all things food is serving waiter is only handling the data which is
+
+16:41.820 --> 16:46.500
+given by the kitchen or the chef so he's not responsible to cook it he
+
+16:46.500 --> 16:50.540
+doesn't know what ingredients needed to cook it all things are done on
+
+16:50.540 --> 16:56.100
+server side so main logic happens on the server side client side job is only to
+
+16:56.100 --> 17:01.980
+you know present it communicate it well well like you know giving making it
+
+17:01.980 --> 17:07.820
+descriptive good experience for the user okay I hope now front-end and back-end
+
+17:08.060 --> 17:13.540
+idea is clear like what these are basically about and how we can
+
+17:13.540 --> 17:18.860
+categorize them and how you can you know think of it as an example okay so if
+
+17:18.860 --> 17:30.860
+this is clear can we go move ahead is good so let's get start with the second
+
+17:30.860 --> 17:37.620
+thing okay so now there's a one interesting question guys I have one of
+
+17:37.620 --> 17:44.860
+the interesting question that you should think of like you know when I say like
+
+17:44.860 --> 17:51.860
+let's say let's say if I coin it this way what happens
+
+17:51.860 --> 18:09.740
+when you enter URL in browser okay so just think of it like what happens when
+
+18:09.740 --> 18:15.380
+you enter anything let's say you are trying to do scalar dot com okay just
+
+18:15.380 --> 18:20.140
+something that you have been doing it every day or let's say few days back you
+
+18:20.140 --> 18:24.220
+might have watched World Cup so you might have been checking that you know
+
+18:24.220 --> 18:30.420
+scores of cricket matches okay so you know I'll try to write down all the
+
+18:30.420 --> 18:34.580
+suggestions that are coming to me Teja and somebody it would be good if you can
+
+18:34.580 --> 18:39.740
+bring it to the you know normal people not to me personally like everyone not
+
+18:39.740 --> 18:44.780
+to the normal people I mean to say it will be helpful okay so it will direct
+
+18:45.780 --> 18:53.460
+web page so one of the suggestion is that it loads the web page
+
+18:59.180 --> 19:10.780
+second thing is request goes to DNS any more ideas guys what happens like let's
+
+19:10.780 --> 19:15.340
+say when you enter scalar dot com actually what would actually what's
+
+19:15.340 --> 19:20.500
+happening behind the scene think in terms of like the analogy in client or
+
+19:20.500 --> 19:25.460
+desktop or the laptop you just enter a scalar dot com there is someone
+
+19:25.460 --> 19:32.380
+picking up sign building it interface and giving back to us right someone is
+
+19:32.380 --> 19:38.700
+doing it for us it will connect to scalar servers Dom okay it will fetch
+
+19:38.700 --> 19:44.420
+the data from the server then it will show us on the web cool okay so a few
+
+19:44.420 --> 19:49.860
+things that unique names I'm trying to I'll write it down they are says Dom
+
+19:49.860 --> 20:06.340
+scalar servers okay okay cool now guys so let's say now you being here let's
+
+20:06.340 --> 20:10.240
+say I'm taking this example as Teja is trying to search something in the
+
+20:10.240 --> 20:20.140
+browser okay scalar dot com so we know commonly as an end user is something
+
+20:20.140 --> 20:28.780
+that we are able to open dashboard right we are able to open dashboard and we
+
+20:28.780 --> 20:32.940
+know that once dashboard is so we know that there's something being received so
+
+20:32.940 --> 20:38.460
+somebody is cooking us that website and giving us back okay somebody is doing
+
+20:38.460 --> 20:41.980
+this thing at least everyone agrees with this right we are entering scalar dot
+
+20:41.980 --> 20:45.900
+com it is authenticating if user is logged in we are getting a dashboard of
+
+20:45.900 --> 20:50.500
+our acts right this thing is clear now but we'll understand what all steps are
+
+20:50.500 --> 20:55.920
+it's going through in the back end how it is you know trying to get it now tell
+
+20:56.000 --> 21:04.360
+me something scalar dot com so one thing we are sure about is this front end or
+
+21:04.360 --> 21:10.480
+back end everything is in computer isn't it your mobile isn't computer your
+
+21:10.480 --> 21:18.320
+laptops are computer back end servers are also computer isn't it now if that's
+
+21:18.320 --> 21:29.960
+so how does the scalar dot com or the browser knows to go which way to go out
+
+21:29.960 --> 21:34.960
+to reach out to which computer that will give it resource I mean how do you know
+
+21:34.960 --> 21:40.080
+that how does chrome or any browser knows that when I type search a scalar
+
+21:40.080 --> 21:46.640
+dot com here I should go to a particular computer and fetch the data so people
+
+21:46.640 --> 21:57.320
+are saying IP okay by IP address anyone else anyone else URL is basically an IP
+
+21:57.320 --> 22:10.360
+DNS server okay DNS server cool so guys let's take an example of phone book
+
+22:10.920 --> 22:15.920
+right let's say I want to make your call let's say I want to make let's say you
+
+22:15.920 --> 22:19.540
+are trying to make a call to your friend you don't remember numbers of
+
+22:19.540 --> 22:24.720
+friends right all friends what do you do once you open the mobile what do you
+
+22:24.720 --> 22:30.240
+usually do what is the approach that you follow you go and type the name right
+
+22:30.240 --> 22:33.920
+you go and search and type the name and you directly click on a call button
+
+22:33.920 --> 22:46.520
+right so can you can you think of this way it is a map of string and string or
+
+22:46.520 --> 23:00.000
+a number where you are storing let's say my name and xxx right this is how your
+
+23:00.000 --> 23:07.080
+phone book is stored you click on its number and dials up right now everyone
+
+23:07.080 --> 23:13.280
+is saying that you know all the websites in this world are known by phone numbers
+
+23:13.280 --> 23:17.880
+now like their numbers they have specific unique coding okay whenever you
+
+23:17.880 --> 23:24.200
+type down scalar dot com okay scalar doesn't know this particular name right
+
+23:24.200 --> 23:28.320
+domain name or the website name doesn't know which system it need to contact it
+
+23:28.320 --> 23:36.480
+but there is a one system which maintains this mapping this map mapping
+
+23:36.480 --> 23:41.480
+like which which stores that hey if someone is typing scalar right I have to
+
+23:41.480 --> 23:47.360
+give it back some number of system like that could be a ten dot eleven dot one
+
+23:47.360 --> 23:52.600
+twenty seven dot something something zero okay so there is a one system which
+
+23:52.600 --> 23:56.520
+keeps all the mapping among of the all the websites in the world could be
+
+23:56.560 --> 24:04.400
+google.com or could be any website any other websites okay they all maintain a
+
+24:04.400 --> 24:11.240
+mapping table okay this particular machines right hope the stores this data
+
+24:11.240 --> 24:21.000
+are known as DNS machines or you can say domain name system
+
+24:27.520 --> 24:36.440
+okay so as you make a phone call yeah we'll come to that so as you make a phone
+
+24:36.440 --> 24:40.960
+call you try to go and search in the contact list right hey I want to dial
+
+24:40.960 --> 24:46.560
+this person now similarly in any website or anything in the browser whenever you
+
+24:46.560 --> 24:51.120
+try to make a call to a particular website it's just like a phone call okay
+
+24:51.120 --> 24:55.680
+so what it goes is talk to this machine hey can you give me the phone number of
+
+24:55.680 --> 24:59.880
+this particular website no this particular website gives us back this
+
+24:59.880 --> 25:07.760
+ID or you can say IP address of that machine and port number port number
+
+25:07.760 --> 25:17.520
+could be four digit once it have this IP right or you can say public IP of a
+
+25:17.520 --> 25:22.880
+machine then it goes and reach out to the backend system
+
+25:25.680 --> 25:31.160
+this logic is clear guys firstly at least like there is a some machine
+
+25:31.160 --> 25:36.360
+called DNS domain names system server which is maintaining whole mapping of
+
+25:36.360 --> 25:40.120
+our you know phone numbers or the IP addresses for the each name that you
+
+25:40.120 --> 25:49.880
+type it okay so now this is there you know before even going to the reaching
+
+25:49.880 --> 25:53.480
+out this backend server right there are many steps that
+
+25:53.480 --> 26:00.520
+intermediately happens there are many things that happen now imagine you type
+
+26:00.520 --> 26:05.800
+in your browser a new website name compared to something that you keep
+
+26:05.800 --> 26:13.600
+visiting imagine you go into incognito not an incognito window but a new system
+
+26:13.600 --> 26:20.560
+and a new place you type down scalar.com if scalar.com a new let's say you
+
+26:20.560 --> 26:27.880
+type it down and if it is taking let's say 10 seconds okay but if you type it
+
+26:27.880 --> 26:40.440
+on in your system it might take only two to three seconds okay so if if what I
+
+26:40.520 --> 26:45.240
+mean to say is that this is like first time visiting
+
+26:49.680 --> 27:01.400
+this is from the second or nth time visiting the website so what I mean to
+
+27:01.400 --> 27:05.800
+say is that when you visit a website for the first time right it is taking long
+
+27:05.800 --> 27:09.600
+amount of time but when you're visiting from the second time to the nth time it
+
+27:09.600 --> 27:15.720
+generally takes less amount of time have anyone felt this way earlier in
+
+27:15.720 --> 27:20.240
+life or whenever you have seen this okay when you type something new right takes
+
+27:20.240 --> 27:27.720
+time to load compared to yeah it stores right okay now so why this happens
+
+27:27.720 --> 27:33.800
+we'll try to understand reasons behind this okay how many of you know heard
+
+27:33.800 --> 27:45.000
+this word called cache how many of you know this word cache anyone who haven't
+
+27:45.000 --> 27:54.680
+heard it I see 13 people cool now what happens right okay so you know there are
+
+27:54.680 --> 27:59.900
+multi-level of caching that happens multi-level now we'll try to see what
+
+27:59.940 --> 28:06.980
+levels of caching in generally happens with respect to this DNS map okay no so
+
+28:06.980 --> 28:13.860
+first when we type in browser a new website at scalar comm first it where it
+
+28:13.860 --> 28:25.220
+goes it goes to it try to search in browser cache just a second this
+
+28:29.900 --> 28:31.960
+you
+
+28:47.900 --> 28:54.140
+pardon me guys my niece was inside the room so I have to ask her to go out so
+
+28:54.140 --> 29:00.780
+okay coming back to the topic so whenever you search scalar comm inside
+
+29:00.780 --> 29:06.500
+the website right it goes and try to see in the browser cache when I say browser
+
+29:06.500 --> 29:16.980
+cache cache is nothing but a memory a temporary memory okay so this browser
+
+29:16.980 --> 29:22.340
+engines right whatever you say chrome or edge or anything everyone stores this
+
+29:22.340 --> 29:29.240
+mapping whatever key value pair mapping of a particular site name a domain name
+
+29:29.240 --> 29:34.860
+and IP addresses okay where actual servers are residing where I have tried
+
+29:34.860 --> 29:39.980
+to reach it up okay so this first level of caching is stored in the browser
+
+29:39.980 --> 29:45.140
+level once the browser level if when we are trying to do scalar comm checks in
+
+29:45.140 --> 29:49.780
+the browser cache that if it is there that's fine if it is not there then it
+
+29:49.780 --> 29:54.620
+will go to the next level what would be what do you think in terms of internet
+
+29:54.620 --> 30:02.940
+where it should go to the next level DNS directly no there are multiple other
+
+30:02.940 --> 30:09.140
+stages the rich think of it from computer whenever you're trying inside
+
+30:09.140 --> 30:17.180
+the browser where this browser is running on where this browser usually
+
+30:17.380 --> 30:22.340
+runs on on what type of machine this browser PC right how this species running
+
+30:22.340 --> 30:31.460
+how what is driven driven on PC operating system right OS so then there
+
+30:31.460 --> 30:39.020
+is something called OS cache so there can be a chance if if not in the browser
+
+30:39.020 --> 30:42.860
+cache because that there might be a chance right you might search scalar
+
+30:42.860 --> 30:46.560
+comm in chrome tomorrow you might not like the chrome you might open in the
+
+30:46.560 --> 30:51.640
+edge okay first it will go to scalar from scalar to browser it didn't find it
+
+30:51.640 --> 30:56.800
+it will go at the OS level it knows the mapping it will be this OS cache will
+
+30:56.800 --> 31:01.800
+return that you know IP address of machine and it will go and reach it out
+
+31:01.800 --> 31:07.920
+this is point here so once OS cache is clear think of it where it can go
+
+31:07.920 --> 31:10.200
+further
+
+31:11.240 --> 31:15.640
+there's a one level of it then it goes through DNS let's say I'll write down
+
+31:15.800 --> 31:23.560
+here as one level and then from here it goes to DNS think of it where it can go
+
+31:23.560 --> 31:26.240
+in between
+
+31:27.880 --> 31:31.240
+anyone in the class
+
+31:32.480 --> 31:45.160
+route okay anyone else shake is actually right so we say that ISP is right
+
+31:45.160 --> 31:51.120
+internet service providers whoever is providing us internet like could be an
+
+31:51.120 --> 31:57.520
+atl or geo or you can say act fibernet or multiple people who are providing us
+
+31:57.520 --> 32:05.600
+so this particular ISP's firstly there's a router at your home right in your
+
+32:05.600 --> 32:10.040
+router machines that you have a box which provides you the Wi-Fi so even
+
+32:10.040 --> 32:15.080
+that Wi-Fi box right it is also storing some data that shows it store this
+
+32:15.080 --> 32:21.960
+cache like of the website or the IP address mapping if it is not there in
+
+32:21.960 --> 32:26.560
+cache then it goes to ISP then if internet service providers also not
+
+32:26.560 --> 32:31.120
+having it's it's a new URL new website that got added into DNS then it goes to
+
+32:31.120 --> 32:37.160
+DNS then on reverse right once it is reaching out on the back end it goes to
+
+32:37.160 --> 32:43.560
+each step and it stores that key value mapping at each step okay then it gives
+
+32:43.560 --> 32:52.080
+us back this particular IP address is this point here guys at least like
+
+32:52.080 --> 32:58.000
+anyone having any doubts on this like how we are able to get the IP address or
+
+32:58.000 --> 33:03.040
+you can say a phone number sort of logic of a back-end server where it is located
+
+33:03.040 --> 33:07.400
+okay or you can say where kitchen is there who is giving us the scalar dot
+
+33:07.400 --> 33:13.360
+com dashboard okay so I'll write down this step as a simple way let's say this
+
+33:13.360 --> 33:22.720
+is a client okay let's try to reach out multiple systems okay so let's say first
+
+33:22.720 --> 33:38.520
+step is browser cache then it goes to OS then it goes to a router then ISP then
+
+33:38.600 --> 33:47.560
+DNS so what it returns us overall is the IP address IP address of server so once
+
+33:47.560 --> 33:55.000
+it has IP address of server it goes and interacts to the server okay this server
+
+33:55.000 --> 34:03.080
+might be returning us HTML website yeah we can see this in live I'll show it
+
+34:03.080 --> 34:10.160
+give me a second okay so this server is returning us HTML data or any other
+
+34:10.160 --> 34:18.440
+format data router is your Wi-Fi box right which is you are having in the
+
+34:18.440 --> 34:25.920
+home okay that is what now once you have this right once you have this IP address
+
+34:25.920 --> 34:30.440
+it goes to the server server let's say let's keep it this whole thing right
+
+34:30.440 --> 34:36.000
+what's happening here behind the scene how it is interacting with DB and what
+
+34:36.000 --> 34:39.880
+it is happening how the communication between these two things are happening
+
+34:39.880 --> 34:46.840
+let's keep it as a black box as of now because we'll explore this once we
+
+34:46.840 --> 34:52.480
+start with a back-end system but let's understand till here like this
+
+34:52.480 --> 35:03.280
+interaction till this interaction okay this interaction okay so now we say that
+
+35:03.280 --> 35:10.240
+I mean let's see this let's see this in life let me open the browser let me try
+
+35:10.240 --> 35:15.800
+to let's say any famous websites that you want to open or you want to open
+
+35:16.400 --> 35:27.400
+itself okay let's open the scalar.com itself okay scalar.com if you see you
+
+35:27.400 --> 35:31.200
+know scalar.com slash Academy mentis dashboard there's something that
+
+35:31.200 --> 35:36.640
+happened okay now if you see we got the dashboard completely I hope you can see
+
+35:36.640 --> 35:42.080
+the screen right I hope you can see the screen all of you okay great so now if
+
+35:42.120 --> 35:47.160
+you see here below there are too many API calls are being done you know if you
+
+35:47.160 --> 35:52.160
+see this fetch call okay initial load data or user info let's say I'm trying
+
+35:52.160 --> 35:56.600
+to fetch the user info details of all these things are being merged to get the
+
+35:56.600 --> 36:03.040
+data but we'll see each one step by step now if you see here okay here request
+
+36:03.040 --> 36:10.720
+URL is www.scalar.com slash user info but the remote address is this one can you
+
+36:10.760 --> 36:13.760
+see this IP address
+
+36:15.280 --> 36:22.240
+so this one is a machine which will give me this user info data so this is what
+
+36:22.240 --> 36:27.160
+I was talking about this particular mapping right to this website slash user
+
+36:27.160 --> 36:34.120
+info need to be fetched from this particular site is being stored okay now
+
+36:34.160 --> 36:41.720
+if you see all the things right remote if you see 13.35 point like 21056
+
+36:41.720 --> 36:47.240
+443 now 443 is a port number if you if I go and open all the webs all the API
+
+36:47.240 --> 36:52.920
+calls I'm trying to interact with only one machine if you say 443 all the way
+
+36:52.920 --> 36:57.600
+although you know this remote addresses are same but if you come and see this
+
+36:57.600 --> 37:02.360
+one right again there is something new thing that is being fetched it is
+
+37:02.360 --> 37:08.280
+interacting with different system okay so all the things if you see there are
+
+37:08.280 --> 37:12.920
+different things are being you know taken into accordance to build this
+
+37:12.920 --> 37:17.680
+particular screen that you see here but all the data that you see are being
+
+37:17.680 --> 37:20.960
+fetched from a server a different location there's a machine which is
+
+37:20.960 --> 37:26.280
+kept there and from using that we are able to load it okay now if I show you
+
+37:26.280 --> 37:43.760
+one of the thing let's say this are fetch xx hr let's say document okay okay
+
+37:43.760 --> 37:49.000
+if you see it here so now this is the actual website you know menti dashboard
+
+37:49.000 --> 37:53.280
+you can see this menti dashboard slash to dos which is the actual URL that we
+
+37:53.280 --> 37:58.600
+hit now this mentis dashboard is you know we are hitting still on the same
+
+37:58.600 --> 38:05.200
+machine that is being reverted with you know HTML I'll come to this what it is
+
+38:05.200 --> 38:10.120
+this HTML or what what we are talking about I'll introduce this properly but
+
+38:10.120 --> 38:15.440
+this is something a response like when we order a food from the kitchen waiter
+
+38:15.440 --> 38:19.600
+is bringing us something back food now this is the food which is given to the
+
+38:19.600 --> 38:24.520
+browser back and this thing is being understood by the browser and being
+
+38:24.520 --> 38:29.800
+loaded this point is clear guys how this interaction is happening where that
+
+38:29.800 --> 38:34.060
+systems are located or what this for remote rather scale multiple servers
+
+38:34.060 --> 38:39.320
+yeah there will be a different things right so this like you have you can have
+
+38:39.320 --> 38:43.160
+a number of machines you go for the bigger sites they'll have the different
+
+38:43.160 --> 38:47.400
+contents if you know when you go for Microsoft is sort of architecture each
+
+38:47.400 --> 38:52.200
+service will be doing some sort of work so you will be able to see the different
+
+38:52.200 --> 38:59.160
+addresses okay but overall the core logic is that there's a client which
+
+38:59.160 --> 39:03.640
+don't know anything we just say that scalar.com I didn't say that hey go and
+
+39:03.640 --> 39:07.360
+interact with a ten dot twenty one dot two zero five dot four four three system
+
+39:07.360 --> 39:12.240
+or any other machine I've just that scalar.com it automatically handled
+
+39:12.240 --> 39:16.520
+figured out where to fetch and what what need to fetch if you see it happened at
+
+39:16.520 --> 39:21.360
+so pace that it took more less than ten seconds or less than three seconds of
+
+39:21.360 --> 39:28.000
+time to fetch all the data and load it okay I hope now you feel I mean I'm
+
+39:28.000 --> 39:36.040
+having a better idea of like actually what's happening isn't it like how this
+
+39:36.040 --> 39:39.680
+data is being fetched on to the client or which machine or how machine is
+
+39:39.680 --> 39:43.680
+generally interacting how clients are interacting with the machines which are
+
+39:43.680 --> 39:51.520
+somewhere present we don't know right anyone having any doubts till now what
+
+39:51.520 --> 40:07.720
+we have discussed okay now no let's say you know we'll talk about something
+
+40:07.720 --> 40:12.680
+called just and this is an overview guys don't be overwhelmed if you are not
+
+40:12.680 --> 40:16.460
+completely able to get it but they're really basics we'll discuss this over
+
+40:16.460 --> 40:21.080
+over the time again and again to get complete clarity okay now so I said
+
+40:21.080 --> 40:25.960
+that you know these are two machines which is client and server these two
+
+40:25.960 --> 40:31.400
+people got the address now this machine got the address where this is located do
+
+40:31.400 --> 40:36.760
+you think once I do this you know the server will give me the all the list of
+
+40:36.760 --> 40:43.720
+resources it have if I go to any random restaurant and as I say that hey give me
+
+40:43.720 --> 40:48.200
+a piece of biryani would they give it to me or it will give to a authorized
+
+40:48.200 --> 40:55.000
+waiter itself it will give to an authorized person only know it should be
+
+40:55.000 --> 40:59.640
+a like he should be having certain validations and things now before that
+
+40:59.640 --> 41:03.240
+before going to that authentication authorization process there is a you
+
+41:03.240 --> 41:07.680
+know to establish connection right to establish connection between client and
+
+41:07.680 --> 41:13.040
+server in order to say that hey I'll keep exchanging this data once I have
+
+41:13.040 --> 41:17.800
+hit you yeah I know your address I came to your you know I came to your machine
+
+41:17.800 --> 41:23.040
+now I want to make a connection with you so that I can keep exchanging resources
+
+41:23.040 --> 41:28.280
+okay so for that thing there's a one type of connection which is
+
+41:28.280 --> 41:33.880
+established which is called as TCP connection there are other types of
+
+41:33.880 --> 41:37.280
+connections also which will you will learn in the high-level design course
+
+41:37.280 --> 41:44.760
+but anyone have heard about this TCP connection earlier have anyone heard
+
+41:44.760 --> 41:53.120
+about this okay I see four people three people some stuff okay no worries guys
+
+41:53.600 --> 42:01.920
+so what happens in general right okay when clients client is there no where
+
+42:01.920 --> 42:06.000
+there's let's say this is a client machine and this is a server machine
+
+42:06.000 --> 42:10.720
+once you know the address once you know the address to the server right to
+
+42:10.720 --> 42:20.360
+establish a connection you send a signal called acknowledge you send a machine
+
+42:20.840 --> 42:25.800
+to the server called acknowledge signal so this is on a top level guys from you
+
+42:25.800 --> 42:30.440
+can say 10,000 feet not into the complete depth because in complete
+
+42:30.440 --> 42:37.040
+depth you'll learn again and the future HLD classes okay but what happens in the
+
+42:37.040 --> 42:42.080
+does is when whenever you are trying to interact with any other system firstly
+
+42:42.080 --> 42:46.000
+you will try to say validate yourself saying that acknowledgement let's say
+
+42:46.000 --> 42:50.960
+I'm trying to come in me I'll say hello hi right now I'll say I'll extend my
+
+42:50.960 --> 42:55.040
+hand and then say hello so that what this client machine does it says that
+
+42:55.040 --> 43:02.400
+acknowledge it sends a signal called AK now if this person want to respond right
+
+43:02.400 --> 43:10.880
+this person want to respond back then what it does is it says that sink it
+
+43:11.080 --> 43:19.400
+with a smile then he also says that hello back again okay then if this
+
+43:19.400 --> 43:23.960
+client if they're making a connection then it sends a third message called
+
+43:23.960 --> 43:31.240
+sink which means you just remember this as a handshaking process this is called
+
+43:31.240 --> 43:35.080
+three-way handshake generally
+
+43:36.080 --> 43:42.320
+how connection is establishment to two machines let's say I go to I come to you
+
+43:42.320 --> 43:47.680
+and I say that I'll hello when I extend my hand and saying hello if you like to
+
+43:47.680 --> 43:51.880
+connect with me you'll also smile greet with greet me with smile and you will
+
+43:51.880 --> 43:57.240
+also keep me back your hand shake hand saying hello isn't it and then if I
+
+43:57.240 --> 44:00.080
+smile back then the connection is established for the further
+
+44:00.080 --> 44:04.560
+conversation so far it starts with a greeting so you can understand this as
+
+44:04.560 --> 44:09.920
+a three-way handshake where the greeting happens is this clear guys
+
+44:09.920 --> 44:14.200
+anyone having any doubts so just remember this one as a top level anyone
+
+44:14.200 --> 44:19.080
+have asking how TCP three-way handshake happens it's just a greetings is
+
+44:19.080 --> 44:22.680
+extending a hand smiling if the other person also smile back then the
+
+44:22.680 --> 44:26.840
+connection is established two things acknowledge and reverse acknowledges and
+
+44:26.840 --> 44:32.040
+then there's a sink messages which happens okay clear I hope there are no
+
+44:32.040 --> 44:39.040
+dodge so once the this this thing is happened right now all the data or the
+
+44:39.040 --> 44:47.680
+network now this is what we call network okay there are two machines they are
+
+44:47.680 --> 44:52.400
+somewhere located but if two people are interacting they interact over the
+
+44:52.400 --> 44:59.120
+network now there is some person who will hold the load of communicating okay
+
+44:59.120 --> 45:04.200
+what type of communication is happening which type of things are happening what
+
+45:04.200 --> 45:08.920
+he is bringing or what he generally happening right for all those net what
+
+45:08.920 --> 45:12.520
+communication that are happening with the network in order to understand you
+
+45:12.520 --> 45:17.500
+use something called there are two types of protocol which is one is called HTTP
+
+45:17.500 --> 45:24.760
+and the other one is called HTTPS this is a secured way this is a normal call
+
+45:25.280 --> 45:30.220
+HTTP is a hypertext transfer protocol okay which are generally used for
+
+45:30.220 --> 45:36.320
+transferring transferring the messages over the network okay is this clear on
+
+45:36.320 --> 45:41.280
+a top level what is TCP connection and HTTP I mean I'm trying to generalize
+
+45:41.280 --> 45:46.000
+such a way that you know you can understand connect with them not in
+
+45:46.000 --> 45:49.520
+complete depth knowledge as a networking class since this is a full stack class
+
+45:49.520 --> 45:57.040
+I'm just trying to okay I'll get to the full form I don't exactly remember
+
+45:57.040 --> 46:10.280
+the agent let me fetch it TCP full form transmission control protocol okay it's
+
+46:10.280 --> 46:13.520
+a transmission control protocol
+
+46:20.160 --> 46:26.600
+then there is another another protocol called a UDP can you could you explain
+
+46:26.600 --> 46:31.600
+the TCP purpose once again yeah sure Suresh so not going just as spending
+
+46:31.600 --> 46:38.240
+another minute now let's say that hey what happened is you got the phone
+
+46:38.240 --> 46:42.640
+number you picked it up from the mobile you searched it now we are trying to
+
+46:42.640 --> 46:46.320
+click on it when you're trying to click on it there's the connections that
+
+46:46.480 --> 46:50.240
+should be established between your mobile and your friends mobile right
+
+46:50.240 --> 46:55.880
+which is your where you are trying to call now in order to make this call to
+
+46:55.880 --> 46:59.840
+work then there is something called you know connection establishment does
+
+46:59.840 --> 47:08.520
+happen between two missions okay so that connection establishment is in that for
+
+47:08.520 --> 47:11.480
+establishing this connection there's a one type of condition that we generally
+
+47:12.320 --> 47:18.360
+is TCP connection where you have this process of three-way handshake this
+
+47:18.360 --> 47:24.680
+three-way handshake is specific to HTTP in HTTPS you have further because you
+
+47:24.680 --> 47:28.800
+have to extend certificates and multiple things but just the knowledge that I'm
+
+47:28.800 --> 47:32.920
+trying to explain the CCP connection is because I'm saying that hey once you got
+
+47:32.920 --> 47:36.880
+the phone number you cannot make a direct call you need some network
+
+47:36.880 --> 47:40.600
+connection which needs acknowledgement that hey I want to connect with this
+
+47:40.600 --> 47:55.000
+particular person is that clear Suresh okay yeah there's a handshake is a like
+
+47:55.000 --> 47:59.920
+one of the core thing without connection you cannot extend the network data over
+
+47:59.920 --> 48:04.720
+the network right so that it will happen every time okay it will happen every
+
+48:04.720 --> 48:11.800
+time but it takes a really less amount of time now moving right guys I hope
+
+48:11.800 --> 48:20.000
+this thing is clear now just a second so coming back to HTTP and HTTPS no once
+
+48:20.000 --> 48:24.280
+you have established connection there is a now you are once you establish a
+
+48:24.280 --> 48:27.560
+connection you keep talking to your friend right you might speak in English
+
+48:27.560 --> 48:32.200
+or Telugu or Hindi different languages do you guys agree you speak in a
+
+48:32.200 --> 48:37.760
+communication language you have a language to speak with your friend now
+
+48:37.760 --> 48:42.280
+imagine for this language right you have a particular protocol now those
+
+48:42.280 --> 48:47.920
+protocols are defined by HTTP and HTTPS now for this one you have only four
+
+48:47.920 --> 48:53.360
+things in general that are happening on a server either you are getting a data
+
+48:53.360 --> 48:59.240
+hey you are asking like can you give me some information or you are yourself
+
+48:59.280 --> 49:04.640
+giving some information which is a post call or you are saying that hey that
+
+49:04.640 --> 49:09.160
+information which I gave earlier which was wrong so I'm trying to update that
+
+49:09.160 --> 49:13.600
+information using put and then you say that hey can you please remove that
+
+49:13.600 --> 49:20.320
+information which is not needed using delete so there are four types of
+
+49:20.320 --> 49:23.680
+communication that happen generally between two machines these are the four
+
+49:23.680 --> 49:27.520
+things to create a resource
+
+49:30.240 --> 49:49.800
+okay sorry this is a get a resource or create a resource update a resource or
+
+49:49.800 --> 49:58.160
+delete a resource right in general these are the four types of communication that
+
+49:58.160 --> 50:05.480
+happens and these are being generally done from client client says that hey
+
+50:05.480 --> 50:09.040
+can you give me because I made a communication network with you I called
+
+50:09.040 --> 50:14.400
+you you have to serve my request so client make a request using this four
+
+50:14.400 --> 50:20.480
+types of communication so it says to the HTTP that HTTP asked us to provide
+
+50:20.480 --> 50:25.200
+which type of communication you need it whether you want to get some data or you
+
+50:25.200 --> 50:30.160
+want to create a data or update data or delete data once your request is made
+
+50:30.160 --> 50:34.400
+right server response back
+
+50:36.960 --> 50:41.880
+back with some information no but there are multiple informations that are
+
+50:41.880 --> 50:46.560
+happened transferred over the network I will discuss that about in depth later
+
+50:46.560 --> 50:51.880
+on but what server responses response in terms of you know status quotes there
+
+50:51.880 --> 50:56.800
+are many status quotes that you will see now if I show you one of the status
+
+50:56.800 --> 51:01.360
+code that we have generally seen as of now if I go back into this website if
+
+51:01.360 --> 51:09.720
+you see if I open anything if you see here 302 200 302 right a 304 all these
+
+51:09.720 --> 51:15.040
+are status quotes these are being given by server now if you go back to headers
+
+51:15.040 --> 51:19.480
+right here I'm saying that request method get so we are saying that hey I
+
+51:19.480 --> 51:23.680
+made a communication with you I want to get the data now in the response if you
+
+51:23.680 --> 51:28.320
+go to the response right here let's say response it is giving us 302
+
+51:28.320 --> 51:32.480
+redirection I'll see I will talk about all the status quotes how in a top
+
+51:32.480 --> 51:37.760
+level how the status code works let's say they are basically status quotes in
+
+51:37.760 --> 51:50.520
+5 series 1 xx 2 xx 3 xx 4 xx 5 xx ok now one of the error code everyone knows is
+
+51:50.520 --> 51:58.440
+404 not found right everyone knows this does everyone know this 404 error now
+
+51:58.440 --> 52:04.200
+what this 404 error says what what this 404 errors mean is something that you
+
+52:04.200 --> 52:09.000
+are trying to search or get the data it is not available let's say you give some
+
+52:09.000 --> 52:13.080
+gibberish website let's say you give them some gibberish website let's say I
+
+52:13.080 --> 52:21.800
+go and open a network tab and inspect it let's say I clean this I write
+
+52:21.800 --> 52:30.400
+something okay and I try to search okay it's giving me something or that lot of
+
+52:30.400 --> 52:34.560
+information available in Google but what happens is if there is nothing
+
+52:34.560 --> 52:39.400
+available with this name or this thing right URL that there is no resource
+
+52:39.400 --> 52:45.680
+available then what it says that hey you have made a mistake there is nothing a
+
+52:45.680 --> 52:49.880
+place called this one or there is no mapping available where I have to route
+
+52:50.880 --> 53:04.920
+machine okay so we say that client had made a mistake or you are pointing to
+
+53:04.920 --> 53:09.360
+the wrong direction let's say you are going to Ambani and asking her to be to
+
+53:09.360 --> 53:14.440
+cook a tea it's not possible man right so he wouldn't be available to do it for
+
+53:14.440 --> 53:19.040
+you so that's not found resource not found he won't be able to serve you so
+
+53:19.040 --> 53:23.000
+it's a your mistake that you're asking a wrong person to do something now if
+
+53:23.000 --> 53:28.160
+something let's say you after four four xx series right you might have also
+
+53:28.160 --> 53:38.880
+seen five excess series also have anyone faced 5x code series 500 server down
+
+53:38.880 --> 53:45.560
+right people say that five server is down server is down what does it mean
+
+53:45.560 --> 53:54.320
+what does it mean when I say server is done the back-end system right this
+
+53:54.320 --> 54:01.200
+server the system is shut down internal server error okay bad bad gateway so all
+
+54:01.200 --> 54:05.240
+these things all the 500x codes whatever you come see right those are like
+
+54:05.240 --> 54:10.320
+problem with server like you don't know there is a issue with a server ongoing
+
+54:10.320 --> 54:14.880
+so you cannot do anything so 4x series is something that you can't do right
+
+54:14.880 --> 54:18.560
+this is something problem from the front-end 5x series is something a
+
+54:18.560 --> 54:24.600
+problem from the back-end is this clear 4x and faxes might be clear right now
+
+54:24.600 --> 54:31.960
+then there is something called 2x code so this is a success code for all the
+
+54:31.960 --> 54:37.520
+get calls for all the get calls right you get a success code or the post calls
+
+54:37.520 --> 54:42.640
+you get to 200 code or 202 code where you are trying to say that whatever you
+
+54:42.640 --> 54:47.400
+want you made a request of these four items get post delete and if that
+
+54:47.400 --> 54:50.840
+particular call whatever you request made it if it is successful it will
+
+54:50.840 --> 54:56.320
+return us that data along with the status code of 200 okay then there is
+
+54:56.320 --> 55:01.720
+something called three excess three excess is something like redirection just
+
+55:01.720 --> 55:08.560
+we have seen is that if you see scalar.com got I just entered scalar.com
+
+55:08.560 --> 55:13.920
+but it redirected me to menti dashboard have you seen this I have entered
+
+55:13.920 --> 55:18.240
+scalar.com only but it took me to the menti dashboard right URL got appended
+
+55:18.240 --> 55:24.200
+dynamically it's a runtime and it loaded me a new site instead of loading just a
+
+55:24.200 --> 55:26.880
+scalar.com
+
+55:28.120 --> 55:34.480
+did you guys notice that or I'll show it again okay I'll show it again if you
+
+55:34.480 --> 55:38.480
+need give me a second
+
+55:39.920 --> 55:45.240
+let's clean it up again let's say scalar.com let's say I'm just entering
+
+55:45.240 --> 55:50.800
+scalar.com when I click enter if you see it appended menti dashboard and to dos
+
+55:50.800 --> 55:56.080
+now why this happened is it says that scalar.com by default home page is not
+
+55:56.080 --> 56:00.880
+available it need to someone hitting this URL need to be navigated to menti
+
+56:00.880 --> 56:05.960
+dashboard now but if you see when I hit a scalar.com it is giving me 300 status
+
+56:05.960 --> 56:10.320
+code it means it's saying that hey this something I recognize it but actual
+
+56:10.320 --> 56:14.800
+website where you have to go to is menti dashboard so whenever something is
+
+56:14.800 --> 56:20.280
+coming with a 300 X code return return status right response status it is
+
+56:20.280 --> 56:23.480
+something related to
+
+56:27.200 --> 56:30.200
+redirection
+
+56:31.480 --> 56:38.080
+okay and there is one thing which is left is info first one excess code
+
+56:38.080 --> 56:41.760
+whenever you see this is one of the rare code it gives just the information
+
+56:41.760 --> 56:46.840
+okay information about resource
+
+56:47.840 --> 56:54.160
+I've seen very rare use case of 1x code which you might not have face it but it
+
+56:54.160 --> 56:58.240
+gives just gives information about resources like back-end system and where
+
+56:58.240 --> 57:03.240
+it is and if you want to fetch information about systems okay and that's
+
+57:03.240 --> 57:07.600
+not commonly used mainly important things that you need to remember is 2x
+
+57:07.600 --> 57:15.000
+4x and 5x okay whatever this code starts with 2 4 and 5 are more important 2
+
+57:15.000 --> 57:18.920
+stands for success 4 stands for client-side mistake 5 stands for server
+
+57:18.920 --> 57:26.280
+side mistake okay now I hope this part is clear like how when I said that I
+
+57:26.400 --> 57:33.720
+just want to focus on this part layer till this part okay so firstly if I try
+
+57:33.720 --> 57:39.680
+to repeat this revise this once okay what we thought what we okay 1x code
+
+57:39.680 --> 57:49.480
+okay let's say I try to give an example of 1x code let's say
+
+57:56.280 --> 58:03.840
+just a second I'll fetch it and show you what actually gives us okay so here
+
+58:03.840 --> 58:07.520
+they say is that you know information response now what sort of information
+
+58:07.520 --> 58:14.160
+responses like you know in on the network layer like switching protocols
+
+58:14.160 --> 58:20.600
+are processing this is not actually used on the system like I we don't really use
+
+58:20.600 --> 58:25.480
+them when you're developing websites or applications you never throw 1x code
+
+58:25.480 --> 58:29.440
+this is actually happened on a network layer by the systems itself that
+
+58:29.440 --> 58:33.720
+servers that handle where it shares shares information about the resource
+
+58:33.720 --> 58:37.280
+let's say client machine resource the what this client machine is all about
+
+58:37.280 --> 58:41.360
+what this server machine is all about okay you won't be able to see it in the
+
+58:41.360 --> 58:48.080
+network because whatever you make either whenever you making a yeah I'll give you
+
+58:48.080 --> 58:52.840
+the real-time scenario for 1x code give me some time but what I was trying to
+
+58:52.840 --> 58:55.880
+say talk about is when when communication is happening between two
+
+58:55.880 --> 58:59.320
+system right if you think it from the perspective of communication is
+
+58:59.320 --> 59:04.800
+happening firstly either this person can say wrong or either this person can say
+
+59:04.800 --> 59:10.520
+wrong or this person both can you know like make a communication real real you
+
+59:10.520 --> 59:15.520
+know work properly so if this person is making wrong it is 4x code if this
+
+59:15.520 --> 59:20.000
+person is making wrong this is 5x code and if there is something going right
+
+59:20.040 --> 59:25.320
+between all the communication then there is a 2x code okay for 1x I'll get I'll
+
+59:25.320 --> 59:35.600
+get the real-time examples I'll share it with you okay works guys okay cool now
+
+59:35.600 --> 59:41.800
+trying to revise again repeat once on a top level so then we have understood
+
+59:41.800 --> 59:46.160
+that what happens in the browser whenever you enter a URL so the first
+
+59:46.200 --> 59:50.200
+thing that we have figured out that when on the client whenever you enter
+
+59:50.200 --> 01:00:00.800
+anything it goes to you know a series of steps okay I'm wrong with spellings
+
+01:00:00.800 --> 01:00:20.760
+series series of steps no to fetch IP address of server once it gets IP address
+
+01:00:20.760 --> 01:00:26.120
+it goes to the server but no there are two things that are happening in middle
+
+01:00:26.120 --> 01:00:31.400
+one is connection TCP connection this thing we have learned two things three
+
+01:00:31.400 --> 01:00:36.360
+things happen in the ACP handshake ACK where it sends some client to server and
+
+01:00:36.360 --> 01:00:45.800
+server sends sync less ACK then client again says sync okay once this
+
+01:00:45.800 --> 01:00:50.680
+connection is done then this people connect and communicate using HTTP
+
+01:00:50.680 --> 01:00:53.280
+protocols
+
+01:00:56.160 --> 01:01:01.480
+I hope now you are at least on a top level you have a you know greater
+
+01:01:01.480 --> 01:01:05.440
+clarity what is happening behind the scenes how data is being served from a
+
+01:01:05.440 --> 01:01:12.120
+machine right this is clear guys okay if there are other than any doubts other
+
+01:01:12.120 --> 01:01:19.360
+than one excess please shoot it I'll wait for a minute to before I go ahead
+
+01:01:20.360 --> 01:01:26.120
+because next topic that something that I want we need to get started with is
+
+01:01:26.120 --> 01:01:32.360
+introduction to HTML part because this is you know high-level introduction
+
+01:01:32.360 --> 01:01:37.280
+about web fundamentals where we understood about what full stack domain
+
+01:01:37.280 --> 01:01:41.960
+is overall like what what we have what we have to work or what we have to learn
+
+01:01:41.960 --> 01:01:46.800
+then we understood like what happens in a system actually when you enter any you
+
+01:01:46.800 --> 01:01:54.920
+are this things acts as a base to move ahead in the further classes okay this
+
+01:01:54.920 --> 01:02:01.240
+was being a theoretical now we'll start with a more practical part so as height
+
+01:02:01.240 --> 01:02:08.040
+when API comes into the picture okay now okay
+
+01:02:08.080 --> 01:02:13.480
+API's are generally let's say
+
+01:02:14.960 --> 01:02:23.400
+I'm a client I'm a server okay a client can talk to multiple people
+
+01:02:24.360 --> 01:02:30.320
+okay let's say how do I say okay this way
+
+01:02:31.000 --> 01:02:36.800
+yes yes this day right so API's are application programming interface they
+
+01:02:36.800 --> 01:02:41.400
+say that you know these are the end points with which you can connect to
+
+01:02:41.400 --> 01:02:46.120
+get the information that you want now this like you know using this whatever
+
+01:02:46.120 --> 01:02:50.120
+get post delete calls right you cannot say that randomly give me any
+
+01:02:50.120 --> 01:02:55.200
+information for getting this information this server should support right firstly
+
+01:02:55.200 --> 01:02:59.200
+back-end system should support that hey you can get this information from me I
+
+01:02:59.200 --> 01:03:05.080
+can give you this information now to get that you know in order to give that
+
+01:03:05.080 --> 01:03:08.960
+information right this back-end systems build application programming interface
+
+01:03:08.960 --> 01:03:13.480
+there can be multiple endpoints like we have seen one of the end point is user
+
+01:03:13.480 --> 01:03:19.760
+info when we entered you know scalar comm right we seen that user info now
+
+01:03:19.760 --> 01:03:25.600
+user info is a get call now how we know that we ensure interact user info will
+
+01:03:25.600 --> 01:03:31.040
+get the data because inside the server they are someone who is listening to get
+
+01:03:31.040 --> 01:03:37.400
+call on this URL called user info so someone is coming with you know this
+
+01:03:37.400 --> 01:03:41.000
+call then they'll do something they'll implement some logic and give it back to
+
+01:03:41.000 --> 01:03:46.040
+us now this endpoints right whoever are building this in points like the URL
+
+01:03:46.040 --> 01:03:50.920
+pattern or the type of HTTP methods who are defining it if you particularly hit
+
+01:03:50.920 --> 01:03:56.120
+this particular thing you will be able to do this let's say if you go for again
+
+01:03:56.120 --> 01:03:59.880
+restaurant right there can be Chinese restaurant there can be a South
+
+01:03:59.880 --> 01:04:03.600
+Indian restaurant there can be Japanese restaurant where you can eat sushi
+
+01:04:03.600 --> 01:04:07.760
+American and South Indian you can eat South Indian breakfast so if you go for
+
+01:04:07.760 --> 01:04:10.520
+one particular sort of restaurant you can get only particular item you cannot
+
+01:04:10.520 --> 01:04:14.920
+get the other items so now each server will have a capability to serve
+
+01:04:14.920 --> 01:04:18.280
+particular things now all those capabilities are defined by using this
+
+01:04:18.280 --> 01:04:23.200
+menu now well waiter is bringing us menu now we know that what all things it can
+
+01:04:23.200 --> 01:04:32.360
+give it us those menu items are only API's is that clear Sean the that menu
+
+01:04:32.360 --> 01:04:36.280
+items right whatever API's are being developed in the back end are the menu
+
+01:04:36.280 --> 01:04:39.320
+items now we select those many items like the user info get for this
+
+01:04:39.320 --> 01:04:43.840
+particular server and we try to interact with them so that generally the menu you
+
+01:04:43.840 --> 01:04:54.080
+can consider example as a menu or the API's okay now yeah I hope I hope this
+
+01:04:54.080 --> 01:04:58.800
+this top level this thing is clear but this way this will be coming back to us
+
+01:04:58.800 --> 01:05:03.920
+again and again when while we are discussing a whole end to end right
+
+01:05:04.320 --> 01:05:08.600
+TCP call is made with which server TCP call is made with the actual server
+
+01:05:08.600 --> 01:05:13.320
+which where you are trying to fetch the IP address once you receive an IP address
+
+01:05:13.320 --> 01:05:18.000
+from the beginners right that a particular IP address whichever mission
+
+01:05:18.000 --> 01:05:23.080
+is mapped to it will try to establish a connection with that let's say I got a
+
+01:05:23.080 --> 01:05:29.200
+phone number of you Suresh from my dialer I try to make a call I'm trying
+
+01:05:29.200 --> 01:05:33.240
+to establish connection with you with your server with your mobile phone
+
+01:05:33.440 --> 01:05:43.680
+that's what is happening here is that here so nice so guys moving it from
+
+01:05:43.680 --> 01:05:54.800
+here now now is actually where we start with HTML okay how many of you are
+
+01:05:54.800 --> 01:06:00.320
+completely beginner to this word HTML how many of you are completely beginner
+
+01:06:00.320 --> 01:06:03.320
+to this word HTML
+
+01:06:08.000 --> 01:06:13.000
+please what it guys it will it will allow me to know if I can go speed or
+
+01:06:13.000 --> 01:06:24.800
+slow or what pace I will maintain it okay cool I didn't get your point
+
+01:06:24.800 --> 01:06:31.960
+Muneshwara beginner okay no worries okay cool so I see you guys 50-50 ratio
+
+01:06:31.960 --> 01:06:37.160
+people there too many beginners so we'll start with completely basic people who
+
+01:06:37.160 --> 01:06:42.160
+already know people who already know right 12 people I would ask you to you
+
+01:06:42.160 --> 01:06:45.880
+know have some patience till I build the basics but all the people are starting
+
+01:06:45.880 --> 01:06:50.120
+from zero such that we'll bring him on to the pace and then we'll continue
+
+01:06:50.360 --> 01:07:01.360
+from there okay great now so let's take an example you know so I'll introduce
+
+01:07:01.360 --> 01:07:08.200
+three words now let's not introduce HTML let's take an example of
+
+01:07:12.920 --> 01:07:16.240
+building a house
+
+01:07:17.240 --> 01:07:22.600
+now tell me what all three things that are happened like when you build an
+
+01:07:22.600 --> 01:07:27.640
+house let's say imagine building an house so I'm asking for all the nine
+
+01:07:27.640 --> 01:07:33.320
+like you know people who haven't doesn't know anything or who knows everything
+
+01:07:33.320 --> 01:07:36.840
+doesn't matter but just tell me what happens what are the events that are
+
+01:07:37.400 --> 01:07:40.800
+there while building a house
+
+01:07:44.240 --> 01:07:54.760
+basement cool plan layout plan cool basement pillar walls right cool yeah
+
+01:07:54.760 --> 01:08:04.620
+let's say I'm building a two-story house plan is ready everything is ready okay
+
+01:08:04.620 --> 01:08:10.260
+foundation column beams okay foundation
+
+01:08:13.300 --> 01:08:21.740
+columns and beams now let's say this is done then then what you do okay someone
+
+01:08:21.740 --> 01:08:27.340
+says structure okay one structure is done what do you do can you go and stay
+
+01:08:27.340 --> 01:08:33.300
+in a house which is structured okay roof is added here itself
+
+01:08:34.780 --> 01:08:45.020
+bricks cement now yeah there's something called paint interior now let's say paint
+
+01:08:45.020 --> 01:08:48.940
+and interior is done tiles are done foundation roof columns are beams are
+
+01:08:48.940 --> 01:08:53.300
+done now what would be other thing what you would have
+
+01:08:53.300 --> 01:08:59.900
+plumbing electricity okay
+
+01:09:05.460 --> 01:09:11.180
+cool guys thank you so much you have solved my problem actually now let's
+
+01:09:11.180 --> 01:09:19.900
+try to connect this root dots okay let's get it this starts so now even while
+
+01:09:19.900 --> 01:09:26.020
+building websites you need all of these things you need all of these things so
+
+01:09:26.020 --> 01:09:41.380
+what if I put this all these things let's say a roof basement walls floor
+
+01:09:41.380 --> 01:09:49.620
+everything into a structure structure of a building is this clear do you agree
+
+01:09:49.620 --> 01:09:54.300
+with me if I can put all of them into this category structure of a building
+
+01:09:54.340 --> 01:10:05.620
+right now second thing would be painting a house or adding an interior so what
+
+01:10:05.620 --> 01:10:09.740
+we are doing we are making it to look beautiful
+
+01:10:11.700 --> 01:10:20.660
+beautifying the house beautifying the structure I can say isn't it right now
+
+01:10:20.660 --> 01:10:25.820
+once these two things are done then there is something someone say that
+
+01:10:25.820 --> 01:10:40.620
+plumbing plumbing or electricity okay or you can say fan you know lights or
+
+01:10:40.620 --> 01:10:46.140
+anything now what these are giving us this this thing is giving us you know
+
+01:10:46.140 --> 01:10:50.220
+behavior let's say I'm going on switching on a fan when I click a
+
+01:10:50.220 --> 01:10:56.820
+button is something rotating right isn't it something rotating when we switch on
+
+01:10:56.820 --> 01:11:00.420
+the fan there's something rotating or there's a light on that's what behavior
+
+01:11:00.420 --> 01:11:06.300
+is happening right even in the website you go and see a website you scroll it
+
+01:11:06.300 --> 01:11:10.940
+down where only when you scroll that page goes up or you click a button there
+
+01:11:10.940 --> 01:11:16.540
+is something happening isn't it same as a like something happening on the house
+
+01:11:16.540 --> 01:11:27.380
+interaction or clicking button presses clicks or let's say clicks interaction
+
+01:11:27.540 --> 01:11:33.900
+okay so these three things are happening in the website too we are building a
+
+01:11:33.900 --> 01:11:38.740
+structure of a website we are making it look beautiful using adding colors we
+
+01:11:38.740 --> 01:11:42.100
+are adding behaviors like you know behaviors like as you're giving me
+
+01:11:43.100 --> 01:11:48.380
+typing it down you're posting it so all these are behaviors so all these three
+
+01:11:48.380 --> 01:11:53.380
+things are need to be handled whenever you are building this website okay so
+
+01:11:53.380 --> 01:11:57.860
+for building doing each of this work right since these three are core
+
+01:11:57.860 --> 01:12:02.740
+fundamentals of any building there are you know there these three things are
+
+01:12:02.740 --> 01:12:07.340
+really important in order to be good at web development so now let's say the
+
+01:12:07.340 --> 01:12:12.540
+first point whatever you say the structure of building I categorize as
+
+01:12:12.540 --> 01:12:19.500
+HTML now when I want to color a building or add a more beautification part I say
+
+01:12:19.500 --> 01:12:25.020
+it is a CSS then there is something called electricity or you know lights or
+
+01:12:25.020 --> 01:12:31.260
+I want to say that hey someone clicked button I want to fit some data or like
+
+01:12:31.260 --> 01:12:36.740
+you go on a Netflix you click a movie button watch now it loads a movie there's
+
+01:12:36.740 --> 01:12:40.940
+something who is getting the data for us loading that movie so that thing's
+
+01:12:40.940 --> 01:12:50.380
+behavior can be handled using JS is that clear guys on top level what HTML CSS
+
+01:12:50.380 --> 01:12:56.620
+or JS is behaviors only that roles of them okay I've took an example of house
+
+01:12:56.620 --> 01:13:01.940
+I hope you never forget it and now one tricky question I want to ask everyone
+
+01:13:01.940 --> 01:13:11.740
+how many of you think HTML and CSS are programming languages how many of you
+
+01:13:11.740 --> 01:13:16.740
+think HTML and CSS are programming language
+
+01:13:16.740 --> 01:13:40.700
+okay so I have four people saying yes guys so firstly they're not okay because
+
+01:13:40.700 --> 01:13:50.020
+one thing I'll tell you programming language is handling only behavior part
+
+01:13:50.020 --> 01:13:55.540
+behavior part when I say behavior part what I exactly meant is something
+
+01:13:55.540 --> 01:14:00.540
+someone is user reacting to clicks or building the data or someone cooking it
+
+01:14:00.540 --> 01:14:06.600
+or anything something which is really static doesn't have any programming to
+
+01:14:06.600 --> 01:14:14.920
+be written you cannot write for loops while loops or additions or any
+
+01:14:14.920 --> 01:14:17.960
+arithmetic operation
+
+01:14:23.520 --> 01:14:29.800
+using this tool so never say whenever you're saying that HTML and CSS you
+
+01:14:29.800 --> 01:14:34.920
+cannot use them for you know as a calling them as a programming language
+
+01:14:35.120 --> 01:14:39.600
+there's a difference why when we say that's a programming language you can do
+
+01:14:39.600 --> 01:14:45.960
+all the problem-solving events now HTML CSS are solving different problems but
+
+01:14:45.960 --> 01:14:49.520
+the actual when we say that a high-level programming language those are something
+
+01:14:49.520 --> 01:14:54.920
+that you apply you know too much of logic to build something like you said
+
+01:14:54.920 --> 01:15:00.720
+DSA you're solving a problem statements for them those sort of things like when
+
+01:15:00.720 --> 01:15:04.280
+you're trying to solve those are problems there you have like language
+
+01:15:04.280 --> 01:15:14.760
+like JS Java Python okay these are the high-level programming language you have
+
+01:15:14.760 --> 01:15:26.040
+many Ruby go lang okay no JS there are too many things okay but HTML and CSS
+
+01:15:26.040 --> 01:15:31.400
+are not a programming I'll explain more reasoning for this but on top level at
+
+01:15:31.400 --> 01:15:34.640
+this point they are not programming language only the reason is you cannot
+
+01:15:34.640 --> 01:15:39.400
+write for loop and while loop and no problem can be solved without adding a
+
+01:15:39.400 --> 01:15:44.760
+loops or recursion logic isn't it can you solve any DSA problem without
+
+01:15:44.760 --> 01:15:50.920
+writing a loops or a recursion you pick it up any data structure you pick it up
+
+01:15:50.920 --> 01:15:54.520
+any data structure you pick it up anything you won't be able to solve it
+
+01:15:54.520 --> 01:15:59.680
+so now this is just an top level guys never say that it's a programming
+
+01:15:59.680 --> 01:16:10.760
+language now we'll start with official introduction of HTML okay let's say we
+
+01:16:10.760 --> 01:16:15.960
+are starting with HTML if I write down the full form of this one right we call
+
+01:16:15.960 --> 01:16:30.600
+it as hypertext markup language okay so we'll come to this definition step by
+
+01:16:30.600 --> 01:16:36.920
+step okay we'll come to this definition step by step you need a break can we
+
+01:16:36.920 --> 01:16:41.880
+take it after 15 minutes have you know works at 130 hours like class of 130
+
+01:16:41.880 --> 01:16:49.280
+hours okay cool now in this HTML there are only two things right if you if you
+
+01:16:49.280 --> 01:16:54.440
+learn two things right if you learn only two things that's enough if you learn
+
+01:16:54.440 --> 01:16:58.440
+only two things that's enough to you know you will figure it out all the
+
+01:16:58.440 --> 01:17:01.800
+other things you'll figure it all the other things now what are those things
+
+01:17:01.800 --> 01:17:11.920
+are two things are some says element some says tax this is one thing second
+
+01:17:11.920 --> 01:17:21.600
+thing is called attributes or some says properties these are the only two things
+
+01:17:21.600 --> 01:17:28.840
+present in a HTML whenever you write now to design any structure of a website
+
+01:17:28.840 --> 01:17:33.680
+right content you have only these two things elements and tax have anyone
+
+01:17:33.680 --> 01:17:40.440
+heard of this things attributes elements and tax earlier can anyone give me an
+
+01:17:40.440 --> 01:17:43.960
+example of element or tag
+
+01:17:45.960 --> 01:17:56.720
+someone says P okay good good good okay so let me dive down this one button as
+
+01:17:56.720 --> 01:18:02.920
+people can understand image okay anchor I'm writing down things only which I'll
+
+01:18:02.920 --> 01:18:09.800
+introduce now okay paragraph heading these are the elements or tax what are
+
+01:18:09.800 --> 01:18:13.400
+the attributes are the properties
+
+01:18:15.560 --> 01:18:24.160
+what are the attributes are the properties okay source or href okay
+
+01:18:24.320 --> 01:18:29.280
+anything else guys does anyone remember
+
+01:18:32.800 --> 01:18:41.880
+iframe is again a different thing big thing so someone says hash ID but it is
+
+01:18:41.880 --> 01:18:47.760
+only an ID then there is something called class name class then there's
+
+01:18:47.760 --> 01:18:54.840
+something called style right all these are attributes okay now for the people
+
+01:18:54.840 --> 01:18:58.960
+who are completely picked us right understand this one elements are
+
+01:18:58.960 --> 01:19:03.120
+something which is you to add a structure to a website these are the
+
+01:19:03.120 --> 01:19:07.440
+things which are adding a structure elements can be anything could be an
+
+01:19:07.440 --> 01:19:12.920
+button button now to define an element you use this way there is an a button
+
+01:19:13.200 --> 01:19:24.360
+once you define this way okay this is an element can be a button to click okay you
+
+01:19:24.360 --> 01:19:29.680
+define an element this way an element is something which has a opening and a
+
+01:19:29.680 --> 01:19:38.000
+closing okay something which is born it will surely die okay once you define an
+
+01:19:38.000 --> 01:19:41.800
+element you can write the content it will see this in live after the break
+
+01:19:41.800 --> 01:19:46.800
+but on a top level elements and attributes are only the things which can
+
+01:19:46.800 --> 01:19:52.000
+which can be used to define the whole HTML content all the now will see them
+
+01:19:52.000 --> 01:20:10.880
+live but attributes are something which is used to enhance property of element
+
+01:20:11.000 --> 01:20:19.520
+applied on it okay let's say you have defined a button there are too many
+
+01:20:19.520 --> 01:20:24.440
+buttons buttons will have a color or you can add a style button you want to make
+
+01:20:24.440 --> 01:20:28.800
+the button to look in a different way or the button should be jumping all of them
+
+01:20:28.800 --> 01:20:34.800
+can be done using attributes you have to define different attributes okay this is
+
+01:20:34.800 --> 01:20:39.480
+on a top level what elements and attributes are I hope this is clear
+
+01:20:39.480 --> 01:20:43.960
+anyone having any doubts on that on this we'll see them in live again once
+
+01:20:43.960 --> 01:20:48.640
+we start coding we'll start coding in the you know ten minutes later but
+
+01:20:48.640 --> 01:20:55.560
+anyone having any doubts on this on this like elements and attributes I hope no
+
+01:20:55.560 --> 01:21:07.760
+right class will go till 11 yeah yeah we will be going till 11 okay so I hope
+
+01:21:07.800 --> 01:21:12.400
+there are no doubts now since I have four five minutes I'll explain what is
+
+01:21:12.400 --> 01:21:18.080
+you know this HTML is you know markup whenever someone says that you know
+
+01:21:18.080 --> 01:21:30.640
+markup language so it means to say that structure structure website you can take
+
+01:21:30.640 --> 01:21:35.480
+the example as something adding a structure to it you have anyone have
+
+01:21:35.480 --> 01:21:40.360
+written anything in the life called readme.md files have anyone written
+
+01:21:40.360 --> 01:21:49.760
+readme.md files in life earlier markdown files okay no I'll show you that one how
+
+01:21:49.760 --> 01:21:56.440
+we do it but all the markdowns right markdown files or markup files are
+
+01:21:56.440 --> 01:22:00.680
+generally adding a structure to the content now wherever you use this word
+
+01:22:00.680 --> 01:22:05.000
+called markup it is just adding a structure to a particular thing that's
+
+01:22:05.000 --> 01:22:11.360
+where these people used as a markup okay now second thing they use something
+
+01:22:11.360 --> 01:22:20.920
+called hypertext they use something called hypertext
+
+01:22:20.920 --> 01:22:29.480
+when I say hypertext I mean to say that do you know have you seen XML comes
+
+01:22:29.480 --> 01:22:36.200
+under markup language not exactly Suresh not exactly okay markup is
+
+01:22:36.200 --> 01:22:42.080
+something different XML is different okay I mean it can be a part of a
+
+01:22:42.080 --> 01:22:46.120
+category out out of that but I'll try to you know Google and come back to that
+
+01:22:46.120 --> 01:22:55.760
+exactly okay but now coming back to hypertext if you see in websites right
+
+01:22:55.800 --> 01:23:01.200
+you have many things like buttons you can see something which is like a links
+
+01:23:01.200 --> 01:23:04.800
+you can see right there are too many links on a website or even if you
+
+01:23:04.800 --> 01:23:09.880
+prepare a resume who have built it you might have added a scalar you know
+
+01:23:09.880 --> 01:23:14.240
+your coding profile you might have added your github profile you might have given
+
+01:23:14.240 --> 01:23:18.400
+your you know LinkedIn right have you have have you prepared anyone have
+
+01:23:18.400 --> 01:23:24.160
+prepared the resumes adding these three links at least right now these are the
+
+01:23:24.240 --> 01:23:28.760
+links that are done now imagine this links once you click a link you are
+
+01:23:28.760 --> 01:23:32.920
+redirected to that particular website right could be a github or scalar or
+
+01:23:32.920 --> 01:23:39.720
+lead code or whatever you have a github now this redirection is able to happen
+
+01:23:39.720 --> 01:23:44.080
+because they are hypertext then when we say that their hypertext we mean to say
+
+01:23:44.080 --> 01:23:53.080
+that hyper linking hyperlinking of text so the text is up entry point which is
+
+01:23:53.080 --> 01:23:57.160
+redirecting you to the next something new place so that's why we say that is
+
+01:23:57.160 --> 01:24:02.520
+a hyper linking of text which is helped to structure a website now even if your
+
+01:24:02.520 --> 01:24:06.960
+resume is something called a HTML only which doesn't have color or which is
+
+01:24:06.960 --> 01:24:11.880
+normal in different fonts different typography and just you having a
+
+01:24:11.880 --> 01:24:16.400
+hyperlinks are able to relate now definition of HTML also because that's a
+
+01:24:16.400 --> 01:24:21.360
+bookish definition it doesn't really matter to us now if we have once we have
+
+01:24:21.400 --> 01:24:28.400
+understood this book is definition right not needed but the way I understand the
+
+01:24:28.400 --> 01:24:35.720
+way I understand is HTML is mother tongue
+
+01:24:38.680 --> 01:24:41.680
+to browse
+
+01:24:43.120 --> 01:24:48.960
+why do I say mother tongue to the browser is because imagine we have each
+
+01:24:49.000 --> 01:24:53.200
+person is very much comfortable with their mother tongue right because there
+
+01:24:53.200 --> 01:24:58.880
+is something that you have learned in the while you were born first isn't it
+
+01:24:58.880 --> 01:25:03.080
+you might be super comfortable because you've learned it at home and you
+
+01:25:03.080 --> 01:25:07.680
+understood it you know that's really easy to understand and you know do it
+
+01:25:07.680 --> 01:25:12.920
+sometimes what happens is people who are trying to learn new language let's say
+
+01:25:12.920 --> 01:25:16.680
+if someone is trying to learn maybe someone who moved from North India to
+
+01:25:16.680 --> 01:25:21.080
+South India is trying to understand small words he tried to relate those
+
+01:25:21.080 --> 01:25:25.640
+words convert into their mother tongue and try to connect a dot if someone is
+
+01:25:25.640 --> 01:25:31.520
+saying something right do you guys agree with me let's say someone is coming from
+
+01:25:31.520 --> 01:25:39.880
+Delhi Delhi to Hyderabad someone is speaking in Telugu okay and his mother
+
+01:25:39.880 --> 01:25:45.360
+tongue person who is in Delhi his mother tongue is Hindi and he came here he is
+
+01:25:45.360 --> 01:25:49.800
+trying to learn Telugu so first thing he'll learn is like I'm a Telugu I know
+
+01:25:49.800 --> 01:25:56.120
+Telugu so first thing he'll learn is like I don't know Telugu right can you
+
+01:25:56.120 --> 01:26:01.560
+speak in Hindi this is our English he'll say this line so whenever you teach him
+
+01:26:01.560 --> 01:26:07.880
+that person right hey I don't know Telugu can you like can you speak in English or in Hindi
+
+01:26:07.880 --> 01:26:13.120
+so if you I have sprained the sentence now but whenever happens
+
+01:26:13.120 --> 01:26:18.240
+whenever a new person comes in whenever I say this thing he tried to map this
+
+01:26:18.240 --> 01:26:23.920
+each letter in Hindi back right he's trying to convert back into mother
+
+01:26:23.920 --> 01:26:28.560
+language and then understand it and remember it you guys agree this is a
+
+01:26:28.560 --> 01:26:36.560
+process generally what we follow if you are trying to learn something new right
+
+01:26:36.560 --> 01:26:42.400
+so even in the browser right even in the browser it is same thing for browser
+
+01:26:43.280 --> 01:26:49.960
+browser can understand something is HTML by this is his mother language if you
+
+01:26:49.960 --> 01:26:55.280
+give him this data it will load the website at a short it didn't need to
+
+01:26:55.280 --> 01:27:01.880
+translate or convert into anything it will load it a short so if you see even
+
+01:27:01.880 --> 01:27:07.560
+when we loaded a scalar website first okay something that we got in the
+
+01:27:07.600 --> 01:27:13.600
+initial response was HTML all the other things if you see other things all the
+
+01:27:13.600 --> 01:27:17.640
+other things were you know script JavaScript is downloaded later on but
+
+01:27:17.640 --> 01:27:22.560
+first HTML was loaded this is something a browser understands once we load this
+
+01:27:22.560 --> 01:27:28.160
+if you see the like if you say this is a title that scalar is coming now the
+
+01:27:28.160 --> 01:27:31.920
+title will be if I hover over it
+
+01:27:31.920 --> 01:27:37.480
+okay home scalar everything you will be able to find how it is happening okay so
+
+01:27:37.480 --> 01:27:42.160
+but I hope you are able to relate this this is a mother tongue of a browser
+
+01:27:42.160 --> 01:27:48.000
+which it can understand it exactly and it is very speeded understanding it
+
+01:27:48.000 --> 01:27:53.360
+doesn't need to go to multiple steps so if you are serving HTML to a browser
+
+01:27:53.360 --> 01:27:59.240
+it's a cakewalk for it to load it fast but if you are giving a code or a logic
+
+01:27:59.240 --> 01:28:04.120
+to run in the browser it takes time to convert into to what it understands it
+
+01:28:04.120 --> 01:28:10.960
+then render it onto the screen okay I hope you are able to understand now what
+
+01:28:10.960 --> 01:28:17.240
+HTML is basically on top level because this will help to understand the word
+
+01:28:17.240 --> 01:28:20.880
+called Dom in the future classes I'll introduce Dom I'll see if I can
+
+01:28:20.880 --> 01:28:26.480
+introduce today itself but okay I hope now you got that on a top level what
+
+01:28:26.480 --> 01:28:30.840
+hypertext markup bookish examples you learn a lot but watch my idea is right
+
+01:28:30.840 --> 01:28:35.480
+how I understood the computer scientists with my examples something
+
+01:28:35.480 --> 01:28:38.920
+that I see in real life I go to the store and I try to connect with them I
+
+01:28:38.920 --> 01:28:44.240
+try to see everywhere what is in general connected with the nature that we see so
+
+01:28:44.240 --> 01:28:51.440
+that's that way if you try to remember will remember for life okay so the my
+
+01:28:51.440 --> 01:28:56.200
+notes would be not that bookish all our notes or my way of teaching wouldn't be
+
+01:28:56.200 --> 01:29:02.400
+that way it would be really simple on a top level so that it would be easy so
+
+01:29:02.400 --> 01:29:09.000
+whatever code we write is converted into HTML completely no some bit no I'll come
+
+01:29:09.000 --> 01:29:14.440
+to that wait for you know I would say two months actually when we come to
+
+01:29:14.440 --> 01:29:20.680
+react you will be amazed how things are working okay but wait for some time
+
+01:29:20.680 --> 01:29:26.040
+like but I'll you can ask me this thing again then but I'll show it but
+
+01:29:26.080 --> 01:29:31.000
+understand this thing this is something that someone understands it HTML okay
+
+01:29:31.000 --> 01:29:36.920
+browser understand this thing for sure so I hope the class you are clear with
+
+01:29:36.920 --> 01:29:42.080
+the things till now you know what we have learned I hope if you are clear we
+
+01:29:42.080 --> 01:29:46.440
+can go with the you know break session okay how many minutes of break you
+
+01:29:46.440 --> 01:29:49.440
+usually want
+
+01:29:50.320 --> 01:29:57.360
+how many minutes of break you needed five minutes would be fine right because
+
+01:29:57.360 --> 01:30:02.440
+we have to cover some content since it's initial class okay I'll give the five
+
+01:30:02.440 --> 01:30:09.640
+minutes guys to keep it in between okay let's reset this one and start it okay
+
+01:30:09.640 --> 01:30:16.160
+so that we can end class early that's my point okay starting this timer
+
+01:30:16.480 --> 01:30:21.440
+please take break guys see you in five minutes again
+
+01:30:26.080 --> 01:30:31.600
+this Java is helpful for the full stack developers I'll answer you back to this
+
+01:30:31.600 --> 01:30:35.920
+again in some time after a break
+
+01:30:46.440 --> 01:30:49.020
+you
+
+01:31:16.440 --> 01:31:19.020
+you
+
+01:31:46.440 --> 01:31:49.020
+you
+
+01:32:16.440 --> 01:32:19.020
+you
+
+01:32:46.440 --> 01:32:49.020
+you
+
+01:33:16.440 --> 01:33:19.020
+you
+
+01:33:46.440 --> 01:33:49.020
+you
+
+01:34:16.440 --> 01:34:19.020
+you
+
+01:34:46.440 --> 01:34:48.500
+you
+
+01:35:17.440 --> 01:35:26.200
+I hope everyone is back guys can anyone give me some sub-thumbs down if you are
+
+01:35:26.200 --> 01:35:43.200
+back any reactions so guys should I have I've got nine responses so I'll take one
+
+01:35:43.200 --> 01:35:47.560
+doubt that I had it there is what is a usage of one excess code I don't
+
+01:35:47.560 --> 01:35:53.080
+remember who asked me but what is the use of one excess for an HTTP coach so
+
+01:35:53.080 --> 01:36:01.400
+one excess is not an end state it is an ongoing state okay so whenever you make
+
+01:36:01.400 --> 01:36:08.120
+a request and your response is served okay
+
+01:36:08.680 --> 01:36:14.000
+response is being served it goes through multiple states like continue or
+
+01:36:14.000 --> 01:36:17.520
+switching protocols
+
+01:36:21.120 --> 01:36:27.880
+like this is no yeah so there is no like thing like what it is defining an
+
+01:36:27.880 --> 01:36:31.360
+instant it is not really you won't be receiving the status code in your
+
+01:36:31.360 --> 01:36:36.720
+request or the response it is just a happening at a network level that it is
+
+01:36:36.720 --> 01:36:42.240
+saying that what are the steps are happening at that time I was taking one
+
+01:36:42.240 --> 01:36:53.920
+doubt some bit so just one excess code okay so there is no particularly end it
+
+01:36:53.920 --> 01:36:57.840
+like where one excess is like you will receive an one excess code in front end
+
+01:36:57.840 --> 01:37:02.520
+of the back end or in your logs because it is not actually an end state it is an
+
+01:37:02.520 --> 01:37:05.760
+ongoing story to the state it happened at a network layer whenever you are
+
+01:37:05.760 --> 01:37:09.360
+making a request and between till you receive the response whether it is
+
+01:37:09.360 --> 01:37:12.960
+success or the failure response that something that is happening on a system
+
+01:37:12.960 --> 01:37:17.560
+level is like one excess code if system needs any other information between one
+
+01:37:17.560 --> 01:37:21.880
+of each other that is one excess so the till the moment like let's say you
+
+01:37:21.880 --> 01:37:25.520
+ordered a food in the restaurant and you are waiting till that food is being
+
+01:37:25.520 --> 01:37:29.520
+served you are in the one excess code because if you order on a swiggy your
+
+01:37:29.520 --> 01:37:32.840
+food is being prepared once it is prepared your food is assigned to a
+
+01:37:32.840 --> 01:37:37.600
+particular driver till it reaches so that status is changing continue
+
+01:37:37.600 --> 01:37:41.400
+switching protocols or it is you know data is being binded it will be sent
+
+01:37:41.400 --> 01:37:45.560
+back so all this states right those are on the top level what one excess is
+
+01:37:45.560 --> 01:37:51.560
+talking about information about the resource is that clear shant
+
+01:37:56.400 --> 01:38:02.360
+yeah okay I'll discuss this in further if you wanted in doubt session okay no
+
+01:38:02.360 --> 01:38:12.040
+worries so guys I want you to install a few things how many of you have heard
+
+01:38:12.040 --> 01:38:16.080
+of visual studio code editor
+
+01:38:18.120 --> 01:38:23.880
+how many of you installed it how many have you have in this system how many
+
+01:38:23.880 --> 01:38:32.240
+of you have it I see one thumbs down so I would give you a URL okay so if I open
+
+01:38:32.240 --> 01:38:40.520
+this let's say I open this URL and also pin this URL okay I've pinned this URL
+
+01:38:40.520 --> 01:38:46.480
+guys who people who gave me thumbs down you know go on to this size according to
+
+01:38:46.480 --> 01:38:51.400
+your machine configuration if it is windows or you're using Ubuntu or like
+
+01:38:51.400 --> 01:38:58.960
+whatever if it is macOS try to install the you know using this website once
+
+01:38:58.960 --> 01:39:03.840
+you are downloaded we can get started I'll give you five minutes you can do
+
+01:39:03.840 --> 01:39:08.480
+it install it okay you can like if you go for this one right directly click on
+
+01:39:08.480 --> 01:39:12.560
+this don't do anything go for the windows part it will download it I don't
+
+01:39:12.560 --> 01:39:18.800
+need it because my system is not windows okay if you want for a Mac you just go
+
+01:39:18.800 --> 01:39:23.240
+and click on a Mac it will start the downloading once it is downloaded it
+
+01:39:23.240 --> 01:39:26.480
+will show automatically installation process click next next next and
+
+01:39:26.480 --> 01:39:37.200
+download it okay is it fine guys who people who don't have VS code installed
+
+01:39:37.200 --> 01:39:40.480
+are you trying to do it
+
+01:39:41.400 --> 01:39:48.560
+okay then there is something called node.js not needed as of now we'll see
+
+01:39:48.560 --> 01:39:53.840
+them later but at least we if VS code is installed right you what you can do is
+
+01:39:53.840 --> 01:40:00.200
+you can so let's say open a VS Visual Studio code it would look like this way
+
+01:40:00.200 --> 01:40:05.240
+like it will go and it will open the you know Visual Studio code and it will show
+
+01:40:05.240 --> 01:40:16.480
+your recent things and whatever things are there okay so once you reach that
+
+01:40:16.480 --> 01:40:21.840
+particular place once you are able to download it and open it you can click on
+
+01:40:21.840 --> 01:40:27.200
+open and open any of the folders that you have anything that you have you can
+
+01:40:27.200 --> 01:40:37.280
+open it so one thing I'll do is that you know I'll have links in this thing let's
+
+01:40:37.280 --> 01:40:52.520
+say dot MD inside this file I have this let's say class one inside this I'll
+
+01:40:52.520 --> 01:40:57.200
+paste this links for your future use case such that if you need it from you
+
+01:40:57.200 --> 01:41:03.040
+know initial step you will have all these links that you need okay
+
+01:41:07.880 --> 01:41:19.520
+install editor okay once you do this one MD once markdown that is that's what I
+
+01:41:19.520 --> 01:41:24.640
+was saying like if I show you in the preview right this is how it will look
+
+01:41:24.640 --> 01:41:30.200
+like I haven't written anything right like I need underscore or this one if I
+
+01:41:30.200 --> 01:41:35.640
+write down like let's say one dot I'll show you how we can do markdown or
+
+01:41:35.640 --> 01:41:42.160
+beautify the documentation part okay but that's just a markdown like you are
+
+01:41:42.160 --> 01:41:46.880
+trying to describe the country in different way if you do it in double
+
+01:41:46.880 --> 01:41:55.160
+hash it will show it in different way it's a single hash but I'll teach you
+
+01:41:55.160 --> 01:42:00.400
+how do you can write a better markdowns also but that's out of the scope guys
+
+01:42:00.400 --> 01:42:07.040
+okay but now once you are able to install it can we move it guys with your
+
+01:42:07.040 --> 01:42:14.520
+permission can I move it with the HTML part so I'll go inside the classes I'll
+
+01:42:14.520 --> 01:42:23.200
+create a class one okay let me create a folder instead of this one I'll go here
+
+01:42:23.200 --> 01:42:29.480
+inside the classes I'll create a new folder called class one okay inside this
+
+01:42:29.480 --> 01:42:34.880
+class one I'll create a file called index dot HTML this is a base file that
+
+01:42:34.880 --> 01:42:39.080
+I'm trying to create it let's say there's a new folder I'll create here
+
+01:42:39.080 --> 01:42:49.880
+HTML let's push this class one inside the HTML part okay now inside the HTML
+
+01:42:49.880 --> 01:42:53.560
+right whenever you are writing a structure so there is something like
+
+01:42:53.560 --> 01:42:58.040
+basic level on a top level as I've told you there is if there is something
+
+01:42:58.040 --> 01:43:04.120
+taking a birth and then there it should have an end so if you are opening
+
+01:43:04.120 --> 01:43:11.640
+something this element HTML element you should close this HTML element also is
+
+01:43:11.640 --> 01:43:17.320
+that clear is that clear that you know every structure of your file will be
+
+01:43:17.320 --> 01:43:23.920
+enclosed between these two tags when I say tag it is one tag and this is this
+
+01:43:23.920 --> 01:43:28.120
+is closing tag this is opening tag this is closing tag okay both things are
+
+01:43:28.120 --> 01:43:36.120
+combined called as an element okay now inside this you know opening and raising
+
+01:43:36.120 --> 01:43:45.400
+HTML tags well you have two things basically two things now in human one is
+
+01:43:45.400 --> 01:43:50.200
+structure one is brain right both like brain is someone who is operating whole
+
+01:43:50.200 --> 01:43:56.560
+body isn't it even though you have too many things like hands legs and eyes and
+
+01:43:56.560 --> 01:44:00.400
+the mouth speech and everything but something which is driving his brain
+
+01:44:00.400 --> 01:44:09.680
+isn't it you guys agree with that right similarly here you have two things one
+
+01:44:09.680 --> 01:44:21.240
+is body okay one is body other thing is head okay head is something which is
+
+01:44:21.240 --> 01:44:26.760
+not will not be seen by the other end users like users like when I say other
+
+01:44:26.760 --> 01:44:30.760
+end users I mean to say that something which is running inside my mind you
+
+01:44:30.760 --> 01:44:36.360
+cannot predict it what is happening but by seeing my body you may see what are
+
+01:44:36.360 --> 01:44:43.520
+the actions I can make isn't it so whatever you things you write down
+
+01:44:43.520 --> 01:44:48.180
+inside the body you will be able to see on a website but whatever things you
+
+01:44:48.180 --> 01:44:52.080
+write in the head you cannot see in the website but are those are the very
+
+01:44:52.080 --> 01:44:56.160
+important things will explore what all things goes inside head what all things
+
+01:44:56.160 --> 01:45:01.240
+goes inside the body okay these three elements are clear to you what these
+
+01:45:01.240 --> 01:45:07.920
+three elements are HTML head and body okay now so what we will start okay let
+
+01:45:07.920 --> 01:45:14.840
+me write down small definitions also first thing is like how do you add a
+
+01:45:14.840 --> 01:45:23.440
+comments okay so I what I did is I've did command and forward slash to add
+
+01:45:23.440 --> 01:45:28.120
+this comment we can type it down manually or you can write down command
+
+01:45:28.800 --> 01:45:34.480
+slash to get this comment okay or you can do control forward slash for the
+
+01:45:34.480 --> 01:45:40.680
+Windows laptop so I'll write down small notes also about this one head contains
+
+01:45:40.680 --> 01:45:49.600
+generally metadata I'll come to this each words later on related to website
+
+01:45:49.600 --> 01:45:55.720
+there's nothing that you need to get it as of now I'll explain everything step
+
+01:45:55.720 --> 01:46:00.120
+by step okay now what things are present inside the body is something
+
+01:46:00.120 --> 01:46:10.480
+that you can see on the screen so whole structure is written inside the body
+
+01:46:10.480 --> 01:46:20.800
+okay now let's say what if I want to what if I want to write a heading let's
+
+01:46:20.840 --> 01:46:29.040
+say heading could be I don't want to give a hello world guys can anyone give
+
+01:46:29.040 --> 01:46:47.240
+me some right heading can anyone give me let's say welcome to scalar okay okay
+
+01:46:47.440 --> 01:46:54.640
+I've just written welcome to scalar now welcome to world of web anything works
+
+01:46:54.640 --> 01:47:00.840
+it's just on to it now I've used something called h1 h1 is something when
+
+01:47:00.840 --> 01:47:05.800
+I say that heading okay so there are two good amount of headings guys that way
+
+01:47:05.800 --> 01:47:09.520
+you want to write main headings subheading side heading okay all the so
+
+01:47:09.520 --> 01:47:16.440
+but headings are generally you know from h1 till head 6 you know there are
+
+01:47:16.440 --> 01:47:20.080
+different types of heading I'll show you let's say I've written h1 and
+
+01:47:20.080 --> 01:47:27.160
+welcome to scale now since this is rightly you know this is since browser
+
+01:47:27.160 --> 01:47:31.920
+can understand this HTML directly I should be able to open this file right
+
+01:47:31.920 --> 01:47:36.360
+the other should be able to understand and show it to me this whole HTML
+
+01:47:36.360 --> 01:47:40.560
+content right render on the screen that's what we understood when we
+
+01:47:40.560 --> 01:47:44.600
+understood definition of HTML isn't it
+
+01:47:46.720 --> 01:47:52.400
+right now let's let's try to do that thing let's try to do that thing okay
+
+01:47:52.400 --> 01:47:57.000
+give me a second I'll open this
+
+01:48:00.360 --> 01:48:05.320
+I'm trying to find the okay folder
+
+01:48:05.320 --> 01:48:16.640
+okay give me a second guys actually I have another desktop where I have all
+
+01:48:16.640 --> 01:48:21.640
+the files let's say I go back to the browser now if you see here what I am
+
+01:48:21.640 --> 01:48:26.680
+pasting is the file location in my laptop okay where that file is located
+
+01:48:26.680 --> 01:48:31.280
+because if you see inside the desktop folder I created full stack merge
+
+01:48:31.400 --> 01:48:36.000
+because if you see inside the desktop folder I created full stack merge and
+
+01:48:36.000 --> 01:48:40.880
+classes this is the structure right full stack merge and classes HTML class on an
+
+01:48:40.880 --> 01:48:45.360
+index system so I'm directly loading the HTML file in the browser I'm hitting
+
+01:48:45.360 --> 01:48:49.320
+into the browser directly if you see what's happening in the inspect when I
+
+01:48:49.320 --> 01:48:55.120
+do inspect I go to the network tab when I hit this if you see I made a request I
+
+01:48:55.600 --> 01:49:01.560
+made a request I made it get request to this system to the file system file
+
+01:49:01.560 --> 01:49:06.040
+system is also a database right like a local database that's in the present
+
+01:49:06.040 --> 01:49:10.960
+inside the system it made a call it received 200 status code success status
+
+01:49:10.960 --> 01:49:17.680
+code and we rendered this welcome to the scalar is this clear guys now directly
+
+01:49:17.680 --> 01:49:24.320
+the content of HTML is parsed and understood by this browser and loaded
+
+01:49:24.320 --> 01:49:29.640
+for us is this clear is
+
+01:49:32.280 --> 01:49:40.360
+okay now second thing is that you know you can also do one thing okay if you go
+
+01:49:40.360 --> 01:49:45.480
+for this one right marketplace I don't want to load it from always from the
+
+01:49:45.480 --> 01:49:50.320
+file system server because each time I make a change I have to reload it
+
+01:49:50.320 --> 01:49:55.600
+refresh it because it will refetch it it will refetch the API and it will load
+
+01:49:55.600 --> 01:50:00.720
+the data so what I want to do is I want to use a one dummy server on my this one
+
+01:50:00.720 --> 01:50:05.600
+so in order to create that dummy server I'll go to here in the market list click
+
+01:50:05.600 --> 01:50:13.960
+this button on your extensions and I try to search with live server okay this
+
+01:50:13.960 --> 01:50:26.040
+one I'll see if I can copy extension ID and I can give it to you I'm not sure
+
+01:50:26.040 --> 01:50:35.160
+this is working fine yeah this is the person rithi wiki day is someone who
+
+01:50:35.160 --> 01:50:39.200
+created you might be able to search with this name also that's something that I
+
+01:50:39.200 --> 01:50:49.480
+have given okay so say live server I'll write down everything that I'm using
+
+01:50:49.480 --> 01:51:03.160
+live server extension for loading HTML browser okay yeah I'll pin that give me
+
+01:51:03.160 --> 01:51:15.800
+a second now what will happen once I do this I go back to the index file now
+
+01:51:15.800 --> 01:51:21.120
+I'll just right click this one okay and I'll go with open with live server once
+
+01:51:21.120 --> 01:51:27.840
+I do this okay it is loading in the other instance give me a second let's
+
+01:51:27.840 --> 01:51:34.880
+say I go back here inside now if you see if you see the URL now what is the URL
+
+01:51:34.880 --> 01:51:42.000
+this is an IP address of my machine isn't it this is my IP address and this
+
+01:51:42.000 --> 01:51:48.120
+is a port this is a port where server is running and I'm loading this inside this
+
+01:51:48.120 --> 01:51:56.840
+port I'm loading this classes HTML index one okay if you see now I got I got three
+
+01:51:56.840 --> 01:52:03.920
+zero four status code the reason behind I entered this URL if you see I entered
+
+01:52:03.920 --> 01:52:13.160
+this one it redirected me and loaded the website it does the same thing now what
+
+01:52:13.160 --> 01:52:17.480
+why I use I'm using this one is as soon as I write down let's say I write down
+
+01:52:17.480 --> 01:52:25.400
+again h2 since we have all the levels of heading right so I'll say that we are
+
+01:52:25.400 --> 01:52:35.800
+glad you are here okay if I go and dive down I need not to click anything save
+
+01:52:35.800 --> 01:52:40.680
+once I click save it is reloaded you know a pay call is being made and you
+
+01:52:40.680 --> 01:52:46.200
+know loaded for me I hope this point is clear guys so I'll try to introduce all
+
+01:52:46.200 --> 01:52:51.840
+possible headings for us okay such that we have documented in the notes
+
+01:52:51.880 --> 01:53:01.520
+whenever someone opens get up I hope this hope you find this you know and
+
+01:53:01.520 --> 01:53:08.640
+let's say I try to copy paste and create other headings let's say this is h4 this
+
+01:53:08.640 --> 01:53:25.200
+is h5 h6 h5 h6 h4 okay these are the list of headings we have generally like
+
+01:53:25.200 --> 01:53:30.920
+if you see this can be a main heading to the page or this can be heading to the
+
+01:53:30.920 --> 01:53:35.560
+section this can be heading to the paragraph a sub paragraph or the side
+
+01:53:35.600 --> 01:53:40.320
+all the these are these are the headings given by a given by HTML to us that we
+
+01:53:40.320 --> 01:53:46.800
+can use it okay now other than headings right we have some other elements that
+
+01:53:46.800 --> 01:53:52.840
+we will be discussing so I'll introduce one by one okay so most of the you know
+
+01:53:52.840 --> 01:53:59.280
+most of the website have content to read right content to consume more isn't it
+
+01:53:59.280 --> 01:54:04.640
+do you guys agree like you go for any site gig for gigs or medium the more
+
+01:54:04.640 --> 01:54:09.200
+than diagrams more than images it is a more content so to write down content
+
+01:54:09.200 --> 01:54:15.040
+right the basic one of the main main element that you have is something
+
+01:54:15.040 --> 01:54:21.240
+called paragraph this is a root element upon this root element each you know
+
+01:54:21.240 --> 01:54:24.480
+down the lane I'll tell you but frameworks how they have built many
+
+01:54:24.480 --> 01:54:32.080
+typographies okay now let's say I write down paragraph tag this is paragraph
+
+01:54:32.080 --> 01:54:36.480
+goes by P later okay once you open and close P so there's something called
+
+01:54:36.480 --> 01:54:42.520
+lorem guys have anyone knows lorem which generates a content for us
+
+01:54:42.520 --> 01:54:45.880
+automatically if I am trying to write them lorem this is a Emmett
+
+01:54:45.880 --> 01:54:49.520
+abbreviation which automatically builds content for me let's say I write down
+
+01:54:49.520 --> 01:54:55.960
+lorem 35 and then click enter it will build me a paragraph I size of 35 words
+
+01:54:55.960 --> 01:55:00.080
+okay it's just like I'm trying to generate a dummy data I don't want to
+
+01:55:00.080 --> 01:55:05.880
+type the whole paragraph okay now if you go and see on the website if you see
+
+01:55:05.880 --> 01:55:11.600
+this content paragraph is loaded this way okay this is a general size of fan
+
+01:55:11.600 --> 01:55:16.640
+so whole content is generally written in terms of part now inside this paragraph
+
+01:55:16.640 --> 01:55:22.000
+you have too many things too many things that you can write down let's say I do
+
+01:55:22.000 --> 01:55:31.680
+one thing which is called strong which goes for boldness let's say I try to
+
+01:55:31.680 --> 01:55:45.360
+make here add a strong here okay and I cut this I end it here okay so if you
+
+01:55:45.360 --> 01:55:50.480
+let's say what how this changes if you see here inside the lorem if I made this
+
+01:55:50.480 --> 01:55:57.840
+part of it as strong it updated as a bold okay so you might be seeing it
+
+01:55:57.840 --> 01:56:01.640
+right whenever you want to highlight you go for any document let's say you go for
+
+01:56:01.640 --> 01:56:05.960
+this document you see there is a color there's inverted comma there is a
+
+01:56:05.960 --> 01:56:10.400
+change in style okay there will be or maybe somewhere italic or red in color
+
+01:56:10.400 --> 01:56:17.200
+is a hyperlink okay but what do I you are hopefully you are able to understand
+
+01:56:17.200 --> 01:56:20.840
+what do I mean to say that it's a paragraph will have a different ways of
+
+01:56:20.840 --> 01:56:25.880
+showing something which is important content and which is something not right
+
+01:56:25.880 --> 01:56:37.600
+you go for flipkart if you see open anything anything anything now if you
+
+01:56:37.600 --> 01:56:45.200
+see everything will have some extra price 60% off 895 striking off now how
+
+01:56:45.200 --> 01:56:51.740
+do you think this thing can be done in HTML now I don't want you to you know
+
+01:56:51.740 --> 01:56:56.720
+mug up this even I don't even remember all of them just that you should know
+
+01:56:56.720 --> 01:56:59.720
+that there's something can be doable and if you are able to search you'll
+
+01:56:59.720 --> 01:57:03.840
+remember all these stacks only remember important tax and all the other things
+
+01:57:03.840 --> 01:57:08.520
+we will figure it out okay now imagine that there's something called strike
+
+01:57:08.520 --> 01:57:19.280
+okay once I do this let's say I go back into the website if you see this part is
+
+01:57:19.280 --> 01:57:25.760
+striking off the same thing that people are the flipkart team or any other team
+
+01:57:25.760 --> 01:57:29.120
+have done it so they are striking of this thing and they highlighted the
+
+01:57:29.120 --> 01:57:34.880
+other thing right bold and striking is that clear how this can be done for the
+
+01:57:34.880 --> 01:57:42.400
+content paragraph no similarly what people does it right people what people
+
+01:57:42.400 --> 01:57:47.600
+does it is that you know they also style this kind of thing which they you know
+
+01:57:47.600 --> 01:57:52.680
+striking off how you can do that thing is let's say you can have another thing
+
+01:57:52.680 --> 01:58:00.200
+which is italic tag when something if you might have learned in school right
+
+01:58:00.200 --> 01:58:05.880
+they teach you different types of style writing curse you writing or you know
+
+01:58:05.880 --> 01:58:11.280
+calligraphy or many things like you bent keywords that you write down because it
+
+01:58:11.280 --> 01:58:16.720
+goes by bending it to make it look beautiful so that's what happens in
+
+01:58:16.720 --> 01:58:20.400
+website also once you do this if you see I have striking off I have changed the
+
+01:58:20.400 --> 01:58:25.680
+style of content okay these are the things that you can do on a content part
+
+01:58:25.800 --> 01:58:31.400
+okay mainly I've tried to write down four to five things let's say I'll write
+
+01:58:31.400 --> 01:58:47.280
+down I'll introduce one by one I goes for italics style then strike goes for
+
+01:58:47.720 --> 01:58:58.680
+scratch over letter words then there's something called underscore also like if
+
+01:58:58.680 --> 01:59:06.640
+you want to underscore something you can do it using you okay once you do this
+
+01:59:06.640 --> 01:59:11.280
+let's say I'll show that one also
+
+01:59:14.920 --> 01:59:21.720
+underline underline sorry underline the words okay if you see I've underlined
+
+01:59:21.720 --> 01:59:29.280
+this words so this can be done using this way any doubts guys on this part
+
+01:59:29.280 --> 01:59:34.880
+how we can design a paragraph or how we can style it adding a you know this one
+
+01:59:34.880 --> 01:59:39.520
+pretty basic and pretty simple and straightforward right now then there is
+
+01:59:39.520 --> 01:59:43.080
+something called when I introduce hyperlinking right I've talked about
+
+01:59:43.080 --> 01:59:49.480
+something called links now let's see how can you create a link anyone any guesses
+
+01:59:49.480 --> 01:59:52.600
+how can you create a link
+
+01:59:54.760 --> 02:00:02.080
+anyone any guesses there's something called anchor tag
+
+02:00:02.480 --> 02:00:09.400
+which is used to create hyperlinks now let's say when I define anchor tag
+
+02:00:09.400 --> 02:00:18.160
+anchor tag goes for a okay a letter now let's say I try to open an anchor tag
+
+02:00:18.160 --> 02:00:30.120
+okay and inside this I'll say that hey google.com Google search engine okay once
+
+02:00:30.160 --> 02:00:36.440
+I have this Google search engine here now I've introduced till now I have
+
+02:00:36.440 --> 02:00:43.120
+introduced till now we talked about elements or the tags now when I say
+
+02:00:43.120 --> 02:00:47.960
+that this is a hyperlink when I say Google search is a hyperlink when you
+
+02:00:47.960 --> 02:00:53.120
+click on this it should redirect us to the new website so what we are mean to
+
+02:00:53.120 --> 02:00:58.080
+say that we are adding some new extra properties or attributes to it now
+
+02:00:58.080 --> 02:01:02.800
+people are saying there's something called href attribute now what this href
+
+02:01:02.800 --> 02:01:07.360
+attribute will give us is something where you want it to redirect when you
+
+02:01:07.360 --> 02:01:18.920
+click it let's say I say that HTTPS double colon WW dot google.com okay so
+
+02:01:18.920 --> 02:01:24.640
+let's have this thing I save it I go here if you see now this is converted
+
+02:01:24.640 --> 02:01:29.640
+into blue in color once I had it href now let's say if I click this if you see
+
+02:01:29.640 --> 02:01:34.720
+here the website made a call to google.com and returned as Google search
+
+02:01:34.720 --> 02:01:41.480
+engine okay sometimes what happens is where you whenever you open you know
+
+02:01:41.480 --> 02:01:48.720
+links can we use it is not suggested to it is you cannot use it actually let's
+
+02:01:48.720 --> 02:01:57.040
+I use href same attribute here that's a it's a wrong thing to do it okay now
+
+02:01:57.040 --> 02:02:03.720
+even if I click whole thing here nothing is happening okay but if I click this it
+
+02:02:03.720 --> 02:02:06.600
+is redirecting
+
+02:02:07.640 --> 02:02:15.120
+clear upendra so each element tag elements will have its own rule so you
+
+02:02:15.120 --> 02:02:22.920
+have to use them that specifically okay so now you might have seen many things
+
+02:02:22.920 --> 02:02:26.880
+right if you say that I open this one product it took me to the new page it
+
+02:02:26.880 --> 02:02:32.680
+didn't open in the new page right does anyone know how to do this when I'm
+
+02:02:32.680 --> 02:02:36.520
+clicking a page it didn't open me in the same page like when we're clicking this
+
+02:02:36.520 --> 02:02:41.880
+it is opening us in a same page but we wanted to open in the new like page
+
+02:02:41.920 --> 02:02:48.040
+right so there is something another you know attribute if I add attribute called
+
+02:02:48.040 --> 02:02:56.480
+target and underscore blank so it will open in the new blank page target open
+
+02:02:56.480 --> 02:03:01.760
+in the new blank page okay let's say I go back I open this click on a search
+
+02:03:01.760 --> 02:03:16.800
+engine just a second it's acha target spelling is wrong okay once I click it
+
+02:03:16.800 --> 02:03:22.000
+now Google search engine is opening in the new page right I hope you got this
+
+02:03:22.000 --> 02:03:29.080
+what is anchor tag and how you can handle this clear eyes now other than
+
+02:03:29.080 --> 02:03:35.200
+hyperlinks or content what do you see else in the website what do you else see
+
+02:03:35.200 --> 02:03:40.240
+in the website what is the one more important thing
+
+02:03:41.560 --> 02:03:48.080
+images right now let's say I go for images there is a simple tag call for
+
+02:03:48.080 --> 02:03:53.440
+images there is a tag called IMG okay to render image now let's see if I write
+
+02:03:53.440 --> 02:03:59.560
+down IMG there's only one special thing about IMG is that you know it's a
+
+02:03:59.560 --> 02:04:06.160
+self-closing tag it's a self-closing tag I'll tell you why it is a self-closing
+
+02:04:06.160 --> 02:04:14.080
+tag as I told earlier that everything which starts it ends it takes it should
+
+02:04:14.080 --> 02:04:20.160
+whenever I was standing it shouldn't but while writing image you this whatever
+
+02:04:20.160 --> 02:04:23.480
+content we are writing it we are writing between those tags it is
+
+02:04:23.480 --> 02:04:28.560
+supposed to be inside that container but image itself is an container you don't
+
+02:04:28.560 --> 02:04:33.240
+want to write between images right it is on image or behind the image but not
+
+02:04:33.240 --> 02:04:39.320
+between them you are able to relate this when I write down anchor tag also I
+
+02:04:39.320 --> 02:04:44.560
+want to write this Google search engine as between this link now added
+
+02:04:44.560 --> 02:04:49.600
+attributes on over it but images you don't have anything to write between so
+
+02:04:49.600 --> 02:04:55.240
+there's no use case of having an entire it is itself an ending tag now this
+
+02:04:55.240 --> 02:05:00.580
+image tag takes two attributes again to show what sort of image it should have
+
+02:05:00.580 --> 02:05:06.680
+so to in order to show image right if we use something called source tag SRC
+
+02:05:06.680 --> 02:05:12.280
+SRC is a source or the location of a image where it is located then there is
+
+02:05:12.280 --> 02:05:20.280
+something called alt alt is something let's say as I've told that HTML is
+
+02:05:20.280 --> 02:05:27.800
+something a mother tongue to the browser now browsers each mother can have its
+
+02:05:27.800 --> 02:05:35.040
+own capability right like like let's say Chrome is a very smart mother whereas
+
+02:05:35.040 --> 02:05:40.000
+Internet Explorer which got deprecated which is very like you know say old age
+
+02:05:40.000 --> 02:05:44.260
+that doesn't understand all the new things are happening when I say new
+
+02:05:44.260 --> 02:05:49.720
+things are happening the types of images you have PNG JPEG and everything you
+
+02:05:49.720 --> 02:05:54.040
+have so there are some browsers which cannot render your certain types of
+
+02:05:54.040 --> 02:06:01.960
+images you whichever you can cannot read you know render that image you have to
+
+02:06:01.960 --> 02:06:06.880
+write description for the image what this image is talking about so whatever
+
+02:06:06.880 --> 02:06:11.880
+you give it an alt something if you are not if that image is not rendering that
+
+02:06:11.880 --> 02:06:15.920
+alt text whatever you try to text in the alt what that will be rendered onto the
+
+02:06:15.920 --> 02:06:21.880
+browser okay I hope this is clear so what we'll do is like we'll pick one
+
+02:06:21.880 --> 02:06:33.920
+images let's say images we'll go to let's say I copy link address copy link
+
+02:06:33.960 --> 02:06:43.040
+address copy image address sorry okay I go here I give this image address okay
+
+02:06:43.040 --> 02:06:56.160
+this is way much big my god I did I copy right thing let me go back
+
+02:07:04.920 --> 02:07:12.160
+let's say what this picture that we copied is about it's an like let's say
+
+02:07:12.160 --> 02:07:24.720
+lake lake with water and moon okay I have what I've done is like I have
+
+02:07:24.720 --> 02:07:31.240
+returned a tag image tag with this information I don't know if this image
+
+02:07:31.240 --> 02:07:38.080
+will work guys let's see yeah if you see I'm able to see a image with the
+
+02:07:38.080 --> 02:07:44.360
+lake right entering it now if image is not able to render it how can we do
+
+02:07:44.360 --> 02:07:52.920
+that let's say let's say I don't want I don't give this image description here
+
+02:07:52.920 --> 02:08:05.320
+let's say I comment this thing okay I cut it okay I cut I cut down the image
+
+02:08:05.320 --> 02:08:12.040
+now if you see image icon is showing with the lake with a water and moon now
+
+02:08:12.040 --> 02:08:19.160
+this is how it works that if the images image copyright that that's directly
+
+02:08:19.160 --> 02:08:25.400
+available if I post it in a public domain Suresh I'll be you know flagged
+
+02:08:25.400 --> 02:08:30.160
+but I'm not posting pub in on cloud or I'm using or making a business out of
+
+02:08:30.160 --> 02:08:42.680
+it right until I make a business out of it I'm not you know I can use it yeah we
+
+02:08:42.680 --> 02:08:48.200
+can use pixels website is it something okay so I hope this is clear guys how
+
+02:08:48.200 --> 02:08:54.520
+image tag works so these are the least of you know basic tags that you need to
+
+02:08:54.520 --> 02:09:00.400
+have aware of something to get started with HTML no before ending this class
+
+02:09:00.400 --> 02:09:05.280
+right I want to add few things okay before ending this class that's something
+
+02:09:05.280 --> 02:09:13.960
+that I want you to build after once we learn right our learn this HTML and you
+
+02:09:13.960 --> 02:09:19.480
+know CSS part only with HTML and CSS part I've built one project called
+
+02:09:19.480 --> 02:09:24.360
+portfolio project I'll share a code base with you I'll also parallel record so
+
+02:09:24.360 --> 02:09:29.440
+this is something a dummy you know what we say portfolio project which you can
+
+02:09:29.440 --> 02:09:34.160
+create with only simple HTML and CSS so where you have like you know download
+
+02:09:34.160 --> 02:09:38.760
+resume button doesn't happen anything it just renders the images and the project
+
+02:09:38.760 --> 02:09:45.360
+like my project section get in touch form and adding this icons and you know
+
+02:09:45.360 --> 02:09:51.600
+making this boxes okay all these things can be done using simple HTML CSS so
+
+02:09:51.600 --> 02:09:56.640
+what I want you guys to focus on is currently till we are in the part of
+
+02:09:56.640 --> 02:10:02.640
+HTML you want you need to focus on more on the content part like maybe this icon
+
+02:10:02.640 --> 02:10:09.680
+image home about project section this one then this content part okay you have
+
+02:10:09.680 --> 02:10:15.920
+to focus on the content part nothing else okay what I'll do is that I'll pin
+
+02:10:15.920 --> 02:10:27.600
+this link here along with that I'll also keep it here okay at the end of the CSS
+
+02:10:27.600 --> 02:10:32.840
+class right at the end of the CSS class what I'll do is that I'll also give you
+
+02:10:32.840 --> 02:10:37.560
+the whole project repo this repo portfolio project repo code such that
+
+02:10:37.560 --> 02:10:49.240
+you can explore back does that work guys okay yeah great so other than this thing
+
+02:10:49.240 --> 02:10:55.440
+let's say inside this right I'll create another section called projects okay
+
+02:10:55.440 --> 02:10:59.080
+let's say not here but
+
+02:11:01.320 --> 02:11:09.840
+I'll pull it later on projects whatever projects we are building along with that
+
+02:11:09.840 --> 02:11:16.040
+I'll also create this project basic HTML with you so that whatever time see so
+
+02:11:16.040 --> 02:11:21.680
+the clock is at 2 11 do you want me to build this projects getting started with
+
+02:11:21.680 --> 02:11:27.920
+it or you want to build it initially and how you want me to go with
+
+02:11:33.640 --> 02:11:40.080
+guys do you want me to code it down start with it a simple HTML content for
+
+02:11:40.080 --> 02:11:46.960
+this one initially okay yeah sure so let's say I have created a project
+
+02:11:47.120 --> 02:11:58.760
+section I'll create a portfolio project portfolio okay so anyways I have to
+
+02:11:58.760 --> 02:12:06.560
+provide you the images and icons which you can use it index dot HTML okay now
+
+02:12:06.560 --> 02:12:12.280
+yeah one message I've got is from Dhanda says someone who knows the language can
+
+02:12:12.280 --> 02:12:17.320
+we start it on HTML CSS someone who knows the language then as I didn't get
+
+02:12:17.320 --> 02:12:22.960
+your question when you and you say that language which language you mean to say
+
+02:12:22.960 --> 02:12:31.800
+that you mean to say coding languages like JavaScript Java maybe we can
+
+02:12:31.800 --> 02:12:38.760
+discuss about this under in a doubt session I'll get started with project you
+
+02:12:38.760 --> 02:12:43.440
+know here so there's one shortcut I'll use guys whenever you know there's
+
+02:12:43.440 --> 02:12:48.160
+something called Emmet when I drive down this HTML right as I've shown you for
+
+02:12:48.160 --> 02:12:53.600
+the lorem right lorem 35 I've created a content as such you have also you can
+
+02:12:53.600 --> 02:12:59.680
+generate a dummy HTML okay dummy HTML I'll click HTML I'll find and I'll do it
+
+02:12:59.680 --> 02:13:05.440
+just click it so I'm able to generate default content now I'll also explain
+
+02:13:05.440 --> 02:13:10.440
+one thing I forgot to include is that you know here inside the head I didn't
+
+02:13:10.440 --> 02:13:15.400
+have anything if you go to the website that we rendered it right if you hover
+
+02:13:15.400 --> 02:13:21.480
+over it that's I go and hover over this tab it is still showing me that same you
+
+02:13:21.480 --> 02:13:26.480
+know this IP address and port number right what if we want to change and give
+
+02:13:26.480 --> 02:13:31.160
+it a name like let's say I go to the scalar and I hover it there is no IP
+
+02:13:31.160 --> 02:13:36.880
+address is being shown or anything it shows that home scalar Academy okay I'll
+
+02:13:36.880 --> 02:13:42.240
+come to that around give me a minute so inside and head if you want to override
+
+02:13:42.240 --> 02:13:47.200
+what you want to show on a browser tab right you have a you know tag called
+
+02:13:47.200 --> 02:13:56.960
+title inside a title you can say introduction to HTML elements okay
+
+02:13:56.960 --> 02:14:05.760
+HTML since we discussed about attributes to now if I go back if you
+
+02:14:05.760 --> 02:14:12.080
+see my name got changed okay does it matter to does it matter to any website
+
+02:14:12.080 --> 02:14:16.080
+it doesn't matter to any website but it's present in head to make it give a
+
+02:14:16.080 --> 02:14:21.840
+content like what this website is upward okay website is mainly this part but
+
+02:14:21.840 --> 02:14:27.360
+this is something in the present in head which is not useful okay but that's how
+
+02:14:27.360 --> 02:14:32.080
+head works the content that you write in heads that's how it works no so someone
+
+02:14:32.080 --> 02:14:39.200
+asked me what is what is with that HTML file so HTML file introduced few more
+
+02:14:39.200 --> 02:14:45.400
+things for us like how can you write in HTML in a better way okay for writing
+
+02:14:45.400 --> 02:14:49.880
+content right for division dividing the content earlier now let's say if I
+
+02:14:49.880 --> 02:14:56.320
+typed on let's say I want to build portfolio section okay if you see in
+
+02:14:56.320 --> 02:15:02.840
+portfolio I have basically what all things I have here I'll talk about this
+
+02:15:02.840 --> 02:15:07.960
+are on in five minutes in portfolio I have something called header right let's
+
+02:15:07.960 --> 02:15:17.040
+say something I have header okay then there is something called I also have
+
+02:15:18.040 --> 02:15:25.000
+footer where I have the form okay
+
+02:15:30.240 --> 02:15:36.800
+then we have my project section then you have a bot me section let's say header
+
+02:15:36.800 --> 02:15:45.480
+footer my project then also you have a bot me
+
+02:15:45.480 --> 02:15:53.760
+section so what I did is like I divided our project into four parts to you know
+
+02:15:53.760 --> 02:15:57.680
+break down what we say you go for DSA big problems think it in the brute
+
+02:15:57.680 --> 02:16:03.200
+force I'm trying to go with a brute force logic now earlier before HTML 5
+
+02:16:03.200 --> 02:16:07.840
+right before HTML 5 for dividing any containers right you have something
+
+02:16:07.840 --> 02:16:20.920
+called diff tax okay each container will have its own diff okay okay so each
+
+02:16:20.920 --> 02:16:25.520
+container will have its own day there is just a basic like you can say that it's
+
+02:16:25.520 --> 02:16:30.000
+an structure like sections if you want to do build it in sections you can use
+
+02:16:30.000 --> 02:16:35.800
+this dev tax okay we will be using this diff tax up to extend that when we are
+
+02:16:35.800 --> 02:16:40.640
+building projects together okay now inside this diff tax all the elements
+
+02:16:40.640 --> 02:16:45.560
+that will go is something that we have discussed till now okay let's say if I
+
+02:16:45.560 --> 02:16:52.360
+want to say that let's ignore ignore this firstly image but here we are having
+
+02:16:52.360 --> 02:16:58.320
+four things like home a board projects and blog right now let's say if I want
+
+02:16:58.320 --> 02:17:02.360
+to clear a quick create this one I'll again use our diff tag let's say I
+
+02:17:02.360 --> 02:17:18.480
+create a home again I copy and paste it okay now let's say I home a book
+
+02:17:18.480 --> 02:17:33.840
+projects and blog okay so let's have divide done this now I go and back and
+
+02:17:33.840 --> 02:17:41.120
+open this thing okay live server now let's say I got this four things no what
+
+02:17:41.120 --> 02:17:46.080
+happened is like we need all of them in one row right what we need all of them
+
+02:17:46.080 --> 02:17:50.840
+in one row so there is something called span we will I'll introduce this divine
+
+02:17:50.840 --> 02:18:01.800
+span in next class okay don't worry about this much I'm currently so in
+
+02:18:01.800 --> 02:18:06.720
+general what I'm what I'm saying is that by adding a span is on a top level is
+
+02:18:06.720 --> 02:18:10.480
+that I'm I'm telling it a home and a board projects whatever space you need
+
+02:18:10.480 --> 02:18:15.160
+it use that but don't get started on the new line okay now if you see I'm
+
+02:18:15.160 --> 02:18:19.640
+getting started on the same line okay so currently while I'm building a
+
+02:18:19.640 --> 02:18:23.880
+project as of now I'm just focusing on the content part now then I have
+
+02:18:23.880 --> 02:18:28.640
+something my name let's say I go for the if you see on the top level section I
+
+02:18:28.640 --> 02:18:32.480
+have only this thing along with that image I'll go to the next section where
+
+02:18:32.480 --> 02:18:37.720
+I have my name and I'm the full friend full slide developer let's say I go back
+
+02:18:37.720 --> 02:18:49.600
+on our website where we are coding it okay let's say I use h3 I am Sharma
+
+02:18:49.600 --> 02:19:07.560
+then I use let's say h5 I am friend and full stack developer okay so what I did
+
+02:19:07.720 --> 02:19:13.080
+is that if you see I folk went there and I build this content whatever I need so
+
+02:19:13.080 --> 02:19:16.800
+I'm just focusing on what are the content and now I have a description and
+
+02:19:16.800 --> 02:19:29.920
+a download resume okay now let me add this part to you give me a second yes
+
+02:19:29.920 --> 02:19:36.760
+okay now let's say I have a description let's say I for writing a description
+
+02:19:36.760 --> 02:19:42.480
+right I'll introduce head six I say description then under this you can
+
+02:19:42.480 --> 02:19:46.760
+write a whole description about yourself and you can also have a ability to give
+
+02:19:46.760 --> 02:19:56.640
+a button now this is a button okay no let's say I write a paragraph itself be
+
+02:19:56.640 --> 02:20:01.600
+now let's say for the download resume
+
+02:20:02.480 --> 02:20:09.480
+whatever we have introduced okay this is what I've covered about first two parts
+
+02:20:09.480 --> 02:20:14.840
+isn't it like this is something that we have here home about project blog and
+
+02:20:14.840 --> 02:20:20.040
+this thing in our image now for adding an image also what you can do in this
+
+02:20:20.040 --> 02:20:28.480
+part you also have an image so let's say I have an image right SRC can be
+
+02:20:28.480 --> 02:20:41.080
+anything this is all is like let's say profile pic picture for portfolio right
+
+02:20:41.080 --> 02:20:46.360
+you have written all this stuff simple pretty basic I'm just asking you to
+
+02:20:46.360 --> 02:20:50.920
+focus on the content part of it since only what we have learnt not going into
+
+02:20:50.920 --> 02:20:57.880
+further now what happened with HTML 5 is that let's say now I have this thing now
+
+02:20:57.880 --> 02:21:02.560
+the dips are like if I remove this comments right if I remove this comment
+
+02:21:02.560 --> 02:21:06.400
+would you be able to understand the structure how it is there how it has
+
+02:21:06.400 --> 02:21:12.760
+been segregated what is header or about me section or my project footer it would
+
+02:21:12.760 --> 02:21:17.440
+be difficult right it would be difficult like to see hey what this section is
+
+02:21:17.440 --> 02:21:23.460
+about to write it down to write it down and understand in a better way what this
+
+02:21:23.460 --> 02:21:28.740
+people in HTML 5 they have done it is that hey if you are having an header
+
+02:21:28.740 --> 02:21:32.620
+right in order to tell that it's a header you can write down it as a header
+
+02:21:32.620 --> 02:21:39.300
+tag itself they introduced new tags now this tax are self-understanding other
+
+02:21:39.300 --> 02:21:43.540
+than using div everywhere their self-understanding it is helpful to
+
+02:21:43.540 --> 02:21:49.140
+understand it so this is what they say that semantic tags if anyone asked you
+
+02:21:49.140 --> 02:21:54.340
+about semantic tags semantic tags are something where you can by default
+
+02:21:54.340 --> 02:22:13.060
+understand let's say semantic goes by name and it overrides divine span okay
+
+02:22:13.060 --> 02:22:22.220
+replaces okay now since these buttons are nav bar related item so for nav bar
+
+02:22:22.220 --> 02:22:27.540
+you can write down nav buttons let's say I can have nap
+
+02:22:33.780 --> 02:22:38.820
+okay still if I go back and see on the screen it is still same the content got
+
+02:22:38.820 --> 02:22:47.260
+you know on this way but it is still doing that same job for us isn't it do
+
+02:22:47.260 --> 02:22:52.620
+you see do you see this guys HTML is not changing anything it just that naming
+
+02:22:52.620 --> 02:22:56.940
+convention is changing now if you see this section about me now there's
+
+02:22:56.940 --> 02:23:01.380
+another tag called section which is helpful to you know to know that hey
+
+02:23:01.380 --> 02:23:06.380
+this is a section separate section this is a separate section so whenever I use
+
+02:23:06.380 --> 02:23:10.940
+this naming convention right by naming convention even for the button right you
+
+02:23:10.940 --> 02:23:15.480
+don't use paragraph P tag you have button tag which is introduced in HTML
+
+02:23:15.480 --> 02:23:21.940
+file so all the semantic tax right all the semantic tags by default whenever
+
+02:23:21.940 --> 02:23:25.420
+you're using a tag which is understanding by name itself we are
+
+02:23:25.420 --> 02:23:29.540
+setting we're seeing that header this is a footer tag so I'll use a footer tag
+
+02:23:29.540 --> 02:23:36.140
+directly not this something else okay so if you go and understand just let's say
+
+02:23:36.140 --> 02:23:46.900
+that what are the semantic tags definition HTML file is a version yes so
+
+02:23:46.900 --> 02:23:51.180
+if you see semantic tags are the form stable article where a non semantic
+
+02:23:51.180 --> 02:23:56.020
+elements are the defense man tells nothing about it contain but it clearly
+
+02:23:56.020 --> 02:24:02.820
+defines its content like header nab section footer wherever you are using a
+
+02:24:02.820 --> 02:24:07.740
+name right a name for all the divide divisions or the things that you are
+
+02:24:07.740 --> 02:24:11.340
+using by default we are saying that semantic this is one of the interview
+
+02:24:11.340 --> 02:24:16.700
+question also semantic elements are the elements with a meaning hope you'll
+
+02:24:16.700 --> 02:24:20.660
+remember this case right
+
+02:24:22.260 --> 02:24:32.220
+okay so so this is where actually I want to you know end the class for today
+
+02:24:32.220 --> 02:24:38.180
+since we are already on the time and I've started bit on a project section
+
+02:24:38.180 --> 02:24:43.260
+not going into depth because once we learn this maybe we can build step by
+
+02:24:43.260 --> 02:24:48.180
+step okay once I complete tables and forms in next class I'll build whole
+
+02:24:48.180 --> 02:24:55.420
+structure for this one okay we'll build whole the structure for this one then
+
+02:24:55.420 --> 02:25:07.460
+we'll see on the CSS part step by step works guys good so coming back to this
+
+02:25:07.460 --> 02:25:13.980
+one guys like give me a I want five minutes of your time I want your five
+
+02:25:13.980 --> 02:25:19.980
+minutes of time since I landed 230 so one thing one thing I want to tell you
+
+02:25:19.980 --> 02:25:26.980
+guys is that you know I want everyone might have already you know they might
+
+02:25:26.980 --> 02:25:32.540
+have their own goals this year like 2024 you might been targeting good job or you
+
+02:25:32.540 --> 02:25:37.220
+might have taken some resolutions right since this is just a start of an year
+
+02:25:37.220 --> 02:25:45.140
+okay my job is to help you understand a whole full stack curriculum or in the
+
+02:25:45.140 --> 02:25:49.420
+books in the part of curriculum of curriculum anything if I don't think I
+
+02:25:49.420 --> 02:25:53.300
+learn and come back and teach you because it's a vice versa vice versa
+
+02:25:53.300 --> 02:25:58.020
+learning right because that's my job what I do at office if I don't know
+
+02:25:58.020 --> 02:26:01.980
+anything I'll come back learn and teach you back but what I want from you guys
+
+02:26:01.980 --> 02:26:10.340
+is that only three things one of three things is something that attend classes
+
+02:26:12.540 --> 02:26:16.940
+please try to attend classes such that because most of the content will be
+
+02:26:16.940 --> 02:26:22.660
+thought and you can avoid the time where you can go and you know watch the
+
+02:26:22.660 --> 02:26:27.660
+recording but that time can be utilized in a further other things okay second
+
+02:26:27.660 --> 02:26:32.340
+thing is you know complete your assignments
+
+02:26:37.300 --> 02:26:41.740
+reason I'm telling you reason I'm telling you why you want to why you need
+
+02:26:41.740 --> 02:26:47.060
+to complete these assignments is if you do those core problems right and there
+
+02:26:47.060 --> 02:26:51.700
+with you I will be here if you don't have any you have problems with the
+
+02:26:51.700 --> 02:26:56.580
+assignment problems initial five minutes of the class right or the other doubt
+
+02:26:56.580 --> 02:27:01.820
+session will pick those assignment problems will solve them together
+
+02:27:01.820 --> 02:27:06.620
+works is because that will help you to understand what are the interview
+
+02:27:06.620 --> 02:27:12.460
+specific things are there and how we can work on it third thing is what I
+
+02:27:12.460 --> 02:27:18.660
+will do right in the here in the project section in the links right I'll also
+
+02:27:18.660 --> 02:27:23.660
+have the self study links content where you can read a particular website or
+
+02:27:23.660 --> 02:27:33.780
+things related to it okay anything I'll give those links do self study utilize
+
+02:27:33.780 --> 02:27:47.900
+them and read through it just like you know skim through it like whenever you
+
+02:27:47.900 --> 02:27:52.900
+have five ten minutes of time in a day because I'll have a repo I'll share it
+
+02:27:52.900 --> 02:27:57.300
+with you repo and you know whatsapp group in that group also whatsapp group
+
+02:27:57.300 --> 02:28:02.300
+also I'll pin that get up repo you open that get up repo go to the link section
+
+02:28:02.460 --> 02:28:08.180
+you'll open that hyperlink whatever class has completed that you can just go
+
+02:28:08.180 --> 02:28:12.260
+through it understand it it would be really helpful for you it's kind of a
+
+02:28:12.260 --> 02:28:16.660
+revision on a day-to-day wherever you are there five minutes ten minutes not
+
+02:28:16.660 --> 02:28:20.780
+more than that if you don't understand anything next class I'm there again we'll
+
+02:28:20.780 --> 02:28:27.460
+discuss it okay and another thing last thing is
+
+02:28:27.660 --> 02:28:35.300
+contest this thing will it come at last later time but since you have started
+
+02:28:35.300 --> 02:28:39.700
+this year I want you know this five months the five months that are going to
+
+02:28:39.700 --> 02:28:45.860
+spend with me just focus on doing the things that I'm asking you to do you
+
+02:28:45.860 --> 02:28:50.580
+will yourself will see the results at the end of the time okay how confident
+
+02:28:50.580 --> 02:28:57.740
+you will become in terms of web development okay so hang in there just
+
+02:28:57.740 --> 02:29:04.780
+do this and one more thing is that a bonus from me is someone who will be
+
+02:29:04.780 --> 02:29:08.020
+able to do these things right who someone who will be able to do these
+
+02:29:08.020 --> 02:29:15.820
+things till till like you know react part I'll personally you know mentor them
+
+02:29:15.820 --> 02:29:23.340
+and refer them at my team in paper okay for front-end or full stack rules but I
+
+02:29:23.340 --> 02:29:29.820
+want someone to focus on it someone to learn these things okay it is just I'm
+
+02:29:29.820 --> 02:29:37.240
+trying to create an incentive because everyone here is for their job to up
+
+02:29:37.240 --> 02:29:44.260
+skill themselves so hope you do all of these things prepare it come back to me
+
+02:29:44.260 --> 02:29:49.660
+we'll discuss if you have anything drop me directly in whatsapp chat okay so I'll
+
+02:29:49.660 --> 02:29:57.860
+start a doubt session guys okay and I'll create a whatsapp group give me a second
+
+02:29:57.860 --> 02:30:04.700
+so I hope you will be able to do all of these things right whatever I needed from
+
+02:30:04.700 --> 02:30:09.460
+you I've I'll do my commitment job whatever things needed I'll learn I'll
+
+02:30:09.460 --> 02:30:13.300
+come back to you teach you we'll do the revision stuff if you need an extra
+
+02:30:13.300 --> 02:30:17.540
+classes we'll think about it but you please focus on attending classes
+
+02:30:17.540 --> 02:30:21.900
+completing assignments and self-study utilize the links okay I'll keep
+
+02:30:21.900 --> 02:30:26.020
+updating you something related to if you need to go through anything or anything
+
+02:30:26.020 --> 02:30:32.100
+but this five months give your attention I know you might have issues like
+
+02:30:32.100 --> 02:30:37.300
+attitude maybe you want to revise the DSA you want to revise sequel all those
+
+02:30:37.300 --> 02:30:41.220
+things are important but when you go into the job this will matter more but I
+
+02:30:41.220 --> 02:30:45.020
+feel it those will clear interviews this will also help you clear interviews
+
+02:30:45.020 --> 02:30:49.220
+but this is something day-to-day job will revolve around so clearing this
+
+02:30:49.220 --> 02:30:52.740
+basics I didn't I don't mean to say that completely spend time here but
+
+02:30:52.740 --> 02:30:57.340
+clearing this basics will help you really you know be confident about the
+
+02:30:57.340 --> 02:31:07.900
+skill that you are writing down in your resume okay guys so give me a second so
+
+02:31:07.900 --> 02:31:13.900
+I had yeah thank you Munesh you stock time line on the top of the file
+
+02:31:13.900 --> 02:31:19.980
+without it what will happen yes it is coming back to that I'll take this so
+
+02:31:19.980 --> 02:31:24.900
+Suresh has a one question like what will happen if I do or what what this doc
+
+02:31:24.900 --> 02:31:31.860
+type is about talk type HTML so you know if it if you don't write the stock type
+
+02:31:31.860 --> 02:31:36.460
+okay if you don't write this doc type there is something you know engines
+
+02:31:36.460 --> 02:31:41.940
+mother tongues also have a certain way of understanding it okay each browser is
+
+02:31:41.940 --> 02:31:47.300
+a coded in a different languages and different ways doc type is a keyword
+
+02:31:47.300 --> 02:31:53.340
+which is explaining it that hey use this particular type of parser in general
+
+02:31:53.340 --> 02:31:58.180
+okay when we say that this is a document type of HTML it will pass in a
+
+02:31:58.180 --> 02:32:02.780
+particular way but if you don't write it down this thing this use a different
+
+02:32:03.500 --> 02:32:10.540
+okay this uses a different quick small now meta tags I introduce in the next
+
+02:32:10.540 --> 02:32:15.860
+session some bit okay I'll take that in the top first no first question I'll
+
+02:32:15.860 --> 02:32:22.060
+pick it up meta tax okay in general doc type is talking about is like this is a
+
+02:32:22.060 --> 02:32:28.900
+document HTML document type so this is that works okay if I google and show you
+
+02:32:28.940 --> 02:32:40.420
+right doc type okay it's a declaration to web browser that what version of HTML
+
+02:32:40.420 --> 02:32:47.660
+is written okay generally we are using this you know HTML5 version but if
+
+02:32:47.660 --> 02:32:52.540
+you go for something website in a depth right that that is not the right website
+
+02:32:52.740 --> 02:32:59.460
+I will say that you know web.dev if you go to this site right this is somewhere
+
+02:32:59.460 --> 02:33:04.020
+you have to read because I'll paste this links all these links where you can
+
+02:33:04.020 --> 02:33:14.260
+where you need to learn this one this is actually maintained by Google so let's
+
+02:33:14.260 --> 02:33:31.140
+say go for here if you see here and now the doc type so so doc type so it's a
+
+02:33:31.140 --> 02:33:35.220
+special like I'll come to the notes here I didn't introduce what notes or
+
+02:33:35.220 --> 02:33:39.500
+anything generally doc types tell the browser to use a standard mode when it
+
+02:33:39.500 --> 02:33:43.340
+is trying to parse it or understanding if omitted a browsers will use a
+
+02:33:43.340 --> 02:33:48.980
+different rendering mode called quick modes so mentioning it helps its help
+
+02:33:48.980 --> 02:33:58.140
+help it to understand in a better way I hope this answers you Suresh is that
+
+02:33:58.140 --> 02:34:08.860
+fine no reaction did you understand or not yeah it helps understand browser to
+
+02:34:09.460 --> 02:34:14.940
+in which type it need to parse that HTML like if you explore this quick mode
+
+02:34:14.940 --> 02:34:21.980
+right like if it is you know older way how the how it used to convert this
+
+02:34:21.980 --> 02:34:27.860
+HTML like but if you write this doc type in general whenever if you go for the
+
+02:34:27.860 --> 02:34:31.460
+other sites right it says that hey if you add a doc type it will pass in a
+
+02:34:31.460 --> 02:34:38.540
+HTML5 version so it means that only how we want to convert this okay so that
+
+02:34:38.540 --> 02:34:42.540
+can understand pass and render it on the screen so as you define it in short
+
+02:34:42.540 --> 02:34:47.460
+term helps browser to understand better that's exactly what what you are what I
+
+02:34:47.460 --> 02:35:01.140
+was talking about okay cool so give me a second I was creating a group just a
+
+02:35:01.180 --> 02:35:09.780
+second I'll create it on whatsapp mobile images can act as a hyperlink right like
+
+02:35:09.780 --> 02:35:15.420
+LinkedIn get images website show yeah that can also give me a second I'll come
+
+02:35:15.420 --> 02:35:21.340
+to that before that I'll create a whatsapp group before all people leave
+
+02:35:31.140 --> 02:35:34.180
+you
+
+02:36:01.140 --> 02:36:14.020
+no give me a second I'll share this link and target here
+
+02:36:14.020 --> 02:36:35.460
+guys this is the whatsapp link you can join using this give it to everyone who
+
+02:36:35.460 --> 02:36:41.420
+drop the call such that you know everyone can join images can act as a
+
+02:36:41.420 --> 02:36:47.540
+hyperlink right like LinkedIn get websites you show how does it work okay
+
+02:36:47.540 --> 02:37:03.900
+so now let's go to this like I'll go to LinkedIn itself let me this is my I
+
+02:37:03.900 --> 02:37:11.340
+don't have my ID here give me a second I have to use another browser instance
+
+02:37:11.340 --> 02:37:34.940
+let's say I click on any link right now this link is being converted now let's
+
+02:37:34.940 --> 02:37:40.260
+say I go what how can you explore more is something let's say you go here and
+
+02:37:40.420 --> 02:37:46.660
+you click on a hyperlink this element element selector you click here now if
+
+02:37:46.660 --> 02:37:52.740
+you see anything right if you see in image tag they added a source element
+
+02:37:52.740 --> 02:38:03.780
+shunt for yourself itself if you can see on a screen share there is a source
+
+02:38:03.780 --> 02:38:07.820
+element added now the source element is where it is navigating to if I click
+
+02:38:07.820 --> 02:38:12.860
+here that is where it is redirecting me to okay each image we can you can have a
+
+02:38:12.860 --> 02:38:21.900
+source to it yet like even if I go back on my let's say I don't want to do this
+
+02:38:21.900 --> 02:38:35.780
+but let's do this this is a source tag right image let's let's make it not the
+
+02:38:36.300 --> 02:38:42.980
+give me a second href it should be href itself I'll check that and I'll get back
+
+02:38:42.980 --> 02:38:55.060
+to you but there should be a redirection link for sure okay no no no no give me a
+
+02:38:55.060 --> 02:38:57.100
+second
+
+02:39:05.220 --> 02:39:08.460
+I didn't load it
+
+02:39:08.460 --> 02:39:36.900
+I think my server got slow so anyways I'll show you this browser is not
+
+02:39:36.900 --> 02:39:51.060
+responding is it okay let's say you go and add a href to this one I'll copy
+
+02:39:51.060 --> 02:39:58.020
+this href okay
+
+02:39:58.020 --> 02:40:10.500
+nothing is happening here but I'll check that and come back to you some with
+
+02:40:10.500 --> 02:40:17.500
+alt is not mandatory but it is suggested that you have to add it okay alt is not
+
+02:40:17.500 --> 02:40:24.540
+mandatory but it it is needed like if you see what happens with this right
+
+02:40:24.540 --> 02:40:31.780
+there are like only for the text no no how does it work so from web development
+
+02:40:31.780 --> 02:40:37.300
+point of view right only it's it's not only that you know that websites will be
+
+02:40:37.300 --> 02:40:40.860
+used by the only people who can see it there are other people who cannot see
+
+02:40:40.860 --> 02:40:45.740
+this I know screen right they use screen readers sometimes you know your mobile
+
+02:40:45.740 --> 02:40:51.380
+start reading the screen accessibility right yeah so for accessibility for the
+
+02:40:51.380 --> 02:40:55.260
+impaired people who cannot see the screen they run that website on a screen
+
+02:40:55.260 --> 02:40:59.060
+or you know reader screen readers mode so when they're reading through the
+
+02:40:59.060 --> 02:41:03.500
+screen screen if you don't define what your image is talking about they won't
+
+02:41:03.500 --> 02:41:07.540
+be able to get the context of it so it's needed that you write down the alt for
+
+02:41:07.540 --> 02:41:21.300
+that content okay great okay then okay then I think guys that's it for
+
+02:41:21.300 --> 02:41:28.620
+today I hope I hope you had fun it's a just a beginning a session and we'll
+
+02:41:28.620 --> 02:41:34.420
+learn a lot okay Suresh says that I'm familiar with Java how it will be
+
+02:41:34.420 --> 02:41:41.180
+helpful for stack journey Suresh I'm the person who started with Java Java is
+
+02:41:41.180 --> 02:41:45.000
+really wonderful language where you have object-oriented programming and big
+
+02:41:45.000 --> 02:41:49.180
+things big things saying we're done but it's just a focusing on server side if
+
+02:41:49.220 --> 02:41:55.580
+you go back right if you go back five ten years before there was no there was
+
+02:41:55.580 --> 02:41:59.620
+nothing like you know full stack rule there was nothing like JavaScript being
+
+02:41:59.620 --> 02:42:05.500
+used it was only a Java stack where you have EJP based applications so you had
+
+02:42:05.500 --> 02:42:10.700
+a timely based applications right where you also write HTML in Java application
+
+02:42:10.700 --> 02:42:20.700
+itself if you know that right where Java was throwing for HTML screens itself to
+
+02:42:20.700 --> 02:42:26.600
+the browser okay Java itself was acting as a full stack application sometime
+
+02:42:26.600 --> 02:42:30.740
+back but later on what it did is like Java told it hey I'm good with the
+
+02:42:30.740 --> 02:42:36.740
+backend system I'll build that API's that whatever interfaces role it need to
+
+02:42:36.780 --> 02:42:41.940
+been taken care that will be done by the front end system Java is really great
+
+02:42:41.940 --> 02:42:46.340
+backend knowledge back backend language I would say which had a really lot of
+
+02:42:46.340 --> 02:42:50.980
+lot of amount of openings which has a lot of scope but learning full stack
+
+02:42:50.980 --> 02:42:58.860
+this JavaScript based stack right will add a more of you know flags to you
+
+02:42:59.860 --> 02:43:06.820
+work Suresh do you get that so it will be really helpful but if you go back
+
+02:43:06.820 --> 02:43:10.860
+right time leaf like if I show you
+
+02:43:13.180 --> 02:43:22.860
+like if you go with the time leaf right what it does it is used to resolve you
+
+02:43:22.860 --> 02:43:31.380
+know screen HTML screens right as far as I remember yeah if you see you are
+
+02:43:31.380 --> 02:43:38.060
+writing form and table inside Java right so we are you are actually throwing
+
+02:43:38.060 --> 02:43:43.180
+HTML screens from Java itself so Java is to do all this works but later on they
+
+02:43:43.180 --> 02:43:47.460
+say that I'll focus on one thing so there are many solutions that were added
+
+02:43:48.300 --> 02:43:53.820
+time but as the screens got complicated right as more interactivity came more
+
+02:43:53.820 --> 02:43:58.220
+of things him came so Java was this timely framework was an accurate right
+
+02:43:58.220 --> 02:44:05.020
+solution to do it then they went on to build this react and angular or simple
+
+02:44:05.020 --> 02:44:12.860
+you know Ajax calls all those things we'll see step by step one by one okay
+
+02:44:12.900 --> 02:44:25.660
+you'll get that so rich thank you some bit thank you Suresh did I miss any
+
+02:44:25.660 --> 02:44:32.780
+doubt hopefully everyone enjoyed today's class guys it was really great class
+
+02:44:32.780 --> 02:44:35.140
+okay
+
+02:44:37.420 --> 02:44:43.820
+yeah okay always able to want to help you guys because that's how you will be
+
+02:44:43.820 --> 02:44:50.060
+learning right that's what you are here for thank you shake after angular came
+
+02:44:50.060 --> 02:44:54.420
+react that's a different story on and do I will tell you actually they both are
+
+02:44:54.420 --> 02:45:02.220
+solving different problems I if I since it's a doubt session if I just want to
+
+02:45:02.220 --> 02:45:09.140
+say it in a word right react solved only small problem react solved one of the
+
+02:45:09.140 --> 02:45:18.220
+core problem is when I say that HTML is not a programming language right do you
+
+02:45:18.220 --> 02:45:26.340
+agree with that Anandu HTML is not a programming language then they wanted
+
+02:45:26.340 --> 02:45:36.260
+like what if I want to create if you go for a site like flipkart right if you go
+
+02:45:36.260 --> 02:45:40.940
+for a site like flipkart if you see all the stacks right four five tags like one
+
+02:45:40.940 --> 02:45:47.620
+two three or six sex they both all have same things same size same things only
+
+02:45:47.620 --> 02:45:52.780
+the image and the data is changing right do you agree only three items are
+
+02:45:52.780 --> 02:45:59.500
+changing shop now from top-selling pendels or the image right now imagine if
+
+02:45:59.500 --> 02:46:05.020
+we had a for loop if we had a for loop and we if we can just pass on the three
+
+02:46:05.020 --> 02:46:10.620
+information and build boxes for me it would be easier right
+
+02:46:12.460 --> 02:46:19.180
+so what react react told is that hey why can't we write something which will make
+
+02:46:19.180 --> 02:46:27.420
+HTML dynamic and easier to build user interfaces so react was solving a
+
+02:46:27.420 --> 02:46:33.580
+problem which can automate the HTML part along with the coding language so but in
+
+02:46:33.580 --> 02:46:39.060
+the end right in the end browser is always served HTML only so they return
+
+02:46:39.060 --> 02:46:43.940
+some yeah code replication becomes less so in a way when you are writing a
+
+02:46:43.940 --> 02:46:51.220
+react you are writing a logic more than a HTML and CSS okay I'll tell them in
+
+02:46:51.220 --> 02:46:55.300
+depth when we started I'll explain the problem statements and everything but
+
+02:46:55.300 --> 02:47:00.020
+you'll get to know about react and angular let's wait for that time guys
+
+02:47:00.020 --> 02:47:05.860
+okay let's build that intuition by then let's be comfortable with all the you
+
+02:47:05.860 --> 02:47:10.100
+know jargons that we have before that Dom know what is a dom tree how that
+
+02:47:10.260 --> 02:47:15.060
+happened how react has solved the problem like if I'm using a coding
+
+02:47:15.700 --> 02:47:20.820
+language since HTML is something browser depends on to render a screen why you
+
+02:47:20.820 --> 02:47:25.220
+want to write a logic and why you want to convert it how we are enhancing a
+
+02:47:25.220 --> 02:47:30.260
+speed so there are too many things we'll come to them step by step okay
+
+02:47:32.580 --> 02:47:36.420
+but till now I would ask you to just focus on the something that we are learning
+
+02:47:36.980 --> 02:47:40.420
+will build one after the other that works
+
+02:47:47.780 --> 02:47:53.780
+okay cool so anything else guys before we end the session I'll I'll what I'll do is
+
+02:47:53.780 --> 02:47:58.340
+like I'll create a GitHub repo I'll share it with you guys okay
+
+02:47:59.140 --> 02:48:03.220
+I'll wait for another one two minutes if no doubts I'll close the session for
+
+02:48:03.220 --> 02:48:08.820
+today guys so thank you for attending today's session hope you saw the
+
+02:48:08.820 --> 02:48:14.820
+assignments and we meet on you know next class Thursday and there's a few
+
+02:48:14.820 --> 02:48:19.540
+more things to explore in the HTML part then we'll get started with the CSS
+
+02:48:19.540 --> 02:48:26.820
+okay let's get started with the CSS okay let's get started with the CSS okay
+
+02:48:27.780 --> 02:48:30.660
+there are too many interesting things we'll learn in the next class where
+
+02:48:30.660 --> 02:48:37.060
+we'll also complete a portfolio project up to an extent thank you Muneshwara
+
+02:48:38.580 --> 02:48:41.300
+good night take care
+
+02:48:41.300 --> 02:48:43.780
+care
+
+02:48:48.260 --> 02:48:56.900
+okay examine some with when I told about this client and server right
+
+02:48:56.900 --> 02:49:01.220
+we talked about how connection is established what mode of connection is
+
+02:49:01.220 --> 02:49:06.500
+there but if if if waiter is bringing a food
+
+02:49:06.500 --> 02:49:10.900
+he would bring in some utensils and some plate right
+
+02:49:11.140 --> 02:49:17.220
+do you agree from kitchen when you order a item he'll bring in some plate and
+
+02:49:17.220 --> 02:49:21.220
+food right now what would be the right sort of
+
+02:49:21.220 --> 02:49:24.900
+utensil to bring data from backend to the client
+
+02:49:24.900 --> 02:49:30.900
+from server to the client is in two ways xml is a older way how it used to be
+
+02:49:30.900 --> 02:49:36.180
+done but json is something a new way of doing
+
+02:49:36.180 --> 02:49:41.300
+that same thing these are the two formats
+
+02:49:41.300 --> 02:49:44.580
+where which were used for the mode of communication
+
+02:49:44.580 --> 02:49:47.060
+when we when there is a mode of communication between the two systems
+
+02:49:47.060 --> 02:49:51.700
+how data should be transferred so earlier we used to use xml now we
+
+02:49:51.700 --> 02:49:56.100
+are using json and but xml used in different ways to
+
+02:49:56.100 --> 02:49:59.140
+write configuration like in many languages like java if you
+
+02:49:59.140 --> 02:50:03.700
+go for any applications right like spring
+
+02:50:03.700 --> 02:50:08.180
+application they used to write xml coding to xml
+
+02:50:08.180 --> 02:50:12.820
+this configuration to explain like what what all things they are using it
+
+02:50:12.820 --> 02:50:15.780
+but from our learning perspective we'll never see that
+
+02:50:15.780 --> 02:50:19.300
+from our learning perspective what we'll see is that more of a
+
+02:50:19.300 --> 02:50:22.740
+json data that is being transferred from backend to the client
+
+02:50:22.740 --> 02:50:30.020
+instead of json you can also use xml data is that clear because from client
+
+02:50:30.020 --> 02:50:35.060
+side we can consume both json and xml data
+
+02:50:36.900 --> 02:50:42.420
+okay so like if you can go to the browser also
+
+02:50:42.980 --> 02:50:48.420
+xml versus json you can search this okay
+
+02:50:49.460 --> 02:50:54.260
+you can find it like how these are used this is aws
+
+02:50:54.260 --> 02:50:58.340
+related you know questionnaire
+
+02:50:59.060 --> 02:51:03.780
+so it's about like when to use which one how data is transferred over it you can
+
+02:51:03.780 --> 02:51:06.500
+read about this like you have any doubts while reading
+
+02:51:06.500 --> 02:51:09.700
+about this you can come back with and discuss you can paste it in group also
+
+02:51:09.700 --> 02:51:13.700
+what's a group i'll i'll i'll try to answer there also
+
+02:51:13.700 --> 02:51:16.100
+okay
+
+02:51:18.740 --> 02:51:21.780
+so otherwise then
+
+02:51:23.700 --> 02:51:26.420
+thank you shan
+
+02:51:27.060 --> 02:51:29.860
+thank you sam
+
+02:51:32.580 --> 02:51:36.260
+so good night guys then i'll stop the screen share
+
+02:51:36.260 --> 02:51:41.140
+meet you in the next class have a great night
+
+02:51:41.140 --> 02:51:43.700
+take care
+
+02:51:46.820 --> 02:51:50.340
+good night shade good night somewhere
+
+02:51:50.340 --> 02:51:52.340
+okay
+
+02:51:52.980 --> 02:52:00.260
+i'll have a 10 count 10 second counter and then i close the class
+
+02:52:20.340 --> 02:52:22.660
+you
+
+02:52:50.340 --> 02:52:52.660
+you
+

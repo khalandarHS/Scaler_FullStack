@@ -1,0 +1,2792 @@
+WEBVTT
+
+00:00.000 --> 00:29.640
+hi all good evening hello all guys am I audible and visible hi Kabir thank you
+
+00:29.640 --> 00:38.480
+nice let me share my screen
+
+00:38.480 --> 00:44.680
+please let me know if you can see my screen share also
+
+00:44.680 --> 01:01.360
+so we are going to end our classes on JavaScript next week isn't it next week
+
+01:01.360 --> 01:09.640
+let me see how many classes are left yeah I think four classes are left on
+
+01:09.640 --> 01:17.520
+JS part so one thing call out is that you know post JS there will be a
+
+01:17.520 --> 01:25.360
+contest and also mock interviews case so I hope you guys are preparing for the
+
+01:25.360 --> 01:30.640
+contest firstly contest like revise all the topics revise all the things that we
+
+01:30.640 --> 01:36.520
+have discussed over the time okay if there is any challenge during any
+
+01:37.040 --> 01:42.680
+of time whatever we have discussed I've been always available whoever ping me I
+
+01:42.680 --> 01:48.920
+try to respond them personally anyway with any way of communication and even
+
+01:48.920 --> 01:52.600
+in case you feel anything there's something left behind to discuss or
+
+01:52.600 --> 01:57.780
+teach or you know topic that is being discussed please bring it up so that we
+
+01:57.780 --> 02:10.220
+can you know discuss on that topics other than anything in curriculum okay
+
+02:10.220 --> 02:17.940
+Kabir so are you talking about asynchronous JavaScript things we have
+
+02:17.940 --> 02:26.900
+discussed on promises and okay so this thing related to promises async await
+
+02:26.900 --> 02:33.900
+keep keep the oops part aside but other than those two classes call blind bind
+
+02:33.900 --> 02:40.020
+apply and we have seen examples related to call bind apply and then we have
+
+02:40.020 --> 02:43.140
+discussed asynchronous JS like those are concepts right in order to introduce
+
+02:43.340 --> 02:48.980
+concepts we have discussed with those examples I've also shown you one of the
+
+02:48.980 --> 02:55.700
+API read JSON builder where you can actually you know communicate with a
+
+02:55.700 --> 03:01.620
+real-time API and how you do it so those concepts are actually not theoretical
+
+03:01.620 --> 03:06.660
+but those concepts are really important like from interview perspective to know
+
+03:06.660 --> 03:10.860
+or answer like if someone asks you what is asynchronous JS how does it execute
+
+03:10.860 --> 03:17.860
+how does things handle what is your promise or promised at all settled race
+
+03:17.860 --> 03:21.820
+conditions you should be knowing all of this stuff because in a way around when
+
+03:21.820 --> 03:25.460
+you actually do good do and you know build a project you are going to come
+
+03:25.460 --> 03:31.260
+across this topics very frequently very very frequently if you remember one of
+
+03:31.260 --> 03:35.860
+the project we build a very small project called weather app in that you
+
+03:35.860 --> 03:40.140
+are actually making an API call to weather API which was giving you a data
+
+03:40.140 --> 03:44.740
+depending upon users input right so you should be knowing it how we are
+
+03:44.740 --> 03:49.100
+actually handled handled it like if you go back into the code now we will be
+
+03:49.100 --> 03:53.220
+able to relate more why async await was added and what is actually happening
+
+03:53.220 --> 04:03.380
+behind the scenes right so it's more of with practice it will come we'll see
+
+04:03.380 --> 04:09.620
+usage of them more and more but you know since those were topics introduction
+
+04:10.100 --> 04:17.340
+that's how it can be thought that's one that's my idea but for more practical
+
+04:17.340 --> 04:21.820
+use cases right when you actually consume more amount of APIs when you
+
+04:21.820 --> 04:25.460
+actually build projects then you will be seeing that part of asynchronous
+
+04:25.820 --> 04:41.540
+okay so if there are any other concerns or any other doubts right related to
+
+04:41.540 --> 04:46.420
+anything topics that we have discussed on the day one of our classes for this
+
+04:46.420 --> 04:51.420
+full stack if you have anything please raise it raise them like we'll have a
+
+04:51.420 --> 05:08.420
+discussion on that part okay let me start stop watch so majority of things
+
+05:08.420 --> 05:13.100
+could be like if you see like all the things that you see in the network tab
+
+05:13.100 --> 05:16.340
+right whatever calls are being made in the network all these things are ready
+
+05:16.340 --> 05:20.460
+to promise itself like how do you consume even the style sheets there
+
+05:20.500 --> 05:24.860
+might be a API call which is actually putting the data that will be an also
+
+05:24.860 --> 05:32.380
+need like you know promise rough-handed you go to any built-in application you
+
+05:32.380 --> 05:40.540
+will see n number of API calls are being done let's say if I reload this page so
+
+05:40.540 --> 05:44.900
+let's say if you see these two calls are done how would you consume their data so
+
+05:44.900 --> 05:48.460
+in order to understand all of them you have to know what's a behind the scenes
+
+05:48.460 --> 05:53.700
+things are happening so we'll come to them each one by one step when you
+
+05:53.700 --> 05:58.140
+actually how you build an API or how do you consume more amount of APIs are
+
+05:58.140 --> 06:02.260
+doing with a post put update calls all of them you'll see great amount of
+
+06:02.260 --> 06:08.980
+examples post react but currently we are introducing a good topics at our length
+
+06:08.980 --> 06:14.860
+right if I overburden you guys with more more amount of more things then it would
+
+06:14.900 --> 06:18.540
+be really difficult to get the understanding about the topics that we
+
+06:18.540 --> 06:29.980
+are discussing so anyone else having any other doubts guys anyone else having
+
+06:29.980 --> 06:39.940
+any other doubts does anyone else feels same as Kabir that the topics that we
+
+06:39.940 --> 06:46.300
+have recently discussed are more like you know or theoretical but connecting
+
+06:46.300 --> 06:50.500
+them with the real-time will take more time for you guys
+
+06:50.500 --> 07:13.660
+I see one thumbs up okay let's bring in chat guys like whatsapp but just let me
+
+07:13.660 --> 07:19.300
+know whether are you able to follow up with whole asynchronous JS have you got
+
+07:19.300 --> 07:26.060
+the understanding about asynchronous JS right
+
+07:26.060 --> 07:51.940
+okay yeah so that things will come guys like with practice like as some bit
+
+07:51.940 --> 07:57.700
+says you if you see building projects is an actual use case where you will be
+
+07:57.700 --> 08:02.700
+seeing it as we build few more projects you'll be seeing them but few things
+
+08:02.700 --> 08:06.340
+comes from our point of view is that actually teaching you the basics of it
+
+08:06.340 --> 08:12.860
+then building things up on that one right so but any any other doubts like
+
+08:12.860 --> 08:16.660
+if you have any other concerns from the topics we have discussed in case if you
+
+08:16.660 --> 08:27.220
+didn't understand any of the use case do let me know okay because asynchronous
+
+08:27.220 --> 08:31.580
+JS is one of the interviewers kind of favorite topic when they want to really
+
+08:31.580 --> 08:36.900
+understand things right how you would you make a series calls now when I say
+
+08:36.900 --> 08:42.500
+that we are all we have discussed in terms of like calls right making series
+
+08:43.500 --> 08:52.100
+consuming data from third source party like it can be file or simple array or
+
+08:52.100 --> 08:59.260
+object or any data source so these are the most common use cases where you're
+
+08:59.260 --> 09:04.340
+going to deal with them at real time how would you consume all of them and how
+
+09:04.340 --> 09:08.540
+would you use use easy use case like this will come with more amount of
+
+09:08.540 --> 09:17.460
+experience like when to make what sort of calls and all those things still I
+
+09:17.460 --> 09:26.780
+see okay but any other things guys if you want to flag if you have any
+
+09:26.780 --> 09:33.060
+challenges but I want to talk about one thing is that again our disclaimer we
+
+09:33.060 --> 09:42.100
+have four classes left in order to complete HTML CSS and JS part this will
+
+09:42.100 --> 09:48.140
+cover all core fundamentals and basics of your web development once these are
+
+09:48.140 --> 09:55.780
+done we'll be moving with the react react JS to be specific make sure that
+
+09:55.780 --> 10:04.860
+you are pretty much clear with each of topic so that we leverage this in a
+
+10:04.860 --> 10:09.900
+better way so that we can understand this thing in a better way I hope this
+
+10:09.900 --> 10:14.780
+point is clear guys so that if you are clear with this each of one you will be
+
+10:14.780 --> 10:19.740
+able to understand this one in a better way if you are lacking somewhere then it
+
+10:19.740 --> 10:24.460
+would be a tricky for you also like why even if I explain multiple times there
+
+10:24.500 --> 10:27.780
+might be a few things that you should be knowing basics of them and these are the
+
+10:27.780 --> 10:32.700
+basics that we have covered hope you revise everything and there will be a
+
+10:32.700 --> 10:38.740
+context coming after this for class so be prepared with them so that you you
+
+10:38.740 --> 10:43.060
+know test your knowledge right so be prepared with that part and try to
+
+10:43.060 --> 10:55.060
+attempt it okay will it be theoretical I'm not exactly sure something let's
+
+10:55.060 --> 11:08.180
+let's not keep it that way let's go and try it out okay it will be 50-50 you can
+
+11:08.180 --> 11:15.780
+say okay there might be some questions asked there might be things on a
+
+11:15.780 --> 11:22.980
+synchronous chairs okay but as I've seen that most of the people who were
+
+11:22.980 --> 11:27.900
+actually attending classes and you know trying to attend the mock sorry contest
+
+11:27.900 --> 11:32.580
+they are doing better and they're also raising flags on questions like how
+
+11:32.580 --> 11:38.260
+there can be multiple answers or the P1 answer is wrong I appreciate your
+
+11:38.260 --> 11:42.660
+efforts and going into you know understanding each of them one by one
+
+11:42.660 --> 11:47.540
+but if there is someone who haven't taken earlier marks right I would request
+
+11:47.540 --> 11:55.660
+everyone of you go and take you know in the practice mode open the can we pick
+
+11:55.660 --> 12:00.380
+it up once we get started with that topic actually because that would be
+
+12:00.500 --> 12:11.260
+better way to explain things on that okay great just a second guys I just
+
+12:11.260 --> 12:16.260
+want to see how we are doing in terms of batch
+
+12:16.260 --> 12:33.540
+anyways so this can we get started with today's content great so let's not wait
+
+12:33.540 --> 12:38.980
+anymore and we'll get started with this class I think good enough people are
+
+12:38.980 --> 12:45.500
+there that's 12 minutes up now so today's class and the class is mostly
+
+12:45.500 --> 12:52.340
+based on some topic called polyphils okay but now I have raised this word
+
+12:52.340 --> 12:56.340
+earlier also but do you know what this polyfill is what why we call it as a
+
+12:56.340 --> 13:02.220
+something called as a polyfill does anyone know this keyword I see one
+
+13:02.220 --> 13:10.660
+thumbs up can you two people can you guys type it down personally to me what
+
+13:10.660 --> 13:19.060
+you understand by a polyfill guys Muneshwar Opendra what's your understanding
+
+13:19.060 --> 13:33.660
+related to it what is an polyfill okay nice Muneshwar are you typing it down
+
+13:33.660 --> 13:45.340
+okay great so there are two definitions that I got it both are actually trying
+
+13:45.340 --> 13:50.220
+to explain what polyfill is but let's see let's understand going back to
+
+13:50.220 --> 13:58.420
+JavaScript right where does this HTML JS and CSS are actually passed into and
+
+13:58.420 --> 14:03.500
+where this are working on which is the machine is actually executing them
+
+14:03.500 --> 14:10.740
+guys I think everyone knows this answer just want to know like where do you
+
+14:10.740 --> 14:18.980
+where you use actually this HTML CSS and where this is actually executed or
+
+14:18.980 --> 14:25.860
+past like where do you open a website what is a tool you use to open a
+
+14:25.860 --> 14:33.140
+website browser right now all these things are done in a browser now if you
+
+14:33.140 --> 14:40.060
+remember browser is providing us some API's right like API's when I say
+
+14:40.060 --> 14:46.460
+inside a window you will see that there is something like document there is
+
+14:46.460 --> 14:54.780
+something like location there are storages most of the things are being
+
+14:54.780 --> 15:04.300
+provided by a browser right guys do you agree that browser is actually providing
+
+15:04.300 --> 15:10.460
+us this list of API's to in order to build or develop now even if I type down
+
+15:10.460 --> 15:15.020
+like array at heart if you see remember in our inspect console tab I used to
+
+15:15.020 --> 15:21.260
+type it down array.prototype right all of those things I used to type it down
+
+15:21.300 --> 15:27.300
+and this array is also defined where if I write down directly in a browser I'm
+
+15:27.300 --> 15:32.260
+able to access array right I'm able to write down console directly logics how
+
+15:32.260 --> 15:35.220
+this is able to work
+
+15:39.700 --> 15:47.180
+this is because whenever you install browser right all JS code is already
+
+15:47.180 --> 15:51.860
+present in that array array related information is there object related
+
+15:51.860 --> 15:55.860
+information is there function function related information is there do you guys
+
+15:55.860 --> 16:00.580
+agree with that part guys that everything is present in the browser
+
+16:00.580 --> 16:05.740
+be pre-packed like if you want to see let's say this is an browser where we
+
+16:05.740 --> 16:11.660
+haven't written any code but if I go into console like I can type down array
+
+16:11.700 --> 16:18.980
+see I'm having this number of arrays I can type down object if you see I'm
+
+16:18.980 --> 16:22.460
+getting this amount of things this all things are actually coming along with
+
+16:22.460 --> 16:29.180
+the browser itself now who is actually building the browser am I are we
+
+16:29.180 --> 16:35.020
+responsible or any companies are responsible or is there any common body
+
+16:35.020 --> 16:43.220
+or everyone have their own set of specifications who is actually owning
+
+16:43.220 --> 16:54.740
+or managing the browsers guys who is actually managing the browsers
+
+16:55.340 --> 17:06.220
+companies like let's say who is who is the owner of Chrome Google everyone
+
+17:06.220 --> 17:22.220
+knows that then if I write Bing who is the owner of Bing Microsoft and then
+
+17:22.220 --> 17:24.740
+Safari
+
+17:31.660 --> 17:46.980
+Apple so even there is one more thing Firefox just Mozilla corporation now are
+
+17:46.980 --> 17:50.700
+the developers of this four companies sitting together and building this apps
+
+17:50.700 --> 17:54.300
+or their each individual team is actually building as per their own
+
+17:54.300 --> 17:59.980
+requirement each everyone is building as per their own use case right whatever
+
+17:59.980 --> 18:04.820
+they want to add that's where that's where this different browsers are like
+
+18:04.820 --> 18:08.780
+we might prefer Chrome better than any other or Bing is preferred better than
+
+18:08.780 --> 18:13.580
+Firefox Safari now the developers specifically prefer Chrome there's a
+
+18:13.580 --> 18:18.060
+reason for that because we were able to debug in a better way we are able to see
+
+18:18.060 --> 18:22.380
+the code write down the things isn't it that's where Chrome is actually better
+
+18:22.380 --> 18:28.980
+application now even if you go these are the latest browsers but do you remember
+
+18:28.980 --> 18:42.620
+something like Internet Explorer Netscape old browsers these are old
+
+18:42.620 --> 18:47.660
+browsers now let's say this is actually managed by Microsoft itself isn't it
+
+18:47.660 --> 18:55.220
+now Microsoft in between left this project and they started this one right
+
+18:55.220 --> 19:01.820
+Bing from scratch again to compete with the world the left Internet Explorer
+
+19:01.820 --> 19:06.940
+they stopped releasing new versions and this they built this one but if you see
+
+19:06.940 --> 19:15.380
+what happened our HTML CSS JS code all is passed into this set of machines and
+
+19:15.380 --> 19:20.340
+this set of machines are not same each company is building own machine and we
+
+19:20.340 --> 19:26.180
+don't know where things will be working right now so what poly fields are let's
+
+19:26.180 --> 19:31.380
+say there are some latest versions let's say there are some functions let's say
+
+19:31.380 --> 19:35.620
+there is some like let's say you say that some methods newly introduced
+
+19:35.620 --> 19:42.020
+mothers let's say promised at all okay we need to see whether this particular
+
+19:42.020 --> 19:47.180
+method is actually supported in all of them we are not sure right we don't know
+
+19:47.180 --> 19:52.500
+whether all these things are supporting that one we know that this promised at
+
+19:52.500 --> 19:56.740
+all is coming from browser we have checked in the chrome but our website is
+
+19:56.740 --> 20:00.220
+not specifically supposed to run in chrome is it supposed to run in all the
+
+20:00.220 --> 20:07.780
+applications right wherever user opens do you guys agree with that point we
+
+20:07.780 --> 20:13.020
+have to build application cross-functional sent it now there is a
+
+20:13.020 --> 20:26.020
+one website do you guys know this can I use this actually websites gives you
+
+20:26.020 --> 20:31.860
+information about actually which feature is available in which browser like it
+
+20:31.860 --> 20:37.580
+shows a browser compatibility let's say if I tried on promised at all and enter
+
+20:37.580 --> 20:42.260
+it what it gives me it gives me the different browsers like chrome it's
+
+20:42.260 --> 20:48.100
+Safari Firefox Opera right now they'll give you actually let's say promised at
+
+20:48.100 --> 20:51.380
+all JavaScript built-in or promised our
+
+20:51.380 --> 20:55.540
+prototype but finally all these methods where they are available if you see in
+
+20:55.540 --> 21:02.500
+the Internet Explorer is not supported anymore okay this this actually website
+
+21:02.500 --> 21:07.460
+gives you information about like which is actually supporting right now in
+
+21:07.460 --> 21:15.140
+case in case let's say if you see opera mini right opera mini that doesn't have
+
+21:15.140 --> 21:19.460
+any information here we don't know if they are supporting it like promised at
+
+21:19.460 --> 21:26.100
+all sector or UC browser do you remember UC browser Chinese browser which used to
+
+21:26.100 --> 21:32.580
+come in mobile right by the browser so there are many things there are
+
+21:32.580 --> 21:36.900
+different machines built by different teams so we don't know whether it is
+
+21:36.900 --> 21:40.580
+actually supported if you see our promised at all sector is actually
+
+21:40.580 --> 21:45.180
+supported for the ninety five percent and promised at all is supported ninety
+
+21:45.180 --> 21:49.900
+six percent but there are some use cases which are not actually supported now but
+
+21:49.900 --> 21:57.020
+how do you deal with them like what if let's say if you see a banks right banks
+
+21:57.020 --> 22:08.540
+even in most of the let's five years back banks used to prefer I browser do
+
+22:08.540 --> 22:14.300
+you know this they used to prefer only Internet Explorer mostly five years back
+
+22:14.300 --> 22:20.700
+they actually used to write now a person like a web developer like us was
+
+22:20.700 --> 22:25.700
+actually building for a crow and this people Microsoft people are not you know
+
+22:25.700 --> 22:30.020
+building this one but whatever we are supporting chrome we are supposed to
+
+22:30.020 --> 22:35.380
+support in this IE then what we used to do right if there is a some API or some
+
+22:35.380 --> 22:39.420
+method like let's say this is a promised at all is available in chrome not
+
+22:39.420 --> 22:46.820
+available in IE then we used to write a custom function like a promise start my
+
+22:46.820 --> 22:53.500
+all which used to actually take care of replicating the behavior what actually
+
+22:53.620 --> 22:58.340
+doing so that we ourselves are building this common API's and so that it is
+
+22:58.340 --> 23:03.980
+supported in cross browsers and this custom function whatever you have
+
+23:03.980 --> 23:08.260
+written which is replicating actual behavior in order to support all the
+
+23:08.260 --> 23:12.580
+application this is called a polyfill polyfills for the non supportive
+
+23:12.580 --> 23:19.300
+browsers or non you know which doesn't have that feature is this point here
+
+23:19.300 --> 23:29.340
+is what is polyfill now so this is actually five years before five years
+
+23:29.340 --> 23:39.460
+this was actually one of the interviews focused questions because they used to
+
+23:39.460 --> 23:44.700
+ask them specifically because web once you develop in one browser it should be
+
+23:44.700 --> 23:48.900
+supporting in other browsers so how would you make it compatible so if you
+
+23:48.940 --> 23:53.620
+are this is a production bug right so no one wants like one working in one web
+
+23:53.620 --> 23:58.340
+not working in other web so you they they used to specifically see whether a
+
+23:58.340 --> 24:03.840
+developer is able to write the code but today's world mostly all the browsers
+
+24:03.840 --> 24:09.180
+are well maintained and they're doing it well the teams are doing well to keep it
+
+24:09.180 --> 24:13.700
+up with you keep it up with in sync with ECMA script but what happened is like
+
+24:13.700 --> 24:18.340
+because this was asked in earlier interviews they're still asking right
+
+24:18.340 --> 24:30.500
+writing up polyfills write a polyfill for let's say some for some dash any
+
+24:30.500 --> 24:33.980
+function whichever you have it in JavaScript they asked you to write your
+
+24:33.980 --> 24:42.700
+own library method is this clear guys what polyfill is and why we have to
+
+24:42.700 --> 24:49.980
+learn it and why the interviewers used to ask and okay so now we have two
+
+24:49.980 --> 24:55.140
+classes on polyfills first okay these are interview specific so one in class
+
+24:55.140 --> 24:59.940
+we will discuss about discuss about HOF in other class we'll discuss about call
+
+24:59.940 --> 25:07.220
+wind up like okay we'll discuss these two topics okay in today's class we'll
+
+25:07.220 --> 25:14.780
+cover HOF where if you see an array with three had three functions map filter
+
+25:14.780 --> 25:26.020
+reduce and for each okay if time permits I'll pick up flat also this five
+
+25:26.020 --> 25:30.660
+functions this five functions without using these functions will write our own
+
+25:31.660 --> 25:39.420
+okay we'll try to implement on our own guys I'll come to that some bit I'll
+
+25:39.420 --> 25:45.980
+come to that we'll talk about that okay but we have to we have other than flat
+
+25:45.980 --> 25:53.320
+we have discussed each of this function isn't it I hope all of you know the
+
+25:53.320 --> 25:58.380
+meaning of it so that we'll get started with this implementation okay let's say
+
+25:58.380 --> 26:08.300
+I go back into our code now if even if you go and see this right filter let's
+
+26:08.300 --> 26:14.460
+say if I search it let's say in global if you see only 17 percent they
+
+26:14.460 --> 26:21.420
+supported all other people are not supporting it like most people are you
+
+26:21.420 --> 26:25.660
+see in Chrome they are not supporting it particularly you can verify like where
+
+26:25.660 --> 26:31.940
+it is supported why it is not supported okay you can use this website well pin
+
+26:31.940 --> 26:42.300
+this one I mean back in my days when I used to code for Deutsche Bank I used to
+
+26:42.300 --> 26:45.580
+use this website because they used to use IE Internet Explorer which was like
+
+26:45.580 --> 26:51.740
+really difficult for me to write any logics and cross browser testing we had
+
+26:51.740 --> 26:57.620
+to do we had to do many things okay and other than this thing guys I have added
+
+26:57.620 --> 27:03.820
+the screenshots which you asked for me like related to this okay guys I hope
+
+27:03.820 --> 27:07.500
+you are able to understand when I when I have written this way I try to replicate
+
+27:07.500 --> 27:14.780
+it what we have written in notes like so that you can figure out the output and
+
+27:14.780 --> 27:21.300
+also I added related to slice and splice because this is also asked in
+
+27:21.300 --> 27:24.460
+interview like what's the difference between array dot slice or array dot
+
+27:24.460 --> 27:35.300
+splice okay hope you go through this one push this code already okay thank you
+
+27:35.300 --> 27:47.460
+guys so let's start with our last coding okay first and foremost polyfill
+
+27:47.460 --> 27:55.740
+that we are going to pick is about for each let's say for the start chase now
+
+27:55.740 --> 28:05.780
+yeah class number 27 right some so guess how do you define for each what do you
+
+28:05.780 --> 28:13.300
+think for each is firstly just want to know what's your understanding on for
+
+28:13.300 --> 28:23.220
+each let's say I have array of 1 2 3 4 5 6 let's say this number numbers are
+
+28:23.220 --> 28:29.460
+there now what for it used to help me out every item in an array it is an
+
+28:29.460 --> 28:35.820
+iterator can I say it is an iterator right let's say if I do array dot for
+
+28:35.820 --> 28:43.620
+each first it used to take a callback function isn't it it takes a callback
+
+28:43.620 --> 28:48.980
+function inside this callback function it used to provide support like what all
+
+28:48.980 --> 28:53.940
+it used to provide support it used to give each element to us also it is to
+
+28:53.940 --> 29:02.500
+provide index right if you remember callback function value current element
+
+29:02.500 --> 29:07.220
+value and index and the array itself like if you need even array you will be
+
+29:07.220 --> 29:12.460
+able to access it let me show you once an outputting this thing how this thing
+
+29:12.460 --> 29:17.460
+looks let's say index and array all of them
+
+29:21.380 --> 29:25.900
+clear node
+
+29:32.500 --> 29:51.220
+okay if you see it here what just happened it prints first number like
+
+29:51.220 --> 29:56.580
+element one then it is you give me index and then it is giving me an array right
+
+29:56.580 --> 30:01.740
+and depending on whatever operation whatever operation I have to do let's
+
+30:01.780 --> 30:06.700
+say if I'm trying to multiply each element let's say I try to say that
+
+30:06.700 --> 30:15.060
+return element into twice okay let's say I'm doing this logic now tell me one
+
+30:15.060 --> 30:20.940
+thing does this for each returns anything or does it for each returns
+
+30:20.940 --> 30:27.340
+anything or it's just like an iterator it's like a for loop do I get anything
+
+30:27.340 --> 30:32.540
+in return by directly or it manipulates existing array what do you think like
+
+30:32.540 --> 30:40.260
+if I do console dot log array what it should be if whether this it will be
+
+30:40.260 --> 30:47.140
+multiplied all the things will be multiplied like two four six eight what
+
+30:47.140 --> 30:51.260
+could be the output here firstly when I print array itself like it should be
+
+30:51.260 --> 31:02.420
+this order or it should be this order it manipulates existing array okay how
+
+31:02.420 --> 31:06.620
+many if you think that it if you think that it is manipulating existing array
+
+31:06.620 --> 31:11.100
+give me thumbs up if you think that it doesn't manipulate existing array give
+
+31:11.100 --> 31:19.380
+me thumbs down okay three people say that it manipulates okay let's see this
+
+31:19.380 --> 31:27.140
+what is actually happening if I try to print it now okay clear it if I try to
+
+31:27.140 --> 31:30.900
+do this do you see it here that it doesn't manipulate existing array
+
+31:30.900 --> 31:38.420
+firstly guys whoever give me four thumbs up it is not actually touching the
+
+31:38.420 --> 31:45.220
+existing array but it you know multiplies each index and whatever you
+
+31:45.220 --> 31:52.620
+need it right you have to store in a new array value okay if you see let's say
+
+31:52.620 --> 31:58.420
+if now whether this will be actually returning here you see here I'm trying
+
+31:58.420 --> 32:03.020
+to store in something in array one whether this will be having anything
+
+32:03.020 --> 32:08.860
+value now what could be the output of area one case firstly I'll come to that
+
+32:09.020 --> 32:16.180
+I'll come to that but do you think that what will do think here output should be
+
+32:16.180 --> 32:25.700
+two four six or here we have figured out that it is one two three itself let's
+
+32:26.180 --> 32:43.260
+it is two four six if you see I'm receiving an undefined check now if I
+
+32:43.260 --> 32:49.700
+want to manipulate let's say if I want to manipulate existing array firstly you
+
+32:49.740 --> 33:01.700
+know remember one thing for each doesn't return new array okay it doesn't return
+
+33:01.700 --> 33:07.780
+new array if I want to if I want to manipulate existing array what I can do
+
+33:07.780 --> 33:18.180
+it here is that I can select array dot index equal to this one is this clear
+
+33:18.220 --> 33:23.700
+if I want to manipulate existing array I have an index I have the current element
+
+33:23.700 --> 33:29.300
+I have an array I can I can take that existing array I can point to each of
+
+33:29.300 --> 33:37.740
+index and update it now let's see this start if it is updating let's say this
+
+33:37.740 --> 33:42.540
+is I'll comment this one let's keep it let's keep it so that you remember that
+
+33:42.740 --> 33:53.420
+it doesn't return anything now do you see this it got updated we are getting
+
+33:53.420 --> 33:59.460
+four two four six now in array also I hope this point is clear related to
+
+33:59.460 --> 34:04.340
+footage it is just like an iterator it doesn't any do anything it is like if
+
+34:04.340 --> 34:08.500
+you want to iterate over the each element it iterates it doesn't do
+
+34:08.500 --> 34:12.780
+anything else I hope you got it it's just like first loop nothing each
+
+34:12.780 --> 34:17.740
+nothing much now if you want to replicate let's say if someone asked you
+
+34:17.740 --> 34:23.580
+in the interview can you can you build this can you build and give me a poly
+
+34:23.580 --> 34:29.420
+fill for this one for the for each function how would you approach it what
+
+34:29.420 --> 34:34.260
+would be your idea let's say now what how I want to execute this let's say for
+
+34:34.420 --> 34:45.020
+I'll say like my footage and I want to do this thing let's say copy everything
+
+34:45.020 --> 34:57.380
+here okay guys now whenever I try to do again I know if I'm again outputting it
+
+34:57.940 --> 35:06.660
+it should be giving me an actual output of four eight to well since once we have
+
+35:06.660 --> 35:11.180
+multiplied it already here we will be replicating again if I try to do a
+
+35:11.180 --> 35:16.820
+console lock below it should be updating it now it's some bits it's create a
+
+35:16.820 --> 35:24.740
+function I takes three parameters okay any anyone else case anyone else having
+
+35:24.940 --> 35:31.820
+ideas like firstly it is available on my array array dot my footage how would I
+
+35:31.820 --> 35:35.380
+how should it be how we can make sure that it is it should be available on
+
+35:35.380 --> 35:45.620
+array dot how should we make make sure that it is available for all the arrays
+
+35:45.620 --> 35:51.380
+because we are building up array I'm in a utility method on an array type and
+
+35:51.380 --> 35:55.580
+it should be supporting each and everything so one thing we can do is
+
+35:55.580 --> 36:02.540
+that let's say I built I build on the top what I'll say that array dot
+
+36:02.540 --> 36:07.860
+prototype now how many of you understand this word prototype is there anyone with
+
+36:07.860 --> 36:17.020
+this who don't understand my prototype okay I hope everyone understands what's
+
+36:17.020 --> 36:23.260
+prototype and why I am writing it this way now let's say here I'm having a
+
+36:23.260 --> 36:33.340
+function okay good now this is the function now on this array now every
+
+36:33.340 --> 36:37.960
+array whichever is built actually you know leveraging on every array my for
+
+36:37.960 --> 36:43.140
+each will be available now once I do this but how this should work they
+
+36:43.140 --> 36:47.740
+should try to replicate the same behavior firstly let's think of this
+
+36:47.740 --> 36:56.940
+thing what my for each is taking what is this what it is taking firstly what is
+
+36:56.940 --> 37:01.460
+for each is taking as a parameter
+
+37:03.500 --> 37:10.980
+approach step by step guys what it is taking a function right and what we can
+
+37:10.980 --> 37:14.380
+call that function as callback function can we say that it's a callback function
+
+37:14.380 --> 37:21.540
+right let's say that it takes a callback function in it right can I say this
+
+37:21.540 --> 37:31.580
+guys no if I if I try to do this let's say if I try to do here now just one
+
+37:31.580 --> 37:36.820
+question guys if you understand this keyword properly just tell me what this
+
+37:36.820 --> 37:44.500
+will point out inside here what will be this pointing to inside inside this
+
+37:44.500 --> 37:55.380
+function it should point out to a function or it should point out to an
+
+37:55.380 --> 37:59.900
+array because we are doing everything is an object which everything is an object
+
+37:59.900 --> 38:05.740
+in JS we have understood behind the scenes right so array should be this
+
+38:05.780 --> 38:11.380
+should be pointing to ARR right because we are calling array dot my for each so
+
+38:11.380 --> 38:19.660
+this keyword will be actually pointing to array which is this one okay once I
+
+38:19.660 --> 38:24.220
+have this now what should be my next step guys this is pretty much simple if
+
+38:24.220 --> 38:31.340
+you are able to think it what does for each is doing
+
+38:35.740 --> 38:45.820
+once have an access to array what what should I do pick up each element now in
+
+38:45.820 --> 38:50.460
+order to pick up each element what should I do it use for loop right let's
+
+38:50.460 --> 39:00.420
+say I have to write a for loop let index I should write the in a for loop on this
+
+39:00.420 --> 39:05.940
+array right on this array which is actually I'm receiving this dot length
+
+39:05.940 --> 39:11.540
+guys are you able to understand this like why I'm writing this for loop now
+
+39:11.540 --> 39:18.720
+inside this for loop for each element for each element am I calling this call
+
+39:18.720 --> 39:26.340
+back function for each element in this array one by one I'm calling this call
+
+39:26.340 --> 39:30.220
+back right same thing I'm doing it right for each of this element I'm actually
+
+39:30.220 --> 39:37.500
+making a calling a call back let's say we we call a call back now while
+
+39:37.500 --> 39:41.260
+executing call back what all things it is expecting the call inside the call
+
+39:41.260 --> 39:52.300
+back it's expecting three things isn't it the current element how can I get an
+
+39:52.300 --> 39:58.660
+access of current middleman can I say this dot index and I can pass on index
+
+39:58.660 --> 40:12.820
+and then I can pass on this right yes I did you understood this one this is an
+
+40:12.820 --> 40:19.420
+actually prototype of for each let's say execute this one let's execute this one
+
+40:19.420 --> 40:28.780
+whether this is working or not now do you see this first a general for each
+
+40:28.780 --> 40:33.620
+function which was returning me once I executed this part on this array it was
+
+40:33.620 --> 40:39.660
+returning multiplied by two four six eight then we built our custom logic my
+
+40:39.660 --> 40:46.100
+for each and we implemented proto fill a polyfill for that one and we executed
+
+40:46.100 --> 40:54.100
+then we got output of four eight well I hope this polyfill is clear to you if
+
+40:54.100 --> 40:58.060
+there is anyone who don't understand this do let me know I'll wait for two
+
+40:58.060 --> 41:02.100
+three minutes here okay if there is anyone I'll wait for two three minutes
+
+41:02.100 --> 41:05.460
+so that you are able to get all the concepts that how we are actually
+
+41:05.460 --> 41:12.620
+creating a function on a library how we are replicating them step by step okay
+
+41:12.660 --> 41:18.140
+is use case of for each is clear again and how does for each works and how can
+
+41:18.140 --> 41:22.900
+you build a proto polyfill for each for the furry if someone asked you in the
+
+41:22.900 --> 41:26.780
+interview would it be able to demonstrate this one taking an example
+
+41:26.780 --> 41:40.500
+and building this again replicating this one yeah I would do that okay so first
+
+41:40.500 --> 41:44.540
+thing remember one thing that for each actually doesn't return you anything
+
+41:44.540 --> 41:51.460
+okay it just like an eye-treater it just I treat over the elements it doesn't do
+
+41:51.460 --> 41:57.900
+anything else okay and it takes a callback function inside it and inside
+
+41:57.900 --> 42:02.820
+the callback function it receives three parameters one is the current element or
+
+42:02.820 --> 42:09.000
+the current index item you can say then you have the index of each item then the
+
+42:09.000 --> 42:15.280
+whole array itself will be available as a third parameter using this you can do
+
+42:15.280 --> 42:18.880
+anything that you want to do in a function body what I've just read is it
+
+42:18.880 --> 42:24.560
+I'm updating the existing array information I wanted to replicate this
+
+42:24.560 --> 42:30.280
+structure building my own custom polyfill such as such that I call it
+
+42:30.280 --> 42:36.360
+like array dot my for each now I'm supposed to make this my for it should
+
+42:36.360 --> 42:41.520
+be firstly available on all array data types so what did I do is that first I
+
+42:41.520 --> 42:46.080
+created I've written this logic that array dot prototype prototype dot my
+
+42:46.080 --> 42:51.200
+forage because it should be available in all array types of data types once this
+
+42:51.200 --> 42:58.360
+is available I was trying to see this behavior firstly okay then I went step
+
+42:58.360 --> 43:04.120
+by step I've seen that hey I have this up this keyword here and this is
+
+43:04.120 --> 43:09.080
+actually pointing to an object now that object can be an array since everything
+
+43:09.080 --> 43:13.920
+is an object in JS I'll be having an access to the array once I have an
+
+43:13.920 --> 43:19.960
+access to array inside this I ran a loop over this which is an array itself and
+
+43:19.960 --> 43:24.440
+call this callback function with these three parameters whichever this call
+
+43:24.440 --> 43:32.240
+the pack is expecting okay is this clear guys
+
+43:33.400 --> 43:44.640
+shadow let's move to new thing called map dot JS let's again I have this array
+
+43:44.640 --> 43:56.280
+itself now what does map do is I just want to know if you remember what does
+
+43:56.280 --> 44:12.560
+map do what's our difference between map and forage does anyone remember it what
+
+44:12.560 --> 44:22.880
+map does it returns a new array right anything else case
+
+44:31.880 --> 44:38.240
+okay let's say let's say that I write array dot map again does it take a
+
+44:38.240 --> 44:49.360
+callback function guys some bit map that's something that you are
+
+44:49.360 --> 44:54.000
+understanding keys and values it's a different thing but I'm talking about
+
+44:54.000 --> 45:00.880
+higher-order function map here pointing to some bit wasn't not you trip some
+
+45:00.880 --> 45:07.200
+bit party so that you understand that on array we have three higher functions map
+
+45:07.200 --> 45:12.160
+filter and radius which are commonly used and extra one is for each okay I'm
+
+45:12.160 --> 45:24.760
+talking about them so hope you are hope you got this point okay so as people are
+
+45:24.760 --> 45:30.600
+suggested okay returns a new array and also again each element right it's an
+
+45:30.600 --> 45:34.920
+iterator and it returns something whatever you do it operation now let's
+
+45:34.920 --> 45:41.680
+say if I have three things again an element again if you see index again I'll
+
+45:41.680 --> 45:48.240
+have whole array here available right once I have this now let's say I can
+
+45:48.240 --> 46:04.080
+return element restrict twice now again again once one question does it still
+
+46:04.360 --> 46:12.360
+changes or manipulates this array if I do a console log let's say if I do
+
+46:12.360 --> 46:20.540
+console log of array what should be the expected output guys here does it affect
+
+46:20.540 --> 46:33.800
+the existing array got it some bit like let's say I store it and again array one
+
+46:34.320 --> 46:44.480
+but what could be the output of ARR what should be the output for this one what
+
+46:44.480 --> 46:50.840
+should be output for this one so Ashish says that it will manipulate the
+
+46:50.840 --> 46:58.680
+existing array also so do you guys agree that it should be two four six and here
+
+46:58.680 --> 47:08.160
+also you are saying that it should be two four six is it so what should be an
+
+47:08.160 --> 47:19.160
+output for this one guys firstly this is really basic concept I hope everyone
+
+47:19.160 --> 47:25.080
+remembers how that what is the difference between for each and map any
+
+47:25.080 --> 47:29.520
+random day anyone can ask you if you're a front-end developer anyone can ask you
+
+47:29.520 --> 47:37.080
+this thing like even a block person right let's say there's too much blocking
+
+47:37.080 --> 47:41.320
+happening on roads or streets in Bangalore or Hyderabad one can put up a
+
+47:41.320 --> 47:45.600
+mic and ask you if you're a front-end developer say difference between map and
+
+47:45.600 --> 47:52.960
+for each you should be able to say that it's really basic so firstly how many
+
+47:52.960 --> 48:04.360
+of you think that the output should be one two three right so let's let's see
+
+48:04.360 --> 48:08.080
+this one firstly I'll
+
+48:11.560 --> 48:20.120
+node map dot JS if you can see this that it doesn't manipulate existing array
+
+48:20.120 --> 48:27.080
+still not not even for each not even map touches your existing data I mean
+
+48:27.080 --> 48:32.560
+data set your existing data structure is not changed in both use cases is that
+
+48:32.560 --> 48:43.040
+point clear first point that in both use cases it doesn't change output of of the
+
+48:43.040 --> 48:48.000
+same data set only a thing a main difference between map and for each is
+
+48:48.000 --> 48:54.320
+that map returns you a new array like if you see I was able to store here in
+
+48:54.320 --> 48:59.760
+array one and I was able to output it whereas in for each I was getting an
+
+48:59.760 --> 49:04.680
+undefined when I was trying to output the array one so for each doesn't return
+
+49:04.680 --> 49:11.600
+anything map returns or something man's map returns as a new array is this point
+
+49:11.600 --> 49:19.520
+clear guys would you be able to answer difference between for each and map from
+
+49:19.520 --> 49:23.840
+now on it's really important because if those are higher order commonly
+
+49:23.840 --> 49:29.840
+reusable functions you will be using day in day out because the only two type of
+
+49:29.840 --> 49:34.120
+data structure that you play around mostly in front-end is array and objects
+
+49:34.120 --> 49:40.960
+so you should be knowing a good amount of like understanding on them okay now
+
+49:40.960 --> 50:03.840
+let me show you our difference between for each and map this is not the right
+
+50:03.840 --> 50:14.040
+article maybe images okay the return value is I hope you are able to see this
+
+50:14.040 --> 50:16.560
+image
+
+50:26.640 --> 50:39.760
+nice is this clear can you guys read it once from your point of view both the
+
+50:39.760 --> 50:44.360
+use cases it doesn't modify original array for each returns as undefined
+
+50:44.360 --> 50:50.520
+whereas map returns is like a new array let's say it says that new array is not
+
+50:50.520 --> 50:54.480
+greater at the end of the method call which is exactly pointing out to the
+
+50:54.480 --> 51:01.200
+second point itself here newer again okay this I mean I don't understand why
+
+51:01.200 --> 51:05.080
+they say that new array maybe they are talking about in different context but I
+
+51:05.080 --> 51:13.200
+hope this first two points are clear to you but what what is actually happening
+
+51:13.600 --> 51:23.040
+right now let's go back to this no can anyone help me out or volunteer me to
+
+51:23.040 --> 51:28.680
+build up route or polyfill for a map it's a completely same as her forage but
+
+51:28.840 --> 51:40.960
+some small change just want to know if can anyone help me out or just I'll give
+
+51:40.960 --> 51:51.840
+you five minutes guys just think of it like how would you build this one say
+
+51:51.840 --> 51:58.960
+what I want to do what I want to do is start let's say I try to copy and paste
+
+51:58.960 --> 52:13.040
+here but I'll say this is array 2 it's array 2 but I'll use my map yeah can
+
+52:13.040 --> 52:16.920
+anyone write it down guys can anyone write it down and send me send the code
+
+52:16.920 --> 52:33.000
+to me like for my map I'll wait for two three minutes they agree with your
+
+52:33.000 --> 52:40.680
+points Ramya in some bit but can you would write it down because if I write
+
+52:40.680 --> 52:44.360
+it down it's just like I can copy and paste off for each and I can change
+
+52:44.360 --> 52:54.160
+something I'll also give you if you want to see this use case I can also give you
+
+52:54.160 --> 52:58.760
+this thing now what would be the only changing thing here
+
+53:14.360 --> 53:41.320
+guys is anyone trying it or everyone waits waiting for me to do it no
+
+53:41.320 --> 53:54.560
+reactions do you want me to do it okay let's let's okay trying it trying great
+
+53:54.560 --> 53:58.800
+guys keep going I'll wait for the for the two minutes
+
+54:11.320 --> 54:41.200
+well what I'll do is that I'll just copy this one I'll keep it here on the
+
+54:41.200 --> 54:50.720
+top now instead of for my each I'll do my map I have to change two things
+
+54:50.720 --> 54:55.680
+inside it I just want to know what would you change it
+
+55:11.200 --> 55:37.040
+yes can I move ahead okay some bad ass ish
+
+55:42.040 --> 55:46.560
+okay somewhere the sing one minute okay
+
+56:00.760 --> 56:05.440
+meanwhile others also can think like what we have to change it because it's
+
+56:05.440 --> 56:08.820
+pretty simple and straightforward there's only one difference have we have
+
+56:08.820 --> 56:14.940
+highlighted is that map returns you something whereas for this doesn't
+
+56:14.940 --> 56:30.220
+return anything great on Ashish right somewhere agree so as ass is suggested
+
+56:30.220 --> 56:37.940
+that we need to create firstly new array with some memory one thing I said is
+
+56:37.940 --> 56:43.040
+that in JavaScript you doesn't really need to specify the size of an array you
+
+56:43.040 --> 56:51.620
+can directly initialize an array with an empty okay you don't really need to say
+
+56:51.620 --> 56:57.240
+that this start length that works but not needed okay if you are using
+
+56:57.240 --> 57:05.640
+constructor function of new array like it should be this way new array only
+
+57:05.640 --> 57:12.000
+when you do this then it can you know it will say it will ask you the length
+
+57:12.000 --> 57:16.680
+like then you can pass on this start length this would be the syntax in case
+
+57:16.680 --> 57:22.860
+if you want to create a new array with the certain length is this point here
+
+57:22.860 --> 57:27.560
+guys like how would you actually create an array with a certain length I hope
+
+57:27.560 --> 57:30.660
+everyone remembers that there's something like constructor function we
+
+57:30.660 --> 57:36.840
+have discussed and every thing should be there so let's say not complicating it
+
+57:36.840 --> 57:41.040
+this should be also working it now and this is something let's say we are
+
+57:41.040 --> 57:49.460
+returning it response and each of the value each of the value I have to be
+
+57:49.660 --> 58:04.540
+adding into this one right again I can do this thing or else I can do this
+
+58:04.540 --> 58:06.820
+thing
+
+58:06.820 --> 58:30.540
+anything works face both the things should work okay now how many of you are
+
+58:30.540 --> 58:35.340
+able to understand this a small chain is that we are trying to create a new array
+
+58:35.340 --> 58:40.260
+and pushing every element line by line because if you see whatever this callback
+
+58:40.260 --> 58:44.220
+function is executing multiplying each index we are adding back into a new
+
+58:44.220 --> 58:49.620
+array which is array one in a way right this array whatever this callback
+
+58:49.620 --> 58:53.540
+function is actually executing it and whatever this function is returning it
+
+58:53.540 --> 58:57.300
+like you can say element into two that we are pushing back into a response
+
+58:58.300 --> 59:08.660
+let's say this is working fine now do you see this guys that my array 2 is
+
+59:08.660 --> 59:16.500
+actually returning 2 4 6 8 10 I hope this logic is pretty much clear simple
+
+59:16.500 --> 59:24.300
+basic and there is if you see here in the differences they talked about one
+
+59:24.300 --> 59:30.780
+more thing guys this last point hoping if you are able to understand this last
+
+59:30.780 --> 59:36.660
+point for each method is not chainable map is chainable what do you think this
+
+59:36.660 --> 59:53.340
+is why do say that chainable not chainable anyone I see one thumbs down
+
+59:53.340 --> 01:00:02.220
+two now since can I say this in one line that farage doesn't return anything to
+
+01:00:02.220 --> 01:00:06.780
+make it a chain map returns you something so that you can add multiple
+
+01:00:06.780 --> 01:00:14.180
+operations like you can you can filter things right do you guys agree that if
+
+01:00:14.180 --> 01:00:19.340
+you want to do it let's say once you do this you will be able to filter it let's
+
+01:00:19.340 --> 01:00:42.140
+say filter again say element return let's say element modulus of 2 now what
+
+01:00:42.140 --> 01:00:46.420
+they should do actually what they should do what should be the output of here
+
+01:00:46.420 --> 01:01:01.500
+what should my output be here guys this was my output earlier let's say
+
+01:01:01.500 --> 01:01:09.260
+everything is even so let's make it odd or else let's let's do some condition
+
+01:01:09.260 --> 01:01:20.460
+let's build since they are multiplying by 2 let's make it multiplying by 3 now
+
+01:01:20.460 --> 01:01:25.820
+just we know that right we I think I hope we got the understanding what this
+
+01:01:25.820 --> 01:01:36.700
+will actually do why changing is possible on my app not on farage okay
+
+01:01:46.460 --> 01:01:54.260
+let's say I do this now if you see I'm able to get all the even numbers when
+
+01:01:54.300 --> 01:01:58.960
+I'm trying to output of arrow to just like I'm trying to fetch like I can
+
+01:01:58.960 --> 01:02:04.980
+filter it this is what a chaining means I hope this point is clear what what was
+
+01:02:04.980 --> 01:02:10.660
+that table talking about like third point with the basic differences anyone
+
+01:02:10.660 --> 01:02:16.400
+will be able you will be able to recall it right the difference between map and
+
+01:02:16.400 --> 01:02:22.860
+forage and once they ask you difference between an app and forage would you be
+
+01:02:22.860 --> 01:02:34.140
+able to build their poly fields to the fast great now now we'll move to the
+
+01:02:34.140 --> 01:02:40.420
+filter function actually it's again pretty much similar guys again like if
+
+01:02:40.420 --> 01:02:47.580
+I pick it up you have to help me out how would you do this let's say I have this
+
+01:02:47.580 --> 01:02:57.940
+array and if I do this filter what I can do is that let's say again if you see
+
+01:02:57.940 --> 01:03:03.300
+this this the callback function whatever callback function is there it again
+
+01:03:03.300 --> 01:03:14.700
+receives three things value in index an array now this is a predicate predicate
+
+01:03:14.780 --> 01:03:20.100
+something like based on condition something it does okay now let's say I
+
+01:03:20.100 --> 01:03:30.540
+have element index again the whole array now what we'll do is that only if
+
+01:03:30.540 --> 01:03:42.420
+element modulus of 2 is triple equal to 2 which I'll say instead of this adding
+
+01:03:42.460 --> 01:03:56.180
+condition we can directly return it okay now one more question does filter again
+
+01:03:56.180 --> 01:04:07.140
+does filter again change your existing array does it affect ARR would it
+
+01:04:07.140 --> 01:04:15.140
+manipulate it or it will return something it would return an array isn't
+
+01:04:15.140 --> 01:04:24.820
+it okay let's say I store it here and ARR 1 and I try to do console.log ARR 1
+
+01:04:24.820 --> 01:04:36.340
+and again console.log ARR okay now let's recheck this output clearing it node
+
+01:04:36.380 --> 01:04:44.820
+filter.js now I hope this point is clear how that filter is working it is returns
+
+01:04:44.820 --> 01:04:51.580
+or something and this is also still like you can add any number of chainings that
+
+01:04:51.580 --> 01:04:59.220
+you want okay yeah somebody is already thinking like how we can build polyfill
+
+01:04:59.220 --> 01:05:04.580
+but I hope this function filter works how it works we know that right and you
+
+01:05:04.580 --> 01:05:09.580
+guys give me one thumbs up if you know how does filter works it doesn't
+
+01:05:09.580 --> 01:05:13.700
+manipulate existing array and it returns as based on some condition it is trying
+
+01:05:13.700 --> 01:05:20.620
+to predicate something like possibility now again I am building something let's
+
+01:05:20.620 --> 01:05:30.340
+say array 2 and let's say instead of filter I'll say my filter and if I try
+
+01:05:30.340 --> 01:05:35.740
+to output again console.log array 2 it should be array 1 should be actually
+
+01:05:35.740 --> 01:05:44.620
+value should be equal to array 2 okay now if I have to build it on my filter
+
+01:05:44.620 --> 01:05:50.060
+filter on my array one of the common thing we have to do is like an array
+
+01:05:50.060 --> 01:05:59.900
+dot prototype dot filter once I do this I'll have a callback function on this
+
+01:05:59.940 --> 01:06:05.180
+callback function I have to do some condition one thing is common is that it
+
+01:06:05.180 --> 01:06:14.860
+is still taking callback so let's add a callback cool again cross checking what
+
+01:06:14.860 --> 01:06:25.220
+this is pointing to here the still is pointing to ARR isn't it right object
+
+01:06:25.820 --> 01:06:35.860
+nice now how would you build a filter here I think Sambit has already done the
+
+01:06:35.860 --> 01:06:42.980
+condition guys do you understand that what Sambit written in the chat able to
+
+01:06:42.980 --> 01:06:47.300
+follow up so I'll try to write down the logic let's see firstly again
+
+01:06:47.300 --> 01:06:55.420
+I treating through the loop I treating through all the items of an array then I
+
+01:06:55.420 --> 01:07:03.620
+have to check only if if callback of now callbacks take three things here again
+
+01:07:03.620 --> 01:07:14.540
+this start I and then I then this let's say instead of I I can make it again for
+
+01:07:14.540 --> 01:07:22.180
+better you know muscle memory takes me to I we are used to DSA people usually
+
+01:07:22.180 --> 01:07:34.580
+write IEJ those are things we remember right now only once this is only if this
+
+01:07:34.580 --> 01:07:47.860
+condition is true we add it to the response right again response start
+
+01:07:47.860 --> 01:07:55.220
+push I should off index I should be doing this start index and I should be
+
+01:07:55.220 --> 01:08:03.980
+returning this guys is this logic clear to you let's say I say this mime filter
+
+01:08:03.980 --> 01:08:15.740
+not overriding existing library right good now let's say if I execute this one
+
+01:08:15.740 --> 01:08:24.820
+again okay if you see we are still getting both the same outputs for the
+
+01:08:24.820 --> 01:08:31.900
+array 1 and array 2 so both are working as as expected so I hope this this thing
+
+01:08:31.900 --> 01:08:35.140
+is clear but I didn't wait for this one because this is pretty straightforward
+
+01:08:35.140 --> 01:08:40.660
+just like based on only condition if it is true whatever callback is executing
+
+01:08:40.660 --> 01:08:44.900
+only if that condition is true only then we'll push it or else will exit will not
+
+01:08:44.900 --> 01:08:51.260
+do anything if it is returning false right and this is the reason why I
+
+01:08:51.260 --> 01:08:56.820
+explained about like whether truthy or falsy condition like how does it works
+
+01:08:56.820 --> 01:09:00.620
+like in if condition when there is a particularly there is nothing like
+
+01:09:00.620 --> 01:09:06.220
+return type if there is even value how that can be if we go inside the if loop
+
+01:09:06.220 --> 01:09:12.500
+okay but I hope my filter for each and map is clear guys these three functions
+
+01:09:12.500 --> 01:09:17.420
+you hope you will be able to write polyfill without some revision on it okay
+
+01:09:17.420 --> 01:09:26.660
+then there is one thing which is you know reduce.js now how many of you
+
+01:09:26.660 --> 01:09:34.300
+remember reduce guys I'll open an example that we discussed interesting
+
+01:09:34.300 --> 01:09:41.580
+example I don't remember where it is
+
+01:09:42.540 --> 01:09:50.260
+guys do you remember how does reduce works
+
+01:09:57.220 --> 01:10:01.860
+it takes okay let's say I'll come to that I've actually shown you an example
+
+01:10:01.860 --> 01:10:10.660
+of prefix sum right if you remember prefix sum calculating a prefix sum using
+
+01:10:10.660 --> 01:10:19.580
+the reduce right I'll come to that I'll show that example again but let me
+
+01:10:19.580 --> 01:10:26.140
+introduce again a reduce once for you all okay let's say again I have an array
+
+01:10:26.140 --> 01:10:34.060
+again one two three let's I have this numbers reduce is actually a returns as
+
+01:10:34.060 --> 01:10:41.860
+a value let's say it returns as a value not an array but it does such a way
+
+01:10:41.860 --> 01:10:47.380
+firstly you know it's a it takes a callback function and it takes a two
+
+01:10:47.380 --> 01:10:53.900
+parameters what will be the default value and what will be the let's say
+
+01:10:53.900 --> 01:10:57.740
+initial value if I put it as zero why I'm putting it to zero is because I'm
+
+01:10:57.740 --> 01:11:05.180
+trying to replicate some of elements let's say some of elements now when
+
+01:11:05.180 --> 01:11:10.460
+there is no cancellation is done by default the value is zero it takes three
+
+01:11:10.460 --> 01:11:17.220
+parameters one is accumulator then current value let's say if I write down
+
+01:11:17.220 --> 01:11:32.260
+exactly the way it is showing previous value and it returns again an array okay
+
+01:11:32.260 --> 01:11:40.900
+it is doing three things for us clear firstly also let's say if we what if we
+
+01:11:40.900 --> 01:11:51.900
+receive index here the index have they they haven't exposed index in reducer is
+
+01:11:51.900 --> 01:12:06.060
+it it should be there okay let's say good now what I can do if I want to use
+
+01:12:06.060 --> 01:12:12.580
+this simply I have to do is like previous number plus equal to current
+
+01:12:12.580 --> 01:12:23.100
+value this will do my calculations now how many of you recall this example how
+
+01:12:23.100 --> 01:12:26.460
+many of you are able to understand this reduce how does it work if there is
+
+01:12:26.460 --> 01:12:29.740
+anyone who doesn't understand reduce case give me thumbs down if there is
+
+01:12:29.740 --> 01:12:37.100
+someone who don't understand reduce it is reducing all the numbers into a one
+
+01:12:37.100 --> 01:12:40.940
+particular number where we are doing some of the all the numbers here
+
+01:12:40.940 --> 01:12:46.060
+starting with zero as a previous value previous value is actually pointing
+
+01:12:46.060 --> 01:12:53.340
+starting with zero then it keeps on adding with the current number the
+
+01:12:53.340 --> 01:12:56.820
+current number will be one then two then three then it will keep on adding all
+
+01:12:56.860 --> 01:13:13.900
+the numbers let's see this console dot log result clear mode reduce dot js just
+
+01:13:13.900 --> 01:13:21.700
+a second did I make as I didn't return it sorry it should return the number
+
+01:13:21.700 --> 01:13:28.420
+right right yes if you see it here we got the whole sum of the all the elements
+
+01:13:28.420 --> 01:13:35.260
+I hope this example everyone remembers it so I'll go back to class that we
+
+01:13:35.260 --> 01:13:40.540
+have discussed class number 10 where we try to calculate prefix sum and we
+
+01:13:40.540 --> 01:13:45.760
+remember that for the prefix sum right we always used to return now everyone
+
+01:13:45.760 --> 01:13:50.100
+remember this prefix sum right the sum of the previous all the elements with
+
+01:13:50.100 --> 01:13:54.940
+the current element till that point now if you see this I have tried to
+
+01:13:54.940 --> 01:13:59.540
+initialize the existing array which will be resulting this is a prefix sum array
+
+01:13:59.540 --> 01:14:05.860
+in this callback function I mean two things an accumulator accumulator is a
+
+01:14:05.860 --> 01:14:10.340
+previous value till now what is the accumulated data accumulated number and
+
+01:14:10.340 --> 01:14:15.940
+the current value so what I say is that if there is if the item is itself first
+
+01:14:15.940 --> 01:14:22.540
+number if the index is 0 then directly add it push it to this array the current
+
+01:14:22.540 --> 01:14:26.560
+number because for the index one prefix sum of index one will be equal to the
+
+01:14:26.560 --> 01:14:37.300
+same number isn't it sorry index 0 isn't it let's say if you have an array of 1 2
+
+01:14:37.300 --> 01:14:51.300
+3 prefix sum would be 1 3 6 isn't it for the first index it should be this
+
+01:14:51.300 --> 01:14:55.500
+condition right same thing whatever it is there push it into this one then if
+
+01:14:55.500 --> 01:14:59.900
+the length is greater than it then I'm getting the previous sum whatever my
+
+01:14:59.900 --> 01:15:06.940
+previous sum is there plus current value same use case I hope this example
+
+01:15:06.940 --> 01:15:11.260
+everyone recalls it remembers it again rechecking with you if there is anyone
+
+01:15:11.260 --> 01:15:14.300
+who don't understand reduce if there is anyone do let me know or else we are
+
+01:15:14.300 --> 01:15:21.420
+moving ahead with implementing the polyfill for this one okay take it as
+
+01:15:21.420 --> 01:15:26.140
+know that there are no doubts on reduce I hope everyone understands it but now
+
+01:15:26.140 --> 01:15:33.740
+let's let's think of this one guys how would you implement this one what would
+
+01:15:34.220 --> 01:15:42.100
+it take to build a polyfill for reduce let's say I call it the same logic I'll
+
+01:15:42.100 --> 01:15:53.780
+copy this part instead of result I'll say result one and I'll say my reduce okay
+
+01:15:53.780 --> 01:16:03.060
+and here on the top I'll basic syntax I'll write down prototype dot my reduce
+
+01:16:03.060 --> 01:16:13.260
+on this let's say I have a function and this is what I'm doing same concept
+
+01:16:13.260 --> 01:16:23.020
+isn't it Ashish it's it's still same isn't it it's what firstly let's go
+
+01:16:23.020 --> 01:16:32.620
+step by step is it taking a callback function inside reduce firstly let's
+
+01:16:32.620 --> 01:16:38.140
+decide what should go inside this parameters here first is it taking
+
+01:16:38.140 --> 01:16:49.700
+callback function right let's say there's a callback function right it is
+
+01:16:49.700 --> 01:16:55.740
+taking an initial value it is taking two parameters isn't it this reduce function
+
+01:16:55.740 --> 01:17:03.540
+is saying two parameters callback function till here then no don't go
+
+01:17:03.540 --> 01:17:07.100
+inside the callback function somewhere first seen on terms of reduce level
+
+01:17:07.100 --> 01:17:23.580
+itself so if I cut down this one I write down const so CP is it taking two things
+
+01:17:23.580 --> 01:17:27.500
+inside my reduce
+
+01:17:35.660 --> 01:17:42.540
+guys right so we have to say that also along with the callback function I'll
+
+01:17:42.540 --> 01:17:58.020
+have something like initial value this is clear guys that it should have
+
+01:17:58.020 --> 01:18:04.580
+something like initial value first now what if what if there is no initial
+
+01:18:04.580 --> 01:18:15.980
+value provided what should you do if there is no initial value provided let's
+
+01:18:15.980 --> 01:18:22.620
+say I try to let's I try to comment this part let's say that we remove this zero
+
+01:18:22.620 --> 01:18:30.980
+initial value and I try to print this again what it is taking by default it
+
+01:18:30.980 --> 01:18:41.420
+is taking as zero okay now even if I let's say if I try to multiply it it is
+
+01:18:41.420 --> 01:18:53.180
+still does it take like one here if it takes zero if it takes zero then it
+
+01:18:53.780 --> 01:19:02.180
+multiplication should be zero of everything isn't it you get this point
+
+01:19:02.180 --> 01:19:21.260
+guys okay so now what I'll do is that I'll give a break of six seven minutes I
+
+01:19:21.300 --> 01:19:25.900
+want everyone to explore like how should you handle the initial value if you see
+
+01:19:25.900 --> 01:19:32.740
+for one use case it took it as zero for any use case it took it as one now how
+
+01:19:32.740 --> 01:19:39.700
+would you define like what should the exact value what in case if there is no
+
+01:19:39.700 --> 01:19:48.260
+initial value provided if it is an undefined how would you handle it okay do
+
+01:19:48.260 --> 01:19:58.220
+you need break guys or should we continue I think that people are not
+
+01:19:58.220 --> 01:20:02.940
+responding today too much guys I hope everyone is able to follow up it's not
+
+01:20:02.940 --> 01:20:07.980
+boring yeah condition for initial value figure out that thing guys that if you
+
+01:20:07.980 --> 01:20:12.300
+see I've shown you two use cases I have removed initial value for this
+
+01:20:12.300 --> 01:20:17.980
+existing function where I'm trying to find some of values in that condition it
+
+01:20:18.020 --> 01:20:23.660
+considered initial value zero but when I try to multiply it multiplying all the
+
+01:20:23.660 --> 01:20:37.740
+numbers then it considered as a one is that point here explore that summit I
+
+01:20:37.740 --> 01:20:42.460
+will discuss with after the break for the five minutes let's take the break
+
+01:20:42.460 --> 01:20:47.180
+for five minutes and come back okay
+
+01:20:50.980 --> 01:20:56.580
+I have started break let's meet in five minutes
+
+01:21:12.460 --> 01:21:15.040
+you
+
+01:21:42.460 --> 01:21:45.040
+you
+
+01:22:12.460 --> 01:22:15.040
+you
+
+01:22:42.460 --> 01:22:45.040
+you
+
+01:23:12.460 --> 01:23:14.720
+you
+
+01:23:42.460 --> 01:23:44.720
+you
+
+01:24:12.460 --> 01:24:14.720
+you
+
+01:24:42.460 --> 01:24:44.720
+you
+
+01:25:12.460 --> 01:25:14.720
+you
+
+01:25:42.460 --> 01:25:44.520
+you
+
+01:25:55.340 --> 01:25:59.460
+guys is everyone back
+
+01:25:59.460 --> 01:26:16.260
+do you guys think what should be the how would you handle if initial value is not
+
+01:26:16.260 --> 01:26:18.700
+provided
+
+01:26:29.460 --> 01:26:54.660
+okay if not can we can we do it and I'll explain back let's say firstly
+
+01:26:54.700 --> 01:27:00.580
+whether whether firstly what we are resulting is like it's a constant value
+
+01:27:00.580 --> 01:27:04.540
+right we are resulting in a one constraint value let's say that I have
+
+01:27:04.540 --> 01:27:15.900
+a response and it is pointing to let's say initial value itself okay because we
+
+01:27:15.940 --> 01:27:25.740
+are supposed to return response okay in between we know that we have this
+
+01:27:25.740 --> 01:27:38.740
+operator which is actually giving me the array itself till here no doubts right
+
+01:27:38.740 --> 01:27:42.420
+till here no doubts I hope
+
+01:27:46.940 --> 01:27:56.620
+guys this point is clear right this is pretty much basic now what I'll do here
+
+01:27:56.620 --> 01:28:05.700
+for response I'll check first if response exists what I'm trying to check
+
+01:28:05.700 --> 01:28:10.620
+whether response exists what in general what I'm practicing whether initial
+
+01:28:10.620 --> 01:28:18.900
+value is provided if not provided this will become undefined isn't it so I hope
+
+01:28:18.900 --> 01:28:26.020
+you got this condition so if value is undefined I'll say that pick it up
+
+01:28:26.020 --> 01:28:34.820
+initial value initial value of array or else if value is provided in the right
+
+01:28:34.820 --> 01:28:41.460
+way then you go on to do the operations what operations you will do again in the
+
+01:28:41.460 --> 01:28:45.180
+callback if you see I have something that previous number where I'll store
+
+01:28:45.180 --> 01:28:52.260
+it in a response then I have the current number which is this dot I then I'll
+
+01:28:52.260 --> 01:29:11.300
+have I then I'll have this initial value points to this dot 0 if undefined right
+
+01:29:11.300 --> 01:29:17.540
+right something so this is what this is how you can handle it like if undefined
+
+01:29:17.540 --> 01:29:23.060
+will directly go for pointing out to first key then for the all other
+
+01:29:23.060 --> 01:29:29.700
+iterations it will you know take from that level if not if it is provided it
+
+01:29:29.700 --> 01:29:42.700
+keep on taking that initial values okay I hope that point is clear guys so let's
+
+01:29:42.700 --> 01:29:54.100
+execute this one whether this is working as expected say uncomment this logic I
+
+01:29:54.100 --> 01:30:11.740
+put back this call back inside here I remove the CB okay let's execute this
+
+01:30:11.740 --> 01:30:27.300
+one again no okay I made a constant variable let me make it as lit right
+
+01:30:27.300 --> 01:30:32.800
+now I got something is like I've seen for plus let's say first first we'll
+
+01:30:32.800 --> 01:30:42.120
+verify for the plus both are 5555 and if I check for the multiplication for the
+
+01:30:42.120 --> 01:30:47.800
+both the things with provided value as one first we will check with provided
+
+01:30:47.800 --> 01:30:54.720
+value both things are one if I don't give any value even let's verify this
+
+01:30:54.720 --> 01:31:01.200
+again both are still resulting in same things so I hope this polyfill is also
+
+01:31:01.200 --> 01:31:09.920
+clear guys like how this thing works for reduce function to can I receive one
+
+01:31:09.920 --> 01:31:14.000
+final check from you guys like all of you can you give me a wooden please I
+
+01:31:14.000 --> 01:31:18.320
+just if all these functions are because these are the three functions that you
+
+01:31:18.320 --> 01:31:24.040
+would be asked map reduce filter where people try to grill on they check on
+
+01:31:24.040 --> 01:31:28.400
+your kind understanding first you do understand this once you they you say
+
+01:31:28.400 --> 01:31:33.040
+that you understand this they might ask you to write a polyfill on that okay if
+
+01:31:33.040 --> 01:31:38.440
+this thing is clear I'll talk about one final method which we haven't talked
+
+01:31:38.440 --> 01:31:50.880
+about it yet flat dot JS have you anytime heard about flat added or flat
+
+01:31:51.880 --> 01:31:58.880
+okay I see no one notice
+
+01:32:08.680 --> 01:32:17.040
+now what do you see here this yeah flatten you might have seen like flatten
+
+01:32:17.040 --> 01:32:23.240
+the binary tree flatten the linked list these questions you guys came across
+
+01:32:23.240 --> 01:32:31.840
+this one anytime what do you generally do in flatten whenever you have a tree
+
+01:32:31.840 --> 01:32:35.960
+you would try to arrange them in one an array right one array like if you have a
+
+01:32:35.960 --> 01:32:40.660
+iron inside array if you see this is a two level nested level you try to make
+
+01:32:40.660 --> 01:32:48.060
+it one level nested is this clear what actually array dot flat does it's the
+
+01:32:48.060 --> 01:32:55.060
+same functionality let's say array dot if I take pick it up flat inside flat it
+
+01:32:55.060 --> 01:33:01.780
+takes depth what does it exactly mean by depth is that how many levels of
+
+01:33:01.780 --> 01:33:08.060
+recursion calls it should do that if I am having this is level of one level
+
+01:33:08.060 --> 01:33:13.660
+this is a two level if I write down level one okay and try to store here
+
+01:33:13.660 --> 01:33:20.980
+firstly let's see what happens if I store it if I make it level one and try
+
+01:33:20.980 --> 01:33:32.380
+to print it no flat dot JS if you see what just happened is it flattened all
+
+01:33:32.380 --> 01:33:38.700
+to the level one right it went into the depth of initial array then it went to
+
+01:33:38.700 --> 01:33:49.940
+level one let's say if I have it this way okay this is this is 0th level first
+
+01:33:49.940 --> 01:33:55.060
+level since second level now let's see what happens if I try to print it again
+
+01:33:55.260 --> 01:34:02.700
+do you see that 2 and 3 is still in array if I increase the level further if I
+
+01:34:02.700 --> 01:34:10.820
+increase the level further now it will completely flat it up okay generally the
+
+01:34:10.820 --> 01:34:17.420
+parameter inside this one is taking like how many times it should you know
+
+01:34:17.420 --> 01:34:21.780
+recursively check the condition nested condition how many times it should
+
+01:34:21.780 --> 01:34:29.460
+iterate through that I hope that point is clear like what depth is actually
+
+01:34:29.460 --> 01:34:33.300
+meant we what are the what is the value I'm actually why I am passing this one
+
+01:34:33.300 --> 01:34:38.460
+two or not passing anything if you don't pass anything what happens just let's
+
+01:34:38.460 --> 01:34:43.920
+see if you don't pass anything what is a default value also it doesn't do
+
+01:34:43.920 --> 01:34:50.340
+anything the depth level is zero it returns whatever array it is so did you
+
+01:34:50.340 --> 01:34:57.580
+understand what is flat what do you mean by flat flattening an array right
+
+01:34:57.580 --> 01:35:01.860
+this is an algorithm that you have already practiced for the different data
+
+01:35:01.860 --> 01:35:06.780
+structure in your DSA can you guys think like how would you do it let's say this
+
+01:35:06.780 --> 01:35:13.340
+is like a simple data structure DSA problem right flatten the array let's
+
+01:35:13.340 --> 01:35:23.500
+say that I write a function flat and ARR I give an array you just go and do
+
+01:35:23.500 --> 01:35:28.980
+this logic part this can be asked in any interview like how can you make an array
+
+01:35:28.980 --> 01:35:40.500
+flat any any ideas guys how would you approach this one okay so these are what
+
+01:35:40.500 --> 01:35:48.620
+is actually happening if you see this example firstly our array isn't nested
+
+01:35:48.620 --> 01:35:55.500
+right nested arrays you have this one top level array which is having one two
+
+01:35:55.500 --> 01:36:04.940
+three then a second array inside it in third array right now let's I write a
+
+01:36:04.940 --> 01:36:18.860
+for loop here to show you guys better say console.log array.i and also let's
+
+01:36:18.860 --> 01:36:26.760
+say I okay now if you see firstly the array looks like this at zero index one
+
+01:36:26.760 --> 01:36:32.340
+and then one first index it is two then second index it is three third index it
+
+01:36:32.340 --> 01:36:37.140
+is having an another array in nested level that fourth index it is having
+
+01:36:37.140 --> 01:36:43.860
+another array now when I say flat is that converting removing this braces
+
+01:36:43.860 --> 01:36:48.860
+removing this braces converting this arrays and merging into this existing
+
+01:36:48.860 --> 01:36:55.820
+array like if you see here one two three then one two three then again removing
+
+01:36:55.820 --> 01:37:05.340
+this array and merging this into the existing array got this so and the
+
+01:37:05.340 --> 01:37:10.580
+number of nesting levels is actually defined by the parameter called depth if
+
+01:37:10.580 --> 01:37:17.820
+you see it takes something value like like parameter which is depth here if
+
+01:37:17.820 --> 01:37:25.620
+you see the maximum if you see the maximum recursion depth it says now
+
+01:37:25.620 --> 01:37:30.340
+also if you see the definition it is actually pretty much like DSA it returns
+
+01:37:30.340 --> 01:37:35.260
+a new array with all sub-array elements concatenated into it recursively up to
+
+01:37:35.260 --> 01:37:42.260
+the specified depth now if someone says that you know a front-end developer
+
+01:37:42.260 --> 01:37:47.220
+doesn't need a data section algorithm knowledge ask him to flatten the array
+
+01:37:47.220 --> 01:37:55.980
+write polyfill for the flat now without your DSA knowledge do you understand
+
+01:37:55.980 --> 01:38:03.460
+sub-array recursion call stack recursion right how would you do that so never
+
+01:38:03.460 --> 01:38:07.100
+fall in that trap that hey DSA is not treated everywhere it revolves around
+
+01:38:07.100 --> 01:38:14.220
+I've shown you reduce example using you know prefix some so every language does
+
+01:38:14.220 --> 01:38:20.020
+it but they have library built it such as that friend and people don't use it
+
+01:38:20.020 --> 01:38:24.020
+much extent but we need to know if you want to build the libraries like if you
+
+01:38:24.020 --> 01:38:32.740
+want to be a really good at it okay now guys how would you approach this
+
+01:38:32.740 --> 01:38:42.980
+question basic which algo will work here hey have you went to lead code
+
+01:38:43.020 --> 01:38:46.020
+flatten
+
+01:38:52.980 --> 01:38:56.980
+let's have you seen this question
+
+01:38:56.980 --> 01:39:13.460
+right there are too many things these are directly asked in interval questions
+
+01:39:13.460 --> 01:39:27.260
+okay I'm getting directly related to JS wait this is a question it is asked now
+
+01:39:27.260 --> 01:39:31.140
+this is this is where you are trying to apply recursions and trying to go
+
+01:39:31.140 --> 01:39:36.300
+through it but here in order to make it more useful what we have given we also
+
+01:39:36.300 --> 01:39:40.420
+need a parameter called depth so one thing if you want to approach anything
+
+01:39:40.420 --> 01:39:49.780
+right you might have you might have got you might write like what is the way
+
+01:39:49.780 --> 01:39:53.220
+that you approach a DSA problem it's like simple right thinking them from a
+
+01:39:53.220 --> 01:39:59.420
+brute force and how would you do it what algorithm should apply here right those
+
+01:39:59.420 --> 01:40:03.220
+step-by-step things that you whatever you might have learned till now let's
+
+01:40:03.220 --> 01:40:08.740
+apply those knowledge itself okay first let me write down the basic syntax array
+
+01:40:08.740 --> 01:40:16.220
+dot prototype dot let's say I'm trying to build my flat then you have function
+
+01:40:16.220 --> 01:40:21.220
+called my flat let's say this is a simple function doesn't need anything
+
+01:40:21.220 --> 01:40:26.940
+name or anything but let's say this is what it is and it takes something called
+
+01:40:26.940 --> 01:40:38.460
+as a depth here okay once it has stepped now okay some bits is travels and add it
+
+01:40:38.460 --> 01:40:46.260
+into new array and return it cool but that's fine that we are returning it
+
+01:40:46.260 --> 01:40:50.700
+let's say okay some with I'll do something like as you suggest let's say
+
+01:40:50.700 --> 01:40:59.700
+const response I have array I'm returning this response okay and I'm
+
+01:40:59.860 --> 01:41:10.140
+through this I said is dot length now what should I return it how should I
+
+01:41:10.140 --> 01:41:14.060
+handle the conditions inside this some bit
+
+01:41:30.700 --> 01:41:43.100
+array right you have to think how would you handle this firstly one simple okay
+
+01:41:43.100 --> 01:41:49.060
+guys think if you can think hollows I'll solve it pretty basic pretty easy this
+
+01:41:49.060 --> 01:41:54.340
+one only one condition you have to do it when to call okay think that firstly
+
+01:41:54.340 --> 01:42:04.780
+when to call recursion what would be the condition when to call a recursion or
+
+01:42:04.780 --> 01:42:18.620
+when we can directly add element into response array if you answer these two
+
+01:42:18.620 --> 01:42:27.500
+things Arun says that when the index has length more than one okay right answer
+
+01:42:27.500 --> 01:42:38.100
+right right I would agree with that point anyone else has anyone else the
+
+01:42:38.100 --> 01:42:42.500
+other way around I don't can I take that if if you remember last class we have
+
+01:42:42.500 --> 01:42:47.780
+discussed to check whether a particular item is item data drive is an array or
+
+01:42:47.820 --> 01:42:52.300
+not we can do that thing also right if a particular index value is an array then
+
+01:42:52.300 --> 01:42:57.660
+we can excuse it if not we can have to call a recursion on that do you remember
+
+01:42:57.660 --> 01:43:07.380
+array dot is array page did you remember array dot is array condition okay yeah
+
+01:43:07.380 --> 01:43:12.060
+that's that's a way we can go even Arun's point is also right but think of
+
+01:43:12.060 --> 01:43:24.060
+it if you if you have done DP logic also dynamic programming that would be it a
+
+01:43:24.060 --> 01:43:28.980
+basic recursion would solve it not needed DP where you try to memorize the
+
+01:43:28.980 --> 01:43:42.900
+steps let's say if if I'll solve a basic condition if it's an array then we have
+
+01:43:42.900 --> 01:43:51.740
+to do something else I have to directly add a response dot push of this now I
+
+01:43:51.740 --> 01:43:59.900
+have to do something here I have to check another condition also here
+
+01:44:21.740 --> 01:44:34.380
+the this can you think of it what would be the second condition I have to check
+
+01:44:34.380 --> 01:44:44.060
+here firstly other than like yeah another loop here but how many loops you will be
+
+01:44:44.060 --> 01:44:55.220
+keep on adding some bit if array is found or because it can be end time nested right
+
+01:44:55.220 --> 01:45:03.420
+end time nested in the inside array inside another array inside another array yeah so
+
+01:45:03.420 --> 01:45:10.500
+when you have depth level going when you have a chaining depth what could be the right way
+
+01:45:10.500 --> 01:45:16.460
+how would you travel for you know like a tree when you have a node then you have its children
+
+01:45:16.460 --> 01:45:28.020
+right you travel next or left dot or a right element root dot left or root dot right or
+
+01:45:28.020 --> 01:45:34.260
+anything combination but before that before that guys do you see another condition that
+
+01:45:34.260 --> 01:45:43.500
+only if I have to come inside this condition only if depth is greater than 0 if depth is
+
+01:45:43.500 --> 01:45:50.100
+not greater than 0 I can push an array into it directly right only if depth is greater
+
+01:45:50.100 --> 01:45:55.820
+than 0 that many for loops I should add inside it or else that many recursion calls I should
+
+01:45:55.820 --> 01:46:13.780
+do it is that point clear firstly guys okay now what is the value of depth is doing now
+
+01:46:13.780 --> 01:46:21.300
+when I say that you know depth one it will go and check that okay one two three fine
+
+01:46:21.300 --> 01:46:27.820
+now I see that depth one I have to remove this I'll remove this one I'll merge here
+
+01:46:27.820 --> 01:46:32.940
+I can see that this is depth level two I won't touch it this one I'll push it as it is again
+
+01:46:32.940 --> 01:46:39.900
+this is depth one so I'll add it I'll remain it now this the reason this was left behind
+
+01:46:39.900 --> 01:46:52.500
+was this was nested inside nested got this point somewhere this is talking about depth
+
+01:46:52.500 --> 01:46:58.420
+only when depth is greater than 0 we should go or else we have to push it directly now
+
+01:46:58.420 --> 01:47:04.220
+inside this let's say I don't think why you are not able to think it let's say I have
+
+01:47:04.220 --> 01:47:12.180
+to push it again but I have to push it based on some condition whatever array I have whatever
+
+01:47:12.180 --> 01:47:19.140
+array I have I'll say that this dot I again in order to call a recursion I'll say that
+
+01:47:19.140 --> 01:47:35.100
+get my flat with depth of less than one you guys understand this point what just happened
+
+01:47:35.100 --> 01:47:43.020
+I've reduced the depth so that again I'll call this function recursively I'll call it
+
+01:47:43.020 --> 01:47:58.740
+again once that is resolved this will be pushed into it yeah guys give me thumbs up thumbs
+
+01:47:58.740 --> 01:48:04.820
+down if you are able to understand this logic if not let me know how this is working but let
+
+01:48:04.820 --> 01:48:10.180
+me show you this that it is actually supposed to work it I'll keep it on to the top
+
+01:48:10.180 --> 01:48:34.140
+yeah just a second let's say I do flat to also I try to make it
+
+01:48:40.180 --> 01:49:03.980
+first let's see this if this is working fine clearing it node flat dot JS okay firstly we
+
+01:49:03.980 --> 01:49:25.060
+had an input just a second okay I need to call my flat
+
+01:49:33.980 --> 01:49:50.740
+yeah this is working fine now also I'll try to output firstly console dot console dot log
+
+01:49:50.740 --> 01:50:04.260
+array let's verify this one okay yeah cool so let me go to iPad I think this should be
+
+01:50:04.260 --> 01:50:15.660
+basics to you guys once you have completed DSA have you cleared mocks guys right now
+
+01:50:15.660 --> 01:50:19.060
+let's say what is the input we have took
+
+01:50:19.060 --> 01:50:41.540
+now when this is happening this brace is depth level 0 this level is depth level 1
+
+01:50:41.540 --> 01:51:02.740
+this braces depth level 2 firstly is this point clear what is meant by depth okay once now when
+
+01:51:03.740 --> 01:51:12.060
+let's say if my depth value is 0 what they are saying is that directly you need not to
+
+01:51:12.060 --> 01:51:18.900
+flatten anything there they are they are telling how many levels I should flatten okay if depth
+
+01:51:18.900 --> 01:51:26.180
+level is 0 they I can return directly whatever array they have given to me isn't it I need not
+
+01:51:26.180 --> 01:51:35.980
+to flatten anything only when they say that a flatten till depth level 1 then I should go
+
+01:51:35.980 --> 01:51:52.380
+1 2 3 then 1 then 2 comma 3 then 4 5 6 this is for 1 when they say 2 I can go further
+
+01:51:57.060 --> 01:52:09.140
+okay this is what I can do nice is this clear is this point clear now what was happening in
+
+01:52:09.140 --> 01:52:15.060
+the code what was happening in the code was if you remember whenever we are actually you
+
+01:52:15.060 --> 01:52:22.420
+know coming across this part whenever we are coming across this part we are checking whether
+
+01:52:22.420 --> 01:52:29.100
+the value provider depth is greater than 0 if the greater than 0 is there then we were actually
+
+01:52:29.100 --> 01:52:37.620
+taking this array whole array taking this whole array and we are calling this function again let's
+
+01:52:37.620 --> 01:52:50.540
+say this array 1 2 dot 3 dot my flat reducing depth let's say we passed you we are reducing
+
+01:52:50.540 --> 01:52:59.180
+depth by 1 now on this level when this again actually goes by it if it flattens again this
+
+01:52:59.180 --> 01:53:09.620
+becomes again this one isn't it so this is what is happening we did a multiple recursion calls
+
+01:53:09.620 --> 01:53:16.140
+for this one like for this one we did it two times for this one we did it one time we called
+
+01:53:16.180 --> 01:53:23.180
+it three times if I can dry run and show it to you like in the debugging mode what's actually
+
+01:53:23.180 --> 01:53:30.660
+let me open a debugger tool
+
+01:53:53.180 --> 01:54:06.940
+yes let's say this what's happening firstly this keyword is having five elements with a
+
+01:54:06.940 --> 01:54:13.700
+zeroth index pointing at the first zeroth index so this is not an array type so this
+
+01:54:13.700 --> 01:54:19.820
+condition is failing it came here and we were pushing that element now then we went on to
+
+01:54:19.860 --> 01:54:29.460
+second element then we went on to third element okay now if you see in the local my flat in the
+
+01:54:29.460 --> 01:54:36.020
+response array we have stored 0 1 2 which is 1 2 3 items now when we go to the third index index
+
+01:54:36.020 --> 01:54:49.780
+number 3 let's see where the call comes here okay what is it firstly it is executing this
+
+01:54:49.780 --> 01:54:57.340
+part so let me comment this one I don't need this both things let me let us execute firstly
+
+01:54:57.340 --> 01:55:12.260
+directly this one okay I'll move forward for two levels now if you see what just happened when
+
+01:55:12.260 --> 01:55:21.020
+I is equal to three the whatever we have stored it is of data type of an array and the current
+
+01:55:21.020 --> 01:55:27.260
+depth if you see depth we are talking about is 2 now what just happened here let's see this
+
+01:55:27.260 --> 01:55:34.420
+okay when we are saying that we are calling back again my flat with increasing it now and if I try
+
+01:55:34.420 --> 01:55:52.780
+to do this let's say if I try to triple lot and of do this this of I okay clear this of I I'm
+
+01:55:52.780 --> 01:56:00.060
+getting this an array which I'm spreading it here whole array I'm spreading it and I'm calling on
+
+01:56:00.060 --> 01:56:07.460
+my depth because why I'm spreading it here is that actually cleaning up one level of depth I'm just
+
+01:56:07.460 --> 01:56:14.380
+trying to remove this like first array like whenever I do let's say there's an array let's
+
+01:56:14.380 --> 01:56:22.180
+I store it in the memory called array one I say one two three and let's say I console log
+
+01:56:22.180 --> 01:56:33.580
+spreading an array one you see I've removed that array symbol so that's why I've spread it first
+
+01:56:33.580 --> 01:56:39.700
+level and then I called my function with reduced depth is this point here guys why I am calling
+
+01:56:39.700 --> 01:56:50.500
+back again because my depth is still in still to right once I call this now what just happened
+
+01:56:50.500 --> 01:57:01.340
+if you see here we went on to push here firstly now the current array looks like this it has
+
+01:57:01.340 --> 01:57:09.220
+at the 0th index it has one if you remember at 0th index it has one and the first index just 2 and
+
+01:57:09.220 --> 01:57:21.220
+3 and even in the response array there is nothing else as of now if we keep on adding it if you see
+
+01:57:21.220 --> 01:57:35.420
+there are two things present it's now if you see once we have iterated over this part once we have
+
+01:57:35.420 --> 01:57:42.700
+completed iteration over this part now what it is stored is 1 2 3 and 1 2 3 because two levels of
+
+01:57:42.700 --> 01:57:52.380
+depth recursion calls are completed now then it is going again for this part 2 3 4 ok because I
+
+01:57:52.380 --> 01:58:02.700
+is pointing at 4 here I go back again now if I see that depth level is still 1 it will push it
+
+01:58:02.700 --> 01:58:10.260
+it will push all the elements and then we'll be able to see the output as I hope I hope this
+
+01:58:10.260 --> 01:58:17.100
+example is clear how that array dot flat is working is this anyone who still don't understand
+
+01:58:17.100 --> 01:58:26.940
+this to let me know and if this part is clear I think this is it when it comes here when you
+
+01:58:26.940 --> 01:58:35.260
+come for higher order functions writing you know polyfills nothing much more than for
+
+01:58:35.260 --> 01:58:41.100
+considering higher order functions will be asked okay next class we'll discuss again call bind
+
+01:58:41.100 --> 01:58:49.700
+apply and few more things few more important questions let me commit this
+
+01:59:01.700 --> 01:59:09.420
+I actually picked it up flat as extra it was not part of thing that I have to
+
+01:59:09.420 --> 01:59:15.020
+do but I thought to discuss this because this is something interesting and if someone asks you
+
+01:59:15.020 --> 01:59:23.660
+this one you should be able to do it guys again rechecking before I start the doubt
+
+01:59:23.660 --> 01:59:30.060
+session is this things clear to you all like what we have discussed in today's class all of the
+
+01:59:30.060 --> 01:59:54.020
+topics cool so I'll start doubt session guys then I received very less the amount of thumbs up just
+
+01:59:54.020 --> 02:00:00.500
+want to check like again started out session guys but do let me know I can recall few names
+
+02:00:00.500 --> 02:00:16.380
+I have to some bits in class Pramod Rajni Hemanki guys are you able to follow up did you guys
+
+02:00:16.380 --> 02:00:32.500
+understand upendra right in that case guys keep practicing this one if someone asks you polyfills
+
+02:00:32.500 --> 02:00:40.100
+I hope you will be able to explain them using a flat is really simple easy you should be able
+
+02:00:40.100 --> 02:00:52.940
+to also build that one someone asked it just want to know when I asked a flat no one told
+
+02:00:52.940 --> 02:00:58.980
+me that I would be applying a recursion when do you guys think that recursion should be applied
+
+02:00:58.980 --> 02:01:09.300
+yeah Rajni will do that give me a minute I'll open whatsapp and share the link yes when do
+
+02:01:09.300 --> 02:01:27.860
+you think that recursion should be applied any idea guys when would you go for recursion
+
+02:01:27.860 --> 02:01:41.940
+solving sub problems are solving same sort of problems same problems right when you have
+
+02:01:41.940 --> 02:01:47.460
+same sort of problems again and again occurring so you don't write a logics for them so in order
+
+02:01:47.460 --> 02:01:54.340
+to call you create a one function you will keep calling that function and amount of time so
+
+02:01:54.340 --> 02:02:10.020
+you have that same sort of problems right okay whatsapp web and how would you figure out like
+
+02:02:10.020 --> 02:02:16.540
+when DPA should be applied I'm just thinking like you know asking you some random stuff
+
+02:02:16.540 --> 02:02:29.180
+when how do you come to know that when if there are like you know DPA should be applied
+
+02:02:29.180 --> 02:02:43.420
+right so whenever you come across a point where you see that there are same sub problems like
+
+02:02:43.620 --> 02:02:47.900
+whenever you are in recursion if you see that there are some same parameters are being passed
+
+02:02:47.900 --> 02:02:54.980
+each time and same time you are getting the same result in that use cases you actually use DPA
+
+02:02:54.980 --> 02:02:59.980
+where you try to optimize that hey once if I solve the problem why should I do it again
+
+02:02:59.980 --> 02:03:20.300
+let's let's let's you know optimize that logic guys be okay I've shared whatsapp chat actually
+
+02:03:30.860 --> 02:03:36.980
+nice there's any any other doubts in our class today's class or anything else if you have
+
+02:03:36.980 --> 02:03:43.420
+anything please feel free to ask I'm here for some time or else we can close the session if
+
+02:03:43.420 --> 02:04:02.540
+there are no doubts I'll wait for one two minutes how's your appraisers going on this
+
+02:04:02.540 --> 02:04:16.700
+month have you got your appraisers write your current form guys no not yet
+
+02:04:16.700 --> 02:04:38.020
+okay report to release next week seems to be okay hey why where do you work upendra
+
+02:04:38.020 --> 02:04:55.740
+which form is it is it happening with everyone or like bank based out of Bangalore Bangalore
+
+02:05:26.580 --> 02:05:32.740
+there's a few people in Jigini and work from and my related works there I've been to Jigini
+
+02:05:32.740 --> 02:05:56.140
+start of my career I started with HCL so guys I don't see any doubts coming up so can we close
+
+02:05:56.140 --> 02:06:02.740
+the session tonight I hope you get back the one hour that you have and try to solve the
+
+02:06:02.740 --> 02:06:09.340
+assignments guys try to keep preparing yourself for the context upcoming context next week
+
+02:06:09.340 --> 02:06:15.380
+revise those topics in case you have anything bring me in what's app or in the class we'll
+
+02:06:15.380 --> 02:06:24.060
+pick it up and we'll try to discuss that thought topic okay so from my side that's it guys then
+
+02:06:24.100 --> 02:06:28.860
+see you in the next class where we pick up few more polyfills and try to revise few more concepts
+
+02:06:28.860 --> 02:06:36.500
+like as we did we revise the concept then we went on to build a polyfill happy shivarathri
+
+02:06:36.500 --> 02:06:43.940
+all happy happy shivarathri upendra thank you all guys for attending hope to see you soon on the
+
+02:06:43.940 --> 02:06:57.340
+Saturday yeah it takes time for the practice I completely agree some bit with with time you
+
+02:06:57.340 --> 02:07:03.860
+will get it so whenever I'm explaining I just want to be sure that the topics whatever I'm
+
+02:07:03.860 --> 02:07:09.380
+trying to explain you you are able to understand that part and with repeating with you do it
+
+02:07:09.380 --> 02:07:13.580
+personally when you type it down you'll get it further it's like when I'm typing it down it's
+
+02:07:14.220 --> 02:07:19.380
+like a magic for you guys firstly so until you try to repeat it you won't be able to feel it up
+
+02:07:19.380 --> 02:07:29.380
+okay it's like virat koly playing cover drive right until this you don't practice it you won't
+
+02:07:29.380 --> 02:07:36.180
+get it we know that okay what is cover drive when the ball is pitching up on the fifth
+
+02:07:36.740 --> 02:07:45.300
+side some you guys try to you know play it we know it but it comes with a practice same thing
+
+02:07:45.300 --> 02:07:54.780
+so otherwise then with that I'll close the session for today see you on Saturday thank
+
+02:07:54.780 --> 02:08:04.260
+you Muneeshwara bye bye guys good night take care again happy shivarathri all
+

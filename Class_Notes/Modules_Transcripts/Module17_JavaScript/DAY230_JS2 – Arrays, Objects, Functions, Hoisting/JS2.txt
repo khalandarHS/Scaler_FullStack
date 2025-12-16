@@ -1,0 +1,2744 @@
+Hi y'all, how's everyone doing?
+Am I audible and visible guys?
+Give me a thumbs up, thumbs down if you can see me, hear me out.
+Great, great, thank you.
+Let me do a screen share and start the timer so that we'll wait for that amount of time.
+And then we'll get started with today's class.
+Just do let me know if you can see the screen share too.
+Great, good evening.
+So guys, how was the assignment?
+How was the contest?
+Did you face any challenge in the contest or it was fair and simple and straightforward?
+Give me a thumbs up if you have cleared it, if you have attempted it.
+Easy, right?
+Cool.
+Great guys, I see that people who have attempted it, more than 90% of them have cleared it.
+Only 1-2 people, I think they left the exam in between because their score seems to be completely zero.
+They didn't attempt it.
+Yeah Kabir, we'll pick it up later.
+Okay, once we complete the content for the class, then I can pick it up.
+I think it was okay.
+Two days.
+I have an announcement too guys.
+Once we have enough people joining the class, then I'll talk about it.
+But in between guys, I would request you one thing, right?
+Who are following up?
+Whenever we are learning JavaScript.
+So I would ask you to follow one of the websites.
+Like JavaScript info.
+This particular site.
+And try to read through this fundamentals and everything.
+I would say every topic.
+I've read this I think 3-4 times but I keep revising this stuff again and again.
+Okay.
+So it has 3 parts.
+Basically, first is JavaScript language.
+Then you can explore browser events, everything.
+That we'll be introducing once we start with Tom.
+But then there are some additional topics like if you want to read through them.
+But you'll see that all the topics are clearly explained here.
+I'll pin this one.
+So why I'm giving you this one is that I want you to all follow up this one.
+And whatever topic we are picking.
+Let's say we completed variables and data type.
+Go through that.
+Understand that.
+If you have any challenge on that one also, do let me know.
+This is something site you'll be coming back and referring back again and again.
+For JavaScript at least.
+Because I prefer that one.
+If you have any better resource.
+Feel free to go through it.
+Read through it.
+Okay.
+But in case you have doubts, do let me know.
+One thing I want to make sure is that when you are preparing.
+When we are going through JavaScript classes.
+I hope you are following up.
+You are studying the content.
+Other than also with the classes.
+So that whenever there is a mock interview.
+Which is coming along with HTML, CSS, JavaScript.
+In future.
+Down the line after a month.
+I want you to be confident on that.
+Like from day one day.
+For the first class itself.
+Since it's the second class.
+Highlighting that.
+Be confident.
+Be prepared.
+Each day whatever topic we are going through.
+Just go through that JavaScript info.
+And try to explore and read through it.
+Works guys.
+Because at the last moment right.
+If you again try to prepare.
+Freshly for the interviews.
+It would be really difficult.
+So we will be doing it parallelly.
+And I will try to highlight those things.
+Which are like interview points.
+Which are important.
+Can anyone help me with dropping.
+Like a text in WhatsApp group.
+Like we are getting started.
+I see less number of people today.
+Meanwhile I will share my iPad.
+Guys anyone can share WhatsApp group.
+Link here.
+I will pin that one too.
+Would be thankful.
+Meanwhile I will stop the timer.
+Since the time is up.
+And we will get started guys.
+Okay.
+So before getting started.
+I have a small announcement.
+So I will be on leave.
+And I will see you guys later.
+Bye.
+I will be on leave from this Saturday.
+To Friday.
+Next week Friday.
+I have my sister's wedding.
+My own very own sister.
+Elder sister's wedding.
+So I have to take care of many things.
+So I won't be able to take.
+Your Saturdays.
+And Tuesday.
+And Thursday's class.
+So I have requested for a replacement.
+Instructor for three classes.
+So I will let you know.
+Who is getting assigned and what.
+One thing I will make sure.
+That he teaches you.
+To the best quality of content.
+And even I will provide.
+You know my notes.
+That I have taken in the previous batches.
+That I will share it in the same GitHub repo.
+So that you have both the things.
+Works guys.
+So I will give you the name of the instructor.
+And everything in the Thursday's class.
+Great.
+So I have pinned this Whatsapp link.
+Ok fine.
+So guys.
+Rather than writing anything in iPad.
+Let's go to the code.
+Since we started on JavaScript.
+It's more of a coding now.
+Thank you so much.
+Promote that.
+We will be delaying your classes right.
+We want your.
+Whatever we have promised.
+Those to be on track.
+I will be anyway sharing my code.
+I will also be explaining things.
+Ok.
+So.
+I will make sure that you know.
+Rhythm is not affected.
+Because I will be trying to cover those also.
+And I will talk about that thing.
+How it will work.
+Ok.
+So guys.
+In last class.
+We stopped at.
+Arrays in depth.
+So we.
+Like we were exploring all the methods.
+Which are available in arrays right now.
+I have asked you to go through the slides.
+And try to see the syntax.
+And use this. Has anyone explored that one?
+Did.
+Do you remember that? Or like.
+Did you get a chance to explore this?
+Give me a thumbs up thumbs down guys.
+If you didn't.
+That works even. I will try to explain.
+Good. I see no one.
+Ok.
+So one thing we will do is that.
+Firstly I will revise everything.
+So we remember push and pop.
+What does push and pop does?
+Adding and removing from the last index of an array.
+Similarly unshift and shift.
+Which are like removing and adding.
+From the first index of an array.
+Zero index.
+And slice is somewhere.
+If you want to cut.
+A particular piece of an array.
+You have to give a starting and ending index.
+If you want that particular slice of an array.
+It will return you a new array.
+Or else if you want only like starting.
+From a particular index until the end index.
+You can give only the starting index.
+This is what we have explored in the.
+Like these methods.
+Now splice is a powerful method.
+So what it does is it gives an ability.
+To add remove replace items.
+So now let's see one of the ways.
+How you can add it firstly.
+So collapse is existing code.
+So that we can see.
+Now if you see an array of 1 to 10 is something we are having.
+So what I will do.
+Is that let's say I create a new constant variable.
+Saying D.
+And I will say that A dot splice.
+Okay.
+Now whenever I do splice.
+If you see I am getting here in the suggestions.
+Starting number and delete count.
+Okay.
+It can be a number or undefined type.
+So what I will do is that.
+Number of variables.
+Let's say I want to start like.
+Add items from the index 1.
+And I don't want to delete any numbers.
+So I will say that 0.
+Then let's say I will go and.
+Try to add this one.
+Let's say now if you see we have 1 to 10.
+Let's say it index 1 from this position.
+We add 3 5's.
+Let's say we do 5 comma 5 comma 5.
+Okay.
+Now let me do console lock.
+Of this one.
+And I will show you guys this one.
+Node array start.js.
+So.
+Okay. I have too many things.
+Give me a second.
+Okay.
+It doesn't return an array firstly guys.
+So it changes the existing array.
+Let me.
+Comment other things.
+It does return it.
+Okay.
+Clear.
+Okay. We are getting an empty thing here.
+Empty array to be.
+You know.
+As returned.
+Okay.
+Splice whenever we are doing splice right.
+It will affect the exact array.
+But it won't return a new array.
+That is what it does.
+Let's say now if you see what just happened.
+No it's a splice shape.
+Okay.
+So.
+What we are doing is like we are starting an index one.
+Like.
+If I write down what the parameters are.
+Start index.
+And then.
+Delete items.
+Delete number of items.
+Then.
+All the items.
+You can say all the items.
+Okay.
+So what I did.
+I said starting index is one.
+And I don't delete any items.
+So make it zero.
+And add all of these three five.
+Into this array.
+So if you see after one.
+Then it started with two three four again.
+Right.
+I hope this is clear guys.
+How this.
+It works for adding.
+Similarly if you want to delete it.
+Let's say if you want to delete it.
+One way is like you can say splice.
+And then you can say that hey.
+Starting.
+Like this is.
+Acting as a adding.
+Items.
+Into array.
+Let's say.
+This will work as a delete.
+Okay.
+Now let's again we do console.log.
+Okay.
+Let's say I clear this.
+And I execute this again.
+Now if you see. Firstly what we did.
+We tried to add three items.
+One.
+And I added three.
+Then I printed it.
+If you see while adding again the same result.
+One triple five and two three.
+All these things.
+When I'm trying to remove all these things.
+Which I added just recently.
+And it is also removing it.
+Is this clear like how this works.
+Like adding and removing.
+Guys thumbs up.
+If this point is clear like adding and deleting it.
+Okay now.
+Then there is a third thing called replacing it.
+Replacing items.
+In an array.
+So when you want to replace right.
+Now you have to give.
+Like first.
+Like index like let's say.
+I want to replace items from 0th index.
+And I want to add.
+Like to replace two items.
+From there.
+Then I'll say that can you give me.
+Something like 12 and 13.
+So this is supposed to make.
+And build an array.
+Like 12 and 13.
+Then 2 then 3.
+And then 4.
+What we are trying to do is like we are starting from 0th index.
+And we are trying to replace two items.
+With 12 and 13.
+Let's see this once I do a console log.
+Clear.
+If you see.
+It's 12 13.
+4 5 6 7 9 10.
+Right.
+This is what our output is.
+So I hope this.
+Is clear like how this works.
+And what are the parameters it is taking.
+Sorry arguments it is taking.
+And how we are passing it calling it.
+Any doubts guys.
+Any doubts in all the array methods that we have discussed.
+If you have anything do let me know.
+Then I'll go to today's class.
+Which we want to pick it up.
+No doubts.
+So let's get started guys.
+Today's.
+Content with something.
+Like we'll explore things in the objects first.
+Objects.js.
+Since we have dealt with an array.
+Like how we can add delete remove items.
+From the array.
+Similarly we'll see in terms of objects.
+So let's build some.
+One object.
+Called as you know.
+Have you.
+Is anyone fan here from the.
+Movies like.
+So.
+Who is the main character guys.
+Who plays around like.
+Like Marvel movies.
+Like.
+I thought so Abhishek.
+And everyone thinks.
+I don't know.
+He is a cool guy.
+Who is the leader guys.
+Who is the leader.
+Captain America right.
+Let's let's build.
+Captain America.
+Once Iron Man died I feel like.
+Marvel has ended the story right.
+So it doesn't.
+Show up the same same like.
+Interest like I don't have to.
+I don't find same interest.
+Even Captain America doesn't exist.
+No.
+Does anyone remember the character name.
+Captain America what was his.
+Marvel still.
+You know they are building.
+Like.
+Some series I've seen one series.
+Steve Rogers right.
+Steve Rogers right.
+Now and then.
+What could be his age guys.
+How long he lives.
+Any dialogue do you remember.
+Any dialogue. When.
+165.
+165.
+Then let's say.
+If I write allies.
+Who are his allies.
+You can give his name.
+Team name.
+Go by names.
+Let's try to remember the names.
+Winter Soldier.
+Give me the name.
+What was the name of Winter Soldier.
+Tony is someone.
+I can write.
+Yeah Bucky.
+Then.
+What was the role of Scarlett Johansson.
+In that.
+I mean character name.
+Black Widow is fine.
+What was.
+Actual name.
+Natasha right.
+Do you remember this Natasha.
+Then.
+Our hulk.
+No one mentioned hulk.
+No one mentioned hulk.
+That's a banner.
+That's a banner.
+Okay.
+So these are the like let's say least.
+Basic allies.
+We also have a Thor.
+We'll write a Thor.
+Now.
+Let's say what would be the address of this.
+Captain America guys.
+What would be the address of Captain America.
+Let's say I give a country.
+What could be the country.
+By default I'm getting United States.
+Because everything.
+Happens is like starts problems.
+In United States itself.
+And let's say if I go for city.
+It's Brooklyn right.
+Rather than New York it's Brooklyn.
+Then.
+Let's say I give some pin code.
+In the US they call it a zip code.
+And let's say.
+Five digits.
+And.
+Let's say we also have something like.
+Is Avenger.
+Is Avenger leader.
+Is he leader for the Avenger team guys.
+Right.
+Then let's say.
+I am just adding a function.
+Random function.
+I.
+Console dot log.
+Captain says.
+Hi.
+Okay.
+Now.
+What I just did.
+Is that we built an object.
+With all the existing data types.
+We have discussed.
+Isn't it.
+Do you see an object in object.
+Do you see an array inside.
+Do you see a number.
+String boolean function everything.
+That we just discussed.
+Right.
+Is.
+Is anyone having any doubt in this.
+Like how is this possible or anything.
+Because this is a custom data type.
+How you do it.
+Simply without using classes in JavaScript.
+That you can keep on adding any key.
+Value pairs directly.
+Okay.
+Now.
+Once we have defined it.
+Now let's say three things.
+Accessing.
+Accessing the keys.
+Accessing the items.
+You can say items of.
+Object.
+Then.
+Updating.
+Items of object.
+Adding.
+The items.
+Into object.
+Then.
+Deleting.
+Object.
+These are the four operations.
+That is something possible on any data right.
+Which we call it as crude.
+Right.
+Something that you can do on any.
+Like database or data type.
+Create.
+Update and delete.
+These are the four operations.
+Now we will try to do this all four operations on.
+Object and we will see that how we can do it.
+Or how we can read it.
+Now one of the simple way.
+If you want to read anything right.
+Out of object.
+So let's say first thing is.
+Like you have to get a hang of this object.
+That object name is Captain America.
+And using dot operator.
+You can access all the items in it.
+Like let's say hi.
+Address, age, allies, name.
+Let's say I print the name.
+And also what I can do is that.
+I can say console.log.
+If I want to execute a function inside it.
+Let's say Captain America dot.
+I say this is like.
+Say hi.
+It's a function.
+So I can call this function.
+Is this point clear guys.
+Like how you can access an item.
+Out of an object like using a dot operator.
+Pretty straight forward simple right.
+Now.
+How can you update it.
+Now.
+If you want to update anything right.
+Let's say.
+What we will do is that for updating.
+Let's say.
+You know at the moment when.
+There was a new captain for the.
+Marvel right.
+Someone like Wonder Woman.
+Some character came in.
+I don't remember her name though.
+New person came in.
+So then this Captain America.
+Was not a leader.
+But she was an Avengers leader then.
+So what you can do is like.
+You can go to Captain America dot.
+Is Avenger leader.
+Then you can make it false right.
+So you can update.
+Existing values of an object.
+Using this way where you can assign.
+New values using like equal to operator.
+This is like assigning a new.
+Similar you can do anything.
+Up to it.
+Right you can update it.
+Then if you want to add it.
+Let's say if you want to add.
+Items into an object.
+One way is like you have to give.
+The same object name.
+Then you can give like let's say.
+I want to say the movies he appeared in.
+And let's say I have an array of movies.
+Then.
+I'll keep something like civil war.
+Then let's say I have something like.
+Endgame.
+Endgame then.
+Age of Ultron.
+Then Infinity War.
+So what I'm doing is like.
+Whatever new key I want to add into object.
+That thing is something that I'm.
+Trying to get a new.
+Since it is not available.
+Even using dot operator.
+I can give new values and assign the new values to it.
+Okay.
+Your first Avenger.
+Is this clear guys.
+Say hi will be returning undefined.
+We'll check that Abhishek.
+But it's like accessing updating.
+Delete is like sorry.
+This three functions are clear right.
+How we can do operate on an object.
+Similar way you can.
+You know you can always delete something like.
+Let's say.
+I want to do a console log here before.
+Deleting it.
+I say Captain America.
+Object.
+Then let's say I want to delete.
+Movies out of it.
+You know to delete right.
+You can use a delete keyword itself.
+You can say delete keyword.
+Then you can say object name.
+Movies whatever things you want to delete.
+Or data.
+Whatever data you want to do it.
+So this way you will be able to delete.
+The things.
+Let's say.
+I say added.
+Movies.
+Console dot log.
+Remove movies.
+Then.
+Console.
+Log.
+Updated.
+Later status.
+Right now let's say what things are.
+Going on here.
+What I'll do is like I'll go into this file.
+And execute this one.
+If you see.
+Let's explore this.
+One by one.
+First thing.
+Please come again once.
+I'll come back again I'll revise everything some bit.
+Let's see this one guys.
+One by one again.
+So firstly we built an object.
+Then we have assigned.
+All the types of properties in it.
+Then we are trying to access it.
+If you want to get a name.
+Yeah.
+Right.
+We wanted to access the name.
+Now using a dot operator you will be able to access it.
+Then after.
+We went into console log and we thought to.
+Execute function.
+And.
+If you see here.
+That execution got happened.
+It says captain says hi.
+Then if you see.
+We updated the status of East Avenger leader.
+Is equal to false.
+And if you see updated leader status.
+Here.
+And East Avenger.
+Is like false.
+Then we went on to.
+Add something like movies into the.
+Same Captain America object.
+And now if you see.
+Movies got added here.
+Then.
+We went on to delete.
+Now after deleting.
+The object is still same.
+Like I mean.
+After removing movies.
+Is this example clear guys.
+Like how this is working.
+Basically.
+Everything is done through a dot operator.
+You can access it.
+You can update it.
+For delete only you have to give a special.
+Keyword called delete.
+Then you have to access whatever property you want to delete.
+Or object you want to delete.
+Okay.
+I hope no doubts in this.
+No doubts.
+One final thumbs up guys.
+I need few more thumbs up if you want me to go ahead.
+So we covered up to an extent.
+For both.
+Arrows and objects.
+What if.
+We assign undefined.
+Undefined is not something you should assign at any time.
+Abhishek.
+Okay.
+I see one thumbs down.
+Shubham.
+Do you have any doubts?
+I hope you don't.
+If you have anything do let me know.
+I will take your doubt.
+Okay.
+I will revise it.
+So what we were doing.
+Is that we created an object called.
+Captain America.
+In this we added few set of fields.
+Key value pairs.
+Where name, age, allies, headers.
+High function.
+So we covered all the possible data types that we discussed.
+Okay.
+Once we discussed this one.
+Then we thought to see like hey.
+We have seen on array how we can add delete and remove replace everything.
+How can you do it?
+So I have written four examples.
+Like how can you access update and delete.
+So if you see.
+If you want to access any item.
+And print it or like print it.
+Then you can say that object name.
+A dot.
+Any key that you want to access it.
+Okay. If it is a function you have to execute it.
+If it's a key directly you can access it.
+Similarly if you want to update it.
+You have to get that particular object.
+Key and assign a new value.
+And if you want to add all together.
+A new item into that object.
+As a new key value pair.
+You have to just say that object dot new key.
+And then the whole value.
+It will be added.
+Similarly if you want to delete you can use delete key one.
+And delete any key that you have.
+Is this clear Shubham?
+Can we go ahead?
+Yeah updating zip code.
+Let's say if you want to update the zip code.
+Let's say I'll do it here.
+If you see I have
+1 2 3 4 5
+I'll do Captain America dot.
+Then address dot.
+Address dot city.
+Dot zip code.
+I'll say instead of 1 2 3 4 5
+Say 5 4 3 2 1.
+And I save it.
+Let me re-execute this one.
+Node object dot js.
+If you see.
+Once we are updating it.
+It got updated here.
+Like updating status.
+Is this clear?
+Okay nice.
+Moving ahead guys.
+Since we have explored.
+Good element of these two things.
+Now it's our time to go into the functions.
+And understand different keywords.
+Generally interviews try to.
+Irritate you with those keywords.
+There's nothing much logic in it.
+But we have to understand a few things.
+So I'll try to show you how.
+What are these things that you have to remember.
+Those are keywords.
+Let's say there's something called.
+Function statement.
+Does anyone know what function statement is?
+Function and declaration.
+Similarly you have.
+Function expression.
+So these are the like.
+You know different words they use it.
+Like do you know this do you know that.
+But you know in a way.
+You might have used many times.
+But you don't remember it.
+It works that way.
+Let's say anonymous function.
+Then you have named.
+And then you have.
+And then you have.
+And then you have named.
+Function expression.
+Then let's say.
+You have.
+I have a function.
+Ok.
+These are the list of functions that are existing.
+We'll explore one by one and we'll see.
+Now whenever one say that.
+You know function.
+Statement and declaration.
+The both are talking about same thing.
+Ok.
+Now let's say if I write down here.
+Function declaration.
+And statement.
+Both are talking about same thing.
+Which is like you just say function.
+Sorry guys.
+Say hi.
+I'm using that still.
+So.
+Let's say who is wishing whom.
+I use from and to.
+I use console log.
+From.
+Is wishing.
+Hi.
+To.
+Ok. So let's say this is a function.
+Now whenever you declare a function.
+What we have just declared a function.
+And this particular thing is itself called as a function statement.
+Is this point clear.
+Whenever we say function declaration or statement.
+We are talking about same thing.
+So I hope you won't be confused.
+Whenever someone is talking about.
+What is function declaration or statement.
+In future.
+Right.
+So now.
+What these two things are called guys.
+What these two things are called.
+From and to.
+And.
+Anyone in the class.
+What this from and to are called.
+Parameters.
+Do you guys agree if I call them as a parameters.
+Function parameters to be specific.
+Right.
+No. Let's say.
+I say say hi.
+And I say that let's say.
+I'll be shake.
+And let's say.
+So now.
+The expected output would be.
+Abhishek is wishing hi to the Ratan.
+Right.
+No.
+But.
+What these things are called guys.
+What these things are called.
+What is Abhishek and Ratan.
+Function arguments right.
+So whenever.
+You are calling.
+Executing that particular thing right.
+So you say that you are passing an arguments.
+Into it.
+Okay. And whenever you are receiving.
+Inputs into a function those are called function.
+Parameters.
+Okay.
+I hope you would remember this case a difference.
+Between parameter and argument.
+Whenever you are executing it.
+You are generally passing whatever things you are passing.
+Those are called arguments.
+But whenever you are accepting those are called parameters.
+If you see.
+Whenever I am highlighting also it shows parameter.
+Parameter like you know.
+Now if I go here.
+Let's see.
+It doesn't show anything.
+But these are just called as arguments.
+These are the parameters.
+This is a function declaration and statement.
+I hope these points are clear till now.
+Let's open this terminal.
+And just execute it for sake.
+Node function.
+JS.
+So we are able to execute that one.
+But moving ahead.
+Now let's say.
+Parameters are like variables.
+Yeah.
+So those are like any data type you can declare it.
+You can accept and you can play around inside the function.
+Okay.
+Now.
+Going ahead guys.
+Then there is something called.
+This thing is what we call this one guys.
+When I say say hi and I am passing parameters.
+What we call this?
+Anyone?
+What we call this?
+What we call this?
+Can I say function invocation simply?
+Function calling or function invocation.
+Right.
+So.
+Let's remember these keywords as this one.
+So I am trying to say that hey.
+This is not something that you don't know already.
+But it's just you know.
+Sometimes people get confused in the pressure of interview.
+So I am just giving you those names.
+So that whenever you come across these names.
+You will remember them.
+Okay.
+So.
+Now let's go to function expression.
+When I say expression.
+It means that I am storing a function inside a variable.
+Let's say.
+I say say hi expression.
+Okay.
+I can still copy this one.
+Or else I can still copy this one.
+And I can put it here.
+Can remove this name.
+And I can say from.
+Say hi expression.
+Okay.
+So.
+You can do in JavaScript is like as if you see.
+When we declared objects just now.
+Earlier.
+We were able to assign.
+You know.
+Function to a particular key right.
+In the same way.
+Even in the JS you can.
+You know assign a function to a particular variable name.
+Whatever variable you have defined.
+So whenever you are defining this.
+Whenever you are attaching a function.
+To a particular variable.
+That is called as function expression.
+Is this clear.
+Like you can say if I want to be specific.
+You can say.
+That function is anonymous right.
+Function doesn't have a name.
+Okay.
+So whenever you don't have a name.
+You say them as an anonymous function expression.
+Okay.
+But let me again.
+Copy this.
+And say hi.
+Expression.
+Re-execute this one.
+Give me a second.
+If you see.
+I am able to print.
+Say hi.
+Expression.
+Called as.
+Function expression.
+I declare it here.
+And I say one.
+And I say as a say hi.
+Okay.
+Okay.
+Okay.
+Okay.
+Okay.
+Now.
+Whenever you do this.
+Whenever you do this.
+Even if you want to execute.
+Am I audible now. Voice breaking.
+Guys can anyone confirm me.
+Again.
+Now better.
+Okay.
+Okay.
+Thank you guys.
+Thank you for letting me know.
+But now.
+So what I was talking about.
+Have explored function expression.
+If you see here.
+When we declared this one.
+We didn't name anything this function yet.
+Like we just defined function.
+And then we gave parameters and its function body.
+Now if you go and say.
+Even create a name right.
+Even if you give this name.
+It's something called as named function expression.
+Okay.
+Let me do one thing guys.
+Let me do.
+Again like I'll try.
+Can you hear me now.
+Better.
+If you face again.
+I'll switch my wifi network.
+To the something other thing.
+Okay.
+If you face that challenge.
+Let me know. I'll try to rejoin the class.
+Okay.
+Okay.
+So.
+So whenever you are using.
+You know name to a function.
+Which are assigned to a variable right.
+That is called as named function expression.
+Like here I am saying say hi.
+But that doesn't really play any role guys.
+Like if you even.
+If you want to execute this function.
+You are supposed to call this function.
+Say hi from expression one.
+And let's say I also give.
+Here keyword.
+Just to know this one.
+And I copy.
+This whole thing.
+I paste it here. I say one.
+Okay.
+So there is no difference as such.
+Like if you see I am getting from expression one.
+Expression.
+And simple function.
+Okay. So this is called as.
+Anonymous.
+Function expression.
+To be write this word.
+Anonymous.
+This is called as a.
+Named function expression.
+Any doubts guys on this.
+Like these are like just.
+Functions that we have rewritten.
+Again and again.
+Like.
+With the different conventions.
+Guys.
+Are you able to follow up.
+Or my voice is still breaking.
+Yeah both are same.
+Even if you want to call it.
+Like let's say even if you want to call it.
+You are using the same variable name.
+But here.
+Whenever you are declaring a function.
+Attaching a function.
+If it is having a name.
+It is called as a named function expression.
+Or it will be called as.
+Anonymous function expression.
+But from the execution point of view.
+There is no change.
+That's just a keyword guys.
+Even whatever I am writing it down.
+I believe you already know it.
+I am just explaining those keywords.
+That I have written on the top.
+Because whenever you see these keywords.
+For the first time in interview or any place.
+You get confused.
+So I am trying to remove that jargon.
+From your head.
+This is really simple and straight forward.
+So then there is something called as.
+Arrow function.
+Which you can say.
+I say hello.
+And I just declare a function this way.
+Without a.
+Function keyword itself.
+Now I avoided.
+Function keyword also.
+Now I can say again use the same thing.
+Let's say.
+Copy and paste.
+I will remove this one.
+And I will add.
+The syntax.
+So how many of you are familiar with this syntax.
+Whatever I have written.
+Have you seen this in any language earlier.
+No one.
+Guys Java 8.
+If anyone worked with Java.
+Functional expression.
+How would you use to write.
+That is the same syntax.
+So for the people who haven't seen right.
+So what we are doing here.
+It's a new way.
+And this was introduced in year 6.
+So this.
+Will solve some problems.
+Will come to that problems.
+What we call it as what problems this.
+This particular sort of function was.
+Solving in future.
+But as of now I'm just introducing.
+Different types of declaring a function.
+Or calling them.
+Ok.
+So this is also one of the way.
+You can declare a function. If you see.
+What are types of ways are there.
+You can call a particular function.
+As like a function declaration.
+Or statement.
+Function expression.
+Named function expression.
+Then arrow function.
+All of them are still doing the same problem.
+It's solving the same problem.
+Isn't it.
+They have like too many names to it.
+Just too many names.
+Ok.
+This file I just created so that you can go.
+And revise the stuff.
+Like you know.
+Just in a snap of a time.
+Ok.
+Now.
+There is one more thing guys.
+You know in JavaScript functions are called as.
+First class citizens.
+Have you heard this keywords.
+First class citizens.
+Or.
+First class function.
+Ok.
+So you know.
+These two keywords.
+They use it like.
+To say.
+Like you know.
+In JavaScript functions are really powerful.
+And they are called as first class citizens.
+Or first class function.
+So why is it so.
+Why is it so they are called so many things.
+So because.
+In JavaScript right.
+Functions can be used.
+Functions.
+Can be used.
+As methods.
+Right.
+Guys.
+Is my network failing again.
+Just want to check with you.
+Ok. No right.
+Yeah.
+So functions can be used as methods.
+And as variables.
+And.
+Can be passed.
+Into function.
+And can be returned.
+From a function.
+So let's say what.
+What do exactly mean is that.
+Functions.
+If you see.
+If you remember this like.
+If you go for any other languages.
+Right. If you go for any other languages.
+Like the language you might have worked with.
+A particular.
+You know.
+Function might not accept.
+Function as a parameter.
+And you know.
+It cannot return a function from a function.
+Right.
+Have you seen those like use cases.
+Can be done in any language.
+If you remember in Java.
+Whatever functions you declare in the class.
+You cannot return a function from a function.
+Right.
+And you cannot accept even a function.
+Because you have to define a type.
+Right. So these are not possible.
+No. But in JavaScript.
+All things are possible.
+So how this is possible.
+I will show you this example.
+Let's say I.
+I declare a function.
+An arrow function.
+Let's say that.
+This thing will return something called as.
+Let's say say hello.
+So what I am doing is.
+I am returning a simple string.
+Whenever someone executes this one.
+Now let's say I create another function called.
+Hello world.
+And I say.
+Whatever param it receives.
+Okay.
+And I will say that. Hey.
+What param you are receiving.
+Return that param.
+Okay.
+Now.
+If I say console.log.
+Let's say hello world.
+Inside that param I will pass hello.
+What I am supposed to return guys.
+What I am supposed to return here.
+What it will come here.
+Inside the console.log.
+Say hello. So how many of you think that.
+This thing will be written.
+If you think say hello will be written.
+Give me thumbs up.
+Okay. I see many people are thinking.
+Right. Say hello will be written.
+Guys just think of this one.
+How would you execute this function.
+How would you execute this function.
+By passing whatever parameter you are passing.
+Right.
+I am passing of.
+Parameter called as hello.
+But did I execute anywhere hello.
+Still.
+Did I execute hello.
+No right. Then how will I.
+How it will return say hello.
+Let's see what it will return first.
+Clear this console and.
+Let's execute this one.
+Now if you see.
+This hello world.hello is returning a function.
+So I just wanted to show.
+This statement that hey.
+You can pass a function into a function.
+And you can also return a function from a function.
+Is that clear.
+Like this two statement.
+Can be passed into a function.
+Can be returned from a function.
+Is this statement.
+Justified guys.
+Right.
+Now if I want to execute this.
+Whatever returned function is there.
+One way I can do is like I can call again.
+Whatever function is written.
+I can call again.
+Or else I can always do something like const.
+New func.
+Let's say new func.
+And I can say again.
+Hello world.
+Right.
+Then you can say.
+Call hello.
+And you can say.
+New func.
+Of this one.
+So always you can do something in two steps.
+But also you can do something in one step.
+Like whatever function is written.
+Execute that.
+So let's say execute.
+Now it is printing say hello.
+Is that clear. Like why it was not coming earlier.
+Now it is coming.
+So.
+This is the reason why.
+In JavaScript you know functions are called as first class
+citizens. Whenever I say first class citizens.
+Are the people who are having
+higher powers in society.
+Like if you go and search.
+Key word like first class
+citizens.
+Okay.
+If you see.
+A member of a class of individuals
+that receives a fair treatment.
+Or like a top.
+Or you can say.
+Let's say.
+If you see. The president is a first class
+first citizen of India.
+I mean generally we are talking about
+someone who is having more powers.
+Or more things right. More speciality.
+Than other
+existing thing. This is the reason why.
+And why it is.
+What type of powers it is having is like
+this statement. It can be used as
+a method. A simple method like
+whatever we have declared first.
+But it can also be used as
+a function expression.
+And it can accept
+functions as a
+parameter and can also return it from
+there. Is this clear.
+Like why we are calling these two
+keywords.
+Why we are using these
+two jargons to these functions.
+Guys how many of you
+are clear with this point.
+Or whatever we have learned.
+So I see one thumbs down.
+Give me a minute and
+check.
+I see one thumbs down.
+Sambit is it
+clear or like.
+Do you want
+me to repeat. Anyone do you want me to repeat
+this one.
+Okay let's repeat this one guys.
+Let's repeat this one.
+So what we have
+understood here till now is that
+different types of.
+Okay let's
+see this guys. Let's see this from the starting
+again. So we have declared different
+types of you know
+different jargons we are trying to explore
+that on a function.
+So first we declare a simple function
+and this function can also be called as
+whenever you are declaring it. It's a function
+declaration or function statement.
+Right. And this is what we understood.
+Then we say that hey whatever
+things you are receiving inside these two
+brackets are called as function
+parameters. So these are parameters in general.
+Whatever you are writing in between
+two braces those that is called as function
+body. Okay.
+And if you want to execute any function
+you call that as a function
+invocation and whatever things you pass
+between the value calling
+those are called as arguments.
+Okay. In the same
+way we went on to
+you know understand different types
+of you know declaring a function
+that we went to to understand like
+there is something called an ominous
+named function. An ominous function
+right. Expression. So where you
+have declared a function and
+assigned it to a particular variable
+without name.
+Then it is called as an ominous function expression.
+Okay. Remaining
+all the definitions still the same.
+Going with the named one
+whenever you are assigning a particular
+function to a variable let's say if
+that particular function is also having a name
+then it is called as a named function
+expression. Okay.
+Then in ESX
+to make it clear right
+to add a better
+syntaxes you can also avoid
+the function keyword and do
+the job of whatever you are doing.
+Just you have to add this like equal
+to and greater than symbol
+and then you can execute this part.
+Okay.
+So the same body same
+parameters same list of arguments.
+Now after discussing
+this what I was saying is that hey
+in JavaScript you know people call
+functions as a first class citizens
+or first class functions.
+The reason is because
+functions are really powerful
+in JavaScript. How
+powerful they are like how they
+are showing their power is that
+functions are so multiple
+that they can be used as a method
+and as also variables.
+And can be passed
+into a function and can be can also
+be returned from function.
+Okay. For that reason
+I
+have written one of the example
+called I created a function called
+hello it is returning a simple
+statement called string called say hello
+then I went on to create
+another function called hello
+world which is accepting param and returning
+it. Now whenever
+I call let's say firstly
+I say hello
+world
+dot hello whenever
+I'm doing it I'm supposed to get
+hello here back
+as a return output
+of this one whenever I'm calling this.
+What this hello is
+hello is this particular function.
+Now in order to execute this function
+then I'm again calling it back.
+This is what we have done.
+Okay.
+Guys is this clear now
+or better.
+Can we move ahead.
+I hope like you revise this one
+it wouldn't be that straight forward if you
+revise this one right. Nothing
+technical or anything as we have done
+it here it's just a different names.
+Right. Cool.
+So guys
+going to one of the important
+topic and you can
+say a bug
+in JS. Okay.
+Let's say I do console dot log
+of a
+and I try to execute
+this file.
+What would be the output guys.
+What should be the output.
+Undefined.
+Shashank
+think of
+it.
+How many of you think
+not defined like if you
+if you're okay with undefined go with thumbs
+up if you're not if you go with not defined
+go with thumbs down.
+Thank you guys.
+So as we discussed this one
+in last class undefined
+versus not defined.
+So
+if I try to execute this one
+let's say clear
+node
+hosting dot
+JS since
+A is not yet
+output as a not defined.
+But what if
+but what if
+I declare
+where A equal to 10.
+Yes. What do you
+think the output would be.
+If I declare where
+equal to 10.
+Think of it this guys.
+So I'll give you
+you know
+three possibilities. It can go
+with undefined.
+It can go with not defined.
+Or it can print something called as 10.
+Right.
+So let's say this is first
+guys vote for this one
+first second
+and third.
+Whatever you wish.
+Most of them say
+not defined.
+I see one.
+I see three.
+Okay. Three. One.
+Cool. So I see a different
+sort of answers. Okay.
+Now let's understand
+what's happening here. Let's go
+understand what's happening here.
+So this will you know
+will blew your mind when I execute
+this one.
+Okay.
+What I just got guys.
+No.
+Undefined what is like
+undefined is something that I got.
+Let's say if I go
+and create a new
+index.html.
+And I link this
+with HTML.
+Let's say
+we are discussing
+something called as hoisting.
+H1 tag.
+And let's say
+I try to link script
+tag.
+Source
+host.
+Okay. What I'll do
+is I'll open this in live server.
+I'll
+copy this one.
+Okay.
+Let's say
+I open inspect.
+I open console.
+Okay.
+I'm getting undefined value here.
+Firstly.
+So
+are you aligned like
+is it working as expected
+till now?
+Is it working as expected?
+Do you think this is working
+as expected?
+No right.
+Because
+if I go from execution
+point of view.
+Whatever we have understood that
+in JavaScript or HTML CSS
+executes from top to bottom.
+When I reach this line
+A is not existing
+in this file right above this one.
+But we are saying that
+A is undefined instead
+of not defined.
+This is our doubt. Isn't it?
+Right.
+If I repeat again.
+So we know that code
+execution starts from top and it ends
+at the bottom.
+JS is something called
+a single threaded. It will come in the future
+why we call it a single threaded and
+what all those things are there.
+When I'm printing this
+A doesn't exist on the top.
+So A shouldn't be
+undefined.
+But going back to here.
+Coming back.
+Opening something called as this file
+hoisting.
+I'll put a debugger. So guys if you
+I'm also teaching you how to debug the code
+parallelly. If I put a debugger
+and refresh it.
+If I refresh it
+and I go and check something called as a
+global. Let's say global
+it's a window. Now if you see this
+somehow
+in global space
+or global memory you can say
+A is coming up right.
+A is assigned undefined.
+You see this.
+So we'll understand
+the phenomenon how JS
+works actually.
+How this JS works in general.
+Now
+let's go
+to the iPad first.
+I'll write down one
+example firstly.
+Okay. Let's say
+I have something like
+where
+A equal to
+10
+where B equal to
+20. Okay.
+And let's say I have
+something called as function
+add.
+A comma B.
+And inside this
+what I'm doing is returning
+a statement.
+Let's say not returning statement first directly.
+Let's say something we have called
+answer
+A plus B. Since we
+are using where let's use that where as
+of no. And let's say we
+are returning answer.
+Right.
+What I'll do is like I'll
+use something like let's say
+where
+result which will be R.
+I'll say add
+10 comma 20.
+Or let's say we say that
+it's A comma B.
+And let's say where
+R1 equal
+to add
+R comma B.
+So guys can you give me what is the output
+for this one.
+When the code is executing from the top
+to bottom.
+What should be the output?
+Of this two variables
+var1 and var2.
+Let's say I'm printing
+those printing them
+console log. Let's say I'm doing a console
+dot log.
+R comma R1.
+Now
+30 and 50 right.
+Because it is 10 plus 20
+30 and 30 plus 20 50.
+Right. Now this is what
+are expected. But now
+let's understand how this is
+executed behind the scenes first.
+Let's see how this is. So
+firstly in JavaScript
+right.
+Execution happens in two steps.
+First is
+memory creation.
+Or you can say memory
+allocation.
+Then it says that code
+execution.
+Okay. This is a phase
+one. This is a phase two.
+Now whenever
+you want to think from an execution
+point of view right. How the code is being executed
+behind the scenes. You can always
+expect there is something like this one.
+Okay. Let's say I have
+let's say
+a box.
+A box will have two
+steps.
+First something is called as
+memory
+creation.
+Once memory creation
+is done then code execution
+will come.
+Now this
+each box whenever it is created
+this box is called as execution
+context.
+So
+whenever your code is being executed
+there is something called execution context
+created.
+In that first
+memory creation phase happens
+then it goes for the codex.
+Now whenever memory creation phase is
+happening what does it happen is that
+it will see all the existing
+variables whatever variables are there
+it will check because it
+needs some value to be assigned in future
+right because A is a value B is a
+value R1 R2. Similarly
+what it does it say it is having
+all the things it will what it will
+do it will store something like
+A B
+then it will store something
+like add
+add function
+then it will have R
+R and R1.
+So what it does it
+sets firstly
+it sets something called as undefined.
+It sets something called as undefined.
+For functions
+it will store whole function.
+This is undefined.
+Again
+this is undefined.
+So whenever
+we are creating the memory
+space whenever we are creating
+memory creation right
+the global
+execution
+context for this one will
+have A undefined
+B undefined
+then add
+function
+then R
+then R1 so all this will be
+there. Is this clear
+guys with memory creation
+step first what happens when you go behind
+the scene it will skim through the
+whole code of that particular
+file it will see all the variables
+and function it will assign
+memory like assign memory it
+will initialize variables
+with the default values these are the
+default values this is the default value
+this is the default structure that's how
+it does when code execution
+happens now the file is getting
+executed from line by line
+what it does it goes and check that hey
+this is the line one so it is asking
+me to assign A equal to 10
+so it will go and say
+that hey assign A
+equal to 10 let's say it will go
+and say A equal to 10. Now once
+it is executed this will be
+removed and
+this undefined will be updated
+with 10
+okay now once
+this line one is executed then
+it will go back and check the line two
+says that B equal to 20
+then again here in
+the code execution it will read this
+line B equal to 20 then
+before completing this
+task it will go and update in
+the memory that hey B
+is equal to 20 update it
+okay is this
+clear guys
+how A and B value is actually
+created A equal to 10 and B equal to 20
+anyone having any
+doubts till now
+okay now
+where are you going for the next step
+if you see here
+we are just declaring
+it we are not executing this one right
+yet
+is there any
+invocation being done in the steps
+wherever I have put a bracket
+are we calling
+that function yet are we executing
+that function yet
+no right so when it is going
+through execution phase of this one it doesn't
+do anything that
+exist in memory still
+okay now
+then we have something
+like this
+where I am checking
+that R is undefined now
+it goes and execute where A
+equal to add of
+A comma B no
+how it will understand A equal to
+add of 10 comma
+20
+no now comes the existing
+part I mean new
+interesting part what happens
+is whenever you are calling
+a function
+it will go and create
+another box for it
+inside this box again you have
+memory creation
+and code execution
+because
+so the here
+the whenever you are creating
+this again for this function
+R now let's say here what are
+the variables that need to be initialized inside
+R which are like A
+equal to 10
+B equal to 20
+right and answer
+answer is coming from where
+if you see here we have declared
+a variable called answer
+whenever we are coming with answer
+it will set value as
+undefined
+is this clear guys this point
+till now
+ok
+that's the reason why
+I have created this as a step one
+then I will keep on
+keeping adding things ok
+now when
+it is undefined now comes the code
+execution path now what it does it
+goes and check that hey I
+have to come to this line
+execute A plus B
+then it will go and say that hey
+can you get A plus B value
+which is 30 update
+this value undefined as
+30 so what it will do
+it will remove this something called as undefined
+and update is as
+30 and
+once this is 30 update it as
+30 it is supposed to
+return it is supposed to
+return that answer when it is being written
+this execution context
+will be closed and the
+value of R will go from
+here to here and update
+as
+30
+this is clear guys
+how R value 30 is calculated
+from behind the scenes in JavaScript
+now I will try
+to re show this one how it will
+works for R1 ok
+let's say now we are on the R1
+it will see
+it will see that hey I need a
+R1 and
+it is something like add A
+comma B now let's
+say I clean this up
+add it is
+what is our value of R
+which is 30 comma 20
+right this is the values being
+passed again now
+whenever this is being done
+again for executing this new
+function which is R1 is
+calling a new execution
+context will be created under
+this box
+let's say I create a new execution context
+which is called as MC
+memory creation
+code execution
+and let's say now A
+value has become 30 because
+we are passing R value that is what
+we are doing here right R is
+30 then
+once this is 30 then B equal to
+20 answer is
+still undefined
+and then it calculates A plus
+B which is 30 plus
+20 50 update
+answer as 50
+once it goes
+it updates this value in the memory
+as 50
+once it is updated
+then this
+context will be closed and
+this particular value of undefined
+will be updated as 50
+okay
+let me scratch this one and update
+values okay
+this is clear guys how
+this code flow works
+from memory execution
+point of view
+so I will show this in live to you
+like how this is working how
+can you see this example
+same example let's
+let's implement the same logic
+that you see here
+the same example okay where
+A equal to B and this all this
+things let me write that function
+here
+going back here
+let's remove this
+where A equal to
+10 where
+B equal to
+20 then let's say I have
+function add
+A comma B
+then I return let's say
+const or let's say
+where answer
+equal to
+A plus B
+and return answer
+return answer
+and I will store
+const R
+as a result
+first result add
+A comma B
+and const
+R
+1 S
+add R comma
+B
+and to console
+log this one console
+dot log R comma
+R1 this is what
+we have written
+now see actually in browser how
+this is executed okay guys
+going back to
+this code now
+let me remove this debugger as of
+now clean this
+up if you see 3050
+is getting printed that is fine now
+but let's see whatever we have seen in ipad
+let's go step by step
+I will put a debugger here
+and I will refresh it now if you
+see
+let me update
+this as a var firstly
+I want to show you few things
+okay
+let me
+refresh this page
+I still see
+output as 3050 fine
+now let me
+refresh again
+if you see here what I have
+told you is like in the memory creation phase
+if you see I have stopped
+code execution at line 1 itself
+okay
+any piece of the code is not
+executed it
+but if you go and see there is something called global scope
+you will see that hey
+A equal to undefined
+then B equal to undefined
+and let's say if you go and see that
+there is an add function also declared
+in the memory okay
+you see it is requiring
+its name is add
+and it will do whatever steps like
+it will take A and B as a parameters
+and it will execute it
+but do you see this is a memory creation phase
+that is the same thing that we have seen right
+you see
+initial memory creation phase A,B,R and
+R1 let's say I will show you
+R also if I go down below
+in the global context
+see R and R1 all things are
+assigned undefined isn't it
+is this point clear guys memory creation part
+that initially
+the file will be
+created and the memory will be
+allotted to them the default memory is
+like undefined for the variables if it is
+a function the whole function will be
+attached to it now once
+this is done okay once
+this is done there is something like
+a call stack
+a call stack is there so it says
+that hey I am executing
+it call stack shows you where
+the particular line is which line is
+being executed now if you see
+we are stopped
+at line number 1
+let's say I put a debugger everywhere
+okay we are at line number 1
+we are
+executing line number 1 as soon as I click
+play
+that line number 1 is executed we went
+to line 2 but if we go in a global
+space and see the value
+of A is assigned as a 10 because the line
+1 code is executed and B is
+still undefined is this clear
+like code execution happens step by
+step once the memory is created
+that's how variables are assigned
+now
+the next step let's see if I if you
+if I click play again if you see
+B value will be updated
+B value got updated 20 now
+if you see this line 4
+and 5
+is still not executed we
+keep that part of code this code is
+executed because we didn't call
+we didn't call that function
+we haven't executed but we went to line
+number 8 now because in the call stack
+if you see we are executing
+line number 8 here is where we are
+invoking the function and what
+are the values we are passing if you
+see the values that we are passing
+is something called as 10
+and 20
+now see this amazing thing
+what happens now if you see line
+number 8 if I click play
+again in the call
+stack
+here did you
+see something then there is something
+called add is created
+this is a separate box that
+I talked about this is a new window
+new box like
+this is the box right if you
+see this this box particular box that
+I was talking about
+I need this
+so this box
+got created how you can see this one
+inside this add
+stack right now if you see inside the local
+scope as I have told earlier
+like a value will be 10 b value
+will be 20 and answer
+will be undefined initially
+right that same thing has happened
+a 10 b 20 parameters
+are there answer is undefined
+right is this clear
+like what's happen like how this
+function for every function
+a new execution context is created
+now if you see in the next step
+answer will be calculated
+answer is
+calculated as 30 and that is being
+written now once this is returned
+from the call stack this box
+will be cut like as I
+have cut it this particular box right
+as I did this box cut
+and I updated it in a same
+way from the call stack add will be
+removed like it's like same
+again it's a same stack data structure
+first in first out
+okay sorry
+first in last out
+okay once I execute
+this if you see I got it
+line number 9 but
+if I go in a global stack
+I can see the value of R
+when I scroll down
+if you see the value 30 is updated
+right now if I
+go further now if you see below
+this are the list of functions
+by default browser provides you
+but again
+on the line number 9
+we are standing here
+now if you go and see in this
+whenever R1 is created again
+a new execution context box will be created
+this one if I go and click
+play again new
+execution context will be created for
+this one add and the values
+are like now 30 and 20
+and answer is still undefined
+and once I click play
+answer is updated
+as 50 and then
+it will be returned
+once it is returned it will
+update in the global context for the
+R1 also
+see this is
+50 then we are
+printing it to directly into the console
+that's a fair step
+right
+did you understand the workflow guys
+how behind the scene it is working
+anyone having any doubts
+does anyone want me to repeat
+because I went down so slowly because
+I wanted you to understand
+explaining on ipad and
+parallel in live
+ok if anyone having
+any challenge right I would ask
+them to you know
+go and try to rewatch
+the lecture it will really give you
+good understanding of it ok
+few things guys again
+going back to the same question
+now
+let's say I do console log
+console log of z
+and I declare var z
+equal to b
+now
+what would be the value of z guys
+now I want all of them
+giving me right value
+what would be the value of z
+what would be the value of z
+when I do console log of z
+undefined right
+I hope behind the scene you got
+the idea why we are getting undefined
+right
+so this point
+for this point now
+ok now
+let's go
+into something any website
+any website you pick it
+let's say I go and pick javascript info itself
+and I search something called as
+hoisting
+they don't have directly
+but let's say I go and do
+hoisting in javascript
+I search it now
+and there is an article
+ok let's say I
+go and open this
+if you see read this part right
+let's not
+go this one they have written long content
+let's go for simple one
+if you see what they say that
+in javascript variable can be declared
+after it is been used
+right we have told
+we have done it console log
+we have used it then we have declared it
+in other words variable can be used
+before it has been declared
+or initialized to say so
+right
+or
+in order to understand this you have to understand
+something concept called as hoisting
+hoisting in javascript is a default
+behavior of moving all the declarations
+to the top of the current scope
+or to the top of the
+current script or the
+current function
+this is what they are giving
+a description
+but if you
+remember this particular sentence right
+you might not be able to
+get the complete context of it
+even whenever you are
+explaining hoisting or any concept
+I would ask you to remember
+this particular flow right
+hey why we are moving on to the top
+of the particular file we are not actually
+moving it to the top
+that is being executed in two steps
+firstly
+memory will be created for each
+and every variable and functions and objects
+then
+code execution starts
+and when memory is already created
+that memory creation phase itself
+is called as a hoisting
+since memory is already created
+you can use those variables even before
+that code is executed
+for which variable you are assigning the value
+this is clear
+like would you be able to explain hoisting in your own
+terms using taking any
+example rather than this definition
+where you are moving the items on to the top
+clear right
+so I hope everyone
+got the better idea
+of hoisting
+because you can go and explore
+any definition
+you can go and explore any definition
+it's up to you
+but what's happening
+behind the scenes is something
+that I have explained
+okay if I say
+like if I say that
+hey all the variables even if I
+do it it will be
+took to the top before executing it
+it's really confusing one person
+would really hate JavaScript
+to understand that way
+but this is what is happening
+behind the scenes guys
+so do you need a
+break or do you want me to continue
+guys do you need a
+break
+okay
+5 minutes works
+so
+5 minutes
+let's take 5 minutes guys if it is possible
+okay
+5 minutes
+okay I am starting
+timer for 5 minutes
+take break for the 5 minutes guys
+then I will close the topic of
+hoisting once after the break
+I have to talk about few more things then I will close it
+okay
+so guys see you back in 5 minutes
+okay
+okay
+so
+okay
+okay
+so
+okay
+guys
+okay
+okay
+okay
+so
+okay
+okay
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+guys is everyone back
+yeah thank you guys so I hope whatever we have discussed till now that part is
+clear now I want to show you a few more things few more analogies okay let's say
+I create another file called as hosting 1.js okay but going back to our first
+class that we have discussed when we discussed our data variables right we
+have seen three ways of using variables like var let and const isn't it and let
+and const were solving some of the problems that var has created isn't it
+right guys now let's let's do this saw see this like hoisting how this is
+behaving how hoisting is behaving with respect to if I use let and const if you
+see in other example everything that I use something is called as a var okay
+but now let's say let's make something like console.log of a and I declare
+const a equal to 10 as per hoisting concept it should give me something
+called as undefined isn't it what we have learned till now but let's execute
+this one and what it says
+node hoisting 1.js it gave me some error guys it gave me some error saying that
+cannot access a before initialization does this look better than earlier or
+earlier it was good like if I use var I was getting undefined but here to write
+a better coding practice this helps better right hey you cannot use a before
+initialization right or does all agree like can I have a few more thumbs up if
+you agree with this like it's a better fix for hoisting issue but if this is
+giving an problem and if this is giving me a problem let me show you with this
+also a let keyword okay if I even use let even if I use let it still says me
+the same error that cannot access before initialization so do you think here
+hoisting is being applied if we for let and const you think like hoisting
+concept is being applied for let and const no right how many of you think no
+give me thumbs up if you think no or go with no no anyone anything works I see
+people who are reacting they mean to the they think that hoisting is not applied
+but as I've told you when we were learning this topic we thought we
+understood that this as a hoisting is not something like where you're taking
+variables onto the top it's a memory creation code expression that's a really
+a basic flow but it still it happens it still does execute that way but how it
+is executing and where how it is able to still you know follow hoisting is
+okay let's say I link this particular file with HTML as a hoisting 1.js I
+save this and let me go here okay now when I'm using let if you see this it's
+already throwing an error okay it was throwing an error but if I execute this
+one right I still get you know cannot access a before initialization both when
+I make good in Chrome and even with node I'm getting that same error but let's
+me refresh this one once no so earlier we were able to see a here itself right
+if I use a var keyword do you guys agree in the global window now inside global
+window there is nothing like a value assigned here okay but do you see this
+script tag do you see this script tag here the value of a is already created
+now but the value is unavailable they say that this value is unavailable so
+whenever you say this value is unavailable right it means that you know
+you cannot use this before initialize this error will be returned to us so
+this it means what what we can say that this is still hoisting is being applied
+that hey instead of undefined value being applied let's say even if I do
+console like undefined being applied it is memory creation for a is still
+happening right at least variable is created in the memory isn't it value or
+like a memory memory is created for it but there is no value available right so
+we can say that hoisting is still happening hoisting is still happening
+but it is a happening in different something called a script now this
+script right people called it as a temporal dead zone okay let's say I call
+it as
+temporal dead zone what do I exactly mean by this is something I'll say so
+they say that hey this values are in temporal dead zone like why this are in
+if I go back and I cut this and I put it on to the top this is the right way of
+executing isn't it and let me play this and refresh this one once if you see I'm
+having a still value is unavailable memory face is created now code
+execution is happening once I execute this line one code you can see the call
+stack also once I execute this the script value is updated as 10 but do
+you still see here a value in global memory you don't see a value in the
+global memory still right but this is working in the same as a hoisting
+concept on in a first no values are available and then actual values are
+applied whatever when code is executed so then it is executed and you receive
+an output as 10 now why they say that temporal dead zone is because of this
+script they call this like hey these are you know they're not polluting global
+scope but they are creating a different scope and inside those this variables
+are being created and then they are you know
+and then you will be able to use them
+okay is this point clear like how let and const is handling the problem of
+hoisting you cannot do console log
+you
+okay I have to check my
+give me a second guess I'll switch my network
+you
+I ableto hear me no
+I think I have to keep my cam off for today not sure why my internet is fluctuating ok
+let me try with cam on if you feel still face challenges do let me know ok ok now I'm just
+trying to explain this guys on iPad I hope you can see this what is temporal red zone
+ok now using where keywords right whenever you use where no this generally pollutes global space
+global space memory like I have shown you in the in like here right if you see here
+this is something a global space and that is belongs to browser it is affecting that
+but when it coming to this let and const they are working in different area different zone
+you can say ok they are not polluting this global scope even if I if you see this initialize
+evaluate a equal to 10 is not by default available in the global ok it was solving a problem of
+pollution of global space firstly when you use let and const there are few more differences
+like as I explained earlier like re-declaration re-initialization those problems are solved now
+the third problem is like when we when initially in where write keyword while writing in JavaScript
+they used to use some function called IIFE have anyone heard this something called as
+immediately invoked function expression right so the syntax was like function right wrapped
+around inside a function that is executed like they used to write this logic the reason only
+where was available whenever you write a where it was creating in a global space and it was
+polluting it now why they were writing this IIFE function was as I told you earlier whenever a
+function like this one like add is executed a new scope is created for that rather than polluting
+this global memory right this memory will be created some memory so they were solving this
+problem of global memory issue and they were writing this logic in IIFE if you see the older
+code bases right you will see most of this pattern of JavaScript has been written ok so the first
+problem they were solving is that hey whenever I'm declaring any variable you are polluting my
+global space so I don't want you know my variables to be created in a you know global space but you
+have to have your own particular space like now for them they call the space as a script space for
+each thing they will have their own space is that clear firstly this point why we were able to see
+this a inside the script tag guys I'm audible so is this point clear firstly I'll talk about IIFE
+it's not a right time because I can give you a document on that but it's just you know whatever
+things are being created inside the memory you know whatever you write let's say you write a
+code of 60,000 lines inside that you'll have a functions objects and everything and whenever
+it is reading through the code for 60,000 lines of variables in memory should be created it memory
+phase should be done then code execution will come so that is big headache so they used to follow a
+different pattern altogether to write it to fix this issue they they introduced again these two
+keywords solve that problem say they say that whenever you are declaring this variables right
+instead of going into the global scope we'll go into the script scope a different scope altogether
+okay now I'll also show that how does it work with the example but here whenever even you are using
+let and const how is thing is working how is thing is working with better enhanced error codes
+right because how they enhance this error codes by default inside the library is that in JS library
+is that if you are trying to initialize it says that cannot access a before initialization this
+error code is coming from the library itself whenever you are using let and const is that
+clear like how they are fixing this issue of error codes and this memory pollution and how
+hosting is still occurring in let and const let me do one thing let me do one thing I'll try to
+rewrite the same example let's say how is thing I'll copy this one I'll paste it here okay let's
+say I comment this one I paste it here I say const const once let's say this one so I didn't
+do anything I updated variable name here okay and still HTML hosting one is connected with
+this script let's go back and you know let it get executed refresh it now the if you see if I go
+to the console log still the output is 3050 still same okay but how this is getting executed will
+be different if you see if I go and replay this one do you see here inside this scripts variables
+are inside the script tag but in global space you don't have variables do you see what what
+fix they have done right now if you see if you go and see this add function let's say if I go and
+see this add function it will be still available here if you see add function is available okay
+no let me show you another thing if I create an object
+say first name
+last name
+okay no let me execute this re-execute this one
+okay now do you see even the object is not initialized here in initialized here
+guys okay no let's do one more thing let's do one more thing let's do one more thing now
+what I'll do is that I'll say const add if I do this had okay now if I refresh this one
+I refresh this one do you see add is added in the script tag instead of here in the global space
+so if you go back and see the examples that we discussed earlier when I was introducing
+functions right this was a older syntax then we told that hey you can assign a name like
+anonymous function or the named function expression so whenever you do this you are generally trying
+to whenever you use let and const you are generally trying to you know stop polluting
+the global space like global variables because global space is something which wouldn't be
+cleared this there is no no one working behind the scenes to clear this memory right so imagine
+if you have a memory card and you don't need any most of the things but you still possess your
+memory will be filled and your mobile will become slow right if RAM is completely consumed same
+thing so here they try to like when you use let and const that not polluting that space and this
+particular thing script whenever you are executing whenever you are doing this one this this part of
+thing is called as a temporal date zone if I show you exact definition if I show you if you see this
+a temporal date zone is a specific period in the execution of JavaScript code where variables
+declared with let and const exit exists but cannot be accessed or assigned to any value like when I
+say this it means that inside the script tag until these values are updated they cannot be used or
+you know cannot be used or updated I mean they cannot be used or like until the values are assigned
+to it that particular zone itself is called as a temporal date zone something that I understand
+is like from the logical perspective what I mean I'm able to see inside the browser where
+the JavaScript is being executed is this point here like still hoisting is happening if you
+see go and do it again a Google using does hoisting happen when I use let and const
+variable okay see they use in the ECMAScript block scope this is a medium dialog see he says
+that I used to think that hoisting only happened to the variables declared with var but recently
+I've learned that it also happens to variable declared with let and const right so he was
+trying to explain what does happen with let and const here so he used that same thing cannot
+access a number before initialization or the same sort of examples okay then he came to the word
+called as temporal date zone okay because that is as a created inside the script tag it is not
+available to you for you to access it and better error management is this clear now what do I
+exactly mean by this temporal date zone or why it is not available to access it
+guys is this clear like there's a differences between let const and this one so let me try
+to explain you this one further okay so what we have explored when we go with this further
+in depth right let and const okay is that firstly they like select const and where
+hoisting is happening here also hoisting is happening okay but if you try to initialize
+if you try to initialize variable before declared let and const will return errors here
+if I do that same thing undefined will be written now this all confusions all this confusions are
+because of h Brendan H so if you do any work in really hurry right you create this sort of
+mistakes later on team sat together and build this better other management better exceptions
+and they provided you a right sort of you know way of writing code is this clear guys why we
+go with let and const instead of where as I see only one thumbs up I hope you understood what
+hoisting is how it is working in behind the scenes is it confusing guys I try to make it
+as slow as possible so I I would hope like you know you go through it you go through again like
+you know recording once and try to read through the articles because I've told you like you have
+to read along with me whatever topic I'm trying to teach you you have to read along with me
+as per your content I'll try to explain this let's say pick this article let's pick this
+article whatever article you find it read through it then you face to face channel let me know
+is that is that fine Ankit because I mean how do you decide which what I didn't get your point
+Ankit to use okay how do you decide to use it firstly you see if I'm if I'm writing a code this
+way if I'm writing a code this way that hey I'm trying to access your variable which I didn't
+even created it I'll see from the top to bottom and then I'll say I forgot it I then I say that
+this one this is not a right way of writing a logic because logic works from top to bottom
+the code execution works from top to bottom in JavaScript that is how we remember to address
+that issues right you have to go with using let and cons let's say use a let right when you use
+this let the supposed to write in a right way to execute that code in a right form the format that
+you want so that's a reason why this let and cons unknowingly you are solving too many problems
+behind the scenes
+yeah you are supposed to use only today's world right in today's world of code whenever you're
+dealing with JavaScript you are only using let and const you're not supposed to use like var keyword
+okay let me write a sentence for you guys like I have this one
+okay let's say I paste this one so when you declare a variable with let and const those
+variables will not be accessible before initializing at that moment they'll be in temporal let zone
+like in a script now let's go and explain explore IIFE pattern in JS okay
+okay
+now if you if you go and see this one so they are something trying to avoid the polluting a global
+namespace okay generally they are trying to do this one because it will have a separate execution
+context I would ask you to read this logic also I mean try to go through this one you'll understand
+what I was talking about because this will be a bit advanced I don't want you to go through it
+this because this is a particular design pattern that you will find if I show you why IIFE was
+preferred
+see they're talking about global variables you know global scope getting polluted that's the
+reason why IIFE was helping them but I'll I can talk in depth but it's not a right point of time
+to talk in that or talk about that but I hope this is hoisting clear is hoisting concept clear
+and how let wire and const is working with them
+okay so if this thing is clear right I have one point one thing that I have to address okay
+since
+let's say I I'll give you one short example
+okay it's a reference data type
+not yes okay let's say I have a const object
+inside this object let's say I have again uh things like let's say name so I have unketh
+and let's say I have last name
+as tivari
+first name as unketh and last name as tivari
+as unketh and last name as tivari now let's say I create an object one
+that's object two and I assign this object and I say that object two dot first name
+equal to let's say
+with them
+and object two dot last name as sharma
+and I try to say that console dot log of object console dot log of object
+so I just want you to you know uh think of it like what would be the output of this one
+just guys think of this one like what would be the output of this one
+guys do I have your attention just think of this one
+what would do the output for this one like if I let's say this is this will return us
+uh surely an object okay if we'll have first name and last name just think uh whether it will be
+unketh tivari for both the things uh no it is it is going to print that uh akash
+so let's see this if you think both the names will be printed uttam sharma twice uh dhigatses
+uttam sharma twice how many of you think uh both the names if you think both the names give me
+thumbs up if you think uttam sharma twice give me thumbs down guys
+I say six and four let's let's let's explore this what's happening behind the scenes
+okay now
+uh okay I made a messed up here I use small thing here so all all of you who have told me two
+two names that's click correct but if I do this thing if I do this thing do you see this uh like
+if I do this thing do you see this uh like both the times I've said that I have updated object two
+but it is updating object one also
+right both the times it is printing only uttam sharma
+do you think it's correct or this is what we are expecting
+no right so people who gave me thumbs up earlier who were thinking like both the names will be
+printed if you go back what was this file name guys what was this file name something called
+as a reference data type right now let's understand so one thing when I introduced in last class
+I introduced in last class there is something called primitive
+and there's something called as reference
+so all the primitives right their memory
+is in stack
+and you can say this is a temporary once your stack is cleared this will be removed but here
+for the reference they their memory
+is stored in heap
+so let's say if I rightly explain through pictographical representation
+let's say you have something like let a equal to 10
+then let b equal to first name
+okay and what we are doing we are saying let c equal to b and I'm saying c dot first name
+okay equal to ankit so I'm doing this
+once if I'm doing this let's see what's happening from the inside a call stack itself right so when
+I talked about in terms of memory is something like call stack and there is something like heap area
+right now once the memory is created execution starts a value will be here 10 then b
+value since it's a primitive data type primitive type okay when you go for b
+it's a reference data type since it's an object b will always point to something in the heap area
+here it will have an object call first name
+now once you go for c right once you go for c c equal to b then this c is also referring to the
+same thing but it is not there's no like there is no new object being created you know there's
+something called pass by value pass by reference I'll cover this in future class in the next class
+pass by reference I'll cover this in future class and we'll have good amount of time to
+understand this topic but this is something being applied here but if you see for the b
+and c are acting on the same object but address is same right where this object is located in the
+heap this is stack and this is it
+now when I'm doing c dot first name remember the c dot first name I'm accessing this object
+I'm seeing that c dot first name
+equal to Ankit when I'm doing this this particular object will be updated as Ankit
+now both b and c are pointing to this object and name is Ankit right that's the reason why
+that's the reason why here both the places I'm getting this Uttam Sharma as the output
+instead of Ankit Tiwari and Uttam Sharma is this point clear like how memory is stored
+for the parameters and how memory is stored for reference data type guys
+why this wasn't working
+if anyone's still having any problem give me thumbs down if it is overwhelming let me know
+guys I'll push it to the next class
+no right overwhelming okay
+yeah I'll I'll talk to you and get this one in the doubt session this one okay but
+let's forget all the other things but this point is clear like what is you know last
+class we discussed primitive and non-primitive data types reference data types reference data
+types have a memory associated with the object and each time you try to assign a new variable
+same object new object won't be created in the heap but you will have the same address
+of location and once you update this the value will be updated in the object and this is how
+it is working but if you want to fix this if you want to fix this issue how can you do it
+is something like I want to talk about this one because I'll use one operator one operator here
+which I'll pick it up in the next class as a first topic and that operator I'm defining it here
+here what I'm doing it here is something called a spread operator okay
+I'll explain the behind the scene concepts in the later classes but I'll explain
+I'll talk about this one operator in the next class like we are I'm trying to introduce one
+by one topic let's say if I execute this one again if you see Ankit Tiwari and Uttam Sharma
+both are printed differently firstly so we are solving this problem earlier we were able to see
+only like Uttam Sharma being printed twice but this is fixing that issue isn't this guy I hope
+that you understood it but I'll pick it up something called as spread operator as the
+first topic of the next class okay but guys do let me you know repeat everything that we have
+discussed in the class because the content whatever is been planned for today is covered
+because I wanted to give you more time on hoisting because for the beginners right
+it's really difficult to process or if someone is you know having a hands-on with JavaScript
+they might be it might be easy for them to process the other content but let's explore
+let's let me revise all the things that have discussed okay now so firstly we started with
+an array which is again a reference data type where we have discussed of six methods push pop
+shift and unshift earlier one is to add and remove elements at the end of the array shift and shift
+is used to add at the starting of an array then we discuss something called a slice which is used
+to cut a particular piece of an array and store it in a new variable such that you're not disturbing
+the existing array okay and we went for splice splice is somewhere used to add remove and replace
+all the things inside an array okay which is existing the current copy of an array like you
+can add it and it takes a four or five parameters depending upon the things that you are declaring
+but you have two parameters as a mandatory first one what is the starting index where you want to
+start splice from and then how many number of elements you want to delete or replace and then
+like if you are adding elements you're supposed to like give zero like as a deleting element
+and you can add how many elements you want to add it from there that particular index
+it will manipulate it similarly for the splice if you want to delete it you can say that hey
+static from index one delete the three items then for replacing it you say that static from zero
+the index replace two items 2l and 13 as like from one end to us 2l and 13 okay i hope this was clear
+and then we went to object we created something object called as captain america where we had
+all types of you know data types that we have discussed function boolean objects arrays and
+everything then we discussed like how can you access a key for like a particular value from
+an object using a dot operator or executing a function then we have seen about how can you
+update a particular you know value if you want to in an object and then how can you add it if you
+want to add a new key value pair inside an object and similarly how you can delete it
+right then we went on to understand something for topic called as hoisting we start with an
+analogy where we have seen that hey even if you try to initialize you know access the variable
+before initialization surprisingly it was we are not getting undefined but whereas we were getting
+something error as undefined now for that understanding we try to you know understand
+the memory execution phase sorry code execution phase where which happens in two phases memory
+creation and code execution so firstly for each of the variables we have we have understood that
+hey all the values will be initialized with a default value called undefined and functions
+will also be initialized with the memory and when code is executed actually in the real time
+their values will be assigned for each function execution we also understood that hey new execution
+context will be created for the each step right whenever you're calling a new function then
+understanding this code execution phase we figured out that hey during memory creation phase itself
+all the values are initialized the default values and defined so we were able to get
+undefined value instead of not different in that example then we have seen this with example of
+var keywords then we went to something called as esx and esx issues where like we have introduction
+of let and const this let and const were solving the problem of you know where you see like even
+if you write down like console like you initially you are trying to access a value before
+declaring it or re-initializing it then this particular fields were throwing us error that
+hey you cannot access element a or any value like this one before initialization
+right this is the error we were getting so this let and const have improved the way we can receive
+when errors like like you can you can say error handling that's because
+they were doing this inside something called as a temporal dot zone because that in that zone
+these values are not by default available to you know access accesses until unless your
+declaration is executed in the code okay so this is something we figured out that hey let and
+const are still being hoisted that we are understood by this example that if you see here
+we see that values are still being assigned some default value values unavailable back then once
+you execute it the value is still being assigned so memory creation and code execution steps are
+still being followed but here these are done these are being done in that something called
+as temporal dead zone okay it's a zone where you don't really have an undefined value because we
+have seen you know when you go for data types you can have null key undefined key or number
+string boolean right these are the list of things that you can assign to any variable
+but here if you see that it doesn't have any those values are assigned so it doesn't allow
+you to access it throws an error so this is what we have understood today in terms of hoisting
+in terms of how let and const are varying with respect to var and what are the fixes we got
+in es6 right so i hope guys you enjoyed the class and learned things in depth in terms of js
+so guys with your permission if these things are clear can i start the doubt session
+thank you guys so i'm starting this doubt session guys
+uh i hope you guys enjoyed it like uh did you find today's class interesting
+like from behind the scenes concept
+cool because i see few people side completely beginners are they are facing too much challenge
+uncle do you want me to unmute you
+it's fine okay so uh i would suggest uncle is that uh yeah rewatch it and also whatever
+articles have been right uh go through them i'll also link it i'll share it in the reading
+material such that you can go and refresh that uh i'll see if i can add an image of this
+core memory execution and all those uh images in the self-study uh in the this like we had it
+add it for this one uh like you know position property
+yeah uh muneshwar please do do go through it okay so i'll try to create image for code execution
+phase so that you can people relate it but uh since i'm completely occupied uh with too many
+works this week uh maybe i'll do it in some day and i'll share it with you guys but i assure you
+that i'll try make you uh you know put efforts towards so that you can understand the concepts
+towards so that you can understand the concepts and be comfortable with the topics that we are
+actually having in curriculum okay yeah do rewatch it and kids
+so yeah yeah yeah surely i'll you can ask me anytime so are you able to follow up on kids
+with the assignments and everything yeah do share me the contest question which you
+faced challenge if you have it i can take it up i can take it up right away
+okay till html you were able to uh because it was easy yeah i agree uh css part is a bit
+difficult but you have to keep revising so it will take time some bit like take it slowly
+don't put too much pressure uh take it step by step uh you know keep revising it
+i'll push the code guys and give me a second
+i'll update read me firstly
+class nine
+thing
+so
+arrays splice then we have discussed something on object
+in depth then we have covered hoisting with where and let and const
+then we covered a reference data type
+manipulation and we have to start with rest and spread after operator in the next class
+get
+yeah some bit pushed the code you can check in the repository
+okay do you have questions
+uh like contest question if you have it i can take it up
+because i might need question i have to see if i can access it
+give me a second okay you're typing it uh okay
+so one thing okay sure sure sure take your time one thing you can do is like if you have face
+instantly uh because i've seen in group right uh people are helping each other and i've seen
+many people are you know doing that i really appreciate uh you know people uh somebody i
+guess who was answering the questions so please try to do uh you know help out each other it will
+really uh beneficial to you and me everyone right i might not be able to take everything there
+but i'll try my best to answer questions
+so
+okay yeah so which one do you think right
+so this was a question
+i think two and four right even i think it at first instance uh
+okay
+hmm so one of the you know uh i would agree that a fourth uh statement have to be updated
+properly but second one is obviously right everyone is agreeing right fourth option
+what do you think on the fourth option css inheritance are to applicable to only child element
+is how many of you think that hey fourth option is a bit confusing
+right because
+right so
+uh thank you for pointing out actually
+because i have to update the fourth option we should go with the second option actually
+because that's hard uh when you go from top to bottom right you read it
+second second one is right right according to the contest or what everyone have given
+yes i didn't see the contest questions but
+okay yeah because what happens is uh like when you go read from the top to bottom
+whatever first thing option you see that you can tick it up because we will i'll address this one
+to fix this fourth question uh right you know inheritance is by default only applicable to child
+elements and to the body tag everything is a child element right if you add anything to
+the body tag by default or html tag all things should be applicable so
+thank you for pointing this kabir i i'll try to you know that's the reason why i copied it once
+i read it i copied it such that i can give to the team i they can update it
+uh anything else guys
+uh but you think i think is right now by both answers are correct yeah yeah i agree with you
+it's not your mistake both the things are right itself whatever you're thinking that's right
+that's the reason why i've asked people to say right uh how many of you think that
+fourth point is also right you see the peers are also agreeing with your point not only me
+okay
+so even if i put it in this one let's say chat gpt
+that's also suggesting a second point
+so
+okay anyways guys i'll update and talk to you on this one okay anything else
+so uh if you see i got an answer i asked it to verify the fourth option so it says that
+it not might be correct completely accurate because inheritance works in both directions
+from parent to child elements and from child to the parents element
+directions from parent to child elements and from child to the parents element
+certain properties from the parents but not limited to child elements in a reading from the parents
+under certain circumstances so i'll explore that
+okay
+it's contradicting contradicting it but anyways there's any other questions
+any other questions do you have any other questions
+okay
+as if there are no questions can we close the call for today
+a final thumbs up guys good night guys take care and
+see you on thursday uh i'll let you know the new instructor who will be assigned on thursday and
+and i'll come back on next saturday to take this up and cut this question
+to ping team yeah uh for three classes because i have to take care of my personal
+you know like recommendations like i have uh my sister's marriage so i'm going to attend that and
+i have too many things to take care so i'll be on leave okay so
+so hello guys then good night have good night take care see you on thursday
+uh hope you have enjoyed thank you kabir
+bye bye guys good night
+you

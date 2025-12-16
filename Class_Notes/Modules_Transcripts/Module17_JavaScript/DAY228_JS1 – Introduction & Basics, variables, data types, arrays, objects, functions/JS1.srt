@@ -1,0 +1,5148 @@
+1
+00:00:30,000 --> 00:00:40,560
+Hi all good evening am I audible and visible guys okay thanks
+
+2
+00:00:49,680 --> 00:00:50,800
+so how's everyone doing
+
+3
+00:01:00,000 --> 00:01:12,480
+I'm trying to set up the screen guys give me a minute
+
+4
+00:01:12,480 --> 00:01:25,560
+Oh start screen sharing do let me know once you can see the screen
+
+5
+00:01:25,560 --> 00:01:49,120
+are you able to see the screen guys okay thank you so hey guys can anyone share
+
+6
+00:01:49,160 --> 00:02:05,200
+the whatsapp group link for Avril so guys how many of you complete last 11 questions
+
+7
+00:02:05,200 --> 00:02:22,000
+did anyone attempt it okay sure I'll do that I'll do that I'll do that
+
+8
+00:02:22,000 --> 00:02:33,600
+give me a second my screen share to act I'm switch Wi-Fi connection
+
+9
+00:02:52,000 --> 00:03:06,560
+guys give me a second I'll rejoin the call okay no not needed I believe like am I visible
+
+10
+00:03:06,560 --> 00:03:12,000
+and audible clear no just want to recheck with you guys and screen share is also working fine
+
+11
+00:03:12,000 --> 00:03:27,640
+right okay so we'll explore two properties guys margin collapse and red index and okay
+
+12
+00:03:27,640 --> 00:03:38,040
+these two properties okay right let's wait for another two minutes we scan even post in
+
+13
+00:03:38,040 --> 00:03:54,200
+whatsapp group we'll start in three minutes we're about to get started okay so there's
+
+14
+00:03:54,200 --> 00:04:01,240
+anyone having any other doubts no submit you'll be able to understand we are starting with
+
+15
+00:04:01,240 --> 00:04:07,960
+JavaScript so I don't think you missed anything but to watch the last class okay it's about
+
+16
+00:04:07,960 --> 00:04:16,440
+advanced CSS I hope you go back and try to get a hang of it okay so this is to Sambit Basant
+
+17
+00:04:16,440 --> 00:04:30,040
+submit drop me a github url you know then I'll check on that okay
+
+18
+00:04:30,040 --> 00:04:46,760
+let's create another folder in the classes which will stand for JS
+
+19
+00:04:46,760 --> 00:04:59,960
+right Sambit Tripathi and Sambit Basant both people I think you already greeted each other
+
+20
+00:04:59,960 --> 00:05:11,360
+in two classes earlier okay great I'll keep this open with me and we'll check this Sambit later
+
+21
+00:05:11,360 --> 00:05:28,320
+okay so github link is already shared wherever I'm pushing the code but I'll it's it's you know
+
+22
+00:05:28,320 --> 00:05:34,120
+pinned in whatsapp also you can refer from whatsapp group also but I'll reshare it
+
+23
+00:05:34,120 --> 00:05:58,040
+so this is the link guys okay and also in the whatsapp link I think time is also up we have
+
+24
+00:05:58,040 --> 00:06:04,600
+good amount of people so let's get started guys with today's class okay
+
+25
+00:06:04,600 --> 00:06:20,120
+so till now guys what we have covered in broader perspective right are two parts isn't it two parts
+
+26
+00:06:21,120 --> 00:06:30,440
+code code two parts I would say HTML and CSS we call this as a hyper text markup language
+
+27
+00:06:30,440 --> 00:06:41,640
+where it was just used to you know build the structure of layout right structure of our
+
+28
+00:06:41,640 --> 00:06:48,480
+website like what content to be showed and how it should be showed whereas this used for styling
+
+29
+00:06:48,480 --> 00:06:58,560
+the structure and we call this one as a cascading style sheet
+
+30
+00:06:58,560 --> 00:07:10,520
+right so I hope this two parts were clear to everyone right can you guys give me thumbs
+
+31
+00:07:10,520 --> 00:07:15,360
+up if you are clear with this two topics on broader level and the topics that we have
+
+32
+00:07:15,360 --> 00:07:22,080
+discussed till now cool so we are going to get start with the third I'm guys today which
+
+33
+00:07:22,080 --> 00:07:29,400
+is JavaScript so since this is a first class we'll move bit slow we'll understand best bit
+
+34
+00:07:29,400 --> 00:07:37,080
+history about what JavaScript is why it was built and how you know web development got you know got
+
+35
+00:07:37,080 --> 00:07:45,080
+this much of scope and how how this has been done okay so you know firstly if I go to do you
+
+36
+00:07:45,080 --> 00:07:57,240
+understand this keyword is web 1.2 web 2.2 or web 3.2 do you know this have you heard of this one
+
+37
+00:07:57,240 --> 00:08:12,160
+what are these are okay now let's see like what is web 1.0 firstly so not exactly versions but
+
+38
+00:08:12,200 --> 00:08:18,760
+these are like the how web development was progressed and how they have grown over the
+
+39
+00:08:18,760 --> 00:08:29,520
+years like if you see web 1.2 was simply built using HTML and CSS and they are only used to
+
+40
+00:08:29,520 --> 00:08:37,660
+build something called a static sites when I say static sites you don't have really like you know
+
+41
+00:08:37,660 --> 00:08:43,860
+behavior like you they don't have clicks or events that are being you the events you probably you
+
+42
+00:08:43,860 --> 00:08:49,300
+click it if you see a newspaper how that newspaper is like it's only one way right consuming you're
+
+43
+00:08:49,300 --> 00:08:54,180
+consuming the data but you cannot give data to that newspaper right it's just like you are trying
+
+44
+00:08:54,180 --> 00:09:00,420
+to read it so initially whenever websites were built firstly in web one point of face when like
+
+45
+00:09:01,420 --> 00:09:08,820
+.com boom was going on in 1990s so people used to only use websites for you know rendering data
+
+46
+00:09:08,820 --> 00:09:13,540
+like you can consume the data but you cannot actually play around with that all the other
+
+47
+00:09:13,540 --> 00:09:19,780
+things were done offline wherever you want to give a data it was offline is that point here like
+
+48
+00:09:19,780 --> 00:09:25,340
+when I say web 1.2 what do I mean it's just that wherever it's like a newspaper sort of things like
+
+49
+00:09:25,340 --> 00:09:31,300
+you have only you can consume that data like it's like reading a book online so that's how web
+
+50
+00:09:31,300 --> 00:09:39,900
+development started initially and this people know after that web 2.0 is somewhere like you
+
+51
+00:09:39,900 --> 00:09:49,100
+know the journey where people saw a problem that they want to do on automation and automation of
+
+52
+00:09:49,100 --> 00:09:59,020
+what of all the manual work you do like so now when I say only read only content but if you want
+
+53
+00:09:59,020 --> 00:10:03,900
+to give some data to it let's say you want to do an online banking or any other other sort of
+
+54
+00:10:03,900 --> 00:10:10,860
+banking how can you do it how can they do it so that's where you know they converted from like
+
+55
+00:10:10,860 --> 00:10:18,580
+art like manual efforts to automation and the first step towards doing this one or something
+
+56
+00:10:18,580 --> 00:10:29,420
+called us grow first internet have anyone heard this word grow first internet
+
+57
+00:10:29,420 --> 00:10:40,860
+even when I was going through right I don't know but I will show you what it was like okay
+
+58
+00:10:40,860 --> 00:10:46,660
+first websites were built then there was you know the websites were used to look like this one if
+
+59
+00:10:46,700 --> 00:10:53,740
+you see this image so Grover is someone like who built an internet protocol which can render you
+
+60
+00:10:53,740 --> 00:11:00,220
+render a menu like item and on click of them they can redirect you to the content which can
+
+61
+00:11:00,220 --> 00:11:05,900
+is only readable there are no forms or those sort of things but still the data is being shown only
+
+62
+00:11:05,900 --> 00:11:13,340
+not being consumed but this was like hyperlinks okay so that was a stack that came into the role
+
+63
+00:11:13,340 --> 00:11:19,740
+once they wanted to start automation like shipping more content onto the web is this clear on top
+
+64
+00:11:19,740 --> 00:11:24,260
+view what like the first invention was in terms of grow first internet this is something like where
+
+65
+00:11:24,260 --> 00:11:31,140
+they want to show menu sort of things if you see everywhere it would be like a hyperlink okay
+
+66
+00:11:31,140 --> 00:11:39,900
+nothing much deep in that but it's because it was just how used it used to work okay you can
+
+67
+00:11:39,900 --> 00:11:45,980
+explore on this if you want to read like what was a Grover and how it can be done but initial when
+
+68
+00:11:45,980 --> 00:11:51,460
+they got started the first protocol that was developed in terms of automation going moving
+
+69
+00:11:51,460 --> 00:12:02,340
+towards something called as web 2.0 was this one grow first internet then this one person
+
+70
+00:12:02,340 --> 00:12:16,740
+called Brendan H does anyone know this person name Brendan H have you heard this person name
+
+71
+00:12:16,740 --> 00:12:30,620
+okay this was a crazy guy who was also a CEO of Mozilla Firefox the team who actually went
+
+72
+00:12:30,620 --> 00:12:37,420
+on to build web development for us okay so this person has written whole programming language
+
+73
+00:12:37,420 --> 00:12:48,700
+case let me just show you his image okay this was a person who actually you know built the
+
+74
+00:12:48,700 --> 00:12:56,180
+JavaScript language but he was a co-founder of Mozilla project or Mozilla foundation whatever
+
+75
+00:12:56,180 --> 00:13:01,140
+you call Firefox is one of the product for them but he or someone who actually started
+
+76
+00:13:01,140 --> 00:13:09,220
+but when he did this one right this crazy person who wrote whole code in 10 days
+
+77
+00:13:09,220 --> 00:13:17,940
+what if I say you that JavaScript was built in 10 days and we are taking more than a month to
+
+78
+00:13:17,940 --> 00:13:31,620
+understand it it's funny isn't it so this person has coded the whole JS in 10 days and do you
+
+79
+00:13:31,620 --> 00:13:36,380
+believe like any person is so smart that one person can build full-fledged language in 10 days
+
+80
+00:13:36,380 --> 00:13:46,420
+do you think it's possible no right so this person when he built it now he firstly he they
+
+81
+00:13:46,420 --> 00:13:53,860
+used to call them call it as a live script okay live script okay because they wanted
+
+82
+00:13:53,860 --> 00:13:59,100
+this website to act like a life when they were going towards developing this web 2.0 like they
+
+83
+00:13:59,100 --> 00:14:04,620
+want more interactive so they call this has a script which will help you to interact making
+
+84
+00:14:04,620 --> 00:14:12,540
+the website live and when he built this life script now he made many mistakes many mistakes
+
+85
+00:14:12,540 --> 00:14:17,380
+while building it and those mistakes we famously call it as JavaScript features that will explore
+
+86
+00:14:17,380 --> 00:14:22,860
+one by one and even interviews I don't know why they expect us to know because those are the
+
+87
+00:14:22,860 --> 00:14:28,780
+pitfalls of JavaScript we'll explore them one by one but this language initially was built in 10
+
+88
+00:14:28,780 --> 00:14:35,820
+days that was a crazy thing that happened then you know the people from the back end like Java
+
+89
+00:14:35,820 --> 00:14:40,780
+they still mock front-end developers like hey you're writing a scripting language not a
+
+90
+00:14:40,780 --> 00:14:48,860
+programming language as such does anyone have heard this or face this one or like office life
+
+91
+00:14:48,860 --> 00:14:56,020
+or anything the world before frameworks like angular react people we used to use HTML CSS
+
+92
+00:14:56,020 --> 00:15:03,220
+JS and JS was actually not considered a programming language by the so-called back-end developers
+
+93
+00:15:03,220 --> 00:15:08,500
+because they say that this is just a scripting language nothing much more specific than that so
+
+94
+00:15:08,580 --> 00:15:15,660
+they've been like many things have been mocking with they have been mocking us but after the
+
+95
+00:15:15,660 --> 00:15:20,500
+frameworks came in after they got to know what are the challenge in challenges in it they're
+
+96
+00:15:20,500 --> 00:15:27,300
+acknowledging it slowly slowly but still back-end people are still back-end people okay but keeping
+
+97
+00:15:27,300 --> 00:15:34,780
+all the stuff aside now this as I said you when I say that this is not up to the mark
+
+98
+00:15:38,740 --> 00:15:45,140
+mark language like up to the mark into the market so there should be some organization right who
+
+99
+00:15:45,140 --> 00:15:53,020
+might be taking care of this life script who might be taking care of life script or building it so
+
+100
+00:15:53,020 --> 00:16:05,140
+that organization was called us ECMA have anyone heard this key word ECMA okay so these people
+
+101
+00:16:05,580 --> 00:16:11,340
+these are the group of people this is a group of people from different organizations they came in
+
+102
+00:16:11,340 --> 00:16:18,420
+they told like hey this is a really great feature this is a real great feature and this is a value
+
+103
+00:16:18,420 --> 00:16:25,260
+add thing that we if you want to move towards web 2.0 or do anything in the latest world right we
+
+104
+00:16:25,260 --> 00:16:31,620
+have to come together and build some really great features to it like are more rappers are adding
+
+105
+00:16:31,620 --> 00:16:38,460
+more things so they kept on you know releasing multiple features to this one okay multiple
+
+106
+00:16:38,460 --> 00:16:43,780
+features and one of the best features they released in which major amount of new changes
+
+107
+00:16:43,780 --> 00:16:50,700
+or new way of handling came in was ES6 which we call it as ECMA script version 6 like you say
+
+108
+00:16:50,700 --> 00:16:57,540
+anyone in the Java developer role they say that Java 8 is a more important thing because they
+
+109
+00:16:57,540 --> 00:17:03,380
+have introduced streams and functional programming in it isn't it because anyone applying for Java
+
+110
+00:17:03,380 --> 00:17:09,900
+roles they consider like Java 8 is mandatory I am able to relate with Java because I also
+
+111
+00:17:09,900 --> 00:17:21,300
+do work on Java right so in same in the same way ES6 is a one of the major releases that this
+
+112
+00:17:21,300 --> 00:17:29,900
+stream ECMA let's let me show you whose ECMA is like what they do on a brief okay this opened
+
+113
+00:17:29,900 --> 00:17:40,500
+in the new page I don't need this one let's say we open here okay so if you see this what this
+
+114
+00:17:40,500 --> 00:17:48,100
+is like stand you can see many things are there but if you see ECMA 6 this is a something where
+
+115
+00:17:48,100 --> 00:17:54,340
+they introduced too many things on JavaScript front okay they keep on building many things
+
+116
+00:17:54,340 --> 00:18:03,780
+that you need to you need help in but this is a team that who has built for us but let me see
+
+117
+00:18:03,780 --> 00:18:07,300
+yeah ECMA script 21
+
+118
+00:18:15,300 --> 00:18:17,980
+let me see ES6 document
+
+119
+00:18:17,980 --> 00:18:36,820
+okay this was a one of the website who made who actually handled it now they have released
+
+120
+00:18:36,820 --> 00:18:42,700
+too many good amount of things guys in JavaScript which made JavaScript a stable language or a more
+
+121
+00:18:42,700 --> 00:18:48,220
+of a better language now if you see a JavaScript is a JavaScript but if you see the most of the
+
+122
+00:18:48,220 --> 00:18:54,220
+things right whatever you see they are coming from the ECMA script now because people don't
+
+123
+00:18:54,220 --> 00:19:00,580
+really call ECMA script as a I mean like you have many names to this particular language that we are
+
+124
+00:19:00,580 --> 00:19:06,380
+going to learn but all those features again we say that it's HTML CSS and JavaScript that's how
+
+125
+00:19:06,380 --> 00:19:11,740
+people accepted it but something we are going we are using or we will be able to we'll be learning
+
+126
+00:19:11,740 --> 00:19:17,660
+something called as ECMA script because that's where you know many inventions came in and those
+
+127
+00:19:17,660 --> 00:19:25,020
+things will be keep keep on using it okay now in between I've talked about something called as
+
+128
+00:19:25,020 --> 00:19:33,580
+live script and ECMA script let's say this is an ECMA script but where does this name got converted
+
+129
+00:19:33,580 --> 00:19:40,660
+into JavaScript how does it got converted like when the decision was took so what happened is
+
+130
+00:19:40,660 --> 00:19:48,060
+right live script they gave it a name it was going good it was supporting features and everything
+
+131
+00:19:48,060 --> 00:19:56,500
+they didn't do anything but since at that moment of age this language was famous right this language
+
+132
+00:19:56,500 --> 00:20:04,460
+was famous so that they just use this Java and they added something like script to it that's why
+
+133
+00:20:04,460 --> 00:20:09,420
+these people keep mocking us hey you are writing a scripting language but you're not actually
+
+134
+00:20:09,660 --> 00:20:16,180
+coding it adding our name so this person itself Brendan H itself he is something converted and
+
+135
+00:20:16,180 --> 00:20:25,580
+built for us okay so if I show you even in documentation of JavaScript let's say if we
+
+136
+00:20:25,580 --> 00:20:36,500
+go for Wikipedia yeah this is a Wikipedia right so if you say designed by Brendan H of Netscape
+
+137
+00:20:36,500 --> 00:20:44,060
+initially others also have contributed to the ECMA script standard can you guys see this if I
+
+138
+00:20:44,060 --> 00:20:49,740
+have to zoom in okay first person like Brendan H was done it then ECMA script got introduced
+
+139
+00:20:49,740 --> 00:20:56,100
+okay then many things came in okay if I show you let's say if I search something called as
+
+140
+00:20:56,100 --> 00:21:06,900
+live script if it is there see in 1995 it was startingly called as live script then the name
+
+141
+00:21:06,900 --> 00:21:13,020
+was changed to JavaScript for the official release in December okay generally added to create
+
+142
+00:21:13,020 --> 00:21:20,940
+interactive websites that's how they have built it coming back to this one so this was a bit of
+
+143
+00:21:20,940 --> 00:21:27,980
+a history guys now this people this organization right we say that ES6 is a best version but they
+
+144
+00:21:27,980 --> 00:21:39,100
+kept on releasing many versions but we it got limited yeah yeah you can say that somewhere so
+
+145
+00:21:39,100 --> 00:21:45,140
+they kept on increasing multiple versions like ES version numbers kept on increasing releasing
+
+146
+00:21:45,140 --> 00:21:53,380
+but people stopped caring because now people have moved towards frameworks like angular react
+
+147
+00:21:53,380 --> 00:22:01,980
+or you can say view but what I feel like the world will come back to this one someday because
+
+148
+00:22:01,980 --> 00:22:09,860
+history repeats and things will fall back okay up to an extent you solve some problems you come
+
+149
+00:22:09,860 --> 00:22:16,460
+back and solve do better things okay but this was something how what was it like history about
+
+150
+00:22:16,460 --> 00:22:26,980
+JavaScript is that clear guys how JavaScript was created and why it was created I hope this was
+
+151
+00:22:26,980 --> 00:22:31,820
+just a theoretical thing we'll have much theory today and then we'll get started actual coding
+
+152
+00:22:31,820 --> 00:22:50,620
+okay then this is fine so this was created for adding interactivity or behavior to client or
+
+153
+00:22:50,620 --> 00:23:01,340
+you can say your HTML and CSS code but just think of it this is solving problem on a front end logic
+
+154
+00:23:01,340 --> 00:23:19,060
+isn't it but how come we are able to among this three guys among this three this one okay you
+
+155
+00:23:19,060 --> 00:23:25,540
+can search that Google you can search it which one is famous among them you will see that according
+
+156
+00:23:26,100 --> 00:23:33,140
+but this problem is if you see this this is solving front-end logic issues but what about
+
+157
+00:23:33,140 --> 00:23:50,180
+backend which is a more popular among three guys I didn't miss are you talking about this one let's
+
+158
+00:23:50,340 --> 00:23:58,300
+leave it this one as of now guys we will come back again pure.js okay but focus on this question
+
+159
+00:23:58,300 --> 00:24:08,700
+Abhinav will take it up in future okay focus on this question now like initially we use these
+
+160
+00:24:08,700 --> 00:24:17,900
+three things to solve the front-end issues now how backend you are able to build a backend servers
+
+161
+00:24:17,980 --> 00:24:34,620
+or backend applications because using js what was the innovation that took place here so because
+
+162
+00:24:34,620 --> 00:24:41,500
+if you see till now what we have learned from the history they were solving only to add problems
+
+163
+00:24:41,500 --> 00:24:47,300
+like to add a behavior and this end-edge created some issues so the one organization who took
+
+164
+00:24:47,300 --> 00:24:53,140
+responsibility of improving the language they kept on improving it okay but just think of it
+
+165
+00:24:53,140 --> 00:25:00,940
+like how we were able to solve the like this actual issue of backend does anyone have any
+
+166
+00:25:00,940 --> 00:25:21,060
+idea on this how we are able to code it in backend or how does murn and mean came into exist
+
+167
+00:25:21,060 --> 00:25:33,620
+and why we call JavaScript developers as full stack developers today node.js okay so I'll write
+
+168
+00:25:33,620 --> 00:25:46,140
+down here node.js but before going to node.js now tell me one something like if I'm considering
+
+169
+00:25:46,140 --> 00:25:55,260
+only front-end part even front-end part let's say you have HTML CSS and JS now where this
+
+170
+00:25:55,260 --> 00:26:06,060
+JS code is compiled and executed because we know this are both in browser where this is
+
+171
+00:26:06,060 --> 00:26:18,940
+executed and you know passed so give me thumbs up for the browser give me thumbs down for the server
+
+172
+00:26:18,940 --> 00:26:39,620
+okay I see equivalent okay guys both people are in a way right but I will tell you about
+
+173
+00:26:39,620 --> 00:26:44,740
+like actually what happened when I'm considering front-end part it is actually executed in browser
+
+174
+00:26:44,740 --> 00:26:53,460
+itself but now to understand any code or anything we need someone a machine to understand this one
+
+175
+00:26:53,460 --> 00:26:59,500
+right whatever we are writing logics JS logic do you agree with that if we are entering in the
+
+176
+00:26:59,500 --> 00:27:04,300
+browser and browser is not something being handled by one organization browsers are owned
+
+177
+00:27:04,300 --> 00:27:13,700
+by different organizations right do you guys agree with that it is this point that a different
+
+178
+00:27:13,700 --> 00:27:19,460
+browsers are there and different browsers are like owners are different organizations okay
+
+179
+00:27:19,460 --> 00:27:27,460
+nothing much uncle just now we are talking about history okay but can can you give me
+
+180
+00:27:27,460 --> 00:27:32,180
+a different browsers that you use in day life like what are the browsers important browsers
+
+181
+00:27:32,180 --> 00:27:39,860
+that you use in day life okay OPERA but do you use OPERA uncle in this day so I have Chrome
+
+182
+00:27:39,860 --> 00:27:52,140
+I have edge and one more guys brave duck duck go Safari let's say if I make this as a three
+
+183
+00:27:52,140 --> 00:27:58,780
+standard one right three standard one and three big giant companies are handling this one isn't
+
+184
+00:27:58,780 --> 00:28:06,260
+it and Mozilla let's say Mozilla Firefox we shouldn't miss that creators okay this has
+
+185
+00:28:06,580 --> 00:28:12,700
+four people handling who's handling Chrome who's handling Chrome guys who are building
+
+186
+00:28:12,700 --> 00:28:23,660
+this Chrome Google red I hope you know this and who's handling edge Microsoft
+
+187
+00:28:23,660 --> 00:28:35,820
+and who is handling Safari Apple and for this one Mozilla cooperation
+
+188
+00:28:35,820 --> 00:28:47,820
+these people also went on to build something called as brave okay now you know each of this
+
+189
+00:28:48,540 --> 00:28:54,060
+each of these people have built their own engines which will understand this code whatever
+
+190
+00:28:54,060 --> 00:29:01,500
+written in JS okay so one of the powerful machine which was introduced by Google was
+
+191
+00:29:01,500 --> 00:29:12,340
+something called as a V8 engine this was actually built on a chromium OS have you heard this
+
+192
+00:29:12,340 --> 00:29:20,460
+chromium OS okay so they built Google went on to build something called V8 engine now
+
+193
+00:29:20,460 --> 00:29:28,020
+Microsoft edges also built on something called as chromium US oh sorry OS so they also use some
+
+194
+00:29:28,020 --> 00:29:36,740
+same V8 engine to understand JavaScript and execute in their browser okay same in a same
+
+195
+00:29:36,740 --> 00:29:44,020
+way Apple has something some engine called as nitro which understand JavaScript and execute it
+
+196
+00:29:44,020 --> 00:29:55,700
+in their browsers and this people have something called as spider monkey who you know pass and
+
+197
+00:29:55,700 --> 00:30:02,820
+execute the code is this point here like we have HTML CSS by default that we are entering a tree
+
+198
+00:30:02,820 --> 00:30:09,140
+but to understand a program and execute and pass it we are seeing that it will be done in browser
+
+199
+00:30:09,140 --> 00:30:15,700
+and browser is not someone who builds language who owns it browser is something external products
+
+200
+00:30:15,700 --> 00:30:21,460
+like tools so each company have built their own respective engines or they took extra one like
+
+201
+00:30:21,460 --> 00:30:28,180
+support from the other OS's and build their browsers okay so these are the engines that they
+
+202
+00:30:28,180 --> 00:30:36,100
+have used to pass the code now this was all about front-end now people have told me to the
+
+203
+00:30:36,100 --> 00:30:42,180
+earlier problem which has like how where you were able to code it in backend now to write those
+
+204
+00:30:42,180 --> 00:30:48,180
+backend code also since in browser we were using one of these engines to understand code and pass
+
+205
+00:30:48,180 --> 00:30:54,420
+the code we need that sort of engine right which can understand code and write it down outside of
+
+206
+00:30:54,420 --> 00:30:58,260
+browser isn't it
+
+207
+00:31:01,540 --> 00:31:06,420
+so for that use case itself for that use case itself there's a one person called
+
+208
+00:31:07,620 --> 00:31:10,740
+have you heard person called ran Randall
+
+209
+00:31:13,460 --> 00:31:14,900
+have you heard this person's name
+
+210
+00:31:14,900 --> 00:31:16,900
+okay
+
+211
+00:31:19,540 --> 00:31:27,380
+interesting story guys if you go and read about him right he is a person who created node.js and
+
+212
+00:31:27,380 --> 00:31:35,220
+dino dino is something he also told like like same as a brendan edge he this person also
+
+213
+00:31:35,940 --> 00:31:42,100
+written node.js in you know very quick time he released it then if you see
+
+214
+00:31:43,060 --> 00:31:48,100
+on 27th may 2009 dial released this project called node.js runtime
+
+215
+00:31:48,900 --> 00:31:58,580
+okay then in 2018 after nine years he again created a new engine called dino which will again
+
+216
+00:31:58,580 --> 00:32:03,300
+execute that but what this person did if you understand about this one also this person also
+
+217
+00:32:03,300 --> 00:32:08,500
+right he was doing some phd in mathematics he left that mathematics degree and he went to
+
+218
+00:32:08,500 --> 00:32:15,060
+south africa to his hometown and then he went out to build something node.js now while he's
+
+219
+00:32:15,060 --> 00:32:20,580
+building what he did is like he don't want to write the whole engine code like whole javascript
+
+220
+00:32:20,580 --> 00:32:25,780
+parser code but what he took is like he took that same chrome engine because this was someone who
+
+221
+00:32:25,780 --> 00:32:32,500
+was giving better performance okay weird engine so he took help of weird engine and
+
+222
+00:32:32,500 --> 00:32:39,140
+then he added some more features to it he added some more features to it
+
+223
+00:32:40,740 --> 00:32:44,100
+and created something called as node.js this this product
+
+224
+00:32:46,580 --> 00:32:50,580
+by then once you had node.js you were able to write code
+
+225
+00:32:50,580 --> 00:32:56,100
+and execute it on a server because this one was giving us ability to create a server
+
+226
+00:32:56,100 --> 00:33:05,540
+okay i hope you can understand now that js can be executed both on browser
+
+227
+00:33:08,180 --> 00:33:11,300
+and non-browser environment
+
+228
+00:33:13,860 --> 00:33:18,020
+so one of the ways using any browser like chrome or anything for non-browser you have
+
+229
+00:33:18,020 --> 00:33:26,260
+to use something called as node.js is this clear from execution like
+
+230
+00:33:26,260 --> 00:33:28,500
+where you can use javascript and how does it work
+
+231
+00:33:33,300 --> 00:33:43,060
+nice so after this what happened is now because of this only we were able to create multiple
+
+232
+00:33:43,060 --> 00:33:49,780
+things like once you got the node.js you can write down the whole you can write down the whole
+
+233
+00:33:49,780 --> 00:33:56,900
+backend code in the node.js but in order to make node.js code also easy a something a new
+
+234
+00:33:56,900 --> 00:34:02,740
+framework which was built or something called as express.js this was specifically used to build
+
+235
+00:34:02,740 --> 00:34:09,220
+apis a robust framework that we'll be learning in future but i'm just giving you a brief of front
+
+236
+00:34:09,300 --> 00:34:16,100
+and back like when it comes to javascript ecosystem okay so express.js was created
+
+237
+00:34:16,100 --> 00:34:21,220
+to build your apis okay we'll come to apis also when we introduce it but till then
+
+238
+00:34:21,220 --> 00:34:27,860
+just consider this one i also explained apis in first class of our web development i hope you got
+
+239
+00:34:27,860 --> 00:34:37,060
+what i was trying to say here okay that's that's where a full stack got to birth okay where you
+
+240
+00:34:37,060 --> 00:34:47,380
+had on this client and both on server javascript can exist coexist and someone who is powering
+
+241
+00:34:47,380 --> 00:34:51,380
+here powering here is node.js and here different browsers
+
+242
+00:34:54,660 --> 00:34:59,140
+so that's the reason why i said that when you say that javascript can be executed both on browser
+
+243
+00:34:59,140 --> 00:35:04,020
+and server this is the reason why it can be done i hope this point is clear guys
+
+244
+00:35:07,860 --> 00:35:13,620
+okay now as you've seen that as you know that you know other than this one also javascript
+
+245
+00:35:13,620 --> 00:35:20,660
+has many applications if you see from the client perspective of one of the clients are like laptops
+
+246
+00:35:21,380 --> 00:35:22,660
+or desktop
+
+247
+00:35:26,020 --> 00:35:33,860
+and what else you have desktop laptop and ipads and everything but when it comes to this one we
+
+248
+00:35:34,100 --> 00:35:37,700
+when it comes to this one we were using same sort of you know
+
+249
+00:35:38,660 --> 00:35:43,540
+like programming language or same type of design but when it comes to mobile programming language
+
+250
+00:35:44,180 --> 00:35:50,180
+mobile apps you know we got too many people building too many things like flutter have you
+
+251
+00:35:50,180 --> 00:35:59,860
+heard of flutter right so this was again powered by google they built flutter they
+
+252
+00:35:59,940 --> 00:36:04,980
+powered flutter and they also you know many languages came for the mobile app development
+
+253
+00:36:06,980 --> 00:36:13,380
+okay now why does mobile app development is difficult guys just think of it why mobile
+
+254
+00:36:14,500 --> 00:36:22,420
+app development is compared comparatively difficult to hankit what does it mean can run a browser
+
+255
+00:36:22,420 --> 00:36:28,100
+so hankit just i've told you right javascript to execute javascript we have this particular
+
+256
+00:36:28,100 --> 00:36:33,060
+browsers and each browser have their own respective engines which can parse and execute the code
+
+257
+00:36:35,780 --> 00:36:41,220
+okay so that's what i was pointing to that it can run on browsers because they have
+
+258
+00:36:41,220 --> 00:36:45,780
+engines which can run the code whatever you write in javascript is that point clear
+
+259
+00:36:50,020 --> 00:36:50,520
+okay
+
+260
+00:36:53,380 --> 00:36:57,940
+so we can type the code on a chrome yeah yeah you can type the code on a chrome i can show that
+
+261
+00:36:59,060 --> 00:37:07,140
+i can show that okay you can type in any browser so to say okay now
+
+262
+00:37:09,700 --> 00:37:15,300
+yeah i'll show that i'll show that uh so for mobile apps uh let's complete this history then
+
+263
+00:37:15,300 --> 00:37:21,220
+we'll go for practical things okay the mobile apps the difficult thing was it was not running
+
+264
+00:37:21,220 --> 00:37:26,660
+in browser now when i say mobile app guys i'm not talking about something that you open chrome
+
+265
+00:37:26,740 --> 00:37:31,860
+right or any browser in mobile but i'm telling you like applications like you have a play store
+
+266
+00:37:31,860 --> 00:37:37,700
+app store or you say games that you have those are running on a mobile not inside the browser
+
+267
+00:37:37,700 --> 00:37:44,420
+environment right if you see we talked about till now in a browser and in a server level thing but
+
+268
+00:37:44,420 --> 00:37:51,300
+we didn't talk about os level right mobile os level like you have because here the os here the
+
+269
+00:37:51,300 --> 00:38:04,900
+os was windows or linux or you can say mac mac os right these three things but when it comes
+
+270
+00:38:04,900 --> 00:38:16,500
+to mobile you have something like android and ios right do you guys agree this like we have
+
+271
+00:38:16,500 --> 00:38:24,900
+a different os is working different ways but here we don't really meant to run the websites
+
+272
+00:38:24,900 --> 00:38:29,300
+in on to this os but we were running on the browser that was a fine issue we are still
+
+273
+00:38:29,300 --> 00:38:35,460
+not building apps on a desktop or the ipad but when it comes to app that have to run on this
+
+274
+00:38:36,420 --> 00:38:42,740
+like android or ios right we need some specifications for those reasons flutter type
+
+275
+00:38:42,740 --> 00:38:47,700
+of language were introduced which are compatible in building that but flutter is a different
+
+276
+00:38:47,700 --> 00:38:52,420
+language altogether but in when you learn javascript you also have an ability to build
+
+277
+00:38:52,420 --> 00:38:59,220
+mobile apps and that that comes with the react native have you heard this one react native
+
+278
+00:38:59,220 --> 00:39:04,020
+which is used to build native apps which are like mobile application specific like whatever your
+
+279
+00:39:04,020 --> 00:39:09,300
+apps you see swiggy zomato most of them are using react native itself to build it
+
+280
+00:39:10,020 --> 00:39:14,820
+so that again is based on javascript so javascript also gives you an ability to build websites
+
+281
+00:39:14,820 --> 00:39:20,420
+and also mobile apps or the applications that you see on mobile okay hope that is clear and
+
+282
+00:39:20,420 --> 00:39:28,580
+when it's come to you know applications from ai perspective or machine learning have you
+
+283
+00:39:28,580 --> 00:39:34,020
+heard of this keyword tensorflow tensorflow.js
+
+284
+00:39:34,020 --> 00:39:38,340
+or anyone heard is tensorflow
+
+285
+00:39:40,180 --> 00:39:49,540
+guys explore this one i'll give you tensorflow. in python it is famous but
+
+286
+00:39:52,500 --> 00:39:58,180
+okay this is a framework again which can help you to uh generally if you go for python
+
+287
+00:39:58,980 --> 00:40:06,580
+huh it is generally if you go by python right it is easy to write you know read the ml models
+
+288
+00:40:06,580 --> 00:40:12,100
+or build ml models right but if you if you even know the js you can still do it because
+
+289
+00:40:12,100 --> 00:40:17,620
+there's a support given by google who build the tensorflow.js i'm just showing you that
+
+290
+00:40:17,620 --> 00:40:23,460
+you learn one thing you will learn one good language which is javascript you will be able
+
+291
+00:40:24,020 --> 00:40:28,820
+to learn both clients and server side code you will be able to build mobile apps you will be
+
+292
+00:40:28,820 --> 00:40:34,900
+able to build ai ml projects also up to an extent is that point clear like why js is important
+
+293
+00:40:35,860 --> 00:40:42,500
+to learn or why we are learning this one i hope like i'm able to create that vibe that how that
+
+294
+00:40:42,500 --> 00:40:47,860
+is playing a major important role and why it is important all the things are built on this
+
+295
+00:40:47,860 --> 00:40:52,100
+language so if you whenever there are new enhancements are happening these are happening
+
+296
+00:40:52,100 --> 00:40:58,100
+on this one frameworks will come and go 10 years before there was no react
+
+297
+00:40:58,100 --> 00:41:05,860
+but 20 years before until today js is there js will be there in future also okay now
+
+298
+00:41:07,460 --> 00:41:14,420
+this is about 2.2 guys right when we talked about web 2.0 it was like more of a interactive
+
+299
+00:41:14,420 --> 00:41:20,500
+websites where user were interacting with the website isn't it now just think of it what's
+
+300
+00:41:20,500 --> 00:41:26,740
+happening in 3.0 just think of it what's happening in 3.2 guys
+
+301
+00:41:31,540 --> 00:41:42,180
+anyone like seen any 3.0 websites web 3.0 or like you know the idea or the intuition
+
+302
+00:41:43,060 --> 00:41:50,180
+towards web 3.0 is not yet matured okay not yet matured because whenever we say that
+
+303
+00:41:50,180 --> 00:41:55,380
+web right we are pointing towards client side client side logic like how you want to improve
+
+304
+00:41:55,380 --> 00:42:08,660
+client side like gpt uh uh uh that that was like for a back-end verse but if you see 3.0 is
+
+305
+00:42:08,660 --> 00:42:16,740
+something krishna mentioned something called as metaverse right you might have heard metaverse
+
+306
+00:42:16,740 --> 00:42:23,620
+you have seen this like uh apple's device where you wear those goggles and you are able to do
+
+307
+00:42:23,620 --> 00:42:32,820
+multiple events right multiple activities have you seen that launch oculus like oculus from meta
+
+308
+00:42:33,220 --> 00:42:38,660
+or like even apple had done it now in those in those advertisements they have seen yeah vision
+
+309
+00:42:38,660 --> 00:42:44,740
+pro if you remember vision pro uh they were interacting with websites using hands gestures
+
+310
+00:42:44,740 --> 00:42:52,020
+and even uh like you know i retinas and everything till now we had keyboard and mouses everything
+
+311
+00:42:52,020 --> 00:42:58,500
+but that was web web 3.0 that was one of the application google glass you can say
+
+312
+00:42:58,660 --> 00:43:05,060
+you can say this was one of the example or you can say in our uh you know in our language like
+
+313
+00:43:05,060 --> 00:43:12,260
+jarvis everyone knows jarvis right at least iron man jarvis something who listens to us and does
+
+314
+00:43:12,260 --> 00:43:21,140
+work so you can say that is what web 3.0 is talking about now from web 3.0 also we don't really know
+
+315
+00:43:21,140 --> 00:43:27,380
+the applications or how long it will be developed or what we are trying to achieve it since for web
+
+316
+00:43:27,380 --> 00:43:33,620
+2.0 it was a clear constraint that hey we want to add interactivity and that was clear but for
+
+317
+00:43:33,620 --> 00:43:41,220
+3.0 there's a metaverse then there is something like cryptocurrency uh but we don't exactly know
+
+318
+00:43:41,220 --> 00:43:48,260
+what how the future is going to be okay the subject is not yet perfect like the intuition
+
+319
+00:43:48,260 --> 00:43:54,500
+that you want to do but there are many applications are coming where it is giving you to you know
+
+320
+00:43:55,140 --> 00:44:00,340
+uh ownership of it like have you seen many things which were based on this one
+
+321
+00:44:01,540 --> 00:44:07,700
+uh blockchain based technology where you can own stickers and other things and you can go into a
+
+322
+00:44:07,700 --> 00:44:10,420
+dream land and buy the lines and play around with those
+
+323
+00:44:12,660 --> 00:44:22,820
+nfts yeah nfts i hope you have heard of nfts okay so now what does nfts idea was like in 2.0 till
+
+324
+00:44:22,820 --> 00:44:27,060
+1.0 you're consuming data and in this you are interacting and you are sharing the data
+
+325
+00:44:27,700 --> 00:44:33,940
+then in 3.0 this people gave an idea that hey we are talking about ownership of a places or
+
+326
+00:44:33,940 --> 00:44:41,060
+ownership of that idea okay so if i talk about three perspectives that are innovating this one
+
+327
+00:44:41,060 --> 00:44:47,380
+or creating each one have their own way of explaining things right so this is what happening
+
+328
+00:44:47,380 --> 00:44:52,420
+i believe still web 3.0 will also take advantage of js and will build up on it
+
+329
+00:44:52,420 --> 00:44:57,460
+because interfaces are built that way okay yeah yeah creating a virtual world that's what
+
+330
+00:44:57,460 --> 00:45:03,060
+actually i was talking about using nfts they used to say right it just two projects are again
+
+331
+00:45:03,060 --> 00:45:10,260
+interlinked cryptogenesis nft but i i hope the basic idea is clear uh what i was talking about
+
+332
+00:45:10,260 --> 00:45:12,500
+3.0 right
+
+333
+00:45:17,380 --> 00:45:24,180
+so this is just an introduction guys that i was talking about like how and why javascript is
+
+334
+00:45:24,180 --> 00:45:32,980
+important how the uh like how how this all came into an existence how this is happening in what
+
+335
+00:45:32,980 --> 00:45:38,740
+can be the future version and thing right so i hope you enjoyed it this is just a like a talk
+
+336
+00:45:38,740 --> 00:45:46,980
+that we had but now we'll go and see how we can do this and how we can use javascript excited guys
+
+337
+00:45:48,100 --> 00:45:48,980
+for javascript
+
+338
+00:45:52,020 --> 00:45:58,100
+is going to be a very good journey i hope uh i we travel together and learn too much so for the
+
+339
+00:45:58,100 --> 00:46:05,300
+people who wanted me to write javascript in browser i go to console guys if you see here
+
+340
+00:46:06,260 --> 00:46:13,220
+i just do two plus two and i'm able to do arithmetic operation okay i can run a for loop
+
+341
+00:46:16,580 --> 00:46:21,460
+i'm just showing this that you can do it and i'm writing in a browser in a chrome browser
+
+342
+00:46:35,540 --> 00:46:40,900
+okay i'm able to print it this is fine uncut i think you were asking it right how we can code it
+
+343
+00:46:42,660 --> 00:46:46,500
+okay why did you learn python then every every application has in own importance but
+
+344
+00:46:47,220 --> 00:46:53,220
+you know uh you should you should get to know it like where you are applying those tools or when
+
+345
+00:46:53,220 --> 00:46:58,340
+how that's why we say that javascript is like having a vast amount of applications where if
+
+346
+00:46:58,340 --> 00:47:02,260
+you learn one thing you're getting too many things and it's like buy one get many things
+
+347
+00:47:03,220 --> 00:47:09,300
+and it's like buy one get many things okay this is a shop where you buy learn one thing and get
+
+348
+00:47:09,300 --> 00:47:18,260
+many opportunities around okay so till now guys let's create one folder uh javascript and what
+
+349
+00:47:18,260 --> 00:47:24,100
+is the last class that we ended seventh class so i'll create a class eight here
+
+350
+00:47:24,260 --> 00:47:33,700
+now inside class eight let's create one simple index dot html file now this is something that
+
+351
+00:47:33,700 --> 00:47:40,900
+we already know okay what this file is talking about let's render something like h1
+
+352
+00:47:40,900 --> 00:47:49,220
+okay let's say heading and if we want to give a style we also know that if we if we want to link
+
+353
+00:47:49,220 --> 00:47:59,460
+it we can link using style sheets isn't it let's build up one style sheet style dot css okay
+
+354
+00:48:00,100 --> 00:48:09,300
+isn't it let's build up one style sheet style dot css okay
+
+355
+00:48:14,420 --> 00:48:17,700
+all right let's make some color to it h1
+
+356
+00:48:21,460 --> 00:48:21,940
+color
+
+357
+00:48:21,940 --> 00:48:35,300
+okay random this is what we know till now isn't it this is what we have learned now let's let's
+
+358
+00:48:35,300 --> 00:48:42,580
+do something and let's add another file here when you go to the html file okay what i'll do it here
+
+359
+00:48:42,580 --> 00:48:48,340
+is that i'll create another now if you see i have used something called as link but if i want to
+
+360
+00:48:48,340 --> 00:48:54,740
+write a javascript right anytime in javascript in html or i want to link of javascript file here
+
+361
+00:48:54,740 --> 00:49:03,140
+i can write it anywhere let's say i can write a script tag script tag if i write down two plus two
+
+362
+00:49:03,700 --> 00:49:11,220
+okay i can do anywhere like if i write down anywhere it it should be it would be executing it
+
+363
+00:49:12,980 --> 00:49:15,540
+in body in head or anywhere okay
+
+364
+00:49:19,140 --> 00:49:19,540
+oh
+
+365
+00:49:26,260 --> 00:49:32,180
+you won't be able to see in the browser though let me do one thing i can do something like
+
+366
+00:49:32,180 --> 00:49:37,140
+console dot log console dot log guys is equal to the print statement that you learn in a
+
+367
+00:49:37,140 --> 00:49:43,860
+different language it can be system dot print dot ln or anything that you see okay now what
+
+368
+00:49:43,860 --> 00:49:49,780
+i'm just i'll do is like i'll open this in the browser since visual studio code doesn't have
+
+369
+00:49:49,780 --> 00:49:55,540
+an ability to run javascript but browser does it does have it right let's open with live server
+
+370
+00:49:56,980 --> 00:50:04,260
+okay now if you see open inspect tool and if you see the 444 got printed three times
+
+371
+00:50:04,900 --> 00:50:09,380
+and that's coming because if you go and open this file index dot html
+
+372
+00:50:09,940 --> 00:50:14,500
+yeah for js javascript if you want to print anything you use console dot log
+
+373
+00:50:14,500 --> 00:50:17,300
+because you are trying to print something in the console
+
+374
+00:50:18,740 --> 00:50:22,900
+okay that's how it works that's how you remember how the print statement works in js
+
+375
+00:50:23,620 --> 00:50:28,900
+is that point clear guys that i can add a script file anywhere that i want to
+
+376
+00:50:29,380 --> 00:50:30,580
+anywhere that i want to
+
+377
+00:50:33,940 --> 00:50:38,100
+okay i hope this logic is clear it will work in anywhere
+
+378
+00:50:38,100 --> 00:50:43,380
+but what's the standard practice right what is the standard practice that i can do
+
+379
+00:50:46,580 --> 00:50:53,220
+okay i'll comment this one one of the standard way of it's like uh there's nothing like standard
+
+380
+00:50:53,220 --> 00:50:59,620
+all people write all outside of codes but like we have i've just shown you like how can you write
+
+381
+00:50:59,620 --> 00:51:05,460
+js here inside the html and how can you add a create a new file let's say i have something called
+
+382
+00:51:05,460 --> 00:51:15,300
+this uh index dot js file here let's say you write console log here again uh and we do uh
+
+383
+00:51:15,940 --> 00:51:21,380
+you know this one a statement whenever you learn any programming language let's start with it
+
+384
+00:51:21,380 --> 00:51:27,700
+okay now if you want to link that file if you want to link that file anytime what you can do
+
+385
+00:51:27,700 --> 00:51:34,340
+is is inside the script tag you can always add a source what is the source of this particular script
+
+386
+00:51:34,340 --> 00:51:42,020
+or what how what where is the code for this script tag you can give this way once you give this again
+
+387
+00:51:42,020 --> 00:51:49,380
+i'm going inside the here uh and i'm refreshing it okay if you see this particular file was linked
+
+388
+00:51:49,940 --> 00:51:55,460
+and this was the line added now if you see whenever i'm refreshing it uh this line will
+
+389
+00:51:55,460 --> 00:52:03,700
+be executed let's say if i click apply here hello world was printed so that's how you connect three
+
+390
+00:52:03,700 --> 00:52:11,060
+files it can be your html it can be css and it can be gs is this clear how do you link those files
+
+391
+00:52:11,060 --> 00:52:16,900
+and how can you add a javascript in the same file this is just an introduction i haven't taught you
+
+392
+00:52:16,900 --> 00:52:22,180
+any new topic it's just like how can you use the javascript in the html along with that
+
+393
+00:52:23,540 --> 00:52:26,420
+guys no doubt till now right no doubts until now right
+
+394
+00:52:28,580 --> 00:52:33,620
+okay i hope there are no doubts now now there is something new that i want to show
+
+395
+00:52:34,740 --> 00:52:41,940
+it's like okay till now okay you've shown me in browser what what's a use where how can i do it
+
+396
+00:52:41,940 --> 00:52:48,020
+in node.js you told about node.js that can be uh allowed you can use it to you know code it in the
+
+397
+00:52:48,660 --> 00:52:53,780
+backend way and how can you build a server around that for that one right you have to
+
+398
+00:52:53,780 --> 00:53:02,740
+install something called as node.js go to this website guys uh and you know go for something
+
+399
+00:53:02,740 --> 00:53:09,460
+called as lts long time support which is recommended for most of the users if i give you this site
+
+400
+00:53:10,260 --> 00:53:15,780
+uh take this and download it how many of you already have it or how many of you don't have
+
+401
+00:53:15,780 --> 00:53:23,860
+it guys give me thumbs down if you don't have this one download it okay please go on click this one
+
+402
+00:53:23,860 --> 00:53:32,420
+okay go and click this one lts one it will be automatically downloaded okay and you have to
+
+403
+00:53:32,500 --> 00:53:37,460
+install it guys i'll wait for a minute or two once you install it
+
+404
+00:53:38,820 --> 00:53:43,060
+okay once you like let's say you click a download i'll show you once you click a download this will
+
+405
+00:53:43,060 --> 00:53:58,260
+be done uh it's taking a good amount of time 70 mb if your internet speed is good uh you'll be
+
+406
+00:53:58,260 --> 00:54:02,500
+able to download it fast so i'm just showing how can you do that
+
+407
+00:54:04,820 --> 00:54:12,020
+custom setup uh yeah i'll just show you like once you click this right uh for i can show
+
+408
+00:54:12,020 --> 00:54:17,140
+for the mac guys because i have this macbook right or else i can share you a recording where
+
+409
+00:54:17,140 --> 00:54:21,300
+how we can install the node.js okay you can continue it
+
+410
+00:54:22,260 --> 00:54:28,100
+you can continue it and you can agree uh you know disagree with the like agree with the license
+
+411
+00:54:28,100 --> 00:54:31,700
+and go ahead and install it okay
+
+412
+00:54:34,260 --> 00:54:38,980
+guys would you be able to install it if i give you one recording or you can search in the youtube
+
+413
+00:54:38,980 --> 00:54:43,300
+for the node.js installation part can i go ahead with the topic
+
+414
+00:54:43,780 --> 00:54:45,220
+can i go ahead with the topic
+
+415
+00:54:48,660 --> 00:54:55,460
+okay cool thank you guys now what i'll do it is like i'll open a terminal here let's say in the
+
+416
+00:54:55,460 --> 00:55:02,660
+class 8 i create open a terminal since you want to run a server or anything once you are installed
+
+417
+00:55:02,660 --> 00:55:07,620
+node.js right once you are installed the node.js you can verify what is the node version you are
+
+418
+00:55:07,620 --> 00:55:15,620
+having let's check my my version okay uh let's say it's hyphen hyphen version if you see i have
+
+419
+00:55:15,620 --> 00:55:22,260
+something a version called 18.8 but the latest version is 20.2 whatever version you are having
+
+420
+00:55:22,260 --> 00:55:28,500
+that's okay or greater than 14 is something you needed okay i print this one once you check the
+
+421
+00:55:28,500 --> 00:55:36,260
+version and if your node.js is available now let's see what i'll do i have this file index.js
+
+422
+00:55:36,980 --> 00:55:42,740
+now i'm not executing in the chrome but i'm executing in this terminal i'm just saying that
+
+423
+00:55:42,740 --> 00:55:50,660
+hey node can you execute this file of javascript and i'm clicking enter now if you see hello world
+
+424
+00:55:50,660 --> 00:56:00,340
+got printed even what i can do i can do something like console.log uh let's say two plus two basic
+
+425
+00:56:00,340 --> 00:56:07,940
+example uh again i execute this one now if you see two things i have it output it is that clear
+
+426
+00:56:07,940 --> 00:56:14,820
+like you can run javascript in both browser you can link with html you can also run individually
+
+427
+00:56:14,820 --> 00:56:21,540
+js files using node.js so i hope i have justified this part like how can you use them now
+
+428
+00:56:23,540 --> 00:56:29,140
+yes if this thing is clear uh we are ready to get started and deep dive inside the language part
+
+429
+00:56:29,620 --> 00:56:36,740
+okay so uh what i'll create uh you know folder here is that
+
+430
+00:56:39,620 --> 00:56:43,540
+let's have a folder called variables
+
+431
+00:56:46,900 --> 00:56:47,860
+and data types
+
+432
+00:56:48,500 --> 00:56:55,380
+okay let's say i have something called as variables.js okay
+
+433
+00:56:57,940 --> 00:57:02,100
+so guys can you give me your own definitions of understanding variables
+
+434
+00:57:02,820 --> 00:57:10,420
+what do you exactly understand by variables how do you uh pursue this keyword variable
+
+435
+00:57:11,380 --> 00:57:15,220
+how do you uh pursue this keyword variable
+
+436
+00:57:19,220 --> 00:57:22,980
+since you have studied some sort of language if you haven't studied that's fine but
+
+437
+00:57:24,020 --> 00:57:27,380
+just think of what you understand by word variable
+
+438
+00:57:36,100 --> 00:57:36,820
+guys no one
+
+439
+00:57:41,220 --> 00:57:49,860
+just use it to store data identifiers okay can store value can store data okay uh let's say
+
+440
+00:57:52,100 --> 00:57:59,700
+let's say i'll tell you this one um i want to store milk what sort of vessel you will get it
+
+441
+00:57:59,700 --> 00:58:05,140
+in the home what type of vessel you will get utensil you can say
+
+442
+00:58:05,140 --> 00:58:13,460
+okay uh which is having a bottle sort of things right or a patella wherever you can pour milk in
+
+443
+00:58:14,180 --> 00:58:26,900
+right right so each and every other item uh have a particular thing which can take that item and
+
+444
+00:58:26,900 --> 00:58:31,860
+put it in that right you have boxes you have almaras where you can put the items in it or
+
+445
+00:58:31,860 --> 00:58:37,540
+you can have complex boxes where you put your pencils in it you have mobile where you store data
+
+446
+00:58:37,540 --> 00:58:43,460
+or contact list same way in programming language if you want to store data right you want to store
+
+447
+00:58:43,460 --> 00:58:50,180
+data variables are somewhere are like a containers that can store the data this is definition good
+
+448
+00:58:50,180 --> 00:58:54,980
+enough guys to remember it like these are the containers just containers which can take the
+
+449
+00:58:54,980 --> 00:58:57,300
+value okay let's say
+
+450
+00:59:03,860 --> 00:59:06,500
+variables are containers
+
+451
+00:59:09,060 --> 00:59:21,460
+that can store different values or items because container can be anything a bottle or any type
+
+452
+00:59:21,460 --> 00:59:29,300
+of vessel that you see or utensils in your home it can every utensil is used for you know different
+
+453
+00:59:29,300 --> 00:59:38,340
+types of storing right same way variables also have different use cases okay now so one of the
+
+454
+00:59:38,340 --> 00:59:46,020
+way one of the way that you can store and declare a variable now when i say declare a variable
+
+455
+00:59:46,020 --> 00:59:52,180
+it means that i'm naming a variable okay uh if i tell you in a specific way how we can say that
+
+456
+00:59:52,180 --> 01:00:04,180
+is that uh this is milk bottle or or you say that that way whenever you say that this is a
+
+457
+01:00:04,180 --> 01:00:10,660
+particular items container then you name that particular container right cooker is for rice
+
+458
+01:00:11,140 --> 01:00:16,820
+or they say something that way so you have to name so you never you are doing it you declare it
+
+459
+01:00:16,820 --> 01:00:22,740
+let's say one of the way to declare it is like where a or you you say in different languages
+
+460
+01:00:22,740 --> 01:00:30,020
+int a like in chava or you can say in different things right now if i'm saying that this line
+
+461
+01:00:30,020 --> 01:00:35,860
+right when i'm saying this line what is this i'm saying that a is a variable and this variable
+
+462
+01:00:35,860 --> 01:00:41,300
+name is a container name is a and this container will have value 10 in it this is good enough
+
+463
+01:00:41,300 --> 01:00:46,180
+explanation guys are you able to understand where i equal to 10 what do i exactly mean by that
+
+464
+01:00:48,500 --> 01:00:57,460
+okay now where is a old way old style of writing
+
+465
+01:00:57,460 --> 01:01:11,860
+or declaring variables and this was again given by it itself who created in 20s okay
+
+466
+01:01:12,820 --> 01:01:19,620
+itchway let's say itchway okay now why i'll tell you this one why this is not good enough i'll
+
+467
+01:01:19,620 --> 01:01:29,860
+tell you let's say i open an integrated terminal and i clear this one i say node variables
+
+468
+01:01:32,420 --> 01:01:40,340
+let's say dot j's if i execute let's say okay i okay let's say ls i have this file
+
+469
+01:01:40,980 --> 01:01:51,060
+okay nice made a spelling mistakes this uh keep a eye on you know this one and keep making mistakes
+
+470
+01:01:51,060 --> 01:01:59,620
+on spelling mistakes okay okay i didn't anything printed here so it doesn't didn't work let's say
+
+471
+01:01:59,620 --> 01:02:10,100
+i do this one you see this 10 is getting printed here that's fine so let's say i do this one
+
+472
+01:02:10,340 --> 01:02:15,780
+where is equivalent to end no i'll come to the address t give me a second okay i'll come to that
+
+473
+01:02:15,780 --> 01:02:26,820
+now let's say again i use where a equal to let's say i store your name this day here
+
+474
+01:02:32,740 --> 01:02:35,220
+do you think this is a right way of writing a code
+
+475
+01:02:40,340 --> 01:02:42,340
+okay
+
+476
+01:02:45,460 --> 01:02:50,100
+the reason guys any reason i see eight people giving me thumbs down what could be the
+
+477
+01:02:50,100 --> 01:02:57,460
+why are you giving me thumbs down i just want to understand okay yeah i'm re declaring and
+
+478
+01:02:57,460 --> 01:03:08,820
+initializing that same variable right so now two keywords i got declaring and initializing
+
+479
+01:03:08,980 --> 01:03:15,140
+okay get out i wish it will remove an inside listing okay now great but
+
+480
+01:03:16,740 --> 01:03:22,100
+what's happening here is that let's say i have told this is a milk bottle
+
+481
+01:03:22,100 --> 01:03:25,300
+and inside that i'm storing a floor is it good
+
+482
+01:03:30,580 --> 01:03:36,580
+all right not a right way of doing it so firstly coming back to this definition of declaring and
+
+483
+01:03:37,540 --> 01:03:42,020
+initializing so this when i'm what do i mean by exactly declaring is that i declared this
+
+484
+01:03:42,020 --> 01:03:48,340
+variable as a i'm named it as a it's like giving a name like you name a person or you name anything
+
+485
+01:03:48,340 --> 01:03:54,500
+like declaring it but what position or what they'll contain is something like initializing it
+
+486
+01:03:54,500 --> 01:03:58,580
+initializing it means that what you'll put in that container okay that that definition
+
+487
+01:03:58,580 --> 01:04:00,260
+is clear right declaring and initializing
+
+488
+01:04:00,260 --> 01:04:01,940
+okay
+
+489
+01:04:04,500 --> 01:04:11,140
+declaring and initializing is clear guys okay now we say that this is a wrong way of writing a code
+
+490
+01:04:11,140 --> 01:04:18,260
+okay but now let's understand what's happening in js if i click enter
+
+491
+01:04:19,780 --> 01:04:26,100
+okay 10 is printed that's fine i go and print it again a
+
+492
+01:04:26,100 --> 01:04:32,580
+okay now do you see this it's printing 10 and it's also printing rusty
+
+493
+01:04:35,380 --> 01:04:42,580
+so what we thought by default is like hey you cannot re declare that same thing you cannot
+
+494
+01:04:42,580 --> 01:04:46,900
+give the name same name to that particular thing right but it is a we are able to do that
+
+495
+01:04:47,460 --> 01:04:55,460
+this was a one of the mistake that i created okay that hey i'm able to that's okay that if i want
+
+496
+01:04:55,460 --> 01:05:02,100
+to store in a if i want to store a dristy i can update it let's say variable can take if it is
+
+497
+01:05:02,100 --> 01:05:08,660
+taking let's say 10 liters of milk if it is having more space it can supposedly take 12 liters of milk
+
+498
+01:05:08,660 --> 01:05:16,740
+that's fine but how can i rename that same variable right it's not it shouldn't be allowed to do that
+
+499
+01:05:16,740 --> 01:05:22,260
+isn't it do you guys agree with that
+
+500
+01:05:26,260 --> 01:05:28,980
+so the problem that i'm trying to point out is
+
+501
+01:05:31,220 --> 01:05:33,540
+re declaring of same variable
+
+502
+01:05:36,260 --> 01:05:42,340
+are you able to notice that in python it allowed okay then python
+
+503
+01:05:43,460 --> 01:05:49,380
+guys i'm not sure about python but in i'm talking about some you know fixes that has been introduced
+
+504
+01:05:49,380 --> 01:05:55,460
+now i'll talk about them but here what's happening is like firstly in this example guys
+
+505
+01:05:56,020 --> 01:05:59,780
+let's leave python aside for this when you're whenever you're learning new language right
+
+506
+01:05:59,780 --> 01:06:06,180
+learn it from fresh understand it like what is user's perspective it would be easy for you that
+
+507
+01:06:06,180 --> 01:06:11,460
+to name one person and put that container item in it or like you can put any like you can always
+
+508
+01:06:11,460 --> 01:06:18,100
+declare again and again it creates uh too many mistakes and too many problems of understanding
+
+509
+01:06:18,100 --> 01:06:23,460
+and debugging is also important or difficult but coming back to this example guys i've just
+
+510
+01:06:23,460 --> 01:06:29,700
+declared two variables and reinitialize them so using where i can re declare and also i can
+
+511
+01:06:29,700 --> 01:06:36,580
+reinitialize right okay is this point clear guys that i'm able to redeclare and initialize using where
+
+512
+01:06:36,660 --> 01:06:49,700
+okay now in es6 right in es6 in es6 which is our 2015 version what happened is they introduced
+
+513
+01:06:49,700 --> 01:07:00,900
+two ways of declaring a variable let and const okay let and const two types of variable now let's say
+
+514
+01:07:01,460 --> 01:07:10,420
+if i say that let a equal to 10 again i said let a equal to i give any name let's say i give it
+
+515
+01:07:10,420 --> 01:07:16,260
+uncle do you see this it is highlighting both the a's and it is giving me a mistake destroying
+
+516
+01:07:16,260 --> 01:07:22,500
+is this dot js file is throwing mistake now it says that cannot re declare a block scope variable
+
+517
+01:07:22,500 --> 01:07:29,540
+now it says that cannot re declare a block scope variable a leave block scope and everything for
+
+518
+01:07:29,540 --> 01:07:36,740
+now yeah it's a let and const were introduced in esx uh some bit but what i'm trying to point out
+
+519
+01:07:36,740 --> 01:07:42,340
+here is that whenever i use these variables they say that you cannot re declare a like variable
+
+520
+01:07:43,300 --> 01:07:48,900
+is this point clear when you use this let what what if i remove this let what if i just remove
+
+521
+01:07:48,900 --> 01:07:56,660
+this let it is allowing me to store anything but it is allowing me to reinitialize it is allowing
+
+522
+01:07:56,660 --> 01:08:10,740
+me to reinitialize that variable so let's write down this point let allows to reinitialize a variable
+
+523
+01:08:10,740 --> 01:08:12,580
+variable
+
+524
+01:08:15,060 --> 01:08:19,860
+whereas it doesn't allow to
+
+525
+01:08:22,260 --> 01:08:22,580
+re-declare it
+
+526
+01:08:30,180 --> 01:08:30,580
+okay
+
+527
+01:08:30,580 --> 01:08:42,420
+now now let's go and see what const talks about it says a const i'll say b equal to 10
+
+528
+01:08:43,460 --> 01:08:52,740
+now again if i go and const b equal to 20 again it says that same issue right firstly it doesn't
+
+529
+01:08:52,740 --> 01:09:00,100
+allow to re-declare that same variable first point again even if i try to reinitialize that same
+
+530
+01:09:00,100 --> 01:09:08,260
+variable let's say it is showing here it is not throwing us any error but what if i do and print
+
+531
+01:09:08,260 --> 01:09:15,460
+it let's say if i go and try to run this file and print it now it says that assignment to constant
+
+532
+01:09:15,540 --> 01:09:21,380
+now it says that assignment to constant assignment to constant variable okay
+
+533
+01:09:21,940 --> 01:09:27,860
+when i say constant it is meant fixed final value you cannot reinitialize also
+
+534
+01:09:30,020 --> 01:09:33,460
+okay is this point clear like what const does
+
+535
+01:09:36,100 --> 01:09:44,820
+const doesn't allow to reinitialize or re-declare a variable
+
+536
+01:09:45,940 --> 01:09:53,860
+okay is that point clear guys how where let and const behave how these three things behave
+
+537
+01:09:58,580 --> 01:10:01,860
+yes anyone having any doubts these are basic things but
+
+538
+01:10:01,860 --> 01:10:03,860
+i hope you will be remembering this one
+
+539
+01:10:08,260 --> 01:10:14,820
+okay let's let's draw the chart for this one okay so that you remember
+
+540
+01:10:15,620 --> 01:10:24,820
+so
+
+541
+01:10:30,260 --> 01:10:34,820
+let's say if i say that re-declaration
+
+542
+01:10:39,700 --> 01:10:41,300
+and re-initialization
+
+543
+01:10:45,460 --> 01:10:56,180
+okay let's say i have where let and const
+
+544
+01:11:00,660 --> 01:11:06,580
+yes help me out can i re-declare a where can i re-declare a where guys
+
+545
+01:11:08,340 --> 01:11:11,380
+yes can i reinitialize the where
+
+546
+01:11:11,380 --> 01:11:18,980
+okay yes can i re-declare let
+
+547
+01:11:22,660 --> 01:11:25,780
+yes can i reinitialize let
+
+548
+01:11:30,820 --> 01:11:35,620
+yes let no right can i reinitialize let
+
+549
+01:11:36,100 --> 01:11:45,220
+okay let reinitialization yes right for const
+
+550
+01:11:49,940 --> 01:11:56,900
+both the things no right great thank you guys i hope this point is clear for you that how
+
+551
+01:11:57,140 --> 01:12:04,180
+these things are playing around so now understanding this point which both variables
+
+552
+01:12:04,180 --> 01:12:06,900
+feels like are actually should be used
+
+553
+01:12:10,100 --> 01:12:15,220
+when you are declaring any variable what would come to your mind which thing should be used
+
+554
+01:12:15,220 --> 01:12:18,660
+do you think where would be a great right idea to use anytime
+
+555
+01:12:18,660 --> 01:12:29,780
+okay right so in industry right in industry if you are using this variable in today's life
+
+556
+01:12:31,140 --> 01:12:33,460
+this will be flagged to be fixed
+
+557
+01:12:37,220 --> 01:12:41,300
+let's say i write down not to be used
+
+558
+01:12:44,180 --> 01:12:47,700
+even if i'm using anywhere while coding it you'll flag me out
+
+559
+01:12:49,620 --> 01:12:59,060
+okay i'll come to that someday okay whereas whereas let and const when you would go for let
+
+560
+01:12:59,060 --> 01:13:00,260
+when you would go for const
+
+561
+01:13:04,500 --> 01:13:07,940
+when you would go for let and when you would go for const
+
+562
+01:13:07,940 --> 01:13:24,660
+whenever you want to declare a final variable final or static which doesn't change over the
+
+563
+01:13:24,660 --> 01:13:28,660
+time go for a const which i think will change over time
+
+564
+01:13:28,660 --> 01:13:36,020
+which needs to be
+
+565
+01:13:38,900 --> 01:13:39,380
+changed
+
+566
+01:13:41,780 --> 01:13:49,300
+okay so i hope these two things are clear like use let and const and i hope the basic difference
+
+567
+01:13:49,300 --> 01:13:56,180
+between them is also clear now guys here there's a one more thing that i want to show you guys is
+
+568
+01:13:56,180 --> 01:14:02,260
+that do you see here i'm also able to put our numbers and strings into the same containers
+
+569
+01:14:06,980 --> 01:14:12,660
+like i didn't say that this is an integer or this is a string or this is something right
+
+570
+01:14:13,540 --> 01:14:22,740
+like if you go for java they strictly you like typed on int long string char right all of them
+
+571
+01:14:22,740 --> 01:14:31,860
+but here we don't have them so the reason is that javascript is loosely typed language
+
+572
+01:14:31,860 --> 01:14:38,260
+and dynamically typed when i say dynamically let's say there are three keywords guys they used it
+
+573
+01:14:39,860 --> 01:14:41,780
+weekly loosely
+
+574
+01:14:44,260 --> 01:14:45,060
+dynamically
+
+575
+01:14:45,060 --> 01:14:46,580
+okay
+
+576
+01:14:49,380 --> 01:14:55,780
+okay these three words are used when they why they use these two keywords are they go with synonyms
+
+577
+01:14:57,060 --> 01:14:59,380
+because you don't need to
+
+578
+01:15:02,180 --> 01:15:03,380
+you don't need to
+
+579
+01:15:03,380 --> 01:15:12,900
+say which type of container
+
+580
+01:15:16,900 --> 01:15:20,900
+there's a step of container now when i say type
+
+581
+01:15:22,500 --> 01:15:28,580
+is data type right what is the type of data that you want to store okay that you don't need to
+
+582
+01:15:28,580 --> 01:15:34,900
+okay that you don't need to say to js it will understand it runtime dynamically
+
+583
+01:15:37,780 --> 01:15:40,900
+is this point here why we say these three things
+
+584
+01:15:41,940 --> 01:15:48,340
+for javascript is loosely weekly typed and at runtime dynamically it will understand
+
+585
+01:15:48,340 --> 01:15:54,100
+what type of data type it is till then it won't flag you like you can store anything using
+
+586
+01:15:54,100 --> 01:16:04,660
+latent cost that point is clear now okay now now coming back to this something called as data types
+
+587
+01:16:04,660 --> 01:16:07,620
+let's move to the data types
+
+588
+01:16:08,100 --> 01:16:11,140
+so
+
+589
+01:16:18,500 --> 01:16:25,380
+okay on top level right on top level on top level what all the data types that you know
+
+590
+01:16:26,820 --> 01:16:32,500
+the scheme with those guys names that you know firstly how many types of data types what are
+
+591
+01:16:32,500 --> 01:16:38,180
+the categories of data types that you know you go you if you have learned any language
+
+592
+01:16:38,180 --> 01:16:44,100
+every language have two types of data types firstly can you give me those categories
+
+593
+01:16:46,980 --> 01:16:50,180
+there is that i understand it but how do you categorize data types
+
+594
+01:16:53,140 --> 01:16:53,940
+uh no
+
+595
+01:16:56,420 --> 01:17:01,780
+think of it do you remember this keyword something called as primitive
+
+596
+01:17:03,460 --> 01:17:04,980
+and non-primitive
+
+597
+01:17:08,020 --> 01:17:13,940
+right i hope you remember this case both things are data types only
+
+598
+01:17:18,660 --> 01:17:25,380
+right now what all things that you can think of like what will come in primitive
+
+599
+01:17:25,380 --> 01:17:26,260
+primitive
+
+600
+01:17:30,500 --> 01:17:37,780
+as you many member told earlier like int car floats here for most of the things i'll tell
+
+601
+01:17:37,780 --> 01:17:45,780
+you two things guys number is a data type which can store int and float and double
+
+602
+01:17:45,780 --> 01:17:56,740
+and long to say so okay from for the people who are coming from jar background number is a
+
+603
+01:17:56,740 --> 01:18:02,820
+keyword which like number is a data type which will store everything is that clear
+
+604
+01:18:05,220 --> 01:18:07,300
+now then there is something called as string
+
+605
+01:18:09,540 --> 01:18:15,140
+this will store both string and care what is the different between care and string guys
+
+606
+01:18:16,260 --> 01:18:22,340
+guys i'm writing this now not to confuse you but this is for the people who are coming from
+
+607
+01:18:22,340 --> 01:18:26,420
+different language background if they are able to understand if you are completely beginner
+
+608
+01:18:26,420 --> 01:18:31,380
+no issues number is a place where you store you can know you can store any number and string is
+
+609
+01:18:31,380 --> 01:18:36,420
+a place where you can store any string like string and i say string it's a group of characters
+
+610
+01:18:37,220 --> 01:18:38,420
+alphabets okay
+
+611
+01:18:41,220 --> 01:18:44,900
+what's the different between okay i've already told you car is a single character
+
+612
+01:18:46,020 --> 01:18:52,260
+single letters you can say a string is a group of characters okay then what would be the third
+
+613
+01:18:52,260 --> 01:19:04,260
+type guys commonly you think boolean right right which stores true or false
+
+614
+01:19:09,780 --> 01:19:15,300
+then here the in primitive they also introduce something called as null which doesn't mean
+
+615
+01:19:15,300 --> 01:19:20,260
+like whenever you have to give any empty value like just you can introduce null
+
+616
+01:19:22,020 --> 01:19:25,460
+empty is something called as null okay i hope this point is clear
+
+617
+01:19:28,580 --> 01:19:34,900
+okay on top level guys on top level these are the type of data that you would generally deal
+
+618
+01:19:34,900 --> 01:19:39,940
+with isn't it strings numbers booleans and null
+
+619
+01:19:45,940 --> 01:19:57,140
+i see one thumbs down right there are other few parameters too but i don't think that you would
+
+620
+01:19:57,140 --> 01:20:02,980
+be using it in day-to-day life if i go for standards give me a minute
+
+621
+01:20:09,540 --> 01:20:10,020
+okay
+
+622
+01:20:16,820 --> 01:20:20,660
+so there's one more thing guys that i want to talk about is something called as
+
+623
+01:20:20,660 --> 01:20:33,300
+big num big int okay big int again used for larger numbers okay that but not needed here the
+
+624
+01:20:33,300 --> 01:20:41,300
+range of number is too high okay not like java or any other language the range of this particular
+
+625
+01:20:41,300 --> 01:20:47,940
+data is too high and the funny thing about java script is that you don't need to declare type of
+
+626
+01:20:47,940 --> 01:20:52,500
+that you don't need to declare a type of data type right you don't need to say that it should
+
+627
+01:20:52,500 --> 01:20:59,460
+be a long or it should be anything by default it will get it okay but on top level these are
+
+628
+01:20:59,460 --> 01:21:04,660
+the four things which are in the primitive and when it comes to non-primitive what are things
+
+629
+01:21:04,660 --> 01:21:06,020
+that you generally see
+
+630
+01:21:08,740 --> 01:21:09,300
+arrays
+
+631
+01:21:13,780 --> 01:21:14,340
+and this
+
+632
+01:21:17,620 --> 01:21:23,220
+no don't need it not needed somewhere typecasting anything map okay
+
+633
+01:21:26,500 --> 01:21:28,260
+classes objects
+
+634
+01:21:28,340 --> 01:21:35,540
+here instead of classes java script is mostly preferred as a functional programming language
+
+635
+01:21:35,540 --> 01:21:42,820
+serial so you can say functions instead of classes we'll talk about classes use case of classes in
+
+636
+01:21:42,820 --> 01:21:49,060
+javascript how they come how they are working but we'll say functions okay these are the top
+
+637
+01:21:49,060 --> 01:21:53,780
+broader level category guys like how this primitive and non-primitive works but let's
+
+638
+01:21:53,860 --> 01:21:59,060
+explore them one by one it will take hardly 10 minutes i guess all you you already know this one
+
+639
+01:21:59,060 --> 01:22:04,260
+but i'll just take 10 minutes of this one to just clear uh re-explain and close it up okay
+
+640
+01:22:06,580 --> 01:22:12,100
+so let's say i have i'll start with numbers firstly
+
+641
+01:22:14,100 --> 01:22:18,020
+so what all things you can store let's say const a equal to 10
+
+642
+01:22:18,260 --> 01:22:26,100
+so what all things you can store let's say const a equal to 10 also you can store const a equal
+
+643
+01:22:26,100 --> 01:22:33,540
+b equal to let's say minus 10 a negative and positive okay then you can also store const c
+
+644
+01:22:33,540 --> 01:22:44,260
+equal to let's say 10.345 something like in a decimal unit again i can also store
+
+645
+01:22:44,900 --> 01:22:53,380
+minus 10.345 all the four things i can store let's say i show you console logging all of them okay
+
+646
+01:22:57,860 --> 01:23:06,900
+let me see clear ls node so whenever you are typing it you have to execute those file names
+
+647
+01:23:06,900 --> 01:23:14,740
+execute those file names data types dot j's now if you say i'm able to execute all of them
+
+648
+01:23:14,740 --> 01:23:19,700
+right this is a one special operator guys one special operator if you want to know
+
+649
+01:23:21,380 --> 01:23:26,900
+what is a data type of any particular thing then you have to use something called as type
+
+650
+01:23:28,260 --> 01:23:35,220
+of whenever you give something called as type of that particular you know it will give what
+
+651
+01:23:35,220 --> 01:23:41,220
+type of data type it is let's say if i re-execute this file do you see this it's suggesting it's a
+
+652
+01:23:41,220 --> 01:23:51,380
+number this is clear what this keyword is type of i will keep on introducing new things so that
+
+653
+01:23:51,380 --> 01:23:57,300
+you get used to it okay now numbers are done let's go for something called as strings
+
+654
+01:23:57,300 --> 01:24:06,980
+okay i'll do const e i'll store single character q okay
+
+655
+01:24:08,580 --> 01:24:16,820
+const f let's say i store hello or whatever suggesting okay i can print both of the things
+
+656
+01:24:17,460 --> 01:24:23,380
+i'll also print let's say type of e and also i'll print both the things okay
+
+657
+01:24:23,380 --> 01:24:33,620
+okay now if you see when i'm typing type of e it is giving me as a string for both like though it
+
+658
+01:24:33,620 --> 01:24:40,020
+is a single character and here the funny thing is single quotation or double quotation doesn't
+
+659
+01:24:40,020 --> 01:24:47,700
+matter everything is considered string okay in javascript whatever you give okay i hope that
+
+660
+01:24:47,700 --> 01:24:53,460
+point is also clear like string data type and number data type now
+
+661
+01:24:56,180 --> 01:25:01,060
+next thing is something like i was talking about something called as null right
+
+662
+01:25:02,980 --> 01:25:12,740
+g let's say if i print gif null and i also do console log of console log of type of g and let's
+
+663
+01:25:12,740 --> 01:25:22,260
+say i also do print g okay so you can use commas in console log which will print all the types okay
+
+664
+01:25:23,620 --> 01:25:30,500
+you see type of g it says as an object because a null by default it's an empty thing
+
+665
+01:25:31,060 --> 01:25:35,460
+till you don't assign a value it will show that way type of g
+
+666
+01:25:36,260 --> 01:25:43,460
+uh this one i'll tell you why we got is an object i'll get because uh you know most of the languages
+
+667
+01:25:43,460 --> 01:25:49,380
+which have been oriented such an object oriented programming right behind the scene everything is
+
+668
+01:25:49,380 --> 01:25:55,940
+considered object isn't it if you are bit experienced with any programming language
+
+669
+01:25:56,740 --> 01:26:02,340
+but i'll explain in javascript terms when we go for uh the concepts actual concept but remember
+
+670
+01:26:03,300 --> 01:26:10,100
+this like when i type when i check the type of a null value i'm getting an object and value as
+
+671
+01:26:10,100 --> 01:26:18,820
+a null itself but we'll pick it up in the future okay why object data type is coming as like this
+
+672
+01:26:18,820 --> 01:26:31,300
+one like object okay then uh bullions right let's say h true uh
+
+673
+01:26:36,020 --> 01:26:37,300
+okay
+
+674
+01:26:37,300 --> 01:26:39,780
+okay
+
+675
+01:26:46,740 --> 01:26:51,700
+now if i print this now if you see i'm able to print two true false and type is becoming
+
+676
+01:26:51,700 --> 01:26:57,540
+bullion so these are the broad level categories guys what you generally see okay
+
+677
+01:26:59,380 --> 01:27:06,580
+uh right let me write down bullion but i want to show you one thing here is
+
+678
+01:27:07,700 --> 01:27:13,780
+there's something called undefined in javascript does anyone have uh
+
+679
+01:27:16,180 --> 01:27:18,500
+yeah i was coming to that something right away
+
+680
+01:27:21,700 --> 01:27:31,700
+okay now two things says one we need to understand undefined and not defined but before going to this
+
+681
+01:27:31,700 --> 01:27:36,980
+one i hope these examples are clear right i was using const everywhere because i was initializing
+
+682
+01:27:36,980 --> 01:27:43,940
+and reusing the same thing but if all this all these things are clear can anyone explain
+
+683
+01:27:44,660 --> 01:27:47,220
+what do you exactly understand by these two things
+
+684
+01:27:51,220 --> 01:27:56,660
+let's say i print something like console log of alpha
+
+685
+01:27:56,900 --> 01:28:04,260
+what i am supposed to get as a value output do you see do you see anywhere we have a declared alpha
+
+686
+01:28:04,820 --> 01:28:12,340
+variable no right now when you haven't declared it what you are supposed to get
+
+687
+01:28:15,300 --> 01:28:18,340
+if you haven't declared we have not declared it
+
+688
+01:28:18,580 --> 01:28:21,300
+if you haven't declared we have not declared it
+
+689
+01:28:26,500 --> 01:28:29,700
+is it's in the word itself like we haven't declared it we
+
+690
+01:28:29,700 --> 01:28:37,380
+not defined it we have not defined it right so that's what error upendra like if you see this
+
+691
+01:28:39,060 --> 01:28:42,820
+what sort of error you will get it says that alpha is not defined
+
+692
+01:28:42,820 --> 01:28:44,820
+so
+
+693
+01:28:45,540 --> 01:28:48,740
+is undefined is clear what undefined talks about
+
+694
+01:28:51,220 --> 01:28:59,300
+sorry not defined not defined not defined talks about variable
+
+695
+01:29:02,180 --> 01:29:04,980
+which is not declared
+
+696
+01:29:04,980 --> 01:29:13,380
+it okay clear guys now i'll do something like
+
+697
+01:29:16,340 --> 01:29:22,900
+if you say till i we have declared i'll declare something like j let's say j and
+
+698
+01:29:22,900 --> 01:29:24,980
+do something like console dot log of j
+
+699
+01:29:24,980 --> 01:29:38,420
+okay and i try to print it now okay let's say i'll clear this console using clear i'll comment
+
+700
+01:29:38,420 --> 01:29:42,900
+this line because this will throw error and stop the execution that's how i print this
+
+701
+01:29:46,500 --> 01:29:49,780
+do you see this i'm getting undefined
+
+702
+01:29:50,180 --> 01:29:55,860
+so what undefined talks about is
+
+703
+01:30:03,460 --> 01:30:17,700
+when variable is declared but not initialized is that clear two steps guys firstly not defined
+
+704
+01:30:17,700 --> 01:30:22,420
+goes for simple thing like if you haven't declared anything if you want me to use type
+
+705
+01:30:22,420 --> 01:30:29,540
+of i can do that also type of let's say what we'll get here in the type of okay parallel
+
+706
+01:30:29,540 --> 01:30:37,940
+let's say also i print the j and for not defined you'll you'll be thrown some error but here
+
+707
+01:30:37,940 --> 01:30:43,940
+let's execute this one and see this you see this type of is also undefined because runtime
+
+708
+01:30:44,820 --> 01:30:51,060
+you don't know what type it is now is this definition clear
+
+709
+01:30:55,540 --> 01:31:02,660
+i'll explain undefined keyword in further depth in further depth in the next class when we declare
+
+710
+01:31:02,660 --> 01:31:09,300
+when we understand one more concept called harvesting we'll come to that but i hope
+
+711
+01:31:09,300 --> 01:31:15,060
+primitive data types is clear guys whatever things we have discussed or you hope those
+
+712
+01:31:15,060 --> 01:31:22,420
+topics are clear now we'll go to something called as reference data types are non-primitive data
+
+713
+01:31:22,420 --> 01:31:31,860
+types let's say non-primitive first one as you suggested let's go for arrays what is an array
+
+714
+01:31:32,340 --> 01:31:33,060
+according to you
+
+715
+01:31:36,740 --> 01:31:37,620
+what is an array
+
+716
+01:31:44,580 --> 01:31:52,500
+give it don't try to get a bookish definition just say collection of same data type or collection
+
+717
+01:31:52,500 --> 01:31:58,420
+of items all right collection of items let's say collection of items now but here the only
+
+718
+01:31:58,420 --> 01:32:03,380
+difference in javascript is that we don't care about type of items we can store any item
+
+719
+01:32:04,100 --> 01:32:11,060
+it's like a person like a foodie like keep on serving i'll eat everything
+
+720
+01:32:12,180 --> 01:32:20,500
+that's how arrays are in js like they can take and consume anything let's say if i define after j
+
+721
+01:32:20,500 --> 01:32:27,780
+uh let's say okay now inside this one thing surely you can declare same data type
+
+722
+01:32:28,660 --> 01:32:39,060
+or else you can say that i'll have string let's say my anyone's name some bit okay then i say
+
+723
+01:32:40,500 --> 01:32:49,540
+one then i say two then i can say true then i can say null so i stored all the values okay
+
+724
+01:32:50,820 --> 01:32:52,740
+now let's say console dot log of
+
+725
+01:32:56,260 --> 01:33:06,820
+type of k and print k similarly console dot log of type of l and print l okay clear this console
+
+726
+01:33:07,540 --> 01:33:14,980
+print it you see this here type of kl is coming as an object
+
+727
+01:33:14,980 --> 01:33:20,180
+object because we came for the non-primitive data types by default
+
+728
+01:33:20,180 --> 01:33:23,140
+in non-primitive data types everything is as an object
+
+729
+01:33:25,780 --> 01:33:30,180
+okay in primitives you will have different data types but when it comes to non-primitive
+
+730
+01:33:30,180 --> 01:33:35,940
+everything is an object arrays whatever you are storing inside is an object object can be of any
+
+731
+01:33:35,940 --> 01:33:41,620
+type it can it doesn't need to be a same type of data that you are putting it here it's a collection
+
+732
+01:33:41,620 --> 01:33:45,620
+of items everything that whatever you can you want to put it you can declare in that
+
+733
+01:33:47,140 --> 01:33:56,340
+is that clear guys arrays in javascript collections of values
+
+734
+01:33:56,340 --> 01:34:11,780
+which can store different data type values okay yes anyone having any doubt till now
+
+735
+01:34:17,780 --> 01:34:23,700
+right now comes actual main powerful concept guys objects in js
+
+736
+01:34:24,420 --> 01:34:31,540
+now whenever you go for any object oriented programming or anything right whenever you think
+
+737
+01:34:31,540 --> 01:34:39,300
+of objects right abhinav will take in 10 minutes will take the in break in 10 minutes then
+
+738
+01:34:40,340 --> 01:34:45,700
+five minutes i'll complete the object and functions then we can take it five minutes on works
+
+739
+01:34:45,860 --> 01:34:46,200
+works
+
+740
+01:34:50,500 --> 01:34:57,700
+okay guys just cooperate with me for some time we can end the class soon if it's up to you but
+
+741
+01:34:57,700 --> 01:35:04,900
+let's see whenever you think of objects in any language what do you see it what do you
+
+742
+01:35:05,700 --> 01:35:09,700
+get an idea of what are you storing in objects
+
+743
+01:35:16,260 --> 01:35:21,620
+okay think of it guys whenever you are thinking in terms of object what type of data you are
+
+744
+01:35:21,620 --> 01:35:26,020
+storing let's say you are building a class why are you building a class
+
+745
+01:35:28,500 --> 01:35:35,700
+anyone coming from object oriented programming why this class works data of a group or
+
+746
+01:35:36,740 --> 01:35:39,940
+let's say can i say this as a custom data type
+
+747
+01:35:39,940 --> 01:35:48,660
+okay because whenever i say class like whenever i say create a class of a building i'm storing
+
+748
+01:35:48,660 --> 01:35:56,340
+a building as a data type and so i'll declare multiple things isn't it so objects are generally
+
+749
+01:35:56,340 --> 01:36:07,220
+used to build your custom data types where which can store any data that you want okay
+
+750
+01:36:07,780 --> 01:36:14,900
+let's say how can you declare an object here let's say isaac const object whenever you're
+
+751
+01:36:14,900 --> 01:36:22,340
+declaring an object you can create open a brace and let's say instead of object let's say we're
+
+752
+01:36:22,340 --> 01:36:30,820
+creating some kind of person object a person will have first name let's say some bit
+
+753
+01:36:33,540 --> 01:36:34,660
+last name will have
+
+754
+01:36:37,380 --> 01:36:45,940
+uh we have three party and under some bit so i'll be using some let's say i'll use my back
+
+755
+01:36:45,940 --> 01:36:51,380
+and last name shatma okay and let's say he'll have also a phone number
+
+756
+01:36:53,780 --> 01:37:01,300
+right let's say i give some random number okay and also he'll have h
+
+757
+01:37:01,300 --> 01:37:11,940
+okay let's say 20 okay so this is what a custom data type looks like right like if you go for
+
+758
+01:37:11,940 --> 01:37:16,900
+someone coming from a background of java he would have built a class like this one
+
+759
+01:37:16,900 --> 01:37:23,460
+and he would initialize or else he would say this way right guys pardon me if i'm writing this
+
+760
+01:37:24,580 --> 01:37:28,500
+but this is how it looked like right last name then you declare all the things
+
+761
+01:37:29,220 --> 01:37:36,020
+and you build up because you can create instances and you can use it right but the idea is here is
+
+762
+01:37:36,020 --> 01:37:40,660
+that you building a custom data type there is no data type declared in this language which can help
+
+763
+01:37:40,660 --> 01:37:45,540
+you to store this content so we created a data type called person and in that we are storing all
+
+764
+01:37:45,540 --> 01:37:55,140
+these details is this clear now one way of accessing this items right let's say i'll show
+
+765
+01:37:55,220 --> 01:37:59,540
+accessing a object later but how can you declare and console log it
+
+766
+01:38:00,180 --> 01:38:08,820
+and now if i do something like type of let's say type of okay and i print it if you see i'm
+
+767
+01:38:08,820 --> 01:38:18,500
+still getting an object and it is printing this one okay clear guys about uh like objects
+
+768
+01:38:19,220 --> 01:38:24,740
+so now we'll take break and we'll come back uh so that i can get your full energy
+
+769
+01:38:24,740 --> 01:38:41,620
+uh how many minutes break you need okay uh let's say if you want that type of first name right
+
+770
+01:38:44,260 --> 01:38:44,760
+okay
+
+771
+01:38:49,380 --> 01:38:49,880
+okay
+
+772
+01:38:50,980 --> 01:38:54,100
+you see the string is being printed because it's a type of string
+
+773
+01:38:55,700 --> 01:39:01,700
+some bit uh guys how many minutes break you need it please put it in the chat uh
+
+774
+01:39:02,820 --> 01:39:08,020
+because i would need uh can we use let instead of course yeah you can surely use
+
+775
+01:39:09,620 --> 01:39:10,500
+you can surely use
+
+776
+01:39:12,820 --> 01:39:18,180
+but if what why i'm putting this constant right i'm not trying to update this one
+
+777
+01:39:19,220 --> 01:39:26,980
+uh guys do you need a break or should i continue because i've received mixed uh you know uh
+
+778
+01:39:27,620 --> 01:39:30,260
+reactions if you need a break give me thumbs up
+
+779
+01:39:32,580 --> 01:39:38,340
+okay many people are needing it uh guys let's take some break and let's come back and because
+
+780
+01:39:38,340 --> 01:39:45,540
+i would need uh 20 25 minutes or more like to close the class uh let's say i give you
+
+781
+01:39:45,540 --> 01:39:53,380
+eight minutes break okay let's meet back in ten by eight minutes guys
+
+782
+01:40:01,140 --> 01:40:05,380
+thank you
+
+783
+01:40:15,540 --> 01:40:16,340
+you
+
+784
+01:40:45,540 --> 01:40:46,340
+you
+
+785
+01:41:15,540 --> 01:41:16,340
+you
+
+786
+01:41:45,540 --> 01:41:46,340
+you
+
+787
+01:42:15,540 --> 01:42:16,340
+you
+
+788
+01:42:45,540 --> 01:42:46,340
+you
+
+789
+01:43:15,540 --> 01:43:16,040
+you
+
+790
+01:43:45,540 --> 01:43:46,040
+you
+
+791
+01:44:15,540 --> 01:44:16,040
+you
+
+792
+01:44:45,540 --> 01:44:46,040
+you
+
+793
+01:45:15,540 --> 01:45:16,040
+you
+
+794
+01:45:45,540 --> 01:45:46,040
+you
+
+795
+01:46:15,540 --> 01:46:16,040
+you
+
+796
+01:46:45,540 --> 01:46:46,040
+you
+
+797
+01:47:15,540 --> 01:47:16,040
+you
+
+798
+01:47:46,020 --> 01:47:46,040
+you
+
+799
+01:48:04,420 --> 01:48:05,700
+guys is everyone back
+
+800
+01:48:10,500 --> 01:48:13,300
+i see three people four
+
+801
+01:48:13,300 --> 01:48:24,100
+four cool five great guys thank you thank you so now till now everything is clear right
+
+802
+01:48:24,100 --> 01:48:32,500
+arrays objects and primitive data types everything we have one thing left which is called as functions
+
+803
+01:48:34,980 --> 01:48:40,740
+now what do you think function is all about what do you think function does
+
+804
+01:48:41,700 --> 01:48:50,820
+or when we use uh methods or functions what is the use case of functions when do we actually need a function
+
+805
+01:48:53,380 --> 01:48:56,660
+like any random definition that comes to you on the top of the mind
+
+806
+01:48:57,380 --> 01:49:05,380
+type it that down type type that inside a block of code that can reuse okay uh anything else guys
+
+807
+01:49:11,220 --> 01:49:15,140
+shoshanga suggested a definition a block of code that can be used
+
+808
+01:49:25,060 --> 01:49:28,260
+there's any other definitions which performs a task
+
+809
+01:49:29,460 --> 01:49:36,980
+okay i got two definitions a block of code reusable code right great so can i say this way
+
+810
+01:49:37,540 --> 01:49:54,820
+okay create a function when you want to perform a specific
+
+811
+01:49:58,740 --> 01:50:02,900
+task again and again
+
+812
+01:50:07,060 --> 01:50:14,660
+can i say this a function definition like it's a that function is doing a task for us
+
+813
+01:50:14,660 --> 01:50:18,900
+but when we want that thing to do it again and again we can create those functions
+
+814
+01:50:19,860 --> 01:50:26,500
+and the definition how do you declare it in javascript is something you use a function
+
+815
+01:50:26,500 --> 01:50:31,060
+keyword once you use a function keyword now you have to give a name to that function
+
+816
+01:50:31,060 --> 01:50:37,540
+uh krishna you have raised hand okay you have lowered your hand again
+
+817
+01:50:39,300 --> 01:50:45,460
+okay oh once you give this keyword function then you have to give the phone like let's say
+
+818
+01:50:46,180 --> 01:50:56,740
+coffee machine is a function now after that you give this braces then you have this something
+
+819
+01:50:56,740 --> 01:51:05,460
+called this one now inside this braces let's say inside this braces whatever values you give
+
+820
+01:51:07,620 --> 01:51:13,940
+are comma separated and those values are called as parameters or specifically function parameters
+
+821
+01:51:16,180 --> 01:51:20,900
+okay and whatever you are writing between these braces right
+
+822
+01:51:21,380 --> 01:51:24,420
+is called as
+
+823
+01:51:27,140 --> 01:51:28,020
+function body
+
+824
+01:51:31,700 --> 01:51:33,060
+is this point clear guys
+
+825
+01:51:44,180 --> 01:51:50,420
+uh props the arun will come to that when when you can say props and why we say props
+
+826
+01:51:50,420 --> 01:51:55,380
+will come to that use case but future but whenever you are talking about a js function
+
+827
+01:51:56,100 --> 01:52:02,100
+generally whatever you are passing inside this one is called as functional parameters
+
+828
+01:52:02,100 --> 01:52:07,940
+and whatever you write a logic inside this is called like let's say a function body no
+
+829
+01:52:08,900 --> 01:52:15,860
+i'll return a simple string guys i'll return a simple string i'll talk about the syntax the way
+
+830
+01:52:15,860 --> 01:52:23,220
+i am writing a string where i am i trying to you know write a dynamic string i'll talk about it
+
+831
+01:52:24,180 --> 01:52:28,500
+i need let's say this is something like i'm trying to say quantity
+
+832
+01:52:31,460 --> 01:52:38,020
+how much quantity of coffee i need and i say that also type of coffee or let's say drink
+
+833
+01:52:38,740 --> 01:52:44,340
+okay and i can do something it's like i can receive quantity here and also drink
+
+834
+01:52:46,020 --> 01:52:48,420
+okay this is a function that i declared it
+
+835
+01:52:50,740 --> 01:52:58,420
+now if i want to call if i want to execute this function or let's say what we say
+
+836
+01:52:59,220 --> 01:53:03,460
+in order to execute this function you have to suppose to call this coffee machine
+
+837
+01:53:04,820 --> 01:53:13,380
+i mean you're going to a coffee machine and saying that hey i need uh 200 ml of coffee
+
+838
+01:53:14,180 --> 01:53:15,700
+let's say espresso
+
+839
+01:53:18,660 --> 01:53:25,700
+okay or else you can say coffee machine 200 ml of coffee and can you be a latte
+
+840
+01:53:30,420 --> 01:53:37,300
+this is syntax clear guys how you declare a function you pass a parameters and you execute
+
+841
+01:53:38,260 --> 01:53:42,420
+call that function this logic is clear right
+
+842
+01:53:45,220 --> 01:53:52,260
+when i'm calling this now let's say give me a second i'm not doing a console log here
+
+843
+01:53:52,900 --> 01:53:59,300
+let me make a console log because i'm not printing whatever is being returned from the function
+
+844
+01:53:59,860 --> 01:54:03,300
+now this particular string is returned right so i have to print that back
+
+845
+01:54:07,300 --> 01:54:17,220
+okay clear it and print it now do you see that i need 200 ml of espresso 200 ml of latte something
+
+846
+01:54:17,220 --> 01:54:22,740
+being printed now i can write this thing multiple times but what if this coffee machine is like
+
+847
+01:54:22,740 --> 01:54:27,380
+dynamic right whatever quantity you pass you'll get that item so that's where function should
+
+848
+01:54:27,380 --> 01:54:32,980
+be designed or used or created whenever you have a same logic and same task to be done again and
+
+849
+01:54:32,980 --> 01:54:39,460
+again i hope uh this particular data types are clear like if i have to show you type of also i'll
+
+850
+01:54:39,460 --> 01:54:49,940
+show this one type of a function uh coffee machine let's say uh i print this one i'm getting as a
+
+851
+01:54:49,940 --> 01:54:56,180
+function okay for all the other primitive non-primitive data types we got as an object
+
+852
+01:54:56,180 --> 01:55:00,420
+for this one we got as a function i'll tell you why we got this as a function also in future
+
+853
+01:55:00,900 --> 01:55:08,340
+but remember this one any doubts guys still know in data types file whatever we have typed
+
+854
+01:55:09,460 --> 01:55:11,300
+no doubts right now
+
+855
+01:55:13,780 --> 01:55:18,980
+this is the part that actually i wanted to teach you that's the content of it but i want to teach
+
+856
+01:55:18,980 --> 01:55:24,420
+you some more things like some methods on arrays because in future classes we might not have time
+
+857
+01:55:24,420 --> 01:55:29,860
+to deal with them instead of this can we use let and later const uh
+
+858
+01:55:36,100 --> 01:55:42,180
+this is a dynamic way or else you can use this way also let's say i can use
+
+859
+01:55:45,300 --> 01:55:52,740
+one of the ways writing this one very i'll talk about the syntax later const uh kabir let's say
+
+860
+01:55:52,820 --> 01:55:58,980
+uh how can i build this because these variables are already initialized and you are just you need
+
+861
+01:55:58,980 --> 01:56:06,020
+to consume that one of the ways like if you want to build a string and return it let's say
+
+862
+01:56:07,380 --> 01:56:16,180
+item uh and you can say this one directly let's say i need uh and you can say quantity
+
+863
+01:56:16,180 --> 01:56:21,220
+quantity all right you see you can say drink
+
+864
+01:56:23,620 --> 01:56:27,140
+and also you can return this item both both things will work
+
+865
+01:56:29,220 --> 01:56:35,940
+okay let's type it down you see this i'm also getting that but just to add more spaces right
+
+866
+01:56:35,940 --> 01:56:43,220
+let's say i'm having the space also i'm having more space what's that one line of okay
+
+867
+01:56:46,900 --> 01:56:51,700
+this is how also you can write you can also directly return it i hope this is clear
+
+868
+01:56:56,580 --> 01:56:56,900
+okay
+
+869
+01:57:00,340 --> 01:57:06,900
+going right guys uh few things on arrays right few things on arrays that i want to discuss
+
+870
+01:57:08,340 --> 01:57:14,580
+yeah using dynamic strings is a practice that's how you will be doing it but yes let's focus on
+
+871
+01:57:14,580 --> 01:57:20,740
+this let's say i have uh this list of elements till 10
+
+872
+01:57:23,940 --> 01:57:28,260
+okay now how can i know how many items are there in this array
+
+873
+01:57:30,020 --> 01:57:37,140
+what is the one thing that we can use like what is this particular how many items are there in
+
+874
+01:57:37,140 --> 01:57:46,500
+this array like length right uh let's say if i do console dot log a dot
+
+875
+01:57:49,300 --> 01:57:56,740
+length okay let's say this is a function uh i don't remember this is a function
+
+876
+01:57:57,780 --> 01:58:04,180
+okay i am not executing right file uh let's say ls cd dot dot ls
+
+877
+01:58:04,500 --> 01:58:13,620
+uh node arrays dot js okay it's not a function actually whenever you do this you'll be able to
+
+878
+01:58:13,620 --> 01:58:20,900
+print it okay directly whenever it's like a primitive value where it will be updated so if
+
+879
+01:58:20,900 --> 01:58:31,460
+you want to use uh know the size of it so size of an array you can use array dot length i hope this
+
+880
+01:58:31,460 --> 01:58:35,940
+property is clear guys length property
+
+881
+01:58:38,260 --> 01:58:47,220
+right now for i trading an array you have two ways okay one is a simple loop where i can you can do
+
+882
+01:58:47,220 --> 01:58:53,460
+this what i'm doing is like i'm i trading from its particular a zeroth index to its length and i'm
+
+883
+01:58:53,460 --> 01:59:03,860
+trying to print each index okay let's do this one i'm able to print it the other the other way
+
+884
+01:59:03,860 --> 01:59:13,780
+around is using map a dot map or let me not teach map as of now we'll go back to uh map again in
+
+885
+01:59:13,780 --> 01:59:22,500
+future uh what else i have to cover give me a second guys yeah map we can learn later
+
+886
+01:59:23,300 --> 01:59:32,740
+we'll go for forage example let's say now what does forage does is that it will pick item by item
+
+887
+01:59:34,580 --> 01:59:41,140
+it will pick item by item instead like sometimes yeah let's say
+
+888
+01:59:41,140 --> 01:59:47,860
+okay now here you are getting an access to a index level let's say you want to access by indexes
+
+889
+01:59:48,660 --> 01:59:54,020
+in arrays indexes always start from zero that is what we we know clearly when we have already
+
+890
+01:59:54,020 --> 01:59:59,300
+learned dsa now this both loops are working in same way i trading through from zeroth index to
+
+891
+01:59:59,300 --> 02:00:06,260
+last index but here you have an ability to select an index here it will you know do the like it will
+
+892
+02:00:06,260 --> 02:00:10,500
+run through the loop it will try to print each and every element let's say i try to do this
+
+893
+02:00:11,140 --> 02:00:16,820
+you see it is trying to print that same one to ten one to ten both the two times okay two ways
+
+894
+02:00:16,820 --> 02:00:22,100
+of i trading for loop i hope this thing is clear is uh how you can i treat an array
+
+895
+02:00:27,140 --> 02:00:32,900
+yes i treating an array is clear right when to use what okay now whenever you have you're dealing
+
+896
+02:00:32,900 --> 02:00:40,100
+with an index right let's say uh now if i want to print only even based index items or odd based
+
+897
+02:00:40,100 --> 02:00:45,380
+index items you would do this logic right you will do this one right console log off
+
+898
+02:00:48,180 --> 02:00:54,180
+you have in this use case only printing even items but you cannot write that logic here you don't know
+
+899
+02:00:56,100 --> 02:01:04,660
+simply but you always here also you have uh index let's say i write down this logic here
+
+900
+02:01:04,660 --> 02:01:15,220
+uh both the things can be used actually
+
+901
+02:01:20,260 --> 02:01:23,540
+let's say i comment this because this is clear for us anyways
+
+902
+02:01:24,100 --> 02:01:28,580
+a simple use case let's see if this is working see i'm able to still print
+
+903
+02:01:28,580 --> 02:01:32,580
+uh all the
+
+904
+02:01:34,980 --> 02:01:41,860
+hey okay index if i do i'm printing all the odd elements right
+
+905
+02:01:45,140 --> 02:01:48,340
+so index here starting is from i think it's starting from
+
+906
+02:01:48,340 --> 02:01:54,340
+from
+
+907
+02:01:57,620 --> 02:02:01,300
+give me a second if i print only index
+
+908
+02:02:07,860 --> 02:02:12,660
+so i'm getting all the index zero to nine that's fine i'm checking to i'm trying to print only even
+
+909
+02:02:12,660 --> 02:02:18,100
+indexes so this should be working fine right it should give me all the elements
+
+910
+02:02:20,420 --> 02:02:24,260
+or let's say you can get only index value here that will give you again
+
+911
+02:02:28,660 --> 02:02:34,420
+but generally the more handling like for each loop is going through whenever you want to do
+
+912
+02:02:34,420 --> 02:02:42,340
+some iteration let's say now each element you want to do some operation on it let's say return
+
+913
+02:02:43,380 --> 02:02:51,380
+or console do console dot log a common operation let's say element dot element multiplied by three
+
+914
+02:02:51,380 --> 02:02:57,940
+you want to do a common operation across them then you can use something like a for each loop
+
+915
+02:02:57,940 --> 02:03:03,620
+where you are trying to do for every item like for each item you are doing some some same logic
+
+916
+02:03:04,260 --> 02:03:08,660
+okay but whereas you need a more control over it then you have to go for this one
+
+917
+02:03:08,660 --> 02:03:13,700
+this one if you need a further more control then you can go for map i'll tell you
+
+918
+02:03:13,700 --> 02:03:18,020
+of which one to use when in the future once we introduce map i'll take all three of examples
+
+919
+02:03:18,740 --> 02:03:23,300
+but i'm just trying to teach you syntax check there are the two ways of iterating over the loop
+
+920
+02:03:23,300 --> 02:03:35,700
+is that point clear yes no then let's say now i want to add an item into this an array if i want
+
+921
+02:03:35,700 --> 02:03:42,420
+to add an item into this an array then you have something called as method called as push we just
+
+922
+02:03:42,420 --> 02:03:51,620
+do a push of 11 item if you do console log of a let's say i try to print a now
+
+923
+02:03:56,100 --> 02:04:05,380
+do you see this item 11 got added because we pushed an item into it now the push method adds
+
+924
+02:04:06,180 --> 02:04:13,300
+item into into the array at the last position
+
+925
+02:04:16,580 --> 02:04:21,620
+okay and let's say if i do something like a dot pop
+
+926
+02:04:26,900 --> 02:04:30,900
+console log of a now let's say if i'm doing this i am trying to re-execute it
+
+927
+02:04:30,900 --> 02:04:37,780
+now if you see first when i pushed an item and console log i am able to see one to 11 items
+
+928
+02:04:37,780 --> 02:04:42,980
+and when i'm when i try to print one to like i after pop i'm trying to print it again
+
+929
+02:04:43,860 --> 02:04:47,380
+you are able to see like oh that item 11 has been removed right
+
+930
+02:04:50,100 --> 02:04:50,660
+isn't it
+
+931
+02:04:53,540 --> 02:04:59,780
+here in the next take second example so what pop does it it removes an item from the last portion
+
+932
+02:05:00,900 --> 02:05:05,620
+okay and i think guys earlier also this was working fine when i was running through the index
+
+933
+02:05:06,260 --> 02:05:11,060
+reason i'll tell you let's say if i print this and i use this logic
+
+934
+02:05:13,620 --> 02:05:17,620
+let's say i use i here instead of index i declared it at this way
+
+935
+02:05:18,660 --> 02:05:25,860
+now let's say i call this as a function of the index and let's say i call this as a function of
+
+936
+02:05:25,940 --> 02:05:32,500
+index i declared it at this way now let's say i comment below things for a second
+
+937
+02:05:35,780 --> 02:05:44,660
+and i print it so if you see i'm printing uh three uh nine oh okay uh element into three so
+
+938
+02:05:44,660 --> 02:05:51,860
+i don't need to do this uh i'm print only element let's say clear this again i'm able to three
+
+939
+02:05:51,860 --> 02:05:56,660
+print one three five seven nine reason i'll tell you one three finance one because we started with
+
+940
+02:05:56,660 --> 02:06:04,100
+index one two three four always like the zeroth index is even index so it starts for one and then
+
+941
+02:06:04,100 --> 02:06:13,220
+it printed uh index two then index four right we are doing uh printing all even index item so we
+
+942
+02:06:13,220 --> 02:06:21,460
+are also having an index inside the for each i hope that point is clear right are also having
+
+943
+02:06:21,460 --> 02:06:32,820
+index in for each look also going back to this one i hope push and pop is also clear now here
+
+944
+02:06:32,820 --> 02:06:39,220
+uh one of the new tools methods are available in javascript if you want to play around with the
+
+945
+02:06:39,220 --> 02:06:44,340
+first element of an array add a new element of the first to the array it's like you know
+
+946
+02:06:44,980 --> 02:06:52,740
+to dq where you can in the queue you have a double like nq right sorry dq where you can add
+
+947
+02:06:52,740 --> 02:06:57,540
+and remove from the first and last both places right it works in the same way here like if you
+
+948
+02:06:57,540 --> 02:07:07,700
+want to let's say i do something called a dot shift okay and i try to console log now let's
+
+949
+02:07:07,700 --> 02:07:16,260
+say what is the output what happened guys i pushed an 11 item 11 and i console log one to 11 are
+
+950
+02:07:16,260 --> 02:07:22,580
+there then i popped an item so 11th item was removed when i popped it and it did something
+
+951
+02:07:22,580 --> 02:07:29,700
+called a shift now when i shifted the first item got removed so whenever you use shift method it
+
+952
+02:07:29,700 --> 02:07:36,900
+means that it is it will remove an item from the start i hope that point is clear shift is used to
+
+953
+02:07:38,260 --> 02:07:43,540
+remove items from start of an array
+
+954
+02:07:46,260 --> 02:07:52,580
+okay if you want to add an item into the start right let's say i go and do something like unshift
+
+955
+02:07:54,660 --> 02:07:58,420
+unshift and add okay this will help us
+
+956
+02:08:01,220 --> 02:08:05,780
+to add an item onto the start again let's say i clear this console for us
+
+957
+02:08:07,700 --> 02:08:21,460
+okay if you see we removed item one then we did unshift of one it added item one onto the first
+
+958
+02:08:23,140 --> 02:08:25,140
+is this clear guys shift unshift
+
+959
+02:08:25,140 --> 02:08:29,140
+okay
+
+960
+02:08:36,900 --> 02:08:39,620
+i hope this all the methods whatever we discussed are clear
+
+961
+02:08:40,260 --> 02:08:43,860
+then there is some one method called as slice
+
+962
+02:08:47,220 --> 02:08:50,500
+let's say i use something called as a dot slice
+
+963
+02:08:50,500 --> 02:08:56,660
+slice is used to you know like works like a
+
+964
+02:08:57,380 --> 02:09:03,940
+knife generally what it does is like whenever you say that whenever you cut let's say you have a
+
+965
+02:09:03,940 --> 02:09:13,380
+banana you slice the banana what it does once you do a slice what it does it is broken into two parts
+
+966
+02:09:13,380 --> 02:09:21,540
+right and you get the one part and you give the other person the other part if you are slicing it
+
+967
+02:09:21,540 --> 02:09:27,780
+right so it works in the same way slice is actually dividing an array into two pieces
+
+968
+02:09:27,780 --> 02:09:32,260
+now if i say slice when i'm making a slice i have to decide the position where i want to make a
+
+969
+02:09:32,260 --> 02:09:39,060
+slice of it so if i did if i let's say that i am making a slice of position three when i'm giving
+
+970
+02:09:39,060 --> 02:09:45,140
+a three i mean to say that i'm giving an index three and what is slice doesn't slice gives back as
+
+971
+02:09:45,780 --> 02:09:52,820
+an array after being sliced now when it is being sliced right let's say this is a banana
+
+972
+02:09:52,820 --> 02:09:59,380
+you sliced it in between let's say in middle element middle index the first half of the
+
+973
+02:09:59,380 --> 02:10:06,100
+banana you will get it back returned in the b item okay let's say i try to do console log of b
+
+974
+02:10:09,380 --> 02:10:14,100
+i'll show you here with an example let's say i comment this thing
+
+975
+02:10:18,020 --> 02:10:19,540
+okay clear
+
+976
+02:10:22,260 --> 02:10:29,620
+do you see uh sorry guys you return you actually get last items i mean to say starting from that
+
+977
+02:10:29,700 --> 02:10:40,100
+index like first like if you go by writing an index right zero one two and three when you slice
+
+978
+02:10:40,100 --> 02:10:46,980
+this item you got actually all the remaining items is that clear like slice is actually dividing an
+
+979
+02:10:46,980 --> 02:10:54,020
+array into two pieces given a starting index you you have to that will be returning you you
+
+980
+02:10:54,020 --> 02:10:59,220
+cannot use that immediately but you have to store it in a new variable to slice it okay
+
+981
+02:11:00,580 --> 02:11:09,860
+um divides an array into two pieces
+
+982
+02:11:13,860 --> 02:11:18,500
+and returns other half as new array
+
+983
+02:11:18,500 --> 02:11:22,660
+okay other half
+
+984
+02:11:24,820 --> 02:11:31,140
+that's new array okay because why i'm saying is a new array is like let's say
+
+985
+02:11:31,700 --> 02:11:36,020
+i try to print a here now let's see what's there in a
+
+986
+02:11:38,580 --> 02:11:45,700
+do you see the one array is not disturbed only uh like whatever copy you are getting in b
+
+987
+02:11:45,700 --> 02:11:49,540
+that will be there like you can get the items that you want and store it here
+
+988
+02:11:50,740 --> 02:11:54,580
+okay item a will be still uh persist tejal
+
+989
+02:11:59,300 --> 02:12:02,020
+i'll show you like if you want only item let's say
+
+990
+02:12:05,780 --> 02:12:12,100
+con see a dot slice let's say i give zero comma three
+
+991
+02:12:12,100 --> 02:12:20,340
+okay when you do this console dot log of c you will get the initial items
+
+992
+02:12:22,180 --> 02:12:26,580
+if you see here so it takes either of index start index and index if you are giving only
+
+993
+02:12:26,580 --> 02:12:32,260
+one index it will consider as a end index yeah it's like a substring but it works on array
+
+994
+02:12:34,500 --> 02:12:41,460
+cool so you can say uh start and end index
+
+995
+02:12:42,260 --> 02:12:46,020
+whatever you want to give the whenever whenever you are giving three
+
+996
+02:12:46,020 --> 02:12:50,820
+and you're not defining the last index by default it will consider the length of that array
+
+997
+02:12:50,820 --> 02:12:57,860
+okay which is a dot length minus one this is something we know right by default but
+
+998
+02:12:57,860 --> 02:13:05,140
+it's given by default okay uh is slice clear guys
+
+999
+02:13:05,940 --> 02:13:14,660
+okay i hope uh no one else is having doubts on this then i'll give you one uh homework guys
+
+1000
+02:13:14,660 --> 02:13:23,780
+to understand it one method called as splice i'll take this in the first uh point when we start the
+
+1001
+02:13:23,780 --> 02:13:31,780
+class i'll tell it what it does it is helped to it it is helpful to add items remove items
+
+1002
+02:13:31,780 --> 02:13:36,820
+and replace items in an array
+
+1003
+02:13:39,300 --> 02:13:45,300
+this one particular method can be helpful to do all the operations splice is that powerful
+
+1004
+02:13:45,300 --> 02:13:52,100
+it's a combination of adding removing and replacing okay you guys just explore this one
+
+1005
+02:13:52,100 --> 02:13:55,620
+and we'll come back in the next class and i'll try to help you out understand this
+
+1006
+02:13:55,780 --> 02:14:04,180
+okay with few more i'll i'll try to enlarge more uh you know uh with more amount of examples then
+
+1007
+02:14:04,180 --> 02:14:12,340
+we'll explore this there are few more methods like you know uh because uh there are methods like map
+
+1008
+02:14:14,100 --> 02:14:22,500
+okay reduce filter all this like methods are there on array which are like bit advanced
+
+1009
+02:14:22,500 --> 02:14:26,740
+i'll take one by one with the concept these are the initial set of methods that you might be
+
+1010
+02:14:26,740 --> 02:14:33,700
+dealing with manipulating an array or i treating to an array okay we'll pick them in future but
+
+1011
+02:14:33,700 --> 02:14:38,660
+these are the usual uh arrays like whatever methods that you see in daily life but the
+
+1012
+02:14:38,660 --> 02:14:43,620
+other advanced methods that you come across we'll explore that in future i hope that point is clear
+
+1013
+02:14:43,620 --> 02:14:51,060
+guys so guys uh i hope you guys enjoyed this video and i hope you guys enjoyed this video
+
+1014
+02:14:51,380 --> 02:14:57,300
+so guys uh are there any doubts are there any doubts in today's class if you have doubts please
+
+1015
+02:14:57,300 --> 02:15:04,980
+stay in call or else uh the content for today's class is over i hope you like liked it uh enjoyed
+
+1016
+02:15:04,980 --> 02:15:13,700
+it with history of js and getting started with js part and uh meet you soon in the next class
+
+1017
+02:15:13,700 --> 02:15:20,180
+on tuesday but one thing i want to say you guys is that prepare well and give your best attempt
+
+1018
+02:15:20,180 --> 02:15:26,980
+in the context or whatever html css we have learned revise it complete your assignments
+
+1019
+02:15:27,540 --> 02:15:37,780
+and let's come back okay but uh okay vignesh i'll try to revise what slice does okay firstly slice
+
+1020
+02:15:37,780 --> 02:15:45,860
+divides array into two pieces okay and it returns let's say returns and as a new array
+
+1021
+02:15:45,860 --> 02:15:53,860
+okay okay now so a slice generally takes two things
+
+1022
+02:15:56,180 --> 02:15:57,460
+starting index
+
+1023
+02:16:00,020 --> 02:16:01,220
+and ending index
+
+1024
+02:16:03,700 --> 02:16:09,540
+like from where to where you need an array because it it is returning we have to tell like when we
+
+1025
+02:16:09,540 --> 02:16:15,620
+are storing inside a variable from where to where you need it if you are giving only one variable
+
+1026
+02:16:15,860 --> 02:16:21,460
+it means it will consider that is as a starting index and by default if you're not giving an
+
+1027
+02:16:21,460 --> 02:16:28,900
+ending index it will consider ending index as a last element of this array that's the reason why
+
+1028
+02:16:29,540 --> 02:16:34,660
+we were able to get from starting from index third till the last item of 10
+
+1029
+02:16:36,980 --> 02:16:40,820
+when when i did this so how does it work like even if i give
+
+1030
+02:16:40,820 --> 02:16:48,180
+a dot length minus one it is still same even if i don't declare it here by implicitly it
+
+1031
+02:16:48,180 --> 02:16:55,540
+will take that one as an end of array but if you want a specific uh you know range of elements in
+
+1032
+02:16:55,540 --> 02:17:04,500
+your new array that you're creating you can give starting index and end index okay now guys i have
+
+1033
+02:17:05,220 --> 02:17:11,300
+one topic actually that you know one question actually in assignments that was asked
+
+1034
+02:17:12,740 --> 02:17:19,300
+okay that i have to take it i forgot it i hope no one got dropped off the call right i can pick it up
+
+1035
+02:17:21,540 --> 02:17:25,460
+let's say i'll create a new file new folder
+
+1036
+02:17:28,580 --> 02:17:29,780
+css doubts
+
+1037
+02:17:30,660 --> 02:17:35,940
+i'll keep keep as css doubts for us so that if if anytime we are
+
+1038
+02:17:40,980 --> 02:17:49,700
+uh not exactly that one but uh i think some bit you yourself you yourself reached it right
+
+1039
+02:17:49,700 --> 02:17:51,700
+z index and what was the other one
+
+1040
+02:17:51,700 --> 02:17:53,140
+index and what was the other one
+
+1041
+02:17:58,020 --> 02:18:05,540
+what was the other one what is that like who raised it guys in the initial class
+
+1042
+02:18:05,540 --> 02:18:14,740
+margin collapse right yeah akabey thank you so uh give me a second i'll pull an example
+
+1043
+02:18:22,260 --> 02:18:24,740
+so
+
+1044
+02:18:28,900 --> 02:18:40,180
+okay let's say i have a diff and i have a paragraph tag in that i see lorem 20
+
+1045
+02:18:42,260 --> 02:18:45,700
+okay and i try to recreate this one
+
+1046
+02:18:45,700 --> 02:18:47,700
+so
+
+1047
+02:18:49,780 --> 02:18:51,300
+and i go into style block
+
+1048
+02:18:53,620 --> 02:18:56,180
+uh i'll talk to the talk to about large ungeth
+
+1049
+02:18:58,500 --> 02:19:01,620
+okay i use div tag then
+
+1050
+02:19:03,940 --> 02:19:10,980
+uh i what i'll do is like i'll add something called as margin let's say first we give uh border
+
+1051
+02:19:11,540 --> 02:19:19,540
+of two pixel solid black and let's say i have some padding of 10 pixel
+
+1052
+02:19:21,140 --> 02:19:27,700
+and i'll keep margin as a 10 pixel on each side there's nothing new i have done right kabir
+
+1053
+02:19:28,580 --> 02:19:36,100
+till now where it comes to uh things that we have discussed let me open with this one as a live server
+
+1054
+02:19:40,980 --> 02:19:44,100
+so
+
+1055
+02:19:47,700 --> 02:19:58,340
+now if you see here one thing firstly i'll go into the body tag i'll open the diff now for diff i've
+
+1056
+02:19:58,340 --> 02:20:06,100
+declared margin for top bottom left right as 10 pixel is that clear now when i have two diffs
+
+1057
+02:20:07,060 --> 02:20:12,580
+for this one margin bottom would be 10 pixel for this one margin top would be 10 pixel right
+
+1058
+02:20:14,100 --> 02:20:16,100
+like first day when second day just
+
+1059
+02:20:20,900 --> 02:20:26,980
+are you able to follow uh guys everyone like first day when second day first day margin bottom will
+
+1060
+02:20:26,980 --> 02:20:32,900
+be 10 pixel and for second day margin top will be 10 pixel so combined height of both margin should
+
+1061
+02:20:32,900 --> 02:20:42,340
+be 20 pixel isn't it the gap between here should be 20 pixel right but here if you go and see
+
+1062
+02:20:44,100 --> 02:20:49,780
+if you go and see what it is 10 pixel if i go and hit here it's still 10 pixel
+
+1063
+02:20:52,020 --> 02:20:59,940
+why that is happening so what it will does is it will take it will collapse the margin it will
+
+1064
+02:20:59,940 --> 02:21:07,220
+combine like let's say there are now i have took an example of 10 10 pixel okay just it should be
+
+1065
+02:21:07,220 --> 02:21:11,860
+20 but it worked as a 10 reason i'll tell you whenever you have two elements working right
+
+1066
+02:21:12,900 --> 02:21:20,500
+uh again when i explained your box model what we thought of margin as a distance between two houses
+
+1067
+02:21:20,500 --> 02:21:21,060
+isn't it
+
+1068
+02:21:23,620 --> 02:21:31,940
+let's say this is a house one this is a house too if i say this house should be 10 pixel away from
+
+1069
+02:21:31,940 --> 02:21:38,660
+the left house this house will say that i should be 10 pixel away from the right house it doesn't
+
+1070
+02:21:38,660 --> 02:21:44,820
+mean that both should be away of 20 pixel when i add it if they maintain 10 pixel of gap that
+
+1071
+02:21:44,820 --> 02:21:56,580
+is enough isn't it that is what margin collapse happens margin collapse is a phenomenon
+
+1072
+02:21:57,940 --> 02:22:06,260
+which will take like a maximum amount let's say this says that but this example is clear let's
+
+1073
+02:22:06,260 --> 02:22:15,220
+take something else what i'll do is that i'll give an id here as first item
+
+1074
+02:22:17,540 --> 02:22:20,820
+i'll give id as second item
+
+1075
+02:22:23,220 --> 02:22:28,260
+okay now let's say this is hashtag first item
+
+1076
+02:22:31,220 --> 02:22:33,540
+i'll say copy this one and i say
+
+1077
+02:22:36,420 --> 02:22:39,540
+second item and i'll give something margin as 12 pixel
+
+1078
+02:22:41,540 --> 02:22:50,420
+okay now let's see what happened if i go over here and i select the pixel okay let's say i
+
+1079
+02:22:53,060 --> 02:23:00,100
+let's say i select for first item first okay here still the margin is 10 pixel only
+
+1080
+02:23:00,100 --> 02:23:08,100
+okay but there is a space between below right if you see there is a some space if i try to zoom it
+
+1081
+02:23:08,100 --> 02:23:17,940
+in i'm not able to zoom in this one if i hover this item top item there is a space a slight
+
+1082
+02:23:17,940 --> 02:23:25,380
+space right that two pixel extra that is coming from below stop margin margin top because here
+
+1083
+02:23:25,380 --> 02:23:31,540
+this item is having 12 so whenever there is a house right or whenever there is a something
+
+1084
+02:23:31,540 --> 02:23:39,220
+diff margin collapse will always take maximum of two items margin
+
+1085
+02:23:43,620 --> 02:23:48,180
+as margin okay let's say as margin
+
+1086
+02:23:48,180 --> 02:23:56,740
+so are you able to understand margin collapse property guys
+
+1087
+02:24:01,300 --> 02:24:02,900
+yeah it's a default behavior open
+
+1088
+02:24:06,500 --> 02:24:13,780
+okay uh i'll just check kabir has given me thumbs up yeah great now then
+
+1089
+02:24:13,780 --> 02:24:19,940
+then there was another question that kabir has asked me is like about
+
+1090
+02:24:22,260 --> 02:24:28,980
+uh like absolute uh like this one z index now let's say i make both the positions as absolute
+
+1091
+02:24:28,980 --> 02:24:33,220
+guys help me out what will happen if i make both the positions as absolute
+
+1092
+02:24:36,020 --> 02:24:41,620
+what should be the behavior we have learned this one you should know it
+
+1093
+02:24:42,420 --> 02:24:47,300
+and i'll give something background color as red and blue
+
+1094
+02:24:56,660 --> 02:24:57,620
+yes what should happen
+
+1095
+02:24:59,780 --> 02:25:03,780
+whenever position absolute is applied let's go back to this one
+
+1096
+02:25:07,060 --> 02:25:10,740
+top right window right both will move to top right window with respect to top
+
+1097
+02:25:11,220 --> 02:25:15,860
+top right window parent related if here we don't have parent related if so everything both should
+
+1098
+02:25:15,860 --> 02:25:22,980
+be aligned to the top left right if you see both are aligned to top left firstly because the content
+
+1099
+02:25:22,980 --> 02:25:30,660
+is more if i reduce the content let's say if i reduce the content as uh lorem five four okay
+
+1100
+02:25:34,020 --> 02:25:37,940
+lorem four uh
+
+1101
+02:25:40,740 --> 02:25:48,820
+okay now they are both are aligned to top left but do you see here blue is coming on top of
+
+1102
+02:25:49,700 --> 02:25:58,660
+this item first item is that point clear like both are moved both are having color different
+
+1103
+02:25:58,660 --> 02:26:07,140
+color one is having red one is having blue now what if i want red to come on top what if i want
+
+1104
+02:26:07,140 --> 02:26:15,780
+on top what if i want red to come on top then i can do something called as z index
+
+1105
+02:26:17,860 --> 02:26:18,820
+and i can say two
+
+1106
+02:26:22,020 --> 02:26:28,260
+what does it mean whenever z index is a property that can be applied only to something like
+
+1107
+02:26:28,260 --> 02:26:38,580
+position absolute or multi-layered and this multi-layer can happen only when i say this layers
+
+1108
+02:26:38,580 --> 02:26:45,140
+example right if you see here does this portion create layers when applied if you see these
+
+1109
+02:26:45,140 --> 02:26:51,460
+examples relative fixed sticky and absolute whenever this layering is happening if you want
+
+1110
+02:26:51,460 --> 02:26:57,300
+a particular box to be top off on something or behind something you can play around with this
+
+1111
+02:26:57,300 --> 02:27:05,220
+property called as z index what if i want now blue item to come on the top z index value of red
+
+1112
+02:27:05,220 --> 02:27:16,500
+is two and i'll go here i'll say z index of this item make it three so whatever z index will have
+
+1113
+02:27:17,460 --> 02:27:23,060
+no not exactly an absolute kabir i'm saying that whichever is creating multi-layers right
+
+1114
+02:27:23,860 --> 02:27:29,940
+sticky absolute anything you apply z index value is generally like whichever is creating multi-layer
+
+1115
+02:27:30,580 --> 02:27:36,980
+okay multi-layer for them you can use z index which one should come on which on top of it
+
+1116
+02:27:36,980 --> 02:27:42,820
+so you can generally is used to show which will override the other one behind the scenes
+
+1117
+02:27:43,620 --> 02:27:46,980
+i hope z index is also clear guys what does that index do
+
+1118
+02:27:47,460 --> 02:27:55,220
+okay great guys so yeah this was the two doubts kabir has asked me so i hope these are also
+
+1119
+02:27:55,220 --> 02:28:03,700
+resolved one thing i'll do is i'll push the code and i'll push the other things like content that
+
+1120
+02:28:03,700 --> 02:28:13,780
+you can refer to and other things later class eight notes welcome class eight notes
+
+1121
+02:28:13,780 --> 02:28:19,940
+welcome kabir so
+
+1122
+02:28:23,140 --> 02:28:29,300
+yeah you can say that something let's say if i say if i show you right z index property
+
+1123
+02:28:34,340 --> 02:28:41,060
+okay if you see they use an example of absolute like they say that z index property specifies
+
+1124
+02:28:41,060 --> 02:28:45,700
+the stack of order of element now the stack becomes only when you have multi-layered
+
+1125
+02:28:45,700 --> 02:28:50,020
+okay now they said z index only work on a position element absolute relative
+
+1126
+02:28:50,020 --> 02:28:56,740
+fixed and sticky right that's when you create multi-layer right two three layers of items
+
+1127
+02:28:58,660 --> 02:29:07,300
+yeah yeah that's how works okay they also say that flex items that are directly children of
+
+1128
+02:29:07,300 --> 02:29:13,540
+flex items because using flex right you you you some people specifically play around with items
+
+1129
+02:29:13,540 --> 02:29:19,700
+right position of items in grid you you can see like you explore from grid row one by three grid
+
+1130
+02:29:19,700 --> 02:29:26,260
+column two by three or you extend it now if both things are colliding how can you manage it so
+
+1131
+02:29:26,260 --> 02:29:31,060
+those sort of properties but z index is generally used when you have multi-layer structure that
+
+1132
+02:29:31,140 --> 02:29:32,260
+concept should be clear
+
+1133
+02:29:35,140 --> 02:29:43,220
+okay so other than this one i had some bit question
+
+1134
+02:29:45,220 --> 02:29:51,540
+let me go back and check this guys i'll start the doubt session for our sake before i start
+
+1135
+02:29:51,540 --> 02:29:58,340
+taking any other things so anyone having any doubts they can stay guys in the call or else
+
+1136
+02:29:58,340 --> 02:30:04,500
+free free free free to drop the call saturday we don't have class please attempt your contest
+
+1137
+02:30:04,500 --> 02:30:11,380
+and do well guys i would be waiting for your feedback like how was the contest and how how
+
+1138
+02:30:11,380 --> 02:30:16,420
+you're able to do it do let me know if you face any challenges do let me know drop in whatsapp chat
+
+1139
+02:30:16,420 --> 02:30:26,580
+okay well i'll help you out if you need anything from my side so this seems to be a react project
+
+1140
+02:30:28,740 --> 02:30:32,580
+okay grid layout
+
+1141
+02:30:46,820 --> 02:30:57,380
+uh this is a base file home page.js you have nav header slides and footer and then you have
+
+1142
+02:30:59,300 --> 02:31:02,340
+okay you you didn't anything print as a new layout
+
+1143
+02:31:05,460 --> 02:31:13,780
+okay fine home page then you went to homepage.css then applied a grid properties into it
+
+1144
+02:31:15,060 --> 02:31:19,540
+and this property is some bit yeah i'll do this one unmute you
+
+1145
+02:31:20,180 --> 02:31:30,260
+yeah some bit uh try to speak i want to mute you yeah i'm audible yes yes yeah so like my question
+
+1146
+02:31:30,260 --> 02:31:40,020
+is if you like run this js file right do npm start or something let's say i clone clone your website
+
+1147
+02:31:40,020 --> 02:31:42,500
+let's say i clone clone your website
+
+1148
+02:31:49,220 --> 02:31:54,500
+this js file even though it has the same css right it doesn't cover the whole page but the
+
+1149
+02:31:55,060 --> 02:32:04,500
+same css file if you can go to that layout.html file which is in new layout or some file it covers
+
+1150
+02:32:04,500 --> 02:32:22,980
+the whole page that's the doubt why there's a difference okay i will check that
+
+1151
+02:32:34,500 --> 02:32:38,980
+version
+
+1152
+02:32:50,100 --> 02:32:52,980
+bbill plugin version
+
+1153
+02:32:52,980 --> 02:33:07,540
+then i have issue with the installation of this one like i was also getting that same issue but
+
+1154
+02:33:07,540 --> 02:33:14,260
+it was running in my system it was just showing it as a warning okay uh let's do one thing clean
+
+1155
+02:33:14,260 --> 02:33:20,100
+this one npm cache clean hyphen hyphen force
+
+1156
+02:33:33,540 --> 02:33:35,060
+then npm i
+
+1157
+02:33:35,060 --> 02:33:45,060
+the existing package dot lock dot json file right that's what creating an issue
+
+1158
+02:33:46,660 --> 02:33:54,660
+but you can delete that file and clean the cache like i tried to add a dependency in that okay
+
+1159
+02:33:56,500 --> 02:33:58,260
+but again there was some version
+
+1160
+02:33:58,820 --> 02:34:05,860
+you used create react app no yeah this one
+
+1161
+02:34:07,860 --> 02:34:14,260
+white is also good but we'll use react create react app itself for learning react but that's
+
+1162
+02:34:14,260 --> 02:34:17,140
+easy because it's that's been legacy how it works
+
+1163
+02:34:17,140 --> 02:34:17,780
+how it works
+
+1164
+02:34:21,220 --> 02:34:27,220
+let's wait for a minute till it install but uh like then app.css
+
+1165
+02:34:29,300 --> 02:34:34,500
+it doesn't cover whole thing you know you can go to view change or something that above file
+
+1166
+02:34:35,940 --> 02:34:44,420
+view change yeah you can do this show preview thing uh okay that's fine uh okay this is not
+
+1167
+02:34:44,420 --> 02:34:51,540
+working uh for me this is fine this is something example we have already learned tensors that's
+
+1168
+02:34:51,540 --> 02:34:59,540
+fine correct so this thing has the same css okay in that home page dot css okay this is a js file
+
+1169
+02:35:00,180 --> 02:35:04,660
+but for this i have to run the react app right uh let's do one thing what i'll do
+
+1170
+02:35:06,260 --> 02:35:12,340
+is like can i create a new project itself here uh let's say i
+
+1171
+02:35:14,900 --> 02:35:18,900
+have a test app
+
+1172
+02:35:42,740 --> 02:35:43,720
+test app
+
+1173
+02:35:44,420 --> 02:36:12,660
+I guess it's NPX, sorry, note package executor, what I believe is that, where you might have
+
+1174
+02:36:12,660 --> 02:36:19,780
+messed up, so there are two things, if you see, what is a root file, app.js, if you go
+
+1175
+02:36:19,780 --> 02:36:28,940
+and see here, in app.js, there are some default styles, you wouldn't clean it up, those are
+
+1176
+02:36:28,940 --> 02:36:36,540
+applied directly on an app file, and second thing that you might have messed up is that
+
+1177
+02:36:36,540 --> 02:36:43,660
+one, this on the index.css, if you see, on body, margin is fine, but padding and everything
+
+1178
+02:36:43,660 --> 02:36:49,660
+should be cleaned up, I'm assuming that root files have not been cleaned up, but if there
+
+1179
+02:36:49,660 --> 02:36:56,180
+are any other issues, right, I'll explore that, yeah, like what's happening is it's only covering
+
+1180
+02:36:56,180 --> 02:37:03,340
+the whole three columns, right, they're only covering one third of the page, okay, that,
+
+1181
+02:37:03,340 --> 02:37:14,780
+we can explore that issue, not a big deal, let's say I copy our, this one, app.js, let's
+
+1182
+02:37:14,780 --> 02:37:27,980
+say, copy this, then I'll try to replicate your issue, firstly, home page, let's say
+
+1183
+02:37:27,980 --> 02:37:43,620
+I copy this file, and I paste it in the src, and I also copy this one, I paste it in here,
+
+1184
+02:37:43,620 --> 02:37:58,940
+okay, I minimize this one, and I go to package.json, then I start command run, okay, I have another
+
+1185
+02:37:58,940 --> 02:38:17,260
+app running, why, starting development server 302, let's say I have this site, so if you
+
+1186
+02:38:17,260 --> 02:38:22,620
+see this, firstly, it's covering one by third, right, one thing you can always do is, like
+
+1187
+02:38:22,620 --> 02:38:29,420
+you can go and see, what are the other things, if you see by default, grid is applied, so
+
+1188
+02:38:29,420 --> 02:38:35,940
+grid is applied, and first column is only coming for 20%, okay, if I edit this one,
+
+1189
+02:38:35,940 --> 02:38:47,420
+and I make one fr, let's say directly, one fr, okay, this will work by default, but where
+
+1190
+02:38:48,420 --> 02:38:56,060
+coming, that we have to figure it out, right, if I explore this, div root, on this thing,
+
+1191
+02:38:56,060 --> 02:39:05,140
+we don't have the grid, on the body level, I'm having, okay, I agree, this grid is coming
+
+1192
+02:39:05,140 --> 02:39:14,860
+here in the body tag, if you go and see, firstly, index.js, css, on the body, we have applied
+
+1193
+02:39:14,860 --> 02:39:19,420
+some of the things, let's say, in app.js, we can remove that import, I guess, that import,
+
+1194
+02:39:19,420 --> 02:39:35,100
+right, I can say directly padding, zero, margin zero, okay, now, if I refresh the app, no,
+
+1195
+02:39:35,100 --> 02:39:48,620
+I need to restart it, it compiled, is it compiled, npmbram start, okay, let's say, I go to package.json,
+
+1196
+02:39:48,620 --> 02:40:05,900
+again, I still execute this file, why, okay, still, I'm able to see the grid, okay, yeah,
+
+1197
+02:40:05,900 --> 02:40:17,740
+let's go back and see why this is happening, what if I remove this, this is fine, as soon as I gave
+
+1198
+02:40:17,740 --> 02:40:28,700
+this, height is 100 vh, now, let's make width, yeah, if I increase the width, it's working, like,
+
+1199
+02:40:28,700 --> 02:40:37,580
+it is taking 100 view, okay, so, by default, we are assuming that width is not being consumed
+
+1200
+02:40:37,580 --> 02:40:45,820
+completely, you know, yeah, so, let's do this one, why it is not consuming whole width, firstly,
+
+1201
+02:40:46,300 --> 02:40:58,300
+and if I remove this property, one thing, it's, if you see grid, right, grid, whatever grid areas
+
+1202
+02:40:58,300 --> 02:41:04,300
+you used, okay, that thing is being applied, because if you see the sections, right, side
+
+1203
+02:41:04,300 --> 02:41:11,420
+section is coming here, content section is here, those sections are divided right away, footer
+
+1204
+02:41:12,380 --> 02:41:19,340
+section here, but all things are assumed to be in this one, correct, so, it's coming inside the 20
+
+1205
+02:41:19,340 --> 02:41:25,180
+pixel, now, if I go in the header section, now, what is being applied here, it's the same example,
+
+1206
+02:41:25,180 --> 02:41:32,700
+though, but where did it messed up, let's explore this one, yeah, there is some issue in the template
+
+1207
+02:41:32,700 --> 02:41:40,940
+areas, huh, so, let's explore this one, firstly, header is grid area, header section, fine,
+
+1208
+02:41:41,580 --> 02:41:49,420
+but here, if I go and check in the, this one, the way grid template areas, we have defined it,
+
+1209
+02:41:51,020 --> 02:41:56,140
+header section, header section, header section, this is fine, supposed to consume whole thing,
+
+1210
+02:42:02,940 --> 02:42:05,260
+okay, by default, it is consuming,
+
+1211
+02:42:07,500 --> 02:42:14,860
+because, one thing, if I remove this width, let's say, I make three columns, I don't give FR unit,
+
+1212
+02:42:14,860 --> 02:42:27,740
+okay, 20%, and I say 20%, let's see, this is working, no, no, I have tried every, like,
+
+1213
+02:42:28,380 --> 02:42:36,700
+thing, 44, other units, other units you have tried, yes, yes, only the, every change that we make on
+
+1214
+02:42:36,700 --> 02:42:43,340
+the first one, right, only that is getting affected, the rest two are, okay, because,
+
+1215
+02:42:43,340 --> 02:42:48,620
+what I assumed, right, firstly, the value by default, whatever you have applied,
+
+1216
+02:42:48,620 --> 02:42:55,260
+it was having FR unit, if you don't provide width, how this FR will be calculated is something that
+
+1217
+02:42:55,260 --> 02:43:00,380
+I'm assuming, okay, I was thinking, like, with respect to the window size, it's calculating
+
+1218
+02:43:00,380 --> 02:43:06,140
+something like that, okay, if we consider that way, let's say, if I select this item,
+
+1219
+02:43:08,620 --> 02:43:11,580
+let's say, I'm not able to select this content area itself,
+
+1220
+02:43:14,380 --> 02:43:18,380
+because everything is dissolving here itself, but,
+
+1221
+02:43:18,380 --> 02:43:25,500
+yeah, I think it's about something that,
+
+1222
+02:43:28,220 --> 02:43:35,580
+like, let's say, is it, is it necessary to provide
+
+1223
+02:43:35,740 --> 02:43:51,740
+width of container while using grid?
+
+1224
+02:43:57,740 --> 02:44:02,300
+Okay, I'm trying to learn, yes, I know,
+
+1225
+02:44:03,020 --> 02:44:12,060
+yeah, they have provided a width of 100%, right, so, I believe we need to provide width,
+
+1226
+02:44:12,060 --> 02:44:16,460
+why not write a simple code, but,
+
+1227
+02:44:22,540 --> 02:44:27,420
+and also, I guess, HTML provides some default width, because it was written, like, when we,
+
+1228
+02:44:27,420 --> 02:44:35,660
+if we can go to the file, right, okay, which file, any HTML file, by default, any default
+
+1229
+02:44:35,660 --> 02:44:46,780
+HTML file, right, yeah, let's say, this is an index, index.html, and I think you can do, yeah,
+
+1230
+02:44:47,740 --> 02:44:50,780
+like, width is equal to device width or something,
+
+1231
+02:44:51,500 --> 02:44:59,420
+yeah, if I, if I use this meta tag, then, if I use this meta tag, let's say, in this app itself,
+
+1232
+02:45:00,060 --> 02:45:06,620
+let's go, yeah, I guess, then it might work, it might work, but let's explore this index,
+
+1233
+02:45:06,620 --> 02:45:16,220
+this is a JS file, where is the HTML public folder, HTML, and either with device width, yeah,
+
+1234
+02:45:16,220 --> 02:45:24,140
+yeah, so, this is not coming from there, okay, I'll explore the reasoning and I'll get back to you,
+
+1235
+02:45:24,140 --> 02:45:28,780
+but, I think, width is something we have to provide, but, I am not exactly sure whether
+
+1236
+02:45:28,780 --> 02:45:34,380
+it is mandatory, Sambit, I'll come back and let you know on that, yeah, sure, I'll also try to
+
+1237
+02:45:34,380 --> 02:45:42,380
+see now, yes, well, this is really corner case, like, generally, like, firstly,
+
+1238
+02:45:43,260 --> 02:45:49,260
+whenever you are using fractional unit, how does fractional unit is calculated, that we have to
+
+1239
+02:45:49,260 --> 02:45:56,060
+specifically tell, that is what my belief is, but, if you are not, let's say, if I don't keep height
+
+1240
+02:45:56,060 --> 02:46:03,740
+also, do you see, it also broke the height part, yeah, so, I believe this height and width is
+
+1241
+02:46:03,740 --> 02:46:09,100
+something that needed to be provided, and by default, for index, that simple file, right,
+
+1242
+02:46:09,100 --> 02:46:13,500
+while we are rendering, in your example, right, in your app, where you use this one,
+
+1243
+02:46:15,420 --> 02:46:22,700
+let's explore this one, if I open this on a live server, okay, this file, right,
+
+1244
+02:46:23,500 --> 02:46:31,020
+let's say, I go and open a grid layout, I have height, if I remove this height also, if you see,
+
+1245
+02:46:31,020 --> 02:46:38,540
+it's breaking in a way, yeah, okay, but, how does width is calculated as 100%, you know,
+
+1246
+02:46:39,580 --> 02:46:43,580
+if I go for the computed, always go for the computed, if you want to calculate what is
+
+1247
+02:46:43,580 --> 02:46:51,580
+the height and width of it, I got height, then, let's say, I go for width, if you see,
+
+1248
+02:46:52,300 --> 02:47:00,220
+by default, I'm able to get it, but, for our app, if I go in the app, if I select for the body tag,
+
+1249
+02:47:00,220 --> 02:47:08,940
+and I go for computed, width I'm getting as 1433, but, if I go for the, this root element,
+
+1250
+02:47:09,900 --> 02:47:16,540
+this is the body, right, I go and select here, my width is coming as 286, do you see this, yeah,
+
+1251
+02:47:16,540 --> 02:47:22,940
+correct, there's a difference between what our content is being consumed, and what our
+
+1252
+02:47:22,940 --> 02:47:28,460
+screen is providing, yeah, so, wherever, I believe, wherever you are using a grid, right,
+
+1253
+02:47:28,460 --> 02:47:33,500
+it is supposed to, you give that how much percentage of screen I need, then, it will be fixed,
+
+1254
+02:47:34,140 --> 02:47:37,660
+yeah, got it, yeah, it's better to always give the
+
+1255
+02:47:39,660 --> 02:47:46,140
+that's how, I mean, behind the scenes, how, because, I'll tell you, now, inside the react,
+
+1256
+02:47:46,140 --> 02:47:52,620
+right, this thing that you are building, returning back that, this each and every step, if you see,
+
+1257
+02:47:53,980 --> 02:48:00,620
+default folder, it is creating a, inside using react-dom, it is creating a new element, right,
+
+1258
+02:48:01,020 --> 02:48:07,580
+root element, that is acting as a base file, now, how they are appending, how they are distributing
+
+1259
+02:48:07,580 --> 02:48:12,380
+is something we don't exactly know, so, it is assumed to be, take full content, and play around
+
+1260
+02:48:12,380 --> 02:48:20,380
+with that, yeah, it might be different in case of html, and this thing, right, yeah, good, good one,
+
+1261
+02:48:20,380 --> 02:48:28,300
+you tried on react, that's good, okay, yeah, I hope your doubt is solved, up to an extent, right,
+
+1262
+02:48:28,940 --> 02:48:34,300
+yeah, yeah, yeah, I'm clear, sure, thank you, so, I'm muting, yeah, thanks a lot, yeah, sure,
+
+1263
+02:48:41,660 --> 02:48:46,700
+guys, any other doubts, if you have any other doubts, or any other one, who tried this use
+
+1264
+02:48:46,700 --> 02:49:04,220
+cases, let me delete this, thank you, Maneshwara, Ankit, if Ankit is there, Ankit is there,
+
+1265
+02:49:07,100 --> 02:49:12,300
+Ankit, you are facing challenge in understanding JS, or how, what was your opinion on that,
+
+1266
+02:49:13,260 --> 02:49:18,060
+I just seen your comment, I was not able to respond to that, but I just want to understand like,
+
+1267
+02:49:20,700 --> 02:49:29,900
+it's hard for you, so, one thing, one thing I would say is that, whenever you feel this one right,
+
+1268
+02:49:32,140 --> 02:49:35,980
+something that I don't understand, right, one time, what we are supposed to do, we are going,
+
+1269
+02:49:35,980 --> 02:49:40,540
+we are supposed to go and understand, repeat it, right, or else go to github repo, and just see
+
+1270
+02:49:40,540 --> 02:49:45,420
+those syntaxes, but if you are facing any challenge, understanding that concept,
+
+1271
+02:49:45,420 --> 02:49:50,620
+talk to me in the class itself, directly, I'll try to repeat that content, I'll try to do best
+
+1272
+02:49:50,620 --> 02:49:56,540
+for myself, if it's something new, you are trying to learn, it is supposed to be difficult, and
+
+1273
+02:49:57,260 --> 02:50:02,620
+let's try to put best efforts from our side, and let's see, if it is still not working out,
+
+1274
+02:50:03,420 --> 02:50:09,740
+we'll figure it out, okay, yeah, it's something new, I would definitely say that, it's difficult
+
+1275
+02:50:09,740 --> 02:50:15,100
+to verify, understand, or even if you understand it, that needs some practice to come with,
+
+1276
+02:50:15,980 --> 02:50:23,260
+okay, so, let's keep spending some time at the end of the journey, right, just try to give your
+
+1277
+02:50:23,260 --> 02:50:29,820
+best efforts from this Jan 18 to Feb month, all the concepts, I, hopefully, I'll drive you to the
+
+1278
+02:50:29,820 --> 02:50:37,260
+best of knowledge, and I hope you will be confident with this language, okay, because today,
+
+1279
+02:50:37,260 --> 02:50:42,540
+it was really simple, basic variables and data types, just go through it, revise the content,
+
+1280
+02:50:42,540 --> 02:50:46,140
+any challenge, bring me directly, I'll try to help you out, okay,
+
+1281
+02:50:50,300 --> 02:50:52,620
+so, hello guys, then, if that is solved,
+
+1282
+02:50:55,740 --> 02:50:58,860
+I'll close the session for today, see you on Tuesday, guys,
+
+1283
+02:50:59,580 --> 02:51:08,380
+yeah, yeah, I'm there on WhatsApp group, I'm there, okay,
+
+1284
+02:51:14,300 --> 02:51:15,500
+okay, great, no worries,
+
+1285
+02:51:18,780 --> 02:51:21,820
+yeah, good night, Ankit, good night, all, good night, all, take care,
+
+1286
+02:51:22,700 --> 02:51:27,180
+see you on Tuesday, hope you do your assignment and have fun on this weekend,
+
+1287
+02:51:27,180 --> 02:51:34,540
+or complete assignments and then have fun, that is what I would say, so, hello, guys, bye-bye,
+

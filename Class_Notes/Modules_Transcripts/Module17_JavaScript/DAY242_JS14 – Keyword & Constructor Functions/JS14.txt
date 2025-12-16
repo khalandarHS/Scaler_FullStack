@@ -1,0 +1,1084 @@
+hi all good evening guys am I audible and visible if you can hear me out can you give
+it a thumbs up yeah great guys thank you so let me do the screen share
+I know what topics for upcoming context will be yeah I'll come to that
+so guys let me know if my screen share is also working fine okay so great so one small
+announcement is that this weekend we won't have any class and you will be having the
+contest on 24th and 25th Jan right two days of the weekend you can leverage it to attempt it and
+this will be based on completely Dom plus HTML plus CSS till Dom part okay and it will also
+include the bonds and throttling concept till last class the object oriented programming that
+will start today will not be involved in it so I hope you are able you will be able to do it and
+be prepared with this guys I think Dom is something you might be experienced with it like we have done
+good enough project and you know machine coding and things so you know be prepared with these
+two concepts also understand them maybe build your own example try to learn it is this clear
+Kabir do you get the contest of like what will be asked in okay great so I hope everyone is
+preparing eyes for the contest can we use our own data for solving questions in the contest
+you should be able to I'm not exactly sure here as I have to you know I have to check on that how
+does it work okay so firstly I'm not sure exactly whether it will be MCQ based it will be having
+again machine coding around so and there might be a question where you have to code it down so
+three things can be possibilities yeah but we have to submit there only yeah so you know if
+it is of and machine coding around the questions will be have simple and straightforward it know
+it wouldn't be that big because you have one one hour of context contest and you have to we have
+to test you on base of three three knowledge right so if you think from that perspective
+mostly it won't be there but you will be having a code and MCQ you have an MCQ mock interview
+on Saturday also so can we take it on Sunday no you have two days right contest will be on
+two days is it a flag should not be you know writing HTML will be same way right there
+shouldn't be any plagiarism issues there okay if you face any of those challenges to let me know
+we'll check with the team okay if you are able to execute all the test cases that's that's fine
+like that's it that is what main discussion would be it wouldn't be like we are checking
+plagiarism although all those things will not be considered right so you just have to execute the
+test cases even you will be discussing right I think in HLD sessions where you will be
+discussing how actually submission of this questions in contest happens like how what is
+the workflow how they test all those you know test cases right like when you would submit your
+question there are like 100 or 120 test cases runs simultaneously and you error is in populated
+those things happen so fast you will be able to see like how they're working so it's not a
+distributed system that of that scale but the processing is the mathematical computation is
+heavy okay so we'll get to learn that also okay guys can anyone drop a message in chat
+okay okay great some it will use it that thing itself so somebody has built another application
+so let me bookmark this one also if you want me to use it for our whole batch
+let me see great I have this okay this is a stopwatch I don't have a timer right how
+many minutes timer I have to do or build this one some bit so you played around with the box
+shadow where you are toggling the colors for each second each time the box had is changing
+you have four types of classes flip being played around running through the loop is it
+for each second you are having the inner text yeah you set interval and then you
+are checking and updating the color right great good idea so I believe like somebody
+has applied the same knowledge that we have all just learned it's really great that you
+are applying in terms of project because this is where you get on add-on right that you are
+learning a concept then you are applying back so from I think somebody are very much clear
+with the dom right by now like dom and all those parts but good one good one some would
+keep doing keep building good projects for us so I'll reset it I'll set for two minutes
+guys then we'll get started but meanwhile anyone having any doubts from the last class
+because we have you know picked up bit heavy heavy things like firstly we clear set timeout
+then we understood set interval then we went on to understand debouncing then we understood
+these are the four concepts we picked it up we used same sort of example as input search
+okay but there are many other examples where you can use trottling that I have also given you
+examples but hope you try it out and build it out guys you can expect at least one one question
+on each of this in the contest so what I have done it for you guys is that as I promised in
+last class that I will give you a screenshot where you know you directly see differentiation
+and the kit of repo so I'll push this image where you can see that what is the purpose when to use
+the bouncing when to use our trottling and what are the different parameters and the examples
+events where you can build it okay I hope this thing also helps guys sort of a notes where you
+get overview of debouncing and trottling okay so other than this thing guys is everything clear
+so just want to know give me thumbs up if you are confident with HTML CSS and DOM operations
+and beginning level of JS 2 because we are getting started with new part of JS I just
+want to know how confident you are feeling so I see five thumbs up guys is there anyone who's
+facing still challenge with the topics that we have learned or if there is anyone who feels like
+he's feeling lack you know lacking behind if there is anyone give me thumbs down maybe if we can have
+a conversation in the doubt session there is anyone give me thumbs down this because the things we
+have covered are all basics are done now from the last class I say to people hey monkey and promote
+guys waiting down session will have a conversation will discuss your point of view right so because
+you from today on will be moving bit forward and fast so that you don't feel lacking behind okay
+and then we'll pick it up so great I don't see people coming up we are 10 minutes of the start
+so let's do one thing we'll start with today's class guys so today let's let me start agenda
+discussion firstly you know we have three classes for oops and the topics will be covering inside
+oops this keyword will understand what is this keyword in context of JavaScript then
+we'll understand constructor function okay then we'll understand classes in JS and inheritance
+once we cover this then we have I'll talk about that prototype and prototypical inheritance
+then we'll have call apply bind methods and we'll understand again in depth again memory of objects
+because you know object oriented again it's everything is about objects so we'll come to
+them so these are the broader six level topics will be picking up so this will both will go
+for first class and then we'll pick it up again these two items in second class then we have third
+class for this one okay so these are the topics that will be picking up so firstly we understood
+that you know JS is functional programming based language but why did oops coming to the picture
+right how many of you understand what oops is firstly how many of you understand what oops is
+if there is anyone who don't understand oops okay I see three people cool so object oriented
+program so in object oriented programming we'll see of this examples when you come to something
+called as constructor function in depth but you know everything revolves around objects
+just let's keep this no lighter definition for now but we'll come to the depth understanding oops
+and its principles you know object oriented programming is a one of the one of the best
+oldest fashion that people have leveraged to build applications because using this thing
+they are more able to relate with the real world I'll show you this one
+how how they how we are able to relate and what things have all those things are ever
+will come to that step by step but before that we have to start one of the topic
+understand one of the concept of JS itself like have you heard keyword called use strict in JS
+guys have you heard this keyword use strict
+I see five people yeah great many people didn't hear it off okay and so what happens is right
+yeah bishak rightly pointed out but let's come back to this use strict okay firstly when we
+introduce JavaScript we all know that JS comes with a many you know errors or many
+functional issues because that was developed in 10 days right and then there was a ECMA team
+who kept on improving the JS to write better JavaScript this is something we know the story
+right we know what happened and why this happened and how it was JavaScript was developed and there
+was too many issues like if you remember we had issues like hosting right that was fixed again
+using let and const I mean let and const are still hosted but they are hosted in temporal red zone
+right so similarly we had many things right many issues that were there in JS like when it's when
+you go for initial JS you had a var keyword which was a global variable all the time and
+we had also seen potential issues with a var keyword right all those things were part of the
+initial JS issues now also initial JS was not you know throwing us the good required amount of errors
+like if you see there are many parts of the code which is not expected to write such way but people
+were writing it and that code was being passed inside the system because system was able to
+understand but after you know ES5 ES5 okay when ES5 was introduced like this is the code that we
+but after you know ES5 ES5 okay when ES5 was introduced like ECMA version 5 ES5 when I say that
+they introduce something keyword called as you sticked so what they say is that when you use
+this on the top of the page okay top of the JS page
+JS file let me write this one so if there are any issues it throws us errors with the right messaging
+or I can say better messaging so what happened is they have handled exceptional handling they
+have done better in ES5 version and when you use use stick method and they gave it so now that
+same use stick method is also used for react also they have launched in react 17 so 16 I guess so
+we'll be exploring that in terms of firstly you will see like what one of the example I'll show
+what happens with use stick non-stick but in general what have what happened is when you use
+this you are supposed to write a better JS code okay let's see one of the example how that is
+this affects moving back to code guys I'll start class number 21 let's say class
+81 once I have this I close this one
+let's say I write
+okay now let's say I write down name equal to my name and I write down console.log
+okay and I print name what is expected to happen this year what is expected to happen
+should it be throwing error or should it be shouldn't be throwing it
+okay
+did I declare a variable what is the syntax of declaring a variable guys
+how variables are declared firstly let's see first let's see what happens okay I'll open
+integrated terminal I'll use a node strict.js
+okay I'm able to print out them so is anyone amazed like how this is working firstly without
+using any let const var or anything you didn't declare any variable but still it is executing
+do you see this this should be a flagged write error
+if it can work without using any let var const why we need to introduce that thing first place
+isn't it
+guys are you able to follow up so now let me show you one thing like what happens if I
+use use strict here okay once I use strict and again I rerun that same file now do you see this
+what use strict says that hey reference error name is not defined you didn't define the name
+variable and you're trying to directly assign a value to it
+are you able to see what that use strict does use strict try to follow the right side of guidelines
+and rules and gives you the right sort of errors that you need in real time so this was introduced
+in ECMAS 5 this was one of the examples that I wanted to show where you declare a variable
+without any var let const but it gives you the right amount of error codes okay and it also
+explains you properly okay so I hope you got the gist of what top level use strict and non-strict
+mode is by default every js file is non-strict mode if you see whatever we were writing it down
+at here everything was a non-strict now but when you use this keyword use strict you're supposed
+to follow the guidelines that we have learned till now where if you don't follow it you will
+be flagged that error and you can fix that one I hope this point is clear guys
+guys is this point here with use strict and non-strict mode what are those things
+I see three thumbs up good now so now let's say I have one question to you where
+js can be compiled or passed
+where js can be compiled or passed where all js can be compiled or passed
+I ain't passed sorry compiled and passed where all
+browser is there anything else guys browser
+node yeah node js right right okay then Abhishek says the use strict will be slower than non-strict
+it shouldn't be abhishek like what if like imagine you are not declaring a variable and
+just trying to execute in strict non-strict mode by default behind the same system is actually
+applying a variable right so they are doing the two works instead it will throw an error to us
+so it's better if you go for any production-based apps you will always see a use strict flag will
+be used okay any js file you go for production-based code you will see that use strict is used
+it doesn't affect that performance okay now so as we know that we have the two environments
+browser and node js so we'll understand this keyword with respect to all of them
+but let's understand what this is talking about you know this is a keyword which usually
+points to an object let me write those sentence
+this keyword
+always refer to an object
+refer to an object and the value
+of this keyword
+will depend on
+on how it was called
+okay so basically whenever we say that let's say this dot something
+this dot something you might have seen there's some many syntaxes this dot name or
+trying to console log or assigning a value to it right you are using always so we are talking
+about what this is standing for we all we almost we always know that this operator dot operator is
+always used on objects mostly in js so we are still saying that the same thing that this is
+always referring to the object and value of this particular which object we are pointing will depend
+on from where it is being called okay this is a top level definition guys we'll come back to this
+one we'll understand multiple times okay so that we'll get a complete just of it and we will be
+exploring this in in both the browser environment and node js environment whereas both in strict
+and non-strict mode okay let's start with one by one we'll pick it up one environment and we'll
+see what all behaviors are there then we'll go to the next environment okay let me go back
+to the code base let's let's understand this keyword in depth now okay let me build a folder
+called node js so firstly we'll understand in terms of node js and i'll create a new file called non-strict
+js now let's understand in terms of non-strict firstly okay i'll write down comments also so
+that you can refer this whenever you feel confused let's say if i say that simple console log
+what if i do console dot log this keyword in non-strict mode we say that this will always
+point to an object now what can be the object initially where it can point out any ideas guys
+anything that you remember window says diraj i'm in non-strict mode in terms of node js
+anyone else any ideas guys
+okay let's let's explore this no this this is always will point to
+some of the object here okay some says empty okay let's explore this what happens okay
+let's say node cd node js no non-strict dot js
+okay now one of the common problem with node js is whenever you are using this contest simply
+right you may not be able to you know access the object that you need it and this
+generally should be pointing to a global object so here in node js environment window object is
+similar to global object here they call it as a global object okay remember that thing here
+but when you do simple a simple console log this this is referring to an empty object which doesn't
+have any values okay there's no proper explanation to this why this behavior comes out but in node
+js whenever you are trying to do console log without any context here there is no context
+for this one so this is actually acting as an empty object okay now let's see what happens if i
+put this put let's say this inside a function okay when i do inside a function let's say i
+have a function called test and i try to do console log of this same thing
+and what i'll be doing is i'll be executing this just now what could be our expectations guys
+so empty empty again okay now so if you go and write down the execution process for this one
+what could the execution process for this one like if you go create a memory phase and
+execution phase like our code execution phase separate execution context will be created for
+each function right
+okay so many says it should be empty or an error but let's see what happens then if you see
+here whenever we are doing inside the function now inside the function you are expected to write
+this functions right set interval set timeout clear timeout all these functions you would be
+writing it generally set immediate micro task you accessing global object now these all methods
+these all methods are referring to a global object now inside a function will this particular this
+keyword refers to an window object or a global object okay this thing you know i'll help you
+to understand step by step how this works but let's explore examples more and then we'll come
+back to this one so even if i show you why this happens okay if i put a debugger here let's say
+if we do this
+let's say i move to okay i'm here let me say i'll open here
+so
+okay
+second guys just i'm going inside that path folder so to execute you know in terms of
+testing i'm debugging more non-strict dot js
+and if you see here firstly we are getting of calling a functional call if you see in the call
+stack we are you know having an ominous step at line number 10 once i call this a separate
+execution context is created pushed onto it where test is executed now if you see here always
+it will be having an access to global object as i told you in terms of node just window object
+is equaled into global object only the use case where it fails is like it will refer to an empty
+object only when you are using simple console log dot but always in other cases it tries to refer
+to this this refers to some object and this this object here it is trying to refer to a global object
+it checks in the local scope it finds that this is pointing to global object i hope this point
+is clear we'll go ahead with the next example one more thing is that let's say what happens if this
+keyword is inside an object itself
+okay let's see this example guys i'm trying to use as many examples as possible uh we'll try to
+give you just stuff it with all different environments to understand this one okay
+let's have adam uh and let's say age is of adam is something 32 and let's say we are seeing that get
+it print info a function uh let's say i call an anonymous function where i try to return
+or let's say we try to console dot lock here this start name
+and this start h okay we did this then what if i call let's say object dot get print info if i
+execute this thing what should be my output here any ideas guys what should be my output
+always remember that this points to an object and where it is being called now if you see
+the context here whenever i'm getting inside this it will check whether this is pointing to any object
+now if you see this function context is always being changed because you are having this object
+here referred and whenever in in any when if you're trying to create any key variable keep
+any key value pairs and if it's a part of object it always refers to its current object okay
+now let's see if this is working fine clear it if you see here i'm getting adam and 32 as printed
+because here this object is referring to the current object where it is being called from so
+you are using this object itself the current object dot great in print info is this clear guys
+how i adam and 32 is coming are you able to follow guys
+so i've shown you three of the examples where one of the thing is by default any function right if
+you write a console log of this and it is outside any context and it is it is always referred to the
+global execution context okay and simple this is always pointing to an empty object if this always
+it will point to some object but it is either pointing to empty global or the object where it
+is being called from okay now let's see another example if i write down this way let's say this
+keyword from a function
+that is inside a
+function
+inside an object now i return one j bridge line guys let's understand this one firstly okay
+okay so what it says is that let's say i have an object to
+you know from here again i'll use same thing name would be now instead of adam let's say we have
+steve and let's say also age is something around 26 and let's say i again have the
+let's say i define as a test function inside the test function i have a function
+okay this this function will again have a function inside it
+okay that'll revise anyways okay so now inside this function i'm trying to console dot log of this
+this dot name and this dot age and also i'll try to console log of this here
+so guys can you expect here what will be happening let's i'm executing g also here
+and i try to call object to dot test function
+so firstly let's understand this line whether this keyword from a function okay this keyword
+from a function that is inside a function
+inside an object so this is what it is actually meaning that particular sentence now let's
+expect like what do you expect an output here can anyone think can anyone think it like what
+can anyone think it like what could be the output we have seen three use cases
+steve and 26 is from earth anyone else steve 26 how many of you believe that output should
+be steve 26 this will point an object and steve and 26 okay great so i see one thumbs up
+is anyone is all able to follow up guys i see i don't see all people reacting it if you don't
+understand it at any point of time do let me know we'll try to spend time on that understanding it
+okay now let me show you one thing you will be astonished to see this one the output of this
+one let's say i try to comment above console locks i'll stop this execution i'll stop this
+execution okay i'll stop this execution okay let's say i try to print this one now
+if do you see this here what what just happened now this is pointing to
+a global object and
+this particular this dot name this dot is caught undefined undefined now
+i've shown you output i've shown you this thing can anyone think of what could have just happened
+here just see this code guys i believe you should be able to understand try to draw an
+execution context for this one how it would execute it you'll be able to think what will be
+able to think what will be the output for this one
+okay meanwhile what i'll do is start so you are thinking it that's fine also i'll try to replicate
+this in the ipad i'll show you what is exactly actually happening let's say i have that same
+object const object to where i have name called steve
+and age as 26 and then we have something like text function inside that we had another function
+an ominous function inside that let's say i have function
+g i try to console log
+of this
+i console log of
+the start name
+the start age
+h i'm executing g here then i'm closing this function closing this object and i'm calling
+object to dot test function this is what we are doing it right
+now let's see what just actually happened
+okay this is what we have just written now firstly this whenever i create an execution
+context right whenever i create an execution context let's say this is an execution context
+one now whenever i try down here we have two faces right
+memory creation code execution now first step whenever i do it memory execution you know that
+object 2 will be stored here and on a heap you will be having all the content right
+and that will be referring here and then we have we say that from this object can you execute
+test function now in the code execution i go and try to say that test function i execute it
+right once i do this no once i do this i go here i see that in this execution context when this
+test function execution context okay test function execution context when this is created
+it has two things again memory creation code execution here if you see in this you have
+function g which will be initialized and left and on this this is always pointing to
+this particular execution context which is object 2 till here as we have this object
+but now when you have g and you are trying to execute g here and it will create another
+execution context of function g and here this won't be pointing to through the chain it won't
+be going from here to here but it will be for this it's a separate execution context is created
+so this will be pointing to global object okay and when you try to console log this you will
+be see you will be seeing this one here and whereas if you try to see name and age in this
+global object we don't have name and age so both will be undefined
+do you guys understand this one what just happened like i just try to show you in terms of
+yeah right cover okay i see one thumbs down guys can you give me further
+thumbs down if you don't understand it
+no okay cool i see many people who don't didn't understand it now i'll show you once
+with actually you know debugging it so that again we'll come back to this one
+now let's say i put a debugger here also here here okay i go back and try to execute the same file
+now you guys just check it on this okay firstly when i'm when i'm executing it
+in the local context or if you go for global context okay firstly it checks in local context
+whether there is something like this is if there is an object or memory is loaded
+okay guys i hope this you are able to see this one right this is visible enough or you are not
+able to look at it okay cool now this is a call stack now at call stack we are at the line number
+37 if you see 3776 it's it shows it highlights that one and here in the memory you have object
+two and object one now let's see what happens when you go inside this function whenever you
+are trying to execute the test function okay now i click the play button now if you see whenever
+i'm going to the new function test function there's a new thing that i got added into
+call stack now when you whenever you see this one right so i've told you that initially when
+memory loads this is the step one that is happening then you have the execution context two
+which is for test function okay which is pushed onto the call stack here when i go inside this
+if you see when i go inside this test function still this object is referring to the globe or
+this object too because that is calling this function that is calling this function and it
+is wrapped with these names okay so if you expand this one if you see age and name and age will be
+available here is this point clear till now how the test function is able to access this name and
+age because that is that is itself calling right so as i told you here this will be always pointing
+to the object to itself because it is acting as a wrapper yes i see only one thumbs up can you give
+me thumbs up if you are able to understand this how we are able to access age and name inside the
+test function uh i don't see any reactions
+okay cool now what happens let's see what happens let's see here if i go and create call the function
+g now a new execution context will be created altogether if you see a new execution context
+created for this it is this is pointing to global it doesn't have any context related to
+previous functions previous object it doesn't remember this thing it doesn't remember because
+this is completely getting executed in altogether different context it doesn't have any understanding
+of what is happening in the previous so this thing you will be able to refer better when you
+think in terms of this way okay this is a step one this is the step two then you will see that
+g function is a step three okay this is one where you have an object you loaded memory you are
+calling test function then you execute text function where you have access to this keyword
+because the object to dot test function something we are calling an object to data will be there
+once test function execution starts we say that we need to execute g function once we go for g
+for every function we know that the separate execution context is created and once it starts
+it it always points to as we know and this this is behaving same way as this one isn't it
+if you see here also we wrote a simple function always execute uh points to global object
+isn't it
+guys is this clear like how this thing is this thing is working so how many of you uh are able
+to relate with execution context process like did anyone practice it once we learned in hoisting
+concept uh because there we practiced it i've drawn execution context diagram so hopefully
+you are able to relate with this one okay now so let's let me revise again guys for you all
+so if you see it here i've took four examples first example was simple when i tried to console
+lock this in non-strict mode it always point to an empty object okay let me write here empty object
+okay this is one of the edge case where you will be seeing a different output
+but when it comes to function dot test it will this will point to the global object which
+it refers to in new execution context that we we just seen this okay and when it comes to object
+when you're trying to access this i mean inside the object it will always refers to its same object
+where it is calling from okay then you have a i mean a function inside a function which is
+inside an object then this will be executing in a separate execution context so this will
+behave as a simple function and the simple function we know that it always points to a global object
+okay is this clear guys i hope i revised it again you are able to get through it so one thing we'll
+do is that one thing we'll do whenever we are going through these four examples we'll try to
+make a notes of this one here so that you can come back and see remember these examples let's say
+i write down for the
+nojs and this is non-stick mode
+okay here let's say first example was simple we know that console log this
+object what this points to guys
+this always points to some object but which object would be pointing it in simple the console of
+this context empty right let me write down this one in second example we had this inside a function
+and wherever it's inside a function what it points to
+is a global object right and then we have another example this is inside an object
+okay let me write down this way
+this is inside a function and that function is inside an object and i'm calling object dot
+function and what will be the output for this one
+think of this one this is the same example i'm calling object dot function
+if you see this i'm calling here object dot function so i was able to get the object itself
+right now here can i say that here it will be our object itself
+as output
+guys are you able to follow up
+okay great now then there was something that we tried experimenting on this inside and function
+and which is again inside and function and which is part of object now here
+we are again calling object dot funk when we are doing this we got global object
+right i hope this differences are clear these four examples
+so usually this keyword confuses you so i'm trying to you know note down all the possible
+use cases which will give you a gist of it completely when we complete for the all the
+modes okay let's go and explore the same use cases same examples in the strict mode how this thing
+how this thing behaves okay
+now we'll go to something called a strict mode let's say i go to a strict mode and i remove this
+one and let's say i try to control dot log of this now what could be the expectation in the strict
+mode because strict mode was acting as an enhancement and by default do you think there
+should uh without any context this should be pointing to something
+all right we think that it should be creating an error but there is a one of the edge case guys
+one of the you know default exception case you can say for this one simple console log
+but because if you see the output
+it still points to an empty object this is without meaning in non-strict mode or strict mode it is
+always pointed to an empty object is this clear like always uh this one simple console log this
+will point to empty object whether it is strict or non-strict when it comes to node.js environment
+okay now let's say that i go and try to replicate this function okay let's say this thing i copy
+and i paste it here now think of it what it should be pointing to
+uh let me remove this
+in the strict mode uh do they have any object available here
+global function right let's explore this okay do you see this it is printing undefined
+in the strict mode there is nothing as such that you will be able to access uh in simple function
+like you won't be having any global function by default attached to it
+you have to define a context for that if there is only context for that
+only then you will be able to access that global function global object uh to say
+is this clear guys how the strict mode is saving for saving us like trying to protect from
+all the sites the all the errors that we see that you know all the use cases that creates
+this confusion when you use a strict mode it simplifies our pain point okay now let's
+see uh with the third example if i pick it up this example
+let's say comment let's say i have here i'll say this points to
+undefined okay now what would be the output for this one guys uh object where we are trying to
+print get print info are we binding this operator with this object so i done 32 says the edge how
+many of you agree with the edge point of view
+how many of you agree with the edge point of view
+i see two people so i hope you understand the reason behind why you are agreeing because
+we say that him using this object itself we are calling this function and this will always have
+an access to this one in its context in its local context itself uh and this will be always printing
+the right thing so there is no magic if you see adam 32 sprinting here okay so it is working
+in a right format now if i pick it up fourth one this example if i pick it up fourth example
+what should be the output
+now this is calling from object inside an object
+earlier it was pointing to a global object but what this will point to
+to undefined how many of you agree with or disagree with guys pradeep and diraj
+here agree right great let's see if this is giving me undefined okay now it gives me undefined it
+also throws me an error that you cannot read the property name and age if you see earlier uh if you
+see earlier in non-stick mode we didn't get this error isn't it we got undefined simply undefined
+isn't it for name and age also but here in the strict mode as i told you earlier that when you
+use use strict flag it gives us the right understanding of errors it gives throws us
+errors that we need to see it says that type error cannot read properties earlier if i still
+execute this point right if i still go and execute this file non-stick mode i'll show you the
+difference what happens
+you see i'm getting undefined undefined pointing to window object you see this there's a difference
+here it is returning as undefined but whereas in strict mode it throws us error so this was
+an implementation that uh you stick flags giving us i hope you understand this
+okay guys are you following up great now let's let's fill in this blanks that we were preparing
+notes for now in the strict mode what this console log adopt this prints
+what does it prints for the first one console empty right still and second one when we are
+inside the function the stick mode undefined
+and in the third one still do we print object
+data right object itself in the fourth one
+error and undefined both things right so i'll write here undefined because i'm i haven't written
+logic just i'm trying to say that what how the context switching is happening so i hope everyone
+is but having a clarity here like how things are differing in terms of strict and non-stick mode
+with respect to node chase environment and with these examples is anyone having any challenge
+understanding this one do let me know guys if you want me to repeat it give me thumbs up if you
+want me to repeat it again completely or else if you want me to go ahead give me thumbs down
+okay i see people are asking me to repeat it once i see three four okay great okay let's say uh i'll
+repeat it once uh so what i was saying is that you know always this operator uh refers to some
+object now that object we have to figure it out whether it's an empty object or the object is
+doesn't exist or whether it's a global object or window object or the object itself that we are
+calling on now that which type of object that uh this is pointing to depends upon how it is being
+called so the basic definition is always this points to an object but we need to know how
+how this is changing because this changes depends on how it is being called okay
+now we have seen in the strict a non-strict environment that whenever we are trying to do
+a simple console log this is an uh you know exception case uh you do it in strict and
+non-strict mode it always points to an empty object okay it doesn't mean anything but when
+it comes inside a function uh if you go for non-strict mode it always refers to a global
+object where you can access all the set timers set time or functions you know uh set interval
+all those functions inside the non-strict mode okay and when it comes to a simple object here
+if you see the way we are calling this function get print info function we are calling this function
+using the object itself so the context of this changes to this object this is always pointing
+to this object itself okay and inside that object memory we have add a name and h so we are able to
+print name and h here okay so if we go for the next example if you see it here till if you say
+object to dot test function wherever we are calling this function of this test function
+we always have the this operator append pointing to this object to this test function will have an
+access to name and age but when this g function is getting executed it executes an altogether
+separate execution context where there is no object that is particularly calling this function
+so whenever it is getting created as an empty use case it behaves in a same way as a simple function
+and when this happens it always this refers to a global object and this dot name and age are
+set to undefined because global object doesn't have name and age whereas if you go for strict mode
+still see this is an edge case so it still points to an empty object generally in the strict mode
+it behaves as we look at it now when we say that we are trying to print something this operate
+directly inside a function there is nothing like we're defining an object here so it always point
+to undefined whereas for this example we are strictly straightforwardly defining that hey
+object to dot great print info and we are doing this this particular object already have this name
+and it so it is giving us that output and when coming to this one again this function is acting
+as a simple function and there is no this keyword pointing to anything there's no context for this
+one so it gives us undefined and for this one we it throws an error type error i hope the
+guys i hope you are able to follow up and things are clear now how this works in strict and
+non-strict mode which comes with respect to node.js environment now let's explore
+how this thing changes with with respect to browser because we know that you know js works
+in both the environments now we have explored one part of it now let's explore this in the
+second part of it okay going to browser and again non-strict.js let's say i try to copy this code
+whatever code i have let's say i comment or else let's say we type it down one by one
+let's pick one by one okay and if we want to if we want to execute a file in the browser we have
+to have a one html file okay let's say i'll remove this one let's say i have an index html file
+and this index html let's say i have this and we
+define script we have source tag
+non-strict.js let's say i say strict versus non-strict
+okay let me refine this other day i'll copy this
+context of this key let's say we write this thing and i launch this html
+so i haven't done anything great guys so just a thing that i created an html connected with this
+non-strict file and i try to console lock this simple thing now what do you think in terms of
+browser this points to when i do the console log of this one any guesses you might have played
+around with a browser many times till now you might not have used node.js environment as as much as
+environment as as much as we have used document or window says zrash okay let's see this case
+no one thing i want to know why do you think document zrash just want to understand your
+point of view document is a dom api right and that is not an object which is having all the
+functions that we need it will always point to a window object okay which have all the browsers
+functions available in it submit as in terms of node.js as we had edge case in strict and
+non-strict it was pointing to an empty in terms of browser it will always point to window okay
+this is also another edge case okay so here guys if you see if i try to write down simple this here
+what do you see see this window is building out if i say this dot document
+so document is a part of window object itself zrash this dom is a part of whole object that's
+a whole object which is having everything okay document will be there but it's a part of window
+itself you will see when i open the window right in the browser you will have too many things
+too many methods available if you go and try to use navigation right a location based too many
+events too many things that you will be able to see what all things that you can see on the browser
+that all things will be available here you'll be able to see performance and you know
+be able to see in the window object so simply in non-strict mode when it comes to browser simple
+console of this points to the window now let's say in function okay let's say yeah that's that's
+depending on how you know the js is executed i don't because now if a browser is built by
+different teams node js is built by one of the different open source organization
+they called it that way particularly that's how you write you've been writing the code legacy code
+indirectly in browser you can access like the timer functions and everything okay that's how
+the wrapper has been built whereas in node js it behaves differently okay
+so let's say console lock this and let's say if i execute test now
+what do you guys think what was the answer for this one in the node js environment
+anyone remember it in the non-strict mode
+global right here as i told you in node js if it is a global is equal to window object let's see
+if this is working fine okay i go back here i try to console log if you see still we are able to see
+window object coming from the line number five okay this line number five is this one itself
+okay i hope this is clear now this global and window object name is convention is also changed
+by the respective teams who build this node js framework and you know browser okay now let's
+see the third example which is this one and i hope this is a straightforward example one final check
+uh one final check guys would be the output still same for this one
+would you see the adam in 32 still getting printed for this use case let's see let's see this
+okay do you see that adam in 32 is printing so when it comes to this use case it's a straightforward
+right object is calling and this will always point to the object so in those use cases it's
+straightforward and simple now let's go and try to execute this use case
+no
+do you think still it should point to global object in a separate execution context
+for this one
+someone says no
+okay okay still if you see as i told you earlier this will work like a
+same function as this one right a simple function in a new execution content it was
+pointing to window this will also be pointing to the window object okay
+so
+now let's see do you see it here it points to window object and it throws an undefined here
+reason behind we are trying to access this one if i try to comment this one you will be able to see
+only window i hope these points are clear guys like how in terms of non-strict environment
+browser is behaving the only change is again this console of this this behaves by default
+it provides us access to window and all the use cases you see window object getting printed or
+the subject itself right let's try to fill in the notes that we are preparing for understanding
+okay let's say
+i write down as browser
+okay and i say that non-strict mode
+simple console log of this so what was this pointing to guys again
+uh you'll help me out right writing this thing down so
+window right inside this also window isn't it this inside the function
+now the third example was this inside a function which was a part of object and we were calling
+object dot function and we should be able to print object itself here this is a common across
+each environment strict non-strict browser or anything now this inside a function inside a
+function and that is inside an object right and this points to again window
+is this clear guys like how this works in the non-strict environment
+is this clear guys like how this works in the non-strict environment with respect to browser
+you know i'm doing this exercise for on this particular keyword is because
+people get confused so you should be able to understand how this works
+if you are clear with the execution context point of view you will be always be able to figure out
+other than this one of the edge case okay now let's go and see what happens in the strict mode
+let me create inside a browser strict dot js and let me link
+strict dot js once i link this i'll go to this file i'll try to print this one now what do you
+think guys the output should be in the strict dot js in terms of browser and define let's see
+this if this is working that way browser always gives you window object as i told you the edge
+case for this one is that in as in strict and non-strict mode always console log okay let's
+me use that that one use strict okay let me go back you see this see this i refresh it
+now as i told you this is one of the edge case that happens like in simple console log this
+either it is pointing to empty object or like it is pointing to window object here in both
+in strict and non-strict mode this is pointing to window object okay now let's see if i write
+down a function again test inside the console dot log
+this and let's say i execute this here now what would you expect here again
+in the strict mode what was from earlier experience what would be the output in terms of
+node js strict mode
+undefined isn't it there in node js let's see what happening here still do you see this undefined
+that those both are aligned because there is no binding object binding is happening here there
+is no context for this one this okay now let's go with the third example which we have now
+this should be pretty straightforward that each time because this is one of the valid use case
+it should be still printing adam32 right it's still printing adam32
+now then there's one of the other last case
+let's say i try to take this and print it
+it now what should this point to here guys
+again undefined isn't it let's see so i guys align how this is working
+in the strict mode same way so which environment do you find better guys
+this strict mode now let's say i write down here in the notes that first point
+it's still pointing to window object this one it points to undefined
+this points to object itself
+this points to undefined
+so which is a better environment for to use for the production spaces just let me know whether
+you would use strict or non-strict which would be preferred guys from your understanding strict
+right strict mode is preferred and when it goes to that's the only difference if you see the
+outputs right if i zoom it out when it comes to strict or non-strict both the things this one or
+this one only the this use case right first use case are behaving differently but in all other
+use cases you'll be able to see that they are behaving in a same way okay so in production
+basis we go with the strict mode and this is what you have to remember i've but i have given you
+the context of everything which i'll be again taking a screenshot and i'll be adding that into
+you know as i've added it for these two things like you have a debouncing throttling the topics
+whichever you feel confusing right like the position property i'll be adding an image for
+this one so that you remember it if you are not able to access this notes whatever we are preparing
+i'll add this one if you need it do you want me to add it add this one there guys this differences
+block okay great i'll do that i have to prepare this one i'll add this one there okay great so
+are you feeling confident about like understanding this this is always again repeating the you know
+definition definition of this is like this this is pointing to some object now this object can be of
+how many types it can be window or global depending upon which node chase or the
+like browser then you have sometimes it object itself sometimes it is undefined
+now the undefined gives whenever in the considering strict mode if no context
+like there is nothing like whenever you're executing you are simply calling that function
+like function dot whenever you're calling this without any object context then you it will give
+you undefined whenever you're calling from the object point of view it will always print object
+itself and this is by window and global is like in strict mode when you will be able to access guys
+only in simple console lock this other times you won't be able to access
+directly the reason they have done right in strict mode you will be only able to
+access the window or empty object from friend end point of view in browser is that
+you always try to add this set timeout and everything right
+okay so the definition is simple this is pointing to some object we should know where it is being
+called from once this point is clear you will be able to figure it out
+so guys do you need a break or should i go ahead i need another half an hour to complete the class
+if you need a break so you can go ahead and complete the class and then you can go ahead and
+i need another half an hour to complete the class if you need a break let me know
+or else if you want me to continue i can continue okay you need a break how many minutes guys
+so we'll use some bits application some say seven some say ten okay so
+okay what i'll do is that i'll give it for seven minutes guys so i'm starting a timer
+once it is clocking seven minutes so i hope some bit you will improve this application redeploy
+and give it to me where i can enter the number of minutes okay i'm just waiting to clock it seven
+next week surely done so i've started guys take the break and come back in seven minutes
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+uh guys i hope everyone is back can you give me one thumbs up if you are back guys
+cool uh so one check can anyone check if in archive section do you see
+github uh class and uh you know portfolio project class is added
+i got confirmation today i've been asking for some days uh but can you check
+so
+is anyone confirming guys is anyone checking
+so
+so please go through those classes guys it will really help you to fill up the other content which
+is not been covered so okay
+great uh again uh i would again ask you like you know uh whatever classes are there please
+try to go to check them once you have bandwidth uh even if you need any other content other than
+this thing if we are missing any topic or anything you can uh you know mention to me in whatsapp group
+or anywhere visionary or in class we'll try to cover it up we'll try to pick it up okay
+but can we move it guys can we move it the next topic
+great so let's say next topic is uh something called as constructor function
+before going to its name or anything what it is let's let's do something let's build something okay
+let's say i create a file called constructor
+dot j s now let's say
+let's say let's just think of this one that what if you want to build an car what all things you need
+let's say you went to a tata factory uh let's say you say that
+hey this is a car one uh what all properties it can have firstly
+color model can i say name firstly let's say it will have some name and then color then model
+and features all these are features itself upendra so company have fixed this is a tata
+manufacturing date can i use another top speed keyword let's say four things okay
+now let's say that uh one of the car arun suggestors is nexon let's say nexon tata nexon
+now inside nexon which color you want it arun which color i pick it any color guys nexon looks
+cool cool in coral do we have coral nexon available okay let's say nexon
+nexon
+petrol okay then you have a top speed of nexon as let's say 160 kmph
+okay this is an object now if you want to create an another object
+bumblebee uh okay but let's come back to this guys if you want to build how many other car
+like in tata factory there are many other models also are being built right now if you want to
+build another model which would be you're picking up tiago let's say you have a tiago
+and let's say color of tiago is a black and let's say this is uh electrical
+model
+and let's say this runs on up to 160 kmph still tiago i'm not sure but it goes okay safari
+this is one of my favorite model no one mentioned it yet i'm seeing comments
+tiago only 80 let me give 100 at least
+safari okay let's say safari is red in color it's a petrol engine heavy uh sorry diesel engine
+heavy vehicle uh and it goes up to 240 kmph no yeah i was waiting for this harrier have you been
+waiting for this harrier have you been in harrier guys have you experienced harrier
+have you seen harrier it's it's it's literally wow for me uh it's really classical car
+i really like it
+i mean my neighbors have it we give it my car to him i pick it up other car
+so yeah uh yes there's one more car uh kind of a hatchback can you guess it
+but it's really cool car also yeah altros right let's say i pick it up altros
+hey this will go up to 240
+altros let's say it's blue in color
+uh it's again petrol let's let's say it goes up to 160 kmph now yes uh we have uh ferrari it's not
+part of tata motors so if you see here there's one thing what we are doing is that the one way
+of creation object is this way right whenever object whenever see where object what we are
+actually meant to say that we are trying to envision the real time entity right a real time
+entity like a car it can have a number of properties yeah uh classes i don't want to
+talk in terms of class some bit we didn't introduce the word class or we don't know what class is
+but let's just talk in terms of objects functional objects or javascript objects that we discussed
+but are you able to relate like if i give any real time entity or real world entity you will
+be able to create objects this way like defining a space square i mean curly braces and defining
+its properties and functions in it right you will be able to relate with any any real world entity
+like take it a house take it a building take it apartment or anything you will be able to
+relate it right anything you will be able to build it this way yeah providing reality to idea
+because this is where objects helps you to connect with you real time things like you can
+build even if you want to build a macbook or windows you can keep on defining properties
+functions everything so you'll be able to do that so now but do you see here some use cases
+like if i want to build n number of cars let's say if i want to build i feel i build five cars
+i have defined five objects specifically to it okay like car 1 car 2 car 3 car 4 car 5 each time
+i'm trying to type a car name model top speed right so i'm trying to duplicate i'm duplicating
+the code here do you see this this is a duplication code duplication happening
+so imagine now even what if i want altros of red in color i don't have a way if i want to create
+altros of red in color i have to create another object of altros red what if i need altros blue
+of desert i have to create another object so if i'm trying to build that way there's a lot of
+you know the code gets lengthy and you know way of defining the objects is really it looks not
+that you know good to eyes right whenever you see that code so in order to fix these issues there
+is a one of the other way how you can define this object creation one of the way you can create
+object is this way in js the other way is something called as constructor function
+but do you know what constructor is called in any language whenever you say that whenever you
+hear this word constructor what do you exactly understand by this keyword
+what do you understand by this keyword call constructor
+any idea what do you understand by this keyword call constructor
+in any language go to java python c++ anything that you bring there is a this keyword is common
+across each and every language but i just want to understand what do you exactly understand by this
+keyword call constructor anyone
+called every time an object is created somebody says and any other definitions guys do you
+remember any other definitions
+okay
+is anyone trying out anyone from java backgrounds that's one of the basic color definition
+any object-oriented programming so there were many people
+who were working around with java object-oriented programming
+so just want to know what do you understand a function to create or initiate object okay
+okay it's like creating ones initializing constructor using multiple to create object
+okay great now one of the you know clarity that i want to give it to all you is that
+you know constructor is used to initialize object variables
+in order to create object
+you use new keyword generally new keyword is something which is creating memory
+right which is creating an empty memory for you where in constructor you pass on the values which
+initializes the variables right whatever you define it in a class like i don't want to say that but
+if you want to relate it that way so do you agree with this definition
+okay guys whoever commented in the chat do you agree with this definition
+now and i just want to know in the class how many of you are able to understand this thing
+firstly i hope there are many people who don't understand these two sentences even
+okay great now i hope everyone is able to relate it but now let's see how do you do it in javascript
+if you want to create these objects like you want to reduce the amount of this code duplicacy and
+how would you do it so one of the thumb rule for creating a you know constructor function is
+whichever function you are creating if you are trying to make it as a runner as a constructor
+function you have to define that function starting with a capital letter let's say
+i say it as data cars do you see i have mentioned capital t there okay this is first thing now
+inside this data car it will receive a list of variables now let's say you have this name color
+model and top speed okay these are the variables that you have now in order to create these
+variables what i'll do it here is something i'll just show you guys you have to tell me
+whether this will work or not
+the start model
+equal to model the start top speed equal to top speed
+okay just let me know whether this will work or not
+okay now what i did it here is start now let's say if i if i create a new memory how can i call
+this function if i want to create an object anytime let's say i am creating a const altros
+if i'm trying to create an altros here let's say i will say that hey can you give me a new car
+and uh let's say tata car inside that i'll give all the information i need
+i'll say that this is in altros
+and let's say i'll give the customization let's say blue i'll say model is electric
+and i'll say top speed is 180 kmph
+okay now the let's let's see if this i'm able to execute as expected uh what i'll do is i'll try
+to console log this object okay then i'll try to explain what's happening behind the scenes
+first let me see if this is working fine
+constructor dot js
+if you see it here i'm printing something called a star tata car with this all things now but what
+is exactly happening here let's understand what happens when i call this function
+uh when i call this function let's say new dot tata car what do you think this will be initialized
+what do you think this will be initialized with
+can i say step one
+would be whenever you are creating an object whenever you are trying to initialize using a
+new tata car whenever you say this this first thing initializes a new empty object here
+i mean this is pointed to an empty object because you created a whole whole together new object
+is this clear guys step one what is happening whenever you use new keyword you are generally
+creating a whole together new object which this is pointing to this empty object once this is done
+then wherever you have this variables right wherever you have this variables this start
+name model it takes those all those variables whatever defined in the function it takes those
+variables let's say it takes this like this start name is always pointing to undefined
+like then the start model values will be undefined okay the start color undefined the start color
+undefined so this is how this will be working in second step like all the way
+initial first is empty object then this object then at step three all these values will be
+filled with actual data now this object whatever object you have it with this will point this will
+change to such a way that this will point to an object which will have name auditors
+then you'll have color let's say blue then you'll have model as electric
+then you'll have top speed as some random value
+so are you able to relate to this case how actually object is being created using constructor function
+okay even this doesn't work this way it takes like a model it initializes all values with the
+undefined like same like a memory execution execution phase all the variables first initialize
+with undefined okay this is what happening in the second step then third step it is this is
+what it is building it now if i want to rebuild all of these models right it's really simple
+right one of the simple use cases would be for me to it's like replicate this one let's say i want
+to create a safari i'll go and say that get me the new car i'd say safari color would be red
+uh color would be red model would be petrol
+uh top speed will be let's say 240 kmph right so i hope you are able to
+connect with this case how concept of functions are used how can you optimize the code the way
+you write right i can end up this in five lines of code like if i can create a number of objects
+that we want so hope you are able to know understand the new way of creating an object
+uh like if you have a really reusable object let's say each and every object will be having
+a same sort of fields like say they will be having the same sort of fields then we will be using this
+one right like we can write a constructor function and we can reuse it this is the one of the core
+concepts of javascript now i hope you got to know now two ways of creating objects in js
+one is simple using curly braces then you will have constructor function so why we when we need
+to go to constructor function the only in the use case where you have the where you have to create
+a multiple objects with similar variables or even that's the same definition right when you
+want to go for a class whenever you have multiple objects are of same type or with changing the
+types of variables but i'll come back to the class in the next class i hope this point is
+clear guys anyone having any doubts why constructor function and how constructor function works
+okay can you please scroll to the first method uh step what if you miss a variable in the
+uh new constructor okay what if we missed it let's say i try to build it up that way like color
+uh let me miss this okay let's say i have i don't have this color okay let's say
+let's say i have i don't have this color okay let's say i've gave only three values now
+okay uh let's say i try to print safari
+here if you see it here what happened whenever you miss some variable here
+so it or the last variable will be assigned undefined
+like it the petrol was assigned earlier so that's how it works as per index
+as per index other than that thing like it's not as per index but if you see i'm picking name then
+i'm applying yeah like you can say the the exact way that how it is defined in the parameters the
+same way you have to pass the arguments the function okay
+so great guys guys any anything else any doubts if you don't have any doubts uh so uh today's
+classes that's that much itself because i don't want to confuse you introducing new things like
+classes as of now but this is what today we are talking about like what this is talking about
+this context of this in no like understanding strict and non-strict environments and both
+like how this works in both browser and node.js then understanding a constructor function
+up to an extent then we'll come back with the new topics again right samvith yeah we have
+ended the content that we have to discuss for today
+so if there are no doubts can i start doubt session and we can go ahead
+great guys so let's say i start the doubt session
+okay so i've started out session guys but uh what i'll we'll be doing it right uh something
+i just want to talk about it once i introduce classes
+yeah uh we started early quite early today right uh doubt session but uh next in next class we
+actually will start with actual object-oriented programming that you reflex with which is esx
+syntaxes esx concepts where you see classes and classical inheritance and then we'll try to see
+how they have built it actually what is the behind the scenes you know how they were able to build
+this class samvith was waiting for ankit's reactions things so guys uh so i i knew that
+i was able i'll be closing up early today that's the reason why i asked people who were facing
+challenge i'll be discussing with them so guys uh earlier uh whoever gave me thumbs down right
+who were not able to follow up with the class or the content uh let's have the conversation
+uh just you know raise your hand so that i'll unmute you we can have discussed broadly we'll
+understand your points i'll try to add my uh you know my vision or my way of understanding
+how can you do it better
+uh good night guys if uh if there are no doubts feel free to drop uh we'll connect back on the
+thursday uh okay kiran's has shared me uh you know kanban board get kiran let me share it to everyone
+okay uh i'll come to come to you for a second so this is built by kiran kudos to kiran for building
+it uh putting all the efforts so one suggestion i can give you is that you know the font size are
+really small if you can improve a bit big uh would be really cool this one this are all to do okay
+this one this are all to do okay maybe a little bit bigger okay uh no screen size
+okay i see search filter going at below so i just want to see uh
+uh yeah i it's looking a bit different on my system i agree so there might be few things
+breaking uh yeah uh we have to address that issues we have to address that issues like how why it is
+breaking let's say if i give you some pointers uh let's say i zoom it out
+hey it was working fine
+now if you see uh at 100 zoom uh the search is going inside it but when i'm opening debugger
+i'm able to see that one now if you see how this is working this been added or dealt with
+with
+or the search container css position relative uh position relative to which one is this this
+container with this container if you do seven rem uh when i
+when i when i do this right when i play around with this my screen sizes and width it will be
+breaking this one search container what if i remove this
+i remove this by default uh
+let's say we have a wrapper around here i say display as a flex
+and flex direction as a column
+let's say as of now um i'm just editing i'm trying to figure it out okay when i put this
+column reverse uh it still goes inside because this toolbox container is defined in terms of
+height of 15 percent 15 percent of width let's say you give some
+let's say 25 pixels uh 250 pixel which is too huge 100 pixels try to use relative unit so that
+it would be good kiren right in terms of uh use relative units you'll be able to figure it out
+use rems okay now if you see uh once i fix that 15 pixel one even if i go and try to use your
+properties like if i use this now let's say i go and remove this display flexion direction
+this works fine i have to only address this issue i guess this whatever height you are using 15vh
+that's the thing which was creating an issue okay uh and another uh keep check this font sizes uh
+use relative units as per screen width it will change it okay uh keep it default
+using rem units so that will work fine uh trying to create ticket uh this looks cool
+let's say i again use task one uh and i click pink so i have a really yeah the highlighter is
+you can add a much more box shadow because box shadow is of same color and the background is
+same color right so that the click feel the click feel is not that up to an extent maybe
+ticket this feedback as a positive way okay hope you are not feeling offended okay
+because we all are learning right now once i click so how do this ticket get created
+what key i should use here what you have decided shift or enter or how does it work
+because i'm trying shift and enter it's not working
+okay option alt key okay great so i have alt uh now let's say i create another task task hyphen
+two i have green in color i click alt and then i inspect it i go to application
+and storage uh let's say okay uh one thing do you see ticket content i have task hyphen one
+slash n now if i go and edit it i don't have that slash n which is like entered into the next line
+check this this bug can exist in all the apps like created across okay this slash n because
+i clicked enter and then pressed alt like alt yeah trim would work trim would work
+okay check check on that kiran okay if that works now i'll update it as zero one and again i click
+alt uh i lock this button so it got updated as expected let's say if i update color it is
+expected working as expected to be review cool in progress cool to do nothing double click
+uh how do i get all okay all all is the button you have given all okay will that matter
+uh it is a usual string right let's say if i create uh what what will happen let's say i create
+another task file i'll show it here uh let's say i say task hyphen three and i'll keep on
+entering it since it's a text area i've came to last time i click uh pink as a default color
+i come back here i click alt now if you see what happens do you see here the text content what if
+you are sending this data to api you will be having slash and slash and slash n so this will
+matter when you're actually sending it to server so trimming it is a better option
+you get that okay great so yeah it is great kiran like only one css fix that i see uh which is
+respect to height of ph and other things are looking cool only font sizes and good one so
+if i filter it out let's say task okay uh do you see this
+okay uh it's case sensitive isn't it kiran's case sensitive so one suggestion again here
+uh try to use uh like uh not make in sensitive uh let's say case insensitive we should make this
+one maybe use lower two lower case or two upper case anything works okay uh anything that you
+are trying to check like uh the check condition uh let's say if you uh there are too many console
+locks also try to remove this console locks from the application uh things are getting printed so
+one of the way that i was talking about is let's say this is a task uh you will always have a two
+local uppers case i don't think two local two upper case okay and so you can always triple check
+with task to upper case you have to do use uh for both the conditions something that you are getting
+it from uh local storage and the value which is area okay you will be able to get this way
+and you'll be able to filter it and return or based on the filter
+got this hidden uh this point okay yeah uh and the other one is like if i enable delete uh
+let's say i hey this is cool samit you got a new point to implement our c on this one
+so if i hover over it again kiren there's a one suggestion what do i do it if i hover over it
+do i get a different feel no like i'm able to delete this one what if this bulges up again
+again like i'm just adding my idea uh like uh whenever i'm hovering over it the cursor should
+change to pointer first then only you will be able to know that you are going to delete this
+pattern this particular card uh particular task so at least cursor make a change of cursor
+whenever on hover the cursor will change to pointer
+uh
+yeah uh no no no worries no worries uh no worries uh i all like i understand it right
+yeah can we make it a burst uh you can actually you can make changes uh but uh i would say even
+if you did it in hurry right uh you you really got some great changes you can keep on like
+you know improving it yeah uh yeah you you you can do that right you can do it you can keep on
+implementing i have so that's where our ideas come right uh as a front-end developers if you
+see the same application functionalities are same the app that i built was different the sam with
+version was different your version was different uh those two functionalities are same so uh kudos
+to your efforts guys so try to think like how can improve uh because it will help you to improve
+your uh ui ux skills more and css skills more i would say like yeah because those
+devs are still going to exist uh the functionality is still going to exist the same way it's just
+that you are playing around with the css and some of some of your ux ideas okay so try to improve
+uh like i mean i won't say that improve maybe whatever idea clicks inside your mind try to
+implement that because i i feel if you are able to come for this the only deployment took two
+hours truth and i get that uh okay uh even if null check is also not needed uh one thing i suggested
+you know optional chaining also you can take it up get an optional chaining i suggested in the chat
+uh that will also work uh yeah null check uh all optional chaining if you add it here optional
+chaining now this will also work because it checks now if object is empty it won't go for for each
+okay optional chaining i have already taught you know uh let's say uh
+let's say this is uh let me go to some random file
+let's say i say this is an index dot js okay let's say this was an array right empty array
+so on this forage was breaking so let's say array dot forage uh whatever element i have i'm trying
+to print it
+right this is what we were doing it now now if i try to go and execute this file let's say
+i'm supposed to get an undefined error you know or else let's say uh earlier we were actually
+you know since this is an array this will still work let's say a node index dot js it will still
+work it won't output anything but earlier on the step two we were getting values from
+you know local storage or else it is setting as undefined now if i do this you see i get forage
+as a property of undefined now whenever i want to handle this issue one of the check is i can do
+null check or any undefined check or else i can add this condition when i add this if you see i
+still don't get any error because this checks uh whether if there are only values only then
+it will execute it okay so this is an optional changing if find it checks like if array is not
+empty go for the next method if array is like that sort of things like okay i hope you got this uh
+try to use this use case like if you don't want to use that null check
+no null check works null checks works by default but i'm saying that better way of writing is like
+this optional changing
+so uh i had to stringify store it in local yeah yeah string because local storage stores only
+strings you have to convert json's into strings and only then you can store it you have to parse
+it you have to parse back whenever you are using it that happens with even api api sometimes
+doesn't send you json you have to parse it uh then you have to use it so you should know that
+those those are like uh yeah okay no no worries no worries uh going back to the people who wanted
+to discuss here uh ankit how you doing i just want to know how are you going well is your
+preparation yeah thank you kiran thank you for putting effort so you are getting to learn and
+apply those knowledge okay uh try to improve on this one uh but hey one thing guys uh since
+classes are added i since you have now three apps right uh of a portfolio app or weather app uh and
+this one like to do list app why don't you integrate them if someone can integrate them
+okay trying to link portfolio app uh with a link
+oh okay your health is not good um but let me know ankit if i can help you out by some way
+uh if you want me to connect with you in any session we can maybe discuss a strategy
+which can help you to you know cope up with the things uh once you are you are good now
+yeah going good good now or like you still your health is affected
+uh job is affecting my studies too much okay uh that thing here uh it's it's like you know tricky
+thing if you
+look uh okay so one of the way i consider it right one of the way i say strictly right
+it's not to be said this way but i should say it like what happens in job is that uh like
+uh do you follow agile process in your system
+agile do you follow agile okay no yes okay so if you're following agile you always have a
+story points right when you start the sprint so i always uh what i do is that
+i discuss with my leads uh and think that you know if a sprint a sprint is usually at my place
+is of two weeks okay in two weeks we have to estimate how much amount of work we'll do
+so for us when i go for two weeks i have 10 days of working with four week uh leaves or four weekends
+or four weekends right so i have 10 days so what i pick is like i pick 10 story points work
+not more than that if there is something ad hoc if there is something ad hoc like let's say let's
+say there is something i don't which happens usually okay if there is something i don't that
+you want to do or you want to work on something what i do is that again i go to jeera board
+i say that if i'm working on ad hoc story i'll add those points there hey that i work two story
+points of work this one so i'll reduce two points story work i'll move it to the next sprint
+because this is what you are getting paid for not more than 10 story points
+if you are doing it more than that then your manager is able to leverage you better
+and doing this 10 story punch should you should be able to quantify it because i'll tell you it's
+not today's time even if you change your job after putting off so much of hard work uh whenever you
+go to let's say you cracked amazon or fang mang or anything or a good product based mnc or any
+company that you want to even if you go there you have to know like how much work you should be able
+to take it how much you would be able to deliver it because when it comes to work-life balance
+no company provides work-life balance it is up to you how do you choose it i've seen in paypal
+or any aux that i worked in people working 16 17 hours whereas i was working only for the amount
+of thing that i was paid because i was always upscaling myself focusing on things that i wanted
+myself focusing on things that i wanted to learn as an engineer okay so considering these things
+you should always set up you mean you should fight for yourself because end of the day when
+when your appraiser hits when your appraiser hits your manager has 100 rupees in his bucket
+he have to distribute between the whole team doesn't matter if you work 18 20 hours he won't
+get extra like someone is working of more than nine hours of time that is working extra five six
+hours he won't get extra money like 120 or 130 per year in order to distribute if he's getting
+it's it's good to put in those efforts but he's not getting it so he'll be having only 100 rupees
+he'll be distributing it so first thing is communication understanding how do you drive it
+whether it's your business analyst who's driving the scrum or scrum master the respective product
+owner or the client or your manager lead whoever is a stakeholder you have to understand how do
+you build it how do you build it so that you have to manage your time otherwise you'll keep on
+otherwise you'll keep on working and you won't be able to learn things other than your work
+this is clear guys like there's a strategy that you have to build
+uh so that okay i'll come to your use case and uh kit now because i'm not uh like because i have
+been into this role right i know how things work so i was talking about that from that perspective
+but from your perspective uh i would say that
+it's it's it's six months hard work
+somehow
+how maybe while you're i agree i agree uh i agree that but but you know six months hard work from
+scratch if you are able to put on effort i'll give you my time also to help you out to you know do
+it but if you if you are doing it then i'll be also doing it okay if you have any challenge i'll
+be also doing it but if you should be putting it from your side so that i can contribute from my
+i'll be available you can ping me but it's it's that
+you have to find time i cannot i even i need it i need it like i need more than 25 even sometimes
+i have too much workload i'm my eyes are burning right now uh my day started morning seven i want
+system for continuous okay so but there are some days you'll have tough days there are some days
+you'll have good days okay but it's it's our job like we will be should be able to figure it out
+how we'll be able to doing it okay so if you are able to figure it out time in this 24 o'clock
+cycle as unshuman says right unshuman might have told you if you have been into is one of
+any classes he talks about something called a focused hours do you know this concept of focused
+hours focused hours uh so they what he says is what generally happens with the people right
+when you're too much busy when you are too much busy uh in your life work life uh even right right
+like i it for me uh if i if i have to say so my job plus if you go back sometime back my sister's
+marriage right i had family when they have to take care of shopping and things supporting parents
+that one family support then preparation for class then taking class so i had four five items going
+on in my day life these are the things that i can mention in class so i'm mentioning them
+but there were few more things add on so but if you see how i'm able to manage all of these things
+is that i i will leverage this one something called focus task technique now focus hours is
+let's say i say that from seven to seven a.m to nine a.m nine a.m i'll do for surely focus on
+something one activity maybe it is my family time or it's a preparation time or it's taking class
+or job time anything i'll surely during this moment of time i have completed that like in
+your office you have meetings right which are scheduled in your calendar and you are supposed
+to take that you cannot say that i'll sometimes you can say that when you're a really high head
+position that can remove this meeting to other time but this is fixed so prepare your google
+calendar such a way that you are able to take this and this thing not only will help you for
+this next six months of preparation after cracking job but will help you in future also because i've
+used family also here because how do you manage that time the better you manage your 24 hour
+talk cycle the better more happier and driven you will be okay so when i say for the and even i
+my focus stars are divided into something called as promodoro techniques so have you heard this
+promodoro like i use 45 hour promodoro technique like yeah i use 45 hours because initially i
+started with 15 30 and now my strength goes for 45 minutes i can focus on things for up to 45
+minutes not more than that it's it's really difficult to focus for 45 minutes continuously
+on one thing but i use this to push my productivity
+like i push my productivity for 45 minutes then i relax for 15 minutes
+then again i move it okay so that we will be able to complete our task in this 45 minutes focus like
+so this is how my things works i can talk about you but when it comes to people who are following
+agile i would say that hey take up the work which you have it if there is something add up add those
+story points and deal with it because you're not supposed to work because i've told you it doesn't
+matter you're putting extra hours 16 20 hours or 23 hours also working doesn't matter
+you add only 100 rupees you'll distribute in the whole day there are no extra money any manager
+is writing this is applicable for even if you're working google or any company say so okay uh that's
+a thing guys so there's a theme of working extras like doesn't matter because if you see most of
+the companies are based out of europe and us the people leave like as soon as the time clicks
+they leave the office and they go and they enjoy their life but for us
+indians indians works comparatively more than what around the globe people work because their
+way of looking at life is different our way of looking at life is different too much hardworking
+people are japanese in nature japanese continuously can stretch it even they sleep
+it in office they don't have uh like kitchens in their home uh like they eat outside in the
+restaurants uh japanese culture is completely different like uh post uh like this one right
+world war their culture changed it completely if you see them now they are struggling to maintain
+this they pay people like if they have planned kids family planning if they do family planning
+they government pays the money to them for taking care of them kids like it's it's really uh that
+culture is different if you go for country by country the cultures are different so you can
+take leverage of those cultures okay like you really like to work go to japan like they will
+pay you good also as per your work if you want to enjoy it manage thing go for europe or us based
+companies they have their own uh cultural policies you can check them uh they leave after the bosses
+like yeah it's it's everything every company will have their own culture guys so but i hope
+you got the gist of it that you have to figure it out the time and use focused hours such that
+you leverage all the learnings uh and if you need my time right in anywhere i'll try to help you out
+but i'll make sure that doom inform me such that i'll you know i have to manage that time also
+right my time then i'll try to focus with you so that's what i'm talking about like if you are
+able to put efforts i'll also try to give my add-on points okay let's say this is class 21
+okay so hello guys then we'll uh yeah yeah i'll i'll try to connect on some time on sunday
+if possible okay if things are clear we have discussed good enough things
+yeah great yes good night take care guys see you on the next class bye good night guys
+okay i've stopped screen sharing in the session guys see you on thursday
+you

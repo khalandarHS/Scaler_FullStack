@@ -1,0 +1,5072 @@
+1
+00:00:00,000 --> 00:00:29,840
+Hi all, good evening, am I audible and visible guys, yes great, thank you Abhinav, give me
+
+2
+00:00:29,840 --> 00:00:51,320
+a second, I'll share my screen, yeah I will do that, okay we'll do that, please let me
+
+3
+00:00:51,320 --> 00:00:59,560
+know if you can see my screen, screen share is visible right, yeah great thank you, so
+
+4
+00:01:21,960 --> 00:01:27,560
+I wanted to ask one thing like you know there's a drop in number of people who have solved
+
+5
+00:01:27,560 --> 00:01:35,080
+assignments for the last class css one, is it because of attendance or you had any challenge,
+
+6
+00:01:35,080 --> 00:01:41,000
+I just want to understand if you had any challenge or those straightforward or anything you have
+
+7
+00:01:41,000 --> 00:01:51,160
+faced it, anyone, okay let's see we have 16 people in the class, how many of you
+
+8
+00:01:51,160 --> 00:01:56,200
+have solved it, if you have solved it give me thumbs up, if you haven't tried it give me thumbs down
+
+9
+00:01:58,680 --> 00:01:59,000
+okay
+
+10
+00:02:02,760 --> 00:02:15,080
+great, so among them three what could be the possible reason guys like you were not able to
+
+11
+00:02:15,080 --> 00:02:25,240
+find time or like any challenges or if I can help you out, okay great Abhinav, time,
+
+12
+00:02:27,400 --> 00:02:33,320
+sure it would take I think believe me this full stack related assignments right
+
+13
+00:02:33,320 --> 00:02:37,880
+shouldn't be taking more than half an hour for you to solve them like two three questions so
+
+14
+00:02:37,880 --> 00:02:43,640
+maybe you can try it down okay because I don't want your backlog to you know fill up
+
+15
+00:02:44,600 --> 00:02:51,000
+right so people who gave me thumbs down right please try to you know manage it
+
+16
+00:02:52,440 --> 00:02:58,120
+and give your you know like time some time to it at least half an hour or one hour whatever it is
+
+17
+00:02:58,120 --> 00:03:10,040
+like depending on your speed okay so yeah no worries Abhishek please
+
+18
+00:03:10,520 --> 00:03:16,200
+just cover it up only you have two classes right so moving forward you won't have that backlog
+
+19
+00:03:17,960 --> 00:03:25,640
+okay thank you Abhishek, so guys anyone can drop message in whatsapp again
+
+20
+00:03:25,640 --> 00:03:28,280
+would be really helpful like we are getting started
+
+21
+00:03:29,560 --> 00:03:33,480
+frequently traveling because of work from different state to state
+
+22
+00:03:33,640 --> 00:03:34,440
+state to state
+
+23
+00:03:37,160 --> 00:03:38,280
+Dhanraj where do you work
+
+24
+00:03:45,000 --> 00:03:52,440
+uh can you add that as a question like I'll try to take it commonly like this
+
+25
+00:03:54,440 --> 00:03:57,720
+you have your own business okay
+
+26
+00:04:03,480 --> 00:04:07,080
+okay let's let's do one thing guys what we'll do is like
+
+27
+00:04:07,880 --> 00:04:12,200
+firstly we'll revise what we have discussed in session one then we'll get started okay
+
+28
+00:04:15,080 --> 00:04:21,480
+I'll drop a message in group give me a second yeah Tejal has dropped a message
+
+29
+00:04:22,280 --> 00:04:24,040
+thank you Tejal thank you Raman
+
+30
+00:04:26,200 --> 00:04:29,480
+okay great so let's
+
+31
+00:04:34,280 --> 00:04:40,600
+okay guys you can discuss with Abhishek discuss with Dhanraj later on but he maybe he's trying
+
+32
+00:04:40,600 --> 00:04:45,880
+to build his career in IT let's focus on that last part okay so
+
+33
+00:04:48,440 --> 00:04:54,680
+we'll get started guys it's seven of nine oh five already okay so today's agenda is
+
+34
+00:04:54,680 --> 00:04:59,720
+morally specifically based on box model display and position these three particular fields
+
+35
+00:05:00,040 --> 00:05:05,560
+particular fields but before going on to that I want you to you know shoot the something that
+
+36
+00:05:05,560 --> 00:05:10,840
+you remember what we have learned in last last class like what you have learned or what we have
+
+37
+00:05:10,840 --> 00:05:20,600
+discussed so what are the sections css we have introduced right we talked about what is css then
+
+38
+00:05:23,640 --> 00:05:25,960
+we have discussed what is inline css
+
+39
+00:05:30,120 --> 00:05:30,840
+selectors
+
+40
+00:05:33,960 --> 00:05:41,320
+then we have discussed colors right if you remember colors and font and background property
+
+41
+00:05:41,320 --> 00:05:48,360
+these are the things that we introduced already in last class now just trying to revise guys
+
+42
+00:05:49,320 --> 00:05:52,840
+trying to revise if you come to selectors what all selectors you have
+
+43
+00:05:53,480 --> 00:06:01,720
+like what all selectors you have can I say id then you have something called as class
+
+44
+00:06:03,080 --> 00:06:08,840
+after that you have element selector then you have attribute selector
+
+45
+00:06:11,080 --> 00:06:15,800
+these are the simple selectors that you can see other than this thing you have combinatorics
+
+46
+00:06:15,800 --> 00:06:21,160
+when you go for combinatorics combinations you have descendant selector
+
+47
+00:06:21,400 --> 00:06:22,520
+descendant selector
+
+48
+00:06:27,960 --> 00:06:34,920
+and then you have children's selector right we have discussed all of this so I hope all
+
+49
+00:06:34,920 --> 00:06:40,280
+these things are basic things are clear right how do you access a particular field using id class
+
+50
+00:06:40,280 --> 00:06:47,240
+attribute descendant and children right okay great now if you have also seen about colors like
+
+51
+00:06:47,960 --> 00:06:53,480
+how many types of how many ways you can choose colors what all things are there guys
+
+52
+00:06:54,760 --> 00:07:00,200
+three right what would be the first way like you want to select directly you can directly
+
+53
+00:07:00,200 --> 00:07:06,200
+write it down blue green red what we have limitation how many colors this way we can
+
+54
+00:07:06,200 --> 00:07:14,040
+add it 140 right great right but what was the second way of doing it rgba function
+
+55
+00:07:16,520 --> 00:07:25,400
+where r goes for red then green then blue then alpha goes for opacity like how much
+
+56
+00:07:25,400 --> 00:07:34,040
+transparency you need it in color right then you also had hex code hex code again starts with hash
+
+57
+00:07:34,600 --> 00:07:46,120
+then rr bb gg right then you had hsl we stand for hue saturation
+
+58
+00:07:48,920 --> 00:07:53,080
+and what was l rise lightness right
+
+59
+00:07:53,080 --> 00:08:02,600
+right this was from 0 to 360 which is used to manage the red and this was for
+
+60
+00:08:04,120 --> 00:08:10,200
+like saturation 0 to 100 you can give it this also goes for 0 to 100
+
+61
+00:08:10,920 --> 00:08:14,360
+which is used to you know darker or lighter and this used to generate
+
+62
+00:08:14,360 --> 00:08:18,680
+different shades of a particular color right
+
+63
+00:08:18,680 --> 00:08:24,280
+what is 255
+
+64
+00:08:28,520 --> 00:08:39,320
+255 was this one right 0 to 255 was the range for this one right yeah great no worries
+
+65
+00:08:39,320 --> 00:08:45,720
+after this we also discussed background right and background what all things we have discussed
+
+66
+00:08:45,800 --> 00:08:53,560
+right like one thing we had is image like how we can add an image or a background image right
+
+67
+00:08:57,560 --> 00:09:05,720
+then how can you center it or you know position it right so we had discussed about background
+
+68
+00:09:05,720 --> 00:09:11,320
+properties if i put it in there are many properties in background but we have discussed about
+
+69
+00:09:11,320 --> 00:09:15,560
+background in general repeat no repeat like if you want to repeat or gently if you want to
+
+70
+00:09:15,560 --> 00:09:21,240
+repeat that vertically right so these are things that we have discussed also we have seen fonts
+
+71
+00:09:21,240 --> 00:09:26,840
+like how we can import the fonts of different like if you want extra things which are other
+
+72
+00:09:26,840 --> 00:09:33,800
+than the browser which will provide support if you can download from google fonts link your
+
+73
+00:09:33,800 --> 00:09:39,000
+api google api and then attach your fonts and you can use them in the font family property
+
+74
+00:09:39,000 --> 00:09:45,000
+right so i hope this is something that we have discussed and there are no doubts on this right
+
+75
+00:09:45,800 --> 00:09:48,840
+if there are no doubts we can get started with today's class guys
+
+76
+00:09:51,640 --> 00:10:00,280
+yeah great great guys let's let's get started with today now first thing that i want to discuss
+
+77
+00:10:00,920 --> 00:10:09,960
+is that few properties i want to talk about on font and text right so these are the two things
+
+78
+00:10:09,960 --> 00:10:17,800
+which are that will be for the total positive if we import and use that in app yeah yeah right
+
+79
+00:10:17,800 --> 00:10:23,400
+some bit so it will be you can use it like wherever you want to define it for each element or every
+
+80
+00:10:23,400 --> 00:10:28,440
+element font you can use it okay depends on it like if you want to use it for the whole project
+
+81
+00:10:28,440 --> 00:10:33,720
+or like it's your specifications what your ux designer or your if you are designing your own
+
+82
+00:10:33,720 --> 00:10:38,840
+app you can define it okay i've just showed you the way you can do it it's up to you how
+
+83
+00:10:38,840 --> 00:10:47,480
+you want to do it okay now so guys uh so let's start with font and text these are the two short
+
+84
+00:10:47,480 --> 00:10:53,000
+properties that i want to discuss first because if you go and see right uh the most of the websites
+
+85
+00:10:53,080 --> 00:10:59,080
+any website you pick it up in today's world every site is filled with most of the content in it
+
+86
+00:10:59,080 --> 00:11:04,360
+right where you consume the data like reading website you go for geek for geeks you go for
+
+87
+00:11:04,360 --> 00:11:09,720
+medium.com or you go for the reference material that i was giving you it has more of a text
+
+88
+00:11:09,720 --> 00:11:15,960
+content isn't it other than streaming apps that you see more of the apps or everything that you
+
+89
+00:11:15,960 --> 00:11:23,080
+have is more of a content text right related to or you can say typography right so we'll see
+
+90
+00:11:23,800 --> 00:11:29,000
+what are the properties that are available on the text and what all things you can deal with
+
+91
+00:11:29,000 --> 00:11:34,280
+okay so i'll create one html file and we'll see like what all things you can apply firstly
+
+92
+00:11:34,280 --> 00:11:41,000
+this is again referring to the same thing let's say you go open a microsoft word or anything
+
+93
+00:11:41,560 --> 00:11:48,600
+and you start let's say typing it down a content or a paragraph that you write in microsoft excel
+
+94
+00:11:48,600 --> 00:11:55,080
+and what all things you deal with okay so the same things that what what you can do it in
+
+95
+00:11:55,080 --> 00:12:01,960
+microsoft excel will be able to we should be able to do all of them so let's see okay i hope my
+
+96
+00:12:02,040 --> 00:12:03,320
+vs code is visible guys
+
+97
+00:12:08,200 --> 00:12:14,680
+okay thank you so let's say i'm using m8 again i would say this is font and
+
+98
+00:12:17,160 --> 00:12:24,520
+text part okay now let's say i have one h1 tag so
+
+99
+00:12:25,480 --> 00:12:34,520
+uh okay munishwar i'll push it this is heading one uh and i'm using another paragraph p tag again
+
+100
+00:12:34,520 --> 00:12:43,160
+i'm using lorem 20 so let's say i've generated this code now i'll try to open it in show preview
+
+101
+00:12:43,160 --> 00:12:51,160
+on the right side let's say i minimize this now let's say we open style block here to write down
+
+102
+00:12:51,800 --> 00:12:55,400
+let's say we open style block here to write down all the styles we have
+
+103
+00:12:56,760 --> 00:13:02,520
+now so last time in last class we have discussed like related to font
+
+104
+00:13:03,960 --> 00:13:12,200
+like font already font family right let's say we use it again okay one is a font family which used
+
+105
+00:13:12,200 --> 00:13:18,200
+to change the type of fonts that we are using like if you see the current current one we can
+
+106
+00:13:18,200 --> 00:13:22,680
+change it by using any of the font family that you have let's say i've used this for heading
+
+107
+00:13:22,680 --> 00:13:28,120
+you see the heading type of the style that heading is generally applicable is changing let's say we
+
+108
+00:13:28,120 --> 00:13:34,200
+apply that other thing so this thing i've already shown you that if you want it even you can uh
+
+109
+00:13:34,200 --> 00:13:40,120
+change the like you know you can if you the particular properties if whichever are available
+
+110
+00:13:40,120 --> 00:13:44,760
+if not enough you can also import it right so let's say i'm using here
+
+111
+00:13:44,760 --> 00:13:52,680
+uh georgia times new sheriff then let's say i also use for paragraph where
+
+112
+00:13:54,680 --> 00:14:02,600
+font family let's say this one okay so font family was something we have already discussed in last
+
+113
+00:14:02,600 --> 00:14:08,520
+class now i want to talk something let's say this heading how do you like other than the font like
+
+114
+00:14:08,520 --> 00:14:13,400
+the height of this word what is the difference between this one and this one guys what do you
+
+115
+00:14:13,400 --> 00:14:16,520
+see a difference between two two of these lines other than the height
+
+116
+00:14:21,560 --> 00:14:26,840
+other than the height like what do you see the difference boldness right so if you if can we
+
+117
+00:14:26,840 --> 00:14:33,800
+make this particular paragraph content also increase the boldness and spacing agree right
+
+118
+00:14:33,800 --> 00:14:38,840
+so we'll try to do something like such that we can make this you know paragraph track convert
+
+119
+00:14:38,840 --> 00:14:44,840
+into h1 somehow so if you want to increase or play around with the boldness of a particular
+
+120
+00:14:44,840 --> 00:14:51,000
+paragraph or a content right you can always use a one property called font weight which keeps your
+
+121
+00:14:51,000 --> 00:14:57,320
+value from 0 100 to 900 and or else if you can use it by words you can use it by words like lighter
+
+122
+00:14:57,320 --> 00:15:03,400
+bolder let's say if we use lighter it is still the same but what if we use bold see that converted
+
+123
+00:15:03,400 --> 00:15:08,200
+into bold but if i convert into bolder it will be same way as you see it for the h1
+
+124
+00:15:09,240 --> 00:15:16,040
+okay or else you can give 800 or 900 this all things again define on the same range of lighter
+
+125
+00:15:16,040 --> 00:15:21,240
+bold and bolder okay this font weight here guys what font weight does for us
+
+126
+00:15:23,640 --> 00:15:30,520
+right now the other thing imagine like if you want to increase the size of this paragraph size
+
+127
+00:15:30,520 --> 00:15:35,720
+equal to like h1 let's say we want this paragraph to be equivalent to h1 somehow
+
+128
+00:15:35,720 --> 00:15:42,600
+and we do it or use can we do it some achieve that or do we have any property if anyone knows
+
+129
+00:15:43,880 --> 00:15:51,720
+right let's say there is one property already i've got suggestions right font size so even
+
+130
+00:15:51,720 --> 00:15:59,320
+you have font size using that you can always deal with it it takes all the types of yeah so
+
+131
+00:15:59,320 --> 00:16:04,200
+i was talking about like can we convert this paragraph size like the size of the words you
+
+132
+00:16:04,200 --> 00:16:11,800
+can see to the size of this one or you can increase the size okay let's say font size again
+
+133
+00:16:11,800 --> 00:16:18,040
+font says what are the least of values it takes okay so different types of units i haven't introduced
+
+134
+00:16:18,040 --> 00:16:24,760
+it like pixels em or rem right relative units so we'll discuss them in the future classes but for
+
+135
+00:16:24,760 --> 00:16:31,320
+now consider there are the pixels now pixels are like each screen can have a depending on a screen
+
+136
+00:16:31,320 --> 00:16:36,600
+width and height it have a list of size of pixels now you have to define in the terms of like how
+
+137
+00:16:36,600 --> 00:16:41,640
+many pixels that you want to cover on a screen okay similarly let's say you also have this
+
+138
+00:16:42,360 --> 00:16:47,800
+you know words given due like like large larger medium small and smaller which again define the
+
+139
+00:16:47,800 --> 00:16:53,160
+different size of sizes so i'm using just by default like larger which will be converting into
+
+140
+00:16:53,160 --> 00:16:58,680
+nearly same side of font okay others if you want to convert into it directly like you can give a
+
+141
+00:16:58,680 --> 00:17:05,720
+30 pixel okay which is like let's say 28 pixel is something i guess equivalent to
+
+142
+00:17:06,280 --> 00:17:13,720
+h1 heading okay now we have converted two of the things now but there is something
+
+143
+00:17:13,720 --> 00:17:21,000
+let's say what if you want to move anything let's say the content right if i let's say i expand it
+
+144
+00:17:21,960 --> 00:17:29,320
+okay let's say i make this as a low ram 10
+
+145
+00:17:36,200 --> 00:17:45,320
+okay now if you see what's happening is that it's taking full space and full width but what i
+
+146
+00:17:45,320 --> 00:17:49,160
+wanted to show you guys is that let's say i'm having a div here
+
+147
+00:17:58,520 --> 00:18:02,920
+okay i'm adding some css guys i'm converting this div into container
+
+148
+00:18:03,800 --> 00:18:11,960
+okay i'm having a border of two pixels solid i'll talk about this one
+
+149
+00:18:12,920 --> 00:18:18,920
+black and let's say i also give height of
+
+150
+00:18:21,560 --> 00:18:27,160
+400 pixel and let's say width of 100 percent
+
+151
+00:18:29,720 --> 00:18:37,080
+okay now let's say this now there is something let's say if you see this word side this whatever
+
+152
+00:18:37,160 --> 00:18:43,800
+paragraph and h1 tags are there all of them are left aligned right all of them are left aligned
+
+153
+00:18:43,800 --> 00:18:49,640
+do you guys agree with this they are left aligned right they are starting from the left most like
+
+154
+00:18:49,640 --> 00:18:55,400
+if you take a note you start writing from the left left most writing right but if you go for
+
+155
+00:18:55,400 --> 00:19:02,840
+some languages like urdu they write it from right side right they start it from right side and they
+
+156
+00:19:02,840 --> 00:19:09,080
+they come back they that's how they write it what if we have such kind of languages or
+
+157
+00:19:09,080 --> 00:19:13,880
+what we have such kind of scripts if you want to move it from the start the content left or right
+
+158
+00:19:13,880 --> 00:19:21,160
+for that also we have one of the field called anyone does know it anyone do do you know it
+
+159
+00:19:22,360 --> 00:19:30,040
+text align right where you want to align the text let's say if i put it end if you see like as you
+
+160
+00:19:30,040 --> 00:19:34,920
+see maybe it didn't convert like this is the heading from the reverse but if you see that
+
+161
+00:19:34,920 --> 00:19:41,880
+content has been pushed to the end okay now imagine if i have this in the span tag
+
+162
+00:19:44,040 --> 00:19:47,880
+span tag again this is heading one
+
+163
+00:19:47,880 --> 00:19:57,080
+okay and let's say that i say i say i have a span
+
+164
+00:19:59,480 --> 00:20:04,680
+and text align left let's say center
+
+165
+00:20:07,080 --> 00:20:12,440
+do you see guys span for this particular text align is not being applied for the center
+
+166
+00:20:13,320 --> 00:20:18,840
+do you see this text align is not working for the span tag so i'll keep that open-ended question
+
+167
+00:20:18,840 --> 00:20:26,680
+for some time what i'll do i'll do i'll go into us like i'll go and apply text align center
+
+168
+00:20:27,640 --> 00:20:36,360
+for the paragraph meanwhile okay it converted into center so i've kept open this span uh so
+
+169
+00:20:36,360 --> 00:20:43,560
+this one difference that you can find it like between these three types of elements can anyone
+
+170
+00:20:43,560 --> 00:20:54,920
+figure it out what is the difference in this so shant has said in line span is not a block
+
+171
+00:20:54,920 --> 00:21:01,960
+element span is right so what what exactly meant is guys like let's say when you go for h1
+
+172
+00:21:01,960 --> 00:21:08,440
+let's say when you go for h1 and paragraph these are block level elements so only there
+
+173
+00:21:08,440 --> 00:21:14,920
+are few css properties that applies for the block level elements and the few properties
+
+174
+00:21:14,920 --> 00:21:20,520
+which doesn't apply for inline because inline takes only the amount of space it needs it starts
+
+175
+00:21:20,520 --> 00:21:25,400
+from the place where you have defined it and it ends at the place where it is like the content if
+
+176
+00:21:25,400 --> 00:21:31,720
+it space is whatever content it has once it occupies that space it doesn't do anything like
+
+177
+00:21:31,720 --> 00:21:38,520
+you cannot change its location because the if you see uh let's open this uh particular thing
+
+178
+00:21:38,520 --> 00:21:46,200
+uh in the live server open in live server uh give me a second guys
+
+179
+00:21:51,080 --> 00:21:55,080
+yeah we can use it shortly now
+
+180
+00:21:55,960 --> 00:22:04,280
+if you see this inline element right the span tag is ending here itself but when i go for h1
+
+181
+00:22:04,280 --> 00:22:11,560
+if you see it's occupying whole row when there is a space of row in the whole row it can move left
+
+182
+00:22:11,560 --> 00:22:19,400
+right center right but when it when it is like when it's occupying only the amount of space it needs
+
+183
+00:22:19,880 --> 00:22:24,680
+it's occupying only the amount of space it needs then you cannot move it because the space is
+
+184
+00:22:24,680 --> 00:22:30,600
+already fulfilled do you guys understand why first this property is not applying
+
+185
+00:22:33,880 --> 00:22:41,880
+anyone having any doubt on this why uh you know this text alignment is not working on span tag
+
+186
+00:22:41,880 --> 00:22:56,760
+okay thank you guys okay so what i mean to say is that uh arun tejal okay okay so firstly
+
+187
+00:22:58,680 --> 00:23:03,720
+if you come and see here i have used three types of elements one is h1 one is span and one is
+
+188
+00:23:03,720 --> 00:23:12,120
+paragraph h1 and paragraph are block level elements whenever you go for block level elements
+
+189
+00:23:12,120 --> 00:23:17,480
+it takes whole space like whole row space like if you see this is a block level element it is
+
+190
+00:23:17,480 --> 00:23:23,080
+taking whole row space if you go for this paragraph it is taking whole row doesn't matter how much
+
+191
+00:23:23,080 --> 00:23:29,400
+content it is having or it doesn't have it okay but when it comes to span it is taking only the
+
+192
+00:23:29,400 --> 00:23:34,840
+amount of space it needs it it is not consuming whole space whole row space is this point clear
+
+193
+00:23:38,280 --> 00:23:45,640
+tejal arun hariprasad ankit right so now what happening is let's say i have more amount of
+
+194
+00:23:45,640 --> 00:23:50,920
+space if let's say if you go into the uh train and the whole coach is empty you can set it in
+
+195
+00:23:50,920 --> 00:23:56,280
+any table but if it is only one set you will be able to go and sit in only that set right
+
+196
+00:23:56,280 --> 00:24:01,960
+but here if you see the for this uh block level elements there is a space it can move left right
+
+197
+00:24:01,960 --> 00:24:09,960
+bottom anywhere i mean it has a start end and uh and like start end and center only three places
+
+198
+00:24:10,520 --> 00:24:14,920
+right so what we have done is like we told that whenever you go for block level elements
+
+199
+00:24:14,920 --> 00:24:20,360
+textile and property will be used to assign elements to the left right or the center it
+
+200
+00:24:20,360 --> 00:24:25,400
+will apply for only block level elements because it they consume whole space of a row
+
+201
+00:24:26,920 --> 00:24:32,120
+i hope this point is clear now and it won't apply for the span level elements because these are
+
+202
+00:24:32,120 --> 00:24:43,400
+inline elements okay great guys now coming to the next property once textile and we completed
+
+203
+00:24:43,400 --> 00:24:49,400
+excellent now there's something called let's say you you remember there are like if you go for
+
+204
+00:24:49,480 --> 00:24:56,040
+microsoft word or google docs you have like underlines you know strike off through the
+
+205
+00:24:56,600 --> 00:25:02,920
+content that you have right so we'll try to apply if we can do that same property since
+
+206
+00:25:02,920 --> 00:25:08,840
+there's a heading available for us this is a heading okay
+
+207
+00:25:12,120 --> 00:25:17,240
+let's say text decoration some width will discuss them one by one okay
+
+208
+00:25:20,360 --> 00:25:26,120
+not going completely in depth because if i cover each and every property classes might not be
+
+209
+00:25:26,120 --> 00:25:31,880
+enough you have to explore few i'll explore explain few of things in that okay it's like
+
+210
+00:25:31,880 --> 00:25:39,800
+both the ways okay we'll see but i'll explain that part if you go for text decoration if you see
+
+211
+00:25:39,800 --> 00:25:46,040
+there is something like if you see uh overline if you see overland what overland does it like
+
+212
+00:25:46,120 --> 00:25:51,880
+adds over the heading so there are basic three properties that you use generally for the text
+
+213
+00:25:51,880 --> 00:25:59,000
+decoration one is overline then there is something called underline which adds you know underline
+
+214
+00:25:59,000 --> 00:26:05,800
+over the heading then there is something called line through which cuts the line these are the
+
+215
+00:26:05,800 --> 00:26:11,720
+three things that you keep on using in the words right or you are preparing any documentation or
+
+216
+00:26:11,720 --> 00:26:15,800
+you're writing things these are the basic three things type of decorations that you use with the
+
+217
+00:26:15,800 --> 00:26:21,320
+text isn't it so i'll use this underline here
+
+218
+00:26:24,760 --> 00:26:29,880
+as of now i hope this point is clear what does text decoration gives us
+
+219
+00:26:32,760 --> 00:26:38,680
+right then there is some someone told me right there's a you know word spacing there's a word
+
+220
+00:26:38,680 --> 00:26:44,920
+spacing difference between this is heading and this lot of paragraph content if you want to give
+
+221
+00:26:44,920 --> 00:26:51,000
+a spacing or increase of spacing right between words there's a property again you have something
+
+222
+00:26:51,000 --> 00:26:57,960
+like word spacing you can go and add word spacing let's say you go for and say two pixel now if you
+
+223
+00:26:57,960 --> 00:27:07,640
+see once i gave two pixel this both looks like a line bit of a line right so word spacing generally
+
+224
+00:27:07,640 --> 00:27:14,280
+gives a space between the words and there is something another property called line spacing
+
+225
+00:27:14,280 --> 00:27:16,920
+which gives
+
+226
+00:27:21,400 --> 00:27:28,600
+sorry letter spacing which gives space between the letters let's say i give to 0.2 pixel
+
+227
+00:27:29,880 --> 00:27:34,600
+okay so there are two things word spacing and letter spacing like if you want to give a space
+
+228
+00:27:34,600 --> 00:27:39,560
+between two words then you can use word spacing if you want to give space between two letters you
+
+229
+00:27:39,560 --> 00:27:46,680
+can use letter spacings okay and there is something also called as line height line height is used to
+
+230
+00:27:46,680 --> 00:27:52,440
+adjust this one height like what are the heights like let's say if i give uh i'll show you the
+
+231
+00:27:52,440 --> 00:27:58,280
+difference since it's a paragraph we have yeah line spacing
+
+232
+00:27:58,280 --> 00:28:04,680
+uh it's a line height guys let's say if i give eight pixel
+
+233
+00:28:06,920 --> 00:28:16,840
+okay let's say i give uh 20 pixel let's say 25 pixel for the space now what do you see this what
+
+234
+00:28:16,840 --> 00:28:23,960
+what do you understand like if you see uh like if i let's say i go to the chrome now since line height
+
+235
+00:28:23,960 --> 00:28:33,560
+is 25 now if you see here what i applied here uh let's not refresh let me refresh this one
+
+236
+00:28:36,200 --> 00:28:42,280
+okay i didn't save it let's save it come back here this is an element selector guys i use
+
+237
+00:28:42,280 --> 00:28:47,160
+this element selector i hover over this and i click on this so it takes me to that paragraph
+
+238
+00:28:47,800 --> 00:28:52,440
+and i can see here what are the styles are applying now on the paragraph if you see line
+
+239
+00:28:52,440 --> 00:28:58,200
+height 25 pixel is there now if i keep on increasing if you see the each line right uh
+
+240
+00:28:58,200 --> 00:29:03,880
+the under the paragraph let's say a paragraph is having a five six lines of paragraph now we are
+
+241
+00:29:03,880 --> 00:29:11,960
+deciding what would be the size of each line if you see there are books which have bigger lines
+
+242
+00:29:11,960 --> 00:29:18,440
+divided blocks such that in early age when you write down like if you remember hindi sort of
+
+243
+00:29:18,440 --> 00:29:23,640
+whenever you write a hindi language you learn you have a different sort of lines distributed book
+
+244
+00:29:23,640 --> 00:29:29,160
+when you go for english you have a rule book of different lines right so that way each line
+
+245
+00:29:29,160 --> 00:29:33,480
+can have a certain space that depending on that we can customize it okay
+
+246
+00:29:37,880 --> 00:29:44,280
+can you show where and how you increase that okay now if you see okay if it is not visible
+
+247
+00:29:44,280 --> 00:29:53,480
+give me a second can you see this now uh shan if you see i selected element selector then i select
+
+248
+00:29:53,480 --> 00:29:59,720
+this content now if you see in the style block right i have this line height now line height is
+
+249
+00:29:59,720 --> 00:30:04,360
+usually used for each row height what is the row of each each row height if i reduce it it will
+
+250
+00:30:04,360 --> 00:30:09,320
+both will collide or else i can increase it which will give me a spacing between two lines like how
+
+251
+00:30:09,400 --> 00:30:14,840
+much spacing do i need between lines okay so i hope these three things are clear one is word
+
+252
+00:30:14,840 --> 00:30:19,480
+spacing how much space you need between words and then there is something called letter spacing how
+
+253
+00:30:19,480 --> 00:30:23,800
+much space you need between the letters and then there is space between lines how many how much
+
+254
+00:30:23,800 --> 00:30:31,560
+space you need this between the lines i i hope these properties are clear to all like can you
+
+255
+00:30:31,560 --> 00:30:38,600
+give me thumbs up if this properties are clear related to font i see three good good guys thank
+
+256
+00:30:38,600 --> 00:30:46,120
+you so i'll try to summarize here what all things that we have learned okay so related to
+
+257
+00:30:46,120 --> 00:30:52,520
+font something that we have seen in last classes field called font family which is used to you know
+
+258
+00:30:52,520 --> 00:30:59,560
+add different type of uh font like text like font which are handling like maybe calligraphy or
+
+259
+00:30:59,560 --> 00:31:05,000
+chinese or any sort of things like different types of fonts that you see something in newspaper or
+
+260
+00:31:05,800 --> 00:31:11,080
+same language but writing it in a different way okay then we have discussed something called font
+
+261
+00:31:11,080 --> 00:31:19,000
+size which is used to increase the size of like letters how much uh size you want to see okay
+
+262
+00:31:19,000 --> 00:31:25,240
+again it has all the things large larger smaller bold like and pixels it takes and every other
+
+263
+00:31:25,240 --> 00:31:30,920
+different unity it takes okay then we have discussed something called font weight which
+
+264
+00:31:30,920 --> 00:31:37,160
+is used to handle boldness like how much bold content you need it then something we discussed
+
+265
+00:31:37,160 --> 00:31:46,840
+about is text align right then we have discussed something called as text decoration which is used
+
+266
+00:31:46,840 --> 00:31:55,880
+to add underscores are or like you know line through i mean scratch the line or get underscore
+
+267
+00:31:55,880 --> 00:32:02,680
+on the top right then we have discussed three types of spacing between like words
+
+268
+00:32:04,520 --> 00:32:05,320
+word spacing
+
+269
+00:32:08,120 --> 00:32:09,640
+then we had letter spacing
+
+270
+00:32:13,400 --> 00:32:15,080
+then something called as line height
+
+271
+00:32:19,080 --> 00:32:24,520
+i hope this this whatever words you have seen now all this you are familiar now you would be
+
+272
+00:32:24,520 --> 00:32:28,760
+familiar with it like if you see if you want to use it in future you will be able to use them
+
+273
+00:32:28,760 --> 00:32:32,120
+right a basic idea that you have it in your mind right
+
+274
+00:32:36,520 --> 00:32:37,720
+great guys now
+
+275
+00:32:41,000 --> 00:32:41,480
+thank you
+
+276
+00:32:47,560 --> 00:32:52,600
+now we'll start with some of the some of them in one of the important topic of css actually
+
+277
+00:32:53,320 --> 00:32:55,800
+okay which is called box model
+
+278
+00:32:59,880 --> 00:33:06,440
+okay but before coming to box model let's take off one example okay let's take this one example
+
+279
+00:33:07,240 --> 00:33:13,080
+that uh have anyone been to vilas like have anyone seen vilas society
+
+280
+00:33:16,040 --> 00:33:19,880
+like a society filled with vilas or anyone seen in movies or
+
+281
+00:33:20,120 --> 00:33:23,720
+you know so like what we say series says
+
+282
+00:33:28,680 --> 00:33:31,720
+open there i'll share you the links you click you can go through them
+
+283
+00:33:31,720 --> 00:33:36,200
+okay for the like all the attributes are the properties for each one right
+
+284
+00:33:37,000 --> 00:33:44,760
+well i'll share you all these things you can refer to them okay now so has everyone seen it
+
+285
+00:33:44,760 --> 00:33:48,680
+firstly let's say there is something like this is an villa
+
+286
+00:33:50,440 --> 00:34:02,200
+uh consider and hot sort of villa guys okay but now each villa uh has some specialty like
+
+287
+00:34:02,200 --> 00:34:04,920
+uh around the villa what do you usually see guys
+
+288
+00:34:07,640 --> 00:34:15,720
+some carpet area filled of gardens right can you imagine right now let's say i have this
+
+289
+00:34:15,880 --> 00:34:18,440
+now let's say i have this
+
+290
+00:34:22,760 --> 00:34:29,400
+let's say this is a garden i'll pick some other color okay this is a garden area right
+
+291
+00:34:29,400 --> 00:34:35,880
+where you have plantation also you have a pathway right a pathway to the home but there is something
+
+292
+00:34:35,880 --> 00:34:44,440
+like garden now after that garden then do you think uh the other home the other building right
+
+293
+00:34:44,440 --> 00:34:49,400
+let's say if i draw again other building other house will be attached to this one or there will
+
+294
+00:34:49,400 --> 00:34:59,960
+be a space let's say if i if i want to create a new building here it would be attached to this
+
+295
+00:34:59,960 --> 00:35:09,880
+border or there will be some space space right let's say i do the same thing
+
+296
+00:35:09,880 --> 00:35:17,000
+let's say i design other two villas let's say i keep it this way
+
+297
+00:35:21,960 --> 00:35:27,160
+okay now so what we have seen here is that firstly
+
+298
+00:35:29,400 --> 00:35:38,200
+let's say i go to a house there is something like a house area right let's say i if i write
+
+299
+00:35:38,200 --> 00:35:43,160
+down the architectural part there is a house area where you can stay
+
+300
+00:35:45,800 --> 00:35:50,760
+right outside house area then there is something like garden area
+
+301
+00:35:54,760 --> 00:35:59,160
+right then there is a boundary wall right
+
+302
+00:35:59,160 --> 00:36:02,120
+right
+
+303
+00:36:04,920 --> 00:36:12,680
+once your boundary wall is done then you have something like called as space empty space
+
+304
+00:36:18,120 --> 00:36:19,320
+let's say empty space
+
+305
+00:36:21,480 --> 00:36:27,080
+which is like mandatory or i have seen people fighting for this space right if someone attaches
+
+306
+00:36:27,080 --> 00:36:34,040
+their building for this one there are too many fights mandatory
+
+307
+00:36:38,200 --> 00:36:47,800
+empty space right so overall overall this is how things look like right house structure or
+
+308
+00:36:47,800 --> 00:36:58,200
+something like now right this is how a generally a house looks like now each element in html is
+
+309
+00:36:58,200 --> 00:37:07,240
+also same i know you won't believe it but each html element is also you can consider it as a villa
+
+310
+00:37:08,520 --> 00:37:14,920
+okay now let's talk about it when i say each element is a villa itself now what do i exactly
+
+311
+00:37:14,920 --> 00:37:22,920
+mean by that is now if you are writing something in the paragraph content or between a heading
+
+312
+00:37:22,920 --> 00:37:29,320
+content anything that you write in between those elements each elements each tags okay
+
+313
+00:37:30,280 --> 00:37:36,760
+will have the same properties you can define them now let's say you have
+
+314
+00:37:38,200 --> 00:37:44,120
+told like let's say this is a content area again i'm talking in terms of now html okay
+
+315
+00:37:44,760 --> 00:37:46,440
+this is content area
+
+316
+00:37:49,160 --> 00:37:54,760
+around that content area as you need a garden you have something called as padding
+
+317
+00:37:56,920 --> 00:38:04,120
+okay padding is you can say the gardens for the the html elements you added after that
+
+318
+00:38:05,000 --> 00:38:10,520
+you need a border or a fencing okay this is something called as border
+
+319
+00:38:10,520 --> 00:38:17,720
+border okay you can say a border then you have something called
+
+320
+00:38:21,800 --> 00:38:22,280
+margin
+
+321
+00:38:25,160 --> 00:38:32,200
+okay margin is something which keeps space between two of the content like if you go and see
+
+322
+00:38:32,200 --> 00:38:40,280
+in any textbooks or anything a each paragraph have a some space around it right that thing is
+
+323
+00:38:40,280 --> 00:38:45,080
+same thing like these are the three basic things that you can relate with box model when you go
+
+324
+00:38:45,080 --> 00:38:51,080
+for box model we are talking about only three properties okay those are margin
+
+325
+00:38:54,760 --> 00:38:58,040
+padding and border
+
+326
+00:39:00,360 --> 00:39:07,400
+okay i hope these three things are not like new to new to you now you are able to understand
+
+327
+00:39:07,400 --> 00:39:12,440
+or relate with this one right with this example i'll show you the real time application of this
+
+328
+00:39:12,440 --> 00:39:19,960
+one but now let's see the content that we have already prepared right now i'll go to the example
+
+329
+00:39:19,960 --> 00:39:28,520
+of fonts that we have used now let's say i go to this paragraph now do you see this paragraph the
+
+330
+00:39:28,520 --> 00:39:36,360
+if i highlight our paragraph the yellow line the yellow everyone can see that
+
+331
+00:39:36,360 --> 00:39:38,600
+yellow line before over the lorem right
+
+332
+00:39:41,400 --> 00:39:46,280
+right now let's see what that yellow line is about so where you can see the box model
+
+333
+00:39:46,280 --> 00:39:51,480
+once you expand this tab and you go to the bottom in the style now if you see
+
+334
+00:39:51,480 --> 00:39:57,960
+there is something called margin border and padding and the content area the content area
+
+335
+00:39:57,960 --> 00:40:03,480
+is the height and width of the content that you see let's say if i highlight over it if you see
+
+336
+00:40:03,480 --> 00:40:09,480
+this is the content area or you can say the area of that particular house that needs
+
+337
+00:40:10,200 --> 00:40:16,840
+fine we told that hey this content doesn't need any garden or it doesn't need border
+
+338
+00:40:16,840 --> 00:40:24,120
+but it surely need margin on the top and bottom so what it says that before the next line content
+
+339
+00:40:24,120 --> 00:40:30,440
+or the earlier content whatever the this is heading right the content it should be separated
+
+340
+00:40:30,440 --> 00:40:36,440
+i need a space between the each of the houses so that each of the space between each of houses
+
+341
+00:40:36,440 --> 00:40:42,680
+is decided by margin if you want to add a garden around it let's say if i go to the padding let's
+
+342
+00:40:42,680 --> 00:40:50,920
+say i go and select here and i want to add a like padding on the top side i can give 20 as as soon
+
+343
+00:40:50,920 --> 00:40:57,240
+as i enter see this what's happened on the this highlighted one so as soon as i click enter now
+
+344
+00:40:57,240 --> 00:41:02,600
+if you see there's something called green space added which is like what what do i exactly mean
+
+345
+00:41:02,600 --> 00:41:08,600
+by that is like i've added a garden let's say if i want to add a garden on left side okay which is
+
+346
+00:41:08,600 --> 00:41:16,680
+15 right now if you see that content moved it so are you able to relate like how this thing works
+
+347
+00:41:17,320 --> 00:41:22,040
+guys are you able to relate the box model now better
+
+348
+00:41:24,040 --> 00:41:29,560
+it is that is it guys like how each element in the html i've shown with a p tag now if you go
+
+349
+00:41:29,560 --> 00:41:35,800
+and go and select the h1 tag also it will also have that same box model so all the properties
+
+350
+00:41:35,800 --> 00:41:42,760
+in html everything that you have it you can define three properties to it which are padding margin
+
+351
+00:41:42,760 --> 00:41:49,560
+three properties to it which are padding margin and border to it everything is a box in a html
+
+352
+00:41:49,560 --> 00:41:57,160
+so now let's do one thing let's do one thing we'll go and do some of the you know we'll build some
+
+353
+00:41:57,160 --> 00:42:03,160
+boxes and we'll see how how uh you can build actually how can you apply this all this fields
+
+354
+00:42:03,160 --> 00:42:10,920
+okay let me go here and create one new folder called box model
+
+355
+00:42:13,560 --> 00:42:21,320
+okay inside this i'll create new file called index.html let's say i have html5
+
+356
+00:42:22,840 --> 00:42:24,680
+and i say this as a box model
+
+357
+00:42:25,400 --> 00:42:34,280
+okay so what we'll do it here is simply i'll copy some content for you don't need it actually
+
+358
+00:42:34,280 --> 00:42:43,480
+can type it let's say this is a div okay inside this let's say i say there's a paragraph i say this is
+
+359
+00:42:43,480 --> 00:42:56,680
+a scalar class simply okay now i'll go to the style block let's say i open this in the view
+
+360
+00:43:01,880 --> 00:43:07,400
+you can see this is a scalar class is something coming already now what we'll do is like let's
+
+361
+00:43:07,400 --> 00:43:09,000
+say i go to this style block
+
+362
+00:43:12,440 --> 00:43:19,960
+and i select this particular p tag so let's say i give a class as scalar class
+
+363
+00:43:21,960 --> 00:43:30,040
+name let's i minimize this one and i go into style block for selecting class how can i select
+
+364
+00:43:30,040 --> 00:43:39,560
+this class selector is how can i write it using dot operator right it's a scalar class
+
+365
+00:43:42,200 --> 00:43:47,720
+now let's say first what we want to do is let's say we want to have some border let's say we want
+
+366
+00:43:47,720 --> 00:43:56,680
+to have border now if i go and write border okay so border has again three list of properties guys
+
+367
+00:43:57,240 --> 00:44:03,960
+okay you can define how many pixels border you need let's say you have two pixel of border
+
+368
+00:44:04,920 --> 00:44:11,960
+okay now the solid and the color which selects is like let's say i select this one then you go for
+
+369
+00:44:11,960 --> 00:44:20,040
+border style okay let's say i go for border style here border style is like something some
+
+370
+00:44:20,040 --> 00:44:24,840
+some peoples have fencing with current something some people have small walls some have big walls
+
+371
+00:44:24,840 --> 00:44:30,760
+some have big walls right similarly in html elements also you can have different types of
+
+372
+00:44:30,760 --> 00:44:37,160
+borders like you can have dashed line or you can have dotted lines around it
+
+373
+00:44:39,320 --> 00:44:49,000
+or else you can also have solid which is like single line then you can also have border color
+
+374
+00:44:49,000 --> 00:44:55,880
+to it okay when you go for border color let's say i select as brown
+
+375
+00:44:58,120 --> 00:45:04,760
+okay i hope this property is clear now what happens is we can write all these things into
+
+376
+00:45:04,760 --> 00:45:14,760
+together into one line now if i define a border i can say two pixel solid brown this is what i
+
+377
+00:45:14,760 --> 00:45:22,280
+was doing it earlier like i was combining border border style and color is this clear guys
+
+378
+00:45:24,760 --> 00:45:29,000
+i hope this border property is clear like how we can leverage how we can add it
+
+379
+00:45:29,000 --> 00:45:35,160
+now once border is done so each thing right as i've told you earlier if you see in the box
+
+380
+00:45:35,160 --> 00:45:40,920
+you can have each customized let's say now when i'm applying border to pixel right what's happening is
+
+381
+00:45:40,920 --> 00:45:46,840
+on top bottom left right two pixel is being applied but if i want to change it on a top and
+
+382
+00:45:46,840 --> 00:45:55,320
+bottom how can i do it is that let's say border i can say top okay i can say border top and i can
+
+383
+00:45:55,320 --> 00:46:07,320
+say 10 pixel solid brown if you see what i exactly doing is like if you want to customize like here
+
+384
+00:46:07,320 --> 00:46:11,400
+all the fields are different different like you can apply for left right bottom top or anything
+
+385
+00:46:11,400 --> 00:46:18,760
+that you want to have right customizable any way that you can have it okay now even you can add it
+
+386
+00:46:18,760 --> 00:46:27,800
+for border border bottom let's say you go for eight pixel solid brown
+
+387
+00:46:28,600 --> 00:46:35,960
+okay you might have seen many rajinikanth movies right where his name comes in between top border
+
+388
+00:46:35,960 --> 00:46:43,400
+and bottom borders are thick lines which comes like left to right in a low lines or in old movies
+
+389
+00:46:43,400 --> 00:46:53,560
+you can see right so this is how you can what about border size yeah this is a border size right 10
+
+390
+00:46:53,720 --> 00:46:59,160
+yeah this is a border size right 10 pixel 8 pixel on the sides also you can do
+
+391
+00:47:00,360 --> 00:47:07,240
+border left you can apply left and right also you have left right and everything you can define it
+
+392
+00:47:08,360 --> 00:47:15,480
+clear you can also do one thing let's say let's say you i want to comment this thing
+
+393
+00:47:15,560 --> 00:47:20,600
+let's say i want to comment this thing i say 10 pixel
+
+394
+00:47:22,600 --> 00:47:29,640
+okay for border you have to individually define it let's say i comment this one also uh i keep this
+
+395
+00:47:29,720 --> 00:47:31,800
+open
+
+396
+00:47:39,080 --> 00:47:49,480
+okay i keep this comment border then i say 10 pixel 5 pixel 3 pixel then 2 pixel
+
+397
+00:47:53,160 --> 00:47:57,640
+no it's not working for the border but border is something simply you can apply
+
+398
+00:47:58,280 --> 00:48:04,040
+uh like how much you need it i hope this this properties are clear guys how this thing works
+
+399
+00:48:04,040 --> 00:48:09,960
+how border you can apply it and how we can deal with this like there are three properties you
+
+400
+00:48:09,960 --> 00:48:15,400
+deal generally apply one is but the the size of the border then the style and the color
+
+401
+00:48:16,280 --> 00:48:23,240
+then there is something like border radius when you select border radius you can select
+
+402
+00:48:23,240 --> 00:48:29,640
+how much curvature you need on the edges let's say if i give 8 pixel okay if i give 8 pixel
+
+403
+00:48:31,800 --> 00:48:37,960
+now do you see this this is like a bit curved this looks like bit curved like the buttons are
+
+404
+00:48:37,960 --> 00:48:45,240
+that are built these days like curved buttons okay so border radius is generally used for this one
+
+405
+00:48:45,240 --> 00:48:49,880
+mostly images right uh what if you see the pictures like uh in link then you see that
+
+406
+00:48:49,880 --> 00:48:53,480
+there is a picture in circle right let's say i
+
+407
+00:48:57,000 --> 00:49:03,160
+i don't have linkedin login here but you can explore linkedin go put a debugger if you give
+
+408
+00:49:03,160 --> 00:49:09,320
+50 percent right let's say if i give 50 percent you'll see that converts into a circular okay
+
+409
+00:49:09,320 --> 00:49:14,760
+border it is used to convert that border into sub like depending on the type of items that
+
+410
+00:49:14,760 --> 00:49:21,480
+you can play around you can give or use this properties okay now moving to the next property
+
+411
+00:49:22,440 --> 00:49:28,360
+what i'll do is now i'll go and play around with the padding part now let's say i add some padding
+
+412
+00:49:29,240 --> 00:49:34,040
+okay what i what i'll say is that let's say i give some padding like 10 pixel
+
+413
+00:49:36,040 --> 00:49:41,960
+now here if you go and see here again the padding is around left right bottom right
+
+414
+00:49:41,960 --> 00:49:50,440
+right top left right bottom now similarly if you want to give it each side padding you can give
+
+415
+00:49:50,440 --> 00:49:56,840
+again padding left or padding right or padding bottom everything you can deal with it but what
+
+416
+00:49:56,840 --> 00:50:03,400
+if you want to define a different heights of padding in a same value you can do it like let's
+
+417
+00:50:03,400 --> 00:50:15,560
+say i if i give it this way 8 pixel 10 pixel 8 pixel if you see here what's happened is
+
+418
+00:50:15,560 --> 00:50:21,320
+top and bottom padding are same left and right padding are same now what does exactly mean is
+
+419
+00:50:21,320 --> 00:50:24,920
+how you how we can define things like this way is that when you
+
+420
+00:50:26,920 --> 00:50:32,600
+let's say i'll define what is the rule for when you define it all properties in one line
+
+421
+00:50:33,480 --> 00:50:45,960
+you select first top then bottom then like sorry top right bottom left
+
+422
+00:50:47,880 --> 00:50:53,000
+does this look like something something is clock right so you have to define properties
+
+423
+00:50:53,000 --> 00:51:00,680
+in terms of clock right let's say if i give 18 pixel so right property doesn't matter because
+
+424
+00:51:00,680 --> 00:51:06,200
+if you see if i give let's say this instead of this this is a class if i give lower m 20
+
+425
+00:51:07,160 --> 00:51:14,360
+if you just see now what will happen if i increase the right if you see right side padding is added
+
+426
+00:51:20,280 --> 00:51:25,960
+i'll come to that somewhere i'll come to that now if you see what's happening here when i
+
+427
+00:51:25,960 --> 00:51:31,480
+added pattern let's say if i go and add 20 now bottom padding is increased let's say if i give
+
+428
+00:51:31,480 --> 00:51:38,680
+50 okay let's similarly let's give 50 here okay this is how you can deal with padding like you
+
+429
+00:51:38,680 --> 00:51:45,960
+can add it padding across left right bottom and if you want to define let's say you also can do
+
+430
+00:51:45,960 --> 00:51:51,240
+one thing is that if you want to give it a top and bottom to be same and left right right to be same
+
+431
+00:51:51,240 --> 00:51:56,760
+then you can what you can do is you can define it in two terms itself let's say i go and say
+
+432
+00:51:56,760 --> 00:52:04,440
+padding 10 pixel and 8 pixel it will take it as like top and bottom as 10 pixel
+
+433
+00:52:04,440 --> 00:52:14,200
+and left and right as 8 pixel so the convention for this one goes as top bottom will be same left
+
+434
+00:52:14,760 --> 00:52:15,640
+right will be same
+
+435
+00:52:18,600 --> 00:52:25,240
+okay i hope this is clear guys how padding you can define it individually or for one side or
+
+436
+00:52:25,240 --> 00:52:31,800
+all the sides right if you want to define it like if you're going for in one line it goes in the
+
+437
+00:52:31,800 --> 00:52:36,440
+clock signal if you are defining like both the sides top and bottom are same left and right are
+
+438
+00:52:36,440 --> 00:52:41,960
+same you can define it in two ways okay so this is how you can deal with padding now let's say
+
+439
+00:52:41,960 --> 00:52:47,000
+you also have something like margin to show margin what i'll do is that let's say i create
+
+440
+00:52:47,000 --> 00:52:57,240
+another paragraph if you see now let's say i open this in a live server too
+
+441
+00:53:04,680 --> 00:53:06,440
+because i wanted to show you something
+
+442
+00:53:07,240 --> 00:53:10,280
+do you see space between this each paragraph guys already
+
+443
+00:53:13,640 --> 00:53:21,720
+do you see space between this paragraph already like this space after border right
+
+444
+00:53:25,480 --> 00:53:29,880
+where this space yellow space is coming from why this yellow space is coming from where this is
+
+445
+00:53:30,040 --> 00:53:33,560
+coming from why this yellow space is coming from where this is coming from
+
+446
+00:53:34,680 --> 00:53:41,400
+this padding margin 16 we haven't given it right have we defined margin 16 for any of the paragraphs
+
+447
+00:53:44,680 --> 00:53:48,360
+no right so what happens how it happens guys is that you know
+
+448
+00:53:49,720 --> 00:53:57,160
+mostly div and span are the empty tags that you generally see all other tags are like semantic
+
+449
+00:53:57,160 --> 00:54:03,160
+tags now each semantic tags build with certain style in html but if you wanted to build it like
+
+450
+00:54:03,160 --> 00:54:09,800
+a raw you have to define few properties okay have anyone seen many times that on the top of the
+
+451
+00:54:09,800 --> 00:54:14,520
+project whenever you go and see they add some universal selector does anyone know universal
+
+452
+00:54:14,520 --> 00:54:23,320
+selector here does anyone know universal selector so what does universal selector is means it means
+
+453
+00:54:23,320 --> 00:54:29,800
+say that it should apply for the all the properties when i say hash when i say star so it means that
+
+454
+00:54:29,800 --> 00:54:35,320
+i am applying for the all the properties and whenever you start it is supposed to make
+
+455
+00:54:35,880 --> 00:54:42,680
+padding equal to zero and margin equal to zero by default so what happens is now let's say now
+
+456
+00:54:42,680 --> 00:54:47,320
+when i declare padding and margin as zero now if you see all of them have sticked together
+
+457
+00:54:47,880 --> 00:54:52,680
+i'm just saying that whatever by default your style is there now whatever your default style is
+
+458
+00:54:52,680 --> 00:54:58,760
+there it don't bring that one i'll define my custom one because my calculation is going wrong
+
+459
+00:55:01,080 --> 00:55:05,000
+this is point here like how this is working padding and margin
+
+460
+00:55:07,320 --> 00:55:13,720
+because paragraph by default let's say if i read remove this margin and i save it so if you see
+
+461
+00:55:14,040 --> 00:55:18,840
+so if you see even though we haven't defined margin by default paragraph tag is bringing
+
+462
+00:55:18,840 --> 00:55:25,400
+some of the margin along with it so if you want to override and custom make it custom according to us
+
+463
+00:55:25,400 --> 00:55:31,240
+we can all it is suggested it is a like a good practice that you you know you clear all the
+
+464
+00:55:31,240 --> 00:55:37,720
+existing margins then only you go and design your custom margins is this clear guys
+
+465
+00:55:37,720 --> 00:55:39,720
+please
+
+466
+00:55:43,240 --> 00:55:47,240
+how many of you understand understood this point like why i'm making margin zero
+
+467
+00:55:50,840 --> 00:55:57,960
+or how many did not understand it okay now going to next point now here
+
+468
+00:55:57,960 --> 00:56:03,560
+let's say i see one two great okay thank you people i would request you right if you're not
+
+469
+00:56:03,560 --> 00:56:08,920
+understanding it give me thumbs down instantly no specific no space between the paragraph
+
+470
+00:56:11,080 --> 00:56:16,920
+no pendra what i'm doing is saying is that let's say this paragraph is a built-in head stream
+
+471
+00:56:16,920 --> 00:56:22,440
+melting that i'm using it already but what i'm saying is that hey there are some you know they
+
+472
+00:56:22,440 --> 00:56:29,320
+are bringing some their inlines like styles which are defined by browser itself so whenever i'm
+
+473
+00:56:29,320 --> 00:56:34,280
+going and saying that hey i'm i'm suddenly seeing that i've designed a paragraph next to each other
+
+474
+00:56:34,840 --> 00:56:42,600
+i don't know how the space is coming suddenly right how the space is coming we are we haven't
+
+475
+00:56:42,600 --> 00:56:47,240
+defined that space right so i'm saying that to overcome this come of shortcomings right
+
+476
+00:56:47,240 --> 00:56:51,960
+because i'm showing you simple structure here that's why you don't find a problem
+
+477
+00:56:51,960 --> 00:56:58,200
+but imagine you are building a big scale project and let's say you defined like content
+
+478
+00:56:59,160 --> 00:57:06,280
+or let's say netflix dashboard right there are images cards side on side if there is a space by
+
+479
+00:57:06,280 --> 00:57:11,960
+default is coming because of in built-in html elements that is not right right you want to
+
+480
+00:57:11,960 --> 00:57:18,200
+override as per your need so what it is generally suggested is that if there are some whatever
+
+481
+00:57:18,200 --> 00:57:24,840
+html elements since every html element is a box in nature all the html elements will have certain
+
+482
+00:57:24,840 --> 00:57:30,440
+styles attached with it so what we say that hey don't give me those styles bring all the properties
+
+483
+00:57:30,440 --> 00:57:36,760
+whatever you have but give me mad padding and margin as zero so we are overriding at the start
+
+484
+00:57:36,760 --> 00:57:46,600
+and applying for every html element on the top i hope this is clear guys to abhinav and hariprasad
+
+485
+00:57:46,680 --> 00:57:49,880
+also
+
+486
+00:57:50,600 --> 00:57:58,360
+cool now once once this is done so we remove for all the elements yeah so we are
+
+487
+00:57:58,360 --> 00:58:05,720
+yeah overriding for removing for all the elements right now i have some mathematical question guys
+
+488
+00:58:05,720 --> 00:58:13,720
+now tell me the height of this each box now what would be the height and width of this each box
+
+489
+00:58:17,080 --> 00:58:18,600
+what would be the height of this box
+
+490
+00:58:24,440 --> 00:58:28,120
+what would be the general formula of this height and width how would you calculate
+
+491
+00:58:28,760 --> 00:58:32,760
+you have you can see 37 pixel
+
+492
+00:58:36,040 --> 00:58:36,360
+okay
+
+493
+00:58:36,360 --> 00:58:40,120
+yeah
+
+494
+00:58:42,120 --> 00:58:49,720
+sheik has suggested that content plus padding plus border open says that margin padding border
+
+495
+00:58:50,360 --> 00:58:57,480
+and 37 pixel so in general whenever you go for height and width right whenever you go for height
+
+496
+00:58:57,480 --> 00:59:04,600
+and width of a particular html element something like if you go for height it would be like
+
+497
+00:59:04,920 --> 00:59:13,560
+content area or html element like 37 pixel we had plus padding on y-axis
+
+498
+00:59:15,640 --> 00:59:18,840
+plus border
+
+499
+00:59:20,440 --> 00:59:23,560
+on y-axis plus margin on y-axis
+
+500
+00:59:26,040 --> 00:59:28,040
+similarly for width
+
+501
+00:59:28,520 --> 00:59:33,400
+width content area width
+
+502
+00:59:36,840 --> 00:59:38,040
+plus padding x
+
+503
+00:59:42,120 --> 00:59:43,080
+plus border x
+
+504
+00:59:46,760 --> 00:59:56,280
+plus margin x right do you guys agree this actual height and actual width would be this is the
+
+505
+00:59:56,280 --> 01:00:01,720
+summation of this one can you guys give me thumbs up guys quick thumbs up if you are
+
+506
+01:00:01,720 --> 01:00:08,920
+able to agree with this point because the other element will start after only this and height
+
+507
+01:00:08,920 --> 01:00:15,000
+and width is consumed right now if you go and see the height of this particular element is like
+
+508
+01:00:15,000 --> 01:00:24,600
+37 pixel plus 10 plus 10 plus 2 plus 2 right 20 plus now if you see 37 plus 20 plus 2 4
+
+509
+01:00:27,000 --> 01:00:30,840
+57 plus 4 61 right the height would be 61 right
+
+510
+01:00:35,480 --> 01:00:42,680
+do you guys agree the height would be 61 now let's say i also add margin for for the space
+
+511
+01:00:42,680 --> 01:00:51,640
+right i override it let's say i also add margin now margin let's say 5 pixel i added 5 pixel margin
+
+512
+01:00:51,640 --> 01:00:59,160
+around okay now if i do it 5 pixel 61 plus 10 which is 71 is height now but
+
+513
+01:01:01,160 --> 01:01:07,640
+do you see any problem this way like if you are saying that hey uh like whatever you are adding
+
+514
+01:01:07,640 --> 01:01:14,440
+all of those things and consuming that space but what if i want you to consume only 37 pixel of
+
+515
+01:01:14,440 --> 01:01:20,200
+height and you can deduct whatever padding height border and margin from inside that because if you
+
+516
+01:01:20,200 --> 01:01:27,560
+go uh go and buy a property or a villa right they'll give you a complete space in that only
+
+517
+01:01:27,560 --> 01:01:32,200
+you have to content area space will be given like whole villa space would be given inside that only
+
+518
+01:01:32,200 --> 01:01:40,840
+you should have uh like padding border right do you guys agree like they wouldn't you be giving
+
+519
+01:01:40,840 --> 01:01:46,120
+extra space for you right for you can have garden you can have also border how many ways you want
+
+520
+01:01:46,120 --> 01:01:53,400
+you can build it it doesn't work that way right so for that one let's say if you want the formula
+
+521
+01:01:54,040 --> 01:01:59,320
+the currently we have discussed this one if you want this formula to work this way let's say
+
+522
+01:02:00,680 --> 01:02:04,440
+this is default in nature whatever we have discussed this is default in nature but if
+
+523
+01:02:04,440 --> 01:02:10,360
+we want this to work such way that height is equal to content area
+
+524
+01:02:11,160 --> 01:02:16,360
+uh minus padding of y
+
+525
+01:02:19,720 --> 01:02:24,440
+minus border of y margin of y
+
+526
+01:02:27,640 --> 01:02:30,840
+i mean uh this would actually result
+
+527
+01:02:33,160 --> 01:02:38,120
+this would actually equal to the content height
+
+528
+01:02:40,600 --> 01:02:45,800
+right let's say i replace this one with content instead of content area height
+
+529
+01:02:47,080 --> 01:02:50,920
+whatever height is defined by you isn't it
+
+530
+01:02:53,400 --> 01:02:59,000
+so if you want this thing to work this way if you want this work to this if you want your
+
+531
+01:02:59,000 --> 01:03:04,920
+html environment to work this way right there's a one property that you add globally that is called
+
+532
+01:03:04,920 --> 01:03:07,000
+as border box
+
+533
+01:03:12,040 --> 01:03:13,160
+give me a second guys
+
+534
+01:03:17,800 --> 01:03:18,840
+sorry box sizing
+
+535
+01:03:24,040 --> 01:03:28,440
+these are one-time elements guys if you see when i when you click border box
+
+536
+01:03:28,680 --> 01:03:37,560
+it changes nothing seems to be changing but if you go and see here below let me refresh it
+
+537
+01:03:42,120 --> 01:03:43,720
+now give me a second
+
+538
+01:03:47,000 --> 01:03:49,960
+let me to cut this here and apply it for the body
+
+539
+01:03:58,440 --> 01:04:00,440
+uh
+
+540
+01:04:04,840 --> 01:04:06,200
+i didn't yet apply it
+
+541
+01:04:10,920 --> 01:04:17,080
+give me a second okay i have to go for custom element not for the whole element uh let's say
+
+542
+01:04:17,880 --> 01:04:24,360
+if i want to go and apply for the scalar classes let's say i go and uh do it for here when i apply
+
+543
+01:04:24,360 --> 01:04:31,880
+it here now even then it's not changing
+
+544
+01:04:34,760 --> 01:04:39,800
+but if i go and let's say okay if we haven't defined height here actually
+
+545
+01:04:39,800 --> 01:04:45,400
+we have to define height to see the changes here let's say i go and define height 200 pixel firstly
+
+546
+01:04:47,320 --> 01:04:49,320
+okay now
+
+547
+01:04:49,320 --> 01:05:01,240
+now if you see here what just happened here uh let me make it 100 guys uh for a sec now how this
+
+548
+01:05:01,240 --> 01:05:11,080
+formula will work now i've gave paragraph height as 100 pixel if you see on the top 100 pixel
+
+549
+01:05:11,720 --> 01:05:17,080
+but the content area space whichever this content area space is made into 76
+
+550
+01:05:19,800 --> 01:05:25,880
+how it is coming up to 76 because it detected the space for padding border and margin
+
+551
+01:05:28,120 --> 01:05:33,560
+this is the same way how this formula that i've just wrote it like height whatever you define
+
+552
+01:05:33,560 --> 01:05:39,960
+height for each html element if you want that to consume only that amount of height let's say
+
+553
+01:05:39,960 --> 01:05:46,280
+you you say that hey my height of the box is 100 but if you don't say box box sizing as border
+
+554
+01:05:46,280 --> 01:05:54,120
+box now let's see how this behaves the height of the box ultimately become 100 plus 20 plus 4
+
+555
+01:05:54,120 --> 01:06:00,760
+which is 124 plus 10 134 but we said that box should be size of only 100
+
+556
+01:06:02,360 --> 01:06:07,480
+okay if you want to that stick all those sizes heights to be that same thing right then you
+
+557
+01:06:07,480 --> 01:06:15,800
+have to go and use this property as box sizing as border box is this point clear guys how that box
+
+558
+01:06:15,800 --> 01:06:16,840
+sizing is helping us
+
+559
+01:06:20,680 --> 01:06:23,960
+anyone did like anyone having any doubts here
+
+560
+01:06:26,040 --> 01:06:33,720
+i see two people thumbs down cool further three guys please vote it so that i am
+
+561
+01:06:33,720 --> 01:06:40,600
+you are not getting it okay cool okay fine let's say going back and taking this example
+
+562
+01:06:46,360 --> 01:06:46,860
+okay
+
+563
+01:06:52,760 --> 01:06:57,720
+let's say your villas dimensions
+
+564
+01:07:02,120 --> 01:07:10,040
+is width into height or height into width let's say i gave width as 200 pixel and height as 100
+
+565
+01:07:10,040 --> 01:07:19,000
+pixel right if i've given this height and width of your dimensions of villa now you are supposed
+
+566
+01:07:19,000 --> 01:07:32,280
+to add garden border inside this one itself right leave it extra space now this is a box
+
+567
+01:07:32,280 --> 01:07:38,840
+leave it this extra space but this till this border is supposed to be in 100 percent 100
+
+568
+01:07:38,840 --> 01:07:46,520
+pixel height itself right now so that is what i'm saying now whenever you go by default html
+
+569
+01:07:46,520 --> 01:07:51,000
+right what happens is whenever you say that hey height should be 100 pixel
+
+570
+01:07:53,800 --> 01:07:55,000
+and padding should be
+
+571
+01:07:57,560 --> 01:08:04,040
+10 pixel and margin should be sorry border should be
+
+572
+01:08:04,040 --> 01:08:12,360
+5 pixel then this is like going on top and bottom so it will be 20 pixel this is also
+
+573
+01:08:12,360 --> 01:08:19,400
+going on top and bottom so it this will be 10 pixel now the total height of actual building
+
+574
+01:08:19,400 --> 01:08:28,360
+is calculated as 120 plus 10 130 pixel but do you have 130 pixel of size available according
+
+575
+01:08:28,760 --> 01:08:35,240
+but do you have 130 pixel of size available according to your plot you have only 100 pixel right
+
+576
+01:08:37,800 --> 01:08:41,640
+if you construct an extra if you take an extra space and construct it
+
+577
+01:08:41,640 --> 01:08:46,440
+they'll come municipality will come and demolish your house right or that society will fight with
+
+578
+01:08:46,440 --> 01:08:53,320
+you so that is what happening here if you see if i go and say let's say this is my house
+
+579
+01:08:54,040 --> 01:09:01,720
+okay i will remove this box sizing and if you see i didn't save it now
+
+580
+01:09:03,000 --> 01:09:12,200
+save it now if you see i've told that hey my house size is 100 height but i'm adding a garden plus
+
+581
+01:09:12,200 --> 01:09:18,200
+border to it now the what what is happening it is increasing the height of that whole house
+
+582
+01:09:19,080 --> 01:09:25,480
+because we are adding garden and borders to it but we don't want it we want something that
+
+583
+01:09:25,480 --> 01:09:33,480
+hey let's say i'm having garden of 10 pixel on top and bottom then i would say that if i remove
+
+584
+01:09:33,480 --> 01:09:40,280
+this i'll have only for the house i'll have only 70 pixel height left right this is how it should
+
+585
+01:09:40,280 --> 01:09:48,840
+be now if i'm having actual house i'm building it height content or house height
+
+586
+01:09:52,680 --> 01:09:56,440
+should be 70 pixel then padding should be
+
+587
+01:09:58,360 --> 01:10:04,440
+20 since i'm considering top and bottom top 10 bottom 10 border should be top and bottom 10 pixel
+
+588
+01:10:04,440 --> 01:10:11,480
+is this clear now like this example is clear at least
+
+589
+01:10:15,240 --> 01:10:22,440
+guys who people who gave me thumbs down so i would i'm asking you them so it's this example
+
+590
+01:10:22,440 --> 01:10:27,800
+that i'm not going into html part as of now i'm just explaining this mathematical thing now this
+
+591
+01:10:27,880 --> 01:10:34,680
+is by default nature this is the default nature whatever you give height padding and border it
+
+592
+01:10:34,680 --> 01:10:41,640
+will be added as extra but if you want this sort of calculation to work which is actually right
+
+593
+01:10:41,640 --> 01:10:46,920
+according to our rules of understanding with real life then you are supposed to use something
+
+594
+01:10:46,920 --> 01:10:52,520
+called as border box sorry box sizing as border box
+
+595
+01:10:53,000 --> 01:10:59,800
+when i say border box i mean to say that whole like include whole till till the border area
+
+596
+01:11:00,600 --> 01:11:08,520
+okay now let's go and see what's happening when i don't apply box sizing property my height becomes
+
+597
+01:11:08,520 --> 01:11:17,640
+100 plus 20 plus 4 124 it becomes what if i go and apply this property what if i go and apply
+
+598
+01:11:17,640 --> 01:11:23,160
+this property what if i go and apply this property i come back and i see
+
+599
+01:11:23,160 --> 01:11:33,800
+that it becomes 76 plus 20 which is 96 plus 400 is this clear what problem this box sizing is
+
+600
+01:11:33,800 --> 01:11:46,760
+solving for us uh guys if there are still someone who don't understand it please give
+
+601
+01:11:46,760 --> 01:11:50,920
+me thumbs up thumbs down that works for me i can re-explain this topic
+
+602
+01:11:54,840 --> 01:11:59,160
+okay it's just that if you are still facing challenge i would request you to watch the
+
+603
+01:11:59,160 --> 01:12:04,120
+video you'll be able to get it completely is it automatically yeah it is automatically adjusting
+
+604
+01:12:04,120 --> 01:12:11,480
+on kids so it is fixing it okay i'm just adding one property i'm saying it that the height of
+
+605
+01:12:11,560 --> 01:12:18,600
+the whole box should be only maximum 100 pixel now if you want margin like padding and border
+
+606
+01:12:18,600 --> 01:12:24,280
+you would deduct it from inside that let's say if i make five five pixel of border and i save it if
+
+607
+01:12:24,280 --> 01:12:32,360
+you go and see here my height of border earlier it was 76 now it became 70 only it won't include
+
+608
+01:12:32,360 --> 01:12:39,400
+margin shake so margin is separate if i made it return that way i'll clean it up margin formula
+
+609
+01:12:41,880 --> 01:12:49,160
+okay it won't include margin it would include only these three parts okay let me make this part
+
+610
+01:12:49,160 --> 01:12:59,640
+also clear okay margin is separately because the space will be given by society only yeah it will
+
+611
+01:12:59,640 --> 01:13:05,640
+adjust calculations automatically but the default value for box sizing is content box if you again
+
+612
+01:13:05,880 --> 01:13:09,640
+box sizing is content box if you again convert into content box right
+
+613
+01:13:11,400 --> 01:13:16,280
+the box will be size of 100 these are extra added again 10 and uh extra 10
+
+614
+01:13:17,640 --> 01:13:21,720
+if you you can always fix this using border box
+
+615
+01:13:24,680 --> 01:13:28,120
+okay i hope this box sizing property is clear now
+
+616
+01:13:28,760 --> 01:13:36,040
+uh so how many of you are clear with this like properties like why we made padding margin zero
+
+617
+01:13:36,040 --> 01:13:41,880
+and what this property is making so generally these three fields right if i take it on this one
+
+618
+01:13:41,880 --> 01:13:47,560
+these three fields are by default every project they certainly add these things like margin
+
+619
+01:13:48,200 --> 01:13:53,240
+padding and box sizing because they assume that they will define for everything what they need it
+
+620
+01:13:53,240 --> 01:13:58,680
+it doesn't want it they don't want system to bring anything their sizes or anything
+
+621
+01:13:58,680 --> 01:14:07,000
+we'll define it our own okay i hope uh all this current topics that we have discussed are clear
+
+622
+01:14:07,000 --> 01:14:14,600
+guys like related to box model or like uh you know the padding margin all of these three properties
+
+623
+01:14:15,160 --> 01:14:21,960
+i hope everyone is clear anyone having still doubts please let me know uh or else i'll start
+
+624
+01:14:21,960 --> 01:14:43,320
+one quiz for you okay so so one simple quiz guys uh try to attempt it i'm starting it
+
+625
+01:14:52,040 --> 01:14:55,320
+so
+
+626
+01:14:57,720 --> 01:15:09,320
+take your time guys uh time is there
+
+627
+01:15:09,320 --> 01:15:12,680
+okay
+
+628
+01:15:20,200 --> 01:15:27,000
+i see only 22 people voted in uh people uh i have seen many people are there in class guys try to
+
+629
+01:15:27,800 --> 01:15:28,520
+mark your vote
+
+630
+01:15:31,080 --> 01:15:32,680
+mark your option actually
+
+631
+01:15:32,680 --> 01:15:40,040
+come on guys
+
+632
+01:15:48,920 --> 01:15:57,080
+okay so i'm ending the quiz guys so i've seen 28 people have voted in and out of that 75 people
+
+633
+01:15:57,080 --> 01:16:02,360
+have said right answer so actually when i've told you already right the property is here itself you
+
+634
+01:16:02,360 --> 01:16:11,960
+can see on the uh like samvith has answered in very quick time right so we have already discussed
+
+635
+01:16:11,960 --> 01:16:18,120
+like if you want to add margin or padding you can add it in terms of clock size like top right
+
+636
+01:16:19,000 --> 01:16:25,960
+top right bottom left so if you if you want to add respective you know sizes of
+
+637
+01:16:26,680 --> 01:16:32,360
+padding or margin to it okay i hope uh this thing is clear guys like how
+
+638
+01:16:33,160 --> 01:16:40,760
+this thing uh like box model and font text area related content till now so this is clear
+
+639
+01:16:41,400 --> 01:16:47,160
+we'll go ahead with one of the next content of today's class which is display property
+
+640
+01:16:47,160 --> 01:16:55,800
+okay from now on guys uh these have been uh display property has been simple i would say
+
+641
+01:16:55,800 --> 01:17:02,920
+that we have we already know that uh what does display do okay uh pretty simple
+
+642
+01:17:04,360 --> 01:17:14,600
+okay let's say i go and design index start html i have okay let's have go for display property
+
+643
+01:17:15,320 --> 01:17:25,320
+and i have div tag inside that again i have div tag let's say i have one this i have four elements to it
+
+644
+01:17:28,120 --> 01:17:35,960
+say i have something like two three and four and let's say this is something like class container
+
+645
+01:17:35,960 --> 01:17:45,320
+okay and let's say these are class like items
+
+646
+01:17:55,640 --> 01:17:59,880
+okay uh so i'm making it preview
+
+647
+01:17:59,880 --> 01:18:06,920
+okay now let's say i have some default styles i added to
+
+648
+01:18:08,920 --> 01:18:14,120
+container let's say selecting a container class since we have introduced all the properties i'll
+
+649
+01:18:14,120 --> 01:18:21,320
+try to write it down such that you know we are hands-on with them firstly i'll go and make the
+
+650
+01:18:21,320 --> 01:18:24,200
+j star
+
+651
+01:18:28,040 --> 01:18:35,000
+margin to be zero pixel and padding to be zero pixel now as soon as i do this guys
+
+652
+01:18:35,000 --> 01:18:37,640
+just see what's happening and
+
+653
+01:18:44,760 --> 01:18:45,560
+box sizing
+
+654
+01:18:45,560 --> 01:18:56,920
+okay now once i have been this we have done this what i'll do is like let's say i have this div
+
+655
+01:18:56,920 --> 01:19:03,480
+container so i'll have some certain height and width to it let's say 300 pixel to it and width
+
+656
+01:19:03,480 --> 01:19:12,200
+should be 300 pixel and let's say we have some border to it i say five pixels solid or let's say
+
+657
+01:19:12,200 --> 01:19:26,760
+dotted and gray okay uh doesn't look good so solid okay now once we have added this let's
+
+658
+01:19:26,760 --> 01:19:31,320
+say we also have some padding let's say we say 10 pixel around each element
+
+659
+01:19:33,240 --> 01:19:40,440
+and margin should be 20 pixel from each side okay this is something we have already discussed
+
+660
+01:19:40,440 --> 01:19:46,360
+till now uh nothing new i'm just applying those properties so that we get used to it so can we
+
+661
+01:19:46,360 --> 01:19:53,000
+align them in single line each is it in the box yeah that is where i'm coming okay no no
+
+662
+01:19:54,680 --> 01:20:00,600
+which type of these elements are like which category this elements comes in dips i have
+
+663
+01:20:00,600 --> 01:20:06,120
+seen discussed this one already whether this is an inline element or this is an block element guys
+
+664
+01:20:06,680 --> 01:20:14,520
+block element right now block elements always starts in new line and uh like we said that item
+
+665
+01:20:14,520 --> 01:20:19,960
+one item two item three item four it's it's always starting in new line but what if we want to
+
+666
+01:20:19,960 --> 01:20:27,160
+convert them into inline element what if we want them to come side by side as just ankit mentioned
+
+667
+01:20:27,160 --> 01:20:29,880
+them to come side by side as just ankit mentioned
+
+668
+01:20:32,360 --> 01:20:38,920
+so there those sort of places itself we use property called as display display property
+
+669
+01:20:38,920 --> 01:20:45,880
+is used to deal with these items to convert them into uh different types of like you know display
+
+670
+01:20:45,880 --> 01:20:52,360
+to uh like inline to block block to inline let's say i go and say item display to inline
+
+671
+01:20:52,360 --> 01:21:01,320
+okay as soon as i do this i add dot now if you see this these are converted into
+
+672
+01:21:02,040 --> 01:21:08,920
+uh not flexed some with yet don't let's not go there yet okay let's pick to fix to display
+
+673
+01:21:09,640 --> 01:21:16,920
+can you see this ankit your problem is solved as soon as i told it that uh you know item should
+
+674
+01:21:16,920 --> 01:21:24,200
+be converted into inline now what if what is the one property that inline elements we cannot
+
+675
+01:21:24,200 --> 01:21:29,400
+apply to like what if we want can we can we apply width and height to this one guys
+
+676
+01:21:31,160 --> 01:21:33,320
+can we apply width and height to inline elements
+
+677
+01:21:37,960 --> 01:21:45,640
+let's say i apply 25 pixel let's say i apply height to be 20 pixel and let's say i also have
+
+678
+01:21:45,640 --> 01:22:01,880
+a border uh five pixel solid pink let's say i make it three and i also have some padding to it
+
+679
+01:22:03,960 --> 01:22:09,720
+five pixel around it okay also let's say i gave some margin to it
+
+680
+01:22:10,680 --> 01:22:17,400
+10 pixel but do you see any height and width are getting affected let's say i make for
+
+681
+01:22:17,400 --> 01:22:25,800
+100 also not being applied right no heights are see height and width are generally not applied
+
+682
+01:22:25,800 --> 01:22:31,560
+for inline elements that is what we have discussed earlier when i have told you about font text when
+
+683
+01:22:31,560 --> 01:22:39,080
+we discuss related to this example right what is the difference between span and h1 and p tag same
+
+684
+01:22:39,080 --> 01:22:44,360
+same example right same example we picked it up like text align center is not happening because
+
+685
+01:22:44,360 --> 01:22:49,080
+it can it takes only the space it needed you cannot deal with it you cannot add extra height
+
+686
+01:22:49,080 --> 01:22:53,800
+and width to it but what if i comment this one what if i comment this one
+
+687
+01:22:56,120 --> 01:22:58,040
+would the width and height would be applied
+
+688
+01:22:58,040 --> 01:23:00,040
+right
+
+689
+01:23:02,680 --> 01:23:05,960
+that's right let's see this if i apply this if you see
+
+690
+01:23:07,480 --> 01:23:14,040
+let's say i make this as container height as 100 percent 100 percent
+
+691
+01:23:16,840 --> 01:23:25,720
+100 percent okay this can you see this let's say i make in terms of percentages uh 10 percent
+
+692
+01:23:29,000 --> 01:23:40,040
+and let's say this is 20 percent right and let's say width would be 60 percent of it
+
+693
+01:23:41,880 --> 01:23:47,800
+just to view it now i hope they are able to get it like what is our difference between
+
+694
+01:23:51,240 --> 01:23:57,000
+inline and block and how can you convert an inline element into block block and inline let's say i
+
+695
+01:23:57,320 --> 01:24:05,640
+have a span text now i'll have next items as a span okay let's say these are the span text
+
+696
+01:24:05,640 --> 01:24:22,520
+uh let me repeat a span okay five six seven eight okay i'll have a class here
+
+697
+01:24:23,320 --> 01:24:31,400
+which will say span item or let's say this is uh item one
+
+698
+01:24:39,640 --> 01:24:45,560
+these are spanned by default the nature of this one is like if we want to convert them into a
+
+699
+01:24:45,560 --> 01:24:52,040
+block how would we do this as you should help me out uh with this example because
+
+700
+01:24:52,040 --> 01:24:57,640
+i have solved for one thing you have to suggest me take how can i make them same as this one let's
+
+701
+01:24:57,640 --> 01:25:05,560
+say we apply all of these properties right by default we know that height and width wouldn't
+
+702
+01:25:05,560 --> 01:25:16,680
+be applied display equal to block right let's see if i see this now this is working fine right
+
+703
+01:25:16,680 --> 01:25:29,880
+right now but what i'm saying is that what i'm saying is that now let's say i converted into
+
+704
+01:25:29,880 --> 01:25:36,840
+this one as a uh six and six i'm figuring this one
+
+705
+01:25:39,960 --> 01:25:44,360
+so i hope this is clear like how item can be converted to block block to inline inline to block
+
+706
+01:25:44,360 --> 01:25:48,920
+this is clear to everyone guys final thumbs up i will shoot next question
+
+707
+01:25:51,000 --> 01:25:58,360
+okay now let's say next element next thing that i have is uh okay which should be more
+
+708
+01:25:58,360 --> 01:26:03,240
+uh let's say i save 10 let's say make it 15
+
+709
+01:26:07,240 --> 01:26:14,120
+okay fine what my question is i want to align them in a single row i want to align them in
+
+710
+01:26:14,120 --> 01:26:21,400
+a single row all of these items and apply height and width through it how can how can i do it
+
+711
+01:26:26,840 --> 01:26:34,280
+so there are div elements there are span elements i want to apply
+
+712
+01:26:35,720 --> 01:26:40,520
+let's say let's solve for first four elements first four elements let's solve problem for
+
+713
+01:26:40,520 --> 01:26:45,880
+first four elements let's say we have item one two and three four uh no we don't want
+
+714
+01:26:45,880 --> 01:26:52,680
+to use display flex hashvini here so dhira suggest inline block how many of you think
+
+715
+01:26:52,680 --> 01:26:55,800
+that inline block in inline block would solve the problem
+
+716
+01:27:02,840 --> 01:27:03,960
+i see one thumbs up
+
+717
+01:27:04,520 --> 01:27:09,240
+uh if you don't know if you're not sure you can give me a thumbs down if you're not sure
+
+718
+01:27:10,360 --> 01:27:15,720
+but i just want to know you all of you got the question right all of you got the question
+
+719
+01:27:15,720 --> 01:27:22,840
+right i just want to convert them into horizontal row but i also want them to have height and width
+
+720
+01:27:23,960 --> 01:27:31,640
+so guys what we can do is that if you want to convert any element into let's say inline
+
+721
+01:27:31,640 --> 01:27:37,160
+you converted into inline they are fine but if you want to apply height and width to it
+
+722
+01:27:37,160 --> 01:27:44,440
+you can always use something called inline block when you use inline block right it is supposed to
+
+723
+01:27:44,440 --> 01:27:53,560
+take the height and width whatever you mention it is that clear guys whenever you apply inline block
+
+724
+01:27:53,560 --> 01:27:59,000
+all the elements inside it would be converted into inline but you can apply height and width
+
+725
+01:27:59,000 --> 01:28:03,720
+converted into inline but you can apply height and width to it that's only the difference
+
+726
+01:28:05,000 --> 01:28:11,080
+okay the difference between inline and block we know but if we convert something into inline block
+
+727
+01:28:11,080 --> 01:28:15,640
+we are converting such that those are aligned in horizontal line and it is taking only the
+
+728
+01:28:15,640 --> 01:28:22,680
+amount of space it needs right we can apply height and width to those particular elements clear
+
+729
+01:28:23,160 --> 01:28:28,920
+okay now can you see this like all the boxes are arranged in a right like a let's say if i have a
+
+730
+01:28:28,920 --> 01:28:35,720
+nine element so i have a nine element this is looking like a dialer if i reduce the
+
+731
+01:28:46,840 --> 01:28:47,320
+right
+
+732
+01:28:47,320 --> 01:28:53,320
+let's say whatever it is so i hope a difference between let's let's say i write it down on the
+
+733
+01:28:53,320 --> 01:29:01,240
+ipad so that it's a kind of a revision so we know that there are some elements let's say we are
+
+734
+01:29:01,240 --> 01:29:07,960
+taking something like inline block and inline block
+
+735
+01:29:08,040 --> 01:29:13,720
+something like inline block and inline block
+
+736
+01:29:17,160 --> 01:29:24,920
+right if i write down definition takes only the space needed
+
+737
+01:29:24,920 --> 01:29:29,880
+right
+
+738
+01:29:32,200 --> 01:29:37,480
+height and width not applied
+
+739
+01:29:43,080 --> 01:29:44,360
+but when it comes to block
+
+740
+01:29:46,600 --> 01:29:49,320
+takes whole row
+
+741
+01:29:50,200 --> 01:29:54,280
+new row to render data
+
+742
+01:29:58,600 --> 01:30:02,120
+and height and width
+
+743
+01:30:04,280 --> 01:30:06,280
+can be applied
+
+744
+01:30:06,280 --> 01:30:13,240
+applied
+
+745
+01:30:16,280 --> 01:30:27,240
+when it comes to inline block we say that takes only the space needed
+
+746
+01:30:29,560 --> 01:30:30,360
+and also
+
+747
+01:30:30,360 --> 01:30:37,320
+we can apply height and width
+
+748
+01:30:44,200 --> 01:30:48,360
+right these are the basic differences guys is everyone aligned with this
+
+749
+01:30:50,040 --> 01:30:52,040
+between inline block and inline block
+
+750
+01:30:52,040 --> 01:31:00,840
+okay if everyone is aligned with this i have another thing to show you guys okay
+
+751
+01:31:02,760 --> 01:31:04,280
+then there is another property called
+
+752
+01:31:06,760 --> 01:31:14,680
+display none what does it do display none anyone any idea display none
+
+753
+01:31:15,480 --> 01:31:17,480
+let's say if i make it none
+
+754
+01:31:20,520 --> 01:31:28,200
+you see this all the items been removed nothing will display but there is something called also
+
+755
+01:31:29,640 --> 01:31:31,640
+display hidden
+
+756
+01:31:33,000 --> 01:31:40,600
+sorry display none is a one property i can also achieve this using
+
+757
+01:31:40,600 --> 01:31:46,120
+visibility hidden what would be the difference between these two guys
+
+758
+01:31:47,640 --> 01:31:51,160
+like both are achieving same thing right both are achieving same thing firstly
+
+759
+01:31:52,040 --> 01:31:57,720
+let's say i make it display none you see we are not able to see elements if i comment this and
+
+760
+01:31:57,720 --> 01:32:01,080
+uncomment this one still the same thing right
+
+761
+01:32:01,320 --> 01:32:07,640
+so people are saying the space will be there space will be affected okay display equal to none what
+
+762
+01:32:07,640 --> 01:32:15,720
+will happen think in terms of answer in terms of dom guys let's say i open this in live server
+
+763
+01:32:16,360 --> 01:32:17,560
+give me a second
+
+764
+01:32:18,600 --> 01:32:23,480
+let's say i open this in live server give me a second
+
+765
+01:32:23,480 --> 01:32:30,600
+in terms of dom guys let's say i open this in live server give me a second
+
+766
+01:32:41,160 --> 01:32:49,720
+okay okay there are too many answers but let's say i go to inspect
+
+767
+01:32:50,200 --> 01:32:57,560
+i select inspect selector i just hit here this is a container that we have written now if you see
+
+768
+01:32:58,680 --> 01:33:04,680
+what is the property that we applied on item one we say that visibility hidden when visibility
+
+769
+01:33:04,680 --> 01:33:09,560
+hidden like if you see i'm hovering over this property i can see those boxes right actually
+
+770
+01:33:11,080 --> 01:33:18,280
+but it is like present here present in the dom but what if i uncomment this one and i make this one
+
+771
+01:33:19,880 --> 01:33:30,680
+okay still it are present in dom firstly okay some people confuse you with this question firstly
+
+772
+01:33:30,680 --> 01:33:37,480
+like whether the elements are removed from the dom or those are there first question is this one
+
+773
+01:33:37,480 --> 01:33:42,360
+second thing goes for the space when you can see about the space when you can see the problem
+
+774
+01:33:42,360 --> 01:33:47,400
+about the space is when you have extra elements below firstly let's say i go and add
+
+775
+01:33:48,040 --> 01:33:53,800
+why that issue why that question of item element is present in dom or not comes is i'll tell you
+
+776
+01:33:54,440 --> 01:34:02,360
+let's say i go and add 10 okay now if you see 10 is there but where you can see the 10
+
+777
+01:34:03,080 --> 01:34:09,560
+it is below the 3 whereas it's supposed to be after 4 isn't it
+
+778
+01:34:09,640 --> 01:34:10,200
+isn't it
+
+779
+01:34:15,240 --> 01:34:20,760
+because we defined after 4 right it is after 4 directly because these elements are removed
+
+780
+01:34:20,760 --> 01:34:27,960
+if these elements are removed after 4 the 10 should be there right but 10 is coming
+
+781
+01:34:27,960 --> 01:34:33,080
+here at the edge the reason for this one is because for the visibility hidden
+
+782
+01:34:33,080 --> 01:34:41,000
+then all the properties which are defined only they are hidden but not removed
+
+783
+01:34:43,480 --> 01:34:50,520
+is this clear for visibility the items are hidden but not removed like there is a box
+
+784
+01:34:50,520 --> 01:34:57,720
+you just throw a cloth on it but there is a box under the cloth but when it comes to display equal
+
+785
+01:34:57,720 --> 01:35:07,000
+to none the boxes are removed itself so when the people say that display equal to none do you think
+
+786
+01:35:08,200 --> 01:35:12,680
+the items are not removed i mean items are present in dom they ask this question
+
+787
+01:35:12,680 --> 01:35:18,040
+because if you see in the dom still you have these elements present you can still play around with
+
+788
+01:35:18,040 --> 01:35:25,960
+them isn't it so remember with this only one thing as you said that space will affect it that is all
+
+789
+01:35:25,960 --> 01:35:34,040
+good but related to dom also remember this point okay i hope this is clear guys how visibility and
+
+790
+01:35:34,040 --> 01:35:42,520
+display works now when you define both the properties display is overriding the visibility
+
+791
+01:35:42,520 --> 01:35:47,560
+okay can you repeat from the point of dom okay so what i was saying is that sambit here
+
+792
+01:35:48,280 --> 01:35:54,600
+like this though i haven't introduced the word dom like it's a just a document object model
+
+793
+01:35:54,600 --> 01:36:00,680
+which represents a tree tree like data structure builds a whole like a tree we'll see it in the
+
+794
+01:36:00,680 --> 01:36:06,920
+javascript initial class but here this is what a representation of dom looks like all the html
+
+795
+01:36:06,920 --> 01:36:14,360
+in the element tag what's happening is when i'm using display equal to none right because when
+
+796
+01:36:14,360 --> 01:36:20,280
+i'm display equal to none the element 10 is coming exactly after the four it means that all the
+
+797
+01:36:20,280 --> 01:36:26,120
+elements are removed from that space right that that items are not there itself there's a difference
+
+798
+01:36:26,120 --> 01:36:32,920
+between hiding and removing it so display equal to none works as something that removed it so when
+
+799
+01:36:32,920 --> 01:36:39,400
+we are removing it we mean to say that those are shouldn't be present even if you consider a tree
+
+800
+01:36:39,800 --> 01:36:47,400
+even if you consider a tree if you have a nodes of 10 nodes if you say that display none for the
+
+801
+01:36:47,400 --> 01:36:53,560
+some five four nodes it means that we are removing that nodes right but remember that it present in
+
+802
+01:36:53,560 --> 01:36:59,960
+the dom in both the cases okay only something like the behavior how display equal to none and
+
+803
+01:36:59,960 --> 01:37:07,800
+visibility hidden is working hiding and removing kind of that okay so let me say this one
+
+804
+01:37:10,200 --> 01:37:11,800
+uh
+
+805
+01:37:16,120 --> 01:37:17,080
+display none
+
+806
+01:37:20,040 --> 01:37:23,160
+removes elements
+
+807
+01:37:25,480 --> 01:37:31,800
+from screen you can say this way whereas visibility hidden
+
+808
+01:37:39,400 --> 01:37:56,200
+takes space and hide the elements
+
+809
+01:37:59,240 --> 01:38:05,960
+okay so i hope these points are clear guys how visibility and display none works
+
+810
+01:38:06,600 --> 01:38:11,960
+so i'm converting this into display equal to inline block for our sake
+
+811
+01:38:14,360 --> 01:38:20,760
+okay so even with the display none the elements will be present in dom yeah that's what it is
+
+812
+01:38:20,760 --> 01:38:25,960
+looking like right that's what it is showing here you can still see that the element here it is there
+
+813
+01:38:25,960 --> 01:38:34,280
+like let's say i use display none right okay i remove this one if you see i'm hovering over it
+
+814
+01:38:34,280 --> 01:38:38,600
+but it's not present in the element but they are present in the dom tree right
+
+815
+01:38:39,720 --> 01:38:43,080
+they're not on the hd document but they're present in the dom tree
+
+816
+01:38:45,400 --> 01:38:53,400
+that is what i was talking about shape right so i mean they try to confuse your test they
+
+817
+01:38:54,280 --> 01:39:00,200
+basically all the answers that you gave were right that uh here the space will get affected
+
+818
+01:39:00,200 --> 01:39:04,600
+or there will be some items where hidden or removed but i want to say that hey
+
+819
+01:39:05,800 --> 01:39:10,440
+yeah dom will not be affected in general dom will be there okay
+
+820
+01:39:15,000 --> 01:39:22,280
+okay so if this is this thing is clear display property is also completed okay i hope this
+
+821
+01:39:23,240 --> 01:39:27,720
+things are clear if you need break let me know how many minutes you need it because i have one of
+
+822
+01:39:27,720 --> 01:39:34,360
+the important property to cover uh which is a position where i've seen people been asking me
+
+823
+01:39:34,360 --> 01:39:39,240
+from the first class about the position which is like difficult one we'll come back and we'll
+
+824
+01:39:39,240 --> 01:39:47,000
+discuss on a position property you need 10 minutes okay i'll keep 10 minutes but as i need your full
+
+825
+01:39:47,000 --> 01:39:55,880
+attention after uh 10 minutes okay because that's a one of the uh important topic an easier topic
+
+826
+01:39:55,880 --> 01:40:04,040
+to say so this push the code yeah okay i'll do that uh give me a second i'll push the code
+
+827
+01:40:04,520 --> 01:40:08,200
+so
+
+828
+01:40:24,600 --> 01:40:32,040
+uh done some bit okay i'm starting 10 minutes guys uh so please uh come back with full energy
+
+829
+01:40:32,040 --> 01:40:37,720
+because i need uh you to understand that topic well okay because that is somewhere people
+
+830
+01:40:37,720 --> 01:40:41,720
+try to struggle and it has been asked in interviews also
+
+831
+01:40:45,640 --> 01:40:53,640
+which software i'm using to teach uh which one ankit i'll start the timer i can discuss with you
+
+832
+01:40:53,720 --> 01:40:59,880
+guys take the brick uh html this one uh this one is vs code
+
+833
+01:41:00,600 --> 01:41:08,440
+okay visual studio code if you go to the project repo right uh you go to self-study link uh let's
+
+834
+01:41:08,440 --> 01:41:14,120
+say i show it in the pre-open and preview i've given this uh vs code editor download link also
+
+835
+01:41:14,120 --> 01:41:22,120
+you can download it from here okay and also uh if you want uh live server i've given that and all
+
+836
+01:41:22,120 --> 01:41:26,040
+the reference material whatever you need to go through i'm giving in self-study document you can
+
+837
+01:41:26,040 --> 01:41:31,000
+refer to that class by class okay i'll keep on adding the document that you have to go through
+
+838
+01:41:31,000 --> 01:41:37,160
+after each class because all the things cannot be thought or i cannot go in depth because i have the
+
+839
+01:41:37,160 --> 01:41:42,680
+time like time right that two and a half hours three hours whatever it is so if you read more
+
+840
+01:41:42,680 --> 01:41:46,360
+you can come back and we can discuss in depth more if you have those questions
+
+841
+01:41:46,360 --> 01:41:51,160
+okay so guys take the break i'll come in a minute
+
+842
+01:42:16,360 --> 01:42:17,160
+you
+
+843
+01:42:46,360 --> 01:42:47,160
+you
+
+844
+01:43:16,360 --> 01:43:17,160
+you
+
+845
+01:43:46,360 --> 01:43:47,160
+you
+
+846
+01:44:16,360 --> 01:44:17,160
+you
+
+847
+01:44:46,360 --> 01:44:47,160
+you
+
+848
+01:45:16,360 --> 01:45:17,160
+you
+
+849
+01:45:46,360 --> 01:45:47,160
+you
+
+850
+01:46:16,360 --> 01:46:17,160
+you
+
+851
+01:46:46,360 --> 01:46:46,860
+you
+
+852
+01:47:16,360 --> 01:47:17,000
+you
+
+853
+01:47:46,360 --> 01:47:47,000
+you
+
+854
+01:48:16,360 --> 01:48:17,000
+you
+
+855
+01:48:46,360 --> 01:48:47,000
+you
+
+856
+01:49:16,360 --> 01:49:17,000
+you
+
+857
+01:49:46,360 --> 01:49:47,000
+you
+
+858
+01:50:16,360 --> 01:50:17,000
+you
+
+859
+01:50:46,360 --> 01:50:47,000
+you
+
+860
+01:51:03,080 --> 01:51:04,520
+guys i hope everyone is back
+
+861
+01:51:07,960 --> 01:51:11,000
+guys can you give me some reactions uh if you're back
+
+862
+01:51:16,360 --> 01:51:21,000
+okay thank you thank you i see six people
+
+863
+01:51:23,000 --> 01:51:29,720
+so guys what we have discussed till now font text
+
+864
+01:51:32,280 --> 01:51:34,040
+then we discussed box model
+
+865
+01:51:37,560 --> 01:51:43,480
+then we discussed display on top level we discussed all the types of things that
+
+866
+01:51:43,480 --> 01:51:54,760
+that you can do here we learned margin padding and border and box sizing
+
+867
+01:51:54,760 --> 01:52:13,520
+property right in display we have understood in line in line block then
+
+868
+01:52:13,520 --> 01:52:27,480
+lock then none and visibility right hidden so I hope when you see this
+
+869
+01:52:27,480 --> 01:52:32,440
+property is whatever I've just wrote now everything is clear to you right
+
+870
+01:52:32,440 --> 01:52:36,440
+anything do you feel like still new to you or anything you feel under
+
+871
+01:52:36,440 --> 01:52:47,560
+confident about any property let me know if I write down font size weight text
+
+872
+01:52:47,560 --> 01:53:01,320
+decoration spacing all type of spacing right guys are you confident about this
+
+873
+01:53:01,320 --> 01:53:08,000
+properties we discussed give me thumbs up if you are feeling confident about
+
+874
+01:53:08,000 --> 01:53:12,720
+this one or like from concept point like I don't assume that you are expert at
+
+875
+01:53:12,720 --> 01:53:20,800
+them because it will come with practice but you understand them right I see six
+
+876
+01:53:20,800 --> 01:53:26,760
+thumbs up okay if I'm not getting thumbs down I'll agree I'll consider that you
+
+877
+01:53:27,600 --> 01:53:35,200
+had a good understanding on them okay moving it this to the property one of
+
+878
+01:53:35,200 --> 01:53:42,720
+the confusing property is position how many you have faced under problem
+
+879
+01:53:42,720 --> 01:53:48,560
+understanding this one if you have studied earlier if you have studied
+
+880
+01:53:48,560 --> 01:53:53,680
+early how many of you have faced challenge understanding this one three
+
+881
+01:53:53,680 --> 01:54:05,920
+people okay okay okay cool no worries I see three people no yes when I say when
+
+882
+01:54:05,920 --> 01:54:10,560
+I say this position at office what do you exactly know about it like position
+
+883
+01:54:10,560 --> 01:54:19,880
+at office let's say I'm sd2 I'm sd2 what would be the role like sd1 then I can go
+
+884
+01:54:19,880 --> 01:54:26,600
+to sd3 or senior software then maybe at my office we call it as MTS one which
+
+885
+01:54:26,600 --> 01:54:32,160
+is tough right this is the hierarchy right we say this one as a position only
+
+886
+01:54:32,160 --> 01:54:39,640
+know in in general terms which keeps changing with your experience and your
+
+887
+01:54:39,640 --> 01:54:48,560
+performance right do you guys agree like what's your position at your office
+
+888
+01:54:48,560 --> 01:54:53,720
+not a multitasking the member of technical stuff they call it as a staff
+
+889
+01:54:53,720 --> 01:54:58,680
+engineer they were working in on actually you know renaming this
+
+890
+01:54:58,680 --> 01:55:07,520
+convention also but this is what position looks like right similarly if
+
+891
+01:55:07,560 --> 01:55:14,520
+you go for this one also we have said that all the elements are like boxes
+
+892
+01:55:14,520 --> 01:55:21,600
+HTML elements are like boxes now all this boxes whatever boxes are there are
+
+893
+01:55:21,600 --> 01:55:27,000
+present in one of the box which is your laptop or your device or whatever it is
+
+894
+01:55:27,000 --> 01:55:31,600
+take right what does whatever the size of your screen is that is a one big box
+
+895
+01:55:31,600 --> 01:55:41,800
+inside the box box only all the boxes are designed and kept right but if let's
+
+896
+01:55:41,800 --> 01:55:47,640
+say this is how we design that one to nine inline block one item then what if
+
+897
+01:55:47,640 --> 01:55:56,400
+we want to move this elements to any side from their respective position
+
+898
+01:55:56,600 --> 01:56:03,080
+right let's say my phone is currently here if I want to move it from position
+
+899
+01:56:03,080 --> 01:56:09,000
+that's a left right or top bottom on to the table from its particular position I
+
+900
+01:56:09,000 --> 01:56:19,440
+can use this property called position okay so position property generally
+
+901
+01:56:19,440 --> 01:56:25,200
+allows you to move the elements from its designed place place like when I say
+
+902
+01:56:25,200 --> 01:56:29,640
+design place all the elements whatever we have defined like item one two three
+
+903
+01:56:29,640 --> 01:56:34,960
+four are designed to be this way side by side but if we want to move from their
+
+904
+01:56:34,960 --> 01:56:40,960
+position to some other position or like move from with respect to anything if
+
+905
+01:56:40,960 --> 01:56:45,440
+you are moving them any side if you want to move them any only different places
+
+906
+01:56:45,440 --> 01:56:49,520
+then we have to go to the position property at least this thing is clear
+
+907
+01:56:49,520 --> 01:56:53,880
+when to use position and what is position
+
+908
+01:56:55,360 --> 01:56:59,440
+guys give me some reactions if not if not give me thumbs down if you don't if
+
+909
+01:56:59,440 --> 01:57:04,520
+you're not getting it give me thumbs down that's okay I'll take it slow okay
+
+910
+01:57:04,520 --> 01:57:09,480
+I see one thumbs down cool now what do I exactly mean to say is that when I say
+
+911
+01:57:09,480 --> 01:57:21,880
+HTM element I'll have div one right and div two I'm supposed to render one and
+
+912
+01:57:22,040 --> 01:57:32,760
+two on the screen right this is a screen right the person Ankit do you agree this
+
+913
+01:57:32,760 --> 01:57:40,440
+is how it will render right on screen but what if I want to move let's say one
+
+914
+01:57:40,440 --> 01:57:47,560
+and two here or one is somewhere here and two is still here like this thing
+
+915
+01:57:47,560 --> 01:57:51,800
+moving the particular element from their respective position though the
+
+916
+01:57:51,800 --> 01:57:57,320
+dom will be represented this way itself you got this if I have to move that
+
+917
+01:57:57,320 --> 01:58:01,760
+element to the left right top bottom then I have to approach for this person
+
+918
+01:58:01,760 --> 01:58:07,400
+position from their respective position like whatever these are position are
+
+919
+01:58:07,400 --> 01:58:13,560
+default positions okay the default the default there's a one property all the
+
+920
+01:58:13,560 --> 01:58:19,200
+elements whichever has same element you see the default property is static being
+
+921
+01:58:19,200 --> 01:58:24,920
+applied to it already whenever I say static what do we mean a difference
+
+922
+01:58:24,920 --> 01:58:32,600
+between like if you go for physics also static and dynamic right static is
+
+923
+01:58:32,600 --> 01:58:37,240
+someone who's to who is residing there itself right is not in motion is not
+
+924
+01:58:37,240 --> 01:58:45,760
+moving anywhere right stable there itself bodies at rest so all the elements
+
+925
+01:58:45,760 --> 01:58:51,800
+which are like already which are defined in HTML all the that you do it the items
+
+926
+01:58:51,800 --> 01:58:56,040
+will be defined till now whatever HTML we have written all the elements are by
+
+927
+01:58:56,040 --> 01:59:00,160
+default are having position static which means that they are not moving from
+
+928
+01:59:00,160 --> 01:59:03,680
+their position not moving from the question it means whatever you are
+
+929
+01:59:03,680 --> 01:59:10,240
+defined by default those are applied is this clear guys
+
+930
+01:59:11,240 --> 01:59:18,120
+till now the whatever story I explained is it clear to everyone right now if we
+
+931
+01:59:18,120 --> 01:59:23,960
+want them to be dynamic if we want them to dynamic or move from their position
+
+932
+01:59:23,960 --> 01:59:28,760
+whatever position is like assigned by Dom to them render while rendering we
+
+933
+01:59:28,760 --> 01:59:34,720
+want to move them and behave in certain way then we go for a properties like
+
+934
+01:59:34,720 --> 01:59:49,840
+relative absolute then fixed and sticky okay what all these properties are doing
+
+935
+01:59:49,840 --> 01:59:55,360
+you know one property should be actually enough to move the element like to move
+
+936
+01:59:55,360 --> 02:00:05,160
+the element you generally use something like top bottom left right again this
+
+937
+02:00:05,160 --> 02:00:12,760
+all the properties takes values in pixels REM and EM so I haven't discussed
+
+938
+02:00:12,760 --> 02:00:17,520
+this too I'll discuss in future but current currently consider pixels okay
+
+939
+02:00:17,520 --> 02:00:22,160
+these are the properties you can define once you define any position this one
+
+940
+02:00:22,160 --> 02:00:29,040
+this one or this one or this one or anything you are using okay but I hope
+
+941
+02:00:29,040 --> 02:00:34,040
+position static is clear by default it is rest that's a default nature and it
+
+942
+02:00:34,040 --> 02:00:38,560
+keeps the values in the same way but when it comes to other things let's say
+
+943
+02:00:38,560 --> 02:00:42,920
+relative and absolute let's pick them first okay this is somewhere people
+
+944
+02:00:42,920 --> 02:00:56,160
+confused relative and absolute okay we'll discuss this first now both things
+
+945
+02:00:56,160 --> 02:01:00,600
+are helpful to move the element from one position to other position from their
+
+946
+02:01:00,600 --> 02:01:08,440
+assigned well assigned place let's say this is a table and my phone is here
+
+947
+02:01:08,600 --> 02:01:16,800
+okay what I'm doing is I'm moving my phone from here to here okay I'll say
+
+948
+02:01:16,800 --> 02:01:29,480
+that this is a distance X and I'll say that this is a distance Y okay what is
+
+949
+02:01:29,480 --> 02:01:41,240
+happening here which I also make a dotted line I moved my mobile from there
+
+950
+02:01:41,240 --> 02:01:49,360
+to here now what is generally happening is like if my phone is moving with
+
+951
+02:01:49,360 --> 02:01:55,960
+respect to its original position like what do I say when I say X X is a
+
+952
+02:01:55,960 --> 02:02:09,800
+distance which is moving with respect to
+
+953
+02:02:11,840 --> 02:02:21,840
+original question I mean if I say an element let's say my phone is here let's
+
+954
+02:02:21,840 --> 02:02:25,680
+say my phone is here at this particular question and I say I'm moving this mobile
+
+955
+02:02:25,680 --> 02:02:31,860
+to this one this thing can be only done like we are moving it from the
+
+956
+02:02:31,860 --> 02:02:36,040
+particular question where it was there let's say you say 10 pixel move towards
+
+957
+02:02:36,040 --> 02:02:40,840
+the right from your point of view left if I'm moving 10 pixel this side I mean
+
+958
+02:02:40,840 --> 02:02:44,320
+to say that I'm moving it from with respect to its actual original position
+
+959
+02:02:44,320 --> 02:02:52,160
+and when you can apply this thing when position is relative
+
+960
+02:02:56,680 --> 02:03:14,960
+but when this role of Y comes role of Y comes when item is moved with respect to
+
+961
+02:03:17,000 --> 02:03:23,720
+window or you can say table top corner
+
+962
+02:03:26,680 --> 02:03:38,000
+this is clear guys what I'm denoting X&Y top left yeah top left so I'll show you
+
+963
+02:03:38,000 --> 02:03:42,760
+this examples both again I'll come back to this example but but how many of you
+
+964
+02:03:42,760 --> 02:03:50,160
+got this diagram or representation that I was trying to explain if you didn't
+
+965
+02:03:50,160 --> 02:03:53,640
+get it that's also fine give me thumbs down if you didn't get it I'll explain
+
+966
+02:03:53,640 --> 02:04:00,320
+with a real-time example then I'll come back okay see too cool further yeah three
+
+967
+02:04:00,320 --> 02:04:04,900
+people got it no this case let's come back let's do some coding and then come
+
+968
+02:04:04,900 --> 02:04:20,000
+back so let's say let's create a folder calling as position again inside this
+
+969
+02:04:20,000 --> 02:04:30,880
+I'll use index start HTML okay let's see the magic is what's happening now I'll
+
+970
+02:04:30,880 --> 02:04:41,400
+close this I'll render this don't need a server live server but there is nothing
+
+971
+02:04:41,520 --> 02:04:49,360
+in it yet but let's say this is absolute
+
+972
+02:04:52,840 --> 02:05:02,280
+versus related okay but before that what I'll do is that let's say I go and define
+
+973
+02:05:02,880 --> 02:05:15,000
+let's say I have a paragraph I use lorem 20 lorem 5 that's enough again I'll replicate
+
+974
+02:05:15,000 --> 02:05:28,200
+this one multiple times let's say okay and I say this as class first I use
+
+975
+02:05:28,200 --> 02:05:46,160
+class as second as third classes second third fourth okay now what I'm doing
+
+976
+02:05:46,160 --> 02:05:51,480
+here is like I'll create a style block now let's say I created a style block
+
+977
+02:05:51,480 --> 02:06:02,800
+and I'm just trying to access first element and even if I give display first static okay I'm
+
+978
+02:06:02,800 --> 02:06:14,960
+giving static okay and if I'm trying to define this property top 10 pixel or bottom 10 pixel
+
+979
+02:06:14,960 --> 02:06:23,920
+or left 10 pixel actually one of the set of the properties would be enough either
+
+980
+02:06:23,920 --> 02:06:27,680
+you pick top or bottom and right or a top and left anything would be enough for you
+
+981
+02:06:27,680 --> 02:06:36,080
+to align the item let's say I'm doing it this way nothing is being applied firstly do you
+
+982
+02:06:36,080 --> 02:06:44,040
+guys agree I made this change I applied to this first class do you see when I make it
+
+983
+02:06:44,040 --> 02:06:49,680
+static and I'm trying to apply this property this top bottom left right first those are not
+
+984
+02:06:49,680 --> 02:06:56,600
+applying to it is this clear because static property doesn't take any changes along with it
+
+985
+02:06:56,600 --> 02:07:07,280
+it doesn't move the element from its position it keeps it static okay now let's say I'm making
+
+986
+02:07:07,280 --> 02:07:21,480
+it relative okay sorry I have to pardon me is no one reminded me I have to make position static
+
+987
+02:07:21,480 --> 02:07:30,400
+I went on to define as display again but I'm I want to reconfirm that nothing is changing okay
+
+988
+02:07:30,400 --> 02:07:41,280
+let's say I comment this and I make it relative okay still there is no change in this lore but
+
+989
+02:07:41,280 --> 02:07:54,120
+what if I make this particular thing here do you see there's something happened to it let's say
+
+990
+02:07:54,960 --> 02:08:16,640
+I create a border of one pixel solid black okay I'll give a color of red so that you can see if
+
+991
+02:08:16,640 --> 02:08:23,920
+I comment this now let's say there's a particular position this particular red one is already
+
+992
+02:08:23,920 --> 02:08:30,520
+present what I'm saying is that what if I want to move from that particular position to below
+
+993
+02:08:30,520 --> 02:08:39,040
+then I can say move it from below 10 10 pixel if I say top equal to 10 pixel so I'm saying it
+
+994
+02:08:39,040 --> 02:08:46,960
+now wherever it is actual position is there move it 10 pixel below is that clear let's say I open
+
+995
+02:08:46,960 --> 02:08:55,520
+this I'll show it in the browser I want to explain you basic difference how actually absolute
+
+996
+02:08:55,520 --> 02:09:06,200
+and relative works firstly if you see I am selecting the element selector okay if you
+
+997
+02:09:06,200 --> 02:09:12,040
+select this one if I remove this if you say it is going to that actual position from its wherever
+
+998
+02:09:12,040 --> 02:09:19,800
+it is actual position where it should be residing but as soon as I apply this one it is moving
+
+999
+02:09:19,800 --> 02:09:35,440
+towards below and if I give let's say left value let's say I give left 10 pixel now can you see
+
+1000
+02:09:35,440 --> 02:09:41,960
+this it is moving from that particular position to left to the towards moving towards left I'm
+
+1001
+02:09:41,960 --> 02:09:50,520
+going towards right yes how many of you understand how relative works it is actually moving from
+
+1002
+02:09:50,520 --> 02:09:58,120
+its X its position itself like if you see that diagram right whatever I was saying so whatever's
+
+1003
+02:09:58,720 --> 02:10:08,080
+definition I'm so like my mobile was here not this one but I don't know which yeah this one
+
+1004
+02:10:08,080 --> 02:10:16,040
+let's say this was a position I moved it to this position that's I said left equal to 10 pixel when
+
+1005
+02:10:16,040 --> 02:10:21,600
+I'm moving with actual its respective post position which was actual position not horizontal axis
+
+1006
+02:10:21,600 --> 02:10:27,400
+somebody don't take it that mode towards left yeah so from its actual position wherever it
+
+1007
+02:10:27,400 --> 02:10:33,760
+was residing I'm moving from there okay but what if I make now let's see what if I make this
+
+1008
+02:10:33,760 --> 02:10:44,000
+particular value I remove this and I make it absolute do you see one thing something happened
+
+1009
+02:10:44,000 --> 02:10:58,280
+guys do you see something I had four content here I had four content and the values got merged do
+
+1010
+02:10:58,280 --> 02:11:15,760
+you see you can see only three things there what if I make color to be blue okay and I go and add
+
+1011
+02:11:15,760 --> 02:11:24,720
+let's say top 10 pixel or let's say 20 pixel can you see what happened here guys
+
+1012
+02:11:24,720 --> 02:11:35,440
+how many of you understood what happened here so what I said earlier from diagram
+
+1013
+02:11:35,440 --> 02:11:50,200
+let's say item is moved with respect to window like top left corner I mean to say that it will
+
+1014
+02:11:50,200 --> 02:11:56,000
+start whenever you define it absolute right so that particular position wherever that item is
+
+1015
+02:11:56,000 --> 02:12:01,760
+there it will be removed pulled up from there it will be taken to the starting position let's say
+
+1016
+02:12:01,760 --> 02:12:07,520
+I don't want to deal with the first item okay let's say I don't want to deal with the first
+
+1017
+02:12:07,520 --> 02:12:13,480
+item I'll select the fourth item itself if you are confused about first item that's I select the
+
+1018
+02:12:13,480 --> 02:12:23,640
+fourth item no okay so fourth item it is relative let's make absolute do you guys agree now even
+
+1019
+02:12:23,640 --> 02:12:28,960
+the fourth item was pulled and took to we took it to the first position top most position top most
+
+1020
+02:12:28,960 --> 02:12:35,480
+like windows position and from there we are moving it wherever position we want to now is
+
+1021
+02:12:35,480 --> 02:12:42,480
+the difference is clear guys what does relative and what is absolute absolute always moves from
+
+1022
+02:12:42,480 --> 02:12:47,960
+the window position like whatever top left right bottom you give it moves with respect to that
+
+1023
+02:12:47,960 --> 02:12:53,440
+window position whereas relative takes from its actual position where it was earlier there from
+
+1024
+02:12:53,440 --> 02:12:59,280
+there will move left and right and bottom this is basic difference clear guys how many of you
+
+1025
+02:12:59,280 --> 02:13:08,080
+have understood this one if there is still someone who didn't understand let me know because the
+
+1026
+02:13:08,080 --> 02:13:14,160
+only difference between absolute and relative is this one I see one thumbs down do you want
+
+1027
+02:13:14,160 --> 02:13:28,480
+me to unmute you some bit you want me to unmute you okay okay just recap okay I'll do this one
+
+1028
+02:13:28,480 --> 02:13:36,240
+let's say again re-explaining yeah no matter where it will be pulled it will be pulled it's
+
+1029
+02:13:36,240 --> 02:13:44,000
+like boss I'm I'm the boss of the HTML I don't care I'll be removed from my position I'll go
+
+1030
+02:13:44,000 --> 02:13:52,760
+anywhere I want okay you define me where I want to go using top left right bottom absolute is
+
+1031
+02:13:52,760 --> 02:14:08,160
+that that kind of person is that clear some with okay yeah no then let's say I actually
+
+1032
+02:14:08,160 --> 02:14:14,080
+write down few examples to it it's the same thing guys but what I'm trying to do is that let's say
+
+1033
+02:14:14,080 --> 02:14:22,640
+I copy paste some of the content for you so that you can refer it better okay I made this one but
+
+1034
+02:14:22,640 --> 02:14:30,200
+let's say I have an example I build this again lorem ipsum itself now with let's say what I have
+
+1035
+02:14:30,200 --> 02:14:41,640
+done is I add some styles to this paragraph div container let's say these are the things that
+
+1036
+02:14:41,640 --> 02:14:47,600
+I added nothing just like 5 pixel border and I've given height and width nothing much in it then
+
+1037
+02:14:47,600 --> 02:14:55,680
+we know that static doesn't matter right even if I declare you know here since these are all
+
+1038
+02:14:55,720 --> 02:15:04,960
+paragraphs let's say if I declare p tag and I add it like position static doesn't matter
+
+1039
+02:15:04,960 --> 02:15:14,360
+that should be clear to you okay but I'm removing it then let's say I have here IDs like para 1 para
+
+1040
+02:15:14,360 --> 02:15:29,400
+2 because I have defined it using IDs here let's say I go for para 2 and no if you go in major
+
+1041
+02:15:29,400 --> 02:15:36,720
+websites right major websites like if I go for let's say HDFC life insurance itself life
+
+1042
+02:15:36,800 --> 02:15:46,920
+insurance okay I'll show you one thing here they I won't give my contact details to them
+
+1043
+02:15:46,920 --> 02:16:01,760
+the stuff too much but okay it's very slow isn't it their website is slow or like okay
+
+1044
+02:16:01,760 --> 02:16:13,200
+yeah anyways so what I was what I was trying to show you guys is that let it load
+
+1045
+02:16:13,200 --> 02:16:25,280
+huh now do you see this on top right chat and this one these two things chat with us and this
+
+1046
+02:16:25,280 --> 02:16:34,160
+one these are defined let's say if I go and search in the DOM right I go and search here
+
+1047
+02:16:34,160 --> 02:16:46,360
+in the DOM let's say chat with us if you see this is the class applied message icon okay now if you
+
+1048
+02:16:46,360 --> 02:16:55,040
+go here what they applied here what is the thing applied here what is the position applied here
+
+1049
+02:16:55,040 --> 02:17:03,160
+absolute right and they made something like top zero what is the behavior now if you see if you
+
+1050
+02:17:03,160 --> 02:17:08,640
+want to define a footer for your website this is how you do it you said that hey can you come out
+
+1051
+02:17:08,640 --> 02:17:16,680
+of your actual HTML flow and always stay wherever I define always stay like from top to zero select
+
+1052
+02:17:16,680 --> 02:17:22,160
+like reverse it or else you can also also say this way let's say if I'm this I'm defining a
+
+1053
+02:17:22,160 --> 02:17:33,760
+footer here using para one I can say ID para one I can say position absolute and I also can say
+
+1054
+02:17:33,760 --> 02:17:44,040
+bottom zero okay now if you see this particular thing let's say I define it in the color red
+
+1055
+02:17:44,040 --> 02:17:55,320
+doesn't matter if I have height of let's say 1400 pixel okay you see it is always let me close
+
+1056
+02:17:55,320 --> 02:18:00,880
+this one if you see it will be always there whatever your height of your absolutely like
+
+1057
+02:18:00,880 --> 02:18:07,840
+this one is in the size of it it will be stick to there or else let's say if I make top to be
+
+1058
+02:18:07,840 --> 02:18:19,680
+zero if you see it will go to the top to the particular viewport yeah is this clear guys how
+
+1059
+02:18:19,680 --> 02:18:27,600
+now absolute property works I hope this is clear like how absolute and relative are working now
+
+1060
+02:18:27,600 --> 02:18:33,840
+I'll show you the example of really I'll write down for relative also let's say I have this
+
+1061
+02:18:33,840 --> 02:18:42,840
+styling I've just build this example let's say now if you see para 3 right para 3 I made it
+
+1062
+02:18:42,840 --> 02:18:50,580
+related and I've gave it would be actual position would be this one and the top and left are moving
+
+1063
+02:18:50,580 --> 02:18:55,280
+like from its actual position wherever it was position was this one but I made let's say if
+
+1064
+02:18:55,280 --> 02:19:01,320
+I move again top let's say 20 or 30 its position should be somewhere here but we are moving it
+
+1065
+02:19:01,320 --> 02:19:07,160
+down and also we are moving it from left side we are moving 30 pixel that way okay I hope now
+
+1066
+02:19:07,160 --> 02:19:13,960
+absolute and relative should be clear to you like how they are working okay now I have two
+
+1067
+02:19:13,960 --> 02:19:20,200
+other examples guys they are pretty simple so I'll I'll explain you why pasting it okay because
+
+1068
+02:19:20,200 --> 02:19:32,480
+we are running out of time fixed dot HTML so fixed is like let me show I'll show you with the
+
+1069
+02:19:32,480 --> 02:19:45,760
+example itself that I have let's say I build this HTML 5 and I reclose this one I open show
+
+1070
+02:19:45,760 --> 02:19:56,040
+preview let's say I have a div again I have a list of four paragraphs again I built it using
+
+1071
+02:19:56,040 --> 02:20:10,480
+lorem itself let's say copy and paste it nothing new in this same thing one div as a container
+
+1072
+02:20:10,480 --> 02:20:17,560
+inside that four paragraph with ID para 1 para 2 para 3 para 4 IDs okay and lorem lorem being
+
+1073
+02:20:17,560 --> 02:20:24,240
+added for div what I'll do is like let's say I've added this one inside a style block I'm
+
+1074
+02:20:24,240 --> 02:20:31,000
+adding just for container height and width I'm giving it okay what I did I gave food 400 pixel
+
+1075
+02:20:31,000 --> 02:20:37,960
+okay by default browser will give me a scroller if my page size is more than it is viewport like
+
+1076
+02:20:37,960 --> 02:20:43,240
+my laptop sizes are certain height but if the height is more than my laptop height I'll
+
+1077
+02:20:43,240 --> 02:20:53,120
+automatically get a scroller okay now what I'm going to do is that let's say let's say what
+
+1078
+02:20:53,120 --> 02:21:00,280
+I want to do is like I want this paragraph to be sticked here only like like if you see in the
+
+1079
+02:21:00,280 --> 02:21:07,440
+going back here if this HDFC right the resume application premium the header header part you
+
+1080
+02:21:07,440 --> 02:21:16,480
+can see this this is always stick there can you see this it is always on the top itself it has
+
+1081
+02:21:16,480 --> 02:21:22,840
+hanged but the page is like going below the page is going below once like we are scrolling it okay
+
+1082
+02:21:22,840 --> 02:21:28,840
+so we are saying that hey that position should be fixed when we are getting so that even if the
+
+1083
+02:21:28,840 --> 02:21:33,600
+viewport is changing pages crawling down you want to be something to be fixed you can use
+
+1084
+02:21:33,600 --> 02:21:45,120
+position fixed let's say how can you do it I have para one as an ID para one I use position as
+
+1085
+02:21:45,120 --> 02:22:03,240
+fixed and let's say I define it as top equal to zero okay and I say color equal to right now
+
+1086
+02:22:03,240 --> 02:22:08,880
+though they both are residing if you see even if I'm scrolling it it will be always there the
+
+1087
+02:22:09,720 --> 02:22:15,320
+going it is converted into two layers so the whenever you fix the particular position it
+
+1088
+02:22:15,320 --> 02:22:22,760
+will be always be there now even if you go for bottom right bottom zero okay now whenever I'm
+
+1089
+02:22:22,760 --> 02:22:28,560
+even scrolling it is still stick there the difference between now let me show absolutely
+
+1090
+02:22:28,560 --> 02:22:38,640
+if I open this absolute right index dot HTML show preview okay now if you see this absolutely made
+
+1091
+02:22:38,640 --> 02:22:43,720
+bottom zero if you are scrolling it is coming again it will be only fixing to the viewport I
+
+1092
+02:22:43,720 --> 02:22:50,280
+mean which is using absolute or relative you can make changes till particular viewport only
+
+1093
+02:22:50,280 --> 02:22:56,560
+on current page but if you want to play around with the different level like you you have to
+
+1094
+02:22:56,560 --> 02:23:00,720
+go with fixed one if you want it to be header and footer sort of implementation
+
+1095
+02:23:00,720 --> 02:23:14,480
+here guys can we use both like give me an example some bit like how do you want to use both because
+
+1096
+02:23:14,480 --> 02:23:20,080
+fixed is something in doesn't matter where you give it particular location that hey whether you
+
+1097
+02:23:20,080 --> 02:23:24,440
+fixed has been designed for that use case itself like it will be always stick to the bottom or
+
+1098
+02:23:24,440 --> 02:23:35,240
+top that's how they have used it I hope this thing is clear guys absolute relative and fixed
+
+1099
+02:23:35,240 --> 02:23:48,320
+right now I have the final one let's say I say sticky sticky is really similar to fixed actually
+
+1100
+02:23:48,320 --> 02:23:54,320
+but there's some change in its behavior I will show you how it works left and right can be used
+
+1101
+02:23:54,440 --> 02:24:07,560
+fixed let's say I'll show you it can be used it can be used some bit it can be used just a second
+
+1102
+02:24:07,560 --> 02:24:25,600
+I made some how it can I take your doubt in break we can explore further but I'll complete
+
+1103
+02:24:25,600 --> 02:24:36,000
+the fix sticky part then I'll pick it up okay let's say I open in a show preview no sticky
+
+1104
+02:24:36,000 --> 02:24:44,080
+is actually similar to fixed one but the behavior of sticky starts when it comes to the viewport
+
+1105
+02:24:44,080 --> 02:24:59,920
+I'll show you how let's say this is a sticky and let me copy the this is pretty simple example I
+
+1106
+02:24:59,920 --> 02:25:10,000
+have container and four dips let's say I design container this way using style property okay I
+
+1107
+02:25:10,000 --> 02:25:19,040
+had this dodger blue color and I can do like I may making them all the boxes converted into in line
+
+1108
+02:25:19,040 --> 02:25:28,240
+in line block okay and I've given him height and width okay I don't need this in line block also
+
+1109
+02:25:28,480 --> 02:25:33,520
+okay let it make let it be there so that height and width are applied margin top is applied okay
+
+1110
+02:25:34,080 --> 02:25:41,040
+if you see here what's happening is like I've just made it like I've added margin 300 picture
+
+1111
+02:25:41,040 --> 02:25:46,480
+and given the height and width to the each box nothing new I have done it but there are sometimes
+
+1112
+02:25:46,480 --> 02:25:52,080
+right on the websites right when you're scrolling through there is something right like when you
+
+1113
+02:25:52,240 --> 02:25:58,080
+keep on seeing there is some picture gets stick and if you keep on solving scrolling below but
+
+1114
+02:25:58,080 --> 02:26:03,760
+that they that stick to the viewport there is some picture always stick to the viewport like
+
+1115
+02:26:03,760 --> 02:26:10,800
+there are some advertisements that happens comes let's say there is an overlay overlay comes and
+
+1116
+02:26:10,800 --> 02:26:18,880
+it stick like but the other ones keep scrolling like menu I don't think it I try to find that
+
+1117
+02:26:18,880 --> 02:26:25,600
+example but let's say this is the one even if I scroll I cannot scroll it yeah I'm able to
+
+1118
+02:26:25,600 --> 02:26:33,680
+scroll it but this is not the exactly sticky example nothing is available here as a sticky
+
+1119
+02:26:34,400 --> 02:26:41,520
+even if I go to let's say google news ad okay let's say google news I go to google news
+
+1120
+02:26:41,760 --> 02:26:45,920
+uh use precise location I don't need
+
+1121
+02:26:48,000 --> 02:26:50,000
+okay not now India
+
+1122
+02:26:52,160 --> 02:26:53,760
+let's say I scroll it
+
+1123
+02:26:55,920 --> 02:26:59,440
+there is no behavior as such guys but I'll show you what I exactly mean
+
+1124
+02:27:00,160 --> 02:27:05,520
+okay you will get a sticky ad okay geek for geeks but I hope you got the basic thing now I'll show
+
+1125
+02:27:05,520 --> 02:27:10,400
+you how that actually plays a role okay let's say I select the box three here
+
+1126
+02:27:13,920 --> 02:27:22,080
+box underscore three and I open this and I just add position as sticky so what I'm saying that
+
+1127
+02:27:22,080 --> 02:27:28,560
+box three this particular box should be sticky and I'll give that position let's say top and zero
+
+1128
+02:27:29,360 --> 02:27:36,080
+okay now if you see there's nothing happening but there's nothing happening till that box three
+
+1129
+02:27:36,080 --> 02:27:43,040
+comes as soon as box three comes and goes right even if I'm scrolling box three sticks to the
+
+1130
+02:27:43,040 --> 02:27:50,000
+top position so it behaves like a fixed but only after some extent
+
+1131
+02:27:52,800 --> 02:27:56,480
+only after it reaches the actual viewport it comes into the role
+
+1132
+02:27:56,480 --> 02:27:57,600
+it comes into the role
+
+1133
+02:27:59,760 --> 02:28:02,640
+is that clear guys how sticky is different from
+
+1134
+02:28:03,600 --> 02:28:08,960
+fixed it acts as a fixed only when you get introduced let's say if I make it bottom zero
+
+1135
+02:28:10,960 --> 02:28:15,280
+okay let's say I scroll through if you see
+
+1136
+02:28:15,280 --> 02:28:31,440
+only only like let's say from when you're coming from top three will be there till it's till that
+
+1137
+02:28:31,440 --> 02:28:36,960
+position actual position of three comes okay after that position of three has been entered
+
+1138
+02:28:37,600 --> 02:28:44,880
+it behaves like a normal element goes away but generally this is used for top like as soon as
+
+1139
+02:28:44,880 --> 02:28:50,240
+you've seen that picture it will stick on to the top until even if you scroll it it will stick there
+
+1140
+02:28:52,000 --> 02:28:58,880
+clear so sticky is similar to the fixed type of you know element generally it that comes into
+
+1141
+02:28:58,880 --> 02:29:07,440
+the role whenever you visit that element how you want to behave it okay guys so I hope these are
+
+1142
+02:29:07,440 --> 02:29:13,760
+the basic examples I picked it up if you still have any doubts stay here in the class I'll try
+
+1143
+02:29:13,760 --> 02:29:19,360
+to explain you all those properties like whatever you have doubt what I'll do is like I'll share the
+
+1144
+02:29:19,360 --> 02:29:25,760
+content that you can read through I'll get push the push in the data while you know ping in the
+
+1145
+02:29:25,760 --> 02:29:32,400
+whatsapp group so that you all have the notes okay or wherever you want to refer to okay but
+
+1146
+02:29:32,400 --> 02:29:37,440
+any doubts from today's class if you have please stick to the stick for the doubt session guys
+
+1147
+02:29:37,440 --> 02:29:45,840
+okay uh guys so with your permission can I start doubt session
+
+1148
+02:29:51,440 --> 02:29:52,080
+thank you guys
+
+1149
+02:29:54,560 --> 02:30:01,200
+uh I'm supposed to pick few things uh I have missed it okay some bit has pushed it equation
+
+1150
+02:30:01,600 --> 02:30:08,560
+so normally most of the time I use margin right uh and left to fix the position
+
+1151
+02:30:08,560 --> 02:30:17,360
+is it always recommended to use position uh like as I told you firstly some bit think of this way
+
+1152
+02:30:21,120 --> 02:30:28,880
+uh firstly I'll answer uh some bit question some bit now think of this way the use case right uh
+
+1153
+02:30:29,840 --> 02:30:35,280
+when to go for position I've told you that firstly if I'm moving it from the current position
+
+1154
+02:30:35,280 --> 02:30:39,680
+right I'm moving it from the current position all the other elements are also getting disturbed
+
+1155
+02:30:40,720 --> 02:30:45,200
+okay I'm taking a huge risk that whether I will be able to manage the viewport
+
+1156
+02:30:45,200 --> 02:30:51,520
+or how it will be rendered if you are using position mainly they are dealing with like you
+
+1157
+02:30:51,520 --> 02:30:57,440
+are uh like whatever flow of your document right you are you are removing you are playing around
+
+1158
+02:30:57,440 --> 02:31:04,800
+with that document flow mostly people what they do is like they deal uh use position for headers
+
+1159
+02:31:04,800 --> 02:31:13,040
+footers and menu sort of fields okay and there are some things right like like fixed and sticky
+
+1160
+02:31:13,040 --> 02:31:19,200
+they use it but if you want to use position people are using relative because if you want to move
+
+1161
+02:31:19,200 --> 02:31:23,440
+like let's say you want you said you told that you want to move it from left or right of that
+
+1162
+02:31:23,440 --> 02:31:27,920
+particular uh existing position then you can use relative you can make that position as
+
+1163
+02:31:27,920 --> 02:31:34,960
+relative and move left and right okay that you can do but like there if you again if you use
+
+1164
+02:31:34,960 --> 02:31:39,840
+absolute somewhere below that things will overlap it's up to you if you are designing how you want
+
+1165
+02:31:39,840 --> 02:31:46,000
+to do it but if you are using margin right margin left that is again a box model which that space
+
+1166
+02:31:46,000 --> 02:31:53,280
+will be consumed okay you have to decide your way of designing like with how you want to pick it up
+
+1167
+02:31:53,440 --> 02:31:59,520
+but if i'm at your place i would go ahead with the position but i want to see your exact use
+
+1168
+02:31:59,520 --> 02:32:08,800
+case like how when you are using it is that answered some bit can i take it as answer
+
+1169
+02:32:10,720 --> 02:32:16,320
+yeah with because that will clutter it right that will clutter it like you have to see uh
+
+1170
+02:32:17,760 --> 02:32:22,960
+like because if you if you don't take care of other elements they can overlap and you
+
+1171
+02:32:22,960 --> 02:32:30,240
+may not be able to see because how this happens it right the fixed and uh the sticky one if you
+
+1172
+02:32:30,240 --> 02:32:35,520
+see absolute one they are removed from their existing position and they come over the layer
+
+1173
+02:32:35,520 --> 02:32:40,640
+on a different layer they come on to the different layer and they behave like these are like html is
+
+1174
+02:32:40,640 --> 02:32:48,320
+of two layered uh pages on a viewport so there's a one page running on the bottom there are some
+
+1175
+02:32:48,320 --> 02:32:52,560
+elements that you defined with position are running on the different layer this happens
+
+1176
+02:32:52,560 --> 02:32:57,280
+this happens because you told that here there is an existing flow but i want to remove from
+
+1177
+02:32:57,280 --> 02:33:02,880
+their existing flow and move it to the different position using top right bottom left so you have
+
+1178
+02:33:02,880 --> 02:33:09,120
+to think uh from the viewer perspective because we are viewing in 2d 2d format now let's say i
+
+1179
+02:33:09,120 --> 02:33:18,560
+open this right i open this itself uh let me say open in live server
+
+1180
+02:33:22,080 --> 02:33:27,920
+uh give me a second i'll show you why you need to think it in uh other elements also
+
+1181
+02:33:28,720 --> 02:33:31,440
+let's say this is a thing available for us
+
+1182
+02:33:34,960 --> 02:33:36,960
+which one i opened sticky one is it
+
+1183
+02:33:40,080 --> 02:33:46,080
+okay let's keep it this way okay now there is something called layers
+
+1184
+02:33:50,080 --> 02:33:57,280
+now if you go and open this okay till the third part and i do something like let's say i
+
+1185
+02:34:09,440 --> 02:34:14,560
+let's say if i bend down and i use scroll a bit of a scroll
+
+1186
+02:34:16,400 --> 02:34:21,840
+if you see that third part right here below i'm not sure if you can see it because it's really
+
+1187
+02:34:21,840 --> 02:34:27,600
+small like you you can use this layers section and you can rotate and you can see that how
+
+1188
+02:34:27,600 --> 02:34:32,560
+it is actually changing let's say even if i remove paint it will be black in color but i can show
+
+1189
+02:34:32,560 --> 02:34:38,240
+like how that are coming over each other so you have to play around with that other elements
+
+1190
+02:34:38,240 --> 02:34:44,080
+also if you're using position okay something but most of the time right
+
+1191
+02:34:45,120 --> 02:34:51,440
+um i mean i use uh like only for headers and footers position but mostly
+
+1192
+02:34:52,400 --> 02:34:57,520
+grids and display flexes flex pause are solving most of the problems right
+
+1193
+02:34:57,520 --> 02:35:08,960
+right yeah z position by z position is uh is z index is different one uh that is for multi-layer
+
+1194
+02:35:08,960 --> 02:35:14,080
+whether you want to show priority order how we want to show it that that i agree upendra
+
+1195
+02:35:14,080 --> 02:35:21,120
+but this generally what happens let's say if i open the other one absolute let's say i open this one
+
+1196
+02:35:21,120 --> 02:35:24,320
+so again
+
+1197
+02:35:26,320 --> 02:35:30,560
+it's just that you can you would be able to see it in your screen i'm not sure if i'll be able
+
+1198
+02:35:30,560 --> 02:35:42,880
+to zoom it this part right let's say i paint this uh i mean
+
+1199
+02:35:43,280 --> 02:35:49,200
+you will be actually able to see how they are actually behaving but guys you can explore this
+
+1200
+02:35:49,200 --> 02:35:55,280
+layers actually how can you use it uh i can show that like how layers you can see in the screen
+
+1201
+02:35:55,280 --> 02:36:00,000
+different screens because generally they whenever you define this property they are coming from the
+
+1202
+02:36:00,000 --> 02:36:06,720
+actual flow uh then out of the flow and they're sticking to that question it is converted into
+
+1203
+02:36:07,520 --> 02:36:12,160
+sticking to that question it is converted into two layers screen and z index will uh
+
+1204
+02:36:13,360 --> 02:36:17,200
+yeah you can explore layers there are too many things to explore we'll explore one by one i've
+
+1205
+02:36:17,200 --> 02:36:23,360
+just shown uh elements and i didn't even talk about computed actually what computed does
+
+1206
+02:36:23,360 --> 02:36:28,160
+i'll talk about this computed in next class like how computed works there are too many things to
+
+1207
+02:36:28,160 --> 02:36:30,000
+explore somebody will explore step by step
+
+1208
+02:36:32,080 --> 02:36:41,040
+huh uh yep and uh any other so ankit was saying sir i'm working on a project of mine using
+
+1209
+02:36:41,040 --> 02:36:50,720
+wordpress wordpress i never used it uh okay but what's your doubt i can take it if you have
+
+1210
+02:36:50,720 --> 02:36:51,760
+anything specific to it
+
+1211
+02:36:59,280 --> 02:37:02,960
+okay yeah anything if you want to add on that
+
+1212
+02:37:06,880 --> 02:37:15,040
+i was just confused for the positioning okay uh okay great great if you are clear that's
+
+1213
+02:37:15,040 --> 02:37:23,200
+that's super great thank you so anything else guys anything else you have i'll push the code
+
+1214
+02:37:24,000 --> 02:37:29,520
+yeah thank you ankit hope you enjoyed it keep attending keep solving assignments guys which
+
+1215
+02:37:29,520 --> 02:37:36,640
+will you know uh actually i wanted to keep one reading session uh earlier i used to take morning
+
+1216
+02:37:36,640 --> 02:37:44,080
+batch so on saturday uh i used to have one document reading session but when we have saturday class
+
+1217
+02:37:44,080 --> 02:37:49,920
+it's night it's 12 o'clock people are in weekend mode uh i'm not sure if i'm even if i open an
+
+1218
+02:37:49,920 --> 02:37:55,360
+article where i can read or something related to front end or back end how many people are going
+
+1219
+02:37:55,360 --> 02:38:03,600
+to be there i mean i had a habit of doing that one uh but anyways i'll i'll try to say uh you know
+
+1220
+02:38:03,600 --> 02:38:09,600
+share uh articles in that whatsapp group where you can go through whatever i'm reading right content
+
+1221
+02:38:09,600 --> 02:38:10,560
+related to web
+
+1222
+02:38:12,880 --> 02:38:17,520
+if anyone is also exploring something they can also drop i can read it can understand
+
+1223
+02:38:31,360 --> 02:38:32,000
+thank you sam
+
+1224
+02:38:39,840 --> 02:38:46,160
+uh one okay um not take it's getting difficult to remember htmlc syntax tags any suggestions
+
+1225
+02:38:46,160 --> 02:38:55,680
+class concept here but takes time uh from what uh i carry four plus uh i remember concepts
+
+1226
+02:38:56,240 --> 02:39:02,720
+i refer to still syntaxes okay never worry that if you are not able to remember syntax
+
+1227
+02:39:03,760 --> 02:39:09,120
+because there are too many things to remember from too many things like uh how many of you
+
+1228
+02:39:09,120 --> 02:39:15,760
+how many will remember like i've told i have only today if we pick up css right i have discussed
+
+1229
+02:39:15,760 --> 02:39:23,120
+for text i've discussed seven to eight properties for display i discussed uh four properties i mean
+
+1230
+02:39:23,120 --> 02:39:29,040
+values for property there are too many things will be coming even if you go for further class
+
+1231
+02:39:29,040 --> 02:39:35,760
+right it will be difficult but what's uh you know uh you need not to mug up anything i would say
+
+1232
+02:39:35,760 --> 02:39:42,080
+that concept keep it clear you should be able to figure out how you can do it even in interviews
+
+1233
+02:39:42,080 --> 02:39:49,840
+right uh i mean uh interviewer should allow like if you remember if you know the basic syntaxes
+
+1234
+02:39:49,840 --> 02:39:54,560
+but there is some syntax that you don't remember you can communicate with him he'll help you out
+
+1235
+02:39:54,560 --> 02:40:00,240
+or you can go and copy uh like check on it you can google it because once one is not supposed
+
+1236
+02:40:00,320 --> 02:40:08,880
+to mug up uh syntaxes basics should be clear concept should be clear you can always refer okay
+
+1237
+02:40:11,040 --> 02:40:17,920
+because a web uh in a way web development is very much huge guys very much huge whatever the
+
+1238
+02:40:18,960 --> 02:40:23,360
+the content that i'm discussing would be overwhelming in itself but i would say that
+
+1239
+02:40:23,360 --> 02:40:29,840
+we are covering uh not completely in depth i'm trying to pick up easy examples such that you
+
+1240
+02:40:29,840 --> 02:40:35,920
+are able to get that concept clear first once the concept is clear then uh then you can go
+
+1241
+02:40:35,920 --> 02:40:47,440
+in depth and experiment with that part okay uh how will be interview task uh upendra mostly
+
+1242
+02:40:47,440 --> 02:40:53,680
+from find and write uh or full stack level those are mainly based on machine coding
+
+1243
+02:40:54,400 --> 02:41:00,400
+uh when it comes to machine coding you are supposed to build html css and javascript
+
+1244
+02:41:00,400 --> 02:41:08,080
+if it is they are talking about vanilla js or else uh they might go to react specific machine
+
+1245
+02:41:08,080 --> 02:41:13,840
+coding i will be sharing those parts like how can you prepare for that how can i help you that
+
+1246
+02:41:13,840 --> 02:41:18,640
+okay we'll see we'll solve some of the machine coding rounds machine coding problems also
+
+1247
+02:41:19,280 --> 02:41:23,680
+okay interesting problems but for that i have to build all the basics for you like
+
+1248
+02:41:23,680 --> 02:41:30,960
+all the html css javascript once i cover basics of these three then you we can will do some
+
+1249
+02:41:30,960 --> 02:41:36,640
+machines coding solve problems in uh using plain vanilla js then we'll learn react then we'll do
+
+1250
+02:41:36,640 --> 02:41:42,560
+some more machine coding related uh problems in react then we'll build some projects also
+
+1251
+02:41:42,560 --> 02:41:48,080
+then we'll go to node js so it's a huge module too many things to cover i'll try my best and
+
+1252
+02:41:48,080 --> 02:41:52,640
+also keep sharing extra things that how you can you keep yourself focused and keep learning
+
+1253
+02:41:54,720 --> 02:41:58,640
+works upendra there will be theoretical rounds too
+
+1254
+02:41:58,640 --> 02:42:03,120
+but something where much will be deciding will be machine coding rounds
+
+1255
+02:42:13,280 --> 02:42:13,680
+thank you
+
+1256
+02:42:13,680 --> 02:42:17,680
+and
+
+1257
+02:42:37,360 --> 02:42:41,520
+so hello guys then uh hope you have a you know take a rest
+
+1258
+02:42:41,600 --> 02:42:47,200
+solve assignments see you on thursday where we'll introduce one of the much interesting topic which
+
+1259
+02:42:47,200 --> 02:42:52,800
+is flexbox which you will be using in day in day out like once you start your journey
+
+1260
+02:42:55,120 --> 02:43:01,120
+if you are writing css uh 70 percent of time you are going to deal with flexbox which i feel it
+
+1261
+02:43:01,120 --> 02:43:07,920
+because that's how my journey has been uh okay so come back uh and try to understand everything
+
+1262
+02:43:07,920 --> 02:43:13,280
+revise this content if you have any doubts bring back me pull pull me in that whatsapp also if you
+
+1263
+02:43:13,280 --> 02:43:18,880
+want to learn anything new tag me there we'll explore things okay so see you on thursday guys
+
+1264
+02:43:18,880 --> 02:43:26,160
+hope you solve assignments and meet you on okay meet you there so hello guys good night take care
+
+1265
+02:43:27,440 --> 02:43:28,480
+stopping screen share
+
+1266
+02:43:32,480 --> 02:43:32,960
+good night
+
+1267
+02:43:32,960 --> 02:43:36,000
+you
+
+1268
+02:44:02,960 --> 02:44:04,960
+You
+

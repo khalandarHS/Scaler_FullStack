@@ -1,0 +1,927 @@
+you
+you
+you
+you
+you
+you
+you
+you
+you
+everyone
+you
+you
+you
+you
+you
+you
+you
+you
+you
+bit
+bit
+bit
+bit
+bit
+bit
+bit
+bit
+bit
+bit
+I can help anyone any doubts question to yesterday's session because what was the
+question do click the button then it is destroyed but two new button will be
+created at its place the next two what it should also behave like the above
+button so what is the behavior of the above button the behavior of the above
+button yes so what is the behavior of the other button the behavior of the
+above button is that on click of the button that button will be destroyed but
+two new buttons will be created on its place so what we had done we
+implemented it that way right so how did we do that we have a button initially
+so we put an event listener on its parent it is double hold down and the
+event listener was click so we are listening to click event
+is it fine now
+great okay so there is a click event that we are listening to on click event
+we are doing these many things so basically whatever the question is
+asking me to do I'm doing it here so let's go to the question step by step on
+click of the button that button will be destroyed we are destroying that button
+at the end right it says get two new button will be created so how did we
+create button if you remember we created by using something called document dot
+create element document is again an object which is provided to us via an
+environment which is browser environment so in here we have the
+button right I said I simply said why I want to create a button I want to create
+an equivalent of this button so what are certain properties of this button the
+inner text is saying double so we had wrote this first we created the button
+online about 23 then we put the inner text to double exactly like this one
+then we also see key by classes also there and it is also said to double so
+we simply set my set a new attribute what what attribute I want to set class
+and this will be double likewise I created a second button so in this part
+I am simply creating two buttons right here it says key but two new buttons
+will be created so I was able to create two new buttons now these two buttons
+have to be appended somewhere but if these two are created in memory but how
+do I bring it out to my Dom so I already have access to my parent double
+holder so I said keep a TK whatever button was created simply appended so
+this first button got appended to double holder and second button got appended to
+double holder then I wanted to destroy the button which was clicked so if you
+remember we learned about target and current target in last class target
+tells us about the place where the event originated so on click of certain
+button only this event must have been originating so from that event or
+target I am simply calling remove and that's all I was able to solve for this
+problem on click of this button one button will be destroyed and two new
+buttons will be added and it will keep on going take a man is it clear
+I am audible right
+one doubt yes what's it out
+you should have written down your doubt at the start only
+are you okay we'll take it in doubt session perfect cool so ticket so with
+that they can close this close this it is history now now we'll start with
+class 13 which is dynamic term and today we will be learning about web APIs
+and we will also be integrating our first web API right so first things
+first before today's class so today we will be building our first product right
+so while building any product I want you to keep certain things in mind right so
+first thing is always have first principle thinking what do I mean by
+first principle thinking you must have your concepts clear like one such
+concept we learned in last class key everything in JavaScript is an object
+right so this is a fact it will never change if you have this in mind you sort
+of have your first principle thinking clear right so whatever are these
+fundamentals of any language you should adhere by it you should say I know for a
+factory this won't change so stand by it second while building any project it is
+intuition right what do I mean by intuition key while building you should
+always have empathy for the end user the person who is going to use your
+product right so in that way only you would be able to think about each cases
+a chair if I were my end users place I would do this and this might break think
+like a hacker key how can I possibly break this once you are able to know key
+this is a loophole in your project then go and fix have a fix for it so you
+should have a strong intuition he what you are out to build and have empathy
+for the end user only then you will be able to think like a product manager or
+someone basically be a holistic product person is what I'm trying to say right
+thirdly is pretty straightforward without this you cannot build any
+project that is
+foundation thinking it's simply means you should have your basics clear right
+basics as in your HTML CSS JavaScript OSI layers DSA all of these things should
+be clear at least the basis I'm not asking you to be able to solve lead code
+hard what I'm asking you is you should be able to understand data structure if
+you were to break it down data structure how do you structure your data what are
+the types of data types which is why if you have your foundational thinking
+clear actually big tech companies this is what they focus on the most
+especially when they are hiring in bunch foundational thinking which is why you
+they are focusing too much on DSA they are focusing too much on JavaScript why
+because these are the foundational skills right so if you have these three
+things sorted then you should be able to build a project right obviously it is an
+iterative process you won't get it right the first time but you will be able to
+that is something that I can promise right with that do you want to see the
+project that we will be building today we will be building a project using the
+knowledge that we have accumulated in the last couple of lectures but do you
+want to see the project first or should we start coding Abhinav, Vaima, Dharon,
+Ashwini, Krishna, Muniswara, Pradeep, Sambit, Geeta, Raja, do you want to build?
+yes project first so let's see the project that we will be building today
+so this is the project that we will be building today it is like a wither
+application so basically we'll be using some third-party APIs that don't worry
+if any of this does not make sense to you we'll be talking about each of each
+of these things in detail right so basic HTML and CSS part then something we must
+be doing with JavaScript that we are able to get this data like I can change
+here and say Mumbai search see I'm getting the data it is getting updated on
+click of this if I were to show you the network tab also when I search for tell
+me the city that you are from I'll search for the weather there so which
+city are you from
+Bangalore okay let's search for Bangalore and you will see an API call went and we
+got Bangalore so that it is partly cloudy today and the temperature is 25
+right we can check for Hyderabad as well yes another API call went so it is 23
+then it is partly cloudy there also so Hyderabad is a bit cooler than
+Bangalore right so what exactly is this API call right how do you how do we send
+this how do we get our self authenticated how do I build this how what
+exactly is happening when I click on search we will be discussing all of
+these things in today's lecture so are you excited I know I am greater so with
+that let us get started so first things first what would happen if I search for
+weather today so Google will show me this form of snippet
+so Google will show me this form of snippet here right as you could see it
+is showing this graph and everything and not sure how is it getting all this
+from but when I search for weather today it gives me this much information but
+how do I get this information myself right where can I go to get this
+information myself and by the way this is something that we will be building
+today right so there's this website here called let's say AccuWeather right so
+AccuWeather is one such website where you can go and get this data from right
+and what exactly is happening here how exactly is it key I am clicking
+something here basically opening a URL and I'm getting the data like this how
+exactly is this happening so let's go through the network tab once and try and
+figure out what exactly is happening here
+so let me click on this again and enter you could see a lot of calls went but
+where exactly are these call going you must have learned this in the very first
+class key how do we get the HTML from right we are getting the HTML I need to
+apply filter do you get that thing okay here you probably don't take so here
+basically some API call when this particular API call went and in response
+to this particular API I get this response does this look familiar to you
+yes does this look familiar we have script tag we have for meta tag we have
+head tag which language is it correct so basically what is happening key
+whenever we search for any website basically a call goes to this particular
+place so it just knows key I want to go to this place and you must have learned
+about DNS and all of those things eventually you reach a computer
+somewhere which we are calling server and that server returns this HTML and
+this HTML is returned and then your browser comes in and then your browser
+will convert this particular HTML into this website that you are seeing here
+right so what is happening there so what is happening there suppose we have for
+here website website or here you could say the computer for AccuWeather
+AccuWeather and here you have your browser right here is your client which
+we also called browser right so and request will basically go from client to
+AccuWeather and AccuWeather returns a response and this response is nothing
+but an HTML file and once it reaches here then you probably need some sort
+of parser to make sense of it right so what are the steps to load a website you
+type URL in your browser you go to network tab and then you open a web page
+and you get HTML file right and this file is given to your browser which is
+also a parser and this browser converts it into the beautiful UI that you see
+right are you able to follow till here obviously you must have learned a lot of
+things in detail but this is a short story like how you go to a web page you
+make an API call basically go to a particular site an HTML file is returned
+your browser makes sense out of that HTML file and renders the UI that you
+want to play around with correct so far so good now let us talk about parser so
+what exactly is this parser that we are talking about what is this parser so
+parser you could say is a simple program that reads a particular format of data
+and converts that into something else right so some of the examples would be
+browser what does it do it is HTML parser it brings out the UI so can you
+think of any other parser that takes in a file and it gives you something in
+return any other thing think about you have VLC right it takes mp4 format files
+and convert it into a video right you have for image viewer it takes in dot jpg
+file and converts it into what anyone correct it converts it into an image
+right so basically you can keep on going at keyway what does a parser do is what
+the parser does is it clear to everyone it is a simple program that reads a
+particular format of data data and converts that into something else and
+that is exactly what we saw here we were receiving this HTML file this is
+hypertext markup language and my browser made sense out of it here I am calling
+multiple things I am saying I need this I need this I need this so it is calling
+all of those things simultaneously and once it does it basically once it get
+all the resources needed for this file it loads the file here right so all good
+all good till here everyone is able to follow yes Arun, Ashish, Chandni, Kishore, Krishna,
+Munishwara, Digneshwar, Teja, Vishalanya, Sampet correct great great great now
+there is something else there is more to it it is not always straightforward as
+it is not always straightforward as you will get HTML file so you need more
+kinds of data to play around with right so let's go to this website called
+weather API right let's go to this website this website I can go to let's say
+API Explorer right and here it says key I need to mention the protocol let's say
+it's HTTP format I want JSON so and so and so basically when I click show
+response I get some kind of response here this is not a correct response that
+I was expecting but we get some sort of but we have some sort of response here
+so if I were to go here close this and click here you see again I'm making a
+thing and I'm getting a response here also we're getting HTML file but we're
+getting a response so there can be more than one types of response we need to
+add the API key here let me add one in fact let me go to where there are here
+you will see when I search for Hyderabad I search for this thing this looks more
+or less like the URL that we entered here correct but here we were getting
+HTML but here we are not getting HTML instead we are getting some different
+kind of data so it is also possible to you hit a endpoint you hit a URL and you
+not get HTML now my browser is not able to make sense out of this right so let
+me copy this and paste it here I've installed a in this particular browser
+it has this thing by default but this is the format that all of you would get
+the data in let me paste the link here try opening this link in your browser
+try opening it in a new tab you would find something like this right are you
+finding something like this yes so this means keep this endpoint gives you data
+right this endpoint is live it gives you data but it is not that kind of data
+that will be rendered into a webpage so would it be fair to say key I can decide
+on what URL I want to send what data back based on that I can do things sort
+of right correct so let's show the same thing here so now we have a different
+so once again I have another computer this is API dot weather dot com why did
+I write API dot weather dot com because if you go here and see here this is what
+it is starting with API dot weather dot weather API dot com right and which is
+nothing but a web API and this is what we will be playing around today right
+and once again we have our client and which client are we using anyone which
+client are we using to make a request correct correct correct we are using a
+client which is browser and we also call it our web so this client is again
+making a request but this time instead of getting a response HTML we are getting
+response data which is in a different kind of format right so there is
+something really interesting that I just mentioned there is something really
+interesting that I mentioned key how am I supposed to how the data is
+represented right so there are different formats of representing the data and the
+format that we are representing our data in here is a different format I know for
+a fact it is not HTML because I know HTML when I see one right so which means key
+so which means key we can talk about different formats of data format is the
+keyword by the way so let's talk about format for a bit right so let me quickly
+mention data representation format so the idea is he I am slowly taking you
+towards the project by introducing you to some of the building blocks and then
+will accumulate all of the knowledge that we have gathered in last two classes
+and whatever we are talking about now and will be building that thing right
+then so what are some of the formats that you are aware of one such format
+that you may have seen is you open anything so it opens a spreadsheet this
+is also sort of a data only right I can mention name age and this thing let's
+say name age and city so name is Sashil it is 26 city is Bangalore here name is
+let's say age is 28 city is Delhi name is Prakhar age is 29 city is Pune so this is
+also I am formatting the data right this is a CSV format right but this would be
+exported to Excel a sex right but yes it is one kind of format another kind of
+format there could be something called how many I don't know how many of you
+have heard of this but earlier back in PHP days there was the data was
+transferred in XML format so it was written like this name sorry name
+age city
+right so this is one such format any other format are you aware of there is
+one more kind of format that I'm aware of this is user.json right so we'll talk
+about JSON in a bit but yes it is also one such kind of format so it is going
+to be like and like this here I'll say name it is like a key value pair
+here I could again mention name is Sashwar age is 26 and city is Bangalore
+right so basically in such a short span I told you about different kinds of
+format so can you help me remind what all other formats that I mentioned so
+one was one was definitely CSV right so there is a spreadsheet right you could
+have CSVXLXL format and it would be read by these things excel google sheets
+likewise we have format for XML which could be read by XML parser then we
+would probably have format for JSON can anyone tell me the full form for JSON
+this is read by JSON parser by the way
+anyone can tell me the full form of JSON JSON actually stands for Java script
+object notation so JavaScript already had a has a support for JSON right so
+one important thing that I wanted to point out just by having a look at it
+one would normally say key it is an object it is a JavaScript object not
+JavaScript object notation it is a JavaScript object and this is where
+they are wrong right so JSON cannot be an object JSON is always in a string
+format the data is only JSON when it is in a string format when it is converted
+to a JavaScript variable it becomes a JavaScript object right so those two are
+very different right but whenever used in this thing JavaScript we have to make
+it into a JavaScript object right now enough talk let's start coding now and
+now let's make some API calls right looks like CSS attribute not exactly CSS
+attribute but yeah I get your point here so there is this website here I'll close
+this close open you Jason type
+sorry it is Jason placeholder free fake test API rest API right so let's go in
+here so Jason placeholder free fake API so remember we are we were talking about
+earlier there are two things firstly there are web APIs and then there are
+normal websites which gives you HTML so where can I get this particular data
+from so one such example to play around with is Jason placeholder it gives you
+free fake API for testing and prototyping right so if I were to scroll down you
+would say key some link is mentioned here so let me copy this go here and
+paste and enter you see I'm getting the data right so you guys can also paste it
+and you would also get some sort of data here right so and if I were to remove
+this one you see I'll get a whole lot of data right so normally when people are
+getting started this is they are one of their favorite websites in fronting why
+because they can go here and get some more data right so now let us quickly
+write some code to make use of this thing right so we'll be creating a file
+here let's do it in index or HTML right so before we proceed is the this
+editor visible to everyone is the text big enough or do you want me to make it
+a little more big big enough right cool cool great let me save this right now
+it says it is running on 5000 so I'll close this and run it okay and I open
+this here now I don't think we need this this not definitely right now we will be
+coming back here but let's close this one now I close this for now so right
+now we have nothing here right let me quickly making API call let me open the
+network tab go to now how do we make API calls from web application how do we
+make API calls from web application so there is a method which is given to us
+let me open the script so there is a method which is given to us using which
+we can make an API call whenever we want right so the end point that we will be
+using let me get that JSON placeholder
+this right let me paste it so this is the end point that we will be making an API
+call with let me open the script tag now and let's write a function foo and
+inside of this function I'll be making an API call oh so something there is
+something called fetch right can anyone tell me give where will I find fetch we
+learned it in the last class where can I find fetch how am I directly able to
+write fetch here anyone where exactly do you think fetch would be present it's a
+method which is correct but on which object this method is present no HTTP is
+the scheme that is a different thing altogether we are not we haven't clicked
+anything so event we won't be receiving so I'll tell you so remember I told you
+key all such things are present on root level on an object called window so as
+you could see I can do window document and this is the entire document
+likewise I can enter window you see window has these many things you may
+have used alert right so alert is also one such method which is available in
+window let me make it so alert is again one such method you have a clear
+interval clear time or two probably have not used it yet but they are pretty
+useful right likewise here you will find fetch and what does fetch do fetch MDN
+fetch provides an interface for fetching resources right so wherever we will be
+fetching resources we are I'm basically saying I will be going to this place and
+I'll fetch the resource and we had already seen key from this I'll be getting a
+JSON in return right so JSON is the resource that I am fetching using the
+fetch API right is everyone able to follow just a quick yes no yes T so now
+I know for a fact key I have to use fetch cool so let's simply make use of
+it and in an ideal world it would work right so I already have the link with me
+let me copy this paste it here and let me store the response here and I can do
+console dot log response right so I need to execute the function take I just
+executed the function as well now they good right we should be able to get the
+data now let's go and see where our data is I'll go to document and here it is
+saying hmm I'm not seeing my data instead I'm seeing here something called
+promise which is pending right so promise is a fairly advanced topic so we
+won't get into it right now right in future you have in total of three
+classes around this so let me quickly tell you in brief key why this is
+happening and what's the way around it okay so let me mention key say there is
+this guy named for sure and I am taking the class in this and this is the
+timeline of the class right this is the start this is the end right and I am
+moving in this direction slowly slowly but what if someone asks a doubt here I
+will address the doubt and let's say it took me around two minutes so which
+means keep post this when the doubt is clear I'll again start going going going
+from where I left off I left off here so I'll start from there and I'll keep on
+going until someone else's interjects again being the guy I am again I address
+the doubt and it will again take me some time so would you say key this is the
+best way to conduct a class yes or no key every time I am waiting for some
+time before moving forward right so it is not exactly the best way to conduct
+the class and ultimately I reached here so what could be the other way that we
+could probably have conducted this so this was again the start this is again
+the end and this time I am by conducting the class I keep on going and when
+they have a doubt I will postpone this doubt to end right so let's say and I
+have a bucket prepared so I have mentioned their doubt here and I can
+continue from there itself then again someone has a doubt again I'll take this
+out and put it at the end right and this way I am able to conduct the class in a
+more fluent manner right there are two thumbs down uncle and Tejan are saying
+this is not the way to conduct a class but take it so out of these two ways
+this the first way of conducting the class is you could say I am doing
+things in a
+well up in a synchronous manner right and in the second way I'm doing things
+in a asynchronous manner right so yeah it's fine to take it so the first thing
+I we are doing it in synchronous manner and the second we are doing in a
+synchronous manner so in synchronous manner I am supposed to stop to get the
+data to get the data and then moving forward right and in asynchronous manner
+I'll keep on moving forward so JavaScript whenever someone asked you
+is JavaScript synchronous or asynchronous JavaScript is synchronous
+and if you think about it getting the data from somewhere why does it need
+internet because your request actually goes to that server right your request
+actually goes from your computer point A to point B and this round trip is
+supposed to take some time which is why if you see here I'll go to network
+tab here it says mentions a time as well right this took three seconds three
+milliseconds if I go here and I refresh go to the top it takes 190 milliseconds
+so this one to 90 milliseconds is the time it took to cover this round trip
+now some would say key it is fast but in computer terms every millisecond every
+nanosecond counts so this means keep this is basically taking sometimes a
+JavaScript has two things that they could do it could either wait or it
+could keep on moving forward so the reason that you are getting pending for
+this one here is because it moved forward even though it is synchronous
+because of promises and callback and asynchronous behavior it was able to
+move forward but don't worry about it you'll worry about you'll learn about it
+in future class but this is just to give you an idea keep this is how
+JavaScript works so basically it went it moved forward it moves forward saying
+I promise I promise keep when I get the data I will let you know right so which
+is why you are getting a promise here interesting right the names also there
+put it in such a way can you starts making sense so now we'll go back here
+and now how can I figure it out till so here I can add a simple thing called a
+sick at the start by writing a sink here I'm mentioning kibbit this function will
+perform asynchronously right and I am to write a weight here so which means key
+when I'm making this API call I will JavaScript will actually wait on this
+line he until and unless I get a response I won't move forward right so
+now I save this and I'll go back here now this time you can see I got
+something I got something right but this is again not the kind of response that I
+was expecting correct why because this again needs a asynchronous behavior I
+cannot use it so let me say first Jason is equal to a weight response dot Jason
+and I can paste this here and now I can go and now you see I'm getting the data
+here interesting right now I may be able to get the data so this again
+response dot Jason was an asynchronous start so which is why it was again
+breaking I put a weight here and by the way I can only put a weight inside of
+asynchronous functions so I cannot just put a weight here and expect it to work
+if I were to remove this you'll see it start giving an error key await
+expressions are only allowed within async functions and that top level of
+modules right so I need to write async here and not as soon but async here and
+save this so this way I am getting the response what we want now I can use this
+response and put it in dong you know how to do that you can target the H1
+element and simply in inner text paste this thing and it would work right but
+how we are making the API call and these two line basically is it clear to
+everyone why a response dot Jason here so response is not in the exact structure
+that we could utilize it so which is why it needs to be converted into Jason
+remember I mentioned that Jason is the formatted JavaScript understands so this
+is a actually a method to convert it into that but this function is
+asynchronous so which means we have to put a weight here otherwise as you saw
+we would be getting an error let's try to answer your query cool great yeah so
+with that I think we are all set now we can get started with the project but
+before we get start with a project we have one tiny bit one tiny thing to do
+and what is that as you could see here also wherever I am making the where will
+I get this URL from right so let us figure out a way to get this URL first
+before we get started right let me close Jason placeholder now that part is done
+I'll go to whether API in here so here it gives you free weather API right I can
+go to pricing and you could see for zero dollar per month we get these many
+things in a month I can make 1 million calls which is 10 lakh calls and so many
+things it is providing right if I were to pay seven dollar per month then I'll
+have these many things but for today's session we will be relying on the free
+version and you can keep on going up and up and up and you can expect some sort
+of API is here right we want this one so let's get started with that I will I've
+already created an account here is it real time or dummy placeholder this is
+the weather API is not dummy the one the plug Jason placeholder that we were
+using that was to me this is real time right so you can sign up here I had
+already created an account so I am going to login but once you sign up and I will
+see more or less the same thing I just logged in here and it says I have these
+many things with me my free trial apparently ends on 15th of 4th so before
+that we need to finish this lecture I don't need any of these things let's go
+to something called so this is the part what exactly is this API key that you
+are seeing this is interesting so when you log in or when you sign up you will
+land on this dashboard you will get a unique API key now think of it this way
+key if hitting an API is as simple as like this API I can copy and paste it
+if it is as simple as this won't anyone will be able to do that yes or no it is
+as simple as copy and paste every time someone copy and paste a call goes to
+these guys whether API and they send this data back and how much time is it
+taking to bring this data can anyone tell me so how much time is it taking to
+get me this data current.json it says 278 no correct it is 211 millisecond so
+think of it this way I can possibly spread this URL everywhere and everyone
+use it how can these guys tell key whether Shashwat is consuming this API
+or Ankit is consuming this API Upendra, Ashi, Shambhu Rajan who is consuming this API
+and this is the authentication so if I were to if you could see here these are
+called query params so dissect URL and I can show here only no in here just a
+second I can go to payload so as you could see these are the three query
+params that I'm sending while making this particular API call in header right
+one is the key second is the query second and third is the AQI so whatever
+query we are writing like in this particular case it was Hyderabad so we
+are sending I want data for this I don't want AQI and this is the key so this key
+is nothing but the key which is mentioned here I'm using someone else's
+apparently so which is why the key seems different but if I were to let's
+say copy this and I want to paste this is some 802 right I'll paste my I'll
+paste I'll copy and paste my key here and enter it will work but suppose if I
+were to make changes to this to and make it zero right now it is saying the API
+key has been disabled right and if I don't send this key at all right I'll
+get API key invalid or not provided right so because why did they send this
+because there was no way for these guy to verify K by who is trying to consume
+my API until and unless someone they are able to identify who is this person
+they won't be able to make changes in their dashboard he why you have already
+used hundred API calls you have already used two thousand API calls so if you
+want to create your own simply sign up with weather API right weather API dot
+com and you will land on this dashboard you will get your own personal key which
+you could use correct now let's go to document and now one last thing these
+are all query params right so key is an important query param it helps weather
+API to identify who is trying to consume query is my query give I I want to
+search for Hyderabad suppose if I want to search for something random something
+right and search in this case I'm getting an error put a valid location will be
+building this also by the way and you will see I'm sending the query as this
+IQ I still has no and in preview I'm getting this response this again is in
+JSON format right so now with that be clear now we can get started
+I do this so now let's get started building the project right so all that
+story for this part I'll close the snippets part now we'll get started
+rebuilding index.html script.js and style.js right I can close this this
+now before we proceed I just want to hear it from everyone he is everyone
+able to follow till now yes Abhinav, Ankit, Abhimanyu, Ahmed, Arun, Ashish, Ashwini,
+Chandni, Dhanraj, Hemant, Kishore, Krishna, Munishwara, Pradeep, Prajakta, Pramod, Raja, Rita, Sahil,
+Sandhya, Sheik, Sharanya, Tejal, Upendra, Vigneswar, Vinay, Priyanko, Rohit, Shambhu, Raje
+everyone able to follow okay that's fine that's more than fine Ankit but I hope
+you you get the crux of it right great great great so with that now I can go
+here and here there is something called API Explorer I can go here and your API
+key let me get my API need to get it from manually now they built sort of a UI
+for me remember we were getting an error here that was the reason I'll paste my
+API key here I'm searching for London show response and this time I'm getting
+200 success as you could see this is the end point URL that they are hitting and
+this is the response that they are giving right so all is sorted now now
+all I have to do is build a UI and consume this API so let's get started I
+can probably close this and do I need this yes I will be needing this so
+instead of snippet I can simply do this enter and in here and mention hello see
+we're getting hello so we're in the right file now now all we have to do is
+implement a project so let's get started
+Tiga so this is the way that at least I proceed so first things first we need
+the HTML then we need to apply the CSS and then we'll get to the main part
+which is JavaScript right so HTML and CSS should not be a big hurdle for you
+guys at this point considering you have already finished the first module so I
+will be skipping directly to the JS part of things right so anyway let's get
+started and I tell you think about the structure of this right you basically see
+two diffs here right there is a container in that container in that
+container you have this thing a weather app in this particular weather app you
+could see you have this this is just a second so this is the container and this
+is the now so there are two sections that you want to play around with
+correct and these two sections exist inside of your body and once you start
+going in you can see you have a weather here and here you have your temperature
+time location weather and you can keep on further going in and you will find
+he how they are structured right pretty simple HTML at this point just a div
+which has another div which will be which has another div couple of and you
+can keep on going and keep on building your HTML so with that being said let
+us go to let me bring out the HTML here so this is a structure that we are to
+follow right so just a second so same structure in body in body I have two
+sections one is container one is now if I were to expand now you would find I
+have a text input for me and I have a button and that is exactly what you see
+here I have an input screen I have a button now I can close this now I can go
+to container control to weather did inside I had three things so container
+is basically the whole thing the whole blackish thing that you are seeing that
+is the container inside of this container we had made a weather which is
+basically a wrapper around this section right and in this section we have three
+things if you see we have one div here we have one so we have one div here we
+have one div here and we have one dip here and if you think about it all of
+these tips are sort of in a row so which means keep huh you can copy paste it
+from inspect but a lot of other things would also come which you might find
+consuming so I would suggest you do not anyway I'll be pushing the code so you
+can just copy paste it from there right TGA and in here this will be centered
+align this is all three are center align but here you have two divs now so one
+div at the top one div at the bottom here you also have one div at the top
+one div at the bottom and that is exactly you will see here this thing is
+single-handed in time location you have a P you have a span in weather condition
+you must be having image and you have the condition right so in here we are
+getting the styles from style and we are getting the scripts from script or just
+which by the way both are empty right now right so let me save this and see
+what the HTML looks like right now so this is what your HTML looks like right
+now so quick question does it look like this yes or no
+are both of these apps similar no right take it now this again a little bit
+amazes me every time see how much change the look and feel CSS could bring
+although that's its entire job but still this is play such a critical role
+because it just changes the entire trajectory of the app it makes it so
+well up at least aesthetic to look at if if done correctly that goes without
+saying let me add the CSS simple things simple classes simple all of these
+things you must have heard about flexbox and all here we are using grid and you
+may have read about grid also in some of the previous classes some places we had
+used flex some places we had to use grid you can go through this after class once
+I push the code right now let's go back here now do they look alike yes great
+great great take it so now we will be starting with the main part actually
+applying the knowledge that we have accumulated in last couple of classes so
+for that let us take a quick break and when we are back for the break then
+this get started with the script or JS part and we will right now as you could
+see this is not functional at all if I do anything nothing is happening I'm
+trying to click nothing is happening nothing is happening no API calls are
+going on so I would close this do this nothing is happening right so now we
+will be applying JavaScript and using the newly found API this API to get the
+data here right so we'll be doing this after the break right now it is what
+time it is it is 10 o 7 let's connect at 10 13 right 10 minutes my god he got
+10 minutes about good number there so it's 10 minutes party party time
+okay so at 10 what time now at 10 17 we'll connect right so let me start
+a timer
+nine minutes if not the whole year now start
+take care go for a break meanwhile if any one of you has any doubt regarding
+anything we can discuss and you and CSS yes we are importing the forms from
+Google API's we must be using it also the Roboto font we have put it in font
+family simple thing only yeah it's nothing much here container better
+whether anyone else has any doubt while others go for water go for a walk
+stretch your legs now we'll be starting with a meaty part of the project which
+is see writing actual JavaScript making an API call get the data and update our
+dog I just want to see the class names class names leto I think this would be
+the best place now see the class names wherever we have this
+meanwhile anyone else has any doubt
+you
+you
+join now was stuck in a meeting
+so the rich we were mostly talking about the difference in between HTML response
+and some Jason response different formats we went on to talk about some
+weather APIs that we could use we break down how they are authenticating us how
+do they know key whether it's making this API call or making this API call
+and lastly we went to this one website called Jason placeholder which gives us
+mock APIs dummy APIs dummy data so through that we were able to get the
+response and now we just started with a project we are set out to build this
+project with that app today you could search for any city and it would provide
+you the data for that so we are building this we just finished HTML and CSS part
+now after 5 minutes and 24 seconds we will be starting with JavaScript
+don't worry sir anyway you have five minutes you were stuck in a meeting so go have some
+water in five minutes will begin right meanwhile if anyone else has any doubt
+regarding anything that we had covered now in today's class please ask
+I'm audible now
+so let's get started so most probably you didn't hear the answer also that I was
+giving for your question key whether it would do we need to enter correct spellings to
+search or it will manage right okay so the answer is no it won't it is not that
+will make it is like a free thing so get nine chair so we decide won't but how do
+they do it is pretty interesting so you could Google about it it's called fuzzy
+search fuzzy search so Google about it it tells you okay how it works right pretty
+interesting to get I hope the screen is also shared and I'm audible right just a quick
+show of hands great okay so before we begin let me launch the poll so once again I'm
+launching the poll let's see if you guys send it at 50 50 this time or not right
+so launching the poll now in three two one
+okay okay
+someone mess it up at the end yes cool so as I said I mentioned this before also none
+able to make it 50 50 and considering this is my last class here you also won't be able
+to end it at 50 58 great so with that now I feel good and it's a challenge sort of
+a thing it's not something that I want to get so let's get started so so far what we
+had done we had we have the HTML and CSS in place now all we have to do is figure out
+the API call and if you were to refer one of the snippets that we had done we had already
+know how to make the API call also right we already know how to make the API call also
+so with that knowledge in place let's get started so let's get started with the basics
+so let's get started so we are listening to now because in now we have the input present
+right so we are ought to listen to the input so we need to target it first right only then
+we can listen to the change events so let's do that first correct so I'll go to script.js
+and I can listen to const search button document dot query selector we want to search for search
+is the search name here the class is present search and it is unique to it so let's do
+dot search now that I have searched with me I can attach a event listener add event listener
+we are listening to which event click event and we need to provide a call back to this
+and in this call back will be getting a event so let me quickly check if we are receiving
+the event yes we are receiving the event so we also need to attach event listener to the
+because that's where we will be getting the data from I can say document dot query selector dot
+search field that's it right and in here I can bulky say search field dot let's go for search
+field and let's see what do we get right so let's go here and I'll clear this go to console
+and I'll say here let's say and press enter see I'm able to get the event and on this
+I don't have the value so I can probably get the value from this so let me search for Delhi
+and we're able to get the data so remember the API call that we were doing for this API call I
+have the key with me correct I have the AQI value with me it is always going to be no and
+now for query which is the what city am I searching for I have the Delhi also in place
+so whatever the user types when they click search I have that also with me now so which
+means key all I have to do now is make an API call with this would you all agree yes
+should we go ahead and implement the API call part now so now all we have I can now say
+fetch temperature for this so now if I go here and search for Mumbai fresh temperature
+for Mumbai so I know so let me have a function here and we can call this function fetch weather
+right we will be passing the city name here and considering kid we will be making an API call so
+is there anything that I need to put in front of this function any any keyword that you may have
+seen character we need to put a sink in front right now that we have a sink in front I can
+go in here and say the same thing right considering key fetch weather and here
+I can pass search field dot value and what I can say is event dot prevent default so prevent
+default whatever is a default behavior it would stop that and it would simply do this right so
+let's case let's see if the this was a form it button type submit case the page would have
+refreshed so which is why if I were to remove this also it would it would work is it fine now
+great yes I'll go a little slow so event or prevent before basically says keep whatever is
+the default behavior it will stop that right it won't make it do that well even if I were
+to remove it it would still work but this is just for your understanding to put it at a start that's
+it right we don't need to get into detail for this in future when in the next class action when
+you start building your next project there you will be seeing this in action in detail right so
+right now if invoke the cancel attribute value set to true while executing the listener of the
+event with passive set to for signals to the operation that caused event to dispatch but
+it's a lot written here so let's wait for the next class in next class while you start building
+board there you'll be seeing it in action take so now it is working now I can go here I can
+search for a location enter fetch temperature for this so it is working so now comes the actual
+API call part right so what is the URL const URL is equal to let me get the URL from here
+take I'll make it in tick and I'll make this one as city name and I'll take it out and say
+const API to gun right and paste it here take now my URL is ready what whatever is the query
+I have a URL for that right now all I have to do is follow whatever we had done here so let me
+copy paste it go back to script and here I can do this but instead of this one I'll say URL right
+so now when I'll do console dot log parsed JSON or I'm missing
+you can work with normal quotes also prefer it this so this way I can add things directly
+inside I don't need plus posting so which is why it's the voice pack just a second
+it's the just a second let me share my screen again take it is the voice back
+I've been on our sheesh Muneeswara some bit upendra great in case it gets
+let me know how I've reduced the screen quality just so my voice is better okay
+but I'm assuming key you would still be able to read it through right zoom a little okay let
+me make it a little bit now it should be whispered great Tia so what I had done here is that I have
+the I'm using backticks they could have done it directly so what I have done here instead
+of using the plus thing you could use that that is perfectly fine I prefer backticks
+because I can directly put things in my string only I don't need to do plus plus and all of
+those things so I find it this way a little clean so that's the only reason that I have gone with
+this way but either way is fine and these two lines is something that I had copied from this
+part that this part that we had seen earlier right so with that let's save this now tell me
+if it would work if I were
+sir
+we got the response so congratulations we have the response in place
+is the net back
+now I'm checking my internet connection again I'm checking my internet connection
+so
+I will go slow, anyway we are almost there, hardly 15 minutes you need to manage and we
+are good.
+Hardly 15 minutes of content is left then we are good.
+So if you guys are okay we can move forward right?
+Cool cool cool, okay so we are able to make the API call and what am I doing?
+I am preparing my URL, I am getting the search field when the user is clicking on the search
+button, sending it to this function fetchweather and from fetchweather I am preparing this
+URL with the API token and city name and simply making the API call using fetch which is
+present on window object.
+I am using await because this is an asynchronous operation, likewise converting the response
+into JSON is again an asynchronous process so which is why I had put await here.
+So once here I get the response that we are actually looking for right?
+So now let us use this response to get the things that we want right?
+So before we do let me go here and let's see the kind of response that we had received.
+I can expand, you could see in current I am getting, feels like I am getting the actual
+temperature that we probably want to put here right?
+What else am I getting?
+I am getting the wind also in case you want, I am getting the last time it was updated,
+I already have the location with me because this is what the user has typed, I can close
+go to location, here you could see I have the country, location, longitude, latitude,
+what's the local time, we have all of these information and all of this information is
+pretty important right?
+And I also have the icon also present here that we want to load in here.
+So long story short, I have whatever data I want to get here, I have all of those data
+present with me.
+So all we have to do is take that data and inject it into the DOM and how do we inject
+it into the DOM?
+Using the methods we had learned in last couple of classes, cool?
+Is everyone able to follow till now?
+I hope the voice and all is ok?
+We will get to that, but you won't get the idea where I am heading with this.
+Now I have the data with me, all I have to do is get the relevant data and inject it
+in my DOM right?
+So I am able to follow right Shambhu, Raje, Vinay, Avinav, Ankit, Pradeep, Dhanraj, great,
+great, great, great.
+So let's go ahead and get the data first right?
+We already have the past, this thing in place.
+Let me say current temperature is equal to first Jason dot, current dot, temperature
+C. Temperature is centigrade, second.
+Let's get current condition, this also in condition we get the text and icon right?
+So we probably need both of these things.
+So dot condition dot text, copy paste and I can say condition icon, here I can get condition
+dot icon.
+What else do we need?
+So you probably need a location name and local time, I think these should be enough.
+So let's see, I close current, I will go to location, location name is location dot name
+and time is location dot local time right?
+So let's go with this, location name is location dot name and this is location dot local time.
+Now let me console this so we can just see if we have everything that we want.
+We have current time, we have current condition, we have current icon, we have we have local.
+Now if I search for Mumbai, what happened, error, see the data that we are creating.
+So if I were to expand this, this is the data that we wanted, condition icon that will
+go here, current condition, current temperature, local time and location name.
+So basically we have all the data that we need.
+Now all we have to do is utilize it right?
+One thing we forgot to do, in case it breaks how to handle it.
+So to handle all of these, JavaScript gives us a function, these things try catch, almost
+every language does.
+So let me take all of these things and put it into try and add a catch key, in case any
+of this thing breaks, just go to catch and I can start an alert saying, please put a
+valid query right?
+And I can console the log for the developer in console dot error, I can share the error.
+So this way if it breaks, it would go here, I'll see an alert and I'll see the error
+as well, right?
+So try catch is a mechanism to handle now if this block, within this block, if anything
+breaks, anything, no matter what, my application won't be, you know, gone, right, my application
+won't crash.
+I'll receive an error here so that I can handle it.
+So it is a very neat way of handling errors, right?
+Even in production, great application, everyone uses it.
+So try catch is a very, very good tool for you to know about, right?
+Great.
+Now we have this information, all we have to do is update the DOM.
+So shall we go ahead and update the DOM now?
+We already have these things in place in HTML, we have all the classes in place.
+So let me open it in the site, close it and now, and now I'm going to get the class names
+from here.
+I'll get the class names from here and I will update it.
+So let's first of all get the selectors in place so that we should be able to get it,
+right, say const temperature field, temperature field, document dot query selector.
+I see the classes there of 10, so I can do it like this.
+Likewise, I can add city field classes there as dot time underscored location inside of
+it, p tag, right?
+And this is date file, you could say, and for the remaining two fields, one is your
+dot weather, sorry, one is your icon field, the icon field, icon field in weather condition,
+the image tag, right?
+So I can say dot weather condition img and lastly, we have another field condition is
+left, right?
+So I can say weather field and here I can say weather underscore condition span, okay?
+I think we have covered all the fields from here, right?
+Or am I missing?
+Is the screen still blurry?
+Let's wait it out there.
+Let me know once it's fine.
+Anyway, here we are simply targeting the elements.
+From CSS part, you haven't get what, what was it in CSS that you haven't get exactly
+That is fine, but whatever we are talking about, that is clear to you, right?
+Well, the JavaScript part is not clear.
+That is clear, right?
+So I'm not sure what is not clear.
+I get it.
+The screen is blurry, but the concept at least the idea that I'm trying to convey that is
+clear to you guys, right?
+Because if that is clear, you can always revisit a repository.
+I'll be pushing this code so you can get the code from there.
+If the concept is clear, you still would be able to understand and in case you still have
+doubt, obviously I am there on the group to answer all your queries, right?
+So let me know if the screen is a little better, then we'll move forward.
+We just have one last leg to complete and then we are all good.
+Better now?
+Great, great, great.
+Cool, yeah.
+Let me know in case it gets blurred.
+We'll again wait it out.
+No worries.
+We have, we still have ample of time.
+So what I had done here, I was able to make the API call and from that API, I am able
+to extract the data.
+As you saw, I'm also able to log it here, right?
+So now the idea is I should be able to update my HTML with this data.
+So for that to go for that to happen, we had to select using the query selector, right?
+Using the query selector, I had attached able to target each of these elements.
+Now, all I have to do is literally just do inner text, inner text, inner text and update
+the values that you see here.
+There.
+Cool.
+So let us go ahead and do that, right?
+So just a second.
+Let me write another function here.
+Update DOM here.
+I'll be getting all of these things.
+This part I can close, right?
+The HTML part, which is fine.
+Even if it takes time, it is fine.
+I'll wait it out.
+Yes.
+So whatever things were here, I had written it down here.
+Now, all I have to do is simply update it, right?
+So let's do that.
+Now, this part is fine.
+Okay?
+So I will say...
+ta ta ta ...
+Good.
+So let me bring these elements at the bottom so that I can comment it so that I don't have
+to scroll up every time right now I can focus here t so first things first temperature field dot
+inner text is equal to current temperature right then we have city field dot inner text
+icon field icon field is nothing but an image so I can I can choose to say dot set attribute
+because I want to update the SRC there with the value that we are receiving which is condition
+icon right and lastly we have weather field dot inner text is equal to
+correct condition right so let's go here and now I'll search for Mumbai and press search
+oh my bad I forgot to call this function so with this here I just need to do this and
+say now when I go Mumbai research it is getting updated right was everyone able to follow yes
+how's the screen situation right now better than before or still still worse now good right so
+everyone is able to follow right now I can play around with it I can add for it is updating I
+can add it is updating it is night there apparently right so all of this is well yes we can use
+actuals also but I wanted to use vanilla JavaScript so without using any other library I wanted to
+do this so which is why I've done it this way right but yes you can use actuals also that is
+perfectly fine T so how about I add a little check here key if let me say const city name
+how they are getting the city name I'm sorry I can say const city name is equal to this thing
+and I can put a check here if city name city name is there go ahead basically city name is
+equal to empty string empty string in that case let's say if city name is there basically let's
+go with that that is much easier to comprehend so if city name is there only then it would make
+API call otherwise it won't let's test it out by actuals is better than actuals can you please
+other by then fetch so actuals internally does nothing it is fetch only so it is like a wrapper
+right so there's a lot of things that actuals take care of you which otherwise you have to do
+it manually so nothing else so it is the same as key same question is asking key why is sir
+automatic car better than manual car you still have to drive but automatic car takes care of
+certain things for you that's it actuals is a library to make fetch API calls it's a wrapper
+muniswara it's just a fancy way of making API calls that's it can we add degree celsius
+I don't see why not so there is something called superscript if I'm not wrong oh there is
+this current temperature
+dollar and here I can add
+matter
+let's see if it looks good
+uncut says to blood
+uncut is it still blurred for you the whether the screen is blurred or not that is not important
+are you able to understand what we are trying to learn that is important you're able to write
+okay now tell me the part if it was not blurred you want to see I'll go there and I'll wait for
+screen to be better okay so by the way we had successfully finished the project and we have
+successfully able to build right now in case you have any doubts uncut up enough I know the screen
+was blurred so in case you have any doubts explain code of script or js array we've been doing that
+only in a sensor side but okay so we have the html in place so we have to attach event listeners
+so first thing that we did was we attached the event listeners to each of the available fields
+there on index.html then one such field was search button I'd attach an event listener there what
+event are we listening to is the voice still breaking
+the data part we are talking about some that we'll get to it I'm okay it's good for me good for me
+good for me now I'm getting mixed with you some of you are saying it's good some of you are saying
+it's not some mostly Abhinav and uncut are saying it's not good do you know what is
+not good do you know what is Abhinav is it fine for you now shall I go ahead
+cool so on search button we had attached a event listener what event are we listening to we are
+listening to click event and we attached a callback so if someone were to press the click by the time
+the city name was empty nothing would happen because this condition would be false
+right but in our case if city name is there we are actually making an API call here we are passing
+the city name to we are passing the city name to fetch weather function what does the fetch
+weather function do it will make an API call using fetch we are making the url they're getting the
+token which is sort of fixed only then we have the city name we have the aq i said to know city
+name is something that we are getting from the input field if you remember and we are making
+the API call and converting it into the json format which your javascript understands
+once it does we are taking out necessary feeds from this parse json that I need to populate my
+ui my ui right so like I need the Celsius thing I need a location name I need a local time I need
+a condition right so I take out all of these things from the response that I get from this url
+right once I do I am passing the response in update.dom update.dom is again a function that
+I have defined where I am whatever event targets the elements that I had selected here
+I'm simply doing inner text in each one of them except one where it is an image so I am setting
+the src to the condition that's it I'm setting the inner text to the value that we are getting
+a response that we had got in here and that's it once it does that it starts reflecting there
+and one other thing that I had done I dropped the entire code so this is the only place where
+anything could possibly go wrong if it does it is still in try catch so my application won't crash
+instead it would go to catch block and in catch block I would catch the error and I will be
+putting it a alert out and that's how the whole application that you are seeing here would work
+is it fine now are you guys able to follow so with that great great great great yeah so
+so that's it folks
+uh I've stopped sharing my screen uh it's okay I've started a doubt solving session now
+if any one of you has any doubt regarding anything that we had discussed today
+now is the time so any one of you if have any doubt
+any doubts anyone and obviously from next class onwards Uttam will be back and he'll be
+taking the class forward so I hope the last three classes there weren't much complaints
+or you guys from my side right
+I hope the last three classes it wasn't much big of an issue
+I am what can I do I raised a complaint with geo for this they said they'll be coming over to
+check it over I think on Friday or Saturday they'll come thank you thank you
+thank you Manish for our thanks meanwhile any doubts anyone
+no doubts
+all good then
+uh one advice from my side would be to keep on practicing the assignment question
+because assignment questions at scalar are designed in such a way that if you are able
+to complete assignment question obviously you'd be able to clear the mock interviews also right
+and if you are able to perform good and mock interviews scalar
+would put in extra effort in placing you at the end how the data is extracted
+data is extracted through destructuring have you guys covered this yet because
+I remember it being one of the topic
+so it is simply adjacent right I'm calling it adjacent but it is more or less like an object
+so like you pass objects that is exactly how I am parsing it here so I'm simply going down
+pass json.current.tempc pass json.current.condition.text so I have the object with me the response object
+and I have the response object with me and I'm simply going down in current by
+what is their condition condition text so I'm simply going down this part that's it
+using the dot notation that's you may have learned
+how you do in object data structure just that way nothing special right
+Sambit is it out clear
+can you share your experience with geocinema how the tasks are given
+just to know real time things it is very fast paced and believe it or not whatever you guys
+are learning this is what we do on a day-to-day basis because this is these are the foundational
+things if you are able to clearly understand these three things html css javascript everything
+else is smoke and mirrors right everything else no matter what fancy framework you pick be it
+a this thing react view angular svelte no matter what you pick all of that is smoke and mirrors
+everything boils down to html css and javascript so just focus on this frameworks will come and go
+basics will stay forever so just focus on this and you'll be good and believe it or not
+uh that works for me a geo also
+or a which framework is trending now a lot of frameworks are trending yeah
+i mean i'm not keeping tabs but last i checked svelte and vue js are doing good
+so
+cool
+cool then uh if no other doubts
+five for web 10 where js is used i mentioned now just change the environment and it can be used
+anywhere you can make at today's time you can make mobile apps with it desktop apps with it
+vr apps with it so you can do a lot of things with js in today so js is everywhere so which is why
+you can pick the domain also later you just need to have your basics clear right now
+uh
+cool
+cool then yeah uh so that's it from my side and uh hopefully uh maybe in some future classes
+when uttam is not there i can again uh join him fill in for him right so thank you all thank you
+all for being patient thank you all for showing on a non-class day again i'm really sorry for the
+internet connectivity it is not something in my control uh so with that i think i
+i'll say adios to you guys and let me just put this option in my screen
+cool uh with that i think i'll take your leave now i'll be leaving now there right bye i'll see you
+guys around
+i'll upload the notes and i'll inform on the group right bye
+thank you thank you everyone bye
+you

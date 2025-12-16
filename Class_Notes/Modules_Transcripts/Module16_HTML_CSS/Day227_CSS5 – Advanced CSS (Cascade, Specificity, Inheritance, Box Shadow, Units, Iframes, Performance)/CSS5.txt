@@ -1,0 +1,1259 @@
+Hi all good evening guys am I audible and visible great thank you to see so
+we'll wait for five minutes until all people join meanwhile I'll share my screen do let me
+know guys if you can see this screen share also okay it failed I'm not sure
+why I'm not able to share the screen today isn't screen share working guys
+are able to see VS code okay give me a second I'll join back the call okay just a second
+I'm audible right again just trying to check on this I'm not sure let me take a screenshot
+of this one screen share is failing and post it on a slack
+give me a minute guys I'm just speaking tech team
+let me retry again
+sure starting the screen share but failing again
+I'll try to rejoin guys give me a minute okay we'll start it anyways 905 let me restart the
+I'll inspect this one
+okay
+guys give me a minute I'll check with the team like what we can do here because
+technical issue not from my side
+give me a minute guys I'll check on call
+guys let me try
+once again if not we might have to reschedule this class it's not in my
+hand I'll try to rejoin it give me a second close the browser instance and
+start again
+guys let's try again
+started working is it okay a minute guys just a minute I'll have to do some
+of my setup
+but screen share is working fine right just want to check with you guys once
+right okay give me a minute guys okay fine yeah so how's everyone doing just
+will get started in two minutes how's everyone doing this great so how's your
+assignment going is everyone able to solve their assignments any challenges
+from assignments perspective cool let's drop a message in group also whatsapp
+group can anyone drop on behalf of me like we're getting started not sure if
+some people have got dropped because of technical issue can anyone help me with
+that
+somebody's had a question somebody will check into that because we haven't
+sent root dot js file but I'll pick it up in the doubt session okay thank you
+guys thank you thank you all so I hope you all able are able to you know solve
+the assignment problems that we like are you know said been given hardly I
+believe one or two questions are there for each class and they just touch your
+basics like refreshing your basics and but other than that thing right other
+than that thing today we are formally ending introduction to like this two
+modules I would say introduction but not completely and because we will be
+dealing with these two topics each and every day but yeah but ease how you
+feeling confident after like this seven classes that we spent on this like HTML
+and CSS do you understand this one better right HTML and CSS guys I received
+only one thumbs up we have good amount of people in class just you know are you
+feeling comfortable with HTML CSS the concepts that we learned right if you
+have any doubts if you have any doubts you know drop in the whatsapp chat or
+ping me because on Saturday Sunday this weekend Saturday Sunday we are going to
+have context or you can say exam on this content so it would be straightforward
+basic and simple I would expect every one of you who have been attending
+class at least you know you crack it easily because it's it's straightforward
+and easy nothing included like there's no coding as such it's just a set of
+rules right isn't it so keep or revise all the notes that we have shared with
+you links just read through it once all the HTML and everything so be prepared
+for this one once we add in class today right there is no class on Saturday
+Saturday would be a holiday such that if you are starting or like prepping on
+Saturday and taking exam on Sunday it's up to you if you're confident you can
+so it's your choice so one request from my side would be surely attend
+contest second thing keep your 100% PSP for assignments okay let's just not
+overburden ourselves in future just keep let's keep this module clean okay are
+you aligned with my idea guys
+let's let's close off this weekend with HTML and CSS part okay now before going
+into the today's topic like I just want to know are you comfortable with few
+properties like all the properties related to font right and display
+position when I say display guys I include all in line block in line block
+then at least concept wise you should be okay because you haven't used it
+that's okay up to an extent but whatever concepts I have taught you are those
+clear and position when it comes to question I also have shared you a chart
+that can be used for revising like if you go and see here in the self-study
+and you open this you'll be able to see like all the five positions that would
+act as a like shot of you know revision sort of thing right sticky static
+absolute relative and then there is one what is the other one guys fixed right
+and then we have discussed about box model right box model is really common
+each every element in HTML is a box so we have by default like this is a
+content area around that you have something called as padding and this
+particular thing acts as a my border and then you have some space around it
+called as margin right so I hope this all things are clear whatever CSS we
+have learned and the HTML we have specifically talked about you know
+tables forms and introduction to all those concepts right so I hope you revise
+everything and then go ahead with us like all the assignments just go to the
+assignments it's for your use case like going front ahead right once I start JS
+then I go for react it would be really easy for you like if you know HTML CSS
+and JS right this three to a good extent you can learn anything like react view
+angular or you can have next year's or you can write n number of n number of
+things but if you know only this three at good extent then only you can start
+with them okay so having good understanding of this three things is
+really important so we covered as a part of our club this two by today's class
+content will be covered but we'll keep on practicing it so and I would I hope
+that whatever we have learned together you will be revising them and being
+like you'll be confident about them if you have doubts shoot at me I'll try to
+help you out and understanding and solving them okay guys right now let's
+let's get started with today's class okay you know by the heading you might
+be seeing something called advanced CSS but not specifically advanced CSS I
+would call it but it's a basic definitions and basic some of some more
+properties okay let's explore something what was a full form of CSS guys does
+anyone know this I haven't told it I guess till now anyone does know it does
+anyone know it what is the full form of CSS cascading style shit
+right we have used this word multiple times like when we are linking an
+external styles file right whenever we are linking external style then we used
+to give relation relation to that link as a style sheet so if we have came
+across this word good amount of times but what is this word what is this word
+okay what is cascading okay we'll explore that we'll explore what is
+cascading before that anyone know anything on this what is cascading does
+anyone know what cascading is all right good so we'll explore that but before
+that I need your help to understand the basic difference between two things one
+is called priority one is called specific okay so Ashwini had some
+parent props to child firstly the props word is itself too complex to explain
+now Ashwini so maybe we'll talk about that but I just want you guys to answer
+me what do you understand by these two words what is priority and what is
+specific when what are the use cases you see a priority what is the use cases of
+UC specific how do you define these two things anyone
+guys please come on quick okay I got Kiran says sequence what sequence
+signify signifies Kiran what does it talk about
+let's say this is a series of events isn't it
+like what you should be doing an order of execution or you can say order of
+execution right and the specific when you say when we say specific it's like
+whatever modiji say that's a specific and it's final isn't it
+other than promises but more digits words are like specific task particular
+thing particular everything is fine
+yeah he can say in a 500,000 bandhaj ratse so that's what he specific aborted
+he declares it there is no priority order okay so but I hope you got the
+basic understanding about these two words right priority and specific now
+we'll understand these two things in terms of CSS actually let's go to the
+and let's see actually and then we'll understand the word cascading also how
+what is cascading and how does it work or how can you relate it because we have
+seen that we have already discussed that one but we haven't connected that with
+this you know jargon called cascading okay let's create a class 7 and let's
+create an index.html file inside this again I'll initialize this one and let's
+say what I'll do is that let's take a simple example firstly what I'll do is
+like let's say I have a diff and just a diff inside that let's say I have a span
+tag inside span let's say this is a para 1 okay next let's say I have a line
+break here okay again I have a span let's say this is a para 2 and once this
+div is ending let's say I have a div again here I have an h1 tag and let's
+say this is a heading simple so what I'll do here is that while open a style
+block here okay once I have style block let's say I give some diff I'm
+selecting an element selector I'm selecting a diff then I'm directly
+giving it as a color okay let's say and color would be tomato okay then also
+what I'll do is like I'll select the span I'll give something color like
+it's a dark blue okay and also again I'll select diff I'll make color as a
+red no let me open preview here but I just want you to you know help me out
+understanding what would be the colors of each thing would be let's say I add a
+span again and I make color as tomato
+grace
+red and tomato okay so what should be going for red and what should be going
+for tomato let's say this is one and two and three I add a three here now red
+goes for a day find tomato for the span okay but I gave in context of span is
+tomato okay then this h1 tag guys h1 tag what this h1 tag will go for what this
+h1 tag will go for right okay now let's see if this is working if this is
+working rightly no okay what's happening is let's let's change this color to bit
+you know different so that you will be able to see a difference okay now what's
+happening here is like para 1 para 2 we have given something like dodger blue
+and we have something called we overrided with a different color now why
+this sort of property is working firstly why this sort of property is working
+like why we are able to override CSS okay so what CSS talks is like this is
+like this is what we call it as cascading cascading is something like if
+you say cascade whenever you see that cascade let's say that different what is
+cascade let's see in the browser let me pull an instance of in a browser say I
+say meaning of cascade okay so what it says you know pour downwards like if you
+see in large quantity like cascading down the stairs pass something on a
+succession to the other or small waterfall typically one of the several I
+mean in general something which is coming down the line I mean like coming
+from talk to bot is that clear now all the properties when we say overriding or
+something is happening this is because that we say that in what CSS by
+definition that rule applies is like so it executes on top to bottom but there
+is a trick here let's say I give here style
+and color blue okay this blue color is applied but what if what if I cut this
+style what if I cut this style and paste it below here below the body what would
+happen guys if I paste it below the body
+do you think this blue tack will be updated do you think this blue tack will
+be overridden no change right this this is something we have already discussed
+in first class right the reason I'll tell you so how can you remember this
+cascading how does it work is let's say surely it works from top to bottom that
+point is clear top to bottom it will work but only one thing will have our
+top priority which is called which is inline CSS inline CSS will have top
+priority how does it work is let's say whatever element is there let's say this
+is h1 okay for this h1 it will check by default if there is something like style
+added it will pick it up this one and apply if there is no style added for
+this element then it will go and see if there is something style that need to be
+applied to this one but if there is directly available near to it it doesn't
+go and try to find it that point is clear so it works from top to bottom but
+it starts from this element here okay
+is that clear guys like inline will have highest priority
+actually I'll give you the logical explanation for this one why does this
+happen in some time like let's say in 10 minutes but I see one thumbs down
+Ankit you didn't you understand this inline when I say inline I mean to say
+that this something that yeah when I mean to say inline it is something
+whenever you define here inside the tag itself whatever attributes to define
+here we say that inline like inline CSS I have explained this keyword in the
+initial class right you have three types of CSS inline internal and external this
+is something called inline whenever you define the style tag that is called as
+internal and whenever you use link tag and separate style file then you call
+it is called as external are you able to recall this one Ankit right great so I
+hope the word cascading is clear now it just like which CSS should apply okay in
+general it executes from top to bottom and it it overrides and clear the all
+the conflicts exist and then there is H1 already blue doesn't matter if inline
+style is applied that will you know be applied whatever cost it comes okay but
+what if this is something we are saying in terms of priority right that hey if
+there is a inline style it will be applied and it will like if there is no
+style whatever you know after resolving conflicts whatever style comes it will
+apply but what if there is a inline style already defined for the H1 let's
+say style color it's red is given and there is some content okay but I want
+this particular thing not to be applied but I want something else to override
+this one I mean there is where this is place this is a place where we talk
+about specific like can we override and specifically say that I want a
+different style because when you go for a larger projects right there are too
+many files or too many things that you will be reusing them and building them
+okay it places let's say you define a one button and you will be reusing that
+button again and again but if you but that button color will be different at
+every place you have to override it but if someone when they define that button
+they gave some inline style how would you override that button color how can
+you say that specific like whatever the user story is does it doesn't matter
+like our prime minister say something that's final he overrides everything
+whatever is there doesn't matter right so that's how like how can you do it
+specifically does anyone know how can you apply a specific okay Dheera says
+not important keyword great okay no okay so if you see here what just happened
+let me undo this one I'll put it this style block again onto the top just for
+following this order that's look good ID class no all those things won't work
+guys if you want to be specific you want to be updating let's say this is blue in
+color span if I give something keyword like not important if I keep this keyword
+not important do you see this blue style tag is also you know been overridden
+do you say this this is like high command order you can say like how high
+command does you know they gave this time how many of you watch that seller
+like if they have stamp they don't stop right same thing this is a stamp of the
+CSS that this will be applied at any cost if you go and see yeah I grown up
+in Hyderabad so if you go and see here many times right if you go and yeah I'll
+come back to that guys if you go and explore like any website you will be
+able to see somewhere like not important being used at many places okay let me
+explore one by one but generally whenever you want to override anything
+you want to make it a specific doesn't matter what is the order what is
+everything priority I don't care about priority I don't care about priority
+whatever it can be but I want a specific style to be applied to this particular
+element or this class or the ID whatever it can be any selector that you have
+but if you want to apply any particular color to element for surely if you want
+override it then you can use something called as not important and this is like
+until unless you don't have a other way you're not supposed to use not
+important because you will get you'll be flagged in your peers
+but why we use keyword like it's like yeah Kabir you can say that the way I
+remember is hey it's important whenever you say exclamatory mark you say that in
+an action of you know amazed or shocked or like trying to stress how important
+it is so that's how this works like when to use external libraries and want to
+override their styles yeah right right something so company to get that point
+like the just it says that hey it's like actually reverse order the way you can
+remember is this way something that I relate is this way at least but that's
+how syntax they have given like this one are able to relate like it's
+important apply this okay so it's in reverse direction so guys I hope the
+order of priority was a specific you are clear on this part like how does we
+because we have already discussed like inline get highest priority then goes
+with the flow from top to bottom if we when you use internal external doesn't
+matter whatever comes later that will be overriding it isn't it but when it when
+you wanted something to be specific you have to use this important keyword okay
+so moving ahead guys moving ahead I'll take another example I want you I want
+us some I will introduce some difficulty here this think of this one let me do
+one thing I'll copy the example since it's a specific example simple example
+let's say I have something called as this one okay an unordered list simple
+unordered list where we are having three things apple mango and orange nothing
+new right now I'll apply some styles to it okay well let me close this first I
+don't want to show which thing will be applied and which not okay firstly what
+I'll do is that I'll say that Li tag all the Li tags will have color red okay till
+here there is no match I say that Li all the Li tags will have a red in color so
+apple mango orange should be red in color but let's say now again I define
+Li tag and I say color to be blue once I do it again so since we have just
+discussed about cascading this Li will be overridden now all the things will be
+converted into blue that is what we know but let's say if I make something like
+this way let's say UL hashtag fruits so what I'm saying
+select a UL tag which is having ID as a fruit okay then I'm saying select Li
+having a class as favorite
+okay then I'm giving some color as red okay then again again what I'm doing is
+like I'm selecting UL hashtag fruits and I'm giving color as just think of it
+take two minutes of your time think of it what color should be applied for
+apple what color should apply for mango what color should apply for the orange
+for the current knowledge that we have from the knowledge current knowledge we
+have just think of it like what what can be applied just write it on some with
+apple hyphen a mango hyphen orange hyphen that would be better for me to
+you know take the mango goes for red okay okay let me write down here let me
+give a comment here mangoes mango says red then I got answers as apple and
+orange blue okay how many of you are agreeing with this one guys apple and
+orange will have blue and mango goes with right okay let's let's explore this
+yeah so if you see apple and orange are blue mango goes for it that's easy now
+what if I make this one green
+and let's say I make this one yellow I'm still not changing a class for mango
+just think in terms of apple and orange
+think of what would be the apple and orange apple will be apple and orange
+yellow mango red okay cool so
+yeah cool thank you guys so I hope you are able to relate with this one but
+coming back to the right question let's say this I'll make it as a blue do you
+see here do you see here difference between this anything here because if
+you see here if we talk about cascading right if we talk about cascading first I
+said all the light act should be in red right firstly how many of you are able
+to understand logic clearly is there anyone who is still having you know
+problem and figuring out this one okay now I just want to talk about these two
+things here you say that you this one you will ally fruits both things are
+common then you have ally and favorite you made it mango but you came back
+again you said hey override all the ally tags inside the you will fruit by this
+condition it should have been converted into all into this color right whatever
+the green is being applied but that is not getting applied here did anyone have
+this question
+right so if you think from cascading perspective this is not following the
+order there is something magic is happening firstly what happened behind
+the scenes let's understand what happens behind the scenes okay whenever you have
+one element let's say these are the one common elements and for this common
+elements you kept you know keep providing a different isostyle using
+different types of element selectors or different things but you kept applying
+for those always you're trying to point at the ally here we are pointing ally
+here you are pointing ally you are pointing ally here again a lie right you
+kept trying to override again and again so when you are trying to do it this
+way right there is something that happens here that's that is what while
+resolving conflicts behind the scenes there is a tree called CISCOM is built
+will come to that CISCOM tree in future but while it is built while it is trying
+to resolve the conflicts and trying to say that which color should be applied
+it follows some one rule specific rule called as a specificity rule now if I go
+and hover over here can you see the something called a selector specificity
+102 can you see this 102 and if I if I go up if I go up and apply here can you
+see here what it is 1 1 2 ok now let's say I write down specificity here ok so
+here specificity was something like 1 1 2 but when it comes to here let's say I
+it was 102 now let's figure out where this is coming from where this is
+coming from ok let's understand the specificity
+ok we'll resolve all these doubts let me take this ok let's take that same
+example ok what what was the selector what was the exact selector that we had
+let's say I write down in the iPad I'll share back guys I have you will
+Hashtag fruits Li now I want you to help me out with the what type of
+selectors we have here firstly I want you to help me out with the type of
+selectors we have here and number of selectors we have yes come on quick
+what type of selectors we have here and how many selectors we have here inside
+those types let's say what this you will and Eli is just think of this one what
+is you will analyze
+element right these are element I hope everyone have a better idea on this
+this is element selector because they are directly HTML elements then what
+type of selector is this ID right no if you see when I wrote down
+specificity here now we have two elements and 180 this is what we told
+now if you go here I have written something called as 102 ok let me say I
+again write down 102 are you able to relate anything here what 102 is
+standing for
+what 102 is standing for guys right so when we say I'd one is something called
+then zero is standing for class there are no class then two is standing for
+elements let's do that same mathematical you know this one calculation on this
+time something called as you will hashtag fruits and Li and favorite
+let's do it for this one guys so how many again how many element selectors
+you have how many element selectors you have in this example to what are those
+you will and Eli again how many ID selectors you have one how many class
+selector you have again one which is start favorite right that that is the
+reason why you get this 112 which is ID then you have a class then you have
+element okay so it went this calculation it went had with this calculation even
+though cascading was being applied here it calculated specificity rule it
+applies if you go and highlight the Li right if for everything for each and
+every tag or which and every element whatever you do the specificity rule
+applies for resolving the conflicts behind the scenes okay so when it went
+ahead and tried it's it saw that the specificity is 112 and here the like
+whatever we are when we are overriding through cascading it saw the specificity
+is 102 now 112 is greater than 102 right isn't it you guys agree with this
+pointedness that's the reason that's the reason though this particular mango is
+being overridden but for that red was you know playing yeah not exactly
+addition I'll come to that teacher but generally I'm trying to specify no I'll
+come to that exact point but I'm just trying to explain why that red color
+came in because the specificity of this particular color in red is higher than
+compared to this one is this point clear like how why this kind of why this color
+is being uploaded at least till now will come to specificity again anyone having
+any challenge till now
+okay great let's let's go and explore like it pointing to a specific path I'll
+try to explain that Kishore then let's let's try to re-understand your point
+okay now so what specificity says is that it has a generally four positions
+okay let's say box one box two box three box four okay one two three four
+now one first box goes further something called as thousands position and this
+position is always applied for style or you can say in line style second
+question which is called hundreds position is applied for ID okay hashtag
+then third question goes for 10 which is goes for class then there is something
+called once position which is applied for element selector okay what do we
+exactly meant by this is whenever you are trying to apply anything like CSS
+always specificity is calculated now if you see whenever we are seeing we are
+seeing only in terms of this tree okay whenever we are seeing like two three
+four we are only seeing for three things ID class and element because in line is
+defined separately if you have by default anything like in line thousand is
+always going to be greater than any anything that you define in the style
+block or external styles are you able to relate now why in line style is give
+gets more preferred so this is a logical explanation why in line gets priority
+because there is while resolving conflict in specificity rule in line
+style wherever you define a style block that's the for that thing specificity
+let's go and see here in the example that we had okay this one here it didn't
+apply I guess but here it starts highlighting but that's how it works in
+line is always standing in thousands position okay now if you see this example
+that we had if you see this example that we had the other example we had one
+one two and then we had something like one zero two now even if I do this
+calculation let's say one into ID being thousand hundred plus one into ten plus
+one into one right I'll get something like one eleven but if I go and do a
+calculation for this one I'll get one into hundred the zero into ten plus two
+into one it's giving me one or two so one to well is always greater than one
+zero two that's a reason why mango was applied red in color I able to get no
+better understanding why that color is applied how it is calculated how why
+like the styles are overriding or how it get resolved and why we say that in
+line will have a highest priority compared to any other thing right so
+generally while specificities this is how it is applied so I have some of the
+you know exercises for you in order to try it out and explain it okay so let's
+say I'll give you a five minutes let's take this example guys let's let's see
+if you are able to solve this one let's say I have something called as test
+thank you copy and then you have something called as h1 dot test then
+something you called you have something called as try giving a really basic
+example guys I hope you will be able to solve then I have something called h2 so
+give me something here you know in the ascending order ascending order is
+something like this if someone has problem no arrange this in the
+specificity order take your time if anyone don't have notes or anything try
+to calculate it let's let's just put those four boxes and try to calculate
+each specificity and then try to figure out so that this is an exercise where
+you'll get more confident about specificity
+I'll wait for two minutes guys take your time until unless I get an answers so
+Muneeshwar has suggested one answer Muneeshwar I just needed in ascending order
+okay let's say Dheeraj is saying h2 then test then h1 dot test then hashtag
+try and Muneeshwar like let's say if I count this way right three four now he's
+saying that three is like hashtag try is less than h1 dot test three two then
+one is dot test then four h2 yeah okay Muneeshwar let's say I again I would say
+your answer and Dheeraj answer is same so I'll take it both so I got two options
+guys so let's say this is option one this is option two this is for thumbs
+up this is for thumbs down go and press it gets whichever you believe it is
+right okay I see more of a thumbs up cool no worries so but I hope everyone
+is able to relate this both are same now how come not same you sure I'm saying
+h2 is greater I think it's they gave it a Vigneshwar has written in reverse
+order but I would expect him also like have done it right okay Kabir go ahead
+you type it down meanwhile what we'll do is like we'll write down specificity for
+each one yes what would be specificity for this one dot test let's give
+let's write down you know specificity for this one dot test give me in like
+this way it is zero in line style 0 ID then I have one class then I have zero
+element now let's go for dot test and try no not exactly no no Kabir it won't
+be for dot test zero in line style zero ID H1 goes for element so we have one
+then dot test go for class I have this one then I go for try have this one then
+h2 0 0 0 1 okay coming to answer your question if I say dot test and dot try
+hashtag try see try goes into the hundred question hundred and this is
+ten so try will be always will be having more priority compared than dot test
+is that clear yeah I'll share this one okay if you didn't note this
+okay so I guess guys hope you got to understand this one then you get you
+calculate it this is what the right order is I think Vigneshwar has also
+written rightly but he might have messed up in the ascending and descending order
+but that's also confused okay where hey how many of you have got clarity or is
+anyone confused case if you are confused can you give me thumb down if anyone is
+confused before confused not okay great so I hope everyone is feeling good on
+this topic like specificity would be clear now so I would expect priority and
+specific specific is something like going with not important and priority is
+always something according to specificity calculation
+okay and you can remember always this has a style then ID then class then
+element this is the order like thousand hundred ten and one okay I hope now you
+will be able to you know even if there you know sometime your CSS is not
+applying though you have written right you will be able to relate with this
+one cool guys so moving it to the next topic now is this one common topic which
+jumps into most of the languages I thought like when I was start learning
+initially right this topic wouldn't be there because firstly in my college when
+I was in college I learned firstly Java like mainly people start with Java or C
+plus was there you there you have object oriented programming isn't it and there's
+one topic commonly in every object oriented programming right there's
+something called as inheritance right everyone might have gone through the
+inheritance topic it's someone new to programming language that's fine but I
+thought this is specific to oops I am programming languages but turned out to
+this one it present in CSS also no worries uncle no worries so that's a
+something we have to we're going to start now inheritance topic itself but
+let's start with basic guys basic like when I say literally yeah there's
+something everything turned into blue do you feel that guys everything turned
+into blue I mean it's happening everything in my system too much
+technical issues no worries wear glasses I will highlight this one also I'll take
+a screenshot that suddenly turned into blue
+cool okay notice so yes let's let's get back to this one inheritance what would
+be something like in general term like what would be the inheritance would be
+where you might can where you can relate this property inheritance in general
+terms you might be hearing at home and someone for not particularly from
+computer science also might have gone through this word acquire property of
+parents
+right property or you can say ancestral property that you are getting by default
+so whenever your children generational wealth hierarchy right so we'll learn
+this topic again in JS also JavaScript oops okay JavaScript oops but let's
+understand in terms of like how in CSS works okay no let's go and start with
+examples because examples will drive you to understand in a better way let's go
+there and open I have a list of set of examples that we'll be exploring it let
+me make a folder here firstly specie okay I'll push this files inside this
+then I make a new folder called as inheritance as I'm trying to maintain
+this repo I hope you utilize this repo well for revision and practice purposes
+okay let's say index one dot HTML HTML 5 then let's say I pull up first example
+that I want to show you
+no let's take this example guys you just told me parent properties by default you
+get to the children and everything right now if you see what I've done there's
+something parent if and there are something like children to it I've gave
+parent some color right do you think children also should get that color
+right we have seen this example already and we can say that yeah children should
+have got this color isn't it so that's where by default this is a first step
+where you can actually see that inheritance is applied okay this is
+where the concept comes something like parent is having yeah by default
+whatever parents is having children also get that property okay this example is
+clear right I think no one would have any doubt in this basic one now let's
+go and pick the other one
+no let me open in the preview
+no let's come and see this case if you see there is something like parent
+today one if you go and see the day one color is red okay by default every child
+in it let's say if I collapse this one okay there are the two child
+specifically child one and child two okay so whatever parent by default
+parent has it should go for every child isn't it that's what we try to
+understand from the example one but now in the second example we try to see this
+one that it second child also has a grandchild like I mean to say it has
+its own respective chain and what we have done this the child one has having
+a color green now it took it from like the this particular child the innermost
+child took exam like color from this particular child everyone is everyone
+able to relate this example that whatever I say what I'm trying to say is
+that whenever you are going from this like you know spanning out whenever
+you are spanning out from your current element you try to check for the each
+parent whenever you go and try to check the first immediate parent if this but
+that particular thing is having some color it will inherit from their
+particular part it won't go to the till extent okay yeah so what I'm saying is
+that let's say let's say there is a one grandparent okay he's carrying something
+red color then there are two two child let's say this is a child one this is a
+child by default this child one child two should be getting red but we said
+that red C1 will have respect green color we just told this inside this C1
+again there is a child call C1 dot C1 let's say this one now C1 even doesn't
+have any property color so it goes and check with its parents do you have
+anything now if we go and check here C1 has something green so this person will
+take green and it will settle but it won't go and reach out grandparent yeah
+child inherits a immediate parent try immediate parent is like not exactly
+until unless if there is a something let's say what if it doesn't see one
+doesn't have any color then it will go and check for the GP right so till that
+property is found till till that property is found it will span out from
+lower level to the top levels okay I hope this this this particular thing is
+clear guys this example okay so now let's take an example of now this one
+thing what if do you think if I have something like border if I have
+something like border let's say I have something like border here one pixel
+solid black do you see if border is being inherited by the other children
+but does does child have border like we told parent have border by default
+children are not having it right so there is a particular section of
+properties which are by default inherited okay by default inherited what
+all properties are there which can be by default inherited are one is for color
+color is for sure okay this is not working let's say
+color is for sure that is inherited also the properties with whatever font you
+have something like font let's say if I give a font in the parent and I say
+that font size I say 20 pixel do you say everything is being applied
+so everything starts with font is inherited whereas properties with
+something like you know border all like you can say box model properties okay
+box model properties or display properties whichever are trying to help
+you to enhance a particular thing right I mean changes view wise those
+properties like position properties these properties are not doesn't work in
+inheritance this point is clear like there are some set of properties works
+for the inheritance there are some set of property doesn't work imagine if
+border is working as inheritance each every element will be having border
+that doesn't suit it right so that's how they built it now let's go and try to
+explore the third example
+let's say I have this
+now let's explore this one guys if you see just now I have towards that border
+once one px value blue do you think the child will have do you think child will
+do you think child will have that border no right now and do you think child will
+have color red do you think child will have color red yes right now then I have
+used some property here called height has inherit let's say what if I comment
+this firstly let's comment this if you say it is rendered as needed but there
+are some properties yeah there are some properties with which you can inherit
+forcefully there are some properties like let's say your grandfather properties
+are there you want to inherit or there is someone else who want to claim those
+properties they can they have an ability according to rule of law let's say and
+for non-inheritable properties like the height is non-inheritable property but
+we are trying to inherit for this child if you see when I've gave 100 pixel as
+a height for the day one parent box is having 100 pixel let's say if I give the
+background color so I give a background color of wheat if you see this
+particular parent is having 100 pixel but children are not having rate is this
+point clear firstly parent is having height and children are not having height
+because it is non-inheritable but what I am saying is that I am using a
+something like keyword height keyword height and I'm saying that inherit
+whenever I'm inheriting it again goes like a color itself it goes to the
+immediate parent then next parent and it sees that whether there is a height
+property if there's height property please share it with me I want to
+inherit please share it with me so here this particular child Dave one child is
+having hundred pixel height let's say if I want to show you that height exists I
+use something like let's say this one can you see this this child one starting
+from here is having same hundred pixel height it's taking hundred pixel height
+as parent there so if you want forcefully if you want to inherit a
+property from a parent you can use a height and a property called inherit so
+whenever you are going to a like there are some like let's say I write down the
+definition here using inherit you can
+get parent values for particular property
+is that clear guys like how this is working inherit one anyone having any
+challenge please please react did you all get it I see three thumbs down cool
+notice now let's say going back to that
+so height is a one diff I have given this diff as height hundred and height
+is not inherited because I have added inside diff some content XYZ inside that
+I have two children this has C1 and C2 by default since height 100 is not
+applicable it just took inside the content wherever contains it just got
+side on side of it itself what if I want the C1 to take the same height as a
+parent I can say height and inherit whenever I say inherit it will go and
+check with parent do you have height property applied to it if you have height
+property can you give me that value as soon as it get its value it will take
+that hundred pixel height starting from here it will consume hundred pixel then
+something like this box will change as this parent content then child one will
+have hundred pixel of height this is C1 this is P then under below this then you
+will have something like C2 because that's what an order it is this is clear
+okay this parent has a child yeah child one content is like top aligned right if
+you want it to move below then you can apply display flex and yeah I think I
+am Kabir pinged me personally then he corrected it did you get that Sambit I
+hope this example is clear to you all like how you can use inherit okay then I
+have another example let's say I go and
+index 4 dot HTM
+say when in the preview now if you see this guys we have created a simple day
+for the content hello and we added background color and color red okay now
+it's working fine but let's say if I go and create another day I'm having some
+gibberish by default a black color is applied where this black color is coming
+from why not any other color so by default whenever your CSS are loaded or
+anything that you use it has a some default colors and default CSS are added
+to each and every to remember something like this border and margin is not
+removed like because body is having something if you go and do something
+like body padding zero and margin zero
+do you remember this body tag is by default coming and that's how for each
+and every content that you write it or each and everything you do it yeah
+yeah universal selector you can apply it for everything that's how else it will
+work but now what I was talking about is that if you see this content it's
+coming in black in color no this is what by default whatever default colors are
+there whatever default browser gives you specifically if you want in any time
+like any time in particular thing that if you are anything that you applied
+CSS but you want to override with whatever browser is giving you like how
+can you go for default thing like I want a default color to be there how can you
+go and do that for that reason again what in inheritance like if you want to
+inherit a default color you can always say something like get me an initial
+color if you see around this keyword if I click enter now do you say this it is
+div is converted into black color
+so whichever thing are there if you want up default colors to come back to you
+you can always type down wherever property are using it to the D like get
+me the initial like if I go and select for the padding right get me the initial
+padding there is no initial padding by default okay if I go and select that hey
+get me the initial margin there's nothing there but what if I go and select
+for the body it will be applied but I hope you got the basic idea when to go
+for initial it's like whenever you want to go back and get the default colors
+that are be given by the browser to you is this example clear guys is inherit
+an initial property clear like we have discussed two properties okay let's say
+I write on the this particular statement on the top if you want to remember
+anytime by default whatever browser you are giving you are getting it from color
+that will be applied or the CSS sensor okay next example would be index start
+HTML okay this is one of the tricky example that I wanted to help you out
+understand this property is something let me type it down so that I have added
+too much content at their class let's say this is a dev with class dev let's
+say content is hello now what I'll do is that I'll have a style block inside
+this let's say I have HTML by default color red
+okay let me open in the preview by default color is right now but what I
+will do is that again I'll go and make a diff color as green okay then I'll go
+and try to do this thing what I'll do is that let's say margin these are the
+basic properties nothing use case here just 8 pixel margin then I'm trying to
+define a new property for the color
+there's something called as unset no by default do you see any difference here
+when I use unset keyword here do you see any difference when I use unset okay
+even if I if I comment this if you see this red is being imported okay so do
+you see this this is working as inherit if I'm commenting this one it is trying
+to import this one
+this when I'm using color as a unset it is importing right it is like getting so
+for whatever inheritance like capable things like color is in inheritance
+capable and it is trying to get using answer so unset works in both ways
+firstly on set works in both ways for
+inherit table properties it works like
+inherit keyword okay but for let's say non-inheritable
+it works like initial okay now let's say I can show you an example of this one I
+have let's say they have and everyone there okay I have multiple things have
+defined it now if I use something like display okay let's say I go back now
+what is the display of this property guys firstly what would be the like what
+type of elements these are firstly are those in line or block level block right
+so they're coming in each line now if I go and use something like a display
+property let's say I make them here flex okay now if I use here unset what do you
+think it should happen for non-inheritable it works like initial I've
+just told you display is not in heritable I've just told you like
+earlier now if I set an unset here and I save it do you see this is like
+applying anything here firstly let me open this in the life so for better
+understanding give me a second guys I'll pull this
+no I'll go and select this one and I'll go and open this no if you see by
+default when I'm setting as inherit sorry when I'm setting as unset if I go
+for color property it is getting those color property and applying it when I'm
+selling color equal to unset so it is working as inheritance like or like a
+inherit keyword just I just just have a tool here written that line when in
+inheritable properties it works like inherit get the parent property go and
+whereas for the like properties which are like non-inheritable like where you
+cannot inherit it like the property is here for display you cannot inherit it
+so whatever by default browser provides you you'll get that property is that
+clear because I've just told here unset I didn't say that get me a block here
+is this clear guys like how unset works unset works in both ways like for like
+initial and inherit but for this works for the different properties people get
+confused in this I would say like I'll try to give an another example which is
+combining all the things and I'll revise all of that stuff you don't need to
+worry on this one if you are bit messed up here index six dot HTML let's say I
+pull this no let's see this example is firstly let's try to figure out what
+will be applied for which one now this is a question to you guys let's say I
+have this stack here firstly a right and this one and this one and this one so we
+have to guess what color will be applied for a lie what color will be applied for
+anchor tank because there are two things like if you see if you go for the line
+one the second default the color can have different color and link can have
+different color so just think of it
+what color would come to this one
+let's just think for this a lie tag
+default or the red color because it is trying to inherit because something
+color is present for the body it will go and check for the ally do you have any
+color applied no I'll go for you will tie I'll check there is no color then
+I'll go for body and I'll see that in body red color is there so everything
+should be red in color that's our guess right no when it comes to class one when
+it comes to class one
+when it comes to class this one second ally think of it guys think of it a
+whole thing will be read or there will be something difference
+see how like
+aligned with that everything will be read cool think of third one
+think of third one class two okay so a combination of two things are only one
+thing whole will be black initial default fine in each whenever you see
+that hey there is something like initial will be applied for this one but do you
+see that I am applying only CSS for this anchor tag not for everything I am
+applying CSS for only this thing in what this anchor tag color would be default
+color whenever you write hyperlink
+blue right so I we say that one thing will be surely blue and the other thing
+guys other thing guys think of other thing like this initial and color this
+keyword so we say that link will be blue in color but what's the use case of this
+color initial and color what would be the color of this one both things
+check what condition can be applied here black a light act content a lie it can
+go and inherit right it can go and check to the parent no bodies having the red
+do you think red does anyone think red
+blue is applied for this part does anyone think red should be applied
+but initial right but initial where I'm applying where I'm applying initial okay
+let's see this so everyone says blues right okay then what should be working
+for this use case guys what could be the use case of this one
+when I'm setting as unset I'm setting as unset so we are applying for the color
+color is something like which can inherit the property then it will be
+red right now let me open this okay let's see how much our guess is right
+guys do you see anything difference here so first answer is wrong firstly we told
+that a light act content it will be able to inherit and get it but a link
+whatever hyperlinks are there they don't inherit until you specifically
+mention them because they are not in a table this tax itself whatever content
+is there they act like a hyperlink they get some initial value for this one
+default default link color is that clear this first one anchor tag doesn't get
+like it doesn't go for inheritance property but the default and color these
+two keywords like how if you're guys getting confused I'm not sure if
+you're getting confused this is how it is guys parent then there is a child in
+between the child can inherit or cannot inherit depending on the type of
+property but default and color are of course inside content so this Li tag
+anyways having a color right so that's why this color is up like this is line
+one Li first line is clear no it's not it's inline elements like if I say span
+let's say if I space span okay if I say span do you see this red color is being
+applied Kabir it doesn't work with like all inline elements it just for hyperlink
+the specific use case right now second example let's say we say that inherit
+the property by default this inherit will anyways inherit then we told that
+hey anchor tag can you inherit the property whichever parent is having by
+this example dot class and a we say the inherit the property so it went and
+checked body is having color right so it applied color right is that clear how
+this thing is being applied you you all people just explained me this one right
+so I believe we got correct on this one right then we had something called as
+this one blue we all said that blue color will come but it happened like a
+initial color content color what firstly I confused you here asking the question
+what would the color of hyperlink but are we applying color on a hyperlink or
+the content that's where it's a tricky guys but I I hope you all people got it
+like it's actually black in color because few people all suggested black
+what I try to stress like are you sure that okay
+this is clear why black is coming yeah I'll post this on kid we'll take the
+break okay this is black I say getting the initial color for this one now next
+is completely red because unsaid works in a such a way like inherit property
+when you're using on a color side of property right so I hope this example is
+clear to you guys like how these properties are working how these are
+rendering is anyone having any challenge over this and when understanding this
+one so I hope every concept is now whatever we have understood those
+things are clear if these things are clear we can take break guys any doubts
+any doubts how many minutes you need guys eight minutes would work that's
+enough right eight minutes
+okay
+we have like less amount of content to be covered next I'll try to cover that
+let's take the break guys
+which CSS Kabir like this one something that we have written the last one this
+one okay so I'll keep switching the screens you can see this
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+well guys is everyone back
+only one on this great thank you so guys I hope inheritance concept is clear to
+you basically we have understood four five properties and then I have one of
+the examples like if you does anyone remember like the cards example that we
+built for flexbox and great right we but we have used one property right to show
+it as a card likely we entered and some shadows around it box shadow right but
+we didn't understand how box shadow box isn't it does anyone remember this so
+let's let's explore that one property let's explore that one property so what
+I'll do is that I'll I'll just use something like dev ID container okay
+inside this let's say I click create do you hashtag card and let's say I'm
+having a card here okay I render this one on the show preview now I'll
+minimize this one and let's have some stylus style inside the style let's say
+firstly for the container part I'll have some of the given information let's say
+so I hope anything if you don't understand is any property don't
+understand let me know like a given width like it should contain a half
+width of this one then I got height of 200 pixel like this is the height of the
+box then I have to like border should be two pixel solid gray like this is our
+border then I gave border radius as 8 to make this as a curved edge right then I
+gave display flex item and no and align items and justify content as a center
+because to move this particular item into the center is this clear guys
+anything that you feel you nothing right it's something that we have seen over
+again again now let's come to the actual card okay so what we'll do is that I'll
+give some width and height to the card let's say 100 100 pixel and height has a
+hundred pixel and let's give some border border here okay one pixel solid
+it's a black okay no others let's comment this don't need it also the card
+is there fine let's have it no issues now I'll go and do something to the box
+shadow no box shadow generally takes four things guys initially like let me
+comment down firstly it takes like horizontal offset what does this exactly
+means is that I'll show you increasing just let me write down this one
+increasing shadow along x-axis or looking or consider horizontal similarly
+next you have something called as a vertical offset okay then you have
+something called as blur effect how much blur you need blurring the shadow like
+then you have something called a spread till how much long how far you need the
+spread okay now let's write down one one thing so the this goes in the same
+sequence like let's say I go and say that hey give me one pixel or of
+horizontal shadow two pixel or vertical shadow okay can you see this like I'm
+not giving any other property let's say this only these two properties if I keep
+on increasing this let's say if I give you five pixel can you see this in
+horizontal direction the shadow is increasing if I give 15 this way on the
+cross axis this way is this point clear like if I give let's say 20 pixel as a
+vertical can you see this it's moving down the vertical direction now if I go
+and give the blur let's say five pixel can you see this blur how how blur the
+shadows becoming blur as much as you add here it will become more blur let's say
+if I make 15 to 12 that's that's what it gives your blur effect on the border now
+after that what you can give is how long you want to spread this blur let's say if
+I make 50 pixel okay how long I want to spread the blur let's say if I
+make five pixel okay then actual magic comes this is other properties that you
+want can apply on a box shadow but actual properties like color let's say if
+I make green and I give something like let's say I select an RGBA this shadow
+let's say we reduce this as a one pixel and we make it as two pixel let's say we
+make it as like blur as a two pixel let's make blur more eight so that you
+have a shadow sort of feel and let's remove border also if you remove border
+let's see how magical this box looks like and we can have something like
+let's say border radius I don't know if this will be visible since we don't have
+border eight pixel so this is what we were doing in the card right we were
+adding some shadow to look up do you find this good guys do you find this
+good it some bit like it
+so this is what we are doing let's say if you want to again spread this hard
+gently I give 10 it will move on that X axis to the right if I want to move it
+them to the bottom then I can you can use I can use this one so this is one of
+the way you can play around with the box shadow but there's another thing that
+you can do if you like to fix the box shadow right one of the best ways to go
+and do it in the browser itself like let's say I go and open the browser that
+is something how I play around with box shadow at my workplace if I want to deal
+with this one reason I will tell you why if I go and select this element let's
+say this is a card if you see here I have this one whenever I have this
+selected right I can select like a how much I need along the X axis or how
+much along the y-axis I need or else if I need around this one or if I need on
+the center itself and I can give some blur of 8 pixel or how much blur I need
+then I can spread it if I need let's say if I want to spread the shadow does this
+look cool
+yes this this is how you can play around with blur anywhere you want to do it
+then there's something called inset it's like inset is also something like if you
+want to add a blur inside where you want to play it inside okay let's say you
+apply this one and you leave it and you go to the card if you see you if you
+want to apply a like shadow inside you have to give the word inset then only
+you can play around with that one let's say if I go and do add here
+something like inset you see this it's applying the blur inside inside yes yes
+yes open so it acts it goes on X axis for axis that's why the first two
+values whatever you are giving those are actually meant for horizontal axis
+and vertical axis like where you want to move then you have a blur the width of
+blur then you can keep like a how like once you define the blur how much spread
+I want once that blur is there yeah inside 10 pixel is there like you can
+do it now like if I open that again tool so it goes on longer the x-axis y-axis
+right let's say if I go on to and the both negative right X is negative and Y
+is negative here in diverse like when you go for off in our inset when you go
+for off again this is how it works X and Y axis is a bit different here but
+generally this this coordinate is something both have used to have
+negative isn't it sorry this is the quadrant rightly mentioned coming from
+top to bottom I forgot much but I hope this box shadow you are able to relate
+how can you revolve and play around with this one cool field right so I hope you
+will be play or will be able to play around with box shadow I hope box shadow
+is clear for you like how can you deal with it are because by default right
+whenever you want to fix it this is whenever you type it down 1 pixel 2
+pixel 8 5 or you want to give the color that you won't be able to fix it
+right away by writing it you can use inspector what was our last one element
+be before the horizontal vertical blur before horizontal this one inset is it
+this one 5 pixel spread so let's say if I go and show you real-time use case if
+I go and select this one if I spread this let's say this is the 5 pixel this
+is the last element if I can't spread it how much how much ever I want let's say
+if I make 100% of it it didn't take it but you can take it as much as you want
+like how much as you want to increase it here you can apply I guess let's say if
+I open here and so in I'll remove this inset I don't need this inset but let's
+say I make this 50 pixel can you see this something got it yeah size of
+right so I hope this property is clear I have one last topic guys to cover in
+CSS which is different types of units right different types of units dot
+let's take this way html5 so I want you guys to tell me how many units you have
+seen or you we have used it till now
+case I'd say okay pixel the fraction it is specific to grid somewhere so
+percentage then view height and then view width also I can include which is
+W view then something is let's say this is view height then these are the fixed
+units these are the something called as let's say absolute units whereas do you
+know this there is a there are something like centimeter millimeter inch this can
+be also applied but we don't really use them then you have something like the
+relative units inside it related units two of the most used things one would be
+you would be playing around with them is something called relative M the so the
+you you pronounce this one as a relative capital M or or else you have something
+like M just like M okay now we'll try to explore each of them let's say I create
+let me have this open okay we'll go in reverse order itself guys so we'd go in
+reverse order let's have a div okay and let's say this is a class of container
+and let's say I have something like diff this is lorem 20 okay now this is let's
+say again a diff this is also lorem 20 okay so what I did is like I just had
+let's say ID as item one let's say this is an ID called as item two let's explore
+using this to ice and create a style block okay so what I'll do is like I'll
+use this class container and I'll use something like font font size let's say
+I use 20 pixel okay now firstly everything inheritance so font as I've
+told you earlier that font can be like inherited so everything went into this
+one okay but I'll go and say that hashtag item to as a font size to be
+eight pixel so this is specific whenever you say pixel you are trying to use a
+specific let's say like each screen is built using like some range of pixels
+guys let's say even if you go and try to see here right let's say if I select the
+whole body everything will be having in terms of like pixel size 880 into 240
+that is what my pixel is okay every screen will have its own respective
+pixels so now that's how the space units works for them like that's how your
+screens are decided but now what I did is like I've selected hey any screen you
+pick it up any screen doesn't matter how big screen is how less screen is size in
+my leg doesn't matter I'll pick it 10 pixel of that screen size is this clear
+what when we say pixel when we use PX what does it exactly mean now let's say
+I use something like item one now I say font size and I say something like let's
+say to EM what just happened is what just happened when I used to EM the
+font size you know increased at least this thing I can say the font is
+increased for this particular content now let's see open in live server open
+in live server
+let's debug this one what is the font size of this content when I say to EM
+it is showing as a to EM itself it's not showing me the exact value okay because
+it has overridden this one but what does this exactly let's say now if I convert
+this to EM just remember the difference is this is like this is how it is
+looking I'll go and do 40 pixel to fill it is still same size if I write down
+40 pixel or 2m how many of you agree guys a few more thumbs up if you are
+agreeing that to 2m and 40 pixel are equal so whenever we are using relative
+units whenever I'm saying when we say that relative units it's respect to its
+parent so if you go and see here item one is wrapped inside this container and
+container is having some font as 20 pixel 20 pixel now I'm saying that
+whatever I'm writing it in terms of M it is a multiplier of that pixel so
+whenever I say to a to it's equal to 20 into 240 pixel let's say if I make it 10
+right let's say if I make it 10 it will become 20 pixel if I make it 15 if you
+see I'm changing this container height but the content inside content is
+getting multiplied are you able to understand now how does M works M
+always try to connect with its parent font sizes and it multiplies like this
+is a multiplier or let's say you might be seeing that 1.3 1.4 right mostly
+people write in the multiple units this way but it just like it behind the
+scene what's happening here is that just let me write it on the top so what's
+happening is 1.4 into 18 pixel is what is being applied okay I hope this point
+is clear how M works now then there is something called as rem now let's see
+what if contain what if it not given to contain what by default it will take
+okay let's say I comment this thing is I comment this thing I commented this
+thing by default 1.4 M is taking something let's say I make it one guys
+for easy understanding right I made it one now if I go back in the browser if
+you see one M is applied now one M is generally talking about like 16 pixels
+guys by default the content comes at 16 let's say if I convert this into 16
+pixel just remember this one how it is looking this is how it is looking if I
+convert into 16 pixel does it look same Kabir so by default the font let's say
+if it container is not there it will go and check in the browser level what is
+the font size you have given so it will go and check like take it as 16 but if
+you have defined in the parent container it will take with respect to that one
+now let's say I convert 10 pixel into 10 rem now this has become really huge
+then actually how does the rem works is like it always takes with respect to
+browser's default or whatever you have defined in HTML let's say if I go in
+HTML since it's 10 rem I'll go and say font pixel as a 2 pixel if I want to
+make both the paragraphs equal if I have 10 let's say if I make 1.8 pixel so it
+will be equal both are being applied 18 pixel so how this is working is how this
+is working is like whenever you use rem it always checks with the HTML content
+or the top level like hit exactly HTML itself if I would say there is no
+specifically mentioned by default this each rem is equal to 16 pixel okay by
+default by default rem or em is equal to 16 pixel if we are giving one unit
+but if there is something mentioned rem always prefer HTML tag fonts okay if not
+there by default it will go for 16 but whereas come to M checks in hierarchy
+for parents if not available it will also take 16 is this point here guys
+like how rem works and how em works firstly anyone having any challenge here
+understanding these two things guys if there's someone who don't understand it
+okay somebody says no face let's say what I'm saying is that rem is then rem is
+always good prefer go and this is a multiplier guys whenever I'm saying the
+relative units it is trying to multiply with some values so by default if there
+is no property in HTML mentioned this 10 pixel will be multiplied by 16 pixel
+because that is what browser is giving like a default font size would be 16
+pixel that is what I have written here by default rem or em will have a
+multiplier of 16 okay let's say multiplier of 16 because it's a default
+is 16 okay great okay sorry my mistake what's the best to use what would you
+think Hemangi what's the best for you if you have worked on projects what is the
+best thing is used if I have written pixel right in any PR if I used PX in
+any PR of my experience I've always needed to convert into rem do you know
+why rem no not Hemangi em we don't use it we use rem mostly as per my experience
+I have used rem I'll tell you why I'll tell you why so if you go and see for
+the bigger projects any bigger projects you'll have something like theme file
+have anyone seen it like theme file or initial font size like whatever your UX
+team gives right you have a default fonts like for paragraph in our
+application this would be the font size for the headers this would be the font
+size for sight lines this would be a font size so if we have a predefined style
+like if you go in a PayPal app or any app let's say Flipkart all the fonts are
+like similar in nature if you see paragraph they will been similar in
+nature at one place they might not have different right one place they might
+not have different so there is a one global file in whole project level or at
+org level company level because whole Flipkart app will have a different
+teams will be working on each team will have their own specific repo no in each
+repo whatever the lead UX team decides right they will give you that what are
+the default font sizes now with respect to those font sizes you use a rem unit
+and you use as a multiplier to render your content whatever you are particular
+project UX team suggest is this clear like why we go with rem units
+I hope this point is clear guys and next and if you see other than pixel
+percentages we have explored view height and view width are literally same
+related to like screen width and screen height like with respect to whatever
+viewport is there and we hardly use this I never seen anyone doing this one like
+not not used any like literally inch or mmr like cm centimeter millimeter an
+inch but I hope you got the basic understanding because people try to
+tend to you know face difficulty understanding Rema in EM I think I have
+explained that topic so I hope if these things are clear guys content is done
+from my side for CSS part I hope you you enjoyed learning like HTML and CSS
+because I try to come like take as much concepts I have to but if we have you
+know missed anything we'll make a list of it and we'll try to cover in future
+also because I'm still here to you for more than four months all right till we
+cover a whole full stack right because we learn react and then we learn node
+also node JS then express Mongo right all the six so journey is still big
+really big but if you face any challenge anything or you're not able to
+understand yeah Mongo database thank you so it's no sequel database right so
+document DB we'll try to use that but if during this journey you see any CSS at
+your office place or any place you're not able to understand let's set
+together and explore even the HTML part because I wait I didn't cover some
+advance like iframe does anyone know iframe iframe have anyone heard iframe I
+see one thumbs up two people no problem uncle no problem
+iframe guys YouTube links like how you have like let me show you how does
+iframe works it's a really powerful thing but can I start doubt session guys
+because I have I've completed the content I'll show you iframe and then we
+can keep on discussing if you want but the content is clear do you have any
+doubts ember ember is also a framework can you please explain again why did you
+use 1.8 pixel to the HTML hey monkey 1.8 pixel in the HTML so these are the like
+default like team styles like that was I was referring let's say if your project
+says that default font size is 1.8 then you can multiply whatever M you like
+rem you want to multiply with so this actually font size will become here 1.8
+into 10 which will be equal into 18 pixel this is how it will work is that
+clear
+okay great so guys I'll start out session then we'll explore iframe so
+repeat initial inheritance once in after iframe sure Kabir I'll take that let's
+start the doubt session first I'll take our talk one doubt about Kabir like then
+we'll go for iframe initial in inheritance okay let's take this example
+of this one yeah fourth one let me open this open in the show preview okay no so
+Kabir now what happened here is that by this drift tag content by default we are
+giving color red if I don't have this part let's say if I cut this the color
+red will be applied but if I say that I want by default whatever styles like for
+the content itself content like when I say this this particular content that
+would be default browser will be given CSS engine whatever default cells keeps
+that is like black in color the whenever you want to apply those default colors
+you can go for initial okay similarly I think you got confused at anchor tag
+let's say if I use anchor tag and I write down something okay and let's say I
+href okay if you see in href let's say this is google.com I don't want to click
+it it will redirect me there that's how it works but this is by default if you
+see coming in blue in color okay but if I use again the style color as initial
+I am applying the style for this content inside it not for this whole anchor tag
+right if I make it it is coming as a black because the kind whatever this
+particular text text will be black in color like same like div or span or
+anything you pick is that clear Kabir no it won't take if I if I give to the
+color to the body also let's say let's say I pick color and let's say brown it
+won't take so this color black color is coming from the browser level
+is that clear browser whenever browser is parsing or converting this HTML and
+rendering it right then default content color is black some of the CSS you write
+some of the CSS by default browser gives you okay I hope this is clear let's go
+guys iframe example this is one of the powerful tag so iframe works like this
+is not the example that I wanted to show let's say
+if you see this example guys what's happening here they used let's say I
+copy this one and I use here in the browser
+do you see this if you want to like like embed let me yeah embedded is open like
+if you want to inject a some like you know different things like a different
+projects are a different things so how do I understand iframe right mostly if
+you see on a top of your website many times you see advertisements coming up
+different things they keep on playing our video audio right they use it iframe
+tag like this iframe tag now if you see I can click on it I can it will read
+it will like work like a project for me so if you want to inject a new project
+inside your project right you can use a iframe tag giving the exact URL where
+you can if I use it let's say if I want a browser engine to work in my app I can
+simply say www.google.com now just let's say what's happening here this might not
+work
+okay it needs HTTP yes but it's not loading let's say if I load flipkart
+now to the configure it whatever now if you see that flipkart is loading
+can you see this case what iframe does if you want to launch a flipkart sort of
+app inside your application whatever you have built this is really powerful guys
+really powerful I would say like your whole thing will work but the way your
+project might not support sometimes but initial load it gives but generally iframes
+are used for advertisement or rendering those sort of things are you able to
+relate what like iframe example what iframe does it embeds some new project
+or new content whatever is designed by giving as a source tag
+yeah yeah yeah you can do that you can do that okay so upender has this thing
+like and we use embedded is it to embed our projects into portfolio you can
+always do that open you can always do that but you have to design your project
+such a way that those are like super responsive that it doesn't break
+whenever you are using embedded okay so that because you are whenever you embed
+it right it will be having such window size because here they have given some
+height and width customized so be careful whenever you are injecting in
+portfolio you use it this way okay
+now I'll show like let's go to the YouTube and show you that one say I
+search iframes let's say this they have display none like they aren't using this
+one this is they are using now if you see they did something like a sandbox
+URL now if you say accounts YouTube what this URL takes to let's say I copy this
+URL I click on so this is what they have embedded now if I load it it doesn't
+return me anything but I don't know what logic they applied here they're using
+for cookies like let's say instead of display none right we'll make a block
+in line doesn't show up anything here because even the pages seems to be empty
+for us right but what if I gave the same example let's say I pick this source
+stack whatever source tag they gave me let's say I pick this source and I
+inject in the YouTube so this is the iframe right then instead of display
+none I'll I'll say display block and I'll say here
+SRC
+try
+it is not letting me add okay I added this program is now can you see this
+guys this this got embedded here because it didn't have height and width now what
+if I they disabled height and width here like I mean they were just trying to do
+this one maybe a small project they stopped it in YouTube maybe then enable
+sometimes like do you remember what used to come here if anyone remembers what
+used to come here below this here on the do you remember daughter's go YouTube
+daughter's like Google daughters they build different types of things right
+this particular YouTube icon get exchange changed with that have you seen
+that this icon get changed I believe that's where they were trying to embed
+it and override this one because you don't want to deploy it separately maybe
+that's how they were using it
+okay but anyways guys any more doubts
+this class is awesome so excited sure sure copy thank you thank you for
+appreciation
+we'll keep building cool things ways just I would ask you know keep keep okay
+I'll take that somebody give me a minute I'll take that I'll answer now if I use
+CSS and use great it's covering the whole page in HTML file but when I use
+in same in CSS JS well it's not taking so can you show me the code some bit
+because I want to see how you are using like how we are trying to render like
+JS how we are connecting I'll see if I once I'll push the code I'll give the
+permission okay get commit minus and then class 7 get push let me check if I
+can give you an access some bit some bit I have on mute button then if I go for
+settings screen share admin hello okay then
+give me a minute I'm trying to find that option so me we unmuted okay yeah I
+got it so I'm unmuting you you will be able to have that option to share some
+you can check that okay no worries can you check that can you check if you are
+having access to share the screen
+some bit I unmuted you you are on mute can you try to speak once okay speak
+once do you see access yeah I have got the access right now okay yeah like I
+shared miss okay I'll pull this window here for everyone yeah please share
+yeah is my screen visible I don't see your screen being shared now is it
+visible no can anyone can anyone see guys I am not able to see that oh is it
+I'm not able to see it just a second
+like I'm actually not able to see it do do you mind some bit like you can share
+me or get a repo I can I can share the screen if you have pushed that code in
+get up no I haven't pushed it it's just in my local oh okay can you try to
+reshare it once maybe I'll be able to see it yeah I'll do that yeah yeah
+shared it
+I'm not literally okay I'll just try to you know like tell you the problem
+what's happening huh huh yeah please yesterday when we discussed about the
+grids right so we like created a layout like head on nav mean so when I try to
+do it with a dot HTML file right it's like covering the whole page like how
+we were able to see yesterday but if I create like something as a dot thing
+right huh as a dot js file huh for the same CSS huh it's like you mean to say
+that you you manipulated the extension is it correct yes so that wouldn't work
+right if you are trying to play around with something like an HTML files in
+HTML like how does browser understand it okay like if you're using dot js
+extension it's a code which is to try to render it but it won't be able to pass
+the CSS from that that's how extension works extensions like if I if I try to
+show it right let me share my screen I'll show you that example like whatever
+you are trying to do it let me know if you can see the screen yeah I can right
+now this is let's say I pick this HTML I have show preview yeah now let's say I
+convert this into js file okay do you see this what just happened yeah that I
+understand like this show preview is not working but I am like running it on the
+server okay like I connected the CSS to this JS every CSS is working fine only
+the width and height are getting affected oh then I think I need to look
+at it completely are you can you push that code and I can check and I can let
+you know in the whatsapp chat yeah sure I'll do that yeah push that code I can
+check that okay if I think you are trying to send HTML from a JS code you
+are trying to it's like server-side rendering if I try to space specifically
+I'm trying to render the HTML from the server not sure I'll just push it then
+maybe I can discuss on that yeah sure sure sure I'll do that yeah yeah thanks a
+yeah so I'll mute you back yeah
+guys any yeah like there's a one cool website case open the hash shared
+earlier also I bookmarked it but if you see this this is something let's say if
+I click this if you see this it's a music got play started playing once it
+loads it is a 3d website
+okay when I click start there's a music can anyone here along with me okay let's
+do one thing I'll pin this play in your systems yes play in your systems finally
+play in your system and click on the start button stop the music right you
+are able to see that music now let's let's say like actually what's happening
+this is a really cool site that they built it but what's happening here when
+I load this let's say I do it in incognito so that I can see what all
+things are happening okay inspect it and I click play load it first it got this
+one then you see it is downloading still or else I can say that this is parsing
+the content whatever content you have they have shared it is parsing okay if
+you see the amount of MBs resource got downloaded okay the amount of MBs that
+got downloaded 10 KB per second where 23 24 MB 23 MB of data is transferred
+onto the client it for sure this site looks cool because they added loader
+there initially okay but if you go and explore this one right what what could
+be the thing that they might have done if you see that mp3 where they have
+linked let's say if I try to find this way this mp3 is loaded like this music
+is coming from or let's do something let's do something this is the code
+that they have it right let's say I have a start button this is start button is
+it button start here now whenever you click this button they that but let it
+start loading it now they have use position fixed inline cells that are
+fine but on click of this button there should be something happening so if I go
+into the JS part where is the JS code or else let's say if I can debug this one
+okay I didn't go through that one but one thing I would unappreciate this
+website is actually a sound would you won't be able to find this one sound
+footer sound yeah sound labels and everything is there that's that's cool
+site but one thing I have only one issue right guys here is that the amount of
+resource if you see twenty nine point three MB data transfer right do you see
+this twenty nine twenty nine point three MB of data that is received firstly let's
+go pick any website let's pick any big website that you want let's go and
+amazon.com just see how much of data is transferred for me to reach this
+particular site okay since I'm doing from incognito it asked me to enter
+this PCC EAN let's I clear this again I continue shopping okay it loaded with a
+whole website but if you see for the whole Amazon level of content it it got
+only downloaded 4.6 MB of data that big huge website let's go and open YouTube
+okay YouTube being the biggest streaming service content right let's say I go to
+YouTube now see when I'm playing YouTube imagine YouTube got loaded with only
+2.1 MB 2.1 MB guys imagine if you see the amount of requests are going the
+things now but if you go and load this website for the initial load you are
+trying to download 29 MB at the speed of 10.7 KB so that load time if you see the
+load time here it takes it took 9.1 seconds to load the website whereas if
+you go for YouTube it took 1.5 second for Amazon it took 3.5 second because I
+had to enter that key all else it would be speed now which website you would
+prefer guys let's say you are on Instagram you have one reel and it got
+stuck for one second or two second would you state that or you would move to the
+next reel
+next right so in industry right in industry one of the basic norm one of
+the basic norm is that hey your content right your content whatever the content
+you are having firstly you have to consider two things first is once you
+build since I didn't introduce Dom imagine once your Dom is built right
+then the painting starts happening on the site so the Dom content load this is
+most important parameter this parameter of load 3.5 seconds is might be loading
+JavaScript and every other thing it will be kept on loading the code that's fine
+but this thing matters more let's go and see it for this site what they have
+done it is taking 5.7 seconds now if you go and do that performance testing right
+for this website let's say I do this one profiling
+since it is already downloaded it might not download because it is cached okay
+but you will able to analyze the results here which will show that hey it is
+taking more amount of time and everything okay but one of the best
+thing is to do is lighthouse testing has anyone done it this one lighthouse
+testing
+so this test this is like on a chrome if you want to test your any website you
+want to test its performance or accessibility best practices you can go
+to lighthouse and analyze the page load let's say if I do analyze the page load
+it will be audit that whole website it will audit that website and it will test
+and let you know that how you can improve your website let's say it is
+downloading the whole content again see if it says if the site takes more than
+one second so it will give you the all the speeds and it will compare it will
+do the all the analytics and give you the results of your website whether your
+website is good enough or wrong it's a really cool project I hats off to them
+who have built it and they have done only one server side render projected
+everything into one file of HTML that's where it hit me hard if they wouldn't
+have that only one thing right if they had lazy loading sort of concept if you
+see performance got hit all the other parameters are really great but if their
+engineers have decided that we'll take a hit on a performance then you should
+see if I go and a YouTube okay I go and do it on a YouTube let's say I select a
+SEO progressive web app also and like the speed
+let's see how fast what results this YouTube gives us
+this is taking time to do it but you can experiment on your on your things guys
+go do it on your projects that you are building or talk to them like how can
+you improve it or what you can do it right talk to them if you see YouTube
+performance got hit drastically okay they now the best thing right the best
+thing what they can do what this lighthouse gives you it gives you a few
+parameters these are the once you become higher level of engineering in front end
+right this is somewhere you will come and fix the issues like first content
+full paint total blocking time I'll talk about this parameter step by step but
+not now but if you come to this website let's say first let's say their time
+what is the most time of the most time spent first content full paint is 2.8
+seconds for the YouTube it is 2.3 seconds okay this parameter should be as much
+slow as possible and you will get you can calculate everything right you will
+get so you'll see that all the things that you are getting if you they are
+pointing out something called index TV now if you go into the application and
+there is something called index TV they are having too much of data stored
+guys and therefore this one okay for the YouTube for like percent entities to you
+can or do play around with this data I'm doing it so this is in incognito mode
+this is the performance but if I do it for the YouTube again in the normal
+browser right it will load it faster rate because they have all the data
+cached it need not to download again we'll explore this DB also like once we
+go in the JS part like all the DBS that are given here
+it's too much we have discussed so let's close the session today we'll come back
+on Thursday where we'll start JavaScript and we'll explore further but I would
+ask you guys you know to complete your assignments and do whatever problems
+you face let me know okay we'll explore that okay some with I'll I'll mark your
+question as answered as of now but I'll pick it off line okay
+so nobody's that can we close the session guys today for today final thumbs
+up cell and see you in the next class guys hope you do your assignments
+good night guys take care bye guys
+thank you Kendra good night
+you

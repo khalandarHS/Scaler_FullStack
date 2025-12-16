@@ -1,0 +1,1571 @@
+Hi all, good evening.
+Give me a thumbs up if I'm audible and visible cool thank you guys hello so
+we'll wait for some time today since it's a first class before I start
+speaking on something I'll share my screen meanwhile so can you see my screen
+share also so I'll keep the five minutes timers as that will start with the
+content post five minutes meanwhile if someone want to talk about anything or
+do you have anything we can discuss among among us okay so how's everyone
+class strength I'm not sure I've enough have to check on that but currently I
+see 15 people are there in the class so we'll wait for some more time and get to
+know okay so how how is your preparation with our DSA and sequel do you feel
+confident how many of you have cleared mock interviews for them or attempted
+pretty good great little little good so how many of you are freshers if you are
+give me thumbs up for the freshers
+I'm due to job okay most excited for efforts great great okay I see six
+people which I can say 25% of batches freshers cool since full stack is a
+beginner course right for the it's designed for religion for freshers
+perspective and we'll slowly speed it up do we cover react and Redux also yes
+I've been I will cover that but it will come in the later part of the you know
+curriculum initially we'll pick it up slow but slowly one after the other so
+once we reach at good pace then we'll cover react Redux and other state
+management tools and node express all things a complete monstack okay so we'll
+wait for another three minutes you only take over the LDF here after yes I'll be
+here Emma okay so I'll be helping you out okay my LinkedIn introduce myself
+then I thought to share it give me a second I'll pull it up okay and what's
+up group yeah I just want to create give me a second meanwhile when since we have
+two minutes I'll create a whatsapp group for us
+just a second till it loads I have to scan this
+okay device
+creating whatsapp group guys just a second
+group so let's say
+let me do one thing I'll create it in the break and I'll give it with you I'll
+give to you okay so do we go into deep dive in each points of this module or
+will go into deep dive permission so we'll build projects over the each module
+if you learn react how much different is difficult angular to adopt so I'll tell
+you on that part I'll come to that part frameworks are really after right so
+just focus on basics once you build that I'll tell you how it is different and
+what you need to learn okay you know so let's not jump into that depth like many
+people might not know might have heard words like angular and react but they
+might not know everything okay so I see we have good enough people today to get
+started let me stop this timer and let's get started with the class okay give me
+a second I hope you can see my iPad too
+great so how's the juice guys give me a thumbs up if you can get started with
+full stack LLD month stack right hi thank you so okay so firstly I want to
+introduce myself so I'm Uttam Sharma right so I carry more than four point
+seven years of work X working at PayPal since 1.5 years as SD 2 okay previously
+I worked with UHG and HCL 2 that had really less amount of time spent here so
+more on a PayPal basis so I've been a full stack developer since start of my
+career with major centric focus centric was on front end and I had good
+experience on node and Java stack to up to an extent on a back end and a middle
+but major was on front end okay so this is just a introduction about myself so
+this is what I've been doing or what what my experience is about but now let's
+get started with today's content okay so firstly since it's a first class we'll
+talk some some about like you know or something about web fundamentals
+firstly once we cover what fundamentals will go for the introduction of HTML and
+the thing okay so let's start with one of the basic questions okay one of the
+basics questions that you come across okay like what do you think you know
+when I go when I say let's say consider this will can start with the overview of
+full stack how many of you understand what is full stack so how many of you
+understand what is full stack okay front end place back end okay I see two
+thumbs up two thumbs down maybe if it is more reactive right like let's keep
+people if you can react thumbs up thumbs down maybe more okay I see many
+of the people are you know giving me this answer which whether whether say
+this is a front end plus back end okay it's equivalent to full stack so how
+many of you agree with this which is friend and just back end is equal to
+full stack right great so full stack is someone who knows end-to-end domain guys
+who knows end-to-end domain so this is what they are trying to define it here
+but let me you know not talking about technical let's pick up an example and
+try to understand what full stack is okay so how many of you have been to
+restaurants like many restaurants is taste like you been visiting right you
+might everyone might in the class have been visited restaurant anytime in the
+life right so can anyone help me out like what is once you go to go to
+restaurant what things happen what are the events that happens in the
+restaurants what are things are there like let's say this is a restaurant you
+let's say let me draw a box here
+okay so what all things can be there in a restaurant let's say this is a
+restaurant so do we see a kitchen can there be a kitchen and restaurant table
+chairs fine let's say this is our table and where you have many people sitting
+over here okay and there can be a kitchen to write and fan AC menu all
+this fine but now let's say when you go to the restaurant what we go for we go
+for a lunch or the dinner or anything right so let's say consider we are the
+people who are going to the restaurant to utilize its services okay once we are
+going there there's a one person who comes and shows us menu who is that
+waitress or waiter right let's say I'll turn down this thing waiter okay then
+one is one is a person like let's say I write it down here so these are we
+people who are visiting restaurant then we can say there's a waiter and waiter
+brings us and gives us menu and what we do what we do then what we do then
+once the waiter gives us menu we select and order it right we select and order
+it once we select and order it then what waiter does then what waiter does once
+we select and give it order what he do bring the food right so for bringing the
+food he places an order into the kitchen right let's say this is a kitchen okay
+so he sends an order and this you know what he brings back his food and this
+food is actually served to us this is what the cycle is right the food is
+served here isn't it this is what happens in restaurant do you guys agree
+with this example at least like a simple example now let's say if I say
+that under we if I put it this as a client
+and under kitchen if I put it as a backend okay let's say something that is
+transferring data or a waiter can be the HTTP protocols or HTTP has a DBS
+protocols okay so I am what I'm saying is something that we are using it
+utilizing it when I say client we can consider an example of mobile or desktop
+or laptop any sort of this interfaces right whatever you see on screen that is
+called a client which is interacting let's say we went to the restaurant and
+we saw we sat down we are trying to utilize the services but we are saying
+that hey I need this particular thing but we don't know how he's going to cook
+it in kitchen isn't it we don't know how is going to cook it kitchen in kitchen
+did he already prepared it or not or how we are going to get it but then there is
+something called backend in backend you have something called servers okay this
+is where kitchen kitchen lies so in backend you have two parts one is
+application code then there is a databases okay now what happens in
+application code let's consider this in the kitchen as a fridge or storage where
+have groceries where you have everything put up like maybe cereals pulses rice
+and everything you use this items and you cook it in an application code and
+then you give it back the data to the client to show it onto the screen okay
+now this communication whatever things are happening here now if you are
+handling all the task right can the task of you know serving a customer could be
+a waiter job which is actually related to the client and then which is a
+cooking where you are trying to cook the items or like you know we're cooking it
+like maybe anything that you order so that back-end job if you're handling all
+these three jobs is generally called as full stack
+is this a better way to understand it do you guys agree with me if you can
+understand this or relate this now if someone asked about you know full stack
+development now you can see that hey there is someone who is serving someone
+serving us that's a client right like that's something like being served then
+you have a back-end system like a kitchen where it's being cooked but we
+don't know how it is being cooked it's something hiding behind us so these are
+the machines which you cannot see it but these machines like the interface that
+you are seeing like if you see on a scaler you are able to see me website I'm
+able to screen share it we know that this is being done on the back end the
+servers of scaler are trying to you know stream the data of my me being teaching
+you are you learning from whatever I'm trying to teach that are happening on
+the back end which we don't know how it is happening but just happening those
+systems are there now so this is just an overview of how you know friend how
+these things are connected when you when we say front-end exactly what we mean by
+that is something our development which you are trying to do it on a client
+side when I say client side basically all the devices in world it can be an
+Apple watch it can be a smaller device to like bigger 65 inch screens okay
+whatever it is whichever software it can be an Android iOS or web browsers or
+anything whatever a end customer is experiencing so that customer
+experiences built by a front-end which is done on the client side okay on back
+end the scope is very huge which is server side are generally who handles
+business logics mainly when I say business logic just a word keep it that
+way that someone is cooking food for us we don't know how he is doing is
+managing all things food is serving waiter is only handling the data which is
+given by the kitchen or the chef so he's not responsible to cook it he
+doesn't know what ingredients needed to cook it all things are done on
+server side so main logic happens on the server side client side job is only to
+you know present it communicate it well well like you know giving making it
+descriptive good experience for the user okay I hope now front-end and back-end
+idea is clear like what these are basically about and how we can
+categorize them and how you can you know think of it as an example okay so if
+this is clear can we go move ahead is good so let's get start with the second
+thing okay so now there's a one interesting question guys I have one of
+the interesting question that you should think of like you know when I say like
+let's say let's say if I coin it this way what happens
+when you enter URL in browser okay so just think of it like what happens when
+you enter anything let's say you are trying to do scalar dot com okay just
+something that you have been doing it every day or let's say few days back you
+might have watched World Cup so you might have been checking that you know
+scores of cricket matches okay so you know I'll try to write down all the
+suggestions that are coming to me Teja and somebody it would be good if you can
+bring it to the you know normal people not to me personally like everyone not
+to the normal people I mean to say it will be helpful okay so it will direct
+web page so one of the suggestion is that it loads the web page
+second thing is request goes to DNS any more ideas guys what happens like let's
+say when you enter scalar dot com actually what would actually what's
+happening behind the scene think in terms of like the analogy in client or
+desktop or the laptop you just enter a scalar dot com there is someone
+picking up sign building it interface and giving back to us right someone is
+doing it for us it will connect to scalar servers Dom okay it will fetch
+the data from the server then it will show us on the web cool okay so a few
+things that unique names I'm trying to I'll write it down they are says Dom
+scalar servers okay okay cool now guys so let's say now you being here let's
+say I'm taking this example as Teja is trying to search something in the
+browser okay scalar dot com so we know commonly as an end user is something
+that we are able to open dashboard right we are able to open dashboard and we
+know that once dashboard is so we know that there's something being received so
+somebody is cooking us that website and giving us back okay somebody is doing
+this thing at least everyone agrees with this right we are entering scalar dot
+com it is authenticating if user is logged in we are getting a dashboard of
+our acts right this thing is clear now but we'll understand what all steps are
+it's going through in the back end how it is you know trying to get it now tell
+me something scalar dot com so one thing we are sure about is this front end or
+back end everything is in computer isn't it your mobile isn't computer your
+laptops are computer back end servers are also computer isn't it now if that's
+so how does the scalar dot com or the browser knows to go which way to go out
+to reach out to which computer that will give it resource I mean how do you know
+that how does chrome or any browser knows that when I type search a scalar
+dot com here I should go to a particular computer and fetch the data so people
+are saying IP okay by IP address anyone else anyone else URL is basically an IP
+DNS server okay DNS server cool so guys let's take an example of phone book
+right let's say I want to make your call let's say I want to make let's say you
+are trying to make a call to your friend you don't remember numbers of
+friends right all friends what do you do once you open the mobile what do you
+usually do what is the approach that you follow you go and type the name right
+you go and search and type the name and you directly click on a call button
+right so can you can you think of this way it is a map of string and string or
+a number where you are storing let's say my name and xxx right this is how your
+phone book is stored you click on its number and dials up right now everyone
+is saying that you know all the websites in this world are known by phone numbers
+now like their numbers they have specific unique coding okay whenever you
+type down scalar dot com okay scalar doesn't know this particular name right
+domain name or the website name doesn't know which system it need to contact it
+but there is a one system which maintains this mapping this map mapping
+like which which stores that hey if someone is typing scalar right I have to
+give it back some number of system like that could be a ten dot eleven dot one
+twenty seven dot something something zero okay so there is a one system which
+keeps all the mapping among of the all the websites in the world could be
+google.com or could be any website any other websites okay they all maintain a
+mapping table okay this particular machines right hope the stores this data
+are known as DNS machines or you can say domain name system
+okay so as you make a phone call yeah we'll come to that so as you make a phone
+call you try to go and search in the contact list right hey I want to dial
+this person now similarly in any website or anything in the browser whenever you
+try to make a call to a particular website it's just like a phone call okay
+so what it goes is talk to this machine hey can you give me the phone number of
+this particular website no this particular website gives us back this
+ID or you can say IP address of that machine and port number port number
+could be four digit once it have this IP right or you can say public IP of a
+machine then it goes and reach out to the backend system
+this logic is clear guys firstly at least like there is a some machine
+called DNS domain names system server which is maintaining whole mapping of
+our you know phone numbers or the IP addresses for the each name that you
+type it okay so now this is there you know before even going to the reaching
+out this backend server right there are many steps that
+intermediately happens there are many things that happen now imagine you type
+in your browser a new website name compared to something that you keep
+visiting imagine you go into incognito not an incognito window but a new system
+and a new place you type down scalar.com if scalar.com a new let's say you
+type it down and if it is taking let's say 10 seconds okay but if you type it
+on in your system it might take only two to three seconds okay so if if what I
+mean to say is that this is like first time visiting
+this is from the second or nth time visiting the website so what I mean to
+say is that when you visit a website for the first time right it is taking long
+amount of time but when you're visiting from the second time to the nth time it
+generally takes less amount of time have anyone felt this way earlier in
+life or whenever you have seen this okay when you type something new right takes
+time to load compared to yeah it stores right okay now so why this happens
+we'll try to understand reasons behind this okay how many of you know heard
+this word called cache how many of you know this word cache anyone who haven't
+heard it I see 13 people cool now what happens right okay so you know there are
+multi-level of caching that happens multi-level now we'll try to see what
+levels of caching in generally happens with respect to this DNS map okay no so
+first when we type in browser a new website at scalar comm first it where it
+goes it goes to it try to search in browser cache just a second this
+you
+pardon me guys my niece was inside the room so I have to ask her to go out so
+okay coming back to the topic so whenever you search scalar comm inside
+the website right it goes and try to see in the browser cache when I say browser
+cache cache is nothing but a memory a temporary memory okay so this browser
+engines right whatever you say chrome or edge or anything everyone stores this
+mapping whatever key value pair mapping of a particular site name a domain name
+and IP addresses okay where actual servers are residing where I have tried
+to reach it up okay so this first level of caching is stored in the browser
+level once the browser level if when we are trying to do scalar comm checks in
+the browser cache that if it is there that's fine if it is not there then it
+will go to the next level what would be what do you think in terms of internet
+where it should go to the next level DNS directly no there are multiple other
+stages the rich think of it from computer whenever you're trying inside
+the browser where this browser is running on where this browser usually
+runs on on what type of machine this browser PC right how this species running
+how what is driven driven on PC operating system right OS so then there
+is something called OS cache so there can be a chance if if not in the browser
+cache because that there might be a chance right you might search scalar
+comm in chrome tomorrow you might not like the chrome you might open in the
+edge okay first it will go to scalar from scalar to browser it didn't find it
+it will go at the OS level it knows the mapping it will be this OS cache will
+return that you know IP address of machine and it will go and reach it out
+this is point here so once OS cache is clear think of it where it can go
+further
+there's a one level of it then it goes through DNS let's say I'll write down
+here as one level and then from here it goes to DNS think of it where it can go
+in between
+anyone in the class
+route okay anyone else shake is actually right so we say that ISP is right
+internet service providers whoever is providing us internet like could be an
+atl or geo or you can say act fibernet or multiple people who are providing us
+so this particular ISP's firstly there's a router at your home right in your
+router machines that you have a box which provides you the Wi-Fi so even
+that Wi-Fi box right it is also storing some data that shows it store this
+cache like of the website or the IP address mapping if it is not there in
+cache then it goes to ISP then if internet service providers also not
+having it's it's a new URL new website that got added into DNS then it goes to
+DNS then on reverse right once it is reaching out on the back end it goes to
+each step and it stores that key value mapping at each step okay then it gives
+us back this particular IP address is this point here guys at least like
+anyone having any doubts on this like how we are able to get the IP address or
+you can say a phone number sort of logic of a back-end server where it is located
+okay or you can say where kitchen is there who is giving us the scalar dot
+com dashboard okay so I'll write down this step as a simple way let's say this
+is a client okay let's try to reach out multiple systems okay so let's say first
+step is browser cache then it goes to OS then it goes to a router then ISP then
+DNS so what it returns us overall is the IP address IP address of server so once
+it has IP address of server it goes and interacts to the server okay this server
+might be returning us HTML website yeah we can see this in live I'll show it
+give me a second okay so this server is returning us HTML data or any other
+format data router is your Wi-Fi box right which is you are having in the
+home okay that is what now once you have this right once you have this IP address
+it goes to the server server let's say let's keep it this whole thing right
+what's happening here behind the scene how it is interacting with DB and what
+it is happening how the communication between these two things are happening
+let's keep it as a black box as of now because we'll explore this once we
+start with a back-end system but let's understand till here like this
+interaction till this interaction okay this interaction okay so now we say that
+I mean let's see this let's see this in life let me open the browser let me try
+to let's say any famous websites that you want to open or you want to open
+itself okay let's open the scalar.com itself okay scalar.com if you see you
+know scalar.com slash Academy mentis dashboard there's something that
+happened okay now if you see we got the dashboard completely I hope you can see
+the screen right I hope you can see the screen all of you okay great so now if
+you see here below there are too many API calls are being done you know if you
+see this fetch call okay initial load data or user info let's say I'm trying
+to fetch the user info details of all these things are being merged to get the
+data but we'll see each one step by step now if you see here okay here request
+URL is www.scalar.com slash user info but the remote address is this one can you
+see this IP address
+so this one is a machine which will give me this user info data so this is what
+I was talking about this particular mapping right to this website slash user
+info need to be fetched from this particular site is being stored okay now
+if you see all the things right remote if you see 13.35 point like 21056
+443 now 443 is a port number if you if I go and open all the webs all the API
+calls I'm trying to interact with only one machine if you say 443 all the way
+although you know this remote addresses are same but if you come and see this
+one right again there is something new thing that is being fetched it is
+interacting with different system okay so all the things if you see there are
+different things are being you know taken into accordance to build this
+particular screen that you see here but all the data that you see are being
+fetched from a server a different location there's a machine which is
+kept there and from using that we are able to load it okay now if I show you
+one of the thing let's say this are fetch xx hr let's say document okay okay
+if you see it here so now this is the actual website you know menti dashboard
+you can see this menti dashboard slash to dos which is the actual URL that we
+hit now this mentis dashboard is you know we are hitting still on the same
+machine that is being reverted with you know HTML I'll come to this what it is
+this HTML or what what we are talking about I'll introduce this properly but
+this is something a response like when we order a food from the kitchen waiter
+is bringing us something back food now this is the food which is given to the
+browser back and this thing is being understood by the browser and being
+loaded this point is clear guys how this interaction is happening where that
+systems are located or what this for remote rather scale multiple servers
+yeah there will be a different things right so this like you have you can have
+a number of machines you go for the bigger sites they'll have the different
+contents if you know when you go for Microsoft is sort of architecture each
+service will be doing some sort of work so you will be able to see the different
+addresses okay but overall the core logic is that there's a client which
+don't know anything we just say that scalar.com I didn't say that hey go and
+interact with a ten dot twenty one dot two zero five dot four four three system
+or any other machine I've just that scalar.com it automatically handled
+figured out where to fetch and what what need to fetch if you see it happened at
+so pace that it took more less than ten seconds or less than three seconds of
+time to fetch all the data and load it okay I hope now you feel I mean I'm
+having a better idea of like actually what's happening isn't it like how this
+data is being fetched on to the client or which machine or how machine is
+generally interacting how clients are interacting with the machines which are
+somewhere present we don't know right anyone having any doubts till now what
+we have discussed okay now no let's say you know we'll talk about something
+called just and this is an overview guys don't be overwhelmed if you are not
+completely able to get it but they're really basics we'll discuss this over
+over the time again and again to get complete clarity okay now so I said
+that you know these are two machines which is client and server these two
+people got the address now this machine got the address where this is located do
+you think once I do this you know the server will give me the all the list of
+resources it have if I go to any random restaurant and as I say that hey give me
+a piece of biryani would they give it to me or it will give to a authorized
+waiter itself it will give to an authorized person only know it should be
+a like he should be having certain validations and things now before that
+before going to that authentication authorization process there is a you
+know to establish connection right to establish connection between client and
+server in order to say that hey I'll keep exchanging this data once I have
+hit you yeah I know your address I came to your you know I came to your machine
+now I want to make a connection with you so that I can keep exchanging resources
+okay so for that thing there's a one type of connection which is
+established which is called as TCP connection there are other types of
+connections also which will you will learn in the high-level design course
+but anyone have heard about this TCP connection earlier have anyone heard
+about this okay I see four people three people some stuff okay no worries guys
+so what happens in general right okay when clients client is there no where
+there's let's say this is a client machine and this is a server machine
+once you know the address once you know the address to the server right to
+establish a connection you send a signal called acknowledge you send a machine
+to the server called acknowledge signal so this is on a top level guys from you
+can say 10,000 feet not into the complete depth because in complete
+depth you'll learn again and the future HLD classes okay but what happens in the
+does is when whenever you are trying to interact with any other system firstly
+you will try to say validate yourself saying that acknowledgement let's say
+I'm trying to come in me I'll say hello hi right now I'll say I'll extend my
+hand and then say hello so that what this client machine does it says that
+acknowledge it sends a signal called AK now if this person want to respond right
+this person want to respond back then what it does is it says that sink it
+with a smile then he also says that hello back again okay then if this
+client if they're making a connection then it sends a third message called
+sink which means you just remember this as a handshaking process this is called
+three-way handshake generally
+how connection is establishment to two machines let's say I go to I come to you
+and I say that I'll hello when I extend my hand and saying hello if you like to
+connect with me you'll also smile greet with greet me with smile and you will
+also keep me back your hand shake hand saying hello isn't it and then if I
+smile back then the connection is established for the further
+conversation so far it starts with a greeting so you can understand this as
+a three-way handshake where the greeting happens is this clear guys
+anyone having any doubts so just remember this one as a top level anyone
+have asking how TCP three-way handshake happens it's just a greetings is
+extending a hand smiling if the other person also smile back then the
+connection is established two things acknowledge and reverse acknowledges and
+then there's a sink messages which happens okay clear I hope there are no
+dodge so once the this this thing is happened right now all the data or the
+network now this is what we call network okay there are two machines they are
+somewhere located but if two people are interacting they interact over the
+network now there is some person who will hold the load of communicating okay
+what type of communication is happening which type of things are happening what
+he is bringing or what he generally happening right for all those net what
+communication that are happening with the network in order to understand you
+use something called there are two types of protocol which is one is called HTTP
+and the other one is called HTTPS this is a secured way this is a normal call
+HTTP is a hypertext transfer protocol okay which are generally used for
+transferring transferring the messages over the network okay is this clear on
+a top level what is TCP connection and HTTP I mean I'm trying to generalize
+such a way that you know you can understand connect with them not in
+complete depth knowledge as a networking class since this is a full stack class
+I'm just trying to okay I'll get to the full form I don't exactly remember
+the agent let me fetch it TCP full form transmission control protocol okay it's
+a transmission control protocol
+then there is another another protocol called a UDP can you could you explain
+the TCP purpose once again yeah sure Suresh so not going just as spending
+another minute now let's say that hey what happened is you got the phone
+number you picked it up from the mobile you searched it now we are trying to
+click on it when you're trying to click on it there's the connections that
+should be established between your mobile and your friends mobile right
+which is your where you are trying to call now in order to make this call to
+work then there is something called you know connection establishment does
+happen between two missions okay so that connection establishment is in that for
+establishing this connection there's a one type of condition that we generally
+is TCP connection where you have this process of three-way handshake this
+three-way handshake is specific to HTTP in HTTPS you have further because you
+have to extend certificates and multiple things but just the knowledge that I'm
+trying to explain the CCP connection is because I'm saying that hey once you got
+the phone number you cannot make a direct call you need some network
+connection which needs acknowledgement that hey I want to connect with this
+particular person is that clear Suresh okay yeah there's a handshake is a like
+one of the core thing without connection you cannot extend the network data over
+the network right so that it will happen every time okay it will happen every
+time but it takes a really less amount of time now moving right guys I hope
+this thing is clear now just a second so coming back to HTTP and HTTPS no once
+you have established connection there is a now you are once you establish a
+connection you keep talking to your friend right you might speak in English
+or Telugu or Hindi different languages do you guys agree you speak in a
+communication language you have a language to speak with your friend now
+imagine for this language right you have a particular protocol now those
+protocols are defined by HTTP and HTTPS now for this one you have only four
+things in general that are happening on a server either you are getting a data
+hey you are asking like can you give me some information or you are yourself
+giving some information which is a post call or you are saying that hey that
+information which I gave earlier which was wrong so I'm trying to update that
+information using put and then you say that hey can you please remove that
+information which is not needed using delete so there are four types of
+communication that happen generally between two machines these are the four
+things to create a resource
+okay sorry this is a get a resource or create a resource update a resource or
+delete a resource right in general these are the four types of communication that
+happens and these are being generally done from client client says that hey
+can you give me because I made a communication network with you I called
+you you have to serve my request so client make a request using this four
+types of communication so it says to the HTTP that HTTP asked us to provide
+which type of communication you need it whether you want to get some data or you
+want to create a data or update data or delete data once your request is made
+right server response back
+back with some information no but there are multiple informations that are
+happened transferred over the network I will discuss that about in depth later
+on but what server responses response in terms of you know status quotes there
+are many status quotes that you will see now if I show you one of the status
+code that we have generally seen as of now if I go back into this website if
+you see if I open anything if you see here 302 200 302 right a 304 all these
+are status quotes these are being given by server now if you go back to headers
+right here I'm saying that request method get so we are saying that hey I
+made a communication with you I want to get the data now in the response if you
+go to the response right here let's say response it is giving us 302
+redirection I'll see I will talk about all the status quotes how in a top
+level how the status code works let's say they are basically status quotes in
+5 series 1 xx 2 xx 3 xx 4 xx 5 xx ok now one of the error code everyone knows is
+404 not found right everyone knows this does everyone know this 404 error now
+what this 404 error says what what this 404 errors mean is something that you
+are trying to search or get the data it is not available let's say you give some
+gibberish website let's say you give them some gibberish website let's say I
+go and open a network tab and inspect it let's say I clean this I write
+something okay and I try to search okay it's giving me something or that lot of
+information available in Google but what happens is if there is nothing
+available with this name or this thing right URL that there is no resource
+available then what it says that hey you have made a mistake there is nothing a
+place called this one or there is no mapping available where I have to route
+machine okay so we say that client had made a mistake or you are pointing to
+the wrong direction let's say you are going to Ambani and asking her to be to
+cook a tea it's not possible man right so he wouldn't be available to do it for
+you so that's not found resource not found he won't be able to serve you so
+it's a your mistake that you're asking a wrong person to do something now if
+something let's say you after four four xx series right you might have also
+seen five excess series also have anyone faced 5x code series 500 server down
+right people say that five server is down server is down what does it mean
+what does it mean when I say server is done the back-end system right this
+server the system is shut down internal server error okay bad bad gateway so all
+these things all the 500x codes whatever you come see right those are like
+problem with server like you don't know there is a issue with a server ongoing
+so you cannot do anything so 4x series is something that you can't do right
+this is something problem from the front-end 5x series is something a
+problem from the back-end is this clear 4x and faxes might be clear right now
+then there is something called 2x code so this is a success code for all the
+get calls for all the get calls right you get a success code or the post calls
+you get to 200 code or 202 code where you are trying to say that whatever you
+want you made a request of these four items get post delete and if that
+particular call whatever you request made it if it is successful it will
+return us that data along with the status code of 200 okay then there is
+something called three excess three excess is something like redirection just
+we have seen is that if you see scalar.com got I just entered scalar.com
+but it redirected me to menti dashboard have you seen this I have entered
+scalar.com only but it took me to the menti dashboard right URL got appended
+dynamically it's a runtime and it loaded me a new site instead of loading just a
+scalar.com
+did you guys notice that or I'll show it again okay I'll show it again if you
+need give me a second
+let's clean it up again let's say scalar.com let's say I'm just entering
+scalar.com when I click enter if you see it appended menti dashboard and to dos
+now why this happened is it says that scalar.com by default home page is not
+available it need to someone hitting this URL need to be navigated to menti
+dashboard now but if you see when I hit a scalar.com it is giving me 300 status
+code it means it's saying that hey this something I recognize it but actual
+website where you have to go to is menti dashboard so whenever something is
+coming with a 300 X code return return status right response status it is
+something related to
+redirection
+okay and there is one thing which is left is info first one excess code
+whenever you see this is one of the rare code it gives just the information
+okay information about resource
+I've seen very rare use case of 1x code which you might not have face it but it
+gives just gives information about resources like back-end system and where
+it is and if you want to fetch information about systems okay and that's
+not commonly used mainly important things that you need to remember is 2x
+4x and 5x okay whatever this code starts with 2 4 and 5 are more important 2
+stands for success 4 stands for client-side mistake 5 stands for server
+side mistake okay now I hope this part is clear like how when I said that I
+just want to focus on this part layer till this part okay so firstly if I try
+to repeat this revise this once okay what we thought what we okay 1x code
+okay let's say I try to give an example of 1x code let's say
+just a second I'll fetch it and show you what actually gives us okay so here
+they say is that you know information response now what sort of information
+responses like you know in on the network layer like switching protocols
+are processing this is not actually used on the system like I we don't really use
+them when you're developing websites or applications you never throw 1x code
+this is actually happened on a network layer by the systems itself that
+servers that handle where it shares shares information about the resource
+let's say client machine resource the what this client machine is all about
+what this server machine is all about okay you won't be able to see it in the
+network because whatever you make either whenever you making a yeah I'll give you
+the real-time scenario for 1x code give me some time but what I was trying to
+say talk about is when when communication is happening between two
+system right if you think it from the perspective of communication is
+happening firstly either this person can say wrong or either this person can say
+wrong or this person both can you know like make a communication real real you
+know work properly so if this person is making wrong it is 4x code if this
+person is making wrong this is 5x code and if there is something going right
+between all the communication then there is a 2x code okay for 1x I'll get I'll
+get the real-time examples I'll share it with you okay works guys okay cool now
+trying to revise again repeat once on a top level so then we have understood
+that what happens in the browser whenever you enter a URL so the first
+thing that we have figured out that when on the client whenever you enter
+anything it goes to you know a series of steps okay I'm wrong with spellings
+series series of steps no to fetch IP address of server once it gets IP address
+it goes to the server but no there are two things that are happening in middle
+one is connection TCP connection this thing we have learned two things three
+things happen in the ACP handshake ACK where it sends some client to server and
+server sends sync less ACK then client again says sync okay once this
+connection is done then this people connect and communicate using HTTP
+protocols
+I hope now you are at least on a top level you have a you know greater
+clarity what is happening behind the scenes how data is being served from a
+machine right this is clear guys okay if there are other than any doubts other
+than one excess please shoot it I'll wait for a minute to before I go ahead
+because next topic that something that I want we need to get started with is
+introduction to HTML part because this is you know high-level introduction
+about web fundamentals where we understood about what full stack domain
+is overall like what what we have what we have to work or what we have to learn
+then we understood like what happens in a system actually when you enter any you
+are this things acts as a base to move ahead in the further classes okay this
+was being a theoretical now we'll start with a more practical part so as height
+when API comes into the picture okay now okay
+API's are generally let's say
+I'm a client I'm a server okay a client can talk to multiple people
+okay let's say how do I say okay this way
+yes yes this day right so API's are application programming interface they
+say that you know these are the end points with which you can connect to
+get the information that you want now this like you know using this whatever
+get post delete calls right you cannot say that randomly give me any
+information for getting this information this server should support right firstly
+back-end system should support that hey you can get this information from me I
+can give you this information now to get that you know in order to give that
+information right this back-end systems build application programming interface
+there can be multiple endpoints like we have seen one of the end point is user
+info when we entered you know scalar comm right we seen that user info now
+user info is a get call now how we know that we ensure interact user info will
+get the data because inside the server they are someone who is listening to get
+call on this URL called user info so someone is coming with you know this
+call then they'll do something they'll implement some logic and give it back to
+us now this endpoints right whoever are building this in points like the URL
+pattern or the type of HTTP methods who are defining it if you particularly hit
+this particular thing you will be able to do this let's say if you go for again
+restaurant right there can be Chinese restaurant there can be a South
+Indian restaurant there can be Japanese restaurant where you can eat sushi
+American and South Indian you can eat South Indian breakfast so if you go for
+one particular sort of restaurant you can get only particular item you cannot
+get the other items so now each server will have a capability to serve
+particular things now all those capabilities are defined by using this
+menu now well waiter is bringing us menu now we know that what all things it can
+give it us those menu items are only API's is that clear Sean the that menu
+items right whatever API's are being developed in the back end are the menu
+items now we select those many items like the user info get for this
+particular server and we try to interact with them so that generally the menu you
+can consider example as a menu or the API's okay now yeah I hope I hope this
+this top level this thing is clear but this way this will be coming back to us
+again and again when while we are discussing a whole end to end right
+TCP call is made with which server TCP call is made with the actual server
+which where you are trying to fetch the IP address once you receive an IP address
+from the beginners right that a particular IP address whichever mission
+is mapped to it will try to establish a connection with that let's say I got a
+phone number of you Suresh from my dialer I try to make a call I'm trying
+to establish connection with you with your server with your mobile phone
+that's what is happening here is that here so nice so guys moving it from
+here now now is actually where we start with HTML okay how many of you are
+completely beginner to this word HTML how many of you are completely beginner
+to this word HTML
+please what it guys it will it will allow me to know if I can go speed or
+slow or what pace I will maintain it okay cool I didn't get your point
+Muneshwara beginner okay no worries okay cool so I see you guys 50-50 ratio
+people there too many beginners so we'll start with completely basic people who
+already know people who already know right 12 people I would ask you to you
+know have some patience till I build the basics but all the people are starting
+from zero such that we'll bring him on to the pace and then we'll continue
+from there okay great now so let's take an example you know so I'll introduce
+three words now let's not introduce HTML let's take an example of
+building a house
+now tell me what all three things that are happened like when you build an
+house let's say imagine building an house so I'm asking for all the nine
+like you know people who haven't doesn't know anything or who knows everything
+doesn't matter but just tell me what happens what are the events that are
+there while building a house
+basement cool plan layout plan cool basement pillar walls right cool yeah
+let's say I'm building a two-story house plan is ready everything is ready okay
+foundation column beams okay foundation
+columns and beams now let's say this is done then then what you do okay someone
+says structure okay one structure is done what do you do can you go and stay
+in a house which is structured okay roof is added here itself
+bricks cement now yeah there's something called paint interior now let's say paint
+and interior is done tiles are done foundation roof columns are beams are
+done now what would be other thing what you would have
+plumbing electricity okay
+cool guys thank you so much you have solved my problem actually now let's
+try to connect this root dots okay let's get it this starts so now even while
+building websites you need all of these things you need all of these things so
+what if I put this all these things let's say a roof basement walls floor
+everything into a structure structure of a building is this clear do you agree
+with me if I can put all of them into this category structure of a building
+right now second thing would be painting a house or adding an interior so what
+we are doing we are making it to look beautiful
+beautifying the house beautifying the structure I can say isn't it right now
+once these two things are done then there is something someone say that
+plumbing plumbing or electricity okay or you can say fan you know lights or
+anything now what these are giving us this this thing is giving us you know
+behavior let's say I'm going on switching on a fan when I click a
+button is something rotating right isn't it something rotating when we switch on
+the fan there's something rotating or there's a light on that's what behavior
+is happening right even in the website you go and see a website you scroll it
+down where only when you scroll that page goes up or you click a button there
+is something happening isn't it same as a like something happening on the house
+interaction or clicking button presses clicks or let's say clicks interaction
+okay so these three things are happening in the website too we are building a
+structure of a website we are making it look beautiful using adding colors we
+are adding behaviors like you know behaviors like as you're giving me
+typing it down you're posting it so all these are behaviors so all these three
+things are need to be handled whenever you are building this website okay so
+for building doing each of this work right since these three are core
+fundamentals of any building there are you know there these three things are
+really important in order to be good at web development so now let's say the
+first point whatever you say the structure of building I categorize as
+HTML now when I want to color a building or add a more beautification part I say
+it is a CSS then there is something called electricity or you know lights or
+I want to say that hey someone clicked button I want to fit some data or like
+you go on a Netflix you click a movie button watch now it loads a movie there's
+something who is getting the data for us loading that movie so that thing's
+behavior can be handled using JS is that clear guys on top level what HTML CSS
+or JS is behaviors only that roles of them okay I've took an example of house
+I hope you never forget it and now one tricky question I want to ask everyone
+how many of you think HTML and CSS are programming languages how many of you
+think HTML and CSS are programming language
+okay so I have four people saying yes guys so firstly they're not okay because
+one thing I'll tell you programming language is handling only behavior part
+behavior part when I say behavior part what I exactly meant is something
+someone is user reacting to clicks or building the data or someone cooking it
+or anything something which is really static doesn't have any programming to
+be written you cannot write for loops while loops or additions or any
+arithmetic operation
+using this tool so never say whenever you're saying that HTML and CSS you
+cannot use them for you know as a calling them as a programming language
+there's a difference why when we say that's a programming language you can do
+all the problem-solving events now HTML CSS are solving different problems but
+the actual when we say that a high-level programming language those are something
+that you apply you know too much of logic to build something like you said
+DSA you're solving a problem statements for them those sort of things like when
+you're trying to solve those are problems there you have like language
+like JS Java Python okay these are the high-level programming language you have
+many Ruby go lang okay no JS there are too many things okay but HTML and CSS
+are not a programming I'll explain more reasoning for this but on top level at
+this point they are not programming language only the reason is you cannot
+write for loop and while loop and no problem can be solved without adding a
+loops or recursion logic isn't it can you solve any DSA problem without
+writing a loops or a recursion you pick it up any data structure you pick it up
+any data structure you pick it up anything you won't be able to solve it
+so now this is just an top level guys never say that it's a programming
+language now we'll start with official introduction of HTML okay let's say we
+are starting with HTML if I write down the full form of this one right we call
+it as hypertext markup language okay so we'll come to this definition step by
+step okay we'll come to this definition step by step you need a break can we
+take it after 15 minutes have you know works at 130 hours like class of 130
+hours okay cool now in this HTML there are only two things right if you if you
+learn two things right if you learn only two things that's enough if you learn
+only two things that's enough to you know you will figure it out all the
+other things you'll figure it all the other things now what are those things
+are two things are some says element some says tax this is one thing second
+thing is called attributes or some says properties these are the only two things
+present in a HTML whenever you write now to design any structure of a website
+right content you have only these two things elements and tax have anyone
+heard of this things attributes elements and tax earlier can anyone give me an
+example of element or tag
+someone says P okay good good good okay so let me dive down this one button as
+people can understand image okay anchor I'm writing down things only which I'll
+introduce now okay paragraph heading these are the elements or tax what are
+the attributes are the properties
+what are the attributes are the properties okay source or href okay
+anything else guys does anyone remember
+iframe is again a different thing big thing so someone says hash ID but it is
+only an ID then there is something called class name class then there's
+something called style right all these are attributes okay now for the people
+who are completely picked us right understand this one elements are
+something which is you to add a structure to a website these are the
+things which are adding a structure elements can be anything could be an
+button button now to define an element you use this way there is an a button
+once you define this way okay this is an element can be a button to click okay you
+define an element this way an element is something which has a opening and a
+closing okay something which is born it will surely die okay once you define an
+element you can write the content it will see this in live after the break
+but on a top level elements and attributes are only the things which can
+which can be used to define the whole HTML content all the now will see them
+live but attributes are something which is used to enhance property of element
+applied on it okay let's say you have defined a button there are too many
+buttons buttons will have a color or you can add a style button you want to make
+the button to look in a different way or the button should be jumping all of them
+can be done using attributes you have to define different attributes okay this is
+on a top level what elements and attributes are I hope this is clear
+anyone having any doubts on that on this we'll see them in live again once
+we start coding we'll start coding in the you know ten minutes later but
+anyone having any doubts on this on this like elements and attributes I hope no
+right class will go till 11 yeah yeah we will be going till 11 okay so I hope
+there are no doubts now since I have four five minutes I'll explain what is
+you know this HTML is you know markup whenever someone says that you know
+markup language so it means to say that structure structure website you can take
+the example as something adding a structure to it you have anyone have
+written anything in the life called readme.md files have anyone written
+readme.md files in life earlier markdown files okay no I'll show you that one how
+we do it but all the markdowns right markdown files or markup files are
+generally adding a structure to the content now wherever you use this word
+called markup it is just adding a structure to a particular thing that's
+where these people used as a markup okay now second thing they use something
+called hypertext they use something called hypertext
+when I say hypertext I mean to say that do you know have you seen XML comes
+under markup language not exactly Suresh not exactly okay markup is
+something different XML is different okay I mean it can be a part of a
+category out out of that but I'll try to you know Google and come back to that
+exactly okay but now coming back to hypertext if you see in websites right
+you have many things like buttons you can see something which is like a links
+you can see right there are too many links on a website or even if you
+prepare a resume who have built it you might have added a scalar you know
+your coding profile you might have added your github profile you might have given
+your you know LinkedIn right have you have have you prepared anyone have
+prepared the resumes adding these three links at least right now these are the
+links that are done now imagine this links once you click a link you are
+redirected to that particular website right could be a github or scalar or
+lead code or whatever you have a github now this redirection is able to happen
+because they are hypertext then when we say that their hypertext we mean to say
+that hyper linking hyperlinking of text so the text is up entry point which is
+redirecting you to the next something new place so that's why we say that is
+a hyper linking of text which is helped to structure a website now even if your
+resume is something called a HTML only which doesn't have color or which is
+normal in different fonts different typography and just you having a
+hyperlinks are able to relate now definition of HTML also because that's a
+bookish definition it doesn't really matter to us now if we have once we have
+understood this book is definition right not needed but the way I understand the
+way I understand is HTML is mother tongue
+to browse
+why do I say mother tongue to the browser is because imagine we have each
+person is very much comfortable with their mother tongue right because there
+is something that you have learned in the while you were born first isn't it
+you might be super comfortable because you've learned it at home and you
+understood it you know that's really easy to understand and you know do it
+sometimes what happens is people who are trying to learn new language let's say
+if someone is trying to learn maybe someone who moved from North India to
+South India is trying to understand small words he tried to relate those
+words convert into their mother tongue and try to connect a dot if someone is
+saying something right do you guys agree with me let's say someone is coming from
+Delhi Delhi to Hyderabad someone is speaking in Telugu okay and his mother
+tongue person who is in Delhi his mother tongue is Hindi and he came here he is
+trying to learn Telugu so first thing he'll learn is like I'm a Telugu I know
+Telugu so first thing he'll learn is like I don't know Telugu right can you
+speak in Hindi this is our English he'll say this line so whenever you teach him
+that person right hey I don't know Telugu can you like can you speak in English or in Hindi
+so if you I have sprained the sentence now but whenever happens
+whenever a new person comes in whenever I say this thing he tried to map this
+each letter in Hindi back right he's trying to convert back into mother
+language and then understand it and remember it you guys agree this is a
+process generally what we follow if you are trying to learn something new right
+so even in the browser right even in the browser it is same thing for browser
+browser can understand something is HTML by this is his mother language if you
+give him this data it will load the website at a short it didn't need to
+translate or convert into anything it will load it a short so if you see even
+when we loaded a scalar website first okay something that we got in the
+initial response was HTML all the other things if you see other things all the
+other things were you know script JavaScript is downloaded later on but
+first HTML was loaded this is something a browser understands once we load this
+if you see the like if you say this is a title that scalar is coming now the
+title will be if I hover over it
+okay home scalar everything you will be able to find how it is happening okay so
+but I hope you are able to relate this this is a mother tongue of a browser
+which it can understand it exactly and it is very speeded understanding it
+doesn't need to go to multiple steps so if you are serving HTML to a browser
+it's a cakewalk for it to load it fast but if you are giving a code or a logic
+to run in the browser it takes time to convert into to what it understands it
+then render it onto the screen okay I hope you are able to understand now what
+HTML is basically on top level because this will help to understand the word
+called Dom in the future classes I'll introduce Dom I'll see if I can
+introduce today itself but okay I hope now you got that on a top level what
+hypertext markup bookish examples you learn a lot but watch my idea is right
+how I understood the computer scientists with my examples something
+that I see in real life I go to the store and I try to connect with them I
+try to see everywhere what is in general connected with the nature that we see so
+that's that way if you try to remember will remember for life okay so the my
+notes would be not that bookish all our notes or my way of teaching wouldn't be
+that way it would be really simple on a top level so that it would be easy so
+whatever code we write is converted into HTML completely no some bit no I'll come
+to that wait for you know I would say two months actually when we come to
+react you will be amazed how things are working okay but wait for some time
+like but I'll you can ask me this thing again then but I'll show it but
+understand this thing this is something that someone understands it HTML okay
+browser understand this thing for sure so I hope the class you are clear with
+the things till now you know what we have learned I hope if you are clear we
+can go with the you know break session okay how many minutes of break you
+usually want
+how many minutes of break you needed five minutes would be fine right because
+we have to cover some content since it's initial class okay I'll give the five
+minutes guys to keep it in between okay let's reset this one and start it okay
+so that we can end class early that's my point okay starting this timer
+please take break guys see you in five minutes again
+this Java is helpful for the full stack developers I'll answer you back to this
+again in some time after a break
+you
+you
+you
+you
+you
+you
+you
+you
+you
+I hope everyone is back guys can anyone give me some sub-thumbs down if you are
+back any reactions so guys should I have I've got nine responses so I'll take one
+doubt that I had it there is what is a usage of one excess code I don't
+remember who asked me but what is the use of one excess for an HTTP coach so
+one excess is not an end state it is an ongoing state okay so whenever you make
+a request and your response is served okay
+response is being served it goes through multiple states like continue or
+switching protocols
+like this is no yeah so there is no like thing like what it is defining an
+instant it is not really you won't be receiving the status code in your
+request or the response it is just a happening at a network level that it is
+saying that what are the steps are happening at that time I was taking one
+doubt some bit so just one excess code okay so there is no particularly end it
+like where one excess is like you will receive an one excess code in front end
+of the back end or in your logs because it is not actually an end state it is an
+ongoing story to the state it happened at a network layer whenever you are
+making a request and between till you receive the response whether it is
+success or the failure response that something that is happening on a system
+level is like one excess code if system needs any other information between one
+of each other that is one excess so the till the moment like let's say you
+ordered a food in the restaurant and you are waiting till that food is being
+served you are in the one excess code because if you order on a swiggy your
+food is being prepared once it is prepared your food is assigned to a
+particular driver till it reaches so that status is changing continue
+switching protocols or it is you know data is being binded it will be sent
+back so all this states right those are on the top level what one excess is
+talking about information about the resource is that clear shant
+yeah okay I'll discuss this in further if you wanted in doubt session okay no
+worries so guys I want you to install a few things how many of you have heard
+of visual studio code editor
+how many of you installed it how many have you have in this system how many
+of you have it I see one thumbs down so I would give you a URL okay so if I open
+this let's say I open this URL and also pin this URL okay I've pinned this URL
+guys who people who gave me thumbs down you know go on to this size according to
+your machine configuration if it is windows or you're using Ubuntu or like
+whatever if it is macOS try to install the you know using this website once
+you are downloaded we can get started I'll give you five minutes you can do
+it install it okay you can like if you go for this one right directly click on
+this don't do anything go for the windows part it will download it I don't
+need it because my system is not windows okay if you want for a Mac you just go
+and click on a Mac it will start the downloading once it is downloaded it
+will show automatically installation process click next next next and
+download it okay is it fine guys who people who don't have VS code installed
+are you trying to do it
+okay then there is something called node.js not needed as of now we'll see
+them later but at least we if VS code is installed right you what you can do is
+you can so let's say open a VS Visual Studio code it would look like this way
+like it will go and it will open the you know Visual Studio code and it will show
+your recent things and whatever things are there okay so once you reach that
+particular place once you are able to download it and open it you can click on
+open and open any of the folders that you have anything that you have you can
+open it so one thing I'll do is that you know I'll have links in this thing let's
+say dot MD inside this file I have this let's say class one inside this I'll
+paste this links for your future use case such that if you need it from you
+know initial step you will have all these links that you need okay
+install editor okay once you do this one MD once markdown that is that's what I
+was saying like if I show you in the preview right this is how it will look
+like I haven't written anything right like I need underscore or this one if I
+write down like let's say one dot I'll show you how we can do markdown or
+beautify the documentation part okay but that's just a markdown like you are
+trying to describe the country in different way if you do it in double
+hash it will show it in different way it's a single hash but I'll teach you
+how do you can write a better markdowns also but that's out of the scope guys
+okay but now once you are able to install it can we move it guys with your
+permission can I move it with the HTML part so I'll go inside the classes I'll
+create a class one okay let me create a folder instead of this one I'll go here
+inside the classes I'll create a new folder called class one okay inside this
+class one I'll create a file called index dot HTML this is a base file that
+I'm trying to create it let's say there's a new folder I'll create here
+HTML let's push this class one inside the HTML part okay now inside the HTML
+right whenever you are writing a structure so there is something like
+basic level on a top level as I've told you there is if there is something
+taking a birth and then there it should have an end so if you are opening
+something this element HTML element you should close this HTML element also is
+that clear is that clear that you know every structure of your file will be
+enclosed between these two tags when I say tag it is one tag and this is this
+is closing tag this is opening tag this is closing tag okay both things are
+combined called as an element okay now inside this you know opening and raising
+HTML tags well you have two things basically two things now in human one is
+structure one is brain right both like brain is someone who is operating whole
+body isn't it even though you have too many things like hands legs and eyes and
+the mouth speech and everything but something which is driving his brain
+isn't it you guys agree with that right similarly here you have two things one
+is body okay one is body other thing is head okay head is something which is
+not will not be seen by the other end users like users like when I say other
+end users I mean to say that something which is running inside my mind you
+cannot predict it what is happening but by seeing my body you may see what are
+the actions I can make isn't it so whatever you things you write down
+inside the body you will be able to see on a website but whatever things you
+write in the head you cannot see in the website but are those are the very
+important things will explore what all things goes inside head what all things
+goes inside the body okay these three elements are clear to you what these
+three elements are HTML head and body okay now so what we will start okay let
+me write down small definitions also first thing is like how do you add a
+comments okay so I what I did is I've did command and forward slash to add
+this comment we can type it down manually or you can write down command
+slash to get this comment okay or you can do control forward slash for the
+Windows laptop so I'll write down small notes also about this one head contains
+generally metadata I'll come to this each words later on related to website
+there's nothing that you need to get it as of now I'll explain everything step
+by step okay now what things are present inside the body is something
+that you can see on the screen so whole structure is written inside the body
+okay now let's say what if I want to what if I want to write a heading let's
+say heading could be I don't want to give a hello world guys can anyone give
+me some right heading can anyone give me let's say welcome to scalar okay okay
+I've just written welcome to scalar now welcome to world of web anything works
+it's just on to it now I've used something called h1 h1 is something when
+I say that heading okay so there are two good amount of headings guys that way
+you want to write main headings subheading side heading okay all the so
+but headings are generally you know from h1 till head 6 you know there are
+different types of heading I'll show you let's say I've written h1 and
+welcome to scale now since this is rightly you know this is since browser
+can understand this HTML directly I should be able to open this file right
+the other should be able to understand and show it to me this whole HTML
+content right render on the screen that's what we understood when we
+understood definition of HTML isn't it
+right now let's let's try to do that thing let's try to do that thing okay
+give me a second I'll open this
+I'm trying to find the okay folder
+okay give me a second guys actually I have another desktop where I have all
+the files let's say I go back to the browser now if you see here what I am
+pasting is the file location in my laptop okay where that file is located
+because if you see inside the desktop folder I created full stack merge
+because if you see inside the desktop folder I created full stack merge and
+classes this is the structure right full stack merge and classes HTML class on an
+index system so I'm directly loading the HTML file in the browser I'm hitting
+into the browser directly if you see what's happening in the inspect when I
+do inspect I go to the network tab when I hit this if you see I made a request I
+made a request I made it get request to this system to the file system file
+system is also a database right like a local database that's in the present
+inside the system it made a call it received 200 status code success status
+code and we rendered this welcome to the scalar is this clear guys now directly
+the content of HTML is parsed and understood by this browser and loaded
+for us is this clear is
+okay now second thing is that you know you can also do one thing okay if you go
+for this one right marketplace I don't want to load it from always from the
+file system server because each time I make a change I have to reload it
+refresh it because it will refetch it it will refetch the API and it will load
+the data so what I want to do is I want to use a one dummy server on my this one
+so in order to create that dummy server I'll go to here in the market list click
+this button on your extensions and I try to search with live server okay this
+one I'll see if I can copy extension ID and I can give it to you I'm not sure
+this is working fine yeah this is the person rithi wiki day is someone who
+created you might be able to search with this name also that's something that I
+have given okay so say live server I'll write down everything that I'm using
+live server extension for loading HTML browser okay yeah I'll pin that give me
+a second now what will happen once I do this I go back to the index file now
+I'll just right click this one okay and I'll go with open with live server once
+I do this okay it is loading in the other instance give me a second let's
+say I go back here inside now if you see if you see the URL now what is the URL
+this is an IP address of my machine isn't it this is my IP address and this
+is a port this is a port where server is running and I'm loading this inside this
+port I'm loading this classes HTML index one okay if you see now I got I got three
+zero four status code the reason behind I entered this URL if you see I entered
+this one it redirected me and loaded the website it does the same thing now what
+why I use I'm using this one is as soon as I write down let's say I write down
+again h2 since we have all the levels of heading right so I'll say that we are
+glad you are here okay if I go and dive down I need not to click anything save
+once I click save it is reloaded you know a pay call is being made and you
+know loaded for me I hope this point is clear guys so I'll try to introduce all
+possible headings for us okay such that we have documented in the notes
+whenever someone opens get up I hope this hope you find this you know and
+let's say I try to copy paste and create other headings let's say this is h4 this
+is h5 h6 h5 h6 h4 okay these are the list of headings we have generally like
+if you see this can be a main heading to the page or this can be heading to the
+section this can be heading to the paragraph a sub paragraph or the side
+all the these are these are the headings given by a given by HTML to us that we
+can use it okay now other than headings right we have some other elements that
+we will be discussing so I'll introduce one by one okay so most of the you know
+most of the website have content to read right content to consume more isn't it
+do you guys agree like you go for any site gig for gigs or medium the more
+than diagrams more than images it is a more content so to write down content
+right the basic one of the main main element that you have is something
+called paragraph this is a root element upon this root element each you know
+down the lane I'll tell you but frameworks how they have built many
+typographies okay now let's say I write down paragraph tag this is paragraph
+goes by P later okay once you open and close P so there's something called
+lorem guys have anyone knows lorem which generates a content for us
+automatically if I am trying to write them lorem this is a Emmett
+abbreviation which automatically builds content for me let's say I write down
+lorem 35 and then click enter it will build me a paragraph I size of 35 words
+okay it's just like I'm trying to generate a dummy data I don't want to
+type the whole paragraph okay now if you go and see on the website if you see
+this content paragraph is loaded this way okay this is a general size of fan
+so whole content is generally written in terms of part now inside this paragraph
+you have too many things too many things that you can write down let's say I do
+one thing which is called strong which goes for boldness let's say I try to
+make here add a strong here okay and I cut this I end it here okay so if you
+let's say what how this changes if you see here inside the lorem if I made this
+part of it as strong it updated as a bold okay so you might be seeing it
+right whenever you want to highlight you go for any document let's say you go for
+this document you see there is a color there's inverted comma there is a
+change in style okay there will be or maybe somewhere italic or red in color
+is a hyperlink okay but what do I you are hopefully you are able to understand
+what do I mean to say that it's a paragraph will have a different ways of
+showing something which is important content and which is something not right
+you go for flipkart if you see open anything anything anything now if you
+see everything will have some extra price 60% off 895 striking off now how
+do you think this thing can be done in HTML now I don't want you to you know
+mug up this even I don't even remember all of them just that you should know
+that there's something can be doable and if you are able to search you'll
+remember all these stacks only remember important tax and all the other things
+we will figure it out okay now imagine that there's something called strike
+okay once I do this let's say I go back into the website if you see this part is
+striking off the same thing that people are the flipkart team or any other team
+have done it so they are striking of this thing and they highlighted the
+other thing right bold and striking is that clear how this can be done for the
+content paragraph no similarly what people does it right people what people
+does it is that you know they also style this kind of thing which they you know
+striking off how you can do that thing is let's say you can have another thing
+which is italic tag when something if you might have learned in school right
+they teach you different types of style writing curse you writing or you know
+calligraphy or many things like you bent keywords that you write down because it
+goes by bending it to make it look beautiful so that's what happens in
+website also once you do this if you see I have striking off I have changed the
+style of content okay these are the things that you can do on a content part
+okay mainly I've tried to write down four to five things let's say I'll write
+down I'll introduce one by one I goes for italics style then strike goes for
+scratch over letter words then there's something called underscore also like if
+you want to underscore something you can do it using you okay once you do this
+let's say I'll show that one also
+underline underline sorry underline the words okay if you see I've underlined
+this words so this can be done using this way any doubts guys on this part
+how we can design a paragraph or how we can style it adding a you know this one
+pretty basic and pretty simple and straightforward right now then there is
+something called when I introduce hyperlinking right I've talked about
+something called links now let's see how can you create a link anyone any guesses
+how can you create a link
+anyone any guesses there's something called anchor tag
+which is used to create hyperlinks now let's say when I define anchor tag
+anchor tag goes for a okay a letter now let's say I try to open an anchor tag
+okay and inside this I'll say that hey google.com Google search engine okay once
+I have this Google search engine here now I've introduced till now I have
+introduced till now we talked about elements or the tags now when I say
+that this is a hyperlink when I say Google search is a hyperlink when you
+click on this it should redirect us to the new website so what we are mean to
+say that we are adding some new extra properties or attributes to it now
+people are saying there's something called href attribute now what this href
+attribute will give us is something where you want it to redirect when you
+click it let's say I say that HTTPS double colon WW dot google.com okay so
+let's have this thing I save it I go here if you see now this is converted
+into blue in color once I had it href now let's say if I click this if you see
+here the website made a call to google.com and returned as Google search
+engine okay sometimes what happens is where you whenever you open you know
+links can we use it is not suggested to it is you cannot use it actually let's
+I use href same attribute here that's a it's a wrong thing to do it okay now
+even if I click whole thing here nothing is happening okay but if I click this it
+is redirecting
+clear upendra so each element tag elements will have its own rule so you
+have to use them that specifically okay so now you might have seen many things
+right if you say that I open this one product it took me to the new page it
+didn't open in the new page right does anyone know how to do this when I'm
+clicking a page it didn't open me in the same page like when we're clicking this
+it is opening us in a same page but we wanted to open in the new like page
+right so there is something another you know attribute if I add attribute called
+target and underscore blank so it will open in the new blank page target open
+in the new blank page okay let's say I go back I open this click on a search
+engine just a second it's acha target spelling is wrong okay once I click it
+now Google search engine is opening in the new page right I hope you got this
+what is anchor tag and how you can handle this clear eyes now other than
+hyperlinks or content what do you see else in the website what do you else see
+in the website what is the one more important thing
+images right now let's say I go for images there is a simple tag call for
+images there is a tag called IMG okay to render image now let's see if I write
+down IMG there's only one special thing about IMG is that you know it's a
+self-closing tag it's a self-closing tag I'll tell you why it is a self-closing
+tag as I told earlier that everything which starts it ends it takes it should
+whenever I was standing it shouldn't but while writing image you this whatever
+content we are writing it we are writing between those tags it is
+supposed to be inside that container but image itself is an container you don't
+want to write between images right it is on image or behind the image but not
+between them you are able to relate this when I write down anchor tag also I
+want to write this Google search engine as between this link now added
+attributes on over it but images you don't have anything to write between so
+there's no use case of having an entire it is itself an ending tag now this
+image tag takes two attributes again to show what sort of image it should have
+so to in order to show image right if we use something called source tag SRC
+SRC is a source or the location of a image where it is located then there is
+something called alt alt is something let's say as I've told that HTML is
+something a mother tongue to the browser now browsers each mother can have its
+own capability right like like let's say Chrome is a very smart mother whereas
+Internet Explorer which got deprecated which is very like you know say old age
+that doesn't understand all the new things are happening when I say new
+things are happening the types of images you have PNG JPEG and everything you
+have so there are some browsers which cannot render your certain types of
+images you whichever you can cannot read you know render that image you have to
+write description for the image what this image is talking about so whatever
+you give it an alt something if you are not if that image is not rendering that
+alt text whatever you try to text in the alt what that will be rendered onto the
+browser okay I hope this is clear so what we'll do is like we'll pick one
+images let's say images we'll go to let's say I copy link address copy link
+address copy image address sorry okay I go here I give this image address okay
+this is way much big my god I did I copy right thing let me go back
+let's say what this picture that we copied is about it's an like let's say
+lake lake with water and moon okay I have what I've done is like I have
+returned a tag image tag with this information I don't know if this image
+will work guys let's see yeah if you see I'm able to see a image with the
+lake right entering it now if image is not able to render it how can we do
+that let's say let's say I don't want I don't give this image description here
+let's say I comment this thing okay I cut it okay I cut I cut down the image
+now if you see image icon is showing with the lake with a water and moon now
+this is how it works that if the images image copyright that that's directly
+available if I post it in a public domain Suresh I'll be you know flagged
+but I'm not posting pub in on cloud or I'm using or making a business out of
+it right until I make a business out of it I'm not you know I can use it yeah we
+can use pixels website is it something okay so I hope this is clear guys how
+image tag works so these are the least of you know basic tags that you need to
+have aware of something to get started with HTML no before ending this class
+right I want to add few things okay before ending this class that's something
+that I want you to build after once we learn right our learn this HTML and you
+know CSS part only with HTML and CSS part I've built one project called
+portfolio project I'll share a code base with you I'll also parallel record so
+this is something a dummy you know what we say portfolio project which you can
+create with only simple HTML and CSS so where you have like you know download
+resume button doesn't happen anything it just renders the images and the project
+like my project section get in touch form and adding this icons and you know
+making this boxes okay all these things can be done using simple HTML CSS so
+what I want you guys to focus on is currently till we are in the part of
+HTML you want you need to focus on more on the content part like maybe this icon
+image home about project section this one then this content part okay you have
+to focus on the content part nothing else okay what I'll do is that I'll pin
+this link here along with that I'll also keep it here okay at the end of the CSS
+class right at the end of the CSS class what I'll do is that I'll also give you
+the whole project repo this repo portfolio project repo code such that
+you can explore back does that work guys okay yeah great so other than this thing
+let's say inside this right I'll create another section called projects okay
+let's say not here but
+I'll pull it later on projects whatever projects we are building along with that
+I'll also create this project basic HTML with you so that whatever time see so
+the clock is at 2 11 do you want me to build this projects getting started with
+it or you want to build it initially and how you want me to go with
+guys do you want me to code it down start with it a simple HTML content for
+this one initially okay yeah sure so let's say I have created a project
+section I'll create a portfolio project portfolio okay so anyways I have to
+provide you the images and icons which you can use it index dot HTML okay now
+yeah one message I've got is from Dhanda says someone who knows the language can
+we start it on HTML CSS someone who knows the language then as I didn't get
+your question when you and you say that language which language you mean to say
+that you mean to say coding languages like JavaScript Java maybe we can
+discuss about this under in a doubt session I'll get started with project you
+know here so there's one shortcut I'll use guys whenever you know there's
+something called Emmet when I drive down this HTML right as I've shown you for
+the lorem right lorem 35 I've created a content as such you have also you can
+generate a dummy HTML okay dummy HTML I'll click HTML I'll find and I'll do it
+just click it so I'm able to generate default content now I'll also explain
+one thing I forgot to include is that you know here inside the head I didn't
+have anything if you go to the website that we rendered it right if you hover
+over it that's I go and hover over this tab it is still showing me that same you
+know this IP address and port number right what if we want to change and give
+it a name like let's say I go to the scalar and I hover it there is no IP
+address is being shown or anything it shows that home scalar Academy okay I'll
+come to that around give me a minute so inside and head if you want to override
+what you want to show on a browser tab right you have a you know tag called
+title inside a title you can say introduction to HTML elements okay
+HTML since we discussed about attributes to now if I go back if you
+see my name got changed okay does it matter to does it matter to any website
+it doesn't matter to any website but it's present in head to make it give a
+content like what this website is upward okay website is mainly this part but
+this is something in the present in head which is not useful okay but that's how
+head works the content that you write in heads that's how it works no so someone
+asked me what is what is with that HTML file so HTML file introduced few more
+things for us like how can you write in HTML in a better way okay for writing
+content right for division dividing the content earlier now let's say if I
+typed on let's say I want to build portfolio section okay if you see in
+portfolio I have basically what all things I have here I'll talk about this
+are on in five minutes in portfolio I have something called header right let's
+say something I have header okay then there is something called I also have
+footer where I have the form okay
+then we have my project section then you have a bot me section let's say header
+footer my project then also you have a bot me
+section so what I did is like I divided our project into four parts to you know
+break down what we say you go for DSA big problems think it in the brute
+force I'm trying to go with a brute force logic now earlier before HTML 5
+right before HTML 5 for dividing any containers right you have something
+called diff tax okay each container will have its own diff okay okay so each
+container will have its own day there is just a basic like you can say that it's
+an structure like sections if you want to do build it in sections you can use
+this dev tax okay we will be using this diff tax up to extend that when we are
+building projects together okay now inside this diff tax all the elements
+that will go is something that we have discussed till now okay let's say if I
+want to say that let's ignore ignore this firstly image but here we are having
+four things like home a board projects and blog right now let's say if I want
+to clear a quick create this one I'll again use our diff tag let's say I
+create a home again I copy and paste it okay now let's say I home a book
+projects and blog okay so let's have divide done this now I go and back and
+open this thing okay live server now let's say I got this four things no what
+happened is like we need all of them in one row right what we need all of them
+in one row so there is something called span we will I'll introduce this divine
+span in next class okay don't worry about this much I'm currently so in
+general what I'm what I'm saying is that by adding a span is on a top level is
+that I'm I'm telling it a home and a board projects whatever space you need
+it use that but don't get started on the new line okay now if you see I'm
+getting started on the same line okay so currently while I'm building a
+project as of now I'm just focusing on the content part now then I have
+something my name let's say I go for the if you see on the top level section I
+have only this thing along with that image I'll go to the next section where
+I have my name and I'm the full friend full slide developer let's say I go back
+on our website where we are coding it okay let's say I use h3 I am Sharma
+then I use let's say h5 I am friend and full stack developer okay so what I did
+is that if you see I folk went there and I build this content whatever I need so
+I'm just focusing on what are the content and now I have a description and
+a download resume okay now let me add this part to you give me a second yes
+okay now let's say I have a description let's say I for writing a description
+right I'll introduce head six I say description then under this you can
+write a whole description about yourself and you can also have a ability to give
+a button now this is a button okay no let's say I write a paragraph itself be
+now let's say for the download resume
+whatever we have introduced okay this is what I've covered about first two parts
+isn't it like this is something that we have here home about project blog and
+this thing in our image now for adding an image also what you can do in this
+part you also have an image so let's say I have an image right SRC can be
+anything this is all is like let's say profile pic picture for portfolio right
+you have written all this stuff simple pretty basic I'm just asking you to
+focus on the content part of it since only what we have learnt not going into
+further now what happened with HTML 5 is that let's say now I have this thing now
+the dips are like if I remove this comments right if I remove this comment
+would you be able to understand the structure how it is there how it has
+been segregated what is header or about me section or my project footer it would
+be difficult right it would be difficult like to see hey what this section is
+about to write it down to write it down and understand in a better way what this
+people in HTML 5 they have done it is that hey if you are having an header
+right in order to tell that it's a header you can write down it as a header
+tag itself they introduced new tags now this tax are self-understanding other
+than using div everywhere their self-understanding it is helpful to
+understand it so this is what they say that semantic tags if anyone asked you
+about semantic tags semantic tags are something where you can by default
+understand let's say semantic goes by name and it overrides divine span okay
+replaces okay now since these buttons are nav bar related item so for nav bar
+you can write down nav buttons let's say I can have nap
+okay still if I go back and see on the screen it is still same the content got
+you know on this way but it is still doing that same job for us isn't it do
+you see do you see this guys HTML is not changing anything it just that naming
+convention is changing now if you see this section about me now there's
+another tag called section which is helpful to you know to know that hey
+this is a section separate section this is a separate section so whenever I use
+this naming convention right by naming convention even for the button right you
+don't use paragraph P tag you have button tag which is introduced in HTML
+file so all the semantic tax right all the semantic tags by default whenever
+you're using a tag which is understanding by name itself we are
+setting we're seeing that header this is a footer tag so I'll use a footer tag
+directly not this something else okay so if you go and understand just let's say
+that what are the semantic tags definition HTML file is a version yes so
+if you see semantic tags are the form stable article where a non semantic
+elements are the defense man tells nothing about it contain but it clearly
+defines its content like header nab section footer wherever you are using a
+name right a name for all the divide divisions or the things that you are
+using by default we are saying that semantic this is one of the interview
+question also semantic elements are the elements with a meaning hope you'll
+remember this case right
+okay so so this is where actually I want to you know end the class for today
+since we are already on the time and I've started bit on a project section
+not going into depth because once we learn this maybe we can build step by
+step okay once I complete tables and forms in next class I'll build whole
+structure for this one okay we'll build whole the structure for this one then
+we'll see on the CSS part step by step works guys good so coming back to this
+one guys like give me a I want five minutes of your time I want your five
+minutes of time since I landed 230 so one thing one thing I want to tell you
+guys is that you know I want everyone might have already you know they might
+have their own goals this year like 2024 you might been targeting good job or you
+might have taken some resolutions right since this is just a start of an year
+okay my job is to help you understand a whole full stack curriculum or in the
+books in the part of curriculum of curriculum anything if I don't think I
+learn and come back and teach you because it's a vice versa vice versa
+learning right because that's my job what I do at office if I don't know
+anything I'll come back learn and teach you back but what I want from you guys
+is that only three things one of three things is something that attend classes
+please try to attend classes such that because most of the content will be
+thought and you can avoid the time where you can go and you know watch the
+recording but that time can be utilized in a further other things okay second
+thing is you know complete your assignments
+reason I'm telling you reason I'm telling you why you want to why you need
+to complete these assignments is if you do those core problems right and there
+with you I will be here if you don't have any you have problems with the
+assignment problems initial five minutes of the class right or the other doubt
+session will pick those assignment problems will solve them together
+works is because that will help you to understand what are the interview
+specific things are there and how we can work on it third thing is what I
+will do right in the here in the project section in the links right I'll also
+have the self study links content where you can read a particular website or
+things related to it okay anything I'll give those links do self study utilize
+them and read through it just like you know skim through it like whenever you
+have five ten minutes of time in a day because I'll have a repo I'll share it
+with you repo and you know whatsapp group in that group also whatsapp group
+also I'll pin that get up repo you open that get up repo go to the link section
+you'll open that hyperlink whatever class has completed that you can just go
+through it understand it it would be really helpful for you it's kind of a
+revision on a day-to-day wherever you are there five minutes ten minutes not
+more than that if you don't understand anything next class I'm there again we'll
+discuss it okay and another thing last thing is
+contest this thing will it come at last later time but since you have started
+this year I want you know this five months the five months that are going to
+spend with me just focus on doing the things that I'm asking you to do you
+will yourself will see the results at the end of the time okay how confident
+you will become in terms of web development okay so hang in there just
+do this and one more thing is that a bonus from me is someone who will be
+able to do these things right who someone who will be able to do these
+things till till like you know react part I'll personally you know mentor them
+and refer them at my team in paper okay for front-end or full stack rules but I
+want someone to focus on it someone to learn these things okay it is just I'm
+trying to create an incentive because everyone here is for their job to up
+skill themselves so hope you do all of these things prepare it come back to me
+we'll discuss if you have anything drop me directly in whatsapp chat okay so I'll
+start a doubt session guys okay and I'll create a whatsapp group give me a second
+so I hope you will be able to do all of these things right whatever I needed from
+you I've I'll do my commitment job whatever things needed I'll learn I'll
+come back to you teach you we'll do the revision stuff if you need an extra
+classes we'll think about it but you please focus on attending classes
+completing assignments and self-study utilize the links okay I'll keep
+updating you something related to if you need to go through anything or anything
+but this five months give your attention I know you might have issues like
+attitude maybe you want to revise the DSA you want to revise sequel all those
+things are important but when you go into the job this will matter more but I
+feel it those will clear interviews this will also help you clear interviews
+but this is something day-to-day job will revolve around so clearing this
+basics I didn't I don't mean to say that completely spend time here but
+clearing this basics will help you really you know be confident about the
+skill that you are writing down in your resume okay guys so give me a second so
+I had yeah thank you Munesh you stock time line on the top of the file
+without it what will happen yes it is coming back to that I'll take this so
+Suresh has a one question like what will happen if I do or what what this doc
+type is about talk type HTML so you know if it if you don't write the stock type
+okay if you don't write this doc type there is something you know engines
+mother tongues also have a certain way of understanding it okay each browser is
+a coded in a different languages and different ways doc type is a keyword
+which is explaining it that hey use this particular type of parser in general
+okay when we say that this is a document type of HTML it will pass in a
+particular way but if you don't write it down this thing this use a different
+okay this uses a different quick small now meta tags I introduce in the next
+session some bit okay I'll take that in the top first no first question I'll
+pick it up meta tax okay in general doc type is talking about is like this is a
+document HTML document type so this is that works okay if I google and show you
+right doc type okay it's a declaration to web browser that what version of HTML
+is written okay generally we are using this you know HTML5 version but if
+you go for something website in a depth right that that is not the right website
+I will say that you know web.dev if you go to this site right this is somewhere
+you have to read because I'll paste this links all these links where you can
+where you need to learn this one this is actually maintained by Google so let's
+say go for here if you see here and now the doc type so so doc type so it's a
+special like I'll come to the notes here I didn't introduce what notes or
+anything generally doc types tell the browser to use a standard mode when it
+is trying to parse it or understanding if omitted a browsers will use a
+different rendering mode called quick modes so mentioning it helps its help
+help it to understand in a better way I hope this answers you Suresh is that
+fine no reaction did you understand or not yeah it helps understand browser to
+in which type it need to parse that HTML like if you explore this quick mode
+right like if it is you know older way how the how it used to convert this
+HTML like but if you write this doc type in general whenever if you go for the
+other sites right it says that hey if you add a doc type it will pass in a
+HTML5 version so it means that only how we want to convert this okay so that
+can understand pass and render it on the screen so as you define it in short
+term helps browser to understand better that's exactly what what you are what I
+was talking about okay cool so give me a second I was creating a group just a
+second I'll create it on whatsapp mobile images can act as a hyperlink right like
+LinkedIn get images website show yeah that can also give me a second I'll come
+to that before that I'll create a whatsapp group before all people leave
+you
+no give me a second I'll share this link and target here
+guys this is the whatsapp link you can join using this give it to everyone who
+drop the call such that you know everyone can join images can act as a
+hyperlink right like LinkedIn get websites you show how does it work okay
+so now let's go to this like I'll go to LinkedIn itself let me this is my I
+don't have my ID here give me a second I have to use another browser instance
+let's say I click on any link right now this link is being converted now let's
+say I go what how can you explore more is something let's say you go here and
+you click on a hyperlink this element element selector you click here now if
+you see anything right if you see in image tag they added a source element
+shunt for yourself itself if you can see on a screen share there is a source
+element added now the source element is where it is navigating to if I click
+here that is where it is redirecting me to okay each image we can you can have a
+source to it yet like even if I go back on my let's say I don't want to do this
+but let's do this this is a source tag right image let's let's make it not the
+give me a second href it should be href itself I'll check that and I'll get back
+to you but there should be a redirection link for sure okay no no no no give me a
+second
+I didn't load it
+I think my server got slow so anyways I'll show you this browser is not
+responding is it okay let's say you go and add a href to this one I'll copy
+this href okay
+nothing is happening here but I'll check that and come back to you some with
+alt is not mandatory but it is suggested that you have to add it okay alt is not
+mandatory but it it is needed like if you see what happens with this right
+there are like only for the text no no how does it work so from web development
+point of view right only it's it's not only that you know that websites will be
+used by the only people who can see it there are other people who cannot see
+this I know screen right they use screen readers sometimes you know your mobile
+start reading the screen accessibility right yeah so for accessibility for the
+impaired people who cannot see the screen they run that website on a screen
+or you know reader screen readers mode so when they're reading through the
+screen screen if you don't define what your image is talking about they won't
+be able to get the context of it so it's needed that you write down the alt for
+that content okay great okay then okay then I think guys that's it for
+today I hope I hope you had fun it's a just a beginning a session and we'll
+learn a lot okay Suresh says that I'm familiar with Java how it will be
+helpful for stack journey Suresh I'm the person who started with Java Java is
+really wonderful language where you have object-oriented programming and big
+things big things saying we're done but it's just a focusing on server side if
+you go back right if you go back five ten years before there was no there was
+nothing like you know full stack rule there was nothing like JavaScript being
+used it was only a Java stack where you have EJP based applications so you had
+a timely based applications right where you also write HTML in Java application
+itself if you know that right where Java was throwing for HTML screens itself to
+the browser okay Java itself was acting as a full stack application sometime
+back but later on what it did is like Java told it hey I'm good with the
+backend system I'll build that API's that whatever interfaces role it need to
+been taken care that will be done by the front end system Java is really great
+backend knowledge back backend language I would say which had a really lot of
+lot of amount of openings which has a lot of scope but learning full stack
+this JavaScript based stack right will add a more of you know flags to you
+work Suresh do you get that so it will be really helpful but if you go back
+right time leaf like if I show you
+like if you go with the time leaf right what it does it is used to resolve you
+know screen HTML screens right as far as I remember yeah if you see you are
+writing form and table inside Java right so we are you are actually throwing
+HTML screens from Java itself so Java is to do all this works but later on they
+say that I'll focus on one thing so there are many solutions that were added
+time but as the screens got complicated right as more interactivity came more
+of things him came so Java was this timely framework was an accurate right
+solution to do it then they went on to build this react and angular or simple
+you know Ajax calls all those things we'll see step by step one by one okay
+you'll get that so rich thank you some bit thank you Suresh did I miss any
+doubt hopefully everyone enjoyed today's class guys it was really great class
+okay
+yeah okay always able to want to help you guys because that's how you will be
+learning right that's what you are here for thank you shake after angular came
+react that's a different story on and do I will tell you actually they both are
+solving different problems I if I since it's a doubt session if I just want to
+say it in a word right react solved only small problem react solved one of the
+core problem is when I say that HTML is not a programming language right do you
+agree with that Anandu HTML is not a programming language then they wanted
+like what if I want to create if you go for a site like flipkart right if you go
+for a site like flipkart if you see all the stacks right four five tags like one
+two three or six sex they both all have same things same size same things only
+the image and the data is changing right do you agree only three items are
+changing shop now from top-selling pendels or the image right now imagine if
+we had a for loop if we had a for loop and we if we can just pass on the three
+information and build boxes for me it would be easier right
+so what react react told is that hey why can't we write something which will make
+HTML dynamic and easier to build user interfaces so react was solving a
+problem which can automate the HTML part along with the coding language so but in
+the end right in the end browser is always served HTML only so they return
+some yeah code replication becomes less so in a way when you are writing a
+react you are writing a logic more than a HTML and CSS okay I'll tell them in
+depth when we started I'll explain the problem statements and everything but
+you'll get to know about react and angular let's wait for that time guys
+okay let's build that intuition by then let's be comfortable with all the you
+know jargons that we have before that Dom know what is a dom tree how that
+happened how react has solved the problem like if I'm using a coding
+language since HTML is something browser depends on to render a screen why you
+want to write a logic and why you want to convert it how we are enhancing a
+speed so there are too many things we'll come to them step by step okay
+but till now I would ask you to just focus on the something that we are learning
+will build one after the other that works
+okay cool so anything else guys before we end the session I'll I'll what I'll do is
+like I'll create a GitHub repo I'll share it with you guys okay
+I'll wait for another one two minutes if no doubts I'll close the session for
+today guys so thank you for attending today's session hope you saw the
+assignments and we meet on you know next class Thursday and there's a few
+more things to explore in the HTML part then we'll get started with the CSS
+okay let's get started with the CSS okay let's get started with the CSS okay
+there are too many interesting things we'll learn in the next class where
+we'll also complete a portfolio project up to an extent thank you Muneshwara
+good night take care
+care
+okay examine some with when I told about this client and server right
+we talked about how connection is established what mode of connection is
+there but if if if waiter is bringing a food
+he would bring in some utensils and some plate right
+do you agree from kitchen when you order a item he'll bring in some plate and
+food right now what would be the right sort of
+utensil to bring data from backend to the client
+from server to the client is in two ways xml is a older way how it used to be
+done but json is something a new way of doing
+that same thing these are the two formats
+where which were used for the mode of communication
+when we when there is a mode of communication between the two systems
+how data should be transferred so earlier we used to use xml now we
+are using json and but xml used in different ways to
+write configuration like in many languages like java if you
+go for any applications right like spring
+application they used to write xml coding to xml
+this configuration to explain like what what all things they are using it
+but from our learning perspective we'll never see that
+from our learning perspective what we'll see is that more of a
+json data that is being transferred from backend to the client
+instead of json you can also use xml data is that clear because from client
+side we can consume both json and xml data
+okay so like if you can go to the browser also
+xml versus json you can search this okay
+you can find it like how these are used this is aws
+related you know questionnaire
+so it's about like when to use which one how data is transferred over it you can
+read about this like you have any doubts while reading
+about this you can come back with and discuss you can paste it in group also
+what's a group i'll i'll i'll try to answer there also
+okay
+so otherwise then
+thank you shan
+thank you sam
+so good night guys then i'll stop the screen share
+meet you in the next class have a great night
+take care
+good night shade good night somewhere
+okay
+i'll have a 10 count 10 second counter and then i close the class
+you
+you

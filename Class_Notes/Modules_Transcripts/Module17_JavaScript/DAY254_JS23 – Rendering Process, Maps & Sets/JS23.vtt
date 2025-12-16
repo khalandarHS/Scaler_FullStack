@@ -1,0 +1,4850 @@
+WEBVTT
+
+00:00.000 --> 00:29.360
+Hi all, good evening.
+
+00:29.360 --> 00:32.960
+Guys, am I audible and visible?
+
+00:32.960 --> 00:36.960
+Can you guys hear me all?
+
+00:36.960 --> 00:46.160
+Guys, can you listen to me?
+
+00:46.160 --> 00:52.360
+Right, great.
+
+00:52.360 --> 00:53.360
+Okay.
+
+00:53.360 --> 01:10.360
+So, we'll wait for some amount of people, right?
+
+01:10.360 --> 01:17.360
+Let's wait for some time, then we'll speak, then we'll start on it.
+
+01:17.360 --> 01:20.840
+But do let me know guys if you can see the screen share too.
+
+01:20.840 --> 01:25.840
+I'll start the screen share, right?
+
+01:25.840 --> 01:29.840
+If you can see the screen share, right?
+
+01:29.840 --> 01:30.840
+Great.
+
+01:30.840 --> 01:35.840
+So, let's say I have five minutes timer.
+
+01:35.840 --> 01:42.840
+We'll wait for five minutes and then we'll get started.
+
+01:42.840 --> 01:46.840
+In case if you have anything, you guys can ping me out here in the chat.
+
+01:46.840 --> 01:49.840
+If you have doubts or anything, we'll take it up.
+
+01:49.840 --> 01:54.840
+Meanwhile, we'll start again in five minutes.
+
+02:19.840 --> 02:21.840
+Okay.
+
+02:49.840 --> 02:51.840
+Okay.
+
+03:19.840 --> 03:21.840
+Okay.
+
+03:49.840 --> 04:13.840
+Yes, Sabino, today it's going to be the last day for JS officially from the content point
+
+04:13.840 --> 04:18.840
+of view like from the curriculum point of view like what topics we have to cover.
+
+04:18.840 --> 04:24.840
+But, you know, the journey of learning chairs will be still continued when you go through
+
+04:24.840 --> 04:31.840
+React and NodeJS till we completely cover all the things.
+
+04:31.840 --> 04:37.840
+Yeah, we have covered mostly all of the content which is required and needed for day-in,
+
+04:37.840 --> 04:43.840
+day-out development.
+
+04:43.840 --> 04:49.840
+I have always pointed out that in case you need anything specific, do you feel if you
+
+04:49.840 --> 04:52.840
+want me to cover anything, I was always open.
+
+04:52.840 --> 04:57.840
+Even if you bring it up, anything new, you want to figure it out, do let me know.
+
+04:57.840 --> 04:59.840
+We'll cut that.
+
+04:59.840 --> 05:10.840
+Okay.
+
+05:10.840 --> 05:16.840
+Then I'll talk about like we'll see like how we have covered all of them.
+
+05:16.840 --> 05:26.840
+So we'll share it with an example like have we actually covered or not.
+
+05:26.840 --> 05:27.840
+Okay.
+
+05:27.840 --> 05:28.840
+I'll wait for some more time.
+
+05:28.840 --> 05:33.840
+I see really less amount of people yet.
+
+05:40.840 --> 06:09.840
+Okay.
+
+06:09.840 --> 06:14.840
+Anyone having anything nice and the one having any doubt on anything like if you have anything,
+
+06:14.840 --> 06:15.840
+do let me know.
+
+06:15.840 --> 06:16.840
+Okay.
+
+06:16.840 --> 06:19.840
+I mean, today we have time.
+
+06:19.840 --> 06:24.840
+Can you share the link for the polyphys related with promises?
+
+06:24.840 --> 06:25.840
+Okay.
+
+06:25.840 --> 06:28.840
+So this is one repository.
+
+06:28.840 --> 06:30.840
+I was maintaining it.
+
+06:30.840 --> 06:45.840
+I'll build more, add things more there.
+
+06:45.840 --> 06:46.840
+I'll get that for you.
+
+06:46.840 --> 06:47.840
+Okay.
+
+06:47.840 --> 06:51.840
+I don't have all the promises related, but I have to figure it out.
+
+06:51.840 --> 06:54.840
+I'll get that.
+
+06:54.840 --> 06:59.840
+And so firstly, guys, how are you feeling?
+
+06:59.840 --> 07:04.840
+Like after complete, like we have completed it most like nine, 29 classes.
+
+07:04.840 --> 07:07.840
+Do you feel, you know, good?
+
+07:07.840 --> 07:09.840
+Do you have that good confidence on the web?
+
+07:09.840 --> 07:14.840
+Do you understand things when you see some any interfaces?
+
+07:14.840 --> 07:15.840
+Can you think of it?
+
+07:15.840 --> 07:17.840
+Like how did it work?
+
+07:17.840 --> 07:19.840
+How can you build them?
+
+07:19.840 --> 07:23.840
+What is actually it takes?
+
+07:23.840 --> 07:25.840
+Right.
+
+07:25.840 --> 07:29.840
+Guys, do you feel confident in that?
+
+07:29.840 --> 07:32.840
+Like, do you feel like comfortable seeing any website?
+
+07:32.840 --> 07:34.840
+Like, yeah, at least I'm able to relate things.
+
+07:34.840 --> 07:36.840
+I'm able to relate all the things.
+
+07:36.840 --> 07:39.840
+Isn't it?
+
+07:39.840 --> 07:40.840
+Okay.
+
+07:40.840 --> 07:42.840
+Very much less responses.
+
+07:42.840 --> 08:02.840
+Let's see this.
+
+08:02.840 --> 08:09.840
+So first, let me pull the iPad.
+
+08:09.840 --> 08:14.840
+So we'll take one real time use case, guys, in order to start with our class concept.
+
+08:14.840 --> 08:15.840
+Right.
+
+08:15.840 --> 08:17.840
+Let's let's pick any of your favorite website.
+
+08:17.840 --> 08:20.840
+Like, let's pick some e-commerce website.
+
+08:20.840 --> 08:21.840
+Okay.
+
+08:21.840 --> 08:22.840
+Any e-commerce website.
+
+08:22.840 --> 08:23.840
+Do you like it?
+
+08:23.840 --> 08:25.840
+Or do you find it interesting?
+
+08:25.840 --> 08:26.840
+Amazon.
+
+08:26.840 --> 08:27.840
+Anyone else?
+
+08:27.840 --> 08:28.840
+Guys.
+
+08:28.840 --> 08:29.840
+Any any other website?
+
+08:29.840 --> 08:30.840
+Flipkart.
+
+08:30.840 --> 08:34.840
+By the way, there's something going on in Flipkart.
+
+08:34.840 --> 08:36.840
+Do you know the latest news?
+
+08:36.840 --> 08:42.840
+They are actually planning to build their own UPI interface.
+
+08:42.840 --> 08:53.840
+I mean, integration with a UPI where they want to give a service like a payment service like all the fintech stars.
+
+08:53.840 --> 08:58.840
+So they are hiring heavily for UPI related things.
+
+08:58.840 --> 09:01.840
+I mean, front end, back end, everything, they are hiring it.
+
+09:01.840 --> 09:03.840
+So keep an eye on it.
+
+09:03.840 --> 09:04.840
+So keep an eye on it.
+
+09:04.840 --> 09:11.840
+Like if in case if you are interested in working with Flipkart or Walmart, they are hiring it.
+
+09:11.840 --> 09:12.840
+Okay.
+
+09:12.840 --> 09:13.840
+So.
+
+09:13.840 --> 09:14.840
+Okay.
+
+09:14.840 --> 09:17.840
+I've got the call for same.
+
+09:17.840 --> 09:21.840
+So so I got I to personally got the call from Flipkart.
+
+09:21.840 --> 09:28.840
+So I just wanted to tell right that, hey, they are hiring for the specific new domain they are going to build.
+
+09:28.840 --> 09:30.840
+More back end engineers.
+
+09:30.840 --> 09:38.840
+I agree that, you know, back end engineers because back end is like, you know, 10 services, whereas you have front end also.
+
+09:38.840 --> 09:42.840
+But there are openings, good amount of openings compared to earlier you have it some bit.
+
+09:42.840 --> 09:46.840
+But there are good amount of openings available for the front end.
+
+09:46.840 --> 09:47.840
+Okay.
+
+09:47.840 --> 09:48.840
+So let's pick.
+
+09:48.840 --> 09:53.840
+Let's pick Mintra or any other website you want to.
+
+09:53.840 --> 09:54.840
+Okay.
+
+09:54.840 --> 09:57.840
+Or else let's pick something like Quinn's.
+
+09:57.840 --> 10:01.840
+Have you heard this?
+
+10:01.840 --> 10:04.840
+This is also a Bangalore based startup.
+
+10:04.840 --> 10:08.840
+I mean, not a Bangalore based startup, but a US startup.
+
+10:08.840 --> 10:11.840
+They are also like they have their own.
+
+10:11.840 --> 10:16.840
+I mean, development team is in-house in Bangalore where they build everything.
+
+10:16.840 --> 10:19.840
+I don't know why this website is so slow.
+
+10:19.840 --> 10:22.840
+Say if I click something.
+
+10:22.840 --> 10:31.840
+But let's say, let's say now as an engineer, as an front end engineer or the knowledge we have currently.
+
+10:31.840 --> 10:38.840
+If you if you think from this one end to end, if you think this from end to end, how would you build this thing?
+
+10:38.840 --> 10:43.840
+Like what what could be the initial steps that you might be taking it?
+
+10:43.840 --> 10:47.840
+Any ideas just like if you can jot it down, it would be really helpful for me.
+
+10:47.840 --> 10:54.840
+Like what as an engineer, just think of it like as you used to answer me questions for the JS part.
+
+10:54.840 --> 10:55.840
+Right.
+
+10:55.840 --> 10:56.840
+I've given a question.
+
+10:56.840 --> 10:58.840
+You guessed out what could be the output.
+
+10:58.840 --> 11:01.840
+But now think it from this interface point of view.
+
+11:01.840 --> 11:10.840
+Like if you want to build this out, let's say I say this, this particular products page.
+
+11:10.840 --> 11:12.840
+Right where you're rendering products.
+
+11:12.840 --> 11:13.840
+How would you do this?
+
+11:13.840 --> 11:15.840
+How would you do this?
+
+11:15.840 --> 11:17.840
+Let's say you have wireframe somewhere.
+
+11:17.840 --> 11:24.840
+OK, from engineering point of view, let's say you have an engine like just you have to do a dev work.
+
+11:24.840 --> 11:27.840
+What would you look at it first?
+
+11:27.840 --> 11:35.840
+What could be the first step, guys?
+
+11:35.840 --> 11:43.840
+HTML code for the blocks, header, footer, related items, grid, wireframes, HTML, yes.
+
+11:43.840 --> 11:45.840
+But guys, do you see this?
+
+11:45.840 --> 11:48.840
+Like do you need you need information about the different products?
+
+11:48.840 --> 11:51.840
+Firstly, you need information about different products.
+
+11:51.840 --> 11:53.840
+Like there's a different images.
+
+11:53.840 --> 11:57.840
+There is a different pricing for each thing.
+
+11:57.840 --> 12:02.840
+Like let's say name and the color and everything, the way you render.
+
+12:02.840 --> 12:04.840
+Right. So where do you get this data from?
+
+12:04.840 --> 12:07.840
+Who is supposed to give you this data?
+
+12:07.840 --> 12:13.840
+Like if you remember in Async calls, we try to get data from some JSON server.
+
+12:13.840 --> 12:18.840
+So here, who's supposed to give you the data?
+
+12:18.840 --> 12:20.840
+Some backend API, right?
+
+12:20.840 --> 12:26.840
+Some backend API is supposed to pull in the data like you have to show it for the 59 cash made dollars, isn't it?
+
+12:26.840 --> 12:33.840
+So what would be the first like if you're taking it from the data point of view, what would be the first step?
+
+12:33.840 --> 12:36.840
+To make an API call.
+
+12:42.840 --> 12:47.840
+And fetch product data.
+
+12:49.840 --> 12:53.840
+And a product data can have good amount of things.
+
+12:53.840 --> 12:57.840
+Let's say it has an ID, a unique ID.
+
+12:57.840 --> 13:01.840
+Then let's say it has an image URL.
+
+13:03.840 --> 13:06.840
+So there's some image URL.
+
+13:06.840 --> 13:10.840
+Then let's say you have title.
+
+13:12.840 --> 13:14.840
+Price.
+
+13:17.840 --> 13:19.840
+Right. Rating.
+
+13:19.840 --> 13:22.840
+All this information will be there.
+
+13:22.840 --> 13:27.840
+Right. This is one product, but you'll have array of products which will be rendering.
+
+13:27.840 --> 13:29.840
+Isn't it?
+
+13:29.840 --> 13:33.840
+Just we got started something. We are just thinking about a case study.
+
+13:33.840 --> 13:40.840
+Like if you remember last classes, we tried to answer for different JS questions like given option ABC.
+
+13:40.840 --> 13:43.840
+How would you think of it?
+
+13:43.840 --> 13:49.840
+So here we are thinking in terms of let's say if there is an interface, let's say this is an interface of Quince.
+
+13:49.840 --> 13:51.840
+How would you approach it, build it?
+
+13:51.840 --> 13:56.840
+So the first point we figured out that, hey, we need this data for some somehow.
+
+13:56.840 --> 14:00.840
+So there is some back end API which will give us data.
+
+14:00.840 --> 14:03.840
+The data might look like this format.
+
+14:03.840 --> 14:07.840
+It's an array of multiple objects.
+
+14:07.840 --> 14:11.840
+So this is how the object will be.
+
+14:11.840 --> 14:14.840
+And do you guys know how to achieve this?
+
+14:14.840 --> 14:17.840
+Firstly, have you learned something related to this?
+
+14:17.840 --> 14:20.840
+Like how can we achieve this?
+
+14:20.840 --> 14:23.840
+Right. What? How? How would you do it?
+
+14:24.840 --> 14:28.840
+Like from, I don't know, from JavaScript point of view.
+
+14:28.840 --> 14:31.840
+Like how would you make an API call?
+
+14:31.840 --> 14:35.840
+How would you make an API call? Have you seen anywhere?
+
+14:35.840 --> 14:38.840
+Right. Fetch. Now that fetch.
+
+14:38.840 --> 14:42.840
+Fetch is an, what does fetch returns as?
+
+14:42.840 --> 14:44.840
+What is the return type of fetch?
+
+14:44.840 --> 14:47.840
+Once you make an API call, what does it returns as?
+
+14:47.840 --> 14:49.840
+It returns as a promise.
+
+14:49.840 --> 14:52.840
+Now in order to handle this promises,
+
+14:52.840 --> 14:54.840
+how would you handle it?
+
+14:54.840 --> 14:58.840
+Like is this, are we a consumer or a producer from this point of view?
+
+14:58.840 --> 15:03.840
+Like when we are consuming a data, are we acting like a promise consumers?
+
+15:03.840 --> 15:06.840
+Is it? So when you go for consumers,
+
+15:06.840 --> 15:09.840
+how would you handle a promise?
+
+15:09.840 --> 15:11.840
+How would you handle it?
+
+15:11.840 --> 15:15.840
+So a promise can be fulfilled, resolved or rejected.
+
+15:15.840 --> 15:18.840
+You have to use cases in order to handle promises.
+
+15:18.840 --> 15:21.840
+What were those?
+
+15:21.840 --> 15:26.840
+There are two methods, right?
+
+15:26.840 --> 15:30.840
+Which were used to handle dot then and dot catch.
+
+15:30.840 --> 15:34.840
+There are two things. One is dot then, which takes a callback function.
+
+15:34.840 --> 15:36.840
+There is a dot catch.
+
+15:36.840 --> 15:41.840
+So this was like if promise.resolved is called.
+
+15:41.840 --> 15:47.840
+If promise.reject is called, it will go into catch block.
+
+15:47.840 --> 15:52.840
+These were the syntax.
+
+15:52.840 --> 15:58.840
+Then there was another syntax like we have seen, like using async await.
+
+15:58.840 --> 16:00.840
+Right?
+
+16:00.840 --> 16:05.840
+So the function, whatever function you define, that itself is an async mode.
+
+16:05.840 --> 16:09.840
+We say that a function itself is an asynchronous.
+
+16:09.840 --> 16:16.840
+Then whenever you make a call, you actually wait for the fetch to resolve.
+
+16:16.840 --> 16:20.840
+And this wait actually resolves in response.
+
+16:20.840 --> 16:24.840
+Okay, now this is how you write in async await,
+
+16:24.840 --> 16:28.840
+but you always try to wrap these elements, right?
+
+16:28.840 --> 16:31.840
+Whatever things you are writing for the better,
+
+16:31.840 --> 16:40.840
+like whatever rightful use cases, you try to wrap them in try block.
+
+16:40.840 --> 16:42.840
+Like all the logic goes here.
+
+16:42.840 --> 16:46.840
+And if there is a promise.reject or any mistake that you have done,
+
+16:46.840 --> 16:50.840
+it will be cached in the catch block.
+
+16:50.840 --> 16:59.840
+Right? So this is something we have learnt.
+
+16:59.840 --> 17:03.840
+Yeah, always the backend APIs over the network are the producers
+
+17:03.840 --> 17:05.840
+who are producing the promise.
+
+17:05.840 --> 17:07.840
+Here you are a consumer.
+
+17:07.840 --> 17:12.840
+Until unless you don't do this syntaxes where you do new.promise
+
+17:12.840 --> 17:15.840
+and you are resolving reject.
+
+17:15.840 --> 17:19.840
+So by default, your network is deciding whether the promise is resolved
+
+17:19.840 --> 17:21.840
+or rejected, isn't it?
+
+17:21.840 --> 17:24.840
+So you are consumer here all the time, whenever you are.
+
+17:24.840 --> 17:28.840
+So most of the time, most of the time as a front end developer,
+
+17:28.840 --> 17:31.840
+you are the consumer of a promises.
+
+17:31.840 --> 17:37.840
+Whenever you are talking in terms of like actually getting the data,
+
+17:37.840 --> 17:39.840
+because you are just consuming it.
+
+17:39.840 --> 17:44.840
+And most and 100% other than 99% of all the async methods,
+
+17:44.840 --> 17:46.840
+other than setTimeout and setInterval,
+
+17:46.840 --> 17:51.840
+all the asynchronous functions usually returns your promises
+
+17:51.840 --> 17:54.840
+because that is a better way of handling asynchronous call
+
+17:54.840 --> 17:56.840
+rather than using a callbacks.
+
+17:56.840 --> 17:58.840
+Right?
+
+17:58.840 --> 18:00.840
+So I hope this point is clear.
+
+18:00.840 --> 18:03.840
+First point, how would you do it and get the data for us
+
+18:03.840 --> 18:06.840
+and store it in a response object?
+
+18:06.840 --> 18:08.840
+So first part is clear, guys.
+
+18:08.840 --> 18:12.840
+If you go think from this like Queen's building thing,
+
+18:12.840 --> 18:16.840
+like you got the data and it is having an array of,
+
+18:16.840 --> 18:18.840
+let's say, array of objects available.
+
+18:18.840 --> 18:21.840
+Now, how would you approach this?
+
+18:21.840 --> 18:23.840
+Let's say you have an array of objects.
+
+18:23.840 --> 18:27.840
+Now this array of each object is having the whole information about the card.
+
+18:27.840 --> 18:29.840
+Now, how would you build here?
+
+18:29.840 --> 18:31.840
+What would be the next step?
+
+18:31.840 --> 18:34.840
+How would you render this into the HTML?
+
+18:34.840 --> 18:39.840
+What would you do it?
+
+18:39.840 --> 18:43.840
+Let's say you have got the wireframe and everything is ready for you.
+
+18:43.840 --> 18:47.840
+But how would you do it as a developer once you got the data?
+
+18:47.840 --> 18:49.840
+Store it in object and use it.
+
+18:49.840 --> 18:51.840
+How would you use it?
+
+18:51.840 --> 18:53.840
+How would you use it?
+
+18:53.840 --> 18:55.840
+What could be the exact steps?
+
+18:55.840 --> 18:57.840
+Let's say if I want to do it second step,
+
+18:57.840 --> 19:04.840
+what would I do once I got the data?
+
+19:04.840 --> 19:15.840
+Firstly, is it a static content or a dynamic content?
+
+19:15.840 --> 19:17.840
+It's a dynamic, right?
+
+19:17.840 --> 19:20.840
+It depends upon what product might come first or second.
+
+19:20.840 --> 19:22.840
+You don't know it, right?
+
+19:22.840 --> 19:26.840
+So as Dheera says, create element using JS and populate the data.
+
+19:26.840 --> 19:29.840
+Now, so firstly, once you got the object,
+
+19:29.840 --> 19:39.840
+for each object in this array, you will build a card element, isn't it?
+
+19:39.840 --> 19:44.840
+For each of this object, do you guys agree that in your JS code,
+
+19:44.840 --> 19:52.840
+you will write a function, function create card,
+
+19:52.840 --> 19:56.840
+where you pass on a product object information.
+
+19:56.840 --> 20:02.840
+Let's say this is a product object.
+
+20:02.840 --> 20:06.840
+Once you receive this, then you use create element,
+
+20:06.840 --> 20:10.840
+then devs, then for the image and everything, right?
+
+20:10.840 --> 20:14.840
+Once you got, once you build, let's say you call for each of the object,
+
+20:14.840 --> 20:19.840
+whatever project, product, object you got, out of that,
+
+20:19.840 --> 20:29.840
+you go and for each, or let's say since, let's say for each,
+
+20:29.840 --> 20:38.840
+you got and you call this create card.
+
+20:38.840 --> 20:42.840
+Okay, now let's say what you will do the next step.
+
+20:42.840 --> 20:43.840
+What could be the next step?
+
+20:43.840 --> 20:46.840
+Once you created this one, where would you append it?
+
+20:46.840 --> 20:49.840
+How would you append it?
+
+20:49.840 --> 20:53.840
+So you are supposed to get a container, right?
+
+20:53.840 --> 20:58.840
+Parent container where you can render all the cards.
+
+20:58.840 --> 21:01.840
+Do you guys agree?
+
+21:01.840 --> 21:04.840
+Right, you first, if the element is created,
+
+21:04.840 --> 21:06.840
+let's say you have built this element,
+
+21:06.840 --> 21:08.840
+you are supposed to get the parent container,
+
+21:08.840 --> 21:12.840
+this specific container, then render it one by one, right?
+
+21:12.840 --> 21:13.840
+Appending the child.
+
+21:13.840 --> 21:18.840
+Let's say you have one dev, you build one common dev,
+
+21:18.840 --> 21:27.840
+you have all added item one, item two, item three, right?
+
+21:27.840 --> 21:34.840
+And you take this dev, add it to a container, right?
+
+21:34.840 --> 21:36.840
+So this would be it, isn't it?
+
+21:36.840 --> 21:39.840
+So anything difficult here, guys?
+
+21:39.840 --> 21:41.840
+Anything difficult do you see?
+
+21:41.840 --> 21:44.840
+From first rendering part, I'm not going for event handling
+
+21:44.840 --> 21:47.840
+or clicking yet, right?
+
+21:47.840 --> 21:49.840
+This is something we already know.
+
+21:49.840 --> 21:50.840
+Is this topics covered?
+
+21:50.840 --> 21:52.840
+Like in order to build this interface,
+
+21:52.840 --> 21:57.840
+whatever we have discussed, is this topics all covered?
+
+21:57.840 --> 22:00.840
+Right, now just think of it this way.
+
+22:00.840 --> 22:04.840
+Like if I hover over it, the picture is going something like,
+
+22:04.840 --> 22:06.840
+you know, the size of picture is changing.
+
+22:06.840 --> 22:13.840
+What property you can leverage here out of CSS?
+
+22:13.840 --> 22:14.840
+On hover.
+
+22:14.840 --> 22:20.840
+So on hover, you are actually changing the like on mouse hover
+
+22:20.840 --> 22:23.840
+or on mouse hover is an event upendra,
+
+22:23.840 --> 22:27.840
+on hover is a pseudo selector, right?
+
+22:27.840 --> 22:32.840
+I hope I hope you know the difference between them like mouse over.
+
+22:32.840 --> 22:37.840
+OK, so you here if you see something says that transform scale reduce it.
+
+22:37.840 --> 22:40.840
+So you can use different ways of handling it.
+
+22:40.840 --> 22:42.840
+But I hope that is clear now.
+
+22:42.840 --> 22:48.840
+Also, here you have this, you know, love like a symbol where once you click it,
+
+22:48.840 --> 22:49.840
+you make it a favorite.
+
+22:49.840 --> 22:52.840
+But do you know how to handle this click?
+
+22:52.840 --> 22:55.840
+If I click something, would you do you know it?
+
+22:55.840 --> 22:56.840
+How to do it?
+
+22:56.840 --> 22:59.840
+Would you be able to handle it?
+
+22:59.840 --> 23:01.840
+Like this click?
+
+23:01.840 --> 23:04.840
+There may be maybe there are two images,
+
+23:04.840 --> 23:07.840
+but each product has its own ID, right?
+
+23:07.840 --> 23:11.840
+Now, if you might be knowing that which ID has been selected, right?
+
+23:11.840 --> 23:14.840
+And you can also handle this click, isn't it?
+
+23:14.840 --> 23:18.840
+So once you click it now, let's say this interface, what happened?
+
+23:18.840 --> 23:20.840
+So this click actually puts into the cart.
+
+23:20.840 --> 23:24.840
+Let's say let's say this card is a different use case.
+
+23:24.840 --> 23:30.840
+But here you get for each card when you create it, there is an ID.
+
+23:30.840 --> 23:37.840
+And once someone clicks this part on the image, you try to make it as a favorite.
+
+23:37.840 --> 23:40.840
+So it is a different storage or a different data structure, let's say.
+
+23:40.840 --> 23:41.840
+No.
+
+23:41.840 --> 23:46.840
+But once this is clear, now here you'll have something like an ad event listener.
+
+23:46.840 --> 23:49.840
+Click and you'll have a callback function with right down the logic.
+
+23:49.840 --> 23:53.840
+But again, if you see it here, once I'm clicking it, what I'm doing it here,
+
+23:53.840 --> 23:56.840
+have you seen this sort of use case anywhere?
+
+23:56.840 --> 24:02.840
+Like once something someone is clicking, a model is opening.
+
+24:02.840 --> 24:05.840
+Have you seen this use case?
+
+24:05.840 --> 24:06.840
+Right.
+
+24:06.840 --> 24:12.840
+Model pop up we have seen in Kanban board and we have seen like to do list in general.
+
+24:12.840 --> 24:16.840
+Right. So there you again, if you see it on the left side,
+
+24:16.840 --> 24:20.840
+we know how we can different, you know, make a different screen.
+
+24:20.840 --> 24:21.840
+Right.
+
+24:21.840 --> 24:23.840
+Z index or top of it.
+
+24:23.840 --> 24:27.840
+But this is how I want you to think.
+
+24:27.840 --> 24:34.840
+Like if you think right from this perspective, think like what we haven't covered, what we have covered.
+
+24:34.840 --> 24:40.840
+So but if you see, if I keep on asking this question, there will be an answer from your side.
+
+24:40.840 --> 24:45.840
+So this is what actual preparation or project building happens.
+
+24:45.840 --> 24:50.840
+Like you see any random website, which is in production already.
+
+24:50.840 --> 24:55.840
+You think of it like you should have if you have at least 20, 25 percent of idea,
+
+24:55.840 --> 25:02.840
+you will be able to figure it out and revise those concepts and, you know, syntaxes wouldn't take long.
+
+25:02.840 --> 25:04.840
+Do you guys agree with this point?
+
+25:04.840 --> 25:10.840
+That if you have the complete basics build, you will be able to achieve things.
+
+25:10.840 --> 25:18.840
+So one API call and then data can be used at the multiple places like in the car.
+
+25:18.840 --> 25:24.840
+OK, once I made an API call, I store it in a one data structure.
+
+25:24.840 --> 25:26.840
+Let's say it's an array itself.
+
+25:26.840 --> 25:30.840
+Then I can use that array information the anyway that I want.
+
+25:30.840 --> 25:34.840
+Right.
+
+25:34.840 --> 25:36.840
+So it's up to us as a developer.
+
+25:36.840 --> 25:41.840
+So just I'm thinking like what all the possible minimum bare minimum steps will be required.
+
+25:41.840 --> 25:47.840
+If you want to replicate this, it might take some time, but it's not that difficult.
+
+25:47.840 --> 25:51.840
+When I teach you react, you will do it within three to four hours.
+
+25:51.840 --> 25:53.840
+Not more than that.
+
+25:53.840 --> 25:55.840
+OK, it would be super easy.
+
+25:55.840 --> 25:59.840
+You guys you guys will see that why react makes things so easy.
+
+25:59.840 --> 26:06.840
+But the next thing next thing that I want to talk about is.
+
+26:06.840 --> 26:08.840
+Let's say.
+
+26:08.840 --> 26:18.840
+We have known like if you remember first class, we talked about something like how web works.
+
+26:18.840 --> 26:21.840
+Does anyone remembers how that works?
+
+26:21.840 --> 26:28.840
+We have actually discussed, I guess, two months back.
+
+26:28.840 --> 26:33.840
+Where we introduced like what is full stack?
+
+26:33.840 --> 26:36.840
+What is a client server architecture?
+
+26:36.840 --> 26:38.840
+What all things are involved on the client?
+
+26:38.840 --> 26:41.840
+What all things are involved on the server?
+
+26:41.840 --> 26:44.840
+I hope you have remembered this case.
+
+26:44.840 --> 26:46.840
+We are a store and example.
+
+26:46.840 --> 26:47.840
+We have picked it up.
+
+26:47.840 --> 26:49.840
+Muneshwara remembers it.
+
+26:49.840 --> 26:51.840
+Right.
+
+26:51.840 --> 26:57.840
+So if you remember that part, I've talked about a full full cycle scope.
+
+26:57.840 --> 27:04.840
+Like from starting point to the end point client to server whole ecosystem.
+
+27:04.840 --> 27:05.840
+Right.
+
+27:05.840 --> 27:08.840
+Client IP address browser back to client.
+
+27:08.840 --> 27:09.840
+Right.
+
+27:09.840 --> 27:10.840
+Everything TCP handshake.
+
+27:10.840 --> 27:11.840
+We have discussed of everything.
+
+27:11.840 --> 27:16.840
+Like how do you actually this server is, you know, this connection network is connected.
+
+27:16.840 --> 27:18.840
+How you can interact between two systems.
+
+27:18.840 --> 27:19.840
+Right.
+
+27:19.840 --> 27:20.840
+HTTP.
+
+27:20.840 --> 27:22.840
+We haven't seen them in practical yet.
+
+27:22.840 --> 27:23.840
+We'll see them in practical.
+
+27:23.840 --> 27:28.840
+Maybe once we complete react when we build two layers like client and server layer, we'll
+
+27:28.840 --> 27:30.840
+see them how they actually work.
+
+27:30.840 --> 27:31.840
+OK.
+
+27:31.840 --> 27:34.840
+Two things, two quotes running on a different server, how they communicate with each other.
+
+27:34.840 --> 27:35.840
+OK.
+
+27:35.840 --> 27:40.840
+But this was about talking about a cycle from a too big level.
+
+27:40.840 --> 27:46.840
+Now let's say let's let's focus on some small part.
+
+27:46.840 --> 27:47.840
+OK.
+
+27:47.840 --> 27:54.840
+Like how does rendering works?
+
+27:54.840 --> 28:05.840
+When I say rendering, what I exactly meant is that how your HTML, CSS and JS is actually,
+
+28:05.840 --> 28:10.840
+you know, go and see something that you build it, you know, that there is something you
+
+28:10.840 --> 28:14.840
+write HTML for scale 10 CSS for making it beautiful.
+
+28:14.840 --> 28:20.840
+JS for, you know, writing behavior of like handling behaviors on a web page.
+
+28:20.840 --> 28:22.840
+We know all this use cases.
+
+28:22.840 --> 28:25.840
+But how does rendering, what are the steps involved?
+
+28:25.840 --> 28:30.840
+Like once you want to render any page on the screen, so we'll figure it out that step by
+
+28:30.840 --> 28:31.840
+step.
+
+28:31.840 --> 28:32.840
+OK.
+
+28:32.840 --> 28:38.840
+As you remember, there is an server which always sends us some data.
+
+28:38.840 --> 28:39.840
+OK.
+
+28:39.840 --> 28:43.840
+So most of the times, let's say if there is a server, you know, there are two types of
+
+28:43.840 --> 28:45.840
+architecture which are CSR, SSR.
+
+28:45.840 --> 28:47.840
+I'll talk about that in future.
+
+28:47.840 --> 28:53.840
+But, you know, as we have a client, we have a server.
+
+28:53.840 --> 28:59.840
+So server used to send HTML files to the client.
+
+28:59.840 --> 29:00.840
+OK.
+
+29:00.840 --> 29:06.840
+But over the network, do you think actually HTML file is shared?
+
+29:07.840 --> 29:14.840
+Like, you know, over the network, over this network, do you think like HTML file is shared?
+
+29:14.840 --> 29:15.840
+Right.
+
+29:15.840 --> 29:21.840
+If HTML file is shared, but not in the exact form, but there's a different forms like have
+
+29:21.840 --> 29:30.840
+you do you know there's something called bytes, byte array data, like bytes of code is actually
+
+29:30.840 --> 29:32.840
+transferred over the network.
+
+29:32.840 --> 29:37.840
+So from here to here, first bytes of data is sent back.
+
+29:37.840 --> 29:39.840
+Now these bytes, right?
+
+29:39.840 --> 29:47.840
+These bytes at the client, when it receives it, it converts into back into characters.
+
+29:47.840 --> 29:53.840
+Now this process is actually called as decoding.
+
+29:53.840 --> 29:59.840
+So somebody encoded one format into other format and other person decoded the one format
+
+29:59.840 --> 30:00.840
+into other format.
+
+30:00.840 --> 30:04.840
+Now let's say there are different bytes of alphanumeric values.
+
+30:04.840 --> 30:10.840
+Now when I meant by characters, let's say this is a character, a body tag.
+
+30:13.840 --> 30:16.840
+Let's say in it, it has a depth tag.
+
+30:19.840 --> 30:20.840
+OK.
+
+30:20.840 --> 30:24.840
+Once you are byte array, you see bytes of information.
+
+30:24.840 --> 30:27.840
+First thing, it is converted into characters, these characters.
+
+30:28.840 --> 30:32.840
+When I said decoding, actually there is a bytes of array, right?
+
+30:32.840 --> 30:38.840
+Whenever you have used files, all the files are broke down into multiple pieces and sent
+
+30:38.840 --> 30:40.840
+over the network from server to client somewhere.
+
+30:40.840 --> 30:46.840
+And those bytes are actually recovered and form the structure the way we actually wanted
+
+30:46.840 --> 30:48.840
+to send this particular structure.
+
+30:49.840 --> 30:50.840
+Is this clear?
+
+30:51.840 --> 30:52.840
+OK.
+
+30:52.840 --> 30:58.840
+Now once we have the characters, once we have the characters, those are again converted
+
+30:58.840 --> 31:00.840
+into something called as tokens.
+
+31:00.840 --> 31:02.840
+Now what this might be?
+
+31:02.840 --> 31:04.840
+If you think like what is a token?
+
+31:04.840 --> 31:06.840
+Now each of this character, right?
+
+31:06.840 --> 31:09.840
+Each of this character are broke down into multiple parts.
+
+31:09.840 --> 31:12.840
+There might be a start tag.
+
+31:12.840 --> 31:15.840
+There might be a let's say content.
+
+31:15.840 --> 31:17.840
+There might be end tag.
+
+31:17.840 --> 31:21.840
+So each tag for each one, there will be different data.
+
+31:21.840 --> 31:26.840
+And for each tag, there will be different attributes added and different content added.
+
+31:26.840 --> 31:30.840
+So these are actually broken down into tokens first.
+
+31:30.840 --> 31:36.840
+Then then comes the main thing where each token, once these things are analyzed, they
+
+31:36.840 --> 31:38.840
+are converted into nodes.
+
+31:38.840 --> 31:41.840
+Now this node is converted into nodes.
+
+31:41.840 --> 31:42.840
+OK.
+
+31:42.840 --> 31:47.840
+This data structure, let's say now if you think about example of body tag, this node
+
+31:47.840 --> 31:53.840
+of body is actually created where in this tree, if you remember entry, we used to store
+
+31:53.840 --> 31:55.840
+only the value, right?
+
+31:55.840 --> 31:57.840
+And it's left and right pointer.
+
+31:57.840 --> 32:01.840
+But here you store a lot of information in the one node.
+
+32:01.840 --> 32:05.840
+So this node is actually converted into nodes.
+
+32:05.840 --> 32:06.840
+Right.
+
+32:06.840 --> 32:08.840
+And it's left and right pointer.
+
+32:08.840 --> 32:12.840
+But here you store a lot of information in the one node.
+
+32:12.840 --> 32:17.840
+Start tag, end tag, content, attributes, all the information is stored in the node.
+
+32:17.840 --> 32:18.840
+Right.
+
+32:18.840 --> 32:33.840
+Earlier, if you remember, you had something like node, node left, node right, and interval.
+
+32:33.840 --> 32:38.840
+This was one of the like how you construct a class used to look like, isn't it?
+
+32:38.840 --> 32:42.840
+Now, this is how nodes are actually separately formed.
+
+32:42.840 --> 32:50.840
+Now, once these nodes are ready, right, then comes your actually of completion of tree.
+
+32:50.840 --> 33:01.840
+And this tree is called as a drum tree, which is like document object model.
+
+33:01.840 --> 33:04.840
+So this is actually happens behind the scenes.
+
+33:04.840 --> 33:06.840
+First, you receive the bytes.
+
+33:06.840 --> 33:08.840
+Let's say you receive the bytes.
+
+33:08.840 --> 33:10.840
+Then you convert into the characters.
+
+33:10.840 --> 33:11.840
+I mean, you decode it.
+
+33:11.840 --> 33:13.840
+Then you convert into tags.
+
+33:13.840 --> 33:15.840
+Then you get into the builder nodes.
+
+33:15.840 --> 33:17.840
+Then dom tree is created.
+
+33:17.840 --> 33:24.840
+So now is it clear like how actually for over the network, your bytes array is converted
+
+33:24.840 --> 33:27.840
+into something called as dom tree.
+
+33:27.840 --> 33:29.840
+Now, these same steps.
+
+33:29.840 --> 33:37.840
+Now, you know, if you remember in HTML, in HTML, when we create an HTML, we used to add
+
+33:37.840 --> 33:41.840
+somewhere, you know, CSS properties, isn't it?
+
+33:41.840 --> 33:46.840
+Style sheet or style is something used to add it.
+
+33:46.840 --> 33:52.840
+Now, if you think that way, how this use case is handled, how the style sheets are handled.
+
+33:52.840 --> 34:05.840
+Now, as I've told you earlier, the CSS, JS, all and HTML all are blocking the rendering
+
+34:05.840 --> 34:10.840
+process.
+
+34:10.840 --> 34:15.840
+They are in that nature, by the way, but if we have an optimization to handle each thing
+
+34:15.840 --> 34:21.840
+now, as soon as you mention a particular style sheet, right in a HTML, they are also fetched
+
+34:21.840 --> 34:32.840
+from the server or your file path.
+
+34:32.840 --> 34:38.840
+When I say file path, let's say you have a CSS separately in a different file other than
+
+34:38.840 --> 34:39.840
+your code.
+
+34:39.840 --> 34:45.840
+So it fetches a start and it goes through again all this process, right?
+
+34:45.840 --> 34:50.840
+All the same process that we have just now discussed by its characters, tokens, nodes.
+
+34:50.840 --> 34:57.840
+And then it builds something called as syshorm tree.
+
+34:57.840 --> 34:59.840
+Okay.
+
+34:59.840 --> 35:02.840
+So there are generally two types of trees created.
+
+35:02.840 --> 35:06.840
+One is DOM tree.
+
+35:06.840 --> 35:09.840
+Then there is something of syshorm tree.
+
+35:09.840 --> 35:12.840
+This refers for HTML.
+
+35:12.840 --> 35:16.840
+This refers for CSS.
+
+35:16.840 --> 35:21.840
+Is this clear, guys?
+
+35:21.840 --> 35:22.840
+Okay.
+
+35:22.840 --> 35:25.840
+Now, yeah, I'll talk about that, Upendra.
+
+35:25.840 --> 35:26.840
+I'll talk about that.
+
+35:26.840 --> 35:28.840
+But I hope this part is clear.
+
+35:28.840 --> 35:33.840
+Now, these two things are actually separate now.
+
+35:33.840 --> 35:40.840
+Next step, actually what's the next step happens is you try to combine this together, combine
+
+35:40.840 --> 35:46.840
+this together to form the actual output, which is called as the render tree.
+
+35:46.840 --> 35:51.840
+Now, this tree is actual final tree, which is actually rendered in the browser.
+
+35:51.840 --> 35:56.840
+So what they do is like, hey, we got the nodes, we got the which style to be applied for the
+
+35:56.840 --> 35:59.840
+which particular node, and they mix all together.
+
+35:59.840 --> 36:07.840
+I mean, here is where, you know, kind of merge sort or the complicated, more complicated
+
+36:07.840 --> 36:12.840
+algorithms over the trees are applied because these trees are N array trees.
+
+36:12.840 --> 36:17.840
+You might have N siblings or, you know, N children inside one node.
+
+36:17.840 --> 36:22.840
+So you might be knowing those if you know those algorithms since something that you've
+
+36:22.840 --> 36:27.840
+been asked in interviews are binary trees or BSTs, not more difficult than that.
+
+36:27.840 --> 36:32.840
+But if you go for N array, when I say N array, each parent can have N children.
+
+36:32.840 --> 36:33.840
+Right.
+
+36:33.840 --> 36:39.840
+So then comes a use case where you have a different algorithms to actually build this
+
+36:39.840 --> 36:42.840
+something called as render tree.
+
+36:42.840 --> 36:44.840
+Trice is on a different data structure.
+
+36:44.840 --> 36:51.840
+This is actually where you're trying to merge two trees to bring out one output tree.
+
+36:51.840 --> 36:55.840
+Trice is different.
+
+36:55.840 --> 37:00.840
+You can think of thinking that way, but it's different altogether.
+
+37:00.840 --> 37:03.840
+N array tree is different, trice are different.
+
+37:03.840 --> 37:05.840
+OK.
+
+37:05.840 --> 37:11.840
+So, guys, now if you think this once render tree is done, not by default.
+
+37:11.840 --> 37:20.840
+Can this render tree magically show in the display?
+
+37:20.840 --> 37:23.840
+Yeah.
+
+37:23.840 --> 37:25.840
+OK.
+
+37:25.840 --> 37:28.840
+Gesture trees with more than nodes.
+
+37:28.840 --> 37:30.840
+No, I was talking about N array.
+
+37:30.840 --> 37:33.840
+You might have been on N array trees.
+
+37:33.840 --> 37:35.840
+We'll see this sometime later.
+
+37:35.840 --> 37:37.840
+But let's focus on this.
+
+37:37.840 --> 37:39.840
+So I hope this point is clear.
+
+37:39.840 --> 37:41.840
+First your DOM is constructed.
+
+37:41.840 --> 37:43.840
+Then your CSOM is constructed.
+
+37:43.840 --> 37:47.840
+Then then comes a render tree.
+
+37:47.840 --> 37:53.840
+Now, once your render tree is ready, you actually your website goes through its own
+
+37:53.840 --> 37:57.840
+level of algorithms which design layout for you.
+
+37:57.840 --> 38:03.840
+So this layout is calculated in such a way that on this, let's say if you remember,
+
+38:03.840 --> 38:08.840
+on the DOM till render tree, the tree is decided.
+
+38:08.840 --> 38:10.840
+The pixel sizes all are decided.
+
+38:10.840 --> 38:16.840
+But layout, media, I mean the screen size or the media device screen size.
+
+38:16.840 --> 38:21.840
+According to that, everything is not yet, nodes are not yet distributed on screen.
+
+38:21.840 --> 38:26.840
+So then actually when layout is actually building right, it takes up the steps like
+
+38:26.840 --> 38:31.840
+OK, my screen sizes, let's say 120 pixel or height and width.
+
+38:31.840 --> 38:38.840
+Then according to the height and width, it tries to build this layout using this particular tree.
+
+38:38.840 --> 38:44.840
+This is clear layout goes through multiple steps that are not actually that really important.
+
+38:44.840 --> 38:52.840
+OK, once your layouts are ready, it goes to something called as paint.
+
+38:52.840 --> 38:57.840
+Now, this paint is a most important metric.
+
+38:57.840 --> 39:06.840
+OK, where, you know, your performances of your websites are, you know, tested upon something like
+
+39:06.840 --> 39:13.840
+large content, full paint, like how long it took a website to completely pass this one
+
+39:13.840 --> 39:20.840
+and do the process and paint the largest content, full paint, like the most amount of the website.
+
+39:20.840 --> 39:24.840
+How much it took the time that is like loading the screen.
+
+39:24.840 --> 39:28.840
+OK, so this is all this all part.
+
+39:28.840 --> 39:38.840
+Whatever we have just seen, all the steps is called as something called as critical rendering path.
+
+39:38.840 --> 39:42.840
+So would you guys would be able to explain what is critical rendering path in future?
+
+39:42.840 --> 39:45.840
+If someone asked you.
+
+39:45.840 --> 39:48.840
+OK, I hope you will be able to explain.
+
+39:48.840 --> 39:51.840
+Now, along this critical rendering pathway, there are a few things.
+
+39:51.840 --> 39:57.840
+If you remember, JS JavaScript files also used to add in HTML, isn't it?
+
+39:57.840 --> 40:02.840
+Now, those JavaScript files where sometimes the code can be huge in size.
+
+40:02.840 --> 40:10.840
+Right. In order to handle that code, how parsing execution happens, we have learned two things like
+
+40:10.840 --> 40:13.840
+Async and Differ.
+
+40:13.840 --> 40:17.840
+Isn't it like in order to do it parallel processing.
+
+40:17.840 --> 40:20.840
+And once your downloading is done, you can execute.
+
+40:20.840 --> 40:23.840
+But this is like doesn't block anything.
+
+40:23.840 --> 40:25.840
+It lets HTML process completely.
+
+40:25.840 --> 40:27.840
+Then it downloads the JS.
+
+40:27.840 --> 40:29.840
+I mean, it downloads the JS parallely.
+
+40:29.840 --> 40:32.840
+And once HTML is done, then pass the JS code.
+
+40:32.840 --> 40:36.840
+I hope this thing again, you can go back and revise this.
+
+40:36.840 --> 40:38.840
+What is Async versus Differ?
+
+40:38.840 --> 40:40.840
+When to use which one on the JS scripts?
+
+40:40.840 --> 40:46.840
+Whenever you introduce scripts in HTML, when to use each word, you have to be thorough with that.
+
+40:46.840 --> 40:52.840
+OK, I hope now you are able to think, understand better from a front end developer.
+
+40:52.840 --> 40:55.840
+But we'll see them like what it actually takes.
+
+40:55.840 --> 41:00.840
+Let's go back to the Queen's website once.
+
+41:00.840 --> 41:02.840
+Let's use this one.
+
+41:02.840 --> 41:13.840
+Let's figure out what it takes.
+
+41:13.840 --> 41:23.840
+Give me a second, guys.
+
+41:23.840 --> 41:34.840
+OK, my browser is hanging a bit.
+
+41:34.840 --> 41:41.840
+OK, anyways, now if you see this here.
+
+41:41.840 --> 41:44.840
+If we go for performance, right?
+
+41:44.840 --> 41:46.840
+What are the metrics that are compared?
+
+41:46.840 --> 41:47.840
+Let's see this out.
+
+41:47.840 --> 41:51.840
+OK, let's see this out.
+
+41:51.840 --> 42:00.840
+If I hit record it, once I click record, and then I try to refresh this page.
+
+42:00.840 --> 42:04.840
+OK, once I refresh it, it is actually loading it now.
+
+42:04.840 --> 42:06.840
+And a parallel API calls will be done.
+
+42:06.840 --> 42:20.840
+And once this reloading stops, I'll try to stop the profiling here.
+
+42:20.840 --> 42:32.840
+Let's stop this and let's figure it out.
+
+42:32.840 --> 42:43.840
+Guys, do you feel my system is hanging too?
+
+42:43.840 --> 42:48.840
+Does it feel like the system is hanging?
+
+42:48.840 --> 42:57.840
+I'm not sure.
+
+42:57.840 --> 42:58.840
+Just a second.
+
+42:58.840 --> 43:06.840
+I might, you know, it got heated up.
+
+43:06.840 --> 43:09.840
+Voice is also breaking.
+
+43:09.840 --> 43:13.840
+OK, sorry.
+
+43:13.840 --> 43:15.840
+OK, I'll join back in a minute, guys.
+
+44:13.840 --> 44:23.840
+Guys, rechecking.
+
+44:23.840 --> 44:25.840
+Do you feel my voice is still breaking?
+
+44:25.840 --> 44:30.840
+If it is, do let me know.
+
+44:30.840 --> 44:35.840
+It's fine, right?
+
+44:35.840 --> 44:40.840
+I didn't restart my machine for a good time, so maybe that's an issue.
+
+44:40.840 --> 44:43.840
+Anyways, so I hope my screen share is also working fine.
+
+44:43.840 --> 44:46.840
+You can see the screen share.
+
+44:46.840 --> 44:50.840
+OK, let's say I tried to load the quiz again.
+
+44:50.840 --> 44:53.840
+Let's go to the URL.
+
+44:53.840 --> 44:58.840
+$59 cash made.
+
+44:58.840 --> 45:05.840
+Once you open the performance, let's clean up this console, go to the performance.
+
+45:05.840 --> 45:06.840
+I tried to hit it.
+
+45:06.840 --> 45:08.840
+Now the profiling has started.
+
+45:08.840 --> 45:11.840
+What I'll do is like I'll refresh it.
+
+45:11.840 --> 45:15.840
+OK, now once I refresh the, you know, the loader got stopped here.
+
+45:15.840 --> 45:20.840
+But now let's see what actually it does.
+
+45:20.840 --> 45:21.840
+It is loading.
+
+45:21.840 --> 45:24.840
+It will take some time.
+
+45:24.840 --> 45:28.840
+Now, if you see it here, if you see this data, what just happened here?
+
+45:28.840 --> 45:39.840
+If you see, so each place, right, each place, it will talk about multiple things like.
+
+45:39.840 --> 45:40.840
+It will talk about different things.
+
+45:40.840 --> 45:45.840
+Firstly, like how much time each step took.
+
+45:45.840 --> 45:48.840
+You'll be able to see like everything step by step.
+
+45:48.840 --> 45:55.840
+How much time each JS code behind the scenes it took to calculate like how many query selectors you have.
+
+45:55.840 --> 46:01.840
+You can check each one one by one and there will be also given a percentages which one is actually taking much more time.
+
+46:01.840 --> 46:05.840
+If you see this particular function is taking much more time.
+
+46:05.840 --> 46:09.840
+But the summary part will give you more important, better things.
+
+46:09.840 --> 46:14.840
+If you see it here, firstly, it took loading is some amount of time.
+
+46:14.840 --> 46:22.840
+But if you see that yellow part, which took actually two seconds to download and load it, the scripting part is actually JavaScript code.
+
+46:22.840 --> 46:26.840
+We took more good amount of time to download it.
+
+46:26.840 --> 46:30.840
+That's the reason why we use something like words like async away.
+
+46:30.840 --> 46:34.840
+Sorry, I mean, async differ on the script when to do it, how to do it.
+
+46:34.840 --> 46:43.840
+OK, and you see this rendering part and painting rendering is where you actually build a render tree and then layout happens.
+
+46:44.840 --> 46:51.840
+Then once that system then if you this is idle time because I also kept that profiling continue.
+
+46:51.840 --> 46:55.840
+So it showed me that how much time I was idle actually.
+
+46:55.840 --> 46:57.840
+OK, I hope this is clear.
+
+46:57.840 --> 47:00.840
+You guys go and explore each part.
+
+47:00.840 --> 47:03.840
+OK, explore each part step by step.
+
+47:03.840 --> 47:12.840
+You know, if you go and explore right, you'll get to see the different use cases like how many what is a heap size.
+
+47:12.840 --> 47:16.840
+If you see here, heap sizes of 45 MB and 79 MB.
+
+47:16.840 --> 47:23.840
+So for each of the website, you can go into minor, minor things and you will be able to explore.
+
+47:23.840 --> 47:26.840
+Like you can see the memory like there are too many things, guys.
+
+47:26.840 --> 47:30.840
+So these are the actual, you know, timing.
+
+47:30.840 --> 47:37.840
+If I say first content paint, you know, if you go and explore this right, first content paint, how long it took.
+
+47:37.840 --> 47:39.840
+OK, how long it took.
+
+47:39.840 --> 47:40.840
+You can explore again.
+
+47:40.840 --> 47:46.840
+If you see this, if I go to learn more, you will be actually redirected to the site that I gave you in the watch.
+
+47:46.840 --> 47:50.840
+Like it is actually from web dev, which is actually Google built it.
+
+47:50.840 --> 47:55.840
+How long each content page takes and how can you optimize it?
+
+47:55.840 --> 47:59.840
+OK, now the second thing is like the largest containment.
+
+47:59.840 --> 48:02.840
+So this is a parameter which is more important.
+
+48:02.840 --> 48:05.840
+OK, more and more important.
+
+48:05.840 --> 48:15.840
+So this thing, someone, if someone in the future, right, who becomes a senior web developer and who actually are working on performance optimization, they'll see that.
+
+48:15.840 --> 48:22.840
+How can I make sure that, you know, large paint, large file, large first part of good amount of page is rendered at one shot.
+
+48:22.840 --> 48:25.840
+It's in a less amount of time.
+
+48:25.840 --> 48:34.840
+OK, whatever I have explained you over the iPad, it's like it's like a 30 feet high from the ground.
+
+48:34.840 --> 48:36.840
+Like I've given you on a broader level.
+
+48:36.840 --> 48:37.840
+What are the steps happen?
+
+48:37.840 --> 48:46.840
+But if you want to go in depth, right in depth of like it's like a case study, you pick it up any website, you try to load it in your browser.
+
+48:46.840 --> 48:50.840
+You'll be able to see the case studies like actually how long it is taking.
+
+48:50.840 --> 48:52.840
+What is the time now?
+
+48:52.840 --> 48:55.840
+How that each of the events is calculated?
+
+48:55.840 --> 49:03.840
+OK, I hope whenever you have time, whenever you are idle may not be today, maybe in future or any time.
+
+49:03.840 --> 49:05.840
+Explore this, go step by step.
+
+49:05.840 --> 49:07.840
+You'll be able to see all the things happening.
+
+49:07.840 --> 49:11.840
+How much CPU is consumption where how JS is downloaded.
+
+49:11.840 --> 49:13.840
+OK, you'll be able to see the network tabs.
+
+49:13.840 --> 49:17.840
+If you see this, they're trying to get the product information.
+
+49:17.840 --> 49:22.840
+All the you know, seeing get get a pretty product, get website information.
+
+49:22.840 --> 49:30.840
+All the parallel calls that you'll be able to see all the frames that are actually being built, you know, each animation.
+
+49:30.840 --> 49:41.840
+OK, the frames thing is also important because you might be seeing the GPUs working behind the scenes, which is rendering the 60 frame rate or depending on your screen frame rate, how actually things have been built.
+
+49:41.840 --> 49:44.840
+But those are really, really in depth.
+
+49:44.840 --> 49:49.840
+You might not be needed to do that amount of data, but it's good to know.
+
+49:49.840 --> 49:53.840
+It's good to know like what is actually behind the scenes happening.
+
+49:53.840 --> 49:56.840
+OK, hope this is quite interesting for you guys.
+
+49:57.840 --> 50:01.840
+Hope you will try to explore this offline and do it for your favorite website.
+
+50:01.840 --> 50:02.840
+Figure it out.
+
+50:02.840 --> 50:05.840
+OK, so I'll talk from the developers point of view more.
+
+50:05.840 --> 50:09.840
+Now, what does developers generally play around with this?
+
+50:09.840 --> 50:10.840
+Is that something layout?
+
+50:10.840 --> 50:12.840
+Let's say if I show you layout.
+
+50:12.840 --> 50:14.840
+Now, what happens if I show the layout?
+
+50:14.840 --> 50:17.840
+OK, let's say I click this.
+
+50:17.840 --> 50:20.840
+Now, if you see, I select this boxes.
+
+50:20.840 --> 50:26.840
+You will be able to see all the different layouts are actually designed, how this particular website is designed.
+
+50:26.840 --> 50:36.840
+You see each product, each product is having a 3 mm of like if you see this is a first product, second product, third product and fourth product.
+
+50:36.840 --> 50:44.840
+And the size, if you see all things are the heights are in REM and the width are consistent, like 165 pixel.
+
+50:45.840 --> 50:49.840
+OK, you will be highlighted and you will be able to learn.
+
+50:49.840 --> 50:51.840
+OK, what if I remove the grid?
+
+50:51.840 --> 50:56.840
+Now, actual game is actually this website is built using the grid layout, right?
+
+50:56.840 --> 50:58.840
+They might have done like, hey, can you repeat it?
+
+50:58.840 --> 51:01.840
+Auto fit your the pixels.
+
+51:01.840 --> 51:07.840
+I mean, auto fit the image with taking this grid template rows and grid template areas.
+
+51:07.840 --> 51:09.840
+I mean, columns, right?
+
+51:09.840 --> 51:14.840
+Whatever one effort or whatever which you keep min max of the function.
+
+51:14.840 --> 51:18.840
+OK, even you can do something like you can have the search box.
+
+51:18.840 --> 51:24.840
+If you see the search box, this particular search box, you'll be able to see the padding, a light green color padding.
+
+51:24.840 --> 51:31.840
+OK, one thing you can do is like, let's say if you want to go the grid and explore it, you click this, you will be actually diverted to this grid.
+
+51:31.840 --> 51:36.840
+And you go to the styles of this grid, you will be able to see it like grid template columns.
+
+51:36.840 --> 51:38.840
+They have used to repeat.
+
+51:38.840 --> 51:43.840
+They need a four products with this each column height of twenty twenty nine.
+
+51:43.840 --> 51:52.840
+So the way you consume more data, the way you consume more is going through the going through the actual research of the products.
+
+51:52.840 --> 52:02.840
+Whatever products you see in the world, if you want to be really great front end developer, try to go and read your existing websites which are available.
+
+52:02.840 --> 52:08.840
+And they are going to teach you hell of a knowledge than what you will apply through building it.
+
+52:08.840 --> 52:13.840
+OK, because there's somewhere around you might not be getting a chance to build everything.
+
+52:13.840 --> 52:21.840
+Right. I mean, I got one chance when I was in a United Health Group that I have to build a voice recorder.
+
+52:21.840 --> 52:28.840
+Let's say what used to happen is like I was to work in a project where pharmacists were there now before.
+
+52:28.840 --> 52:35.840
+So in insurance companies in developed countries like US for even claiming the medicines, you have a prescription.
+
+52:35.840 --> 52:42.840
+And once you provide a prescription, you have an ability to claim those prescription also under insurance.
+
+52:42.840 --> 52:48.840
+Now, whenever they do it, so sometimes what people does it, they come in live to the pharmacist and pick it up.
+
+52:48.840 --> 52:52.840
+But sometimes they call it now in order to show the proof of call.
+
+52:52.840 --> 52:59.840
+What they used to do is they used to do the recording of that call and upload it in our like, you know, our tool.
+
+52:59.840 --> 53:08.840
+Now that tool, we actually have built a component where you can actually hear out what the other person is seeing, maybe storing that information again.
+
+53:08.840 --> 53:14.840
+It would be really interesting to know like how audio is stored, how audio is transferred over the network, how do you render it.
+
+53:15.840 --> 53:25.840
+OK, but I got one one such experience by the way, but I might not get all such experiences to good experiences to build or no one would provide me the time.
+
+53:25.840 --> 53:32.840
+So whenever these sort of use cases happen, you go and try to explore each and everything.
+
+53:32.840 --> 53:40.840
+OK, I hope this actually opens more case studies, more knowledge.
+
+53:40.840 --> 53:48.840
+So one more important thing is, guys, one more image optimization is very much important, very much important.
+
+53:48.840 --> 53:51.840
+We'll talk about that step by step again.
+
+53:51.840 --> 53:56.840
+Now, one more most important parameter that is just upon is like accessibility.
+
+53:56.840 --> 54:04.840
+Now, when I say accessibility, it is more about like how I make it my system more readable.
+
+54:04.840 --> 54:08.840
+OK, like it like if you if you see this.
+
+54:11.840 --> 54:17.840
+Actually, like if I make it in a real only mode, it will be start speaking about each and everything.
+
+54:17.840 --> 54:28.840
+You know, if you want to see that accessibility tree completely here in terms of what I have to reload it, maybe you can check that offline.
+
+54:28.840 --> 54:34.840
+But there are other things, you know, there is a one common standard that I've shown you already.
+
+54:34.840 --> 54:42.840
+It's called as lighthouse testing, which actually checks your performance, accessibility and best practices, all the things together.
+
+54:42.840 --> 54:47.840
+OK, let's say if I try to analyze for this website, which is already in production.
+
+54:47.840 --> 54:56.840
+So each person write whatever the products build, getting a production access is some people like try to, you know, wait for that day when I'll get a production access,
+
+54:57.840 --> 54:59.840
+I'll be able to see my code working.
+
+54:59.840 --> 55:03.840
+But I feel like I never had that curiosity either.
+
+55:03.840 --> 55:05.840
+Like every every website is available.
+
+55:05.840 --> 55:10.840
+I can go anywhere and I can, you know, do it in the browser itself directly.
+
+55:10.840 --> 55:17.840
+OK, so you just go pick your favorite website, test it, what they're doing, how they can optimize better.
+
+55:17.840 --> 55:19.840
+What are the nuances?
+
+55:19.840 --> 55:23.840
+Let's say you go and do something like Google website issues.
+
+55:23.840 --> 55:24.840
+You figure it out.
+
+55:24.840 --> 55:28.840
+You try to write down to those managers have figured out this thing.
+
+55:28.840 --> 55:30.840
+This can be optimized.
+
+55:30.840 --> 55:36.840
+So that way, it really helps to build your knowledge, to make it better.
+
+55:36.840 --> 55:41.840
+But this is actually when you grow as a senior devs, like on the path.
+
+55:41.840 --> 55:45.840
+This is post what you can build interfaces coding.
+
+55:45.840 --> 55:55.840
+This comes from the optimization parts like if you want to optimize images, content, first content paint, like how do you break a multiple pages?
+
+55:55.840 --> 55:56.840
+Right.
+
+55:56.840 --> 55:59.840
+One big page into multiple pages, small pages and chunks.
+
+55:59.840 --> 56:01.840
+And how do you render it?
+
+56:01.840 --> 56:02.840
+OK.
+
+56:02.840 --> 56:06.840
+Now, if you see, we got 86 as a performance parameter.
+
+56:06.840 --> 56:12.840
+Now, if you see in the performance parameter, which is a step took big amount of time.
+
+56:12.840 --> 56:16.840
+If you see large content full paint, it took two point one second.
+
+56:16.840 --> 56:17.840
+OK.
+
+56:17.840 --> 56:32.840
+So this it gives you actual, you know, like if you see this is a heap map in this heap map, you will be able to see all the content like what it took, what it did behind the scenes.
+
+56:32.840 --> 56:33.840
+Everything.
+
+56:33.840 --> 56:34.840
+OK.
+
+56:34.840 --> 56:38.840
+Connecting with Facebook, connecting with Cloud front Chrome extensions.
+
+56:38.840 --> 56:39.840
+OK.
+
+56:39.840 --> 56:44.840
+You know, Webpack, React DevTools, it shows about my machine.
+
+56:44.840 --> 56:46.840
+What are the things I have in my DevTools?
+
+56:46.840 --> 56:48.840
+But there are too many things happening.
+
+56:48.840 --> 56:54.840
+You will be all be able to see that step by step like each thing.
+
+56:54.840 --> 56:55.840
+OK.
+
+56:55.840 --> 56:56.840
+This is super.
+
+56:56.840 --> 56:58.840
+I mean, super duper interesting, guys.
+
+56:58.840 --> 57:00.840
+Like if you go and explore this one, right?
+
+57:01.840 --> 57:15.840
+As an engineer, I don't understand completely 100 percent because this is not something my manager rates me out like doesn't doesn't really show it in, you know, result output.
+
+57:15.840 --> 57:26.840
+But as an engineer, it's really good to know internals of it inside depth of it, like trying to figure out how things works completely to the bottom level.
+
+57:26.840 --> 57:27.840
+OK.
+
+57:27.840 --> 57:29.840
+Now you'll be able to see one by one step.
+
+57:29.840 --> 57:32.840
+You can explore it, right?
+
+57:32.840 --> 57:36.840
+Figure out if you see the use script is there now.
+
+57:36.840 --> 57:41.840
+I mean, someone from the Queens may be able to identify things better because he notes what are the things.
+
+57:41.840 --> 57:44.840
+These are actually things are running behind the scenes.
+
+57:44.840 --> 57:45.840
+OK.
+
+57:49.840 --> 57:55.840
+But this is something website like if it also gives the result like how can you do it better?
+
+57:55.840 --> 57:56.840
+What do you have to optimize it?
+
+58:01.840 --> 58:07.840
+So, guys, this is what I wanted to talk on like a rendering part like how can you actually render it?
+
+58:07.840 --> 58:08.840
+How can you work on it?
+
+58:08.840 --> 58:09.840
+Right.
+
+58:09.840 --> 58:13.840
+There's one more big thing around is with memory.
+
+58:13.840 --> 58:19.840
+This thing actually leveraged memory fixing, you know, memory issues.
+
+58:19.840 --> 58:25.840
+Like if you say that, let's say if I start this profiling and I click it.
+
+58:30.840 --> 58:36.840
+You know, I'll get so what you used to do is like all the objects in the like, you know, in a browser.
+
+58:36.840 --> 58:42.840
+I used to see that which is the biggest object that is taking the whole consuming the size of it.
+
+58:42.840 --> 58:46.840
+You see, the compiled code is about 48 percent retained.
+
+58:46.840 --> 58:48.840
+Retained code is 51 percent.
+
+58:48.840 --> 58:54.840
+So maybe you can explore this part of code, which is actually consuming more amount of more amount of data.
+
+58:54.840 --> 59:02.840
+So fixing memory issues is one of the I mean, it helps you to the root, right?
+
+59:02.840 --> 59:04.840
+To figure out everything from a base level.
+
+59:04.840 --> 59:12.840
+But I feel like really thankful for the someone who built Chrome as this is like a more of a developer tool.
+
+59:12.840 --> 59:22.840
+Like as a front end developers, like which brings good amount of features for you to leverage, explore and play around with this.
+
+59:22.840 --> 59:31.840
+OK, so explore this case, explore everything that you see in the, you know, I mean tools, whatever you have it.
+
+59:31.840 --> 59:35.840
+I'll keep explaining the things that I know from my side.
+
+59:35.840 --> 59:36.840
+I'll keep on adding things.
+
+59:36.840 --> 59:41.840
+OK, but I hope you liked it.
+
+59:41.840 --> 59:52.840
+OK, I could have ended with that theory content, but I just wanted to show like picking up one website, what it takes, how can you play around and what what all things are there.
+
+59:52.840 --> 59:57.840
+OK.
+
+59:57.840 --> 01:00:08.840
+So if this part is clear, we have one more small part of thing that I have to cover, which is maps and sets, right?
+
+01:00:08.840 --> 01:00:17.840
+So these are like, you know, without this also, we can survive it because these are like actual problem solving use cases itself.
+
+01:00:17.840 --> 01:00:25.840
+I agree that you might need it in some cases, but till now we didn't had those complication issues where you have to pick it up.
+
+01:00:25.840 --> 01:00:28.840
+OK, let me open my VS code.
+
+01:00:28.840 --> 01:00:34.840
+I will pick it up maps and set.
+
+01:00:34.840 --> 01:00:42.840
+Let's say I have it here.
+
+01:00:42.840 --> 01:00:45.840
+New folder.
+
+01:00:45.840 --> 01:00:48.840
+Set class 30.
+
+01:00:48.840 --> 01:00:55.840
+Inside this class 30, let's say I open one script.js.
+
+01:00:55.840 --> 01:01:00.840
+Now, let's discuss about firstly about map guys.
+
+01:01:00.840 --> 01:01:02.840
+Now, what do you think map is?
+
+01:01:02.840 --> 01:01:09.840
+Because you have completed already data structures and algorithms and you have solved a number of problems till now.
+
+01:01:09.840 --> 01:01:21.840
+So what do you think like a map data structures?
+
+01:01:21.840 --> 01:01:24.840
+Anyone?
+
+01:01:24.840 --> 01:01:25.840
+Key and value pairs, right?
+
+01:01:25.840 --> 01:01:30.840
+It's like a.
+
+01:01:30.840 --> 01:01:33.840
+Key value pair.
+
+01:01:33.840 --> 01:01:36.840
+In memory storage.
+
+01:01:36.840 --> 01:01:39.840
+In memory storage, I can say this, right?
+
+01:01:39.840 --> 01:01:47.840
+And this is actually by hash tables, hash tables, the data itself, which is leveraged behind the scenes from Java point of view.
+
+01:01:47.840 --> 01:01:50.840
+But from JS point of view, I'll check on that.
+
+01:01:50.840 --> 01:01:53.840
+But this is like a natively build this way.
+
+01:01:53.840 --> 01:02:01.840
+OK, so the syntax of creating, you know, any objects or any data structure that you see in array.
+
+01:02:01.840 --> 01:02:05.840
+One of the way that you can always create is using using constructor functions.
+
+01:02:05.840 --> 01:02:09.840
+Now, how do you create a object using constructor functions, guys?
+
+01:02:09.840 --> 01:02:15.840
+Let's say if I want to create an array or even if I want to create anything, how would I create it?
+
+01:02:15.840 --> 01:02:18.840
+You remember constructor function, guys, firstly.
+
+01:02:18.840 --> 01:02:25.840
+Remember, we've taken car example and we have seen, like, how do you create a new car out of one car function?
+
+01:02:25.840 --> 01:02:29.840
+Multiple cars, like we picked up a data factory example, right?
+
+01:02:29.840 --> 01:02:37.840
+In the same way for maps also, let's say if you want to store fruits information, let's say if you want to show fruits information.
+
+01:02:37.840 --> 01:02:42.840
+The way to call this is like using this constructor function.
+
+01:02:42.840 --> 01:02:47.840
+So you invoke a constructor function and keep it this way.
+
+01:02:47.840 --> 01:02:56.840
+OK, so if you want to add information, like you have always you have four operations that are happening on anything, right?
+
+01:02:56.840 --> 01:02:59.840
+Crude operations. Let's figure out step one by one.
+
+01:02:59.840 --> 01:03:04.840
+If I want to add any information to the fruits, I go by add.
+
+01:03:04.840 --> 01:03:10.840
+Sorry, I pick I select set that inside this set, I have to provide key and value pair.
+
+01:03:10.840 --> 01:03:18.840
+OK, now inside this, let's say if I'm keeping a table of fruit and the value is a price of item.
+
+01:03:18.840 --> 01:03:21.840
+Now, let's say I have different fruits.
+
+01:03:21.840 --> 01:03:26.840
+Now, let's say you have a mango season coming up or it's a mango season by default.
+
+01:03:26.840 --> 01:03:33.840
+Let's say the current price since we haven't entered into the exam season, let's say they quoted 160 per kg.
+
+01:03:33.840 --> 01:03:37.840
+OK, then let's say you have Goa.
+
+01:03:37.840 --> 01:03:39.840
+You know, in my childhood, right?
+
+01:03:39.840 --> 01:03:43.840
+In our childhood, if I go, we used to get three to four rupees, isn't it?
+
+01:03:43.840 --> 01:03:46.840
+I mean, the size.
+
+01:03:46.840 --> 01:03:52.840
+I mean, in our school days today, they charge 20, 25, 30 for one piece.
+
+01:03:52.840 --> 01:03:55.840
+Then X, then X valuation.
+
+01:03:55.840 --> 01:03:58.840
+Too much, isn't it?
+
+01:03:58.840 --> 01:04:00.840
+80 per kg and too much costly.
+
+01:04:00.840 --> 01:04:03.840
+Let's say 80 rupees per kg.
+
+01:04:03.840 --> 01:04:06.840
+Then you have let's say oranges.
+
+01:04:10.840 --> 01:04:13.840
+They also cost you 100 rupees kg.
+
+01:04:13.840 --> 01:04:23.840
+One of the affordable fruit is one of the what is affordable fruit that you that you can think of where everyone is right.
+
+01:04:23.840 --> 01:04:24.840
+Banana.
+
+01:04:24.840 --> 01:04:26.840
+Even I have it.
+
+01:04:26.840 --> 01:04:29.840
+Post class, I have a banana and sleep.
+
+01:04:29.840 --> 01:04:33.840
+Let's say it's at 60 rupees.
+
+01:04:33.840 --> 01:04:36.840
+They give it 60 rupees, doesn't it?
+
+01:04:36.840 --> 01:04:37.840
+How come?
+
+01:04:37.840 --> 01:04:38.840
+How come somebody?
+
+01:04:38.840 --> 01:04:40.840
+How could you go off of it?
+
+01:04:40.840 --> 01:04:42.840
+Do you have trees at your home?
+
+01:04:42.840 --> 01:04:48.840
+Then we cannot like you.
+
+01:04:48.840 --> 01:04:55.840
+You should get it for us to then you have let's say seasonal fruit.
+
+01:04:55.840 --> 01:05:07.840
+One of the things that people, you know, doesn't get chance is like I don't remember the name of in English.
+
+01:05:07.840 --> 01:05:09.840
+Can I say a supporter?
+
+01:05:09.840 --> 01:05:10.840
+I hope you get it.
+
+01:05:10.840 --> 01:05:13.840
+What does support ice mean?
+
+01:05:13.840 --> 01:05:17.840
+Like in India, they call it as chiku.
+
+01:05:17.840 --> 01:05:21.840
+You have a chiku juice, a pota juice, right?
+
+01:05:21.840 --> 01:05:23.840
+Brown color.
+
+01:05:23.840 --> 01:05:25.840
+Yeah, right.
+
+01:05:25.840 --> 01:05:26.840
+Small one.
+
+01:05:26.840 --> 01:05:30.840
+So they are also let's say costing 60 rupees kg.
+
+01:05:30.840 --> 01:05:35.840
+So let's say this is something like how do you add items into the map?
+
+01:05:35.840 --> 01:05:37.840
+It's a key value pair again.
+
+01:05:37.840 --> 01:05:39.840
+This is how you set the items.
+
+01:05:39.840 --> 01:05:41.840
+Yeah, support.
+
+01:05:41.840 --> 01:05:45.840
+They got the right name.
+
+01:05:45.840 --> 01:05:51.840
+I mean, since I put it, I remembered my biology.
+
+01:05:51.840 --> 01:05:55.840
+We used to have, you know, even for the trees, right?
+
+01:05:55.840 --> 01:05:57.840
+There are difficult names.
+
+01:05:57.840 --> 01:05:59.840
+We know that there's a name tree.
+
+01:05:59.840 --> 01:06:03.840
+This is some other tree, banyan tree or papaya tree.
+
+01:06:03.840 --> 01:06:07.840
+But their scientific names are so difficult to pronounce.
+
+01:06:07.840 --> 01:06:13.840
+I don't know who used to keep those scientific names coming might be from Europe or the North American region.
+
+01:06:13.840 --> 01:06:18.840
+But those are really difficult, crazy names to remember.
+
+01:06:18.840 --> 01:06:24.840
+Had tough time in school.
+
+01:06:24.840 --> 01:06:25.840
+Right.
+
+01:06:25.840 --> 01:06:29.840
+Let's say if I want to get an item, it's again same syntax case as you do it.
+
+01:06:29.840 --> 01:06:35.840
+Let's say I get it and more mango and let's say I try to print it here.
+
+01:06:35.840 --> 01:06:41.840
+Oh, yeah.
+
+01:06:41.840 --> 01:06:49.840
+And before moving, I'd also try to print here.
+
+01:06:49.840 --> 01:06:55.840
+Fruits and then let's say if I want to.
+
+01:06:55.840 --> 01:06:58.840
+So this is something like how do you set and get it?
+
+01:06:58.840 --> 01:07:01.840
+Now, in order to delete it, there is a same syntax.
+
+01:07:01.840 --> 01:07:06.840
+Like if you want to delete it, you can use the deleted directly.
+
+01:07:06.840 --> 01:07:08.840
+Let's say you delete that mango itself.
+
+01:07:08.840 --> 01:07:09.840
+You can do this.
+
+01:07:09.840 --> 01:07:13.840
+So I hope how do you set, get and delete is clear.
+
+01:07:13.840 --> 01:07:15.840
+Updating is like, again, getting that value.
+
+01:07:15.840 --> 01:07:17.840
+And again, you can use a set operation.
+
+01:07:17.840 --> 01:07:19.840
+There is no something like update.
+
+01:07:19.840 --> 01:07:23.840
+OK, these three operations are pretty clear, right?
+
+01:07:23.840 --> 01:07:29.840
+Similar to what you might have learned in a different languages.
+
+01:07:29.840 --> 01:07:33.840
+Guys, let me console our fruits again.
+
+01:07:33.840 --> 01:07:41.840
+And let's execute and show it to you.
+
+01:07:41.840 --> 01:07:47.840
+Let's say no script dot GS.
+
+01:07:47.840 --> 01:07:48.840
+Let's see what happened.
+
+01:07:48.840 --> 01:07:49.840
+Let's just see this.
+
+01:07:49.840 --> 01:07:50.840
+What happened?
+
+01:07:50.840 --> 01:07:55.840
+Now, firstly, when we created, we had added five fruits into it.
+
+01:07:55.840 --> 01:08:00.840
+OK, we added five fruits, mango, go up, oranges, banana and support.
+
+01:08:00.840 --> 01:08:04.840
+Now, after that, we try to print, you know, all the fruits.
+
+01:08:04.840 --> 01:08:07.840
+That's the reason why we were able to print the map.
+
+01:08:07.840 --> 01:08:13.840
+OK, then we were able to, if I want to get any key out of it, I can use like fruit dots.
+
+01:08:13.840 --> 01:08:17.840
+Get the key value, which will get me the value of it.
+
+01:08:17.840 --> 01:08:25.840
+OK, then if I want to delete a particular item entry, a key value pair out of that map,
+
+01:08:25.840 --> 01:08:31.840
+I can call the delete function and pass on the particular key that I passed on mango.
+
+01:08:31.840 --> 01:08:34.840
+So that has been removed here.
+
+01:08:34.840 --> 01:08:38.840
+OK, if I want to update it, let's say a fruit start.
+
+01:08:38.840 --> 01:08:47.840
+Set, let's say the prices of Goa as increased.
+
+01:08:47.840 --> 01:08:49.840
+To 120.
+
+01:08:49.840 --> 01:08:57.840
+Once I again print it.
+
+01:08:57.840 --> 01:08:59.840
+If you see Goa price got upgraded.
+
+01:08:59.840 --> 01:09:06.840
+So this is how you try to handle the four operations that are basic operations that you see on a map.
+
+01:09:06.840 --> 01:09:08.840
+OK, I hope this four basic methods are clear.
+
+01:09:08.840 --> 01:09:14.840
+Firstly, guys.
+
+01:09:14.840 --> 01:09:17.840
+OK.
+
+01:09:17.840 --> 01:09:22.840
+So once this four methods are clear, we'll talk about a few more operations that you can leverage on this.
+
+01:09:22.840 --> 01:09:29.840
+So in order to get right size of the map, you again you have an access to something called a size,
+
+01:09:29.840 --> 01:09:36.840
+which gives you access to the size length of the or let's say size of map itself.
+
+01:09:36.840 --> 01:09:38.840
+And for iteration, right?
+
+01:09:38.840 --> 01:09:40.840
+We want to iterate.
+
+01:09:40.840 --> 01:09:48.840
+So anything most of the data such as you have something like for each function and for each again takes a callback from callback again,
+
+01:09:48.840 --> 01:09:50.840
+which gives you the key value pairs each time.
+
+01:09:50.840 --> 01:09:53.840
+OK, this is a common syntax that you'll be able to see.
+
+01:09:53.840 --> 01:09:58.840
+And one of the most easiest syntax to deal with it when you go on to iterate over something.
+
+01:09:58.840 --> 01:10:00.840
+OK, go for forage.
+
+01:10:00.840 --> 01:10:02.840
+I take it and print it.
+
+01:10:02.840 --> 01:10:04.840
+All things are done.
+
+01:10:04.840 --> 01:10:12.840
+And then you have another method called as entries.
+
+01:10:12.840 --> 01:10:19.840
+Now, when you do an entry, let's say if I store it, if I store it here in the entries, what what I get it here.
+
+01:10:19.840 --> 01:10:24.840
+It's an array.
+
+01:10:24.840 --> 01:10:29.840
+So I try to print dot console dot log.
+
+01:10:29.840 --> 01:10:33.840
+OK, once I execute this one.
+
+01:10:33.840 --> 01:10:38.840
+OK, fruit dot size.
+
+01:10:38.840 --> 01:10:44.840
+OK, it's not a.
+
+01:10:44.840 --> 01:10:45.840
+OK, it's not a method.
+
+01:10:45.840 --> 01:10:51.840
+It's just a it's kind of like accessing a variable out of the object now.
+
+01:10:51.840 --> 01:10:55.840
+But here if you see still when I am trying to print map dot entry,
+
+01:10:55.840 --> 01:11:05.840
+it's actually returns you an object object enough array where each array will have its key zero index as a key and the value as a one.
+
+01:11:05.840 --> 01:11:09.840
+OK, then in case if you want to do it this way, right?
+
+01:11:09.840 --> 01:11:12.840
+If you want to get all the key sort of an object.
+
+01:11:12.840 --> 01:11:17.840
+Also, you have an access like get get.
+
+01:11:17.840 --> 01:11:23.840
+I'm sorry, you have a keys object where you can call keys and your keys can be stored anywhere.
+
+01:11:23.840 --> 01:11:32.840
+Or else you can always do like for each on each like using a chaining operations like we have seen many chaining operations.
+
+01:11:32.840 --> 01:11:36.840
+And you can keep on writing the logic that you want.
+
+01:11:36.840 --> 01:11:41.840
+OK, then there is some other operations like fruit dot value.
+
+01:11:41.840 --> 01:11:49.840
+Values is again keeps you the other other side of the like the right side values like 120, 160, all of them.
+
+01:11:49.840 --> 01:11:52.840
+You can on this also you can do for each and same logic.
+
+01:11:52.840 --> 01:11:56.840
+OK, these are the things which you can iterate with.
+
+01:11:56.840 --> 01:12:01.840
+Like if you see once you know the size, if you want to iterate it, you can do it using entries.
+
+01:12:01.840 --> 01:12:07.840
+Entry is a key value pair where if you want to only do it or iterate or keys, you can do it this way using keys.
+
+01:12:07.840 --> 01:12:10.840
+If you want to do the values, you can do it this way.
+
+01:12:10.840 --> 01:12:18.840
+OK, I hope this is clear, guys, till here.
+
+01:12:18.840 --> 01:12:28.840
+OK, once if this is clear, then there is a one really important method that we play around with map is that fruit.
+
+01:12:28.840 --> 01:12:36.840
+Does it contain now whether when you say that it contains, you have to pass down key here.
+
+01:12:36.840 --> 01:12:41.840
+Let's see if I say that I check for a mango.
+
+01:12:41.840 --> 01:12:46.840
+OK, since you deleted mango on top, this won't be executed.
+
+01:12:46.840 --> 01:12:52.840
+Say I tried to print console dot log.
+
+01:12:52.840 --> 01:12:57.840
+Mango is present in map.
+
+01:12:57.840 --> 01:13:06.840
+Let's say I do this pasted not present in the map.
+
+01:13:06.840 --> 01:13:11.840
+OK, if I do this, let me check what happened.
+
+01:13:11.840 --> 01:13:15.840
+OK, key start for each.
+
+01:13:15.840 --> 01:13:22.840
+OK, I let's say I'll comment the syntax since we are not leveraging the syntax of now.
+
+01:13:22.840 --> 01:13:27.840
+OK, that works.
+
+01:13:27.840 --> 01:13:38.840
+If you see mango is not present in the map says it says so using a hash function, you can check for the keys, whether the particular key is present or not.
+
+01:13:38.840 --> 01:13:47.840
+OK, then also you have one more function, which is like if you want to delete right individually, you can use the function.
+
+01:13:47.840 --> 01:13:54.840
+But if you want to delete all of them, you can use clear and call clear, which will clean up everything present in this.
+
+01:13:54.840 --> 01:14:01.840
+So these are like, you know, top level, interesting and important methods, guys, that you come across maps.
+
+01:14:01.840 --> 01:14:13.840
+OK, but to revise it again, OK, to revise it again, you have four operations basically include you can do set.
+
+01:14:13.840 --> 01:14:18.840
+OK, when to set, you have to call key and value.
+
+01:14:18.840 --> 01:14:22.840
+Then also you have, you know, get key.
+
+01:14:22.840 --> 01:14:26.840
+You have to pass on the key to get the item value.
+
+01:14:26.840 --> 01:14:29.840
+Then you can again set.
+
+01:14:29.840 --> 01:14:33.840
+Existing key.
+
+01:14:33.840 --> 01:14:38.840
+To update the value.
+
+01:14:38.840 --> 01:14:43.840
+Then you have the other operation is delete.
+
+01:14:43.840 --> 01:14:47.840
+Delete the key, you pass on the key, it will delete it.
+
+01:14:47.840 --> 01:14:49.840
+So this is one of the thing.
+
+01:14:49.840 --> 01:14:52.840
+Let's say I try to move it to the two lines.
+
+01:14:52.840 --> 01:14:58.840
+OK, then you have size, which gives you the information about size.
+
+01:14:58.840 --> 01:15:01.840
+Then you have for each method to iterate over key value pairs.
+
+01:15:01.840 --> 01:15:06.840
+Then you have entries, which gives you a key value pairs of in the presented map.
+
+01:15:06.840 --> 01:15:09.840
+Then you can get keys and values separately.
+
+01:15:09.840 --> 01:15:15.840
+OK, and then there's something like clear function, which clears all the things present in the map.
+
+01:15:15.840 --> 01:15:17.840
+OK.
+
+01:15:17.840 --> 01:15:24.840
+And it has to check if there is a particular key which is present in the map.
+
+01:15:24.840 --> 01:15:29.840
+OK, these are the basic things you might have already, you know, got used to it.
+
+01:15:29.840 --> 01:15:31.840
+You might know it.
+
+01:15:31.840 --> 01:15:39.840
+We have discussed this specifically because it has few more utility methods available in JS compared to the other languages.
+
+01:15:39.840 --> 01:15:41.840
+OK, guys.
+
+01:15:41.840 --> 01:15:45.840
+Now, one more thing, one more data structure.
+
+01:15:45.840 --> 01:15:46.840
+Firstly, is this clear?
+
+01:15:46.840 --> 01:15:50.840
+This is simple and straightforward, isn't it?
+
+01:15:50.840 --> 01:15:54.840
+OK, let's say I go for.
+
+01:15:54.840 --> 01:16:07.840
+Script1.js inside this, we'll pick it up about sets.
+
+01:16:07.840 --> 01:16:12.840
+Now, what is the one common property that we run after set, guys?
+
+01:16:12.840 --> 01:16:21.840
+Why we would run after set when we need this data structure of set?
+
+01:16:21.840 --> 01:16:23.840
+Set has only unique elements, right?
+
+01:16:23.840 --> 01:16:25.840
+It only stores the unique elements.
+
+01:16:25.840 --> 01:16:27.840
+It doesn't have a duplicate present in it.
+
+01:16:27.840 --> 01:16:36.840
+And does it store according to the indexes that you put in?
+
+01:16:36.840 --> 01:16:38.840
+Right. It doesn't remember the indexes.
+
+01:16:38.840 --> 01:16:42.840
+It just guarantees that it has all the unique items.
+
+01:16:42.840 --> 01:16:45.840
+Just that it's an ordered unique element data structure.
+
+01:16:45.840 --> 01:16:51.840
+OK, in the same way, JavaScript definition also stands in the same way.
+
+01:16:51.840 --> 01:16:56.840
+It can have only one type of unique element.
+
+01:16:56.840 --> 01:16:58.840
+It cannot have multiple items.
+
+01:16:58.840 --> 01:17:08.840
+Now, again, in this also, again, in order to create a set, you can always, again, you have to call the same constructor function.
+
+01:17:08.840 --> 01:17:16.840
+Let's say I say that my set inside this, you have to, again, call the constructor function on set.
+
+01:17:16.840 --> 01:17:21.840
+Once you do this, my set will have access to list of methods.
+
+01:17:21.840 --> 01:17:25.840
+OK, on this, the methods are pretty easy, like add.
+
+01:17:25.840 --> 01:17:29.840
+If I say one, I'll try to replicate this one, guys.
+
+01:17:30.840 --> 01:17:34.840
+Let's say I do it.
+
+01:17:34.840 --> 01:17:37.840
+Two, three, four.
+
+01:17:37.840 --> 01:17:40.840
+Let's say we add it one itself.
+
+01:17:40.840 --> 01:17:50.840
+Now, if you want to access it, can you guys think if you need to access any time in the value?
+
+01:17:50.840 --> 01:17:53.840
+Can we access the value out of set?
+
+01:17:53.840 --> 01:17:56.840
+There is no way to do it right.
+
+01:17:56.840 --> 01:18:01.840
+If you cannot have a key value pair, like you get it by value, you don't have an index stored.
+
+01:18:01.840 --> 01:18:02.840
+So you cannot do that.
+
+01:18:02.840 --> 01:18:06.840
+But here, again, there is one trick.
+
+01:18:06.840 --> 01:18:10.840
+Firstly, let's print this, then go back to that one.
+
+01:18:10.840 --> 01:18:26.840
+OK, here, if you see only the four elements out of five, one is skipped.
+
+01:18:26.840 --> 01:18:28.840
+The last one is skipped.
+
+01:18:28.840 --> 01:18:35.840
+Now, the one way to access values right, one way if you want to access the values is,
+
+01:18:35.840 --> 01:18:38.840
+you know, this is odd property.
+
+01:18:38.840 --> 01:18:43.840
+If I say so, my set dot, you can say that, hey, values.
+
+01:18:43.840 --> 01:18:46.840
+If I do this values right, let's see what happens.
+
+01:18:46.840 --> 01:18:48.840
+OK, why do this?
+
+01:18:48.840 --> 01:18:50.840
+My values.
+
+01:18:50.840 --> 01:18:51.840
+You see this?
+
+01:18:51.840 --> 01:18:54.840
+It gives me a set iterator.
+
+01:18:54.840 --> 01:18:58.840
+Do you understand what does iterator is meant?
+
+01:18:58.840 --> 01:19:00.840
+It keeps on iterating.
+
+01:19:00.840 --> 01:19:02.840
+It gives you an iteratable value.
+
+01:19:02.840 --> 01:19:07.840
+Like it's something gives you like where you can actually add it to the items one by one.
+
+01:19:07.840 --> 01:19:10.840
+So I hope you know the basic difference.
+
+01:19:10.840 --> 01:19:16.840
+Like let's say if I can store this, I can store this and let's say this is the rest.
+
+01:19:16.840 --> 01:19:20.840
+My result dot values.
+
+01:19:20.840 --> 01:19:23.840
+Because directly you cannot iterate the set.
+
+01:19:23.840 --> 01:19:26.840
+What you do is you convert into an iteratable.
+
+01:19:26.840 --> 01:19:31.840
+Now, on this iteratable, you can do something like iterate over this list response.
+
+01:19:31.840 --> 01:19:37.840
+OK, let's say I do rest dot length and I can print.
+
+01:19:37.840 --> 01:19:39.840
+Console dot response dot.
+
+01:19:39.840 --> 01:19:45.840
+Let's do this.
+
+01:19:45.840 --> 01:19:48.840
+I saved it right.
+
+01:19:48.840 --> 01:19:55.840
+OK, didn't it print anything?
+
+01:19:55.840 --> 01:19:58.840
+Let's say you indexes are not possible here.
+
+01:19:58.840 --> 01:20:00.840
+You have to do for off loop.
+
+01:20:00.840 --> 01:20:03.840
+Let's say const.
+
+01:20:03.840 --> 01:20:07.840
+Well, of this.
+
+01:20:07.840 --> 01:20:12.840
+So each value of this console log.
+
+01:20:12.840 --> 01:20:16.840
+Let's see.
+
+01:20:16.840 --> 01:20:19.840
+So here this is not index press array.
+
+01:20:19.840 --> 01:20:23.840
+Even if you convert into values here, you have to use like off operator.
+
+01:20:23.840 --> 01:20:31.840
+Like getting I mean, if you say you have three types of loops in chairs, one is far in.
+
+01:20:31.840 --> 01:20:35.840
+And then there is something like far off.
+
+01:20:35.840 --> 01:20:38.840
+And you have a normal for.
+
+01:20:38.840 --> 01:20:43.840
+Then you have something like for each four different for loops.
+
+01:20:43.840 --> 01:20:46.840
+Just try to revise when to use which one.
+
+01:20:46.840 --> 01:20:52.840
+OK, whenever you have objects format, whenever you have objects format, you can you can go for.
+
+01:20:52.840 --> 01:20:58.840
+And for in most of these cases, normal index space items, you go for these two things.
+
+01:20:58.840 --> 01:21:03.840
+OK, that's a broader level, broader level understanding.
+
+01:21:03.840 --> 01:21:07.840
+If you say this, I can do this replicated again.
+
+01:21:07.840 --> 01:21:12.840
+Why I was saying odd is that if I if I can use your keys.
+
+01:21:12.840 --> 01:21:16.840
+Let's say if I wrote keys and I try to print rest one.
+
+01:21:16.840 --> 01:21:19.840
+OK, still.
+
+01:21:19.840 --> 01:21:23.840
+You see, it is still giving me all the values out of the set.
+
+01:21:23.840 --> 01:21:26.840
+So even if you can do keys and the values.
+
+01:21:26.840 --> 01:21:30.840
+So this data is not purely built in the right way.
+
+01:21:30.840 --> 01:21:35.840
+So it gives like even if you do keys, it gives an iterative where you can iterate over the elements.
+
+01:21:35.840 --> 01:21:39.840
+Like even if you do values, you'll be able to access it that way.
+
+01:21:39.840 --> 01:21:46.840
+OK, so I hope these two parts are clear, guys.
+
+01:21:46.840 --> 01:21:55.840
+So hash map and map hash map, sorry, maps and sets have the same rate of even the the.
+
+01:21:55.840 --> 01:22:01.840
+You know, this thing is that you can you can use entries also.
+
+01:22:01.840 --> 01:22:10.840
+If I save it in entries, right, let's say const response to console log of rest two.
+
+01:22:10.840 --> 01:22:13.840
+It also gives an ability to store in terms of it.
+
+01:22:13.840 --> 01:22:19.840
+So whichever thing you call, you call everything will give you the entries.
+
+01:22:19.840 --> 01:22:24.840
+Now, if you see in the entries, it returns you like since it is returning one comma one,
+
+01:22:24.840 --> 01:22:26.840
+two comma two, three comma three, four comma four.
+
+01:22:26.840 --> 01:22:33.840
+Reason is because if you see it half in a way, this set is built behind the scenes using the map.
+
+01:22:33.840 --> 01:22:39.840
+OK, it is built using the map where key and value are pointing to the same thing.
+
+01:22:39.840 --> 01:22:43.840
+That's the reason why whenever I do values, I still get the values.
+
+01:22:43.840 --> 01:22:45.840
+Whenever I do keys, I still get the keys.
+
+01:22:45.840 --> 01:22:48.840
+Even if I do entries, I get the iterative.
+
+01:22:48.840 --> 01:22:51.840
+OK, because interest gives the keys and value.
+
+01:22:51.840 --> 01:22:56.840
+Is this clear? Like behind the scenes set as leveraging the map itself.
+
+01:22:56.840 --> 01:23:00.840
+Whereas whenever you insert into the map, the set operation is happening.
+
+01:23:00.840 --> 01:23:08.840
+It checks. It just does this condition behind the scene is that if map has already
+
+01:23:08.840 --> 01:23:12.840
+this key is present, don't put it into the key.
+
+01:23:12.840 --> 01:23:17.840
+So this is the operation the set does from the chase point of view,
+
+01:23:17.840 --> 01:23:22.840
+because this is the proof that it still works like in a map.
+
+01:23:22.840 --> 01:23:24.840
+Is this clear, guys?
+
+01:23:29.840 --> 01:23:33.840
+I hope this point is clear behind the scenes. Everything is map.
+
+01:23:33.840 --> 01:23:38.840
+OK, and if you remember one of the use case, one of the difficult thing
+
+01:23:38.840 --> 01:23:48.840
+why I used to face that whenever I used to do type of right type of array or let's say type of.
+
+01:23:52.840 --> 01:23:54.840
+OK, my said.
+
+01:23:57.840 --> 01:24:00.840
+So I tried to do console log of this one.
+
+01:24:03.840 --> 01:24:26.840
+So whenever we used to do this right, we used to get like return type is object object object.
+
+01:24:26.840 --> 01:24:32.840
+We have seen this use case when we were actually trying to do like polyfill.
+
+01:24:32.840 --> 01:24:39.840
+So then I told like we'll use array array dot is array to verify whether a particular data type is an array or not.
+
+01:24:39.840 --> 01:24:45.840
+Isn't it? Do you remember that in polyfill example?
+
+01:24:45.840 --> 01:24:52.840
+So the you know, the another way of figuring out is let's say if I try to show you another method,
+
+01:24:52.840 --> 01:24:58.840
+let's say if I do something like instance of what is the instance of this one?
+
+01:24:58.840 --> 01:25:05.840
+OK, instance actually instance of method gives an ability to check.
+
+01:25:05.840 --> 01:25:14.840
+OK, like this particular thing compared to things to data types, let's say how would you do is that
+
+01:25:14.840 --> 01:25:22.840
+let's say if I do it this way, my set right, my set is an instance of set or not.
+
+01:25:22.840 --> 01:25:26.840
+OK, let's see what it returns.
+
+01:25:26.840 --> 01:25:28.840
+So if you see this, it is returning true.
+
+01:25:28.840 --> 01:25:33.840
+So there is another way to check whether a comparison like it still returns a Boolean.
+
+01:25:33.840 --> 01:25:37.840
+So we check like each part of thing is a data type of an array or not.
+
+01:25:37.840 --> 01:25:41.840
+Let's say if I try to do a console dot log.
+
+01:25:41.840 --> 01:25:46.840
+Array instance of array.
+
+01:25:46.840 --> 01:25:49.840
+Let's say this works.
+
+01:25:49.840 --> 01:25:56.840
+Let's say it still works. So is array array dot is array or instance of operator still works.
+
+01:25:56.840 --> 01:26:03.840
+So the other way, since everything is an object behind the scenes, you can use as a hack for us.
+
+01:26:03.840 --> 01:26:09.840
+OK, I don't have map map. I have a different friend.
+
+01:26:09.840 --> 01:26:14.840
+So I hope you got this basic methods, guys, how set and map can be leveraged,
+
+01:26:14.840 --> 01:26:18.840
+how actually set is like behaving like a map and the scenes.
+
+01:26:18.840 --> 01:26:26.840
+And if you want to check the data type of particular thing of these objects, you can always use constructors, right?
+
+01:26:26.840 --> 01:26:31.840
+Sorry, instance of operators and leverage it.
+
+01:26:31.840 --> 01:26:42.840
+So, guys, with this, with this, you know, I'll end the content for.
+
+01:26:42.840 --> 01:26:47.840
+Yeah, right. Yeah. So that's what I was talking about.
+
+01:26:47.840 --> 01:26:55.840
+So with this, I'll end the content for HTML, CSS, JS from my set from a curriculum point of view.
+
+01:26:55.840 --> 01:27:01.840
+I've covered more topics than what actually have to cover what I've been told to.
+
+01:27:01.840 --> 01:27:04.840
+OK, I kept on adding because I felt like this is more important.
+
+01:27:04.840 --> 01:27:11.840
+This is more important reason behind I keep on improving the curriculum day by day as we go into it.
+
+01:27:11.840 --> 01:27:15.840
+And we keep on pushing the module owners and the different respective stakeholders.
+
+01:27:15.840 --> 01:27:20.840
+Right. Hey, this is something students might need because I come from an industry.
+
+01:27:20.840 --> 01:27:27.840
+I know it what is needed at my office, what people are lacking or what I'm lacking as an engineer, what other people are lacking.
+
+01:27:27.840 --> 01:27:31.840
+So it's an iterative process where you keep on improving things.
+
+01:27:31.840 --> 01:27:36.840
+So I've covered a good amount of things. I've covered debugging paths.
+
+01:27:36.840 --> 01:27:48.840
+I've covered, you know, the style guide, you know, the two things that actually, you know, if I would say, right, have to be covered.
+
+01:27:48.840 --> 01:27:55.840
+I mean, no one covers that. Even if you go for any, you know, curriculum, any courses, you might not be seeing that.
+
+01:27:55.840 --> 01:28:12.840
+But have you guys heard about something like, you know, SAS or SCSS, SAS, SCSS, less, right?
+
+01:28:12.840 --> 01:28:18.840
+What what what these are called as? What these are called as?
+
+01:28:18.840 --> 01:28:22.840
+Anyone any idea what these are called as?
+
+01:28:22.840 --> 01:28:28.840
+These are called as CSS predecessors.
+
+01:28:28.840 --> 01:28:36.840
+OK, so each one comes, you know, with the own with the own, you know, abilities.
+
+01:28:36.840 --> 01:28:41.840
+So own abilities like, you know, few things are rendered on server side.
+
+01:28:41.840 --> 01:28:48.840
+So if you see, I've told about, you know, every operation, everything is actually working on to solve this problem of rendering,
+
+01:28:48.840 --> 01:28:56.840
+like to create a system or DOM or for that matter, like how JS need to be downloaded or rendered.
+
+01:28:56.840 --> 01:29:05.840
+OK, so yeah, CSS preprocessors, spelling.
+
+01:29:05.840 --> 01:29:08.840
+OK, guys, you can include three here.
+
+01:29:08.840 --> 01:29:16.840
+So what this generally are doing is that, you know, they help you to write CSS in a better way.
+
+01:29:16.840 --> 01:29:30.840
+Like where I have particularly worked with SCSS for a really long amount of time in SCSS in CSS files, I can write JS code.
+
+01:29:30.840 --> 01:29:34.840
+I mean, I can write loops. I can write different languages.
+
+01:29:34.840 --> 01:29:43.840
+I'm not JS code, but this works like a, you know, Ruby syntaxes because these things are behind the scenes built in Ruby.
+
+01:29:43.840 --> 01:29:47.840
+OK, you might have heard a language called Ruby, right?
+
+01:29:47.840 --> 01:29:51.840
+They use the same like you might be seeing like a dollar symbol.
+
+01:29:51.840 --> 01:29:57.840
+Then you define a value. Then you go for something like braces and all these things.
+
+01:29:57.840 --> 01:30:03.840
+The properties, the key value pairs, the properties, all those things are same.
+
+01:30:03.840 --> 01:30:08.840
+But you get a few more properties like, you know, abilities, how to use CSS.
+
+01:30:08.840 --> 01:30:12.840
+Like you will be able to see mixins.
+
+01:30:12.840 --> 01:30:14.840
+OK, all those things will be there.
+
+01:30:14.840 --> 01:30:17.840
+So I would ask anyone, right, who is actually working on.
+
+01:30:17.840 --> 01:30:24.840
+Maybe I'll see if I can give you a project which is built with the SAS and less differently.
+
+01:30:24.840 --> 01:30:27.840
+But I need some time for that.
+
+01:30:27.840 --> 01:30:30.840
+I'm running parallely, you know, completely occupied.
+
+01:30:30.840 --> 01:30:40.840
+But, you know, one thing I would say is that if you see yesterday, I think I had Muneshwar Shashank, you know,
+
+01:30:40.840 --> 01:30:43.840
+and I think I had Ankit for some time.
+
+01:30:43.840 --> 01:30:45.840
+Then I had Sham.
+
+01:30:45.840 --> 01:30:52.840
+All of the people, you know, were available with me on YouTube where we're streaming and studying it together.
+
+01:30:52.840 --> 01:30:59.840
+So, you know, during that moment, right, whenever we have something off topic or off to the curriculum,
+
+01:30:59.840 --> 01:31:04.840
+if you want to revise, learn something which is an industry, how things are being done,
+
+01:31:04.840 --> 01:31:10.840
+explore it, we'll use and, you know, try to understand during those time.
+
+01:31:10.840 --> 01:31:17.840
+OK, we'll read there itself and we'll figure it out because I what I thought of it, like I felt really good.
+
+01:31:17.840 --> 01:31:26.840
+So, you know, there were four or five people who had joined with me and leveraged those one and a half hour of sessions where we spent continuously reading.
+
+01:31:26.840 --> 01:31:28.840
+And even I focused on something.
+
+01:31:28.840 --> 01:31:29.840
+I completed my task.
+
+01:31:29.840 --> 01:31:31.840
+I was working on my office work parallely.
+
+01:31:31.840 --> 01:31:35.840
+Even if you have office work, you can do that along with me.
+
+01:31:35.840 --> 01:31:39.840
+But this is actually I'm doing it on alternate days after the class.
+
+01:31:39.840 --> 01:31:45.840
+Like if you have a class today, tomorrow I'll share a link again in WhatsApp group where you can join from there.
+
+01:31:45.840 --> 01:31:46.840
+I had some troubles.
+
+01:31:46.840 --> 01:31:47.840
+Pardon me for that.
+
+01:31:47.840 --> 01:31:49.840
+I was doing it for the first time.
+
+01:31:49.840 --> 01:31:53.840
+So it would be same same time somebody like I'll start at nine.
+
+01:31:53.840 --> 01:31:56.840
+We'll go for, let's say, maximum living.
+
+01:31:56.840 --> 01:32:01.840
+Not more than not more than two hours where you have to 45 minute sessions.
+
+01:32:01.840 --> 01:32:04.840
+OK, well, we won't disturb each other.
+
+01:32:04.840 --> 01:32:06.840
+We'll be reading together.
+
+01:32:06.840 --> 01:32:11.840
+But in between 15 minutes and 15 minutes where we'll be communicating, communicating more.
+
+01:32:11.840 --> 01:32:13.840
+And it may be 15 minutes at the starting.
+
+01:32:13.840 --> 01:32:17.840
+So it's more of a conversational learning where you do it.
+
+01:32:17.840 --> 01:32:19.840
+You pick up a topic.
+
+01:32:19.840 --> 01:32:22.840
+Let's say let's say you pick something like dom manipulations.
+
+01:32:22.840 --> 01:32:23.840
+You want to revise it.
+
+01:32:23.840 --> 01:32:24.840
+Go through the notes.
+
+01:32:24.840 --> 01:32:25.840
+Revise it.
+
+01:32:25.840 --> 01:32:33.840
+And there in case you have doubts, you can discuss it in the interval that you have because we did it yesterday and I believe it was fruitful.
+
+01:32:33.840 --> 01:32:35.840
+So guys, do you felt it fruitful?
+
+01:32:35.840 --> 01:32:38.840
+Shashank and Muneshwara.
+
+01:32:38.840 --> 01:32:39.840
+So right.
+
+01:32:39.840 --> 01:32:47.840
+So hope you guys again join tomorrow where we can leverage, go through the articles, write whatever articles you find, whatever you want to do.
+
+01:32:47.840 --> 01:32:49.840
+It's not about only studying it.
+
+01:32:49.840 --> 01:32:56.840
+My main goal that I started this thing is that reason is that to push you to take it up this mark.
+
+01:32:56.840 --> 01:33:06.840
+My goal was like if you if you join me for the sessions, right, if you do it six to seven sessions, all the topics what we have discussed will become covered.
+
+01:33:06.840 --> 01:33:08.840
+Because you don't need more than that time.
+
+01:33:08.840 --> 01:33:15.840
+So my agenda was to conduct this one was that hey, I am doing my office work.
+
+01:33:15.840 --> 01:33:17.840
+I'm prepping for class.
+
+01:33:17.840 --> 01:33:19.840
+I'm studying for my own piece.
+
+01:33:19.840 --> 01:33:21.840
+Also, I'm teaching.
+
+01:33:21.840 --> 01:33:25.840
+So if I'm doing multitask, you can also do it.
+
+01:33:25.840 --> 01:33:29.840
+And let's make it in a fun way where we sit together and figure it out.
+
+01:33:29.840 --> 01:33:33.840
+OK, it's it's it's not only I help you out.
+
+01:33:33.840 --> 01:33:39.840
+It's you guys also help me out figuring out new things where we you guys bring it up new things.
+
+01:33:39.840 --> 01:33:40.840
+Maybe I'll learn from you.
+
+01:33:40.840 --> 01:33:42.840
+Right.
+
+01:33:42.840 --> 01:33:44.840
+Looking forward to see me.
+
+01:33:44.840 --> 01:33:49.840
+OK, so I'll share the link in the WhatsApp group.
+
+01:33:49.840 --> 01:33:51.840
+At that moment, join it.
+
+01:33:51.840 --> 01:33:52.840
+We'll try to leverage it.
+
+01:33:52.840 --> 01:33:58.840
+I'll try to keep it, you know, better atmosphere with you guys.
+
+01:33:58.840 --> 01:34:01.840
+Can you figure it out?
+
+01:34:01.840 --> 01:34:02.840
+I'll share it.
+
+01:34:02.840 --> 01:34:05.840
+So but again, coming back to that.
+
+01:34:05.840 --> 01:34:13.840
+So you have something preprocessors of CSS where you have to, you know, revise it, figuring, figuring, figuring it out.
+
+01:34:13.840 --> 01:34:15.840
+Because those are, again, concepts.
+
+01:34:15.840 --> 01:34:17.840
+You have a different frameworks coming up.
+
+01:34:17.840 --> 01:34:19.840
+You know, we'll figure it out.
+
+01:34:19.840 --> 01:34:22.840
+One, two frameworks like you might have heard this one, right?
+
+01:34:22.840 --> 01:34:24.840
+Tailwind, right?
+
+01:34:25.840 --> 01:34:32.840
+Tailwind like too much useful, too much handy, too much easy and trendy thing to use.
+
+01:34:32.840 --> 01:34:41.840
+So this thing, we will be building a project with this tailwind where I'll help you out, figure out, cover the basics while I'm building it.
+
+01:34:41.840 --> 01:34:50.840
+OK, so let me share this link.
+
+01:34:50.840 --> 01:34:51.840
+Right?
+
+01:34:51.840 --> 01:34:52.840
+Shashank says very easy.
+
+01:34:52.840 --> 01:34:53.840
+I agree, Shashank.
+
+01:34:53.840 --> 01:34:59.840
+That reduces a lot of headache, right?
+
+01:34:59.840 --> 01:35:05.840
+Yeah, in a while, you know, so, you know, what happens, right?
+
+01:35:05.840 --> 01:35:12.840
+How we will be writing it is that more of a.
+
+01:35:12.840 --> 01:35:17.840
+Now, when we go into something called libraries.
+
+01:35:17.840 --> 01:35:21.840
+And framework.
+
+01:35:21.840 --> 01:35:28.840
+You know, they are both framework is I'll talk about differences in the next class and what they are, how they actually work.
+
+01:35:28.840 --> 01:35:33.840
+But, you know, these are the two things where you will keep on exploring more and more things.
+
+01:35:33.840 --> 01:35:39.840
+OK, I mean, each one and each and everything is solving a different problem statement.
+
+01:35:39.840 --> 01:35:42.840
+We'll pick it up, problem statement and one by one.
+
+01:35:42.840 --> 01:35:45.840
+And why we use tailwind?
+
+01:35:45.840 --> 01:35:48.840
+What's the problem that is solving?
+
+01:35:48.840 --> 01:35:52.840
+And after that, right?
+
+01:35:52.840 --> 01:35:56.840
+There are many, many things that I would talk about it.
+
+01:35:56.840 --> 01:36:03.840
+Yeah, I've, you know, just clarified that there's something, but we'll talk like why this has been built this way and what are the other use cases, right?
+
+01:36:03.840 --> 01:36:05.840
+Then.
+
+01:36:05.840 --> 01:36:10.840
+Many people, many things like if you go for SAS.
+
+01:36:10.840 --> 01:36:15.840
+SCSS, you might have heard jQuery.
+
+01:36:15.840 --> 01:36:18.840
+This is something we haven't picked it up in a curriculum.
+
+01:36:18.840 --> 01:36:24.840
+Do you know any reason why we haven't picked up the jQuery?
+
+01:36:24.840 --> 01:36:28.840
+Any idea, guys, why didn't we pick it up jQuery?
+
+01:36:28.840 --> 01:36:32.840
+Right, so if you see, go into.
+
+01:36:32.840 --> 01:36:39.840
+Google Trends.
+
+01:36:39.840 --> 01:36:43.840
+Just saw this jQuery.
+
+01:36:43.840 --> 01:36:47.840
+OK.
+
+01:36:47.840 --> 01:36:51.840
+The amount of the amount of interest, right?
+
+01:36:51.840 --> 01:36:54.840
+I mean.
+
+01:36:54.840 --> 01:37:01.840
+Let's say if I compare with other libraries, like let's say React is also a library.
+
+01:37:01.840 --> 01:37:02.840
+Right.
+
+01:37:02.840 --> 01:37:10.840
+If I try to compare this right, jQuery popularity has go down and people are not leveraging it much.
+
+01:37:10.840 --> 01:37:14.840
+People have come came, you know, there are better things that are solving.
+
+01:37:14.840 --> 01:37:17.840
+There are many better use cases that you have seen.
+
+01:37:17.840 --> 01:37:18.840
+OK.
+
+01:37:18.840 --> 01:37:27.840
+If you see if I say all the India over jQuery is 12 percent, 10 percent, really less percentage of people who are actually leveraging it.
+
+01:37:27.840 --> 01:37:30.840
+So our idea is like to help you out.
+
+01:37:30.840 --> 01:37:34.840
+What is more important and how do you figure it out?
+
+01:37:34.840 --> 01:37:36.840
+OK.
+
+01:37:36.840 --> 01:37:40.840
+But each of the library, each of the framework is solving some problem.
+
+01:37:40.840 --> 01:37:44.840
+You guys have to, you know, go to the depth.
+
+01:37:44.840 --> 01:37:46.840
+Keeping that as a behavior.
+
+01:37:46.840 --> 01:37:47.840
+Right.
+
+01:37:47.840 --> 01:37:48.840
+So.
+
+01:37:48.840 --> 01:37:58.840
+Then we'll also see some of the, you know, have you guys heard something like bootstrap, guys?
+
+01:37:58.840 --> 01:38:01.840
+Everyone might have come across the bootstrap.
+
+01:38:01.840 --> 01:38:04.840
+What does bootstrap used to do?
+
+01:38:05.840 --> 01:38:08.840
+Let's open the site of bootstrap.
+
+01:38:18.840 --> 01:38:19.840
+OK.
+
+01:38:19.840 --> 01:38:24.840
+This this actually gives us a list of built in components.
+
+01:38:24.840 --> 01:38:25.840
+OK.
+
+01:38:25.840 --> 01:38:29.840
+Let's say, how do you actually build a bootstrap?
+
+01:38:30.840 --> 01:38:31.840
+OK.
+
+01:38:31.840 --> 01:38:35.840
+Let's say how do you add multiple things?
+
+01:38:35.840 --> 01:38:36.840
+OK.
+
+01:38:36.840 --> 01:38:40.840
+So let's say if I want to build something like grid, how can I do it?
+
+01:38:40.840 --> 01:38:42.840
+Let's say I just define it.
+
+01:38:42.840 --> 01:38:48.840
+If you see the way of writing CSS classes with bootstrap is completely easy.
+
+01:38:48.840 --> 01:38:53.840
+Like if you say that I need a container text center, make it a row column.
+
+01:38:54.840 --> 01:38:57.840
+It will make our like it's a bootstrap using the grid.
+
+01:38:57.840 --> 01:39:01.840
+They are using a flexbox to build this one layout.
+
+01:39:01.840 --> 01:39:06.840
+So you'll be able to see like they have actually helped us, you know, solving many problems like.
+
+01:39:10.840 --> 01:39:14.840
+Maybe I'll show the examples.
+
+01:39:24.840 --> 01:39:27.840
+You have icons available.
+
+01:39:27.840 --> 01:39:28.840
+That's fine.
+
+01:39:28.840 --> 01:39:31.840
+But I was thinking about components.
+
+01:39:31.840 --> 01:39:33.840
+Let's say you go for.
+
+01:39:33.840 --> 01:39:35.840
+I don't need it.
+
+01:39:35.840 --> 01:39:38.840
+It got downloaded downloading the examples.
+
+01:39:38.840 --> 01:39:45.840
+But if you see it is solving the different problems, it actually making your work better.
+
+01:39:45.840 --> 01:39:51.840
+If you go for SAS, you'll be able to see like how it is actually implementing, you know, doing your better work for the SAS.
+
+01:39:51.840 --> 01:39:54.840
+How do you import and write down your CSS?
+
+01:39:54.840 --> 01:39:55.840
+OK.
+
+01:39:55.840 --> 01:39:57.840
+Better way.
+
+01:39:57.840 --> 01:40:00.840
+But I think I have a bootstrap components also.
+
+01:40:05.840 --> 01:40:06.840
+OK.
+
+01:40:09.840 --> 01:40:10.840
+Yeah.
+
+01:40:10.840 --> 01:40:16.840
+So let's say there are least of components that bootstrap also provides you like built in.
+
+01:40:16.840 --> 01:40:18.840
+I've been actually will end the session.
+
+01:40:18.840 --> 01:40:20.840
+I've been OK.
+
+01:40:21.840 --> 01:40:23.840
+Not much time.
+
+01:40:23.840 --> 01:40:24.840
+OK.
+
+01:40:24.840 --> 01:40:26.840
+Within the one go.
+
+01:40:29.840 --> 01:40:30.840
+OK.
+
+01:40:30.840 --> 01:40:32.840
+So.
+
+01:40:32.840 --> 01:40:36.840
+Bootstrap brings in a list of components built in components that you can use.
+
+01:40:36.840 --> 01:40:43.840
+Let's say if you want an accordion, you can always like, you know, use the tags like you have a diff tag HTML tag.
+
+01:40:43.840 --> 01:40:47.840
+They give you something like accordion tag, which you can directly use it.
+
+01:40:47.840 --> 01:40:51.840
+And, you know, build this passing some content, whatever needs.
+
+01:40:51.840 --> 01:40:53.840
+So we don't need to design everything.
+
+01:40:53.840 --> 01:40:56.840
+Like if you see on how things are happening, too many things are happening.
+
+01:40:56.840 --> 01:40:58.840
+So all those things like carousel.
+
+01:40:58.840 --> 01:41:08.840
+So we'll also see one of the few more websites which are actually, you know, building, building already like this competence.
+
+01:41:08.840 --> 01:41:12.840
+They have built it where we leverage them to do our development really fast.
+
+01:41:12.840 --> 01:41:13.840
+OK.
+
+01:41:13.840 --> 01:41:17.840
+I'll talk about what frameworks or what libraries will be using more.
+
+01:41:17.840 --> 01:41:20.840
+I'll talk about more famous libraries.
+
+01:41:20.840 --> 01:41:33.840
+You know, one of the most famous library for the react does anyone know what is a free open source that reacting prefers mostly like for components or the designs.
+
+01:41:33.840 --> 01:41:39.840
+Anyone any idea?
+
+01:41:39.840 --> 01:41:42.840
+There are too many available, but there's something like material UI.
+
+01:41:42.840 --> 01:41:45.840
+Have you heard this material UI?
+
+01:41:45.840 --> 01:41:46.840
+Right.
+
+01:41:46.840 --> 01:41:50.840
+Let's say if you go for react, this is a right.
+
+01:41:50.840 --> 01:41:54.840
+The material UI actually gives you a built in competence.
+
+01:41:54.840 --> 01:42:02.840
+So let's say at my office, there is a platform team which builds components, so we cannot use something open source.
+
+01:42:02.840 --> 01:42:04.840
+We have our own designs.
+
+01:42:04.840 --> 01:42:05.840
+OK.
+
+01:42:05.840 --> 01:42:13.840
+So this is like, you know, let's say if you say that auto complete, I'll pass the all the information, whatever attributes it needs.
+
+01:42:13.840 --> 01:42:17.840
+The all the other works will be taken care by that particular thing.
+
+01:42:17.840 --> 01:42:23.840
+I don't need to create an input how the label will be appear, how this movie name is going up and setting as a legend.
+
+01:42:23.840 --> 01:42:24.840
+Right.
+
+01:42:24.840 --> 01:42:29.840
+This is what legend is called, like whenever the name is going and sitting here right on top.
+
+01:42:30.840 --> 01:42:36.840
+So you'll have too many, you know, good functionalities already built in, which will give you.
+
+01:42:36.840 --> 01:42:40.840
+So one of the most used use case right here is something like a table.
+
+01:42:40.840 --> 01:42:47.840
+Like if you go and see table already, just you have don't have to build it, call it pass on the data, whatever you need.
+
+01:42:47.840 --> 01:42:57.840
+Like if you see data grid, you see data grid, how many columns and rows need pagination data and, you know, checks and checkbox selection,
+
+01:42:57.840 --> 01:43:00.840
+whether you need a checkbox selection or it's a Boolean value.
+
+01:43:00.840 --> 01:43:02.840
+So they make our work really easy.
+
+01:43:02.840 --> 01:43:05.840
+So we'll talk about like how do you consume this components also.
+
+01:43:05.840 --> 01:43:11.840
+And we'll we know we are going to do leverage at most good amount of things.
+
+01:43:11.840 --> 01:43:16.840
+But before going to any things like big things.
+
+01:43:16.840 --> 01:43:26.840
+Firstly, let's make sure that our basic building blocks, the knowledge we consume till now is clear to us.
+
+01:43:26.840 --> 01:43:34.840
+OK, so revise things, join with me in the sessions, completely revise all the notes at least right.
+
+01:43:34.840 --> 01:43:41.840
+If you are going with any third party external nodes, anything, I don't say that anyone who is published into production,
+
+01:43:41.840 --> 01:43:45.840
+put it on the normal websites might be teaching in a wrong way, anything.
+
+01:43:45.840 --> 01:43:52.840
+But what I want to say is that we have picked it up a good amount of examples we have written here in the GitHub.
+
+01:43:52.840 --> 01:44:00.840
+If you are firstly clear with this, right, if you have still more just in you to learn more, you can pick them up.
+
+01:44:00.840 --> 01:44:03.840
+OK, you can read a number of articles.
+
+01:44:03.840 --> 01:44:07.840
+I would even urge you to go and read a good amount of articles.
+
+01:44:07.840 --> 01:44:12.840
+OK, even write it on the post for that matter.
+
+01:44:12.840 --> 01:44:18.840
+OK, so but at least revise this thing.
+
+01:44:18.840 --> 01:44:25.840
+I hope to see you everyone tomorrow in the stream where, you know, I want to stream it tomorrow and Saturday.
+
+01:44:25.840 --> 01:44:28.840
+We don't have a class, but I'll stream it on Saturday too.
+
+01:44:28.840 --> 01:44:38.840
+I'm doing it two sessions or 45 minutes for class for the reason behind you have a contest coming up.
+
+01:44:38.840 --> 01:44:46.840
+So where if you sit with me for this 1990 to like around 180 minutes, you will be more thorough with the contest.
+
+01:44:46.840 --> 01:44:55.840
+You will be revising it. You will be meeting better confident about, you know, facing a mocks because mocks are able to start.
+
+01:44:55.840 --> 01:45:02.840
+And I want to see your journey along with you, like how are you able to clear mocks and how we can do it better.
+
+01:45:02.840 --> 01:45:07.840
+OK, at least the basic building blocks, the HTML, CSS, JS should be pretty easy, straightforward.
+
+01:45:07.840 --> 01:45:12.840
+Someone asked you to do it a machine coding. You should be like some with built two websites.
+
+01:45:12.840 --> 01:45:18.840
+Right. I've seen I've received few people who are actually building again can ban board trying to replicate it.
+
+01:45:18.840 --> 01:45:21.840
+I appreciate those efforts who called me directly for the issues.
+
+01:45:21.840 --> 01:45:23.840
+Harish was one among them.
+
+01:45:23.840 --> 01:45:33.840
+I sat with him personally, fixed some issues in his court. Right. OK. Hey, lost it, buddy.
+
+01:45:33.840 --> 01:45:41.840
+Somebody can ban board is off. You can recheck. OK.
+
+01:45:41.840 --> 01:45:47.840
+But there are people who have built. I felt really happy that you customized it. So let's do that.
+
+01:45:47.840 --> 01:45:56.840
+I was I was also asking like if you are actually, you know, building like portfolio website, a basic portfolio website that we have done it.
+
+01:45:56.840 --> 01:46:01.840
+Maybe can you build that? So all these things will be going into resumes, right?
+
+01:46:01.840 --> 01:46:05.840
+Depending on your experience point of view, you have to put those projects to a fresher.
+
+01:46:05.840 --> 01:46:10.840
+It's all good to go. OK.
+
+01:46:10.840 --> 01:46:18.840
+So this with this, I'll start the doubt session. If you have any doubts, please stay in the class.
+
+01:46:18.840 --> 01:46:23.840
+If not, feel free to drop, share your feedback. Really helpful.
+
+01:46:23.840 --> 01:46:30.840
+If you have any constructive feedback, I'm happy to take and work on it. OK.
+
+01:46:30.840 --> 01:46:36.840
+But to drop the feedbacks and second thing is like thank you for, you know, this journey.
+
+01:46:36.840 --> 01:46:40.840
+It's been really awesome. Like we have covered a good amount of basics module now.
+
+01:46:40.840 --> 01:46:56.840
+And I'm excited enough to, you know, go into the next two months of roller coaster ride where we cover actual things that I'm doing in day in day out at my office or been doing at my office since like last three, four years or five years of experience.
+
+01:46:56.840 --> 01:46:59.840
+Mostly so.
+
+01:46:59.840 --> 01:47:03.840
+The next let's let's let's pull in the people who are not joining the pleasure.
+
+01:47:03.840 --> 01:47:09.840
+Let's pull in. Let's sit together because things will be moving bit fast from next Tuesday.
+
+01:47:09.840 --> 01:47:13.840
+OK. Things will be moving fast. So I hope everyone stay there.
+
+01:47:13.840 --> 01:47:22.840
+Alternate is that you stay with me, go through the articles, revise the concepts, keep it completely your base ready.
+
+01:47:22.840 --> 01:47:32.840
+OK. Thank you.
+
+01:47:32.840 --> 01:47:45.840
+So then I'll start the doubt session.
+
+01:47:45.840 --> 01:47:48.840
+So I had a question how to optimize paint and other steps.
+
+01:47:48.840 --> 01:47:55.840
+What are the things taken care in paint like images, font, color, etc.
+
+01:47:55.840 --> 01:47:58.840
+OK. So firstly, right.
+
+01:47:58.840 --> 01:48:03.840
+I'll talk about from the experiences I have the things that I've built.
+
+01:48:03.840 --> 01:48:06.840
+OK.
+
+01:48:06.840 --> 01:48:10.840
+Because I keep learning from the optimization part.
+
+01:48:10.840 --> 01:48:12.840
+OK.
+
+01:48:12.840 --> 01:48:16.840
+Firstly, your major metric, right.
+
+01:48:16.840 --> 01:48:25.840
+So even optimizing the paint paint optimizing the paint is not something that you can do it.
+
+01:48:25.840 --> 01:48:30.840
+Painting may be however the big site is.
+
+01:48:30.840 --> 01:48:36.840
+You can reduce the amount of load on let's say if you have a page.
+
+01:48:36.840 --> 01:48:39.840
+Of big scrollable page.
+
+01:48:39.840 --> 01:48:43.840
+OK. But your viewport size is this much only.
+
+01:48:43.840 --> 01:48:47.840
+And this part is not visible to the user.
+
+01:48:47.840 --> 01:48:50.840
+Do you need this to show on the screen?
+
+01:48:50.840 --> 01:48:52.840
+Firstly, it first started.
+
+01:48:52.840 --> 01:48:58.840
+If you load this part of content, it's good enough, right?
+
+01:48:58.840 --> 01:49:02.840
+Right. So this part actually, how do you reduce them?
+
+01:49:02.840 --> 01:49:05.840
+It's like, you know, this comes under the first LCP.
+
+01:49:05.840 --> 01:49:11.840
+Like first LCP is actually completed when users start interacting with site.
+
+01:49:11.840 --> 01:49:12.840
+Largest content.
+
+01:49:12.840 --> 01:49:20.840
+The other part where you are actually trying to reduce the load is by doing something like lazy loading.
+
+01:49:20.840 --> 01:49:22.840
+Lazy loading is one of the steps.
+
+01:49:22.840 --> 01:49:34.840
+How do you actually reduce the amount of pressure you put it on those engines like JS engine or the, you know, the DOM creations and everything, right?
+
+01:49:34.840 --> 01:49:46.840
+So only like after some time, once you this loaded, if users cross it, multiple, multiple JS files, HTML files, CSS files are pulled and recreated.
+
+01:49:46.840 --> 01:49:50.840
+OK, so only when it is required, they load it.
+
+01:49:50.840 --> 01:49:52.840
+OK, that things happen.
+
+01:49:52.840 --> 01:49:55.840
+And this lady lazy loading concept is heavily used.
+
+01:49:55.840 --> 01:50:01.840
+And one more thing is if you have heard this thing, I'll talk it later also.
+
+01:50:01.840 --> 01:50:03.840
+But I'm just speaking because you have asked it.
+
+01:50:03.840 --> 01:50:06.840
+Do you know this keyword code splitting?
+
+01:50:09.840 --> 01:50:11.840
+Have you heard this code splitting?
+
+01:50:15.840 --> 01:50:16.840
+OK, code splitting.
+
+01:50:16.840 --> 01:50:17.840
+I'll speak it.
+
+01:50:17.840 --> 01:50:19.840
+I'll speak when we go into the react.
+
+01:50:19.840 --> 01:50:21.840
+But on a top level, right?
+
+01:50:21.840 --> 01:50:30.840
+What it generally happens is the amount of JS code, the amount of JS code you actually shipping to the client should not be heavy.
+
+01:50:30.840 --> 01:50:42.840
+Like if you see the files of JS is right in the network tab, any you go to any bigger websites, you'll see that there are 20, 30, 40 art files getting downloaded at one shot.
+
+01:50:42.840 --> 01:50:51.840
+But there is no one file which is more than three MB or 30 MB or 300 MB files are downloaded.
+
+01:50:51.840 --> 01:50:52.840
+Right.
+
+01:50:52.840 --> 01:50:55.840
+There are no bigger size of files are downloaded.
+
+01:50:55.840 --> 01:51:05.840
+There are like all things are converted into small chunks and the small chunks of code is actually transported and that code splitting is not done automatically.
+
+01:51:05.840 --> 01:51:07.840
+It is what you manually write on code.
+
+01:51:07.840 --> 01:51:08.840
+Logics.
+
+01:51:08.840 --> 01:51:09.840
+How do you do it?
+
+01:51:09.840 --> 01:51:14.840
+And in order to do code splitting itself, we use lazy loading.
+
+01:51:14.840 --> 01:51:16.840
+OK, we'll see this example.
+
+01:51:16.840 --> 01:51:18.840
+How do you actually do the splitting of code?
+
+01:51:18.840 --> 01:51:22.840
+How do you share it only the required amount of code to the client?
+
+01:51:22.840 --> 01:51:23.840
+I'll talk more on that.
+
+01:51:23.840 --> 01:51:26.840
+But these are like again, not from the beginner scope of point of view.
+
+01:51:26.840 --> 01:51:29.840
+So I'll share more knowledge.
+
+01:51:29.840 --> 01:51:31.840
+If you are interested, you build a use case.
+
+01:51:31.840 --> 01:51:32.840
+I'll try to help you out.
+
+01:51:32.840 --> 01:51:33.840
+Completed.
+
+01:51:33.840 --> 01:51:45.840
+OK, now the second thing, the like once you do the lazy loading and this one optimization then comes like how are you rendering?
+
+01:51:45.840 --> 01:51:50.840
+Firstly, you know what happens is you have HTML.
+
+01:51:50.840 --> 01:51:53.840
+You have CSS in JS.
+
+01:51:53.840 --> 01:51:56.840
+You write some HTML.
+
+01:51:56.840 --> 01:51:59.840
+You try to bind with the DOM.
+
+01:51:59.840 --> 01:52:00.840
+Update it.
+
+01:52:00.840 --> 01:52:03.840
+Now, when you are updating it right.
+
+01:52:03.840 --> 01:52:07.840
+When you're updating from JS to the HTML.
+
+01:52:07.840 --> 01:52:12.840
+All the DOM says some.
+
+01:52:12.840 --> 01:52:22.840
+I mean, the whole to say so critical rendering path.
+
+01:52:22.840 --> 01:52:30.840
+Path is reconstructed.
+
+01:52:30.840 --> 01:52:33.840
+I mean, each update is actually refreshing the page.
+
+01:52:33.840 --> 01:52:34.840
+Hold down.
+
+01:52:34.840 --> 01:52:36.840
+I mean, you're building the tree again doing it.
+
+01:52:36.840 --> 01:52:43.840
+So what people used to say is that if you are actually doing DOM manipulation, try to reduce the amount of DOM manipulation.
+
+01:52:43.840 --> 01:52:44.840
+You do it.
+
+01:52:44.840 --> 01:52:52.840
+Try to make sites such a way that you purely render the all the HTML needed at most.
+
+01:52:52.840 --> 01:52:55.840
+OK, some some way around.
+
+01:52:55.840 --> 01:53:01.840
+We have to reduce the DOM manipulation because it is heavy in size.
+
+01:53:01.840 --> 01:53:04.840
+They are like huge operations.
+
+01:53:04.840 --> 01:53:08.840
+OK, from browser point of view, the amount of processing it does.
+
+01:53:08.840 --> 01:53:19.840
+Now, I have we have solutions for this one optimizations, how they have done it, because I'll keep talking like the problem statement for the react.
+
+01:53:19.840 --> 01:53:22.840
+So we'll figure it out one by one things.
+
+01:53:22.840 --> 01:53:29.840
+OK, but these are the initial things that I want to talk about is like one is two things are taking more time.
+
+01:53:29.840 --> 01:53:34.840
+First thing is like the amount of code transported to the client at one shot.
+
+01:53:34.840 --> 01:53:41.840
+And second thing is like all the manipulations that user events happen, which re renders that critical rendering path.
+
+01:53:41.840 --> 01:53:45.840
+So you have to figure out the initial chunk.
+
+01:53:45.840 --> 01:53:54.840
+Initial chunk should be lighter and the amount of the manipulations that you are actually doing with Dom should be reduced.
+
+01:53:55.840 --> 01:54:02.840
+OK, figure out that way or you have to optimize such a way that Dom should not be completely rendered.
+
+01:54:02.840 --> 01:54:06.840
+Only some part of Dom should be rendered.
+
+01:54:06.840 --> 01:54:09.840
+I'm talking really high level upendra.
+
+01:54:09.840 --> 01:54:11.840
+OK, I hope you get this.
+
+01:54:11.840 --> 01:54:16.840
+But we'll see one by one more more ideas will come up where you will be able to see things.
+
+01:54:16.840 --> 01:54:19.840
+OK, but I would request right.
+
+01:54:19.840 --> 01:54:22.840
+I would request you go through web dev.
+
+01:54:25.840 --> 01:54:28.840
+Web dev core web vitals.
+
+01:54:43.840 --> 01:54:46.840
+If you go for the learning section.
+
+01:54:49.840 --> 01:55:00.840
+I think it's in the performance itself.
+
+01:55:00.840 --> 01:55:03.840
+You go for performance.
+
+01:55:06.840 --> 01:55:18.840
+If you say you will have all the performance related issues like understanding critical path, then how do you process the image, optimize the resource loading,
+
+01:55:18.840 --> 01:55:23.840
+the amount of resources loaded, video performance, optimizing for funds.
+
+01:55:23.840 --> 01:55:27.840
+The code splitting and lazy loading is something that I talked about.
+
+01:55:27.840 --> 01:55:32.840
+And pre fetching pre rendering is actually where you go for CSR SSR.
+
+01:55:32.840 --> 01:55:34.840
+OK, service worker pre caching.
+
+01:55:34.840 --> 01:55:41.840
+OK, these are like again, these are like some advanced, but these are like really used, commonly used.
+
+01:55:41.840 --> 01:55:49.840
+And image performance is something like where you try to store that image nearby in the CDN server where you can pull it because those are big in size.
+
+01:55:49.840 --> 01:55:50.840
+Right.
+
+01:55:50.840 --> 01:55:52.840
+So those all things have been done.
+
+01:55:52.840 --> 01:55:56.840
+But most of them you will also learn like from the NHLD class.
+
+01:55:56.840 --> 01:56:01.840
+But this is a one particular course, which is reading material.
+
+01:56:01.840 --> 01:56:06.840
+You have to read it one over over the time to get complete understanding of this.
+
+01:56:06.840 --> 01:56:10.840
+OK, so I'll share this link with you.
+
+01:56:11.840 --> 01:56:16.840
+I hope I answered your question up in the.
+
+01:56:16.840 --> 01:56:19.840
+It was a big one, but.
+
+01:56:19.840 --> 01:56:28.840
+Yeah, I'll go through this where it will talk about why speed matters, how to optimize, because these are the people who actually build the lighthouse.
+
+01:56:28.840 --> 01:56:33.840
+OK, so this is something that I was talking about, like how do you do code splitting?
+
+01:56:33.840 --> 01:56:34.840
+Read this article.
+
+01:56:34.840 --> 01:56:37.840
+This is one of the common use case that everyone does.
+
+01:56:37.840 --> 01:56:45.840
+OK.
+
+01:56:45.840 --> 01:56:50.840
+Like if you see, they are preparing the data, starting it.
+
+01:56:50.840 --> 01:56:53.840
+Now, after that, they did it.
+
+01:56:53.840 --> 01:56:57.840
+So that's how that is to work.
+
+01:56:57.840 --> 01:57:02.840
+But yeah, it's good to read because this is the side I've shared with you is this.
+
+01:57:03.840 --> 01:57:08.840
+I mean, this will cover most of the web related.
+
+01:57:08.840 --> 01:57:11.840
+If you don't need to go any.
+
+01:57:11.840 --> 01:57:19.840
+No one can teach you better than the people who have built this, you know, Chrome and the build tools.
+
+01:57:19.840 --> 01:57:24.840
+You will see more about responsive designs and, you know, CSS part.
+
+01:57:24.840 --> 01:57:30.840
+I even shared that CSS links when we were actually learning it, like how to understand in depth.
+
+01:57:30.840 --> 01:57:32.840
+OK, how what browsers understand.
+
+01:57:32.840 --> 01:57:36.840
+OK, and responsive design.
+
+01:57:36.840 --> 01:57:37.840
+Anyways, you can explore it.
+
+01:57:37.840 --> 01:57:40.840
+It's again grid and Flexbox.
+
+01:57:40.840 --> 01:57:44.840
+Other things are good enough, like performance is something interesting here.
+
+01:57:44.840 --> 01:57:50.840
+OK.
+
+01:57:50.840 --> 01:57:54.840
+So then if I have any doubts, I'm happy to take it up.
+
+01:57:54.840 --> 01:58:00.840
+If not, we'll close the session and people who will be joining will be meeting it tomorrow.
+
+01:58:00.840 --> 01:58:04.840
+Then if not, we'll be joining on Tuesday.
+
+01:58:04.840 --> 01:58:05.840
+We'll be meeting on Tuesday.
+
+01:58:05.840 --> 01:58:08.840
+But all the best for, you know, contest.
+
+01:58:08.840 --> 01:58:10.840
+Take it up.
+
+01:58:10.840 --> 01:58:19.840
+Revise the notes completely so that before we complete react, you complete the mock interview for HTML, CSS, JS.
+
+01:58:19.840 --> 01:58:21.840
+OK, revise the things.
+
+01:58:21.840 --> 01:58:27.840
+I've given you the all the material that you need from the notes, from the links and everything.
+
+01:58:27.840 --> 01:58:33.840
+OK.
+
+01:58:33.840 --> 01:58:52.840
+I'll wait for one to minutes, guys, then we'll close the session.
+
+01:58:52.840 --> 01:58:58.840
+Learning Figma developer mode.
+
+01:58:58.840 --> 01:59:02.840
+Firstly, developer mode is something that I've heard for the first time.
+
+01:59:02.840 --> 01:59:08.840
+I know Figma. Figma is actually a web design platform.
+
+01:59:08.840 --> 01:59:21.840
+Let me see this.
+
+01:59:21.840 --> 01:59:25.840
+But what happens, this one is right.
+
+01:59:25.840 --> 01:59:27.840
+Upendra.
+
+01:59:27.840 --> 01:59:33.840
+I mean, I've told myself when I started my journey right from.
+
+01:59:33.840 --> 01:59:37.840
+Like this is my own.
+
+01:59:37.840 --> 01:59:41.840
+I try export assets and everything.
+
+01:59:41.840 --> 01:59:43.840
+OK, let's see.
+
+02:00:11.840 --> 02:00:27.840
+I mean, the UX tool, but just for.
+
+02:00:27.840 --> 02:00:29.840
+And say if I if I use this.
+
+02:00:29.840 --> 02:00:34.840
+So what I can do here, Upendra, like, let's say if I have this image.
+
+02:00:34.840 --> 02:00:39.840
+So how can I export it?
+
+02:00:39.840 --> 02:00:45.840
+Because I use this in day in day out, but I don't know the thing that you are talking about.
+
+02:00:45.840 --> 02:00:50.840
+We have Miro, if you know Miro.
+
+02:00:50.840 --> 02:00:56.840
+Right bottom.
+
+02:00:56.840 --> 02:00:58.840
+Export.
+
+02:00:58.840 --> 02:01:03.840
+Let's say export tomato as an image is.
+
+02:01:03.840 --> 02:01:11.840
+Cool.
+
+02:01:11.840 --> 02:01:13.840
+As I already.
+
+02:01:13.840 --> 02:01:21.840
+I mean, this is fantastic, but this again lets you to handle only static data.
+
+02:01:21.840 --> 02:01:27.840
+You know.
+
+02:01:27.840 --> 02:01:28.840
+That's a plan to handle.
+
+02:01:28.840 --> 02:01:30.840
+OK.
+
+02:01:30.840 --> 02:01:36.840
+So while that works up to what like, you know.
+
+02:01:36.840 --> 02:01:42.840
+My my personal opinion is that.
+
+02:01:42.840 --> 02:01:53.840
+I won't go, but like, you know, my way of seeing development is that I've made myself myself to the, you know, whatever trending things are there and what is most used in the market.
+
+02:01:53.840 --> 02:02:03.840
+So I try to go from that perspective and I try to stick to open source guys like whatever things are there in open source because.
+
+02:02:03.840 --> 02:02:06.840
+Open source gives you an ability to learn.
+
+02:02:06.840 --> 02:02:14.840
+You know, do things that you generally cannot do with the something enterprise applications like Figma is an enterprise thing, which is handled by Adobe.
+
+02:02:14.840 --> 02:02:15.840
+Right.
+
+02:02:15.840 --> 02:02:19.840
+Right. So Adobe might whatever features it gives.
+
+02:02:19.840 --> 02:02:21.840
+Right. OK. Developer is a toggle button.
+
+02:02:21.840 --> 02:02:26.840
+Once I switch on.
+
+02:02:26.840 --> 02:02:33.840
+It says to use dev mode in this file, move it to the paid item.
+
+02:02:33.840 --> 02:02:36.840
+Where is the paid item?
+
+02:02:36.840 --> 02:02:38.840
+Maybe I not I not have the access.
+
+02:02:38.840 --> 02:02:45.840
+Maybe I'll second office once.
+
+02:02:45.840 --> 02:02:52.840
+I cannot switch it.
+
+02:02:52.840 --> 02:02:54.840
+But not much idea on this case to be frank.
+
+02:02:54.840 --> 02:02:58.840
+Right. If I say things that might be wrong.
+
+02:02:58.840 --> 02:03:00.840
+So keeping it frank.
+
+02:03:00.840 --> 02:03:01.840
+Right.
+
+02:03:01.840 --> 02:03:08.840
+I mean, I've used Figma left Adobe when they bought it last year.
+
+02:03:28.840 --> 02:03:44.840
+I don't think my Adobe.
+
+02:03:44.840 --> 02:03:45.840
+I just did a month ago.
+
+02:03:45.840 --> 02:03:46.840
+I think. OK.
+
+02:03:46.840 --> 02:03:50.840
+I didn't know this because it was a really cash deal.
+
+02:03:50.840 --> 02:03:52.840
+Right. For the Figma.
+
+02:03:52.840 --> 02:04:00.840
+I mean, they're getting paid really great amount of money.
+
+02:04:00.840 --> 02:04:10.840
+Because too much competition was coming like I we play around a tool called Miro.
+
+02:04:10.840 --> 02:04:15.840
+I use this for my design documentation and things more like office.
+
+02:04:15.840 --> 02:04:19.840
+You know, whatever I want to do, I leverage this one.
+
+02:04:19.840 --> 02:04:21.840
+I mean, we have one common access.
+
+02:04:21.840 --> 02:04:23.840
+So we use this to it.
+
+02:04:23.840 --> 02:04:25.840
+This is also cool.
+
+02:04:25.840 --> 02:04:28.840
+Then for whatever diagrams I draw and share with you.
+
+02:04:28.840 --> 02:04:34.840
+Right. That's I think everyone knows exactly draw.
+
+02:04:34.840 --> 02:04:37.840
+Right.
+
+02:04:37.840 --> 02:04:43.840
+See, I have this already things, whatever I pasted to you in chat.
+
+02:04:43.840 --> 02:04:46.840
+Yeah.
+
+02:04:46.840 --> 02:04:49.840
+So I use Accelerator also up to an extent.
+
+02:04:49.840 --> 02:04:53.840
+But yeah.
+
+02:04:53.840 --> 02:04:57.840
+Miro is really cool.
+
+02:04:57.840 --> 02:05:00.840
+I mean, if you're going for system design, HLD, right.
+
+02:05:00.840 --> 02:05:12.840
+Try to see if you can integrate a draw.io with a Miro and take the into this mock into this in the future.
+
+02:05:12.840 --> 02:05:14.840
+Hello, guys.
+
+02:05:14.840 --> 02:05:16.840
+Then we didn't even took the break.
+
+02:05:16.840 --> 02:05:17.840
+We'll close the session.
+
+02:05:17.840 --> 02:05:21.840
+We'll come back tomorrow.
+
+02:05:21.840 --> 02:05:22.840
+Okay.
+
+02:05:22.840 --> 02:05:26.840
+Thank you, guys.
+
+02:05:26.840 --> 02:05:27.840
+Thank you.
+
+02:05:27.840 --> 02:05:28.840
+See you guys.
+
+02:05:28.840 --> 02:05:29.840
+See you guys tomorrow.
+
+02:05:29.840 --> 02:05:30.840
+Bye.
+
+02:05:30.840 --> 02:05:31.840
+Take care.
+
+02:05:31.840 --> 02:05:35.840
+Good night, guys.
+
+02:05:36.840 --> 02:05:40.840
+Try to solve PSP, improve your PSP, guys.
+
+02:05:40.840 --> 02:05:42.840
+Problem solving percentage for assignments.
+
+02:05:42.840 --> 02:05:44.840
+Work on that part.
+
+02:05:44.840 --> 02:05:47.840
+Okay.
+
+02:05:47.840 --> 02:05:49.840
+Good night, guys.
+
+02:06:05.840 --> 02:06:07.840
+Good night, guys.
+

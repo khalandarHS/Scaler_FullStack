@@ -1,0 +1,928 @@
+start	end	text
+0	2060	you
+30000	33060	you
+60000	63060	you
+90000	93060	you
+120000	123060	you
+150000	152000	you
+152000	154000	you
+154000	156000	you
+156000	158000	you
+158000	160000	everyone
+160000	162000	you
+162000	164000	you
+164000	166000	you
+166000	168000	you
+168000	170000	you
+170000	172000	you
+172000	174000	you
+174000	176000	you
+176000	178000	you
+178000	180000	bit
+180000	182000	bit
+182000	184000	bit
+184000	186000	bit
+186000	188000	bit
+188000	190000	bit
+190000	192000	bit
+192000	200000	bit
+200000	202000	bit
+202000	206000	bit
+206000	225160	I can help anyone any doubts question to yesterday's session because what was the
+225160	231240	question do click the button then it is destroyed but two new button will be
+231240	235000	created at its place the next two what it should also behave like the above
+235000	239280	button so what is the behavior of the above button the behavior of the above
+239280	246560	button yes so what is the behavior of the other button the behavior of the
+246560	252560	above button is that on click of the button that button will be destroyed but
+252560	258000	two new buttons will be created on its place so what we had done we
+258000	264520	implemented it that way right so how did we do that we have a button initially
+264520	270560	so we put an event listener on its parent it is double hold down and the
+270560	276160	event listener was click so we are listening to click event
+278600	281600	is it fine now
+284480	291120	great okay so there is a click event that we are listening to on click event
+291120	294360	we are doing these many things so basically whatever the question is
+294360	298640	asking me to do I'm doing it here so let's go to the question step by step on
+298640	302560	click of the button that button will be destroyed we are destroying that button
+302560	307680	at the end right it says get two new button will be created so how did we
+307680	311560	create button if you remember we created by using something called document dot
+311560	318080	create element document is again an object which is provided to us via an
+318080	322880	environment which is browser environment so in here we have the
+322880	327240	button right I said I simply said why I want to create a button I want to create
+327240	332480	an equivalent of this button so what are certain properties of this button the
+332480	336960	inner text is saying double so we had wrote this first we created the button
+336960	341440	online about 23 then we put the inner text to double exactly like this one
+341440	346280	then we also see key by classes also there and it is also said to double so
+346280	351160	we simply set my set a new attribute what what attribute I want to set class
+351160	357080	and this will be double likewise I created a second button so in this part
+357080	362600	I am simply creating two buttons right here it says key but two new buttons
+362600	367400	will be created so I was able to create two new buttons now these two buttons
+367400	371800	have to be appended somewhere but if these two are created in memory but how
+371800	377800	do I bring it out to my Dom so I already have access to my parent double
+377800	382120	holder so I said keep a TK whatever button was created simply appended so
+382120	386120	this first button got appended to double holder and second button got appended to
+386120	390560	double holder then I wanted to destroy the button which was clicked so if you
+390560	394280	remember we learned about target and current target in last class target
+394280	401840	tells us about the place where the event originated so on click of certain
+401840	406760	button only this event must have been originating so from that event or
+406760	411720	target I am simply calling remove and that's all I was able to solve for this
+411720	416680	problem on click of this button one button will be destroyed and two new
+416680	426560	buttons will be added and it will keep on going take a man is it clear
+431880	435880	I am audible right
+438080	442080	one doubt yes what's it out
+446680	456360	you should have written down your doubt at the start only
+456360	475680	are you okay we'll take it in doubt session perfect cool so ticket so with
+475680	481680	that they can close this close this it is history now now we'll start with
+481680	487480	class 13 which is dynamic term and today we will be learning about web APIs
+487480	496000	and we will also be integrating our first web API right so first things
+496000	500920	first before today's class so today we will be building our first product right
+500920	507480	so while building any product I want you to keep certain things in mind right so
+507520	519920	first thing is always have first principle thinking what do I mean by
+519920	525800	first principle thinking you must have your concepts clear like one such
+525800	530240	concept we learned in last class key everything in JavaScript is an object
+530240	536320	right so this is a fact it will never change if you have this in mind you sort
+536360	540480	of have your first principle thinking clear right so whatever are these
+540480	546600	fundamentals of any language you should adhere by it you should say I know for a
+546600	551480	factory this won't change so stand by it second while building any project it is
+551480	560000	intuition right what do I mean by intuition key while building you should
+560000	566200	always have empathy for the end user the person who is going to use your
+566200	571240	product right so in that way only you would be able to think about each cases
+571240	577080	a chair if I were my end users place I would do this and this might break think
+577080	581520	like a hacker key how can I possibly break this once you are able to know key
+581520	589120	this is a loophole in your project then go and fix have a fix for it so you
+589120	594040	should have a strong intuition he what you are out to build and have empathy
+594040	599000	for the end user only then you will be able to think like a product manager or
+599000	607120	someone basically be a holistic product person is what I'm trying to say right
+607120	611880	thirdly is pretty straightforward without this you cannot build any
+611880	615080	project that is
+616760	627440	foundation thinking it's simply means you should have your basics clear right
+627440	636280	basics as in your HTML CSS JavaScript OSI layers DSA all of these things should
+636280	640400	be clear at least the basis I'm not asking you to be able to solve lead code
+640400	644680	hard what I'm asking you is you should be able to understand data structure if
+644680	649980	you were to break it down data structure how do you structure your data what are
+649980	654280	the types of data types which is why if you have your foundational thinking
+654280	659760	clear actually big tech companies this is what they focus on the most
+659760	665720	especially when they are hiring in bunch foundational thinking which is why you
+666320	672920	they are focusing too much on DSA they are focusing too much on JavaScript why
+672920	677600	because these are the foundational skills right so if you have these three
+677600	683560	things sorted then you should be able to build a project right obviously it is an
+683560	687760	iterative process you won't get it right the first time but you will be able to
+687760	693440	that is something that I can promise right with that do you want to see the
+693440	698200	project that we will be building today we will be building a project using the
+698200	702240	knowledge that we have accumulated in the last couple of lectures but do you
+702240	707920	want to see the project first or should we start coding Abhinav, Vaima, Dharon,
+707920	716880	Ashwini, Krishna, Muniswara, Pradeep, Sambit, Geeta, Raja, do you want to build?
+716880	731400	yes project first so let's see the project that we will be building today
+731400	737840	so this is the project that we will be building today it is like a wither
+737840	744720	application so basically we'll be using some third-party APIs that don't worry
+744720	749280	if any of this does not make sense to you we'll be talking about each of each
+749280	756960	of these things in detail right so basic HTML and CSS part then something we must
+756960	761520	be doing with JavaScript that we are able to get this data like I can change
+761520	768600	here and say Mumbai search see I'm getting the data it is getting updated on
+768600	775040	click of this if I were to show you the network tab also when I search for tell
+775040	778960	me the city that you are from I'll search for the weather there so which
+778960	781720	city are you from
+783160	790520	Bangalore okay let's search for Bangalore and you will see an API call went and we
+790520	795560	got Bangalore so that it is partly cloudy today and the temperature is 25
+795960	804880	right we can check for Hyderabad as well yes another API call went so it is 23
+804880	808600	then it is partly cloudy there also so Hyderabad is a bit cooler than
+808600	817240	Bangalore right so what exactly is this API call right how do you how do we send
+817240	821480	this how do we get our self authenticated how do I build this how what
+821480	826120	exactly is happening when I click on search we will be discussing all of
+826120	836160	these things in today's lecture so are you excited I know I am greater so with
+836160	848000	that let us get started so first things first what would happen if I search for
+848040	857160	weather today so Google will show me this form of snippet
+864560	870560	so Google will show me this form of snippet here right as you could see it
+870560	874720	is showing this graph and everything and not sure how is it getting all this
+874920	882280	from but when I search for weather today it gives me this much information but
+882280	887240	how do I get this information myself right where can I go to get this
+887240	891520	information myself and by the way this is something that we will be building
+891520	899360	today right so there's this website here called let's say AccuWeather right so
+899360	903880	AccuWeather is one such website where you can go and get this data from right
+903920	909120	and what exactly is happening here how exactly is it key I am clicking
+909120	914600	something here basically opening a URL and I'm getting the data like this how
+914600	918560	exactly is this happening so let's go through the network tab once and try and
+918560	922600	figure out what exactly is happening here
+922600	944120	so let me click on this again and enter you could see a lot of calls went but
+944120	948120	where exactly are these call going you must have learned this in the very first
+948120	955880	class key how do we get the HTML from right we are getting the HTML I need to
+955880	967040	apply filter do you get that thing okay here you probably don't take so here
+967040	972080	basically some API call when this particular API call went and in response
+972080	978920	to this particular API I get this response does this look familiar to you
+978920	989200	yes does this look familiar we have script tag we have for meta tag we have
+989200	997240	head tag which language is it correct so basically what is happening key
+997240	1002000	whenever we search for any website basically a call goes to this particular
+1002000	1006400	place so it just knows key I want to go to this place and you must have learned
+1006400	1009360	about DNS and all of those things eventually you reach a computer
+1009360	1015800	somewhere which we are calling server and that server returns this HTML and
+1015800	1022240	this HTML is returned and then your browser comes in and then your browser
+1022400	1026800	will convert this particular HTML into this website that you are seeing here
+1026800	1042160	right so what is happening there so what is happening there suppose we have for
+1042160	1058720	here website website or here you could say the computer for AccuWeather
+1058720	1078080	AccuWeather and here you have your browser right here is your client which
+1078080	1090480	we also called browser right so and request will basically go from client to
+1090480	1096760	AccuWeather and AccuWeather returns a response and this response is nothing
+1096760	1104720	but an HTML file and once it reaches here then you probably need some sort
+1104720	1111840	of parser to make sense of it right so what are the steps to load a website you
+1111840	1128880	type URL in your browser you go to network tab and then you open a web page
+1128880	1147400	and you get HTML file right and this file is given to your browser which is
+1147400	1155360	also a parser and this browser converts it into the beautiful UI that you see
+1155840	1163680	right are you able to follow till here obviously you must have learned a lot of
+1163680	1169720	things in detail but this is a short story like how you go to a web page you
+1169720	1173840	make an API call basically go to a particular site an HTML file is returned
+1173840	1180080	your browser makes sense out of that HTML file and renders the UI that you
+1180080	1191440	want to play around with correct so far so good now let us talk about parser so
+1191440	1199520	what exactly is this parser that we are talking about what is this parser so
+1199520	1220360	parser you could say is a simple program that reads a particular format of data
+1220360	1240240	and converts that into something else right so some of the examples would be
+1240240	1252320	browser what does it do it is HTML parser it brings out the UI so can you
+1252320	1259480	think of any other parser that takes in a file and it gives you something in
+1259480	1271440	return any other thing think about you have VLC right it takes mp4 format files
+1271440	1285440	and convert it into a video right you have for image viewer it takes in dot jpg
+1285440	1293280	file and converts it into what anyone correct it converts it into an image
+1293280	1301000	right so basically you can keep on going at keyway what does a parser do is what
+1301000	1306680	the parser does is it clear to everyone it is a simple program that reads a
+1306680	1313040	particular format of data data and converts that into something else and
+1313080	1319760	that is exactly what we saw here we were receiving this HTML file this is
+1319760	1327160	hypertext markup language and my browser made sense out of it here I am calling
+1327160	1332120	multiple things I am saying I need this I need this I need this so it is calling
+1332120	1337840	all of those things simultaneously and once it does it basically once it get
+1337840	1346240	all the resources needed for this file it loads the file here right so all good
+1346240	1352800	all good till here everyone is able to follow yes Arun, Ashish, Chandni, Kishore, Krishna,
+1352800	1363400	Munishwara, Digneshwar, Teja, Vishalanya, Sampet correct great great great now
+1368720	1375920	there is something else there is more to it it is not always straightforward as
+1375920	1385560	it is not always straightforward as you will get HTML file so you need more
+1385560	1390200	kinds of data to play around with right so let's go to this website called
+1390400	1406320	weather API right let's go to this website this website I can go to let's say
+1406320	1420000	API Explorer right and here it says key I need to mention the protocol let's say
+1420000	1425880	it's HTTP format I want JSON so and so and so basically when I click show
+1425880	1430760	response I get some kind of response here this is not a correct response that
+1430760	1437080	I was expecting but we get some sort of but we have some sort of response here
+1437080	1446800	so if I were to go here close this and click here you see again I'm making a
+1446920	1452080	thing and I'm getting a response here also we're getting HTML file but we're
+1452080	1457200	getting a response so there can be more than one types of response we need to
+1457200	1463520	add the API key here let me add one in fact let me go to where there are here
+1463520	1471000	you will see when I search for Hyderabad I search for this thing this looks more
+1471000	1477080	or less like the URL that we entered here correct but here we were getting
+1477080	1484840	HTML but here we are not getting HTML instead we are getting some different
+1484840	1491440	kind of data so it is also possible to you hit a endpoint you hit a URL and you
+1491440	1497680	not get HTML now my browser is not able to make sense out of this right so let
+1497680	1507320	me copy this and paste it here I've installed a in this particular browser
+1507320	1512920	it has this thing by default but this is the format that all of you would get
+1512920	1518560	the data in let me paste the link here try opening this link in your browser
+1518560	1527320	try opening it in a new tab you would find something like this right are you
+1527320	1536160	finding something like this yes so this means keep this endpoint gives you data
+1536160	1541400	right this endpoint is live it gives you data but it is not that kind of data
+1541400	1548560	that will be rendered into a webpage so would it be fair to say key I can decide
+1548560	1557640	on what URL I want to send what data back based on that I can do things sort
+1557640	1571120	of right correct so let's show the same thing here so now we have a different
+1571960	1586720	so once again I have another computer this is API dot weather dot com why did
+1586720	1592200	I write API dot weather dot com because if you go here and see here this is what
+1592200	1600120	it is starting with API dot weather dot weather API dot com right and which is
+1600120	1609240	nothing but a web API and this is what we will be playing around today right
+1609240	1619480	and once again we have our client and which client are we using anyone which
+1619480	1629320	client are we using to make a request correct correct correct we are using a
+1629320	1643440	client which is browser and we also call it our web so this client is again
+1643440	1649920	making a request but this time instead of getting a response HTML we are getting
+1649920	1657720	response data which is in a different kind of format right so there is
+1657720	1662800	something really interesting that I just mentioned there is something really
+1662800	1671400	interesting that I mentioned key how am I supposed to how the data is
+1671440	1677400	represented right so there are different formats of representing the data and the
+1677400	1684200	format that we are representing our data in here is a different format I know for
+1684200	1692400	a fact it is not HTML because I know HTML when I see one right so which means key
+1692400	1704840	so which means key we can talk about different formats of data format is the
+1704840	1713560	keyword by the way so let's talk about format for a bit right so let me quickly
+1713560	1725880	mention data representation format so the idea is he I am slowly taking you
+1725880	1729800	towards the project by introducing you to some of the building blocks and then
+1729800	1735160	will accumulate all of the knowledge that we have gathered in last two classes
+1735160	1741040	and whatever we are talking about now and will be building that thing right
+1741520	1748920	then so what are some of the formats that you are aware of one such format
+1748920	1761320	that you may have seen is you open anything so it opens a spreadsheet this
+1761320	1775000	is also sort of a data only right I can mention name age and this thing let's
+1775000	1790000	say name age and city so name is Sashil it is 26 city is Bangalore here name is
+1790000	1808400	let's say age is 28 city is Delhi name is Prakhar age is 29 city is Pune so this is
+1808400	1817920	also I am formatting the data right this is a CSV format right but this would be
+1817920	1825040	exported to Excel a sex right but yes it is one kind of format another kind of
+1825040	1830400	format there could be something called how many I don't know how many of you
+1830400	1835880	have heard of this but earlier back in PHP days there was the data was
+1835880	1851200	transferred in XML format so it was written like this name sorry name
+1858200	1860920	age city
+1865880	1889960	right so this is one such format any other format are you aware of there is
+1890040	1899600	one more kind of format that I'm aware of this is user.json right so we'll talk
+1899600	1906120	about JSON in a bit but yes it is also one such kind of format so it is going
+1906120	1913920	to be like and like this here I'll say name it is like a key value pair
+1913920	1935760	here I could again mention name is Sashwar age is 26 and city is Bangalore
+1935760	1941000	right so basically in such a short span I told you about different kinds of
+1941000	1946760	format so can you help me remind what all other formats that I mentioned so
+1946760	1961080	one was one was definitely CSV right so there is a spreadsheet right you could
+1961080	1977560	have CSVXLXL format and it would be read by these things excel google sheets
+1977560	1988720	likewise we have format for XML which could be read by XML parser then we
+1988760	1995280	would probably have format for JSON can anyone tell me the full form for JSON
+1995280	2000240	this is read by JSON parser by the way
+2001240	2019760	anyone can tell me the full form of JSON JSON actually stands for Java script
+2019760	2031160	object notation so JavaScript already had a has a support for JSON right so
+2031160	2035840	one important thing that I wanted to point out just by having a look at it
+2035840	2041440	one would normally say key it is an object it is a JavaScript object not
+2041440	2045760	JavaScript object notation it is a JavaScript object and this is where
+2045760	2053760	they are wrong right so JSON cannot be an object JSON is always in a string
+2053760	2060560	format the data is only JSON when it is in a string format when it is converted
+2060560	2067080	to a JavaScript variable it becomes a JavaScript object right so those two are
+2067080	2072920	very different right but whenever used in this thing JavaScript we have to make
+2072920	2083080	it into a JavaScript object right now enough talk let's start coding now and
+2083080	2094440	now let's make some API calls right looks like CSS attribute not exactly CSS
+2094440	2102560	attribute but yeah I get your point here so there is this website here I'll close
+2102560	2111680	this close open you Jason type
+2111880	2123840	sorry it is Jason placeholder free fake test API rest API right so let's go in
+2123840	2128680	here so Jason placeholder free fake API so remember we are we were talking about
+2128800	2137360	earlier there are two things firstly there are web APIs and then there are
+2137360	2143680	normal websites which gives you HTML so where can I get this particular data
+2143680	2150000	from so one such example to play around with is Jason placeholder it gives you
+2150000	2156680	free fake API for testing and prototyping right so if I were to scroll down you
+2156680	2163040	would say key some link is mentioned here so let me copy this go here and
+2163040	2170600	paste and enter you see I'm getting the data right so you guys can also paste it
+2170600	2178240	and you would also get some sort of data here right so and if I were to remove
+2178240	2185760	this one you see I'll get a whole lot of data right so normally when people are
+2185760	2190520	getting started this is they are one of their favorite websites in fronting why
+2190520	2195920	because they can go here and get some more data right so now let us quickly
+2195920	2208440	write some code to make use of this thing right so we'll be creating a file
+2208440	2215400	here let's do it in index or HTML right so before we proceed is the this
+2215440	2220480	editor visible to everyone is the text big enough or do you want me to make it
+2220480	2225960	a little more big big enough right cool cool great let me save this right now
+2225960	2239720	it says it is running on 5000 so I'll close this and run it okay and I open
+2239760	2246880	this here now I don't think we need this this not definitely right now we will be
+2246880	2251280	coming back here but let's close this one now I close this for now so right
+2251280	2267200	now we have nothing here right let me quickly making API call let me open the
+2267240	2278000	network tab go to now how do we make API calls from web application how do we
+2278000	2283720	make API calls from web application so there is a method which is given to us
+2283720	2289840	let me open the script so there is a method which is given to us using which
+2289840	2299400	we can make an API call whenever we want right so the end point that we will be
+2299400	2304040	using let me get that JSON placeholder
+2306160	2312720	this right let me paste it so this is the end point that we will be making an API
+2312720	2323920	call with let me open the script tag now and let's write a function foo and
+2323920	2330600	inside of this function I'll be making an API call oh so something there is
+2330600	2337520	something called fetch right can anyone tell me give where will I find fetch we
+2337520	2341560	learned it in the last class where can I find fetch how am I directly able to
+2341560	2353680	write fetch here anyone where exactly do you think fetch would be present it's a
+2353680	2363280	method which is correct but on which object this method is present no HTTP is
+2363280	2367960	the scheme that is a different thing altogether we are not we haven't clicked
+2367960	2375280	anything so event we won't be receiving so I'll tell you so remember I told you
+2375280	2383760	key all such things are present on root level on an object called window so as
+2383760	2389760	you could see I can do window document and this is the entire document
+2389760	2396480	likewise I can enter window you see window has these many things you may
+2396480	2401840	have used alert right so alert is also one such method which is available in
+2401840	2409000	window let me make it so alert is again one such method you have a clear
+2409000	2413640	interval clear time or two probably have not used it yet but they are pretty
+2413640	2427640	useful right likewise here you will find fetch and what does fetch do fetch MDN
+2428000	2434640	fetch provides an interface for fetching resources right so wherever we will be
+2434640	2439920	fetching resources we are I'm basically saying I will be going to this place and
+2439960	2444800	I'll fetch the resource and we had already seen key from this I'll be getting a
+2444800	2451880	JSON in return right so JSON is the resource that I am fetching using the
+2451880	2463040	fetch API right is everyone able to follow just a quick yes no yes T so now
+2463040	2470000	I know for a fact key I have to use fetch cool so let's simply make use of
+2470000	2477280	it and in an ideal world it would work right so I already have the link with me
+2477280	2487360	let me copy this paste it here and let me store the response here and I can do
+2487360	2498280	console dot log response right so I need to execute the function take I just
+2498280	2508740	executed the function as well now they good right we should be able to get the
+2508740	2518220	data now let's go and see where our data is I'll go to document and here it is
+2518220	2523540	saying hmm I'm not seeing my data instead I'm seeing here something called
+2523540	2529380	promise which is pending right so promise is a fairly advanced topic so we
+2529380	2533860	won't get into it right now right in future you have in total of three
+2533860	2539700	classes around this so let me quickly tell you in brief key why this is
+2539700	2552140	happening and what's the way around it okay so let me mention key say there is
+2552140	2561300	this guy named for sure and I am taking the class in this and this is the
+2561300	2570300	timeline of the class right this is the start this is the end right and I am
+2570300	2577620	moving in this direction slowly slowly but what if someone asks a doubt here I
+2577620	2592900	will address the doubt and let's say it took me around two minutes so which
+2592900	2598300	means keep post this when the doubt is clear I'll again start going going going
+2598300	2603900	from where I left off I left off here so I'll start from there and I'll keep on
+2603900	2614020	going until someone else's interjects again being the guy I am again I address
+2614020	2623940	the doubt and it will again take me some time so would you say key this is the
+2623940	2629100	best way to conduct a class yes or no key every time I am waiting for some
+2629100	2634900	time before moving forward right so it is not exactly the best way to conduct
+2634900	2642260	the class and ultimately I reached here so what could be the other way that we
+2642260	2647780	could probably have conducted this so this was again the start this is again
+2647780	2653380	the end and this time I am by conducting the class I keep on going and when
+2654380	2663660	they have a doubt I will postpone this doubt to end right so let's say and I
+2663660	2669660	have a bucket prepared so I have mentioned their doubt here and I can
+2669660	2675580	continue from there itself then again someone has a doubt again I'll take this
+2675580	2683260	out and put it at the end right and this way I am able to conduct the class in a
+2683260	2692200	more fluent manner right there are two thumbs down uncle and Tejan are saying
+2692200	2704980	this is not the way to conduct a class but take it so out of these two ways
+2704980	2711580	this the first way of conducting the class is you could say I am doing
+2711580	2715180	things in a
+2715180	2725260	well up in a synchronous manner right and in the second way I'm doing things
+2725260	2733860	in a asynchronous manner right so yeah it's fine to take it so the first thing
+2733860	2737700	I we are doing it in synchronous manner and the second we are doing in a
+2737700	2743500	synchronous manner so in synchronous manner I am supposed to stop to get the
+2743500	2751340	data to get the data and then moving forward right and in asynchronous manner
+2751340	2756020	I'll keep on moving forward so JavaScript whenever someone asked you
+2756020	2761900	is JavaScript synchronous or asynchronous JavaScript is synchronous
+2762900	2768100	and if you think about it getting the data from somewhere why does it need
+2768100	2775460	internet because your request actually goes to that server right your request
+2775460	2785260	actually goes from your computer point A to point B and this round trip is
+2785260	2791820	supposed to take some time which is why if you see here I'll go to network
+2791820	2797780	tab here it says mentions a time as well right this took three seconds three
+2797780	2804900	milliseconds if I go here and I refresh go to the top it takes 190 milliseconds
+2804900	2812660	so this one to 90 milliseconds is the time it took to cover this round trip
+2812660	2818820	now some would say key it is fast but in computer terms every millisecond every
+2818820	2823660	nanosecond counts so this means keep this is basically taking sometimes a
+2823660	2830420	JavaScript has two things that they could do it could either wait or it
+2830420	2838740	could keep on moving forward so the reason that you are getting pending for
+2838740	2844140	this one here is because it moved forward even though it is synchronous
+2844140	2849860	because of promises and callback and asynchronous behavior it was able to
+2849860	2853900	move forward but don't worry about it you'll worry about you'll learn about it
+2853900	2858340	in future class but this is just to give you an idea keep this is how
+2858340	2864620	JavaScript works so basically it went it moved forward it moves forward saying
+2864620	2874500	I promise I promise keep when I get the data I will let you know right so which
+2874500	2879740	is why you are getting a promise here interesting right the names also there
+2879740	2885580	put it in such a way can you starts making sense so now we'll go back here
+2885580	2891940	and now how can I figure it out till so here I can add a simple thing called a
+2891940	2896860	sick at the start by writing a sink here I'm mentioning kibbit this function will
+2896860	2903460	perform asynchronously right and I am to write a weight here so which means key
+2903460	2908500	when I'm making this API call I will JavaScript will actually wait on this
+2908500	2915380	line he until and unless I get a response I won't move forward right so
+2915380	2920140	now I save this and I'll go back here now this time you can see I got
+2920140	2929620	something I got something right but this is again not the kind of response that I
+2929620	2939860	was expecting correct why because this again needs a asynchronous behavior I
+2939860	2954180	cannot use it so let me say first Jason is equal to a weight response dot Jason
+2954180	2966340	and I can paste this here and now I can go and now you see I'm getting the data
+2966340	2973580	here interesting right now I may be able to get the data so this again
+2973580	2979100	response dot Jason was an asynchronous start so which is why it was again
+2979100	2983940	breaking I put a weight here and by the way I can only put a weight inside of
+2983940	2989500	asynchronous functions so I cannot just put a weight here and expect it to work
+2989500	2993300	if I were to remove this you'll see it start giving an error key await
+2993300	2997740	expressions are only allowed within async functions and that top level of
+2997740	3006540	modules right so I need to write async here and not as soon but async here and
+3006540	3014700	save this so this way I am getting the response what we want now I can use this
+3014700	3019840	response and put it in dong you know how to do that you can target the H1
+3019840	3028720	element and simply in inner text paste this thing and it would work right but
+3028720	3035080	how we are making the API call and these two line basically is it clear to
+3035080	3041160	everyone why a response dot Jason here so response is not in the exact structure
+3041160	3045920	that we could utilize it so which is why it needs to be converted into Jason
+3045920	3050680	remember I mentioned that Jason is the formatted JavaScript understands so this
+3050680	3055200	is a actually a method to convert it into that but this function is
+3055200	3059880	asynchronous so which means we have to put a weight here otherwise as you saw
+3059880	3072120	we would be getting an error let's try to answer your query cool great yeah so
+3072120	3077160	with that I think we are all set now we can get started with the project but
+3077160	3082080	before we get start with a project we have one tiny bit one tiny thing to do
+3082080	3089360	and what is that as you could see here also wherever I am making the where will
+3089360	3094720	I get this URL from right so let us figure out a way to get this URL first
+3094720	3100760	before we get started right let me close Jason placeholder now that part is done
+3100800	3115880	I'll go to whether API in here so here it gives you free weather API right I can
+3115880	3122080	go to pricing and you could see for zero dollar per month we get these many
+3122080	3128560	things in a month I can make 1 million calls which is 10 lakh calls and so many
+3128560	3135840	things it is providing right if I were to pay seven dollar per month then I'll
+3135840	3141000	have these many things but for today's session we will be relying on the free
+3141000	3146000	version and you can keep on going up and up and up and you can expect some sort
+3146000	3153160	of API is here right we want this one so let's get started with that I will I've
+3153160	3157200	already created an account here is it real time or dummy placeholder this is
+3157200	3162400	the weather API is not dummy the one the plug Jason placeholder that we were
+3162400	3171840	using that was to me this is real time right so you can sign up here I had
+3171840	3176880	already created an account so I am going to login but once you sign up and I will
+3177480	3190000	see more or less the same thing I just logged in here and it says I have these
+3190000	3195200	many things with me my free trial apparently ends on 15th of 4th so before
+3195200	3202640	that we need to finish this lecture I don't need any of these things let's go
+3202640	3209640	to something called so this is the part what exactly is this API key that you
+3209640	3215040	are seeing this is interesting so when you log in or when you sign up you will
+3215040	3220560	land on this dashboard you will get a unique API key now think of it this way
+3220560	3230280	key if hitting an API is as simple as like this API I can copy and paste it
+3230440	3237560	if it is as simple as this won't anyone will be able to do that yes or no it is
+3237560	3242400	as simple as copy and paste every time someone copy and paste a call goes to
+3242400	3249160	these guys whether API and they send this data back and how much time is it
+3249160	3255820	taking to bring this data can anyone tell me so how much time is it taking to
+3255820	3267940	get me this data current.json it says 278 no correct it is 211 millisecond so
+3267940	3277820	think of it this way I can possibly spread this URL everywhere and everyone
+3277820	3287220	use it how can these guys tell key whether Shashwat is consuming this API
+3287220	3292700	or Ankit is consuming this API Upendra, Ashi, Shambhu Rajan who is consuming this API
+3292700	3301620	and this is the authentication so if I were to if you could see here these are
+3301780	3321060	called query params so dissect URL and I can show here only no in here just a
+3321060	3328980	second I can go to payload so as you could see these are the three query
+3329060	3334580	params that I'm sending while making this particular API call in header right
+3334580	3341500	one is the key second is the query second and third is the AQI so whatever
+3341500	3345500	query we are writing like in this particular case it was Hyderabad so we
+3345500	3351900	are sending I want data for this I don't want AQI and this is the key so this key
+3351900	3356700	is nothing but the key which is mentioned here I'm using someone else's
+3356700	3362540	apparently so which is why the key seems different but if I were to let's
+3362540	3372940	say copy this and I want to paste this is some 802 right I'll paste my I'll
+3372940	3384500	paste I'll copy and paste my key here and enter it will work but suppose if I
+3384500	3392180	were to make changes to this to and make it zero right now it is saying the API
+3392180	3400940	key has been disabled right and if I don't send this key at all right I'll
+3400940	3407900	get API key invalid or not provided right so because why did they send this
+3407900	3412060	because there was no way for these guy to verify K by who is trying to consume
+3412060	3417860	my API until and unless someone they are able to identify who is this person
+3417860	3421500	they won't be able to make changes in their dashboard he why you have already
+3421500	3427140	used hundred API calls you have already used two thousand API calls so if you
+3427140	3433220	want to create your own simply sign up with weather API right weather API dot
+3433220	3437420	com and you will land on this dashboard you will get your own personal key which
+3437420	3447180	you could use correct now let's go to document and now one last thing these
+3447180	3454140	are all query params right so key is an important query param it helps weather
+3454140	3460020	API to identify who is trying to consume query is my query give I I want to
+3460020	3466180	search for Hyderabad suppose if I want to search for something random something
+3466500	3473180	right and search in this case I'm getting an error put a valid location will be
+3473180	3478100	building this also by the way and you will see I'm sending the query as this
+3478100	3483540	IQ I still has no and in preview I'm getting this response this again is in
+3483540	3494180	JSON format right so now with that be clear now we can get started
+3494180	3503620	I do this so now let's get started building the project right so all that
+3503620	3509980	story for this part I'll close the snippets part now we'll get started
+3509980	3516700	rebuilding index.html script.js and style.js right I can close this this
+3516700	3523660	now before we proceed I just want to hear it from everyone he is everyone
+3523660	3533020	able to follow till now yes Abhinav, Ankit, Abhimanyu, Ahmed, Arun, Ashish, Ashwini,
+3533020	3541700	Chandni, Dhanraj, Hemant, Kishore, Krishna, Munishwara, Pradeep, Prajakta, Pramod, Raja, Rita, Sahil,
+3541700	3550980	Sandhya, Sheik, Sharanya, Tejal, Upendra, Vigneswar, Vinay, Priyanko, Rohit, Shambhu, Raje
+3551020	3559340	everyone able to follow okay that's fine that's more than fine Ankit but I hope
+3559340	3573980	you you get the crux of it right great great great so with that now I can go
+3573980	3583620	here and here there is something called API Explorer I can go here and your API
+3583620	3597780	key let me get my API need to get it from manually now they built sort of a UI
+3597780	3602740	for me remember we were getting an error here that was the reason I'll paste my
+3602740	3607820	API key here I'm searching for London show response and this time I'm getting
+3607820	3612940	200 success as you could see this is the end point URL that they are hitting and
+3612940	3620900	this is the response that they are giving right so all is sorted now now
+3620900	3628700	all I have to do is build a UI and consume this API so let's get started I
+3628820	3637780	can probably close this and do I need this yes I will be needing this so
+3637780	3657220	instead of snippet I can simply do this enter and in here and mention hello see
+3657220	3661340	we're getting hello so we're in the right file now now all we have to do is
+3661340	3668580	implement a project so let's get started
+3669780	3679700	Tiga so this is the way that at least I proceed so first things first we need
+3679700	3685660	the HTML then we need to apply the CSS and then we'll get to the main part
+3685660	3691700	which is JavaScript right so HTML and CSS should not be a big hurdle for you
+3691700	3697100	guys at this point considering you have already finished the first module so I
+3697100	3703020	will be skipping directly to the JS part of things right so anyway let's get
+3703020	3708460	started and I tell you think about the structure of this right you basically see
+3708460	3715820	two diffs here right there is a container in that container in that
+3715820	3722020	container you have this thing a weather app in this particular weather app you
+3722020	3733220	could see you have this this is just a second so this is the container and this
+3733220	3737540	is the now so there are two sections that you want to play around with
+3737540	3745340	correct and these two sections exist inside of your body and once you start
+3745340	3750660	going in you can see you have a weather here and here you have your temperature
+3750660	3755140	time location weather and you can keep on further going in and you will find
+3755140	3763380	he how they are structured right pretty simple HTML at this point just a div
+3763420	3769940	which has another div which will be which has another div couple of and you
+3769940	3779100	can keep on going and keep on building your HTML so with that being said let
+3779100	3788420	us go to let me bring out the HTML here so this is a structure that we are to
+3788420	3801060	follow right so just a second so same structure in body in body I have two
+3801060	3807540	sections one is container one is now if I were to expand now you would find I
+3807540	3815300	have a text input for me and I have a button and that is exactly what you see
+3815300	3819980	here I have an input screen I have a button now I can close this now I can go
+3819980	3825060	to container control to weather did inside I had three things so container
+3825060	3828940	is basically the whole thing the whole blackish thing that you are seeing that
+3828940	3833500	is the container inside of this container we had made a weather which is
+3833500	3840580	basically a wrapper around this section right and in this section we have three
+3840580	3859100	things if you see we have one div here we have one so we have one div here we
+3859100	3868740	have one div here and we have one dip here and if you think about it all of
+3868740	3874820	these tips are sort of in a row so which means keep huh you can copy paste it
+3874820	3880380	from inspect but a lot of other things would also come which you might find
+3880380	3887400	consuming so I would suggest you do not anyway I'll be pushing the code so you
+3887400	3895220	can just copy paste it from there right TGA and in here this will be centered
+3895220	3900020	align this is all three are center align but here you have two divs now so one
+3900020	3904300	div at the top one div at the bottom here you also have one div at the top
+3904300	3908540	one div at the bottom and that is exactly you will see here this thing is
+3908540	3915020	single-handed in time location you have a P you have a span in weather condition
+3915020	3922940	you must be having image and you have the condition right so in here we are
+3922980	3928060	getting the styles from style and we are getting the scripts from script or just
+3928060	3932700	which by the way both are empty right now right so let me save this and see
+3932700	3938060	what the HTML looks like right now so this is what your HTML looks like right
+3938060	3945940	now so quick question does it look like this yes or no
+3945940	3958140	are both of these apps similar no right take it now this again a little bit
+3958140	3964260	amazes me every time see how much change the look and feel CSS could bring
+3964260	3969700	although that's its entire job but still this is play such a critical role
+3969700	3974660	because it just changes the entire trajectory of the app it makes it so
+3974660	3981220	well up at least aesthetic to look at if if done correctly that goes without
+3981220	3987540	saying let me add the CSS simple things simple classes simple all of these
+3987540	3995220	things you must have heard about flexbox and all here we are using grid and you
+3995220	4000420	may have read about grid also in some of the previous classes some places we had
+4000420	4005700	used flex some places we had to use grid you can go through this after class once
+4005700	4019260	I push the code right now let's go back here now do they look alike yes great
+4019260	4026140	great great take it so now we will be starting with the main part actually
+4026140	4030620	applying the knowledge that we have accumulated in last couple of classes so
+4030620	4036700	for that let us take a quick break and when we are back for the break then
+4036700	4041380	this get started with the script or JS part and we will right now as you could
+4041380	4045380	see this is not functional at all if I do anything nothing is happening I'm
+4045380	4050420	trying to click nothing is happening nothing is happening no API calls are
+4050420	4057060	going on so I would close this do this nothing is happening right so now we
+4057060	4064740	will be applying JavaScript and using the newly found API this API to get the
+4064740	4070080	data here right so we'll be doing this after the break right now it is what
+4070080	4082080	time it is it is 10 o 7 let's connect at 10 13 right 10 minutes my god he got
+4082080	4087320	10 minutes about good number there so it's 10 minutes party party time
+4087320	4097840	okay so at 10 what time now at 10 17 we'll connect right so let me start
+4097840	4100360	a timer
+4106720	4113760	nine minutes if not the whole year now start
+4118920	4126520	take care go for a break meanwhile if any one of you has any doubt regarding
+4126520	4135520	anything we can discuss and you and CSS yes we are importing the forms from
+4135520	4142240	Google API's we must be using it also the Roboto font we have put it in font
+4142240	4148400	family simple thing only yeah it's nothing much here container better
+4148400	4156680	whether anyone else has any doubt while others go for water go for a walk
+4156680	4161120	stretch your legs now we'll be starting with a meaty part of the project which
+4161120	4168800	is see writing actual JavaScript making an API call get the data and update our
+4168800	4174440	dog I just want to see the class names class names leto I think this would be
+4174480	4179400	the best place now see the class names wherever we have this
+4187960	4192760	meanwhile anyone else has any doubt
+4204440	4206600	you
+4234440	4236480	you
+4250240	4255760	join now was stuck in a meeting
+4255760	4272720	so the rich we were mostly talking about the difference in between HTML response
+4272720	4278200	and some Jason response different formats we went on to talk about some
+4278200	4285480	weather APIs that we could use we break down how they are authenticating us how
+4285480	4291600	do they know key whether it's making this API call or making this API call
+4291600	4299480	and lastly we went to this one website called Jason placeholder which gives us
+4299480	4305800	mock APIs dummy APIs dummy data so through that we were able to get the
+4305800	4312440	response and now we just started with a project we are set out to build this
+4312440	4317960	project with that app today you could search for any city and it would provide
+4317960	4323920	you the data for that so we are building this we just finished HTML and CSS part
+4323920	4333280	now after 5 minutes and 24 seconds we will be starting with JavaScript
+4334120	4344400	don't worry sir anyway you have five minutes you were stuck in a meeting so go have some
+4344400	4350160	water in five minutes will begin right meanwhile if anyone else has any doubt
+4350160	4355160	regarding anything that we had covered now in today's class please ask
+4813280	4820920	I'm audible now
+4820920	4835400	so let's get started so most probably you didn't hear the answer also that I was
+4835400	4841200	giving for your question key whether it would do we need to enter correct spellings to
+4841200	4849920	search or it will manage right okay so the answer is no it won't it is not that
+4849920	4859840	will make it is like a free thing so get nine chair so we decide won't but how do
+4859840	4864960	they do it is pretty interesting so you could Google about it it's called fuzzy
+4864960	4875480	search fuzzy search so Google about it it tells you okay how it works right pretty
+4875480	4885840	interesting to get I hope the screen is also shared and I'm audible right just a quick
+4885840	4895600	show of hands great okay so before we begin let me launch the poll so once again I'm
+4895600	4899960	launching the poll let's see if you guys send it at 50 50 this time or not right
+4899960	4904040	so launching the poll now in three two one
+4904040	4914560	okay okay
+4914560	4935000	someone mess it up at the end yes cool so as I said I mentioned this before also none
+4935600	4945040	able to make it 50 50 and considering this is my last class here you also won't be able
+4945040	4952800	to end it at 50 58 great so with that now I feel good and it's a challenge sort of
+4952800	4961960	a thing it's not something that I want to get so let's get started so so far what we
+4962120	4967720	had done we had we have the HTML and CSS in place now all we have to do is figure out
+4967720	4973160	the API call and if you were to refer one of the snippets that we had done we had already
+4973160	4981000	know how to make the API call also right we already know how to make the API call also
+4981000	4987600	so with that knowledge in place let's get started so let's get started with the basics
+4987600	4998080	so let's get started so we are listening to now because in now we have the input present
+4998080	5003720	right so we are ought to listen to the input so we need to target it first right only then
+5003720	5012920	we can listen to the change events so let's do that first correct so I'll go to script.js
+5012920	5038440	and I can listen to const search button document dot query selector we want to search for search
+5038760	5045240	is the search name here the class is present search and it is unique to it so let's do
+5045240	5054760	dot search now that I have searched with me I can attach a event listener add event listener
+5054760	5060880	we are listening to which event click event and we need to provide a call back to this
+5060880	5069040	and in this call back will be getting a event so let me quickly check if we are receiving
+5069040	5088360	the event yes we are receiving the event so we also need to attach event listener to the
+5088840	5100120	because that's where we will be getting the data from I can say document dot query selector dot
+5100120	5113720	search field that's it right and in here I can bulky say search field dot let's go for search
+5113760	5121760	field and let's see what do we get right so let's go here and I'll clear this go to console
+5121760	5141120	and I'll say here let's say and press enter see I'm able to get the event and on this
+5141120	5153800	I don't have the value so I can probably get the value from this so let me search for Delhi
+5153800	5161520	and we're able to get the data so remember the API call that we were doing for this API call I
+5161520	5167880	have the key with me correct I have the AQI value with me it is always going to be no and
+5168040	5177160	now for query which is the what city am I searching for I have the Delhi also in place
+5177160	5182960	so whatever the user types when they click search I have that also with me now so which
+5182960	5189840	means key all I have to do now is make an API call with this would you all agree yes
+5189840	5201240	should we go ahead and implement the API call part now so now all we have I can now say
+5201240	5219400	fetch temperature for this so now if I go here and search for Mumbai fresh temperature
+5219400	5229960	for Mumbai so I know so let me have a function here and we can call this function fetch weather
+5229960	5239640	right we will be passing the city name here and considering kid we will be making an API call so
+5239640	5247920	is there anything that I need to put in front of this function any any keyword that you may have
+5247920	5258760	seen character we need to put a sink in front right now that we have a sink in front I can
+5258760	5275880	go in here and say the same thing right considering key fetch weather and here
+5275880	5295440	I can pass search field dot value and what I can say is event dot prevent default so prevent
+5295440	5300960	default whatever is a default behavior it would stop that and it would simply do this right so
+5300960	5313800	let's case let's see if the this was a form it button type submit case the page would have
+5313800	5325240	refreshed so which is why if I were to remove this also it would it would work is it fine now
+5331960	5340000	great yes I'll go a little slow so event or prevent before basically says keep whatever is
+5340000	5347200	the default behavior it will stop that right it won't make it do that well even if I were
+5347200	5352080	to remove it it would still work but this is just for your understanding to put it at a start that's
+5352080	5358440	it right we don't need to get into detail for this in future when in the next class action when
+5358440	5364840	you start building your next project there you will be seeing this in action in detail right so
+5364840	5371600	right now if invoke the cancel attribute value set to true while executing the listener of the
+5371600	5377040	event with passive set to for signals to the operation that caused event to dispatch but
+5377040	5383720	it's a lot written here so let's wait for the next class in next class while you start building
+5384360	5395440	board there you'll be seeing it in action take so now it is working now I can go here I can
+5395440	5402280	search for a location enter fetch temperature for this so it is working so now comes the actual
+5402280	5413200	API call part right so what is the URL const URL is equal to let me get the URL from here
+5413720	5441240	take I'll make it in tick and I'll make this one as city name and I'll take it out and say
+5441320	5457440	const API to gun right and paste it here take now my URL is ready what whatever is the query
+5457440	5466400	I have a URL for that right now all I have to do is follow whatever we had done here so let me
+5466400	5482480	copy paste it go back to script and here I can do this but instead of this one I'll say URL right
+5482480	5494680	so now when I'll do console dot log parsed JSON or I'm missing
+5503960	5510920	you can work with normal quotes also prefer it this so this way I can add things directly
+5510920	5525160	inside I don't need plus posting so which is why it's the voice pack just a second
+5525160	5538280	it's the just a second let me share my screen again take it is the voice back
+5538280	5547320	I've been on our sheesh Muneeswara some bit upendra great in case it gets
+5547920	5554280	let me know how I've reduced the screen quality just so my voice is better okay
+5554280	5564400	but I'm assuming key you would still be able to read it through right zoom a little okay let
+5564400	5576000	me make it a little bit now it should be whispered great Tia so what I had done here is that I have
+5576240	5583760	the I'm using backticks they could have done it directly so what I have done here instead
+5583760	5589400	of using the plus thing you could use that that is perfectly fine I prefer backticks
+5589400	5594560	because I can directly put things in my string only I don't need to do plus plus and all of
+5594560	5601560	those things so I find it this way a little clean so that's the only reason that I have gone with
+5601560	5609160	this way but either way is fine and these two lines is something that I had copied from this
+5609160	5621640	part that this part that we had seen earlier right so with that let's save this now tell me
+5621640	5625320	if it would work if I were
+5638040	5638640	sir
+5638640	5657560	we got the response so congratulations we have the response in place
+5657560	5668040	is the net back
+5668040	5688600	now I'm checking my internet connection again I'm checking my internet connection
+5688600	5691160	so
+5718600	5739060	I will go slow, anyway we are almost there, hardly 15 minutes you need to manage and we
+5739060	5740060	are good.
+5740060	5744940	Hardly 15 minutes of content is left then we are good.
+5744940	5749220	So if you guys are okay we can move forward right?
+5749220	5765580	Cool cool cool, okay so we are able to make the API call and what am I doing?
+5765580	5773620	I am preparing my URL, I am getting the search field when the user is clicking on the search
+5773620	5779540	button, sending it to this function fetchweather and from fetchweather I am preparing this
+5779540	5787260	URL with the API token and city name and simply making the API call using fetch which is
+5787260	5789580	present on window object.
+5789580	5795940	I am using await because this is an asynchronous operation, likewise converting the response
+5795940	5802780	into JSON is again an asynchronous process so which is why I had put await here.
+5802780	5808960	So once here I get the response that we are actually looking for right?
+5808960	5815860	So now let us use this response to get the things that we want right?
+5815860	5826420	So before we do let me go here and let's see the kind of response that we had received.
+5826420	5834300	I can expand, you could see in current I am getting, feels like I am getting the actual
+5834300	5839380	temperature that we probably want to put here right?
+5839380	5840500	What else am I getting?
+5840500	5846900	I am getting the wind also in case you want, I am getting the last time it was updated,
+5846900	5852820	I already have the location with me because this is what the user has typed, I can close
+5853140	5861700	go to location, here you could see I have the country, location, longitude, latitude,
+5861700	5867340	what's the local time, we have all of these information and all of this information is
+5867340	5870740	pretty important right?
+5870740	5876180	And I also have the icon also present here that we want to load in here.
+5876220	5883460	So long story short, I have whatever data I want to get here, I have all of those data
+5883460	5884860	present with me.
+5884860	5891220	So all we have to do is take that data and inject it into the DOM and how do we inject
+5891220	5893180	it into the DOM?
+5893180	5901260	Using the methods we had learned in last couple of classes, cool?
+5901260	5902780	Is everyone able to follow till now?
+5902820	5904420	I hope the voice and all is ok?
+5907540	5914940	We will get to that, but you won't get the idea where I am heading with this.
+5914940	5921740	Now I have the data with me, all I have to do is get the relevant data and inject it
+5921740	5925500	in my DOM right?
+5925500	5935100	So I am able to follow right Shambhu, Raje, Vinay, Avinav, Ankit, Pradeep, Dhanraj, great,
+5935100	5937020	great, great, great.
+5937020	5945380	So let's go ahead and get the data first right?
+5945380	5949220	We already have the past, this thing in place.
+5949220	5964820	Let me say current temperature is equal to first Jason dot, current dot, temperature
+5964820	5978020	C. Temperature is centigrade, second.
+5978020	5991620	Let's get current condition, this also in condition we get the text and icon right?
+5991620	5995780	So we probably need both of these things.
+5995780	6014100	So dot condition dot text, copy paste and I can say condition icon, here I can get condition
+6014100	6017380	dot icon.
+6017380	6020980	What else do we need?
+6020980	6039060	So you probably need a location name and local time, I think these should be enough.
+6039060	6045060	So let's see, I close current, I will go to location, location name is location dot name
+6045060	6051260	and time is location dot local time right?
+6051260	6065700	So let's go with this, location name is location dot name and this is location dot local time.
+6065700	6072980	Now let me console this so we can just see if we have everything that we want.
+6072980	6089100	We have current time, we have current condition, we have current icon, we have we have local.
+6089100	6116380	Now if I search for Mumbai, what happened, error, see the data that we are creating.
+6116380	6122180	So if I were to expand this, this is the data that we wanted, condition icon that will
+6122180	6128620	go here, current condition, current temperature, local time and location name.
+6128620	6132540	So basically we have all the data that we need.
+6132540	6136900	Now all we have to do is utilize it right?
+6136900	6141380	One thing we forgot to do, in case it breaks how to handle it.
+6141380	6153340	So to handle all of these, JavaScript gives us a function, these things try catch, almost
+6153340	6154940	every language does.
+6154940	6163040	So let me take all of these things and put it into try and add a catch key, in case any
+6163040	6177040	of this thing breaks, just go to catch and I can start an alert saying, please put a
+6177040	6180120	valid query right?
+6180120	6188000	And I can console the log for the developer in console dot error, I can share the error.
+6188000	6193900	So this way if it breaks, it would go here, I'll see an alert and I'll see the error
+6193900	6197840	as well, right?
+6197840	6203840	So try catch is a mechanism to handle now if this block, within this block, if anything
+6203840	6212920	breaks, anything, no matter what, my application won't be, you know, gone, right, my application
+6212920	6214920	won't crash.
+6215520	6218840	I'll receive an error here so that I can handle it.
+6218840	6223160	So it is a very neat way of handling errors, right?
+6223160	6227840	Even in production, great application, everyone uses it.
+6227840	6233720	So try catch is a very, very good tool for you to know about, right?
+6233720	6235060	Great.
+6235060	6239120	Now we have this information, all we have to do is update the DOM.
+6239120	6243280	So shall we go ahead and update the DOM now?
+6243280	6250360	We already have these things in place in HTML, we have all the classes in place.
+6250360	6262920	So let me open it in the site, close it and now, and now I'm going to get the class names
+6262920	6268640	from here.
+6268640	6279440	I'll get the class names from here and I will update it.
+6279440	6291040	So let's first of all get the selectors in place so that we should be able to get it,
+6291160	6306720	right, say const temperature field, temperature field, document dot query selector.
+6306720	6313280	I see the classes there of 10, so I can do it like this.
+6313280	6329120	Likewise, I can add city field classes there as dot time underscored location inside of
+6329120	6332960	it, p tag, right?
+6333960	6350640	And this is date file, you could say, and for the remaining two fields, one is your
+6350640	6372080	dot weather, sorry, one is your icon field, the icon field, icon field in weather condition,
+6372080	6374380	the image tag, right?
+6374380	6386620	So I can say dot weather condition img and lastly, we have another field condition is
+6386620	6389980	left, right?
+6389980	6402140	So I can say weather field and here I can say weather underscore condition span, okay?
+6402220	6404940	I think we have covered all the fields from here, right?
+6404940	6409820	Or am I missing?
+6409820	6419500	Is the screen still blurry?
+6419500	6426380	Let's wait it out there.
+6426380	6429340	Let me know once it's fine.
+6429340	6441580	Anyway, here we are simply targeting the elements.
+6441580	6447980	From CSS part, you haven't get what, what was it in CSS that you haven't get exactly
+6448140	6470860	That is fine, but whatever we are talking about, that is clear to you, right?
+6471500	6484780	Well, the JavaScript part is not clear.
+6484780	6486300	That is clear, right?
+6486300	6488380	So I'm not sure what is not clear.
+6488380	6489380	I get it.
+6489380	6495740	The screen is blurry, but the concept at least the idea that I'm trying to convey that is
+6495740	6497100	clear to you guys, right?
+6497100	6500540	Because if that is clear, you can always revisit a repository.
+6500540	6504460	I'll be pushing this code so you can get the code from there.
+6504460	6509500	If the concept is clear, you still would be able to understand and in case you still have
+6509500	6514700	doubt, obviously I am there on the group to answer all your queries, right?
+6517260	6522140	So let me know if the screen is a little better, then we'll move forward.
+6522140	6526380	We just have one last leg to complete and then we are all good.
+6527180	6528380	Better now?
+6528380	6539580	Great, great, great.
+6539580	6540620	Cool, yeah.
+6540620	6542220	Let me know in case it gets blurred.
+6542220	6543260	We'll again wait it out.
+6543260	6543820	No worries.
+6543820	6546140	We have, we still have ample of time.
+6548140	6554940	So what I had done here, I was able to make the API call and from that API, I am able
+6554940	6556460	to extract the data.
+6556460	6559820	As you saw, I'm also able to log it here, right?
+6559820	6566140	So now the idea is I should be able to update my HTML with this data.
+6566140	6579420	So for that to go for that to happen, we had to select using the query selector, right?
+6579420	6585660	Using the query selector, I had attached able to target each of these elements.
+6586220	6593020	Now, all I have to do is literally just do inner text, inner text, inner text and update
+6593020	6594460	the values that you see here.
+6595420	6595660	There.
+6596860	6597100	Cool.
+6599340	6605100	So let us go ahead and do that, right?
+6606060	6609900	So just a second.
+6612380	6616540	Let me write another function here.
+6617980	6621660	Update DOM here.
+6623820	6626540	I'll be getting all of these things.
+6627660	6628940	This part I can close, right?
+6629500	6632700	The HTML part, which is fine.
+6633500	6635260	Even if it takes time, it is fine.
+6635260	6635980	I'll wait it out.
+6641180	6641420	Yes.
+6642940	6646380	So whatever things were here, I had written it down here.
+6646380	6651100	Now, all I have to do is simply update it, right?
+6657580	6659180	So let's do that.
+6662860	6664380	Now, this part is fine.
+6664860	6665020	Okay?
+6665020	6668380	So I will say...
+6670860	6672380	ta ta ta ...
+6673900	6674380	Good.
+6674380	6703820	So let me bring these elements at the bottom so that I can comment it so that I don't have
+6703820	6719260	to scroll up every time right now I can focus here t so first things first temperature field dot
+6719260	6738660	inner text is equal to current temperature right then we have city field dot inner text
+6768900	6784860	icon field icon field is nothing but an image so I can I can choose to say dot set attribute
+6784860	6795100	because I want to update the SRC there with the value that we are receiving which is condition
+6795180	6808180	icon right and lastly we have weather field dot inner text is equal to
+6808180	6820700	correct condition right so let's go here and now I'll search for Mumbai and press search
+6826420	6833020	oh my bad I forgot to call this function so with this here I just need to do this and
+6833060	6846580	say now when I go Mumbai research it is getting updated right was everyone able to follow yes
+6846580	6856300	how's the screen situation right now better than before or still still worse now good right so
+6856300	6863620	everyone is able to follow right now I can play around with it I can add for it is updating I
+6863620	6875260	can add it is updating it is night there apparently right so all of this is well yes we can use
+6875260	6881500	actuals also but I wanted to use vanilla JavaScript so without using any other library I wanted to
+6881500	6886900	do this so which is why I've done it this way right but yes you can use actuals also that is
+6886900	6904380	perfectly fine T so how about I add a little check here key if let me say const city name
+6904940	6923900	how they are getting the city name I'm sorry I can say const city name is equal to this thing
+6923900	6936860	and I can put a check here if city name city name is there go ahead basically city name is
+6936860	6948620	equal to empty string empty string in that case let's say if city name is there basically let's
+6948620	6954620	go with that that is much easier to comprehend so if city name is there only then it would make
+6954620	6966780	API call otherwise it won't let's test it out by actuals is better than actuals can you please
+6966780	6974020	other by then fetch so actuals internally does nothing it is fetch only so it is like a wrapper
+6974020	6980580	right so there's a lot of things that actuals take care of you which otherwise you have to do
+6980580	6986180	it manually so nothing else so it is the same as key same question is asking key why is sir
+6986180	6992180	automatic car better than manual car you still have to drive but automatic car takes care of
+6992180	6999380	certain things for you that's it actuals is a library to make fetch API calls it's a wrapper
+6999780	7007700	muniswara it's just a fancy way of making API calls that's it can we add degree celsius
+7007700	7015220	I don't see why not so there is something called superscript if I'm not wrong oh there is
+7015220	7017060	this current temperature
+7024020	7026020	dollar and here I can add
+7026020	7028820	matter
+7044180	7046820	let's see if it looks good
+7056420	7057700	uncut says to blood
+7061140	7065940	uncut is it still blurred for you the whether the screen is blurred or not that is not important
+7065940	7072740	are you able to understand what we are trying to learn that is important you're able to write
+7074420	7080500	okay now tell me the part if it was not blurred you want to see I'll go there and I'll wait for
+7081140	7089540	screen to be better okay so by the way we had successfully finished the project and we have
+7089540	7097140	successfully able to build right now in case you have any doubts uncut up enough I know the screen
+7097140	7103620	was blurred so in case you have any doubts explain code of script or js array we've been doing that
+7103620	7111140	only in a sensor side but okay so we have the html in place so we have to attach event listeners
+7111140	7117060	so first thing that we did was we attached the event listeners to each of the available fields
+7117060	7124100	there on index.html then one such field was search button I'd attach an event listener there what
+7124100	7129220	event are we listening to is the voice still breaking
+7133620	7142020	the data part we are talking about some that we'll get to it I'm okay it's good for me good for me
+7142020	7148180	good for me now I'm getting mixed with you some of you are saying it's good some of you are saying
+7148180	7155380	it's not some mostly Abhinav and uncut are saying it's not good do you know what is
+7156020	7161460	not good do you know what is Abhinav is it fine for you now shall I go ahead
+7168420	7175220	cool so on search button we had attached a event listener what event are we listening to we are
+7175220	7182740	listening to click event and we attached a callback so if someone were to press the click by the time
+7182740	7187780	the city name was empty nothing would happen because this condition would be false
+7187780	7193860	right but in our case if city name is there we are actually making an API call here we are passing
+7193860	7203060	the city name to we are passing the city name to fetch weather function what does the fetch
+7203060	7210100	weather function do it will make an API call using fetch we are making the url they're getting the
+7210100	7217860	token which is sort of fixed only then we have the city name we have the aq i said to know city
+7217860	7222900	name is something that we are getting from the input field if you remember and we are making
+7222900	7228580	the API call and converting it into the json format which your javascript understands
+7229460	7238420	once it does we are taking out necessary feeds from this parse json that I need to populate my
+7238420	7248500	ui my ui right so like I need the Celsius thing I need a location name I need a local time I need
+7248500	7255540	a condition right so I take out all of these things from the response that I get from this url
+7256260	7262820	right once I do I am passing the response in update.dom update.dom is again a function that
+7262820	7271060	I have defined where I am whatever event targets the elements that I had selected here
+7271060	7277220	I'm simply doing inner text in each one of them except one where it is an image so I am setting
+7277220	7284020	the src to the condition that's it I'm setting the inner text to the value that we are getting
+7284020	7291540	a response that we had got in here and that's it once it does that it starts reflecting there
+7291540	7297860	and one other thing that I had done I dropped the entire code so this is the only place where
+7297860	7304580	anything could possibly go wrong if it does it is still in try catch so my application won't crash
+7305300	7312340	instead it would go to catch block and in catch block I would catch the error and I will be
+7313060	7320740	putting it a alert out and that's how the whole application that you are seeing here would work
+7321540	7338820	is it fine now are you guys able to follow so with that great great great great yeah so
+7342500	7344340	so that's it folks
+7345300	7352420	uh I've stopped sharing my screen uh it's okay I've started a doubt solving session now
+7353060	7357780	if any one of you has any doubt regarding anything that we had discussed today
+7358500	7362180	now is the time so any one of you if have any doubt
+7374340	7390100	any doubts anyone and obviously from next class onwards Uttam will be back and he'll be
+7390100	7396260	taking the class forward so I hope the last three classes there weren't much complaints
+7396820	7399700	or you guys from my side right
+7408180	7412660	I hope the last three classes it wasn't much big of an issue
+7414660	7424100	I am what can I do I raised a complaint with geo for this they said they'll be coming over to
+7424100	7429860	check it over I think on Friday or Saturday they'll come thank you thank you
+7433540	7439860	thank you Manish for our thanks meanwhile any doubts anyone
+7445460	7446020	no doubts
+7448900	7449540	all good then
+7449540	7465620	uh one advice from my side would be to keep on practicing the assignment question
+7465620	7470980	because assignment questions at scalar are designed in such a way that if you are able
+7470980	7477060	to complete assignment question obviously you'd be able to clear the mock interviews also right
+7477060	7480260	and if you are able to perform good and mock interviews scalar
+7480260	7486500	would put in extra effort in placing you at the end how the data is extracted
+7488100	7492500	data is extracted through destructuring have you guys covered this yet because
+7492500	7494500	I remember it being one of the topic
+7497140	7504820	so it is simply adjacent right I'm calling it adjacent but it is more or less like an object
+7504820	7510580	so like you pass objects that is exactly how I am parsing it here so I'm simply going down
+7511540	7519940	pass json.current.tempc pass json.current.condition.text so I have the object with me the response object
+7520820	7527460	and I have the response object with me and I'm simply going down in current by
+7527460	7533300	what is their condition condition text so I'm simply going down this part that's it
+7533940	7537140	using the dot notation that's you may have learned
+7538100	7543540	how you do in object data structure just that way nothing special right
+7545300	7546420	Sambit is it out clear
+7554420	7558260	can you share your experience with geocinema how the tasks are given
+7559220	7565700	just to know real time things it is very fast paced and believe it or not whatever you guys
+7565700	7572100	are learning this is what we do on a day-to-day basis because this is these are the foundational
+7572100	7578740	things if you are able to clearly understand these three things html css javascript everything
+7578740	7585620	else is smoke and mirrors right everything else no matter what fancy framework you pick be it
+7585620	7595860	a this thing react view angular svelte no matter what you pick all of that is smoke and mirrors
+7595860	7602820	everything boils down to html css and javascript so just focus on this frameworks will come and go
+7603620	7609780	basics will stay forever so just focus on this and you'll be good and believe it or not
+7610260	7613140	uh that works for me a geo also
+7616420	7622340	or a which framework is trending now a lot of frameworks are trending yeah
+7622340	7628660	i mean i'm not keeping tabs but last i checked svelte and vue js are doing good
+7628660	7631540	so
+7634740	7635060	cool
+7639940	7642660	cool then uh if no other doubts
+7644340	7651700	five for web 10 where js is used i mentioned now just change the environment and it can be used
+7651700	7658100	anywhere you can make at today's time you can make mobile apps with it desktop apps with it
+7660180	7667940	vr apps with it so you can do a lot of things with js in today so js is everywhere so which is why
+7667940	7672420	you can pick the domain also later you just need to have your basics clear right now
+7673380	7675380	uh
+7676420	7678420	cool
+7680180	7688260	cool then yeah uh so that's it from my side and uh hopefully uh maybe in some future classes
+7688260	7696980	when uttam is not there i can again uh join him fill in for him right so thank you all thank you
+7696980	7701220	all for being patient thank you all for showing on a non-class day again i'm really sorry for the
+7701220	7707380	internet connectivity it is not something in my control uh so with that i think i
+7708100	7712500	i'll say adios to you guys and let me just put this option in my screen
+7716820	7725140	cool uh with that i think i'll take your leave now i'll be leaving now there right bye i'll see you
+7725140	7726580	guys around
+7730100	7734740	i'll upload the notes and i'll inform on the group right bye
+7737380	7739540	thank you thank you everyone bye
+7755140	7755780	you

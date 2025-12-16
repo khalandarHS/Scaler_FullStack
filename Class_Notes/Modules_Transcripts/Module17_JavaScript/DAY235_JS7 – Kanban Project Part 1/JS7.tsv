@@ -1,0 +1,1677 @@
+start	end	text
+0	28560	hi good evening how's everyone doing hi muneshwara good good great guys let me share my screen
+28560	40080	do let me know if you can see the screen share it was great i mean it was great i think you
+40080	49280	can see my dp it was one of the haldis dp i'm not able to share my screen guys give me a
+49280	59600	second i need to rejoin the call maybe asa asa i didn't invite it uh it was all like yeah we
+59600	67600	would celebrate it if you if you are here nearby hydropad yeah yeah sister's responsibility is very
+67600	76240	yeah like it's big man like big thing right here okay sure let's meet someday then some talk or
+76240	85360	somewhere and catch up guys i think i have an issue from you know sharing the screen
+85360	93760	i'll join back in a minute okay then we'll continue with the class give me a second
+106240	107040	you
+136240	160800	uh guys recheck again i'm visible audible right uh let me try to share the screen again
+164080	165360	hopefully this time it works
+166240	185040	so uh did you guys enjoy the teachings by shashwood are you able to catch up with the
+185040	194800	concepts that he was able to uh like understand it okay can we share some with uh can we revise
+195360	201360	wait once so we'll have uh one whole like three classes for a sink event i will be covering them
+201360	206320	in depth something so no need to worry uh we'll be covering them in depth once we
+208560	214160	okay do you feel still there is a network issue guys anyone still facing uh facing network issue
+215680	217440	feel like there's a network issue
+217440	227680	okay in past class okay uh no worries so uh let me try to
+230800	236800	rethink okay yeah uh is screen share working fine guys are you able to see
+238320	245200	i ask visual studio code being shared cool so let me connect with my ipad too in a minute
+246000	247120	we are on time
+250000	257280	hey kenny can anyone drop a ping in whatsapp group so that because it's a continuation you know
+257280	261360	classes next day classes will be building one project together applying all the concepts i
+261360	266320	want everyone to be there so if you have any doubts from the previous sessions we'll be able
+266320	274480	to cover that's the reason why i'm pushing bit uh give me a second
+275200	284480	so
+287920	297520	so you can see you see my ipad too right right great okay uh
+298160	306240	uh so can we get started guys are you all excited for one of the final projects
+306800	313440	in like from html css javascript point of view one project keeping all of them together in depth
+314080	319840	we'll see what how how much we are empowered now to build what sort of projects we can build
+319840	326880	okay so we'll try to see of all of them so before that uh give me a second i need to open few of
+326880	338000	the sites from my side i have my notes actually written
+342000	348320	so does anyone earlier have heard about this keyword called kanban board
+348320	353760	board
+353760	359120	really anyone came across this keyword called kanban board if yes can you guys tell me like
+359120	365840	what is this all about like what do you know about this one like kanban board jeera okay great
+367360	368320	anything else guys
+371760	375920	so guys are you able to hear a fan sound you want me to shut it down
+376880	378240	uh is my voice clear
+383040	391680	okay great great so jeera now so did anyone came across something called to do list in their life
+392880	402000	any applications that you see related to to do list right so so can i say something like uh
+402080	408400	tracking tool of your task
+413600	419360	this thing comes under those categories right something which manages your task and whereas
+419360	427760	jeera is a uh one product solution a product used to
+427760	434240	to manage project development
+437600	444800	so this is enterprise based an application where uh you know we have our own to-do list like when
+444800	450000	you start a day you might have a certain things to do it uh but when you go for the project level
+450000	455040	thing right there are too many things to address too many things to handle so what jeera jeera is
+455040	462320	a tool given by atlassian they have prepared to build this one end to end they are the owners
+462320	467680	for this one so what they give is they give you an ability to run a project like whole end to end
+467680	473120	life cycle like maybe from the inception to the end it will track whole things it will help you
+473120	479120	to divide them into sprints have anyone come came across words something like agile or sprints or
+479120	486160	anything have you heard of these keywords okay yeah so this is something like a to-do list now
+486160	494880	let's let's let's see this like how this works uh let me get the browser open uh give me a second
+497840	500880	like let's say if i show you a example of canban board
+501840	508800	if you see these are like uh uh like canban board now if you like a simple example is to-do
+509600	514320	in progress and testing and done this is a process of a development that happens right
+514320	521200	once you are given a task you do complete the development uh like i can open a picture from
+521200	527120	here let's see but this picture is visible right uh there should be a picture of the
+527120	533280	uh but this picture is visible right uh they're showing me too many advertisements but this
+533280	540480	picture like generally it is a an application which helps us to drive the work okay that's an
+540480	546080	idea if i show you something that you're talking about uh the tool jeera like this is the tool
+548000	555520	like if i go by so this looks like some this way uh if i zoom it in uh let's say if i zoom it in
+558080	563920	uh if you see this in jeera also they have to-do in progress in review and done so there are four
+563920	570480	stages for everything there is a four stages now we we are going to build some you know a prototype
+570480	576880	which is uh based on this like uh an inspiration from this uh a board which will help us to you
+576880	584000	know manage our task and apply the concepts that we have learned so let me show you the uh you know
+584000	589040	a built already built app give me a second i'll launch that app and i'll show you what we are
+589040	604160	going to build it projects uh second guys i am trying to launch the app i'm trying to launch
+604160	610720	from a different repo as of now so okay this is something a weather app that i launched but
+610720	614640	did you guys got you know everyone understood the weather app right how it was built
+618880	627120	right okay great now so if you see this is a kanban board that looks like now these are the four
+627760	634080	filters firstly this is a navbar section on the top whatever you can see a navbar section so this
+634080	640320	is again an inspiration for a to-do list whatever a to-do list with a better features okay uh maybe
+640320	644240	you can improve on this but this is what we will be learning where we allow where we'll apply all
+644240	649920	the knowledge okay now if you see these other filters firstly in order to create tasks one
+649920	655920	user need to click it on a plus once you click it here you will be able to enter whatever information
+655920	662480	is related to task let's say if you want to create a task considering scalar life cycle like if you
+662480	668640	when i say scalar life cycle uh let's say first thing that you would do is attend the class right
+670640	675600	and let's say i select this color pink setting the priority now i'll tell you talk about the
+675600	680000	colors that what we have understood what we have decided through these colors you can change to
+680000	687600	text later on but now once you select this and i click the shift key uh give me a second
+689680	697120	okay this isn't okay now if you see what just happened now i have created a ticket now saying
+697120	704560	a ticket now saying that attending a class now if you want to edit this content like editing the
+704560	711040	content of a class like whatever task you have you have a lock button once you click a lock button
+711040	715680	you would be able to edit the text like you can add anything in jeopardy you want to add
+715680	720880	and once you do it you can also lock the back lock it back so that the edit is done this is
+720880	726640	working like an edit button okay is that clear guys till now like how can you create a ticket
+726640	733360	and how can you uh like edit the ticket so two functionalities one is creating a ticket
+733360	738480	editing the ticket now third functionality that i'm talking about is like if you see in the jira
+738480	744640	board or the kanban board you have different statuses like to do in progress in review undone
+744640	749600	now how we are managing them in our application that we are going to build is that like if you
+749600	754640	see this pink color bar if i click it it is going to green then it is going to sky blue then it is
+754640	760480	going to black okay so we are saying that whenever we are moving it from one status to other status
+760480	766880	it generally meant that we are moving the task like let's say task from this stage to this stage
+766880	772000	this stage to this stage like one stage to the next stage is that clear guys like what this color
+772000	776720	palette is talking about like whenever you are clicking here you are able to change the color
+776720	783200	and update the status of the task that you have created now once let's say once you have created
+783200	788560	yeah we can we can add multiple tasks i'll show that once you have created you also have an
+788560	794800	ability to delete the task how can you delete it in order to enable the delete right in order to
+794800	800400	enable the delete first you have to click cross button once you have let's say when you click the
+800400	806320	cross button delete button has been activated it says now once it is delivered and activated
+806320	812400	you go on anything and click on it like on a whole other task anywhere you click it it will be deleted
+813280	818960	like again you can stop the delete button okay again is that clear how delete works
+822560	829360	now let's try to create a multiple task let's say let's say i say this as a task one okay pink
+829360	839840	status and now task one is done let's say i create again a task two okay
+840480	848000	uh let's say i edit it i add content as task two
+849680	860080	and i close it now let's say i have something like task three now let's say i'm clicking the
+860080	867520	shift key guys that's why the ticket has been created but i'll show you why i uh choose switch
+868320	875120	uh shift key instead of enter key for creating a task but i'm just like now i'm trying to create
+875120	885040	multiple tasks task four uh and pink and shift key okay now if you see this i've created four tasks
+885040	889360	now let's say i move the task one to in progress let's say green is something like in progress
+889920	896320	and we have sky blue and let's say this is green in color now let's say this is completed if i move
+896480	902800	to black it is meant to be completed now when you move this way uh like when i move this way now if
+902800	907840	you want to filter out which are the in progress tasks like you need filter right uh what are the
+907840	913120	completed what are in progress what i have complete like status if you want to see filter by the
+913120	918480	status now these are the filters like if i click the pink i'll be only able to see the one task
+918480	924240	if i if i want to see only like green i'll be able to see this task if i want to see sky blue
+924240	929760	i will be able to see one task if i select black i'll be able to see this one but if i refresh
+930400	935840	now i'm able to see all the task is that clear guys how filter works
+937360	943120	yeah yeah yeah yeah kiran that's that's where i'll give you a lot of homework and task for you to in
+943120	949040	order to improve this application i'll give you as many uh pointers that you can work on because i
+949040	955920	want you to you know paste this in your resume uh improving this application because this task
+955920	960640	is also borders are not clean you can make it that instead of this delete button you can
+961600	967200	delete button you can give edit button actually but i'm giving you the knowledge and functionality
+967200	971840	it's up to you how you want to make it much more experience a better experience application
+972720	980080	okay how can you improve the experience okay now the another thing that we are going to learn here
+980080	987520	is that if you see even after a refresh right we are able to persist the data right any guesses
+987520	995200	guys how we are able to persist this data like if you see even if i'm refreshing the task i created
+995200	1000720	somewhere i'm storing in memory those are not being refreshed those variables those tickets
+1000720	1010160	are stored somewhere any guesses where yeah database is a right thing and in browser we have
+1010160	1015120	certain kind of databases like as some bit says there's something like local storage that is what
+1015120	1020960	we are going to explore here if you see here if you come here in the applications part there's
+1020960	1027040	something called as local storage which we will be using to store the stickers if i expand this one
+1027120	1034640	if you see i have four tasks for four tasks i'm having the color task information in the ticket
+1034640	1043120	id ticket id is a dynamic id first create generated for each task you create is that clear like what
+1043120	1049040	we are going to learn and what what what's context of this project is like did you understand the
+1049040	1054880	workflow like what we are able going to build in next three classes now i'm going to take it
+1054880	1060320	everything slowly guys so slowly such that if needed any topic to be revised i'll try to cover
+1060320	1069280	that and you know move ahead step by step okay now let's go back to our ipad write down the things
+1069280	1082560	that we have understood okay now okay now let's say so firstly i'll talk about something like color
+1082560	1084240	priorities that we have created
+1089280	1093600	that colors we have given four colors this is something you can improve on
+1094320	1100400	instead of colors uh no worries i just started talking your project i still didn't code it
+1100960	1108960	anything okay so the colors that we have uh given in the project just will will check the or like
+1109200	1114960	i'll define what they are talking about let's say task which task to be done
+1121280	1126960	like let's say they are in black in color and then we have something like task in progress
+1132640	1137120	then we have something like let's say not by black in color let's make since it's a starting
+1137120	1151600	red light pink and instead of light i'll write green then let's say task to be validated
+1157360	1158800	right blue
+1158800	1162480	task
+1167680	1168480	which are completed
+1175280	1182640	a black in color right so these are the classes like these are the tasks like colors that we have
+1182640	1187840	decided just now i've shown you all the different colors when i say pink in color it means to say
+1187840	1193920	that task is which need to be complete or like start working on once you start working on
+1193920	1198240	anything let's say this is a task is currently working progress so you'll be seeing the green
+1198240	1205040	in color and to be validated task is done but it needs to it's need to be reviewed which is task
+1205040	1211440	one and if it is completed it is black in color are this point clear clear guys like what this
+1211440	1220800	color priorities are talking about now now like i'll talk about some of the you know theory concept
+1220800	1226640	about industry standards about how actually development goes okay let's say i coin this one
+1226640	1234320	as something like industry standard like when you go and join any firm could be a bigger like i'm
+1234320	1240400	talking from a big organization perspective startups may not have those many roles but let's
+1240400	1246800	say if you go from one great organization what how the how does uh you receive and what's your
+1246800	1251440	role going to be in future if you join some good good comp like i don't want to say good company
+1251440	1258400	but a great big company okay now so firstly there are the three teams that are involved
+1258400	1269120	okay one team is called as product then the other team is called ui ux then third time is called def
+1269680	1271040	or engineering team
+1276000	1283200	i hope everyone have heard this keywords earlier right like ui ux engineering team qa
+1283200	1288960	qa comes under dev somewhere so if you come at my office there is no role for qa it's something
+1288960	1294160	that we do it we write automation tests we write unit tests we write we do qa and everything is
+1294160	1298640	done by developers developer when you say all on developer you are responsible for the
+1299360	1302640	features that you are building that's where ownership comes into the role in product
+1304320	1313760	okay so now i'll talk a bit about uh product now product is a team who are actually let's say if i
+1313760	1322320	talk about atlasian jeera right this team jeera team our product team will be discussing like how
+1322320	1328880	can they can add more features or how can they bring uh do better or how can they improve the
+1328880	1333680	existing application so they think from product point of view like what we can add let's say
+1333680	1340480	they are giving us tasks filters editing timeline dates and everything like if we go for instagram
+1340480	1347760	you can update a photo update a video update send a reel create a reel like send messages
+1348400	1354800	so this all like uh you know requirement gathering part those things are done by
+1354800	1358320	product team so these people are someone who gathers requirement
+1367440	1371680	is that clear who is the product team in general i hope everyone
+1372400	1373200	okay
+1375040	1381360	right now once product team gets those requirements right they discuss with something called as
+1381920	1390800	uiuxt these people are responsible to understand these requirements and build something called as
+1390800	1392800	wireframes
+1393360	1394400	wireframes
+1400000	1405440	or they sometimes say figma screens and figma is a really
+1406960	1413840	industry's uh leader you can say too has anyone came across this keywords wireframes and figma
+1413840	1421920	screens right so once your product information requirements are ready they see how can they
+1421920	1428880	can build user experience when i say user experience i mean to say that
+1428880	1435600	what would be the flow of an application okay then or you can say user interface if it is a
+1435600	1444080	one screen layout okay so once uiuxt is ready requirements are ready then once this all things
+1444080	1451040	are spoon-fitted to us about the requirements and the journey then comes solutioning
+1457920	1459040	by engineering team
+1463680	1470400	so mostly when this wireframes are also built right one of the leads are involved to say what
+1470400	1475360	are the feasibility whatever they give we might not be able to build because we have certain
+1475360	1482480	limitations okay but this engineering team is who builds the idea once this idea is gathered
+1482480	1489360	wireframes are ready we are we are supposed to build it okay is this clear guys like how what
+1489360	1495520	would the actual workflow when it comes to a front end developer or like how does in industry it
+1495520	1501680	works happen works okay so once this is done now let's follow the same process let's follow
+1501680	1508800	the same process uh let's let's say firstly we'll we'll act like uh let's say we are here
+1508800	1514000	wearing a hat of a product we say that we note down product requirements
+1514000	1524480	we'll try to make notes of all the requirements so first can we we need an ability
+1527120	1528480	to create task
+1532880	1536480	and add status to it right
+1536480	1539280	add status to it right
+1542960	1547680	we are able to create task and add status to it like color maybe any color selecting
+1548800	1554960	then ability to edit the task
+1567200	1572960	then ability to filter
+1578800	1580960	task depending on status
+1589840	1594960	then ability to delete the task
+1596960	1598960	so
+1603520	1606960	post-completion
+1613040	1618480	and the final requirement is browser should be
+1621520	1622160	able to
+1623120	1624640	store task
+1628400	1635440	and it should process and data should persist
+1639440	1644560	right these are the features that we have discussed initially right do you guys agree
+1644560	1646160	this is something we are going to build
+1646160	1647440	this has something we are going to build
+1650400	1652240	let's give me some reactions if you agree
+1659200	1665680	so nice so these are the things that we are going to build in all upcoming like next class
+1665680	1672720	in today's class now once this is done let's say this once this product requirement is done we
+1672720	1679520	have something called as wireframes okay now i don't have figma tool or i'm not good at that
+1679520	1686560	but i will design wireframe here in the ipad using my bare hands like just to understand
+1686560	1695120	it what we are going to build okay to just show you what happens in industry okay like
+1695760	1704160	if you see wireframe we have something called as a clean layout let's say i down a bit below
+1706560	1713280	let's say this let's say this is a screen that we have inside the screen we have two things
+1713280	1722640	one is nav bar inside this nav bar we have something like you know a filter color filter
+1722640	1729920	okay now inside this color filter we have four different colors to filter depending on the status
+1729920	1737520	of the task the same way we have two buttons one is like let's say
+1741440	1748160	a plus then a cross now once this is done then we have something like
+1748800	1756720	ticket creation one let's say this is how you can create a ticket inside cricket let's say this is a
+1756720	1765360	ticket firstly you have ticket status then you have a unique task id then you have content of
+1765360	1775360	the task okay when you go for like when you go for creating a ticket let's say you have here
+1775360	1781440	where you can enter the information then you have four colors okay now let me write down all
+1781440	1786880	those things what this is talking about okay firstly this is something like let's say if i
+1786880	1794320	say toolbox because this is allowing us giving us a multiple tools or you can also say navbar
+1796320	1800160	okay this is create a ticket button
+1805760	1810880	okay and this is enable delete
+1814640	1822240	ticket functionality ticket button let's say right then these are the filters
+1826160	1830000	then you will have something like ticket status
+1830640	1832640	here you have ticket id
+1836320	1838320	let's say ticket content
+1842320	1847920	here you have something like enter your task
+1848000	1851680	like enter your task
+1854480	1858560	like let's say task content
+1861760	1866320	then parallelly you'll have status of the task
+1870560	1875120	right this is how y-frame looks like this is what we are going to build isn't it
+1875280	1882640	like on a top level what if there is no ticket what if there is no ticket then you won't be
+1882640	1891840	able to see this one and this one both when so it's just that what what are the all possibilities
+1891840	1897600	things they give you you try to sit with them and understand it and then you get started okay
+1898400	1898900	okay
+1901760	1910400	now once this is clear we'll get started with you know what is the third task guys
+1910400	1915920	once your product requirements are ready wireframes are ready to start with the dev work
+1915920	1920880	okay now so in the development part let's say
+1920960	1921460	okay
+1927440	1935520	we'll cover today developing the screen we'll develop whole the screen
+1940240	1948640	and we'll do css part html part we'll get started with one small functionality using js
+1948640	1954720	but we'll pick we'll pick functionalities one by one in the later stages is that clear guys
+1954720	1957600	what is going to be today's agenda from the development point of view
+1962000	1966160	great now it's time to get started with project okay
+1966160	1968160	okay
+1970720	1978800	great so let me move to vs code give me a second guys
+1985520	1986020	right
+1986420	1986920	okay
+1992100	1999060	now i created a subsection in the projects i'll be supposed to move weather app inside this i'll
+1999060	2005300	reset some of the changes i'll make some changes in the repo but firstly i'm creating three simple
+2005380	2012340	files index.html style.js then let's say
+2014820	2016580	sorry style.css
+2023620	2034580	then let's say i have script.js okay now let's go to index.html
+2034580	2041860	and create some simple html let's say this one as can band board
+2045380	2055540	once we have defined the scan band board now let's connect this you know styles using link tag
+2057940	2063380	so i have give relation as a style sheet and also i'm trying to link style.css using the current
+2064740	2073220	okay now in let's say i just to review this one right i'll have a one div container
+2074580	2082580	inside that i'll say can band board i'll open this in the live server
+2084500	2090740	okay let me go back the browser
+2094580	2105300	so this is our project as of now okay now so firstly what we'll do is that we'll try to target
+2106500	2110660	building something called as this snapper sort of thing that you can see it here
+2110660	2117620	okay we'll focus on that one now let's say when when we are focusing on this we'll say this
+2118340	2127300	as a container a container called toolbox container now let's say i have div
+2128340	2133460	toolbox container when i say this and i click enter
+2135220	2143220	oh once i click this enter now once if in this we have two things in this we have two things if
+2143220	2149300	you see from the wireframe or the perspective here you have something filter and now one action
+2149300	2155700	buttons now let's create this two other containers inside this okay one thing we'll call it as
+2156740	2165220	toolbox priority container so like we're filtering it based on priority so i'll say
+2165220	2172020	priority content this is one day then we have something like second thing is called action
+2172020	2177460	button container because we are we are acting on it whether creating a ticket or you know
+2178100	2186020	giving an ability to delete a ticket right so these are the two dips inside this now
+2186660	2194180	once we create these two dips now what we'll do is that inside this we have four colors
+2194180	2200820	right four colors are different palette colors so for this one what i'll do is like i'll just
+2200820	2206900	create four simple dips with different css classes i can say light pink
+2211540	2217300	and let's say i can also say deaf dot light green
+2218100	2231220	then i can also say they've got light blue then i can also say they've got black
+2233220	2240100	okay so if you see what i've done here i just created the four things that we have if you can
+2240100	2245300	see here we don't we don't see anything on the screen but what we can do is we can create
+2245300	2249620	anything on the screen but what we can do is like if you want to see anything on screen you can write
+2250900	2259780	pink green blue or black let's say instead of this one i'll say completed
+2263220	2266740	then to be validated
+2268980	2271220	okay in progress
+2275780	2285940	to be done okay now if you see i say four things here but let's try to make them but let's add some
+2285940	2292340	css to it okay what i'll do is i'll divide them into two screens such that you know we can we'll
+2292340	2298020	be able to see it parallely i'll close this one i'll close this one as of now i hope screen is
+2298020	2302580	visible right guys to everyone
+2304900	2312980	okay done so now we'll get started with a few of the css okay now one of the first thing
+2314260	2319300	you guys have to explain to me if i write two things what i'm generally trying to address it
+2319300	2325540	okay let's say i write universal selector hash trick and then i say something like box sizing
+2326180	2335860	to be border box and let's say i give margin as zero then padding as zero
+2337140	2340020	can anyone help me out what is this all about
+2344820	2345780	what this will do
+2348180	2351540	what's this box sizing border box or margin padding does
+2351540	2360180	is remove the default css which are coming and try to you know address width and height
+2360180	2366980	whatever i'm giving it don't add it separately right like hope that concept is clear now if
+2366980	2375140	you see it is starting from top left exactly without no space like to be done okay now going back
+2376100	2386660	next thing if you see here in the firstly like this all this task like to be filters are coming
+2386660	2394180	in horizontal line isn't it firstly first and first most thing and we know how we can convert
+2394180	2399620	a vertical divs into horizontal guys can you help me out with that
+2405140	2415140	okay now let's say i'm writing a you know separator so that you can remember it now
+2416180	2423060	for display effects i should select this class right toolbox container inside the toolbox once
+2423060	2431540	i click this and i do display as flex once i do this but by default flex direction is zero so
+2431940	2438020	by default flex direction is zero so it should be converted into row let's try to review this
+2440340	2447700	okay this uh it didn't work uh maybe i did i mess up okay i need to apply onto this one
+2447700	2457380	not that one right okay if you see go and see these are converted into horizontal
+2457380	2463540	is that clear guys like this is really basic one that you have suggested me but now what i'll do
+2463540	2469780	is that uh firstly i'll add two toolbox so that we can see all the things that we are applying
+2469780	2476420	okay some of the default styles i'll give it i hope you will be able to understand that one
+2476420	2481940	so first thing i'll do is like if you see one of the uh like i'll add something like a background
+2481940	2490820	color okay and i'll give something like hash uh 4b 4b 4b okay
+2496340	2500980	okay now once i give this black background color let's see this this is coming as a background
+2501780	2511540	now let's say i give some this parameter you need to explain me what is the value in terms of pixels
+2512900	2517140	if i give it as a fire what could be the value in terms of pixel
+2518900	2522420	what would be the value of in terms of pixel for fire
+2527460	2528500	let's think of this one
+2530900	2538180	yeah 16 into 5 80 pixel right so i hope everyone understand when i write rem what i exactly meant
+2538180	2546740	in terms of pixel okay now now if you see this particular task right this particular task
+2547380	2553060	are having two containers now let's say i i go to the other container let's say we have some
+2553060	2560900	differentiation right like if you see this hash color uh this ash color this hash color a bit
+2560900	2567300	different there's some change color change so let's do that okay firstly i'll go and select
+2567300	2572020	this action button container let's pick this up and
+2575380	2582660	okay let's pick this up now inside this container what i'll do is like again i'll give some height
+2583940	2590100	let's say give it height as a uh let's say uh firstly i'll give a height to this container
+2590100	2598980	firstly to visualize this one say height as 3.5 rem then i'll also give a background color to it
+2598980	2609700	a common background color for both one hash 3d 3d a 3d a better darker version that was a 4d 4d
+2609700	2617300	4d this one was a 3d now in order to keep this both boxes same i'll give same 3.5 rem and
+2617300	2628500	background color as like hashtag 3d 3d 3d okay let's save this and if you see you're not able
+2628500	2638020	to reflect this one isn't it we'll see that why it is not happening exactly because it is
+2638020	2645780	completely consuming box as of now we'll come to this step by step okay now
+2648260	2657060	once we did this uh let's say i gave also i'll have some width to each of the item let's say i
+2657060	2664020	have width in terms of 18 which is really big unit but we'll see if this is suiting us suiting
+2664020	2672980	in right way now after being display flex if i need to put them uh let's say if i go back okay
+2673460	2680820	okay this there's something that happened uh let me zoom out a bit it's a 250 pixel uh no
+2680820	2687940	uh we won't be able to see it right away let's do something guys firstly i'll comment this for
+2687940	2696020	some time now if you go back and see you can you guys see this like uh if i try to
+2696020	2701780	these are the four boxes content that we are able to see and we gave that a particular height
+2702340	2709700	and a background color and we made display flexor center but do you see this content is aligned
+2709700	2716660	as we needed like this is in between right if you see from the y-axis point of view it is in the
+2716660	2725540	center isn't it from the y-axis point of view now how can we move that into the center from y-axis
+2725540	2732180	from y-axis how can we move that from y-axis as a center anybody
+2735300	2747300	align items right let's make align items as center no let's see this if this is working
+2747300	2751940	now do you see this there's a space in top there's a space in bottom too isn't it
+2755540	2762020	the space in top and so is in bottom too now second thing do you see space equally equally
+2762020	2768020	distributed on the left and right of each color left and right of each color equally distributed
+2771380	2778580	equally distributed left and right color for that on the horizontal axis we'll do justify
+2778660	2783460	content i wouldn't be doing it to center some bit because
+2786100	2791860	space event rightly rightly said so you have space around space between space evenly when
+2791860	2798260	you go for evenly it will be evenly around each box space around i'll show you the difference
+2798260	2805940	of space around also like but can you see this uh now let's say i go
+2806500	2811700	and let's say let's wait let's try to uh firstly let's give some color to it let's remove these
+2811700	2818820	names as of now the width is not enough uh and what i'll do it here is that in order to improve
+2818820	2827220	this one just addressing width will be fine but i'll try to address uh yeah space around can be
+2827220	2834420	used too but i'll come to why why i'm going with uh space evenly some okay now let's do something
+2834420	2839940	let's do something we have this colors right let's give them some colors okay let's take this class
+2839940	2848420	light pink uh inside this color i'll give something like background color
+2850180	2854420	i'll say background color for the light pink uh let's say light pink
+2857940	2861540	okay now after that you have a light
+2861540	2877540	green background color as light green okay once you have this then you have light
+2881540	2885380	blue once you do this let's say background color
+2885860	2889540	uh light blue
+2894420	2899380	okay now then let's say i i say something like uh black
+2905460	2909300	background color to black
+2909300	2920580	okay now what we have done here is that just now we have given some background colors and
+2920580	2925220	i know uh to each of them i'm getting a call guys
+2925220	2933940	okay uh go back now if you see there is no color being applied why kiran says that we haven't provided
+2935940	2942180	uh like height and width we can use it some that we can use it you can you can build customize your
+2942180	2948580	result experience as as you need it so we have to give height and width to each of the box so what
+2949060	2955300	experience as as you need it so we have to give height and width to each of the box so what i'm
+2955300	2961460	doing is that since height and width for each of the box will be same as we see in the uh like
+2961460	2970100	you know prototype app that we have i'll try to add a common css color class here let's say i
+2970100	2972660	create a class as a color okay
+2978580	2986420	inside this color i'll just go and say hey to all classes which have property as color
+2988660	2995060	we'll add some color now let's say i i i mean i mean to say we want to give height let's say
+2995060	3003300	let's say 1.5 rem since each uh this whole container is 3.5 rem i'm taking 1.5 rem as a height
+3003300	3010260	and let's say i also take some width for it uh let's say it as a 3 rem since 18 rem is whole
+3010260	3016820	space we have i have four boxes in it i'm seeing that 12 rem of boxes and other spaces around
+3016820	3022420	between them and around them okay now let's say let's see if this is working fine
+3024820	3029220	okay this is clear guys how i'm able to replicate and build this one
+3030180	3035620	because you yourself has suggested me how we can build it it's nothing as nothing unique thing i
+3035620	3040420	have done here okay as i told you it's a revision of all the concepts we have learned we'll apply
+3040420	3046260	all of them now but do you see there's something happening here when i hover over it there's some
+3046260	3051220	color is coming on when i'm hovering over each of the palette right do you see this
+3051220	3058020	right so we'll try to uh you know try to work on that part now let's say we go and say hey
+3060020	3067220	on color hover whenever you hover over the color i want to give a different background
+3068020	3075380	so i'm using a pseudo selector color then i'm going for the background color and let's say
+3076340	3085860	i say something like hashtag four eight five four six zero okay now
+3088980	3094500	now let's see if i'm if you see this this is up line is this fine guys how this is working
+3094660	3097620	this is up line is this fine guys how this is working
+3100980	3103620	yeah great now
+3105940	3115380	now i want to show you something i want to show you something like if you see this colors right
+3115380	3121780	if you see color uh is being duplicated this 4b 4b did we use anywhere no
+3122580	3128340	uh toolbox container we use 3d 3d here okay i'll come to that part when we replicating the color
+3128340	3138900	okay now but we have completed till now the css and html part for this particular thing now we
+3138900	3144900	haven't moved them down but if you see we haven't moved them down or aligned according to this
+3145460	3152980	aligned according to this particular thing right this navbar background so how can we do that
+3159140	3164500	which part is preferred kiran i would say go with the css part because mostly pseudo
+3164500	3170580	selectors are given for that reason itself js is compiled and executed later on later of the time so
+3171460	3177940	it's better if you can give it with css because ultimately when you try to do act like hover
+3177940	3181300	it is come it is converted into css then rendered onto the screen
+3182020	3187700	thinking from the thinking from the part of rendering perspective guys coming back to my
+3187700	3196100	question if you see here this is not aligned as we needed from the top or the left side can we do
+3196100	3205780	something here to fix this one can we do something here to fix this one let's say if i go back here
+3205780	3218660	into the toolbox container can we make it them display flex and align items to the center
+3219380	3229300	so that there's a vertically centered right for if you see after applying that now i if you see
+3229300	3234820	here some let's say this is fine we'll come to horizontal one in a second you can always you can
+3234820	3242260	give also like justify content uh let's say for a while let's give justify content as uh space
+3242260	3251460	space space evenly fine works now since you have only one event you won't be able to
+3251460	3257940	like if you see this it moved into center but we'll address this one slowly but is this fine
+3257940	3263540	guys any doubt till now any doubt till now what we have built did anyone face any challenge
+3263540	3270500	understanding this one okay great now now i'm going to introduce guys uh
+3271460	3277700	one thing uh like anyone heard a word called font awesome font awesome
+3280420	3287620	did anyone came across word font awesome okay let's say if i go to font awesome i'll give this site
+3287620	3290500	uh
+3293700	3294980	okay so
+3297940	3307700	guys the here i want you to you know take the site and do one thing like enter your email id
+3307700	3313940	and send embedded code kit okay just if you see it here if you just see it below you will be able
+3314020	3321060	to see the steps that we are supposed to do okay we are we are supposed to do okay what it will
+3321060	3327780	does it like it will give you once you enter that as per your email id it will give you one script
+3327780	3334820	tag i mean you don't really need it but if you are customizing it's supposed to be you generate
+3334820	3340980	your own script tag from the font awesome site you can do it i can help you in the doubt session
+3340980	3345460	if anyone want to screen share it because i already have it i'm not trying i'm not able to
+3345460	3352420	you know redo that step is that fine guys it's just that you know the same things are written
+3352420	3359620	here in the steps two steps first two steps okay so what i'll do it here is that i'll paste that
+3359620	3366020	same script that you will be able to generate it this you will be able to generate it kit.font
+3366020	3372100	awesome.com and this is my id and i'm trying to download the javascript code this is like
+3372100	3378820	dynamic id and the file the you know file name is dynamic file that i'm getting okay this is
+3378820	3387780	something you'll be generating it now once you do this once you do this if you go to icons icons
+3387780	3395140	page and you try to search here like let's say if you see here we need something like plus icon and
+3395140	3402420	cross icon okay if you see here we need plus and cross icon something here it's like you also have
+3402420	3409300	our docs in order to explore you know all the different things like what are the things that
+3409300	3414820	you need like like you can say that use a kit how can you start with the kit you will get the
+3414820	3421060	information completely explore this one this is just you know a freelance website which allows you
+3421060	3429460	to use yeah it's a freelance website open so like where it where you are allowed to use icons
+3429460	3435220	okay free icons because you cannot design icons right for each of your own project
+3437060	3442500	so let's say if i'm giving as a plus and i try to do a google search if you see here i'm able to
+3442500	3449140	get all the plus icons can you see this there are some of the free versions some of the pro versions
+3449540	3457380	if i select this first free version when i click here it if you see i'll be having multiple filters
+3457380	3462180	that i can play around with like making it sharp making it classic if you see if i'm making a
+3462180	3469540	classic i'm getting a rounded edges if i'm making it sharp i'm getting as this one okay and also you
+3469540	3476500	can you know change it a light like what type of plus you want so it gives you all the abilities
+3476500	3484580	all the abilities to do it and you can also as per your project you can also import it
+3485620	3489940	currently we are dealing with only html what i'll do is like i'll try to copy this tag
+3490500	3499540	once i click it here the tag will be copied so i tag goes for icon tag okay so once i go here
+3499540	3506980	and i try to create a sub def and the desk day will talk as like let's say add
+3509060	3514420	button inside this add button i'll try to paste this italic tag
+3516340	3518580	uh let's say i try to show it properly
+3521060	3527220	okay so this is fa solid fa plus so when i say solid it's in solid color filled color
+3527220	3533380	and talking about fa plus now can you see this fa plus being generated here guys
+3535860	3541540	so are you able to follow what font why i am using font also in my you know i'm using those
+3541540	3546820	icons and how would you be able to do it in case anyone faces challenge do let me know
+3546820	3554100	uh how can you import it okay you have to custom download the kit and then you can use it okay
+3554100	3561940	okay now after this plus i have something like a remove sign let's say
+3566740	3567940	let's i say cross
+3579860	3581380	so go for remove itself
+3581380	3589380	cancel yeah let's pick this x marks this is what we need now again i'm trying to copy this
+3589380	3597700	uh cancel yeah wonderful now if you see uh i'll go here again i'll create a def dot
+3598500	3606980	remove button or delete button you can say i am trying to paste it here now once we have this
+3607940	3612100	let's go to kanban board if you see this we are again getting them in a vertical
+3612100	3618420	way now again same display flex once you apply them it will be converted to horizontal
+3618420	3624260	now going back something that we commented earlier i'll try to enable that
+3625620	3630740	and i'll try to push it up between i and i apply display as flex
+3630740	3641380	okay align items so do we need an aligned items here guys
+3644500	3652980	think of it i don't need an alignment as of now but if you see this is how the box is created
+3654180	3656260	this is the kind of box that we are expecting
+3660740	3669860	okay now what could be the next thing now if you see
+3673460	3678100	now let's say for the both the child elements for the both this child elements
+3678100	3685860	we want to add some common properties we want to add for both of the child elements some common
+3685860	3693140	properties now just a question if i don't have a class like let's say class but for the all the
+3693140	3698340	children elements if i want to add some default properties how can i do that
+3701460	3703620	anyone what type of selector i can use it
+3707060	3713460	i want to add it to all the child children selector right now how that children selector looks like
+3714340	3717860	anyone
+3724580	3730420	greater than symbol right greater than now for the greater than symbol now if you see for this action
+3730420	3735700	button i want to give some common properties to all the child can i say hashtag since it's a when
+3735700	3741220	i say universal selector i would say that all the children to this parent element will apply
+3741220	3750820	this particular things isn't it is this point clear guys now same thing we can also do it here
+3750820	3760580	if you see color we added color here as a common property we can also remove this and we can say
+3760580	3765060	like instead of this color we can also say toolbox priority container
+3765780	3773140	let's say we can also say toolbox creative container and also sorry guys
+3779780	3781460	this both things are same isn't it
+3785380	3792660	pardon me so it's always it's an uh you know i'm just trying to show you what are possibilities
+3792660	3798340	again so i added at one place a common color at one place i'm using a children selector
+3798340	3805380	combinatorics okay here now for each of this plus and minus will add since it's these are
+3805380	3811620	containers we are supposed to give them a certain width and height okay now let's give them a width
+3812980	3820740	now if you see it here these are consuming 50 50 percent of width of this parent container right
+3822660	3830580	50 50 percent of parent container exactly 50 50 this one 50 this one you know so let's do that
+3830580	3842340	let's give width as a 50 once we give this uh now and when it comes to height let's say once we give
+3842340	3850740	this now once we give this 50 50 if i give height let's say if i'm giving height
+3851700	3859300	is 100 percent and let's go and see this one do you see any change here once i apply height
+3862580	3868340	no right so i'll show you something if you see if i go and select this part
+3871140	3880020	like like this add button height and width now so even if i increase let's say height of 200
+3880020	3889060	pixel 2000 pixel this no style height will be applied to this one reason behind for icons right
+3889060	3896020	whatever icons you see this if you want to play around with height you have to play around with
+3896020	3901620	font size because font is something that applies to this one now do you see this like the icons
+3901620	3903060	are getting bigger and smaller
+3906180	3913380	so so if you are applying any if you want to apply height to this but
+3913380	3917700	like icons you have to play around with something called as font size so instead of
+3919060	3921860	height i'll use something like let's say font size
+3924980	3927620	and let's say i use something to them
+3927780	3933140	now do you see that it has taken whatever width it needs
+3935140	3943620	now if you go and see it here if you go and see it here they are properly aligned and consuming
+3943620	3953460	the whole space firstly what i'll do it here is that uh let's move them each of item to the center
+3954260	3959620	to the center along the y-axis and x-axis if you see the both are on the y-axis on the top
+3961060	3963620	let's move them to the center both the sides
+3966900	3976900	align items center justify content center okay once we do this
+3977700	3986020	uh does anything happen here nothing is happening uh did i apply for right place yeah i applied for
+3986020	3987380	the right place
+3990260	3996180	okay let's give a width to this one a default width is also for the height we have given
+3996180	4003780	something so for this one i'll give something like eight rem once i give this width to a trim
+4004500	4011780	if you see these buttons are coming here but this align item justify content is not working
+4011780	4019460	because i didn't give flex right guys so that's how i give flex once i give this this is how it
+4019460	4030660	is working all right now once we have given this now if you see here this color of symbols are
+4030660	4038980	white in color now not in black in color let's do that i go back here and i say for the act this
+4038980	4050500	button two buttons both the buttons color should be white okay now both the colors of the this one
+4050500	4057620	are white okay now is this clear guys whatever we have built till now what we have built till now
+4057860	4066260	okay one thing i'll fix it is that when i'm using display flex like this property let's say i go and
+4066260	4073460	do let's say i select this container and on container if you see i've used space evenly
+4073460	4083860	even if i use space around uh things would be different if i give space between uh there are
+4083860	4091300	between uh there are not exactly as we want it okay there is a common space around both the things
+4091300	4097380	and there's an empty space on the right so this can be done by how we can achieve this case
+4099140	4105700	so you know aligning across the horizontal element is not working but how can we do this
+4106500	4111780	so we have discussed in the box model there's a one property which can help you to move the elements
+4114340	4116500	okay think of it guys
+4121060	4128980	in the box model can i can i see here margin left is equal for both of them
+4131860	4139060	because margin is outside the border isn't it so what i'll say it here is that hey i'll go
+4139060	4146100	onto the top i'll remove this property and i'll use something like let's say for the all the
+4146100	4154500	children inside the toolbox container for all the children whatever children you have give margin left
+4155620	4159220	a certain margin let's say i give four rem
+4162980	4167700	now let's go and see if this is we are able to reflect now are you able to reflect with the
+4167700	4174900	navbar that we have thought of initially building it and we have built it same thing right
+4177940	4179620	and do you see anything missing
+4187540	4195300	no hover right hover is missing now earlier uh someone asked me like can we do hover okay
+4195300	4202500	we can do over using js also uh who was that kiran you are the you are the one right who asked
+4202500	4210180	me like can we we can add hover also to js so i'll do that one hover through js once someone comes
+4210180	4215780	on uh like on a button i'll show you that implementation currently i can add that
+4216260	4222420	uh let's say but i can i'll show that through code too but how we can add it let's say
+4223380	4231620	for the all the things uh we go pick this one or the children i say this uh over
+4235140	4238260	background color let's say green
+4240100	4246900	green let's say i see this color no not green yellow but let's make this as a green
+4253060	4257940	is that clear guys as of now like we have addressed all the things that happen in navbar
+4257940	4265300	but we'll also uh see this how we can do it through code for this point okay now any doubts
+4265300	4271300	till now any doubts till now because i'm going to make some changes i'm going to make some changes
+4275300	4281860	no doubts right no doubts right now let's say have anyone came across this thing
+4282580	4286260	like what if i write colon root
+4289380	4293780	this stack colon root tag anyone seen anywhere
+4299300	4305060	open this is hi he has seen any any idea any idea what this does what this does
+4305780	4313300	so let's see let's see this like if i open in the colon root
+4315780	4321380	uh let's say this opened a new tab colon root
+4324820	4329060	okay uh let's say root selector
+4329060	4333220	uh okay now if you see
+4336420	4343220	they say that it selects a root element which is like a top level element in the css
+4343220	4348660	model which is syscom i'll actually i'm supposed to share your documentation if i had taken the
+4348660	4353620	dom i would have done it but uh i'll i'll show you what what i was talking about now
+4354340	4359780	this is a root tag when you come when you consider a like since you have a dom tree
+4359780	4366660	similarly for css you have com syscom syscom tree for that one initial in the tree right you have
+4366660	4374020	a root parent root element same way you have a root for css now inside the css you can declare
+4374020	4381460	all the types of fields that you want now those can be dynamically utilized like this is like
+4381460	4386420	trying to when you declare something in the root you are trying to reuse it like wherever you have
+4386420	4391220	duplication right whenever you have something like duplication like let's say do you see here
+4391220	4397700	background color four four four b is being duplicated or let's say three b is duplicated
+4397700	4406180	at least 3d 3d is duplicated right this both colors are duplicated right background color
+4406660	4413700	now how can you remove this uh like duplication code what you can say is that it's in going inside
+4413700	4430340	the root what what you will say is that let's say uh background for toolbox once you go and do and
+4431060	4438340	write it down let's say you give this value once you give this value let's say you go you
+4438340	4446820	copy this value and put it here once you give this value what you can do here is that wherever
+4446820	4455060	you want to use that value you can call a function here function is called as where inside that fire
+4455060	4458580	you are you are you should be you would be able to call this background for toolbox
+4460260	4465220	now let's say i go and replicate this one below where i'm using this 3d
+4467300	4468100	sorry above
+4471700	4475620	uh where i was using the here right here
+4475620	4476180	here
+4480020	4485860	is that clear guys like why if we are using root uh what is the use case like generally to avoid
+4486740	4493380	duplication of writing css now if you go and see whether it is working now if you see
+4493380	4504900	still it is working fine isn't it now same way same way uh like let's say i select some of the
+4504900	4514900	colors let's say uh i i'll improve uh like you know uh let's say instead of this light blue
+4515540	4520580	we have some color like let's say i use these two colors guys
+4523220	4528980	hash codes let's say i use this two hash codes now what i'll do here is like going for the blue color
+4528980	4534340	color i'll say that hey where
+4537060	4545460	blue let's say for green i'll use where green i just see i recreated this one to just show you
+4545460	4551140	that hey for how you can use the where uh function uh and you're trying to get all the variables
+4551140	4558340	declared inside the root okay now if you see those colors got changed like green and blue
+4559220	4563380	okay this is fine guys did you understand what i was trying to do here
+4567860	4575540	okay cool so uh this is it about the neighbor guys now if we have to get started with
+4576100	4582740	something called as not something called less but something that we want to build uh when you click
+4582740	4588020	on a plus this particular thing so do you need a break or can we continue
+4589700	4594500	okay we'll build html part of it then we'll take a break
+4596260	4600340	we'll build the html part of it when then after break we'll come back to the css
+4602980	4606100	okay if you if you are okay with my point can give me thumbs up
+4606100	4612500	the html part will be done in five minutes okay then we'll take break okay now let's say
+4612500	4623860	okay okay great uh i see great number amount of thumbs up so let's do one thing uh i minimize
+4623860	4632340	this toolbox toolbox container whole thing now let's go back to another diff called as
+4632340	4637780	model container because this is a model i'll say this as a model container inside this model
+4637780	4642980	container i have two things if you see one is text area and the other one is just what like
+4642980	4654820	color balance simple thing right now for text area i have text area uh let's say text area dot
+4657460	4660260	text area container i'll use this
+4661060	4666500	okay uh for initially i'll keep it as it is whatever the content they have given
+4666500	4673300	i'll remove it as of now i don't need these items okay and i'll add only one thing if you
+4673300	4679220	see go back and see what we have generated here this is a default container called as
+4679220	4688900	enter your task information okay let's add that a placeholder enter your task information
+4690260	4692740	ask information
+4698340	4705540	okay let's see if this is fine yeah we are able to see this fine now after this we have
+4705540	4714260	uh like a color one a different list of colors now let's say i try to uh since those are still
+4714260	4720420	same colors i'll what i'll do is that i'll copy it from here uh which i copied from here i'll
+4720420	4729620	change some css classes from the top here i'll say instead of toolbox i'll say these are priority
+4730740	4731940	colors container
+4735140	4740340	because these are the button clicks and statuses we want we want some unique name here that's the
+4740340	4746820	reason that i'm adding and i'll give some default like in order to change the default css one i'll
+4746820	4753220	change something like uh i'll add this keyword priority color
+4762820	4765540	that's it right guys do you see anything
+4766500	4769300	uh else you can do it here
+4773460	4781380	because this is what we have seen it just a text like text area then a different colors but all
+4781380	4786820	the magic will be done using css you cannot see the colors applied because we have manipulated
+4786820	4788900	the styles of it right
+4791860	4797460	so uh it's moving towards the break now how many minutes break you need it
+4808420	4809220	five would be fine
+4809940	4813700	okay so i'll add a five minutes timer we'll come back in five minutes and
+4815220	4821460	so today i believe we'll be ending class early we'll see that i mean when i say early for
+4821460	4825860	me it's like two hours 20 minutes 15 minutes or 20 minutes something around that
+4832180	4837380	yeah so guys take the break and let's see you see you back
+4839220	4840040	later
+4869220	4871280	you
+4899220	4901280	you
+4929220	4932280	you
+4959220	4962280	you
+4989220	4992280	you
+5019220	5022280	you
+5049220	5052280	you
+5079220	5082280	you
+5109220	5112280	you
+5139220	5141220	you
+5145220	5147220	is everyone back guys
+5152220	5154220	and can we get started
+5158220	5160220	so great
+5162220	5165220	so let's get started with something
+5165220	5169220	you know designing this particular text area itself
+5169220	5172220	now think of it this one
+5172220	5176220	do you see I'm having resizing ability here
+5176220	5179220	like if you see here
+5179220	5182220	I have some ability to resize
+5182220	5185220	do you see that is available here
+5186220	5188220	no right
+5188220	5190220	do you remember
+5190220	5193220	that what we can do in order to remove that
+5195220	5201220	this right
+5201220	5203220	let's let's do that let's do that
+5203220	5206220	so firstly what I'll do is that
+5206220	5209220	I'll add a differentiator
+5209220	5211220	saying
+5211220	5214220	CSS for
+5214220	5218220	ticket creation
+5221220	5223220	container
+5223220	5226220	inside this container I'll select
+5226220	5228220	dot text area
+5230220	5232220	container
+5232220	5236220	inside this text area container let's let's add some CSS classes
+5236220	5241220	now as you suggested first thing that I do is like resize none
+5241220	5243220	once I do this resize none
+5243220	5247220	you see that I won't have resize ability now anymore
+5247220	5251220	but do you see this blue color border
+5252220	5255220	we don't need this blue color border also
+5255220	5256220	right
+5256220	5258220	we don't need this blue color border also
+5258220	5260220	so for that reason
+5260220	5264220	I'll add two more properties like you know border
+5264220	5266220	to none
+5268220	5271220	and also outline
+5271220	5274220	whatever outline you are having to make it none
+5274220	5276220	so when I do this
+5276220	5279220	if you see I'm having task information I can type it down
+5279220	5281220	as much I can want it
+5281220	5285220	but I don't have ability to resize or do anything
+5285220	5287220	as of now
+5287220	5291220	okay let's let's add some background color to this one
+5291220	5293220	let's add some background color to this
+5293220	5296220	and let's give some height and width also
+5296220	5299220	background color would be
+5299220	5302220	let's say like kind of light color
+5302220	5304220	DFE
+5304220	5306220	for EA
+5309220	5314220	let's say yeah
+5314220	5317220	this is the color that we want to give you see here
+5317220	5319220	this is the same color we are having
+5319220	5322220	okay for this one let's give some background color
+5322220	5324220	sorry height and width
+5324220	5327220	let's say I have height
+5327220	5329220	of
+5331220	5333220	hundred percent
+5333220	5335220	whatever height I'm having
+5335220	5338220	and let's say I also have width of 75%
+5340220	5342220	okay
+5342220	5345220	so what I'm trying to say it is that
+5345220	5348220	let's say when I do this I refresh
+5348220	5351220	if you see I'm having height of 100%
+5351220	5354220	whenever I give the height as 100% it will take
+5354220	5357220	whatever it needs it to the content
+5357220	5362220	when I give the width as 75 it is taking 75% of the screen width
+5362220	5365220	you see here we needed if you consider this as a box
+5365220	5369220	complete box we got the 100% height for this content
+5369220	5372220	and 75% width for this text area content
+5372220	5375220	is that clear why did I add that height and width
+5375220	5378220	to this particular text area container
+5382220	5384220	okay great guys
+5384220	5386220	so I see one thumbs up it will be more clear
+5386220	5388220	once I add few more properties to it
+5388220	5390220	let's say wait and see
+5390220	5393220	okay to increase the font of that information
+5393220	5395220	that placeholder we see right
+5395220	5399220	I'll use font size as 1.5 rem
+5401220	5403220	let's use this and go back
+5404220	5406220	let's see this yeah 1.5 rem
+5406220	5408220	this is fine
+5409220	5410220	okay
+5410220	5412220	now once we have this
+5412220	5416220	we'll go towards coloring this boxes
+5416220	5418220	priority colors container now
+5418220	5420220	going back
+5421220	5423220	let's pick this CSS classes in order to avoid
+5423220	5426220	mistakes and spelling so I'm trying to copy it
+5426220	5428220	so I select this
+5428220	5432220	and I give height again as 100%
+5433220	5437220	since I consume the width of 75% for text area
+5437220	5440220	I'll consume 25% for this colors
+5442220	5443220	okay
+5443220	5445220	now let's see this
+5445220	5447220	you won't be able to see any difference
+5447220	5450220	because colors are not even given a color
+5450220	5452220	okay now
+5454220	5457220	now once we have given height and width
+5457220	5460220	to this one let's give some background color
+5460220	5462220	that we have in common
+5466220	5468220	and this would be again
+5470220	5472220	let's say I have
+5473220	5477220	this particular toolbox container background color
+5477220	5480220	let's say background if I declare a variable as
+5480220	5482220	background color
+5487220	5488220	dark
+5489220	5492220	okay and keep the smiling
+5495220	5499220	and let's say I declare here where
+5500220	5504220	and I'll say background color dark
+5505220	5509220	okay and same thing I'll use this variable below
+5515220	5518220	now once we give this background color
+5518220	5520220	still it doesn't visible because for the elements
+5520220	5523220	we want to we need to give some height and width
+5523220	5526220	selecting this particular priority color
+5526220	5529220	common thing I'm just updating this color
+5529220	5532220	like height and width for each of element
+5532220	5534220	let's say height is 3 rem
+5534220	5538220	and width is 5 rem
+5540220	5543220	why did I give a separate naming convention for this one
+5543220	5547220	is that if you go and say evo color
+5548220	5551220	we have height and width as different in the filter
+5551220	5555220	and in the like the text part where we are covering
+5556220	5558220	okay if you go back and see
+5558220	5560220	this is what we got it
+5561220	5565220	is that clear guys how we were able to replicate this part till now
+5570220	5573220	guys any doubts in the CSS we have written till now
+5573220	5577220	just I've used 3 paths I've given some default styles to it
+5581220	5584220	so why did I change the name
+5584220	5587220	I kept all the CSS classes as common
+5587220	5590220	except common CSS class from color to the priority color
+5590220	5593220	I gave it as priority color reason is
+5593220	5597220	the height and width for this colors
+5597220	5602220	and colors in the toolbox are different
+5602220	5605220	because if you see evo
+5605220	5609220	in the colors we have 1.5 rem and 3 rem
+5609220	5612220	here we have 3 rem and 5 rem
+5612220	5615220	that's the reason why I gave a different name
+5618220	5621220	again I'll try to repeat each and everything
+5621220	5624220	give me a minute once I complete this
+5632220	5635220	next thing that we have to do is that
+5635220	5638220	something moving on to this particular level container
+5638220	5641220	let's select this container
+5641220	5644220	priority colors container we already have this
+5644220	5647220	we have given height width and this one
+5647220	5650220	then let's make display as flex
+5650220	5653220	again flex direction as column
+5653220	5656220	we want each of them to be aligned in the column
+5656220	5659220	because top to bottom
+5659220	5662220	and then let's say align items to the center
+5662220	5665220	and let's say justify content to space evenly
+5665220	5668220	same thing
+5669220	5672220	let's see this if this works
+5672220	5675220	yeah they are moved towards this one
+5675220	5678220	but if you see even though we gave 100% and 25
+5678220	5681220	the width it is not being consumed as we expect
+5681220	5684220	as we expect
+5684220	5687220	any idea why this thing is not coming on right of this one
+5687220	5690220	any idea why this thing is not coming on right of this one
+5690220	5693220	any idea guys why this is not coming in right of
+5693220	5696220	block level elements right now let's say
+5696220	5699220	if I select model container
+5699220	5702220	model container
+5702220	5705220	and if I make display as flex
+5705220	5708220	let's see now this is covered
+5708220	5711220	isn't it
+5711220	5714220	first point is that
+5714220	5717220	if I make display as flex
+5717220	5720220	now this is covered isn't it
+5720220	5723220	first point is clear like how did it work
+5723220	5726220	like moving from bottom to the right
+5726220	5729220	now I'll
+5729220	5732220	use some properties guys
+5732220	5735220	now do you remember
+5735220	5738220	let's say do you remember what is VH
+5738220	5741220	and VW
+5741220	5744220	units of CSS
+5744220	5747220	view height and view width
+5747220	5750220	it's like viewport related height and width right
+5750220	5753220	I hope the concept is clear for you all like if I'm going to use
+5753220	5756220	let's say I say height of the container
+5756220	5759220	whole container should be 50%
+5759220	5762220	of view height of the screen
+5762220	5765220	I'll also say that width
+5765220	5768220	should be 45% of view width
+5768220	5771220	do you understand
+5771220	5774220	when I declare this height
+5774220	5777220	and width are you able to understand what's going to happen
+5777220	5780220	behind the scenes right fine
+5780220	5783220	now also I'm going to
+5783220	5786220	use a property now let's say
+5786220	5789220	a background color I'll give us some background color as a
+5789220	5792220	let's say light salmon
+5792220	5795220	okay
+5795220	5798220	once we give this now if you see I
+5798220	5801220	was able to create this one
+5801220	5804220	I don't really need to give
+5804220	5807220	background color
+5807220	5810220	as of now
+5810220	5813220	like height is 50 VH
+5813220	5816220	and the text area container is consuming 100 colors
+5816220	5819220	also consuming 100
+5819220	5822220	75% width is for area and 25% width is for
+5822220	5825220	colors that's what it is looking like isn't it
+5825220	5828220	now comes the role
+5828220	5831220	of making it to look like a model
+5831220	5834220	now do you guys help me out
+5834220	5837220	this is the default place of
+5837220	5840220	diff but if you see
+5840220	5843220	when I'm creating when I'm trying to click button
+5843220	5846220	here this is coming in between the
+5846220	5849220	page but actual place
+5849220	5852220	where I'm declaring is like when I'm writing
+5852220	5855220	HTML is below the toolbox container
+5855220	5858220	how can I move that from
+5858220	5861220	one layer to the next layer
+5861220	5864220	just answer my this question how can I move them from one layer
+5864220	5867220	to the next layer position property right
+5867220	5870220	and which position property would be really helpful for us to move them
+5870220	5873220	around the whole page
+5876220	5879220	absolute guys absolute
+5879220	5882220	with respect to page right
+5882220	5885220	with respect to page now let's say if I give
+5885220	5888220	let's say if I give some properties like
+5888220	5891220	going back here
+5891220	5894220	relative is always going to be relative to body
+5894220	5897220	even if I use your relative that would work fine
+5897220	5900220	because relative would work with respect to parent
+5900220	5903220	for this model anyways relative is like
+5903220	5906220	body right according to body it will
+5906220	5909220	that's also works fine but go with the right
+5909220	5912220	yeah
+5912220	5915220	if I give absolute and
+5915220	5918220	let's say if I give like top
+5918220	5921220	hey move it from top 30 percent
+5921220	5924220	and move it from left
+5924220	5927220	27 percent
+5927220	5930220	let's see what is the change we are getting
+5930220	5933220	do you see this
+5933220	5936220	this is moved from top like
+5936220	5939220	wherever the element was there from here to 30 percent
+5939220	5942220	and from left 27 percent
+5942220	5945220	this is clear to everyone right no one is having
+5945220	5948220	any doubts how I am able to achieve this part
+5948220	5951220	now this is on second layer right
+5951220	5954220	what if let's say what if when we create a tickets right
+5954220	5957220	when we create a tickets now if you see this tickets are there
+5957220	5960220	this tickets are there but even when I am creating
+5960220	5963220	this model this is coming showing on the top right on the
+5963220	5966220	over the layer how we can ensure that this can be
+5966220	5969220	this should be on the top set index right
+5969220	5972220	right so I will use set index property
+5972220	5975220	and I will say for safety side
+5975220	5978220	I will make it as a file anyways by default
+5978220	5981220	zero for the other cards I will make it as a file that works
+5981220	5984220	so I hope this this property is also clear why
+5984220	5987220	I am using this
+5987220	5990220	now does it look same
+5990220	5993220	guys isn't it
+5993220	5996220	it's looking same isn't it
+5996220	5999220	only one thing
+5999220	6002220	is like whenever you selected there is a something hover
+6002220	6005220	property that will cover it anyways in the code
+6005220	6008220	while we are coding it ok I am not adding it here
+6008220	6011220	wantedly I will cover it on hover how you can do it
+6011220	6014220	ok now
+6014220	6017220	now comes
+6017220	6020220	once we have this
+6020220	6023220	let's do something let's do this one
+6023220	6026220	let's do some JS part let's do some JS
+6026220	6029220	part coding
+6029220	6032220	so before going to JS let's link
+6032220	6035220	JS file ok let's say that I have
+6035220	6038220	a script source and say
+6038220	6041220	I have the script.js
+6041220	6044220	now guys our interesting
+6044220	6047220	task would be let's say I divide this
+6047220	6050220	I pull this here
+6050220	6053220	and now
+6053220	6056220	the problem statement try to
+6056220	6059220	listen this problem statement clearly now by default
+6059220	6062220	even if I load it you can see the overlay
+6062220	6065220	coming up right
+6065220	6068220	everything is there right
+6068220	6071220	we want to make this toggle
+6071220	6074220	on click of this plus button on click of this plus button
+6074220	6077220	we have to make it toggle like when you click there
+6077220	6080220	when you again click plus it shouldn't be there
+6080220	6083220	that is what we have to do now if you see
+6083220	6086220	there is another thing like when I click outside
+6086220	6089220	it doesn't go when I click only plus it goes off
+6089220	6092220	ok on off like switch on switch off
+6092220	6095220	ok now we have to achieve that
+6095220	6098220	now you guys have learned DOM
+6098220	6101220	operations now you guys have to suggest me how can
+6101220	6104220	I do it because I am trying to listen some button
+6104220	6107220	here how can I listen to this button
+6107220	6110220	just think of it I will open the HTML part
+6110220	6113220	you guys suggest me now if you suggest me quick
+6113220	6116220	add an event listener
+6116220	6119220	to which part to which part I should add
+6119220	6122220	add a listener
+6125220	6128220	button plus button right let's say I build
+6128220	6131220	something like const button add button
+6131220	6134220	and how can I
+6134220	6137220	get an access to that button firstly how can I
+6137220	6140220	get an access to that button
+6140220	6143220	how can I
+6143220	6146220	document dot query selector great
+6146220	6149220	document dot query selector once I do
+6149220	6152220	this query selector
+6152220	6155220	let me move this code base bit this side once I have
+6155220	6158220	this query selector what I have to do
+6158220	6161220	I have to select add button
+6161220	6164220	class that particular div
+6164220	6167220	that we are targeting isn't it
+6169220	6172220	no
+6173220	6176220	second thing
+6176220	6179220	which thing you are toggling
+6179220	6182220	which thing you are toggling
+6182220	6185220	which container you are toggling what is the
+6185220	6188220	we need a reference to this one also
+6188220	6191220	model container let's say I create
+6191220	6194220	a reference to that one also let's say const
+6194220	6197220	model model
+6197220	6200220	container
+6200220	6203220	document dot query selector
+6203220	6206220	model
+6206220	6209220	container
+6209220	6212220	this is clear right
+6212220	6215220	now for add button
+6215220	6218220	I am adding a listener click
+6218220	6221220	now I have a problem statement
+6221220	6224220	again now you guys suggested me that
+6224220	6227220	add an event listener
+6227220	6230220	ok
+6230220	6233220	thank you
+6233220	6236220	guys now you suggest me
+6236220	6239220	how can I toggle this
+6242220	6245220	how can I toggle this
+6245220	6248220	display block great
+6248220	6251220	but
+6251220	6254220	for toggling we have to toggle display none right
+6254220	6257220	and for this property model container
+6257220	6260220	we have given a default property
+6260220	6263220	if you go into model container
+6266220	6269220	we have given a display as flex
+6269220	6272220	we have to toggle between display flex and display none
+6272220	6275220	right first point that point
+6275220	6278220	is clear we have to toggle between display flex and display none
+6278220	6281220	for on of model
+6281220	6284220	great now now comes
+6284220	6287220	the actual code part this is just a small
+6287220	6290220	one liner problem statement add a toggle
+6290220	6293220	event
+6293220	6296220	if we don't have that
+6296220	6299220	if you don't have that how would you toggle it
+6299220	6302220	it's just a if else condition right if else
+6302220	6305220	condition let's say if I
+6305220	6308220	if I think of it this way in terms of
+6308220	6311220	code let's say if I have a variable
+6311220	6314220	add task
+6314220	6317220	flag I'll say I'll I'm having a flag
+6317220	6320220	I'll say by default it is false
+6320220	6323220	ok and I'll say that
+6323220	6326220	if add task flag
+6326220	6329220	is equal equal to triple equal to true
+6329220	6332220	then do something or else do
+6332220	6335220	other thing
+6335220	6338220	by doing this thing what I'll do is like I'll say model container
+6338220	6341220	dot what should I do guys
+6341220	6344220	if I want to change this style
+6344220	6347220	I can use inline style right inline style
+6347220	6350220	style block
+6353220	6356220	style dot display
+6360220	6363220	only if button is on then use
+6363220	6366220	like this one or else use it not
+6366220	6369220	flex
+6369220	6372220	ok now when
+6372220	6375220	user is clicking this when user is
+6375220	6378220	clicking this we are toggling this add task button
+6378220	6381220	let's say when we want to toggle this particular
+6381220	6384220	thing I'll select this one I'll make it as
+6384220	6387220	whatever value is there update that value
+6387220	6390220	with the negation of that
+6391220	6394220	is that clear guys like how did I
+6394220	6397220	write this logic why did I use this part
+6400220	6403220	ok no no going back
+6403220	6406220	going back to style
+6406220	6409220	going back to styles.css by default
+6409220	6412220	do you think the style should be flex or style should be
+6412220	6415220	none for this model
+6415220	6418220	by default
+6418220	6421220	by default the overlay shouldn't be available right
+6421220	6424220	that point is clear no
+6424220	6427220	let's say make none
+6427220	6430220	ok by default this should be no
+6430220	6433220	coming back so when
+6433220	6436220	I say none when
+6436220	6439220	user like let's debug this I'll show you
+6439220	6442220	step by step ok when I debug this I'll show you step by step
+6442220	6445220	going back to project now let's say click this
+6445220	6448220	the task is working fine as of now
+6448220	6451220	but I'll show you how this is working for the people
+6451220	6454220	who didn't understand the conditional logic how it is working
+6460220	6463220	whenever I refresh it
+6463220	6466220	by default this code is not executed
+6466220	6469220	until unless you click this button because this
+6469220	6472220	button is listening to a click
+6472220	6475220	when user clicks it only then this code will be
+6475220	6478220	executed so a by default when the page
+6478220	6481220	loads the flag value is false
+6481220	6484220	we are making a negation and making true when we are making
+6484220	6487220	a true the model whatever model
+6487220	6490220	is there container which model we have here that's
+6490220	6493220	element in that model container
+6493220	6496220	we are toggling it we are adding inline style
+6496220	6499220	that make it a display as a flex
+6499220	6502220	if you see next line will be executed this one
+6502220	6505220	and we are making it as a flex now
+6505220	6508220	once I click this again if I click this again
+6508220	6511220	now the true value will become false and it will make it display
+6511220	6514220	as none is that clear guys
+6514220	6517220	how that is working
+6520220	6523220	ok so
+6523220	6526220	if this part is done
+6526220	6529220	any doubts guys any doubts in the whole class
+6529220	6532220	that we have discussed till now any doubts in this whole class that we have
+6532220	6535220	discussed
+6538220	6541220	no right ok now let's say
+6541220	6544220	I will make a comment as tool box creation
+6547220	6550220	now what we will do is like we will create a
+6550220	6553220	dummy ticket and flag part once again
+6553220	6556220	open the unit again once again ok let me explain you
+6556220	6559220	here it steps step by step by default
+6559220	6562220	for this model container right whatever model container
+6562220	6565220	is there default the style is none
+6565220	6568220	so whenever your js file is loaded
+6568220	6571220	the flag at task flag is false
+6571220	6574220	so you won't be able to see anything on the screen
+6574220	6577220	once user is clicking this button
+6577220	6580220	I am making it as a true and once it is true
+6580220	6583220	I am applying the display as flex else
+6583220	6586220	I am making it as a none
+6586220	6589220	is that clear like open the
+6589220	6592220	ok simple
+6592220	6595220	now let's build guys
+6595220	6598220	if you see only the part
+6598220	6601220	which thing is left is like
+6601220	6604220	what we will do is that we will just build
+6604220	6607220	this static ticket
+6607220	6610220	we will make it dynamic in the upcoming classes
+6610220	6613220	but we will build a simple html part
+6613220	6616220	for that one though this html part will be coded
+6616220	6619220	from javascript I will show you one basic ticket
+6619220	6622220	how we can do it ok
+6622220	6625220	now let's go and build a
+6625220	6628220	div.main.ticket
+6628220	6631220	container
+6631220	6634220	let's say say this I have this container
+6634220	6637220	let's say I create a ticket container
+6637220	6640220	div.ticket
+6640220	6643220	container
+6643220	6646220	ok inside this ticket container
+6646220	6649220	if you go and see we have three things
+6649220	6652220	one is color one is ticket id then you have ticket
+6652220	6655220	information right three things basically
+6655220	6658220	top level three things now let's try to replicate
+6658220	6661220	that one first would be
+6661220	6664220	div.ticket
+6664220	6667220	color
+6667220	6670220	right next would be
+6670220	6673220	div.ticket
+6673220	6676220	id
+6676220	6679220	guys if you are able to see this
+6679220	6682220	if I am missing
+6682220	6685220	anywhere BEM right BEM convention do let me know
+6685220	6688220	if I am missing anywhere BEM convention
+6688220	6691220	I hope you
+6691220	6694220	you know address those
+6694220	6697220	BEM convention mistakes that I have done in this class
+6697220	6700220	hope you come back and let me know what mistakes I have done
+6700220	6703220	ok that's the one homework that I am giving
+6703220	6706220	only standards
+6706220	6709220	would you be able to do that
+6709220	6712220	CSS naming convention mistakes
+6712220	6715220	ok just check that and let me know
+6715220	6718220	where we can improve on
+6718220	6721220	cool good
+6721220	6724220	after ticket this one then I will have something like
+6724220	6727220	tick task area
+6727220	6730220	let's say task area
+6730220	6733220	let's say I have some content as lower M
+6733220	6736220	10 I save this
+6736220	6739220	then I have something let's say id as some random gibberish
+6739220	6742220	so this is what
+6742220	6745220	a container looks like let's go back
+6745220	6748220	this is our container
+6748220	6751220	looks like right we haven't provided any ticket
+6751220	6754220	color so we will do that using CSS
+6754220	6757220	and let's see this how we can do it
+6757220	6760220	ok first and foremost thing what I will do
+6760220	6763220	is that I will create multiple tickets
+6763220	6766220	let's say I copy paste this
+6766220	6769220	multiple tickets
+6769220	6772220	and created five tickets I believe
+6772220	6775220	no I have five tickets now we will make it
+6775220	6778220	you know CSS changes for this one
+6778220	6781220	going back opening CSS
+6781220	6784220	dividing screen into two parts
+6784220	6787220	let's say we have this particular things
+6787220	6790220	now let's get started with CSS
+6790220	6793220	ok now
+6793220	6796220	first and foremost thing
+6796220	6799220	let's say tickets
+6799220	6802220	I will apply some CSS
+6802220	6805220	for the main container
+6805220	6808220	main
+6808220	6811220	ticket container
+6811220	6814220	ok
+6814220	6817220	now for the main ticket container
+6817220	6820220	first and foremost thing if you see
+6820220	6823220	these are aligned one after the other
+6823220	6826220	in a horizontal task one is coming here task two is going next
+6826220	6829220	horizontal alignment how we can do that
+6829220	6832220	horizontal alignment
+6835220	6838220	I think in terms of display only
+6838220	6841220	that would work grid is like really for
+6841220	6844220	top bigger screens where you set out the layout
+6844220	6847220	but flex would work fine right as of now
+6847220	6850220	this is not that complicated
+6850220	6853220	one right
+6854220	6857220	right let's say if I use display flex
+6857220	6860220	I use display flex
+6860220	6863220	and I simply give it
+6863220	6866220	as justify content I mean content
+6866220	6869220	should be along the center
+6869220	6872220	and let's say also
+6872220	6875220	if you see I will use
+6875220	6878220	some property called as gap
+6878220	6881220	gap property is used to
+6881220	6884220	give space between each of its children
+6884220	6887220	element whatever items are there flex items are there
+6887220	6890220	on left right bottom top there should be like
+6890220	6893220	two rem of gap this is coming from flex level
+6893220	6896220	property this can be applied only when display flex for the particular
+6896220	6899220	container is that clear guys
+6899220	6902220	now if you see it applied to
+6902220	6905220	rem of space on
+6905220	6908220	between them
+6908220	6911220	now once we applied this
+6911220	6914220	once we applied this one thing I will do is that if there is
+6914220	6917220	extra space right for the content if there is an extra
+6917220	6920220	space I will use something like flex wrap
+6920220	6923220	right thank you sir
+6923220	6926220	so we will use flex wrap to make it
+6926220	6929220	wrap the content now if you see it moved
+6929220	6932220	bottom once we made it trap it moved one after
+6932220	6935220	the other because why did it
+6935220	6938220	move the other item to the down because it took the whole
+6938220	6941220	space and consumed it we haven't given
+6941220	6944220	it width and height yet so it is trying to consume
+6944220	6947220	that thing is that clear like
+6947220	6950220	it is saying that a whole space is there only
+6950220	6953220	if the space is consumed then I will wrap it up now if
+6953220	6956220	I if you want me to show it up how it can when it can
+6956220	6959220	happen let's say I say lower m 100
+6959220	6962220	sorry guys I think I got the code
+6962220	6965220	if you see it's wrapping things down
+6971220	6974220	going back editing this part
+6977220	6980220	once this is done then
+6980220	6983220	comes the main part once the container
+6983220	6986220	part let's say this is what we will do for container
+6986220	6989220	now comes the inside container
+6989220	6992220	which is ticket container let's say
+6992220	6995220	I select one ticket container
+6995220	6998220	individual ticket container what will apply for individual
+6998220	7001220	ticket container
+7001220	7004220	going back to ticket container I will say
+7004220	7007220	given height to the particular container as 12
+7007220	7010220	and let's say I give a width
+7010220	7013220	as 14
+7013220	7016220	okay and if you see I will have
+7016220	7019220	a background color of
+7019220	7022220	coral a bit of orange one
+7024220	7027220	right if you see in the tickets you will have
+7027220	7030220	orange color background but will change for this
+7030220	7033220	individual item level things okay
+7033220	7036220	now once we did this
+7036220	7039220	then go for a ticket color
+7039220	7042220	ticket color let's
+7042220	7045220	give it you know color for them
+7045220	7048220	say height is
+7048220	7051220	I'm giving a default color as of now
+7051220	7054220	I'm not making it dynamic so I'm giving it
+7054220	7057220	as a background color as a black
+7057220	7060220	so since the color will be
+7060220	7063220	dynamic in nature which will be keep changing on
+7063220	7066220	click of button but I'm making it as a something
+7066220	7069220	as long you know just for sake as of now
+7069220	7072220	is that fine guys I'm making
+7072220	7075220	a static black color
+7075220	7078220	and I'll give some margin top here
+7078220	7081220	so that it looks differentiated
+7081220	7084220	10 pixel let's say 1 rem
+7084220	7087220	unit
+7087220	7090220	yeah fine now once this is done
+7090220	7093220	is this clear guys till now what I've done it
+7093220	7096220	nothing new right
+7096220	7099220	any doubts
+7099220	7102220	all right let's go for ticket
+7102220	7105220	ID ticket
+7105220	7108220	ID once you go
+7108220	7111220	come for ticket ID let's say height is
+7111220	7114220	2 rem for the ID part
+7114220	7117220	and let's say I give a background color as
+7117220	7120220	light
+7120220	7123220	hello
+7123220	7126220	let's see if this is
+7126220	7129220	looking fine yeah it looks
+7129220	7132220	odd let's make it yellow as of now I'll select
+7132220	7135220	better color later
+7135220	7138220	so this is yellow
+7138220	7141220	now
+7141220	7144220	do you see this anything missing yet
+7144220	7147220	or we are able to replicate it whatever we want
+7147220	7150220	guys
+7150220	7153220	do you see this is
+7153220	7156220	covered everything is covered right
+7156220	7159220	lock icon edit button will add it dynamically
+7159220	7162220	on each ticket
+7162220	7165220	because if I go and add it right
+7165220	7168220	let's say if even if I go to
+7168220	7171220	font awesome let's say we pick font awesome
+7171220	7174220	let's say I pick a lock
+7174220	7177220	lock
+7177220	7180220	lock
+7180220	7183220	I select this lock I copy
+7183220	7186220	this
+7186220	7189220	let's say
+7189220	7192220	I didn't add it here
+7192220	7195220	let's say I go and say
+7195220	7198220	this place
+7198220	7201220	I copy and paste it everywhere
+7201220	7204220	after the content area
+7216220	7219220	it shouldn't be inside this task area
+7219220	7222220	lock should be in separate part
+7222220	7225220	let me delete this
+7225220	7228220	because this will be editable right editable
+7228220	7231220	in nature once you click that button so button should be
+7231220	7234220	yeah change
+7234220	7237220	that same thing but we'll see
+7237220	7240220	lock implementation completely in a different
+7240220	7243220	way through JS actually
+7243220	7246220	we'll code it down completely through JS so we'll see there
+7249220	7252220	let's say I have this
+7252220	7255220	three places
+7258220	7261220	so
+7261220	7264220	so
+7264220	7267220	so
+7267220	7270220	so
+7270220	7273220	so I have done this
+7273220	7276220	now if you go back to can man board you are
+7276220	7279220	able to see the lock here but now if you have to move it to the
+7279220	7282220	yeah
+7282220	7285220	height will be covered from the parent right
+7285220	7288220	now if you see when we say rem units relative
+7288220	7291220	units now
+7291220	7294220	for this one
+7294220	7297220	for this one
+7297220	7300220	do you see any
+7300220	7303220	like parent ticket container in the ticket container
+7303220	7306220	we have given a particular
+7306220	7309220	height and width like
+7309220	7312220	height and width now from that perspective
+7312220	7315220	this rems will be calculated
+7318220	7321220	is that clear Kabir
+7321220	7324220	it's related to parent
+7324220	7327220	now
+7327220	7330220	guys can you
+7330220	7333220	do CSS for lock
+7333220	7336220	and move it to the bottom
+7336220	7339220	and move it to the bottom
+7339220	7342220	right corner
+7343220	7346220	anyone want to volunteer anyone want to volunteer I can unmute
+7346220	7349220	them and we can do that or else you want to take it as a homework
+7349220	7352220	and you want to do that anything works
+7352220	7355220	but I want you to help me out
+7361220	7364220	let's say somebody says
+7364220	7367220	position absolute bottom zero right zero
+7367220	7370220	let's let's do that
+7370220	7373220	I have lock
+7373220	7376220	position
+7376220	7379220	absolute
+7382220	7385220	bottom zero
+7385220	7388220	right zero
+7388220	7391220	do you
+7391220	7394220	do you see this lock
+7394220	7397220	came down completely
+7397220	7400220	what could be the mistake guys
+7400220	7403220	here we can use relative version now let's use relative version
+7408220	7411220	if I use relative version
+7411220	7414220	still the lock is sticking here
+7418220	7421220	now let's say I select this lock
+7423220	7426220	now this is the lock
+7426220	7429220	position just a second guys
+7429220	7432220	did I
+7432220	7435220	CSS classes not applied
+7435220	7438220	for everything
+7438220	7441220	this is the lock
+7441220	7444220	give me a second no if I
+7444220	7447220	remove this bottom zero or anything it's not
+7447220	7450220	working yet
+7450220	7453220	add position relative to
+7453220	7456220	previous part right let's say
+7456220	7459220	I make it a main ticket container
+7459220	7462220	as relative
+7462220	7465220	position relative
+7465220	7468220	and if I make below
+7468220	7471220	one as absolute
+7473220	7476220	let's see if this works
+7476220	7479220	do you guys see this what just happened
+7483220	7486220	okay I did a mistake again
+7486220	7489220	I did it for the main container instead
+7489220	7492220	of this part
+7492220	7495220	I should make for ticket container
+7495220	7498220	right
+7498220	7501220	is this fine guys
+7502220	7505220	display
+7505220	7508220	flag justify and align
+7508220	7511220	and would work fine
+7511220	7514220	only if
+7514220	7517220	you have multiple items
+7517220	7520220	because you are applying it for container think from the container
+7520220	7523220	perspective that those are applied to
+7523220	7526220	container like
+7526220	7529220	it's not it won't work for individual one element like
+7529220	7532220	you are you need to think from children perspective
+7532220	7535220	because this particular item is already a children
+7538220	7541220	yeah so what we did position
+7541220	7544220	right now when I select
+7544220	7547220	absolute as a further lock
+7547220	7550220	what's happening is that when you when I select absolute
+7550220	7553220	absolute checks for the two conditions
+7553220	7556220	first condition is like whether down
+7556220	7559220	like when it goes over the chain
+7559220	7562220	if there is any parent element with relative
+7562220	7565220	if there is any parent with relative it will move
+7565220	7568220	top right left bottom with respect to
+7568220	7571220	that position but if there is no
+7571220	7574220	parent element with position as related
+7574220	7577220	it will move with respect to the top
+7577220	7580220	most left place like if I show you
+7580220	7583220	the chart that we have
+7583220	7586220	that's the reason why I added a chart
+7586220	7589220	here so that we can refer
+7589220	7592220	right anytime we have confusion
+7592220	7595220	if you see go for
+7595220	7598220	absolute with respect
+7598220	7601220	like starting position of element once applied with
+7601220	7604220	respect to window top left or parent relative
+7604220	7607220	is that clear Kabir
+7607220	7610220	why we were we are adding relative to the container
+7610220	7613220	then making it the lock item as absolute
+7616220	7619220	so guys is everyone clear about what we
+7619220	7622220	did it everything what we have wanted to achieve
+7622220	7625220	and did we achieve everything
+7625220	7628220	from the project HTML and CSS part
+7628220	7631220	now all the functionality is remaining but
+7631220	7634220	we added paint and structure to the application
+7634220	7637220	isn't it
+7640220	7643220	so I hope the concept is clear to everyone
+7643220	7646220	now the one homework that I gave is you know
+7646220	7649220	BEM convention I think I also added
+7649220	7652220	inside the links
+7654220	7657220	go for the BEM convention and explore it
+7657220	7660220	and like
+7660220	7663220	actually I would say right actually I would say that
+7663220	7666220	hey
+7666220	7669220	once your BEM convention is fixed
+7669220	7672220	raise a PR to my
+7672220	7675220	you know my kitab repo that I have it
+7675220	7678220	I would be really happy if anyone does that
+7678220	7681220	just only changing CSS names
+7681220	7684220	just raise a small PR
+7684220	7687220	and like changing the naming convention
+7687220	7690220	if I put a lock it's not a right way
+7690220	7693220	I try to defining lock lock is for what
+7695220	7698220	lock is for ticket where you have mentioned ticket
+7698220	7701220	think of in terms of that like naming convention should be
+7701220	7704220	clear when you go into the style file
+7704220	7707220	is that clear guys
+7707220	7710220	would you be able to do that
+7710220	7713220	go and read the BEM conventions
+7713220	7716220	and I think I have talked about it
+7716220	7719220	multiple times
+7719220	7722220	you can you can go and see this
+7722220	7725220	here CSS tricks I will pin this
+7725220	7728220	I will also pin it
+7728220	7731220	in the reading document
+7731220	7734220	okay I won't be
+7734220	7737220	addressing this issue guys you would be addressing it
+7737220	7740220	I would be really happy if you can do that
+7740220	7743220	okay
+7743220	7746220	let's say class
+7746220	7749220	today is a class number
+7749220	7752220	what is a class number guys today I don't remember
+7752220	7755220	if you go in JavaScript we have
+7755220	7758220	covered 13th, 14th class
+7772220	7775220	okay I have registered it can you please check and update git recordings
+7775220	7778220	oh they didn't provide it guys
+7778220	7781220	git
+7782220	7785220	guys can you give me thumbs up thumbs down
+7785220	7788220	if you have recordings added in your archive section
+7788220	7791220	and even portfolio project that
+7791220	7794220	we didn't cover this part portfolio project
+7794220	7797220	I will push the code today but I want this
+7797220	7800220	part to be also thought to you
+7800220	7803220	okay I will ask the recordings to be added guys
+7803220	7806220	like maybe I will recheck with the team
+7806220	7809220	and I will get it added
+7809220	7812220	okay I will get it added
+7812220	7815220	so guys if everything is clear
+7815220	7818220	can we start doubt session for today
+7818220	7821220	so it's 2 hours 10 minutes
+7821220	7824220	so I am starting doubt session guys if anyone have doubts
+7824220	7827220	extra session that's a recording
+7827220	7830220	will be available some bit so you can go through that
+7830220	7833220	as for autocomplete
+7833220	7836220	I have tab 9 starter package
+7836220	7839220	if you see here I will start doubt session
+7839220	7842220	and talk about it Kabir
+7842220	7845220	so I am using tab 9 starter
+7845220	7848220	if you see
+7848220	7851220	this is tab 9 AI like
+7851220	7854220	it generally suggest you the code
+7854220	7857220	it understands it and suggest you
+7857220	7860220	you can use actually better extensions
+7860220	7863220	also I didn't update it
+7863220	7866220	you can go for copilot
+7866220	7869220	github copilot
+7869220	7872220	like if you say 12.7 million people are using
+7872220	7875220	you can go and use this copilot
+7875220	7878220	that works fine
+7878220	7881220	like it's a pay programming like let's say
+7881220	7884220	you are working with someone you are having a friend
+7884220	7887220	who is suggesting you what need to be done here
+7887220	7890220	so I try to in my office I try to use as much
+7890220	7893220	AI as it is like I can use it for
+7893220	7896220	because today's
+7896220	7899220	generation of development would be how much fast you can
+7899220	7902220	you code it down rather than
+7902220	7905220	I mean deliver your task rather than
+7905220	7908220	how much challenge because if you know the basics
+7908220	7911220	clearly right you will google it
+7911220	7914220	the AI tools will suggest you those
+7914220	7917220	small small petty things
+7917220	7920220	syntax is not a big deal today
+7920220	7923220	so that's the reason why I say that if someone in interview
+7923220	7926220	for getting syntax I will help them out
+7926220	7929220	I mean that's a basic thing anyone will figure out once they are in office
+7929220	7932220	but it's just that they should be able to think like how they can do it
+7932220	7935220	ok so you can use copilot
+7935220	7938220	also something that I am using is
+7938220	7941220	tab 9 I will show you
+7941220	7944220	this thing I think I have
+7945220	7948220	this is 6.9 million people
+7948220	7951220	it needs a reload I will reload it
+7951220	7954220	ok also
+7954220	7957220	I have many actually you know
+7957220	7960220	things installed like
+7960220	7963220	mermaid and tailwind CSS thunder clients
+7963220	7966220	I will help you out understanding one by one like
+7966220	7969220	whenever things come
+7969220	7972220	Cody let's explore Cody
+7975220	7978220	yeah code assistant it's not that famous
+7978220	7981220	yet Arun maybe sometimes in future
+7981220	7984220	let's say Cody AI
+7984220	7987220	152k people are using it
+7987220	7990220	autocomplete features yeah you can use it you can search it
+7990220	7993220	at my office I use something Amazon one
+7993220	7996220	Amazon
+8000220	8003220	yeah code whisper so they named it
+8003220	8006220	as a code whisper because it whispers
+8006220	8009220	your code I mean it whispers into your
+8009220	8012220	like let's say onto your editor how you can code it
+8012220	8015220	just giving them script right like
+8015220	8018220	if you go for chat GPT you write it on
+8018220	8021220	what you need but here it says
+8021220	8024220	if you see here how can you do it if you see code whisper it's
+8024220	8027220	really great one I mean I use it this one at office
+8027220	8030220	in my office laptop I don't use tab 9 there
+8030220	8033220	for this one you need access like
+8033220	8036220	what we say enterprise level access
+8036220	8039220	okay it does
+8039220	8042220	security scans it does find vulnerabilities in your code
+8042220	8045220	so it's really help you to write cleaner better
+8045220	8048220	code
+8049220	8052220	you can explore this guys this is like really
+8052220	8055220	I mean if you the only thing
+8055220	8058220	is like now even if you see
+8058220	8061220	for this one right there only two lakhs people are using it
+8061220	8064220	so
+8064220	8067220	but you have to explore like what you can use it much
+8067220	8070220	now
+8070220	8073220	yeah it's up to you guys anything you can use it
+8073220	8076220	anything else case anything else you want me to discuss on
+8079220	8082220	so guys like if you enjoy
+8082220	8085220	sessions please give us good ratings if you
+8085220	8088220	have anything right you can write it down
+8088220	8091220	constructive feedback I'll try to read it
+8091220	8094220	through I'll make it you know better
+8094220	8097220	I mean I'm just want to because it's
+8097220	8100220	really heavy for us like if you get less ratings it's really
+8100220	8103220	heavy for us like if you enjoyed write it down if you have any comments
+8103220	8106220	do suggest me I'll work on it and
+8106220	8109220	it's somewhere right it's a peer learning process I'm
+8109220	8112220	working on one skill you are also working learning
+8112220	8115220	on one skill so I'm trying to teach what I'm
+8115220	8118220	good at maybe I'll work on my teaching spreader if you have
+8118220	8121220	good comments works guys
+8124220	8127220	great
+8129220	8132220	okay thank you Kabir
+8132220	8135220	so
+8135220	8138220	so
+8138220	8141220	hello guys then I'll close the session
+8141220	8144220	for today we'll see again in next class I hope
+8144220	8147220	you'll fix those BEM conventions
+8147220	8150220	and come back and
+8150220	8153220	because it's a thank you Kiran
+8153220	8156220	yeah yeah needs a hands on right
+8156220	8159220	that's the reason why I'm giving some when once you're trying
+8159220	8162220	to go through BEM conventions right you will read it
+8162220	8165220	you will have to go through the code
+8165220	8168220	you will understand CSS you will update the CSS
+8168220	8171220	so in a way you are reading the whole code because from
+8171220	8174220	tomorrow once I write JavaScript in the next class
+8174220	8177220	you will be feeling bit you know
+8177220	8180220	lethargic to go through it how
+8180220	8183220	how to develop more logic
+8183220	8186220	on JS Sambit it comes with practice
+8186220	8189220	for me if I say
+8189220	8192220	directly from my experience right
+8192220	8195220	directly writing in JS I too have
+8195220	8198220	up to an extent knowledge like
+8198220	8201220	because
+8201220	8204220	more of my experience comes from frameworks knowledge
+8204220	8207220	like where I worked on react and angular
+8207220	8210220	also for some time but more on react
+8210220	8213220	so on react specific knowledge I have
+8213220	8216220	more but when it comes to JS right
+8216220	8219220	at PayPal we have a Kraken framework on
+8219220	8222220	so Kraken framework works like Kraken itself is
+8222220	8225220	a full stack app full stack framework
+8225220	8228220	where you write more on a server side logics on
+8228220	8231220	client code where we write whole
+8231220	8234220	node.js code because that Kraken framework is
+8234220	8237220	compression of node.js and react so
+8237220	8240220	on node.js you write clean JS so
+8240220	8243220	on node.js and year and half I'm writing more JS
+8243220	8246220	and I'm improving on it if I if you asked me
+8246220	8249220	wanted of year back I would say that I'm 50
+8249220	8252220	50 or 30 80 sort of thing 30 70 sort of
+8252220	8255220	thing but it comes with practice as much as you
+8255220	8258220	write it you'll get to know it from it
+8258220	8261220	okay it comes with practice that's only the one thing that I can say
+8261220	8264220	practice more
+8264220	8267220	practice more like how can
+8267220	8270220	you do it it's like same if you go for problem solving
+8270220	8273220	open lead code solve problems
+8273220	8276220	you can use JS logics there
+8276220	8279220	but if you want to actually work on DOM manipulation
+8279220	8282220	for DOM manipulation you have to do machine
+8282220	8285220	learnings because machine learning problems I'll introduce
+8285220	8288220	three four machine learning problems
+8288220	8291220	three four machine learnings only will be solving after
+8291220	8294220	this Kanban board once we cover
+8294220	8297220	racing code then I'll give you a
+8297220	8300220	list of machine coding like you know problems
+8300220	8303220	that you can solve I'll push it this
+8303220	8306220	something that we discussed right in the class I'll push
+8306220	8309220	it onto the separate repo as a machine coding with
+8309220	8312220	HTML.js also I'll give a list of
+8312220	8315220	problems that you can solve you can contribute to that
+8315220	8318220	repo that will be a practice like solving actual problems
+8318220	8321220	because that is someone ping me
+8321220	8324220	on whatsapp also do you find any website where we can
+8324220	8327220	practice machine coding
+8327220	8330220	like machine coding is related specific to HTML.js
+8330220	8333220	DOM interaction right so for that
+8333220	8336220	I'll help you out first we'll discuss few problems then I'll tell you
+8336220	8339220	what problems you can solve and how you can solve
+8339220	8342220	work somewhere
+8346220	8349220	Opendra says CSS looks easy
+8349220	8352220	it will take time Opendra I would
+8352220	8355220	agree
+8355220	8358220	we'll help you out some with that
+8358220	8361220	CSS is like since we have learnt in
+8361220	8364220	in better way right we are able to figure it out
+8364220	8367220	in future classes when I'm working on react and
+8367220	8370220	when I'm working on some more difficult projects
+8370220	8373220	right then I won't be able to teach you CSS
+8373220	8376220	like one by one property I'll be trying to paste
+8376220	8379220	down the properties I'll skim through it I'll explain you
+8379220	8382220	through it but I cannot go through it
+8382220	8385220	completely because I'll be writing more and more logic
+8385220	8388220	going at
+8388220	8391220	yeah yeah CSS anything right
+8391220	8394220	anything you use more more focus on one thing
+8394220	8397220	you'll be being good at it so
+8397220	8400220	as much as time you give it on it you'll become better on it
+8406220	8409220	okay guys then
+8409220	8412220	can we close the session
+8412220	8415220	guys
+8415220	8418220	I think I got cough I have to check it
+8418220	8421220	thank you Opendra thank you all thank you all for attending
+8421220	8424220	I hope to see you in the next class
+8424220	8427220	so that we'll cover JS part for this one if you
+8427220	8430220	completely understand this one project right you will be
+8430220	8433220	surely having a good knowledge on these three parts
+8433220	8436220	all of them thank you Sambit thank you Sambit
+8436220	8439220	both Tripathi and Basant
+8439220	8442220	thank you all see you in the next class
+8442220	8445220	guys bye bye
+8448220	8451220	I'll push the code guys see it I'm committing the code
+8451220	8452220	okay bye bye
+8463220	8466220	you
+8493220	8496220	you
+8523220	8526220	you

@@ -1,0 +1,5380 @@
+1
+00:00:00,000 --> 00:00:15,320
+hi all good evening guys can you give me some quick thumbs up if I'm audible and visible
+
+2
+00:00:15,320 --> 00:00:25,520
+okay great let me share my screen
+
+3
+00:00:25,520 --> 00:00:38,160
+do let me know if you can see the screen share too
+
+4
+00:00:38,160 --> 00:01:02,240
+seems to be my network is slow today
+
+5
+00:01:08,240 --> 00:01:10,000
+anyways we'll just speed test
+
+6
+00:01:26,720 --> 00:01:28,160
+it's very less isn't it
+
+7
+00:01:28,160 --> 00:01:36,120
+no worries if there's any connection issues we'll change the network
+
+8
+00:01:36,120 --> 00:01:46,880
+but guys how you doing how's your weekend going on do we have Kiran with us
+
+9
+00:01:46,880 --> 00:01:57,400
+yeah Kiran your suggestions great great I've seen you some comments in whatsapp
+
+10
+00:01:57,400 --> 00:02:04,200
+group so just wanted to understand your last message do you mind if I unmute you
+
+11
+00:02:04,200 --> 00:02:09,280
+and we can discuss over here or you want to take it up in the doubt session I'm
+
+12
+00:02:09,400 --> 00:02:31,160
+okay with that and thanks so much for answering questions too yeah okay I think
+
+13
+00:02:31,160 --> 00:02:36,200
+somebody has already answered that question yeah any approach like you can
+
+14
+00:02:36,200 --> 00:02:43,400
+have you know any number of fixes that you can deal with so even when you you
+
+15
+00:02:43,400 --> 00:02:50,480
+have to recheck only only one thing like is it is it easy to go and you know
+
+16
+00:02:50,480 --> 00:02:55,320
+play around with CSS updating it or removing it and adding into the term so
+
+17
+00:02:55,320 --> 00:02:59,640
+whichever is a costly operation you have to avoid that one and play around with
+
+18
+00:02:59,640 --> 00:03:05,040
+those things but those are really minute at their level so anything works Kiran
+
+19
+00:03:05,080 --> 00:03:10,320
+as far as you are understanding in the class we have already discussed that we
+
+20
+00:03:10,320 --> 00:03:15,120
+can deal with like display block and none or display flex for the for because
+
+21
+00:03:15,120 --> 00:03:26,320
+we were using flex there okay do you want me to unmute okay let me do that
+
+22
+00:03:26,360 --> 00:03:37,080
+yeah please go ahead again guys I'm not able to listen if anyone is able to
+
+23
+00:03:37,080 --> 00:03:45,320
+listen let me know if you're speaking yes I can hear you can yeah so when I
+
+24
+00:03:45,320 --> 00:03:50,000
+saw that lecture actually I wasn't attending that so I watched the
+
+25
+00:03:50,000 --> 00:03:55,600
+recording recording I saw that we were trying some different thing like array
+
+26
+00:03:55,640 --> 00:04:03,120
+making an array then deleting it then recreating it so that was okay but when
+
+27
+00:04:03,120 --> 00:04:10,200
+we use that for local storage also no then we have to always take care of that
+
+28
+00:04:10,200 --> 00:04:17,840
+deleting and recreating so that when we are updating the local storage it is up
+
+29
+00:04:17,840 --> 00:04:22,400
+to date till then so I thought that array would be better if we only use for
+
+30
+00:04:22,400 --> 00:04:28,840
+local storage and that filtering part will be only just CSS I mean that's what
+
+31
+00:04:28,840 --> 00:04:35,160
+I think but I don't know what consequences it may have later if there
+
+32
+00:04:35,160 --> 00:04:38,960
+is a bigger project or some bigger application so I just wanted to know
+
+33
+00:04:38,960 --> 00:04:43,600
+your views on that yeah so if you see right whenever I'm filtering things
+
+34
+00:04:43,600 --> 00:04:48,320
+logic I never I didn't play around with the local storage here I was just you
+
+35
+00:04:48,320 --> 00:04:53,880
+know removing the tickets and recreating whatever needed so when it comes to
+
+36
+00:04:53,880 --> 00:04:57,280
+filtering logic because you don't really need to apply on local storage like we
+
+37
+00:04:57,280 --> 00:05:01,280
+don't have any other extra parameter like an object whether to show on screen
+
+38
+00:05:01,280 --> 00:05:06,360
+or not to show on screen there's no differentiator there if you want to play
+
+39
+00:05:06,360 --> 00:05:10,080
+if you want to store anything in local storage that way then whenever you are
+
+40
+00:05:10,080 --> 00:05:14,640
+pushing each and every event into local storage you also have to say that is
+
+41
+00:05:14,640 --> 00:05:19,480
+this current task is shown on screen or not sure because you again you need a
+
+42
+00:05:19,480 --> 00:05:24,960
+new variable right so here I'm just using the array two loops one is filter
+
+43
+00:05:24,960 --> 00:05:30,800
+one is just trying to go for for each and create it yeah I mean whenever we
+
+44
+00:05:30,800 --> 00:05:37,360
+are trying to create that was a that was I didn't do still that local storage
+
+45
+00:05:37,360 --> 00:05:43,720
+part but what my idea was that whenever I'll be creating a ticket at that time
+
+46
+00:05:43,760 --> 00:05:50,080
+I'll put it in this local storage that array and deleting it accordingly so
+
+47
+00:05:50,080 --> 00:05:53,640
+there will be only two functions which will be interacting with that array so
+
+48
+00:05:53,640 --> 00:06:00,800
+there will be no other any interactions so will that work it should be working
+
+49
+00:06:00,800 --> 00:06:06,240
+like there I don't see any challenge like whether the party you said that
+
+50
+00:06:06,240 --> 00:06:12,120
+whenever we are creating local storage updating we need to check that
+
+51
+00:06:12,160 --> 00:06:17,480
+currently what are the tickets there so we will be needing an extra variable for
+
+52
+00:06:17,480 --> 00:06:23,760
+that which that same main content main ticket container we have to recreate
+
+53
+00:06:23,760 --> 00:06:29,520
+that I mean we initialize that in that function itself but do you know this
+
+54
+00:06:29,520 --> 00:06:33,760
+like you won't be able to get all the tickets out of local storage and iterate
+
+55
+00:06:33,760 --> 00:06:40,280
+over it like you have three functions get a set and you know remove so there
+
+56
+00:06:40,280 --> 00:06:43,480
+is nothing like iteration if you need if you want to go through check locus
+
+57
+00:06:43,480 --> 00:06:49,200
+was I get and they've get everything out of it but that will be in my just I mean
+
+58
+00:06:49,200 --> 00:06:56,480
+I rewrite okay yeah I think I think I'm just missing a plot maybe you can
+
+59
+00:06:56,480 --> 00:06:59,440
+implement and share it with me like maybe we can have a discussion on that
+
+60
+00:06:59,440 --> 00:07:04,120
+Kiran works okay okay I haven't implemented the local storage part I'll
+
+61
+00:07:04,120 --> 00:07:11,480
+do that and share in the next session yeah sure works thank you thank you yeah
+
+62
+00:07:11,480 --> 00:07:17,920
+thank you so I'm muting your back it was Kiran do implement it and let us know
+
+63
+00:07:17,920 --> 00:07:21,200
+maybe we'll see your implementation and figure out whether it's right approach
+
+64
+00:07:21,200 --> 00:07:26,840
+to this or that will come to that point we'll discuss like why we need to go
+
+65
+00:07:26,840 --> 00:07:31,680
+follow one approach or other it would be a great learning for each and every one
+
+66
+00:07:31,680 --> 00:07:37,160
+for us okay no and thank you so much for taking those questions are a highly
+
+67
+00:07:37,160 --> 00:07:49,160
+appreciated okay so guys I hope we have good amount of people join the class
+
+68
+00:07:49,160 --> 00:07:54,040
+today so we'll get started I see we don't need to put any message in the
+
+69
+00:07:54,040 --> 00:07:59,760
+chat also and thank you all for joining without any messages and for being on
+
+70
+00:07:59,760 --> 00:08:07,200
+time I'll share my iPad give me a second
+
+71
+00:08:07,200 --> 00:08:31,560
+guys how many of you enjoyed machine coding problems like the problems we did
+
+72
+00:08:31,560 --> 00:08:37,440
+all the real-time use cases right maybe a loader maybe in a comment section and
+
+73
+00:08:37,440 --> 00:08:44,680
+I've also shared in last class I pinned two URLs one was related to you know
+
+74
+00:08:44,680 --> 00:08:50,600
+many challenges or you can say LLD equations of sample a list of LLD
+
+75
+00:08:50,600 --> 00:08:54,800
+equations that you can practice other than this thing whatever we have done
+
+76
+00:08:54,800 --> 00:09:01,000
+it in class and also along with that I've also shared you know JS interview
+
+77
+00:09:01,000 --> 00:09:06,400
+to get up like you know link where you can go through all the JavaScript
+
+78
+00:09:06,400 --> 00:09:11,400
+interview questions right I hope you find them I'll add it them in the repo
+
+79
+00:09:11,400 --> 00:09:16,480
+also for reference so do you keep on like whenever you have bandwidth keep
+
+80
+00:09:16,480 --> 00:09:19,920
+revising them because I want everything to be present in repo I'll try to do
+
+81
+00:09:19,920 --> 00:09:29,440
+that okay great so nice and there's a so today's class is mostly like we'll start
+
+82
+00:09:29,480 --> 00:09:35,160
+with something called as on a top level I won't go into this keyword completely
+
+83
+00:09:35,160 --> 00:09:40,400
+because we have three classes specifically for understanding this
+
+84
+00:09:40,400 --> 00:09:48,520
+keyword in depth okay but today we'll understand on a top level like a
+
+85
+00:09:48,520 --> 00:09:52,280
+different meaning for a sink and we'll try to explore that but other than that
+
+86
+00:09:52,280 --> 00:09:58,360
+thing right so the few important topics that we have to discuss is set timeout
+
+87
+00:09:59,480 --> 00:10:05,600
+so and then we'll understand something called as debouncing and there will
+
+88
+00:10:05,600 --> 00:10:12,320
+understand trottling and there are two keywords that are specifically used in
+
+89
+00:10:12,320 --> 00:10:21,240
+HTML whenever you link new scripts right when I say scripts it can be JS or CSS
+
+90
+00:10:21,240 --> 00:10:27,440
+file or any other file whenever you link a script into the HTML you will be
+
+91
+00:10:27,440 --> 00:10:33,080
+finding there is something like async or defer keyword added to them so we'll
+
+92
+00:10:33,080 --> 00:10:38,080
+understand these two keywords okay so this is going to the context today and
+
+93
+00:10:38,080 --> 00:10:43,080
+these are like really important for interview specific also from theory and
+
+94
+00:10:43,080 --> 00:10:47,920
+trying to understand it because this this these two solutions are applied to
+
+95
+00:10:47,920 --> 00:10:51,760
+many of the LED questions I mean the concepts will be applied for them okay
+
+96
+00:10:51,760 --> 00:10:56,800
+so we'll explore them I'll try to keep it as simple I'll pick really simple
+
+97
+00:10:56,800 --> 00:11:01,800
+examples as much as can be so that we are sure that we grab the concept of it
+
+98
+00:11:01,800 --> 00:11:06,040
+and then we'll move on before that I just want to know how many of you
+
+99
+00:11:06,040 --> 00:11:13,360
+understand know what sent interval does we have discussed this in last class but
+
+100
+00:11:13,360 --> 00:11:17,120
+I just want to know what set interval does are you clear with this point what
+
+101
+00:11:17,120 --> 00:11:32,320
+set interval does I see one thumbs up okay frequency of execution okay can I
+
+102
+00:11:32,320 --> 00:11:40,200
+say this way that set interval is an higher order function which executes a
+
+103
+00:11:40,200 --> 00:11:47,160
+callback function after every interval and every interval is the second
+
+104
+00:11:47,160 --> 00:11:55,000
+parameter that it takes and this this is interval time right can I say it this
+
+105
+00:11:55,000 --> 00:12:03,200
+way guys like what the set interval does no let me so you know the other set
+
+106
+00:12:03,200 --> 00:12:10,040
+time set interval and set timeout are a browser API actually browser provided
+
+107
+00:12:10,040 --> 00:12:14,440
+higher order functions they are providing for us and you can view you
+
+108
+00:12:14,440 --> 00:12:19,880
+will be able to access like if you go right into any browser you go into the
+
+109
+00:12:19,880 --> 00:12:27,080
+console and try to do window dot like set timeout you'll be able to see it's
+
+110
+00:12:27,080 --> 00:12:32,600
+part of a window object or else you can also access like directly set timeout
+
+111
+00:12:32,600 --> 00:12:37,760
+because everything out of the global object you can access directly okay this
+
+112
+00:12:37,800 --> 00:12:41,560
+is something that its implementation behind the scenes implementation you
+
+113
+00:12:41,560 --> 00:12:49,600
+can always see like what is the implementation of set timeout okay so
+
+114
+00:12:49,600 --> 00:12:52,960
+these are the two things provided by browser so we'll explore today what does
+
+115
+00:12:52,960 --> 00:12:58,960
+set timeout does now as we know that we have one is for interval which will
+
+116
+00:12:58,960 --> 00:13:03,760
+execute like after each and every interval at each and every interval
+
+117
+00:13:03,760 --> 00:13:09,200
+whereas set timeout is an again a higher order function which executes a
+
+118
+00:13:09,200 --> 00:13:14,560
+callback function after this timestamp or let's say you can say this is the
+
+119
+00:13:14,560 --> 00:13:21,160
+delay here we say that once you trigger any function this particular function
+
+120
+00:13:21,160 --> 00:13:27,240
+higher order function it will call this callback function after some time did
+
+121
+00:13:27,240 --> 00:13:34,440
+you understand this difference calling once and calling after every interval
+
+122
+00:13:35,400 --> 00:13:41,640
+the basic difference on top level let's say this is also five thousand when we
+
+123
+00:13:41,640 --> 00:13:45,200
+say five thousand five seconds now if this is a timeline let's say zero
+
+124
+00:13:45,200 --> 00:13:50,000
+timeline then you have five seconds then you have ten seconds then you have 15
+
+125
+00:13:50,000 --> 00:13:56,240
+seconds now just let me know if I execute set interval how many calls I
+
+126
+00:13:56,240 --> 00:14:02,280
+will be making it here when I use site interval if this is the time let's say
+
+127
+00:14:02,280 --> 00:14:13,440
+we have this 15 seconds right firstly at here then you'll have second then you'll
+
+128
+00:14:13,440 --> 00:14:19,880
+have third right I hope you understand when it comes to set timeout when it
+
+129
+00:14:19,920 --> 00:14:22,920
+comes to set timeout
+
+130
+00:14:31,000 --> 00:14:39,760
+so here even though we have all the timelines 0 5 10 15 it will execute only
+
+131
+00:14:39,760 --> 00:14:45,680
+once after the delay of 5 seconds I hope on like your definition of set timeout
+
+132
+00:14:45,680 --> 00:14:49,720
+and interval is clear this is clear we'll try to go and see some of the use
+
+133
+00:14:49,720 --> 00:15:02,840
+cases examples like just hands on right let's say I create a class 20 I call
+
+134
+00:15:02,840 --> 00:15:18,400
+this as set timeout dot HTML and let's say firstly we'll try to actually I
+
+135
+00:15:18,400 --> 00:15:23,200
+wanted to do some animation logic I'll try to show like how that is how it's
+
+136
+00:15:23,200 --> 00:15:26,440
+different you know what is the difference between this let's say I have
+
+137
+00:15:26,440 --> 00:15:38,480
+a H1 tag I can say set timeout and set interval okay then I can say that let's
+
+138
+00:15:38,480 --> 00:15:47,640
+say I'm having a container div inside that I say I'm the dev and let's say I
+
+139
+00:15:47,680 --> 00:15:54,400
+have a button which is stop the animations okay nothing much interesting
+
+140
+00:15:54,400 --> 00:16:00,160
+guys here till now let's say copy this whatever is there inside I copied as a
+
+141
+00:16:00,160 --> 00:16:07,200
+document title and let's say I have a style sheets for this one and I just
+
+142
+00:16:07,200 --> 00:16:12,000
+have a div tag inside that I'll select a particular height and width let's say
+
+143
+00:16:12,000 --> 00:16:23,360
+height to be 100 pixel and width to be 100 pixel and let's say background color
+
+144
+00:16:23,360 --> 00:16:34,320
+to be tomato let's say we have this and let's make this as 50-50 as of now and
+
+145
+00:16:34,480 --> 00:16:45,760
+we'll render this one once open with live server no let me go here in the
+
+146
+00:16:45,760 --> 00:16:53,600
+browser let me open this one now so what I'll try to do is that if you I'll show
+
+147
+00:16:53,600 --> 00:16:57,440
+it for two differences specific differences let me get an access to this
+
+148
+00:16:57,440 --> 00:17:07,040
+element firstly here I'll add a script tag inside this const let's say div
+
+149
+00:17:07,040 --> 00:17:18,160
+document dot query selector let's say I can directly call it as a div since I am
+
+150
+00:17:18,160 --> 00:17:24,640
+not using any CSS classes and we have only one div here and let's I also say
+
+151
+00:17:24,640 --> 00:17:35,160
+that button document dot query selector button fine once we have this div now by
+
+152
+00:17:35,160 --> 00:17:40,920
+default what I want to do is let's say if I use set interval now inside set
+
+153
+00:17:40,920 --> 00:17:49,520
+interval I'll write some logic but let's say I do it at every two seconds okay
+
+154
+00:17:49,520 --> 00:18:01,520
+firstly I'll try to output console dot log from set interval and what I'll do
+
+155
+00:18:01,520 --> 00:18:05,640
+it here is that I'll get an access to this I'll use this div and I'll play
+
+156
+00:18:05,640 --> 00:18:13,880
+around with its width okay now how can I do it I can just say that div dot let's
+
+157
+00:18:13,920 --> 00:18:21,480
+say I say the current width how do I can get the width guys do you remember
+
+158
+00:18:27,360 --> 00:18:36,280
+do you remember how we can get the width that is for up let's say let's say that
+
+159
+00:18:37,120 --> 00:18:52,520
+let's move this move it here and put a debugger I'll have it here I'll refresh
+
+160
+00:18:52,520 --> 00:19:01,280
+it once I have it here let's say dev dot style dot width not getting anything as
+
+161
+00:19:01,320 --> 00:19:07,080
+of now if I want to get width what could be the better thing once I have this
+
+162
+00:19:07,080 --> 00:19:17,640
+div can I go to class list I don't have classes applied think of it this one
+
+163
+00:19:17,640 --> 00:19:24,520
+guys how can we access the width because we applied here we didn't have CSS like
+
+164
+00:19:25,360 --> 00:19:33,400
+the CSS that is applied directly is on to the item level container right rather
+
+165
+00:19:33,400 --> 00:19:38,820
+than a CSS class like you can explore this one here once you go inside the
+
+166
+00:19:38,820 --> 00:19:42,400
+body you have it here you see it here background color has been added to this
+
+167
+00:19:42,400 --> 00:19:54,960
+step okay let's say okay but we haven't added any event here we don't have any
+
+168
+00:19:54,960 --> 00:20:05,080
+target element okay let's say some chase like dev dot get attribute now what
+
+169
+00:20:05,080 --> 00:20:10,000
+attribute you want to get it because I don't have any attribute added here on
+
+170
+00:20:10,000 --> 00:20:22,480
+this step we don't have any attribute okay so let's let me let me do this
+
+171
+00:20:22,480 --> 00:20:28,060
+thing let us go back and add a one CSS class called dev and let's say if you
+
+172
+00:20:28,060 --> 00:20:36,840
+are able to make it instead of dev let's say container adding it as a
+
+173
+00:20:36,840 --> 00:20:46,120
+container no once I do this I go to sources I try to remove this debugger
+
+174
+00:20:46,120 --> 00:21:01,520
+refresh it once I have here I'll say that dev dot style dot let's see if I
+
+175
+00:21:01,520 --> 00:21:10,320
+still getting it I'm still not getting it again going back a dev dot class list
+
+176
+00:21:10,320 --> 00:21:20,520
+dot okay once I get an access to this container I can only get the class but
+
+177
+00:21:20,520 --> 00:21:27,320
+how can I get the value anyone can anyone think of it any idea how we can
+
+178
+00:21:27,320 --> 00:21:37,160
+get the current width can anyone think of it
+
+179
+00:21:37,160 --> 00:22:00,320
+okay let's say I said a dev dot get attribute if I do get attribute let's
+
+180
+00:22:00,320 --> 00:22:05,640
+say okay dev dot get attribute now inside this what should I pass I should
+
+181
+00:22:05,640 --> 00:22:19,320
+pass container sorry I should pass class I got the still you know the values
+
+182
+00:22:19,320 --> 00:22:28,120
+container but I didn't get any CSS values okay I leave it to you guys
+
+183
+00:22:28,120 --> 00:22:32,720
+explore this one so for now what I'm going to do is like when I'm going for
+
+184
+00:22:32,720 --> 00:22:40,640
+this interval okay what I'll declare here is that let's say I have a one
+
+185
+00:22:40,640 --> 00:22:55,640
+width let's say I say this is a 50 pixel okay okay once I have this I'll get that
+
+186
+00:22:55,720 --> 00:23:04,160
+dev dot style dot width okay I'll try to make it each time whatever width I have
+
+187
+00:23:04,160 --> 00:23:11,440
+it let's say I remove this one what I do is that I'll multiply two into the
+
+188
+00:23:11,440 --> 00:23:22,680
+current width plus I'll add pixels also I'll update this width I should be doing
+
+189
+00:23:22,680 --> 00:23:25,680
+after updating it
+
+190
+00:23:32,040 --> 00:23:40,160
+okay now the animation that I wanted to show you it was like just let's say if
+
+191
+00:23:40,160 --> 00:23:44,880
+this is working fine do you see this after each and every
+
+192
+00:23:44,880 --> 00:23:53,160
+interval this width is getting automatically added I mean even if I
+
+193
+00:23:53,160 --> 00:23:59,760
+refresh it this like looks like again a loader right now but if you want to
+
+194
+00:23:59,760 --> 00:24:04,400
+stop this if you want to stop this you know like whatever is playing behind
+
+195
+00:24:04,400 --> 00:24:11,880
+the scenes what if we want to stop this how we can stop this case last class we
+
+196
+00:24:11,880 --> 00:24:17,560
+learned it like how we can stop the interval let's say I can say store it
+
+197
+00:24:17,560 --> 00:24:30,440
+in a here okay what I can say is that if if width is greater than let's say each
+
+198
+00:24:30,440 --> 00:24:36,400
+time it's multiplying let's say I say that 500 then I can say that clear
+
+199
+00:24:36,400 --> 00:24:48,440
+interval I can pass intervals here okay so this event how many times should it
+
+200
+00:24:48,440 --> 00:24:50,960
+execute
+
+201
+00:24:57,720 --> 00:25:03,200
+think of this thing is how many times it should execute currently we have till
+
+202
+00:25:03,200 --> 00:25:10,120
+width is less than 500 we started with 50 at 50 width so it multiplied it became
+
+203
+00:25:10,120 --> 00:25:15,520
+100 100 become 200 200 became 400 only three times right now let's see if this
+
+204
+00:25:15,520 --> 00:25:28,960
+is okay let me refresh now once twice three okay four times now why did it
+
+205
+00:25:28,960 --> 00:25:36,520
+happen four times because it fourth time it it came till here then it
+
+206
+00:25:36,520 --> 00:25:40,640
+verified a condition and once condition was satisfied it cleared its interval
+
+207
+00:25:40,640 --> 00:25:46,680
+right so I hope this set interval logic do you understand how does it work okay
+
+208
+00:25:46,680 --> 00:25:52,120
+now then there is another way that if you want to stop let's say using I have
+
+209
+00:25:52,120 --> 00:25:57,720
+a button now okay when I click someone clicks a button add event listener now
+
+210
+00:25:57,760 --> 00:26:05,280
+let's say I have this one of the ways to clear interval is like once whenever
+
+211
+00:26:05,280 --> 00:26:13,280
+someone is clicking a button I'll say that clear interval interval okay so
+
+212
+00:26:13,280 --> 00:26:20,800
+what if I come stop this now if you see it's continuously progressing but once
+
+213
+00:26:20,800 --> 00:26:27,240
+I click this it will stop so like I just I just wanted to give you some more
+
+214
+00:26:27,280 --> 00:26:32,360
+hands-on like how this thing works now I'm going to replace this logic with set
+
+215
+00:26:32,360 --> 00:26:38,440
+timeout right just I hope you understand this animation like interval and no
+
+216
+00:26:38,440 --> 00:26:44,280
+difference between that let's say I copy this thing I copy this thing and I say
+
+217
+00:26:44,280 --> 00:26:56,480
+that this is timeout okay I use this instead of clear interval I can use
+
+218
+00:26:56,520 --> 00:27:02,960
+clear timeout and I can I have to update this as a variable this one and I can
+
+219
+00:27:02,960 --> 00:27:09,880
+remove this I can I can say that directly apply width of since it will
+
+220
+00:27:09,880 --> 00:27:23,720
+execute only once let's say a 400 pixel okay now let's see if this is working
+
+221
+00:27:23,880 --> 00:27:36,560
+okay okay this thing is still executing so let me stop this refreshing it it
+
+222
+00:27:36,560 --> 00:27:42,680
+happens only once it updates only once okay so this is just an overview of this
+
+223
+00:27:42,680 --> 00:27:46,280
+thing guys how do you actually use it and what can be the one of the use case
+
+224
+00:27:46,280 --> 00:27:51,200
+where you want to play with on its set timeout on interval I hope this is we
+
+225
+00:27:51,200 --> 00:27:55,440
+were anyways clear with the theory part I just wanted to show in real-time how
+
+226
+00:27:55,440 --> 00:28:01,640
+can you use this clear interval and clear timeout events also is this clear
+
+227
+00:28:01,640 --> 00:28:10,920
+one final check if this is clear will go with the debounce concept great so let's
+
+228
+00:28:10,920 --> 00:28:14,440
+start with something called as debounce
+
+229
+00:28:14,440 --> 00:28:24,160
+so then there is a one of the you know famous question how many of you have
+
+230
+00:28:24,160 --> 00:28:30,960
+know that what is type ahead what how many of you know this keyword something
+
+231
+00:28:30,960 --> 00:28:33,960
+called as type ahead
+
+232
+00:28:38,360 --> 00:28:42,560
+or let's say auto suggest
+
+233
+00:28:45,440 --> 00:28:56,040
+this is one of the famous high-level HLD interview questions you will be
+
+234
+00:28:56,040 --> 00:29:04,840
+learning this one in HLD curriculum but you know there's a concept so this HLD
+
+235
+00:29:04,840 --> 00:29:11,200
+curriculum whatever we'll be covering was let's say behind the scenes in the
+
+236
+00:29:11,200 --> 00:29:19,920
+back end so we have to handle some use cases in the front end too so we'll
+
+237
+00:29:19,920 --> 00:29:25,240
+cover today here one of the example where we leverage something called as
+
+238
+00:29:25,240 --> 00:29:31,320
+debouncing concept this might be something like sounding like a crazy
+
+239
+00:29:31,320 --> 00:29:35,640
+what I'm talking about but if I'll take you to the one of the famous websites
+
+240
+00:29:35,640 --> 00:29:41,480
+like Flipkart and I'll show you not exactly trice yeah trice is a behind-the-scenes
+
+241
+00:29:41,480 --> 00:29:50,360
+algorithm how do you search it and get it but I'm talking in terms of front end
+
+242
+00:29:50,360 --> 00:29:56,080
+let's say if I go here and if you see when I say auto suggest or something
+
+243
+00:29:56,080 --> 00:30:04,920
+like even if I go for Google search right Google search let's say I come
+
+244
+00:30:04,960 --> 00:30:09,640
+here now if you go and see right each time the search is like when I click it
+
+245
+00:30:09,640 --> 00:30:13,640
+I'm loaded with few of the suggestions already now where these are suggestions
+
+246
+00:30:13,640 --> 00:30:19,720
+coming from like if you see these suggestions what what what is the
+
+247
+00:30:19,720 --> 00:30:23,120
+solution this thing is they are they are applying if you go and see in this
+
+248
+00:30:23,120 --> 00:30:36,520
+site local storage now if you see it here it is google.com they should be
+
+249
+00:30:36,520 --> 00:30:40,040
+having this data stored here
+
+250
+00:30:40,040 --> 00:31:01,760
+okay these are not these are static G static but it should be there in local
+
+251
+00:31:01,760 --> 00:31:06,440
+storage itself maybe I
+
+252
+00:31:10,680 --> 00:31:29,680
+not sure why this is not expanding let me try to get the value no let's look at
+
+253
+00:31:29,680 --> 00:31:32,920
+this one whatever Google search is doing it's
+
+254
+00:31:32,920 --> 00:31:38,480
+preloading with the some suggestions right Arjun they spoil a bubonic flag or
+
+255
+00:31:38,480 --> 00:31:42,480
+organ happy Valentine's day wishes course so these are the top most
+
+256
+00:31:42,480 --> 00:31:48,320
+searched content like KL University Vijayawada, IITJ events results, Jordan Poole,
+
+257
+00:31:48,320 --> 00:31:53,840
+Swiss Parentals right, Modi UAE visit so these are the most searched content so
+
+258
+00:31:53,840 --> 00:31:58,760
+what Google is doing like instead of you typing it down it filters out right
+
+259
+00:31:58,760 --> 00:32:03,760
+let's say once I do this it is giving me some suggestions on
+
+260
+00:32:03,760 --> 00:32:08,680
+base of that right so these are the pre loaded you'll understand why this thing
+
+261
+00:32:08,680 --> 00:32:13,680
+works this way but my point of question here is that let's say I've come to this
+
+262
+00:32:13,680 --> 00:32:17,920
+one of the website flipkart which you might have used in day-to-day life more
+
+263
+00:32:17,920 --> 00:32:25,200
+and now if I search something let's say a mobile okay let's say search mobile I
+
+264
+00:32:25,200 --> 00:32:29,880
+just wanted to look at this particular you know API calls which are triggering
+
+265
+00:32:29,880 --> 00:32:41,640
+for the auto suggest no I filter here auto suggest okay let's say auto suggest
+
+266
+00:32:41,640 --> 00:32:46,720
+no this has triggered so many calls now let's say what is the keyword exactly
+
+267
+00:32:46,720 --> 00:32:56,360
+being sent in the payload if you see first it sent for M then it's sent for
+
+268
+00:32:56,360 --> 00:33:02,480
+mobile which I you know corrected back it went for a movie it went for movie it
+
+269
+00:33:02,480 --> 00:33:07,880
+went for mobile like do you see like one of the thing is that even if I type down
+
+270
+00:33:07,880 --> 00:33:13,960
+bigger keywords let's say I remove this one okay
+
+271
+00:33:15,640 --> 00:33:20,600
+let me clean it up let me just select something big big item guys let's say
+
+272
+00:33:21,360 --> 00:33:28,160
+washing machine no I typed on such a big thing here and I let's say if you see
+
+273
+00:33:28,160 --> 00:33:32,360
+how many API calls being made for the suggestions whatever you see it in the
+
+274
+00:33:32,360 --> 00:33:38,400
+drop down there are only two two API calls been done one is like with W one
+
+275
+00:33:38,400 --> 00:33:42,920
+is done with washing machine whole thing so do you see this like this is
+
+276
+00:33:42,920 --> 00:33:48,080
+something where deep on sink comes such that whenever you keep on because this
+
+277
+00:33:48,080 --> 00:33:52,280
+is an input element right do you agree that this is an input element and there
+
+278
+00:33:52,280 --> 00:33:56,360
+might be some event listener added to this one and this event listener is
+
+279
+00:33:56,360 --> 00:34:03,000
+always looking for something like key up once user lifted once user lift any
+
+280
+00:34:03,000 --> 00:34:08,400
+particular key once you press it like I click W the key is up API call should be
+
+281
+00:34:08,400 --> 00:34:13,880
+made once I type a key is press keys up again and another API call should be
+
+282
+00:34:13,880 --> 00:34:19,080
+made okay so if you see for each letter from the logical point of view if you
+
+283
+00:34:19,080 --> 00:34:23,080
+think from behind the scenes there should have been more than 20 25 API
+
+284
+00:34:23,080 --> 00:34:29,240
+calls right triggering because we are listening to each and each and every
+
+285
+00:34:29,240 --> 00:34:34,760
+keyword you know so the what they are doing is they're trying to reduce the
+
+286
+00:34:34,760 --> 00:34:39,800
+amount of API calls so this is where the optimization comes in like how do you
+
+287
+00:34:39,800 --> 00:34:44,240
+optimize the amount of API calls you are making when user is trying to do
+
+288
+00:34:44,240 --> 00:34:51,160
+search something right so feel will figure it out like does it assume the
+
+289
+00:34:51,160 --> 00:34:55,280
+interval or anything but let's create that problem first okay whatever problem
+
+290
+00:34:55,280 --> 00:35:00,680
+I talked about like on each keyword you should be able to make an end goal then
+
+291
+00:35:00,680 --> 00:35:05,080
+we'll figure out from end calls to reduce the amount of course now let's go
+
+292
+00:35:05,080 --> 00:35:15,040
+to the code first let's build this step by step I'll use something like simple
+
+293
+00:35:15,040 --> 00:35:31,000
+def I'll say that search okay then let's let me convert this into a label okay
+
+294
+00:35:31,000 --> 00:35:43,240
+inside this I'll also have an input element and since it's a let's say I
+
+295
+00:35:43,240 --> 00:35:52,960
+also give a placeholder search here and let's say I go to CSS I add some CSS to
+
+296
+00:35:52,960 --> 00:36:03,200
+this one just like giving a diff again let me open this on the right side just
+
+297
+00:36:03,200 --> 00:36:12,920
+trying to build a box a basic CSS display flex align items center justify
+
+298
+00:36:12,920 --> 00:36:29,080
+center see whatever there's a gap gap of five pixels across then once we have
+
+299
+00:36:29,080 --> 00:36:38,660
+this which I also have a border of five pixel solid black lavender let's say we
+
+300
+00:36:38,660 --> 00:36:47,820
+have this also I add some padding to it of 20 pixel okay now once I have this
+
+301
+00:36:47,820 --> 00:36:55,780
+let's say if you also have something border radius like 8 pixel now once we
+
+302
+00:36:55,780 --> 00:37:01,020
+have this let's say also I give some margin around it let's say margin would
+
+303
+00:37:01,020 --> 00:37:07,140
+be 20% of the screen so that I move items into the center nothing much
+
+304
+00:37:07,140 --> 00:37:11,780
+interesting is how basic thing that we used to do but what I'll do it here is
+
+305
+00:37:11,780 --> 00:37:17,740
+that I'll go with the usual flow that we can write it out so let's say I have
+
+306
+00:37:17,740 --> 00:37:24,780
+this const input I'll try to get an access to this input element document
+
+307
+00:37:24,780 --> 00:37:32,820
+dot query selector once I have this now since I'll let's say I give an input
+
+308
+00:37:32,820 --> 00:37:40,420
+directly and I'll add a listener to this one input dot add event listener and
+
+309
+00:37:40,420 --> 00:37:47,340
+something we are looking for is key up once user lifts the key okay or key up
+
+310
+00:37:47,340 --> 00:37:51,060
+is something deprecated so let's say we say the key down once user is entering
+
+311
+00:37:51,060 --> 00:37:57,820
+something as soon as that will call something okay now let's say since it
+
+312
+00:37:57,820 --> 00:38:07,740
+takes us some you know callback function let's say make an API call now
+
+313
+00:38:07,740 --> 00:38:19,540
+this function let's say console dot log says that making an API call so we are
+
+314
+00:38:19,540 --> 00:38:24,500
+actually not firing it up but we are trying to see that behavior that's I
+
+315
+00:38:24,500 --> 00:38:31,040
+provide this callback function here okay now let's go back launch this in
+
+316
+00:38:31,040 --> 00:38:38,220
+exact browser that we have open with live server can we console log target
+
+317
+00:38:38,220 --> 00:38:41,860
+also yeah we can do that target what value so that you will be able to see
+
+318
+00:38:41,860 --> 00:38:47,380
+that for each thing that we are trying to output I'll do that let's say I have
+
+319
+00:38:47,380 --> 00:39:00,580
+event console dot log event dot target dot value okay now once I come here I'll
+
+320
+00:39:00,580 --> 00:39:08,700
+try to launch this one now let's go to console now if you see it here if I type
+
+321
+00:39:08,700 --> 00:39:17,700
+let's say if I type some bits name S A M B I T do you see that for each keyword
+
+322
+00:39:17,700 --> 00:39:29,460
+we are making N calls like whatever however things however however the
+
+323
+00:39:29,460 --> 00:39:33,660
+items we are typing it down those in my number of API calls has been triggered
+
+324
+00:39:33,660 --> 00:39:39,300
+now is this a performance issue or not first let me know if whether this is a
+
+325
+00:39:39,300 --> 00:39:42,860
+problem or not in real time if you implement let's say you are a front-end
+
+326
+00:39:42,860 --> 00:39:48,300
+developer and you are given a backend API that hey once you give this keyword
+
+327
+00:39:48,300 --> 00:39:51,060
+we'll search and we'll give you some list of suggestions that you have to
+
+328
+00:39:51,060 --> 00:39:56,140
+show it in the drop-down in search field okay but if you keep on making API each
+
+329
+00:39:56,140 --> 00:40:01,980
+time user clicks first API takes some time to load that data and give you back
+
+330
+00:40:01,980 --> 00:40:05,220
+and there will be N number of calls you might be triggering in the network
+
+331
+00:40:05,220 --> 00:40:11,700
+which is like using so many resources behind the scenes right and it's like
+
+332
+00:40:11,700 --> 00:40:23,780
+we have to limit the number of API calls right that's our basic idea any idea any
+
+333
+00:40:23,780 --> 00:40:30,700
+ideas guys like how we can you know stop this from happening from the current
+
+334
+00:40:30,700 --> 00:40:37,580
+knowledge we have in the current knowledge we have any idea like or else
+
+335
+00:40:37,580 --> 00:40:43,020
+let's think of from basic point right when we should make an API call actually
+
+336
+00:40:43,020 --> 00:40:48,300
+when we should make an API call once user stop typing should we make an API
+
+337
+00:40:48,300 --> 00:40:55,180
+call or after user keep typing we should make an API call what could be the right
+
+338
+00:40:55,180 --> 00:40:59,340
+way of making an API call in search
+
+339
+00:41:04,380 --> 00:41:12,460
+when user stop typing when a full meaning like okay so some bit says that
+
+340
+00:41:12,460 --> 00:41:17,300
+time interval of five seconds after key up something like that once user stopped
+
+341
+00:41:17,300 --> 00:41:24,540
+okay so this basic idea is clear right now what we are saying is that on top
+
+342
+00:41:24,540 --> 00:41:30,220
+level from this problem statement that we are making N calls here so once user
+
+343
+00:41:30,220 --> 00:41:35,340
+is like he's a typing typing typing typing now once he stops will calculate
+
+344
+00:41:35,340 --> 00:41:39,580
+some of interval of time and once even in that interval if you didn't type it
+
+345
+00:41:39,580 --> 00:41:46,380
+anything will trigger with whatever event value is right let's say he's
+
+346
+00:41:46,380 --> 00:41:51,580
+typing typing typing typing continuously typed and then he stopped and will
+
+347
+00:41:51,580 --> 00:41:56,460
+start once he stops will load that interval time and once this interval is
+
+348
+00:41:56,460 --> 00:42:02,820
+expired will make an API call only once so if we're typing four five keyword four
+
+349
+00:42:02,820 --> 00:42:09,980
+five keywords are hardly let's say he's typing five words like automatic washing
+
+350
+00:42:09,980 --> 00:42:12,220
+machine
+
+351
+00:42:15,060 --> 00:42:21,560
+now depending on users right ability how fast they are on keyboard or how fast
+
+352
+00:42:21,560 --> 00:42:29,760
+how slow they are so we have to adjust the interval such a way that it should
+
+353
+00:42:29,760 --> 00:42:34,160
+allow the user to type it everything and we optimize it so it's our call that how
+
+354
+00:42:34,160 --> 00:42:40,160
+we tune this interval the time okay now let's see like how we can implement this
+
+355
+00:42:40,160 --> 00:42:47,640
+one will go step by step okay let's say I I write one higher order function okay
+
+356
+00:42:47,640 --> 00:42:59,480
+I write an higher function calling it as debounce function call okay function
+
+357
+00:42:59,480 --> 00:43:05,880
+API call let's say we call this one this name maybe not a right way but let's say
+
+358
+00:43:05,880 --> 00:43:11,720
+this takes a function let's say I cannot say this keyword and then also you have
+
+359
+00:43:11,760 --> 00:43:20,360
+some delay okay once you have this once you have this what you will do is that
+
+360
+00:43:20,360 --> 00:43:27,560
+let's say you try to execute you try to execute this one such that you have a
+
+361
+00:43:27,560 --> 00:43:38,720
+set timeout you call this function you execute this function after that delay
+
+362
+00:43:38,720 --> 00:43:44,440
+of 3,000 seconds let's say three we are tuning it to the two seconds once user
+
+363
+00:43:44,440 --> 00:43:49,480
+stop after two seconds we'll make an API call now what I'll do it here is that
+
+364
+00:43:49,480 --> 00:43:54,480
+I'll instead of calling a make API call I'll call something like debounce
+
+365
+00:43:54,480 --> 00:44:00,680
+function API call inside that I'll pass make API call and I'll also pass the
+
+366
+00:44:00,680 --> 00:44:10,680
+delay of let's say 2,000 seconds okay and accept the delay here no so this is
+
+367
+00:44:10,680 --> 00:44:16,000
+what we can think of like we want to once user stops typing if we want to
+
+368
+00:44:16,000 --> 00:44:20,320
+make an API call after that delay is expired so some some one of the best
+
+369
+00:44:20,320 --> 00:44:25,800
+function to use a set timeout isn't it like we have to call only once and only
+
+370
+00:44:25,800 --> 00:44:30,600
+after the delay is expired that logic is clicking you guys because you have
+
+371
+00:44:30,600 --> 00:44:36,920
+suggested me that we have to make only after user stops typing
+
+372
+00:44:37,040 --> 00:44:41,440
+let's see if this is working fine or not first okay let's see if this is working
+
+373
+00:44:41,440 --> 00:44:54,240
+fine or not now once I go back and let's say I typed on everything okay let's let
+
+374
+00:44:54,240 --> 00:44:59,880
+me try to type down here still I'll try to type Kiran's name now let's say I
+
+375
+00:44:59,880 --> 00:45:12,320
+typed on Kiran name okay let me see this has broke or what's wrong with this
+
+376
+00:45:12,320 --> 00:45:36,040
+let's say I'm calling okay I shouldn't have called this function I should just
+
+377
+00:45:36,040 --> 00:45:41,480
+only pass a function because it's a callback function that executes my word
+
+378
+00:45:41,480 --> 00:45:49,040
+now let me go here and try to type down Kiran let me see if this is working
+
+379
+00:45:49,040 --> 00:46:03,920
+fine okay I don't see API call coming here did I mess up anything here let me
+
+380
+00:46:03,920 --> 00:46:19,720
+check okay it's it's working fine now let's say comment this for now like
+
+381
+00:46:19,720 --> 00:46:32,320
+since just say let me comment this thing for now or let's say I add this thing
+
+382
+00:46:32,320 --> 00:46:43,800
+itself no optional training they shouldn't create an issue now I make
+
+383
+00:46:43,800 --> 00:46:55,880
+something like call some bit it's not calling that function again again is it
+
+384
+00:46:55,920 --> 00:47:02,120
+not passing parameter for API okay just a second
+
+385
+00:47:05,320 --> 00:47:17,360
+zero says that not passing parameter to API function no it shouldn't create a
+
+386
+00:47:17,360 --> 00:47:24,840
+problem that way like we should be able to access this even then and I'm just
+
+387
+00:47:24,880 --> 00:47:30,800
+thinking like let's say each time we are passing an API call we are making a
+
+388
+00:47:30,800 --> 00:47:35,240
+callback function here building it now what what's the difference would be like
+
+389
+00:47:35,240 --> 00:47:39,040
+if I pull it up and paste it here it should be anyways executing that one
+
+390
+00:47:39,040 --> 00:48:00,320
+right so in line number 36 I didn't get your point this not passing parameter to
+
+391
+00:48:00,320 --> 00:48:16,800
+API function this one event you want to say this event is it that shouldn't be
+
+392
+00:48:16,800 --> 00:48:22,400
+a problem but let's see if the way this is this isn't working to repartee if I
+
+393
+00:48:22,400 --> 00:48:29,840
+typed on even repartee now each time this listener is clicking let's say just
+
+394
+00:48:29,840 --> 00:48:36,960
+nothing is working as of now let's say if I try to refresh it okay maybe this
+
+395
+00:48:36,960 --> 00:48:40,480
+particular line might be creating an issue because I'm getting an undefined
+
+396
+00:48:40,480 --> 00:49:01,320
+check let's I make this simple fix now once I typed on even then no API call is
+
+397
+00:49:01,320 --> 00:49:15,960
+being made or nothing is executing it here okay let me refresh it what could
+
+398
+00:49:15,960 --> 00:49:23,560
+be the issue here once I have this listener it goes here I have received a
+
+399
+00:49:23,560 --> 00:49:27,840
+make API call function which is which is just a callback function that we should
+
+400
+00:49:27,840 --> 00:49:35,520
+execute and when I'm passing the delay no right now each time I am typing this
+
+401
+00:49:35,520 --> 00:49:41,320
+something keyword this listener should listen to it isn't it this listener
+
+402
+00:49:41,320 --> 00:49:51,640
+should listen to it like a key down event let me refresh this one I am not
+
+403
+00:49:51,640 --> 00:50:00,200
+exactly sure what's wrong here basic code writer basic lines of code now
+
+404
+00:50:00,200 --> 00:50:07,440
+let's say I pull it up this one I keep it below only not to be actually should
+
+405
+00:50:07,440 --> 00:50:18,640
+be on top itself but is anyone able to think what can be the mistake here any
+
+406
+00:50:18,680 --> 00:50:20,680
+idea
+
+407
+00:50:31,520 --> 00:50:37,400
+okay let me do one thing I'm not trying able to replicate which I didn't save
+
+408
+00:50:37,400 --> 00:50:45,520
+this code I again saved it but each firstly it adds a listener that's a
+
+409
+00:50:45,520 --> 00:50:53,680
+key down listener that's great and this we are the same thing we have called it
+
+410
+00:50:53,680 --> 00:51:03,840
+and it's taking two things now it passes the expected delay initially it executes
+
+411
+00:51:03,840 --> 00:51:09,480
+that one then if I type down why this event is not triggering
+
+412
+00:51:15,760 --> 00:51:18,760
+this is odd
+
+413
+00:51:19,520 --> 00:51:22,520
+so I say
+
+414
+00:51:22,520 --> 00:51:45,920
+key down event accepts API as a param but you're calling API just a second I'll
+
+415
+00:51:45,960 --> 00:51:53,120
+try to understand your point here maybe we need to return the timeout function
+
+416
+00:51:53,120 --> 00:52:08,960
+let's say that okay let's say I try to return this okay what if we I try to
+
+417
+00:52:08,960 --> 00:52:21,760
+return it add event listener event target parameters is not type one object
+
+418
+00:52:30,600 --> 00:52:36,920
+this is fine event is not getting passed to the debounce as param not to call
+
+419
+00:52:36,920 --> 00:52:47,520
+API function let's say guys I have a piece of code let's see that and
+
+420
+00:52:47,520 --> 00:52:58,600
+implement this one if it is working fine okay I let's say this is something that
+
+421
+00:52:58,600 --> 00:53:05,040
+I have written an old class let's say this is an function a callback function
+
+422
+00:53:05,040 --> 00:53:13,320
+that I have again I do this same logic let's say if I replace here input with
+
+423
+00:53:13,320 --> 00:53:24,120
+this logic I use it right here okay then I also have something like this function
+
+424
+00:53:25,040 --> 00:53:33,120
+which I don't want to use it here let's say comment this particular thing and I
+
+425
+00:53:33,160 --> 00:53:40,560
+also particular this one now let's say instead of this thing returning what if
+
+426
+00:53:40,560 --> 00:54:02,760
+I return directly as you say return set timeout a function and delay okay I hope
+
+427
+00:54:02,800 --> 00:54:09,520
+this thing works now still I get an error now I see that number of API calls
+
+428
+00:54:09,520 --> 00:54:23,120
+are made zero okay let's say I call it inside this one whatever function is
+
+429
+00:54:23,120 --> 00:54:35,560
+being returned let's say this function is being returned and it's a remove this
+
+430
+00:54:35,560 --> 00:54:48,600
+timer okay let's understand this thing why did I mess it up here firstly try
+
+431
+00:54:48,600 --> 00:54:54,000
+chat GPT got it this anyways firstly let's see this why this was not working
+
+432
+00:54:54,000 --> 00:55:06,720
+earlier so hmm basic mistake so so if you see this this is an higher-order
+
+433
+00:55:06,720 --> 00:55:12,800
+function where we passed and function and it in order to execute any callback
+
+434
+00:55:12,800 --> 00:55:17,600
+function like it will be where we should have been returning a function rather
+
+435
+00:55:17,600 --> 00:55:23,200
+than executing this one somehow but I I'll get back to this logic why this is
+
+436
+00:55:23,200 --> 00:55:28,160
+working now why not later but let's come back and try to see this one okay that
+
+437
+00:55:28,160 --> 00:55:32,960
+if you see it again if I typed on each and everything now let's see if I'm able
+
+438
+00:55:32,960 --> 00:55:38,920
+to access the event also in this function that I have event I try to make
+
+439
+00:55:38,920 --> 00:55:48,600
+a console log so dot log of even dot target dot value
+
+440
+00:55:53,520 --> 00:55:58,960
+now let's say I type down some bits okay I am NOT able to get that target value
+
+441
+00:55:58,960 --> 00:56:07,320
+here or event is not being passed that that something will fix it but let's
+
+442
+00:56:07,320 --> 00:56:16,120
+say I try to remove it as of now but on a top level I again coming back to this
+
+443
+00:56:16,120 --> 00:56:19,080
+thing guys whatever I messed up in last ever it's let's figure out that one
+
+444
+00:56:19,080 --> 00:56:24,960
+later but if you see if I type down a list of six keywords I'm still making
+
+445
+00:56:24,960 --> 00:56:30,800
+the six API calls now one of the way to you know optimize this call optimize this
+
+446
+00:56:30,800 --> 00:56:35,800
+one is that pretty straightforward and simple is that what we'll do here is
+
+447
+00:56:35,800 --> 00:56:40,080
+that we'll use something logic like clear timeout implementation let's say
+
+448
+00:56:40,080 --> 00:56:45,520
+if I comment this thing remove this thing out and I store it here in a timer
+
+449
+00:56:45,520 --> 00:56:51,680
+now let's understand firstly at what's happening here line by line if you see
+
+450
+00:56:51,680 --> 00:56:57,640
+let me write down I in the iPad and try to show what is exactly being done here
+
+451
+00:56:57,640 --> 00:57:07,760
+so firstly the function that we are returning is having a clear timeout
+
+452
+00:57:07,760 --> 00:57:15,560
+and we are removing something called as timer okay and we are storing inside
+
+453
+00:57:15,560 --> 00:57:22,360
+this timer like actual value like this set timeout where we are calling this
+
+454
+00:57:22,360 --> 00:57:30,600
+callback and with the delay right this is something we are doing it as of now
+
+455
+00:57:30,600 --> 00:57:36,760
+but let's see how we will be able to apply this first let's understand how
+
+456
+00:57:36,760 --> 00:57:43,200
+does set timeout works because if you go and see JS files right if you see JS
+
+457
+00:57:43,200 --> 00:57:50,880
+files what type of language we can call it as JS okay showing browser sorry
+
+458
+00:57:50,920 --> 00:57:58,200
+guys I again maybe right I hope you are able to see this this function whatever
+
+459
+00:57:58,200 --> 00:58:04,800
+I have written and okay now now think of JS guys what type of language is that
+
+460
+00:58:04,800 --> 00:58:13,120
+JS is it single threaded or multi-threaded is it single threaded okay
+
+461
+00:58:13,120 --> 00:58:19,400
+how many of you say that it's single threaded give me thumbs up for single
+
+462
+00:58:19,400 --> 00:58:24,340
+threaded and give me thumbs down for multi-threaded or let me know like if
+
+463
+00:58:24,340 --> 00:58:32,280
+you do you understand what is single thread versus multi-thread I hope you
+
+464
+00:58:32,280 --> 00:58:37,640
+understand the difference between these two things no idea what threads okay
+
+465
+00:58:37,640 --> 00:58:50,360
+good no worries now have you watched movie Shivaji Rajnikanth movie now once
+
+466
+00:58:50,360 --> 00:58:56,480
+he become a don he signs with both the hands right all the documents which are
+
+467
+00:58:56,480 --> 00:59:00,240
+admission letters for the students he signs with both the hands do you
+
+468
+00:59:00,240 --> 00:59:06,720
+remember like at same time he's you know doing multi-processing like multiple
+
+469
+00:59:06,720 --> 00:59:13,880
+things so what what happens in single threaded language is something it focus
+
+470
+00:59:13,880 --> 00:59:19,520
+on only one thing at a time when it comes to multi-threading it has ability
+
+471
+00:59:19,520 --> 00:59:26,400
+to focus on multiple things okay to do simultaneously do you understand this
+
+472
+00:59:26,400 --> 00:59:32,040
+parallel no parallel word like parallely I can do multiple things now when it
+
+473
+00:59:32,040 --> 00:59:43,640
+comes to single it's like only one thing at a time I hope you got the basic
+
+474
+00:59:43,640 --> 00:59:49,260
+difference what is single threaded and versus multi-threaded you know if you
+
+475
+00:59:49,260 --> 00:59:54,360
+know even for the multi-threading languages you can spawn you can spawn
+
+476
+00:59:54,360 --> 01:00:01,840
+when I say spawn I mean to say that you can create like how many threads you
+
+477
+01:00:01,840 --> 01:00:05,860
+want that many that you can create in an application when it when you go for
+
+478
+01:00:05,860 --> 01:00:12,200
+something language like go or C++ or Java they have ability to you know
+
+479
+01:00:12,200 --> 01:00:17,080
+multitask and you can create like good amount of threads depending upon your
+
+480
+01:00:17,080 --> 01:00:23,080
+hardware setup how much CPU you have how much but there again even if you go in
+
+481
+01:00:23,080 --> 01:00:26,260
+depth you will see something like there is a locking mechanism how would you
+
+482
+01:00:26,260 --> 01:00:31,680
+handle all those things but not a point of concern as of now JS is something is
+
+483
+01:00:31,680 --> 01:00:38,880
+JS is single threaded language when I say this now single threaded language I
+
+484
+01:00:38,880 --> 01:00:43,000
+hope you are able to understand that JavaScript does only one thing at a
+
+485
+01:00:43,000 --> 01:00:47,240
+time if I'm eating food I'll only eat food if I'm writing something I'll do
+
+486
+01:00:47,240 --> 01:00:51,280
+only something one thing if I'm right reading one part one line of code I'll
+
+487
+01:00:51,280 --> 01:00:55,360
+read only that line of code I won't be able to read other lines of code is this
+
+488
+01:00:55,360 --> 01:01:03,360
+clear what JS is now also along with single threaded we also say that it is
+
+489
+01:01:03,360 --> 01:01:10,920
+synchronous you also say that this is synchronous single threaded language I
+
+490
+01:01:10,920 --> 01:01:15,600
+added a key another keyword guys now think of it what you can say that
+
+491
+01:01:15,600 --> 01:01:21,520
+synchronous when I say something like in sync like I'm actually in sync when I
+
+492
+01:01:21,520 --> 01:01:28,840
+say that generally is that you know again synchronous single threaded are
+
+493
+01:01:28,840 --> 01:01:32,800
+like both the both are talking about same thing but when it comes to think
+
+494
+01:01:32,800 --> 01:01:39,920
+like one did they are just talking about both things are like one thing at a time
+
+495
+01:01:40,800 --> 01:01:46,040
+and when I say synchronous is basically that let's say it's executing a piece of
+
+496
+01:01:46,040 --> 01:01:50,920
+line it will keep on executing that line once only if this is executed it will
+
+497
+01:01:50,920 --> 01:01:57,520
+go to next slide and it in JS something pass execution happens from top to down
+
+498
+01:01:57,520 --> 01:02:02,920
+that we already know isn't it so I hope all this discussion is clear till now
+
+499
+01:02:02,920 --> 01:02:10,400
+whatever we did about JS language now let's understand what set timeout is
+
+500
+01:02:10,400 --> 01:02:17,280
+doing or anything we know that earlier we talked about something like happening
+
+501
+01:02:17,280 --> 01:02:22,040
+in JS let's say your JS code is being passed passed passed and suddenly you
+
+502
+01:02:22,040 --> 01:02:29,160
+found set timeout and let's say there's a callback function and you have a delay
+
+503
+01:02:29,160 --> 01:02:34,680
+of three thousand seconds or three thousand milliseconds now once you see
+
+504
+01:02:34,680 --> 01:02:41,000
+this one and there is a call stack all the things are getting executed and
+
+505
+01:02:41,120 --> 01:02:49,440
+there is suddenly set timeout now tell me what should actually happen now all
+
+506
+01:02:49,440 --> 01:02:53,400
+the execution should stop right below code execution stop till this three
+
+507
+01:02:53,400 --> 01:02:58,040
+thousand seconds are elapsed and this thing is executed nothing should be
+
+508
+01:02:58,040 --> 01:03:07,000
+working in application right from the definition of JavaScript how many of
+
+509
+01:03:07,000 --> 01:03:10,480
+you are agreeing with this point like there shouldn't be anything executed
+
+510
+01:03:10,480 --> 01:03:13,760
+until this three seconds are elapsed and this callback function is executed
+
+511
+01:03:13,760 --> 01:03:20,960
+right but is this actually happening is that easily is it actually happening what
+
+512
+01:03:20,960 --> 01:03:31,600
+if I go with set interval imagine set interval like let's say set interval I
+
+513
+01:03:31,600 --> 01:03:35,760
+say that every five thousand seconds well it executes after five thousand
+
+514
+01:03:35,760 --> 01:03:39,560
+seconds and it should be keep on executing this piece of code itself it
+
+515
+01:03:39,600 --> 01:03:44,360
+should not execute the other lines of code right below logics so this would be
+
+516
+01:03:44,360 --> 01:03:53,200
+a bottleneck for an application isn't it if this is what actually how JS works
+
+517
+01:03:53,560 --> 01:03:59,640
+right if if like if if you're reading from top to down and you can do only one
+
+518
+01:03:59,640 --> 01:04:04,120
+thing at a time and if you got stuck here and you're not able to move ahead
+
+519
+01:04:04,320 --> 01:04:14,280
+then all the other functionalities of your application will be stop right okay
+
+520
+01:04:14,280 --> 01:04:22,040
+so guys what I was talking about is that firstly is this keyword is clear to you
+
+521
+01:04:22,040 --> 01:04:33,120
+is this clear keyword clear to you think of a single-threaded language no let's
+
+522
+01:04:33,120 --> 01:04:37,920
+say you have a piece of code top to down you are keep on reading and in
+
+523
+01:04:37,920 --> 01:04:46,760
+suddenly you have set time out and there is a callback function and you have
+
+524
+01:04:46,760 --> 01:04:53,400
+delay and you also have a below some piece of code and when you are
+
+525
+01:04:53,400 --> 01:04:57,240
+executing when this code is getting excluded in call stack line by line in
+
+526
+01:04:57,240 --> 01:05:03,280
+execution context okay now all these lines are executed now when when you
+
+527
+01:05:03,280 --> 01:05:11,560
+encounter this particular line in call stack now since this says that one thing
+
+528
+01:05:11,560 --> 01:05:18,480
+at a time and in a synchronous way it's a single thread it should be waiting for
+
+529
+01:05:18,480 --> 01:05:22,680
+this delay to expire and then call execute this callback function creating a
+
+530
+01:05:22,680 --> 01:05:26,440
+sub execution context only then it should be able to execute below files
+
+531
+01:05:26,440 --> 01:05:34,600
+isn't it this is what our understanding should be with respect to but what I'm
+
+532
+01:05:34,600 --> 01:05:37,920
+asking that is it happening that way when you go for something like set
+
+533
+01:05:37,920 --> 01:05:42,920
+interval instead of let's say set timeout what if there has been set
+
+534
+01:05:42,920 --> 01:05:50,640
+interval if you had something like set interval and you have a callback
+
+535
+01:05:50,640 --> 01:05:57,360
+function and let's say you have interval time given now because this is
+
+536
+01:05:57,360 --> 01:06:01,560
+should be executed once on one time after the other till you clear this
+
+537
+01:06:01,560 --> 01:06:07,760
+interval the execution will be struck right I mean your application will hang
+
+538
+01:06:07,760 --> 01:06:13,400
+there isn't it but we are seeing something is that application is working
+
+539
+01:06:13,400 --> 01:06:18,920
+fine application is working fine somehow so what's actually happening in behind
+
+540
+01:06:18,920 --> 01:06:24,920
+the scenes right so now all this higher-order functions like set timeout
+
+541
+01:06:24,920 --> 01:06:35,120
+okay or set interval or are your API calls whichever are like time taking in
+
+542
+01:06:35,120 --> 01:06:43,840
+nature okay whichever are time taking in nature which let's say it's it might not
+
+543
+01:06:43,840 --> 01:06:47,640
+be executed right moment but it takes some time so what happens is that
+
+544
+01:06:47,760 --> 01:06:53,440
+whenever this call stack encounters this use cases right what it does it it takes
+
+545
+01:06:53,440 --> 01:07:03,640
+out from the call stack put it in some sort of queue let's say timeout one say
+
+546
+01:07:03,640 --> 01:07:13,840
+interval one say API call one and it stores in the queue only when let's say
+
+547
+01:07:13,840 --> 01:07:19,600
+when this timeout is expired when I mean say when a deal is expired what it does
+
+548
+01:07:19,600 --> 01:07:24,720
+is it put backs into the call stack to execute it and when it only when it
+
+549
+01:07:24,720 --> 01:07:28,720
+would be only able to put is that when this call stack is empty and there is
+
+550
+01:07:28,720 --> 01:07:33,040
+nothing being executed that moment only then this timeout function water will be
+
+551
+01:07:33,040 --> 01:07:38,520
+put back and the callback function will be executed similar way once this
+
+552
+01:07:38,520 --> 01:07:43,760
+interval is like put back it will see that it will call that execute that like
+
+553
+01:07:43,760 --> 01:07:47,960
+callback function again it will put back into the queue you understand that
+
+554
+01:07:47,960 --> 01:07:56,600
+rotation what is happening behind the scenes actually guys how many of you are
+
+555
+01:07:56,600 --> 01:07:59,320
+able to connect with me if there is someone who don't understand this
+
+556
+01:07:59,320 --> 01:08:03,320
+concept let me know because future classes will be really dependent on this
+
+557
+01:08:03,320 --> 01:08:10,400
+logic okay okay no no what I mean to say is that let's say there are this events
+
+558
+01:08:10,400 --> 01:08:15,920
+are based on some time isn't it let's say timeout will execute after some
+
+559
+01:08:15,920 --> 01:08:21,600
+delay or interval happen after some time and API call will also say take
+
+560
+01:08:21,600 --> 01:08:26,240
+some time to execute now when these things are happening right now we cannot
+
+561
+01:08:26,240 --> 01:08:30,640
+we cannot wait for that time because if we wait for that time other part of the
+
+562
+01:08:30,640 --> 01:08:34,280
+code will be hanged let's say someone is clicking some other events in the
+
+563
+01:08:34,280 --> 01:08:42,200
+application the listener should be able to listen right okay so they what
+
+564
+01:08:42,200 --> 01:08:45,800
+basically behind the scenes are happening is like that JavaScript is
+
+565
+01:08:45,800 --> 01:08:51,080
+removing this this functions like timeout interval from the call stack it
+
+566
+01:08:51,080 --> 01:08:57,000
+is putting into some of the queue okay one queue and it is waiting this all
+
+567
+01:08:57,000 --> 01:09:02,840
+things are waiting waiting for what waiting for the timeout the delay or
+
+568
+01:09:02,840 --> 01:09:07,200
+interval whatever you have given or this API to fetch data from back end
+
+569
+01:09:07,200 --> 01:09:13,600
+once this time or delay is execute are done then these things are put back into
+
+570
+01:09:13,600 --> 01:09:21,800
+call stack back into this one so to execute it is this clear guys how that
+
+571
+01:09:21,800 --> 01:09:28,880
+set timeout and set interval works behind the scenes now this actually is
+
+572
+01:09:28,880 --> 01:09:35,000
+a part of something called as event loop which will further go in depth which
+
+573
+01:09:35,000 --> 01:09:39,240
+will go further in depth to understand this one we'll come back to this topic
+
+574
+01:09:39,240 --> 01:09:45,520
+again we'll explore this one okay so meantime app will be stuck so in mean
+
+575
+01:09:45,520 --> 01:09:49,000
+times app shouldn't be struck app will only struck when your call stack is
+
+576
+01:09:49,000 --> 01:09:57,040
+stopped when I'm when call stack is like okay to move forward then it it won't be
+
+577
+01:09:57,040 --> 01:10:02,240
+stopped right only when call stack is empty this things will be put back I'll
+
+578
+01:10:02,240 --> 01:10:10,840
+show you that guys I'll show you that one okay let's say no firstly let's let's
+
+579
+01:10:10,840 --> 01:10:18,040
+come to this one what I'm generally doing it here okay okay firstly let's
+
+580
+01:10:18,040 --> 01:10:24,640
+understand this logic what's happening now inside this deep bounced I'm
+
+581
+01:10:24,680 --> 01:10:30,460
+initializing a timer I am putting it to the clear timeout I'll explain this code
+
+582
+01:10:30,460 --> 01:10:34,120
+I'm coming to this logic okay let's understand this function what's
+
+583
+01:10:34,120 --> 01:10:38,920
+happening okay I gave some delay like let's say I've gave some delay like 500
+
+584
+01:10:38,920 --> 01:10:45,960
+milliseconds 0.5 seconds and I say that once you call any user let's say any
+
+585
+01:10:45,960 --> 01:10:50,440
+user is typing any key event let's say is typing any keyword let's say typing
+
+586
+01:10:50,440 --> 01:10:57,720
+this th is when is typing it each time we are calling this function and we are
+
+587
+01:10:57,720 --> 01:11:03,400
+initializing this variable and we are checking we are checking if this clear
+
+588
+01:11:03,400 --> 01:11:10,240
+timeout if there is any set timeout exist clear that timeout if like if
+
+589
+01:11:10,240 --> 01:11:16,080
+there is only thing or exist then clear it and then after attach a set timeout
+
+590
+01:11:16,080 --> 01:11:22,440
+to this timer a variable and execute it now when again let's say this is
+
+591
+01:11:22,440 --> 01:11:28,760
+happening let's say if I type down t here okay if I type down t here for the
+
+592
+01:11:28,760 --> 01:11:33,040
+timer there is nothing undefined there's nothing is there okay so it won't do
+
+593
+01:11:33,040 --> 01:11:38,400
+anything as of now but let's say if I execute this timer and go to the next
+
+594
+01:11:38,400 --> 01:11:46,880
+line let me you know this is not persisting data but what I'm generally
+
+595
+01:11:46,880 --> 01:11:51,760
+trying to say it here is that if you see this function if you see this function
+
+596
+01:11:51,760 --> 01:11:56,720
+whatever we have written let me cut this one
+
+597
+01:12:08,400 --> 01:12:21,440
+so what I'm saying is that now let's say in call stack okay for each and each
+
+598
+01:12:21,440 --> 01:12:26,800
+listener right each listener whenever key down event is fired key down event
+
+599
+01:12:26,800 --> 01:12:31,840
+will be fired for let's say if I typed on some bit it will fire for this one
+
+600
+01:12:31,840 --> 01:12:37,240
+this one this one is also six times it will fire isn't it it will fire that one
+
+601
+01:12:37,240 --> 01:12:42,080
+at least now inside this we are calling this debounce timer this function is
+
+602
+01:12:42,080 --> 01:12:46,160
+being caught now when we call this function we are passing some delay and
+
+603
+01:12:46,160 --> 01:12:51,320
+a callback function to execute now let's say what I'm trying to do it here is
+
+604
+01:12:51,320 --> 01:12:58,440
+that I am here having a variable timer in memory and once this set timeout has
+
+605
+01:12:58,440 --> 01:13:05,800
+been put into the call stack right it has been removed it is put it into the
+
+606
+01:13:05,800 --> 01:13:16,080
+queue here okay for the first letter s now when again user types a when user
+
+607
+01:13:16,080 --> 01:13:21,240
+type say I'll come here I'll check whether in memory there is something
+
+608
+01:13:21,240 --> 01:13:26,360
+attached to the timer so we see that this existing timer is attached to this
+
+609
+01:13:26,360 --> 01:13:32,520
+keyword so we'll say that can you remove the existing timer clean it up so when
+
+610
+01:13:32,520 --> 01:13:39,360
+in second event this will be cleaned up and there is nothing okay then once this
+
+611
+01:13:39,360 --> 01:13:44,120
+is cleaned up again you would take it a event and you make again a set timeout
+
+612
+01:13:44,120 --> 01:13:52,800
+call okay now again you store it a value into the timer now you have set timeout
+
+613
+01:13:52,800 --> 01:14:00,800
+for a event and this is again put into here queue and this is again removed
+
+614
+01:14:00,800 --> 01:14:09,840
+from here okay now again it goes when you type M when you type M again let's
+
+615
+01:14:09,840 --> 01:14:15,760
+say when you type M you again call the set timeout here before calling the set
+
+616
+01:14:15,760 --> 01:14:18,920
+timeout you'll check whether there's anything timer exist yeah you see that
+
+617
+01:14:18,920 --> 01:14:23,640
+this is existing please remove this one also clear it so as you do it keep on
+
+618
+01:14:23,640 --> 01:14:27,960
+doing it you will come at a point where you will type something like T and you
+
+619
+01:14:27,960 --> 01:14:34,200
+will stop when you stop it when you keep on cleaning up and when you stop it at
+
+620
+01:14:34,200 --> 01:14:39,720
+final point right when you stop at this final point there is no one going and
+
+621
+01:14:39,720 --> 01:14:44,800
+coming out and clearing this event from this queue there is no one clearing out
+
+622
+01:14:44,800 --> 01:14:49,720
+and once the deal is done it will put into the stack and execute and make an
+
+623
+01:14:49,720 --> 01:14:54,400
+API call are you able to relate like actually what's happening behind the
+
+624
+01:14:54,400 --> 01:15:00,000
+scene when you do debounce so all the events whatever are being added into
+
+625
+01:15:00,000 --> 01:15:03,560
+this queue right whatever being are added first we are clearing all the
+
+626
+01:15:03,560 --> 01:15:17,320
+older events all the older events function calls are cleaned up okay all
+
+627
+01:15:17,320 --> 01:15:21,840
+the fun ones like one after the other we are cleaning up only the last set timeout
+
+628
+01:15:21,840 --> 01:15:26,440
+will persist here and that will be executed because for that time will
+
+629
+01:15:26,440 --> 01:15:34,960
+elapse and it will get X I hope you understand how debounce works guys how
+
+630
+01:15:34,960 --> 01:15:41,360
+many of you are still facing challenge understanding this one let me know okay
+
+631
+01:15:41,360 --> 01:15:46,280
+now if you see it now if you see it how many things we are making like let's say
+
+632
+01:15:46,280 --> 01:15:52,440
+if I try to type down let's say I typed on my name let me remove this debugger
+
+633
+01:15:52,440 --> 01:15:58,600
+now let's say if I go and type down clean it up this one I'll refresh it
+
+634
+01:15:58,600 --> 01:16:04,240
+let's say I typed on my name you see I made only one request like number of
+
+635
+01:16:04,240 --> 01:16:08,920
+requests count to zero now let's say I typed on something like washing machine
+
+636
+01:16:09,040 --> 01:16:16,880
+okay I'll type on something like washing machine to see only one API call what if
+
+637
+01:16:16,880 --> 01:16:25,000
+I want to type down again automatic you see three API calls max how we are able
+
+638
+01:16:25,000 --> 01:16:30,960
+to optimize this one because we are each time a new event is added we are
+
+639
+01:16:30,960 --> 01:16:34,600
+clearing the existing events and then we are setting our time with a new the
+
+640
+01:16:34,600 --> 01:16:44,880
+existing one is this clear guys how this is working I hope you are able to
+
+641
+01:16:44,880 --> 01:16:52,040
+relate like how this actually works okay but the now one of the most important
+
+642
+01:16:52,040 --> 01:16:57,080
+use case right when it comes to debounce is like it's really important topic when
+
+643
+01:16:57,080 --> 01:17:01,600
+you want to actually optimize for you know like this sort of search filter
+
+644
+01:17:01,600 --> 01:17:06,560
+logic logics because you want to preserve that you know the amount of
+
+645
+01:17:06,560 --> 01:17:09,560
+API calls you're trying to make it fresh because each time you are making a fetch
+
+646
+01:17:09,560 --> 01:17:13,800
+you are actually pulling six kilobytes of data over the network and it is
+
+647
+01:17:13,800 --> 01:17:17,200
+transferred from the somewhere system which is put down on the back ends at
+
+648
+01:17:17,200 --> 01:17:21,880
+behind the scenes right so that optimization we are doing it here okay
+
+649
+01:17:21,880 --> 01:17:28,280
+this is what debounce helps us so we'll come back after the break we'll explore
+
+650
+01:17:28,280 --> 01:17:38,440
+like what throttling doesn't does it okay so do you need break or can I go
+
+651
+01:17:38,440 --> 01:17:50,320
+ahead by taking like class I need 20 minutes to explain okay break okay let's
+
+652
+01:17:50,360 --> 01:18:01,800
+take break of six minutes guys I'll give six minutes but before that let me know
+
+653
+01:18:01,800 --> 01:18:06,280
+are you able to follow up are you able to follow up guys like did you
+
+654
+01:18:06,280 --> 01:18:10,120
+understand how debounce works behind the scene how set time out on set interval
+
+655
+01:18:10,120 --> 01:18:14,560
+works those are removed from call stack put it into some queue and will
+
+656
+01:18:14,560 --> 01:18:18,520
+understand this thing all those things in depth when we pick event loop I'll
+
+657
+01:18:18,560 --> 01:18:21,800
+show you mechanically how those things won't works and debugger tool and
+
+658
+01:18:21,800 --> 01:18:26,920
+everything and those are executed once times are elapsed it put back into the
+
+659
+01:18:26,920 --> 01:18:34,520
+call stack you call stack to execute it okay let's come back in six minutes
+
+660
+01:18:48,520 --> 01:18:51,100
+you
+
+661
+01:19:18,520 --> 01:19:21,140
+you
+
+662
+01:19:48,520 --> 01:19:51,140
+you
+
+663
+01:20:18,520 --> 01:20:20,780
+you
+
+664
+01:20:48,520 --> 01:20:50,780
+you
+
+665
+01:21:18,520 --> 01:21:20,780
+you
+
+666
+01:21:48,520 --> 01:21:50,780
+you
+
+667
+01:22:18,520 --> 01:22:20,780
+you
+
+668
+01:22:48,520 --> 01:22:50,780
+you
+
+669
+01:23:18,520 --> 01:23:20,780
+you
+
+670
+01:23:48,520 --> 01:23:50,780
+you
+
+671
+01:24:18,520 --> 01:24:20,580
+you
+
+672
+01:24:33,280 --> 01:24:37,080
+guys is everyone back
+
+673
+01:24:40,320 --> 01:24:46,600
+give me some sir if everyone is back I just want to explain one of the bug that
+
+674
+01:24:46,600 --> 01:24:50,760
+I was doing and not able to figure out I just was thinking you know for this
+
+675
+01:24:50,760 --> 01:24:58,840
+four five moments and I do remember here while I was trying to execute set
+
+676
+01:24:58,840 --> 01:25:06,680
+time or directly instead of returning a function it was not working I was not
+
+677
+01:25:06,680 --> 01:25:11,080
+able to figure out then but I was thinking in two minutes of time I you
+
+678
+01:25:11,080 --> 01:25:16,240
+know the moment the the bug here that was created was like whenever you are
+
+679
+01:25:16,240 --> 01:25:22,120
+really creating a listeners right you are not actually calling a function but
+
+680
+01:25:22,120 --> 01:25:28,400
+you are writing a callback function attaching a function to it do you
+
+681
+01:25:28,400 --> 01:25:33,040
+understand the difference between calling and attaching a function to it
+
+682
+01:25:33,040 --> 01:25:39,520
+it works like a callback function right now whenever I was actually calling this
+
+683
+01:25:39,520 --> 01:25:45,000
+T bonds and our function I was actually executing this part but it will be only
+
+684
+01:25:45,040 --> 01:25:49,840
+executed one time but if I want to attach that function I have to know when
+
+685
+01:25:49,840 --> 01:25:55,200
+if you see this what logic is the happy forming here it is returning a function
+
+686
+01:25:55,200 --> 01:25:58,800
+and this whatever that function is written will be attached to this key
+
+687
+01:25:58,800 --> 01:26:03,280
+down event and whenever key down is there this function will be executed is
+
+688
+01:26:03,280 --> 01:26:10,080
+it it so that's the difference I was making a mistake so I able to understand
+
+689
+01:26:10,080 --> 01:26:15,600
+what's a mistake I was committing there if there is anyone who don't understand
+
+690
+01:26:15,600 --> 01:26:19,320
+give me thumbs up thumbs down and explain that thing guys I hope okay see
+
+691
+01:26:19,320 --> 01:26:32,200
+many people now okay yeah yeah right so let's say whenever you write any event
+
+692
+01:26:32,200 --> 01:26:36,640
+listener whenever you write event listener okay let's say what could be
+
+693
+01:26:36,680 --> 01:26:42,120
+the common thing you like a click event okay and you define a callback function
+
+694
+01:26:42,120 --> 01:26:50,160
+right this is a syntax of it isn't it isn't it this is a syntax of it when you
+
+695
+01:26:50,160 --> 01:26:57,800
+write it now let's say I write a console dot log console dot log and I let's say
+
+696
+01:26:57,800 --> 01:27:03,960
+I'm trying to print the event whichever I'm receiving let's say event no I am
+
+697
+01:27:04,000 --> 01:27:11,880
+defining a function inside the listener but am I executing this function here or
+
+698
+01:27:11,880 --> 01:27:15,440
+I'm just defining the function declare I'm doing the function declaration only
+
+699
+01:27:15,440 --> 01:27:19,880
+know writing the definition of function but I'm not calling it I will be only
+
+700
+01:27:19,880 --> 01:27:24,680
+calling this function when I do this isn't it defining a function and calling
+
+701
+01:27:24,680 --> 01:27:32,000
+it right away I able to understand the difference between attaching a function
+
+702
+01:27:32,040 --> 01:27:38,360
+to the listener versus call executing that function now earlier like here in
+
+703
+01:27:38,360 --> 01:27:49,840
+the listeners we attach a function let me write a cut callback function but we
+
+704
+01:27:49,840 --> 01:27:58,200
+don't execute it manually that will be taken care where I actually went
+
+705
+01:27:58,360 --> 01:28:02,760
+function but earlier what I was doing is that if you see I was calling the
+
+706
+01:28:02,760 --> 01:28:09,480
+debounce optimized function instead of doing here anything I was trying to set
+
+707
+01:28:09,480 --> 01:28:16,880
+timeout and I was doing function and delay this is again as the principle of
+
+708
+01:28:16,880 --> 01:28:20,520
+listener right what I'm doing it I'm just calling that function on each click
+
+709
+01:28:20,520 --> 01:28:28,440
+I'm executing that logic isn't it I'm executing this function are you able to
+
+710
+01:28:28,440 --> 01:28:32,640
+understand the difference like when actually we should have been attached a
+
+711
+01:28:32,640 --> 01:28:36,360
+callback function instead of that they are executing a function now when I
+
+712
+01:28:36,360 --> 01:28:43,040
+return a function here when I return a function from this function this
+
+713
+01:28:43,040 --> 01:28:48,860
+particular return function is actually being attached to this listener is this
+
+714
+01:28:48,860 --> 01:28:54,980
+clear guys and I can write down in simple keywords if I have to do it what
+
+715
+01:28:54,980 --> 01:29:02,100
+actually have been doing it is that let's say this is a keyed-on event now
+
+716
+01:29:02,100 --> 01:29:05,740
+once keyed-on is event is there like let's say we have this callback
+
+717
+01:29:05,740 --> 01:29:10,660
+function now here we were doing that same thing let's say I have a timer now
+
+718
+01:29:10,660 --> 01:29:17,100
+the timer should be art added on the top let's say I can add a timer here let's
+
+719
+01:29:17,100 --> 01:29:24,760
+say I have a timer here declared okay once I have a timer what I'll do is that
+
+720
+01:29:24,760 --> 01:29:30,240
+I'll copy this one these two things instead of writing like this function
+
+721
+01:29:30,240 --> 01:29:38,820
+and delay I'll actually call it opt function and I'll say that 500 okay this
+
+722
+01:29:38,820 --> 01:29:44,700
+is same as this both lines are actually doing same thing are you able to relate
+
+723
+01:29:44,700 --> 01:29:53,820
+it now instead of attaching earlier I was calling this guys is this clear
+
+724
+01:29:53,820 --> 01:29:57,820
+point give me thumbs up thumbs down if you are able to understand it now so for
+
+725
+01:29:57,820 --> 01:30:01,780
+listeners we attach yeah yeah right somewhere like if you go for any code
+
+726
+01:30:01,780 --> 01:30:08,620
+let's say we go to Kanban board we have too many events added right now do you
+
+727
+01:30:08,620 --> 01:30:12,600
+see this we are writing only declaring the function but we are not calling the
+
+728
+01:30:12,600 --> 01:30:18,560
+function for the double-click event or you go for any other event like let's
+
+729
+01:30:18,560 --> 01:30:23,280
+say if this particular event how how function function executes only when you
+
+730
+01:30:23,280 --> 01:30:28,920
+call right let's say I declare a function like function some and I pass
+
+731
+01:30:28,920 --> 01:30:33,640
+a comma B only then like doesn't matter right that won't execute until as you
+
+732
+01:30:33,640 --> 01:30:38,480
+call them so calling is not my headache that listener will take care of it
+
+733
+01:30:38,480 --> 01:30:49,000
+that's what yeah yeah so I hope you got the bug that I was creating and it just
+
+734
+01:30:49,000 --> 01:30:52,520
+clicked me right moment I just wanted to explain you guys like what could be the
+
+735
+01:30:52,520 --> 01:30:59,920
+mistake what was the mistake actually okay let me remove this lines of code
+
+736
+01:30:59,920 --> 01:31:07,640
+no so I hope debounce is clear right to everyone debounce is clear like how does
+
+737
+01:31:07,640 --> 01:31:14,480
+it work debounce so whenever you want to do whenever you want to do something
+
+738
+01:31:14,480 --> 01:31:18,720
+like when let's say there are series of events are happening and you want to
+
+739
+01:31:18,720 --> 01:31:24,920
+execute after user even stop after some time then you that particular process is
+
+740
+01:31:24,920 --> 01:31:33,240
+called debouncing okay fine I hope now after this I'll say that do you
+
+741
+01:31:33,240 --> 01:31:40,720
+understand know how async programming work async is something like parallel
+
+742
+01:31:40,720 --> 01:31:47,200
+whenever you see here this word in cope in programming context you can
+
+743
+01:31:47,200 --> 01:31:54,280
+understand this as a parallel now in JS since it is a single threaded we don't
+
+744
+01:31:54,280 --> 01:31:59,120
+have like we have right we can write a multiple multi-threading code logics but
+
+745
+01:31:59,120 --> 01:32:04,160
+we have something like this mechanism where the costly events are removed from
+
+746
+01:32:04,160 --> 01:32:08,520
+call stack put somewhere else and only will be executed when it needed to be
+
+747
+01:32:08,520 --> 01:32:17,400
+that's how we were able to handle costly events like multi-threading concept is
+
+748
+01:32:17,400 --> 01:32:21,440
+there some proper syntax to deep on so that I can least remember I'll check for
+
+749
+01:32:21,560 --> 01:32:38,680
+documentation some bit if you see let's say if I go and check for debounce there
+
+750
+01:32:38,680 --> 01:32:46,240
+might be some use cases but we have to see like if you see this is the same
+
+751
+01:32:46,240 --> 01:32:53,440
+logic that I used it they are also using function apply this we have to
+
+752
+01:32:53,440 --> 01:32:57,920
+understand why they are using it but they are also explaining the same
+
+753
+01:32:57,920 --> 01:33:03,640
+problem using input type text okay but I'll come to that I'll check and I'll
+
+754
+01:33:03,640 --> 01:33:08,160
+give you a snapshot of a code which can be used for understanding it I try to
+
+755
+01:33:08,160 --> 01:33:12,440
+pick the very really simple example it's like a three piece of code which is
+
+756
+01:33:12,440 --> 01:33:18,600
+actually changing it but I hope this debounce is clear okay we'll move on to
+
+757
+01:33:18,600 --> 01:33:29,480
+the trottling now okay let me let's say I have a new file called trottling dot
+
+758
+01:33:29,480 --> 01:33:38,400
+HTML and I what I'll do is I'll copy this code I'll paste it here and let me
+
+759
+01:33:38,400 --> 01:33:49,280
+say that throttling optimized function and I'll call back here and something
+
+760
+01:33:49,280 --> 01:33:54,360
+that I have to change the logic is in logic is this one like we'll change we'll
+
+761
+01:33:54,360 --> 01:33:59,560
+be changing the logic here okay but I'll come firstly let's understand what
+
+762
+01:33:59,560 --> 01:34:06,240
+throttling does and what how does it affect now let's go to flipkart itself
+
+763
+01:34:06,240 --> 01:34:11,920
+so guys how many of you understand there's something that lazy loading
+
+764
+01:34:11,920 --> 01:34:24,040
+lazy loading have you heard this keyword lazy loading lazy loading I see three
+
+765
+01:34:24,040 --> 01:34:37,040
+thumbs down no worries case so let's say a website right a website like flipkart
+
+766
+01:34:37,040 --> 01:34:45,680
+Netflix they have too much of content right too much of content when you
+
+767
+01:34:45,680 --> 01:34:53,320
+launch it when you open their sites do you agree with this point like too many
+
+768
+01:34:53,440 --> 01:35:00,160
+when I say content images images can be heavy in size and the content like the
+
+769
+01:35:00,160 --> 01:35:06,280
+paragraph contents and everything do you guys agree with that with this part do
+
+770
+01:35:06,280 --> 01:35:12,160
+you agree at least okay now what happens is to the websites right to optimize to
+
+771
+01:35:12,160 --> 01:35:19,440
+optimize the page load time okay to optimize page load time page load time
+
+772
+01:35:19,440 --> 01:35:24,280
+they use one of the concept called lazy loading now the lazy loading is applied
+
+773
+01:35:24,280 --> 01:35:34,760
+for only costly operations one of the example is that images images are costly
+
+774
+01:35:34,760 --> 01:35:38,880
+so even when you are pulling from the network they do it only when it is
+
+775
+01:35:38,880 --> 01:35:45,680
+required when I say when it is required let's say the flipkart page is too long
+
+776
+01:35:45,680 --> 01:35:54,640
+in nature okay but your viewport view view width is this one so view height is
+
+777
+01:35:54,640 --> 01:36:02,360
+this one and view width is this much okay this is a screen size you have but
+
+778
+01:36:02,360 --> 01:36:07,760
+only if you if I load only this part of content when user launch that would be
+
+779
+01:36:07,760 --> 01:36:14,240
+enough right to show initially whatever your screen is there mobile now then
+
+780
+01:36:14,280 --> 01:36:18,240
+there is a scroll scroll event is happening here on the left side and
+
+781
+01:36:18,240 --> 01:36:22,720
+whenever we are scrolling it below do you remember sometimes there's a flashy
+
+782
+01:36:22,720 --> 01:36:27,240
+images happening like that images keep loading slowly there would be like
+
+783
+01:36:27,240 --> 01:36:33,280
+animation that you see have you seen any time in your like when you scroll it
+
+784
+01:36:33,280 --> 01:36:37,480
+suddenly its speed rate you won't see the web page loaded previously but it
+
+785
+01:36:37,480 --> 01:36:43,040
+keeps on loading it now that is where we say we are loading lazy look we are
+
+786
+01:36:43,040 --> 01:36:48,320
+easily loading the content I mean we are too much lazy that will load it at a
+
+787
+01:36:48,320 --> 01:36:54,720
+time so that when you scroll it right API calls are being made to fetch these
+
+788
+01:36:54,720 --> 01:37:00,800
+images in YouTube in any website in heavy websites where there's a too much
+
+789
+01:37:00,800 --> 01:37:07,360
+content lazy loading is one of the most opting used concept in order to reduce
+
+790
+01:37:07,360 --> 01:37:11,200
+the page load time because we will load only whatever required assets are and
+
+791
+01:37:11,680 --> 01:37:16,040
+then after when user scrolls it depending on whether he's scroll till
+
+792
+01:37:16,040 --> 01:37:21,440
+here we load this content when he's called here will load this content and
+
+793
+01:37:21,440 --> 01:37:27,200
+once they loaded they cache it when I say cache it they store here in the
+
+794
+01:37:27,200 --> 01:37:32,560
+storages so that you again if user goes up and down then don't need to again
+
+795
+01:37:32,560 --> 01:37:39,240
+load it let's see this in real time let's say that if I go to YouTube okay
+
+796
+01:37:39,280 --> 01:37:45,240
+no let's say this do you see this this part of thing is loaded like this are
+
+797
+01:37:45,240 --> 01:37:51,840
+12 boxes nice this 12 boxes now suddenly if I load it do you see this blocks are
+
+798
+01:37:51,840 --> 01:37:56,040
+getting filled suddenly there was a shade there if I suddenly loaded there's
+
+799
+01:37:56,040 --> 01:37:59,440
+a shade then the color pictures are coming then the thumbnails are coming
+
+800
+01:37:59,440 --> 01:38:06,280
+actually do you see this if I load it the below pictures are you able to see
+
+801
+01:38:06,280 --> 01:38:15,360
+this case no again I'll show you why let's say I go for the inspect if you
+
+802
+01:38:15,360 --> 01:38:20,160
+see in the network you see in the network
+
+803
+01:38:20,160 --> 01:38:36,320
+can I okay now let's see what happens when I scroll too many API calls in
+
+804
+01:38:36,320 --> 01:38:45,200
+YouTube to know but let's say if I scroll it do you see there are pending
+
+805
+01:38:45,200 --> 01:38:50,720
+requests which are getting fulfilled to fetch the images all this like events
+
+806
+01:38:50,720 --> 01:38:55,560
+and the images if you see this image this might be the image for something
+
+807
+01:38:55,560 --> 01:39:01,120
+some YouTube hedge clips or this is you know Aditya music or different images
+
+808
+01:39:01,120 --> 01:39:06,080
+are being fetched at runtime now this image is let's say Amazon image there
+
+809
+01:39:06,080 --> 01:39:13,700
+might be somewhere this this person's image okay 80 this one so all these are
+
+810
+01:39:13,700 --> 01:39:17,980
+thumbnails which are like let's say this one stack versus heap some video may be
+
+811
+01:39:17,980 --> 01:39:22,580
+content now this person's image so this is somewhere somewhat called as lazy
+
+812
+01:39:22,580 --> 01:39:26,300
+loading this concept is lazy loading what they're doing it is that only I
+
+813
+01:39:26,300 --> 01:39:32,420
+loaded only I loaded whatever content is needed one shot and when users cross it
+
+814
+01:39:32,420 --> 01:39:37,860
+I'll hope I'll like you know I'll do a figure out now you can always figure out
+
+815
+01:39:37,860 --> 01:39:42,500
+this one what are the listeners attached name if you want to go like you go to
+
+816
+01:39:42,620 --> 01:39:52,140
+here you know in this you can go to scroll event and explore like what are
+
+817
+01:39:52,140 --> 01:39:56,300
+the events that are attached okay multiple events you'll see that on page
+
+818
+01:39:56,300 --> 01:40:00,620
+level if you remove it or this thing will you know stop working whatever you
+
+819
+01:40:00,620 --> 01:40:05,700
+see that API calls being triggered if you remove it it will stop working okay
+
+820
+01:40:05,700 --> 01:40:10,140
+there might be many things they might be using it but these are the list of
+
+821
+01:40:10,140 --> 01:40:15,900
+events you can play around with mouse over key up key down right input element
+
+822
+01:40:15,900 --> 01:40:19,980
+drag enter drag leave double flick so these are the events that you can see
+
+823
+01:40:19,980 --> 01:40:26,020
+like what events are attached to your website okay so now coming back here so
+
+824
+01:40:26,020 --> 01:40:31,020
+I did you understand lazy loading give a thumbs up if you understand now what
+
+825
+01:40:31,020 --> 01:40:39,560
+lazy loading is how that works no now let's say now let's say what's happening
+
+826
+01:40:39,560 --> 01:40:46,760
+if I do it again on the flipkart do you see let's say how many pay cost did they
+
+827
+01:40:46,760 --> 01:40:52,400
+make if you see this they are trying to get fetch the page page numbers now if
+
+828
+01:40:52,400 --> 01:40:57,800
+you see each page only one page right I had only one page but that page was
+
+829
+01:40:57,800 --> 01:41:05,080
+divided into multiple pages according to the viewport size do you see this like
+
+830
+01:41:05,080 --> 01:41:15,360
+let me refresh this one this website and I'll show it okay there might be
+
+831
+01:41:15,360 --> 01:41:19,480
+somewhere with the API call might have been already made they fetched images
+
+832
+01:41:19,480 --> 01:41:26,440
+and everything it one shot to loads of you put size images now once I make
+
+833
+01:41:27,440 --> 01:41:32,880
+now do you see this this this thing made a API call to get the other list of
+
+834
+01:41:32,880 --> 01:41:43,120
+items of page number two and also it fetched one of the image okay now what
+
+835
+01:41:43,120 --> 01:41:47,800
+if I go into one section let's say if I go into one section called mobiles let's
+
+836
+01:41:47,800 --> 01:41:54,520
+say if we have I scroll it down I keep on scrolling now if you see images are
+
+837
+01:41:54,760 --> 01:42:03,640
+runtime fetch is being made okay let's say the event actually okay these are
+
+838
+01:42:03,640 --> 01:42:08,520
+like all things are lazily loaded that's what I wanted to show that this is the
+
+839
+01:42:08,520 --> 01:42:13,720
+real-time concept that whatever we are learning now here just lazy loading is
+
+840
+01:42:13,720 --> 01:42:18,760
+actually being done using something called as throttling mechanism okay now
+
+841
+01:42:18,760 --> 01:42:24,120
+let's understand what actually throttling is how we can leverage throttling when
+
+842
+01:42:24,120 --> 01:42:30,560
+you come to this car like you know lazy loading now what's happening
+
+843
+01:42:31,640 --> 01:42:37,360
+here would you see on the web page when you reach a particular point when you
+
+844
+01:42:37,360 --> 01:42:43,320
+scroll up to some extent let's say some height some height of web page that
+
+845
+01:42:43,320 --> 01:42:55,080
+triggering API call right do you guys agree with this point that that trot
+
+846
+01:42:55,080 --> 01:42:59,760
+like when you move to the particular height of it they are making a pickle so
+
+847
+01:42:59,760 --> 01:43:07,080
+now imagine imagine what if this is one of the example like how do you do it
+
+848
+01:43:07,080 --> 01:43:12,880
+then imagine there is a submit button then this let's say there is a submit
+
+849
+01:43:12,880 --> 01:43:18,280
+button you created a form you have multiple elements you have filled all
+
+850
+01:43:18,280 --> 01:43:22,400
+the events then you have a submit button
+
+851
+01:43:24,120 --> 01:43:29,720
+what if user keep on banging this button each time they keep on pressing this
+
+852
+01:43:29,720 --> 01:43:35,080
+button again again again again he keep on clicking this button again and again
+
+853
+01:43:35,120 --> 01:43:47,000
+even then we are making hitting multiple API calls right right like whenever user
+
+854
+01:43:47,000 --> 01:43:50,680
+is trying to submit a form and he is clicking on submit event again and again
+
+855
+01:43:50,680 --> 01:43:56,240
+you are trying to hit for on each submit you are making an API call here also what
+
+856
+01:43:56,240 --> 01:44:01,680
+if user scrolls to this height you make an API call again you go down again you
+
+857
+01:44:01,680 --> 01:44:06,680
+go up you again make an API call so if you keep on scrolling in a list of API
+
+858
+01:44:06,680 --> 01:44:12,440
+calls will be happening each time right are you guys do you guys agree with my
+
+859
+01:44:12,440 --> 01:44:19,000
+point that what I'm talking here like like the user behavior whatever user is
+
+860
+01:44:19,000 --> 01:44:23,600
+trying to write in order to stop that events are happy for you know triggering
+
+861
+01:44:23,600 --> 01:44:30,320
+now what we'll do is that once user clicks any event or once user comes to
+
+862
+01:44:30,320 --> 01:44:35,720
+this crawl we wait for some time
+
+863
+01:44:35,720 --> 01:45:05,200
+I mean wait till the event happens and then trigger API call okay
+
+864
+01:45:05,920 --> 01:45:17,320
+it some intervals now when I'm why I'm saying some intervals is let's say this
+
+865
+01:45:17,320 --> 01:45:23,200
+particular concept also applies it's like same like a debouncing but
+
+866
+01:45:23,200 --> 01:45:29,120
+debouncing works only like let's say of that input example try to remember like
+
+867
+01:45:29,120 --> 01:45:34,000
+one example for each one now when you go for input example what was happening is
+
+868
+01:45:34,000 --> 01:45:39,240
+that we were trying to debounce like we were waiting till user stops once user
+
+869
+01:45:39,240 --> 01:45:44,400
+stopped I stop it then after we were initiating thus time then we were
+
+870
+01:45:44,400 --> 01:45:48,000
+initiating the delay and then only we were triggering API call here it doesn't
+
+871
+01:45:48,000 --> 01:45:52,640
+happen that way once you reach an event API call will be triggered for surely
+
+872
+01:45:52,640 --> 01:45:57,440
+but after that it will be triggered after again some amount of time it will
+
+873
+01:45:57,440 --> 01:46:01,040
+be keep on like this works like an interval okay
+
+874
+01:46:01,040 --> 01:46:05,760
+trottling works like interval where you are trying to reduce the amount of API
+
+875
+01:46:05,760 --> 01:46:12,640
+calls but it will keep on execute you can make n number of calls okay let me
+
+876
+01:46:12,640 --> 01:46:18,920
+show you the first let me let us show see this example again okay I'll launch
+
+877
+01:46:18,920 --> 01:46:30,040
+this one firstly let's say we have this let's I return this function
+
+878
+01:46:35,400 --> 01:46:43,080
+console dot log instead of console dot log I have to return something like set
+
+879
+01:46:43,120 --> 01:46:54,160
+timeout again function comma deal nothing much so let's say we are still
+
+880
+01:46:54,160 --> 01:47:00,120
+executing that same problem if I keep on timing executing it you'll be able to
+
+881
+01:47:00,120 --> 01:47:06,840
+see all the network calls here okay did I load the wrong file let me load this
+
+882
+01:47:06,840 --> 01:47:22,240
+throttling let me go back here load this one now I have typed on waiting and
+
+883
+01:47:22,240 --> 01:47:25,920
+should be executing all the requests this is again going back to that same
+
+884
+01:47:25,920 --> 01:47:30,480
+problem guys now but what if I what I want to do it here is that I want to
+
+885
+01:47:30,480 --> 01:47:35,680
+throttle when I when I when I say that let's say when I say this meaning of
+
+886
+01:47:35,680 --> 01:47:45,200
+throttle is like once user event is click event is clicked our event
+
+887
+01:47:45,200 --> 01:47:47,600
+happens
+
+888
+01:47:51,400 --> 01:48:03,960
+throttle the request I mean wait for some time before you execute let let me show
+
+889
+01:48:03,960 --> 01:48:09,200
+that how that works before I write down anything okay let's see how what happens
+
+890
+01:48:09,200 --> 01:48:13,600
+here so now when I want to throttle it what I'll do it here is that let's say I
+
+891
+01:48:13,600 --> 01:48:20,840
+have a flag let's I say that a flag equal to true okay and only when this
+
+892
+01:48:20,840 --> 01:48:31,280
+flag is true only flag is true I'll do what I'll do is that I'll call this
+
+893
+01:48:31,280 --> 01:48:36,880
+function whatever function I'm getting I'll execute that function okay and then
+
+894
+01:48:36,880 --> 01:48:42,980
+I'll make this flag as false now what I'm just doing is that oh just simple
+
+895
+01:48:42,980 --> 01:48:47,780
+condition let's say I remove this one as of now what I'll do is that simply I'll
+
+896
+01:48:47,780 --> 01:48:52,040
+check I'll call this function callback function and checking that either the
+
+897
+01:48:52,040 --> 01:48:59,360
+flag is true and if it is only true then not equally okay triple equal to yeah
+
+898
+01:48:59,360 --> 01:49:04,280
+triple equal to when only is equal to true then I'll execute the function and
+
+899
+01:49:04,280 --> 01:49:10,640
+then update flag as false now let's say I also want to update here what I'll do
+
+900
+01:49:10,640 --> 01:49:17,720
+is that I'll write a set time or logic here not inside this callback function
+
+901
+01:49:18,480 --> 01:49:22,560
+what I'll do is that I'll give some delay now let's say this delay we are
+
+902
+01:49:22,560 --> 01:49:28,240
+something we're getting is from the top I have this delay and what I after this
+
+903
+01:49:28,240 --> 01:49:34,720
+each time delay I'll come convert this into true no what's happening here just
+
+904
+01:49:34,720 --> 01:49:40,520
+let's figure out if we go from this flow right once the first your trigger this
+
+905
+01:49:40,520 --> 01:49:46,600
+trottling for callback function let's it is initialized as a true so the function
+
+906
+01:49:46,600 --> 01:49:56,120
+will be executed at first shot and let me move this inside this one no first
+
+907
+01:49:56,120 --> 01:50:02,200
+shot the function will be like called and executed then we are making it as a
+
+908
+01:50:02,200 --> 01:50:08,600
+flag now even after user like when we are calling a set delay okay but user is
+
+909
+01:50:08,600 --> 01:50:13,800
+keep on pressing some buttons but if we keep on pressing this flag is converted
+
+910
+01:50:13,800 --> 01:50:18,440
+into false already by here and we won't be triggering this function again again
+
+911
+01:50:18,440 --> 01:50:23,800
+we won't be calling this function again again till this set time mode executes
+
+912
+01:50:23,800 --> 01:50:27,760
+and may convert that flag into true
+
+913
+01:50:34,080 --> 01:50:40,000
+nice are you able to understand what we mean to say that trottel is once user
+
+914
+01:50:40,000 --> 01:50:46,440
+event happens after one once API call is triggered and we won't trigger an
+
+915
+01:50:46,440 --> 01:50:51,480
+another API call till there is some delay executed and that delay will define in
+
+916
+01:50:51,480 --> 01:50:56,360
+the configuration itself so we are trying to rate limit the number of API
+
+917
+01:50:56,360 --> 01:51:03,440
+calls that will be caught okay let's see this example firstly what I am trying to
+
+918
+01:51:03,440 --> 01:51:11,360
+say is that let's say I click some bits three-party no I have what let me see
+
+919
+01:51:11,360 --> 01:51:16,920
+what is a delay I gave 500 milliseconds let's say I give one one second okay or
+
+920
+01:51:16,920 --> 01:51:25,880
+let's say I make it two seconds I said typed on my name do you see only two API
+
+921
+01:51:25,880 --> 01:51:31,560
+calls have been made for considering this one the reason here why it happened
+
+922
+01:51:31,560 --> 01:51:37,400
+is firstly let me go into this logic let me put debuggers and show you two guys
+
+923
+01:51:37,400 --> 01:51:45,600
+how this works okay now what if I type down again now once let's say clean it
+
+924
+01:51:45,600 --> 01:51:47,800
+up
+
+925
+01:51:53,400 --> 01:52:00,240
+let's say I typed on you here once I typed on you now a flag is already true
+
+926
+01:52:00,240 --> 01:52:04,800
+and it will execute that function and that will put a call API call it will
+
+927
+01:52:04,800 --> 01:52:10,440
+hit an API call and then we are calling a set timeout okay and this set timeout
+
+928
+01:52:10,440 --> 01:52:15,880
+will execute only after two seconds of delay okay till then if I typed on
+
+929
+01:52:15,880 --> 01:52:20,840
+anything if that flag will be false so it won't execute go inside it anything
+
+930
+01:52:20,840 --> 01:52:26,360
+then once the timeout is updated the flag will be converted into true from
+
+931
+01:52:26,360 --> 01:52:30,560
+then on if you type anything new that flag will be true and it will call that
+
+932
+01:52:30,560 --> 01:52:37,880
+function are able to relate this case like should I debug it again and show it
+
+933
+01:52:37,880 --> 01:52:44,720
+so what we are generally doing it here is that rate limiting
+
+934
+01:52:52,040 --> 01:53:01,280
+the API calls now why rate limiting the API call works is if you see the in
+
+935
+01:53:01,280 --> 01:53:07,240
+YouTube or anything the content of videos this least data right that gets
+
+936
+01:53:07,240 --> 01:53:12,400
+updated as per your personalization profiles again and again because it's a
+
+937
+01:53:12,400 --> 01:53:17,760
+multi-day multi-device setup now when I scroll it a list of API calls will be
+
+938
+01:53:17,760 --> 01:53:23,520
+made okay and this API calls will be again if I what if I go go and scroll up
+
+939
+01:53:23,520 --> 01:53:30,200
+what if this things are getting updated okay
+
+940
+01:53:31,400 --> 01:53:36,000
+yeah the function here is something like yeah API call that is what we are
+
+941
+01:53:36,000 --> 01:53:41,600
+assuming it here this particular function
+
+942
+01:53:45,280 --> 01:53:50,040
+so guys are you able to relate like rate when I say rate limiting the API calls
+
+943
+01:53:50,040 --> 01:53:53,720
+like we are limiting the amount of calls that API will be triggered or the
+
+944
+01:53:53,720 --> 01:53:56,720
+function will be called
+
+945
+01:53:57,720 --> 01:54:10,080
+yes are you able to follow up or did you like you do you didn't understand it give
+
+946
+01:54:10,080 --> 01:54:14,640
+me one thumbs up some thumbs up so that I can list down the differences I and
+
+947
+01:54:14,640 --> 01:54:18,200
+we'll be able to understand like actually what is the difference on like
+
+948
+01:54:18,200 --> 01:54:23,400
+top level what between the bones and this let's say I write down a list of
+
+949
+01:54:23,400 --> 01:54:32,960
+things let's say I say that this is for D bonds and this is for throttle okay
+
+950
+01:54:32,960 --> 01:54:38,920
+which I have a pen this one I say purpose what is the purpose for D bonds
+
+951
+01:54:38,920 --> 01:54:46,280
+so I'll say this is like for delaying let's say this is like for delaying
+
+952
+01:54:46,840 --> 01:54:50,880
+delay the function execution
+
+953
+01:54:56,040 --> 01:55:04,040
+until an activity in activity so if you remember this one we are
+
+954
+01:55:04,040 --> 01:55:10,440
+dealing a like calling of that function or API call from the input element till
+
+955
+01:55:10,440 --> 01:55:15,160
+the user stops pressing right key events we didn't execute that call we only
+
+956
+01:55:15,160 --> 01:55:19,680
+execute once user stops it that delays expired only then we make a if they
+
+957
+01:55:19,680 --> 01:55:30,400
+call right for D bonds and for throttling what we do is that limit
+
+958
+01:55:30,400 --> 01:55:41,320
+function execution rate and how we are able to limit the function execution rate
+
+959
+01:55:41,320 --> 01:55:46,840
+by using the simple condition that first time whenever a pay call comes we
+
+960
+01:55:46,840 --> 01:55:51,440
+make it true that flag is true by default so that a pic of that function
+
+961
+01:55:51,440 --> 01:55:55,280
+will be executed then we're converting false and this flag will be again
+
+962
+01:55:55,280 --> 01:55:59,880
+converted to true only after some delay and this is actually this particular set
+
+963
+01:55:59,880 --> 01:56:03,560
+time what is actually delaying the second API call till that particular
+
+964
+01:56:03,560 --> 01:56:10,160
+delay have now okay to show this how this happens let's say user event that's I
+
+965
+01:56:10,160 --> 01:56:15,880
+typed on graphics for this one user event is like do keep on typing events
+
+966
+01:56:15,880 --> 01:56:22,240
+no then once he stops it this delay will be we will be waiting for this delay
+
+967
+01:56:22,240 --> 01:56:28,320
+then function execution will happen here for throttling purpose how does it
+
+968
+01:56:28,320 --> 01:56:36,200
+happen is once the user event is clicked okay we will call that function and we
+
+969
+01:56:36,200 --> 01:56:43,760
+will load the delay we load the delay and each even if user is typing it down
+
+970
+01:56:43,760 --> 01:56:49,640
+we won't make any API calls or function execution only this will be done when
+
+971
+01:56:49,640 --> 01:56:54,080
+this delay is expired we'll call it again and then we'll wait again for some
+
+972
+01:56:54,080 --> 01:57:00,800
+delay only then we'll load it this is like a set interval only after once this
+
+973
+01:57:00,800 --> 01:57:05,000
+call is done we'll wait for an interval then we'll again load it so it is like
+
+974
+01:57:05,000 --> 01:57:10,760
+limit limiting the rate of execution is this clear guys difference between
+
+975
+01:57:10,760 --> 01:57:17,960
+debounce and throttle okay now when it comes to execution let me write down in
+
+976
+01:57:17,960 --> 01:57:20,920
+the statement also
+
+977
+01:57:21,920 --> 01:57:26,360
+let's say executes
+
+978
+01:57:29,160 --> 01:57:32,840
+after a pass
+
+979
+01:57:35,440 --> 01:57:38,760
+in which
+
+980
+01:57:39,520 --> 01:57:50,640
+whereas this one executes at a steady rate and the steady rate is the delay
+
+981
+01:57:50,640 --> 01:58:06,120
+that you provided now the third thing is let's say event reset timer so when
+
+982
+01:58:06,120 --> 01:58:14,760
+this thing happened reset event reset no case can anyone answer this thing for
+
+983
+01:58:14,760 --> 01:58:20,120
+me when that event reset happened in their debounce like going back to this
+
+984
+01:58:20,120 --> 01:58:32,560
+example can I say on each event this time it timeout is reset on each event
+
+985
+01:58:32,560 --> 01:58:45,840
+right on each event whereas this one it maintains steady rate there is no
+
+986
+01:58:45,840 --> 01:58:53,520
+clearing of timer here are we clearing set timeout here in the throttling we
+
+987
+01:58:53,520 --> 01:59:12,000
+aren't right we are not clearing this timeout right guys no events no actually
+
+988
+01:59:12,000 --> 01:59:23,800
+I'll write as a no simply or never okay then let's say if I talk about something
+
+989
+01:59:23,800 --> 01:59:27,760
+like frequency handling
+
+990
+01:59:31,400 --> 01:59:39,280
+when I say frequency handling like what actually it is doing it how it is how
+
+991
+01:59:40,120 --> 01:59:46,680
+once delay is over we are not clearing the events right Shambhuja here for
+
+992
+01:59:46,680 --> 01:59:52,800
+throttling like we are not calling clear timeout anytime we are just using the
+
+993
+01:59:52,800 --> 01:59:58,720
+flag we are talking at loading okay so I would request everyone to go through
+
+994
+01:59:58,720 --> 02:00:04,240
+this examples again try to execute it use this table I'll try to upload this
+
+995
+02:00:04,240 --> 02:00:09,760
+table also a photo of snapshot of this one in the notes so that you will be
+
+996
+02:00:09,760 --> 02:00:24,040
+able to remember like the position okay so let's say reduces the function calls
+
+997
+02:00:24,440 --> 02:00:28,160
+during rapid events
+
+998
+02:00:28,160 --> 02:00:35,000
+like when user is typing we try to reduce the amount of function calls
+
+999
+02:00:35,000 --> 02:00:40,120
+right at each rapid event like user is keep on typing the keyword will we have
+
+1000
+02:00:40,120 --> 02:00:50,600
+to wait so we are reducing it so now for this one we can say that limit function
+
+1001
+02:00:50,600 --> 02:01:02,400
+call to set interval we are using an interval and only after that interval
+
+1002
+02:01:02,400 --> 02:01:09,480
+this thing is come now what could be the examples for this one where all
+
+1003
+02:01:09,480 --> 02:01:16,840
+debouncing can be used so debouncing function call will never stop yes
+
+1004
+02:01:16,840 --> 02:01:22,360
+function call will never stop when user is keep on typing it okay when user keep
+
+1005
+02:01:22,360 --> 02:01:28,400
+on scrolling it down the page or anytime like what will do is that whenever that
+
+1006
+02:01:28,400 --> 02:01:34,000
+something is happening a function call will not stop but we will be executing
+
+1007
+02:01:34,000 --> 02:01:38,900
+this thing only when this flag is true we will try to execute that one if not
+
+1008
+02:01:38,900 --> 02:01:44,400
+then we won't execute it and each time for each event we are not even attaching
+
+1009
+02:01:44,400 --> 02:01:50,560
+set timeout for each event we won't be able to attach a set timeout we will be
+
+1010
+02:01:50,560 --> 02:01:54,800
+only able to attach that set timeout only for that first if you attach it then
+
+1011
+02:01:54,800 --> 02:02:01,120
+after only delay then we will be able to attach the timeout for that event okay
+
+1012
+02:02:01,120 --> 02:02:06,240
+now examples would be for this one
+
+1013
+02:02:06,880 --> 02:02:12,640
+typing or let's say search suggestion
+
+1014
+02:02:15,720 --> 02:02:23,400
+okay or let's say even you can consider it as a resizing events now resizing
+
+1015
+02:02:23,400 --> 02:02:32,240
+event might not be covered but what we mean to say resizing is that yeah
+
+1016
+02:02:32,240 --> 02:02:36,320
+some bit will show it in the event loop completely will cover it up now if you
+
+1017
+02:02:36,320 --> 02:02:43,760
+see this this is like a resizing event now when I reduce it or increase it if
+
+1018
+02:02:43,760 --> 02:02:48,760
+you see just seen the YouTube API calls if you see in the YouTube API calls if I
+
+1019
+02:02:48,760 --> 02:02:57,280
+resize if I resize the amount of API calls being made that is those are the
+
+1020
+02:02:57,280 --> 02:03:00,920
+resize event for the resizing events also use something like a debouncing
+
+1021
+02:03:00,920 --> 02:03:10,840
+concept okay or in when it comes to throttling you use it for scrolling
+
+1022
+02:03:11,680 --> 02:03:17,880
+mouse events like mouse events mouse over or mouse when you remove it right
+
+1023
+02:03:17,880 --> 02:03:30,680
+the rate limited API's okay so these are the differences guys that you should be
+
+1024
+02:03:30,680 --> 02:03:38,800
+able to remember I'll also add a like actual photo or like you know image
+
+1025
+02:03:38,800 --> 02:03:42,760
+that I made it for position so that you will be able to remember it and I'll try
+
+1026
+02:03:42,760 --> 02:03:46,480
+to add diagrams as much as possible to so that you can figure it out how set
+
+1027
+02:03:46,480 --> 02:03:52,280
+timeout on set interval is working behind the scenes but on let me know if
+
+1028
+02:03:52,280 --> 02:03:56,080
+you are able to relate with this statements first if you are able to
+
+1029
+02:03:56,080 --> 02:04:02,680
+understand this points any doubts till now from the code perspective or logic
+
+1030
+02:04:02,680 --> 02:04:07,080
+perspective I picked it up one sort of example because it should be easy when
+
+1031
+02:04:07,080 --> 02:04:10,200
+you come and see that how this what's the difference between debouncing
+
+1032
+02:04:10,200 --> 02:04:15,680
+throttling it just that at one place we are clearing all the previous events and
+
+1033
+02:04:15,680 --> 02:04:20,360
+then only if we are attaching to the last most user typed event where is
+
+1034
+02:04:20,360 --> 02:04:23,920
+coming to throttling we are not even attaching the set timeout for the all
+
+1035
+02:04:23,920 --> 02:04:29,160
+the things you are too much to process I agree but this is this other you know
+
+1036
+02:04:29,160 --> 02:04:32,800
+if you see the problem these people these two things are solving are big
+
+1037
+02:04:32,800 --> 02:04:37,640
+things and you will be able to process it slowly and you'll get complete
+
+1038
+02:04:37,640 --> 02:04:42,680
+clarity over this one okay but now I have one of the small topic to cover
+
+1039
+02:04:42,680 --> 02:04:49,360
+guys I will talk about that one okay now let's go to some other again big
+
+1040
+02:04:49,360 --> 02:04:56,640
+websites itself I go to this YouTube itself I come here in the head tag now
+
+1041
+02:04:56,640 --> 02:05:05,440
+inside the head tag let's see do I have any scripts present say I say it's
+
+1042
+02:05:05,440 --> 02:05:08,440
+defer
+
+1043
+02:05:14,480 --> 02:05:18,680
+I didn't highlight the defer
+
+1044
+02:05:19,360 --> 02:05:46,200
+okay anyways let's see it in the flipkart inside the head this is metadata
+
+1045
+02:05:46,200 --> 02:05:56,080
+related no guys do you see this keyword here differ in the script tag this
+
+1046
+02:05:56,080 --> 02:06:03,760
+keyword differ no this is really simple guys I'll cover it up not much big
+
+1047
+02:06:03,760 --> 02:06:09,480
+thing it will like just a content part because debouncing throttling will keep
+
+1048
+02:06:09,520 --> 02:06:16,840
+on revising again again so that you will be comfortable with that okay today's
+
+1049
+02:06:16,840 --> 02:06:22,320
+content right so we have to cover this is 10 minutes hardly will complete it to
+
+1050
+02:06:22,320 --> 02:06:30,560
+16 okay so no till now whenever we return in HTML files right whenever we
+
+1051
+02:06:30,560 --> 02:06:35,960
+return something in HTML when we are tracking any scripts files or CSS files
+
+1052
+02:06:35,960 --> 02:06:44,240
+we were giving source and most probably relation right for CSS files other than
+
+1053
+02:06:44,240 --> 02:06:48,280
+this thing we were not providing anything but in general at real time you
+
+1054
+02:06:48,280 --> 02:06:53,320
+have three types of scripts one is simple script one is having something
+
+1055
+02:06:53,320 --> 02:07:03,560
+like async script and then there is something like differ script okay let me
+
+1056
+02:07:03,560 --> 02:07:09,560
+say these are the things which are existing now we know that even HTML is
+
+1057
+02:07:09,560 --> 02:07:15,680
+loaded from top to down isn't it like executed from top to down and whenever
+
+1058
+02:07:15,680 --> 02:07:21,560
+we load script anywhere in head that script sometimes like if you remember
+
+1059
+02:07:21,560 --> 02:07:28,480
+font awesome right font awesome we were linking in the head section right when
+
+1060
+02:07:28,480 --> 02:07:34,280
+we are linking in the head section that font awesome code should be downloaded
+
+1061
+02:07:34,280 --> 02:07:38,760
+right font awesome code should be downloaded before we use it in HTML part
+
+1062
+02:07:38,760 --> 02:07:44,680
+inside the body you know because that that is what we are doing now if you
+
+1063
+02:07:44,680 --> 02:07:49,160
+want to do it that way and if it is happening from top to bottom imagine if
+
+1064
+02:07:49,160 --> 02:07:54,760
+font awesome site is down whether our HTML will be passed after this or it
+
+1065
+02:07:54,760 --> 02:08:03,600
+will be blocked what if that CDN link whatever CDN link we have that website
+
+1066
+02:08:03,600 --> 02:08:08,040
+downloading I mean it yeah so what I mean to say that it's like let's say
+
+1067
+02:08:08,040 --> 02:08:14,360
+font awesome link whatever script we got it from a CDN link now when the HTML is
+
+1068
+02:08:14,360 --> 02:08:18,800
+being passed from top to down and once we find that there's a script tag
+
+1069
+02:08:18,800 --> 02:08:22,520
+related to font awesome and we are trying to get fetch the data from the
+
+1070
+02:08:22,520 --> 02:08:31,040
+CDN whatever JS code they have written and if this CDN is on JS the passing of
+
+1071
+02:08:31,040 --> 02:08:37,280
+HTML would go to the next step it will try to fetch it again okay because this
+
+1072
+02:08:37,280 --> 02:08:44,560
+will be blocked and even if CDN is not down it is too slow what if it's low the
+
+1073
+02:08:44,560 --> 02:08:51,240
+code execution will be blocked at that particular step in the script okay so how
+
+1074
+02:08:51,240 --> 02:08:56,080
+does it happen is let's say this is a timeline in which HTML is being passed
+
+1075
+02:08:56,080 --> 02:09:04,840
+let's say you got a boar head tag here right here is ending the head and you
+
+1076
+02:09:04,840 --> 02:09:12,840
+saw the script related to font awesome now once you saw this font awesome if
+
+1077
+02:09:12,840 --> 02:09:18,880
+the site is slow or down the other parts of code execution will be blocked this is
+
+1078
+02:09:18,880 --> 02:09:24,360
+blocked because we are trying to interact with something which is slow
+
+1079
+02:09:24,360 --> 02:09:30,160
+are you able to understand this one guys now like when you load simple script
+
+1080
+02:09:30,160 --> 02:09:35,400
+what are the challenges you can have when you load on inside the head no the
+
+1081
+02:09:35,400 --> 02:09:39,120
+workaround what we have seen that is something that you can load it at the
+
+1082
+02:09:39,120 --> 02:09:44,360
+end of the body at the end of the body you can do it very well end of the body
+
+1083
+02:09:44,360 --> 02:09:49,080
+only if you have custom written JS logic but if you have something like font
+
+1084
+02:09:49,080 --> 02:09:54,600
+awesome and this particular HTML inside the body tag we are using those icons
+
+1085
+02:09:54,600 --> 02:10:00,120
+then we need this one to be pre downloaded right that logic for that
+
+1086
+02:10:00,120 --> 02:10:05,880
+icon should be pre downloaded those tags so what was a solution provided for this
+
+1087
+02:10:05,880 --> 02:10:11,480
+one was use two types of attributes one is something called async and one is
+
+1088
+02:10:12,160 --> 02:10:19,760
+what async does is let's see I'll write down for async now what we understood by
+
+1089
+02:10:19,760 --> 02:10:25,360
+this keyword earlier what does async says parallel execution isn't it
+
+1090
+02:10:25,360 --> 02:10:30,280
+asynchronous programming or async when you see that pulling out from the call
+
+1091
+02:10:30,280 --> 02:10:37,040
+stack putting into the queue right same way what happens here is let's say this
+
+1092
+02:10:37,080 --> 02:10:46,000
+is a timeline still and once you passing comes to the head it finds a script what
+
+1093
+02:10:46,000 --> 02:10:53,200
+it says is that hey I found a script that needs a time to download so what
+
+1094
+02:10:53,200 --> 02:10:57,240
+will say that it will download separately that script download will
+
+1095
+02:10:57,240 --> 02:11:03,840
+happen but it won't block the queue when you use async keyword it will keep on
+
+1096
+02:11:03,840 --> 02:11:11,640
+executing the other parts of code so parallelly the HTML will be passed in
+
+1097
+02:11:11,640 --> 02:11:19,600
+parallel JS code will be downloaded and once this is downloaded right once this
+
+1098
+02:11:19,600 --> 02:11:24,760
+is downloading is completed then this particular code will be blocked and this
+
+1099
+02:11:24,760 --> 02:11:31,520
+will be executed first then again HTML parsing will happen is this clear when
+
+1100
+02:11:31,560 --> 02:11:36,240
+you use async word in general you are trying to parallelly execute that script
+
+1101
+02:11:36,240 --> 02:11:41,360
+tag fetch the data from the internet parallelly execute that HTML meanwhile
+
+1102
+02:11:41,360 --> 02:11:46,760
+only once this data is downloaded then you execute that JS and then you have to
+
+1103
+02:11:46,760 --> 02:11:55,200
+again pass the HTML is this clear guys how what async keyword in the script tag
+
+1104
+02:11:55,200 --> 02:12:03,080
+does they have received only one thumbs up maybe few more if not clear I can
+
+1105
+02:12:03,080 --> 02:12:10,760
+repeat in the next class also okay then you have something like defer what does
+
+1106
+02:12:10,760 --> 02:12:18,080
+differ does is there's only one change there's only one change that differ and
+
+1107
+02:12:18,080 --> 02:12:24,560
+async have is that once you find a head again you locate that script tag like a
+
+1108
+02:12:24,560 --> 02:12:32,120
+font does some script it will also download it it will also download in
+
+1109
+02:12:32,120 --> 02:12:38,680
+parallel it will also download that script tag in parallel
+
+1110
+02:12:38,680 --> 02:12:57,120
+okay it will download it but till the whole HTML is parsed till whole HTML is
+
+1111
+02:12:57,120 --> 02:13:05,600
+passed this won't be passed once the HTML is passed this will be passed JS
+
+1112
+02:13:05,640 --> 02:13:10,160
+will be passed what was happening in async as soon as download is completed
+
+1113
+02:13:10,160 --> 02:13:15,200
+this was being passed in between itself then again HTML was passing and all
+
+1114
+02:13:15,200 --> 02:13:19,760
+this can happen only one thing at a time because that we have single threaded and
+
+1115
+02:13:19,760 --> 02:13:23,840
+in single threaded environment only one thing can happen at a one time and this
+
+1116
+02:13:23,840 --> 02:13:27,600
+script download is also being put from the call stack put it into some queue
+
+1117
+02:13:27,600 --> 02:13:32,440
+and once this is download is done once this download is done this was put into
+
+1118
+02:13:32,440 --> 02:13:37,400
+the call stack again right that passing is happening then once that is done
+
+1119
+02:13:37,400 --> 02:13:43,360
+that HTML is passed but here only the difference in with defer is till that
+
+1120
+02:13:43,360 --> 02:13:48,120
+HTML is completely pass it won't interrupt once that the passing is done
+
+1121
+02:13:48,120 --> 02:13:54,080
+only then this will be added is this clear guys what is difference between
+
+1122
+02:13:54,080 --> 02:14:12,320
+simple script and script with async keyword script with defer keyword parallel
+
+1123
+02:14:12,320 --> 02:14:32,120
+download instant parsing and this is blocking in nature and this is also
+
+1124
+02:14:32,120 --> 02:14:57,360
+blocking in nature parallel download and wait till HTML is passed this is
+
+1125
+02:14:57,360 --> 02:15:13,600
+non-blocking in nature I still HTML passing I don't use word execution here
+
+1126
+02:15:13,600 --> 02:15:19,040
+consider it as passing okay now if you go to any website if you go to any
+
+1127
+02:15:19,040 --> 02:15:23,400
+website and see you will be almost seeing the differ keyword used more than
+
+1128
+02:15:23,400 --> 02:15:28,640
+the async keyword this particular all this thing sites right they are waiting
+
+1129
+02:15:28,640 --> 02:15:34,360
+to completely this below things are getting completely like you know past
+
+1130
+02:15:34,360 --> 02:15:39,480
+once these are done only then this will be fast because these are you know
+
+1131
+02:15:39,480 --> 02:15:43,880
+static images these are static images they're getting from the CDN if you go
+
+1132
+02:15:43,880 --> 02:15:48,760
+and try to you know see this there might be a URL for this one where they're
+
+1133
+02:15:48,760 --> 02:15:53,280
+getting assets static assets if you see so they're waiting for all this logic
+
+1134
+02:15:53,280 --> 02:16:04,080
+yeah notes okay so guys is this clear like or do I need to repeat it again
+
+1135
+02:16:04,080 --> 02:16:08,320
+somewhere did you get that point did you understand this one or do I need to
+
+1136
+02:16:08,320 --> 02:16:19,920
+repeat again okay I'll repeat it again so guys what is happening in real time
+
+1137
+02:16:19,920 --> 02:16:25,680
+is like script tax since this script tax mostly are used for you know getting
+
+1138
+02:16:25,680 --> 02:16:32,320
+the JS code the JS code can be in the size of KBs MBs sometimes MB sometime
+
+1139
+02:16:32,320 --> 02:16:39,320
+KBs okay now when your HTML like if you remember are we have HTML then we have
+
+1140
+02:16:39,320 --> 02:16:45,080
+head then we have body then we close HTML right this is what our body
+
+1141
+02:16:45,080 --> 02:16:50,880
+structure is but in head tag if we have this JS scripts right we have defined it
+
+1142
+02:16:50,880 --> 02:16:59,920
+and whenever we have like such amount of size KB and MB of size right now to
+
+1143
+02:16:59,920 --> 02:17:07,120
+download this data from network it takes time and we know that HTML will be
+
+1144
+02:17:07,120 --> 02:17:11,480
+passed only from top to down and when we you know when we find there's a script
+
+1145
+02:17:11,480 --> 02:17:16,440
+which is downloading JavaScript which are in size of KB and MB it will stop
+
+1146
+02:17:16,440 --> 02:17:21,640
+the execution below execution it will block the thread it will block the
+
+1147
+02:17:21,640 --> 02:17:26,600
+thread which is single threaded right so it will block the thread and it the
+
+1148
+02:17:26,600 --> 02:17:33,560
+particular thing will be downloaded will be passed and only then the below
+
+1149
+02:17:33,560 --> 02:17:38,360
+things will be passed this is how normally naturally works but async one
+
+1150
+02:17:38,360 --> 02:17:46,680
+what happened with async keyword is once we have HTML head body HTML again
+
+1151
+02:17:46,680 --> 02:17:57,520
+closing so once you find the script it says that hey you download parallely
+
+1152
+02:17:57,520 --> 02:18:06,000
+download in parallel till this download is happening I'll keep on executing
+
+1153
+02:18:06,000 --> 02:18:11,560
+HTML once this download is done this will be blocked this will be execute
+
+1154
+02:18:11,560 --> 02:18:20,520
+passed first right then again this will continue with async whereas what
+
+1155
+02:18:20,520 --> 02:18:28,080
+differ says is doesn't matter
+
+1156
+02:18:29,080 --> 02:18:55,320
+whatever it is you completely pass the HTML then I will pass JS code and
+
+1157
+02:18:55,360 --> 02:18:59,960
+downloading will happen in parallel
+
+1158
+02:19:06,680 --> 02:19:13,640
+so that's the reason why I'm saying that differ tag is like non blocking nature
+
+1159
+02:19:13,640 --> 02:19:19,320
+this both are blocking in nature because these are blocking HTML parsing is this
+
+1160
+02:19:19,320 --> 02:19:30,320
+clear guys now any doubts like when you see this async and differ keyword I hope
+
+1161
+02:19:30,320 --> 02:19:35,440
+can we see in the code how to use this yeah we can do this we can always do
+
+1162
+02:19:35,440 --> 02:19:42,720
+this but in order to do this right you need to have really big files that are
+
+1163
+02:19:42,720 --> 02:19:48,600
+being pulled from the network we don't have real time yeah we can see it in
+
+1164
+02:19:48,760 --> 02:19:56,080
+future uncate it's like I guess we're tired with the content but if you see in
+
+1165
+02:19:56,080 --> 02:19:59,480
+the many websites right you will be able to see the scripts with differ and
+
+1166
+02:19:59,480 --> 02:20:06,360
+async let's say you go for any other website like this one you'll see this
+
+1167
+02:20:06,360 --> 02:20:18,320
+thing being used everywhere you see this script tag is async JavaScript text file
+
+1168
+02:20:18,320 --> 02:20:23,520
+which is like doing that calling this go Google Analytics Google manager dot com
+
+1169
+02:20:23,520 --> 02:20:28,320
+all these things are done in async fashion okay all these four files
+
+1170
+02:20:28,320 --> 02:20:35,480
+whereas you'll also see our differ used okay you'll see this this thing like is
+
+1171
+02:20:35,480 --> 02:20:41,040
+actually fetching the image from the CD and link okay so whichever things that
+
+1172
+02:20:41,040 --> 02:20:48,080
+you think that okay I can I guys like is the if concepts are clear can I start
+
+1173
+02:20:48,080 --> 02:21:02,480
+the doubt session but I hope no no no it doesn't work that way wherever you
+
+1174
+02:21:02,480 --> 02:21:08,840
+define the script it works anywhere in the script like with a script tag with
+
+1175
+02:21:08,840 --> 02:21:13,240
+the script tag wherever you mention in the body below the body anywhere even if
+
+1176
+02:21:13,240 --> 02:21:16,440
+you mention wherever script is there but if you are using something like a
+
+1177
+02:21:16,440 --> 02:21:21,360
+particular HTML tag with async differ that's our nature I'm talking about
+
+1178
+02:21:21,360 --> 02:21:32,720
+nature of this two key attributes like async and differ is that clear okay
+
+1179
+02:21:32,720 --> 02:21:38,480
+great so you can go and see most of the websites right most of the websites what
+
+1180
+02:21:38,480 --> 02:21:44,040
+happens is like this particular like Google Analytics and Google manager this
+
+1181
+02:21:44,040 --> 02:21:50,200
+things right they are like downloaded in async manner all the your respective
+
+1182
+02:21:50,200 --> 02:21:54,320
+code whichever is there like if you see this is a free code camp website all
+
+1183
+02:21:54,320 --> 02:21:59,280
+this free code camp particular related websites are downloaded in a differ mode
+
+1184
+02:21:59,280 --> 02:22:04,760
+because this your respective codes are really what we can say that it might not
+
+1185
+02:22:04,760 --> 02:22:10,240
+be deployed on CDN links they deployed on CDN but it might be on your server so
+
+1186
+02:22:10,240 --> 02:22:14,640
+it takes time to load it or else even your assets will be bigger in size
+
+1187
+02:22:14,640 --> 02:22:19,840
+whereas come to analytics right this need to be loaded at runtime I mean why
+
+1188
+02:22:19,840 --> 02:22:24,720
+they do it at the initial moment of the time is because these are actually
+
+1189
+02:22:24,720 --> 02:22:32,000
+sending multiple events like if you see this is this is not the event but if you
+
+1190
+02:22:32,000 --> 02:22:36,680
+know actually analytics is used to track user events like how much user is
+
+1191
+02:22:36,680 --> 02:22:40,800
+spending on each thing and what not they try to track multiple experimentations
+
+1192
+02:22:40,800 --> 02:22:47,040
+okay for that reason they try to load it as early as possible but when it comes
+
+1193
+02:22:47,040 --> 02:22:56,720
+to the other big files you should prefer the differ keyword okay guys I hope you
+
+1194
+02:22:56,720 --> 02:23:03,200
+understand what is async differ and simple script give me one thumbs up if
+
+1195
+02:23:03,200 --> 02:23:06,560
+this is clear so that I can start doubt session I can clear take the doubts
+
+1196
+02:23:06,560 --> 02:23:13,920
+if you have anything okay good so with this guys I want to end the content for
+
+1197
+02:23:13,920 --> 02:23:19,840
+today's class when we'll meet next class in next class right we'll start with
+
+1198
+02:23:19,840 --> 02:23:23,280
+object-oriented programming we'll take two classes an object-oriented program
+
+1199
+02:23:23,280 --> 02:23:27,520
+will understand how that is being done so it will be more of a behind the
+
+1200
+02:23:27,520 --> 02:23:34,520
+scenes trying to learn JS so I'll try to make it as interesting as possible let
+
+1201
+02:23:34,520 --> 02:23:40,880
+me start doubt session is hope to see you in next class again do you want me
+
+1202
+02:23:40,880 --> 02:23:45,040
+to revise everything guys in doubt session yeah I'll try to make it
+
+1203
+02:23:45,040 --> 02:24:01,080
+interactive ways let's it's really difficult to ask we sunk it here it
+
+1204
+02:24:01,080 --> 02:24:09,120
+doesn't work like the DSA right mostly we'll try to add it as much as possible
+
+1205
+02:24:09,120 --> 02:24:17,760
+right but let's let's go back and revise the content for a second and then okay
+
+1206
+02:24:17,760 --> 02:24:23,160
+what's happening with debounce okay so firstly if we understood two things in
+
+1207
+02:24:23,160 --> 02:24:28,400
+today's class firstly set timeout set interval debouncing and trotting now
+
+1208
+02:24:28,400 --> 02:24:33,920
+timeout works if you want to do a task after some time like delaying it and
+
+1209
+02:24:33,920 --> 02:24:39,600
+execute a particular function a callback function whereas interval it executes a
+
+1210
+02:24:39,600 --> 02:24:47,400
+particular task at each interval okay no so debouncing and throttling you can map
+
+1211
+02:24:47,400 --> 02:24:54,960
+it debouncing to something called a set timeout and you can set throttling to
+
+1212
+02:24:54,960 --> 02:25:01,600
+set interval okay don't exactly think it that way but that's how behind the
+
+1213
+02:25:01,600 --> 02:25:06,520
+scene things works what in the once happens is when user is keep on typing
+
+1214
+02:25:06,520 --> 02:25:13,520
+events we say that we don't want to make all the API calls only once user stops
+
+1215
+02:25:13,520 --> 02:25:19,840
+it we take some delay and the deal is also like we want to wait what if user
+
+1216
+02:25:19,840 --> 02:25:25,640
+again start typing it okay so if he once user stops it we wait for delay and then
+
+1217
+02:25:25,640 --> 02:25:30,360
+we try to execute the function whereas when it comes to throttling we say that
+
+1218
+02:25:30,360 --> 02:25:34,080
+this event can be triggered in number of times like scroll he can do up and down
+
+1219
+02:25:34,080 --> 02:25:39,560
+or it can take the mouse and he can do on there itself like up and down let's
+
+1220
+02:25:39,560 --> 02:25:46,040
+say what do I exactly mean is that let's say if I go to this particular page let's
+
+1221
+02:25:46,040 --> 02:25:51,160
+say the scroll is he at this particular question there triggering API call if I
+
+1222
+02:25:51,160 --> 02:25:55,600
+keep on doing this way the API call will be keep on triggering right behind the
+
+1223
+02:25:55,600 --> 02:26:01,120
+scenes so in order to stop that thing happening we try to reduce the amount of
+
+1224
+02:26:01,120 --> 02:26:07,760
+calls let's say if you see it here what is happening this is if you see this
+
+1225
+02:26:07,760 --> 02:26:14,240
+events right the all the events have one after the other keep on going it let's
+
+1226
+02:26:14,240 --> 02:26:19,640
+say I call it up again so in order to reduce the if there will be many amount
+
+1227
+02:26:19,640 --> 02:26:24,840
+of API calls which are also cancelled okay this events like events are
+
+1228
+02:26:24,840 --> 02:26:29,320
+cancelled to get too many events so this events like why we are why they are
+
+1229
+02:26:29,320 --> 02:26:33,880
+doing it this one is that to throttle it user can you don't try to take
+
+1230
+02:26:33,880 --> 02:26:39,840
+advantage of our services and we'll try to you know do as many requests are as
+
+1231
+02:26:39,840 --> 02:26:44,880
+possible we don't understand exact behavior of human so in order to wait
+
+1232
+02:26:44,880 --> 02:26:49,520
+and do that one right so we try to rate limit the amount of calls we are doing
+
+1233
+02:26:49,520 --> 02:26:54,120
+so for that thing we use throttling what we say that it will make a call first
+
+1234
+02:26:54,120 --> 02:26:58,560
+then again if user is against crawling up and back I won't make a call but I
+
+1235
+02:26:58,560 --> 02:27:03,400
+will make only call after some amount of time so that I'll save the this amount
+
+1236
+02:27:03,400 --> 02:27:09,120
+of API calls being triggered okay so that is how throttling works so trying
+
+1237
+02:27:09,120 --> 02:27:14,640
+to go back to this again definition is that delay the function execution until
+
+1238
+02:27:14,640 --> 02:27:20,480
+activity okay when it comes to this one now when it comes to throttling limiting
+
+1239
+02:27:20,480 --> 02:27:26,640
+the execution rate okay then execute after a pause in events like once user
+
+1240
+02:27:26,640 --> 02:27:30,360
+stops typing and if this executes it's a steady rate all the time till that
+
+1241
+02:27:30,360 --> 02:27:34,040
+moment you are trying to play around and it doesn't mean that it will keep on
+
+1242
+02:27:34,040 --> 02:27:38,520
+executing that call only when events that particular event is triggered in
+
+1243
+02:27:38,520 --> 02:27:42,120
+number of times in those n number of times it will execute three to four
+
+1244
+02:27:42,120 --> 02:27:46,760
+times okay that set interval works only when you are that event is again again
+
+1245
+02:27:46,760 --> 02:27:50,160
+triggered on that same like submit button if you are smashing a submit
+
+1246
+02:27:50,160 --> 02:27:54,340
+button hundred times it will make only three to four API calls doesn't mean
+
+1247
+02:27:54,340 --> 02:27:58,280
+that once you click a submit button it irregular intervals it keep on making an
+
+1248
+02:27:58,280 --> 02:28:05,120
+API call okay now events reset like each time a event is triggered we try to
+
+1249
+02:28:05,120 --> 02:28:09,240
+remove the set time also be on each event reset happens here we don't do it
+
+1250
+02:28:09,240 --> 02:28:13,680
+actually because here we are doing a rate limiting so reduce the function
+
+1251
+02:28:13,680 --> 02:28:17,760
+calls doing that during rapid events here limit function calls to set
+
+1252
+02:28:17,760 --> 02:28:23,840
+interval like that particular interval okay typing and resizing events here when
+
+1253
+02:28:23,840 --> 02:28:28,520
+comes to scrolling a rate limited API's and within we discussed the same thing
+
+1254
+02:28:29,520 --> 02:28:39,440
+I hope this part is anyways clear so there's any doubts I know this might be
+
+1255
+02:28:39,440 --> 02:28:46,680
+overwhelming but I'll again are we going to use this in projects in future yeah
+
+1256
+02:28:46,680 --> 02:28:51,200
+I'll give you one a little question some bit which is really important to them
+
+1257
+02:28:51,200 --> 02:28:57,160
+okay let's say
+
+1258
+02:29:07,320 --> 02:29:13,360
+this question right type at component if you see how many people might have
+
+1259
+02:29:13,360 --> 02:29:18,440
+covered four or five people have covered in the YouTube no if and if you go this
+
+1260
+02:29:18,440 --> 02:29:23,800
+to this one right they might have built this one using Google example now you if
+
+1261
+02:29:23,800 --> 02:29:28,400
+you see this one they'll show you the architecture and complete like how do
+
+1262
+02:29:28,400 --> 02:29:35,000
+you are using it how do you are making a call so this is actually an important
+
+1263
+02:29:35,000 --> 02:29:41,040
+interview question to develop this widget I'll see if this is widget exist
+
+1264
+02:29:41,040 --> 02:29:46,480
+because you have to build this end-to-end let me see if I can build and
+
+1265
+02:29:46,480 --> 02:29:52,960
+give it to you okay but I don't want to do it because I just want to cover the
+
+1266
+02:29:52,960 --> 02:30:00,200
+content which is assigned it maybe other than that one I have to let's do one
+
+1267
+02:30:00,200 --> 02:30:06,520
+thing if someone can build you know LLD repo which ones I'll also contribute in
+
+1268
+02:30:06,520 --> 02:30:13,760
+that okay if you have questions I can also contribute in that but if you see
+
+1269
+02:30:13,760 --> 02:30:17,440
+there are too many let's say this is a Chirag's one this is he's a
+
+1270
+02:30:17,440 --> 02:30:25,000
+constructor it's scalar most senior front-end developer that I know L64
+
+1271
+02:30:25,000 --> 02:30:31,320
+at Microsoft but if you see he have this question this link I will try to give
+
+1272
+02:30:31,320 --> 02:30:43,480
+his link you can go through this one where he has explained this okay
+
+1273
+02:30:44,120 --> 02:30:52,160
+but I was actually searching for some content they are stopping me from even
+
+1274
+02:30:52,160 --> 02:30:55,720
+I'm longing and why didn't all over
+
+1275
+02:30:57,160 --> 02:31:10,560
+sign up okay cool now this is actually explained from behind the you know back
+
+1276
+02:31:10,560 --> 02:31:14,080
+and high level design where you are using a try logic and trying to
+
+1277
+02:31:14,080 --> 02:31:18,960
+understand how do you do searching actually once user query set but we are
+
+1278
+02:31:18,960 --> 02:31:23,320
+trying to you know reduce the amount of queries that are done firstly on the
+
+1279
+02:31:23,320 --> 02:31:34,800
+front-end right let's say type at react
+
+1280
+02:31:34,800 --> 02:31:52,280
+let's say we have front-end LLD
+
+1281
+02:31:52,280 --> 02:32:07,360
+autocomplete if you see this is the example they again this is leading to
+
+1282
+02:32:07,360 --> 02:32:14,080
+the same website but they are actually again doing it from the back end because
+
+1283
+02:32:14,080 --> 02:32:20,320
+they are talking about data model caching mechanism okay client okay
+
+1284
+02:32:20,320 --> 02:32:28,080
+they're given events all the humans that you listen to now if you see they are
+
+1285
+02:32:28,080 --> 02:32:32,960
+talking about debounce timing how much the bonds timing you need so this is the
+
+1286
+02:32:32,960 --> 02:32:38,960
+same they are using but we have to build this one completely from scratch in order
+
+1287
+02:32:38,960 --> 02:32:44,600
+to do that we have to explore this one so they used caches they replicated a
+
+1288
+02:32:44,600 --> 02:32:54,160
+API call and what will be the result so end-to-end complete like you know
+
+1289
+02:32:54,160 --> 02:33:19,440
+let's say I can say I say put strap components the accordion everything is
+
+1290
+02:33:20,000 --> 02:33:44,360
+auto search auto search react MUI now if you see I keep on typing let's say let's
+
+1291
+02:33:44,360 --> 02:33:48,600
+say if you have this list of items which are pre-rendered right now this list of
+
+1292
+02:33:48,600 --> 02:33:54,560
+item suggestions are are actually you have stored on the client side what if
+
+1293
+02:33:54,560 --> 02:33:59,040
+you want to get on from the server side that's when you actually have to reduce
+
+1294
+02:33:59,040 --> 02:34:05,760
+it but they haven't given here I'll search and I'll give it to you like how
+
+1295
+02:34:05,760 --> 02:34:10,240
+can you build this autocomplete completely but we should be building this
+
+1296
+02:34:10,240 --> 02:34:14,920
+one this is one of the most in the interview important question interview
+
+1297
+02:34:15,520 --> 02:34:22,520
+some bit try to focus like how can you leverage debouncing and I'll check on
+
+1298
+02:34:22,520 --> 02:34:28,840
+which site is better content like which is providing us better content like let
+
+1299
+02:34:28,840 --> 02:34:39,600
+me say bit.dev because everywhere that same logic will be that this is a
+
+1300
+02:34:39,600 --> 02:34:45,560
+generic function that is applied for debounce okay debounce is also you get
+
+1301
+02:34:45,560 --> 02:34:49,040
+sometimes but it's not a built-in function but you write one function
+
+1302
+02:34:49,040 --> 02:35:07,840
+generically and you use this everywhere I think this is the thing they have
+
+1303
+02:35:07,880 --> 02:35:21,000
+anyways I'll check on I'll get you I should be a better side right to
+
+1304
+02:35:21,000 --> 02:35:27,040
+understand it anyways I'll repeat for my side the time should you want they have
+
+1305
+02:35:27,040 --> 02:35:35,200
+also given a good you know a reference for this one but if you want if you want
+
+1306
+02:35:35,240 --> 02:35:39,000
+to understand this this keyword right we'll pick it up in next class because
+
+1307
+02:35:39,000 --> 02:35:45,960
+without this understanding this you won't be able to understand okay they
+
+1308
+02:35:48,680 --> 02:35:56,120
+this with this definition will confuse you don't go by this educative site
+
+1309
+02:35:56,720 --> 02:36:12,560
+guys if there are no doubts can we in the session some bit this is it I
+
+1310
+02:36:12,560 --> 02:36:18,000
+believe like you know this is it this is the thing they have you know common
+
+1311
+02:36:18,000 --> 02:36:22,600
+there's a callback function and a delay function the same logic that we have
+
+1312
+02:36:22,600 --> 02:36:28,320
+written I've seen it more than five six sites this is how they are handling but
+
+1313
+02:36:28,320 --> 02:36:33,000
+I'll talk about this how you know spreading you know spread operator and
+
+1314
+02:36:33,000 --> 02:36:38,360
+ask what what they actually meant it now this is actually being done only when
+
+1315
+02:36:38,360 --> 02:36:42,760
+you want to process events right when you want to process the events there we
+
+1316
+02:36:42,760 --> 02:36:45,680
+were getting that we didn't get the events right we can even get those
+
+1317
+02:36:45,680 --> 02:36:56,040
+events the way you can do that one is let's say you have events okay and let's
+
+1318
+02:36:56,040 --> 02:37:11,800
+say you call this okay inside this let's say you also pass on the event here you
+
+1319
+02:37:11,800 --> 02:37:17,800
+will be able to access at runtime all the events will be here and you can pass
+
+1320
+02:37:17,800 --> 02:37:26,720
+it on to the down the chain but wherever you want to use it and this will work
+
+1321
+02:37:26,720 --> 02:37:31,920
+like a function I mean callback function attachment then you can return directly
+
+1322
+02:37:31,920 --> 02:37:38,640
+instead of calling it as a function that that use case also you can handle it
+
+1323
+02:37:39,080 --> 02:37:50,480
+okay let me push the code meanwhile do you guys find it heavy content today it
+
+1324
+02:37:50,480 --> 02:37:58,960
+was it was it heavy to understand but you know do revise this concept try to
+
+1325
+02:37:58,960 --> 02:38:03,680
+read it try to I'll make a notes for this one so that I attach a image or you
+
+1326
+02:38:03,680 --> 02:38:22,840
+can refer to it completely new concept I agree this is first time even when I
+
+1327
+02:38:22,840 --> 02:38:30,960
+studied I was like what is this but it takes time to digest it okay but these
+
+1328
+02:38:30,960 --> 02:38:36,840
+are like one of the core you know principles when you want to optimize
+
+1329
+02:38:36,840 --> 02:38:42,400
+a network calls or optimize the page load time so these are something that
+
+1330
+02:38:42,400 --> 02:38:47,000
+you're going to do enhancements on your websites which you build because you
+
+1331
+02:38:47,000 --> 02:38:51,680
+want to delay all the assets loading right how you want to you don't want to
+
+1332
+02:38:51,680 --> 02:38:55,560
+do it everything at one shot you have to break down your problem and do it at
+
+1333
+02:38:55,560 --> 02:38:59,640
+different so then this concepts will come in and you want how you will be
+
+1334
+02:38:59,640 --> 02:39:05,400
+able to handle it okay so guys I don't see any doubts with that I would like to
+
+1335
+02:39:05,400 --> 02:39:09,760
+end the today's session and we'll meet you back on Tuesday where we'll get to
+
+1336
+02:39:09,760 --> 02:39:15,960
+learn more interesting things like we'll see like what ES6 team has done
+
+1337
+02:39:15,960 --> 02:39:22,920
+converting a functional language into object-oriented language we'll see like
+
+1338
+02:39:22,920 --> 02:39:28,120
+does it actually JavaScript support from the object-oriented programming or is it
+
+1339
+02:39:28,120 --> 02:39:32,200
+something they tried to fake it out we'll come back and we'll explore that
+
+1340
+02:39:32,200 --> 02:39:43,880
+one okay guys so the rest with that hope you have a good night take care happy
+
+1341
+02:39:43,880 --> 02:39:48,360
+weekend see you on Tuesday bye bye
+
+1342
+02:39:49,360 --> 02:40:01,440
+this can be in the session give me one final thumbs up cool so the rest is
+
+1343
+02:40:01,440 --> 02:40:07,760
+right thanks some bits
+
+1344
+02:40:18,360 --> 02:40:21,400
+you
+
+1345
+02:40:48,360 --> 02:40:51,400
+you
+

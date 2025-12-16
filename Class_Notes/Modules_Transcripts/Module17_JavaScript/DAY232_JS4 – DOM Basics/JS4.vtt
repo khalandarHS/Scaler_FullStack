@@ -1,0 +1,6629 @@
+WEBVTT
+
+00:00.000 --> 00:02.060
+you
+
+00:30.000 --> 00:32.060
+you
+
+01:00.000 --> 01:03.060
+you
+
+01:30.000 --> 01:33.060
+you
+
+02:00.000 --> 02:03.060
+you
+
+02:30.000 --> 02:33.060
+you
+
+03:00.000 --> 03:03.060
+you
+
+03:30.000 --> 03:33.060
+you
+
+04:00.000 --> 04:03.060
+you
+
+04:30.000 --> 04:33.060
+you
+
+05:00.000 --> 05:02.000
+you
+
+05:06.000 --> 05:08.000
+am I audible?
+
+05:18.000 --> 05:20.000
+am I audible?
+
+05:20.000 --> 05:22.000
+yes, great, great, great
+
+05:22.000 --> 05:24.000
+so let's begin
+
+05:24.000 --> 05:27.000
+just quick show of hands in case my screen is visible
+
+05:30.000 --> 05:31.000
+cool
+
+05:31.000 --> 05:33.000
+cool then, let's begin
+
+05:33.000 --> 05:35.000
+it is 9.05 I guess
+
+05:35.000 --> 05:37.000
+we are all good, let's begin
+
+05:37.000 --> 05:39.000
+so, hi I am Shashwath
+
+05:39.000 --> 05:41.000
+I will be filling in for Uttam for
+
+05:41.000 --> 05:43.000
+I think three classes
+
+05:43.000 --> 05:45.000
+so in these three classes we will be talking
+
+05:45.000 --> 05:47.000
+a lot about a lot of things
+
+05:47.000 --> 05:49.000
+but we will also be talking about
+
+05:49.000 --> 05:51.000
+some of the things that we will be talking about
+
+05:51.000 --> 05:53.000
+so let's begin
+
+05:53.000 --> 05:55.000
+so let's begin
+
+05:55.000 --> 05:57.000
+so hi I am Shashwath
+
+05:57.000 --> 05:59.000
+I will be filling in for Uttam for
+
+05:59.000 --> 06:01.000
+but we will be getting started with
+
+06:01.000 --> 06:03.000
+one of the most important things
+
+06:03.000 --> 06:05.000
+especially when you think about front end development
+
+06:05.000 --> 06:07.000
+so let me
+
+06:07.000 --> 06:09.000
+so first of all
+
+06:09.000 --> 06:11.000
+let us talk about the agenda for today
+
+06:11.000 --> 06:13.000
+as you could see we have a couple of things on our board today
+
+06:13.000 --> 06:17.000
+firstly I want to cover up what is in DOM
+
+06:17.000 --> 06:19.000
+basically give you an idea what DOM is
+
+06:19.000 --> 06:21.000
+then we will be talking about
+
+06:21.000 --> 06:23.000
+how can we retrieve an element
+
+06:23.000 --> 06:25.000
+because DOM is more like a tree structure
+
+06:25.000 --> 06:27.000
+so how do we retrieve a particular element
+
+06:27.000 --> 06:29.000
+out of that tree
+
+06:29.000 --> 06:31.000
+and then we have to perform some operations on it
+
+06:31.000 --> 06:33.000
+that would bring us to the third point
+
+06:33.000 --> 06:35.000
+which is event and event listener
+
+06:35.000 --> 06:37.000
+and certain functions
+
+06:37.000 --> 06:39.000
+like createElement, appendChild, innerHTML, innerText
+
+06:39.000 --> 06:41.000
+so I will be setting context
+
+06:41.000 --> 06:43.000
+for all of these things
+
+06:43.000 --> 06:45.000
+and we will try to cover all of these things
+
+06:45.000 --> 06:47.000
+in today's class
+
+06:47.000 --> 06:49.000
+cool
+
+06:49.000 --> 06:51.000
+just a quick
+
+06:51.000 --> 06:53.000
+reminder in case
+
+06:53.000 --> 06:55.000
+you are not able to follow
+
+06:55.000 --> 06:57.000
+feel free to raise your hand
+
+06:57.000 --> 06:59.000
+feel free to comment
+
+06:59.000 --> 07:01.000
+in the chat
+
+07:01.000 --> 07:03.000
+I will be going over it
+
+07:03.000 --> 07:05.000
+once again
+
+07:05.000 --> 07:07.000
+all good
+
+07:07.000 --> 07:09.000
+shall we begin
+
+07:09.000 --> 07:11.000
+yes
+
+07:11.000 --> 07:13.000
+yes yes yes
+
+07:13.000 --> 07:15.000
+let us
+
+07:15.000 --> 07:17.000
+begin
+
+07:19.000 --> 07:21.000
+so I have
+
+07:21.000 --> 07:23.000
+cloned the repository
+
+07:23.000 --> 07:25.000
+that you guys were already working on
+
+07:27.000 --> 07:29.000
+and I will be continuing
+
+07:29.000 --> 07:31.000
+from that repo itself
+
+07:31.000 --> 07:33.000
+cool
+
+07:33.000 --> 07:35.000
+just give me a second
+
+07:39.000 --> 07:41.000
+so let us get started
+
+07:41.000 --> 07:43.000
+what is DOM
+
+07:43.000 --> 07:45.000
+it is a very simple question
+
+07:45.000 --> 07:47.000
+so let me write a bookish definition
+
+07:47.000 --> 07:49.000
+for it first and then
+
+07:49.000 --> 07:51.000
+we will understand it in detail
+
+07:51.000 --> 07:53.000
+right
+
+07:53.000 --> 07:55.000
+DOM basically stands for
+
+07:57.000 --> 07:59.000
+document
+
+07:59.000 --> 08:01.000
+object
+
+08:01.000 --> 08:03.000
+model
+
+08:03.000 --> 08:05.000
+that's it
+
+08:05.000 --> 08:07.000
+that is what DOM is
+
+08:07.000 --> 08:09.000
+now let me say
+
+08:09.000 --> 08:11.000
+let me create
+
+08:11.000 --> 08:13.000
+an index file here
+
+08:13.000 --> 08:15.000
+I will fill in a couple of things
+
+08:15.000 --> 08:17.000
+and here I will say
+
+08:17.000 --> 08:19.000
+let me create a div here very simple
+
+08:19.000 --> 08:21.000
+let me say
+
+08:21.000 --> 08:23.000
+hello
+
+08:23.000 --> 08:25.000
+scalar
+
+08:25.000 --> 08:27.000
+and let me save this
+
+08:27.000 --> 08:29.000
+and now I will
+
+08:29.000 --> 08:31.000
+cool
+
+08:51.000 --> 08:53.000
+so
+
+08:53.000 --> 08:55.000
+I simply had written
+
+08:55.000 --> 08:57.000
+I have simply
+
+08:57.000 --> 08:59.000
+written here a very simple
+
+08:59.000 --> 09:01.000
+HTML page which we will be
+
+09:01.000 --> 09:03.000
+going through in detail
+
+09:03.000 --> 09:05.000
+I have simply created here a single div element
+
+09:05.000 --> 09:07.000
+and nothing else
+
+09:07.000 --> 09:09.000
+you could go to the elements tab here
+
+09:09.000 --> 09:11.000
+and here you could see everything
+
+09:11.000 --> 09:13.000
+present here so this
+
+09:13.000 --> 09:15.000
+matches exactly what I have written here
+
+09:15.000 --> 09:17.000
+yes
+
+09:17.000 --> 09:19.000
+can you increase the font in HTML
+
+09:19.000 --> 09:21.000
+sure I can
+
+09:21.000 --> 09:23.000
+cool
+
+09:23.000 --> 09:25.000
+it should be
+
+09:25.000 --> 09:27.000
+enough
+
+09:27.000 --> 09:29.000
+so here
+
+09:29.000 --> 09:31.000
+I have written hello
+
+09:31.000 --> 09:33.000
+scalar here that is what it is reflecting here
+
+09:33.000 --> 09:35.000
+so everything that you see here
+
+09:35.000 --> 09:37.000
+is your DOM
+
+09:37.000 --> 09:39.000
+and all of this is present on
+
+09:39.000 --> 09:41.000
+your document
+
+09:41.000 --> 09:43.000
+so let me say
+
+09:43.000 --> 09:45.000
+document as you could see
+
+09:45.000 --> 09:47.000
+the entire thing got selected
+
+09:47.000 --> 09:49.000
+because inside of this document
+
+09:49.000 --> 09:51.000
+I have the whole thing present
+
+09:51.000 --> 09:53.000
+so this is why it is called
+
+09:53.000 --> 09:55.000
+document object model
+
+09:55.000 --> 09:57.000
+before I get into
+
+09:57.000 --> 09:59.000
+detail what exactly DOM
+
+09:59.000 --> 10:01.000
+is now so let me
+
+10:01.000 --> 10:03.000
+write the definition for it
+
+10:03.000 --> 10:05.000
+first and say
+
+10:09.000 --> 10:11.000
+document
+
+10:17.000 --> 10:19.000
+DOM is
+
+10:23.000 --> 10:25.000
+DOM is a tree structure
+
+10:25.000 --> 10:27.000
+in
+
+10:29.000 --> 10:31.000
+which
+
+10:33.000 --> 10:35.000
+every
+
+10:35.000 --> 10:37.000
+HTML
+
+10:39.000 --> 10:41.000
+element is
+
+10:43.000 --> 10:45.000
+arranged in
+
+10:45.000 --> 10:47.000
+a
+
+10:47.000 --> 10:49.000
+hierarchical
+
+10:49.000 --> 10:51.000
+order
+
+10:51.000 --> 10:53.000
+so we have a couple of
+
+10:53.000 --> 10:55.000
+keywords here
+
+10:55.000 --> 10:57.000
+first is the tree structure
+
+10:57.000 --> 10:59.000
+and second is arranged in
+
+10:59.000 --> 11:01.000
+a hierarchical order
+
+11:01.000 --> 11:03.000
+so we will be looking into
+
+11:03.000 --> 11:05.000
+these two things why
+
+11:05.000 --> 11:07.000
+did I say DOM is in a
+
+11:07.000 --> 11:09.000
+tree structure and second why
+
+11:09.000 --> 11:11.000
+one would
+
+11:11.000 --> 11:13.000
+say the elements are arranged in a
+
+11:13.000 --> 11:15.000
+hierarchical order
+
+11:15.000 --> 11:17.000
+cool
+
+11:17.000 --> 11:19.000
+so let's go to DOM
+
+11:19.000 --> 11:21.000
+so here let me write
+
+11:21.000 --> 11:23.000
+a very very simple
+
+11:23.000 --> 11:25.000
+HTML document for you
+
+11:27.000 --> 11:29.000
+here we could probably
+
+11:29.000 --> 11:31.000
+have a div inside of this div
+
+11:31.000 --> 11:33.000
+I could have let's say
+
+11:33.000 --> 11:35.000
+two divs
+
+11:35.000 --> 11:37.000
+in this particular div I could go on
+
+11:37.000 --> 11:39.000
+to have an H2 tag I am sure
+
+11:39.000 --> 11:41.000
+you are all aware of what H2 is
+
+11:41.000 --> 11:43.000
+this is a H2 tag
+
+11:43.000 --> 11:45.000
+and inside of this
+
+11:45.000 --> 11:47.000
+div what I could have is
+
+11:47.000 --> 11:49.000
+let's say H1
+
+11:49.000 --> 11:51.000
+this is
+
+11:51.000 --> 11:53.000
+a H1 tag
+
+11:53.000 --> 11:55.000
+and I could
+
+11:55.000 --> 11:57.000
+potentially have
+
+11:57.000 --> 11:59.000
+a P tag as well
+
+11:59.000 --> 12:01.000
+so now that
+
+12:01.000 --> 12:03.000
+you look at this particular structure or
+
+12:03.000 --> 12:05.000
+the whole thing as a whole
+
+12:05.000 --> 12:07.000
+how do you visualize
+
+12:07.000 --> 12:09.000
+it this is the way that
+
+12:09.000 --> 12:11.000
+we are seeing it but there is a better way to visualize
+
+12:11.000 --> 12:13.000
+it so let us look at that better
+
+12:13.000 --> 12:15.000
+way of how we
+
+12:15.000 --> 12:17.000
+can visualize it
+
+12:19.000 --> 12:21.000
+so here
+
+12:21.000 --> 12:23.000
+what we have is a document
+
+12:23.000 --> 12:25.000
+sitting at the very top
+
+12:31.000 --> 12:33.000
+as I mentioned at the very start and we saw
+
+12:33.000 --> 12:35.000
+in the browser as well that
+
+12:35.000 --> 12:37.000
+your whatever web page that you are seeing
+
+12:37.000 --> 12:39.000
+all of it is inside
+
+12:39.000 --> 12:41.000
+a document right so document
+
+12:41.000 --> 12:43.000
+sits at the very top and
+
+12:43.000 --> 12:45.000
+what is the first element that you all see here
+
+12:45.000 --> 12:47.000
+what is the
+
+12:47.000 --> 12:49.000
+first element that is visible
+
+12:51.000 --> 12:53.000
+what is the first element which is visible at the
+
+12:53.000 --> 12:55.000
+very top in here
+
+12:55.000 --> 12:57.000
+other than doctype, doctype
+
+12:57.000 --> 12:59.000
+simply tells you about what type
+
+12:59.000 --> 13:01.000
+what type of a document it is
+
+13:01.000 --> 13:03.000
+in our case it is HTML so
+
+13:03.000 --> 13:05.000
+which is why it is written like this and if you see
+
+13:05.000 --> 13:07.000
+there is no ending of doctype
+
+13:07.000 --> 13:09.000
+it is just something that you are sort of like
+
+13:09.000 --> 13:11.000
+announcing
+
+13:11.000 --> 13:13.000
+correct, correct
+
+13:15.000 --> 13:17.000
+so the top most element here is
+
+13:17.000 --> 13:19.000
+HTML so let us put it
+
+13:21.000 --> 13:23.000
+so let us put it like this so top most element
+
+13:23.000 --> 13:25.000
+is HTML as you all pointed out which is
+
+13:25.000 --> 13:27.000
+correct
+
+13:27.000 --> 13:29.000
+so here I could say
+
+13:29.000 --> 13:31.000
+I have
+
+13:31.000 --> 13:33.000
+HTML correct
+
+13:33.000 --> 13:35.000
+now what else
+
+13:35.000 --> 13:37.000
+what is the next element that you
+
+13:37.000 --> 13:39.000
+would see you would find here
+
+13:39.000 --> 13:41.000
+inside of HTML what is there
+
+13:43.000 --> 13:45.000
+correct yes
+
+13:45.000 --> 13:47.000
+there is head
+
+13:47.000 --> 13:49.000
+anything else other than head
+
+13:51.000 --> 13:53.000
+correct
+
+13:53.000 --> 13:55.000
+so head and body
+
+13:55.000 --> 13:57.000
+it is not like they are on a different
+
+13:57.000 --> 13:59.000
+level instead they are sort of like a sibling
+
+13:59.000 --> 14:01.000
+so the parent element in
+
+14:01.000 --> 14:03.000
+this particular case is HTML
+
+14:03.000 --> 14:05.000
+that and inside of this we have
+
+14:05.000 --> 14:07.000
+two elements one is head one
+
+14:07.000 --> 14:09.000
+is body so let us make it like that
+
+14:09.000 --> 14:11.000
+in
+
+14:11.000 --> 14:13.000
+here we have head
+
+14:13.000 --> 14:15.000
+and here we have
+
+14:15.000 --> 14:17.000
+body
+
+14:17.000 --> 14:19.000
+now if
+
+14:19.000 --> 14:21.000
+I were to expand head likewise
+
+14:21.000 --> 14:23.000
+now I am
+
+14:23.000 --> 14:25.000
+say there is a meta
+
+14:27.000 --> 14:29.000
+meta and there is a
+
+14:31.000 --> 14:33.000
+title
+
+14:33.000 --> 14:35.000
+likewise in body I have
+
+14:35.000 --> 14:37.000
+a div
+
+14:39.000 --> 14:41.000
+there is
+
+14:41.000 --> 14:43.000
+inside of this div
+
+14:43.000 --> 14:45.000
+I would be having two divs
+
+14:45.000 --> 14:47.000
+which is two div siblings
+
+14:49.000 --> 14:51.000
+and inside of one div
+
+14:51.000 --> 14:53.000
+I have
+
+14:53.000 --> 14:55.000
+H2 and inside of
+
+14:55.000 --> 14:57.000
+another I have H1
+
+14:57.000 --> 14:59.000
+and B
+
+14:59.000 --> 15:01.000
+now one look at this
+
+15:01.000 --> 15:03.000
+diagram and one look at this
+
+15:03.000 --> 15:05.000
+does it like
+
+15:05.000 --> 15:07.000
+does it look like a good visual
+
+15:07.000 --> 15:09.000
+representation of your DOM
+
+15:09.000 --> 15:11.000
+or of your HTML
+
+15:11.000 --> 15:13.000
+yes or no
+
+15:13.000 --> 15:15.000
+yes
+
+15:15.000 --> 15:17.000
+and what data structure does this remind
+
+15:17.000 --> 15:19.000
+you of
+
+15:19.000 --> 15:21.000
+what does it look like to you
+
+15:21.000 --> 15:23.000
+if you were to look at it upside down
+
+15:23.000 --> 15:25.000
+won't it look like that
+
+15:25.000 --> 15:27.000
+this particular part
+
+15:27.000 --> 15:29.000
+so won't it look like
+
+15:29.000 --> 15:31.000
+so won't it look like
+
+15:31.000 --> 15:33.000
+this particular part is sort of like
+
+15:33.000 --> 15:35.000
+the trunk and here
+
+15:35.000 --> 15:37.000
+goes all of the branches
+
+15:37.000 --> 15:39.000
+which are further spreading out
+
+15:39.000 --> 15:41.000
+at each direction
+
+15:41.000 --> 15:43.000
+yes
+
+15:43.000 --> 15:45.000
+so would it be fair to say
+
+15:45.000 --> 15:47.000
+DOM
+
+15:53.000 --> 15:55.000
+so would it be fair to say
+
+15:55.000 --> 15:57.000
+DOM is a tree structure
+
+15:57.000 --> 15:59.000
+one look at it and would it be
+
+15:59.000 --> 16:01.000
+right to say DOM is more or less
+
+16:01.000 --> 16:03.000
+like a tree structure
+
+16:03.000 --> 16:05.000
+yes
+
+16:05.000 --> 16:07.000
+correct right
+
+16:07.000 --> 16:09.000
+so because DOM is more or less like a tree structure
+
+16:09.000 --> 16:11.000
+and if you look at it
+
+16:11.000 --> 16:13.000
+one parent
+
+16:13.000 --> 16:15.000
+can have as many
+
+16:15.000 --> 16:17.000
+children as they want like in this particular
+
+16:17.000 --> 16:19.000
+case HTML tile has two
+
+16:19.000 --> 16:21.000
+children one is head
+
+16:21.000 --> 16:23.000
+one is body in this particular case
+
+16:23.000 --> 16:25.000
+head has three children
+
+16:25.000 --> 16:27.000
+three children meta
+
+16:27.000 --> 16:29.000
+meta title in this particular case
+
+16:29.000 --> 16:31.000
+body has one further goes to have
+
+16:31.000 --> 16:33.000
+two and then two and one
+
+16:33.000 --> 16:35.000
+respectively right
+
+16:35.000 --> 16:37.000
+which means a particular parent can have
+
+16:37.000 --> 16:39.000
+multiple children but
+
+16:39.000 --> 16:41.000
+no matter what element you pick
+
+16:41.000 --> 16:43.000
+they will always
+
+16:43.000 --> 16:45.000
+have only one parent
+
+16:45.000 --> 16:47.000
+right so they form sort of
+
+16:47.000 --> 16:49.000
+like a hierarchy yes or no
+
+16:49.000 --> 16:51.000
+yes
+
+16:51.000 --> 16:53.000
+yes
+
+16:53.000 --> 16:55.000
+yes
+
+16:55.000 --> 16:57.000
+yes
+
+16:57.000 --> 16:59.000
+yes I hope everyone is able
+
+16:59.000 --> 17:01.000
+to follow so
+
+17:01.000 --> 17:03.000
+now if you
+
+17:03.000 --> 17:05.000
+look at it now
+
+17:05.000 --> 17:07.000
+so DOM is a tree structure
+
+17:07.000 --> 17:09.000
+in which every HTML element
+
+17:09.000 --> 17:11.000
+is arranged in a hierarchical
+
+17:11.000 --> 17:13.000
+order it makes sense now
+
+17:13.000 --> 17:15.000
+right DOM is more or less
+
+17:15.000 --> 17:17.000
+like a tree structure which
+
+17:17.000 --> 17:19.000
+also maintains a hierarchical order
+
+17:19.000 --> 17:21.000
+now since you are talking about
+
+17:21.000 --> 17:23.000
+trees won't there be a root there
+
+17:23.000 --> 17:25.000
+has to be a root element and
+
+17:25.000 --> 17:27.000
+root element is sort of like the
+
+17:27.000 --> 17:29.000
+top most element right
+
+17:29.000 --> 17:31.000
+top most element of the tree and
+
+17:31.000 --> 17:33.000
+the special thing
+
+17:33.000 --> 17:35.000
+about root is that it does not have
+
+17:35.000 --> 17:37.000
+a parent right
+
+17:37.000 --> 17:39.000
+so in our case that
+
+17:39.000 --> 17:41.000
+root element is
+
+17:41.000 --> 17:43.000
+can you guess which one is a root
+
+17:43.000 --> 17:45.000
+element do not include body
+
+17:45.000 --> 17:47.000
+sorry document
+
+17:47.000 --> 17:49.000
+so everything document has
+
+17:49.000 --> 17:51.000
+a lot of things it encapsulates
+
+17:51.000 --> 17:53.000
+the entire tree
+
+17:53.000 --> 17:55.000
+so other than document what do you think
+
+17:55.000 --> 17:57.000
+is a root element correct
+
+17:57.000 --> 17:59.000
+so in our case
+
+17:59.000 --> 18:01.000
+the root element is
+
+18:03.000 --> 18:05.000
+HTML right
+
+18:05.000 --> 18:07.000
+and
+
+18:07.000 --> 18:09.000
+in simple terms
+
+18:09.000 --> 18:11.000
+this is what document
+
+18:11.000 --> 18:13.000
+object model is
+
+18:13.000 --> 18:15.000
+now think of it like this no matter
+
+18:15.000 --> 18:17.000
+what class you were to apply
+
+18:17.000 --> 18:19.000
+no matter what HTML you were to write
+
+18:19.000 --> 18:21.000
+all of it
+
+18:21.000 --> 18:23.000
+will be eventually converted into
+
+18:23.000 --> 18:25.000
+DOM and all of it
+
+18:25.000 --> 18:27.000
+would eventually be reflected
+
+18:27.000 --> 18:29.000
+in here right
+
+18:31.000 --> 18:33.000
+and all of it would be eventually reflected
+
+18:33.000 --> 18:35.000
+in here now there I think
+
+18:35.000 --> 18:37.000
+you would be better able to see
+
+18:37.000 --> 18:39.000
+HTML is at the top it has two children head
+
+18:39.000 --> 18:41.000
+and body if you were to go down body
+
+18:41.000 --> 18:43.000
+there is a div element further go
+
+18:43.000 --> 18:45.000
+down there are two divs further
+
+18:45.000 --> 18:47.000
+go down there is a H2 tag here in this day
+
+18:47.000 --> 18:49.000
+there are two elements here so it is
+
+18:49.000 --> 18:51.000
+sort of forming a tree
+
+18:51.000 --> 18:53.000
+right and that is what
+
+18:53.000 --> 18:55.000
+it is all about
+
+18:55.000 --> 18:57.000
+and the
+
+18:57.000 --> 18:59.000
+main part is
+
+18:59.000 --> 19:01.000
+TV
+
+19:05.000 --> 19:07.000
+we will be
+
+19:09.000 --> 19:11.000
+using
+
+19:11.000 --> 19:13.000
+JS
+
+19:13.000 --> 19:15.000
+to put
+
+19:17.000 --> 19:19.000
+interactivity
+
+19:21.000 --> 19:23.000
+to
+
+19:23.000 --> 19:25.000
+our
+
+19:27.000 --> 19:29.000
+web apps
+
+19:29.000 --> 19:31.000
+slash
+
+19:31.000 --> 19:33.000
+websites
+
+19:33.000 --> 19:35.000
+what does it exactly mean
+
+19:35.000 --> 19:37.000
+when I say that I want to put
+
+19:37.000 --> 19:39.000
+interactivity
+
+19:39.000 --> 19:41.000
+what would be interactive
+
+19:41.000 --> 19:43.000
+suppose if I were to hover over it or suppose
+
+19:43.000 --> 19:45.000
+if I were to click on a button something happens
+
+19:45.000 --> 19:47.000
+when I say something happens what do
+
+19:47.000 --> 19:49.000
+I mean by that something changes suppose if
+
+19:49.000 --> 19:51.000
+I were to click on this particular
+
+19:51.000 --> 19:53.000
+suppose there was a button here for
+
+19:53.000 --> 19:55.000
+example
+
+19:57.000 --> 19:59.000
+click me
+
+19:59.000 --> 20:01.000
+okay now
+
+20:01.000 --> 20:03.000
+what would you say interactivity
+
+20:03.000 --> 20:05.000
+is suppose if I were to click on this button
+
+20:05.000 --> 20:07.000
+somehow this
+
+20:07.000 --> 20:09.000
+thing were to change the
+
+20:09.000 --> 20:11.000
+whatever is written here in this H1 tag
+
+20:11.000 --> 20:13.000
+gets to change and let's say
+
+20:13.000 --> 20:15.000
+it gets changed to
+
+20:15.000 --> 20:17.000
+I am
+
+20:21.000 --> 20:23.000
+the biggest
+
+20:23.000 --> 20:25.000
+tag
+
+20:25.000 --> 20:27.000
+out
+
+20:27.000 --> 20:29.000
+here
+
+20:31.000 --> 20:33.000
+would this qualify as
+
+20:33.000 --> 20:35.000
+interactive website yes or no
+
+20:35.000 --> 20:37.000
+if I were to click on this button click
+
+20:37.000 --> 20:39.000
+me and it changed the
+
+20:39.000 --> 20:41.000
+element the
+
+20:41.000 --> 20:43.000
+whatever this particular H1 tag was written
+
+20:43.000 --> 20:45.000
+to this would you say that this is interactive
+
+20:47.000 --> 20:49.000
+yes because this
+
+20:49.000 --> 20:51.000
+is interactive so what all things
+
+20:51.000 --> 20:53.000
+if you were to break it down
+
+20:53.000 --> 20:55.000
+all we did was
+
+20:55.000 --> 20:57.000
+we changed the DOM
+
+20:57.000 --> 20:59.000
+we went to the DOM and I simply
+
+20:59.000 --> 21:01.000
+edited the thing
+
+21:03.000 --> 21:05.000
+I edited the thing
+
+21:05.000 --> 21:07.000
+here right so which
+
+21:07.000 --> 21:09.000
+means it doesn't mean the interactivity
+
+21:09.000 --> 21:11.000
+is nothing else but
+
+21:11.000 --> 21:13.000
+changing DOM
+
+21:13.000 --> 21:15.000
+elements or like accessing DOM
+
+21:15.000 --> 21:17.000
+and you should be able to change certain
+
+21:17.000 --> 21:19.000
+parts of it and that would qualify as
+
+21:19.000 --> 21:21.000
+interactive yes or no
+
+21:21.000 --> 21:23.000
+so far are we on the
+
+21:23.000 --> 21:25.000
+right track does that
+
+21:25.000 --> 21:27.000
+make sense
+
+21:27.000 --> 21:29.000
+yes
+
+21:29.000 --> 21:31.000
+great
+
+21:31.000 --> 21:33.000
+cool
+
+21:33.000 --> 21:35.000
+so
+
+21:35.000 --> 21:37.000
+what I have in mind now
+
+21:37.000 --> 21:39.000
+is I have prepared
+
+21:39.000 --> 21:41.000
+a couple of questions here question
+
+21:41.000 --> 21:43.000
+one two seven so we will try to
+
+21:43.000 --> 21:45.000
+solve these questions in
+
+21:45.000 --> 21:47.000
+today's class so obviously since we are
+
+21:47.000 --> 21:49.000
+solving questions I will be needing help from your side
+
+21:49.000 --> 21:51.000
+and while we are
+
+21:51.000 --> 21:53.000
+at it in case you
+
+21:53.000 --> 21:55.000
+I will be needing your suggestions and all
+
+21:55.000 --> 21:57.000
+and we will try to solve as many
+
+21:57.000 --> 21:59.000
+as possible
+
+21:59.000 --> 22:01.000
+in today's class and
+
+22:01.000 --> 22:03.000
+I will also give you a couple
+
+22:03.000 --> 22:05.000
+as a homework
+
+22:05.000 --> 22:07.000
+after the class cool
+
+22:07.000 --> 22:09.000
+so does that sound good so
+
+22:09.000 --> 22:11.000
+we will be learning things and then
+
+22:11.000 --> 22:13.000
+we will be solving
+
+22:13.000 --> 22:15.000
+questions and while we are solving them
+
+22:15.000 --> 22:17.000
+we will also be learning the concepts
+
+22:17.000 --> 22:19.000
+cool
+
+22:19.000 --> 22:21.000
+so this is what the structure is going to be
+
+22:21.000 --> 22:23.000
+for today's class
+
+22:23.000 --> 22:25.000
+right
+
+22:25.000 --> 22:27.000
+cool
+
+22:27.000 --> 22:29.000
+so before
+
+22:29.000 --> 22:31.000
+we move forward to the next topic
+
+22:31.000 --> 22:33.000
+which is the first
+
+22:33.000 --> 22:35.000
+question is this thing
+
+22:35.000 --> 22:37.000
+clear to everyone
+
+22:37.000 --> 22:39.000
+when I say that JavaScript will put interactivity
+
+22:39.000 --> 22:41.000
+to your web apps all I am
+
+22:41.000 --> 22:43.000
+saying is that using
+
+22:43.000 --> 22:45.000
+JavaScript I should be able to access
+
+22:45.000 --> 22:47.000
+certain DOM elements and
+
+22:47.000 --> 22:49.000
+make changes to that DOM
+
+22:49.000 --> 22:51.000
+element that's it
+
+22:51.000 --> 22:53.000
+yes
+
+22:53.000 --> 22:55.000
+so in that case
+
+22:55.000 --> 22:57.000
+let's move on to the
+
+22:57.000 --> 22:59.000
+very first question here
+
+23:01.000 --> 23:03.000
+this is
+
+23:03.000 --> 23:05.000
+Q1
+
+23:07.000 --> 23:09.000
+so
+
+23:09.000 --> 23:11.000
+okay this looks like a
+
+23:11.000 --> 23:13.000
+friendly question it says say hello
+
+23:13.000 --> 23:15.000
+but on click of it nothing is
+
+23:15.000 --> 23:17.000
+happening let's see what the question is
+
+23:17.000 --> 23:19.000
+question one on clicking of the button
+
+23:19.000 --> 23:21.000
+append hello to the
+
+23:21.000 --> 23:23.000
+page okay so
+
+23:23.000 --> 23:25.000
+the idea is that I should be
+
+23:25.000 --> 23:27.000
+able to append
+
+23:27.000 --> 23:29.000
+certain thing
+
+23:29.000 --> 23:31.000
+in here suppose
+
+23:31.000 --> 23:33.000
+here you have a body right
+
+23:35.000 --> 23:37.000
+I will say edit as HTML
+
+23:37.000 --> 23:39.000
+and in here
+
+23:39.000 --> 23:41.000
+I could have a p tag saying
+
+23:41.000 --> 23:43.000
+hello
+
+23:47.000 --> 23:49.000
+see hello's are getting
+
+23:49.000 --> 23:51.000
+here
+
+23:51.000 --> 23:53.000
+if I were to copy then
+
+23:53.000 --> 23:55.000
+paste paste
+
+23:55.000 --> 23:57.000
+so every time I click
+
+23:57.000 --> 23:59.000
+this button I should be
+
+23:59.000 --> 24:01.000
+adding a new
+
+24:01.000 --> 24:03.000
+DOM element
+
+24:03.000 --> 24:05.000
+p tag let's say for example and
+
+24:05.000 --> 24:07.000
+in this I should be having
+
+24:07.000 --> 24:09.000
+a hello right
+
+24:09.000 --> 24:11.000
+so if I were to refresh because we were
+
+24:11.000 --> 24:13.000
+doing it manually changing the DOM
+
+24:13.000 --> 24:15.000
+we should be able to write
+
+24:15.000 --> 24:17.000
+JavaScript to do this cool
+
+24:17.000 --> 24:19.000
+so now
+
+24:19.000 --> 24:21.000
+to solve this problem what do you think
+
+24:21.000 --> 24:23.000
+should be the first thing that we should
+
+24:23.000 --> 24:25.000
+do anyone
+
+24:27.000 --> 24:29.000
+if I were to apply brute
+
+24:29.000 --> 24:31.000
+force what was I doing first of all
+
+24:31.000 --> 24:33.000
+I was able to
+
+24:33.000 --> 24:35.000
+select my body
+
+24:35.000 --> 24:37.000
+element and inside of this
+
+24:37.000 --> 24:39.000
+body element I was
+
+24:39.000 --> 24:41.000
+writing the p tag or any
+
+24:41.000 --> 24:43.000
+tag for that matter and inside of that
+
+24:43.000 --> 24:45.000
+tag I am writing hello
+
+24:45.000 --> 24:47.000
+right so basically I should be having
+
+24:47.000 --> 24:49.000
+this particular tag somewhat prepared
+
+24:49.000 --> 24:51.000
+and I should somehow
+
+24:51.000 --> 24:53.000
+know if someone has clicked
+
+24:53.000 --> 24:55.000
+on this button only then I
+
+24:55.000 --> 24:57.000
+should be adding that particular
+
+24:57.000 --> 24:59.000
+element inside this body
+
+24:59.000 --> 25:01.000
+correct does that sound like
+
+25:01.000 --> 25:03.000
+a logical plan
+
+25:07.000 --> 25:09.000
+yes Raja, Sambet,
+
+25:09.000 --> 25:11.000
+Ashish, Tejal, Pradeep
+
+25:11.000 --> 25:13.000
+correct
+
+25:13.000 --> 25:15.000
+so
+
+25:15.000 --> 25:17.000
+a couple of things
+
+25:17.000 --> 25:19.000
+which are
+
+25:19.000 --> 25:21.000
+important for us
+
+25:21.000 --> 25:23.000
+to do that
+
+25:25.000 --> 25:27.000
+we need to first somehow
+
+25:27.000 --> 25:29.000
+identify an element
+
+25:29.000 --> 25:31.000
+right how can I
+
+25:31.000 --> 25:33.000
+possibly listen that
+
+25:33.000 --> 25:35.000
+I am listening to this particular button
+
+25:35.000 --> 25:37.000
+there could be n number of buttons present
+
+25:37.000 --> 25:39.000
+on this page this is a very
+
+25:39.000 --> 25:41.000
+simple example so which is why we don't have
+
+25:41.000 --> 25:43.000
+any we only have one
+
+25:43.000 --> 25:45.000
+button but since there could be
+
+25:45.000 --> 25:47.000
+multiple buttons
+
+25:47.000 --> 25:49.000
+yes Abhishek we are
+
+25:49.000 --> 25:51.000
+gradually moving towards that only
+
+25:53.000 --> 25:55.000
+I somehow need to identify
+
+25:55.000 --> 25:57.000
+how can I
+
+25:57.000 --> 25:59.000
+pinpoint on this button
+
+25:59.000 --> 26:01.000
+and say that let me know
+
+26:01.000 --> 26:03.000
+when someone clicks on this button
+
+26:03.000 --> 26:05.000
+right so as
+
+26:05.000 --> 26:07.000
+Abhishek and Tejal has pointed out one of the
+
+26:07.000 --> 26:09.000
+way one of the many ways
+
+26:09.000 --> 26:11.000
+that we could do so is using the
+
+26:11.000 --> 26:13.000
+ID but how so
+
+26:13.000 --> 26:15.000
+let us talk about that so before
+
+26:15.000 --> 26:17.000
+we do I just like to mention that there
+
+26:17.000 --> 26:19.000
+are a couple of ways we could
+
+26:19.000 --> 26:21.000
+identify an element
+
+26:27.000 --> 26:29.000
+methods
+
+26:29.000 --> 26:31.000
+used to
+
+26:33.000 --> 26:35.000
+identify
+
+26:35.000 --> 26:37.000
+an
+
+26:37.000 --> 26:39.000
+element
+
+26:39.000 --> 26:41.000
+right
+
+26:41.000 --> 26:43.000
+so one is
+
+26:43.000 --> 26:45.000
+get
+
+26:45.000 --> 26:47.000
+element
+
+26:49.000 --> 26:51.000
+by ID
+
+26:51.000 --> 26:53.000
+second is
+
+26:55.000 --> 26:57.000
+query
+
+26:57.000 --> 26:59.000
+selector
+
+26:59.000 --> 27:01.000
+third is
+
+27:01.000 --> 27:03.000
+query
+
+27:03.000 --> 27:05.000
+selector
+
+27:05.000 --> 27:07.000
+all
+
+27:07.000 --> 27:09.000
+fourth is
+
+27:11.000 --> 27:13.000
+get
+
+27:13.000 --> 27:15.000
+element
+
+27:15.000 --> 27:17.000
+by class
+
+27:17.000 --> 27:19.000
+name
+
+27:19.000 --> 27:21.000
+there are a couple more but
+
+27:21.000 --> 27:23.000
+we will be focusing on
+
+27:23.000 --> 27:25.000
+these four for now right so
+
+27:25.000 --> 27:27.000
+let's start with a very very basic
+
+27:27.000 --> 27:29.000
+one which is get element by
+
+27:29.000 --> 27:31.000
+ID
+
+27:31.000 --> 27:33.000
+so
+
+27:35.000 --> 27:37.000
+since I mentioned all of the
+
+27:37.000 --> 27:39.000
+elements all of all that you
+
+27:39.000 --> 27:41.000
+are seeing on this particular web page is present
+
+27:41.000 --> 27:43.000
+inside of one big object
+
+27:43.000 --> 27:45.000
+can anyone help me remember what
+
+27:45.000 --> 27:47.000
+that object was
+
+27:47.000 --> 27:49.000
+that object was
+
+27:49.000 --> 27:51.000
+document
+
+27:51.000 --> 27:53.000
+right inside of this document
+
+27:53.000 --> 27:55.000
+everything is there everything
+
+27:55.000 --> 27:57.000
+that you see here is inside
+
+27:57.000 --> 27:59.000
+of this document and one of the best things
+
+27:59.000 --> 28:01.000
+about document is that all of these
+
+28:01.000 --> 28:03.000
+methods are also
+
+28:03.000 --> 28:05.000
+present inside of document
+
+28:05.000 --> 28:07.000
+so how will I
+
+28:07.000 --> 28:09.000
+be accessing get element by
+
+28:09.000 --> 28:11.000
+ID I should be
+
+28:11.000 --> 28:13.000
+able to write document
+
+28:13.000 --> 28:15.000
+dot
+
+28:15.000 --> 28:17.000
+get element by ID
+
+28:17.000 --> 28:19.000
+so let's give it a try
+
+28:19.000 --> 28:21.000
+let's say
+
+28:21.000 --> 28:23.000
+document dot
+
+28:23.000 --> 28:25.000
+get element now you see
+
+28:25.000 --> 28:27.000
+a couple of options are popping up
+
+28:27.000 --> 28:29.000
+here and I want to play
+
+28:29.000 --> 28:31.000
+around with get element by ID
+
+28:31.000 --> 28:33.000
+what do you think would be
+
+28:33.000 --> 28:35.000
+the ID do we
+
+28:35.000 --> 28:37.000
+have an ID on this particular button
+
+28:37.000 --> 28:39.000
+yes or no
+
+28:41.000 --> 28:43.000
+correct that is
+
+28:43.000 --> 28:45.000
+btn so I will be putting
+
+28:45.000 --> 28:47.000
+in double quotes here and say
+
+28:47.000 --> 28:49.000
+btn and
+
+28:49.000 --> 28:51.000
+it will be giving me the
+
+28:51.000 --> 28:53.000
+reference to this button so which means I need to
+
+28:53.000 --> 28:55.000
+store this reference with me somehow
+
+28:55.000 --> 28:57.000
+so that I can use it at a later
+
+28:57.000 --> 28:59.000
+point in time so let's say
+
+28:59.000 --> 29:01.000
+I can say
+
+29:01.000 --> 29:03.000
+cons
+
+29:03.000 --> 29:05.000
+btn lm is equal
+
+29:05.000 --> 29:07.000
+to this thing right
+
+29:07.000 --> 29:09.000
+and now simply let me log
+
+29:09.000 --> 29:11.000
+it btn
+
+29:11.000 --> 29:13.000
+lm
+
+29:13.000 --> 29:15.000
+and save this
+
+29:15.000 --> 29:17.000
+oh
+
+29:17.000 --> 29:19.000
+it's getting saved
+
+29:19.000 --> 29:21.000
+let me add a comment as well
+
+29:21.000 --> 29:23.000
+double button
+
+29:23.000 --> 29:25.000
+element
+
+29:25.000 --> 29:27.000
+cool it's showing up and as you could see as I'm hovering
+
+29:27.000 --> 29:29.000
+over it it is basically highlighting
+
+29:29.000 --> 29:31.000
+this but what if the ID was
+
+29:31.000 --> 29:33.000
+somewhat different what if the ID
+
+29:33.000 --> 29:35.000
+was let's say bt
+
+29:35.000 --> 29:37.000
+nn
+
+29:37.000 --> 29:39.000
+right
+
+29:39.000 --> 29:41.000
+do you think would it be able to return
+
+29:41.000 --> 29:43.000
+anything
+
+29:43.000 --> 29:45.000
+no
+
+29:45.000 --> 29:47.000
+correct so here now you could
+
+29:47.000 --> 29:49.000
+see I'm getting null right
+
+29:49.000 --> 29:51.000
+because no value was returned
+
+29:51.000 --> 29:53.000
+so which means
+
+29:53.000 --> 29:55.000
+when I'm saying get
+
+29:55.000 --> 29:57.000
+element by ID I need to provide in
+
+29:57.000 --> 29:59.000
+an element here
+
+29:59.000 --> 30:01.000
+right and which is why
+
+30:01.000 --> 30:03.000
+I need to do it like this
+
+30:03.000 --> 30:05.000
+make sense
+
+30:05.000 --> 30:07.000
+now if I go here the element is there
+
+30:07.000 --> 30:09.000
+and now
+
+30:09.000 --> 30:11.000
+suppose this
+
+30:11.000 --> 30:13.000
+ID was not there instead a class
+
+30:13.000 --> 30:15.000
+was there
+
+30:15.000 --> 30:17.000
+can you help me
+
+30:17.000 --> 30:19.000
+how can I access this
+
+30:19.000 --> 30:21.000
+particular element now
+
+30:21.000 --> 30:23.000
+there is no ID present here but a class
+
+30:23.000 --> 30:25.000
+so how can I access it
+
+30:25.000 --> 30:27.000
+correct
+
+30:27.000 --> 30:29.000
+document dot
+
+30:29.000 --> 30:31.000
+get element by class name
+
+30:31.000 --> 30:33.000
+and what is the class name it is
+
+30:33.000 --> 30:35.000
+btn so if I were to save
+
+30:35.000 --> 30:37.000
+this
+
+30:37.000 --> 30:39.000
+it is in here
+
+30:39.000 --> 30:41.000
+cool
+
+30:43.000 --> 30:45.000
+and
+
+30:45.000 --> 30:47.000
+there is one more way
+
+30:47.000 --> 30:49.000
+two more way actually
+
+30:49.000 --> 30:51.000
+one is query selector and one is query
+
+30:51.000 --> 30:53.000
+selector all this is going to be
+
+30:53.000 --> 30:55.000
+interesting why so
+
+30:55.000 --> 30:57.000
+let's say
+
+30:57.000 --> 30:59.000
+query
+
+30:59.000 --> 31:01.000
+selector
+
+31:01.000 --> 31:03.000
+now do you think this
+
+31:03.000 --> 31:05.000
+would work yes or no
+
+31:07.000 --> 31:09.000
+let me change it back to ID
+
+31:09.000 --> 31:11.000
+class name is also fine but
+
+31:11.000 --> 31:13.000
+changing back to ID so now
+
+31:13.000 --> 31:15.000
+do you think it would work
+
+31:17.000 --> 31:19.000
+query selector basically says
+
+31:19.000 --> 31:21.000
+tell me
+
+31:21.000 --> 31:23.000
+what am I looking for and it will
+
+31:23.000 --> 31:25.000
+traverse the dom
+
+31:25.000 --> 31:27.000
+it will traverse this
+
+31:27.000 --> 31:29.000
+particular dom in
+
+31:29.000 --> 31:31.000
+search of that element
+
+31:31.000 --> 31:33.000
+which matches the condition
+
+31:33.000 --> 31:35.000
+in our case the condition is
+
+31:35.000 --> 31:37.000
+document dot query
+
+31:37.000 --> 31:39.000
+selector btn
+
+31:39.000 --> 31:41.000
+do we have anything with btn in here
+
+31:41.000 --> 31:43.000
+yes or no
+
+31:45.000 --> 31:47.000
+yes but it would
+
+31:47.000 --> 31:49.000
+still not be able to access it
+
+31:49.000 --> 31:51.000
+why because
+
+31:51.000 --> 31:53.000
+if you remember earlier we were using
+
+31:53.000 --> 31:55.000
+we were using
+
+31:55.000 --> 31:57.000
+get element by ID
+
+31:57.000 --> 31:59.000
+or
+
+31:59.000 --> 32:01.000
+get element by class name
+
+32:01.000 --> 32:03.000
+so we were actually specifying
+
+32:03.000 --> 32:05.000
+what exactly
+
+32:05.000 --> 32:07.000
+is the attribute that I am looking
+
+32:07.000 --> 32:09.000
+for be it ID
+
+32:09.000 --> 32:11.000
+or be it class name but now
+
+32:11.000 --> 32:13.000
+in query selector have I specified
+
+32:13.000 --> 32:15.000
+is btn
+
+32:15.000 --> 32:17.000
+is a class name or
+
+32:17.000 --> 32:19.000
+an ID
+
+32:19.000 --> 32:21.000
+have we specified it by any how
+
+32:23.000 --> 32:25.000
+no right correct
+
+32:25.000 --> 32:27.000
+we haven't so now if I were to
+
+32:27.000 --> 32:29.000
+specify it that I am looking for
+
+32:29.000 --> 32:31.000
+an ID called btn
+
+32:31.000 --> 32:33.000
+how would you say so in CSS
+
+32:33.000 --> 32:35.000
+how would you target
+
+32:35.000 --> 32:37.000
+you must have
+
+32:37.000 --> 32:39.000
+learned this in CSS selectors class
+
+32:39.000 --> 32:41.000
+how would you target it
+
+32:41.000 --> 32:43.000
+there is
+
+32:43.000 --> 32:45.000
+a special symbol that was used
+
+32:49.000 --> 32:51.000
+yes
+
+32:51.000 --> 32:53.000
+it is
+
+32:53.000 --> 32:55.000
+hashtag now that I put
+
+32:55.000 --> 32:57.000
+in hashtag here if I were to save this
+
+32:57.000 --> 32:59.000
+and go here yes the element
+
+32:59.000 --> 33:01.000
+is targeted
+
+33:01.000 --> 33:03.000
+and suppose if I were to change this to
+
+33:03.000 --> 33:05.000
+class and save it
+
+33:05.000 --> 33:07.000
+it would not be able to target it
+
+33:07.000 --> 33:09.000
+because it is still looking for a btn
+
+33:09.000 --> 33:11.000
+ID
+
+33:11.000 --> 33:13.000
+if I were to say that btn is a class
+
+33:13.000 --> 33:15.000
+in that case I need to put
+
+33:15.000 --> 33:17.000
+dot in here and now
+
+33:17.000 --> 33:19.000
+I am again able to
+
+33:19.000 --> 33:21.000
+access it
+
+33:21.000 --> 33:23.000
+so which means that
+
+33:23.000 --> 33:25.000
+using these methods
+
+33:25.000 --> 33:27.000
+I am able to access all of these
+
+33:27.000 --> 33:29.000
+correct
+
+33:29.000 --> 33:31.000
+so which means that
+
+33:31.000 --> 33:33.000
+I am able to
+
+33:33.000 --> 33:35.000
+pinpoint now what element
+
+33:35.000 --> 33:37.000
+I am listening to
+
+33:37.000 --> 33:39.000
+but
+
+33:39.000 --> 33:41.000
+how do I say that
+
+33:41.000 --> 33:43.000
+I am listening to this element
+
+33:43.000 --> 33:45.000
+how do you say that
+
+33:47.000 --> 33:49.000
+any idea
+
+33:53.000 --> 33:55.000
+how would you say
+
+33:55.000 --> 33:57.000
+I am able to access this but
+
+33:57.000 --> 33:59.000
+how would I know whether the user
+
+33:59.000 --> 34:01.000
+has clicked on it
+
+34:03.000 --> 34:05.000
+so there is a very interesting thing
+
+34:05.000 --> 34:07.000
+now which is very very important
+
+34:07.000 --> 34:09.000
+in terms of
+
+34:09.000 --> 34:11.000
+how we get
+
+34:11.000 --> 34:13.000
+to it
+
+34:17.000 --> 34:19.000
+think of it like
+
+34:19.000 --> 34:21.000
+think of it like
+
+34:21.000 --> 34:23.000
+how does keyboard works
+
+34:23.000 --> 34:25.000
+whenever I type in something
+
+34:25.000 --> 34:27.000
+something must be telling the
+
+34:27.000 --> 34:29.000
+cpu that okay
+
+34:29.000 --> 34:31.000
+shashwat has typed this key
+
+34:31.000 --> 34:33.000
+generator
+
+34:33.000 --> 34:35.000
+shascaler
+
+34:35.000 --> 34:37.000
+whatever I am typing
+
+34:37.000 --> 34:39.000
+something is listening to every keystroke
+
+34:39.000 --> 34:41.000
+and it is telling the cpu
+
+34:41.000 --> 34:43.000
+that this person has typed this thing
+
+34:43.000 --> 34:45.000
+so what do you think that is called
+
+34:45.000 --> 34:47.000
+that is sort of like a signal
+
+34:47.000 --> 34:49.000
+would everyone agree yes or no
+
+34:49.000 --> 34:51.000
+so whenever I am typing something
+
+34:51.000 --> 34:53.000
+somehow a signal is
+
+34:53.000 --> 34:55.000
+sent inside and
+
+34:55.000 --> 34:57.000
+what the cpu could be doing
+
+34:57.000 --> 34:59.000
+cpu could be listening to that
+
+34:59.000 --> 35:01.000
+signal correct
+
+35:03.000 --> 35:05.000
+yes
+
+35:05.000 --> 35:07.000
+abhimanyu abhishek ahmed ashi
+
+35:07.000 --> 35:09.000
+shashwani
+
+35:09.000 --> 35:11.000
+hemangi krishna pradeek
+
+35:11.000 --> 35:13.000
+all able to follow right
+
+35:15.000 --> 35:17.000
+let me know in case there are
+
+35:17.000 --> 35:19.000
+any doubts
+
+35:19.000 --> 35:21.000
+okay so there is
+
+35:21.000 --> 35:23.000
+this signal happening my point
+
+35:23.000 --> 35:25.000
+is ki is there a way
+
+35:25.000 --> 35:27.000
+I could listen to those signals in my
+
+35:27.000 --> 35:29.000
+case I am listening to
+
+35:29.000 --> 35:31.000
+a click signal he whenever I am
+
+35:31.000 --> 35:33.000
+clicking on this this particular button
+
+35:33.000 --> 35:35.000
+I can somehow
+
+35:35.000 --> 35:37.000
+attach a listener
+
+35:37.000 --> 35:39.000
+right he that listens to a
+
+35:39.000 --> 35:41.000
+particular signal there could be n number of
+
+35:41.000 --> 35:43.000
+signals right like I could be double
+
+35:43.000 --> 35:45.000
+clicking on it I could be clicking on it
+
+35:45.000 --> 35:47.000
+I could be dragging it I could be doing a number
+
+35:47.000 --> 35:49.000
+of things with this button but
+
+35:49.000 --> 35:51.000
+the one event that
+
+35:51.000 --> 35:53.000
+I am interested in is a
+
+35:53.000 --> 35:55.000
+click button is a click
+
+35:55.000 --> 35:57.000
+event basically click signal right
+
+35:57.000 --> 35:59.000
+so in javascript that signal
+
+35:59.000 --> 36:01.000
+is basically called event
+
+36:01.000 --> 36:03.000
+what is an event whenever you do
+
+36:03.000 --> 36:05.000
+any interaction
+
+36:05.000 --> 36:07.000
+any interaction a event is
+
+36:07.000 --> 36:09.000
+released
+
+36:09.000 --> 36:11.000
+an event is released
+
+36:11.000 --> 36:13.000
+and we are listening to that particular
+
+36:13.000 --> 36:15.000
+event in our case the event that
+
+36:15.000 --> 36:17.000
+we are listening to is on click
+
+36:17.000 --> 36:19.000
+so let me open
+
+36:19.000 --> 36:21.000
+w3
+
+36:21.000 --> 36:23.000
+w3
+
+36:25.000 --> 36:27.000
+w3 school
+
+36:27.000 --> 36:29.000
+events
+
+36:33.000 --> 36:35.000
+now as you could see
+
+36:35.000 --> 36:37.000
+these are some of the elements
+
+36:37.000 --> 36:39.000
+on click on change
+
+36:39.000 --> 36:41.000
+on mouse over on
+
+36:41.000 --> 36:43.000
+this thing mouse out
+
+36:43.000 --> 36:45.000
+like so there are
+
+36:45.000 --> 36:47.000
+n number of such events present
+
+36:47.000 --> 36:49.000
+right so what does it
+
+36:49.000 --> 36:51.000
+say html events
+
+36:51.000 --> 36:53.000
+are things that happen to
+
+36:53.000 --> 36:55.000
+html element right in
+
+36:55.000 --> 36:57.000
+our case what is happening to this particular
+
+36:57.000 --> 36:59.000
+html element a click
+
+36:59.000 --> 37:01.000
+right so let
+
+37:01.000 --> 37:03.000
+us let me write down the definition
+
+37:05.000 --> 37:07.000
+what exactly
+
+37:07.000 --> 37:09.000
+is an event first
+
+37:15.000 --> 37:17.000
+what is
+
+37:19.000 --> 37:21.000
+event
+
+37:23.000 --> 37:27.000
+anything
+
+37:29.000 --> 37:31.000
+that happens
+
+37:35.000 --> 37:37.000
+depending on
+
+37:39.000 --> 37:41.000
+some
+
+37:41.000 --> 37:43.000
+other thing
+
+37:45.000 --> 37:47.000
+to an
+
+37:47.000 --> 37:49.000
+html
+
+37:49.000 --> 37:51.000
+element
+
+37:53.000 --> 37:55.000
+is an
+
+37:55.000 --> 37:57.000
+event right
+
+37:57.000 --> 37:59.000
+so there is
+
+37:59.000 --> 38:01.000
+a btl
+
+38:01.000 --> 38:03.000
+someone
+
+38:03.000 --> 38:05.000
+clicks on it
+
+38:05.000 --> 38:07.000
+right in that case
+
+38:07.000 --> 38:09.000
+a
+
+38:09.000 --> 38:11.000
+click
+
+38:11.000 --> 38:13.000
+event is
+
+38:13.000 --> 38:15.000
+fired now
+
+38:15.000 --> 38:17.000
+if a click event is fired I could
+
+38:17.000 --> 38:19.000
+potentially listen to
+
+38:19.000 --> 38:21.000
+that click element right and
+
+38:21.000 --> 38:23.000
+I could know for a fact okay if this
+
+38:23.000 --> 38:25.000
+particular event is fired which means
+
+38:25.000 --> 38:27.000
+I need to do something
+
+38:27.000 --> 38:29.000
+right so
+
+38:29.000 --> 38:31.000
+let's go ahead and
+
+38:31.000 --> 38:33.000
+write the code for
+
+38:33.000 --> 38:35.000
+this now yes
+
+38:37.000 --> 38:39.000
+good so
+
+38:39.000 --> 38:41.000
+we already have the button element in
+
+38:41.000 --> 38:43.000
+place and I want to attach
+
+38:43.000 --> 38:45.000
+a particular listener
+
+38:45.000 --> 38:47.000
+on this so what exactly
+
+38:47.000 --> 38:49.000
+are we listening to
+
+38:51.000 --> 38:53.000
+we are listening to a click event
+
+38:53.000 --> 38:55.000
+correct
+
+38:57.000 --> 38:59.000
+yes we are listening to a click event
+
+38:59.000 --> 39:01.000
+event is the keyword here we are listening to a
+
+39:01.000 --> 39:03.000
+click event so
+
+39:03.000 --> 39:05.000
+what I am going to say here
+
+39:05.000 --> 39:07.000
+you can read or you can read it
+
+39:07.000 --> 39:09.000
+sort of like a English
+
+39:09.000 --> 39:11.000
+statement also this particular line
+
+39:11.000 --> 39:13.000
+that I am going to type
+
+39:13.000 --> 39:15.000
+btlm
+
+39:15.000 --> 39:17.000
+dot
+
+39:17.000 --> 39:19.000
+add event listener
+
+39:19.000 --> 39:21.000
+what event listener
+
+39:21.000 --> 39:23.000
+I am listening to is click
+
+39:23.000 --> 39:25.000
+right
+
+39:25.000 --> 39:27.000
+and one of the best thing about JavaScript
+
+39:27.000 --> 39:29.000
+is it will you can pass
+
+39:29.000 --> 39:31.000
+a callback here a callback
+
+39:31.000 --> 39:33.000
+is nothing but a function call
+
+39:33.000 --> 39:35.000
+so you could say to you if
+
+39:35.000 --> 39:37.000
+on this particular btlm element
+
+39:37.000 --> 39:39.000
+you listen a click event
+
+39:39.000 --> 39:41.000
+you have to execute
+
+39:41.000 --> 39:43.000
+this
+
+39:43.000 --> 39:45.000
+function
+
+39:45.000 --> 39:47.000
+and this function you will be getting
+
+39:47.000 --> 39:49.000
+a event
+
+39:49.000 --> 39:51.000
+right that was fired
+
+39:51.000 --> 39:53.000
+so let me just log
+
+39:55.000 --> 39:57.000
+event
+
+40:03.000 --> 40:05.000
+event fired
+
+40:05.000 --> 40:07.000
+so now let's go in here
+
+40:07.000 --> 40:09.000
+all clear
+
+40:09.000 --> 40:11.000
+where I click on this hello
+
+40:11.000 --> 40:13.000
+button say hello
+
+40:13.000 --> 40:15.000
+see event fired and what
+
+40:15.000 --> 40:17.000
+was the event pointer event
+
+40:17.000 --> 40:19.000
+if I were to expand it see
+
+40:19.000 --> 40:21.000
+so much information was shared
+
+40:21.000 --> 40:23.000
+with us
+
+40:23.000 --> 40:25.000
+now using this information
+
+40:25.000 --> 40:27.000
+if we want we can play around with things
+
+40:27.000 --> 40:29.000
+and you could see
+
+40:29.000 --> 40:31.000
+it also has the element also
+
+40:31.000 --> 40:33.000
+the target where the
+
+40:33.000 --> 40:35.000
+element was fired for basically it's the
+
+40:35.000 --> 40:37.000
+source
+
+40:37.000 --> 40:39.000
+and it has the entire
+
+40:39.000 --> 40:41.000
+thing about all the information
+
+40:41.000 --> 40:43.000
+about this particular button that you could
+
+40:43.000 --> 40:45.000
+possibly be needing right
+
+40:45.000 --> 40:47.000
+and it is a very detailed
+
+40:47.000 --> 40:49.000
+information that you could possibly use to
+
+40:49.000 --> 40:51.000
+decide what you want to do now
+
+40:51.000 --> 40:53.000
+right so now
+
+40:53.000 --> 40:55.000
+I'm able to do two things using
+
+40:55.000 --> 40:57.000
+only these four or five lines
+
+40:57.000 --> 40:59.000
+of code I'm able to identify
+
+40:59.000 --> 41:01.000
+in a huge
+
+41:01.000 --> 41:03.000
+web application
+
+41:03.000 --> 41:05.000
+I can somehow pinpoint
+
+41:05.000 --> 41:07.000
+HTML element
+
+41:07.000 --> 41:09.000
+and second thing that I'm able to do I'm able to
+
+41:09.000 --> 41:11.000
+listen to a certain event
+
+41:11.000 --> 41:13.000
+right suppose
+
+41:13.000 --> 41:15.000
+we have a different event
+
+41:19.000 --> 41:21.000
+event list in JavaScript
+
+41:21.000 --> 41:23.000
+JavaScript
+
+41:33.000 --> 41:35.000
+let's say there is
+
+41:43.000 --> 41:45.000
+event list in
+
+41:45.000 --> 41:47.000
+JS
+
+41:51.000 --> 41:53.000
+suppose we have
+
+41:55.000 --> 41:57.000
+mouse over
+
+41:57.000 --> 41:59.000
+so I could probably listen to
+
+41:59.000 --> 42:01.000
+mouse over
+
+42:01.000 --> 42:03.000
+and let's go back here
+
+42:03.000 --> 42:05.000
+see I haven't
+
+42:05.000 --> 42:07.000
+clicked on it as soon as my mouse is
+
+42:07.000 --> 42:09.000
+hovering over it
+
+42:09.000 --> 42:11.000
+it is launching an event
+
+42:11.000 --> 42:13.000
+so likewise there are n number
+
+42:13.000 --> 42:15.000
+of events but the event that we are interested
+
+42:15.000 --> 42:17.000
+in is click event
+
+42:17.000 --> 42:19.000
+and this particular event I'm getting
+
+42:19.000 --> 42:21.000
+the event also that is being fired
+
+42:21.000 --> 42:23.000
+cool now
+
+42:23.000 --> 42:25.000
+all I have to do is
+
+42:25.000 --> 42:27.000
+if you remember
+
+42:27.000 --> 42:29.000
+the changes
+
+42:29.000 --> 42:31.000
+that we were doing here I'm able
+
+42:31.000 --> 42:33.000
+to
+
+42:33.000 --> 42:35.000
+put an event listener to on this
+
+42:35.000 --> 42:37.000
+particular element now
+
+42:37.000 --> 42:39.000
+I'm able to know
+
+42:39.000 --> 42:41.000
+that a particular event
+
+42:41.000 --> 42:43.000
+is fired or basically someone
+
+42:43.000 --> 42:45.000
+has clicked on this particular
+
+42:45.000 --> 42:47.000
+button now what to do
+
+42:47.000 --> 42:49.000
+what do we have to do let's revisit
+
+42:49.000 --> 42:51.000
+the question or clicking of the button
+
+42:51.000 --> 42:53.000
+so this part is sorted I'm able to
+
+42:53.000 --> 42:55.000
+listen to it that now
+
+42:55.000 --> 42:57.000
+the latter half is append hello
+
+42:57.000 --> 42:59.000
+to the page
+
+42:59.000 --> 43:01.000
+yes so let's go towards
+
+43:01.000 --> 43:03.000
+this now so here
+
+43:03.000 --> 43:05.000
+I will be creating an element
+
+43:05.000 --> 43:07.000
+right let's say
+
+43:07.000 --> 43:09.000
+let new
+
+43:09.000 --> 43:11.000
+dev
+
+43:11.000 --> 43:13.000
+lm is equal to
+
+43:13.000 --> 43:15.000
+again for creation I'll be using
+
+43:15.000 --> 43:17.000
+a function called create
+
+43:17.000 --> 43:19.000
+element
+
+43:19.000 --> 43:21.000
+this function it will basically
+
+43:21.000 --> 43:23.000
+create an element and what element
+
+43:23.000 --> 43:25.000
+I'm looking to create let's say
+
+43:25.000 --> 43:27.000
+dev
+
+43:27.000 --> 43:29.000
+I can choose to create any element
+
+43:29.000 --> 43:31.000
+any
+
+43:31.000 --> 43:33.000
+legit element that I want
+
+43:33.000 --> 43:35.000
+I could create a p tag h1 tag
+
+43:35.000 --> 43:37.000
+h2 tag span tag
+
+43:37.000 --> 43:39.000
+or any possible tag
+
+43:39.000 --> 43:41.000
+using this particular function now it
+
+43:41.000 --> 43:43.000
+has basically created that element
+
+43:43.000 --> 43:45.000
+and it is stored the reference in new
+
+43:45.000 --> 43:47.000
+dev element and
+
+43:47.000 --> 43:49.000
+what does the dev element
+
+43:49.000 --> 43:51.000
+say hello
+
+43:51.000 --> 43:53.000
+right so let me simply say
+
+43:53.000 --> 43:55.000
+new dev
+
+43:55.000 --> 43:57.000
+lm is equal to
+
+43:59.000 --> 44:01.000
+hello right
+
+44:01.000 --> 44:03.000
+now all that
+
+44:03.000 --> 44:05.000
+is left is I somehow need to
+
+44:05.000 --> 44:07.000
+put it on this term
+
+44:07.000 --> 44:09.000
+inside our body right
+
+44:09.000 --> 44:11.000
+so which we see again we have
+
+44:11.000 --> 44:13.000
+to target body first
+
+44:13.000 --> 44:15.000
+right so can anyone help me
+
+44:15.000 --> 44:17.000
+targeting body
+
+44:17.000 --> 44:19.000
+which of these
+
+44:19.000 --> 44:21.000
+selectors we should be using
+
+44:21.000 --> 44:23.000
+should we use get element by id query
+
+44:23.000 --> 44:25.000
+selector query selector all
+
+44:25.000 --> 44:27.000
+get element by class name I think
+
+44:27.000 --> 44:29.000
+the most logical selector
+
+44:29.000 --> 44:31.000
+that we could probably
+
+44:31.000 --> 44:33.000
+use is query selector right
+
+44:33.000 --> 44:35.000
+because there is
+
+44:35.000 --> 44:37.000
+we can choose to put id or
+
+44:37.000 --> 44:39.000
+class here but if you want
+
+44:39.000 --> 44:41.000
+we can simply choose to use
+
+44:41.000 --> 44:43.000
+query selector also right
+
+44:43.000 --> 44:45.000
+so let me copy paste it
+
+44:45.000 --> 44:47.000
+here and here I will say
+
+44:47.000 --> 44:49.000
+body lm and here
+
+44:49.000 --> 44:51.000
+I could simply say body
+
+44:51.000 --> 44:53.000
+now this
+
+44:53.000 --> 44:55.000
+new dev element that we have created
+
+44:55.000 --> 44:57.000
+all I have to do now
+
+44:57.000 --> 44:59.000
+I have the new element in place
+
+44:59.000 --> 45:01.000
+and I have the
+
+45:01.000 --> 45:03.000
+body lm
+
+45:03.000 --> 45:05.000
+I know where the body element is
+
+45:05.000 --> 45:07.000
+now all I have to do is
+
+45:07.000 --> 45:09.000
+take this new dev element
+
+45:09.000 --> 45:11.000
+and put it on the body
+
+45:11.000 --> 45:13.000
+that's it right and how can we
+
+45:13.000 --> 45:15.000
+do that
+
+45:15.000 --> 45:17.000
+we can do that by saying
+
+45:19.000 --> 45:21.000
+body
+
+45:21.000 --> 45:23.000
+lm dot
+
+45:23.000 --> 45:25.000
+append
+
+45:25.000 --> 45:27.000
+so append is the function which is
+
+45:27.000 --> 45:29.000
+used to append
+
+45:29.000 --> 45:31.000
+something as in put something in it
+
+45:31.000 --> 45:33.000
+and I will say new
+
+45:33.000 --> 45:35.000
+dev lm that's it
+
+45:35.000 --> 45:37.000
+now let us
+
+45:37.000 --> 45:39.000
+quickly go through a dry run
+
+45:39.000 --> 45:41.000
+of the logic
+
+45:41.000 --> 45:43.000
+we have a btn element
+
+45:43.000 --> 45:45.000
+document or query selector btn
+
+45:45.000 --> 45:47.000
+I am targeting the btn element
+
+45:47.000 --> 45:49.000
+I am putting an event listener
+
+45:49.000 --> 45:51.000
+what event am I listening to click event
+
+45:51.000 --> 45:53.000
+and I have given it a callback
+
+45:53.000 --> 45:55.000
+so every time a click happens this particular
+
+45:55.000 --> 45:57.000
+function will be called and in this
+
+45:57.000 --> 45:59.000
+particular function what am I doing
+
+45:59.000 --> 46:01.000
+I am creating a new dev element
+
+46:01.000 --> 46:03.000
+and I am putting the value hello
+
+46:03.000 --> 46:05.000
+on that new dev element and
+
+46:05.000 --> 46:07.000
+then I am somehow getting
+
+46:07.000 --> 46:09.000
+the target body
+
+46:09.000 --> 46:11.000
+and I am appending this
+
+46:11.000 --> 46:13.000
+new dev element that we have created
+
+46:13.000 --> 46:15.000
+inside of
+
+46:15.000 --> 46:17.000
+body element
+
+46:17.000 --> 46:19.000
+is the logic sound
+
+46:19.000 --> 46:21.000
+does it make sense
+
+46:21.000 --> 46:23.000
+in an ideal world this should work
+
+46:23.000 --> 46:25.000
+when I click on this it should
+
+46:25.000 --> 46:27.000
+append something
+
+46:27.000 --> 46:29.000
+let's see if it works
+
+46:29.000 --> 46:31.000
+yes
+
+46:31.000 --> 46:33.000
+it is
+
+46:33.000 --> 46:35.000
+working
+
+46:35.000 --> 46:37.000
+if I were to change this to
+
+46:37.000 --> 46:39.000
+p tag then it will
+
+46:39.000 --> 46:41.000
+do next
+
+46:41.000 --> 46:43.000
+it's working
+
+46:47.000 --> 46:49.000
+oh my god
+
+46:49.000 --> 46:51.000
+I need to do
+
+46:51.000 --> 46:53.000
+inner text
+
+46:53.000 --> 46:55.000
+right
+
+46:55.000 --> 46:57.000
+now
+
+46:57.000 --> 46:59.000
+without manually
+
+46:59.000 --> 47:01.000
+doing this
+
+47:01.000 --> 47:03.000
+I am able to do this using
+
+47:03.000 --> 47:05.000
+just javascript
+
+47:05.000 --> 47:07.000
+yes
+
+47:07.000 --> 47:09.000
+was it interesting
+
+47:09.000 --> 47:11.000
+yes no
+
+47:11.000 --> 47:13.000
+abhinav obanyu
+
+47:13.000 --> 47:15.000
+ahmad ashwini
+
+47:15.000 --> 47:17.000
+chandini dhangraj
+
+47:17.000 --> 47:19.000
+hemant kishore krishna lapreet
+
+47:19.000 --> 47:21.000
+uniswara kishore
+
+47:21.000 --> 47:23.000
+krishna lapreet
+
+47:23.000 --> 47:25.000
+uniswara pradeep rajakta pramod
+
+47:25.000 --> 47:27.000
+raja rita charanya tanu
+
+47:27.000 --> 47:29.000
+tejil shaykh
+
+47:29.000 --> 47:31.000
+rohit shashank
+
+47:31.000 --> 47:33.000
+vigneshwar
+
+47:33.000 --> 47:35.000
+was everyone able to follow this part
+
+47:35.000 --> 47:37.000
+why so many
+
+47:37.000 --> 47:39.000
+hello because I clicked so many times
+
+47:39.000 --> 47:41.000
+if I were to refresh all of
+
+47:41.000 --> 47:43.000
+them would be gone if I click one time
+
+47:43.000 --> 47:45.000
+then I am getting only one
+
+47:45.000 --> 47:47.000
+right
+
+47:51.000 --> 47:53.000
+now before we proceed to the
+
+47:53.000 --> 47:55.000
+next question which is question two
+
+47:55.000 --> 47:57.000
+any doubts
+
+47:57.000 --> 47:59.000
+whatsoever
+
+47:59.000 --> 48:01.000
+so far in whatever we have covered
+
+48:01.000 --> 48:03.000
+any doubts anyone
+
+48:09.000 --> 48:11.000
+yes no
+
+48:11.000 --> 48:13.000
+inner text correct
+
+48:13.000 --> 48:15.000
+so good point if you remember
+
+48:15.000 --> 48:17.000
+what I had done previously
+
+48:17.000 --> 48:19.000
+was I was able to
+
+48:19.000 --> 48:21.000
+solve btn
+
+48:21.000 --> 48:23.000
+let me
+
+48:23.000 --> 48:25.000
+save this
+
+48:25.000 --> 48:27.000
+we have the btn
+
+48:27.000 --> 48:29.000
+element
+
+48:39.000 --> 48:41.000
+when I click
+
+48:41.000 --> 48:43.000
+I am getting the event
+
+48:43.000 --> 48:45.000
+this is the target element
+
+48:45.000 --> 48:47.000
+so this button for
+
+48:47.000 --> 48:49.000
+any element
+
+48:51.000 --> 48:53.000
+or any element as
+
+48:53.000 --> 48:55.000
+these many key value pairs
+
+48:55.000 --> 48:57.000
+as you could see re auto complete
+
+48:57.000 --> 48:59.000
+null or almost everything
+
+48:59.000 --> 49:01.000
+is null so one such element
+
+49:01.000 --> 49:03.000
+which is present here must be
+
+49:03.000 --> 49:05.000
+inner text this one
+
+49:07.000 --> 49:09.000
+so basically this defines
+
+49:09.000 --> 49:11.000
+what does this particular element
+
+49:11.000 --> 49:13.000
+is going to say
+
+49:13.000 --> 49:15.000
+so if I were to change this
+
+49:15.000 --> 49:17.000
+it would basically reflect here so what I
+
+49:17.000 --> 49:19.000
+had done here I was creating a new
+
+49:19.000 --> 49:21.000
+p tag and inside of
+
+49:21.000 --> 49:23.000
+that p tag I am simply setting this
+
+49:23.000 --> 49:25.000
+inner text for that
+
+49:25.000 --> 49:27.000
+p tag to hello
+
+49:27.000 --> 49:29.000
+correct so likewise there are so many
+
+49:29.000 --> 49:31.000
+properties that you could modify and play
+
+49:31.000 --> 49:33.000
+around with so one such element
+
+49:33.000 --> 49:35.000
+one such property that I played around with
+
+49:35.000 --> 49:37.000
+was inner text
+
+49:37.000 --> 49:39.000
+cool
+
+49:39.000 --> 49:41.000
+cool upendra
+
+49:41.000 --> 49:43.000
+ask come again once please
+
+49:43.000 --> 49:45.000
+upendra
+
+49:47.000 --> 49:49.000
+our strategy was simple
+
+49:49.000 --> 49:51.000
+because we had to append hello on the page
+
+49:51.000 --> 49:53.000
+on click I somehow targeted the button
+
+49:53.000 --> 49:55.000
+using query selector
+
+49:55.000 --> 49:57.000
+class because I had class here
+
+49:57.000 --> 49:59.000
+so I added dot here I am
+
+49:59.000 --> 50:01.000
+able to target that element
+
+50:01.000 --> 50:03.000
+I was attaching event listener
+
+50:03.000 --> 50:05.000
+to it what event click event
+
+50:05.000 --> 50:07.000
+and I passed a callback function
+
+50:07.000 --> 50:09.000
+in this callback function I am
+
+50:09.000 --> 50:11.000
+simply saying that create a
+
+50:11.000 --> 50:13.000
+new element p tag
+
+50:13.000 --> 50:15.000
+to set the inner text value
+
+50:15.000 --> 50:17.000
+of this newly created p tag
+
+50:17.000 --> 50:19.000
+to hello and
+
+50:19.000 --> 50:21.000
+post at
+
+50:21.000 --> 50:23.000
+post at
+
+50:23.000 --> 50:25.000
+target the body element
+
+50:25.000 --> 50:27.000
+and append this newly created
+
+50:27.000 --> 50:29.000
+div element on that body
+
+50:29.000 --> 50:31.000
+does that make sense
+
+50:31.000 --> 50:33.000
+upendra code wise
+
+50:33.000 --> 50:35.000
+code wise does that make sense
+
+50:35.000 --> 50:37.000
+promote does that also
+
+50:37.000 --> 50:39.000
+answer your question
+
+50:41.000 --> 50:43.000
+yes
+
+50:47.000 --> 50:49.000
+great great
+
+50:49.000 --> 50:51.000
+cool
+
+50:51.000 --> 50:53.000
+assuming it's all clear
+
+50:53.000 --> 50:55.000
+to everyone let's quickly
+
+50:55.000 --> 50:57.000
+take up question number two and question
+
+50:57.000 --> 50:59.000
+number two is an interesting one because
+
+50:59.000 --> 51:01.000
+in this question we will be learning about
+
+51:01.000 --> 51:03.000
+a new way to select elements
+
+51:03.000 --> 51:05.000
+that is query selector all
+
+51:05.000 --> 51:07.000
+so let's do that
+
+51:07.000 --> 51:09.000
+let's go through the question
+
+51:09.000 --> 51:11.000
+here it says
+
+51:13.000 --> 51:15.000
+here it says
+
+51:15.000 --> 51:17.000
+fix the list by
+
+51:17.000 --> 51:19.000
+inserting the missing element
+
+51:19.000 --> 51:21.000
+using query selector all and
+
+51:21.000 --> 51:23.000
+insert before
+
+51:23.000 --> 51:25.000
+so far we have been
+
+51:25.000 --> 51:27.000
+doing what we have been
+
+51:27.000 --> 51:29.000
+appending now
+
+51:29.000 --> 51:31.000
+we learn about two things
+
+51:31.000 --> 51:33.000
+we learn about query selector all
+
+51:33.000 --> 51:35.000
+and insert before
+
+51:35.000 --> 51:37.000
+as the name suggest
+
+51:37.000 --> 51:39.000
+we somehow have one
+
+51:39.000 --> 51:41.000
+li tag missing here right
+
+51:41.000 --> 51:43.000
+we have one two three four
+
+51:43.000 --> 51:45.000
+five six
+
+51:45.000 --> 51:47.000
+eight nine ten so seven
+
+51:47.000 --> 51:49.000
+is missing so I need to somehow
+
+51:49.000 --> 51:51.000
+target this eighth element maybe
+
+51:51.000 --> 51:53.000
+and I can insert before
+
+51:53.000 --> 51:55.000
+a li here
+
+51:55.000 --> 51:57.000
+achha
+
+51:57.000 --> 51:59.000
+so I am assuming ki
+
+51:59.000 --> 52:01.000
+this part
+
+52:01.000 --> 52:03.000
+would be easier right
+
+52:03.000 --> 52:05.000
+I can
+
+52:05.000 --> 52:07.000
+somehow
+
+52:07.000 --> 52:09.000
+say
+
+52:09.000 --> 52:11.000
+li
+
+52:11.000 --> 52:13.000
+new li
+
+52:15.000 --> 52:17.000
+lm
+
+52:19.000 --> 52:21.000
+right
+
+52:21.000 --> 52:23.000
+and in this all I have to say
+
+52:23.000 --> 52:25.000
+is seven
+
+52:25.000 --> 52:27.000
+so li I will make
+
+52:27.000 --> 52:29.000
+here
+
+52:29.000 --> 52:31.000
+the tricky bit
+
+52:31.000 --> 52:33.000
+so this I can definitely make
+
+52:33.000 --> 52:35.000
+using this way the tricky bit
+
+52:35.000 --> 52:37.000
+is this how can
+
+52:37.000 --> 52:39.000
+I make sure
+
+52:39.000 --> 52:41.000
+ki it gets inserted
+
+52:41.000 --> 52:43.000
+only at this place
+
+52:43.000 --> 52:45.000
+not at the start not
+
+52:45.000 --> 52:47.000
+at the end but
+
+52:47.000 --> 52:49.000
+exactly as this place
+
+52:49.000 --> 52:51.000
+right so this
+
+52:51.000 --> 52:53.000
+is the challenge that we are trying to
+
+52:53.000 --> 52:55.000
+solve here so let me
+
+52:55.000 --> 52:57.000
+comment this for now because we will
+
+52:57.000 --> 52:59.000
+come to that part so first we need to figure out
+
+52:59.000 --> 53:01.000
+how will I get to this particular
+
+53:01.000 --> 53:03.000
+element this particular space in between
+
+53:03.000 --> 53:05.000
+so any idea anyone
+
+53:05.000 --> 53:07.000
+anyone would like to take a rough guess
+
+53:07.000 --> 53:09.000
+you don't have to be right but
+
+53:09.000 --> 53:11.000
+you have to be active though
+
+53:11.000 --> 53:13.000
+so as you could see
+
+53:13.000 --> 53:15.000
+we have one two three four five six
+
+53:15.000 --> 53:17.000
+seven is missing
+
+53:17.000 --> 53:19.000
+then eight nine ten so seven
+
+53:19.000 --> 53:21.000
+is something that we have to
+
+53:21.000 --> 53:23.000
+integrate there so any
+
+53:23.000 --> 53:25.000
+idea
+
+53:25.000 --> 53:27.000
+okay
+
+53:27.000 --> 53:29.000
+you will take a query selector
+
+53:29.000 --> 53:31.000
+and target the parent
+
+53:31.000 --> 53:33.000
+element okay that makes
+
+53:33.000 --> 53:35.000
+sense so let's do that
+
+53:37.000 --> 53:39.000
+so
+
+53:39.000 --> 53:41.000
+what
+
+53:45.000 --> 53:47.000
+so
+
+53:51.000 --> 53:53.000
+let's say here we have net
+
+53:53.000 --> 53:55.000
+ul is equal
+
+53:55.000 --> 53:57.000
+to document dot
+
+53:57.000 --> 53:59.000
+query selector
+
+53:59.000 --> 54:01.000
+and here we are targeting
+
+54:01.000 --> 54:03.000
+ul okay parent is now targeted
+
+54:05.000 --> 54:07.000
+okay raja says query selector all
+
+54:07.000 --> 54:09.000
+okay so basically
+
+54:09.000 --> 54:11.000
+what i'll be getting is all of the list
+
+54:11.000 --> 54:13.000
+items so let me say let
+
+54:13.000 --> 54:15.000
+all list items
+
+54:15.000 --> 54:17.000
+is equal to
+
+54:17.000 --> 54:19.000
+document
+
+54:19.000 --> 54:21.000
+dot query
+
+54:21.000 --> 54:23.000
+selector all
+
+54:23.000 --> 54:25.000
+okay
+
+54:27.000 --> 54:29.000
+okay so now
+
+54:29.000 --> 54:31.000
+what is the difference
+
+54:31.000 --> 54:33.000
+in between
+
+54:35.000 --> 54:37.000
+all list items
+
+54:37.000 --> 54:39.000
+so what is the difference between query
+
+54:39.000 --> 54:41.000
+selector and query selector all
+
+54:41.000 --> 54:43.000
+what query selector does is that it will
+
+54:43.000 --> 54:45.000
+target the first element
+
+54:45.000 --> 54:47.000
+it will target the first element
+
+54:47.000 --> 54:49.000
+which matches the condition and it will
+
+54:49.000 --> 54:51.000
+call it a day
+
+54:51.000 --> 54:53.000
+but not in the case of query selector all
+
+54:53.000 --> 54:55.000
+it will keep on going and it
+
+54:55.000 --> 54:57.000
+will return you a list
+
+54:57.000 --> 54:59.000
+an array you could say
+
+54:59.000 --> 55:01.000
+an array of all the elements
+
+55:01.000 --> 55:03.000
+that basically passes this
+
+55:03.000 --> 55:05.000
+condition this selection criteria
+
+55:05.000 --> 55:07.000
+that you'll be
+
+55:07.000 --> 55:09.000
+writing here right so in our
+
+55:09.000 --> 55:11.000
+case all of this
+
+55:11.000 --> 55:13.000
+these items would be returned so if I go
+
+55:13.000 --> 55:15.000
+here you can see there are total and note
+
+55:15.000 --> 55:17.000
+list of nine items one two three
+
+55:17.000 --> 55:19.000
+four five six seven eight nine
+
+55:19.000 --> 55:21.000
+but we have ten why because we have
+
+55:21.000 --> 55:23.000
+one of the thing is missing here
+
+55:23.000 --> 55:25.000
+and I can go here you can see
+
+55:25.000 --> 55:27.000
+all those properties
+
+55:27.000 --> 55:29.000
+are present here
+
+55:29.000 --> 55:31.000
+so somewhere in here you see inner
+
+55:31.000 --> 55:33.000
+text is visible which says six so
+
+55:33.000 --> 55:35.000
+this thing this particular
+
+55:35.000 --> 55:37.000
+li is for sixth
+
+55:37.000 --> 55:39.000
+right likewise
+
+55:39.000 --> 55:41.000
+we get to four three two
+
+55:41.000 --> 55:43.000
+one and likewise
+
+55:43.000 --> 55:45.000
+cool so now
+
+55:45.000 --> 55:47.000
+so now the idea is
+
+55:47.000 --> 55:49.000
+key now I am able to access
+
+55:49.000 --> 55:51.000
+all of the list items I somehow
+
+55:51.000 --> 55:53.000
+need to get access to the
+
+55:53.000 --> 55:55.000
+eighth element
+
+55:55.000 --> 55:57.000
+right and which index
+
+55:57.000 --> 55:59.000
+is the eighth element in
+
+55:59.000 --> 56:01.000
+it is in
+
+56:01.000 --> 56:03.000
+sixth right
+
+56:03.000 --> 56:05.000
+it is on sixth index yes or no
+
+56:07.000 --> 56:09.000
+ah open the correct
+
+56:09.000 --> 56:11.000
+it is on seven but array
+
+56:11.000 --> 56:13.000
+starts from zero right
+
+56:13.000 --> 56:15.000
+so on zero we have
+
+56:15.000 --> 56:17.000
+one likewise it will keep
+
+56:17.000 --> 56:19.000
+on going and eighth is on sixth
+
+56:19.000 --> 56:21.000
+so which means
+
+56:21.000 --> 56:23.000
+ah correct
+
+56:23.000 --> 56:25.000
+so which means what
+
+56:25.000 --> 56:27.000
+I can do here is
+
+56:27.000 --> 56:29.000
+that to make things somewhat
+
+56:29.000 --> 56:31.000
+easier I can say
+
+56:31.000 --> 56:33.000
+const
+
+56:33.000 --> 56:35.000
+e i g h eighth
+
+56:35.000 --> 56:37.000
+l m is equal to
+
+56:37.000 --> 56:39.000
+all list items
+
+56:39.000 --> 56:41.000
+and the index was sixth
+
+56:41.000 --> 56:43.000
+so now I am on sixth element
+
+56:43.000 --> 56:45.000
+right so
+
+56:45.000 --> 56:47.000
+I can
+
+56:47.000 --> 56:49.000
+uncomment
+
+56:49.000 --> 56:51.000
+this
+
+56:51.000 --> 56:53.000
+now right
+
+56:53.000 --> 56:55.000
+and let me say
+
+56:55.000 --> 56:57.000
+seventh length
+
+56:57.000 --> 56:59.000
+right
+
+56:59.000 --> 57:01.000
+in this I can say
+
+57:01.000 --> 57:03.000
+inner text is equal to seven
+
+57:03.000 --> 57:05.000
+now all I have to do
+
+57:05.000 --> 57:07.000
+is insert it before
+
+57:07.000 --> 57:09.000
+this right but
+
+57:09.000 --> 57:11.000
+how does insert before works
+
+57:11.000 --> 57:13.000
+lets look at it
+
+57:25.000 --> 57:27.000
+so how does insert before
+
+57:27.000 --> 57:29.000
+works it takes
+
+57:29.000 --> 57:31.000
+a li element create a text node
+
+57:31.000 --> 57:33.000
+insert
+
+57:33.000 --> 57:35.000
+so
+
+57:35.000 --> 57:37.000
+insert basically
+
+57:37.000 --> 57:39.000
+takes in two things
+
+57:39.000 --> 57:41.000
+and
+
+57:41.000 --> 57:43.000
+hmm
+
+57:43.000 --> 57:45.000
+and
+
+57:45.000 --> 57:47.000
+I need to
+
+57:47.000 --> 57:49.000
+add a new node first
+
+57:49.000 --> 57:51.000
+in our case the new node is
+
+57:51.000 --> 57:53.000
+seventh element
+
+57:53.000 --> 57:55.000
+and I also need to add
+
+57:55.000 --> 57:57.000
+lay
+
+57:57.000 --> 57:59.000
+what are we inserting it before
+
+57:59.000 --> 58:01.000
+right in our case we are
+
+58:01.000 --> 58:03.000
+inserting it before the eighth element
+
+58:03.000 --> 58:05.000
+and all of this
+
+58:05.000 --> 58:07.000
+needs to be done on a list so which means
+
+58:07.000 --> 58:09.000
+a parent would also
+
+58:09.000 --> 58:11.000
+be needed does it work on click
+
+58:11.000 --> 58:13.000
+no it won't work
+
+58:13.000 --> 58:15.000
+on click up you know
+
+58:15.000 --> 58:17.000
+as soon as your javascript gets loaded
+
+58:17.000 --> 58:19.000
+as soon as your page
+
+58:19.000 --> 58:21.000
+gets loaded this particular script tag
+
+58:21.000 --> 58:23.000
+would be executed right there and
+
+58:23.000 --> 58:25.000
+then so it should work
+
+58:25.000 --> 58:27.000
+it should reflect right away so it won't
+
+58:27.000 --> 58:29.000
+wait for a click or anything
+
+58:29.000 --> 58:31.000
+cool
+
+58:31.000 --> 58:33.000
+we can make it
+
+58:33.000 --> 58:35.000
+so it also happens on click
+
+58:35.000 --> 58:37.000
+but as of now it would happen
+
+58:37.000 --> 58:39.000
+automatically
+
+58:39.000 --> 58:41.000
+as the page loads
+
+58:41.000 --> 58:43.000
+okay so now let us
+
+58:43.000 --> 58:45.000
+just say what is the parent element
+
+58:45.000 --> 58:47.000
+of all of the li's here
+
+58:49.000 --> 58:51.000
+anyone what is the parent
+
+58:51.000 --> 58:53.000
+element for all of the li's here
+
+58:53.000 --> 58:55.000
+remember all no matter
+
+58:55.000 --> 58:57.000
+how many the children only
+
+58:57.000 --> 58:59.000
+one parent can be there in this particular case
+
+58:59.000 --> 59:01.000
+that parent is ul so
+
+59:01.000 --> 59:03.000
+and do we have a
+
+59:03.000 --> 59:05.000
+javascript element here
+
+59:05.000 --> 59:07.000
+yes we have targeted
+
+59:07.000 --> 59:09.000
+the ul lm before
+
+59:09.000 --> 59:11.000
+only so i can say ul lm
+
+59:11.000 --> 59:13.000
+dot
+
+59:13.000 --> 59:15.000
+insert before
+
+59:15.000 --> 59:17.000
+what is the new node
+
+59:17.000 --> 59:19.000
+the new node is
+
+59:19.000 --> 59:21.000
+seventh lm
+
+59:21.000 --> 59:23.000
+and what are we inserting it before
+
+59:27.000 --> 59:29.000
+what are we inserting this seventh lm
+
+59:29.000 --> 59:31.000
+before
+
+59:33.000 --> 59:35.000
+correct we are inserting it before eighth lm
+
+59:35.000 --> 59:37.000
+and we have targeted it
+
+59:37.000 --> 59:39.000
+here so which means
+
+59:39.000 --> 59:41.000
+all i need to do is create it here
+
+59:41.000 --> 59:43.000
+right
+
+59:43.000 --> 59:45.000
+cool
+
+59:45.000 --> 59:47.000
+what about if we have multiple
+
+59:47.000 --> 59:49.000
+ul then how can we
+
+59:49.000 --> 59:51.000
+check for parent in that case you need
+
+59:51.000 --> 59:53.000
+to apply some sort of id or class
+
+59:53.000 --> 59:55.000
+right
+
+59:55.000 --> 59:57.000
+so that is the only way
+
+59:57.000 --> 59:59.000
+cool
+
+59:59.000 --> 01:00:01.000
+now
+
+01:00:01.000 --> 01:00:03.000
+our code
+
+01:00:03.000 --> 01:00:05.000
+looks somewhat fine
+
+01:00:05.000 --> 01:00:07.000
+i am targeting the parent element
+
+01:00:07.000 --> 01:00:09.000
+i am getting
+
+01:00:09.000 --> 01:00:11.000
+all of the list from list i am getting
+
+01:00:11.000 --> 01:00:13.000
+the eighth element i am creating
+
+01:00:13.000 --> 01:00:15.000
+a new element li and in
+
+01:00:15.000 --> 01:00:17.000
+that li i am setting the value as
+
+01:00:17.000 --> 01:00:19.000
+7 and ultimately i am
+
+01:00:19.000 --> 01:00:21.000
+on this particular parent lm
+
+01:00:21.000 --> 01:00:23.000
+i am inserting seventh
+
+01:00:23.000 --> 01:00:25.000
+element before eighth element
+
+01:00:25.000 --> 01:00:27.000
+now the best thing about
+
+01:00:27.000 --> 01:00:29.000
+these commands is that you could read it like a
+
+01:00:29.000 --> 01:00:31.000
+sentence so
+
+01:00:31.000 --> 01:00:33.000
+if i were to read this line i would say
+
+01:00:33.000 --> 01:00:35.000
+on
+
+01:00:35.000 --> 01:00:37.000
+ul lm insert before
+
+01:00:37.000 --> 01:00:39.000
+seventh lm
+
+01:00:39.000 --> 01:00:41.000
+eighth lm
+
+01:00:41.000 --> 01:00:43.000
+so basically it is saying
+
+01:00:43.000 --> 01:00:45.000
+for ul lm
+
+01:00:45.000 --> 01:00:47.000
+insert seventh element
+
+01:00:47.000 --> 01:00:49.000
+before eighth
+
+01:00:49.000 --> 01:00:51.000
+element right so when i save this
+
+01:00:51.000 --> 01:00:53.000
+and i go here it should probably
+
+01:00:53.000 --> 01:00:55.000
+reflect and we have
+
+01:00:55.000 --> 01:00:57.000
+7 here
+
+01:00:57.000 --> 01:00:59.000
+so it works
+
+01:00:59.000 --> 01:01:01.000
+basically
+
+01:01:01.000 --> 01:01:03.000
+was everyone able
+
+01:01:03.000 --> 01:01:05.000
+to follow this question
+
+01:01:09.000 --> 01:01:11.000
+yes
+
+01:01:11.000 --> 01:01:13.000
+tanu
+
+01:01:13.000 --> 01:01:15.000
+sambit
+
+01:01:15.000 --> 01:01:17.000
+sharanya
+
+01:01:17.000 --> 01:01:19.000
+vineshwar upendra
+
+01:01:19.000 --> 01:01:21.000
+shambhuraj
+
+01:01:21.000 --> 01:01:23.000
+shashank
+
+01:01:23.000 --> 01:01:25.000
+shashank
+
+01:01:25.000 --> 01:01:27.000
+prajakta
+
+01:01:27.000 --> 01:01:29.000
+pramod krishna
+
+01:01:29.000 --> 01:01:31.000
+everyone was able to follow right
+
+01:01:31.000 --> 01:01:33.000
+are you finding this question somewhat
+
+01:01:33.000 --> 01:01:35.000
+interesting
+
+01:01:35.000 --> 01:01:37.000
+yes
+
+01:01:39.000 --> 01:01:41.000
+because next question onwards we are
+
+01:01:41.000 --> 01:01:43.000
+upping the level a bit
+
+01:01:43.000 --> 01:01:45.000
+what if we have to
+
+01:01:45.000 --> 01:01:47.000
+search and insert
+
+01:01:47.000 --> 01:01:49.000
+we are searching and inserting right
+
+01:01:49.000 --> 01:01:51.000
+so right now
+
+01:01:51.000 --> 01:01:53.000
+i knew for a fact that eighth element would be
+
+01:01:53.000 --> 01:01:55.000
+existing here you can also
+
+01:01:55.000 --> 01:01:57.000
+search also but that depends
+
+01:01:57.000 --> 01:01:59.000
+how would you search and
+
+01:01:59.000 --> 01:02:01.000
+what are you searching for so you need
+
+01:02:01.000 --> 01:02:03.000
+to have some sort of clue there
+
+01:02:03.000 --> 01:02:05.000
+based on that you can write
+
+01:02:05.000 --> 01:02:07.000
+your logic
+
+01:02:07.000 --> 01:02:09.000
+cool
+
+01:02:13.000 --> 01:02:15.000
+cool then everyone
+
+01:02:15.000 --> 01:02:17.000
+it's been almost
+
+01:02:17.000 --> 01:02:19.000
+one hour would you like a break
+
+01:02:19.000 --> 01:02:21.000
+should we move on to the next question
+
+01:02:21.000 --> 01:02:23.000
+this is a somewhat
+
+01:02:23.000 --> 01:02:25.000
+smaller only
+
+01:02:25.000 --> 01:02:27.000
+it would take hardly five minutes for
+
+01:02:27.000 --> 01:02:29.000
+to solve this
+
+01:02:29.000 --> 01:02:31.000
+so let's do one thing we will solve this question
+
+01:02:31.000 --> 01:02:33.000
+then we will take a quick break
+
+01:02:33.000 --> 01:02:35.000
+cool
+
+01:02:35.000 --> 01:02:37.000
+cool then let's
+
+01:02:37.000 --> 01:02:39.000
+go ahead and solve this
+
+01:02:39.000 --> 01:02:41.000
+question then
+
+01:02:49.000 --> 01:02:51.000
+so
+
+01:03:05.000 --> 01:03:07.000
+so the problem is fix
+
+01:03:07.000 --> 01:03:09.000
+the mathematical problem using simply
+
+01:03:09.000 --> 01:03:11.000
+js right
+
+01:03:11.000 --> 01:03:13.000
+what is the problem
+
+01:03:13.000 --> 01:03:15.000
+does it look wrong
+
+01:03:15.000 --> 01:03:17.000
+yes it does and how
+
+01:03:17.000 --> 01:03:19.000
+can we solve it
+
+01:03:21.000 --> 01:03:23.000
+the ideal answer to
+
+01:03:23.000 --> 01:03:25.000
+what is 2 plus 2 is it
+
+01:03:25.000 --> 01:03:27.000
+22 yes or no
+
+01:03:29.000 --> 01:03:31.000
+correct almost everyone
+
+01:03:31.000 --> 01:03:33.000
+is saying 4 i think
+
+01:03:33.000 --> 01:03:35.000
+my math is wrong
+
+01:03:35.000 --> 01:03:37.000
+i have written 22 here so now that everyone
+
+01:03:37.000 --> 01:03:39.000
+is saying 4 let's make it 4 but
+
+01:03:39.000 --> 01:03:41.000
+how can we do so just using javascript
+
+01:03:41.000 --> 01:03:43.000
+and nothing else
+
+01:03:43.000 --> 01:03:45.000
+right how
+
+01:03:45.000 --> 01:03:47.000
+can we do that
+
+01:03:47.000 --> 01:03:49.000
+so first of all obviously i will have
+
+01:03:49.000 --> 01:03:51.000
+to target
+
+01:03:51.000 --> 01:03:53.000
+the p tag here
+
+01:03:53.000 --> 01:03:55.000
+right
+
+01:03:55.000 --> 01:03:57.000
+so let's target
+
+01:03:57.000 --> 01:03:59.000
+let
+
+01:03:59.000 --> 01:04:01.000
+para lm
+
+01:04:01.000 --> 01:04:03.000
+is equal to document dot
+
+01:04:03.000 --> 01:04:05.000
+get
+
+01:04:05.000 --> 01:04:07.000
+not get
+
+01:04:07.000 --> 01:04:09.000
+let's say query selector only
+
+01:04:09.000 --> 01:04:11.000
+query selector
+
+01:04:11.000 --> 01:04:13.000
+and let's make it p now
+
+01:04:13.000 --> 01:04:15.000
+this is a test for you guys now tell me
+
+01:04:15.000 --> 01:04:17.000
+would this target both
+
+01:04:17.000 --> 01:04:19.000
+of the p's or would it target just
+
+01:04:19.000 --> 01:04:21.000
+one p
+
+01:04:21.000 --> 01:04:23.000
+both or one
+
+01:04:23.000 --> 01:04:25.000
+we have used
+
+01:04:25.000 --> 01:04:27.000
+query selector
+
+01:04:27.000 --> 01:04:29.000
+correct correct so muneshwar
+
+01:04:29.000 --> 01:04:31.000
+went a step further and provided
+
+01:04:31.000 --> 01:04:33.000
+extra information it will also target
+
+01:04:33.000 --> 01:04:35.000
+a first one this is what i was going to
+
+01:04:35.000 --> 01:04:37.000
+ask next
+
+01:04:37.000 --> 01:04:39.000
+in case one then which one
+
+01:04:39.000 --> 01:04:41.000
+but ha so basically since we are using
+
+01:04:41.000 --> 01:04:43.000
+query selector it will be targeting
+
+01:04:43.000 --> 01:04:45.000
+the first element which matches this
+
+01:04:45.000 --> 01:04:47.000
+condition in our case it's line
+
+01:04:47.000 --> 01:04:49.000
+number 11 so which is
+
+01:04:49.000 --> 01:04:51.000
+this particular
+
+01:04:51.000 --> 01:04:53.000
+one right so let's fix
+
+01:04:53.000 --> 01:04:55.000
+math on that one
+
+01:04:55.000 --> 01:04:57.000
+and the simplest
+
+01:04:57.000 --> 01:04:59.000
+way would be to say
+
+01:04:59.000 --> 01:05:01.000
+para lm
+
+01:05:01.000 --> 01:05:03.000
+dot
+
+01:05:03.000 --> 01:05:05.000
+error text
+
+01:05:05.000 --> 01:05:07.000
+is equal to
+
+01:05:07.000 --> 01:05:09.000
+2 plus 2
+
+01:05:09.000 --> 01:05:11.000
+is equal to 4
+
+01:05:11.000 --> 01:05:13.000
+right let's go here
+
+01:05:13.000 --> 01:05:15.000
+and change this to q3
+
+01:05:15.000 --> 01:05:17.000
+and yes it is
+
+01:05:17.000 --> 01:05:19.000
+working
+
+01:05:19.000 --> 01:05:21.000
+cool
+
+01:05:23.000 --> 01:05:25.000
+so we are able to target a first
+
+01:05:25.000 --> 01:05:27.000
+element also and we are able to change
+
+01:05:27.000 --> 01:05:29.000
+that also in case you wanted
+
+01:05:29.000 --> 01:05:31.000
+to change for both that
+
+01:05:31.000 --> 01:05:33.000
+anyway we will see an example of
+
+01:05:33.000 --> 01:05:35.000
+this in upcoming question
+
+01:05:35.000 --> 01:05:37.000
+but basically we will be using query selector
+
+01:05:37.000 --> 01:05:39.000
+all and in the call will map
+
+01:05:39.000 --> 01:05:41.000
+through each of the elements which
+
+01:05:41.000 --> 01:05:43.000
+is there and i will be
+
+01:05:43.000 --> 01:05:45.000
+applying the same logic
+
+01:05:45.000 --> 01:05:47.000
+for each of those element but we
+
+01:05:47.000 --> 01:05:49.000
+will see an example for this in upcoming
+
+01:05:49.000 --> 01:05:51.000
+questions
+
+01:05:51.000 --> 01:05:53.000
+cool then
+
+01:05:53.000 --> 01:05:55.000
+now
+
+01:05:57.000 --> 01:05:59.000
+just a second
+
+01:05:59.000 --> 01:06:01.000
+it is
+
+01:06:01.000 --> 01:06:03.000
+10.05 i think
+
+01:06:03.000 --> 01:06:05.000
+it is 10.05 let's take a break for
+
+01:06:05.000 --> 01:06:07.000
+5 minutes
+
+01:06:07.000 --> 01:06:09.000
+we will
+
+01:06:11.000 --> 01:06:13.000
+continue
+
+01:06:13.000 --> 01:06:15.000
+at
+
+01:06:15.000 --> 01:06:17.000
+10.10
+
+01:06:17.000 --> 01:06:19.000
+cool
+
+01:06:19.000 --> 01:06:21.000
+so we will be continuing at 10.10
+
+01:06:21.000 --> 01:06:23.000
+meanwhile go for a walk
+
+01:06:23.000 --> 01:06:25.000
+stretch your legs
+
+01:06:25.000 --> 01:06:27.000
+and we will be solving the rest of
+
+01:06:27.000 --> 01:06:29.000
+the questions starting 10.10
+
+01:06:29.000 --> 01:06:31.000
+meanwhile if any one of you has
+
+01:06:31.000 --> 01:06:33.000
+any doubts regarding
+
+01:06:33.000 --> 01:06:35.000
+anything that we have discussed so far
+
+01:06:35.000 --> 01:06:37.000
+now is the time
+
+01:06:49.000 --> 01:06:51.000
+anything you all want to know
+
+01:06:51.000 --> 01:06:53.000
+anything related to the question
+
+01:06:53.000 --> 01:06:55.000
+anything related to any topic
+
+01:06:55.000 --> 01:06:57.000
+that was not clear that we have covered so
+
+01:06:57.000 --> 01:06:59.000
+far anything
+
+01:07:03.000 --> 01:07:05.000
+related to any topic
+
+01:07:05.000 --> 01:07:07.000
+that was not clear that we have covered so far
+
+01:07:07.000 --> 01:07:09.000
+so is
+
+01:07:09.000 --> 01:07:11.000
+everyone able to follow
+
+01:07:11.000 --> 01:07:13.000
+so is everyone able to follow
+
+01:07:13.000 --> 01:07:15.000
+Abhinav, Abhimanyu, Aima,
+
+01:07:15.000 --> 01:07:17.000
+Ashish, Ashwini, Chandni
+
+01:07:17.000 --> 01:07:19.000
+Dhanraj, Hevant,
+
+01:07:19.000 --> 01:07:21.000
+Kishore, Krishna,
+
+01:07:21.000 --> 01:07:23.000
+Munisura, Pradeep, Prajakta,
+
+01:07:23.000 --> 01:07:25.000
+Pramod, Raja,
+
+01:07:25.000 --> 01:07:27.000
+Rita, Sambhya, Sharanya,
+
+01:07:27.000 --> 01:07:29.000
+Tanu, Tejal, Vipendra, Vigneshwar,
+
+01:07:29.000 --> 01:07:31.000
+Priyanko, Rohit,
+
+01:07:31.000 --> 01:07:33.000
+Shambhu, Raja, Shashank
+
+01:07:53.000 --> 01:07:55.000
+Next question that we will be solving
+
+01:07:55.000 --> 01:07:57.000
+is going to be a tricky one
+
+01:07:57.000 --> 01:07:59.000
+and
+
+01:07:59.000 --> 01:08:01.000
+we will see
+
+01:08:01.000 --> 01:08:03.000
+but it is going to be a tricky one
+
+01:08:03.000 --> 01:08:05.000
+yes that is correct
+
+01:08:05.000 --> 01:08:07.000
+that is correct
+
+01:08:29.000 --> 01:08:31.000
+if
+
+01:08:31.000 --> 01:08:33.000
+if
+
+01:08:33.000 --> 01:08:35.000
+if
+
+01:08:35.000 --> 01:08:37.000
+if
+
+01:08:37.000 --> 01:08:39.000
+if
+
+01:08:39.000 --> 01:08:41.000
+if
+
+01:08:41.000 --> 01:08:43.000
+if
+
+01:08:43.000 --> 01:08:45.000
+if
+
+01:08:45.000 --> 01:08:47.000
+if
+
+01:08:47.000 --> 01:08:49.000
+if
+
+01:08:49.000 --> 01:08:51.000
+we may
+
+01:08:51.000 --> 01:08:52.000
+We also go
+
+01:08:52.000 --> 01:08:54.000
+we also go take forever
+
+01:08:54.000 --> 01:08:56.000
+we also take forever
+
+01:08:56.000 --> 01:08:58.000
+go there for you
+
+01:08:58.000 --> 01:09:00.060
+you
+
+01:09:28.000 --> 01:09:30.060
+you
+
+01:09:58.000 --> 01:10:21.060
+you
+
+01:10:21.060 --> 01:10:47.500
+Yes, so this is one tiny thing that I used to do is so this is very very simple question
+
+01:10:47.500 --> 01:10:53.540
+I'll be launching a pool and it is sort of like a game which no one is able to beat me so far
+
+01:10:53.540 --> 01:11:00.580
+is you need to match there are only two options and you guys need to match some monkey it somehow
+
+01:11:00.580 --> 01:11:08.380
+ends up with 50 50 percent for both of the options so let's see if so far no one has been able to
+
+01:11:08.380 --> 01:11:18.020
+beat me at this as in king or no class whatsoever anyone has been able to score 50 50 landed the
+
+01:11:18.020 --> 01:11:24.700
+poll result at 50 50 yet let's see if you guys are able to do that or not it's launching the poll
+
+01:11:24.700 --> 01:11:25.540
+now
+
+01:11:37.300 --> 01:11:48.220
+it's already 100% oh 71 29 I think again I'll be winning this one again no one would be able
+
+01:11:48.220 --> 01:12:00.060
+to beat me and this particular thing once again 50 50 is hard now I told you it's a very tricky
+
+01:12:00.060 --> 01:12:06.460
+thing at one point after scale you'd be you might be able to crack interviews but this question
+
+01:12:06.460 --> 01:12:19.340
+no one's been able to beat me at this great cool let's begin with the second half of the lecture
+
+01:12:19.340 --> 01:12:29.500
+now take now that everyone is back let me ask this again is these three questions clear to
+
+01:12:29.500 --> 01:12:33.540
+everyone especially what all things we are learning what all tools we are learning to
+
+01:12:33.540 --> 01:12:41.540
+solve these be it this query selector method like get element by ID query selector query
+
+01:12:41.540 --> 01:12:46.780
+selector all get element by class name or beat about events active and listener and all of those
+
+01:12:46.780 --> 01:12:55.340
+things is everyone able to follow for these yes I'm just an FYI in case you have any doubts
+
+01:12:55.340 --> 01:13:05.380
+related to any of these things feel free to ask now with no doubt so far let's move on to the
+
+01:13:05.380 --> 01:13:13.620
+big boss question like it's a one of the big question here so let's move on question four
+
+01:13:13.620 --> 01:13:27.060
+okay that's a big one as I could see let me open the question here directly first okay so there
+
+01:13:27.060 --> 01:13:35.140
+are a number of boxes here fine and okay let's see what the question is write a script which
+
+01:13:35.140 --> 01:13:43.740
+fetches the data color attribute of the card on double click on them and attaches the fresh
+
+01:13:43.740 --> 01:13:53.260
+glass to that card also change the data color attribute to used okay so you get right what
+
+01:13:53.260 --> 01:14:15.580
+needs to be happened here cool to get so what needs to be happen here is we have the style
+
+01:14:15.580 --> 01:14:23.180
+sheet already present with us right as you could see there is body blue green red card so we
+
+01:14:23.300 --> 01:14:28.980
+have three such classes also present here blue green and red so what they're asking is key on
+
+01:14:28.980 --> 01:14:35.860
+any of these square if I were to double click right if I were to double click I somehow need
+
+01:14:35.860 --> 01:14:44.380
+to fetch the color on them I like in this particular case for the first card it is blue so I need to
+
+01:14:44.380 --> 01:14:54.700
+fetch this blue and put it here right and change this blue to used when I do this you would see
+
+01:14:54.700 --> 01:15:04.700
+it is not turned blue right same thing if I target this this one is red I need to copy this go here
+
+01:15:04.700 --> 01:15:13.060
+paste red and change this red to used key as in case someone has already clicked on it so this
+
+01:15:13.060 --> 01:15:35.380
+is what that has to be done right here so cool let's try and solve this so before we proceed is
+
+01:15:35.860 --> 01:15:45.540
+clear is the end goal clear to everyone what has to be done yes take it so let's get coding for
+
+01:15:45.540 --> 01:15:55.860
+this so what should be a first step somehow I need to attach an event listener on all of these
+
+01:15:55.860 --> 01:16:01.620
+elements from what I can think right here I need to attach an event listener in that event listener
+
+01:16:01.620 --> 01:16:08.420
+callback I'll be writing this logic key ticket if anyone were to double click on it then launch
+
+01:16:08.420 --> 01:16:17.180
+this thing right basically launch this particular function in that function I somehow need to fetch
+
+01:16:17.180 --> 01:16:27.260
+the value from this particular attribute and get it here right so there is something called get
+
+01:16:27.300 --> 01:16:36.380
+attribute and set attribute that we have to learn for this right let me mention it here there is
+
+01:16:36.380 --> 01:16:54.340
+get attribute and there is set attribute right these two get attribute is somewhat simple this
+
+01:16:54.340 --> 01:17:14.700
+method returns the value of the elements attribute in our case the attribute that
+
+01:17:14.700 --> 01:17:21.820
+we are targeting is data color so using this get attribute method I'll be somehow fetching the
+
+01:17:21.820 --> 01:17:29.100
+value of that data and set attribute because after changing the color putting the color here in
+
+01:17:29.100 --> 01:17:36.460
+classes I need to change this to used right so that can be done that can be done using set
+
+01:17:36.460 --> 01:17:57.020
+attribute right it basically sets the new value of the elements attribute in our case
+
+01:17:57.020 --> 01:18:04.660
+what is the new value that we are looking at correct the new value that we are looking at
+
+01:18:04.660 --> 01:18:15.780
+is used yes okay so let's get rolling we need now I know the new thing that I have to do here
+
+01:18:15.780 --> 01:18:33.580
+is use get attribute and set attribute right so let's get started so what should be my first
+
+01:18:33.620 --> 01:18:50.180
+step any idea I say fire away on double click because I want my callback to be executed whenever
+
+01:18:50.180 --> 01:18:57.580
+someone double clicks on something so I will listen to double click off card class because
+
+01:18:57.580 --> 01:19:04.940
+I see card class is common across all right so I what I could have done I could have targeted
+
+01:19:04.940 --> 01:19:10.780
+body and inside of this body I could have simply passed all of the elements inside of it but I
+
+01:19:10.780 --> 01:19:16.180
+think it would be much simpler because all of them has card elements sorry card class so I can
+
+01:19:16.180 --> 01:19:22.500
+simply use query selector all in this particular case right I can use query selector all and
+
+01:19:22.540 --> 01:19:26.980
+and am I audible
+
+01:19:31.860 --> 01:19:41.420
+cool cool cool so I could use query selector all and I can get all of these elements T now after
+
+01:19:41.420 --> 01:19:48.020
+using query selector all I am putting a function on double click right so there must be an event
+
+01:19:48.020 --> 01:19:59.260
+for double click event double click JavaScript in these case you don't need to remember anything
+
+01:19:59.260 --> 01:20:06.660
+right so you can mostly rely on Google for these right okay so this event name is double click
+
+01:20:06.660 --> 01:20:14.340
+D V L C L I C K so the normal click was simple click in here if I if I'm listening to a double
+
+01:20:14.340 --> 01:20:20.500
+click so that is this one so whenever a double click happens in that case I have to do something
+
+01:20:20.500 --> 01:20:29.980
+here right so I am I will be listening to double click on this what would be the next step I need
+
+01:20:29.980 --> 01:20:39.140
+to somehow fetch the data color this could be done using get attribute right third would be
+
+01:20:39.140 --> 01:21:07.060
+at the first attribute value as class right and after that I need to change data color to
+
+01:21:07.580 --> 01:21:19.460
+used right and this would be done using set attribute is the plan clear to everyone that
+
+01:21:19.460 --> 01:21:24.820
+what we what we will be doing to solve this particular problem we'll be listening to the
+
+01:21:24.820 --> 01:21:33.900
+fire we'll be applying a double click we'll be listening to the double click event and in
+
+01:21:33.900 --> 01:21:40.140
+the callback I'll be doing these three things I'll be fetching the data color using get attribute
+
+01:21:40.140 --> 01:21:48.100
+I'll be taking the first value and put it in X class and as third point I'll take said attribute
+
+01:21:48.100 --> 01:21:53.980
+and set this particular value data color of that particular thing that was double click to used
+
+01:21:53.980 --> 01:22:04.060
+right I think it would work I think it would work right let's give this a try so first thing
+
+01:22:04.060 --> 01:22:12.460
+first I need to attach an event listener to all of them right so let me target const cards is
+
+01:22:12.460 --> 01:22:21.660
+equal to document dot query selector all help me with the query what should I write the query
+
+01:22:21.660 --> 01:22:31.620
+selector value I'm targeting all the card using card class so how should I target what what we
+
+01:22:31.620 --> 01:22:39.700
+should be writing here correct some would you you need to add dot also because this is query
+
+01:22:39.700 --> 01:22:44.300
+selector on it does not know whether you're talking about ID or class or what so which means
+
+01:22:44.500 --> 01:22:52.840
+you also need to add a dot so correct everyone I need to do dot card now if I were to console
+
+01:22:52.840 --> 01:23:02.340
+dot log cards you would see I'm getting a list right I'm getting a list and it has all of these
+
+01:23:02.340 --> 01:23:17.940
+cards right now all I have to do now is loop right all I have to do is loop so let's say for simple
+
+01:23:17.940 --> 01:23:27.980
+let I is equal to zero I is less than cards dot length as you could see it also gives me the length
+
+01:23:27.980 --> 01:23:36.060
+property at the end as well it is 10 right so this value would be there and I can do I plus plus
+
+01:23:36.060 --> 01:23:53.780
+and now tell me I can do const current card is equal to cards I and in that current card dot add
+
+01:23:53.820 --> 01:24:07.980
+event listener what event are we listening to what event are we listening to correct correct
+
+01:24:07.980 --> 01:24:15.420
+Shambhuja Pramod we are listening to DBL click right and now let me console here first keep
+
+01:24:15.420 --> 01:24:25.860
+whether it is working hello let's see I'm going to single click on it here first nothing gets
+
+01:24:25.860 --> 01:24:34.300
+logged here now I'm going to double click on it see it's working double click let me also
+
+01:24:34.300 --> 01:24:45.820
+add double click and index hello from index I so now I would also be knowing the index that
+
+01:24:45.820 --> 01:24:53.820
+we are clicking so do you know which card this is what is the index of this card yes or no I
+
+01:24:53.820 --> 01:25:02.980
+can tell this no no it's not zero how can this be zero there are so many above it right so randomly
+
+01:25:03.020 --> 01:25:10.140
+what do you think is the index of this card do we know correct you won't you can't tell
+
+01:25:10.140 --> 01:25:14.780
+but I can because I have written the JavaScript for it which will give me the index on double
+
+01:25:14.780 --> 01:25:20.260
+click so all I have to do is double click and I get five so this is on index five what about
+
+01:25:20.260 --> 01:25:30.100
+this one seven nine all of this is happening on double click not on single click right so now
+
+01:25:30.100 --> 01:25:35.940
+are you guys able to somehow make an image key how those Rockstar developers that you are
+
+01:25:35.940 --> 01:25:41.140
+thinking these are the basic concept that everyone follows right they don't change for everyone
+
+01:25:41.140 --> 01:25:47.980
+better you are sitting at company a or company B this logic this learning these fundamentals
+
+01:25:47.980 --> 01:25:55.300
+are same for all of them right all of them no key or double click this is how you will fire an event
+
+01:25:55.300 --> 01:26:10.940
+right cool so this is all your firing element ticket so now my first task is done now the second
+
+01:26:10.940 --> 01:26:18.500
+task is to get a data color using get attribute right let's do that how do you suggest we get
+
+01:26:18.500 --> 01:26:23.660
+the value first of all we need to get an event here because we are listening to a certain event
+
+01:26:23.660 --> 01:26:34.060
+it will give us the data about that element also right correct so here if I were to say let's say
+
+01:26:34.060 --> 01:26:47.060
+on story console dot log event I'm getting this thing in here I have target in this target I have
+
+01:26:47.060 --> 01:26:54.840
+the card which I want to make changes to right so what if I want to target event dot target right
+
+01:26:54.840 --> 01:27:04.300
+see I'm getting green this one I'm getting blue this one I'm getting blue this one also
+
+01:27:04.300 --> 01:27:15.580
+I'm getting blue this one I'm getting green right so so far so good right now how can I access a
+
+01:27:15.620 --> 01:27:24.660
+certain value inside of this right I want to get a attribute on this particular thing so if I were
+
+01:27:24.660 --> 01:27:32.900
+to expand this go to target you see we have so many things here and in here we
+
+01:27:32.900 --> 01:27:46.100
+somewhere in here that particular method would be present that we are looking for see data
+
+01:27:46.100 --> 01:27:52.140
+color and to access this data color get attribute method is present somewhere in here so let's
+
+01:27:52.140 --> 01:28:01.900
+try and access it right let's say const class to be added is equal to event dot
+
+01:28:01.900 --> 01:28:17.700
+target dot get attribute data color right this is the name of the attribute
+
+01:28:17.860 --> 01:28:33.020
+you're targeting right now let me try console it and see if you are able to get it class to
+
+01:28:33.020 --> 01:28:52.780
+see we're getting green blue blue red yes so we are able to get the class also so which
+
+01:28:52.780 --> 01:28:59.900
+means this part is also done what is the next step I somehow need to take this class to be
+
+01:28:59.900 --> 01:29:09.180
+added and include it here in class right correct so there is something called class list that is
+
+01:29:09.180 --> 01:29:18.700
+present on each of these things suppose if I were to open this go to target right here there would
+
+01:29:18.700 --> 01:29:28.660
+be something called class list somewhere classless see you have a class with present where it says
+
+01:29:28.660 --> 01:29:35.660
+it only has one card class right so which means key in here you have certain methods which are
+
+01:29:35.660 --> 01:29:42.260
+available right on this class list I can add contain entries for each to all of these things
+
+01:29:42.260 --> 01:29:50.700
+so what I want to do do we want to remove anything from here yes or no correct no we
+
+01:29:50.700 --> 01:29:56.500
+don't want to remove anything from here the point says add the fetched attribute value to the class
+
+01:29:56.500 --> 01:30:03.380
+the we are able to fetch attribute here to add it I can simply use this add method right which
+
+01:30:03.380 --> 01:30:10.860
+is present on class list which is present on the target element right so what I can say here is
+
+01:30:10.860 --> 01:30:23.100
+simply it is as simple as invoking a method right so what I can say I can say even dot target dot
+
+01:30:23.300 --> 01:30:37.020
+class list dot add what are we adding class to be added right let's save this finger crossed if
+
+01:30:37.020 --> 01:30:50.820
+it works let's see it's not working why are we missing something here event or target let's
+
+01:30:50.860 --> 01:30:59.620
+see if we are we are getting the values or not right let's start there okay my bad I think it
+
+01:30:59.620 --> 01:31:05.980
+added oh yes it added we had hard-coded it here I've added a string here so I need the
+
+01:31:05.980 --> 01:31:17.540
+value not the class we saw no changes here why how we are getting the path as in for what path
+
+01:31:17.540 --> 01:31:30.820
+okay meanwhile can anyone tell me what what did we do wrong why even though class to be added
+
+01:31:30.820 --> 01:31:37.860
+was written here but still no change was observed here any idea what could be the reason the last
+
+01:31:37.860 --> 01:31:43.380
+which you written this one okay just give me a minute I'll get to it I've been up firstly how
+
+01:31:43.380 --> 01:31:51.460
+about this you tell me why does this not work okay class to be added and a class was added here
+
+01:31:51.460 --> 01:31:58.100
+but we don't see any difference here that is fine that is fine it was hard-coded but why don't we
+
+01:31:58.100 --> 01:32:03.620
+see any difference here and there's a very simple reason for this like very simple reason
+
+01:32:03.620 --> 01:32:07.540
+key why don't we see any difference even after a new class was added
+
+01:32:07.540 --> 01:32:18.180
+correct correct so this is a very typical thing you see thing that I've done there is no class
+
+01:32:18.180 --> 01:32:24.540
+written here right we have only classes present here for blue green and red so even though this
+
+01:32:24.540 --> 01:32:31.500
+thing was added here class to be added we didn't see any differences so which is why I just removed
+
+01:32:31.580 --> 01:32:43.180
+that thing here and now yes so it's working everyone which is interesting as you could see
+
+01:32:43.180 --> 01:32:50.780
+this one is blue on clicking with this this would turn blue see we are legit adding interactivity
+
+01:32:50.780 --> 01:32:56.540
+to our live website if that's not interesting that is like that should that should be like
+
+01:32:56.540 --> 01:33:05.980
+unica moments for everyone right okay now you are asking something right can you show once I forget
+
+01:33:05.980 --> 01:33:12.060
+where you get you are getting the path the last which you had written I think you're talking
+
+01:33:12.060 --> 01:33:23.580
+about this path right class list add all of these things right okay I have unmuted you
+
+01:33:27.020 --> 01:33:35.500
+yeah hi Sasha can you able to hear me yes yes loud and clear last line of code event dot target
+
+01:33:35.500 --> 01:33:41.900
+dot class list dot add like this line you have taken from some classes right so we are from
+
+01:33:41.900 --> 01:33:50.380
+where you are accessing their that path I just want to see once so let me go through it I'm
+
+01:33:50.380 --> 01:34:00.300
+meeting you now right yeah cool so that's a good question let's go through it once again I'll be
+
+01:34:00.300 --> 01:34:09.340
+logging it the event here and sold out log and this particular event will only be fired when I
+
+01:34:09.340 --> 01:34:15.660
+double click on it right so let's see I say double click on this one I get an event in this event it
+
+01:34:15.660 --> 01:34:22.700
+mentions key on what was the target what was the target that it received so this event is something
+
+01:34:23.420 --> 01:34:30.140
+that we are receiving right this is the event on double click on some element right in this
+
+01:34:30.140 --> 01:34:35.900
+particular case it's this element here if you were to go to target this target basically points to
+
+01:34:35.900 --> 01:34:45.180
+this element in down right if I were to click here I think see it takes me back here so inside
+
+01:34:45.180 --> 01:34:51.740
+of event dot target I've now expanded the target also you know I can scroll down scroll down scroll
+
+01:34:51.740 --> 01:34:57.980
+down or no matter what classes are there all of those classes will be present inside of this value
+
+01:34:57.980 --> 01:35:04.380
+class list no I'm not sure key whether uh has hasn't covered prototype with chaining with you
+
+01:35:04.700 --> 01:35:06.300
+a prototype inheritance
+
+01:35:11.260 --> 01:35:17.020
+yes he has right great great great so this would be much easier for you to understand now
+
+01:35:17.020 --> 01:35:22.460
+key now see there is this class list but do you see any functions here even though I written
+
+01:35:22.460 --> 01:35:28.220
+class list dot add but I don't see any function on this particular classes right so which means
+
+01:35:28.220 --> 01:35:35.340
+key it is present here in its prototype right I can go to prototype and you can see all of
+
+01:35:35.340 --> 01:35:41.100
+these methods are present here there is entries which will probably list all of these elements
+
+01:35:41.100 --> 01:35:47.340
+there is for each it is like a iterable it will go through all of these one by one there is replace
+
+01:35:47.340 --> 01:35:55.740
+remove keys items and the one that we are using which is add right and this is all I'm getting
+
+01:35:55.740 --> 01:36:08.780
+to the add method so help me with the path event dot target dot class list dot add and that is all
+
+01:36:08.780 --> 01:36:19.340
+I'm getting to this thing right so this is what I meant key this event is is such a enriching data
+
+01:36:19.340 --> 01:36:24.060
+about what just happened then you can just play around with so many things here
+
+01:36:24.620 --> 01:36:29.020
+right all of these have so many methods inside of it that you could play around with those
+
+01:36:29.020 --> 01:36:34.220
+and get to the expected result that you want are we going to cover all tasks no we are not going
+
+01:36:34.220 --> 01:36:39.580
+to cover all tasks we will be going through some of the tasks which would help in our use case
+
+01:36:39.580 --> 01:36:46.860
+so which is why I say key you need to do a lot of self-study here right and to be honest if you if
+
+01:36:46.860 --> 01:36:52.380
+I tell you about from my experience day-to-day work I have hardly used 80 percent of these things so
+
+01:36:52.380 --> 01:36:58.860
+how many of you have heard about Pareto's principle there is something called Pareto
+
+01:37:00.940 --> 01:37:02.860
+principle how many you
+
+01:37:08.460 --> 01:37:09.020
+principle
+
+01:37:14.620 --> 01:37:21.500
+that comes from experience now I have read it I'm correct Nishora so Pareto's principle this
+
+01:37:21.500 --> 01:37:26.860
+is an interesting thing for each one of you like this is like a a guidebook for me especially when
+
+01:37:26.860 --> 01:37:35.020
+I'm learning new things so this has helped me a lot so Pareto's principle is basically a 80-20 rule
+
+01:37:35.020 --> 01:37:41.820
+so suppose say JavaScript is this big right there is HTML there is DOM there is a
+
+01:37:43.420 --> 01:37:50.140
+JavaScript engine callback queue promises so many things are there right Pareto principle is very
+
+01:37:50.140 --> 01:37:59.820
+simple it says key there is 20 percent of it that you will be using 20 percent and this is
+
+01:38:01.020 --> 01:38:09.020
+80 percent right so this 20 percent of the things you will be using 80 percent of the time and this
+
+01:38:09.020 --> 01:38:15.100
+80 percent of the things you will be using 20 percent of the time so in simple words basically
+
+01:38:15.100 --> 01:38:20.860
+you should be targeting whenever you're learning new things you should be targeting to learn these
+
+01:38:20.860 --> 01:38:26.540
+things because in your day-to-day job only 20 percent of the things of any new language you'll
+
+01:38:26.540 --> 01:38:31.900
+be using 80 percent of the times think of it like this in dictionary you have so many words right
+
+01:38:32.860 --> 01:38:38.300
+so many words are there but have you ever wondered key I hardly know any word from dictionary will
+
+01:38:38.300 --> 01:38:44.940
+have not all of them but still I'm able to live through my life right because you as per Pareto's
+
+01:38:44.940 --> 01:38:50.860
+principle you know 20 percent of the words which you are using 80 percent of the time so which is
+
+01:38:50.860 --> 01:38:59.740
+why you are not blocked anywhere right so to get back to Abhinav's question how how am I going to
+
+01:38:59.740 --> 01:39:06.540
+cover are we going to cover all the tags no what we are expiring to cover here is these 20 percent
+
+01:39:06.540 --> 01:39:12.060
+of the topics which will be used 80 percent of the times and for these 80 percent of the topics
+
+01:39:12.060 --> 01:39:15.740
+is something that you will have to cover on your own and we are here to assist you on that
+
+01:39:16.700 --> 01:39:17.580
+does that make sense
+
+01:39:22.700 --> 01:39:26.300
+no yes too much gap too much helping here
+
+01:39:26.300 --> 01:39:28.060
+no
+
+01:39:33.980 --> 01:39:37.260
+yes you can get all of these in w3 school
+
+01:39:39.980 --> 01:39:45.980
+cool let's get back to the question now I hope that answered your question though Abhinav right
+
+01:39:45.980 --> 01:39:50.700
+okay great great great
+
+01:39:52.620 --> 01:40:02.780
+cool then so now we fetch the value as a class and this thing is also done the only thing left
+
+01:40:02.780 --> 01:40:07.100
+is change the data color attribute right because we have to mark it as done
+
+01:40:08.140 --> 01:40:15.100
+to mark it as done we have to do something like earlier we were doing get attribute this time
+
+01:40:16.540 --> 01:40:23.340
+we'll have to do set attribute instead of get we have to do set what we are setting we are setting
+
+01:40:23.340 --> 01:40:29.020
+data color we are setting data color to what we are setting data color to used
+
+01:40:30.780 --> 01:40:37.660
+right and see that's it and we are good now let me reduce the size
+
+01:40:38.620 --> 01:40:47.900
+okay as you could see now what I am going to do or take let's say let's pick this one
+
+01:40:49.180 --> 01:40:53.740
+okay the color is right focus on this one this red will be shifted here
+
+01:40:53.740 --> 01:40:55.580
+and this red would be turned to used
+
+01:40:55.580 --> 01:40:58.380
+okay so this is the finished result yes
+
+01:41:01.980 --> 01:41:02.860
+it's working right
+
+01:41:05.980 --> 01:41:07.900
+and all of this is happening on double click
+
+01:41:11.020 --> 01:41:16.460
+so I hope you all find it interesting well up these are the building blocks these are the
+
+01:41:16.460 --> 01:41:22.220
+building these only are the building blocks and these things compound so these knowledge
+
+01:41:22.220 --> 01:41:26.540
+especially these compound now that you have seen me using get attribute in set
+
+01:41:26.540 --> 01:41:30.100
+attribute you are more or less comfortable now whenever in future
+
+01:41:30.100 --> 01:41:35.420
+someone says to me how can I access this value here you know what to do right
+
+01:41:35.420 --> 01:41:42.020
+likewise everyone this is the building block and now you know the way so let's
+
+01:41:42.020 --> 01:41:48.740
+solve another question now yes let's move on to the new question yes no or is
+
+01:41:48.740 --> 01:42:00.340
+there anyone who has any doubt regarding this question all good let's move on to
+
+01:42:00.340 --> 01:42:09.660
+the fifth question now right this is the interesting one it says he jailed the
+
+01:42:09.660 --> 01:42:14.900
+mouse okay question you are given an empty cell right let me open the
+
+01:42:14.900 --> 01:42:22.060
+question first let's go to question five we are given an empty cell here we are
+
+01:42:22.060 --> 01:42:26.420
+given an empty cell here write a script that whenever the mouse enters the mouse
+
+01:42:26.420 --> 01:42:32.260
+is this mouse this mouse my computer mouse right so whenever the mouse
+
+01:42:32.260 --> 01:42:37.260
+enters the cell jail should be drawn over it and it should be removed once it
+
+01:42:37.260 --> 01:42:43.620
+leaves right there's a hint given also use the background image to set jail and
+
+01:42:43.780 --> 01:42:50.300
+we have an image here right so the idea is here I should be able to wherever my
+
+01:42:50.300 --> 01:42:56.220
+mouse enters this block there should this image should be loaded inside or
+
+01:42:56.220 --> 01:43:03.680
+here right so sounds like an interesting problem to mouse to jail a mouse right
+
+01:43:03.680 --> 01:43:09.680
+so let's give this a thing a try so let's go to question five what would be
+
+01:43:09.680 --> 01:43:20.880
+my strategy let's talk about it so we basically need to have first of all we
+
+01:43:20.880 --> 01:43:31.160
+need to target this element right target cell LM right this is the first thing it
+
+01:43:31.160 --> 01:43:36.400
+would be probably easy for us to target we can use query selector or get element
+
+01:43:36.400 --> 01:43:40.900
+by class name so the first one is somewhat easy then second is we need to
+
+01:43:40.900 --> 01:43:45.820
+attach two event listener here what I am thinking one would be for mouse entered
+
+01:43:45.820 --> 01:43:51.500
+and one would be for mouse left so can any one of you Google and let me know
+
+01:43:51.500 --> 01:43:57.740
+what would be the event what would what would be the event that we should put in
+
+01:43:57.740 --> 01:44:03.420
+add event listener like up until now we were putting DBL click or click for this
+
+01:44:03.420 --> 01:44:08.740
+one mouse enter and mouse leave mouse left something so what event would be
+
+01:44:08.740 --> 01:44:16.980
+there mouse mouse over mouse out mouse left so anyone help me with the what
+
+01:44:16.980 --> 01:44:22.200
+should be the event that we are listening to right so we could probably
+
+01:44:22.200 --> 01:44:41.440
+have one event listener for mouse enter and one event listener for mouse leave
+
+01:44:41.440 --> 01:44:49.520
+is the strategy clear okay Muneeswara says we can use on mouse over because we
+
+01:44:49.520 --> 01:44:55.000
+are using add event listener so we can drop the on we can just use mouse over
+
+01:44:55.000 --> 01:45:07.000
+okay and what about mouse out correct oh there's a event called mouse out also so
+
+01:45:07.000 --> 01:45:13.160
+we are using correct we will be using mouse over and mouse out so let's get
+
+01:45:13.160 --> 01:45:24.360
+coding let's get coding so let's get done with the easiest part first let cell
+
+01:45:24.360 --> 01:45:34.220
+is equal to equal to document dot query selector and what we are selecting for
+
+01:45:34.420 --> 01:45:47.060
+cell right now in here I need to have two functions so cell dot document no
+
+01:45:47.060 --> 01:45:53.820
+sorry cell dot add event listener what event listeners are we listening to
+
+01:45:53.820 --> 01:46:02.580
+mouse over and mouse out okay let me mention it here mouse over and let's
+
+01:46:02.620 --> 01:46:08.860
+have a callback here that we will write the function in some time and this one
+
+01:46:08.860 --> 01:46:17.220
+would be mouse out okay to keep the code clean let's create a function outside on
+
+01:46:17.220 --> 01:46:38.660
+mouse enter caused on mouse left tick I can paste it here and I can paste this
+
+01:46:38.660 --> 01:46:49.700
+one here so this is done so on mouse enter I'll write a logic here I'll be
+
+01:46:49.700 --> 01:46:59.380
+getting the event here so now what should we do on enter we should load
+
+01:46:59.380 --> 01:47:07.580
+this particular image in the background image right so let's do how do you
+
+01:47:07.620 --> 01:47:20.020
+likewise we were adding class list right corn sorry console dot log event so
+
+01:47:20.020 --> 01:47:30.460
+let's see if it works I'll be entering mouse I'm getting an event I can go to
+
+01:47:30.460 --> 01:47:36.700
+target there must be something called
+
+01:47:41.620 --> 01:47:51.860
+there must be something called style in here style so no matter what CSS
+
+01:47:51.860 --> 01:47:56.620
+property you may have heard of all of that gets eventually applied to this
+
+01:47:57.060 --> 01:48:03.380
+right border top right radius true false all of the values that you possibly know
+
+01:48:03.380 --> 01:48:09.860
+of thesis value gets eventually applied in here it's interesting right so which
+
+01:48:09.860 --> 01:48:14.460
+means key you can change the styling also you can add classes you can add
+
+01:48:14.460 --> 01:48:18.580
+values you can change values you can also add certain styles also in our case
+
+01:48:18.580 --> 01:48:25.740
+the property that we are looking to change is the background image so there
+
+01:48:25.740 --> 01:48:32.020
+must be a background image here somewhere this one okay so how do I
+
+01:48:32.020 --> 01:48:42.660
+access this event target style dot background image there must be some
+
+01:48:43.500 --> 01:48:50.780
+right so let's get started
+
+01:48:54.100 --> 01:48:59.380
+actually we don't need event only in that cell element we had already
+
+01:48:59.380 --> 01:49:04.820
+target here right so I can simply say cell
+
+01:49:12.860 --> 01:49:29.060
+I can simply say cell dot style dot background image is equal to how do we
+
+01:49:29.060 --> 01:49:36.980
+write the background image value we add the URL and in that URL I mention the
+
+01:49:36.980 --> 01:49:52.060
+value in our case it is jail dash bars dot PNG right and what I could also say
+
+01:49:52.060 --> 01:50:05.620
+is background dot background size is equal to cover cool let's see if it
+
+01:50:05.620 --> 01:50:19.340
+works see it's working great right is everyone able to follow yes
+
+01:50:22.060 --> 01:50:27.580
+great great great now we also have to remove it I think remove it removing it
+
+01:50:27.580 --> 01:50:35.460
+is the easiest part so for remove it we know the basic value for background
+
+01:50:35.460 --> 01:50:40.580
+image but the default value is empty string so I can just do it like this so
+
+01:50:40.580 --> 01:50:45.460
+on mouse enter on mouse over this function would be called where we are
+
+01:50:45.460 --> 01:50:51.060
+doing these two things on mouse left I'm simply doing this so which means key my
+
+01:50:51.060 --> 01:50:55.940
+mouse would be trapped so now it's time to test
+
+01:50:58.740 --> 01:51:08.380
+correct they could have also used hover I think in case my mouse is hovering over
+
+01:51:08.380 --> 01:51:14.540
+it then show this as soon as my mouse is not hovering over it remove it so there
+
+01:51:14.540 --> 01:51:19.420
+are multiple ways of solving this problem I used a long way because I
+
+01:51:19.420 --> 01:51:23.900
+wanted to show key how multiple event listeners can be attached to a single
+
+01:51:23.900 --> 01:51:35.780
+element but I hope it makes sense to everyone right yes right so this is also
+
+01:51:35.780 --> 01:51:43.540
+done and this is also done great
+
+01:51:46.980 --> 01:51:54.620
+cool so now let's get started with the sixth problem should I solve this
+
+01:51:54.620 --> 01:52:01.660
+problem or you guys want to try it yourself this is an interesting one I
+
+01:52:01.820 --> 01:52:08.700
+think okay got it so the problem statement for this one is key all of
+
+01:52:08.700 --> 01:52:13.220
+these movies have a category present I think you should you should be able to
+
+01:52:13.220 --> 01:52:20.020
+solve it right all of these things have a category present and when I say let's
+
+01:52:20.020 --> 01:52:27.180
+say filter when I say romance you somehow need to filter all of the movies
+
+01:52:27.180 --> 01:52:32.460
+here which meets the criteria for romance meets the criteria for comedy
+
+01:52:32.460 --> 01:52:38.780
+meets the criteria for action so accordingly you need to filter all of
+
+01:52:38.780 --> 01:52:45.580
+these and when I say none when I say none you need to bring back all of the
+
+01:52:45.580 --> 01:52:52.900
+movies why target is not needed there just a second because we already have
+
+01:52:52.900 --> 01:52:58.180
+the element in place right event or target is something which is present on
+
+01:52:58.180 --> 01:53:05.020
+event right here to my element is already present if I were to use the
+
+01:53:05.020 --> 01:53:10.940
+event which which I didn't when he saw right in that case I need to write it
+
+01:53:10.940 --> 01:53:16.980
+like this event or target but because event or target would eventually point
+
+01:53:16.980 --> 01:53:21.860
+to this only which I was able to pinpoint so which is why I didn't need
+
+01:53:21.860 --> 01:53:28.540
+the event or target right because I didn't use event only I directly targeted
+
+01:53:28.540 --> 01:53:36.820
+this particular element cool so for this one should I do it again I'll solve this
+
+01:53:36.820 --> 01:53:40.660
+one you can solve the next one I'll solve this question six and then we can
+
+01:53:40.660 --> 01:53:49.180
+call it a day well sounds like a plan yes let me solve question six then we
+
+01:53:49.180 --> 01:53:53.740
+can start with a doubt-solving session let's get started
+
+01:53:53.740 --> 01:54:01.300
+okay so do I worry about the classes no take it on click of all of these things
+
+01:54:01.300 --> 01:54:06.900
+somehow I need to listen to first of all to the select element keep what is the
+
+01:54:06.900 --> 01:54:13.620
+active value here right so active value needs to be selected first of all then
+
+01:54:13.620 --> 01:54:19.100
+what I can say key whenever any change happens here any change happens I need
+
+01:54:19.100 --> 01:54:30.220
+to react to it so one event listener that we had seen event JavaScript one
+
+01:54:30.220 --> 01:54:36.900
+event listener that we I saw here is on change right and HTML element has been
+
+01:54:36.900 --> 01:54:44.540
+changed right so in our case whenever this is changed from romance to action
+
+01:54:44.540 --> 01:54:50.140
+action to comedy none basically this HTML element is changing so that is the
+
+01:54:50.140 --> 01:54:57.100
+event listener that I will be listening to then I will simply be first of all
+
+01:54:57.100 --> 01:55:01.340
+targeting all of the P element I would say then what I could simply say key by
+
+01:55:01.340 --> 01:55:07.140
+if it is none do something if it is not none then I need to somehow get the
+
+01:55:07.140 --> 01:55:14.500
+category key suppose this is romance right so I need to get a category of all
+
+01:55:14.500 --> 01:55:20.660
+of these things and simply map over it key if your category is romance then you
+
+01:55:20.660 --> 01:55:26.500
+will be visible in case it is not then you will not be visible and the
+
+01:55:26.500 --> 01:55:30.660
+attribute that we will be playing around with for this could be display none how
+
+01:55:30.660 --> 01:55:40.140
+does display none work suppose so here I'll just say display none see it is
+
+01:55:40.140 --> 01:55:49.780
+gone so interesting thing about display none suppose I have this div right and I
+
+01:55:49.780 --> 01:56:01.420
+say display none if you see here it is still on the dom but it is not visible
+
+01:56:01.420 --> 01:56:08.060
+to everyone right so that's all you play around with display none so display none
+
+01:56:08.060 --> 01:56:15.860
+it will be removed if I say display block it will be brought back there are
+
+01:56:15.860 --> 01:56:21.660
+multiple values also inline block inline flex and all but I remember key this
+
+01:56:21.660 --> 01:56:26.580
+must have been covered in one of the CSS classes because I've also covered this
+
+01:56:26.580 --> 01:56:34.340
+in my batch right so we have a plan we have a strategy in place key my event
+
+01:56:34.340 --> 01:56:39.020
+listener will be placed on here post that if any change happens I'll be seeing
+
+01:56:39.020 --> 01:56:45.500
+the active value in case it is romance I need to access all of the divs all of
+
+01:56:45.500 --> 01:56:51.460
+the divs with the class movies and I can say key if the category is action or
+
+01:56:51.460 --> 01:56:55.980
+if the category matches the selection here then display would be blocked
+
+01:56:55.980 --> 01:57:01.380
+otherwise display would be none right it's a strategy clear to everyone what
+
+01:57:01.380 --> 01:57:10.020
+what strategy we will be pursuing yes is it clear yes Abhinavavimanyu
+
+01:57:10.020 --> 01:57:15.180
+Aditya I am Ashish Chandni Dhanraj Kishore Heman Krishna Muniswara Pramod
+
+01:57:15.180 --> 01:57:23.940
+Prajakta Pradeep Sambit Tanu Tejas Raja Ramesh Sita Vigneshwar Shashank yes great
+
+01:57:23.940 --> 01:57:30.620
+great great ticket now I have my strategy so let's get coding by I hope
+
+01:57:30.620 --> 01:57:34.300
+the pace and all is okay everyone is able to follow in case there is any doubt
+
+01:57:34.300 --> 01:57:38.780
+feel free to ask if not feel free to stay back in the doubt solving session to
+
+01:57:38.780 --> 01:57:45.180
+resolve your doubts right but we are learning a lot of new things today if
+
+01:57:45.180 --> 01:57:49.980
+you think about it we just started with a simple hello question but now we are
+
+01:57:49.980 --> 01:57:55.540
+this is like a actual full-fledged application problem to apply filter we
+
+01:57:55.540 --> 01:58:01.220
+will be solving this so it's interesting that so far we have covered in last two
+
+01:58:01.220 --> 01:58:08.220
+hours right if you can question is simple make the filter work so let's get
+
+01:58:08.220 --> 01:58:14.380
+started first thing first I need to target the element so let's say const
+
+01:58:14.380 --> 01:58:24.260
+filter lm is equal to document dot query selector right what how do I select this
+
+01:58:24.260 --> 01:58:30.140
+okay we can this is the only selector so I can simply write select element so it
+
+01:58:30.140 --> 01:58:37.820
+would pick the select element okay I can say filter lm dot add event listener
+
+01:58:37.820 --> 01:58:46.260
+what event are we listening to change on change I will be getting a call back I
+
+01:58:46.260 --> 01:58:51.500
+need to get the event here because I want to get the value also and I can be
+
+01:58:51.500 --> 01:59:00.060
+logging event dot target dot value let's see if it works let's go to console
+
+01:59:00.060 --> 01:59:06.380
+clear it changes to action they're getting action here changes to comedy
+
+01:59:06.380 --> 01:59:14.940
+comedy romance so now I'm able to access all of the all of the available options
+
+01:59:14.940 --> 01:59:20.780
+with me now all I have to do now is apply filter when I say filter I simply
+
+01:59:20.780 --> 01:59:25.700
+have to based on the selected option pass through all of these lists and tell
+
+01:59:25.700 --> 01:59:33.740
+he whether the data category whether the data category is comedy romance whether
+
+01:59:33.740 --> 01:59:40.780
+it matches this condition or not yes so can anyone help me remember how will I
+
+01:59:40.780 --> 01:59:46.340
+access us this particular attribute there is a method if I remember correctly
+
+01:59:46.340 --> 01:59:51.260
+what was the method name we learned it in one of the questions earlier what is
+
+01:59:51.260 --> 02:00:02.060
+the method name that we could use to access the attribute value he correct
+
+02:00:02.060 --> 02:00:07.980
+correct it is get attribute correct correct promote also yes Munishwara
+
+02:00:07.980 --> 02:00:13.300
+correct so let's get beginning
+
+02:00:15.860 --> 02:00:23.820
+so let's say I want to add the filter value at my disposal so I don't have to
+
+02:00:23.820 --> 02:00:30.460
+write event dot target dot value every time even dot target dot value and let's
+
+02:00:30.460 --> 02:00:49.060
+say all tickets is equal to document dot query selector all p
+
+02:01:00.460 --> 02:01:21.100
+ticket ticket now all we have to do is if filter value is equal to none in that
+
+02:01:21.100 --> 02:01:27.380
+case what we have to do is basically I'm going to loop through the entire thing
+
+02:01:27.380 --> 02:01:36.980
+and say let I is equal to zero I is less than all tickets dot then I plus plus
+
+02:01:36.980 --> 02:01:47.380
+then I can say all tickets dot sorry all tickets me us IK parent element dot style
+
+02:01:47.380 --> 02:02:00.220
+dot display is equal to lock what just happened if the filter value is none for
+
+02:02:00.220 --> 02:02:04.820
+this as you could see I'm targeting the P element I'm targeting this particular
+
+02:02:04.820 --> 02:02:10.380
+element not this element so I'm saying key for this particular element is
+
+02:02:10.380 --> 02:02:15.020
+cap parent you access the parent element using this particular thing parent
+
+02:02:15.060 --> 02:02:27.740
+element if I were to log also for this P tag you would find console dot log all
+
+02:02:27.740 --> 02:02:40.260
+tickets see all tickets here somewhere in here parent element Namsevi something
+
+02:02:40.260 --> 02:02:47.900
+would exist and that talks about this one parent element right so if I were to
+
+02:02:47.900 --> 02:02:51.900
+extend extend this you would see again the whole thing started at the very top
+
+02:02:51.900 --> 02:02:58.540
+we have access key for regarding this P tag right now we are the same for div
+
+02:02:58.540 --> 02:03:07.940
+here right so you can access parent element also using this which is great
+
+02:03:08.420 --> 02:03:14.940
+so what I was doing key in case the value is none I'm saying go through the
+
+02:03:14.940 --> 02:03:21.980
+all of the list and through that list get to the parent element go to style and
+
+02:03:21.980 --> 02:03:27.060
+set the display to block remember how we were accessing style here exactly like
+
+02:03:27.060 --> 02:03:33.860
+this we are accessing style here also right
+
+02:03:35.620 --> 02:03:50.220
+but what if it is not none in case it is not none then else else again we'll have
+
+02:03:51.220 --> 02:04:02.460
+like this and what we have to do is all tickets all we have to do is if what
+
+02:04:02.460 --> 02:04:06.260
+should be the data what should be the condition here basically the condition
+
+02:04:06.260 --> 02:04:13.380
+is key if the data category matches filter value in that case set their
+
+02:04:13.380 --> 02:04:21.900
+display to block otherwise set it to none so let's write it all tickets may
+
+02:04:21.900 --> 02:04:33.860
+us I can you a dot get attribute what attribute are we looking for is sir data
+
+02:04:34.700 --> 02:04:48.700
+dash category if data category is not equal to filter value in that case I'll
+
+02:04:48.700 --> 02:05:04.420
+make it copy this paste it here and say no right else block cool does it make
+
+02:05:04.420 --> 02:05:10.140
+sense what we are doing here let's see if it works first this is romance let me
+
+02:05:10.140 --> 02:05:15.540
+say romance tea it works now we only have romance here let's change this to
+
+02:05:15.540 --> 02:05:22.380
+comedy we have only eight and nine had comedy action we have these many
+
+02:05:22.380 --> 02:05:34.620
+actions and if I were to say none all tenor back so it is working yes explain
+
+02:05:34.620 --> 02:05:44.220
+once the logic yes so the logic was simple first thing I did I put an event
+
+02:05:44.220 --> 02:05:51.420
+listener on change of this particular box right I said key by first or first of
+
+02:05:51.420 --> 02:05:55.700
+all targeted to select element I read a event listener key change so every time
+
+02:05:55.700 --> 02:06:01.060
+anything changes open it that's what I'm doing so every time anything changes I
+
+02:06:01.060 --> 02:06:07.060
+get an event right and in that particular event I am passing a call back
+
+02:06:07.060 --> 02:06:12.460
+which which will be getting that event and in that using that event first of
+
+02:06:12.500 --> 02:06:19.260
+all I pick out the value give me this thing change to what right right now it
+
+02:06:19.260 --> 02:06:25.060
+is none if change to romance right so which means key event or target dot
+
+02:06:25.060 --> 02:06:29.200
+value is going to be romance here so romance is going to be stored in filter
+
+02:06:29.200 --> 02:06:33.900
+value then what I did was as you could see there is a div there is such three
+
+02:06:33.900 --> 02:06:39.140
+there is p tag my data category is present in p tag so what I did was key I
+
+02:06:39.260 --> 02:06:46.100
+asked all of the p tags back all of the tickets query selector all p so far so
+
+02:06:46.100 --> 02:06:52.300
+good here we can use callback function like that like what well so far we've
+
+02:06:52.300 --> 02:06:56.100
+been using callback function like this only right
+
+02:06:56.100 --> 02:07:19.780
+so we have all of the p tags here I'm not sure what's that let's stay back at
+
+02:07:19.780 --> 02:07:27.500
+the inside of the loop no callback function is not inside of the loop
+
+02:07:27.500 --> 02:07:34.260
+right callback function the loop is inside of the callback function not the
+
+02:07:34.260 --> 02:07:42.740
+other way around cool then so we have this particular callback function here
+
+02:07:42.740 --> 02:07:47.220
+we are accepting the event we got the value where this select value changed to
+
+02:07:47.220 --> 02:07:51.500
+right in my case it changed to whatever value like in this particular case it
+
+02:07:51.500 --> 02:07:56.900
+changed to romance so filter value is romance I targeted all of the p tags and
+
+02:07:56.900 --> 02:08:04.100
+I simply simple logic now we're down to this part right if the filter value is
+
+02:08:04.100 --> 02:08:09.700
+none if the filter value is none just go through all of the p tags go through
+
+02:08:09.700 --> 02:08:16.860
+all of the p tags and make sure key all of the tickets that I got parent
+
+02:08:16.860 --> 02:08:21.940
+element so basically we are saying go to let's say this particular p tag go to
+
+02:08:21.940 --> 02:08:29.660
+its parent and set that style dot display to block and remember we what we
+
+02:08:29.660 --> 02:08:34.580
+learn if I set a display to none it will be invisible if I set it to block it
+
+02:08:34.580 --> 02:08:40.100
+will be visible so big which is why I simply said keep go through all of the
+
+02:08:40.100 --> 02:08:47.660
+elements p tags go to their parent and in for that parent set it to block so
+
+02:08:47.660 --> 02:08:55.700
+which is why they are visible when I say none everything is visible is it clear so
+
+02:08:55.700 --> 02:09:02.620
+far the dry run part open the bin of emma it's clear right everyone able to
+
+02:09:02.620 --> 02:09:09.180
+follow cheetah muniswara some bit promote great cricket ticket so now
+
+02:09:09.180 --> 02:09:14.900
+coming to the latter part else in is in case it is not none so which means the
+
+02:09:14.900 --> 02:09:19.300
+actual filter has to be applied so there needs to be another logic to check with
+
+02:09:19.300 --> 02:09:24.740
+you whether the category matches the filter value or not yes or no so which
+
+02:09:24.740 --> 02:09:30.320
+is why inside of it I am running another loop and in that loop it is exactly the
+
+02:09:30.320 --> 02:09:35.780
+same as this loop but instead of setting all of the elements as block now I put a
+
+02:09:35.780 --> 02:09:40.460
+condition here key if for that particular element get the attribute
+
+02:09:40.460 --> 02:09:48.940
+data category data category attribute right and if is and if this matches the
+
+02:09:48.940 --> 02:09:54.060
+filter value if this sorry if it does not matches the filter value then set
+
+02:09:54.060 --> 02:10:01.780
+it to none and in case it does then set it to block right and it seems to be
+
+02:10:01.780 --> 02:10:07.500
+working right
+
+02:10:11.540 --> 02:10:25.860
+cool ticket so before ticket so so that's all I had planned for today's
+
+02:10:25.860 --> 02:10:32.460
+lecture in next lecture we will be covering a lot of for dom things will be
+
+02:10:32.460 --> 02:10:39.620
+will try to cover a couple of for machine coding problems as one doubt why
+
+02:10:39.620 --> 02:10:45.580
+two blocks but if you could simplify the logic if you can find a better way then
+
+02:10:45.580 --> 02:10:50.700
+yes you can simplify a logic this is the way I was thinking key if it is none
+
+02:10:50.700 --> 02:10:56.060
+then set everything to block if it is not none so which means key I need to
+
+02:10:56.060 --> 02:10:59.340
+apply some logic so I accepted like this so this is like a logic thing only
+
+02:10:59.340 --> 02:11:05.940
+Abhinav polymorphism multiple ways of doing the same thing right I could I've
+
+02:11:05.940 --> 02:11:09.980
+done it in this way maybe you can come up with a better approach to solving
+
+02:11:09.980 --> 02:11:15.860
+this right so it is just about shifting lines here and there
+
+02:11:15.900 --> 02:11:22.100
+cool yeah so in upcoming lecture obviously will be deep diving into more
+
+02:11:22.100 --> 02:11:28.980
+such problems and more such things right like this so with that I hope you guys
+
+02:11:28.980 --> 02:11:33.420
+enjoyed the lecture today and the pace and all was okay right I was not
+
+02:11:33.420 --> 02:11:41.260
+rushing too much the other company no plan to nearer yes no yes no
+
+02:11:41.860 --> 02:11:47.580
+great class looking forward thank you thank you Muneeswara ticket now that
+
+02:11:47.580 --> 02:11:51.660
+being said any doubts whatsoever regarding anything now is your chance
+
+02:11:51.660 --> 02:11:59.340
+to ask clarify brainstorm let's talk so any doubts anyone stay back in case you
+
+02:11:59.340 --> 02:12:06.580
+don't have any doubts thank you thank you for attending the lecture and please
+
+02:12:06.580 --> 02:12:10.460
+go through the recording and try to complete the assignment questions which
+
+02:12:10.500 --> 02:12:14.020
+are very important obviously and I'll be pushing this code and I'll be adding a
+
+02:12:14.020 --> 02:12:17.460
+couple more problems we haven't sought question number seven maybe that is
+
+02:12:17.460 --> 02:12:21.340
+something that you can try on your own and in case you get stuck feel free to
+
+02:12:21.340 --> 02:12:26.340
+reach on on the whatsapp group and we'll try to solve the question together right
+
+02:12:26.340 --> 02:12:30.500
+so we'll do all of those things but for that obviously you guys also need to
+
+02:12:30.500 --> 02:12:35.940
+take initiatives you guys also need to be involved so talking about being
+
+02:12:35.940 --> 02:12:39.620
+involved any doubts regarding anything that we have covered in today's class
+
+02:12:39.620 --> 02:12:44.620
+please share github link I'll be pushing this in the same link as Uttam was
+
+02:12:44.620 --> 02:12:52.900
+pushing into so you'll find it in class 11 I'll do that in some time cool any
+
+02:12:52.900 --> 02:12:57.580
+doubts any doubts anyone understanding concepts or code part is a bit
+
+02:12:57.580 --> 02:13:03.660
+confusing any suggestion to overcome that as from non-tech no worries so
+
+02:13:03.700 --> 02:13:09.380
+there's only one solution to all such things that is practice if you are able
+
+02:13:09.380 --> 02:13:12.840
+to understand concept which as you mentioned you are able to understand
+
+02:13:12.840 --> 02:13:16.860
+concept so it is just about practice at this part you already understand key why
+
+02:13:16.860 --> 02:13:21.660
+we are doing certain things so as soon as you try your hands a couple of these
+
+02:13:21.660 --> 02:13:24.660
+problems maybe what you could do you can remove all of the code that I have
+
+02:13:24.660 --> 02:13:28.300
+written in today's class and you could try solving those problems on your own
+
+02:13:28.300 --> 02:13:32.140
+obviously you you might find yourself stuck at certain points at that point
+
+02:13:32.140 --> 02:13:38.940
+you could you know refer the answer that we have discussed in class right so that
+
+02:13:38.940 --> 02:13:46.660
+way through practice you can somehow fortify your concepts right and once you
+
+02:13:46.660 --> 02:13:52.540
+are able to because believe me from what coding is the easiest part
+
+02:13:52.540 --> 02:13:56.300
+understanding concepts is the difficult part why you are doing certain things
+
+02:13:56.300 --> 02:14:01.340
+why a is better than B or why B is better than A if you're able to tell
+
+02:14:01.340 --> 02:14:08.660
+that then huh again same same upendra key if you are able to understand then
+
+02:14:08.660 --> 02:14:16.940
+the coding is a lot easier today I feel interesting after nine classes of
+
+02:14:16.940 --> 02:14:20.620
+full-style developer yes I'll be IK key classes or interesting whenever you are
+
+02:14:20.620 --> 02:14:29.340
+so stay tuned right Pramod and upendra feel free to try this question I highly
+
+02:14:29.820 --> 02:14:33.060
+highly recommend try these questions on your own try to solve them on your own
+
+02:14:33.060 --> 02:14:37.580
+right if you feel stuck refer the question ripple the answer it's better
+
+02:14:37.580 --> 02:14:42.580
+you feel stuck now then five months six months down the line at your actual job
+
+02:14:42.580 --> 02:14:50.420
+right so please do that any doubts anyone any doubts anything you want me
+
+02:14:50.420 --> 02:14:56.420
+to discuss again today and any part of the today's lecture that was not clear
+
+02:14:56.420 --> 02:15:01.940
+anything that you want me to do no yes
+
+02:15:06.460 --> 02:15:14.180
+cool then I guess there are no doubts so thanks thanks good night so what I'm
+
+02:15:14.180 --> 02:15:18.180
+going to do now I'll close the class I'll upload the notes I'll push the code
+
+02:15:18.180 --> 02:15:23.900
+I'll update the same on the whatsapp group and now post that it's on you guys
+
+02:15:23.900 --> 02:15:27.420
+to go through the recording go through the assignment questions and in case you
+
+02:15:27.420 --> 02:15:34.660
+get stuck then clarify your doubts on the whatsapp group right once you start
+
+02:15:34.660 --> 02:15:38.900
+clarifying start discussing problem do all of those things and I will be active
+
+02:15:38.900 --> 02:15:42.020
+on the whatsapp group answering all of your queries in case you don't want to
+
+02:15:42.020 --> 02:15:47.180
+ask here right now right so with that good night good night I hope you guys
+
+02:15:47.220 --> 02:15:54.300
+enjoyed the lecture and that's all that's all folks from my side right good
+
+02:15:54.300 --> 02:16:00.420
+night it was super nice interacting with all of you and I'll see you guys soon on
+
+02:16:00.420 --> 02:16:05.580
+30th 30th 30th right bye
+
+02:16:17.180 --> 02:16:19.760
+you
+

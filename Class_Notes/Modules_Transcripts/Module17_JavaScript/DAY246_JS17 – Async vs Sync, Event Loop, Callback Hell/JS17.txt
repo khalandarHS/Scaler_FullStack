@@ -1,0 +1,1271 @@
+Thank you.
+Hi all, good evening.
+Guys, give me thumbs up if you can see me and I'm visible and I'm audible.
+And if you have any disturbances do let me know. A fan is running today.
+I see very less amount of people joining today.
+Any specific reason guys, do you know anything?
+Let me share my screen too.
+Is my screen share visible?
+I'll remove the older mark.
+We start at 9 or 10, 8 minutes.
+So guys, any questions, anything, do you have anything you want to raise?
+How's your preparation going on?
+Okay, how many of you have given like mock interview on SQL?
+I see one thumbs up. I have good amount of people.
+Guys, can you please raise your hand if you have taken mock already?
+No, two people.
+Do we use prototype inheritance in, oops, in real life?
+Okay, so prototype inheritance is used Kabir, but class based syntaxes are rarely you'll come across like because we are not going to leverage that.
+And most of the frameworks when it comes to JS, they don't use class based syntaxes. You can use prototype based syntax.
+Prototype inheritance is pretty easy, right? Like how we are able to access the libraries out of array.
+How can you add a new library utility function like we did it recently like call function, right?
+So that would be straightforward.
+Okay, so I see only eight to nine people in class today. I have to wait. I have to, you know,
+Where is this?
+To take a quiz. So let me actually, you know, prepare this poll.
+Yeah, teacher, it is independent.
+I'm typing it down, guys. Just a second. I have to raise up also.
+Okay.
+Okay, so I see 15 amount of people. Guys, can anyone drop a message in chat?
+It would be really helpful. Thanks, Kiran.
+Any doubts from previous sessions? Any doubts from previous sessions?
+Are you able to follow up with me all the things that we have learned till now?
+And is anyone revising them or how challenging is it?
+Just keep me, let me know in case you have any doubts related to any concepts that we have discussed till now.
+I'll be free to take it up. Okay. And we can discuss it anytime.
+I'm sharing my report.
+Nobody's too many less people today. I'm not sure like why this is happening. This is happening for the first time.
+Does anyone know anything like why today people are not able to join class?
+Any specific reason or? Okay, no worries.
+Okay, so I'll launch a poll. I want everyone to take that poll and let me know.
+No worries, Kiran. No worries.
+So this is actually needed from management side so that they wanted to know a few things.
+So I'm launching it. I'll keep it for 60 seconds.
+Please take this one and let us know your feedback on this.
+I've launched it guys. Please take this poll.
+Hi.
+Okay. I've got two responses guys.
+I hope everyone is here in the class. I hope everyone take those, you know,
+So that we can, you know, contact you, help you out with anything that you have issues, right?
+Guys, few more people who haven't taken.
+Okay, let me take a screenshot of this one.
+So guys, why we push to, you know, push you guys to take mock interviews that before expiry is that, you know, you have, you, you guys know that, right?
+You have a limited amount of mock interviews. You can give it at free of cost.
+Then other things you have to buy it out of your coins or the money you have to pay back for the mock interviews.
+That point is clear, right? Everyone knows this, that you have a limited set of free mock interviews.
+So since the expiry date is nearby, we want you to give it an attempt.
+It's not that if you are not able to clear, you will be getting anything back.
+It's just that just try it out. Don't waste your like, you know, chance.
+Even if you're not prepared, just go there and, you know, for the experience point of view, just take it up.
+It's your money. You have paid it. You have every right to even leverage that chance or waste your chance.
+But, you know, just go there, book it up a session and see how things are.
+Yeah, five extra five. So Pramod has given me, you know, complete data.
+So you have 12 mocks out of that seven are mandatory based on course.
+In case you flock anything, you have five extra in order to reattempt it.
+So you have this amount of, you know, mocks so you can leverage this extra five in case you're not able to clear.
+But yeah, that's a great story.
+I would love to, you know, discuss with you.
+Okay, great.
+So Pramod was in BDA earlier at Scalar. Pramod, you don't mind, right?
+If I write it down. Yeah.
+Okay. So he was a BDA first business development associate.
+So he was in that role.
+So he was in that role. Now he's, you know, seeing, I think, seeing these people, you know, getting pleased or he might have got inspired.
+I don't know personally him, but I just got to know that he was a BDA earlier in Scalar.
+Now he's prepping for his D roles.
+So, yeah, it was.
+I hope I can, you know, help you out Pramod, in case you need it, because like, as there was people like Ankit, you were transforming themselves from different tools into the tech.
+I mean, different streams, we would love to contribute like what in whatever means, right?
+So leverage any people in the whole batch or be anything that you want.
+Okay.
+Okay, guys. So the time is up.
+So let's get started with today's class, guys.
+Hey guys, I'm an electronics engineer, so leave it in steering aside, they are coming from different domain of like from the tech domain.
+So I from come from electronics. I was my college topper.
+I never got to use that knowledge, right?
+Even once in my working experience, so started started completely from scratch.
+Again, when I know started my corporate industry, trying to push myself every day to learn things.
+Okay.
+So.
+Great, guys. Now.
+So firstly, it's like any any doubts from previous session, any doubts from previous sessions.
+Because of.
+Thank you.
+So if you don't have any doubts, we'll get started with today's class, because, you know, the three classes.
+The next three classes, whatever we have are based on async.js.
+Okay.
+Now, first, in order to understand this three classes, whatever it is today, we'll get started with three of the points like firstly, again, since we have touched upon this part, like what is synchronous versus async code.
+We will again introduce them specifically will understand, you know, going into the depth and understanding exactly how the synchronous is async work.
+Then we'll understand like.
+How can we use.
+Callbacks for async activities.
+And then we'll understand one of the important topics from interview specific or understanding JavaScript, how it runs behind the scene, which is event loop.
+So all the magic that you see of async activity is happening because of this person or this architecture, which is behind the JavaScript, like event loop, how this is working and what all this will come to that point step by step.
+But let's get started.
+Let's get started with examples and let's explore them step by step.
+Okay, so.
+I'll share my code.
+Oh, like we just record this visible right.
+Right.
+Now, let's say.
+We declare a file called.
+Okay.
+Sync versus async.
+Now, before me writing down anything, does anyone have any idea like what is synchronous or what is asynchronous just by word right whenever we say that synchronous, what do you get actually what do you think this particular thing is.
+In any terms like what's your understanding when we say something like synchronous.
+Any any any definition as you know normally or by word definition library like dictionary definition anything not in terms of coding.
+One thing at a time says Kiran.
+In order.
+Okay, this is what synchronous is like.
+Now, JavaScript.
+JS is we call it JS as a synchronous.
+Single threaded.
+So what we know is that like JavaScript JavaScript executes each file from top to bottom.
+Okay, these three things.
+Remember this thing that.
+So Ramya says that single threaded or multithreaded.
+I'll come to that point is what I hope.
+Again, you know this definition of what is single threaded.
+Right.
+I have explained this in earlier in earlier class.
+So I hope these three points are clear to everyone that synchronous is like we are doing one thing at a time in a line fashion in one particular order.
+And the order here when JS is executed is always from top to bottom for the each file.
+Okay, this basic idea is clear.
+What is synchronous.
+Guys, now let's say I write down a few things.
+Let me let me know the order or you know what is the solution like output for this one.
+Pretty basic pretty straightforwardness, but I just want you to guess it.
+Let's say I have this.
+Whenever I'm trying to console log, I'm expecting to this to to be printed.
+That's straightforwardness straightforward.
+So we have seen this many times happening every day in every class.
+But what if I add a loop here saying that let's say I equal to zero I less than.
+Chain rack I plus one and I'm doing nothing here inside the loop.
+Okay.
+Okay.
+Why this is giving me an error.
+So what just what did I do?
+I see is that I've just been fired console log one console log two.
+And then I have added like this timer, which is like, I mean, I've added a funnel.
+Now I just wanted to guess like whether the like console logs both will be printed instantly immediately because or it would wait for this for loop to get executed.
+What's your take on this?
+It will wait. So how many of you guys think that it will wait?
+Give me a thumbs up if it waits or it should print instantly without, you know, for loop to get executed.
+Give me a thumbs down.
+So give me a thumbs down.
+Give me a thumbs down. If you think it's not, it will not wait so that we get to know.
+I see two people says, wait, no one will not wait.
+And others say, no, let's let's see the definition again.
+We say that JavaScript is single threaded language and it executes one thing at a time in order.
+Now the order is from top to bottom.
+We have executed this part of line.
+Since we have earlier, we have done execution context and how things are running inside when memory memory creation phase and execution part.
+Right. We have seen that each line get executed from top to down.
+First, these two lines executed.
+Then we know that console log will execute executed.
+Then I'm running a loop till this amount of time.
+Like what? How many?
+Look, it's a big number. Any abstract number, let's say.
+So this loop should get over in order to move to the next line.
+Right. That is that is what we can call it asynchronous.
+Isn't it like only one thing at a time?
+Like I'll be running this one thing at a time.
+After that, once this is executed, then I'll go for the next line.
+OK, let me show you this thing in, you know, while executing it, whether it's working as expected.
+Now, node sync versus async.js.
+OK.
+OK, let me add a few more zeros.
+To see the differentiator.
+Now, guys, do you see this that first hello one got printed and hello to is not being printed yet.
+I mean, it is waiting for some amount of time.
+Then once this loop is ended, then the hello to got printed.
+Have you did you guys just notice this one?
+Like so, guys, who people who gave me thumbs down, Ramya and Upendra.
+So what's happening is, again, as we as we told that it's a synchronous single threaded one thing at a time from top to down.
+So it will wait until this whole execution is completed.
+OK, then only it will go to the next line to execute it.
+So this type of nature, we say we call it as a blocking queue.
+It's something like let's say there are some of the operations which might not take time below this operation to execute it.
+It is it is not executing because this is taking a long amount of time and keep on waiting.
+Other things keep on waiting for the execution.
+So it is blocking the queue like whatever.
+Let's say it's each file is in queue where the series of steps need to get executed.
+There's a one particular step which is taking more amount of time.
+So are you understand? Do you understand now what is blocking queue?
+It's some of the things which are actually, you know, blocking, taking long time to execute.
+Complete. So this is the reason why JavaScript has faced challenges like OK, like that.
+We say that, hey, how if this is how it is going to happen, imagine if I'm making a service call and service call is happening
+actually on a different machine, right?
+We are trying to reach out a different server.
+And what if that server is down or that server is slow?
+All the other code will stop it.
+So the JavaScript architecture were designed in such a way that whatever there are activities which are acting like a blocking in nature, they have to be made asynchronous.
+Is this point clear, guys?
+Like whichever acting like a blocking queue, which is expected to take time.
+They have to work in an async fashion such that we say that whatever things are needed to execute first are should be executed and all other things which are taking time will be pushed to later.
+Like we can say that something which is a bigger thing that we take time and say that come back later.
+But wherever which are small things, we'll execute them one by one for effort.
+Is this point clear?
+Okay, now let's take another example.
+Let's take another example.
+I'll comment this thing.
+Now, let's say I have lit again.
+I'll say hello three.
+Hello four.
+Hello five and hello six.
+Okay, just again those constant statements again.
+I'm adding a console dot log.
+Hello three.
+And let's say console dot log.
+Hello four.
+Then let's say I have set time out.
+Hello five.
+Whereas I'm waiting one minute of time.
+Then let's say again I have a console dot log.
+Hello dot six.
+So what is the expected output case?
+Here.
+What would be the expected output here?
+All will print it at once.
+Then hello five will be printed.
+Says from all three, four, six, five.
+Okay, three, four, six, five.
+How many of you agree with Abhinav Ramya guys?
+Give me thumbs up.
+Three, four, six, five.
+If there is someone who believes like it should be like three, four, five, six.
+Let me know.
+Everyone says that it should be three, four, six, five.
+Let's execute and confirm it.
+Now if you see as you said that it is three, four, six, five.
+That's the right thing.
+What just happened here?
+What just happened?
+Now we say that this particular function or callback function need to be executed after one second.
+One second or anything.
+But this is time taking process.
+So whenever JavaScript comes from top to down, it checks if there is any async activity like whether it will take some time, whether there's a particular event which will take time.
+So it sees this particular point.
+It tries to take away from that particular execution context stack.
+It will push that.
+Hey, can you come after later?
+We'll check it.
+Then it prints six.
+And then after one second, it comebacks and prints five.
+That's cool.
+Right.
+This is what asynchronous does.
+So asynchronous, what we say is that we generally talk about whenever asynchronous comes, it's like a parallel execution.
+But here there is nothing like as parallel execution is happening.
+But here we are dealing a particular task.
+We are actually on beside.
+We are waiting for this like one second timer to be completed.
+Once it is completed, we are executing it in a way.
+Is this point clear?
+OK, so this is what an async.
+Now I have to like guys, what do you think if I put it zero here?
+What should be the output if I keep it zero?
+OK.
+Yes, what should be the output?
+OK.
+So how many of you think it's three, four, five, six now?
+If you think it's three, four, five, six, give me a thumbs up.
+If you think if you think it is still same that three, four, six, five, give me a thumbs down.
+OK.
+So let's understand this thing.
+Let's understand this thing.
+Now, what just happened?
+What is happening here is that firstly.
+Wonder how can we differentiate in the code when written in sync or async?
+I'll come to that.
+I mean, OK, I'll come to that.
+You can figure it out.
+OK.
+Now, this setTimeout function, this setTimeout function is, you know, it's a flag for JavaScript
+executor or is executing this code.
+Whenever we say that setTimeout, it doesn't know what amount of time it is actually taking
+in.
+It doesn't check the whatever amount of time it directly puts away this callback function
+and this timer is noticed by the other activities.
+But whereas it sees that setTimeout or setInterval or, you know, setTimeout and setInterval,
+whenever it sees this, it says that this is an async function.
+This is something doing an asynchronous activity.
+So this is always taken out of the stack.
+Even though it is waiting for zero seconds, the other it will be pushed removed out of
+the stack.
+Then other things will be executed first, like three, four, six, five.
+Still, it's the order seen.
+Let's see this.
+If you see this still order is three, four, six, five.
+The reason is that whenever now for the asynchronous things, whatever we have learned, like setTimeout
+or setInterval, this both functions are provided by browsers.
+So browsers know that whenever you are using this thing, it will be a time taking event.
+So it doesn't check what is a time event.
+OK, how many seconds it had directly pulls out of stack and let the other part execute.
+Is this clear, guys?
+Like why this is coming as three, four, six, five again?
+OK.
+Any doubts, guys?
+Any doubts till now?
+I hope no doubts.
+So I think you got a basic just of what is synchronous versus asynchronous.
+Now, let's let's go back and try to build an example.
+And let me show you in a better way.
+OK.
+I'll have an HTML file.
+Let's say we call it as async activity.
+OK, once we have this now, what I'll do here is that let's say I'll go to the style block.
+I'll add some basic styles to the body tag itself.
+The things that I'll add is just that border that I need a five pixel of solid black.
+And some margins and stuff.
+Let's say display is flex.
+Flex direction is column.
+And I'm aligning items along the center vertically.
+Justify content center.
+Let's say adding 10 pixel each side and margin to 10 pixel each side.
+OK, good.
+So nothing much added here as of now.
+But let's say what I'm doing, it's an empty thing here.
+But let me create a script called script.
+I'll try to link this file.
+No, no.
+Here, what I'm trying to think is that let's say now if I try to load this, you know, HTML, there's nothing is rendering right.
+Let's say we open this.
+Now, let me go it here and launch it.
+If you see, this is nothing rendering because inside the body, we don't have any elements coming up.
+Now, imagine we want some data that we want to fetch it from a database.
+OK, we want to fetch it from a database.
+Now, we will store a particular some data in a in form of like, you know, an array, considering that is particular, you know, as a database.
+OK, guys, now let's say I'm having building a data source.
+OK, let's say I have data source.
+Inside this data source.
+What I'll do is that I'll create an array of objects, again, simple objects like name and age.
+So we keep on adding few things.
+So I keep on adding some information.
+26.
+We have some bit.
+Twenty six.
+I've been of.
+Twenty five.
+We have opened.
+Let's say 28.
+Let me name myself.
+So let's say this is the user information we are having currently in our database.
+Now, what we'll try to do is that firstly, let me know anything that is present in database.
+You're trying to fetch it, whether it's a sink.
+It should be a synchronous process or it should be an asynchronous process.
+Let's say if I'm pulling from a client, I'm making an API call and I'm going to fetch the data.
+Whether it should be asynchronous or asynchronous.
+There it says is how many of you guys think that it should be an easy call?
+Right, I see four people because it is a time taking event.
+We need to wait for that data to be because database is a separate machine.
+It will have the data stored there.
+We have to pull it, then pass it, then render it on screen.
+So it is a time taking.
+So for those things in general, those are async activities.
+Now, let's say if you want to build this, let's say I have a function called get data.
+OK, inside this get data, what I'm trying to do is that let's say simple inside the set timeout, let's say set timeout.
+So this is whatever callback function.
+But let's say this is taking 3000 milliseconds, which is three seconds to fetch this data from the database.
+OK, I'm assuming that thing.
+Once we have data, let's say I'm trying to output it.
+And I'm trying to build data and attach it onto our like file into the body type.
+OK, inside this, let's say each inside this each object, I'm going through a data source array.
+I'm getting one of each individual object in the data from the each data.
+I'll try to add it onto this one output.
+I'll just add in a string format, saying that it should be having data dot name data dot each.
+OK, and it should be inside.
+Let's say I'm making an ally tag.
+OK, now I've what I've read is I've built a list of items like taking from the data source.
+And then what I'll do is that document dot body dot inner HTML.
+I'll add it to the directly output like I'm trying to attach everything, whatever I'm getting inside directly here.
+Let's say I'm adding a console log.
+And I'll try to print output here.
+And let's say I also print console dot log.
+Before making API call.
+After making API call.
+After getting data.
+So, guys, what should be the output?
+Like, let's say I load the browser now.
+I make a get data call and I load it.
+What should be the expected output?
+Now, think just answer in terms of console logs, which will print get printed first, second and third.
+Or what is the order that you think?
+So I'm just trying to say that I'm thinking like this is a database where I'm trying to get the data.
+And I'm trying to build a list of items and appending it to the body directly.
+Before API call, after API call, then data.
+How many of you guys again agree with Dheeraj?
+I see one thumbs up.
+Let's see this. Let's see this.
+I try to save it and go back here.
+Now, do you see this? Like, there's something happening.
+Let me go back here.
+And let me refresh it.
+If you see before API call is done, after API call is done, after three seconds, we are getting the data and we are trying to print it here.
+So I hope again, this is one of the example that I wanted to show on how you can do it on UI.
+But to make it more like since this is something like working like a get call, let's now try to create a post call.
+The post call is where you're actually trying to send a data into the database.
+Now, let's say this is a database here.
+We have to just do a push operation, right?
+If you want to add a new data into it.
+Now, let's say if I want to do it that way, I'll make a build a function again saying that create data inside that.
+Once a user is trying to create a data, it's a simple like I'll make a set timeout again.
+I'll write a callback function with a particular time.
+Let's say 1500 milliseconds and inside this, I will just do something like data source dot push a new object.
+And let's say it's a new name will be Diraj.
+Let's say Diraj age is something around 25.
+Okay, now, so let's again.
+I have.
+Before making create API call.
+After making create API call.
+So again.
+After making create API call, then.
+Also console dot log.
+After pushing data.
+Data source.
+So what do you think if I call it here create data?
+What should be the series of steps?
+So this is just to know like whether you are able to, you know, follow up with each and everyone.
+So I just want Diraj if you are trying to answer it, answer it in like personally so that everyone can answer.
+I'll give five minutes to think of it like what should be printing in which order.
+So guys, just think of it like what should be the order of execution.
+Let's say.
+I can give a numbers in order if you want to write simple numbers.
+Let's say 123.
+Then I'll say this is 11.
+I'll say this is 12.
+I'll say this is 13.
+Now.
+It would be easy for you guys to write it down in chat.
+What should be the expected output?
+Before API call.
+Some with write it down in numbers.
+I'll be able to follow up better.
+Consider both the functions.
+Consider both the functions.
+Check on the line number 33334 guys.
+Think it like think like how what should be the process of execution.
+I have got one answer.
+Okay.
+I've got mixed answers.
+So let's just let's think here.
+Firstly.
+First function called that we are making is called the function call.
+So let's say.
+Let's say.
+Let's say.
+Let's say.
+Let's say.
+Let's say.
+Let's say.
+Let's say.
+Let's say.
+Let's say.
+Let's say.
+Let's say.
+Okay.
+First function call that we are making is get data.
+So once we are making a function call.
+This is supposed to be a new execution context should be created for this one.
+Right.
+Let's follow up a story that what we know.
+Right.
+When we call a get data call.
+First execution context for get data will be created and we say simple console log.
+So this one should be printed first.
+So you guys agree with this point till now.
+Right.
+Then it sees that set timeout.
+It says that this is asynchronous activity.
+I'll push it away.
+Then it sees that another console log 3.
+Okay.
+So till now what we have printed.
+We have printed one and three.
+Then since it is pushed away.
+It doesn't have cost.
+It doesn't have anything to do.
+It calls.
+It checks create data function.
+A new execution context is created.
+Then again it sees that you know one one need to be printed.
+Then let's say we print one one.
+Then we see that this is again async activity.
+So it will be pushed back.
+Then we see that another console log one three.
+Fine.
+Now let me know which one do you think it should print first.
+Whether it should print two or it should print one two.
+One two right.
+Any specific reason guys.
+Which one.
+Why it is printing one two first.
+1500 milliseconds.
+How many of you guys agree with Tejan that it's it's time is less.
+So that's the reason it's that it is printing first.
+Right.
+Now it will print one two.
+One two then it will print two.
+Now let's see if this is working as expected.
+OK.
+Let me clean it up.
+Now if you see one three then one one then one three.
+Then we have one two then two.
+Good.
+Now if I increase this by 3500.
+Then what is the order guys.
+Only this thing to these two things will change right.
+First we'll get to output.
+Then we'll get one one two.
+Right.
+Right.
+So this this example is clear right.
+How this thing works for you.
+Right.
+Now what if what if we want to make sure that you know after let's say this is we are pushing the data.
+If you see that I'm pushing the data.
+But here it is not available on the screen.
+Like you see that you have pushed our data.
+What if you want to you know update the table update the content on your screen.
+Once you have you know push successful let's say pushing the data always write operations are slower than read operations.
+Read is trying to fetching it for writing it in the diary.
+It is comparatively takes time.
+Let's say this is how some write operations let's say it takes 3500 milliseconds 3000 milliseconds for getting it.
+But how can you ensure that if you want this here as to come onto the screen.
+Here is him to come onto the screen.
+Any ideas guys how we can make sure.
+And there's a one clause that it will take more time.
+This set timeout will be taking more time than this set time.
+No Ashwini that's a call out right.
+So write operations are usually slower so it will have it will take more amount of time.
+It's something like once you have let's say informed table.
+You are trying to filter out your trains or anything you enter the details and it clicks search.
+Right. Once your search is sent queries sent you pull out the data and then reload it right.
+Now this is what we are talking about how we can reload it.
+Any ideas guys.
+It's pretty straightforward I think it should be pretty straightforward.
+If you're not able to think let me know.
+In create request call get data right.
+So how many of you agree with Ashwini's point that he can you call that get data again so that it will get the updated information.
+That's a straightforward thing right.
+Once we are pushing into the data get me the data again.
+OK.
+Once I do this let's say we go back onto the screen.
+Now let me refresh and see.
+Let's say one three one one one three.
+Then we got two printed then one two again printed then one three again printed.
+Then there is was added.
+Do you see this there is getting added at last.
+It's like refreshing at runtime.
+Because there's some right call is happening then you are getting back again data.
+OK.
+Now by the better way right.
+You never should call a function directly this way.
+You have to always use something like a call backs.
+OK.
+Now let's say we are having the data here data and let's say a call back.
+Now instead of get data let's say you call a call back here.
+And let's say this we push this data calling data here.
+And once we are creating it we add it here this one and take it data call.
+OK.
+This is what our syntax should be like.
+We are passing this data as a callback function.
+OK.
+Now this callback we don't know when it will get executed.
+It depends on the whatever function body it executes.
+This is the use case we have seen already earlier.
+Right.
+So any doubts guys in this example or things we have discussed till now like how the things
+are getting executed what is sync versus asynchronous process.
+What happens if timeout finishes during the execution of other code.
+I'll come to that.
+Good question.
+OK.
+I'll ask you again at the end of the class like what it will happen.
+OK.
+I'll talk on that.
+But let me know if that doubt is not resolved by the end of the class.
+OK.
+So guys any doubts in this context what we have discussed till now.
+No doubts.
+Right.
+So now since we assume currently the database as you know this an array.
+Let's consider another what type of databases you know guys what can be the initial like
+how the databases got evolved.
+How many of you know like what was the initial database before tech come into the world where
+used to store the data.
+Anyone like file system registers right file.
+Right.
+So files for the initial like books we used to enter in books used to write all things
+are data.
+So for on books level itself that same idea was replicated such that if you need a book
+on the replacement of the book in the tech world it is a file storage system.
+Now let's say if we use some file storage system and examples of that how we can read
+it in JavaScript because we haven't seen like using JavaScript how we can read the files.
+Right.
+Now let's say I create one three sample files calling file one TXT.
+Let's say we call it as a fund or TXT simply.
+And let's say I call it right.
+This is file one.
+And let's say I have a new file F2 dot TXT.
+This is file two.
+Say F3 dot TXT.
+This is file three.
+Again one basic question guys to let me know reading from file system is again whether
+it is a sync process or a sync process.
+What should we.
+OK.
+How many of you agree with Abhinav that it should be a synchronous process that reading
+from a file system.
+OK.
+They just say sync.
+Let's just think of it.
+Meanwhile I'll create a file.
+Let's say if I want to read context out of this files F1 F2 F3 and whether it should
+be a synchronous or asynchronous.
+They are saying so again give me thumbs up thumbs up guys if you if you think it is synchronous
+give me a thumbs down if you think asynchronous.
+So it will give me a gist of it.
+How many of you are thinking synchronous.
+OK.
+Choose one side Pramod even if it's no idea choose one side whichever cut feelings you
+have so that we'll discuss this.
+OK.
+Now again I would say it's a equal and people who are reacting in class I don't know what
+other people are doing but whoever I voted there is some people think that it's synchronous
+some people think that asynchronous.
+Now what if do you think a file should be having only one line of code or it will be
+having paragraphs amount of data and file can have any bite data music related data
+video related data anything right.
+It can have any amount of data.
+So just let me know whether it is a time taking event or it is an instant event like it will
+happen in just a span of second.
+Right.
+Time taking when there is a time taking then if I keep on reading a file other part of
+the code will be stopped right.
+This will take this will act like a blocking queue again isn't it.
+So if it is blocking queue then what should be the solution for that.
+How it should be it should be a sync right.
+So whatever things that you are reading it from whatever systems you have where you need
+network calls or any time interaction right.
+Those are all are a sync activities.
+OK.
+Now let's explore the step by step.
+First we'll see what happens with the synchronous when we try to do you know synchronous way
+but in order to interact with file system right in order to get the file or get data from
+file we have a library already built in which is giving you some utility functions.
+Now when I say utility function those are like methods which are available on array or map
+or anything that you see the same methods.
+Let's say I say that so there's something like file system in NodeJS.
+OK.
+This is first time where I'm introducing nodes other than calling you know executing
+files using NodeJS environment.
+Now let's say I call it an FS.
+I you know import this using a require.
+Now whenever you want to import anything in NodeJS environment right NodeJS files in any
+extension files you instead of calling an import this is a syntax how you write an import.
+Is this clear guys.
+Now once you import it you'll store all the library utility functions on the FS system
+on FS you will be having a list of methods available in order to deal with whatever like
+write read any operation that you see.
+It's just clear clear guys in order to act that get the directory read the directory
+or anything.
+So this file system I can show you like the utility also file system NodeJS.
+This documentation.
+But this is the actual documentation that you have to refer like how this file system
+is handling.
+OK.
+Anyways now we have this.
+Now let's say firstly we explore in a synchronous way.
+How do you handle in a synchronous.
+We know that it is wrong to do that.
+But let's explore this like first let's say that I have const data one line on a first
+model you have like read file.
+OK.
+Let's say I'm right reading a file read file in a synchronous way.
+When I do it it's a directory I have to call read file read file sync inside this read
+file sync you have to pass standard syntax or we can write anything inside require inside
+require you have to call the exact whatever this module name is.
+If you see this if you can use it this way also but this is a more better syntax how
+you use it Kabir in NodeJS.
+If you hover over it you will see that what are the different ways of doing it.
+If you see they are using alias name here as an FS like from NodeFS or NodeFS slash
+promises.
+OK.
+Yes.
+So what I'm trying to do here out of the file system I'm using a read file sync and this
+takes a particular file name.
+Now let's say I have F1.txt.
+I want to read this file.
+OK.
+Now let's say I have const data2 same way const data3.
+Now once we have this data1 data2 data3 let's try to print it out.
+Let me move this to next steps.
+OK.
+Let me execute this one.
+Since it's a synchronous we expect that you know each of the file each file 1 to 3 output
+the data like this is a file 1 file 2 file 3.
+Let's see that that's if that's happening.
+OK.
+Node file system.js.
+You see I'm getting a buffer data.
+Let's convert this buffer data into string to read the content.
+You see we are getting this expected output as a 1 2 3 8.
+Now let's say again let's recreate that problem that we see that hey if you write it this
+way right it is going to create a problem because there might be a file which is having
+more amount of content.
+Let's say I have Lorem 500 and I try to you know copy this content and I put it in file
+2.
+Let's say I put it here.
+OK.
+This is a big file.
+Now let's say if I clear it up and load it up.
+Now.
+OK.
+Let's do one thing.
+Let's make it further.
+The FS system is pretty fast.
+OK.
+Now I have this amount of content 500 of each line into a multiple of 26 27 lines.
+Now this file 2 supposed to be taking time to load it.
+Oh it's still happening it faster it is but I hope you got the gist of it that hey this
+is like a time taking event.
+It shouldn't be like you know if this is an MP3 player or a video player which is an MB
+sub size.
+If you say this content might be very less.
+Actually.
+You can see in the finder.
+Anyways the content of this file will be in KBs.
+It's it's able to read that but I hope you got the problem like what what happens if
+I load it in synchronous way right.
+Now let's see what the other way of around other way around like doing it in synchronous
+non synchronous I mean asynchronous way.
+This is a way of doing in synchronous.
+Let's say I try to do it in async process.
+Now in order to do async process again let's say again I call it as this one fs.simple
+read file.
+This is async activity.
+Now f1.txt then.
+Which I have two then I have three then let's say two.
+Then this is three.
+Now.
+Once I what I'll do is I'll copy this.
+I'll paste it here.
+Okay.
+Now what should be the expected output guys now earlier in synchronous process it was
+always one two three.
+Now what should the expected output when you're going for async.
+Depending on content of file.
+Do you think that whichever content is there first it should go or it will be like first
+in first out or last in first out.
+What process do you think that this queue will process.
+Somewhere we are putting somewhere depends on the content says Ramya.
+How many who think that it should be like let's say if you are building and building
+an architecture now how would you resolve this.
+Let's say if whatever content is bigger you'll put that in the execution at last or you'll
+go with first in first out or last in first out.
+The best solution is depending on content isn't it.
+Like whichever content is more will get that last.
+Other things let's execute that first.
+Let's say if this is executing in such way.
+Okay.
+Where is the CB coming from.
+Just a minute.
+Did I call it CB somewhere.
+Okay.
+CD classes.
+Okay it is failing at the first step itself.
+It doesn't return anything.
+So we have to call it in a callback function.
+It doesn't return the buffer data.
+It takes a callback function.
+Now let's say we try to execute in a callback function that we call it as callback one.
+And let's say I have a callback to say callback three.
+Now this callback will be executed inside this read file after content is passed.
+Now this callback works in such a way.
+Let's say function CB one.
+It has two things.
+Firstly it can have error while reading the content or it can have data.
+Let's say I try to do that both things.
+So I have CB two then I have CB three.
+And what I can do is that I can take this.
+Let's say if error console.log error else data two string.
+So this doesn't read file doesn't read return as an object whereas read file sync used to do.
+So what I'm doing is that it takes a callback function if you see here.
+So this takes a callback function which first argument is either error or null value or then we'll have a second value as data null.
+So is this clear guys why I'm writing this way.
+That's how syntax works of read file like it takes two arguments.
+One is file path.
+Then there's a function which should be executed once you pass the data and that function will have two arguments.
+First is error.
+Second thing is data buffer and either of this thing get executed depending on issues.
+OK. Now let's see this if this is working now.
+Cool.
+If you see what just happened.
+Let me go back to the file to you know lighten it up so that we can see changes.
+I'll have only one line.
+And also I'll reduce it this much.
+I'll have only this much amount of data.
+And let's say we execute this file again here.
+Now if you see the first earlier we were saying that you know depending on content it should read.
+Now it is executing actually file number two first.
+If you go back to the code I'm actually calling first file itself file 1.txt cb1 and it is executing.
+Now if I again call it up if you see this the process got changed 1 3 2 again if I call it.
+So this 2 3 1 again I call it.
+It's 1 3 2.
+So this do you see here this like nothing consistency how this is being executed.
+Firstly.
+Like which thing should get executed first is nothing consistent.
+But when it comes to data when it when I increase the data up to a good amount let's say I try to put all the data back and I clean it up.
+I execute this one again I execute it.
+If you see again like file 2 got invoked in the in between again I call it still file 2 is again coming at the end again at the end again at the end again at the end.
+So there is a threshold value.
+So what happens behind the systems in this API what they have done is like they check first condition is like how much amount of the content is there.
+And depending on the content size they know that how much time the machine will take and how it should execute it for a second third.
+But all these things are happening in asynchronous way.
+I hope this this example is clear guys how this is working and what this file system does.
+How we read read from the file.
+Guys give me a thumbs up if you are able to understand give me thumbs down if you didn't understand it.
+If you want me to repeat it I can repeat it.
+Now the same text that you see might be looking like new.
+What actually behind the scene happens is let's say there's a function read file.
+What it does it it takes the part of the file.
+Let's say this is F1.txt.
+Then there is a callback.
+Okay let's say this is a CB function.
+And when we write when they write this they get the you know cause get file.
+So they might be taking the path URL from this F1.txt.
+Now once they are able to access this file right.
+Once they are able to access and convert into buffer they'll put everything into this one callback like this will happen inside the.
+Try catch block let's say while they are trying it to get the content everything is fine.
+Then they'll have a catch block inside the catch block.
+Firstly what they'll do is that they'll call here CB function with error and null key because there's no file data.
+But if you are able to get the file data they'll call it in this way that hey you'll get a null.
+Comma data.
+This is what syntax would look like.
+And whatever callback function you give you can write down and use that use case.
+Is this clear how this is this read file is working behind the scenes.
+I see one thumbs down.
+So let me explain this what's actually happening if you see earlier.
+If you see earlier whatever the read file sync is there.
+This function was returning there was a return statement right.
+Here you can also return it like either you can return.
+Get file data let's say.
+OK let's say this is a buffer data itself either you can return it or you can you know redesign a function in a different way.
+OK you can write it anything but here in the read file in asynchronous process.
+OK in asynchronous process asynchronous process majorly deals with a callback functions.
+Remember that one thing that asynchronous process deals with a callback functions.
+Now earlier this was synchronous.
+We know that we will wait till this line is completed and thing is returned.
+Right.
+So synchronous process always return something comes in a data to back to you.
+But when whenever there is an asynchronous process what this particular functions takes is like they take a callback and they check that when they're trying to get the data if they are able to successfully get the data.
+They'll call this callback at that moment of time passing error as a null and passing the data if there is an error anytime while fetching the data from that file.
+They'll throw they'll again call a callback with an error first approach.
+Is this clear like how this works for asynchronous activities like set timeout if you remember set timeout it takes a function in it with a timer.
+This is same way.
+It's taking a time to read it.
+Once the time is completed it calls that callback function.
+Got this case.
+This is like a same set timeout earlier.
+If you remember the syntax inside the set timeout you had syntax like a function.
+Then you had a timer.
+Here we don't know the timer.
+Timer is the amount of time that file needs.
+But you need a function to pass and write.
+This is an asynchronous activity.
+This is the function you are passing.
+And this function whatever you want to read this like you might be you know seeing the syntaxes you might be feeling different art.
+But what if I write this thing this way.
+Let's say I copy this one whole thing.
+I cut it.
+I can still paste it here.
+Simple.
+I don't need CBT.
+Still it works this way.
+Is this clear guys?
+How this is working?
+Guys is there anyone still who didn't understand this one why we are need to pass a callback and why it is not returning an item at a time in future use case.
+If this is clear.
+Do you need a break or should I continue?
+Do you need a break or should I continue?
+Ok.
+Let's please again the callback part.
+Ok.
+So once I will explain to some bit.
+Then we will take the break guys.
+So firstly anything guys.
+Wherever an async activity happen.
+Remember synchronous activity is any function.
+They return a data to you.
+Ok.
+They return the data.
+That's why you store it in a variable and then move it to the line number 2.
+Because this line won't be executed until unless you execute this line.
+Right.
+In synchronous way.
+But when it comes to asynchronous way.
+We don't know whether this particular you know function will be successfully called or this is a failure.
+Right.
+This is a file system.
+It's like a database.
+There might be a n number of issues.
+Network issue or anything or anything can be happen.
+Though we have the file located here itself.
+What if it is on server.
+Ok.
+So what this function works in such a way is that.
+They take the location of the file.
+And they take a callback function.
+Inside this callback function.
+You can write whatever you want to do.
+Once this call is success.
+So if you see when I hover over this.
+It says that.
+Hey it can throw an error.
+Or it can return you the data that you need.
+This is like a same setTimeout function.
+In setTimeout if you remember we pass timer.
+And after the time is executed.
+What you want to do.
+We used to pass a function.
+This is the function that we are passing here again.
+In async activity.
+Is this clear.
+This particular function.
+Will be executed.
+And this happening here.
+Like this can be executed later on.
+Inside the read file function.
+Ok.
+I hope you got this Sambit.
+I will start the timer guys.
+So let's say reset it.
+6 minutes.
+6 minutes is fine right.
+Will come back in 6 minutes guys.
+Thanks for watching guys.
+I hope you enjoyed this video.
+I will see you in the next one.
+Bye.
+Thanks for watching.
+Thanks for watching guys.
+Thanks for watching.
+Thanks for watching.
+Thanks for watching.
+Thanks for watching.
+Thanks for watching.
+Thanks for watching.
+Thanks for watching.
+Thanks for watching.
+Thanks for watching.
+Thanks for watching.
+you
+you
+you
+you
+you
+you
+you
+guys I hope everyone is back
+can you give me some reactions if you're back
+I see only one thumbs up
+okay
+so guys I hope again because I'm going to start with event loop which is one of the most
+important topic to understand how that is working because till now wherever there is an async activity
+I talked about I've always told that this is taken out from somewhere and put somewhere aside
+till then we'll execute all other things but I'll talk about where it is being put as other side
+okay let's say we again take an example I'll write something like console dot log
+then let's say
+f1 dot read file
+okay fs dot read file f1 dot txt let's say this then
+fs dot read file
+f2 dot txt
+then fs dot read file
+f3 dot txt
+then let's say you have console dot log
+last one a b
+let's take this an example and the output should be a b
+then this async activity in any order that we have seen that it can be f1 f2 or f3
+and depending on data threshold it can change the order this is order is an expected but now
+let's see what is happening exactly okay let me write down a few drawings
+so this is something a call stack
+then you have something like
+a native environment a browser api list
+or node.js api list
+okay because fs system set interval
+or set timeout
+all these things are coming from this part because browser is supporting us right
+now let's say what happens when this particular piece of code
+give me a second how can I move this
+anyways
+as I hope this thing is visible right to you guys
+ipad is visible right now so what happens when execution happens right let's say
+first a is went into call stack it gets printed then you see that f1 dot txt is
+there now whenever it sees that it is reading file it will take an out and it
+will be put here something like read file one in the in the something like
+called as browser api's okay where this read file is processes actually
+happening on the side okay now then you have f2 dot txt again this is put here
+read file 2 then you have f3 dot txt then you have read file 3
+okay here so all these three files whichever you see in async activity are
+taken out from the call stack and then b get executed now a and b are populated
+once a and b are populated I mean this you'll see in the output like a and b are
+coming up and all these three things are not executed but put into the
+something like a browse browser api list space where they are actually getting
+reading the file and content now once that reading is happened once this
+reading is completed they got the content or they got the error right they
+have two things here one is called as micro task you then you have something
+called as callback queue okay once you fetch the data right once you pass the
+file data then each of these events once they are done they are pushed into
+something called as callback queue here inside this callback queue each call
+backs whichever we passed inside those functions right cb1 cb2 cb3 all will be
+waiting here cb2 cb3 set timeout set interval everything comes here inside
+the callback queue in micro task queue you generally get the fetch calls and
+micro task queue have higher priority than callback queue that's fine
+everything is done why are you putting putting again in a queue because you
+directly cannot go into the call stack and execute that cb1 cb2 cb3 there is a
+person who is actually checking on this
+this person is called as event loop now event loop what it does if I write down
+in terms of logic right if I write down in terms of logic it checks first
+condition it checks that if stack is empty with stack this particular stack
+call stack if it is an empty then it checks two things first it has two cases
+true or false okay if it is false if it is false it keeps checking
+that till the moment this call stack is empty it keeps on checking and if it is
+empty then it checks whether there is something in micro task queue okay let
+me write down a complete sentence here if not pick event from callback queue
+and put it into call stack so are you able to understand this case what just
+have written here so first thing whenever there is an event so if this
+person is a most important person okay some someone who might be interested
+asking this one what does this person do this person keeps on checking whether
+this stack is empty only when the stack is empty right then it checks that hey
+if micro task is empty if micro task is having events it will take one by one
+event put onto the stack executed then it will take other one then it will take
+other one if this particular task is empty then it will take callback one
+callback to callback three whichever event is pushed in this events this use
+works like a first in first out is this clear like a top level understanding I
+show you in life this how this how works is there anyone who don't understand
+this concept how this event loop works to write it down right to write it down
+condition like like if I write down in terms of algorithm so that you can feel
+it better let's say there is a while loop and checks stack is empty only if only
+if it is empty it will check okay if it is not an empty check again this let's
+say there is a check again function okay but if stack is empty
+it checks let's say it has two things one is micro task
+again it has other thing called callback
+it checks if micro task
+is an empty then pull each item right stack dot push callback dot pull this is
+what generally happens right else if it takes stack dot push micro task dot
+pull I mean this is not how the things works I've just written code so that
+you are able to understand like whatever sentence I have written in terms of that
+sentences I've written code this is clear guys how this thing works I'll show you
+in life I'll show you in life let's say this let's go back so there is a one
+application someone have built it so that you can you guys can understand and
+visualize it better let's say if you see this is something like a JS visualizer
+I'll bookmark this link also okay you can check this link now what just happens
+here let's just think what happens if you'll see this code let's say this code
+is visible right anyone having any challenge understanding check seeing
+this code visible right guys this code whatever is there guys one time so we
+are good so if you are able to see this now let's say there's a function log
+there's a different functions function log a function log B and let's say like
+CNT and you are calling executing this functions okay now you are executing
+this functions like log a then set time out log B as a callback function then
+you have something like promise result now let's let's check this later what
+promises all is something which goes into the micro task you will come to the
+promises in next class will review this one but this is something will go into
+micro task then there is a log D so let's see what happens step by step okay
+so let's say if I run this if you see this first it's synchronously execute
+the script as though it was a function body run until the call stack is empty
+okay let's say if I run this step now if you see the log is been put into the
+call stack because this function is executed right like this is being called
+once I do this if you see A is printed okay the once A is printed if I go to the
+next step that log A has been removed from the call stack call stack is empty
+now if you see log B didn't even come into call stack it directly went into
+something called as task queue or callback queue okay because this is part
+present in something called a set time out though it was a 0 seconds waiting
+time it didn't execute it is this point clear guys till now we only printed A
+and B went into task queue then if I go to the next step if you see promise dot
+resolve this this thing I as I told you it will go into micro task queue I'll
+explain why it goes into the micro task queue in the next class since we haven't
+talked about promises then in next step if you see if we have log D which is
+executing the function it's a synchronous thing so it executes and
+prints a D now this is what we understand right whenever we see that
+hey whatever synchronous things are first those will be executed A and D are
+executed in printed in a console but other two things are waiting to get the
+stack empty only when the stack is empty it will check condition that event loop
+will check the condition hey if micro task you will get the updated I mean
+higher priority now let's see what happens if I clean it up now once the
+call stack is empty if you see it took from the micro task queue it put the
+clock C and this lock C will get executed and C will be printed then once
+this locks is empty then micro task you will get its priority then it will be
+put into the call stack then it will get executed did you understand this guys
+what how event loop works with this example better how ADCB is actually
+working guys anyone having any doubt anyone having any doubt do let me know
+about the event loop because this is something people get confused like what
+is how though JavaScript is single-threaded how it is working like how
+it is able to do something like you know something waiting task and the
+application is not jamming up right so whichever time taking event it is
+actually removing from the call stack and putting into the something like like
+a browser API list and that is resolved once that is resolved it will come into
+task you or micro task you from there it will be pushed into the call stack okay
+from there it will be pushed into the call stack okay now let's take another
+example I have list of examples here now this is pretty simple right set time
+out and promise start result promise result always goes inside a micro task
+you set time out is a call back it goes into the task you let's say if I put
+play this if you see if I go into the step one a function I mean call back
+function a always goes in task you because it's a browser level it goes
+into something you call back you then you have a promise dot resolve it will
+go into micro task you so you'll have AP since micro task you have a better
+priority compared to task you B will be printed first okay then a will be
+printed simple so you can play around with this examples guys there are least
+of least amount of examples that you can play around okay this is what you know
+introduction level like where do you understand synchronous and asynchronous
+keywords and you try to understand from the file system or the database level
+or like how it is leveraging browser level API's or Node.js API's right so
+this is it guys the content for today's class is this is it but one thing I want
+to leave you with is like if you see earlier when I was executing this file
+system it was not in order right the files were not executing in order though
+content was heavy or slow doesn't matter if you see one time the third file
+getting executed last sometimes second file is getting executed last right so
+how can we make sure that each time each time like it get executed in some
+synchronous like the way you want it to be okay in a way what I'm trying to ask
+is like how can you again convert back an asynchronous code into synchronous
+code such that let's say files is after only file 1.txt is executed you call
+file 2.txt and then after file 2 is executed you call file 3.txt
+one did you understand question guys so we have just seen that it's in order is
+not in sync so how we can make sure that it's an asynchronous activity
+that's fine that you are doing it you read it you read it in the micro task
+your callback you you take your time I have no problem don't jam my application
+but once you are putting into the call stack using event loop put it in order
+put it in order such that f1 f2 f3 are executed okay so think of this thing one
+of the simpler one of the approach I'll tell you is that let's say in f1.txt
+inside this callback wherever this callback is there what if I try to call
+the CB2 inside this here I mean just think of it like how can you do it if
+you want it to be in sync how can you do it in sync like can I do it this way
+that once you read only file 1 then go and read file 2 then once you read file
+2 then go and read file 3 okay let's say if I try to club this thing if I try to
+club this thing okay if I try to club all of them together how it would look
+like if I cut it everything from here and I put it here I let it be here no
+worries and one thing we can do is like yeah we can put it there so that I can
+show you one of the pattern let's say I put it here okay and again what I'll do
+it is that let's say I cut this function and I cut I paste it here now does this
+code look readable guys what I'm saying is that read the file f1.txt once you are
+able to read it and okay and okay I should be calling just a second let me rewrite it
+down everything for the better understanding I'll create a new file altogether and I'll
+show it to what I exactly mean series dot js let's say I have the series dot js I
+copy the whole content I put it here and I remove this I remove this now so this is
+a callback function in firstly here right wherever we are calling this file
+f1.txt let's say I remove the CB1 I paste a function here okay once this is successful
+then I have to call CB2 okay did I cut something else
+let's say firstly I have to call it here then this file CB2
+f2.txt now this thing will get executed inside this now this thing will get executed
+here now let's see this code guys for a second do you say this like once
+a particular file you are able to read then do the second item if you are able
+to do second item successfully then do the third item a series of comments let's say
+if I say that series of comments now if I go on writing this logic it will keep on increasing
+this this way right code will be keep on increasing this way guys firstly are you able to understand
+what I did it here firstly let me ask you this are you able to understand what I did
+it here is there anyone who didn't understand this change of pattern is there anyone who
+didn't understand this give me thumbs down instantly I'll try to explain this guys no
+problem okay cool so firstly fs.readfile f1.txt a callback function this line is clear
+guys who gave me thumbs down right I'm passing a callback function instead of writing it
+separately I executed here itself like you do it in setTimeout you write it there itself
+right now once I once you open this this is what you do right whether it can return an
+error if error is printed convert into string and stop if it is giving a successful response
+if it is giving a successful response then read the second file okay inside the second
+file only if the first file is successful then read the second file and again the second
+file take a callback function inside the callback function it will check whether there is a
+success response or error if it is error stop it there itself if it is successful go and
+read the third file then again third file checks whether it's an error or successful
+response if it is success or error it will print it this is clear to you guys who gave
+me thumbs down three people like I'm just putting a callback inside a callback inside
+a callback so if you see this if I try to keep on right let's say if I need to write
+ten files need to read ten files one after the other this code will become pretty ugly
+to read and understand isn't it do you guys agree with that point that code will become
+pretty ugly and not able to understand even if I show it to someone right first time they
+leave the JS itself they won't go into the JS itself now this is what we call it as callback
+like you keep on adding a callback inside a callback inside a callback it will keep
+on increasing this way have you heard this keyword earlier callback hell so this is
+what we call it as a callback hell so where this like it will keep on increasing one after
+the other other like for this one right for handling this one for handling this one will
+see what is a solution JS has provided okay but this was a initial way how JavaScript
+used to look like you know a function inside a function inside a function inside a function
+inside a function they keep on right functions in that function if you have really older
+code code base right any older code bases try to search in online if you have any older
+code base you will see this sort of syntaxes and wrapped under something called as IIFE
+functions have we discussed something IIFE functions right wrapped under IIFE functions
+which stops you from polluting the global variables like the function which is immediately
+invoked right rather than you calling the function and executing it okay if this thing
+is clear okay IIFE is this one now let's say if I write a function a and I have a body
+of console dot log and I have a this is a normal function in order to execute this function
+I have to call this function someday if I don't want to do it this way I can call it
+instantly right like this syntax or else how this looks like IIFE looks like this one
+this is an IIFE like as soon as the function is declared in the call stack as soon as you
+see it you execute it instantly like calling that function right away what this does is
+earlier we used to have var right var keywords we didn't have anything like if you are a
+polluting let's say since where everything goes into global space and you have that problem
+of this one right everything like initialize with undefined and values are assigned so
+that for that reason in order to not pollute the global space in order to keep the variables
+whichever are declared inside a local in a separate execution context they used to write
+this sort of pattern JavaScript pattern they used to follow in older ways of code because
+they used to have only var way of declaring a variables and that used to pollute the global
+variables okay but I hope guys you understood whatever thoughts I wanted to discuss if there
+are anyone who have still doubts we can discuss in the doubt session I'll start the doubt
+session but the content for today is here itself next class again I'll start with something
+like a callback hill then we'll discuss the solutions for this callback hill okay with
+few of the tricky questions again checking your knowledge on async versus sync I hope
+you come back and understand these three classes are important which will open your eyes to
+you know many of the difficult and interesting concepts but I hope you guys learned what
+are the things runs behind the scenes in JS how these things are handled though it was
+single-threaded doing one thing at a time how it is trying to prioritize which task can be done
+earlier and which tasks need to be pushed other way around and we all of the other tasks which
+have been pushed away into the two queues and which queues get more priority and which one
+get less priority and how they are got back into the call stack right so I hope you try to use
+that visualizer that we have seen this we'll play around with this one understand this thing
+and come back in the next class guys so with this I'll start the doubt session guys if you
+have doubts please stay in the class or else feel free to drop try to complete your assignments
+attempt the mock interview for that you know sequel okay so that you know we together move
+forward and in sometime in like 20 days we'll have also JS interview coming up where you
+will be where you have to learn on HTML CSS and JS part of okay but you keep revising guys so
+guys have started out session in case if anyone is having any doubts I'll take them or else let
+me know let me push the code how to prepare for JS mock interview so I have shared I've shared
+one of the doc where which had a good amount of questions Archana I'll try to re-share it give me
+give me a second
+okay one of the way is like you know as I always told you like in order to learn the concepts clearly
+one is like going through JavaScript info this is one okay which will give you complete concepts
+that whatever we are learning if you search here there might be somewhere event loop also
+if you see here it has event loop you can learn here what is event loop and go through it just a
+revision content okay you will understand it like how this event loop works and how they what all
+things comes under macro task queue like user is clicking a button that button is like those event
+listeners are added where where those event listeners stick around you can explore those things
+other than this website specifically for interview there are few github repos
+this is something like you can revise anytime that you have okay like a list of questions you can
+pick any like just go through our top level like think of it like how can you create an object and
+what all things are there just a skimming through it okay from top to bottom
+so I'll attach this this two things plus machine coding
+I've shared his link both are not
+does anyone have that link guys I think I have to put it in the notes here
+anyways I'll share that machine coding link but these two things are important to go through
+Archana then I'll also I didn't see any JS soups use strict versus non-strict node
+and the browser picture you said I'll do that Kabir I thanks for reminding it I'll push it here
+in the pictures okay I'll add it and in the next class we can see it I'll push it in the github
+okay yeah so Pramod has shared ML questions
+thank you Kabir so this is actually you know these are the list of questions we have solved few of the
+questions in the class there are these are the other list of questions that you can expect from
+simple and these questions when it got when you're going for simple HTML messages you might be
+caught in it caught in that and there might be around with react specific in the future if I go
+for any machine learning with react machine learning with plain vanilla so both can be there
+okay but there are same list of questions I'm tagging that thing also
+let me do one thing I'll add this all all these things
+say I
+then you have
+theory interview questions
+reference talks
+okay I'll push this thing also
+hello guys is there anything else did you enjoy today's class did you got to learn something how was it
+guys if there are no questions I'll end the session in some one minute do let me know if you have anything that you want to ask
+okay I don't see any questions so thank you so much guys I hope to see you on again the Saturday so where we'll be understanding again callback hell and the possible solutions for the callback hell what JS industry has done for us and then for the callback hell
+so where we'll be understanding again callback hell and the possible solutions for the callback hell what JS industry has done for us and then furthermore optimizations okay so this is our journey where we'll be understanding whole async JS and how we are leveraging up to an extent
+like in JS and what is what what is the code that I write in day to day life we'll move to that level in this three classes okay so see you guys see you guys on Saturday I hope to see you everyone again complete your assignments attend or you know mock interviews complete your mock interviews don't let go that one chance that you have free mock interview okay use all of them 12 or 17 whatever you have take multiple rounds okay
+use people like whoever are there interviewers they'll really give you good feedback I mean feedback is more important than anything failing in actual interview that's not okay but failing here is always good good enough to learn them okay
+so guys then in that case thank you for today see you on Thursday guys sorry Saturday so bye good night one final thumbs up guys good night guys no good nights see you guys
+you
+you

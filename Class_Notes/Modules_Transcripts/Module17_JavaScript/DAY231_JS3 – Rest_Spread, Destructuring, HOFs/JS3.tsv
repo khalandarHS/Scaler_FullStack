@@ -1,0 +1,2025 @@
+start	end	text
+0	2060	you
+30000	32000	you
+51280	53280	Hi all good evening
+54280	59580	I'm I audible and visible guys any thumbs up reactions
+61160	65660	Thank you. Yes. Thank you. So let me share my screen
+67840	71080	To let me know if you can see the screen good evening Tejal
+73320	75480	Just to let me know if you can see the screen share too
+76880	80120	Good so let me open the code base
+83280	87000	This is something that I was building an open source project for myself
+97480	99480	Give me a second
+108480	110920	Good evening, I appreciate good evening some bit
+114000	116000	So
+117120	121900	Guys I've seen there's a drop in you know assignment problem solving percentages
+122560	129200	Are you able to catch up or having any challenges that you want to point out or do I need to take it anything from?
+129200	131200	my side
+131400	139340	Just want to know if there's any reason that you know this or you are able to do it till now easy in JS, okay
+140060	143020	So I hope everyone is able to catch up, right
+144620	146380	Great I wish it
+146380	153180	Right. Great. So whatever responses I'm getting I believe from that part of you, you know, this
+153900	157580	Assignments, whatever there are those are comparatively easy, isn't it?
+158300	161040	So let's start with a screen share of iPad
+161680	163680	Uh
+165120	167120	And the second thing guys
+167120	171520	I hope all the topics that we have covered till now in the js are those are clear
+172240	177760	Uh related to maybe introduction of variables data types and then harvesting concept
+178320	184400	Then we understood how behind the scenes things work. We also learned bit of debugging in, you know browser
+184720	186720	Meanwhile when I was trying to show that
+187280	189440	So I hope all those concepts are clear, right?
+190400	194240	Whatever we have covered till now difference between let and
+195840	197840	Const
+198000	204240	Great, uh, can anyone help me drop me a message in whatsapp group for the people to join?
+207280	213140	So i'll start a two minutes timer meanwhile because I want to start at nine or five
+219440	221440	So
+226720	228720	Let's keep it this way
+234080	236000	So guys, uh, if you thank you manesh
+237600	242880	So if you if you see, uh the topics that we have discussed till now when we introduced it
+243600	245600	a series listening to
+249440	251440	Okay
+258960	260960	How should I stop this
+262960	264480	Okay, fine
+264480	270960	Great. So till now if we have learned like we have introduced what js is and how you know the web has
+271680	275200	You know came into the picture of two days and what could be the future?
+275600	280480	And how they how you know web 1 web 2.0 and 3.2 got evolved then
+281360	284000	Uh, we have started with something like variables
+284880	285840	right
+285840	288480	Then we have understood something called as data types
+289600	291600	You've seen some examples on this
+292160	297760	Right different data types we have explored iris and objects in depth and their respective functions
+299600	304320	Then we have picked one of the core concept of javascript which is called hoisting
+305520	306480	right
+306480	310160	and we have understood hoisting with respect to var and
+310960	312960	latent const
+313120	318480	So for both hoisting exists, but latent const behave differently. There's a better error handling
+318880	322880	The only reason is there's something like latent const are initialized in temporal
+324720	326560	Dead zone
+326560	331520	The whatever hoisting is happening. It's happening here in temporal dead zone and then it behaves
+332320	333680	In a single way
+333680	338880	Right. So I hope this concept still now whatever we have discussed if those things are clear
+338880	342240	Can you give me thumbs up so that we can get started with today's content?
+344560	346880	Great guys, great. So
+348400	351360	I want to talk about something that I left in last class
+352000	353280	Is that
+353280	357120	If you see in the class 9, uh when I was discussing about objects
+357680	364480	I think in the here in the reference data, right? So I have used something called a spread operator. Let's get started with this one
+365360	366400	Okay
+366400	369280	So in javascript, right if you pick js
+370080	372560	Inside this this three dots
+373280	377040	Is a common thing and this can be used in a two parts. Okay
+377600	381520	Sometimes it is called as rest operator. Sometimes this is called a spread operate
+382640	386320	Okay, we'll give you an examples of them in depth one by one
+386880	388160	but
+388160	394320	Uh, like both these things are called in a you know with the different names depending on the use cases we have
+395120	400560	Spread is something which is trying to spread like if you see on a toast you try to spread a
+401040	404880	Butter or any jam that you have right? That's the same thing the same way
+405600	407920	It spreads all the items in it
+411680	413680	All items in it
+416320	421780	Okay, so which items it will be able to spread something which are i-triple
+424240	427680	Now what are the i-triple data types that we know anyone
+429840	434320	What all i-triple data types that we know on which you can apply for loop when I say i-triple
+434400	440080	I mean to say that on which type of data types we can apply I like this one array, right?
+441840	443840	And the other thing guys
+446480	449200	Okay in js you can also iterate for objects
+450880	454080	I'll show you a loop like how you can do it and maps
+454640	459360	If maps are like a data structure a bit advanced data structure when compared to js
+459920	467120	Okay, but i'll come to that. So basic things are like whenever you are trying to do something like let's say there's an array
+467760	469440	of items
+469440	471440	one two three
+471520	474560	Then you are let's say you are declaring an array one
+475040	480160	Then you want to let's say if you want to use this one reuse the same elements which are there
+480480	485760	Then you can do dot triple dot and spread all the items present in an array
+486320	492400	So since this is an i-triple item i-triple data type on those things whenever you are using dot triple dots
+492640	497520	So and you are trying to spread all the items in it in those case use cases. We call this as spread operator
+498240	500000	Is that point clear guys?
+500000	502000	Like what is spread operator in general?
+503280	504240	So
+504240	508080	This is the same thing that I did here in the last class if you see
+508720	510720	I have told that there is an object
+511120	513120	Something called as a first name and last name
+513600	517200	so the object can be you know, iterated using a
+517920	519280	let's say
+519280	520240	key
+520240	522000	in object
+522000	525440	So all for all the keys, let's say if you iterate through it
+525520	529040	You will be able to get all the key and you can get a respective value for that one
+530560	532000	So
+532000	536400	I'll try to repeat this case whatever i'm covering. I'll show the examples till now. I'm just getting
+537120	539920	Covering up theory so do not worry. Okay
+540960	542960	Nothing I searched something
+543840	545200	so
+545200	550480	What I was talking about is I was talking about something called a triple dot operator that you see in js commonly
+550640	557520	And it's called with two different names. One is one time they call rest and sometimes they call spread. I was talking about
+558240	560240	When do you call it as a spread?
+560400	561200	Okay
+561200	563440	When do you call it as a spread now spread operator?
+563840	567920	You call that a particular three dots as spread operator only on like when you are trying to
+568240	575120	You know spread all the items in a i-tribbles. No, what are the i-tribbles exist on top level are like array and object
+575760	578160	No when I used in this example
+578320	583200	So I mean to say that i'm using like a spread operator i'm spreading all the items present in an object
+583920	587360	I hope this example and this thing is cleared guys to everyone
+587920	594720	I've really figured the thing that I had just introduced till now right now. Let's see some of the examples. Okay
+595520	597840	Let's see some of the examples. I'll create a class 10
+599360	601360	Folder class 10
+604480	608660	So let's name it as rest versus spread
+608660	610660	Spread
+613460	619940	Dot js, okay. So what I did here is let's say I have something like const array
+621060	624580	uh, and I have one two three, uh, and let's say I
+626260	629300	Go by four comma I click a tab
+630100	635940	So I have this an array since it's an i-tribble. Now, what if I let's say I have an array one
+636820	641380	Now let's say I have some elements like let's say 12 13
+642180	643300	14
+643300	645060	and remaining items
+645060	647060	What if I want to build a new array?
+647780	654580	Including this two like let's say I want to update such that array one will have all the elements from one to twenty
+655380	658500	So one of the ways that you can build a new array called
+659060	665540	Uh array two and initialize is empty and then you can run a for loop over it
+666820	668260	I mean
+668260	671060	says that you can you know, you keep on pushing the items like
+672020	674020	Let's say you write a for loop
+674820	676820	let
+677220	681620	I equal to zero then array dot length i plus plus
+681620	688740	And then you can do something like array dot push array to dot push and
+692500	696740	Right the same syntax you can do for array one also and
+699540	702420	Let's say this is how we are supposed to build it, right?
+702820	709860	So this is how we can merge two arrays into the one isn't it? Like if you want to build a new array or
+710420	716820	Which is having all the elements from one to twenty and this is just an example where you have to merge two things, right?
+717140	722420	But the what js provides you is like, let's say you are building in a new array like array two
+723860	725140	As here we have an example
+725140	730020	Let's take an array three one of the simple ways of doing it is like let's say I want to spread all the items since
+730020	734580	I'm pushing all the items in it. I'm not picking one by one all I mean specific items
+735060	738180	What I can do is like I can just spread this three dots
+738660	741460	I can say that hey take all the elements from array
+742100	746660	And also take all the elements from the array one and put it in array three
+747300	752100	So both the in a both use cases if I try to do console dot log, let's say
+753860	755860	Array two
+756100	758100	And console dot log
+758820	760180	Array three
+760180	762180	Now if you do this
+762580	766820	Let's see the example if it is working in both, you know, both are satisfied
+767780	771620	node rest versus spread
+773540	775300	Dot js
+775300	778340	If you see in the both the examples i'm able to get the all the elements
+778900	783940	So do you find it easy like when you want to merge two things or like if you want to build it something
+784180	788820	You need not to iterate and push it all the items. You can actually spread all the items whatever you need it
+789380	793460	So I hope the basic idea of spread operator is clear to you all isn't it?
+794260	795860	Okay
+795860	797380	now
+797380	802900	What i'll talk about is something like a called as a rest operator. So one of the use case, right?
+802980	804980	Whenever you see the rest
+804980	806980	So what is the general meaning of rest?
+808900	810900	Let's say can I say is the rest of items
+812500	815860	Rest of items in an array or an object or anything
+817300	822100	Can we like this is just a rest when I say i'm just trying to get the meaning of it
+822500	826020	Like whenever I say rest rest operator, it's something getting a rest of items
+826020	831460	Now how this use case works is let me give you an example. Let's say you have a function called my bio
+832420	834420	Okay, and in my bio
+834980	838420	Let's say you have something like first name and last name as a mandatory fields
+838500	840500	Then you don't know what all things are there
+840900	842180	So let's say
+842180	844180	rest bio
+845140	851140	So whatever user provides it you will fulfill it but these are the two mandatory things and you don't know what are the
+851620	858020	Exist like parameters like you need to accept in the bio and one thing you can do here is that let's say
+859700	861700	You can return an object
+862100	863940	Which is saying first name
+863940	865700	then last name
+865700	868020	Then you can say rest of items
+868900	870500	now
+870500	875060	Okay. Now let's say how you can do how can you call this? It's a dynamic function
+875140	882100	Now, let's say I have a my bio building it and I call it as a them then I can give it as you know
+882660	884100	Sharma
+884100	886500	Then I can give something like a contact number
+887540	889540	Like let's say some random
+889780	895540	Then I can give city like hydropad. So if you see what what's going to happen here?
+895940	901300	Now I say that whatever the first argument that i'm passing in the my bio is first name
+901940	903940	And the second thing is called as last name
+904580	909620	And then after these fields are not mandatory as many fields you want you can pass it down
+909700	913380	So it says that hey, can you get me the rest of all the items that user is passing?
+914100	918580	Accept it and then i'll use it in the future discuss depending on the whatever you write in function board
+918980	920980	So in these use cases
+921300	926100	Whenever you have something like a get me the all the rest of items other than this first name and last name
+926500	930840	Then you call this particular three dot and that particular key as a rest operator
+931800	935900	Is this clear guys when we say when we call it why we call it as a rest operator
+939480	941800	Uh, let me try to rerun this file
+943080	947720	Uh, okay, I didn't console log it. Let's do something like console dot log
+953000	953960	Okay
+953960	955960	So let me clear this
+956280	960440	Yeah, if you see i'm getting all the things like when i'm getting the rest operator
+960520	965000	I I don't know the exact param like you know the items keys what it should be
+965080	967160	So i'm getting a zero and one with the default
+967880	975080	How the objects prepares it right the more important use cases of rest operator comes when you use something called as
+975940	977940	destructuring
+979640	982300	Has anyone came across this keyword destructure
+982300	988320	Here does anyone know have heard this word destructure
+991660	993660	Okay, see one
+997980	1002940	Yeah, uh by default right when you don't provide any key, uh for the object
+1003340	1009820	Some bit so it starts from zero like zeroth key and first key then it goes on iterating whatever things you provide in an object
+1009820	1011820	Okay
+1014060	1018700	Okay, now so let's let's see understand this what's destructure is now
+1019340	1022460	Whenever I say i'm destructuring a building. What is it?
+1023260	1025260	Converting a hole into variables
+1025500	1027180	Yeah now
+1027180	1032700	But let's let's take this an example in terms of building. Let's say if I say have anyone in noida
+1032780	1035020	Have anyone been into noida city?
+1035020	1037020	Okay
+1037180	1039740	Right there was a building beside my college imity
+1039980	1044620	Uh, there's a huge building like uh, I don't remember the tower which was in circular shape
+1044860	1048940	So they destructured they bombed that whole building like more than 30 floors
+1049820	1054860	Right breaking down into small pieces like destructuring like if you constructing it
+1054940	1060460	You are trying to build one onto the together, but when you're destructuring you're trying to pull out into the pieces
+1061100	1063420	Okay, like uh, you can say
+1065100	1067100	Breaking down
+1067100	1069100	breaking down into
+1069900	1071500	smaller
+1071500	1078700	Parts so this is a generic meaning but now let's say how this works. Okay deal demolishing right now, let's say
+1080540	1086700	One of the first programming question that you might have come across in terms of dsa or any problem solving
+1087500	1091100	Uh, you might have thought of like doing something like a swap of our two numbers
+1091820	1093820	Have you got across that?
+1093980	1095980	Swap of our two numbers
+1096300	1099420	Right. Let's say I have const a equal to 10
+1100300	1106380	And const b equal to 20 so they might ask you to you know, swap the numbers, isn't it?
+1108940	1114380	So let's say if I want to destructure what I can do here is that let's say I have a const array
+1115100	1117100	Uh an empty array
+1117740	1118540	So
+1118540	1123020	Don't go into something like i'm using an extra space or those things, but that's that's fine
+1123100	1125340	I'm just trying to explain for extra, you know
+1126140	1128940	Way of doing it. So let's say I use array four
+1130060	1132860	dot push a then I can do something like
+1133980	1138540	Same array four dot push b the time i'm pushing this both the elements a and b
+1139020	1140540	now this will be like
+1140540	1142540	array four will be something like
+1142700	1144860	10 and 20 isn't it?
+1145660	1147660	So this is how the array
+1148940	1157260	Will be right. Yeah. Now if I want to swap it something that I can do here is that I can declare an array on the left
+1158300	1162940	Okay, I can declare an array on the left then I can say
+1164380	1166380	b comma a
+1167660	1170620	Now, let's see what happens if I do console dot log
+1170620	1172620	If I do console dot log
+1175500	1178460	B console dot log a
+1179660	1181660	Okay
+1183900	1185900	Let me see this
+1185980	1192380	Let declare this as a let because you are trying to re change there, you know the definition of it
+1192860	1195420	I'll clear it. I'll comment this
+1196060	1198060	Whatever I am having it
+1198380	1202140	All the console logs, let's say I comment this I comment this
+1204540	1206540	I try to read on this
+1208780	1214720	Now I fail to get this one, uh, it's a spelling mistake, I guess yeah c 1 s t
+1220540	1222540	No
+1223260	1225260	Okay
+1226700	1228700	Now let's say what I'm doing here is that
+1230620	1233500	Let's see this firstly whether we were able to swap it
+1235580	1237180	Okay
+1237180	1241580	Now if you see I was trying to print a b value here. Let's say I say b
+1242620	1244620	And this is a string
+1247740	1249740	And this is something like a
+1253020	1255020	So
+1255900	1260700	If you see something that I got as converted b equal to 10 and equal to 20
+1261020	1264220	So one of the easiest ways right if you can comment this part also
+1264220	1268620	I was trying to just explain you things like let's say I have something like 10 comma 20
+1269500	1273580	So the process of doing this one, right the process of doing this one
+1273580	1277980	Like what I or what I was just doing is like I was trying to change the way like
+1278460	1280460	Let's say if you have an array of items
+1280460	1281500	Uh
+1281500	1286780	Another example, this is like just a swapping of elements that how you can you how can you do that?
+1288060	1292780	Let's say you have something like one, two, three, four five. This is enough. Uh, and
+1293900	1295900	Let's say you building a new
+1297660	1299340	Array six
+1299340	1302540	Let's say you are doing something like can you get me an a b?
+1303580	1306380	c and then let's say all the e
+1306940	1309760	Me from arr5
+1327980	1330640	So i'm here i'm trying to use you
+1337180	1342540	You in elements like f and g and give me all the other elements like three four five in e
+1342860	1344860	Let's see this if this is working
+1356700	1359440	Let's see, uh, my audible i'm audible
+1363500	1365500	Uh
+1366460	1368460	So
+1370700	1373260	Give me a second my screen share stopped, right, isn't it?
+1381420	1383820	Let me switch to the net different network base
+1388540	1390540	Uh, i'm can you see me guys
+1390620	1392620	I
+1393820	1396780	Switched off my you know video
+1398460	1400460	But can you see me now
+1400940	1402940	Is it fine?
+1403020	1405020	Now working fine, right now
+1405580	1407740	Screenshare is working. Everything is fine now
+1409020	1410540	Okay, cool
+1410540	1411740	great, so
+1411740	1418060	Uh guys what I was talking about is that I constructed a new array called array five one, two, three, four five elements
+1418460	1420460	And I created a new array this way
+1420860	1425660	Then I was trying to destructure like destructure is breaking this array fine into multiple paths
+1426300	1428300	Okay, then
+1428700	1430700	Yeah, i'm trying to re-explain up. You know, okay
+1431180	1432460	I'm trying to re-explain it
+1432460	1438460	So what I was doing is that I was trying to destructure this array fine into multiple parts such that I say that
+1438620	1443260	Gave me first two elements in f and g variable and all the remaining
+1443900	1447340	Rest operator gave me all the rest of elements in e key
+1448140	1454060	Okay, let's e variable. Let's say if I execute this one if you see what's the output here?
+1454540	1457020	I got one and two for the f and g
+1457660	1461100	Then I got e as all the other other items
+1462460	1465900	Is this clear like how this rest operator is working?
+1468540	1473900	Like i'm just talking in terms of rest operator for destructuring i'll come to that step by step
+1474620	1480140	Yeah, in general can you get me all the rest of items it just says that
+1482140	1486620	Any iterable let's say if you when if you have an object, let's say I have an object
+1487500	1488780	uh
+1488780	1492060	Let's say let's build an object same thing as a first name john
+1492780	1496460	Let's say you have a last name do then let's say you have something like
+1497580	1499580	phone number
+1499580	1501580	Okay
+1502540	1504700	Okay
+1504700	1506300	and
+1506300	1511100	Let's say you can do something here is that let's say i'm getting the first i'm getting a name
+1511740	1512700	and
+1512700	1519260	Uh, let's say whenever you destructure an object you should destructure in terms of object. Let's say you're getting a name then you say that
+1520780	1526460	Uh, you actually should get that particular key only you only then you can you will be able to get it
+1526540	1528460	Let's say less lost items
+1528460	1530460	Object other items
+1531660	1536060	Okay, so now let's see if I try to do a console log what i'm able to get it here
+1538140	1540140	Object other items
+1540780	1542860	If I try to re-execute it now if you see
+1543740	1547180	If I particularly picked one particular key, right?
+1547660	1552620	For while destructuring I say that hey, please break that particular room out of an this one
+1553100	1558460	So i'm also parallelly expressing explaining what destructuring is combining with rest operator
+1559020	1567180	So when I use rest operator other than last key last name this particular key i've got the first name and phone number here
+1567880	1572620	Parallelly, I also try to destructure this one such that I can give me that last name
+1573180	1576140	So that if I want last name anywhere, I can use this way
+1577740	1582300	Is this example clear guys like how destructuring and rest operator is working?
+1583080	1585080	combination
+1585900	1587900	Fing okay, cool
+1587900	1592700	So guys what I did here is that I created a new array called array phi
+1593500	1595980	And I had items from one to three four five
+1596540	1601180	Now I want to destructure them. Okay such that i'll get i'll use this first two elements
+1601740	1607260	Like let's say if I use fing then i'm saying that can you give me the first element and second element of this array?
+1607980	1609980	Then pack all the rest of items
+1610540	1612540	into this e variable
+1613580	1617340	So when i'm trying to do console log here if you see for the
+1617980	1623740	F and g i'm getting like one and two for the e i'm getting all the three all the three
+1625020	1627020	three four five
+1627580	1634700	Is this clear guys now I hope like a rest versus spread operator and then destructuring on a top level is clear because
+1635100	1640060	This concept will will be keep on using it now and when when we
+1640620	1644700	Going we will reuse it again again. I will keep rebrushing this one. Okay
+1645900	1649820	Yeah, all the things will be stored in an array because you're trying to destructure an array
+1650220	1655100	So it will come in an array if you see object other items when i'm trying to destructure i'm getting an object
+1657100	1659100	Is that clear somebody
+1663740	1667740	So great guys, I hope if we are clear can we move ahead with the next topic
+1670140	1671660	Great
+1671660	1675100	So if you have any doubts do let me know any name is fine
+1675180	1679500	Yeah, any name is fine. Even uh, let's say you can give something like alias names also
+1679500	1681500	Let's say I gave this as a name
+1681660	1685180	Uh, and I can print this name here if you want to do it
+1685820	1687820	That's also possible
+1688300	1691340	If you see for the name also when i'm trying to do console log
+1691900	1692940	uh
+1692940	1698460	Like I i'm not supposed to give use this particular way like a name constraint
+1699020	1705660	So since it stays deprecated but I can give any alias names to the properties whatever I have
+1708440	1714380	Destructuring hemangi when i'll use react right in each file i'll be using this concept again and again destructuring
+1714380	1716380	I'll show you many of the examples
+1717260	1721980	Like I introduce this topic so that once I start right when i'm trying to do this one
+1722620	1725500	Like if you remember in last class, I did this something called
+1726140	1731580	Spread operator now you will be able to see in future like when i'm destructuring how I can do it. Okay
+1732220	1738060	So you go for any react component something that you receive props you destructure the props first
+1738700	1745020	So if I tell it on a top level, but i'll give you many more examples in real time when we keep on doing the projects. Okay
+1746140	1747420	so
+1747420	1749420	Let's move ahead guys
+1750140	1755980	So the second topic that we have to pick it up today is something called as
+1756860	1758460	from the functional
+1758460	1760380	programming point of view
+1760380	1762380	uh now let's say
+1762620	1765020	What are the types of programming that you might have?
+1765900	1767500	here heard or
+1767500	1769500	You know seen those
+1769500	1771500	Uh
+1777340	1780540	What type of different types of programming styles that you might have heard of
+1785740	1791660	Uh guys, uh programming styles, right? Uh, some people say oops
+1794300	1796300	And functional
+1796460	1798460	And procedural
+1799820	1804220	Right this type of programming languages you might have heard isn't it
+1807340	1810540	Guys, can you give me thumbs up if you have heard this these are the principles
+1811500	1815340	No, this is the way of writing code or getting your work done. I've been
+1816780	1819980	It's a different way of writing your building projects you can follow any of this
+1820460	1826060	Your building projects you can follow any of this, uh, you know, yeah, you can say the principles also, but
+1826780	1829580	This is a you know, different language supports different sort of things
+1830460	1831820	Okay
+1831820	1839420	But now if you see any any example for oops, which language does oops use like any examples, which language you have seen oops more
+1840520	1842140	utilized
+1842140	1843340	java
+1843340	1845340	And any other language case other than java
+1846540	1848540	python
+1848540	1854880	And any other c++ more right now when it comes to procedural
+1858860	1860860	I'll come to javascript
+1862780	1865740	And comes to procedural sequel, okay and
+1866780	1873340	One of the first book that you might have studied in computer science if if you are from computer science background or any other engineering background
+1873500	1875500	You
+1875740	1877820	See right have you got
+1878620	1882140	Went across this book called let us see by kushvan connect
+1883180	1886700	In libraries or anywhere that you've been if you remember in your college
+1887420	1889420	right, so
+1890220	1896380	That's so what happens in procedural language like yeah if I came in top level, right?
+1896380	1901100	I'll just try to explain what's happening in the in in these three types of you know
+1902060	1903580	A paradigm
+1903580	1904780	Okay
+1904780	1911420	I agree. I didn't like c2. So what happens here is that in c most of the things are, you know top to down
+1912700	1914700	top to bottom
+1915420	1917420	Level of execution
+1918940	1926140	Right c executes from top to bottom and those are the procedures like from one by one procedure it will execute that's how
+1927100	1929420	C used to when it comes to java
+1930060	1935120	This works on all the like object-oriented programming concepts, which are like inheritance
+1936060	1941660	And all this thing firstly inheritance and everything revolves around something like class and object once you know them
+1941740	1943740	Then you can apply principles like
+1944520	1946780	inheritance then abstraction
+1951100	1953840	Then you have something like polymorphism
+1957100	1959100	What is the last thing guys
+1962600	1964600	Encapsulation
+1965020	1970780	Right, so these are the things that generally an object-oriented programming looks like isn't it?
+1975420	1977340	Now
+1977340	1983120	So what happens to this function of programming language is that javascript?
+1983920	1991280	Is actually a functional programming language, okay, but this also
+1993920	1995120	Yeah
+1995120	1997120	But it's a more of a procedural
+1997520	2001440	Specific abhishek like how that is executed. I mean to talk about that
+2002640	2007120	On a top level i'm trying to talk about this one, but nothing much in depth as of now
+2007760	2012320	Because i'm particularly focusing on what's functional programming language as of now
+2013280	2015280	Okay
+2015760	2017680	so
+2017680	2020480	Javascript is completely functional programming language
+2022000	2023360	now
+2023360	2028960	How like you know everything that you write everything that you write in javascript will be
+2029520	2034720	Around everything is like around the functions like you write down all the functions and then only you do it
+2035280	2042640	You cannot write down anything like variable and then you type on you write the arithmetic operations and keep on writing those like top to bottom
+2043200	2048880	So this is like function if you do if you even define the function below above you can reuse them as per your use
+2049520	2051520	so javascript also
+2052300	2054300	supports
+2055580	2057580	Object-oriented
+2058060	2059520	programming
+2059520	2060720	but
+2060720	2065280	How does it do it will explore in the future classes when I teach object-oriented programming?
+2066080	2068080	But behind the scenes
+2068240	2070240	Okay
+2071120	2073120	It's functional programming
+2078800	2082320	Okay behind the scenes it's completely a functional programming
+2084240	2088240	So just keep this is just a overview like the different types of you know
+2089200	2093760	What type of paradigm paradigm we follow and what are the existing things that have been done?
+2094320	2098160	But let's not explore the definitions and what's going in depth but
+2098800	2102340	You have to come back to the one concept called callbacks
+2104560	2107460	Have anyone heard about word callback
+2111680	2113680	Callback
+2115680	2117680	No
+2118080	2120080	When I say
+2120720	2124400	If I say you can you call me back later, what do you exactly mean that
+2127840	2133840	If I say that someone is calling me i'll say that can you call me back later now that person other person will decide right
+2134240	2136240	Uh that when he'll call me back
+2136400	2138400	I'm giving him
+2139200	2145920	Yeah, uh, but let's talk it in real, you know real time examples guys firstly not going into javascript as of now
+2146320	2150240	But think of it if you're on a phone call and if you're saying that someone
+2151280	2157600	Yeah contact later like if you say as for as himang is himang you suggest like wait for now, but contact later
+2158000	2165040	Now if you say that when i'm saying that hey you call me back later. Now that person decides right you're giving a control to that person
+2166000	2171920	To call you back whenever after some time, but you are not specifying like can you call me back later at this particular time?
+2172880	2180560	Okay, when you say just call back it's it's it's his responsibility to call you back whenever he needs isn't it
+2182560	2186880	At least that level definition like you remember call me back later
+2190800	2192800	Okay now
+2193120	2198480	Let's understand this one in terms of you know javascript now. Let's take that example by example
+2199040	2201040	Let's say I have a function call
+2202880	2204880	Print
+2205680	2212240	First name so i'm taking really simple examples guys, uh, which will help you to understand concepts one by one
+2212320	2215360	Okay, let's say i'm trying to do something like console.log name
+2216080	2218800	And I say that i'll also try to print this again
+2220240	2222240	as a last name
+2225440	2228160	And let's say I try to do something like console.log
+2228160	2235760	And I say that print first name dot inside that uh, let's say I pick it up
+2237360	2239360	Himagi
+2240080	2244560	Then I can say print last name as
+2245920	2247920	power
+2248160	2250160	Okay
+2250160	2251120	now
+2251120	2255200	Let's try to first execute and verify this one if this is working fine
+2255440	2257440	Verify this one if this is working fine
+2259440	2261440	Clear ls
+2262160	2264160	uh node
+2264400	2266400	Call back
+2266480	2273440	Hof dot js now when I execute so first thing i'm getting is like i'm getting this output himangi power. That's fine
+2273840	2279040	But here ignore this undefined undefined. We'll talk about that why it is coming and when it's use case
+2279040	2280960	What is the use case of this one?
+2280960	2282960	now
+2283440	2285840	Do you say this function both functions are like
+2287360	2289360	This is there's something common like
+2290160	2292160	Do you really need these two functions?
+2292720	2295600	To do some activity which is like just printing it
+2296480	2298320	Isn't it duplicating?
+2298320	2300320	code
+2304240	2308400	Guys, uh, it's it's just printing that name right console log nothing else it's doing
+2308400	2314640	Right, so if you want to so it's what's what's principle breaking what's oh have anyone heard of this something called dry?
+2316000	2318000	Have anyone heard of this something called dry?
+2321760	2323760	Have anyone heard this something called dry?
+2326160	2328160	Can't see it properly, uh
+2335120	2337120	Abhinav can you rejoin the class?
+2338560	2340560	Okay
+2344960	2353680	Is anyone else facing net internet, uh, okay great so dry stands for something like don't we use it
+2355920	2364240	Don't try to repeat I mean if I exactly term this one don't repeat yourself
+2364560	2366560	Abhinav
+2367440	2372480	So if you see this is breaking some of the design principles such that we are saying that
+2373200	2377840	Uh, we are repeating that same logic right functional body same right at least names are different
+2377840	2380800	But this particular body both things are same, isn't it?
+2383440	2389600	Is that clear like uh what this principle is talking like don't repeat yourself so it is asking us to fix this issue
+2390000	2391600	Now, how can we fix this issue?
+2391600	2394560	Let's say this one of the way that you can do
+2395280	2397280	Okay, one of the way that you can do
+2397360	2399360	So what I'll do is that let's say
+2400080	2403040	One of the basic thing that I can do is like let's say I have some
+2404000	2405600	function
+2405600	2407600	I can say print
+2408240	2410240	Full name
+2410240	2412000	and
+2412000	2414800	What I can do here is that let's say I have
+2415840	2416960	name
+2416960	2419200	And then have something like callback function
+2419360	2421680	I'll come back to what's callback function is
+2422480	2428640	Now what I'll do here is that I'll just return here this callback function
+2429680	2431680	Passing name into it
+2432160	2436400	Now let's decide what this callback function will do
+2437120	2442720	Now let's say I say this callback function will take the name and try to print the name
+2442720	2444720	And try to print the name
+2446080	2451520	Now how do you exactly execute the both the things now if I say console dot log
+2453440	2460800	Okay, I say print full name inside that I can pass let's say hey monkey
+2463840	2466880	Also, I can give something like callback function
+2468720	2471440	And similarly I can again say this logic
+2473440	2475440	Power
+2476560	2481280	Now do you see this case what I was trying to just do is that I'm changing now if you see
+2482080	2484080	The body is different
+2484640	2485680	I am
+2485680	2490080	Something what I'm doing here is that when I'm passing inside when I'm calling this function
+2490080	2494880	I'm passing a function which is declared now in last class. We have understood that
+2495680	2500880	Functions in javascript as called as first-class citizens reason behind it
+2500880	2506320	It can be used as method variables expression. It can accept functions. It can return function
+2506560	2513680	Now if you see I'm just re-executing that statement. So I'm passing a function and it is executing that function and returning it
+2515280	2518800	Okay, now let's see how this is working if I try to
+2519360	2520880	Re-execute this one
+2520880	2526000	Still I'm getting hey monkey power. Is this at least clear like how I'm getting output?
+2526000	2528000	Is this clear how I'm getting output
+2532720	2534880	Yes, is this clear how I'm getting output
+2536080	2538000	Okay now
+2538000	2543760	Now let's say what is callback? Okay. So let's say whenever I'm saying that on a phone call
+2543840	2547840	Hey call me back later. So I'm saying that this is let's say a person b
+2550400	2555920	Uh, give me a second. Let's say this is a person b and this is something like a
+2556320	2558320	okay
+2559200	2561200	Now let's say
+2561760	2566960	Whenever you are trying to print this one print full name you are
+2568240	2573440	Passing a callback function, but you are not saying anything to this print full name when you're calling it
+2574080	2578480	Saying that hey call me back at particular time. You're not passing any say saying anything
+2578480	2581520	But this function inside this its body
+2582400	2587520	It will execute whenever it needs so whenever I are using something like a
+2588000	2590640	You're saying that can you call me back later?
+2590720	2596160	So whenever this particular thing is being used it says to a particular function in which it is being passed
+2596160	2599200	Can you call me back later? Like can you call me later like something like
+2600080	2604800	Uh, I I hope you are able to relate this that a saying that call me later
+2604880	2608160	And this person is calling it later whenever it can use it in the body
+2608640	2612960	Why undefined if I'll come to that, okay if I execute this in the browser I won't get that
+2614080	2622880	Okay, but now callbacks are those functions a callback function is those functions which are passed inside a function
+2624560	2630320	Okay, whenever you are passing any function as a argument into any other function
+2630880	2634720	Those functions are called as callback functions because those will be called
+2634720	2643200	Inside those functions at any of any time we don't have any control over it when we are passing into it
+2643600	2649840	Whatever function body is defined in it will move it will behave and execute according to that
+2650480	2653600	Is that point clear guys like how what is callback?
+2654400	2657040	Like let me give you a definition
+2657760	2661440	Yeah, uh, let me give you an exact definition if you go through it
+2665280	2671440	Like let's say I copy this and I put it here let's read it through now what it says is that
+2672800	2678640	A callback function is a function passed into another function as an argument now here
+2679440	2685040	We are passing a function as an argument into this function. Okay
+2686320	2687920	and
+2687920	2692560	Which is invoked inside the outer function to complete some sort of action
+2692720	2698800	So this function will be invoked out out the outer function to do some action
+2701280	2705360	So I hope it doesn't mean really anything great guys
+2705440	2706800	It's just a bookish definition
+2706800	2711920	But what I exactly mean by callback is whenever you are passing a function inside any other function
+2712000	2716480	It's just that is called as a callback. It's because you're giving that power to that other function
+2716480	2719120	Hey, you can call me back anytime that you want or behave
+2719680	2721680	You use me as you want it
+2723280	2725780	Guys are you able to relate with what callback is?
+2733920	2739120	Uh, where are we gonna use this thing? Okay, i'll come to that. Okay. This is like one of the core concept
+2739600	2742080	Really useful concept. Let me do one thing. Uh
+2743920	2746000	Let me do one thing say I use
+2746960	2748560	Uh
+2748560	2754320	You know, I can show you the debugging in the ps code also what you can do is like you can click on this button
+2754960	2760800	And you can open this javascript terminal, uh, and it is pointing here. Let's move to that particular thing
+2762480	2764480	CD classes
+2765520	2768160	Ls cd javascript
+2770880	2772880	Ls
+2773520	2775520	CD
+2775760	2777760	Class 10
+2779520	2783760	And this node uh callback
+2785980	2787980	Hof dot gs
+2789040	2791040	Now if you see
+2791200	2794880	These are both functions. Let's understand flow by flow guys step by step
+2795680	2802320	You can see a call stack on the left. It is executing this particular step. Uh, let me close this watch
+2802400	2804400	I don't need this
+2805120	2809280	Now if you see so firstly i am executing this print full name
+2809920	2813680	Then it will go inside this print full name. Now if I go inside this print full name
+2813760	2816560	If you see a callback function is holding this function
+2817200	2819200	This particular function, right?
+2819760	2822400	Print full name is added on the stack here
+2823040	2824080	then
+2824080	2830000	If I re-execute this one, then if you see on a new execution context for the callback is created
+2830640	2832640	and this callback
+2833120	2836240	Is getting something called as a name attribute called hey monkey
+2837600	2840560	So in order to avoid something called a dry principle
+2841440	2843440	like in order to use like
+2844080	2848000	In order to avoid duplication of code what we have done done it here is that
+2848480	2852000	We pass whatever common use case would be there. We have written a function
+2852080	2857520	We gave this power to you know, print full name and we'll print it whatever it you want to do it
+2858560	2859840	Okay
+2859840	2862900	Is this example clear guys how this is working step by step?
+2870800	2876400	So it's it's nothing but whenever you pass a function inside any other function
+2876960	2882640	That which function is being passed inside is called as a callback function. Just remember that simple definition
+2883120	2888000	I was just trying to make it complicated because I want to explain you how this will be executed
+2888560	2890400	You know step by step
+2890400	2894800	But the basic definition is in whenever in arguments if you are passing any function
+2895120	2900160	Like let's say this is a function or any other function if you are passing it that particular function will be called as callback because
+2900240	2902000	That will be called back
+2902000	2906000	Inside this function at any random time depending upon how this is defined
+2907920	2909920	So I hope no doubts guys in this case
+2910720	2913120	Hey, this undefined undefined
+2914800	2916320	like
+2916320	2919520	Let me see where i'm getting it. How i'm getting it
+2920160	2923920	Not exactly sure because i'm not printing something undefined here if you see
+2924880	2928480	The name is available. Everything is available, but we'll see this
+2929840	2931840	Okay
+2931840	2938560	I'll come to that but is the concept of the function is the concept of the function is the concept of the function is the concept of the function
+2938560	2941360	Come to that but is the concept of callback is clear firstly
+2945360	2950160	Right now now i'll explain one more thing guys one more definition, let's say
+2951360	2953360	I'll come to call something called hof
+2954160	2956480	Now hof stands for something called as high
+2957520	2958560	order
+2958560	2960560	function
+2960880	2962880	Or you can say higher order function
+2963680	2964880	Okay
+2964880	2966880	Now what hof is
+2966880	2969620	It says that let me copy this definition that i have written
+2974800	2975920	Now if you
+2975920	2983280	Read this definition any function that takes in a function or returns one out is a higher order function
+2985360	2991680	So it says that any function that takes in a function like it means when it says that takes in a function
+2992160	2995280	This is this particular printful name is taking a function in it, right?
+2997360	3000800	So can I say printful name is a higher order function?
+3006640	3013040	Right, let's say I change this uh print name instead of callback
+3014640	3016640	I give this
+3017920	3019920	And let's say I change this
+3019920	3023680	Uh print name instead of callback
+3025440	3027440	I give this here
+3029680	3040640	Right now so here in this example if you see print full name is an higher order function
+3040640	3042640	So
+3045120	3050880	Reason it's taking accepting a function inside it as a parameter
+3052080	3054080	and print name
+3054800	3056800	Is a callback function
+3057040	3060160	Because that is being passed into a function
+3062560	3065360	And that function function will decide when to execute this one
+3066320	3072400	Is that clear guys what callback and higher order function is with small example i've tried to explain you this one
+3073040	3079760	So this both things are allowing us to this combination is allowing us to you know, avoid something called as dry repeating ourselves
+3081360	3083040	Okay
+3083040	3084400	so
+3084400	3086400	Any doubts guys still no any doubts?
+3086400	3088400	Okay
+3092720	3094720	Not outside, okay, let's let's go
+3095360	3099600	Moving ahead with the one, uh, you know small simple dsa problem for you all
+3100160	3103280	So, please help me out guys to you know address this problem
+3104240	3105760	uh
+3105760	3110240	Let's say I have something like uh, uh my radius array
+3110720	3112720	Okay
+3113600	3117040	Inside that i've given us different radiuses, okay
+3117600	3119600	Let's say I have this radius seven
+3120000	3124560	two five two three five six seven eight and this radiuses are of
+3128160	3132240	Let's say radius of different circles
+3136480	3139280	Okay now i'm I want to
+3140240	3142240	find
+3144560	3147440	For each circle
+3150560	3157380	Three things what are those three things that I want to find area then circumference
+3161440	3167360	And diameter how would you write a logic?
+3170960	3175680	Is this question clear guys three functions
+3178720	3183760	Good now, let's say I try to write function called calculate
+3185680	3189120	Area I am receiving a radius here
+3191440	3194400	In it now what could be the
+3194640	3196640	What could be the
+3197040	3202320	Formula for this one. Let's say I pass on whole radius array inside this one
+3203760	3211680	So one of the ways like let's say area of a result area. I can say that this is something like a result area
+3214480	3219840	And you have an array then you iterate through the loop
+3220640	3222640	Then you iterate through the loop
+3225280	3227280	Right
+3229120	3233360	So you have a result area dot of i equal to
+3238160	3244240	So i'll leave that mathematical equation as of now and i'll say that fit on result area
+3244240	3246240	So
+3248400	3254240	So it says 2 pi r is everyone agreeing guys it's 2 pi r for area
+3258160	3263040	Yes, just think of it what is the formula for area of circle
+3264400	3267360	Pi r square. No, what is the value of pi?
+3269760	3271760	Value of pi
+3272320	3275840	3.14 I said 3.14 into
+3277680	3280480	My radius array of I
+3282080	3286480	Into my radius array of I
+3288000	3291440	This is it right this is how you will be able to calculate
+3294480	3299280	So let's say instead of putting here as I index I do something like push
+3299760	3302800	Because here I want to push it each item into an array
+3304080	3306080	This is what a function looks like
+3306720	3311200	Right calculate area similarly what we would do is like we'll create another function here
+3312880	3317520	And it does the only thing difference here is that formula now what would be the formula
+3319920	3325600	Let's say I do this result I just make it result instead of result area
+3325760	3329700	Uh, and actually declare a small
+3341520	3344260	And let's say I call I am trying to calculate circumference
+3347280	3353360	And what could be the formula for second 2 pi r, okay, right so I make uh two
+3354320	3358080	Two into this one and this one right
+3359840	3363760	Let's say another function that I have I'll I'll replicate this one
+3364560	3368160	I'll put it here then something that I have to calculate is diameter
+3369840	3371840	Diameter is
+3377040	3379760	2r so let's remove this pipe
+3380720	3387680	Right now if I try to console.log console.log and I say let's say area
+3396160	3404560	Uh, I calculate calculate area and I pass my radius array into it and let's say I try to
+3405520	3410740	Copy and create this one. Let's say I say circumference
+3421200	3428900	Right, let's say I do the same thing I say calculate diameter. This is our diameter
+3429860	3436740	Right now if let's say if this is working fine, I'll try to comment all the epoch code for a second
+3443140	3445140	Let's try to re-execute this one
+3446660	3454980	Uh, okay, there's a debugger here. I don't need it now if you see here what's happening is that we are able to print
+3455780	3461220	All the values here that's working fine if you see here I'm able to get all the things that we need
+3463540	3467220	Okay, but but do you see
+3468740	3474340	Anything again are we breaking any principle that just we have discussed just now we have discussed something
+3476100	3478100	Are we repeating any logic here
+3478100	3480100	Are we repeating any logic here
+3484900	3488340	Are we repeating any logic here guys just think of it like
+3490020	3494820	Loops right. It's a common thing that we are trying to redo again and again again again, right?
+3495380	3498500	Just a formula is changing isn't it all the other structure is same
+3501300	3502740	Right
+3502740	3511300	Param is same just a formula is changing now. Can anyone think of like the the structure that we have like this can be
+3512260	3517860	Made a better readable code in terms of using something like high order function and a callback function
+3518580	3521780	Can anyone think of it like that combination? How can we do that?
+3526340	3528660	Anyone think of it like how can we do this?
+3533140	3535140	So
+3536020	3538420	Right now let's say let's say if I give you an
+3539140	3540900	You know idea
+3540900	3543780	What if I have a common function function?
+3544720	3546720	calculate
+3547300	3551060	And I say that i'll have something like accepting parameters
+3551780	3555380	What i'll accept here is that so let's say radius array
+3556900	3558900	I'll see i'll still have
+3559620	3561620	my radius array
+3561940	3564900	But also hell i'll have something like callback function
+3566820	3568660	Say callback
+3568660	3574180	Now what i'll i'll i'm supposed to do here is that i'll copy this thing whole thing
+3576180	3578980	I'll put it here, but instead of this thing
+3580340	3582340	I'll do something like callback
+3584900	3588340	And i'll pass inside my radius of like
+3588900	3590900	So
+3590900	3594580	So what i'm just trying to do is that i'm just i've put all this thing here
+3595460	3597460	and
+3598740	3599860	Yeah
+3599860	3604260	Right somewhere. So now we made one common function called calculate
+3604820	3609300	Which is accepting a callback now, let's declare those callback functions. Let's say
+3610080	3611620	calculate
+3611620	3617940	Let's say I try to this is a the top one is version one of a code. Let's say I make this as a
+3619300	3621300	version one
+3621300	3622820	something like
+3622820	3624100	v1
+3624100	3625060	Okay
+3625060	3629860	Now we are trying to build something called as version 2 v2 of code
+3631460	3638340	Let's say calculate area inside this area what i'll receive i'll receive a radius of it
+3639940	3646740	What I can return here return that same formula isn't it area is 3 pi r square
+3648340	3651400	I mean pi r square. Sorry, let me copy this
+3658100	3660100	Instead of this I can do radius
+3662980	3664980	And radius
+3668020	3669620	Okay
+3669620	3677400	So this is supposed to give me area now if I try to copy this one, I paste it here, let's say diameter
+3678340	3680340	of
+3680980	3683780	It would be 2 r
+3686500	3690420	Right and twice of radius then let's say I have
+3692480	3694480	Circumference
+3699300	3703380	Now circumference again picking up that formula 2 pi r
+3703860	3705860	So
+3707140	3710820	I do 3.14 into this one
+3713060	3719540	Okay, so what I've just stated here is that I've created one function which will iterate and do all the handling
+3720180	3725860	I'll pass on a function which is supposed to handle the logic part. Why did I separate this way is that
+3727060	3729140	This is simple
+3729140	3731140	Area diameter and circumference
+3731140	3737940	But what if there are some complicated problems that you see in the circle like when you studied any mathematical chapters
+3738420	3741220	Which are related to menstruations or geometry?
+3742180	3744260	Wherever circles comes in
+3744260	3750100	There are difficult problems comes in so what if those calculator parameter calculator that particular function will be common
+3750500	3756020	And this result if for each radius array, it will try to calculate and push it and build back the logic
+3756740	3760580	So i'm trying to separate the concerns so this will handle the logic part
+3761060	3764980	This will try to work on a building an output for us. Okay
+3765860	3768500	Now let's say how do we actually call this?
+3769300	3771300	let's say I do
+3771380	3773460	console dot log
+3773460	3775620	Let's say I have an again
+3776740	3778740	I tried to copy this whole thing
+3786980	3792260	So we have calculated instead of calculate area i'll call calculate
+3793060	3793940	and
+3793940	3796340	I'll give let's say calculate area
+3797380	3798500	here
+3798500	3799620	now
+3799620	3802900	Uh in the same way, let's say I update this I update this
+3803620	3805620	And I pass something like
+3805840	3807840	calculate
+3808020	3811140	Circumference then again, I say calculate
+3812020	3814020	diameter
+3814260	3820340	Is this logic clear guys what i'm trying to do when I why how i'm able to avoid this particular for loop
+3820740	3824180	Write it once a dummy logic, which is applicable for every function
+3824900	3828100	And i've written separated the point of concerns also
+3830660	3832660	Is this clear
+3833460	3839300	So tell me what is higher order function here and what is a callback function here?
+3839540	3845940	Here in this example, what is a higher order function when what is a callback function according to you?
+3856580	3858580	Yes, can anyone write down
+3859140	3860420	okay
+3860420	3864100	So somebody says calculate is a high order function
+3864740	3870360	So somebody says calculate is a higher order function is everyone agreeing on that
+3874900	3876180	Right
+3876180	3883540	Anyone having any doubt whether calculate is a higher order function or not because it's it's it is something which is accepting a function
+3884340	3888500	And or it is returning even if it is returning or accepting it
+3889140	3891620	That this particular function is called as higher. So here
+3892500	3894900	Calculate is something called as higher order function
+3898740	3905540	Whereas this particular calculate area circumference diameter are called as callback functions, isn't it?
+3907780	3912600	They will be called depending on whenever whatever use case it is
+3922340	3924340	Right
+3925380	3927380	I hope this uh
+3927940	3929940	Now you got the better clarity
+3930180	3934020	Like how higher order functions and callbacks helps us to write a better code
+3934580	3937460	And it's a clear-cut simple basic two concepts
+3938740	3943860	Is everyone agreeing that you got it you got better understanding about what is callback and higher order function now?
+3943860	3945860	So
+3949220	3951220	Great summit
+3951220	3953220	so now
+3953940	3955220	now
+3955220	3960180	We have something really interesting guys something really interesting that I want to talk about
+3961620	3968020	Called as imperative versus declarative way of writing code. Has anyone heard of this one?
+3968020	3973860	Okay, uh, do you want me to execute this i'll execute this give me a second
+3976500	3978500	Uh callback
+3979700	3981700	Open integrated terminal
+3982500	3985620	Let's say this this is a terminal which is having code
+3986500	3988980	Now if you see still i'm able to execute that code
+3989620	3995060	And top code I have commented it and still i'm able to get that same result whichever I got it earlier
+3995940	3997940	Is that clear?
+3998180	4000180	Okay now
+4001380	4005480	Now, uh, I want to talk about something called imperative
+4007140	4009140	Versus uh declarative
+4017220	4021540	Let's say this is just uh, you know a theory concept that I want to talk about because
+4022340	4024020	Um
+4024020	4030100	In future i'm going to say that this is a declarative way of writing a code or this is an imperative way of writing a code
+4030500	4034020	I just want you to understand that when I say that keyword, okay
+4034740	4036740	now
+4040340	4045540	Let me think of it guys example, okay now let's say
+4045780	4047780	Okay
+4048660	4051620	If you see there are some people uh in real life
+4051620	4054900	You might have seen like where you have to guide them step by step
+4055300	4058900	Like one by one like if you are asking them to do one work
+4059540	4061060	You have to tell them
+4061060	4063880	Let's say if you have seen tarak mitaka ultra chashma
+4069140	4074420	So in that there's something some character called as baga bhai where you have to introduce tell him step by step
+4074420	4080660	Hey do this step then this step then this step you're not supposed to tell him that can you complete this work?
+4081380	4082340	so
+4082340	4084900	Uh, how do I tell this one is that let's say
+4086020	4090260	There are some people slow learners. There are some one like fast learners
+4091220	4095060	Okay. Now for the fast learner, you'll say that hey, there is some bug
+4096580	4098180	In your project
+4098180	4103060	Go and find it out and close it off. There is something let's say your manager comes and tell you that hey
+4103060	4107220	There is a p3 bug and close that one and let me know once you close it
+4107780	4111460	Now he calls you this phone and he says this one and it's done
+4113300	4118900	Now there are two two types of people now firstly he he told that there is something p3 bug
+4119220	4122260	We don't know who reported it where it is there
+4122900	4128340	Uh what of whom to contact what to do. There's no message specifics have been given, right?
+4129220	4133860	When someone comes to and tell you that complete this one, but there's no specifics given
+4134740	4135700	but
+4135700	4143620	If you are someone professional and better at knowledge, right and responsible you'll understand what he's trying to say
+4143860	4148100	It's like hey, uh, if you know, there's a p3 bug you'll go and check
+4148740	4150740	Yeah, you'll go and check
+4151140	4154900	Inside your emails there might be someone who reported and uh bug
+4155380	4160020	Then you will go and do the debugging part and then you will face the pr and fix it up
+4160500	4166340	And push it to the live then you will say go back to the manager and say that hey, I've addressed the issue
+4166740	4169380	right, you are trying you reduce that all the efforts, but
+4170340	4173300	This is one of the use case and the other use case is let's say
+4175620	4177220	Um
+4177220	4179300	He called it same call to the fresher
+4180260	4182420	Now fresher doesn't know where to find a bug
+4183060	4189860	He doesn't know whom to contact. He doesn't know how to raise a pr. He doesn't know where to get approvals. He doesn't know
+4190660	4196900	Uh, like once pr is merged to go for the deployment. He doesn't know like then go back and respond to him
+4197620	4200580	For in order to know all of this right you have to tell him
+4201060	4206580	Go and check this bug you that might be there in some e-mail that user might have reported it
+4207060	4209060	Once you find that email
+4209060	4212580	Try to recreate those scenario on your product once you recreate it
+4212980	4216740	If you are able to recreate it then fix that bug push that code
+4217300	4219300	Right when i'm saying that
+4219700	4226740	When i'm when a person who is whoever is telling that right step by step procedure like one by one command
+4227460	4229460	to other person
+4229460	4233860	That one by one type of command is something called as imperative way of coding
+4234260	4237300	Like when you try to guide each line of step
+4239540	4241540	by step
+4248100	4250100	Step by step process
+4252820	4255220	Whereas something like declarative is
+4258260	4260260	You just say it
+4262420	4266020	Like they handle all the things like you just say that
+4269140	4271140	I want this thing to get done
+4279300	4280820	Right
+4280820	4283620	Yeah, now the better example i'll say
+4284260	4290820	Now i'll take a simple example, but did you get the theory part at least a theory logic that I was talking about till now
+4292180	4297140	Did you understand the theory? Uh, just I was speaking about no, let's say
+4297300	4300900	Let's say we know that there's an array
+4303460	4309060	1 2 3 4 and what if I want to do push an element 4 into it
+4310500	4313540	Right and I try to do a console dot log of array
+4314580	4316580	now, let's say
+4316660	4319460	uh instead of executing this file, let's say I
+4320420	4322240	node
+4322240	4325240	Imperative versus a declarative
+4328100	4329780	Don't chase
+4329780	4334100	If you see I I got output as expected all the items are there but
+4334820	4336980	You call a function called push
+4338020	4342500	But did you explain that array? How can you push that four item into it?
+4343460	4347620	Like how can you push a particular what should you do in order to push that item?
+4348660	4354180	Like you have to increase the size of an array by one then add that item at the last of the item
+4354660	4356260	Then only do it
+4356260	4361540	Right. We didn't say that particular all those statements. So we didn't guide it step by step. How can you do it?
+4361940	4363940	We just say that hey push it
+4364820	4368660	You you decide like how you want to do it's your headache. I don't know get it done
+4369940	4374340	So this is when i'm when i'm using something library, right to do some other work
+4376100	4381540	Then I say that i'm i'm trying to write a declarative code i'm trying to write a better cleaner code like
+4382100	4386900	If I if I don't have a push out of library available or method available
+4386980	4394100	Imagine if I want to write this custom logic native logic, it would be really tough, right to do all the use cases that are available
+4394980	4396980	like step by step process
+4398020	4399300	so
+4399300	4402340	most of the coding that you do in today's world is like a
+4403200	4405200	declarative way of doing it
+4406160	4407120	But
+4407120	4411760	When you'll go to the web development, right when you are actually dealing with dom
+4412400	4413760	uh that
+4413760	4415760	in next class, uh, you will be
+4417040	4424560	Meeting shashvath will be taking those classes for next three classes. I wouldn't be available, but when he'll start teaching the dom
+4425760	4428080	When you're trying to change something on a web
+4429040	4430320	On screen
+4430320	4435760	Using some javascript on screen when you're changing something you have to tell it step by step
+4436240	4441520	What you are doing like you have to select a particular item then you can change the color or update it
+4442160	4444880	So when you're actually dealing with dom, it's like
+4445680	4447920	Doing writing an imperative way of coding
+4449120	4452900	You got the basic understanding right? What is imperative versus declarative?
+4453460	4455460	Right now, uh
+4456180	4462340	Now if you if someone says that react is a declarative way of code declarative way of writing a code
+4462660	4465620	At least you will be able to get a meaning of it like
+4466340	4472260	There's a much of work being done behind the scenes rather than we saying it react is doing much of work for us
+4473220	4474740	Isn't it?
+4474740	4477300	So you can explore like uh imperative
+4478100	4479620	versus uh
+4480180	4484820	Imperative versus uh declarative programming
+4488660	4496500	So if you see declarative program is a paradigm describing what program does without explicitly specifying it control flow
+4497600	4505620	Imperative programming is a paradigm describing how the program should do something explicitly specifying each instruction or step statement step by step
+4506580	4510020	So are you able to relate this now this definition
+4512020	4517380	Yeah, bootstrap is also declarative you are not doing much of work right somehow the other person is 20
+4519540	4521540	Okay
+4521780	4524580	So if you go and see
+4527700	4529380	If you see
+4529380	4536500	Is c++ declarative or imperative for trans java c c++ are example of imperative programming
+4538420	4540740	Uh, this is not the right, uh, maybe
+4542740	4548100	Example but i'll give you further more right examples like to relate it because this will confuse you again
+4553620	4559220	But the on top level this is the definition guys just try to relate with that one
+4559380	4561380	Okay
+4562100	4567700	Someone else is doing work for you. This is a declarative way when you are trying to guide through each step by step
+4569620	4575860	Yeah, mostly libraries and frameworks are declarative because whenever you are using the libraries and frameworks
+4576500	4584500	Are imperative but when you are consuming or using that library, then you can say that i'm i'm writing a declarative code because i'm using someone else work
+4585380	4589800	I've been up. This is a example of this one, right? This is a theoretical concept
+4597300	4603240	Okay, same as like if I say object oriented functional programming or anything that's like, uh, yeah
+4603800	4607960	This is for imperative what about declarative I didn't get your exact question
+4611160	4616760	This is a declarative code buddy, this is not an imperative imperative is where you do step by step process
+4620520	4627160	Okay, so this is a declarative code body this is not an imperative imperative is where you do step-by-step process
+4627160	4630280	This is not an imperative imperative is where you do step by step process
+4633960	4635960	The above example
+4638760	4640520	This is for declarative example
+4640520	4644280	This is a declarative where you are trying to when you're pushing an item four into an array
+4644280	4647160	You're not saying like how you should be able to push it
+4649080	4652600	How you can increase the size of an array and add an item new item into it
+4652760	4654760	Okay
+4657000	4663880	Yeah, let's say if you say imperative logic, uh, i've got a suggestion from some bit some bit let's say if I say
+4665560	4667560	X equal to 10
+4667640	4672600	And const y equal to 20 then I can say if I want to add
+4673160	4674520	let's say
+4674520	4676520	sum
+4676840	4678840	Equal to x plus y
+4683560	4687000	Console dot log sum this is an imperative code
+4691240	4694540	Step by step process. This is somewhat declarative in nature
+4702200	4706280	Got it. So I hope guys this this basic definition is clear now
+4707720	4711000	I'm going to talk about few of the you know existing
+4711940	4714440	Existing higher order functions
+4715480	4717480	Those are present on array
+4718040	4719800	Does anyone know?
+4719800	4721800	Uh, like some higher order functions
+4722520	4724760	If anyone have came across and understood that
+4725560	4727320	like
+4727320	4729320	Some advanced functions on arrays
+4730120	4732120	That you might have come across
+4732920	4737560	Because we have introduced a list of functions which are already on arrays when we discuss in depth
+4738120	4740120	But some more functions
+4741080	4742280	Okay
+4742280	4744280	Have you have anyone heard of?
+4746920	4752360	No slice shift and all all those things we have covered right, uh, but some more advanced
+4753960	4755960	Yeah map no
+4757400	4759980	Let's say I have map.js
+4761480	4767160	No, what does i'm doing let's say I pick an example, uh
+4767880	4769880	Uh
+4770840	4777320	I have an array again basic example. I'll try to use that and explain this concept
+4778760	4780600	Say I have an
+4780600	4782600	two three four five six
+4783160	4785240	Let's say I have this elements now
+4786360	4788360	I want to
+4788900	4791400	Multiply each item by
+4793480	4796200	Like three or four or five anything let's say, uh
+4797320	4800200	Or let's say I can say calculate squares of each number
+4801800	4806120	If I want to calculate squares of each number i'll write a function right calculate
+4808200	4810200	Square
+4810760	4816040	Of each number where i'll have an array then what i'll do i'll isolate through the loop
+4817160	4819160	Let's say I have a lit
+4819240	4821800	result of an array then
+4823560	4825560	For loop
+4826040	4828040	Doing this then
+4828120	4830120	result dot push
+4830440	4832440	array of i into
+4832520	4835800	array of i this is what a function looks like right for
+4837800	4843400	Calculate squares do you guys agree square is like multiplied by itself
+4845080	4846200	You know
+4846200	4848520	This is right way of writing code. I agree
+4849800	4853800	I agree that you can always do this thing and
+4854280	4857240	Let's say calculate squares and then you can say that
+4857880	4859880	Hey, I want to pass this array
+4859960	4862680	Uh, and if I try to execute this let's say node
+4863320	4865320	map dot js
+4865320	4872200	If you see i'm able to get what output as expected for a 9 16 25 36. That's fine
+4872840	4874120	but
+4874120	4879640	What if there is a utility that you don't need to do this and you have something like higher order function?
+4880600	4883000	Now what map suggest is
+4884280	4891480	Here where map comes but what one thing I want to explain here is that for each item in an array
+4891560	4893560	Are we doing same operation?
+4894600	4897000	Are we doing same sort of logic same operation here?
+4898680	4900680	Like multiplying by itself
+4901720	4907320	Same operation right so you should prefer map only on when
+4908040	4913340	Each index of an of the array
+4918760	4924940	You are executing same operation or expecting same operation
+4929240	4932860	To be done, okay, so let's say
+4937480	4940680	How does map works now let's explore how does map works
+4941480	4944680	If you see here one of the common principle is like
+4945560	4950760	Whenever we have studied problem solving right we are supposed to not disturb existing
+4951960	4959080	Input arrays right or whatever you are receiving array in a function you are supposed to build a new array and return it
+4959400	4963000	This is not considered an extra space, but this is something by default you do it
+4963480	4966520	Instead of disturbing this existing array you create a new array
+4967000	4969000	This is a common core principle, right?
+4972280	4974280	You guys agree with that point
+4977800	4979080	So
+4979080	4984040	Map also what it does it internally map is an higher order function, okay?
+4984680	4989640	Whenever say is I say higher order function on each array you can call something like map
+4991080	4993160	What what does higher order function does?
+4993960	4997820	What does higher order function does when we can call a particular function as higher order
+5002680	5007640	Again trying to re-revise that same definition when it when it takes an callback function into it, right?
+5009160	5015560	Do you guys agree with that point when it has a callback now, let's declare something a callback function. Let's say this is a callback
+5017320	5021080	Have a callback function inside this i'll have let's say
+5021480	5023480	Number
+5024200	5028920	And what is all this something i'm doing is i'm returning number
+5030120	5032120	into number
+5032680	5035240	Okay, i'm multiplying by number by number now
+5035960	5040360	What I can do inside this map is that let's say if I hover over it if you see
+5042200	5047560	Let me do this if you see it takes a callback function
+5048040	5050040	And number array
+5056680	5060360	Right if you see it again
+5062200	5069000	Honestly one way of writing this logic is like you can always do this callback function pass this callback function into it
+5071000	5073000	Okay
+5073000	5075000	now
+5075640	5078760	Though the the better way of writing this one is like, let's say
+5079960	5082760	you declare a callback function here itself and
+5083800	5087000	So what it does is like it iterates through each of the item
+5087560	5093960	Let's say now each item is having a number and its index. We can have you'll have an access to the index each time
+5095240	5099000	Okay. Now you can return something here. Is that
+5099640	5101640	number into number
+5102040	5107240	Same thing again, so what maps does it it works like a for each loop
+5109480	5111480	For each loop
+5114360	5121320	But you can directly write like this logic and you can store as a output array
+5125720	5127720	Okay now
+5128680	5134680	Also, if you want to do a console log you can do something like console dot log
+5135480	5138360	Number and index let's say if i'm doing this also
+5139160	5143480	And I try to do console dot log of a number output array
+5145480	5146440	No
+5146440	5148440	So what map does map?
+5149080	5151960	Takes a callback function since it's a higher order function
+5152600	5159080	Once it takes it it iterates through each of the array index like for each loop for each item
+5159880	5164600	And this is number is that particular item and it also has an something like index
+5165240	5171320	This value can be you can define anything like you can say num or anything up to you. It's up to you
+5171960	5173960	Like whatever you want you can define it
+5174360	5179560	Okay. So how can you say that I can define anything if you hover over it if you see
+5179960	5181960	It has something like value
+5183160	5185160	then index
+5185160	5190760	Then array of numbers like if you even want the whatever array you are having you can also access the array
+5191480	5196200	Okay, you can also scroll down and you can see what all definitions of this are
+5197160	5199160	but on top level
+5199400	5205320	Since it's a higher order function it takes an in your callback function and it's iterating through each of the index
+5205320	5210120	Each of the index then it's getting that index value and return this returning this one
+5210840	5212840	let's say if I
+5212840	5214840	Try to execute this one node
+5215320	5217320	map dot js
+5218360	5220360	Now do you see this?
+5220360	5223080	What's happening here? I will try to comment this again
+5223720	5228680	Clear this console clear and try to re-execute this one now if you see
+5229880	5231160	firstly
+5231160	5232760	What's happening?
+5232760	5236840	Here in the array we had something like two three four five six
+5237560	5243800	So it picked first item and the index of that particular item is zero because we we were trying to output something like
+5244600	5249480	Number and index and the next item was three and its index was one
+5250040	5254600	So why I was trying to print index is that I was wanted to show that that you know
+5254600	5257320	This works like a for each loop for each of item
+5257880	5259880	This callback function will be executed
+5260600	5265880	Like for each item this callback function will be executed some the other syntax that I was writing was
+5267080	5269400	I was I wanted to show you this how this works
+5270440	5272280	callback
+5272280	5274280	Now let's say you have here
+5274680	5279720	You can have num and index same logic. Let's say if I cut this
+5282520	5284520	And paste it here
+5287160	5289160	And you can say
+5289480	5291480	You have this callback function here
+5292600	5294600	Each time you'll call it
+5294680	5296120	passing
+5296120	5298120	num and index
+5298600	5302120	You can still do that. I just extracted that logic outside
+5303240	5307800	So that you can feel that i'm still passing a function instead writing the inside it
+5308760	5309960	Okay
+5309960	5312460	I hope this is clear guys how map works
+5312460	5314460	This
+5317900	5323100	Oh, there are too many guys so too many functions like because it's a functional programming language itself
+5323180	5328060	I just want you to introduce step by step. What is an higher order function and the main
+5328700	5331340	Core higher order functions what are existing in it
+5331740	5338300	Now if you see when to go for map again trying to repeat guys because this is somewhat interview specific
+5339020	5341020	And you will be trying to use this
+5342620	5345900	More than anything else even if you go for react
+5346460	5348060	Okay
+5348060	5353500	A map function is used when you want to do a same operation on each item of an array
+5353980	5360140	Same item of an array you picked each item and you try to do that same operation like you're trying to multiply it
+5360540	5362140	It's a square
+5362140	5364060	Okay
+5364060	5369020	So map is something where we can pass the function inside it and perform a task directly inside it
+5369100	5371100	but for but for each it's just like
+5372540	5375980	To cover it all elements to cover all the elements only
+5377100	5385020	Uh last point I didn't understand some with a performer task directly inside but for each is like just to cover all the elements
+5385900	5387180	Yeah for each
+5387180	5390060	Uh, yeah, it covers all the elements but here
+5390620	5394700	Uh, if you see it is also returning as a new array
+5396060	5398540	Like you are storing here inside a new array
+5399100	5401260	This is working like a same this function
+5402460	5407420	Whatever function we have written it is working like the same function, but it just replaced our logic
+5408780	5410780	Yeah
+5410940	5412940	Okay, so
+5413260	5415980	Is map clear guys when to use map and what is map?
+5416460	5417500	of
+5417500	5418460	like
+5418460	5420460	On what data type you can use map?
+5421420	5423420	All those points clear, right?
+5423820	5426460	I've took it very slowly. I took it really slowly
+5426460	5428460	Okay
+5428620	5435580	Do you need a break or I can take uh 20 minutes I can close the session today. It's up to you guys
+5445420	5452720	Okay continue, okay, then uh, let's say I have a some simple problem like cons or transaction
+5456540	5462940	Uh and an array of transactions, let's say I have like thousand three hundred five hundred
+5464220	5465980	two hundred
+5465980	5468860	Hundred like these are the list of transactions. No
+5469500	5473900	These are let's say these are in rupees. I want to convert into uh
+5476140	5479020	Ust like let's say inr to usd
+5479020	5481020	Ust
+5481820	5489180	So let's say the currency currently inr to usd is at valuing it 83 rupees to one dollar now
+5490780	5496300	Do you think here I can use some somewhere around a map function here
+5499980	5501980	Do you think I can use map here
+5502300	5508220	Because what what would be the operation that I actually have to do divide by it right divide each
+5508860	5511580	uh value of an array by 83
+5512780	5515740	So let's write down write down this logic. Let's say I have
+5516780	5518780	output
+5519320	5521320	Transaction array
+5523180	5526380	I can do transaction dot map
+5527660	5532620	Again a callback function inside it. Let's say I have each transaction and I have index
+5533420	5539900	Which I won't be using it as of now and what I have to do I have to return something like transaction
+5541900	5548780	Uh, it's txn each item of this one divided by inr to usd
+5550140	5555740	And I can console dot log of output transaction array
+5556460	5558460	Okay
+5560860	5565580	Is that clear guys how can how we can write down okay how we can use this map
+5565580	5567980	I just gave gave one more example simple example
+5569020	5576220	So if this is clear, let's move with the something called as filter filter dot js. No, so i'm introducing
+5577900	5580460	No exact dollar value on it. Yeah
+5580620	5582620	Yeah
+5583580	5585020	So
+5585020	5588380	Guys coming to second higher order function called filter
+5589100	5594140	Now let's take an example of an array where you will have item from one
+5594700	5599100	To three five then let's say I have nine then let's say I have this then I have this
+5600620	5604140	So what we have one to twenty in the items in an array, okay
+5605420	5607740	Uh, what if I want only even numbers?
+5608620	5610620	What if I want only even numbers
+5611180	5615820	Okay out of this array what I can do is that let's say I have a function
+5617020	5619020	Get even
+5619660	5625420	Okay again same thing an array inside it I can have let output
+5627740	5634940	Right then I can go for the loop then the basic logic would be array of i
+5638300	5640620	Percentage of twice is equivalent to zero
+5643020	5647440	Then I would add element into this one, isn't it?
+5654460	5660060	Guys this would be a logic for writing an even getting an even numbers out of an array, isn't it?
+5660860	5665980	Like i'm just iterating through each item then i'm checking if it is like, uh, you know
+5666940	5668940	Kind of matching this condition
+5670140	5671100	Uh
+5671100	5674140	Ankit I I need to show around this like you can google this
+5675340	5677340	What it does is like two?
+5677420	5681660	Amper cent of two gives you zero. It's just i'm checking reminder if the reminder of value
+5682700	5685500	When it is divided by two is equal to zero then
+5686700	5689100	It says we can say that it is an even number
+5690700	5691900	Like
+5691900	5696460	That's a basic formula right how to know if a number is even or not
+5698780	5700300	Okay
+5700300	5703260	I can execute this one and show you uh node
+5704060	5706060	Let's say I have to call this function
+5706700	5708700	Uh get even of array
+5710700	5712700	I have to console log this one
+5722220	5728380	Okay node filter.js if you see i'm getting only the even numbers out of it
+5731740	5735340	Guys is this clear the point is clear, right? Uh, this is a basic function
+5735340	5739900	You might have came across multiple times in the dsa. No, but what we are doing here
+5740700	5746940	Like earlier in map we were iterating through each of item and then we were doing some same operation here
+5748700	5751420	Are we filtering out an existing array?
+5752620	5756540	Do you think we are doing that filtering out on a basic each kind one condition?
+5760060	5764780	Are we filtering out an array aren't we filtering out this array?
+5766620	5769740	Basing on a condition like based just on if condition
+5772140	5777500	Yes, right muneshwar do you think any even like other way around
+5777980	5779980	So
+5781580	5784300	The same thing can be done using filter
+5785340	5787340	Function which is a hydra function
+5787900	5791180	Let's say if I want to do something get even numbers
+5791740	5793740	here
+5794140	5797660	What you can do here is that let's say I have an array dot filter
+5798380	5805580	I'll say that filter items based on a particular condition. How can I do it? Let's I'll get each number
+5806220	5813100	On each number check one condition check one condition what condition if
+5818060	5822140	I'll say that if only number multi divided by two
+5823340	5825020	only if
+5825020	5827100	Only if this statement is true
+5827820	5833100	Only if this statement is true, then include it in the ket even numbers or else
+5833740	5835340	Don't include it
+5835340	5837740	So filter is generally used
+5838940	5840300	whenever
+5840300	5844140	You want to filter and particular array based on some condition
+5845340	5847340	Let's say I put it here
+5847340	5849340	And I try to re-execute this one
+5852220	5854780	Uh, okay, just a second get you
+5857580	5859580	Okay
+5860220	5862700	Uh, it's not a function here
+5870220	5872220	Do you see this guys
+5873660	5877980	Uh, i'll help you out with that, uh bishek, uh, give me some time, okay
+5878860	5882060	But let's focus on the concept so that we can finish our day today
+5882620	5883420	now
+5883420	5887020	Filter logic is now what if I want to get odd numbers here?
+5887820	5894300	What if I get need to get odd numbers it would be really simple right I have to change one condition get odd numbers
+5896300	5898780	Filter it with return
+5900620	5902620	Not equal to
+5908860	5910860	Is entry
+5912620	5914620	So
+5917660	5919660	Okay
+5920620	5922620	Yeah, i'll come to that somewhere
+5923020	5924380	so
+5924380	5929900	I hope now map and filter logic is clear when to go for map if you want to apply any common
+5930520	5937660	operation on each of item like multiplication division or any logic on anything or any item you go for map
+5938300	5943180	Right if you want if whenever you are choosing filter actually you are filtering out items
+5943180	5949660	Like I want only this thing or that thing basing on a one condition and if this particular condition is satisfied only that
+5950300	5957820	Only then this whatever you are returning right? Whatever is happening like this logic same thing in that output array that will be there
+5959100	5963260	Okay, base if you want to this is just a simple condition like a if condition
+5963820	5968140	Okay, is that clear guys filter one map and filter both things?
+5968860	5970860	Now I want to talk about
+5971820	5976940	One thing triple equal to versus double equal to
+5979100	5985820	Does anyone know what this does if anyone knows can we pick can they ping me personally if anyone knows this?
+5994300	5995580	This is a
+5995580	6001980	Like if you see I used sometimes a triple equal to sometimes I used double equal to somewhere
+6002780	6004540	Right i'll show it
+6004540	6006540	But I use this one
+6007980	6009100	Okay
+6009100	6012540	Now let's let's see this what it does. Okay, firstly
+6014700	6018960	Both the things are used for comparison. These are comparison
+6022680	6024680	Operators, okay
+6025900	6028620	Now how does it compare let's say I say const
+6032860	6039260	X equal to 10 or let's say 10 and const y equal to 10
+6042060	6045500	Now if I try to do console dot log
+6047980	6049820	Let's say
+6049820	6051820	x double equal to y
+6052700	6054220	comma
+6054220	6056220	X triple equal to y
+6058220	6065740	Just let's explore this by this example, uh, i'll try to come let's be that also we'll see all the outputs
+6066540	6068220	now if you see
+6068220	6070220	for the first thing
+6070300	6075340	When I used double equal to I got something as a true. Can you see this guys?
+6076140	6079820	When I use double equal to I got true and when I use triple equal to I got false
+6079820	6086460	So behind the scenes when you are using something like double equal to
+6088460	6090940	Is just checking
+6093420	6095420	Content
+6096620	6098220	Content value
+6098220	6104060	So there's a one big huge concept going on behind the scenes when you use double equal to
+6104620	6106620	But when you are using triple equal to
+6107660	6109420	checking
+6109500	6110460	both
+6110460	6112460	Data type and value
+6114540	6116140	Okay
+6116140	6118140	now how can
+6118140	6125580	A particular string can be converted into number or a number can be converted into string when using double equal to
+6125980	6130220	That's a type conversion by default. It is happening in js
+6130700	6132700	That's really one of the difficult
+6133660	6136060	Uh, you know, I would say way to
+6136940	6140700	Understand there are some set of rules that you can always remember
+6141340	6142300	but
+6142300	6145260	in my coding practice in my experience
+6146060	6150780	Whenever if someone is using double equal to I flag it or i'm being flagged
+6151340	6155660	So you're always supposed to use triple equal to which will do exact
+6156840	6159500	Comparison check like if both are equal or not
+6160540	6164460	Is this clear what is double equal to and what is triple equal to and what to use it?
+6166780	6167980	Okay
+6167980	6170220	Because behind the scenes this particular thing
+6171260	6173260	10 of string is converted into
+6174140	6175900	number 10
+6175900	6180620	There are many use cases how this thing works because javascript is really
+6181420	6187180	Irritating language when you because that's been developed in 10 days. Now this triple equal to is solving those issues
+6187180	6191420	So you if you are using double equal to you might sometimes fell into problems
+6192380	6196460	Uh, like if you're using it in any pro like when you're writing code huge code
+6196940	6202220	Please avoid using double equal to if you want a statements like a series of rules
+6202300	6204300	Which thing is converted into which one?
+6204620	6210060	I would give it but I won't recommend you to remember all of them those conditions. It's generally useless
+6210620	6215020	Why don't you write a write a coding practice use statistic or triple equal to?
+6216940	6219260	Okay, I hope this basic uh
+6219340	6223420	Uh, idea is clear. I hope map and filter is also clear
+6224220	6226700	So if this thing is clear, can we move it guys?
+6228060	6230060	Can we move it to the last thing?
+6230860	6233180	and uh people generally
+6235660	6238460	Uh avoid this one and but
+6240620	6246060	Let's say uh again, I just want to end this filter with one example, uh, if you go for the map
+6246060	6248060	I had this transaction, right?
+6248220	6250860	let's say I have this an array and also
+6251660	6255980	I have uh inside this array. I have some negative numbers. Also, let's say
+6256600	6258600	Minus 200 220
+6259100	6261820	Minus 300 minus 400
+6262460	6266460	So i'll say that uh, can you get me only positives? Let's uh get me
+6267820	6269820	only positive
+6271240	6273240	Transactions
+6273740	6275740	So how can you do this guys?
+6276940	6278940	Okay
+6279900	6281900	How can you do this
+6285180	6289440	Can anyone give me uh, what condition I should write on filter?
+6298460	6302460	Just one condition transaction greater than zero, right?
+6303180	6309040	This should solve my issue right only get me the positives simple if condition
+6311580	6315980	Or else imagine for doing this also sometimes we have to write the loops
+6316540	6321580	For loop and write those many conditions and find the length of an array and all those things, right?
+6322140	6326620	We can avoid this using filter. Do you understand the power of this functions that we are learning?
+6327260	6330780	It it eases your code now if you see those have been filtered out
+6330780	6332780	Now comes one of the
+6333580	6340300	Best thing guys that I feel uh, you know reduce what reduce does or the problem statement for the radius. Okay?
+6341660	6343660	How many of you remember something like prefix sum?
+6345580	6347580	Dsa problems
+6347900	6349900	Where you have to you know
+6350780	6355500	Prepare an array which is storing all the sums from the array
+6356460	6363020	Uh prepare an array which is storing all the sums from the before index still there, right?
+6363660	6368300	so you have to write a loops and store it or let's say something like
+6371020	6373260	Sum of all numbers sum of all the numbers
+6375820	6379420	Let's go back to the prefix sum later, but sum of all the numbers
+6380780	6382220	right
+6382300	6386700	What could be the basic use case? How do you do this one? Let's say again I take this array
+6386940	6392140	I'm using this example. I can use prefix one, but that will complicate a way of understanding it
+6392700	6395340	But let's say I have this one to the way
+6396300	6401260	What is a way that you can calculate the sum? Let's say if I go for for loop again
+6401900	6405980	Uh, I can still do something like is that let's say I have let
+6406700	6408700	sum equal to zero and
+6409580	6411660	I have to declare this outside. This is
+6413180	6415260	This is not the right way to do it
+6416140	6418140	Let's say this is a function
+6418460	6420460	sum of numbers
+6421580	6423580	array
+6430860	6436220	Right, then something you would do is sum plus array of i then you will return sum
+6439660	6442540	Right, this is the example that you would do it, right?
+6443420	6448460	If you say say if someone says that write a method for finding a sum of numbers
+6450220	6452220	Isn't it
+6454380	6457420	Guys give me thumbs up thumbs up if you are aligned with me
+6460140	6465100	Okay, this is a like a function where you can find sum of numbers now what if
+6465180	6470780	If here what we are doing it here, let's say I'll execute this one for our sake
+6472460	6476460	But what what we are trying to do it here what sort of operation is happening here
+6477740	6479740	Just think of that way
+6482140	6488380	Aren't we reducing all the items of an array into one number?
+6488380	6490380	Number
+6493340	6495340	Just think it from that perspective that
+6496540	6501580	Aren't we reducing all the array in numbers into one number like a sum?
+6503420	6510220	Like we are not utilizing here the logic here is just that if you see in the earlier filter or
+6510700	6512860	When we write a simple functions or map
+6514300	6518220	I'll put it, uh them by one by one. Let's say I split this one
+6519340	6521340	Again, I go
+6521980	6523980	I pick up a map here
+6524700	6529820	So I pick up a map and let's say close my filter now
+6531660	6534940	I'll pull this one bit down here
+6536700	6538700	Let's say I reduce this one
+6542300	6543820	Yeah
+6543820	6549900	If you're seeing there's all those examples when we write the simple functions right a sum of number calculate square or get even
+6550460	6553980	We were storing results in an array when it comes to filter and map
+6554540	6560060	But when we went when we went for some of our numbers, we are actually using only one variable and we are returning it
+6560780	6563020	We are not using of our each index right?
+6563100	6567100	We are not doing it for each index item or some operation or filtering out on some condition
+6567420	6571100	But we are reducing an array of items into one number. Can I say that?
+6574460	6578220	Yeah, that's common analogy that I want to catch it so
+6579580	6583180	What I want to say is that reduce is a higher order function
+6584860	6586860	Reduce is a higher order function
+6588780	6590780	Should be used
+6593260	6595260	When you want to
+6598940	6600940	Reduce
+6601180	6603180	Array of
+6604620	6606620	Numbers or items
+6607660	6609100	Into one
+6609100	6614700	Into a single item. Okay. Now, how can you do this? I'm just showing you one example
+6615740	6617340	Let's say
+6617340	6618460	const
+6618460	6620460	someone
+6623900	6626060	I'll just go on array. I'll say reduce
+6626060	6631500	Reduce again since this is a higher order function. It is supposed to take a callback function
+6632540	6634700	Once it takes a callback function here
+6635420	6637420	It has two things
+6637980	6639980	One thing is called accumulator
+6643820	6649500	Or acc and this can be number so when I say acc
+6649500	6651500	Okay
+6652380	6658380	You can always relate to the some variable that we used where we are appending each time again and again
+6658780	6662220	Okay, or else let's declare this as a result
+6663020	6664540	result variable
+6664540	6667020	Which will be appended again and again now
+6667740	6669900	What and how you will reduce this one?
+6670540	6672060	is that
+6672060	6674060	You will return
+6675900	6677900	Result plus now
+6678540	6681820	So what we are doing earlier if you see here one variable
+6682540	6686620	that we have kept it that will be first now if I hover it if you see
+6688060	6695260	A callback function and it says that previous value previous value when I say that first value will be zero
+6695820	6699180	Then I'll go with the first number number would be one
+6699900	6702860	Then I'll store number one here in the result
+6704780	6707100	Then i'll keep on updating this one
+6708860	6716160	Is are you able to relate this how this will work I can show you step by step give me a second
+6727100	6730460	If you see for both the things we are able to get that same output
+6732060	6735280	But what i'm saying is that it takes two parameters
+6736240	6743440	One is accumulator or like one person who is accumulating operation results like this is a variable which is
+6744480	6749920	You know defined outside of a loop that is accumulating all the results right consecutive results and attaching to it
+6750560	6756320	And it is being reduced and returned at last. So this is how it is working if I can show you
+6757360	6759360	Let me debug this logic
+6760640	6762320	If you see here
+6762320	6764240	firstly
+6764240	6766800	What I got here if you see first time
+6767600	6770320	When I entered it the initial result
+6771360	6772640	is one
+6772640	6778080	Because index one is executed the second item i'm getting as num as a number two
+6779120	6782400	And when I execute this one, let's say if I press enter
+6783280	6786480	Again when I come here if you see this number is updated as three
+6787120	6792960	Because it summed first two items then the third item that I have in the result is to sum the three
+6793680	6796320	If I click again press, uh, you know play
+6796960	6798960	If you see the number become
+6799120	6803200	The num is four and the result becomes six because it had
+6803760	6809200	Like some of the elements still now like three plus two plus one six and the number is four
+6810160	6812160	Next step the result will become ten
+6813840	6815840	Then I have num five
+6815920	6818480	Then i'm executing result then it will do some
+6819440	6826800	I hope this point is clear guys how this is result is working accumulating all the consecutive results that you have
+6828320	6829600	Okay
+6829600	6830560	now
+6830560	6832320	you can
+6832320	6834000	Let's explore how
+6834000	6838560	Think of it. How can you do something like prefix sum logic here?
+6840000	6842240	Just think of it if you can apply prefix sum
+6848480	6850480	So
+6852560	6858900	Time complexity same for yes time complexity same, but uh, the way of writing code is easier upendra
+6864400	6870800	Right this this particular thing the whatever higher order functions we have discussed filter map
+6872160	6874160	Reduce are generally
+6875120	6882080	Yeah, pre-push those results so those are actually making you to write a better code with a clear code
+6884640	6886640	Okay, I have uh
+6887680	6891280	You know a function i'll give you an example. Let's say I
+6892320	6897120	Copy the code. I just generated this logic. Okay in chat gpt
+6898880	6901680	Uh to just show you like how this works, okay
+6901920	6907600	If you see uh calculate prefix sum if you are doing someone is you writing in js code
+6908000	6910640	They should have done this way now if you see
+6911120	6913280	Accumulate the sum previous sum
+6914000	6916000	What we are doing here?
+6916000	6923120	Like uh, it's an input array then i'm calculate prefix sum if I go inside this i'm getting an array of item
+6923120	6925120	I'm reducing array of item here
+6925520	6928160	Now each time i'm getting an accumulator
+6928800	6930800	and a current value
+6931760	6935680	When i'm getting this current value now inside accumulated dot push
+6936560	6940240	Okay, i'm considering this element now. There is something
+6940880	6943440	Extra thing that I want to help you understand you that
+6944160	6946160	I have to define
+6946480	6952000	What is a default value of result if I give a default value of result as zero?
+6952960	6958160	So if you see it is asking me point out the initial value. What would be the initial value?
+6958720	6960160	After a callback
+6960160	6965040	So it takes two things here first is a callback callback function then a default value here
+6965760	6966800	when I
+6966800	6974080	Did when I explained i'm trying to explain prefix sum the default value for prefix sum would be because we need an array of
+6975360	6977360	Items calculated till that range right?
+6977920	6979280	Now if you see
+6979280	6983120	I had a default value as an empty array then i'm trying to push
+6983920	6985920	each item into this uh
+6986880	6994000	It array such that if accumulated dot length is greater than zero like if the item is greater than zero
+6994880	6996880	and
+6997120	7000480	Here with something used called as a tertiary operator, okay
+7001680	7008560	Something as a tertiary operator then i'm accumulating current item whatever item is there now
+7008720	7017600	So if you see this if I can write down this condition in a easier way to make you understand here what's happening if
+7018720	7020480	This is there
+7020480	7023600	If accumulator dot length is greater than this one
+7027280	7032480	Let's say I can push the pull this one outside because they have returned tertiary operator
+7033200	7036240	Let's say if I make it easier to understand this one
+7039520	7045920	Let's say if this is greater than length zero then I'll use something like
+7049040	7053120	Okay accumulator dot push
+7057440	7059440	Plus current value
+7064880	7066880	Or else
+7069280	7072000	I'll push accumulator dot push current value
+7073120	7079840	This is a condition they have written simple condition like if the first if it is not the first element push the current value if it is like
+7080560	7087920	Uh other elements like second index just keep on adding get the last element. What was in the accumulator and keep on adding it
+7089520	7092800	Is this clear guys how this prefix sum is function is written
+7093440	7101520	If I reduce remove this comments, right you will be able to see how clearer this code works when you use the reduce function
+7105920	7113120	But it just comes with a practice like what is a again like if you can write down in a simple js and compare this one
+7113920	7118160	Then you will be able to relate like how reduce actually is trying to help us out
+7119200	7121200	writing a better code
+7122800	7124800	Okay
+7125120	7131120	Uh, if you want to use all of this hos on objects which has an array, uh, can we just directly pass object?
+7131440	7134480	Yeah, uh, we can do that some bit. Yes, we can do that
+7135200	7138640	Always right. Let's say I push this inside an object itself
+7140080	7143920	Uh const object inside that let's say I have an array
+7145920	7147920	All right, I have this one
+7148720	7155680	Okay, if I have this one, so whenever i'm calling a function i'm supposed to call object dot array
+7157360	7159360	That's it, uh, everything will be solved
+7161200	7167920	And here if I want to do it added object dot array reduce still it would work as expected
+7167920	7173120	So, let me remove this debugger and play it if you see i'm able to get all the things
+7173440	7176240	prefix sum is also working i've just copy pasted it because
+7177040	7182640	Uh, you all all people, you know all know that logic actually what prefix sum does and by this example
+7182640	7185120	You might be able to better relate how reduce works
+7188880	7194160	So, let's say I have an array of objects which has an array and I want to use it as an array
+7194160	7196160	So, let's say I have an array of objects
+7198960	7200960	So guys, uh, is this
+7201040	7206160	Clear what we have done? Yeah, syntactically I would say it takes time
+7206720	7211280	But to you know in order to revise this thing, right? Uh, just let me give five minutes on it
+7211920	7215280	What we have done where you have understood first thing something called as
+7215920	7217920	higher order function and callbacks
+7218720	7227760	Higher order is a function which takes function in it along with other arguments or doesn't matter if it doesn't
+7228560	7233200	Callback is something which one is passed inside it that example we have cleared it
+7233760	7236720	Then we went on to discuss some existing library
+7237200	7238880	higher order functions
+7238880	7242660	Before this we understanding something something called imperative versus declarative
+7243620	7247220	Coding now whenever you are using something existing library higher order functions
+7247220	7252980	We are writing a more declarative code rather than writing a it's like more and the more declarative code you write
+7253220	7258900	It's a more cleaner code. You can always solve the functions like whatever functions we have discussed
+7259460	7264020	Map filter reduce if you see we were all we were able to do
+7264740	7270340	Build or get the result out of this using for loops that we can write it logic
+7270660	7276900	But the more declarative code you write the syntaxes are shorter and it's a better cleaner thing now
+7277380	7280020	If you when you now when you want to go for map
+7280660	7283140	When you want to apply same operation?
+7284260	7286260	on each item
+7291060	7298180	And when you want to go for filter filter in order to filter items of an array
+7300900	7302900	of items
+7303860	7305860	Based on condition
+7315220	7317940	Go for reduce when you want to
+7322740	7327620	Reduce array of items into one value
+7330340	7332340	So
+7336500	7342040	Is this clear guys how this all things works whatever we have discussed today
+7349380	7354100	Uh cheat sheet, uh cheat sheet. I'm not exactly sure upendra, but
+7354740	7362500	Uh for me right whenever I want to prepare anything, so it's a javascript info, uh, if you search here
+7363700	7365460	uh
+7365460	7367460	Let's say reduce
+7368180	7373780	It's not there here. I'll show you the document where you can prepare map reduce filter, but
+7375220	7379140	This is a better document where you can understand things
+7380500	7381780	Okay
+7381780	7386340	For the javascript level, but i'll share documents whichever you won't be able to find here
+7388900	7391060	But I hope uh, you will be able to
+7392020	7398660	Understand the concepts of higher functions callbacks and some existing higher functions which are there. Okay
+7399140	7401140	So if all these points are clear guys
+7401380	7405300	Uh, can we start doubt session because this is the content I wanted to uh, you know
+7406500	7408500	Take it
+7408820	7410500	So nice guys
+7410500	7412500	I'll start the doubt session. So
+7413460	7416980	Whoever had better understanding, uh, feel free to drop
+7417620	7422420	So from the next class guys for the next three classes, uh, I won't be available
+7422980	7424500	so
+7424500	7428500	Your uh three next three classes which will be more related to dom
+7429460	7432260	Since we have introduced js up to an extent
+7433060	7435700	Now we will be talking more on a how
+7436580	7438580	You will be able to use html
+7439620	7441620	css and js
+7442020	7446180	And use js to interact with html and play around with those things
+7446900	7448900	So these things will be taken by
+7449840	7451540	shashwat
+7451540	7456920	Okay, he works at geocinema one of the really great co, uh, you know web developer
+7457160	7459160	Okay
+7460040	7460840	Okay
+7460840	7466840	So he has been associated with scaler for more than eight months and he has proven himself to be a good instructor
+7466840	7470600	So hope you will enjoy classes for the next three classes
+7471160	7475660	Then i'll come back and we'll build a project called canban
+7476440	7483240	So once you understand basics of dom and how do you interact and what are the events that are generally handled how events are handled?
+7483640	7485000	in a browser
+7485000	7486280	Okay
+7486280	7489400	So once you get those clarities, we'll build something like a canban board
+7490440	7493960	So project level project level item. I'll pick it up again back
+7496200	7498200	Okay guys
+7500280	7504840	So did you like today's class in last class fns data type we had used something cons and then we
+7505160	7507160	Try to change the values. It should be technically
+7508520	7513320	Ah, okay. I'll answer this question share your code base also. Okay. Uh, yeah, i'll do that munish
+7513960	7521160	So shashar will be pushing his code i'll also uh may make sure that i'll try to update my code so i'll answer
+7521720	7523720	some bits question
+7524440	7531480	So some bits where basic question is like if you remember in last class we declared an object
+7533000	7535000	Uh, like let's say this is uh, one
+7535960	7540040	Let's say I have something like one and two. I have something like two
+7540440	7545080	And I go on to say that object two
+7546840	7552680	And I say object and I say that hey object two dot
+7553880	7556360	One equal to let's say three
+7558040	7560040	If i'm doing this way so
+7562200	7566920	Or this is the question, isn't it sambit are you talking about this one?
+7570600	7575240	Right now what's happening when I explained last time in reference data type
+7577080	7578760	Let's take this one
+7578760	7580280	Let's take this example
+7580280	7587880	First object was declared and uh memory was created which is storing this particular thing, right?
+7588520	7590520	Let's say what it is storing
+7590520	7591640	one
+7591640	7593640	one
+7594280	7596280	And two two
+7597160	7600840	Right now when i'm assigning
+7601880	7604360	Object two to this one
+7605080	7607080	Right when i'm assigning this to it
+7607940	7609940	actually
+7610440	7612440	Const is something we say that final
+7613560	7615240	final value
+7615240	7616200	right
+7616200	7621160	So what I mean to say that for the object to one object you cannot change it
+7621480	7626920	But when you're actually considering reference data type, right when you're considering array also
+7628280	7630760	Array also you can declare array
+7631400	7633000	Like one two, three
+7633000	7639000	Four if you see when you're declaring a const as an array you are able to do something like a push operation
+7639960	7641960	or pop operation
+7642440	7647560	Or shift or unshift or any sort of operations because on reference data types
+7648120	7652760	You're not actually you know, there's something like it's not working like pass by value
+7655800	7657800	It's working like a pass by reference
+7659400	7666600	I'll discuss this in depth actually how this is working why const why even after declaring const you are able to update
+7666920	7672680	When you're declaring it pass by reference, right each copy will have the reference and they can update it
+7673000	7675960	It's not that you are updating the like this value
+7676680	7678680	But if you declare
+7678680	7682360	Like a primitive data type right const x equal to two
+7683640	7687480	Right, then you cannot go and say that x equal to three
+7688440	7690440	Because this will be stored
+7690920	7697660	Here in the stack and stack value will be final. But when it comes to reference data type, you can still do the manipulation
+7700040	7703160	Yeah const behaves like a let so when you go for
+7704120	7709720	Like let's make let me fix this issues like i'll show you wherever I use let right
+7710600	7712760	Since we were discussing more about
+7713880	7715400	for some works
+7715400	7719720	For map, let's say, uh, if you see here wherever I used it
+7721080	7723480	Let's say this is a loop, right if you see loop
+7725080	7730840	Uh, let me uncomment this code in the map I have let's say if I make a const
+7731800	7733800	I comment this out code
+7737640	7743480	Okay, if I comment this code and if you see I made a const result array now, let's say I
+7745240	7748680	Clear this and I say node map dot js
+7751160	7753160	You see I didn't get error
+7753400	7759080	But we are adding something to it. So for reference data type const will work like a let but
+7760040	7763800	It's a standard that you would declare them as a constraint itself
+7764680	7766360	Is that clear?
+7766360	7768360	Let's say even if I do right
+7768520	7770520	Even if I do this way, let's say
+7770660	7772660	const
+7772920	7775080	Object let's say I have an object
+7776840	7778840	Also
+7779880	7782360	And I return something like result
+7784360	7788440	Let's say i'm returning result comma object
+7789800	7791160	Okay
+7791160	7797240	Of object now, let's say i'm trying to just manipulate it. I'll undo this one or whatever. I'm trying to do it
+7797800	7799800	Let's say object dot
+7800520	7804680	Like whenever you don't know the value like you can do array of i
+7806280	7808280	And you can say
+7810520	7812520	Square of this one
+7813640	7816040	Okay, now let's see what will be the output of it
+7819080	7823960	If you see what I got and the output object for the 2 the square value is 4 for the 3
+7824040	7827160	It is 9 for the 4 it is 16 5 25 6 36
+7827800	7832040	Do you get that even if I declare a const even if i'm manipulating it you can do that
+7835560	7837560	So for reference data types actually
+7837640	7838680	uh
+7838680	7841320	let const behave doesn't behave differently, but it's
+7842120	7844840	standard practice to declare constraint use
+7845320	7849320	Uh, I mean the standard practice is wherever you are it's possible to use
+7849800	7850840	uh
+7850840	7857000	Const you should go for it until unless there is you are not updating that value again. Don't go for let for the primitives
+7858120	7860120	Okay
+7860840	7863900	Uh, so can I mark this as answered uh some bit?
+7870520	7874600	Great, uh any any anything else because any other questions you have
+7875160	7877160	Okay
+7878040	7882860	So are you able to catch up guys whatever i'm teaching the concepts wise and everything
+7886040	7891320	Could be rest operator spread operator destructuring that we have discussed in depth a bit clearer way
+7893960	7895960	Right great
+7900760	7903240	Class 10 nodes
+7905480	7912440	Because my way of understanding logics is that right, uh, basically I try to think like
+7913080	7919320	Even if I call back, what is the call back in real terms? Like when I say call back or reducing it filtering it
+7920200	7923800	Mapping each item like i'm mapping it to particular thing. So
+7924820	7926820	generalized, right
+7928040	7934600	Any such like when you generalize exactly with uh, use cases like you deal in real time
+7934920	7938840	You will be able to relate and you know, remember it easily. So that's my idea
+7938920	7940920	So that's why I try to take those examples
+7942120	7945900	Also any such gaming revisions for this concept like flex froggy
+7948840	7952600	Some bit if you see, uh, I don't have
+7954600	7960920	Anything like uh practicing if you see i've shown you for each example for each higher order function
+7961560	7964840	I've written a for loop logic. I optimized and written a bit
+7964920	7967660	I'm not I didn't optimize time complexity or space complexity
+7968120	7974040	But I made it to write a cleaner code even I took a prefix some even if I give you a prefix some problem
+7974600	7979720	If you are writing in js, you are supposed to write a for loop, but you can use it to reduce function
+7980840	7982840	So this will come with a practice
+7983080	7987000	All the things that you do with a for loop you will try to avoid those for loops writing
+7987320	7990920	Because you know that on an array or sort of logic you have this higher order functions
+7990920	7993480	Which can do most of the concepts that you want to do
+7994920	8000120	Because this will come when you try to go for problem solving pick it up problem solving try to do it in js
+8000440	8002440	You will be able to see this one
+8003480	8008760	But there are nothing like specific, uh things that I found it as such, but I'll check and get back to you
+8009800	8015000	Okay, so it's more of a problem solving in js. You'll be able to select you're using this higher order functions
+8017000	8019000	Okay
+8022680	8026040	So guys if everything is clear can we close the session
+8028120	8030120	If you don't have doubts
+8034360	8039080	We ended it really quick right two hours 13 minutes or 14 minutes clocked
+8040920	8042920	Linked to practice, uh
+8043400	8045880	problem solving functional programming, uh
+8047720	8051260	Let's say let's say let's say I do I'll show you something guys. I'll show you something
+8055800	8057800	Do this thing go to the late code
+8059320	8062920	Right problems pick it anything you have
+8065000	8070840	I think I have solved some list of problems, but let's say you go for two some anything that you have
+8072680	8074680	Right, uh, that's fine
+8075240	8076440	Okay
+8076440	8083240	You pick it in js simple you can practice it here right anything you can do good anywhere like num sign target value
+8084840	8090540	You know, so whenever you are trying to calculate you will get to see if there's a target value available
+8095640	8100520	We can pick it up any uh function like if you go for javascript right abhishek or anyone
+8101400	8104440	You will be seeing a default as a functional programming language
+8104600	8108680	That's the reason why I was saying I was saying that hey js is a complete functional program
+8108760	8115880	You pick this problem or let's say you pick it like let's say I pick something like lru cache lru cache is something a complicated problem
+8115880	8117000	right
+8117000	8119000	As I pick a lru cache
+8124360	8126360	Okay, if you see in javascript
+8126920	8133400	They you they declared in functions and there are something like prototypes we'll declare we'll understand what prototypes are in future, but
+8134040	8136600	Everything is a function. You will see a function key
+8138040	8143800	Uh attached to it. So whenever you write down the logics to it, right you are supposed to use these functions more and more
+8146360	8152040	So you'll get used to it like how do you do it now lru cache you you you basically if you go for java
+8152040	8155960	Right, even I think I solved it in java itself if you go for my submissions
+8156840	8158840	uh
+8169080	8175800	Right, so i've solved in java, but where when you go for java, you will be able to see like, uh, you know a simple
+8176760	8179800	Class-based approach, but when you go for javascript, uh
+8180200	8182920	Uh, you will be again writing in this functions
+8182920	8188040	I didn't practice in javascript as much because I was a full stack developer. I also work in java
+8188760	8190760	and for more most of the
+8192760	8195400	Yeah, i'm talking to both guys I got confused
+8199400	8201880	But i'm just saying that if you want to practice, uh
+8204760	8208440	If you want to practice, okay, just go for any problem solving you'll be able to do it
+8209800	8211800	Okay
+8215560	8217560	Yeah, thank you maneshwara
+8218280	8223240	I I would I wish for taking all the classes even I love it because uh
+8224520	8229880	I get to learn when I teach also because I get to uh study in depth. I study
+8230600	8234680	With better examples. It's like a revision for me. Also i'm trying to explain people
+8235640	8237560	And also i'm trying to
+8237560	8239560	Okay road map sh
+8241480	8243480	Okay
+8243480	8248280	So it's it's a really great journey for me also when I thought of becoming an instructor
+8248760	8249800	so
+8249800	8254120	Even I'll miss it. But yeah family event one of the big thing. So this is a
+8255400	8257400	Link shared by ankit
+8257400	8263000	So he's talking about like roadmaps. Let me ping pin this one for everyone
+8264040	8266040	One can explore this
+8267000	8270680	I can do anything share it in whatsapp. I'll pin this in the whatsapp group also, okay
+8272680	8275560	You have whatsapp you are added in whatsapp group
+8278920	8282040	Uh share it there i'll pin there for anyone like if you see
+8283000	8285000	Let's say if I open role-based
+8285400	8286920	They have really
+8286920	8292600	Man, I believe one who want to you know increase their followers on instagram like linkedin
+8293240	8295960	They can use this site and they can keep on pasting roadmaps
+8297160	8299160	Every day one post
+8299240	8301400	Uh, it'll get good enough good amount of followers
+8305240	8310440	But yeah going going into this one or what we have learned till now, okay what we have learned till now
+8310440	8313960	Let's say we talked about front end right? Uh now
+8314440	8317640	Even if you think like what we have learned if you think in front front end
+8317960	8321960	We have covered this now. How does internet work? What is http domain name?
+8322840	8327720	dns server browser how they work we have covered most of the topics isn't it
+8329320	8333240	Hosting will learn when you deploy it when you go for build a project and deploy it
+8333720	8338600	Right and when you go for html, we learned basic. What is semantic html?
+8338680	8344120	We heard we learned form we didn't learn validation because we'll go learn validation only when
+8344760	8346280	We know javascript
+8346280	8348200	We are learning javascript
+8348200	8350520	Then accessibility i've shown you, uh
+8351160	8359000	SEO basics and accessibility while i'm trying to generate a report on a apple.com or youtube.com, but i'll discuss that in depth
+8360120	8366200	Yeah hosting, uh is uh, yeah, you might have hosted it anket, uh, but there's a different ways, right?
+8366280	8369160	How do you deploy front end back end and combination of them?
+8369640	8373800	Uh, maybe a simple static project or a dynamic project. There are too many things in hosting
+8373880	8375880	We'll see what all possible things are there
+8376600	8378040	and when you
+8378040	8382680	Come to css. We learned basics. We made our layouts. We made a responsive day designs
+8383320	8391240	And when it comes to javascript, we learned basics now dom manipulation shashut will cover then i'll build projects once we learn dom manipulation
+8391960	8399720	Fetch api will be introduced also and for git guys git, uh, those videos are added in archive section or not
+8400920	8404760	Has anyone seen in archive section does git link is added. Oh
+8404760	8406760	So
+8406840	8413880	Okay, uh, i'll i'll do that i'll check with the team again, uh, i've asked them two times to add it, okay
+8415480	8420680	So we'll do that and once it is added this part will be covered
+8421480	8423080	then
+8423080	8429160	Package managers, uh will be using npm package, uh node package manager, which is given by node.js
+8429800	8436760	We're already using it when we execute using node, then we'll pick a framework we'll pick a for surely I think we'll pick a react
+8437400	8438600	Okay
+8438600	8443740	We'll pick a react then we'll start writing css. So we learned, uh tailwind css
+8444680	8449480	Uh shared cnui is a great one, but we'll talk about this one later
+8449880	8455800	Uh, we'll pick up tailwind. We'll also build a project using tailwind here and then we will go for css architecture
+8455800	8460680	I've talked about bem. I've given you a you know article to read on bem. Did I
+8462200	8465960	When we discuss css, right? So go with that one
+8466520	8472040	Then css preprocessors, uh, i'll give you a high overview of what sas and post css are
+8472520	8478220	Like how they use it. This is actually a compilation like how do you use it? Uh preprocessors
+8479180	8480860	Uh
+8480860	8486380	This is from a deployment point of view like not from writing code, uh, but how do you write it in a better way?
+8487100	8490220	And build tools, uh will come to that step by step
+8491100	8494780	Because these are like, uh depth in depth like when you understand this one
+8496060	8498220	In testing, uh, we'll learn just
+8499100	8500780	We'll learn just
+8500780	8504140	Play write or strip press is out of scope. These are used for automation
+8504860	8506140	um
+8506140	8508780	Yeah, uh for bem article, right? Bem, uh
+8509580	8510620	Bem
+8510620	8512620	Let's say if you go for this one
+8513580	8515580	They have a particular bem
+8516220	8518220	Now you can practice this one
+8519580	8526300	Where uh, we will be learning testing i'll introduce testing uncle like how do you can you do testing and i'll give you the roadmaps?
+8526380	8530540	Like actually i'll give you more of a content where you can develop knowledge on it
+8531100	8537100	Uh, because if I complete this we are covering at most all of the things that you see in this road map
+8537740	8538780	Okay
+8538780	8543580	I'll if if i'm not going to teach you something i'll help you out with how can you learn and how can you
+8544140	8546140	Expand your knowledge on this
+8546940	8548060	Play write
+8548060	8551020	Yeah unit testing. Yeah testing as a unit testing, right?
+8551420	8555820	We'll use a just a package here if someone is uh familiar with java
+8556300	8559820	They might have used something like j unit, right?
+8560700	8562700	j unit testing, uh
+8563340	8566220	and for uh, uh like functional test
+8567720	8569500	functional
+8569500	8571500	test in spring
+8579980	8582240	Functional test, uh framework
+8590540	8592540	Okay
+8602060	8604060	J unit is fine, but
+8605500	8610700	There are other languages other I don't remember the exact one that we used it at paypal
+8611980	8615100	Mockito is there mockito is for mocking but
+8615100	8617100	But
+8617180	8622460	Yeah fun, uh, no no maven is different thing maven is a build tool so
+8623740	8629260	Seperous is used for automation testing guys like just in browser testing like you're not using it
+8629260	8633340	But you are making an application to run it like you'll try to write a test
+8634060	8638220	But you have to explore uh, even I at my office, right what I do
+8638700	8644400	I write seplus test. I write j unit test. I mean using just also develop code. I write the documentation
+8644720	8646720	So as a developer you have to do
+8647280	8652720	Six seven things when you get the complete ownership of a particular thing, right? You're supposed to do all of those things
+8653440	8654480	so
+8654480	8658900	Learning like you have to learn this all these things are up to an extent authentication
+8659520	8662660	We'll use jwt. I'll explain jwt completely
+8663360	8668000	In depth oauth is something i'll give you a documentation to understand oauth is
+8668960	8674240	Where you will learn like, you know login with google or gmail or anything, right?
+8674400	8676400	Yeah
+8677280	8682400	Yeah, full stack is actually completely bigger module guys to cover it, uh
+8683680	8684640	right
+8684640	8685840	so
+8685840	8689680	I don't think web components are needed typescripts are needed as of now
+8690240	8693360	Uh server-side rendering I can talk about it, but
+8694240	8698400	Um as you as you will grow right as you'll grow over the ladder
+8699280	8701120	um
+8701120	8704000	You're supposed to know most of this guys you're supposed to know most of this
+8704960	8710960	Because I see I use graph ql. I use server-side rendering initial page. I use typescript at office
+8711600	8718800	Right next.js is somewhere. We are uh exploring it, uh, because we use simple react and we have our own crackin framework
+8718880	8720880	But when xjs is we are in the uh
+8721680	8726980	We are piloting it using again. Does anyone have heard of this one? Uh module federation
+8729360	8731360	Someone experienced with react
+8731680	8734660	So someone came across this module federation
+8738400	8740400	Did anyone heard this earlier
+8742240	8743920	So
+8743920	8745280	uh
+8745280	8752880	I'll talk about this once we learned uh react right once I completely teach you remind me that time. What is module federation?
+8753520	8757680	Okay, how can you use this and what are the use cases when it comes across? Okay?
+8758400	8762560	I'll talk about this one later, but not to pick it up right now, okay
+8764560	8771200	Then yeah, see where I told you earlier right once you learn react and javascript you will be able to build application in react native
+8771440	8777040	Which is a mobile-based application and for desktop, uh, there's something like electron
+8777820	8782880	Electron.js that you can use for desktop web applications like you have flutter here
+8784160	8785600	right
+8785600	8790640	And even here, uh, if you see this is not completely things that we are going to learn
+8790720	8793840	But there are more than this what we are going to learn if we go for node.js
+8794560	8796960	I'll talk about node.js use history
+8797680	8802800	Then i'll talk about node.js versus browser. This is something we have already covered node.js versus browser
+8803520	8805520	Running code in node.js. We have covered
+8806080	8808080	I do it every day
+8808080	8808960	uh
+8808960	8814640	I'll talk about error handling using debugger. I just showed you debugging right? How can you do it in debugging here?
+8815440	8816400	then
+8816400	8822560	Handling async errors even all this thing mostly will cover everything guys mostly on top of level it will cover everything
+8822960	8825680	But if you want to go pick by pick by topic by topic
+8826080	8830480	Maybe some things we have we won't be covering it, but most of the things we'll be covering it
+8833360	8840000	Uh, we are going to build web projects since mobile apps are specific to react natives on with
+8840960	8844480	Our responsive websites, we are going to build a responsive websites
+8845200	8848400	But mobile apps are like native. It's up that
+8849040	8854880	That framework we have to use there are some changes once you learn react native react native would be really easy for you
+8855600	8858400	Okay, we'll learn mongoose document db
+8859120	8861600	Right. We won't be using a relational db
+8863200	8865200	And testing will use just
+8865920	8871440	Again cpress is common across them mocha is common across java and everything for mocking it
+8873200	8874560	Uh
+8874560	8879200	Someone can learn memory leaks right garbage collection these two topics in depth
+8880080	8881920	They're really great
+8881920	8887840	Will understand fs, uh file system, uh, like library will understand paths
+8888960	8890240	right
+8890240	8898000	We'll use uh, like someone want to build a command line application they can use this process, uh arcs commander.js like
+8898640	8902720	I've i've built one application guys if you want to explore right?
+8904880	8906980	Uh, I just built something
+8913120	8915120	Repositories
+8915840	8917840	Your repository
+8919280	8924400	I've used node.js one can explore this one. Uh, just i've did it last week itself
+8925920	8929280	Something called as uh cron parser
+8930240	8932240	I built a rest api
+8932880	8934880	Backend application using node.js
+8935680	8937680	only one api, uh
+8938480	8943440	I also gave you here exported collection, uh that you can use it in postman directly
+8944400	8948720	You can go here. You can see that it's an mvc structure. I have also added some test cases
+8948800	8953920	I've also gave you a documentation that you could clone this, uh npm install run it
+8954560	8958400	Run the test cases end points and everything. I've given everything like what it will does
+8960720	8965520	You can do anything that you want again like we can build it we can explore that how we can do
+8965520	8967520	So
+8969840	8973120	Keep on building projects because I do it myself you can also do it
+8974240	8976240	Yeah, yeah, you should do it
+8976960	8978960	Guys, can we close the session?
+8980640	8982640	I'll keep on talking
+8989280	8992080	Trading bot, uh, it would be tricky. Uh
+8996160	9002160	Okay, uh who will execute trades on my behalf, um, you know, uh other than that one ankit
+9002640	9005200	I'll tell you something like if you can build one thing
+9010160	9013600	It's just an interest some bit like you can do that now
+9014560	9018240	I'll be busy for next week. All else. I keep on doing this in learning point of
+9019200	9023200	Like let's say, uh web crawler someone did anyone?
+9026080	9029200	Explore this one anytime in future. What is web crawler?
+9030640	9031920	so
+9031920	9037520	Uh somebody if you want to build a uh a tool which will execute trades for you, right?
+9038400	9039360	but
+9039360	9041680	For executing trades, you will need information
+9042800	9046080	Like which stock to buy which stock to sell and when to buy when to sell
+9046880	9050580	You need information to need if you need that information
+9051380	9058100	Uh, you want to read maybe multiple business channels or news or anywhere something on internet, right?
+9060100	9064020	So if you want to consume let's say on six seven websites
+9064500	9072340	Or data, let's say if you want to understand buy signal, let's say there's an sell signal for hgfc or buy signal for hgfc
+9073380	9075380	If you want to collect the data
+9075540	9080580	From our different websites you have to build something like a web crawler or a sprider
+9081140	9086740	That will keep on reading that sites and will give you the filtered information that which to buy which to sell
+9087460	9090340	Let's say there are seven sites you are following in seven sites
+9090340	9096740	They say that six six sites says that buy hgfc today and one will say that one won't talk about hgfc
+9097220	9102820	So you'll get a clear idea that which one to actually do it. So you you should actually build a web crawler
+9103380	9107300	Uh to get the information rather than like someone who is executing it
+9108180	9111620	Okay. This is also a bot. Uh, you can explore in the images
+9113620	9118740	I mean I got this from my one of the senior director who had built a web crawler
+9119460	9121620	He does too much of trading
+9122100	9124100	so
+9124180	9126180	Like
+9126340	9128900	He doesn't share the code actually but uh
+9129220	9133780	Uh, but really insightful if you go and sit with those genius people, right?
+9135700	9138900	They can explore web crawler. How does it work and how do how can you build it?
+9142340	9149460	Okay, like web crawler url data url list and you can request an htm like you can do this process engine
+9150660	9152660	Yeah
+9153380	9156260	If you if you know, uh web crawlers are like
+9157220	9162740	Uh products on web crawler like if you if you can build a
+9163460	9166180	Uh, like if you want to build a business out of it, let's say
+9167780	9170740	If you want to build a business out of it, how can you do it?
+9172100	9176180	Uh, like if you have it, uh, let's say you could go you are the person who want to suggest
+9176500	9178980	Someone to buy someone to sell you can explore this one
+9179140	9184740	Like data extraction to like this is a data extraction to create webcaller like you pull the data out of it
+9185220	9187220	Now they are also selling this information
+9187700	9188500	see
+9188500	9194980	Crawl and extract data from any website any language any script any location even location sensitive websites
+9194980	9196980	They found a way to go into that website
+9197700	9203540	Complex navigation structure complex javascript menu or pagination improvement bypass any bot protection
+9204260	9210660	Bypass any bot protection these people are saying that we will spy data for you
+9212500	9220020	Imagine if you can spy anyone's mobile like uh, there was something like uh, you know, if you remember, uh
+9221380	9228180	That opposition of india had raised the clause that their mobiles has been spied, right?
+9229940	9232580	Uh, their mobile has been spied and uh
+9233220	9234980	uh
+9234980	9238280	Pegasus pegasus right pegasus. Did you heard this word pegasus?
+9242020	9246820	You know, they use something software called pegasus installed in everyone's mobile and uh,
+9247780	9251060	Uh, they were trying to read the data now
+9251860	9253540	What pegasus does?
+9253540	9255860	Pegasus goes and sits on everyone's mobile
+9255860	9263780	Mobile sits on everyone's mobile and it's crawling the data. Generally, it's reading the data whatever they are doing
+9263780	9265780	It's so pegasus in a way
+9266340	9267620	Is something
+9267620	9271620	Uh web web crawler instead of web scrawler. It's an app mobile scrawler
+9272340	9275300	So you can build those but you have to have
+9276420	9280100	Is it not something it's a crime. That's why they shout it, right?
+9280100	9281620	Okay
+9281620	9286980	Yeah, yeah people does it know can I get password people does it but once you are caught you are inside the bar?
+9291300	9293860	You can uh cannot you cannot go into
+9295140	9297380	Uh, you know privacy privacy issues
+9297940	9301860	Uh, like someone private a mobile is a private device, but you can go
+9302660	9307060	You should understand norms like if you are even reading a data from some websites, right?
+9307460	9312740	You should know that whether those websites are does not have any rules which are protecting their data
+9314180	9316740	Let's say you go for get uh geek for geeks
+9317940	9319060	uh
+9319060	9325140	Now if I go for geeks for geeks and I read the post from it and I write a linkedin post on it
+9325860	9329460	They won't uh, uh claim rights, right for that one
+9330020	9334660	That hey you copied content from me you will I'll file a case against you or suit against you
+9335620	9341860	If if they are doing those sort of things then you shouldn't go for their uh part while reading the content
+9342420	9347380	So pegasus is not legal but company pays it because they do it without people knowing it
+9348020	9352340	And they do it on something like an iphone which says that uh, you know protected device
+9356980	9362180	You can do anything man if you have a list of learning right learning and exploring things and time
+9363060	9365060	Time is a main factor
+9365380	9366740	uh
+9366740	9368020	I would say
+9368020	9373380	You know focus on one path and be good at that one. You can do many things many many things you can do
+9373940	9374820	but
+9374820	9376820	focus on one part where you can
+9377300	9379300	uh
+9379860	9386100	Yeah, job is killing me. I agree. Okay, like that's that's that's uh, that's an issue, right you focus on one part and
+9387220	9391060	Explore that go into depth understand it. You will do amazing jobs
+9392500	9393700	right
+9393700	9394900	but
+9394900	9400900	If you keep on picking multiple 10 15 items, right you won't be learning one thing in depth and you will not be
+9402100	9405860	Sure about anything I can talk about any topic, but if you ask me
+9407460	9409460	What i'm good at
+9409460	9411460	so i'll say that hey i'm
+9412900	9416500	Good at what i'm teaching for sure and in depth like
+9417540	9420820	But after me if I if I go into complete depth, right?
+9421380	9426180	Even for a whole month stack i've told you when I went through that path, right?
+9426260	9429220	I've seen like hey, I know this I know that I can teach this I'll teach that
+9429460	9433300	This is something we have already covered. This is something we'll pick it up in future
+9434180	9439860	So as soon as you focus as you focus on one thing on on you will be covering all those things
+9440100	9442100	So don't divert yourself
+9443060	9448740	Only once you have time enough time once you make good amount of money, then you can focus on 10 15 items if you have
+9449700	9451700	So just think of anything in that way
+9454100	9457220	So, okay, then i'll drop for today
+9458820	9464100	Hope to see you next saturday then have fun. Good night guys. Take care
+9466180	9473220	Keep learning keep solving assignments. Okay. So guys good night. Bye. Bye. Thanks. Thanks
+9478740	9480980	You

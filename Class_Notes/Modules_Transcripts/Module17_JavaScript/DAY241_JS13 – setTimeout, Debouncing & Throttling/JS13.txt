@@ -1,0 +1,1345 @@
+hi all good evening guys can you give me some quick thumbs up if I'm audible and visible
+okay great let me share my screen
+do let me know if you can see the screen share too
+seems to be my network is slow today
+anyways we'll just speed test
+it's very less isn't it
+no worries if there's any connection issues we'll change the network
+but guys how you doing how's your weekend going on do we have Kiran with us
+yeah Kiran your suggestions great great I've seen you some comments in whatsapp
+group so just wanted to understand your last message do you mind if I unmute you
+and we can discuss over here or you want to take it up in the doubt session I'm
+okay with that and thanks so much for answering questions too yeah okay I think
+somebody has already answered that question yeah any approach like you can
+have you know any number of fixes that you can deal with so even when you you
+have to recheck only only one thing like is it is it easy to go and you know
+play around with CSS updating it or removing it and adding into the term so
+whichever is a costly operation you have to avoid that one and play around with
+those things but those are really minute at their level so anything works Kiran
+as far as you are understanding in the class we have already discussed that we
+can deal with like display block and none or display flex for the for because
+we were using flex there okay do you want me to unmute okay let me do that
+yeah please go ahead again guys I'm not able to listen if anyone is able to
+listen let me know if you're speaking yes I can hear you can yeah so when I
+saw that lecture actually I wasn't attending that so I watched the
+recording recording I saw that we were trying some different thing like array
+making an array then deleting it then recreating it so that was okay but when
+we use that for local storage also no then we have to always take care of that
+deleting and recreating so that when we are updating the local storage it is up
+to date till then so I thought that array would be better if we only use for
+local storage and that filtering part will be only just CSS I mean that's what
+I think but I don't know what consequences it may have later if there
+is a bigger project or some bigger application so I just wanted to know
+your views on that yeah so if you see right whenever I'm filtering things
+logic I never I didn't play around with the local storage here I was just you
+know removing the tickets and recreating whatever needed so when it comes to
+filtering logic because you don't really need to apply on local storage like we
+don't have any other extra parameter like an object whether to show on screen
+or not to show on screen there's no differentiator there if you want to play
+if you want to store anything in local storage that way then whenever you are
+pushing each and every event into local storage you also have to say that is
+this current task is shown on screen or not sure because you again you need a
+new variable right so here I'm just using the array two loops one is filter
+one is just trying to go for for each and create it yeah I mean whenever we
+are trying to create that was a that was I didn't do still that local storage
+part but what my idea was that whenever I'll be creating a ticket at that time
+I'll put it in this local storage that array and deleting it accordingly so
+there will be only two functions which will be interacting with that array so
+there will be no other any interactions so will that work it should be working
+like there I don't see any challenge like whether the party you said that
+whenever we are creating local storage updating we need to check that
+currently what are the tickets there so we will be needing an extra variable for
+that which that same main content main ticket container we have to recreate
+that I mean we initialize that in that function itself but do you know this
+like you won't be able to get all the tickets out of local storage and iterate
+over it like you have three functions get a set and you know remove so there
+is nothing like iteration if you need if you want to go through check locus
+was I get and they've get everything out of it but that will be in my just I mean
+I rewrite okay yeah I think I think I'm just missing a plot maybe you can
+implement and share it with me like maybe we can have a discussion on that
+Kiran works okay okay I haven't implemented the local storage part I'll
+do that and share in the next session yeah sure works thank you thank you yeah
+thank you so I'm muting your back it was Kiran do implement it and let us know
+maybe we'll see your implementation and figure out whether it's right approach
+to this or that will come to that point we'll discuss like why we need to go
+follow one approach or other it would be a great learning for each and every one
+for us okay no and thank you so much for taking those questions are a highly
+appreciated okay so guys I hope we have good amount of people join the class
+today so we'll get started I see we don't need to put any message in the
+chat also and thank you all for joining without any messages and for being on
+time I'll share my iPad give me a second
+guys how many of you enjoyed machine coding problems like the problems we did
+all the real-time use cases right maybe a loader maybe in a comment section and
+I've also shared in last class I pinned two URLs one was related to you know
+many challenges or you can say LLD equations of sample a list of LLD
+equations that you can practice other than this thing whatever we have done
+it in class and also along with that I've also shared you know JS interview
+to get up like you know link where you can go through all the JavaScript
+interview questions right I hope you find them I'll add it them in the repo
+also for reference so do you keep on like whenever you have bandwidth keep
+revising them because I want everything to be present in repo I'll try to do
+that okay great so nice and there's a so today's class is mostly like we'll start
+with something called as on a top level I won't go into this keyword completely
+because we have three classes specifically for understanding this
+keyword in depth okay but today we'll understand on a top level like a
+different meaning for a sink and we'll try to explore that but other than that
+thing right so the few important topics that we have to discuss is set timeout
+so and then we'll understand something called as debouncing and there will
+understand trottling and there are two keywords that are specifically used in
+HTML whenever you link new scripts right when I say scripts it can be JS or CSS
+file or any other file whenever you link a script into the HTML you will be
+finding there is something like async or defer keyword added to them so we'll
+understand these two keywords okay so this is going to the context today and
+these are like really important for interview specific also from theory and
+trying to understand it because this this these two solutions are applied to
+many of the LED questions I mean the concepts will be applied for them okay
+so we'll explore them I'll try to keep it as simple I'll pick really simple
+examples as much as can be so that we are sure that we grab the concept of it
+and then we'll move on before that I just want to know how many of you
+understand know what sent interval does we have discussed this in last class but
+I just want to know what set interval does are you clear with this point what
+set interval does I see one thumbs up okay frequency of execution okay can I
+say this way that set interval is an higher order function which executes a
+callback function after every interval and every interval is the second
+parameter that it takes and this this is interval time right can I say it this
+way guys like what the set interval does no let me so you know the other set
+time set interval and set timeout are a browser API actually browser provided
+higher order functions they are providing for us and you can view you
+will be able to access like if you go right into any browser you go into the
+console and try to do window dot like set timeout you'll be able to see it's
+part of a window object or else you can also access like directly set timeout
+because everything out of the global object you can access directly okay this
+is something that its implementation behind the scenes implementation you
+can always see like what is the implementation of set timeout okay so
+these are the two things provided by browser so we'll explore today what does
+set timeout does now as we know that we have one is for interval which will
+execute like after each and every interval at each and every interval
+whereas set timeout is an again a higher order function which executes a
+callback function after this timestamp or let's say you can say this is the
+delay here we say that once you trigger any function this particular function
+higher order function it will call this callback function after some time did
+you understand this difference calling once and calling after every interval
+the basic difference on top level let's say this is also five thousand when we
+say five thousand five seconds now if this is a timeline let's say zero
+timeline then you have five seconds then you have ten seconds then you have 15
+seconds now just let me know if I execute set interval how many calls I
+will be making it here when I use site interval if this is the time let's say
+we have this 15 seconds right firstly at here then you'll have second then you'll
+have third right I hope you understand when it comes to set timeout when it
+comes to set timeout
+so here even though we have all the timelines 0 5 10 15 it will execute only
+once after the delay of 5 seconds I hope on like your definition of set timeout
+and interval is clear this is clear we'll try to go and see some of the use
+cases examples like just hands on right let's say I create a class 20 I call
+this as set timeout dot HTML and let's say firstly we'll try to actually I
+wanted to do some animation logic I'll try to show like how that is how it's
+different you know what is the difference between this let's say I have
+a H1 tag I can say set timeout and set interval okay then I can say that let's
+say I'm having a container div inside that I say I'm the dev and let's say I
+have a button which is stop the animations okay nothing much interesting
+guys here till now let's say copy this whatever is there inside I copied as a
+document title and let's say I have a style sheets for this one and I just
+have a div tag inside that I'll select a particular height and width let's say
+height to be 100 pixel and width to be 100 pixel and let's say background color
+to be tomato let's say we have this and let's make this as 50-50 as of now and
+we'll render this one once open with live server no let me go here in the
+browser let me open this one now so what I'll try to do is that if you I'll show
+it for two differences specific differences let me get an access to this
+element firstly here I'll add a script tag inside this const let's say div
+document dot query selector let's say I can directly call it as a div since I am
+not using any CSS classes and we have only one div here and let's I also say
+that button document dot query selector button fine once we have this div now by
+default what I want to do is let's say if I use set interval now inside set
+interval I'll write some logic but let's say I do it at every two seconds okay
+firstly I'll try to output console dot log from set interval and what I'll do
+it here is that I'll get an access to this I'll use this div and I'll play
+around with its width okay now how can I do it I can just say that div dot let's
+say I say the current width how do I can get the width guys do you remember
+do you remember how we can get the width that is for up let's say let's say that
+let's move this move it here and put a debugger I'll have it here I'll refresh
+it once I have it here let's say dev dot style dot width not getting anything as
+of now if I want to get width what could be the better thing once I have this
+div can I go to class list I don't have classes applied think of it this one
+guys how can we access the width because we applied here we didn't have CSS like
+the CSS that is applied directly is on to the item level container right rather
+than a CSS class like you can explore this one here once you go inside the
+body you have it here you see it here background color has been added to this
+step okay let's say okay but we haven't added any event here we don't have any
+target element okay let's say some chase like dev dot get attribute now what
+attribute you want to get it because I don't have any attribute added here on
+this step we don't have any attribute okay so let's let me let me do this
+thing let us go back and add a one CSS class called dev and let's say if you
+are able to make it instead of dev let's say container adding it as a
+container no once I do this I go to sources I try to remove this debugger
+refresh it once I have here I'll say that dev dot style dot let's see if I
+still getting it I'm still not getting it again going back a dev dot class list
+dot okay once I get an access to this container I can only get the class but
+how can I get the value anyone can anyone think of it any idea how we can
+get the current width can anyone think of it
+okay let's say I said a dev dot get attribute if I do get attribute let's
+say okay dev dot get attribute now inside this what should I pass I should
+pass container sorry I should pass class I got the still you know the values
+container but I didn't get any CSS values okay I leave it to you guys
+explore this one so for now what I'm going to do is like when I'm going for
+this interval okay what I'll declare here is that let's say I have a one
+width let's say I say this is a 50 pixel okay okay once I have this I'll get that
+dev dot style dot width okay I'll try to make it each time whatever width I have
+it let's say I remove this one what I do is that I'll multiply two into the
+current width plus I'll add pixels also I'll update this width I should be doing
+after updating it
+okay now the animation that I wanted to show you it was like just let's say if
+this is working fine do you see this after each and every
+interval this width is getting automatically added I mean even if I
+refresh it this like looks like again a loader right now but if you want to
+stop this if you want to stop this you know like whatever is playing behind
+the scenes what if we want to stop this how we can stop this case last class we
+learned it like how we can stop the interval let's say I can say store it
+in a here okay what I can say is that if if width is greater than let's say each
+time it's multiplying let's say I say that 500 then I can say that clear
+interval I can pass intervals here okay so this event how many times should it
+execute
+think of this thing is how many times it should execute currently we have till
+width is less than 500 we started with 50 at 50 width so it multiplied it became
+100 100 become 200 200 became 400 only three times right now let's see if this
+is okay let me refresh now once twice three okay four times now why did it
+happen four times because it fourth time it it came till here then it
+verified a condition and once condition was satisfied it cleared its interval
+right so I hope this set interval logic do you understand how does it work okay
+now then there is another way that if you want to stop let's say using I have
+a button now okay when I click someone clicks a button add event listener now
+let's say I have this one of the ways to clear interval is like once whenever
+someone is clicking a button I'll say that clear interval interval okay so
+what if I come stop this now if you see it's continuously progressing but once
+I click this it will stop so like I just I just wanted to give you some more
+hands-on like how this thing works now I'm going to replace this logic with set
+timeout right just I hope you understand this animation like interval and no
+difference between that let's say I copy this thing I copy this thing and I say
+that this is timeout okay I use this instead of clear interval I can use
+clear timeout and I can I have to update this as a variable this one and I can
+remove this I can I can say that directly apply width of since it will
+execute only once let's say a 400 pixel okay now let's see if this is working
+okay okay this thing is still executing so let me stop this refreshing it it
+happens only once it updates only once okay so this is just an overview of this
+thing guys how do you actually use it and what can be the one of the use case
+where you want to play with on its set timeout on interval I hope this is we
+were anyways clear with the theory part I just wanted to show in real-time how
+can you use this clear interval and clear timeout events also is this clear
+one final check if this is clear will go with the debounce concept great so let's
+start with something called as debounce
+so then there is a one of the you know famous question how many of you have
+know that what is type ahead what how many of you know this keyword something
+called as type ahead
+or let's say auto suggest
+this is one of the famous high-level HLD interview questions you will be
+learning this one in HLD curriculum but you know there's a concept so this HLD
+curriculum whatever we'll be covering was let's say behind the scenes in the
+back end so we have to handle some use cases in the front end too so we'll
+cover today here one of the example where we leverage something called as
+debouncing concept this might be something like sounding like a crazy
+what I'm talking about but if I'll take you to the one of the famous websites
+like Flipkart and I'll show you not exactly trice yeah trice is a behind-the-scenes
+algorithm how do you search it and get it but I'm talking in terms of front end
+let's say if I go here and if you see when I say auto suggest or something
+like even if I go for Google search right Google search let's say I come
+here now if you go and see right each time the search is like when I click it
+I'm loaded with few of the suggestions already now where these are suggestions
+coming from like if you see these suggestions what what what is the
+solution this thing is they are they are applying if you go and see in this
+site local storage now if you see it here it is google.com they should be
+having this data stored here
+okay these are not these are static G static but it should be there in local
+storage itself maybe I
+not sure why this is not expanding let me try to get the value no let's look at
+this one whatever Google search is doing it's
+preloading with the some suggestions right Arjun they spoil a bubonic flag or
+organ happy Valentine's day wishes course so these are the top most
+searched content like KL University Vijayawada, IITJ events results, Jordan Poole,
+Swiss Parentals right, Modi UAE visit so these are the most searched content so
+what Google is doing like instead of you typing it down it filters out right
+let's say once I do this it is giving me some suggestions on
+base of that right so these are the pre loaded you'll understand why this thing
+works this way but my point of question here is that let's say I've come to this
+one of the website flipkart which you might have used in day-to-day life more
+and now if I search something let's say a mobile okay let's say search mobile I
+just wanted to look at this particular you know API calls which are triggering
+for the auto suggest no I filter here auto suggest okay let's say auto suggest
+no this has triggered so many calls now let's say what is the keyword exactly
+being sent in the payload if you see first it sent for M then it's sent for
+mobile which I you know corrected back it went for a movie it went for movie it
+went for mobile like do you see like one of the thing is that even if I type down
+bigger keywords let's say I remove this one okay
+let me clean it up let me just select something big big item guys let's say
+washing machine no I typed on such a big thing here and I let's say if you see
+how many API calls being made for the suggestions whatever you see it in the
+drop down there are only two two API calls been done one is like with W one
+is done with washing machine whole thing so do you see this like this is
+something where deep on sink comes such that whenever you keep on because this
+is an input element right do you agree that this is an input element and there
+might be some event listener added to this one and this event listener is
+always looking for something like key up once user lifted once user lift any
+particular key once you press it like I click W the key is up API call should be
+made once I type a key is press keys up again and another API call should be
+made okay so if you see for each letter from the logical point of view if you
+think from behind the scenes there should have been more than 20 25 API
+calls right triggering because we are listening to each and each and every
+keyword you know so the what they are doing is they're trying to reduce the
+amount of API calls so this is where the optimization comes in like how do you
+optimize the amount of API calls you are making when user is trying to do
+search something right so feel will figure it out like does it assume the
+interval or anything but let's create that problem first okay whatever problem
+I talked about like on each keyword you should be able to make an end goal then
+we'll figure out from end calls to reduce the amount of course now let's go
+to the code first let's build this step by step I'll use something like simple
+def I'll say that search okay then let's let me convert this into a label okay
+inside this I'll also have an input element and since it's a let's say I
+also give a placeholder search here and let's say I go to CSS I add some CSS to
+this one just like giving a diff again let me open this on the right side just
+trying to build a box a basic CSS display flex align items center justify
+center see whatever there's a gap gap of five pixels across then once we have
+this which I also have a border of five pixel solid black lavender let's say we
+have this also I add some padding to it of 20 pixel okay now once I have this
+let's say if you also have something border radius like 8 pixel now once we
+have this let's say also I give some margin around it let's say margin would
+be 20% of the screen so that I move items into the center nothing much
+interesting is how basic thing that we used to do but what I'll do it here is
+that I'll go with the usual flow that we can write it out so let's say I have
+this const input I'll try to get an access to this input element document
+dot query selector once I have this now since I'll let's say I give an input
+directly and I'll add a listener to this one input dot add event listener and
+something we are looking for is key up once user lifts the key okay or key up
+is something deprecated so let's say we say the key down once user is entering
+something as soon as that will call something okay now let's say since it
+takes us some you know callback function let's say make an API call now
+this function let's say console dot log says that making an API call so we are
+actually not firing it up but we are trying to see that behavior that's I
+provide this callback function here okay now let's go back launch this in
+exact browser that we have open with live server can we console log target
+also yeah we can do that target what value so that you will be able to see
+that for each thing that we are trying to output I'll do that let's say I have
+event console dot log event dot target dot value okay now once I come here I'll
+try to launch this one now let's go to console now if you see it here if I type
+let's say if I type some bits name S A M B I T do you see that for each keyword
+we are making N calls like whatever however things however however the
+items we are typing it down those in my number of API calls has been triggered
+now is this a performance issue or not first let me know if whether this is a
+problem or not in real time if you implement let's say you are a front-end
+developer and you are given a backend API that hey once you give this keyword
+we'll search and we'll give you some list of suggestions that you have to
+show it in the drop-down in search field okay but if you keep on making API each
+time user clicks first API takes some time to load that data and give you back
+and there will be N number of calls you might be triggering in the network
+which is like using so many resources behind the scenes right and it's like
+we have to limit the number of API calls right that's our basic idea any idea any
+ideas guys like how we can you know stop this from happening from the current
+knowledge we have in the current knowledge we have any idea like or else
+let's think of from basic point right when we should make an API call actually
+when we should make an API call once user stop typing should we make an API
+call or after user keep typing we should make an API call what could be the right
+way of making an API call in search
+when user stop typing when a full meaning like okay so some bit says that
+time interval of five seconds after key up something like that once user stopped
+okay so this basic idea is clear right now what we are saying is that on top
+level from this problem statement that we are making N calls here so once user
+is like he's a typing typing typing typing now once he stops will calculate
+some of interval of time and once even in that interval if you didn't type it
+anything will trigger with whatever event value is right let's say he's
+typing typing typing typing continuously typed and then he stopped and will
+start once he stops will load that interval time and once this interval is
+expired will make an API call only once so if we're typing four five keyword four
+five keywords are hardly let's say he's typing five words like automatic washing
+machine
+now depending on users right ability how fast they are on keyboard or how fast
+how slow they are so we have to adjust the interval such a way that it should
+allow the user to type it everything and we optimize it so it's our call that how
+we tune this interval the time okay now let's see like how we can implement this
+one will go step by step okay let's say I I write one higher order function okay
+I write an higher function calling it as debounce function call okay function
+API call let's say we call this one this name maybe not a right way but let's say
+this takes a function let's say I cannot say this keyword and then also you have
+some delay okay once you have this once you have this what you will do is that
+let's say you try to execute you try to execute this one such that you have a
+set timeout you call this function you execute this function after that delay
+of 3,000 seconds let's say three we are tuning it to the two seconds once user
+stop after two seconds we'll make an API call now what I'll do it here is that
+I'll instead of calling a make API call I'll call something like debounce
+function API call inside that I'll pass make API call and I'll also pass the
+delay of let's say 2,000 seconds okay and accept the delay here no so this is
+what we can think of like we want to once user stops typing if we want to
+make an API call after that delay is expired so some some one of the best
+function to use a set timeout isn't it like we have to call only once and only
+after the delay is expired that logic is clicking you guys because you have
+suggested me that we have to make only after user stops typing
+let's see if this is working fine or not first okay let's see if this is working
+fine or not now once I go back and let's say I typed on everything okay let's let
+me try to type down here still I'll try to type Kiran's name now let's say I
+typed on Kiran name okay let me see this has broke or what's wrong with this
+let's say I'm calling okay I shouldn't have called this function I should just
+only pass a function because it's a callback function that executes my word
+now let me go here and try to type down Kiran let me see if this is working
+fine okay I don't see API call coming here did I mess up anything here let me
+check okay it's it's working fine now let's say comment this for now like
+since just say let me comment this thing for now or let's say I add this thing
+itself no optional training they shouldn't create an issue now I make
+something like call some bit it's not calling that function again again is it
+not passing parameter for API okay just a second
+zero says that not passing parameter to API function no it shouldn't create a
+problem that way like we should be able to access this even then and I'm just
+thinking like let's say each time we are passing an API call we are making a
+callback function here building it now what what's the difference would be like
+if I pull it up and paste it here it should be anyways executing that one
+right so in line number 36 I didn't get your point this not passing parameter to
+API function this one event you want to say this event is it that shouldn't be
+a problem but let's see if the way this is this isn't working to repartee if I
+typed on even repartee now each time this listener is clicking let's say just
+nothing is working as of now let's say if I try to refresh it okay maybe this
+particular line might be creating an issue because I'm getting an undefined
+check let's I make this simple fix now once I typed on even then no API call is
+being made or nothing is executing it here okay let me refresh it what could
+be the issue here once I have this listener it goes here I have received a
+make API call function which is which is just a callback function that we should
+execute and when I'm passing the delay no right now each time I am typing this
+something keyword this listener should listen to it isn't it this listener
+should listen to it like a key down event let me refresh this one I am not
+exactly sure what's wrong here basic code writer basic lines of code now
+let's say I pull it up this one I keep it below only not to be actually should
+be on top itself but is anyone able to think what can be the mistake here any
+idea
+okay let me do one thing I'm not trying able to replicate which I didn't save
+this code I again saved it but each firstly it adds a listener that's a
+key down listener that's great and this we are the same thing we have called it
+and it's taking two things now it passes the expected delay initially it executes
+that one then if I type down why this event is not triggering
+this is odd
+so I say
+key down event accepts API as a param but you're calling API just a second I'll
+try to understand your point here maybe we need to return the timeout function
+let's say that okay let's say I try to return this okay what if we I try to
+return it add event listener event target parameters is not type one object
+this is fine event is not getting passed to the debounce as param not to call
+API function let's say guys I have a piece of code let's see that and
+implement this one if it is working fine okay I let's say this is something that
+I have written an old class let's say this is an function a callback function
+that I have again I do this same logic let's say if I replace here input with
+this logic I use it right here okay then I also have something like this function
+which I don't want to use it here let's say comment this particular thing and I
+also particular this one now let's say instead of this thing returning what if
+I return directly as you say return set timeout a function and delay okay I hope
+this thing works now still I get an error now I see that number of API calls
+are made zero okay let's say I call it inside this one whatever function is
+being returned let's say this function is being returned and it's a remove this
+timer okay let's understand this thing why did I mess it up here firstly try
+chat GPT got it this anyways firstly let's see this why this was not working
+earlier so hmm basic mistake so so if you see this this is an higher-order
+function where we passed and function and it in order to execute any callback
+function like it will be where we should have been returning a function rather
+than executing this one somehow but I I'll get back to this logic why this is
+working now why not later but let's come back and try to see this one okay that
+if you see it again if I typed on each and everything now let's see if I'm able
+to access the event also in this function that I have event I try to make
+a console log so dot log of even dot target dot value
+now let's say I type down some bits okay I am NOT able to get that target value
+here or event is not being passed that that something will fix it but let's
+say I try to remove it as of now but on a top level I again coming back to this
+thing guys whatever I messed up in last ever it's let's figure out that one
+later but if you see if I type down a list of six keywords I'm still making
+the six API calls now one of the way to you know optimize this call optimize this
+one is that pretty straightforward and simple is that what we'll do here is
+that we'll use something logic like clear timeout implementation let's say
+if I comment this thing remove this thing out and I store it here in a timer
+now let's understand firstly at what's happening here line by line if you see
+let me write down I in the iPad and try to show what is exactly being done here
+so firstly the function that we are returning is having a clear timeout
+and we are removing something called as timer okay and we are storing inside
+this timer like actual value like this set timeout where we are calling this
+callback and with the delay right this is something we are doing it as of now
+but let's see how we will be able to apply this first let's understand how
+does set timeout works because if you go and see JS files right if you see JS
+files what type of language we can call it as JS okay showing browser sorry
+guys I again maybe right I hope you are able to see this this function whatever
+I have written and okay now now think of JS guys what type of language is that
+JS is it single threaded or multi-threaded is it single threaded okay
+how many of you say that it's single threaded give me thumbs up for single
+threaded and give me thumbs down for multi-threaded or let me know like if
+you do you understand what is single thread versus multi-thread I hope you
+understand the difference between these two things no idea what threads okay
+good no worries now have you watched movie Shivaji Rajnikanth movie now once
+he become a don he signs with both the hands right all the documents which are
+admission letters for the students he signs with both the hands do you
+remember like at same time he's you know doing multi-processing like multiple
+things so what what happens in single threaded language is something it focus
+on only one thing at a time when it comes to multi-threading it has ability
+to focus on multiple things okay to do simultaneously do you understand this
+parallel no parallel word like parallely I can do multiple things now when it
+comes to single it's like only one thing at a time I hope you got the basic
+difference what is single threaded and versus multi-threaded you know if you
+know even for the multi-threading languages you can spawn you can spawn
+when I say spawn I mean to say that you can create like how many threads you
+want that many that you can create in an application when it when you go for
+something language like go or C++ or Java they have ability to you know
+multitask and you can create like good amount of threads depending upon your
+hardware setup how much CPU you have how much but there again even if you go in
+depth you will see something like there is a locking mechanism how would you
+handle all those things but not a point of concern as of now JS is something is
+JS is single threaded language when I say this now single threaded language I
+hope you are able to understand that JavaScript does only one thing at a
+time if I'm eating food I'll only eat food if I'm writing something I'll do
+only something one thing if I'm right reading one part one line of code I'll
+read only that line of code I won't be able to read other lines of code is this
+clear what JS is now also along with single threaded we also say that it is
+synchronous you also say that this is synchronous single threaded language I
+added a key another keyword guys now think of it what you can say that
+synchronous when I say something like in sync like I'm actually in sync when I
+say that generally is that you know again synchronous single threaded are
+like both the both are talking about same thing but when it comes to think
+like one did they are just talking about both things are like one thing at a time
+and when I say synchronous is basically that let's say it's executing a piece of
+line it will keep on executing that line once only if this is executed it will
+go to next slide and it in JS something pass execution happens from top to down
+that we already know isn't it so I hope all this discussion is clear till now
+whatever we did about JS language now let's understand what set timeout is
+doing or anything we know that earlier we talked about something like happening
+in JS let's say your JS code is being passed passed passed and suddenly you
+found set timeout and let's say there's a callback function and you have a delay
+of three thousand seconds or three thousand milliseconds now once you see
+this one and there is a call stack all the things are getting executed and
+there is suddenly set timeout now tell me what should actually happen now all
+the execution should stop right below code execution stop till this three
+thousand seconds are elapsed and this thing is executed nothing should be
+working in application right from the definition of JavaScript how many of
+you are agreeing with this point like there shouldn't be anything executed
+until this three seconds are elapsed and this callback function is executed
+right but is this actually happening is that easily is it actually happening what
+if I go with set interval imagine set interval like let's say set interval I
+say that every five thousand seconds well it executes after five thousand
+seconds and it should be keep on executing this piece of code itself it
+should not execute the other lines of code right below logics so this would be
+a bottleneck for an application isn't it if this is what actually how JS works
+right if if like if if you're reading from top to down and you can do only one
+thing at a time and if you got stuck here and you're not able to move ahead
+then all the other functionalities of your application will be stop right okay
+so guys what I was talking about is that firstly is this keyword is clear to you
+is this clear keyword clear to you think of a single-threaded language no let's
+say you have a piece of code top to down you are keep on reading and in
+suddenly you have set time out and there is a callback function and you have
+delay and you also have a below some piece of code and when you are
+executing when this code is getting excluded in call stack line by line in
+execution context okay now all these lines are executed now when when you
+encounter this particular line in call stack now since this says that one thing
+at a time and in a synchronous way it's a single thread it should be waiting for
+this delay to expire and then call execute this callback function creating a
+sub execution context only then it should be able to execute below files
+isn't it this is what our understanding should be with respect to but what I'm
+asking that is it happening that way when you go for something like set
+interval instead of let's say set timeout what if there has been set
+interval if you had something like set interval and you have a callback
+function and let's say you have interval time given now because this is
+should be executed once on one time after the other till you clear this
+interval the execution will be struck right I mean your application will hang
+there isn't it but we are seeing something is that application is working
+fine application is working fine somehow so what's actually happening in behind
+the scenes right so now all this higher-order functions like set timeout
+okay or set interval or are your API calls whichever are like time taking in
+nature okay whichever are time taking in nature which let's say it's it might not
+be executed right moment but it takes some time so what happens is that
+whenever this call stack encounters this use cases right what it does it it takes
+out from the call stack put it in some sort of queue let's say timeout one say
+interval one say API call one and it stores in the queue only when let's say
+when this timeout is expired when I mean say when a deal is expired what it does
+is it put backs into the call stack to execute it and when it only when it
+would be only able to put is that when this call stack is empty and there is
+nothing being executed that moment only then this timeout function water will be
+put back and the callback function will be executed similar way once this
+interval is like put back it will see that it will call that execute that like
+callback function again it will put back into the queue you understand that
+rotation what is happening behind the scenes actually guys how many of you are
+able to connect with me if there is someone who don't understand this
+concept let me know because future classes will be really dependent on this
+logic okay okay no no what I mean to say is that let's say there are this events
+are based on some time isn't it let's say timeout will execute after some
+delay or interval happen after some time and API call will also say take
+some time to execute now when these things are happening right now we cannot
+we cannot wait for that time because if we wait for that time other part of the
+code will be hanged let's say someone is clicking some other events in the
+application the listener should be able to listen right okay so they what
+basically behind the scenes are happening is like that JavaScript is
+removing this this functions like timeout interval from the call stack it
+is putting into some of the queue okay one queue and it is waiting this all
+things are waiting waiting for what waiting for the timeout the delay or
+interval whatever you have given or this API to fetch data from back end
+once this time or delay is execute are done then these things are put back into
+call stack back into this one so to execute it is this clear guys how that
+set timeout and set interval works behind the scenes now this actually is
+a part of something called as event loop which will further go in depth which
+will go further in depth to understand this one we'll come back to this topic
+again we'll explore this one okay so meantime app will be stuck so in mean
+times app shouldn't be struck app will only struck when your call stack is
+stopped when I'm when call stack is like okay to move forward then it it won't be
+stopped right only when call stack is empty this things will be put back I'll
+show you that guys I'll show you that one okay let's say no firstly let's let's
+come to this one what I'm generally doing it here okay okay firstly let's
+understand this logic what's happening now inside this deep bounced I'm
+initializing a timer I am putting it to the clear timeout I'll explain this code
+I'm coming to this logic okay let's understand this function what's
+happening okay I gave some delay like let's say I've gave some delay like 500
+milliseconds 0.5 seconds and I say that once you call any user let's say any
+user is typing any key event let's say is typing any keyword let's say typing
+this th is when is typing it each time we are calling this function and we are
+initializing this variable and we are checking we are checking if this clear
+timeout if there is any set timeout exist clear that timeout if like if
+there is only thing or exist then clear it and then after attach a set timeout
+to this timer a variable and execute it now when again let's say this is
+happening let's say if I type down t here okay if I type down t here for the
+timer there is nothing undefined there's nothing is there okay so it won't do
+anything as of now but let's say if I execute this timer and go to the next
+line let me you know this is not persisting data but what I'm generally
+trying to say it here is that if you see this function if you see this function
+whatever we have written let me cut this one
+so what I'm saying is that now let's say in call stack okay for each and each
+listener right each listener whenever key down event is fired key down event
+will be fired for let's say if I typed on some bit it will fire for this one
+this one this one is also six times it will fire isn't it it will fire that one
+at least now inside this we are calling this debounce timer this function is
+being caught now when we call this function we are passing some delay and
+a callback function to execute now let's say what I'm trying to do it here is
+that I am here having a variable timer in memory and once this set timeout has
+been put into the call stack right it has been removed it is put it into the
+queue here okay for the first letter s now when again user types a when user
+type say I'll come here I'll check whether in memory there is something
+attached to the timer so we see that this existing timer is attached to this
+keyword so we'll say that can you remove the existing timer clean it up so when
+in second event this will be cleaned up and there is nothing okay then once this
+is cleaned up again you would take it a event and you make again a set timeout
+call okay now again you store it a value into the timer now you have set timeout
+for a event and this is again put into here queue and this is again removed
+from here okay now again it goes when you type M when you type M again let's
+say when you type M you again call the set timeout here before calling the set
+timeout you'll check whether there's anything timer exist yeah you see that
+this is existing please remove this one also clear it so as you do it keep on
+doing it you will come at a point where you will type something like T and you
+will stop when you stop it when you keep on cleaning up and when you stop it at
+final point right when you stop at this final point there is no one going and
+coming out and clearing this event from this queue there is no one clearing out
+and once the deal is done it will put into the stack and execute and make an
+API call are you able to relate like actually what's happening behind the
+scene when you do debounce so all the events whatever are being added into
+this queue right whatever being are added first we are clearing all the
+older events all the older events function calls are cleaned up okay all
+the fun ones like one after the other we are cleaning up only the last set timeout
+will persist here and that will be executed because for that time will
+elapse and it will get X I hope you understand how debounce works guys how
+many of you are still facing challenge understanding this one let me know okay
+now if you see it now if you see it how many things we are making like let's say
+if I try to type down let's say I typed on my name let me remove this debugger
+now let's say if I go and type down clean it up this one I'll refresh it
+let's say I typed on my name you see I made only one request like number of
+requests count to zero now let's say I typed on something like washing machine
+okay I'll type on something like washing machine to see only one API call what if
+I want to type down again automatic you see three API calls max how we are able
+to optimize this one because we are each time a new event is added we are
+clearing the existing events and then we are setting our time with a new the
+existing one is this clear guys how this is working I hope you are able to
+relate like how this actually works okay but the now one of the most important
+use case right when it comes to debounce is like it's really important topic when
+you want to actually optimize for you know like this sort of search filter
+logic logics because you want to preserve that you know the amount of
+API calls you're trying to make it fresh because each time you are making a fetch
+you are actually pulling six kilobytes of data over the network and it is
+transferred from the somewhere system which is put down on the back ends at
+behind the scenes right so that optimization we are doing it here okay
+this is what debounce helps us so we'll come back after the break we'll explore
+like what throttling doesn't does it okay so do you need break or can I go
+ahead by taking like class I need 20 minutes to explain okay break okay let's
+take break of six minutes guys I'll give six minutes but before that let me know
+are you able to follow up are you able to follow up guys like did you
+understand how debounce works behind the scene how set time out on set interval
+works those are removed from call stack put it into some queue and will
+understand this thing all those things in depth when we pick event loop I'll
+show you mechanically how those things won't works and debugger tool and
+everything and those are executed once times are elapsed it put back into the
+call stack you call stack to execute it okay let's come back in six minutes
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+guys is everyone back
+give me some sir if everyone is back I just want to explain one of the bug that
+I was doing and not able to figure out I just was thinking you know for this
+four five moments and I do remember here while I was trying to execute set
+time or directly instead of returning a function it was not working I was not
+able to figure out then but I was thinking in two minutes of time I you
+know the moment the the bug here that was created was like whenever you are
+really creating a listeners right you are not actually calling a function but
+you are writing a callback function attaching a function to it do you
+understand the difference between calling and attaching a function to it
+it works like a callback function right now whenever I was actually calling this
+T bonds and our function I was actually executing this part but it will be only
+executed one time but if I want to attach that function I have to know when
+if you see this what logic is the happy forming here it is returning a function
+and this whatever that function is written will be attached to this key
+down event and whenever key down is there this function will be executed is
+it it so that's the difference I was making a mistake so I able to understand
+what's a mistake I was committing there if there is anyone who don't understand
+give me thumbs up thumbs down and explain that thing guys I hope okay see
+many people now okay yeah yeah right so let's say whenever you write any event
+listener whenever you write event listener okay let's say what could be
+the common thing you like a click event okay and you define a callback function
+right this is a syntax of it isn't it isn't it this is a syntax of it when you
+write it now let's say I write a console dot log console dot log and I let's say
+I'm trying to print the event whichever I'm receiving let's say event no I am
+defining a function inside the listener but am I executing this function here or
+I'm just defining the function declare I'm doing the function declaration only
+know writing the definition of function but I'm not calling it I will be only
+calling this function when I do this isn't it defining a function and calling
+it right away I able to understand the difference between attaching a function
+to the listener versus call executing that function now earlier like here in
+the listeners we attach a function let me write a cut callback function but we
+don't execute it manually that will be taken care where I actually went
+function but earlier what I was doing is that if you see I was calling the
+debounce optimized function instead of doing here anything I was trying to set
+timeout and I was doing function and delay this is again as the principle of
+listener right what I'm doing it I'm just calling that function on each click
+I'm executing that logic isn't it I'm executing this function are you able to
+understand the difference like when actually we should have been attached a
+callback function instead of that they are executing a function now when I
+return a function here when I return a function from this function this
+particular return function is actually being attached to this listener is this
+clear guys and I can write down in simple keywords if I have to do it what
+actually have been doing it is that let's say this is a keyed-on event now
+once keyed-on is event is there like let's say we have this callback
+function now here we were doing that same thing let's say I have a timer now
+the timer should be art added on the top let's say I can add a timer here let's
+say I have a timer here declared okay once I have a timer what I'll do is that
+I'll copy this one these two things instead of writing like this function
+and delay I'll actually call it opt function and I'll say that 500 okay this
+is same as this both lines are actually doing same thing are you able to relate
+it now instead of attaching earlier I was calling this guys is this clear
+point give me thumbs up thumbs down if you are able to understand it now so for
+listeners we attach yeah yeah right somewhere like if you go for any code
+let's say we go to Kanban board we have too many events added right now do you
+see this we are writing only declaring the function but we are not calling the
+function for the double-click event or you go for any other event like let's
+say if this particular event how how function function executes only when you
+call right let's say I declare a function like function some and I pass
+a comma B only then like doesn't matter right that won't execute until as you
+call them so calling is not my headache that listener will take care of it
+that's what yeah yeah so I hope you got the bug that I was creating and it just
+clicked me right moment I just wanted to explain you guys like what could be the
+mistake what was the mistake actually okay let me remove this lines of code
+no so I hope debounce is clear right to everyone debounce is clear like how does
+it work debounce so whenever you want to do whenever you want to do something
+like when let's say there are series of events are happening and you want to
+execute after user even stop after some time then you that particular process is
+called debouncing okay fine I hope now after this I'll say that do you
+understand know how async programming work async is something like parallel
+whenever you see here this word in cope in programming context you can
+understand this as a parallel now in JS since it is a single threaded we don't
+have like we have right we can write a multiple multi-threading code logics but
+we have something like this mechanism where the costly events are removed from
+call stack put somewhere else and only will be executed when it needed to be
+that's how we were able to handle costly events like multi-threading concept is
+there some proper syntax to deep on so that I can least remember I'll check for
+documentation some bit if you see let's say if I go and check for debounce there
+might be some use cases but we have to see like if you see this is the same
+logic that I used it they are also using function apply this we have to
+understand why they are using it but they are also explaining the same
+problem using input type text okay but I'll come to that I'll check and I'll
+give you a snapshot of a code which can be used for understanding it I try to
+pick the very really simple example it's like a three piece of code which is
+actually changing it but I hope this debounce is clear okay we'll move on to
+the trottling now okay let me let's say I have a new file called trottling dot
+HTML and I what I'll do is I'll copy this code I'll paste it here and let me
+say that throttling optimized function and I'll call back here and something
+that I have to change the logic is in logic is this one like we'll change we'll
+be changing the logic here okay but I'll come firstly let's understand what
+throttling does and what how does it affect now let's go to flipkart itself
+so guys how many of you understand there's something that lazy loading
+lazy loading have you heard this keyword lazy loading lazy loading I see three
+thumbs down no worries case so let's say a website right a website like flipkart
+Netflix they have too much of content right too much of content when you
+launch it when you open their sites do you agree with this point like too many
+when I say content images images can be heavy in size and the content like the
+paragraph contents and everything do you guys agree with that with this part do
+you agree at least okay now what happens is to the websites right to optimize to
+optimize the page load time okay to optimize page load time page load time
+they use one of the concept called lazy loading now the lazy loading is applied
+for only costly operations one of the example is that images images are costly
+so even when you are pulling from the network they do it only when it is
+required when I say when it is required let's say the flipkart page is too long
+in nature okay but your viewport view view width is this one so view height is
+this one and view width is this much okay this is a screen size you have but
+only if you if I load only this part of content when user launch that would be
+enough right to show initially whatever your screen is there mobile now then
+there is a scroll scroll event is happening here on the left side and
+whenever we are scrolling it below do you remember sometimes there's a flashy
+images happening like that images keep loading slowly there would be like
+animation that you see have you seen any time in your like when you scroll it
+suddenly its speed rate you won't see the web page loaded previously but it
+keeps on loading it now that is where we say we are loading lazy look we are
+easily loading the content I mean we are too much lazy that will load it at a
+time so that when you scroll it right API calls are being made to fetch these
+images in YouTube in any website in heavy websites where there's a too much
+content lazy loading is one of the most opting used concept in order to reduce
+the page load time because we will load only whatever required assets are and
+then after when user scrolls it depending on whether he's scroll till
+here we load this content when he's called here will load this content and
+once they loaded they cache it when I say cache it they store here in the
+storages so that you again if user goes up and down then don't need to again
+load it let's see this in real time let's say that if I go to YouTube okay
+no let's say this do you see this this part of thing is loaded like this are
+12 boxes nice this 12 boxes now suddenly if I load it do you see this blocks are
+getting filled suddenly there was a shade there if I suddenly loaded there's
+a shade then the color pictures are coming then the thumbnails are coming
+actually do you see this if I load it the below pictures are you able to see
+this case no again I'll show you why let's say I go for the inspect if you
+see in the network you see in the network
+can I okay now let's see what happens when I scroll too many API calls in
+YouTube to know but let's say if I scroll it do you see there are pending
+requests which are getting fulfilled to fetch the images all this like events
+and the images if you see this image this might be the image for something
+some YouTube hedge clips or this is you know Aditya music or different images
+are being fetched at runtime now this image is let's say Amazon image there
+might be somewhere this this person's image okay 80 this one so all these are
+thumbnails which are like let's say this one stack versus heap some video may be
+content now this person's image so this is somewhere somewhat called as lazy
+loading this concept is lazy loading what they're doing it is that only I
+loaded only I loaded whatever content is needed one shot and when users cross it
+I'll hope I'll like you know I'll do a figure out now you can always figure out
+this one what are the listeners attached name if you want to go like you go to
+here you know in this you can go to scroll event and explore like what are
+the events that are attached okay multiple events you'll see that on page
+level if you remove it or this thing will you know stop working whatever you
+see that API calls being triggered if you remove it it will stop working okay
+there might be many things they might be using it but these are the list of
+events you can play around with mouse over key up key down right input element
+drag enter drag leave double flick so these are the events that you can see
+like what events are attached to your website okay so now coming back here so
+I did you understand lazy loading give a thumbs up if you understand now what
+lazy loading is how that works no now let's say now let's say what's happening
+if I do it again on the flipkart do you see let's say how many pay cost did they
+make if you see this they are trying to get fetch the page page numbers now if
+you see each page only one page right I had only one page but that page was
+divided into multiple pages according to the viewport size do you see this like
+let me refresh this one this website and I'll show it okay there might be
+somewhere with the API call might have been already made they fetched images
+and everything it one shot to loads of you put size images now once I make
+now do you see this this this thing made a API call to get the other list of
+items of page number two and also it fetched one of the image okay now what
+if I go into one section let's say if I go into one section called mobiles let's
+say if we have I scroll it down I keep on scrolling now if you see images are
+runtime fetch is being made okay let's say the event actually okay these are
+like all things are lazily loaded that's what I wanted to show that this is the
+real-time concept that whatever we are learning now here just lazy loading is
+actually being done using something called as throttling mechanism okay now
+let's understand what actually throttling is how we can leverage throttling when
+you come to this car like you know lazy loading now what's happening
+here would you see on the web page when you reach a particular point when you
+scroll up to some extent let's say some height some height of web page that
+triggering API call right do you guys agree with this point that that trot
+like when you move to the particular height of it they are making a pickle so
+now imagine imagine what if this is one of the example like how do you do it
+then imagine there is a submit button then this let's say there is a submit
+button you created a form you have multiple elements you have filled all
+the events then you have a submit button
+what if user keep on banging this button each time they keep on pressing this
+button again again again again he keep on clicking this button again and again
+even then we are making hitting multiple API calls right right like whenever user
+is trying to submit a form and he is clicking on submit event again and again
+you are trying to hit for on each submit you are making an API call here also what
+if user scrolls to this height you make an API call again you go down again you
+go up you again make an API call so if you keep on scrolling in a list of API
+calls will be happening each time right are you guys do you guys agree with my
+point that what I'm talking here like like the user behavior whatever user is
+trying to write in order to stop that events are happy for you know triggering
+now what we'll do is that once user clicks any event or once user comes to
+this crawl we wait for some time
+I mean wait till the event happens and then trigger API call okay
+it some intervals now when I'm why I'm saying some intervals is let's say this
+particular concept also applies it's like same like a debouncing but
+debouncing works only like let's say of that input example try to remember like
+one example for each one now when you go for input example what was happening is
+that we were trying to debounce like we were waiting till user stops once user
+stopped I stop it then after we were initiating thus time then we were
+initiating the delay and then only we were triggering API call here it doesn't
+happen that way once you reach an event API call will be triggered for surely
+but after that it will be triggered after again some amount of time it will
+be keep on like this works like an interval okay
+trottling works like interval where you are trying to reduce the amount of API
+calls but it will keep on execute you can make n number of calls okay let me
+show you the first let me let us show see this example again okay I'll launch
+this one firstly let's say we have this let's I return this function
+console dot log instead of console dot log I have to return something like set
+timeout again function comma deal nothing much so let's say we are still
+executing that same problem if I keep on timing executing it you'll be able to
+see all the network calls here okay did I load the wrong file let me load this
+throttling let me go back here load this one now I have typed on waiting and
+should be executing all the requests this is again going back to that same
+problem guys now but what if I what I want to do it here is that I want to
+throttle when I when I when I say that let's say when I say this meaning of
+throttle is like once user event is click event is clicked our event
+happens
+throttle the request I mean wait for some time before you execute let let me show
+that how that works before I write down anything okay let's see how what happens
+here so now when I want to throttle it what I'll do it here is that let's say I
+have a flag let's I say that a flag equal to true okay and only when this
+flag is true only flag is true I'll do what I'll do is that I'll call this
+function whatever function I'm getting I'll execute that function okay and then
+I'll make this flag as false now what I'm just doing is that oh just simple
+condition let's say I remove this one as of now what I'll do is that simply I'll
+check I'll call this function callback function and checking that either the
+flag is true and if it is only true then not equally okay triple equal to yeah
+triple equal to when only is equal to true then I'll execute the function and
+then update flag as false now let's say I also want to update here what I'll do
+is that I'll write a set time or logic here not inside this callback function
+what I'll do is that I'll give some delay now let's say this delay we are
+something we're getting is from the top I have this delay and what I after this
+each time delay I'll come convert this into true no what's happening here just
+let's figure out if we go from this flow right once the first your trigger this
+trottling for callback function let's it is initialized as a true so the function
+will be executed at first shot and let me move this inside this one no first
+shot the function will be like called and executed then we are making it as a
+flag now even after user like when we are calling a set delay okay but user is
+keep on pressing some buttons but if we keep on pressing this flag is converted
+into false already by here and we won't be triggering this function again again
+we won't be calling this function again again till this set time mode executes
+and may convert that flag into true
+nice are you able to understand what we mean to say that trottel is once user
+event happens after one once API call is triggered and we won't trigger an
+another API call till there is some delay executed and that delay will define in
+the configuration itself so we are trying to rate limit the number of API
+calls that will be caught okay let's see this example firstly what I am trying to
+say is that let's say I click some bits three-party no I have what let me see
+what is a delay I gave 500 milliseconds let's say I give one one second okay or
+let's say I make it two seconds I said typed on my name do you see only two API
+calls have been made for considering this one the reason here why it happened
+is firstly let me go into this logic let me put debuggers and show you two guys
+how this works okay now what if I type down again now once let's say clean it
+up
+let's say I typed on you here once I typed on you now a flag is already true
+and it will execute that function and that will put a call API call it will
+hit an API call and then we are calling a set timeout okay and this set timeout
+will execute only after two seconds of delay okay till then if I typed on
+anything if that flag will be false so it won't execute go inside it anything
+then once the timeout is updated the flag will be converted into true from
+then on if you type anything new that flag will be true and it will call that
+function are able to relate this case like should I debug it again and show it
+so what we are generally doing it here is that rate limiting
+the API calls now why rate limiting the API call works is if you see the in
+YouTube or anything the content of videos this least data right that gets
+updated as per your personalization profiles again and again because it's a
+multi-day multi-device setup now when I scroll it a list of API calls will be
+made okay and this API calls will be again if I what if I go go and scroll up
+what if this things are getting updated okay
+yeah the function here is something like yeah API call that is what we are
+assuming it here this particular function
+so guys are you able to relate like rate when I say rate limiting the API calls
+like we are limiting the amount of calls that API will be triggered or the
+function will be called
+yes are you able to follow up or did you like you do you didn't understand it give
+me one thumbs up some thumbs up so that I can list down the differences I and
+we'll be able to understand like actually what is the difference on like
+top level what between the bones and this let's say I write down a list of
+things let's say I say that this is for D bonds and this is for throttle okay
+which I have a pen this one I say purpose what is the purpose for D bonds
+so I'll say this is like for delaying let's say this is like for delaying
+delay the function execution
+until an activity in activity so if you remember this one we are
+dealing a like calling of that function or API call from the input element till
+the user stops pressing right key events we didn't execute that call we only
+execute once user stops it that delays expired only then we make a if they
+call right for D bonds and for throttling what we do is that limit
+function execution rate and how we are able to limit the function execution rate
+by using the simple condition that first time whenever a pay call comes we
+make it true that flag is true by default so that a pic of that function
+will be executed then we're converting false and this flag will be again
+converted to true only after some delay and this is actually this particular set
+time what is actually delaying the second API call till that particular
+delay have now okay to show this how this happens let's say user event that's I
+typed on graphics for this one user event is like do keep on typing events
+no then once he stops it this delay will be we will be waiting for this delay
+then function execution will happen here for throttling purpose how does it
+happen is once the user event is clicked okay we will call that function and we
+will load the delay we load the delay and each even if user is typing it down
+we won't make any API calls or function execution only this will be done when
+this delay is expired we'll call it again and then we'll wait again for some
+delay only then we'll load it this is like a set interval only after once this
+call is done we'll wait for an interval then we'll again load it so it is like
+limit limiting the rate of execution is this clear guys difference between
+debounce and throttle okay now when it comes to execution let me write down in
+the statement also
+let's say executes
+after a pass
+in which
+whereas this one executes at a steady rate and the steady rate is the delay
+that you provided now the third thing is let's say event reset timer so when
+this thing happened reset event reset no case can anyone answer this thing for
+me when that event reset happened in their debounce like going back to this
+example can I say on each event this time it timeout is reset on each event
+right on each event whereas this one it maintains steady rate there is no
+clearing of timer here are we clearing set timeout here in the throttling we
+aren't right we are not clearing this timeout right guys no events no actually
+I'll write as a no simply or never okay then let's say if I talk about something
+like frequency handling
+when I say frequency handling like what actually it is doing it how it is how
+once delay is over we are not clearing the events right Shambhuja here for
+throttling like we are not calling clear timeout anytime we are just using the
+flag we are talking at loading okay so I would request everyone to go through
+this examples again try to execute it use this table I'll try to upload this
+table also a photo of snapshot of this one in the notes so that you will be
+able to remember like the position okay so let's say reduces the function calls
+during rapid events
+like when user is typing we try to reduce the amount of function calls
+right at each rapid event like user is keep on typing the keyword will we have
+to wait so we are reducing it so now for this one we can say that limit function
+call to set interval we are using an interval and only after that interval
+this thing is come now what could be the examples for this one where all
+debouncing can be used so debouncing function call will never stop yes
+function call will never stop when user is keep on typing it okay when user keep
+on scrolling it down the page or anytime like what will do is that whenever that
+something is happening a function call will not stop but we will be executing
+this thing only when this flag is true we will try to execute that one if not
+then we won't execute it and each time for each event we are not even attaching
+set timeout for each event we won't be able to attach a set timeout we will be
+only able to attach that set timeout only for that first if you attach it then
+after only delay then we will be able to attach the timeout for that event okay
+now examples would be for this one
+typing or let's say search suggestion
+okay or let's say even you can consider it as a resizing events now resizing
+event might not be covered but what we mean to say resizing is that yeah
+some bit will show it in the event loop completely will cover it up now if you
+see this this is like a resizing event now when I reduce it or increase it if
+you see just seen the YouTube API calls if you see in the YouTube API calls if I
+resize if I resize the amount of API calls being made that is those are the
+resize event for the resizing events also use something like a debouncing
+concept okay or in when it comes to throttling you use it for scrolling
+mouse events like mouse events mouse over or mouse when you remove it right
+the rate limited API's okay so these are the differences guys that you should be
+able to remember I'll also add a like actual photo or like you know image
+that I made it for position so that you will be able to remember it and I'll try
+to add diagrams as much as possible to so that you can figure it out how set
+timeout on set interval is working behind the scenes but on let me know if
+you are able to relate with this statements first if you are able to
+understand this points any doubts till now from the code perspective or logic
+perspective I picked it up one sort of example because it should be easy when
+you come and see that how this what's the difference between debouncing
+throttling it just that at one place we are clearing all the previous events and
+then only if we are attaching to the last most user typed event where is
+coming to throttling we are not even attaching the set timeout for the all
+the things you are too much to process I agree but this is this other you know
+if you see the problem these people these two things are solving are big
+things and you will be able to process it slowly and you'll get complete
+clarity over this one okay but now I have one of the small topic to cover
+guys I will talk about that one okay now let's go to some other again big
+websites itself I go to this YouTube itself I come here in the head tag now
+inside the head tag let's see do I have any scripts present say I say it's
+defer
+I didn't highlight the defer
+okay anyways let's see it in the flipkart inside the head this is metadata
+related no guys do you see this keyword here differ in the script tag this
+keyword differ no this is really simple guys I'll cover it up not much big
+thing it will like just a content part because debouncing throttling will keep
+on revising again again so that you will be comfortable with that okay today's
+content right so we have to cover this is 10 minutes hardly will complete it to
+16 okay so no till now whenever we return in HTML files right whenever we
+return something in HTML when we are tracking any scripts files or CSS files
+we were giving source and most probably relation right for CSS files other than
+this thing we were not providing anything but in general at real time you
+have three types of scripts one is simple script one is having something
+like async script and then there is something like differ script okay let me
+say these are the things which are existing now we know that even HTML is
+loaded from top to down isn't it like executed from top to down and whenever
+we load script anywhere in head that script sometimes like if you remember
+font awesome right font awesome we were linking in the head section right when
+we are linking in the head section that font awesome code should be downloaded
+right font awesome code should be downloaded before we use it in HTML part
+inside the body you know because that that is what we are doing now if you
+want to do it that way and if it is happening from top to bottom imagine if
+font awesome site is down whether our HTML will be passed after this or it
+will be blocked what if that CDN link whatever CDN link we have that website
+downloading I mean it yeah so what I mean to say that it's like let's say
+font awesome link whatever script we got it from a CDN link now when the HTML is
+being passed from top to down and once we find that there's a script tag
+related to font awesome and we are trying to get fetch the data from the
+CDN whatever JS code they have written and if this CDN is on JS the passing of
+HTML would go to the next step it will try to fetch it again okay because this
+will be blocked and even if CDN is not down it is too slow what if it's low the
+code execution will be blocked at that particular step in the script okay so how
+does it happen is let's say this is a timeline in which HTML is being passed
+let's say you got a boar head tag here right here is ending the head and you
+saw the script related to font awesome now once you saw this font awesome if
+the site is slow or down the other parts of code execution will be blocked this is
+blocked because we are trying to interact with something which is slow
+are you able to understand this one guys now like when you load simple script
+what are the challenges you can have when you load on inside the head no the
+workaround what we have seen that is something that you can load it at the
+end of the body at the end of the body you can do it very well end of the body
+only if you have custom written JS logic but if you have something like font
+awesome and this particular HTML inside the body tag we are using those icons
+then we need this one to be pre downloaded right that logic for that
+icon should be pre downloaded those tags so what was a solution provided for this
+one was use two types of attributes one is something called async and one is
+what async does is let's see I'll write down for async now what we understood by
+this keyword earlier what does async says parallel execution isn't it
+asynchronous programming or async when you see that pulling out from the call
+stack putting into the queue right same way what happens here is let's say this
+is a timeline still and once you passing comes to the head it finds a script what
+it says is that hey I found a script that needs a time to download so what
+will say that it will download separately that script download will
+happen but it won't block the queue when you use async keyword it will keep on
+executing the other parts of code so parallelly the HTML will be passed in
+parallel JS code will be downloaded and once this is downloaded right once this
+is downloading is completed then this particular code will be blocked and this
+will be executed first then again HTML parsing will happen is this clear when
+you use async word in general you are trying to parallelly execute that script
+tag fetch the data from the internet parallelly execute that HTML meanwhile
+only once this data is downloaded then you execute that JS and then you have to
+again pass the HTML is this clear guys how what async keyword in the script tag
+does they have received only one thumbs up maybe few more if not clear I can
+repeat in the next class also okay then you have something like defer what does
+differ does is there's only one change there's only one change that differ and
+async have is that once you find a head again you locate that script tag like a
+font does some script it will also download it it will also download in
+parallel it will also download that script tag in parallel
+okay it will download it but till the whole HTML is parsed till whole HTML is
+passed this won't be passed once the HTML is passed this will be passed JS
+will be passed what was happening in async as soon as download is completed
+this was being passed in between itself then again HTML was passing and all
+this can happen only one thing at a time because that we have single threaded and
+in single threaded environment only one thing can happen at a one time and this
+script download is also being put from the call stack put it into some queue
+and once this is download is done once this download is done this was put into
+the call stack again right that passing is happening then once that is done
+that HTML is passed but here only the difference in with defer is till that
+HTML is completely pass it won't interrupt once that the passing is done
+only then this will be added is this clear guys what is difference between
+simple script and script with async keyword script with defer keyword parallel
+download instant parsing and this is blocking in nature and this is also
+blocking in nature parallel download and wait till HTML is passed this is
+non-blocking in nature I still HTML passing I don't use word execution here
+consider it as passing okay now if you go to any website if you go to any
+website and see you will be almost seeing the differ keyword used more than
+the async keyword this particular all this thing sites right they are waiting
+to completely this below things are getting completely like you know past
+once these are done only then this will be fast because these are you know
+static images these are static images they're getting from the CDN if you go
+and try to you know see this there might be a URL for this one where they're
+getting assets static assets if you see so they're waiting for all this logic
+yeah notes okay so guys is this clear like or do I need to repeat it again
+somewhere did you get that point did you understand this one or do I need to
+repeat again okay I'll repeat it again so guys what is happening in real time
+is like script tax since this script tax mostly are used for you know getting
+the JS code the JS code can be in the size of KBs MBs sometimes MB sometime
+KBs okay now when your HTML like if you remember are we have HTML then we have
+head then we have body then we close HTML right this is what our body
+structure is but in head tag if we have this JS scripts right we have defined it
+and whenever we have like such amount of size KB and MB of size right now to
+download this data from network it takes time and we know that HTML will be
+passed only from top to down and when we you know when we find there's a script
+which is downloading JavaScript which are in size of KB and MB it will stop
+the execution below execution it will block the thread it will block the
+thread which is single threaded right so it will block the thread and it the
+particular thing will be downloaded will be passed and only then the below
+things will be passed this is how normally naturally works but async one
+what happened with async keyword is once we have HTML head body HTML again
+closing so once you find the script it says that hey you download parallely
+download in parallel till this download is happening I'll keep on executing
+HTML once this download is done this will be blocked this will be execute
+passed first right then again this will continue with async whereas what
+differ says is doesn't matter
+whatever it is you completely pass the HTML then I will pass JS code and
+downloading will happen in parallel
+so that's the reason why I'm saying that differ tag is like non blocking nature
+this both are blocking in nature because these are blocking HTML parsing is this
+clear guys now any doubts like when you see this async and differ keyword I hope
+can we see in the code how to use this yeah we can do this we can always do
+this but in order to do this right you need to have really big files that are
+being pulled from the network we don't have real time yeah we can see it in
+future uncate it's like I guess we're tired with the content but if you see in
+the many websites right you will be able to see the scripts with differ and
+async let's say you go for any other website like this one you'll see this
+thing being used everywhere you see this script tag is async JavaScript text file
+which is like doing that calling this go Google Analytics Google manager dot com
+all these things are done in async fashion okay all these four files
+whereas you'll also see our differ used okay you'll see this this thing like is
+actually fetching the image from the CD and link okay so whichever things that
+you think that okay I can I guys like is the if concepts are clear can I start
+the doubt session but I hope no no no it doesn't work that way wherever you
+define the script it works anywhere in the script like with a script tag with
+the script tag wherever you mention in the body below the body anywhere even if
+you mention wherever script is there but if you are using something like a
+particular HTML tag with async differ that's our nature I'm talking about
+nature of this two key attributes like async and differ is that clear okay
+great so you can go and see most of the websites right most of the websites what
+happens is like this particular like Google Analytics and Google manager this
+things right they are like downloaded in async manner all the your respective
+code whichever is there like if you see this is a free code camp website all
+this free code camp particular related websites are downloaded in a differ mode
+because this your respective codes are really what we can say that it might not
+be deployed on CDN links they deployed on CDN but it might be on your server so
+it takes time to load it or else even your assets will be bigger in size
+whereas come to analytics right this need to be loaded at runtime I mean why
+they do it at the initial moment of the time is because these are actually
+sending multiple events like if you see this is this is not the event but if you
+know actually analytics is used to track user events like how much user is
+spending on each thing and what not they try to track multiple experimentations
+okay for that reason they try to load it as early as possible but when it comes
+to the other big files you should prefer the differ keyword okay guys I hope you
+understand what is async differ and simple script give me one thumbs up if
+this is clear so that I can start doubt session I can clear take the doubts
+if you have anything okay good so with this guys I want to end the content for
+today's class when we'll meet next class in next class right we'll start with
+object-oriented programming we'll take two classes an object-oriented program
+will understand how that is being done so it will be more of a behind the
+scenes trying to learn JS so I'll try to make it as interesting as possible let
+me start doubt session is hope to see you in next class again do you want me
+to revise everything guys in doubt session yeah I'll try to make it
+interactive ways let's it's really difficult to ask we sunk it here it
+doesn't work like the DSA right mostly we'll try to add it as much as possible
+right but let's let's go back and revise the content for a second and then okay
+what's happening with debounce okay so firstly if we understood two things in
+today's class firstly set timeout set interval debouncing and trotting now
+timeout works if you want to do a task after some time like delaying it and
+execute a particular function a callback function whereas interval it executes a
+particular task at each interval okay no so debouncing and throttling you can map
+it debouncing to something called a set timeout and you can set throttling to
+set interval okay don't exactly think it that way but that's how behind the
+scene things works what in the once happens is when user is keep on typing
+events we say that we don't want to make all the API calls only once user stops
+it we take some delay and the deal is also like we want to wait what if user
+again start typing it okay so if he once user stops it we wait for delay and then
+we try to execute the function whereas when it comes to throttling we say that
+this event can be triggered in number of times like scroll he can do up and down
+or it can take the mouse and he can do on there itself like up and down let's
+say what do I exactly mean is that let's say if I go to this particular page let's
+say the scroll is he at this particular question there triggering API call if I
+keep on doing this way the API call will be keep on triggering right behind the
+scenes so in order to stop that thing happening we try to reduce the amount of
+calls let's say if you see it here what is happening this is if you see this
+events right the all the events have one after the other keep on going it let's
+say I call it up again so in order to reduce the if there will be many amount
+of API calls which are also cancelled okay this events like events are
+cancelled to get too many events so this events like why we are why they are
+doing it this one is that to throttle it user can you don't try to take
+advantage of our services and we'll try to you know do as many requests are as
+possible we don't understand exact behavior of human so in order to wait
+and do that one right so we try to rate limit the amount of calls we are doing
+so for that thing we use throttling what we say that it will make a call first
+then again if user is against crawling up and back I won't make a call but I
+will make only call after some amount of time so that I'll save the this amount
+of API calls being triggered okay so that is how throttling works so trying
+to go back to this again definition is that delay the function execution until
+activity okay when it comes to this one now when it comes to throttling limiting
+the execution rate okay then execute after a pause in events like once user
+stops typing and if this executes it's a steady rate all the time till that
+moment you are trying to play around and it doesn't mean that it will keep on
+executing that call only when events that particular event is triggered in
+number of times in those n number of times it will execute three to four
+times okay that set interval works only when you are that event is again again
+triggered on that same like submit button if you are smashing a submit
+button hundred times it will make only three to four API calls doesn't mean
+that once you click a submit button it irregular intervals it keep on making an
+API call okay now events reset like each time a event is triggered we try to
+remove the set time also be on each event reset happens here we don't do it
+actually because here we are doing a rate limiting so reduce the function
+calls doing that during rapid events here limit function calls to set
+interval like that particular interval okay typing and resizing events here when
+comes to scrolling a rate limited API's and within we discussed the same thing
+I hope this part is anyways clear so there's any doubts I know this might be
+overwhelming but I'll again are we going to use this in projects in future yeah
+I'll give you one a little question some bit which is really important to them
+okay let's say
+this question right type at component if you see how many people might have
+covered four or five people have covered in the YouTube no if and if you go this
+to this one right they might have built this one using Google example now you if
+you see this one they'll show you the architecture and complete like how do
+you are using it how do you are making a call so this is actually an important
+interview question to develop this widget I'll see if this is widget exist
+because you have to build this end-to-end let me see if I can build and
+give it to you okay but I don't want to do it because I just want to cover the
+content which is assigned it maybe other than that one I have to let's do one
+thing if someone can build you know LLD repo which ones I'll also contribute in
+that okay if you have questions I can also contribute in that but if you see
+there are too many let's say this is a Chirag's one this is he's a
+constructor it's scalar most senior front-end developer that I know L64
+at Microsoft but if you see he have this question this link I will try to give
+his link you can go through this one where he has explained this okay
+but I was actually searching for some content they are stopping me from even
+I'm longing and why didn't all over
+sign up okay cool now this is actually explained from behind the you know back
+and high level design where you are using a try logic and trying to
+understand how do you do searching actually once user query set but we are
+trying to you know reduce the amount of queries that are done firstly on the
+front-end right let's say type at react
+let's say we have front-end LLD
+autocomplete if you see this is the example they again this is leading to
+the same website but they are actually again doing it from the back end because
+they are talking about data model caching mechanism okay client okay
+they're given events all the humans that you listen to now if you see they are
+talking about debounce timing how much the bonds timing you need so this is the
+same they are using but we have to build this one completely from scratch in order
+to do that we have to explore this one so they used caches they replicated a
+API call and what will be the result so end-to-end complete like you know
+let's say I can say I say put strap components the accordion everything is
+auto search auto search react MUI now if you see I keep on typing let's say let's
+say if you have this list of items which are pre-rendered right now this list of
+item suggestions are are actually you have stored on the client side what if
+you want to get on from the server side that's when you actually have to reduce
+it but they haven't given here I'll search and I'll give it to you like how
+can you build this autocomplete completely but we should be building this
+one this is one of the most in the interview important question interview
+some bit try to focus like how can you leverage debouncing and I'll check on
+which site is better content like which is providing us better content like let
+me say bit.dev because everywhere that same logic will be that this is a
+generic function that is applied for debounce okay debounce is also you get
+sometimes but it's not a built-in function but you write one function
+generically and you use this everywhere I think this is the thing they have
+anyways I'll check on I'll get you I should be a better side right to
+understand it anyways I'll repeat for my side the time should you want they have
+also given a good you know a reference for this one but if you want if you want
+to understand this this keyword right we'll pick it up in next class because
+without this understanding this you won't be able to understand okay they
+this with this definition will confuse you don't go by this educative site
+guys if there are no doubts can we in the session some bit this is it I
+believe like you know this is it this is the thing they have you know common
+there's a callback function and a delay function the same logic that we have
+written I've seen it more than five six sites this is how they are handling but
+I'll talk about this how you know spreading you know spread operator and
+ask what what they actually meant it now this is actually being done only when
+you want to process events right when you want to process the events there we
+were getting that we didn't get the events right we can even get those
+events the way you can do that one is let's say you have events okay and let's
+say you call this okay inside this let's say you also pass on the event here you
+will be able to access at runtime all the events will be here and you can pass
+it on to the down the chain but wherever you want to use it and this will work
+like a function I mean callback function attachment then you can return directly
+instead of calling it as a function that that use case also you can handle it
+okay let me push the code meanwhile do you guys find it heavy content today it
+was it was it heavy to understand but you know do revise this concept try to
+read it try to I'll make a notes for this one so that I attach a image or you
+can refer to it completely new concept I agree this is first time even when I
+studied I was like what is this but it takes time to digest it okay but these
+are like one of the core you know principles when you want to optimize
+a network calls or optimize the page load time so these are something that
+you're going to do enhancements on your websites which you build because you
+want to delay all the assets loading right how you want to you don't want to
+do it everything at one shot you have to break down your problem and do it at
+different so then this concepts will come in and you want how you will be
+able to handle it okay so guys I don't see any doubts with that I would like to
+end the today's session and we'll meet you back on Tuesday where we'll get to
+learn more interesting things like we'll see like what ES6 team has done
+converting a functional language into object-oriented language we'll see like
+does it actually JavaScript support from the object-oriented programming or is it
+something they tried to fake it out we'll come back and we'll explore that
+one okay guys so the rest with that hope you have a good night take care happy
+weekend see you on Tuesday bye bye
+this can be in the session give me one final thumbs up cool so the rest is
+right thanks some bits
+you
+you

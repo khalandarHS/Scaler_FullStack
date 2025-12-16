@@ -1,0 +1,2271 @@
+start	end	text
+0	2060	you
+30000	32060	you
+60000	63060	you
+90000	93060	you
+120000	123060	you
+150000	152060	you
+157000	159000	hello
+159000	160000	here everyone
+160000	162000	Desha Janya
+162000	165000	Abhinav
+165000	168000	I thought you weren't going to join
+168000	173000	Abhishek, Ahima, Dharam, Ashish, Ashwin
+173000	175000	Mangeem was also not going to join
+175000	181000	Dheeraj, Pramod, Tejal, Muniswara, Rohit, Sambet, Shashank
+183000	185000	Asha is important
+185000	189000	That's the dedication I am personally looking for
+189000	191000	one day
+197000	199000	Cool then let me share my screen
+199000	201000	and
+201000	203000	to be honest
+203000	205000	I didn't really do much
+205000	207000	on the internet front
+207000	209000	but
+209000	211000	let's see
+217000	219000	let me know
+219000	221000	once my screen is
+221000	223000	visible
+231000	237000	we'll wait for another minute
+237000	239000	and then we'll begin
+239000	241000	and first of all thank you
+241000	243000	thank you for joining on a non-class day
+243000	245000	and
+245000	247000	folks who haven't joined
+247000	249000	they can obviously watch the recording
+249000	251000	and tomorrow before starting the lecture
+251000	253000	I'll go through
+253000	255000	whatever doubts they may have
+255000	257000	so it's a mistake on my end
+257000	259000	so I'll take care
+259000	261000	of it
+261000	263000	right
+263000	265000	Abhishek
+265000	267000	it's evening
+267000	269000	right
+271000	273000	cool then
+273000	275000	I think
+275000	277000	considering
+277000	279000	we got a head start
+279000	281000	yesterday
+281000	283000	so
+283000	285000	we'll probably end the lecture also a little early
+285000	287000	today
+287000	289000	I'll try to make sure
+289000	291000	if we can enter
+291000	293000	the lecture a little early
+295000	297000	cool then
+297000	299000	it's 9.05 let's begin
+299000	301000	so I'll start from the very start
+301000	303000	obviously the part that we had covered
+303000	305000	in the last class
+305000	307000	I'll quickly go over through that
+307000	309000	and in case any of those
+309000	311000	things is not clear to you
+311000	313000	you can ask me again
+313000	315000	just a quick show of hands
+315000	317000	if the screen quality and everything is fine
+317000	319000	yes
+321000	323000	yes right
+323000	325000	in case the screen
+325000	327000	quality reduces
+327000	329000	which I hope it not
+329000	331000	let me know we'll wait for a while and then
+331000	333000	we'll begin
+333000	335000	cool then let's begin
+335000	337000	so
+337000	339000	let's start from the
+339000	341000	very start I'll assume that
+341000	343000	we didn't have much talk
+343000	345000	yesterday
+345000	347000	so if you remember
+347000	349000	we discussed in the last class that
+349000	351000	we haven't installed JavaScript
+351000	353000	anywhere
+353000	355000	it's been just there
+355000	357000	either we've been using it in our browser
+357000	359000	either we are simply creating
+359000	361000	an HTML file and directly
+361000	363000	writing JavaScript in the
+363000	365000	script app
+365000	367000	so we haven't really installed
+367000	369000	JavaScript
+369000	371000	so the answer is have you installed JavaScript
+371000	373000	obviously the answer is no
+373000	375000	so you cannot really do much with JavaScript
+375000	377000	alone as we discussed in the last class
+377000	379000	and
+379000	381000	JavaScript just gives you
+381000	383000	the logic part of things
+383000	385000	so let's say just
+385000	387000	gives you just the logic
+387000	389000	that's it nothing else
+389000	391000	so basically if it just gives me the logic
+391000	393000	which means
+393000	395000	it's give me if a statement
+395000	397000	for
+397000	399000	new
+399000	401000	variable
+401000	403000	etc
+403000	405000	so it just give me
+405000	407000	these things that I can build my logic
+407000	409000	but I cannot really build
+409000	411000	out a feature feature out of it
+411000	413000	so it is
+413000	415000	sort of like a headless
+415000	417000	I cannot do much with it
+417000	419000	so which is why
+419000	421000	we
+421000	423000	super boost somehow
+423000	425000	JavaScript with something called an
+425000	427000	environment
+427000	429000	so
+429000	431000	some of the
+431000	433000	environments that you may have
+433000	435000	worked on
+435000	437000	would like to know some of the
+437000	439000	environments that you have worked on
+439000	441000	with JavaScript
+441000	443000	one is definitely
+443000	445000	browser correct
+445000	447000	what's the other one
+447000	449000	node
+449000	451000	correct
+451000	453000	so we have browser and node
+453000	455000	and there are couple more
+455000	457000	but we will focus on browsers and
+457000	459000	node environment
+459000	461000	so whenever I were to pair
+461000	463000	JavaScript with browser
+463000	465000	I'm able to do manipulate
+465000	467000	DOM
+467000	469000	it does something now I'm able to manipulate
+469000	471000	DOM I can play around
+471000	473000	add tags, remove tags
+473000	475000	and change values
+475000	477000	and here to events and do a lot of other things
+477000	479000	if I were to do it with
+479000	481000	node
+481000	483000	it opens a lot of those
+483000	485000	be it on the back
+485000	487000	and front
+487000	489000	so likewise
+489000	491000	so basically JavaScript alone
+491000	493000	isn't much but when I
+493000	495000	when I join JS
+495000	497000	plus
+497000	499000	environment
+499000	501000	then it is like
+505000	507000	build
+507000	509000	apps
+509000	511000	be it front end app, back end app
+511000	513000	desktop app or anything
+513000	515000	so long story short
+515000	517000	so long story short
+517000	519000	you cannot really do much with JavaScript
+519000	521000	if you were to add it with some sort of environment
+521000	523000	you can do a lot with it
+523000	525000	just to give you an idea as I mentioned in the last class also
+525000	527000	something as trivial as console.log
+527000	529000	it is also not present there
+529000	531000	in JavaScript for that also you
+531000	533000	rely on some sort of environment
+533000	535000	which lets you do that
+535000	537000	and all of this was made possible
+537000	539000	simply because of something called V8 engine
+539000	541000	it is a
+541000	543000	Google's open source high performance
+543000	545000	JavaScript and WebAssembly
+545000	547000	engine
+547000	549000	so first of all V8 engine was
+549000	551000	introduced
+551000	553000	in Chrome
+555000	557000	and later
+557000	559000	it got open
+559000	561000	source with Chromium
+561000	563000	so you may have heard of this term
+563000	565000	let's say Brave or Edge
+565000	567000	all of these are Chromium based
+567000	569000	web browser
+569000	571000	so Chromium is an open source repository
+571000	573000	and on top of it they are building
+573000	575000	their own features like Microsoft has built
+575000	577000	this thing
+577000	579000	on its own engine
+579000	581000	but all of it ultimately takes inspiration
+581000	583000	from Chromium because Chromium has
+583000	585000	internally it is powered by
+585000	587000	V8 engine and that V8 engine
+587000	589000	was a game changer
+589000	591000	because if you think about it there are a lot of other
+591000	593000	languages out there
+593000	595000	but why is it that JavaScript was the only
+595000	597000	for which the trajectory went like this
+597000	599000	and now if you are a JavaScript
+599000	601000	developer you can get employed
+601000	603000	anywhere, anywhere in the sense
+603000	605000	across any domain
+605000	607000	so let's try
+607000	609000	out something
+609000	611000	for frontend
+611000	613000	if you were to have
+613000	615000	JS plus
+617000	619000	browsers
+619000	621000	for BE
+621000	623000	you have JS
+623000	625000	plus node
+625000	627000	for
+627000	629000	mobile
+629000	631000	you have JS
+631000	633000	plus
+633000	635000	ionic or
+637000	639000	react native
+639000	641000	for
+641000	643000	VR you have
+643000	645000	JS plus
+647000	649000	react VR
+649000	651000	for desktop application
+653000	655000	you have JS
+655000	657000	plus
+657000	659000	electron
+659000	661000	so if you
+661000	663000	think about it if you were to
+663000	665000	add JavaScript
+665000	667000	with any of these things you can do
+667000	669000	a lot of things
+669000	671000	the part
+671000	673000	where I mentioned that JavaScript is
+673000	675000	nothing
+675000	677000	JavaScript gives you nothing but logic
+677000	679000	now suddenly this seems like
+679000	681000	a super power because JavaScript
+681000	683000	is nothing but logic so which means
+683000	685000	I can mold it whatever
+685000	687000	way I want to work it across any
+687000	689000	domain I just need to choose
+689000	691000	the right environment
+691000	693000	but now a question pops into
+693000	695000	my head
+695000	697000	what exactly is it the environment
+697000	699000	do
+699000	701000	what exactly is it the environment do that
+701000	703000	powers JavaScript in such a way
+703000	705000	right so
+709000	711000	what
+711000	713000	exactly
+713000	715000	is the
+719000	721000	environment
+721000	723000	do
+723000	725000	or better word would be
+725000	727000	exposes
+733000	735000	or
+735000	737000	yes
+737000	739000	so how
+739000	741000	exactly is it able to do that
+741000	743000	it basically exposes
+743000	745000	some sort of methods
+747000	749000	methods or
+751000	753000	functions
+753000	755000	and where exactly are these
+755000	757000	let me instead of
+757000	759000	this it would make
+759000	761000	a lot more sense it basically
+761000	763000	exports functions
+763000	765000	right so these environment
+765000	767000	have predefined functions like
+767000	769000	browser give you some sort of function
+769000	771000	that you can utilize using JavaScript
+771000	773000	and make use of it
+773000	775000	and make your work to
+775000	777000	develop front end apps
+777000	779000	node gives you some function that you could utilize
+779000	781000	using JavaScript and
+781000	783000	develop back end apps likewise
+783000	785000	it basically exposes
+785000	787000	function now the question is how
+787000	789000	how exactly is it happening all
+789000	791000	of this happens
+791000	793000	because of something called
+793000	795000	objects
+795000	797000	which is why it is like go
+797000	799000	to statement to say
+799000	801000	JavaScript is nothing
+801000	803000	without objects because
+803000	805000	objects powers everything
+805000	807000	in JavaScript no matter what you were
+807000	809000	to name across any
+809000	811000	of these things be it
+811000	813000	be it
+813000	815000	browser node ionic
+815000	817000	react native react via
+817000	819000	electron all
+819000	821000	of this eventually boils down
+821000	823000	to some random function
+823000	825000	in a
+825000	827000	object right
+827000	829000	so just a quick show of hands if everyone is
+829000	831000	aware what object is what object
+831000	833000	data structure is by now I think you
+833000	835000	all would be knowing but just checking
+835000	837000	you all know right
+843000	845000	I know Dheeraj knows that
+845000	847000	that is for sure what about
+847000	849000	others
+849000	851000	Abhinav Varun
+851000	853000	Ashish, Shabhishek, Muniswara
+853000	855000	Hemangi, Ashwini, Raja,
+855000	857000	Rita, Sahil, Kiran
+857000	859000	Shashank we all know right
+859000	861000	correct it is nothing
+861000	863000	but key value pair so
+863000	865000	functions on a object
+867000	869000	this is how your typical object
+869000	871000	looks like everything in between
+871000	873000	is an object as long as it is a key
+873000	875000	value pair right so
+875000	877000	functions
+877000	879000	on an object are called methods
+881000	883000	functions
+883000	885000	on
+885000	887000	objects
+887000	889000	are
+889000	891000	called
+891000	893000	method
+893000	895000	this is very important
+895000	897000	people don't know
+897000	899000	this key what is the difference
+899000	901000	in between function and method all
+901000	903000	functions are method
+903000	905000	but not all methods are functions
+905000	907000	if you understand what I mean
+907000	909000	sorry it is the other way around
+909000	911000	all methods are functions but not all functions
+911000	913000	are methods because for
+913000	915000	it for a function to be a method
+915000	917000	it needs to be present on
+917000	919000	object body so suppose
+919000	921000	you have
+921000	923000	who
+923000	925000	something written
+925000	927000	like this
+927000	929000	and you have an object
+929000	931000	inside of it
+931000	933000	you have who written
+935000	937000	right
+937000	939000	so in this particular case
+939000	941000	who will be our
+941000	943000	method in this case it is a
+943000	945000	simple function
+945000	947000	right
+949000	951000	no no
+951000	953000	nothing much we were just covering up
+953000	955000	whatever we covered in the last class
+955000	957000	okay
+957000	959000	so with that now
+959000	961000	let us go
+961000	963000	now that I have told you
+963000	965000	this everything in
+965000	967000	JavaScript is possible because of
+967000	969000	objects and whatever
+969000	971000	information is moved across
+971000	973000	what exactly the environment brings in
+973000	975000	for JavaScript it brings in
+975000	977000	some sort of object and some
+977000	979000	methods available in an object for JavaScript
+979000	981000	to utilize them right
+981000	983000	so now I have told you this
+983000	985000	but now let us go and get some
+985000	987000	solid proof right
+987000	989000	so
+989000	991000	let's go to
+991000	993000	the code base so
+993000	995000	first of all is my screen
+995000	997000	is the text
+997000	999000	big enough yes
+999000	1001000	great
+1001000	1003000	so here
+1003000	1005000	if you remember in the last class what we did
+1005000	1007000	was I simply console
+1007000	1009000	document is basically a type of
+1009000	1011000	document
+1011000	1013000	likewise I did window is basically
+1013000	1015000	an type of
+1015000	1017000	window right we know for
+1017000	1019000	a fact that whatever DOM
+1019000	1021000	manipulation we had learned in the
+1021000	1023000	last class basically
+1023000	1025000	class 11
+1025000	1027000	if you remember if I were to open
+1027000	1029000	the questions also
+1029000	1031000	as you solve them you could see all of
+1031000	1033000	these things were present
+1033000	1035000	isn't this how you access
+1035000	1037000	an object using the dot
+1037000	1039000	notation likewise
+1041000	1043000	if I were to open
+1043000	1045000	here and check here you could see
+1045000	1047000	document is basically an
+1047000	1049000	object window is basically
+1049000	1051000	an object so this is a big thing
+1051000	1053000	so if window is basically an object
+1053000	1055000	window is a top most thing
+1055000	1057000	even above document
+1057000	1059000	it is here so which means key
+1059000	1061000	everything inside everything
+1061000	1063000	that you know of on this
+1063000	1065000	particular web page is
+1065000	1067000	available on this
+1067000	1069000	object so would you all agree
+1069000	1071000	with me key everything is an object
+1071000	1073000	especially when we're talking about front end
+1073000	1075000	development yes
+1075000	1077000	great
+1077000	1079000	so with that
+1079000	1081000	now let us go through
+1081000	1083000	the last
+1083000	1085000	question
+1085000	1087000	that we solved
+1087000	1089000	question number one it was
+1089000	1091000	a very simple question that we solved let
+1091000	1093000	me try
+1093000	1095000	opening it
+1095000	1097000	here
+1097000	1099000	let me just see
+1117000	1119000	this is what we had
+1119000	1121000	developed in the last class
+1121000	1123000	right
+1123000	1125000	if I were to click on hello
+1125000	1127000	more dom notes are getting added
+1127000	1129000	as you could see here also
+1129000	1131000	if you see
+1131000	1133000	focus here more dom
+1133000	1135000	notes keep on getting added as
+1135000	1137000	I click on this right now
+1137000	1139000	wait build it
+1139000	1141000	back then now let us go
+1141000	1143000	and exactly break
+1143000	1145000	down key what exactly is happening
+1145000	1147000	right so
+1147000	1149000	if you remember what we did we had a
+1149000	1151000	selector which again
+1151000	1153000	by the way is present on
+1153000	1155000	document so document is something
+1155000	1157000	which is again present on window
+1157000	1159000	so if I were to go here
+1159000	1161000	and do window dot document
+1161000	1163000	it would still select
+1163000	1165000	if I do document it would still
+1165000	1167000	select so basically this is like
+1167000	1169000	a shorthand instead of this I could have
+1169000	1171000	written window dot document
+1171000	1173000	and it would have
+1173000	1175000	other window is not defined
+1175000	1177000	because initially window is not defined
+1177000	1179000	but document is there so
+1179000	1181000	you can simply go ahead and do document dot
+1181000	1183000	query selector and
+1183000	1185000	once again document is something which
+1185000	1187000	is given to you by an environment
+1187000	1189000	which environment a browser environment
+1189000	1191000	in this particular case and
+1191000	1193000	you are able to select element
+1193000	1195000	so this again query selector
+1195000	1197000	can you tell me whether query selector is
+1197000	1199000	a function or a method
+1203000	1205000	method method method
+1205000	1207000	correct correct so it is a method
+1207000	1209000	it is not a function because it is present on
+1209000	1211000	an object called document
+1211000	1213000	right now
+1213000	1215000	let me
+1215000	1217000	even though we were not using
+1217000	1219000	this event I have shown you back then
+1219000	1221000	let me write a
+1221000	1223000	function here
+1223000	1225000	just a second
+1229000	1231000	let me write a
+1231000	1233000	declare a function cost handler
+1233000	1235000	is equal to
+1235000	1237000	something like this
+1237000	1239000	and inside of this I will move the
+1239000	1241000	this particular
+1241000	1243000	logic
+1243000	1245000	and
+1249000	1251000	now think of it this way
+1251000	1253000	what exactly is the structure
+1253000	1255000	of query
+1255000	1257000	sorry add event listener
+1257000	1259000	so this
+1259000	1261000	document dot query selector this also
+1261000	1263000	must have returned something in
+1263000	1265000	that we are storing in detail element
+1265000	1267000	right but if you
+1267000	1269000	focus here here also we are using
+1269000	1271000	the dot notation so which means
+1271000	1273000	here also it must be
+1273000	1275000	given some sort of object only
+1275000	1277000	so some object is stored in btn
+1277000	1279000	element that we
+1279000	1281000	are accessing on that object
+1281000	1283000	we have something called add
+1283000	1285000	event listener present and that
+1285000	1287000	takes two things
+1287000	1289000	it basically takes
+1289000	1291000	an event
+1291000	1293000	and it takes a
+1293000	1295000	callback right
+1295000	1297000	so whatever is the definition if you were
+1297000	1299000	to go to mdn you would
+1299000	1301000	find something like this only
+1301000	1303000	this
+1303000	1305000	document dot query selector
+1305000	1307000	returns an object that you can store in
+1307000	1309000	a variable and you can attach
+1309000	1311000	an event listener on it
+1311000	1313000	by saying that for this
+1313000	1315000	particular event whenever this event is
+1315000	1317000	noticed in this btn element
+1317000	1319000	just do call this function
+1319000	1321000	so what we did
+1321000	1323000	was we did this
+1323000	1325000	and how do I know
+1325000	1327000	what exactly was the event fired
+1327000	1329000	so which is why it also
+1329000	1331000	passes in that particular callback
+1331000	1333000	it gives me an event
+1333000	1335000	which I think we saw in the last
+1335000	1337000	class also but
+1337000	1339000	let me simply console it here
+1339000	1341000	and now you would see
+1341000	1343000	when I click here I am getting an
+1343000	1345000	event right so this event
+1345000	1347000	tells me everything
+1347000	1349000	this event again by the way is an object
+1349000	1351000	as you could see there is a key value pair
+1351000	1353000	correct
+1353000	1355000	so now think about it like this
+1355000	1357000	whatever you may be
+1357000	1359000	whatever you may want to know about this
+1359000	1361000	particular event
+1361000	1363000	what actually happened on your web page
+1363000	1365000	someone clicked right
+1365000	1367000	all possible thing
+1367000	1369000	is mentioned here
+1369000	1371000	so
+1379000	1381000	so one of the things
+1381000	1383000	as you could see here
+1383000	1385000	here it says alt key
+1385000	1387000	here it says
+1387000	1389000	alt key is false
+1389000	1391000	but here it says alt key is true
+1391000	1393000	all I did was by
+1393000	1395000	clicking I also pressed on the
+1395000	1397000	alt key
+1397000	1399000	this should tell you that
+1399000	1401000	this gives you so much information
+1401000	1403000	that what actually has happened
+1403000	1405000	now you can imagine whenever someone
+1405000	1407000	was copying test and they were doing
+1407000	1409000	easy you could put a check for it
+1409000	1411000	if they are pressing this particular key
+1411000	1413000	and
+1413000	1415000	let's say they are pressing the alt key
+1415000	1417000	or in this particular case control key
+1417000	1419000	you can say
+1419000	1421000	the user wants to copy
+1421000	1423000	so these are all tools which are made
+1423000	1425000	available to you now
+1425000	1427000	it must be starting to making sense
+1427000	1429000	what exactly this event is all about
+1429000	1431000	event gives you something called target
+1431000	1433000	and
+1433000	1435000	it gives you
+1435000	1437000	basically all sort of information about
+1437000	1439000	this particular component
+1439000	1441000	this particular tag and
+1441000	1443000	what exactly was
+1443000	1445000	the keystroke all about
+1445000	1447000	right
+1447000	1449000	and I can
+1449000	1451000	simply put this handler
+1451000	1453000	in here since
+1453000	1455000	I am not using anything
+1455000	1457000	the event I can
+1457000	1459000	ignore it and if I click on it
+1459000	1461000	it is still working
+1461000	1463000	right
+1463000	1465000	so that is the
+1465000	1467000	best part about
+1467000	1469000	JavaScript
+1469000	1471000	right
+1471000	1473000	so now would you agree with me when I say
+1473000	1475000	everything in JavaScript is an object
+1475000	1477000	now that
+1477000	1479000	we have seen some solid proof as well
+1487000	1489000	cool
+1489000	1491000	now let me
+1491000	1493000	close this and tell you what
+1493000	1495000	we will be doing now
+1495000	1497000	for this particular class we just have to
+1497000	1499000	solve these three problems that's it
+1499000	1501000	we will be solving these three problems
+1501000	1503000	and to solve these three problems
+1503000	1505000	we need to learn something
+1505000	1507000	no
+1507000	1509000	we were just getting started with the meaty
+1509000	1511000	part of the lecture now
+1511000	1513000	actually you are right on time
+1515000	1517000	cool
+1517000	1519000	so now
+1519000	1521000	all we have to do is
+1521000	1523000	call
+1523000	1525000	solve these three problems
+1525000	1527000	so let's focus on question one
+1527000	1529000	so the way that we will be moving forward now
+1529000	1531000	is that we will see this problem
+1531000	1533000	then we will try to
+1533000	1535000	solve it one way then we will learn
+1535000	1537000	something new and then
+1537000	1539000	you need to help me solve it
+1539000	1541000	the new way
+1541000	1543000	does that work
+1543000	1545000	I hope everyone
+1545000	1547000	is able to follow
+1547000	1549000	this
+1549000	1551000	right
+1551000	1553000	Abhinav, Ankit, Abhishek
+1553000	1555000	the pace and all is ok right
+1555000	1557000	Chinmay, Dheeraj,
+1557000	1559000	Brahmod, Pradeep, Himangi
+1559000	1561000	Sambet
+1561000	1563000	Shambhu Raje
+1563000	1565000	great great great
+1565000	1567000	cool then
+1567000	1569000	let's get started with the
+1573000	1575000	let's get started with the
+1575000	1577000	problem then
+1577000	1579000	ok
+1579000	1581000	so
+1581000	1583000	let me open the problem
+1583000	1585000	here first
+1585000	1587000	let me make it two
+1587000	1589000	ok
+1589000	1591000	so initial thoughts I see
+1591000	1593000	there is a remove all button at the top
+1593000	1595000	and there are n number of tasks here
+1595000	1597000	and with a delete option present
+1597000	1599000	with them
+1599000	1601000	right so it looks more or less
+1601000	1603000	like a to do list
+1603000	1605000	correct it looks like a
+1605000	1607000	to do list and we somehow need to make it work
+1607000	1609000	let's go through the problem statement
+1609000	1611000	first so there are two things
+1611000	1613000	that we need to do first
+1613000	1615000	make all button works
+1615000	1617000	all remove all button so
+1617000	1619000	idea is when I click on this
+1619000	1621000	the entire thing should be
+1621000	1623000	removed right so this
+1623000	1625000	is the first thing
+1625000	1627000	and the second thing is also
+1627000	1629000	make individual delete button
+1629000	1631000	work ok so when I click
+1631000	1633000	on this delete right now nothing is happening
+1633000	1635000	but when I click on this
+1635000	1637000	when I click on
+1637000	1639000	let's say this button
+1639000	1641000	this entire li should be
+1641000	1643000	disappeared not that this should
+1643000	1645000	be disappeared so
+1645000	1647000	ok
+1647000	1649000	great so
+1649000	1651000	what would be the brute force way of
+1651000	1653000	solving it
+1653000	1655000	let's start with the first one
+1655000	1657000	remove all button so I
+1657000	1659000	think oh the idea is present here
+1659000	1661000	already I can most probably
+1661000	1663000	target
+1663000	1665000	this id and
+1665000	1667000	on click of this button I can simply
+1667000	1669000	remove
+1669000	1671000	the ul tag
+1671000	1673000	this we can do display none
+1673000	1675000	also but if you
+1675000	1677000	want to remove it completely from your
+1677000	1679000	DOM then in that case
+1679000	1681000	a method
+1681000	1683000	is provided to us remove
+1683000	1685000	right so this
+1685000	1687000	time we won't be relying on
+1687000	1689000	CSS instead we will be relying
+1689000	1691000	on these objects
+1691000	1693000	JavaScript methods which are
+1693000	1695000	given to us through events and
+1695000	1697000	all cool
+1697000	1699000	great yeah
+1699000	1701000	so easy stuff
+1701000	1703000	I know the first part is at least
+1703000	1705000	easy so
+1705000	1707000	we will be needing your help now
+1707000	1709000	the idea is all how
+1709000	1711000	can I target this button what should I write
+1711000	1713000	here anyone
+1713000	1715000	what should I write here
+1717000	1719000	here
+1719000	1721000	here
+1727000	1729000	select query
+1729000	1731000	no
+1731000	1733000	there is nothing called select query
+1733000	1735000	talking about
+1735000	1737000	JavaScript select query is not there
+1737000	1739000	correct Rita
+1739000	1741000	we can use query
+1741000	1743000	selector and get element
+1743000	1745000	by id so Ashish
+1745000	1747000	so I think there was a type on
+1747000	1749000	your end instead of select query I think you
+1749000	1751000	wanted to write query selector
+1751000	1753000	correct but
+1753000	1755000	one thing that
+1755000	1757000	Rita miss was this is an id
+1757000	1759000	so you cannot actually use
+1759000	1761000	.btn instead
+1761000	1763000	as Ashish
+1763000	1765000	you need to use hashtag
+1765000	1767000	right and since you were doing
+1767000	1769000	query selector it won't work
+1769000	1771000	also that way
+1771000	1773000	great anyway
+1773000	1775000	so let me
+1775000	1777000	just write it down
+1777000	1779000	then so all I
+1779000	1781000	need to do is remove
+1781000	1783000	all btn is
+1783000	1785000	equal to query
+1785000	1787000	selector is available on document
+1787000	1789000	object so I can do
+1789000	1791000	document.query selector
+1791000	1793000	and since we are targeting
+1793000	1795000	id I can simply
+1795000	1797000	this
+1797000	1799000	now if I go to console
+1799000	1801000	console
+1801000	1803000	remove all button
+1803000	1805000	you would see I am
+1805000	1807000	finding the button here
+1807000	1809000	so I am able to target it
+1809000	1811000	it looks like a tag because that is how
+1811000	1813000	the browser is showing it to you but in
+1813000	1815000	reality it is nothing but
+1815000	1817000	an object
+1817000	1819000	right it is nothing but
+1819000	1821000	an object
+1829000	1831000	.getElementId
+1831000	1833000	also
+1833000	1835000	work right yes
+1835000	1837000	getElementId
+1837000	1839000	would also work
+1839000	1841000	so now that
+1841000	1843000	I have this with me
+1843000	1845000	so which means I can
+1845000	1847000	now use methods which are available
+1847000	1849000	on this particular object
+1849000	1851000	to remove it right
+1851000	1853000	but what exactly is it that we want to
+1853000	1855000	remove
+1855000	1857000	remember we discussed whenever the user
+1857000	1859000	is using this I ideally want to remove
+1859000	1861000	this whole ul so maybe
+1861000	1863000	I can somehow target a ul as
+1863000	1865000	I can see there is only one ul
+1865000	1867000	I can simply
+1867000	1869000	write it like this const
+1869000	1871000	all items is equal to
+1871000	1873000	document.query
+1873000	1875000	selector
+1875000	1877000	and here I can say
+1877000	1879000	ul because there is only
+1879000	1881000	one ul so it would definitely
+1881000	1883000	work in my favor
+1883000	1885000	and I can simply use
+1885000	1887000	remove all btn dot
+1887000	1889000	addEventListener
+1889000	1891000	so this again is
+1891000	1893000	a method which is available on
+1893000	1895000	all btn method
+1895000	1897000	all btn
+1897000	1899000	object in here if
+1899000	1901000	you remember we need to pass event
+1901000	1903000	and callback
+1903000	1905000	right so I can
+1905000	1907000	go and say
+1907000	1909000	I can go
+1909000	1911000	here and say
+1911000	1913000	delete
+1913000	1915000	an event
+1915000	1917000	using
+1917000	1919000	JavaScript
+1919000	1921000	it mentions remove
+1921000	1923000	method
+1923000	1925000	and here also if you focus
+1925000	1927000	here it says method not function
+1927000	1929000	so this is the key
+1929000	1931000	difference but now I think
+1931000	1933000	it all makes sense
+1933000	1935000	so simple thing
+1935000	1937000	event is going to be
+1937000	1939000	click and callback
+1939000	1941000	is going to be
+1941000	1943000	do we need to use
+1943000	1945000	event here
+1945000	1947000	right now I don't think there is any need for event right
+1947000	1949000	so all I can do is go
+1949000	1951000	here and say
+1951000	1953000	all items dot
+1953000	1955000	remove
+1955000	1957000	would it work yes or no
+1957000	1959000	how many of you say it would work
+1961000	1963000	ok
+1965000	1967000	let's see
+1967000	1969000	if it works
+1971000	1973000	right
+1973000	1975000	so congratulations
+1975000	1977000	it is working
+1977000	1979000	so
+1979000	1981000	the first part is done
+1981000	1983000	now comes the second part
+1983000	1985000	now this is
+1985000	1987000	a bit tricky because
+1987000	1989000	if you think about it
+1989000	1991000	up until now we had this
+1991000	1993000	button and on click of this we simply
+1993000	1995000	had to delete this
+1995000	1997000	ul tag right which I
+1997000	1999000	targeted here but now I
+1999000	2001000	either have to put
+2001000	2003000	this id
+2003000	2005000	on each of these
+2005000	2007000	button because how else
+2007000	2009000	an id on this l i
+2009000	2011000	otherwise how else would I know
+2011000	2013000	which of these delete button
+2013000	2015000	was clicked
+2015000	2017000	which of these delete button was clicked
+2017000	2019000	and on click of these
+2019000	2021000	delete button which
+2021000	2023000	this thing I had to delete
+2023000	2025000	ok
+2025000	2027000	now
+2027000	2029000	there is no reset
+2029000	2031000	possible once removed Kabir
+2031000	2033000	you need to add it on your own
+2033000	2035000	ha
+2035000	2037000	Ashish that is right
+2037000	2039000	so that is one way of doing things
+2039000	2041000	you can put id on each of the element
+2041000	2043000	each of the l i element
+2043000	2045000	but my question is
+2045000	2047000	do you think
+2047000	2049000	that is the ideal way to go forward
+2049000	2051000	how about others what do you think
+2051000	2053000	I will go forward
+2053000	2055000	I put one id on this button
+2055000	2057000	one id on l i
+2057000	2059000	one id on this button one id on l i
+2059000	2061000	here you have four
+2061000	2063000	but you could potentially have
+2063000	2065000	10, 20, 30, 40
+2065000	2067000	I think we can
+2067000	2069000	index ok
+2069000	2071000	we can also use
+2071000	2073000	query selector
+2073000	2075000	all that is also one way to do
+2075000	2077000	you can use class
+2077000	2079000	yes you can use class
+2079000	2081000	but if you were to use class
+2081000	2083000	on click of this l i tag
+2083000	2085000	this delete button
+2085000	2087000	how would you know which class
+2087000	2089000	which l i with that
+2089000	2091000	particular class you had to remove
+2091000	2093000	so there is a problem
+2093000	2095000	and the problem no matter what solution
+2095000	2097000	we find
+2097000	2099000	it is going to be more or less a hacky way
+2099000	2101000	of solving things
+2101000	2103000	so what is the
+2103000	2105000	best practice
+2105000	2107000	when you come across this problem
+2107000	2109000	so first of all let us talk about
+2109000	2111000	brute force approach
+2111000	2113000	which is still somewhat good
+2113000	2115000	right
+2115000	2117000	so let's
+2117000	2119000	do that
+2119000	2121000	so we will remove
+2121000	2123000	all button for now
+2123000	2125000	and all I am going
+2125000	2127000	to do is to const
+2127000	2129000	all btns
+2129000	2131000	or let's say all
+2131000	2133000	del btn
+2133000	2135000	all delete button
+2135000	2137000	is equal to
+2137000	2139000	document dot
+2139000	2141000	query selector all
+2143000	2145000	how can
+2145000	2147000	I target these buttons
+2149000	2151000	I can simply do
+2153000	2155000	ul
+2155000	2157000	it would target
+2157000	2159000	everything
+2159000	2161000	so if I were to console
+2161000	2163000	all del
+2163000	2165000	button
+2165000	2167000	sorry
+2167000	2169000	btn
+2171000	2173000	all del
+2173000	2175000	btn you would see it has
+2175000	2177000	given me four buttons
+2177000	2179000	right now
+2179000	2181000	wanted
+2181000	2183000	we can do parent remove
+2183000	2185000	ok so kiran is
+2185000	2187000	definitely onto something here
+2187000	2189000	kiran says if I were to
+2189000	2191000	click any of this button
+2191000	2193000	I can remove its parent
+2193000	2195000	right and
+2195000	2197000	if I were to go with that logic
+2197000	2199000	it would make perfect sense
+2199000	2201000	why because for each of these
+2201000	2203000	if you remember from our last class
+2203000	2205000	we learned no matter a parent
+2205000	2207000	can have multiple children
+2207000	2209000	but each of those children
+2209000	2211000	will have only one parent and that
+2211000	2213000	is exactly what we want here
+2213000	2215000	so what we want to do on click
+2215000	2217000	of any of these button
+2217000	2219000	I need to delete their parent
+2219000	2221000	so tell me
+2221000	2223000	what should I google
+2225000	2227000	how to get
+2227000	2229000	parent
+2229000	2231000	element
+2231000	2233000	for any
+2237000	2239000	how to get
+2239000	2241000	parent for any element
+2241000	2243000	in javascript
+2243000	2245000	ta ta ta
+2247000	2249000	ok
+2249000	2251000	you get
+2251000	2253000	parent node
+2253000	2255000	since we are using note list
+2255000	2257000	it is going to be parent
+2257000	2259000	node in our case
+2259000	2261000	so which means if we were to go
+2261000	2263000	ahead with kiran's logic
+2263000	2265000	all we have to do on click of any of these
+2265000	2267000	buttons I had to remove
+2267000	2269000	this li basically
+2269000	2271000	the parent of this button
+2271000	2273000	that makes sense
+2273000	2275000	correct I hope everyone is following
+2277000	2279000	yes
+2279000	2281000	so let us
+2281000	2283000	go ahead and
+2283000	2285000	so which means we still have to
+2285000	2287000	add event listener to each one of them
+2287000	2289000	so let's do that
+2289000	2291000	let me do for let i
+2291000	2293000	is equal to 0
+2293000	2295000	i is less than or del
+2295000	2297000	btn
+2297000	2299000	dot length
+2299000	2301000	and do i
+2301000	2303000	plus plus that's it
+2303000	2305000	right and inside of this
+2305000	2307000	we can
+2307000	2309000	say
+2311000	2313000	all del
+2313000	2315000	btn i
+2315000	2317000	dot
+2317000	2319000	add event listener
+2319000	2321000	what is the event that we are
+2321000	2323000	listening for click
+2323000	2325000	and I need to write a
+2325000	2327000	call back here
+2327000	2329000	and in this call back
+2329000	2331000	I can simply say
+2331000	2333000	this button
+2333000	2335000	there is another method which is available
+2335000	2337000	parent
+2337000	2339000	node
+2339000	2341000	dot
+2341000	2343000	remove
+2343000	2345000	right so this
+2345000	2347000	loop will go on and
+2347000	2349000	it will add event listener
+2349000	2351000	on total of 4
+2351000	2353000	elements
+2353000	2355000	right now
+2355000	2357000	it somewhat makes sense let's go and test
+2357000	2359000	it out if I click
+2359000	2361000	this task to only this
+2361000	2363000	should be deleted let me
+2363000	2365000	open elements also
+2365000	2367000	and expand I am going
+2367000	2369000	to click on this del button
+2369000	2371000	and there is only one parent let's see
+2373000	2375000	it works so
+2375000	2377000	thank you for suggesting that
+2377000	2379000	it works I am able to date
+2379000	2381000	individual elements and I can
+2381000	2383000	remove all also right
+2383000	2385000	so we are able to solve the first
+2385000	2387000	problem now my question
+2387000	2389000	to you is
+2389000	2391000	though it works do you think
+2391000	2393000	it is the best solution out there
+2393000	2395000	considering that we have to attach
+2395000	2397000	event listener on each of those buttons
+2397000	2399000	think
+2399000	2401000	it true tell me
+2401000	2403000	do you think it is the best solution
+2403000	2405000	right now there are 4 buttons
+2405000	2407000	but what if there were 10 buttons
+2407000	2409000	you had a web page or let's say
+2409000	2411000	you are building a form there you could have
+2411000	2413000	potentially 10, 15, 20 buttons
+2413000	2415000	even though your JavaScript
+2415000	2417000	web page would still be able to handle it
+2417000	2419000	but each of those buttons is doing some heavy operation
+2419000	2421000	right so which means
+2421000	2423000	it would all eventually catch up
+2423000	2425000	can you explain
+2425000	2427000	query selector ql
+2427000	2429000	ok
+2429000	2431000	we will do that just some later on
+2431000	2433000	so before that just wanted
+2433000	2435000	to conclude this even though
+2435000	2437000	it works it is not the best solution
+2437000	2439000	because on each
+2439000	2441000	of those nodes you have to
+2441000	2443000	add an event listener
+2443000	2445000	each of these buttons maybe
+2445000	2447000	it could have been helpful
+2447000	2449000	if and only
+2449000	2451000	if you could add just one
+2451000	2453000	event listener click
+2453000	2455000	not many just one
+2455000	2457000	and that one event listener would take care
+2457000	2459000	of the entire thing
+2459000	2461000	no matter which button you click it should work
+2461000	2463000	right wouldn't that be the best
+2463000	2465000	thing wouldn't that be the best solution
+2465000	2467000	you are
+2467000	2469000	able to
+2469000	2471000	achieve the functionality
+2471000	2473000	you are not overpopulating your
+2473000	2475000	DOM with n number of
+2475000	2477000	event listener but there is only one
+2477000	2479000	right
+2479000	2481000	so that is something
+2481000	2483000	that we will be implementing in a while
+2483000	2485000	but before that let me revisit
+2485000	2487000	line number
+2487000	2489000	this
+2489000	2491000	so basically Arun
+2491000	2493000	if you were there in our class number
+2493000	2495000	11 we discussed query selector all
+2495000	2497000	it is a way of selecting the element
+2497000	2499000	from the DOM right
+2499000	2501000	so remember how you write CSS
+2501000	2503000	how do you select this
+2503000	2505000	button if you were to
+2505000	2507000	you could have written li
+2507000	2509000	the button you could have written any of those
+2509000	2511000	you cannot directly write button because
+2511000	2513000	that CSS would be applied to this button also
+2513000	2515000	line number 12 which you don't want
+2515000	2517000	so you explicitly want to say
+2517000	2519000	all the button which is present
+2519000	2521000	inside of ul
+2521000	2523000	so for that to say I have written
+2523000	2525000	element like this so whenever you write query selector
+2525000	2527000	you can write things like this
+2527000	2529000	right otherwise
+2529000	2531000	think of it like
+2531000	2533000	you are writing CSS selector
+2533000	2535000	only basically you have to write CSS
+2535000	2537000	selector only here
+2537000	2539000	cool
+2539000	2541000	so now that we have established
+2541000	2543000	even though this works
+2543000	2545000	there is still a better solution out
+2545000	2547000	there so now let us go ahead and try
+2547000	2549000	and figure out what that solution is
+2549000	2551000	and how we are going to make
+2551000	2553000	it work right and this
+2553000	2555000	by the way is a classic example of
+2555000	2557000	polymorphism that you may have heard
+2557000	2559000	of in object oriented programming
+2559000	2561000	there are multiple ways of doing one thing
+2561000	2563000	this also works
+2563000	2565000	but this is not the ideal solution
+2565000	2567000	so we are going with another
+2567000	2569000	solution now which is the ideal one
+2569000	2571000	and it works
+2571000	2573000	so
+2573000	2575000	just a second
+2575000	2577000	before
+2577000	2579000	that
+2579000	2581000	let me
+2581000	2583000	let me
+2603000	2605000	so there is
+2605000	2607000	something called
+2607000	2609000	event bubbling
+2611000	2613000	how many of you
+2613000	2615000	have heard of this thing
+2615000	2617000	event bubbling
+2623000	2625000	now
+2625000	2627000	we will get to it
+2627000	2629000	so
+2629000	2631000	let us quickly see
+2631000	2633000	if event
+2633000	2635000	that we are getting in the callback
+2635000	2637000	maybe that would be able to help us
+2637000	2639000	so what the idea is
+2639000	2641000	I will be I will not be including
+2641000	2643000	the
+2643000	2645000	add event listener on each of these things
+2645000	2647000	instead what is the common
+2647000	2649000	parent of all of
+2649000	2651000	these buttons
+2651000	2653000	what is the common
+2653000	2655000	parent for all of these buttons
+2655000	2657000	is it D tag
+2657000	2659000	allied tag dual tag
+2659000	2661000	out of these three which is the common
+2661000	2663000	parent
+2663000	2665000	so
+2665000	2667000	UL is the thing
+2667000	2669000	luckily we have selected
+2669000	2671000	UL here
+2671000	2673000	so we will be
+2673000	2675000	attaching the event listener on
+2675000	2677000	UL
+2677000	2679000	add event listener
+2679000	2681000	and
+2681000	2683000	event listener takes
+2683000	2685000	in two things
+2685000	2687000	first it takes the event then it takes
+2687000	2689000	the
+2689000	2691000	then it takes
+2697000	2699000	it takes
+2699000	2701000	it takes the callback
+2701000	2703000	correct
+2703000	2705000	ally can be right to
+2705000	2707000	no ally will not be right why
+2707000	2709000	because this ally is a parent of
+2709000	2711000	this button but I cannot use
+2711000	2713000	the same ally for this button
+2713000	2715000	right because ally is different
+2715000	2717000	so UL is the common parent
+2717000	2719000	right
+2721000	2723000	so let us
+2723000	2725000	go ahead and
+2725000	2727000	write the code for this now all we have to
+2727000	2729000	do is the event is
+2729000	2731000	definitely going to be clicked as you
+2731000	2733000	had seen here also
+2733000	2735000	and now we need
+2735000	2737000	to have some sort of callback and
+2737000	2739000	in this callback I will be getting
+2739000	2741000	an event this by the way
+2741000	2743000	again just a reminder this
+2743000	2745000	is just an
+2745000	2747000	argument so name
+2747000	2749000	can be anything I can change this to
+2749000	2751000	and it would still work
+2751000	2753000	so but the common practice
+2753000	2755000	across is you either use
+2755000	2757000	E or you use event
+2757000	2759000	right
+2759000	2761000	we are concerned with event
+2761000	2763000	now let me quickly see
+2763000	2765000	is event giving me something
+2765000	2767000	which I can use to target
+2767000	2769000	which button was clicked
+2769000	2771000	right
+2771000	2773000	so
+2773000	2775000	I have
+2775000	2777000	event let's go to console
+2777000	2779000	do this okay
+2779000	2781000	okay they both
+2781000	2783000	look alike but if I were to
+2783000	2785000	go down
+2785000	2787000	and select the target
+2787000	2789000	when I hover over this target you see
+2789000	2791000	task two is getting selected
+2791000	2793000	but when I hover over
+2795000	2797000	this target task one is getting selected
+2797000	2799000	so which means this works
+2799000	2801000	event gives me a way of
+2801000	2803000	identifying which of these buttons is
+2803000	2805000	and right now I only have one add event
+2805000	2807000	so which means I am definitely going in the right
+2807000	2809000	direction that is for sure
+2809000	2811000	so now let us go ahead
+2811000	2813000	and
+2813000	2815000	do something here
+2815000	2817000	so I know for a fact that
+2817000	2819000	in this callback event
+2819000	2821000	which by the way again is an object
+2821000	2823000	nothing else
+2823000	2825000	JavaScript may sound complicated but
+2825000	2827000	everything boils down to object
+2827000	2829000	event is an object and
+2829000	2831000	I can simply store
+2831000	2833000	the delete button
+2833000	2835000	you could say directly here
+2835000	2837000	right I can say
+2837000	2839000	const
+2839000	2841000	lm is equal to
+2841000	2843000	event.target
+2843000	2845000	right and
+2845000	2847000	just to prove it to you I can even say
+2847000	2849000	lm name is
+2849000	2851000	equal to
+2851000	2853000	event.
+2853000	2855000	tag name
+2855000	2857000	and I can
+2857000	2859000	console
+2859000	2861000	name so if I were to go here you see
+2861000	2863000	it is getting
+2863000	2865000	undefined maybe it is
+2865000	2867000	named something else
+2867000	2869000	sorry sorry
+2869000	2871000	this again
+2871000	2873000	event.target
+2873000	2875000	inside of it I would be having the name
+2875000	2877000	so
+2877000	2879000	see we are getting button
+2881000	2883000	so which means
+2883000	2885000	I am able to identify
+2885000	2887000	now all I have to do is pretty simple
+2887000	2889000	I need to copy this
+2889000	2891000	function that I had written
+2891000	2893000	paste it here and
+2893000	2895000	change this to
+2895000	2897000	lm that's it I can remove
+2897000	2899000	the name by the way
+2899000	2901000	now if I were to save this go here and do
+2901000	2903000	this
+2903000	2905000	I am able to delete
+2905000	2907000	right
+2907000	2909000	so which
+2909000	2911000	way was better the first
+2911000	2913000	one or the second one
+2913000	2915000	keep in mind that we added one
+2915000	2917000	event listener here in here
+2917000	2919000	we added two event listeners
+2919000	2921000	sorry one event listener here we added four
+2921000	2923000	here we added one so which one was
+2923000	2925000	better first or second
+2925000	2927000	which one do you think
+2927000	2929000	was better
+2929000	2931000	which one do you think was better
+2933000	2935000	but unnecessary clicks also getting
+2935000	2937000	fired correct that is fine
+2939000	2941000	clicks
+2941000	2943000	let me tell you this key
+2943000	2945000	in javascript
+2945000	2947000	in future classes you will learn about this
+2947000	2949000	then it would make a lot
+2949000	2951000	more sense
+2951000	2953000	there is something called a main thread
+2953000	2955000	you will study this I think
+2955000	2957000	as the some of the last
+2957000	2959000	classes of javascript you will learn
+2959000	2961000	about this and it is pretty interesting
+2961000	2963000	when you learn about the JS architecture
+2963000	2965000	in detail what exactly is
+2965000	2967000	event clue what is callback queue
+2967000	2969000	what is the speed at which
+2969000	2971000	javascript actually processes
+2971000	2973000	right so
+2973000	2975000	you will get your answer
+2975000	2977000	in that class Ashwini
+2977000	2979000	I don't want to overwhelm you
+2979000	2981000	with it right now but just to
+2981000	2983000	give you a brief idea no matter
+2983000	2985000	what you do javascript is
+2985000	2987000	processing continuously
+2987000	2989000	right it is processing continuously
+2989000	2991000	the main thread is never free
+2991000	2993000	it is just that it is
+2993000	2995000	always doing something but it makes time for
+2995000	2997000	these events these events are the easiest
+2997000	2999000	thing for main thread to
+2999000	3001000	manage right
+3001000	3003000	I hope
+3003000	3005000	sorry I think screen share is most important
+3007000	3009000	screen visible
+3013000	3015000	so I hope
+3015000	3017000	Ashwini that answered your question
+3017000	3019000	without saying
+3019000	3021000	much
+3021000	3023000	right
+3023000	3025000	cool
+3025000	3027000	so there is one tiny problem with this
+3027000	3029000	solution there is one
+3029000	3031000	tiny problem that even though
+3031000	3033000	I click on this task
+3033000	3035000	it is getting
+3035000	3037000	removed if I click on task
+3037000	3039000	4 it is getting removed
+3039000	3041000	so can you tell me why is that happening
+3043000	3045000	any idea
+3045000	3047000	that is happening because
+3047000	3049000	your event whenever
+3049000	3051000	you correct
+3051000	3053000	the parent is still the same because
+3053000	3055000	the parent is still the same and you haven't
+3055000	3057000	explicitly said that
+3057000	3059000	on click of what
+3059000	3061000	on li
+3061000	3063000	all items
+3063000	3065000	basically is
+3065000	3067000	all items
+3067000	3069000	basically
+3069000	3071000	all items basically is the
+3071000	3073000	entire thing
+3073000	3075000	so if you click
+3075000	3077000	anywhere if you click anywhere
+3077000	3079000	we will
+3079000	3081000	learn about it in the second question in detail
+3081000	3083000	the event basically bubbles
+3083000	3085000	to the top
+3085000	3087000	so event was generated here
+3087000	3089000	but it bubbles to the top to
+3089000	3091000	UL right
+3091000	3093000	which is why even if you click
+3093000	3095000	anywhere be task
+3095000	3097000	2 be task 1 it will
+3097000	3099000	go up and while
+3099000	3101000	going up it applies to you
+3101000	3103000	so do you think of a way
+3103000	3105000	we could put some sort of
+3105000	3107000	a check
+3107000	3109000	if only this delete was
+3109000	3111000	clicked not the entire thing
+3111000	3113000	anywhere but only delete
+3113000	3115000	so
+3115000	3117000	do you think there is a way
+3117000	3119000	to somehow know the
+3119000	3121000	tag name
+3121000	3123000	is there a way
+3123000	3125000	to know the tag name because
+3125000	3127000	if I were to click here we would
+3127000	3129000	be giving up we
+3129000	3131000	would be getting a p tag
+3131000	3133000	right but if I were to click on
+3133000	3135000	this button I would be getting a button
+3135000	3137000	tag correct actually
+3137000	3139000	if you remember we
+3139000	3141000	had done it like this const
+3141000	3143000	tag name is equal
+3143000	3145000	to lm.
+3145000	3147000	tag
+3147000	3149000	name and I can
+3149000	3151000	simply put a check here
+3151000	3153000	in simple English language
+3153000	3155000	if tag name
+3155000	3157000	is equal to
+3157000	3159000	button then
+3159000	3161000	remove
+3161000	3163000	otherwise
+3163000	3165000	do
+3165000	3167000	right so when I save this
+3167000	3169000	go ahead do this and come
+3169000	3171000	back here and
+3171000	3173000	just for testing
+3173000	3175000	purpose I will
+3175000	3177000	include
+3177000	3179000	this also
+3187000	3189000	so when I click on task two
+3189000	3191000	event is fired as you could see
+3191000	3193000	event was fired and
+3193000	3195000	the callback function was called but
+3195000	3197000	since it was p tag
+3197000	3199000	this condition failed
+3199000	3201000	and parent didn't get removed
+3201000	3203000	but when I click
+3203000	3205000	on delete button
+3205000	3207000	it got removed
+3207000	3209000	delete button it got removed
+3209000	3211000	so this to me
+3211000	3213000	seems like a
+3213000	3215000	better solution than this
+3217000	3219000	right
+3219000	3221000	any queries here
+3221000	3223000	any queries for this part
+3223000	3225000	this question
+3225000	3227000	we saw the brute force approach
+3227000	3229000	we learnt about
+3229000	3231000	event basically holds
+3231000	3233000	the entire thing
+3233000	3235000	no matter what you want to know
+3235000	3237000	even right now
+3237000	3239000	it would make a little bit more sense when I say
+3239000	3241000	event holds all the data
+3241000	3243000	that you could possibly need to make a decision
+3243000	3245000	right
+3245000	3247000	so anyone
+3247000	3249000	is there anyone who
+3249000	3251000	is it clear to everyone
+3251000	3253000	should we move forward to question two
+3255000	3257000	yes
+3257000	3259000	Abhinav, Vanket, Abhimanyu
+3259000	3261000	Abhishek, Arun
+3261000	3263000	Ahmed, Ashwini, Ashish
+3263000	3265000	Dheera, Srimangir, Muniswara, Pradeep
+3265000	3267000	Pramod, Shaikh, Sambit, Rita
+3267000	3269000	Vinay, Upendra, Tejan, Rohesh
+3269000	3271000	Shambhu, Rajesh, Ashank
+3271000	3273000	all able to follow right
+3273000	3275000	let's move on
+3275000	3277000	let us up the level a bit
+3277000	3279000	and now we will talk about
+3279000	3281000	question two
+3281000	3283000	so let me change it here
+3283000	3285000	also
+3285000	3287000	question two
+3287000	3289000	okay
+3289000	3291000	we have a button called double
+3291000	3293000	that's it
+3293000	3295000	HTML also just says double
+3295000	3297000	with something called double
+3297000	3299000	holder
+3299000	3301000	so there are two things that we have to do here
+3311000	3313000	two things that you have to do here
+3313000	3315000	first, click the button
+3315000	3317000	that is destroyed
+3317000	3319000	but two new buttons
+3319000	3321000	are created in its place
+3321000	3323000	the next two buttons should behave like
+3323000	3325000	the above button
+3325000	3327000	okay
+3327000	3329000	so the idea is
+3329000	3331000	key
+3331000	3333000	on click of this button
+3333000	3335000	this button will be destroyed and
+3335000	3337000	a copy of this button
+3337000	3339000	would be created
+3339000	3341000	so there would be two buttons
+3341000	3343000	so when I click on this button again
+3343000	3345000	this button again
+3345000	3347000	another button gets made
+3347000	3349000	so basically it would be
+3349000	3351000	like an exponential thing
+3351000	3353000	it will keep on going
+3353000	3355000	so we are
+3355000	3357000	deleting something also
+3357000	3359000	and then
+3359000	3361000	in place of that thing
+3361000	3363000	we are having
+3363000	3365000	two more buttons
+3365000	3367000	in that place
+3367000	3369000	okay
+3369000	3371000	so
+3371000	3373000	before we solve this
+3373000	3375000	let us go ahead
+3375000	3377000	and let me create a file here called
+3377000	3379000	bubbling.js
+3391000	3393000	so let us quickly go through
+3393000	3395000	what exactly bubbling is
+3395000	3397000	and using this concept
+3397000	3399000	bubbling concept
+3399000	3401000	I will be solving this question number two
+3401000	3403000	so I will tell you what bubbling is
+3403000	3405000	and then you need to help me solve
+3405000	3407000	this question too because
+3407000	3409000	it seems tricky
+3409000	3411000	so I will be needing your help
+3411000	3413000	cool
+3413000	3415000	so let us go ahead and
+3415000	3417000	do that
+3421000	3423000	okay
+3423000	3425000	so go to
+3425000	3427000	event bubbling
+3427000	3429000	what I am going to do
+3429000	3431000	is I will
+3431000	3433000	write
+3433000	3435000	let us say
+3435000	3437000	div
+3437000	3439000	class
+3439000	3441000	could be
+3441000	3443000	box and
+3443000	3445000	grandparent
+3445000	3447000	then we have another div
+3447000	3449000	here
+3449000	3451000	class would be
+3451000	3453000	logs and parent
+3453000	3455000	then we have another div
+3455000	3457000	here will be
+3457000	3459000	class will be
+3459000	3461000	box
+3461000	3463000	and child
+3463000	3465000	so we have three divs
+3465000	3467000	one side of another
+3467000	3469000	something like this
+3469000	3471000	and I will also mention the name
+3471000	3473000	grandparent
+3477000	3479000	parent
+3479000	3481000	and child
+3485000	3487000	okay
+3487000	3489000	let us go ahead
+3489000	3491000	let me open this also
+3491000	3493000	so you can see how it looks like
+3495000	3497000	okay
+3497000	3499000	right now it looks like this
+3499000	3501000	sort of E
+3501000	3503000	let's make it a bit better
+3503000	3505000	by adding some styles
+3505000	3507000	to it
+3507000	3509000	right
+3509000	3511000	so first of all
+3511000	3513000	I will be adding a style for
+3513000	3515000	boxing one
+3515000	3517000	sorry
+3517000	3519000	you can say border is
+3519000	3521000	one pixel solid
+3525000	3527000	gray
+3527000	3529000	then we will have
+3529000	3531000	grand
+3531000	3533000	parent
+3535000	3537000	this would be parent
+3537000	3539000	and
+3539000	3541000	this would be
+3541000	3543000	child
+3543000	3545000	okay
+3545000	3547000	so grandparent we could have background color
+3547000	3549000	set to let's say
+3549000	3551000	light blue
+3551000	3553000	and some
+3553000	3555000	width
+3555000	3557000	20
+3557000	3559000	and
+3559000	3561000	height is 20
+3561000	3563000	and I will copy paste this
+3563000	3565000	across
+3567000	3569000	only thing
+3569000	3571000	change the color
+3571000	3573000	this would be
+3573000	3575000	light green
+3575000	3577000	and this would be light
+3585000	3587000	light golden yellow
+3587000	3589000	okay
+3589000	3591000	and
+3591000	3593000	grandparent is at top
+3593000	3595000	so I will make this one as
+3595000	3597000	10
+3597000	3599000	10 this one as
+3599000	3601000	5
+3601000	3603000	5 now let's go ahead
+3603000	3605000	okay
+3607000	3609000	so now it looks like this
+3609000	3611000	so
+3611000	3613000	this is better
+3613000	3615000	you ask me
+3615000	3617000	so what is it that I
+3617000	3619000	want to build here
+3619000	3621000	or what is it that I want to
+3621000	3623000	demonstrate here
+3623000	3625000	so we have
+3625000	3627000	grandparent here
+3627000	3629000	let me
+3629000	3631000	add a
+3631000	3633000	script tag
+3633000	3635000	at the end
+3635000	3637000	mentioning const
+3637000	3639000	gp is
+3639000	3641000	equal to document
+3641000	3643000	dot query
+3643000	3645000	selector
+3645000	3647000	dot grand
+3647000	3649000	parent right
+3649000	3651000	and I can here say
+3651000	3653000	gp
+3653000	3655000	dot
+3655000	3657000	add
+3657000	3659000	event listener
+3659000	3661000	click
+3665000	3667000	and here I will be getting
+3667000	3669000	console dot
+3669000	3671000	log click
+3671000	3673000	tick
+3673000	3675000	so now if I were to
+3675000	3677000	open console
+3677000	3679000	here you would see if I click
+3679000	3681000	on grandparent
+3681000	3683000	I get clicked which is
+3683000	3685000	expected right
+3685000	3687000	but if I were to click on parent
+3687000	3689000	I again get clicked
+3689000	3691000	why because parent
+3691000	3693000	is inside of
+3693000	3695000	grandparent so essentially
+3695000	3697000	grandparent is getting clicked
+3697000	3699000	right and if I were to click on
+3699000	3701000	child it again
+3701000	3703000	shows it was clicked
+3703000	3705000	now my question to you is if
+3705000	3707000	every time it is showing
+3707000	3709000	it was clicked
+3709000	3711000	how can I possibly know
+3711000	3713000	which of these elements was clicked
+3713000	3715000	whether the grandparent itself was clicked
+3715000	3717000	or one of the
+3717000	3719000	child element was clicked
+3719000	3721000	how can I be sure of it
+3721000	3723000	here
+3723000	3725000	it's not like I
+3725000	3727000	can somehow discern on the
+3727000	3729000	basis of tag name because here
+3729000	3731000	all the three have tag name
+3731000	3733000	as dip so I cannot
+3733000	3735000	go through that path also
+3735000	3737000	so shouldn't
+3737000	3739000	there be a way
+3739000	3741000	that I can tell
+3741000	3743000	whether grandparent was clicked
+3743000	3745000	or basically
+3745000	3747000	whether the grandparent was clicked
+3747000	3749000	or someone inside of it was clicked
+3749000	3751000	yes or no that only makes
+3751000	3753000	sense right something from
+3753000	3755000	event must be different
+3755000	3757000	correct so now you are
+3757000	3759000	catching up
+3759000	3761000	in which direction
+3761000	3763000	my conversation is going
+3763000	3765000	so now let us go
+3765000	3767000	ahead and let
+3767000	3769000	me print the event
+3769000	3771000	right
+3771000	3773000	and in this event
+3773000	3775000	I will have two things
+3775000	3777000	I will have something called target
+3777000	3779000	and I will
+3779000	3781000	something called
+3781000	3783000	current target and this
+3783000	3785000	is a
+3787000	3789000	this thing out there I can do
+3789000	3791000	event or target we know this
+3791000	3793000	using this so far event or target
+3793000	3795000	gives me the target element that was
+3795000	3797000	clicked but there is
+3797000	3799000	something called event dot
+3799000	3801000	current target
+3801000	3803000	it also gives me something so now
+3803000	3805000	let's go and see what it does
+3805000	3807000	when I click here
+3807000	3809000	both target is set to box
+3809000	3811000	grandparent and current target
+3811000	3813000	is set to box grandparent
+3813000	3815000	when I click parent
+3815000	3817000	now this
+3817000	3819000	is where it gets interesting
+3819000	3821000	right now you see
+3821000	3823000	the difference right when I clicked on
+3823000	3825000	parent my target is set to
+3825000	3827000	box parent but my current target
+3827000	3829000	is set to box
+3829000	3831000	grandparent
+3831000	3833000	right so
+3833000	3835000	when I click on child what
+3835000	3837000	do you think will be the target and current
+3837000	3839000	target when I click on child any guesses
+3841000	3843000	remember child is inside of
+3843000	3845000	parent
+3845000	3847000	when I click
+3847000	3849000	on child what will be the target
+3849000	3851000	and current
+3851000	3853000	target
+3853000	3855000	target is child correct
+3855000	3857000	and current target is grandparent
+3857000	3859000	correct correct
+3859000	3861000	correct correct
+3861000	3863000	right so current target
+3863000	3865000	is basically all
+3865000	3867000	about where the event listener was
+3867000	3869000	added
+3869000	3871000	right wherever the event listener
+3871000	3873000	was added
+3873000	3875000	that will be the current target and
+3875000	3877000	target is going to be the actual
+3877000	3879000	element that was clicked
+3879000	3881000	right and how does my grand
+3881000	3883000	parent eventually the
+3883000	3885000	event when I click on this child
+3885000	3887000	element your javascript
+3887000	3889000	will see that no event listener is
+3889000	3891000	attached on this day right
+3891000	3893000	so
+3893000	3895000	it will bubble it will keep on
+3895000	3897000	going up
+3897000	3899000	inside of this child
+3899000	3901000	outside of it
+3901000	3903000	the parent is this way so
+3903000	3905000	event bubbles and go to this
+3905000	3907000	is any event listener added here
+3907000	3909000	yes or no no so it would bubble from
+3909000	3911000	here also then it reaches
+3911000	3913000	this grandparent
+3913000	3915000	is the event listener added here
+3915000	3917000	yes it is
+3917000	3919000	added so this becomes the
+3919000	3921000	current target
+3921000	3923000	now are you
+3923000	3925000	able to follow why
+3925000	3927000	events are so important
+3927000	3929000	events give you whole lot of information
+3929000	3931000	that you could play around with
+3931000	3933000	right
+3935000	3937000	right
+3939000	3941000	I hope the pace
+3941000	3943000	and all is ok
+3943000	3945000	so that's why last question clicking
+3945000	3947000	deleted button correct
+3947000	3949000	the pace and all is
+3949000	3951000	ok right everyone is able to follow
+3951000	3953000	why if you are not able to follow let me know
+3953000	3955000	now
+3955000	3957000	yes
+3957000	3959000	ok
+3959000	3961000	so
+3961000	3963000	through this
+3963000	3965000	I can tell what a current
+3965000	3967000	target is and what is the target
+3967000	3969000	so let me go here and
+3969000	3971000	google as well
+3971000	3973000	target vs
+3973000	3975000	current
+3975000	3977000	target someone here
+3977000	3979000	must have done a good job at
+3979000	3981000	discerning between them
+3981000	3983000	current target
+3983000	3985000	tells us
+3985000	3987000	on which element the event was attached
+3987000	3989000	that is happening in our case
+3989000	3991000	or the element whose event
+3991000	3993000	listener triggered the event
+3993000	3995000	in our case it is grandparent
+3995000	3997000	so which is why the first half is making sense
+3997000	3999000	to us right
+3999000	4001000	and the second part event.target tells us
+4001000	4003000	where the event started
+4003000	4005000	so this is the main part
+4005000	4007000	current target tells us
+4007000	4009000	on which element
+4009000	4011000	the event listener was attached
+4011000	4013000	to or which
+4013000	4015000	element the event actually
+4015000	4017000	was triggered
+4017000	4019000	current event.target tells us
+4019000	4021000	where actually the event started
+4021000	4023000	so is the difference
+4023000	4025000	between target and current target
+4025000	4027000	clear to everyone
+4027000	4029000	yes
+4033000	4035000	great
+4035000	4037000	so now
+4037000	4039000	this was my hint to you
+4039000	4041000	let me rename it
+4041000	4043000	target
+4043000	4045000	target
+4045000	4047000	current target
+4053000	4055000	so now
+4055000	4057000	I will go back to
+4057000	4059000	question 2
+4059000	4061000	so now using
+4061000	4063000	that knowledge you should
+4063000	4065000	help me in solving
+4065000	4067000	this problem right
+4067000	4069000	but we will solve it after a quick break because
+4069000	4071000	we have been going on for almost one hour
+4071000	4073000	we have covered a lot
+4073000	4075000	in the last one hour
+4075000	4077000	so lets take a break, stretch your legs
+4077000	4079000	go for a walk, have some water
+4079000	4081000	and when you will be back then we will start solving
+4081000	4083000	question number 2
+4083000	4085000	using what we just learned
+4085000	4087000	cool
+4087000	4089000	so lets go for a break
+4089000	4091000	for it is
+4091000	4093000	10 0
+4095000	4097000	it is 10 08
+4097000	4099000	we will be starting with at
+4103000	4105000	10 13
+4105000	4107000	right
+4107000	4109000	we will be starting at 10 13
+4109000	4111000	go for a break
+4111000	4113000	now while everyone is away
+4113000	4115000	if any one of you has any doubt
+4115000	4117000	regarding anything that we have covered so far
+4117000	4119000	now is the time to ask
+4119000	4121000	anyone has any doubt
+4125000	4127000	anyone has any doubt
+4127000	4129000	regarding anything
+4129000	4131000	I hope everyone is saving to follow though
+4131000	4133000	but
+4133000	4135000	sometimes in loop we do
+4135000	4137000	event or target and sometimes we
+4137000	4139000	go by array 1
+4139000	4141000	to target the element, what is the difference
+4141000	4143000	so the difference
+4143000	4145000	I will share it on the whatsapp group also
+4145000	4147000	in detail, you could read about it
+4147000	4149000	there is something called html collection
+4149000	4151000	and then there is something called
+4151000	4153000	node list, so whenever we use
+4153000	4155000	something like query selector
+4155000	4157000	it gives us a node list
+4157000	4159000	but when I use something like get element by
+4159000	4161000	id or something like that
+4161000	4163000	it sort of gives us
+4163000	4165000	the html collection
+4165000	4167000	so I have a very good
+4167000	4169000	article in mind, I will share
+4169000	4171000	it with you, so you can
+4171000	4173000	use that
+4173000	4175000	that should be able to help
+4175000	4177000	for most of the problem
+4177000	4179000	that we are doing array i
+4179000	4181000	you could do the other one also
+4181000	4183000	both ways are fine
+4183000	4185000	it's not that one way is better than
+4185000	4187000	the other one, both ways are equally fine
+4187000	4189000	so you will see
+4189000	4191000	that in the article that I will share
+4191000	4193000	on the whatsapp group after this class
+4195000	4197000	any other doubts
+4197000	4199000	any other doubts anyone
+4199000	4201000	also
+4201000	4203000	I would say
+4203000	4205000	try to post your questions
+4205000	4207000	to everyone
+4207000	4209000	so that everyone
+4209000	4211000	knows
+4211000	4213000	because like this particular question
+4213000	4215000	was a very good question
+4219000	4221000	no questions
+4221000	4223000	no questions
+4227000	4229000	and also
+4229000	4231000	go have some water
+4231000	4233000	and then we will continue in 3 minutes
+4251000	4253000	you
+4281000	4283000	you
+4311000	4313000	you
+4313000	4315000	you
+4315000	4317000	you
+4317000	4319000	you
+4319000	4321000	you
+4321000	4323000	you
+4323000	4325000	you
+4325000	4327000	you
+4327000	4329000	you
+4329000	4331000	you
+4331000	4333000	you
+4333000	4335000	one of the yesterdays
+4335000	4337000	question
+4337000	4339000	do share your
+4339000	4341000	questions
+4341000	4343000	over whatsapp
+4343000	4345000	and look into it
+4345000	4347000	what actually went wrong
+4347000	4349000	ideally we can use either of the ways
+4349000	4351000	and we can do it with
+4351000	4353000	either of the things
+4355000	4357000	ok
+4357000	4359000	correct
+4369000	4371000	sorry
+4371000	4373000	sorry
+4373000	4375000	sorry
+4375000	4377000	sorry
+4377000	4379000	sorry
+4379000	4381000	sorry
+4383000	4385000	cool then
+4385000	4387000	it is 10.30
+4387000	4389000	so let's begin
+4389000	4391000	right
+4391000	4393000	before we do is everyone back
+4393000	4395000	just a quick yes no
+4395000	4397000	yes
+4397000	4404320	okay so four people are back that's for sure what about others are they not back
+4404320	4414280	yet eight people are back or is it the same ten people eight people are back
+4414280	4419880	okay here numbers are increasing gradually but eight people are back cool
+4419880	4429080	so cool it's time to launch a poll right just to check if we'll play that game
+4429080	4435440	again so the idea is the you should be able to balance it for both of the
+4435440	4439920	options in poll right so let's see if you are able to do that as I mentioned
+4439920	4447320	the last time also in none of the clubs anyone were able to do that so let's see
+4447320	4454120	if you guys are able to do it or not right launching the poll again
+4454120	4465240	oh shit close one
+4465240	4476880	50 50 someone messed up someone messed up at the end see I told you it's almost
+4477080	4486680	impossible for it to end with 50 50 cool then assuming not that everyone is back
+4486680	4490880	we'll begin solving the problem at hand the problem at hand was question number
+4490880	4495440	two where the idea was gone click off each of these button it should get
+4495440	4500960	destroyed and on in place of that button we would be having another two buttons
+4500960	4506760	and they would be in the exact same order so to destroy you know for a fact
+4506800	4512280	which way to go right that is something that we are well versed with so let's go
+4512280	4518800	ahead and simply start solving for it so I can see there is a parent so maybe
+4518800	4524440	they could attach our event listener instead of the button but on the parent
+4524440	4528800	because the second part says a two button should be exactly like the upper
+4528800	4534240	button right so I like add the functionality to the parent right and on
+4534240	4540600	click of that I'll delete this button first of all right so I'll be getting
+4540600	4545840	target and current target so I'm thinking he may be what I can do is sir
+4545840	4554400	on every click I will delete the target right I'll delete the target and then
+4554400	4559080	from current target I will create two more buttons and append it to the
+4559080	4572280	current target element does that make sense so I have a button and so I first
+4572280	4584280	of all and this is inside a parent so first of all on click what I'm going to
+4584760	4597920	this will be my target and this parent is going to be my current target so first
+4597920	4604200	of all I know for a fact target is the button from which the event started so
+4604200	4609120	I'll delete this target so this particular button would be deleted so
+4609120	4615360	this would solve my one big problem he even if there are multiple buttons only
+4615360	4620000	that button will be deleted from where the event started so that part is sorted
+4620000	4625720	now post and all I have to do is simply create element if you remember from the
+4625720	4630920	last class we created element so I'll create an element in that element I'll
+4630920	4639680	create a div and I'll put it on current target right so my event listener will
+4639680	4649560	be on parent right so it's the strategy clear should we code it out yes
+4654400	4659120	cool so at least it is clear to five force let's go ahead and put it out and
+4659160	4664880	in case you see I am going somewhere wrong we need to interject and help me
+4664880	4669400	correct it right so first thing first since we are putting the event listener
+4669400	4674060	on parent I know I see key event listener has an ID value right so what
+4674060	4685640	I'm going to do is I will say const double oh my bad double holder is equal
+4685760	4693760	to document dot query selector and query selector is fine go to at this point
+4693760	4700420	only selector is good right this makes sense because there's an ID I put
+4700420	4705760	hashtag in case this was class I would have put dot exactly how you do in CSS
+4705760	4713880	selectives right and in this double holder dot add event listener this gives
+4713880	4721160	me which again need an event that is click and we will be needing a callback
+4721160	4727840	because we our strategy is to play around with target and event sorry
+4727840	4737240	current target so which means key we need to access event in here oh event in
+4737280	4748320	here right and so first thing that we are going to do is let me create first
+4748320	4754200	button can you help me in creating first button in document which function is
+4754200	4760280	used to which method sorry is used to create an element what should I write
+4760280	4768520	here we did it in the last class character create element and what
+4768520	4772000	element are we looking out to create we are looking to create a button element
+4772000	4780640	so which is why I will write button there right and we need to make it
+4780640	4785200	exactly like this one so which means key class also needs to be added here which
+4785200	4795280	the class name is double so let's add that so I'll say first button dot inner
+4795280	4808520	text is equal to double non-double a but double and we can say first button dot
+4808520	4816840	set attribute what attribute are we setting class what are we setting it to
+4816840	4823840	double right so now you see whatever we learned in the last class we are now
+4823840	4829880	using it here just actually because it just makes sense so likewise I'll create
+4829880	4837720	the second button also all I have to do is to second button right so now I have
+4837720	4846680	two button place and what I can do is I can append it right if you remember we
+4846680	4853360	can append right there is something called append so we will be appending
+4853360	4870160	this on double holder so I can simply say double holder dot append append
+4870160	4877120	let's append the first button first sorry it is going to be like this and
+4877240	4889240	then second button and once you are able to do that all I have to do is even dot
+4889360	4905800	target dot right so let's see if it works movement of truth it's working
+4905800	4916200	right every time I click that button gets deleted and it is creating two
+4916240	4932040	buttons in that place I want to test one thing right now we only have a button
+4932040	4940480	here when I click three buttons are here when I click the middle one you see when
+4940480	4946000	I click the middle one two buttons were created when I click the last one when I
+4946000	4951920	click the first one two buttons keeps on getting added at the end right it
+4951920	4959960	deletes this button and two buttons get added at the end right so this solves
+4959960	4972440	the second problem also right what's this clear to everyone yes now at this
+4972440	4980800	point I think it would all seem a bit trivial only right give I can you button
+4980800	4985720	create Kanna higher element create gonna let me do it you want to change the
+4985720	4989440	inner text you want to set attributes to it let me do it it's pretty straight
+4989440	4996840	forward at this point I assume right now I think you should be somehow getting a
+4996840	5001480	picture key by events play such an important role in dom manipulation at
+5001480	5010400	least right he what exactly is it he events get this much value right event
+5010560	5016080	object which contains the entire story it sort of gives you a story in short
+5016080	5024880	form right he what was clicked what else was clicked back then is it is it target
+5024880	5031160	is it currently target for what is the state of that button right now all of
+5031160	5038760	those things is presenting with this one object all you have to do is go through
+5038760	5046360	it and it will give you so many methods to play around with right cool so if
+5046360	5053640	it's clear to everyone they can move forward to the big question now q3 if is
+5053640	5062720	it clear then yes so let's move on to the third question now and this is a
+5063280	5073280	big one right as you push the text present here right this is the question
+5073280	5080200	implement key taps such that on pressing one you scroll to section one let me open
+5080200	5090840	it first here q3 implement key taps such that on press of one press one to go to
+5090960	5102200	section one press two to go to section there must be somewhere written is there
+5102200	5104760	section two
+5104760	5121640	the section two is there take section two section three there in total three
+5121640	5127320	sections got it so the idea is key you now need to listen to keyboard events
+5127320	5134280	now this is interesting and B if you were to press B you should go jump
+5134280	5139640	directly to the bottom of the page if you press one you should jump to
+5139640	5149280	section one right so through anchor tag you may have learned to do this during
+5149280	5154800	your HTML classes but now we are listening to keyboard events right so
+5154800	5162440	this would be interesting let me make another file first called keyboard dot
+5162440	5170320	HTML right we will be talking about keyboard events in this one and it
+5170320	5183640	should help you key say event and line example obviously and in here what I'm
+5183680	5188200	going to have is
+5190760	5198520	let's say input right and type would be
+5200040	5203040	text
+5208760	5211760	and
+5213640	5232600	we could have a div here side of it we could have a span right and say key is
+5233000	5241160	pressed and for this particular span I could say class is equal to key press
+5241160	5249800	this is just so I'm able to target it easily and likewise I could probably
+5249800	5264440	have a div here right and for this one I can say rest right
+5264440	5287640	inside of this I could have a span saying shift is pressed right and what I
+5287720	5303520	can do is add a class here called shift T so let me write T script tag for this
+5303520	5310600	now so the idea is now what I want to show you guys is that whenever any
+5310720	5318480	keyboard is keys pressed how would you make out key whether C was pressed or
+5318480	5324680	some numeric key was pressed or whether control P was pressed command P was
+5324680	5329800	pressed so now we are moving towards that direction right so once you are
+5329800	5334800	able to figure that out all we have to do is solve this one big problem and then
+5334800	5353000	we can call it a day. So let me open a new tab here and I'll call this keyboard
+5353000	5359240	keys pressed shift is pressed something is happening but now let us go and write
+5359240	5375800	some Java script first right so let me say input oh sorry I need to take it
+5375800	5385800	first input.document.add event listener what event am I listening to oh sorry
+5385800	5399000	not event listener query selector I'm looking for input right likewise let me
+5399000	5401280	have
+5401880	5414800	key press this is going to be dot key press and this one is going to be shift
+5414800	5428520	press dot shift so what I'm going to do now I'll create a input dot add event
+5428520	5437360	listener and in this event listener I'm going to write two things so first I'm
+5437360	5444120	going to measure here key press by the way so far we've been mostly playing
+5444120	5461960	around with this thing click events right but this is link on MDN event
+5461960	5467920	reference it gives you all possible types of events mentioned in here right
+5467920	5473480	so let me share this link and you can go through this through this link after the
+5473480	5478880	class and it mentions all of the possible events which are available in
+5478880	5482720	JavaScript which you could probably mention in add event listener right so
+5482720	5488200	you prefer to go through them and play around right that is just for your
+5488200	5494640	reference now let's focus here and now this keypress obviously I'll be getting
+5494680	5500720	let me just do that console dot log
+5501760	5517600	rest right so now let's go here okay dark console when I do I'm going to
+5517600	5526720	type scalar SCALER this I know for sure key on input key press event I'm
+5526720	5532320	getting some data up until now we were getting on pointer events now I'm going
+5532320	5540120	to write event here and I'm going to say event right so every time with each key
+5540120	5546160	press I'll be getting an event also let me say yes now this is the interesting
+5546360	5551320	part up until now you are getting pointer event because those events were I was by
+5551320	5559200	clicking so I was sort of using a mouse or the pointer but now I am using my
+5559200	5565800	keyboard right so which is I'm getting keyboard event here if you see I'm also
+5565800	5574240	getting the key code as key S but here in this case keys S right so which
+5574240	5580360	means key I get a keyboard event also and through this I can tell key what
+5580360	5588000	exact key was pressed right right now here you could see there must be
+5588000	5594760	somewhere written shift now here is say shift as false I'll close it and this
+5594760	5603440	time I'll do shift S it is capital right this time you'll see it says key as S
+5603440	5609920	and shift key was set to true now do you understand key how does your browser
+5609920	5619720	know key whether they whether on shift anything any shift anything why do they
+5619720	5626120	have to enter a capital letter not a small letter how do they get to number
+5626120	5629760	of someone must have configured it that way right so this is how it is
+5629760	5634920	configured actually so someone internally is listening okay shift key
+5634920	5640020	was also pressed S key was also pressed so if simply S key was pressed so which
+5640020	5646760	means we are talking about small s in case we press shift and S then we are
+5646760	5652480	talking about capital S so someone must have configured it that way
+5659760	5668280	and believe it or not all of no matter what big application you pick be it
+5668280	5676040	google.com Facebook Instagram scalar dashboard also everything is built up
+5676040	5680720	on this tiny concepts that you are learning right so isn't it interesting
+5680720	5685720	these are the actual building blocks for these right it again gives me the
+5685720	5689740	target it gives me the source element it basically I'm getting this key so this
+5689740	5698100	is the main thing right now I can update also right because I have key press in
+5698100	5709600	this so maybe what I'm going to do is say key press dot inner
+5709600	5729380	inner inner text open why is it not showing key press dot target why is it
+5729380	5733860	not showing inner text we've been using inner text right
+5733860	5745600	why is it not showing is event triggered yes event is triggered
+5763860	5773360	inner text is working not sure why it is not showing up here but inner text is
+5773360	5782840	working so now I'm going to update it like this key on key press I removed
+5782840	5785520	that event
+5793880	5807080	on key press I'll pick the key so I can say key press dot inner text is equal to
+5807500	5827460	key is event dot key event dot key and I could also have shift press I can put a
+5827460	5837160	condition here key if event dot shift press if it is true then it will be
+5837160	5851560	pressed otherwise it would be not pressed tick now let's test it out by
+5851580	5857660	default it is saying pressed for both
+5863220	5867620	because here it says
+5867620	5892880	key is like this okay I'm going to say s oh sorry I can remove this
+5897620	5906620	I can say yes key says shift is not pressed now I'm going to say scalar
+5906620	5916820	with capital C is it shift press only enough or something else console dot
+5916820	5929580	log event let's see it is shift key shift key is set to true event dot shift
+5929580	5947180	key yes see see it's working a L E R so it is working with every keystroke I'm
+5947180	5952580	getting a keyboard event and from that keyboard event I am able to tell key
+5952580	5959500	what character whether he was pressed or not whether the shift key was pressed
+5959500	5964260	or not what is the key right so I'm able to do all of these things in the event
+5964260	5969800	that I'm getting and I'm able to type this right so it's interesting right now
+5969800	5973780	I can listen to not just wonder events but I can also listen to keyboard events
+5973780	5984420	now this opens a whole new door for me is huh okay so just again take it so
+5984420	5992460	likewise not just keep this you would have similar events like this available
+5992460	6003380	on some there are multiple events present there is key press key down key
+6003380	6011860	up and they mean exactly what you think they mean right so basically key presses
+6011860	6018700	when an actual event is pressed key down the event is fired when you keep when
+6018700	6024820	the key is still down right and key up is when it is left up so when the key
+6024820	6032100	goes up on that point the event is fired key press and key up more or less work
+6032100	6039460	the same way right but yes
+6048700	6060420	key press cool then so is it clear to everyone was everyone able to follow
+6060420	6065900	till here no doubts or is there anyone who has any doubts till here anything
+6065900	6073140	you think I would be good to cover Opendra, Vinay, Shaikh, Abhinav
+6073140	6086380	all right video breaking question seven from last class need this correct so
+6086380	6090140	question seven from last class need this and now you know how to solve question
+6090140	6095300	seven from last class is the video breaking us we just have one more one
+6095300	6102580	question to solve so let's power through the video still breaking let me turn off
+6102580	6108020	my camera it would definitely help take let me know if the video quality
+6108020	6116940	improves was breaking a little bit was past tense so is it fine now now good
+6116940	6126700	great great great great then so now for this problem so what is what was the
+6126700	6134760	problem the problem is simple when you press key one what was the problem so
+6134760	6139500	when we press one we should skip to section 1 when we press 2 which will
+6139500	6144980	skip to section 2 when we press press 3 we should go to this when you press T we
+6144980	6148940	should go to the top of the page and when we press B we should go to the
+6148940	6154060	bottom of the page right so which means key we simply have to listen to certain
+6154060	6158860	events we could put an event listener on h1 I'm thinking we can listen to
+6158860	6163060	these events and if it matches any of these things will take them to the
+6163060	6169900	respective places where they want to go right and to scroll basically there is a
+6169900	6181620	method which is available on this thing called IDs are given right so we need to
+6181620	6186180	have something for these IDs ticket we need to have something for these IDs and
+6186180	6196100	there is something called scroll into view scroll into view so what does it
+6196100	6201300	say the elements interface score interview methods scrolls the elements
+6201300	6207500	ancestor container such that the element of score interview is visible to the
+6207500	6214500	user so this is what we want so what we want is key when I press one this is in
+6214500	6223500	my viewport when I press 2 section 2 is in my viewport right so we will be using
+6223500	6229380	this scroll into view for this so now let's go ahead and implement it so first
+6229380	6238620	thing first I need to put a sector key various s1 s1 is basically my document
+6238620	6245740	dot query selector since it must be having an ID so I'll put an ID called s1
+6245740	6255420	likewise I'll make it for s2 and s3 need to change it here as well as to an s3
+6255460	6261220	and now I need to add event listener so where should we add event listeners
+6261220	6267340	considering key we are listening to event throughout considering we are
+6267340	6272900	listening to even throughout so we can go ahead and add a div and listen
+6272900	6278020	directly to window so I can say window dot add event listener so which means
+6278020	6281460	key since we are adding the event listener on Windows so anywhere you click
+6281500	6287420	as long as the window is focused anywhere you click we we should be able
+6287420	6292500	to scroll basically this callback would work right and what event are we
+6292500	6301540	listening for we are listening for key press and we are expecting a callback
+6301540	6307700	here obviously and this callback will be getting an event now we need to use this
+6307700	6314460	event so I'll need to say let key is equal to event dot key right now let me
+6314460	6324140	just console dot log key now let's go to the page go to console clear here if I
+6324140	6335260	press 1 2 3 anything I'm doing as you could see I am getting the key correct
+6335820	6342260	so far so good we are we are halfway there now all I have to do is use this
+6342260	6347820	scroll into view this is how it's used it's called into view it it again is a
+6347820	6353340	method so which means key you need to add the element in front of it which
+6353340	6360020	element s1 s2 s3 so are we need to write it something like s3 dot scroll
+6360020	6372620	interview s2 dot scroll interview cool so let me check the type of these things
+6372620	6379060	I'll go back here I'll press 1 now we are getting string so this is a very
+6379060	6386140	common mistake that people do key since you are getting a string people while
+6386140	6391580	writing condition they put triple equal to and put it there so which means key
+6391580	6398540	it does a hard check so it doesn't find any matches right so let us now write
+6398540	6413980	it if key is triple equal to one focus that I put it on in quotes right I want
+6413980	6427140	to do s1 dot scroll into view cool and save it now let us go and see if it
+6427140	6438540	works right I am on section 2 I am going to press 1 and it works right right
+6438540	6445220	everyone followed right how we got to this it's interesting right
+6445220	6459620	Arun, Nehmat, Abhimanyu, Abhinav, Ankit, Chinmay, Dheeraj, Hemant, Munishwara, Pramod, Raja, Ramesh, Sheik, Vijay, Shashank, Vinay
+6459620	6477580	I hope my screen is visible to all now all I have to do now all I have to do is
+6477580	6481540	just keep on adding these condition for all the keystrokes which are mentioned
+6481540	6493540	the question so one it's that secondly if I need to put a condition if key is
+6493540	6506660	triple equal to 2 then in that case s2 dot scroll into view right else if key
+6506860	6517540	is triple equal to 3 in that case s3 dots scroll into view right there is
+6517540	6524660	something called tall sorry top and bottom as well so which means I'll
+6524660	6535020	again check for if key is equal to B or just adding a double check if it is
+6535020	6542060	equal to capital B essentially that typing bottom only so in that case I'll
+6542060	6550420	write a different function window dot scroll to right so in window I'm saying
+6550420	6565060	by scroll to zero document dot body dot scroll height right what does this do
+6565060	6573620	let me copy this go here and I'll paste it don't paste code to depose that you
+6573620	6577420	don't understand oh yeah I understand yeah
+6577420	6601420	oh it's not letting me add code okay I'll type it window dot scroll to zero
+6601420	6624540	comma document dot body dot scroll height see when I run this I got jump to
+6624540	6629620	the bottom of the page right so basically what what am I saying here
+6629740	6638700	I need to scroll to zero distance what is the starting point zero and how much
+6638700	6642580	are we scrolling we are scrolling to body height so whatever is the body
+6642580	6648260	height I will be able to scroll to that so body height obviously would be equal
+6648260	6652020	to the entire thing so I would eventually be jumping directly to the
+6652020	6663020	bottom open raise my screen clear I've zoomed the ID as well right cool so
+6663020	6675020	likewise I can put somewhat the same logic for top also right else I can say
+6675020	6695340	key is equal to T or key is equal to capital T case window dot scroll to zero
+6695340	6700780	comma since we are scrolling to the top what is the distance we want to go far
+6700780	6706980	away from top is it the entire body length no so what should I write here
+6706980	6717900	crawl to says ki mujhe top se kitna dur jaana hai here I had mentioned ki mujhe
+6717900	6726020	code top se body ki height jitna dur niche scroll karna hai now I want to stay at the top
+6726020	6734700	so which means here from top I want to go zero far so which means key I have to
+6734700	6740620	write it this way so now when I save this and I'll go here now I'm going to
+6740620	6748780	press one two three let me you probably won't believe me you may think I've act
+6748780	6756540	somehow so just to prove that I am legit I'm going to write key error so
+6756540	6763020	right so you would see here the key also
+6763020	6778300	okay I'm here I'm going to press one as you could see one was pressed right I'm
+6778300	6785140	going to press two three if I were to press four nothing happened five nothing
+6785140	6792060	happened any of this but when I press B sorry B I jump to the bottom when I
+6792060	6796020	press T I jump to the top
+6804140	6807940	Ankit is the screen not visible?
+6807940	6824340	your caps lock is your caps lock is on I thought that you were shouting
+6824340	6835900	now it's like here but you were able to follow right the demo part key how the
+6835940	6841620	entire thing is working so we were successfully able to solve this question
+6841620	6847220	as well correct
+6850900	6864100	it's fine cool yeah so anyone has any doubt in this question interesting this
+6864100	6870060	way we can make napa to scroll to say correct actually this is the way that
+6870060	6875900	people do in big organization also this is the code that they write to make it
+6875900	6886140	work one final dry run yes so in first of all what I did was I I had ID attached
+6886140	6891820	to three sections so I was able to store it in these three element again I'm
+6891860	6897620	storing objects the thing that we started this lecture with then on key
+6897620	6901500	press I've put this event listener on window because I want to listen to the
+6901500	6907940	entire no matter where the person click I want to listen to it so which is why I
+6907940	6915260	had mentioned key press here now this event I'm receiving a keyboard event
+6915260	6919620	from that keyboard event I'm extracting the key storing it in a variable called
+6919620	6924940	key now we check the type of key it is always going to be a string it will
+6924940	6929980	never be a number right so which is why I am doing a cross check for string one
+6929980	6934660	two three four and for that we are using a function called scroll interview if
+6934660	6938580	I'm not wrong in scrolling to view you can pass something called smooth also
+6938580	6945420	yes there is called behavior and in behavior I can pass smooth let's try
+6945420	6957420	that once I can again add an object here in here I can say behavior as smooth so
+6957420	6965220	if I go back here and I scroll down when I press key one you see that smooth
+6965220	6979860	behavior right so again it's nothing but object so I can do one two three you see
+6979860	6986340	how smoothly it is scrolling here and there right and that was so easy you
+6986340	6992140	just need to add a behavior to it right so which is why I say MDN is the golden
+6992180	6998780	resource out there right all you have to do is go through MDN and you would find
+6998780	7011740	it is such a golden resource correct cool yeah so I hope you guys found it
+7011740	7017940	interesting today's class right that's all what I planned for today now in case
+7017980	7022860	you have any doubt now is the time let me start the doubt solving session also
+7022860	7028660	quick now if you have any doubt whatsoever now is the time what's the
+7028660	7032540	scope when we put a listener to window what if we are typing somewhere else I
+7032540	7038540	don't think it would well of your window should be in focus when I'm here and I'm
+7038540	7044100	typing right now it is not showing but when I click here now my window is in
+7044100	7051220	focus now when I type okay my bad need to console also
+7051220	7074700	good so when I focus here and I'm typing SCALER it focused when I come here and
+7074700	7081060	I type SCALER you see I'm typing here it is not focusing so as long as my window
+7081060	7085020	is focused it is listening to those event when I click anywhere else it
+7085020	7092020	won't if I come here and I type SCALER see it's not showing up here so which
+7092020	7096300	means key my window needs to be focused because status where now when I click
+7096300	7108720	back here SCALER cool right any other doubts regarding any any of the
+7108720	7113200	questions that we had covered today be it keyboard events be target current
+7113200	7117560	target event bubbling any of those things if you have doubts now is the
+7117560	7125400	time anyone anyone has any question regarding anything
+7125400	7145400	Abhinav, Ankit, Abhimanyu, Ahmed, Arun, Bhuvanesh, Chinmay, Dheeraj, Saraut, Hemant, Muniswara, Pradeep, Pramod, Rhea, Raja, Ramesh, Tejal, Lupendra, Vinay, Kiran, Shambhu, Rajesh, Ashank
+7145400	7152000	no all good did no question because tomorrow class is going to be super
+7152040	7160540	interesting tomorrow we will be integrating our very first API understanding
+7160540	7166660	but overwhelming and the fact that you are finding it overwhelming is you are
+7166660	7171800	on the right track it is supposed to be overwhelming but that is the journey
+7171800	7177980	right from finding it overwhelming to finding it underwhelming so you're on
+7177980	7184820	the right track shall we use click events to scroll to window shall we use
+7184820	7189420	click events to scroll to window you can you can there's no problem with that but
+7189420	7193820	that depends on the use case what is the use case you are solving for if the
+7193820	7198300	product requires this then now you know key this is how you can achieve it but
+7198300	7206140	why you should do it is up to you right
+7208860	7214900	by the way tomorrow's lecture is going to be super interesting believe me 40 to
+7214900	7220180	50 percent of your day-to-day tasks is integrating API's and tomorrow we will
+7220180	7227060	be making call our very first API right we'll be building sort of a better app
+7227060	7232620	tomorrow so do join it huh I'll share it on the
+7232980	7238620	I'll share the for further reading for further reading I'll share some articles
+7238620	7243300	current so I'll share this one there cool I hope you guys like the lecture
+7243300	7250940	though and that's it I need any doubts or we can call it a day and once again
+7250940	7258740	thank you for joining on a non-class day it means a lot please do please do
+7258740	7264940	please do and in case you find any doubt whatsoever and kid feel free to
+7264940	7269900	raise it within the first five minutes tomorrow right be on time raise it right
+7269900	7276140	there and then I'll resolve your query there cool I'm good sounds like a plan
+7276140	7286500	right great great great I need any doubts anyone any other doubts thank you
+7286500	7296780	Pindra cool yeah I guess there are no other doubts but still I would urge all
+7296780	7300900	of you to go through the recording complete your assignments and in case
+7300900	7305140	you face any doubts feel free to visit on the whatsapp group discuss among
+7305140	7310540	yourself the whole point of doing it as a cohort is you interact among yourself
+7310540	7317580	right so discuss the questions among yourself and try to solve right so it's
+7317580	7324220	it would be beneficial for everyone right and for any queries relating to
+7324220	7328500	class bring your doubts tomorrow first time within the first five minutes we'll
+7328500	7334460	talk it out cool with that I think we can call it a day right I have attached
+7334500	7339580	the github link I'll be pushing the code now and you should be able to access it
+7339580	7345620	right and for any other doubts you know where to reach me on whatsapp right
+7345620	7356380	group right so with that going to today and ending the meeting now so I'll see
+7356380	7363540	you all tomorrow thank you shake and bye bye everyone
+7364460	7367040	you
+7394460	7397500	you

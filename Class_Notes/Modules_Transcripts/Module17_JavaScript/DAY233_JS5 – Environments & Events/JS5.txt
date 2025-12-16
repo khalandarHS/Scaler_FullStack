@@ -1,0 +1,2270 @@
+you
+you
+you
+you
+you
+you
+hello
+here everyone
+Desha Janya
+Abhinav
+I thought you weren't going to join
+Abhishek, Ahima, Dharam, Ashish, Ashwin
+Mangeem was also not going to join
+Dheeraj, Pramod, Tejal, Muniswara, Rohit, Sambet, Shashank
+Asha is important
+That's the dedication I am personally looking for
+one day
+Cool then let me share my screen
+and
+to be honest
+I didn't really do much
+on the internet front
+but
+let's see
+let me know
+once my screen is
+visible
+we'll wait for another minute
+and then we'll begin
+and first of all thank you
+thank you for joining on a non-class day
+and
+folks who haven't joined
+they can obviously watch the recording
+and tomorrow before starting the lecture
+I'll go through
+whatever doubts they may have
+so it's a mistake on my end
+so I'll take care
+of it
+right
+Abhishek
+it's evening
+right
+cool then
+I think
+considering
+we got a head start
+yesterday
+so
+we'll probably end the lecture also a little early
+today
+I'll try to make sure
+if we can enter
+the lecture a little early
+cool then
+it's 9.05 let's begin
+so I'll start from the very start
+obviously the part that we had covered
+in the last class
+I'll quickly go over through that
+and in case any of those
+things is not clear to you
+you can ask me again
+just a quick show of hands
+if the screen quality and everything is fine
+yes
+yes right
+in case the screen
+quality reduces
+which I hope it not
+let me know we'll wait for a while and then
+we'll begin
+cool then let's begin
+so
+let's start from the
+very start I'll assume that
+we didn't have much talk
+yesterday
+so if you remember
+we discussed in the last class that
+we haven't installed JavaScript
+anywhere
+it's been just there
+either we've been using it in our browser
+either we are simply creating
+an HTML file and directly
+writing JavaScript in the
+script app
+so we haven't really installed
+JavaScript
+so the answer is have you installed JavaScript
+obviously the answer is no
+so you cannot really do much with JavaScript
+alone as we discussed in the last class
+and
+JavaScript just gives you
+the logic part of things
+so let's say just
+gives you just the logic
+that's it nothing else
+so basically if it just gives me the logic
+which means
+it's give me if a statement
+for
+new
+variable
+etc
+so it just give me
+these things that I can build my logic
+but I cannot really build
+out a feature feature out of it
+so it is
+sort of like a headless
+I cannot do much with it
+so which is why
+we
+super boost somehow
+JavaScript with something called an
+environment
+so
+some of the
+environments that you may have
+worked on
+would like to know some of the
+environments that you have worked on
+with JavaScript
+one is definitely
+browser correct
+what's the other one
+node
+correct
+so we have browser and node
+and there are couple more
+but we will focus on browsers and
+node environment
+so whenever I were to pair
+JavaScript with browser
+I'm able to do manipulate
+DOM
+it does something now I'm able to manipulate
+DOM I can play around
+add tags, remove tags
+and change values
+and here to events and do a lot of other things
+if I were to do it with
+node
+it opens a lot of those
+be it on the back
+and front
+so likewise
+so basically JavaScript alone
+isn't much but when I
+when I join JS
+plus
+environment
+then it is like
+build
+apps
+be it front end app, back end app
+desktop app or anything
+so long story short
+so long story short
+you cannot really do much with JavaScript
+if you were to add it with some sort of environment
+you can do a lot with it
+just to give you an idea as I mentioned in the last class also
+something as trivial as console.log
+it is also not present there
+in JavaScript for that also you
+rely on some sort of environment
+which lets you do that
+and all of this was made possible
+simply because of something called V8 engine
+it is a
+Google's open source high performance
+JavaScript and WebAssembly
+engine
+so first of all V8 engine was
+introduced
+in Chrome
+and later
+it got open
+source with Chromium
+so you may have heard of this term
+let's say Brave or Edge
+all of these are Chromium based
+web browser
+so Chromium is an open source repository
+and on top of it they are building
+their own features like Microsoft has built
+this thing
+on its own engine
+but all of it ultimately takes inspiration
+from Chromium because Chromium has
+internally it is powered by
+V8 engine and that V8 engine
+was a game changer
+because if you think about it there are a lot of other
+languages out there
+but why is it that JavaScript was the only
+for which the trajectory went like this
+and now if you are a JavaScript
+developer you can get employed
+anywhere, anywhere in the sense
+across any domain
+so let's try
+out something
+for frontend
+if you were to have
+JS plus
+browsers
+for BE
+you have JS
+plus node
+for
+mobile
+you have JS
+plus
+ionic or
+react native
+for
+VR you have
+JS plus
+react VR
+for desktop application
+you have JS
+plus
+electron
+so if you
+think about it if you were to
+add JavaScript
+with any of these things you can do
+a lot of things
+the part
+where I mentioned that JavaScript is
+nothing
+JavaScript gives you nothing but logic
+now suddenly this seems like
+a super power because JavaScript
+is nothing but logic so which means
+I can mold it whatever
+way I want to work it across any
+domain I just need to choose
+the right environment
+but now a question pops into
+my head
+what exactly is it the environment
+do
+what exactly is it the environment do that
+powers JavaScript in such a way
+right so
+what
+exactly
+is the
+environment
+do
+or better word would be
+exposes
+or
+yes
+so how
+exactly is it able to do that
+it basically exposes
+some sort of methods
+methods or
+functions
+and where exactly are these
+let me instead of
+this it would make
+a lot more sense it basically
+exports functions
+right so these environment
+have predefined functions like
+browser give you some sort of function
+that you can utilize using JavaScript
+and make use of it
+and make your work to
+develop front end apps
+node gives you some function that you could utilize
+using JavaScript and
+develop back end apps likewise
+it basically exposes
+function now the question is how
+how exactly is it happening all
+of this happens
+because of something called
+objects
+which is why it is like go
+to statement to say
+JavaScript is nothing
+without objects because
+objects powers everything
+in JavaScript no matter what you were
+to name across any
+of these things be it
+be it
+browser node ionic
+react native react via
+electron all
+of this eventually boils down
+to some random function
+in a
+object right
+so just a quick show of hands if everyone is
+aware what object is what object
+data structure is by now I think you
+all would be knowing but just checking
+you all know right
+I know Dheeraj knows that
+that is for sure what about
+others
+Abhinav Varun
+Ashish, Shabhishek, Muniswara
+Hemangi, Ashwini, Raja,
+Rita, Sahil, Kiran
+Shashank we all know right
+correct it is nothing
+but key value pair so
+functions on a object
+this is how your typical object
+looks like everything in between
+is an object as long as it is a key
+value pair right so
+functions
+on an object are called methods
+functions
+on
+objects
+are
+called
+method
+this is very important
+people don't know
+this key what is the difference
+in between function and method all
+functions are method
+but not all methods are functions
+if you understand what I mean
+sorry it is the other way around
+all methods are functions but not all functions
+are methods because for
+it for a function to be a method
+it needs to be present on
+object body so suppose
+you have
+who
+something written
+like this
+and you have an object
+inside of it
+you have who written
+right
+so in this particular case
+who will be our
+method in this case it is a
+simple function
+right
+no no
+nothing much we were just covering up
+whatever we covered in the last class
+okay
+so with that now
+let us go
+now that I have told you
+this everything in
+JavaScript is possible because of
+objects and whatever
+information is moved across
+what exactly the environment brings in
+for JavaScript it brings in
+some sort of object and some
+methods available in an object for JavaScript
+to utilize them right
+so now I have told you this
+but now let us go and get some
+solid proof right
+so
+let's go to
+the code base so
+first of all is my screen
+is the text
+big enough yes
+great
+so here
+if you remember in the last class what we did
+was I simply console
+document is basically a type of
+document
+likewise I did window is basically
+an type of
+window right we know for
+a fact that whatever DOM
+manipulation we had learned in the
+last class basically
+class 11
+if you remember if I were to open
+the questions also
+as you solve them you could see all of
+these things were present
+isn't this how you access
+an object using the dot
+notation likewise
+if I were to open
+here and check here you could see
+document is basically an
+object window is basically
+an object so this is a big thing
+so if window is basically an object
+window is a top most thing
+even above document
+it is here so which means key
+everything inside everything
+that you know of on this
+particular web page is
+available on this
+object so would you all agree
+with me key everything is an object
+especially when we're talking about front end
+development yes
+great
+so with that
+now let us go through
+the last
+question
+that we solved
+question number one it was
+a very simple question that we solved let
+me try
+opening it
+here
+let me just see
+this is what we had
+developed in the last class
+right
+if I were to click on hello
+more dom notes are getting added
+as you could see here also
+if you see
+focus here more dom
+notes keep on getting added as
+I click on this right now
+wait build it
+back then now let us go
+and exactly break
+down key what exactly is happening
+right so
+if you remember what we did we had a
+selector which again
+by the way is present on
+document so document is something
+which is again present on window
+so if I were to go here
+and do window dot document
+it would still select
+if I do document it would still
+select so basically this is like
+a shorthand instead of this I could have
+written window dot document
+and it would have
+other window is not defined
+because initially window is not defined
+but document is there so
+you can simply go ahead and do document dot
+query selector and
+once again document is something which
+is given to you by an environment
+which environment a browser environment
+in this particular case and
+you are able to select element
+so this again query selector
+can you tell me whether query selector is
+a function or a method
+method method method
+correct correct so it is a method
+it is not a function because it is present on
+an object called document
+right now
+let me
+even though we were not using
+this event I have shown you back then
+let me write a
+function here
+just a second
+let me write a
+declare a function cost handler
+is equal to
+something like this
+and inside of this I will move the
+this particular
+logic
+and
+now think of it this way
+what exactly is the structure
+of query
+sorry add event listener
+so this
+document dot query selector this also
+must have returned something in
+that we are storing in detail element
+right but if you
+focus here here also we are using
+the dot notation so which means
+here also it must be
+given some sort of object only
+so some object is stored in btn
+element that we
+are accessing on that object
+we have something called add
+event listener present and that
+takes two things
+it basically takes
+an event
+and it takes a
+callback right
+so whatever is the definition if you were
+to go to mdn you would
+find something like this only
+this
+document dot query selector
+returns an object that you can store in
+a variable and you can attach
+an event listener on it
+by saying that for this
+particular event whenever this event is
+noticed in this btn element
+just do call this function
+so what we did
+was we did this
+and how do I know
+what exactly was the event fired
+so which is why it also
+passes in that particular callback
+it gives me an event
+which I think we saw in the last
+class also but
+let me simply console it here
+and now you would see
+when I click here I am getting an
+event right so this event
+tells me everything
+this event again by the way is an object
+as you could see there is a key value pair
+correct
+so now think about it like this
+whatever you may be
+whatever you may want to know about this
+particular event
+what actually happened on your web page
+someone clicked right
+all possible thing
+is mentioned here
+so
+so one of the things
+as you could see here
+here it says alt key
+here it says
+alt key is false
+but here it says alt key is true
+all I did was by
+clicking I also pressed on the
+alt key
+this should tell you that
+this gives you so much information
+that what actually has happened
+now you can imagine whenever someone
+was copying test and they were doing
+easy you could put a check for it
+if they are pressing this particular key
+and
+let's say they are pressing the alt key
+or in this particular case control key
+you can say
+the user wants to copy
+so these are all tools which are made
+available to you now
+it must be starting to making sense
+what exactly this event is all about
+event gives you something called target
+and
+it gives you
+basically all sort of information about
+this particular component
+this particular tag and
+what exactly was
+the keystroke all about
+right
+and I can
+simply put this handler
+in here since
+I am not using anything
+the event I can
+ignore it and if I click on it
+it is still working
+right
+so that is the
+best part about
+JavaScript
+right
+so now would you agree with me when I say
+everything in JavaScript is an object
+now that
+we have seen some solid proof as well
+cool
+now let me
+close this and tell you what
+we will be doing now
+for this particular class we just have to
+solve these three problems that's it
+we will be solving these three problems
+and to solve these three problems
+we need to learn something
+no
+we were just getting started with the meaty
+part of the lecture now
+actually you are right on time
+cool
+so now
+all we have to do is
+call
+solve these three problems
+so let's focus on question one
+so the way that we will be moving forward now
+is that we will see this problem
+then we will try to
+solve it one way then we will learn
+something new and then
+you need to help me solve it
+the new way
+does that work
+I hope everyone
+is able to follow
+this
+right
+Abhinav, Ankit, Abhishek
+the pace and all is ok right
+Chinmay, Dheeraj,
+Brahmod, Pradeep, Himangi
+Sambet
+Shambhu Raje
+great great great
+cool then
+let's get started with the
+let's get started with the
+problem then
+ok
+so
+let me open the problem
+here first
+let me make it two
+ok
+so initial thoughts I see
+there is a remove all button at the top
+and there are n number of tasks here
+and with a delete option present
+with them
+right so it looks more or less
+like a to do list
+correct it looks like a
+to do list and we somehow need to make it work
+let's go through the problem statement
+first so there are two things
+that we need to do first
+make all button works
+all remove all button so
+idea is when I click on this
+the entire thing should be
+removed right so this
+is the first thing
+and the second thing is also
+make individual delete button
+work ok so when I click
+on this delete right now nothing is happening
+but when I click on this
+when I click on
+let's say this button
+this entire li should be
+disappeared not that this should
+be disappeared so
+ok
+great so
+what would be the brute force way of
+solving it
+let's start with the first one
+remove all button so I
+think oh the idea is present here
+already I can most probably
+target
+this id and
+on click of this button I can simply
+remove
+the ul tag
+this we can do display none
+also but if you
+want to remove it completely from your
+DOM then in that case
+a method
+is provided to us remove
+right so this
+time we won't be relying on
+CSS instead we will be relying
+on these objects
+JavaScript methods which are
+given to us through events and
+all cool
+great yeah
+so easy stuff
+I know the first part is at least
+easy so
+we will be needing your help now
+the idea is all how
+can I target this button what should I write
+here anyone
+what should I write here
+here
+here
+select query
+no
+there is nothing called select query
+talking about
+JavaScript select query is not there
+correct Rita
+we can use query
+selector and get element
+by id so Ashish
+so I think there was a type on
+your end instead of select query I think you
+wanted to write query selector
+correct but
+one thing that
+Rita miss was this is an id
+so you cannot actually use
+.btn instead
+as Ashish
+you need to use hashtag
+right and since you were doing
+query selector it won't work
+also that way
+great anyway
+so let me
+just write it down
+then so all I
+need to do is remove
+all btn is
+equal to query
+selector is available on document
+object so I can do
+document.query selector
+and since we are targeting
+id I can simply
+this
+now if I go to console
+console
+remove all button
+you would see I am
+finding the button here
+so I am able to target it
+it looks like a tag because that is how
+the browser is showing it to you but in
+reality it is nothing but
+an object
+right it is nothing but
+an object
+.getElementId
+also
+work right yes
+getElementId
+would also work
+so now that
+I have this with me
+so which means I can
+now use methods which are available
+on this particular object
+to remove it right
+but what exactly is it that we want to
+remove
+remember we discussed whenever the user
+is using this I ideally want to remove
+this whole ul so maybe
+I can somehow target a ul as
+I can see there is only one ul
+I can simply
+write it like this const
+all items is equal to
+document.query
+selector
+and here I can say
+ul because there is only
+one ul so it would definitely
+work in my favor
+and I can simply use
+remove all btn dot
+addEventListener
+so this again is
+a method which is available on
+all btn method
+all btn
+object in here if
+you remember we need to pass event
+and callback
+right so I can
+go and say
+I can go
+here and say
+delete
+an event
+using
+JavaScript
+it mentions remove
+method
+and here also if you focus
+here it says method not function
+so this is the key
+difference but now I think
+it all makes sense
+so simple thing
+event is going to be
+click and callback
+is going to be
+do we need to use
+event here
+right now I don't think there is any need for event right
+so all I can do is go
+here and say
+all items dot
+remove
+would it work yes or no
+how many of you say it would work
+ok
+let's see
+if it works
+right
+so congratulations
+it is working
+so
+the first part is done
+now comes the second part
+now this is
+a bit tricky because
+if you think about it
+up until now we had this
+button and on click of this we simply
+had to delete this
+ul tag right which I
+targeted here but now I
+either have to put
+this id
+on each of these
+button because how else
+an id on this l i
+otherwise how else would I know
+which of these delete button
+was clicked
+which of these delete button was clicked
+and on click of these
+delete button which
+this thing I had to delete
+ok
+now
+there is no reset
+possible once removed Kabir
+you need to add it on your own
+ha
+Ashish that is right
+so that is one way of doing things
+you can put id on each of the element
+each of the l i element
+but my question is
+do you think
+that is the ideal way to go forward
+how about others what do you think
+I will go forward
+I put one id on this button
+one id on l i
+one id on this button one id on l i
+here you have four
+but you could potentially have
+10, 20, 30, 40
+I think we can
+index ok
+we can also use
+query selector
+all that is also one way to do
+you can use class
+yes you can use class
+but if you were to use class
+on click of this l i tag
+this delete button
+how would you know which class
+which l i with that
+particular class you had to remove
+so there is a problem
+and the problem no matter what solution
+we find
+it is going to be more or less a hacky way
+of solving things
+so what is the
+best practice
+when you come across this problem
+so first of all let us talk about
+brute force approach
+which is still somewhat good
+right
+so let's
+do that
+so we will remove
+all button for now
+and all I am going
+to do is to const
+all btns
+or let's say all
+del btn
+all delete button
+is equal to
+document dot
+query selector all
+how can
+I target these buttons
+I can simply do
+ul
+it would target
+everything
+so if I were to console
+all del
+button
+sorry
+btn
+all del
+btn you would see it has
+given me four buttons
+right now
+wanted
+we can do parent remove
+ok so kiran is
+definitely onto something here
+kiran says if I were to
+click any of this button
+I can remove its parent
+right and
+if I were to go with that logic
+it would make perfect sense
+why because for each of these
+if you remember from our last class
+we learned no matter a parent
+can have multiple children
+but each of those children
+will have only one parent and that
+is exactly what we want here
+so what we want to do on click
+of any of these button
+I need to delete their parent
+so tell me
+what should I google
+how to get
+parent
+element
+for any
+how to get
+parent for any element
+in javascript
+ta ta ta
+ok
+you get
+parent node
+since we are using note list
+it is going to be parent
+node in our case
+so which means if we were to go
+ahead with kiran's logic
+all we have to do on click of any of these
+buttons I had to remove
+this li basically
+the parent of this button
+that makes sense
+correct I hope everyone is following
+yes
+so let us
+go ahead and
+so which means we still have to
+add event listener to each one of them
+so let's do that
+let me do for let i
+is equal to 0
+i is less than or del
+btn
+dot length
+and do i
+plus plus that's it
+right and inside of this
+we can
+say
+all del
+btn i
+dot
+add event listener
+what is the event that we are
+listening for click
+and I need to write a
+call back here
+and in this call back
+I can simply say
+this button
+there is another method which is available
+parent
+node
+dot
+remove
+right so this
+loop will go on and
+it will add event listener
+on total of 4
+elements
+right now
+it somewhat makes sense let's go and test
+it out if I click
+this task to only this
+should be deleted let me
+open elements also
+and expand I am going
+to click on this del button
+and there is only one parent let's see
+it works so
+thank you for suggesting that
+it works I am able to date
+individual elements and I can
+remove all also right
+so we are able to solve the first
+problem now my question
+to you is
+though it works do you think
+it is the best solution out there
+considering that we have to attach
+event listener on each of those buttons
+think
+it true tell me
+do you think it is the best solution
+right now there are 4 buttons
+but what if there were 10 buttons
+you had a web page or let's say
+you are building a form there you could have
+potentially 10, 15, 20 buttons
+even though your JavaScript
+web page would still be able to handle it
+but each of those buttons is doing some heavy operation
+right so which means
+it would all eventually catch up
+can you explain
+query selector ql
+ok
+we will do that just some later on
+so before that just wanted
+to conclude this even though
+it works it is not the best solution
+because on each
+of those nodes you have to
+add an event listener
+each of these buttons maybe
+it could have been helpful
+if and only
+if you could add just one
+event listener click
+not many just one
+and that one event listener would take care
+of the entire thing
+no matter which button you click it should work
+right wouldn't that be the best
+thing wouldn't that be the best solution
+you are
+able to
+achieve the functionality
+you are not overpopulating your
+DOM with n number of
+event listener but there is only one
+right
+so that is something
+that we will be implementing in a while
+but before that let me revisit
+line number
+this
+so basically Arun
+if you were there in our class number
+11 we discussed query selector all
+it is a way of selecting the element
+from the DOM right
+so remember how you write CSS
+how do you select this
+button if you were to
+you could have written li
+the button you could have written any of those
+you cannot directly write button because
+that CSS would be applied to this button also
+line number 12 which you don't want
+so you explicitly want to say
+all the button which is present
+inside of ul
+so for that to say I have written
+element like this so whenever you write query selector
+you can write things like this
+right otherwise
+think of it like
+you are writing CSS selector
+only basically you have to write CSS
+selector only here
+cool
+so now that we have established
+even though this works
+there is still a better solution out
+there so now let us go ahead and try
+and figure out what that solution is
+and how we are going to make
+it work right and this
+by the way is a classic example of
+polymorphism that you may have heard
+of in object oriented programming
+there are multiple ways of doing one thing
+this also works
+but this is not the ideal solution
+so we are going with another
+solution now which is the ideal one
+and it works
+so
+just a second
+before
+that
+let me
+let me
+so there is
+something called
+event bubbling
+how many of you
+have heard of this thing
+event bubbling
+now
+we will get to it
+so
+let us quickly see
+if event
+that we are getting in the callback
+maybe that would be able to help us
+so what the idea is
+I will be I will not be including
+the
+add event listener on each of these things
+instead what is the common
+parent of all of
+these buttons
+what is the common
+parent for all of these buttons
+is it D tag
+allied tag dual tag
+out of these three which is the common
+parent
+so
+UL is the thing
+luckily we have selected
+UL here
+so we will be
+attaching the event listener on
+UL
+add event listener
+and
+event listener takes
+in two things
+first it takes the event then it takes
+the
+then it takes
+it takes
+it takes the callback
+correct
+ally can be right to
+no ally will not be right why
+because this ally is a parent of
+this button but I cannot use
+the same ally for this button
+right because ally is different
+so UL is the common parent
+right
+so let us
+go ahead and
+write the code for this now all we have to
+do is the event is
+definitely going to be clicked as you
+had seen here also
+and now we need
+to have some sort of callback and
+in this callback I will be getting
+an event this by the way
+again just a reminder this
+is just an
+argument so name
+can be anything I can change this to
+and it would still work
+so but the common practice
+across is you either use
+E or you use event
+right
+we are concerned with event
+now let me quickly see
+is event giving me something
+which I can use to target
+which button was clicked
+right
+so
+I have
+event let's go to console
+do this okay
+okay they both
+look alike but if I were to
+go down
+and select the target
+when I hover over this target you see
+task two is getting selected
+but when I hover over
+this target task one is getting selected
+so which means this works
+event gives me a way of
+identifying which of these buttons is
+and right now I only have one add event
+so which means I am definitely going in the right
+direction that is for sure
+so now let us go ahead
+and
+do something here
+so I know for a fact that
+in this callback event
+which by the way again is an object
+nothing else
+JavaScript may sound complicated but
+everything boils down to object
+event is an object and
+I can simply store
+the delete button
+you could say directly here
+right I can say
+const
+lm is equal to
+event.target
+right and
+just to prove it to you I can even say
+lm name is
+equal to
+event.
+tag name
+and I can
+console
+name so if I were to go here you see
+it is getting
+undefined maybe it is
+named something else
+sorry sorry
+this again
+event.target
+inside of it I would be having the name
+so
+see we are getting button
+so which means
+I am able to identify
+now all I have to do is pretty simple
+I need to copy this
+function that I had written
+paste it here and
+change this to
+lm that's it I can remove
+the name by the way
+now if I were to save this go here and do
+this
+I am able to delete
+right
+so which
+way was better the first
+one or the second one
+keep in mind that we added one
+event listener here in here
+we added two event listeners
+sorry one event listener here we added four
+here we added one so which one was
+better first or second
+which one do you think
+was better
+which one do you think was better
+but unnecessary clicks also getting
+fired correct that is fine
+clicks
+let me tell you this key
+in javascript
+in future classes you will learn about this
+then it would make a lot
+more sense
+there is something called a main thread
+you will study this I think
+as the some of the last
+classes of javascript you will learn
+about this and it is pretty interesting
+when you learn about the JS architecture
+in detail what exactly is
+event clue what is callback queue
+what is the speed at which
+javascript actually processes
+right so
+you will get your answer
+in that class Ashwini
+I don't want to overwhelm you
+with it right now but just to
+give you a brief idea no matter
+what you do javascript is
+processing continuously
+right it is processing continuously
+the main thread is never free
+it is just that it is
+always doing something but it makes time for
+these events these events are the easiest
+thing for main thread to
+manage right
+I hope
+sorry I think screen share is most important
+screen visible
+so I hope
+Ashwini that answered your question
+without saying
+much
+right
+cool
+so there is one tiny problem with this
+solution there is one
+tiny problem that even though
+I click on this task
+it is getting
+removed if I click on task
+4 it is getting removed
+so can you tell me why is that happening
+any idea
+that is happening because
+your event whenever
+you correct
+the parent is still the same because
+the parent is still the same and you haven't
+explicitly said that
+on click of what
+on li
+all items
+basically is
+all items
+basically
+all items basically is the
+entire thing
+so if you click
+anywhere if you click anywhere
+we will
+learn about it in the second question in detail
+the event basically bubbles
+to the top
+so event was generated here
+but it bubbles to the top to
+UL right
+which is why even if you click
+anywhere be task
+2 be task 1 it will
+go up and while
+going up it applies to you
+so do you think of a way
+we could put some sort of
+a check
+if only this delete was
+clicked not the entire thing
+anywhere but only delete
+so
+do you think there is a way
+to somehow know the
+tag name
+is there a way
+to know the tag name because
+if I were to click here we would
+be giving up we
+would be getting a p tag
+right but if I were to click on
+this button I would be getting a button
+tag correct actually
+if you remember we
+had done it like this const
+tag name is equal
+to lm.
+tag
+name and I can
+simply put a check here
+in simple English language
+if tag name
+is equal to
+button then
+remove
+otherwise
+do
+right so when I save this
+go ahead do this and come
+back here and
+just for testing
+purpose I will
+include
+this also
+so when I click on task two
+event is fired as you could see
+event was fired and
+the callback function was called but
+since it was p tag
+this condition failed
+and parent didn't get removed
+but when I click
+on delete button
+it got removed
+delete button it got removed
+so this to me
+seems like a
+better solution than this
+right
+any queries here
+any queries for this part
+this question
+we saw the brute force approach
+we learnt about
+event basically holds
+the entire thing
+no matter what you want to know
+even right now
+it would make a little bit more sense when I say
+event holds all the data
+that you could possibly need to make a decision
+right
+so anyone
+is there anyone who
+is it clear to everyone
+should we move forward to question two
+yes
+Abhinav, Vanket, Abhimanyu
+Abhishek, Arun
+Ahmed, Ashwini, Ashish
+Dheera, Srimangir, Muniswara, Pradeep
+Pramod, Shaikh, Sambit, Rita
+Vinay, Upendra, Tejan, Rohesh
+Shambhu, Rajesh, Ashank
+all able to follow right
+let's move on
+let us up the level a bit
+and now we will talk about
+question two
+so let me change it here
+also
+question two
+okay
+we have a button called double
+that's it
+HTML also just says double
+with something called double
+holder
+so there are two things that we have to do here
+two things that you have to do here
+first, click the button
+that is destroyed
+but two new buttons
+are created in its place
+the next two buttons should behave like
+the above button
+okay
+so the idea is
+key
+on click of this button
+this button will be destroyed and
+a copy of this button
+would be created
+so there would be two buttons
+so when I click on this button again
+this button again
+another button gets made
+so basically it would be
+like an exponential thing
+it will keep on going
+so we are
+deleting something also
+and then
+in place of that thing
+we are having
+two more buttons
+in that place
+okay
+so
+before we solve this
+let us go ahead
+and let me create a file here called
+bubbling.js
+so let us quickly go through
+what exactly bubbling is
+and using this concept
+bubbling concept
+I will be solving this question number two
+so I will tell you what bubbling is
+and then you need to help me solve
+this question too because
+it seems tricky
+so I will be needing your help
+cool
+so let us go ahead and
+do that
+okay
+so go to
+event bubbling
+what I am going to do
+is I will
+write
+let us say
+div
+class
+could be
+box and
+grandparent
+then we have another div
+here
+class would be
+logs and parent
+then we have another div
+here will be
+class will be
+box
+and child
+so we have three divs
+one side of another
+something like this
+and I will also mention the name
+grandparent
+parent
+and child
+okay
+let us go ahead
+let me open this also
+so you can see how it looks like
+okay
+right now it looks like this
+sort of E
+let's make it a bit better
+by adding some styles
+to it
+right
+so first of all
+I will be adding a style for
+boxing one
+sorry
+you can say border is
+one pixel solid
+gray
+then we will have
+grand
+parent
+this would be parent
+and
+this would be
+child
+okay
+so grandparent we could have background color
+set to let's say
+light blue
+and some
+width
+20
+and
+height is 20
+and I will copy paste this
+across
+only thing
+change the color
+this would be
+light green
+and this would be light
+light golden yellow
+okay
+and
+grandparent is at top
+so I will make this one as
+10
+10 this one as
+5
+5 now let's go ahead
+okay
+so now it looks like this
+so
+this is better
+you ask me
+so what is it that I
+want to build here
+or what is it that I want to
+demonstrate here
+so we have
+grandparent here
+let me
+add a
+script tag
+at the end
+mentioning const
+gp is
+equal to document
+dot query
+selector
+dot grand
+parent right
+and I can here say
+gp
+dot
+add
+event listener
+click
+and here I will be getting
+console dot
+log click
+tick
+so now if I were to
+open console
+here you would see if I click
+on grandparent
+I get clicked which is
+expected right
+but if I were to click on parent
+I again get clicked
+why because parent
+is inside of
+grandparent so essentially
+grandparent is getting clicked
+right and if I were to click on
+child it again
+shows it was clicked
+now my question to you is if
+every time it is showing
+it was clicked
+how can I possibly know
+which of these elements was clicked
+whether the grandparent itself was clicked
+or one of the
+child element was clicked
+how can I be sure of it
+here
+it's not like I
+can somehow discern on the
+basis of tag name because here
+all the three have tag name
+as dip so I cannot
+go through that path also
+so shouldn't
+there be a way
+that I can tell
+whether grandparent was clicked
+or basically
+whether the grandparent was clicked
+or someone inside of it was clicked
+yes or no that only makes
+sense right something from
+event must be different
+correct so now you are
+catching up
+in which direction
+my conversation is going
+so now let us go
+ahead and let
+me print the event
+right
+and in this event
+I will have two things
+I will have something called target
+and I will
+something called
+current target and this
+is a
+this thing out there I can do
+event or target we know this
+using this so far event or target
+gives me the target element that was
+clicked but there is
+something called event dot
+current target
+it also gives me something so now
+let's go and see what it does
+when I click here
+both target is set to box
+grandparent and current target
+is set to box grandparent
+when I click parent
+now this
+is where it gets interesting
+right now you see
+the difference right when I clicked on
+parent my target is set to
+box parent but my current target
+is set to box
+grandparent
+right so
+when I click on child what
+do you think will be the target and current
+target when I click on child any guesses
+remember child is inside of
+parent
+when I click
+on child what will be the target
+and current
+target
+target is child correct
+and current target is grandparent
+correct correct
+correct correct
+right so current target
+is basically all
+about where the event listener was
+added
+right wherever the event listener
+was added
+that will be the current target and
+target is going to be the actual
+element that was clicked
+right and how does my grand
+parent eventually the
+event when I click on this child
+element your javascript
+will see that no event listener is
+attached on this day right
+so
+it will bubble it will keep on
+going up
+inside of this child
+outside of it
+the parent is this way so
+event bubbles and go to this
+is any event listener added here
+yes or no no so it would bubble from
+here also then it reaches
+this grandparent
+is the event listener added here
+yes it is
+added so this becomes the
+current target
+now are you
+able to follow why
+events are so important
+events give you whole lot of information
+that you could play around with
+right
+right
+I hope the pace
+and all is ok
+so that's why last question clicking
+deleted button correct
+the pace and all is
+ok right everyone is able to follow
+why if you are not able to follow let me know
+now
+yes
+ok
+so
+through this
+I can tell what a current
+target is and what is the target
+so let me go here and
+google as well
+target vs
+current
+target someone here
+must have done a good job at
+discerning between them
+current target
+tells us
+on which element the event was attached
+that is happening in our case
+or the element whose event
+listener triggered the event
+in our case it is grandparent
+so which is why the first half is making sense
+to us right
+and the second part event.target tells us
+where the event started
+so this is the main part
+current target tells us
+on which element
+the event listener was attached
+to or which
+element the event actually
+was triggered
+current event.target tells us
+where actually the event started
+so is the difference
+between target and current target
+clear to everyone
+yes
+great
+so now
+this was my hint to you
+let me rename it
+target
+target
+current target
+so now
+I will go back to
+question 2
+so now using
+that knowledge you should
+help me in solving
+this problem right
+but we will solve it after a quick break because
+we have been going on for almost one hour
+we have covered a lot
+in the last one hour
+so lets take a break, stretch your legs
+go for a walk, have some water
+and when you will be back then we will start solving
+question number 2
+using what we just learned
+cool
+so lets go for a break
+for it is
+10 0
+it is 10 08
+we will be starting with at
+10 13
+right
+we will be starting at 10 13
+go for a break
+now while everyone is away
+if any one of you has any doubt
+regarding anything that we have covered so far
+now is the time to ask
+anyone has any doubt
+anyone has any doubt
+regarding anything
+I hope everyone is saving to follow though
+but
+sometimes in loop we do
+event or target and sometimes we
+go by array 1
+to target the element, what is the difference
+so the difference
+I will share it on the whatsapp group also
+in detail, you could read about it
+there is something called html collection
+and then there is something called
+node list, so whenever we use
+something like query selector
+it gives us a node list
+but when I use something like get element by
+id or something like that
+it sort of gives us
+the html collection
+so I have a very good
+article in mind, I will share
+it with you, so you can
+use that
+that should be able to help
+for most of the problem
+that we are doing array i
+you could do the other one also
+both ways are fine
+it's not that one way is better than
+the other one, both ways are equally fine
+so you will see
+that in the article that I will share
+on the whatsapp group after this class
+any other doubts
+any other doubts anyone
+also
+I would say
+try to post your questions
+to everyone
+so that everyone
+knows
+because like this particular question
+was a very good question
+no questions
+no questions
+and also
+go have some water
+and then we will continue in 3 minutes
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+one of the yesterdays
+question
+do share your
+questions
+over whatsapp
+and look into it
+what actually went wrong
+ideally we can use either of the ways
+and we can do it with
+either of the things
+ok
+correct
+sorry
+sorry
+sorry
+sorry
+sorry
+sorry
+cool then
+it is 10.30
+so let's begin
+right
+before we do is everyone back
+just a quick yes no
+yes
+okay so four people are back that's for sure what about others are they not back
+yet eight people are back or is it the same ten people eight people are back
+okay here numbers are increasing gradually but eight people are back cool
+so cool it's time to launch a poll right just to check if we'll play that game
+again so the idea is the you should be able to balance it for both of the
+options in poll right so let's see if you are able to do that as I mentioned
+the last time also in none of the clubs anyone were able to do that so let's see
+if you guys are able to do it or not right launching the poll again
+oh shit close one
+50 50 someone messed up someone messed up at the end see I told you it's almost
+impossible for it to end with 50 50 cool then assuming not that everyone is back
+we'll begin solving the problem at hand the problem at hand was question number
+two where the idea was gone click off each of these button it should get
+destroyed and on in place of that button we would be having another two buttons
+and they would be in the exact same order so to destroy you know for a fact
+which way to go right that is something that we are well versed with so let's go
+ahead and simply start solving for it so I can see there is a parent so maybe
+they could attach our event listener instead of the button but on the parent
+because the second part says a two button should be exactly like the upper
+button right so I like add the functionality to the parent right and on
+click of that I'll delete this button first of all right so I'll be getting
+target and current target so I'm thinking he may be what I can do is sir
+on every click I will delete the target right I'll delete the target and then
+from current target I will create two more buttons and append it to the
+current target element does that make sense so I have a button and so I first
+of all and this is inside a parent so first of all on click what I'm going to
+this will be my target and this parent is going to be my current target so first
+of all I know for a fact target is the button from which the event started so
+I'll delete this target so this particular button would be deleted so
+this would solve my one big problem he even if there are multiple buttons only
+that button will be deleted from where the event started so that part is sorted
+now post and all I have to do is simply create element if you remember from the
+last class we created element so I'll create an element in that element I'll
+create a div and I'll put it on current target right so my event listener will
+be on parent right so it's the strategy clear should we code it out yes
+cool so at least it is clear to five force let's go ahead and put it out and
+in case you see I am going somewhere wrong we need to interject and help me
+correct it right so first thing first since we are putting the event listener
+on parent I know I see key event listener has an ID value right so what
+I'm going to do is I will say const double oh my bad double holder is equal
+to document dot query selector and query selector is fine go to at this point
+only selector is good right this makes sense because there's an ID I put
+hashtag in case this was class I would have put dot exactly how you do in CSS
+selectives right and in this double holder dot add event listener this gives
+me which again need an event that is click and we will be needing a callback
+because we our strategy is to play around with target and event sorry
+current target so which means key we need to access event in here oh event in
+here right and so first thing that we are going to do is let me create first
+button can you help me in creating first button in document which function is
+used to which method sorry is used to create an element what should I write
+here we did it in the last class character create element and what
+element are we looking out to create we are looking to create a button element
+so which is why I will write button there right and we need to make it
+exactly like this one so which means key class also needs to be added here which
+the class name is double so let's add that so I'll say first button dot inner
+text is equal to double non-double a but double and we can say first button dot
+set attribute what attribute are we setting class what are we setting it to
+double right so now you see whatever we learned in the last class we are now
+using it here just actually because it just makes sense so likewise I'll create
+the second button also all I have to do is to second button right so now I have
+two button place and what I can do is I can append it right if you remember we
+can append right there is something called append so we will be appending
+this on double holder so I can simply say double holder dot append append
+let's append the first button first sorry it is going to be like this and
+then second button and once you are able to do that all I have to do is even dot
+target dot right so let's see if it works movement of truth it's working
+right every time I click that button gets deleted and it is creating two
+buttons in that place I want to test one thing right now we only have a button
+here when I click three buttons are here when I click the middle one you see when
+I click the middle one two buttons were created when I click the last one when I
+click the first one two buttons keeps on getting added at the end right it
+deletes this button and two buttons get added at the end right so this solves
+the second problem also right what's this clear to everyone yes now at this
+point I think it would all seem a bit trivial only right give I can you button
+create Kanna higher element create gonna let me do it you want to change the
+inner text you want to set attributes to it let me do it it's pretty straight
+forward at this point I assume right now I think you should be somehow getting a
+picture key by events play such an important role in dom manipulation at
+least right he what exactly is it he events get this much value right event
+object which contains the entire story it sort of gives you a story in short
+form right he what was clicked what else was clicked back then is it is it target
+is it currently target for what is the state of that button right now all of
+those things is presenting with this one object all you have to do is go through
+it and it will give you so many methods to play around with right cool so if
+it's clear to everyone they can move forward to the big question now q3 if is
+it clear then yes so let's move on to the third question now and this is a
+big one right as you push the text present here right this is the question
+implement key taps such that on pressing one you scroll to section one let me open
+it first here q3 implement key taps such that on press of one press one to go to
+section one press two to go to section there must be somewhere written is there
+section two
+the section two is there take section two section three there in total three
+sections got it so the idea is key you now need to listen to keyboard events
+now this is interesting and B if you were to press B you should go jump
+directly to the bottom of the page if you press one you should jump to
+section one right so through anchor tag you may have learned to do this during
+your HTML classes but now we are listening to keyboard events right so
+this would be interesting let me make another file first called keyboard dot
+HTML right we will be talking about keyboard events in this one and it
+should help you key say event and line example obviously and in here what I'm
+going to have is
+let's say input right and type would be
+text
+and
+we could have a div here side of it we could have a span right and say key is
+pressed and for this particular span I could say class is equal to key press
+this is just so I'm able to target it easily and likewise I could probably
+have a div here right and for this one I can say rest right
+inside of this I could have a span saying shift is pressed right and what I
+can do is add a class here called shift T so let me write T script tag for this
+now so the idea is now what I want to show you guys is that whenever any
+keyboard is keys pressed how would you make out key whether C was pressed or
+some numeric key was pressed or whether control P was pressed command P was
+pressed so now we are moving towards that direction right so once you are
+able to figure that out all we have to do is solve this one big problem and then
+we can call it a day. So let me open a new tab here and I'll call this keyboard
+keys pressed shift is pressed something is happening but now let us go and write
+some Java script first right so let me say input oh sorry I need to take it
+first input.document.add event listener what event am I listening to oh sorry
+not event listener query selector I'm looking for input right likewise let me
+have
+key press this is going to be dot key press and this one is going to be shift
+press dot shift so what I'm going to do now I'll create a input dot add event
+listener and in this event listener I'm going to write two things so first I'm
+going to measure here key press by the way so far we've been mostly playing
+around with this thing click events right but this is link on MDN event
+reference it gives you all possible types of events mentioned in here right
+so let me share this link and you can go through this through this link after the
+class and it mentions all of the possible events which are available in
+JavaScript which you could probably mention in add event listener right so
+you prefer to go through them and play around right that is just for your
+reference now let's focus here and now this keypress obviously I'll be getting
+let me just do that console dot log
+rest right so now let's go here okay dark console when I do I'm going to
+type scalar SCALER this I know for sure key on input key press event I'm
+getting some data up until now we were getting on pointer events now I'm going
+to write event here and I'm going to say event right so every time with each key
+press I'll be getting an event also let me say yes now this is the interesting
+part up until now you are getting pointer event because those events were I was by
+clicking so I was sort of using a mouse or the pointer but now I am using my
+keyboard right so which is I'm getting keyboard event here if you see I'm also
+getting the key code as key S but here in this case keys S right so which
+means key I get a keyboard event also and through this I can tell key what
+exact key was pressed right right now here you could see there must be
+somewhere written shift now here is say shift as false I'll close it and this
+time I'll do shift S it is capital right this time you'll see it says key as S
+and shift key was set to true now do you understand key how does your browser
+know key whether they whether on shift anything any shift anything why do they
+have to enter a capital letter not a small letter how do they get to number
+of someone must have configured it that way right so this is how it is
+configured actually so someone internally is listening okay shift key
+was also pressed S key was also pressed so if simply S key was pressed so which
+means we are talking about small s in case we press shift and S then we are
+talking about capital S so someone must have configured it that way
+and believe it or not all of no matter what big application you pick be it
+google.com Facebook Instagram scalar dashboard also everything is built up
+on this tiny concepts that you are learning right so isn't it interesting
+these are the actual building blocks for these right it again gives me the
+target it gives me the source element it basically I'm getting this key so this
+is the main thing right now I can update also right because I have key press in
+this so maybe what I'm going to do is say key press dot inner
+inner inner text open why is it not showing key press dot target why is it
+not showing inner text we've been using inner text right
+why is it not showing is event triggered yes event is triggered
+inner text is working not sure why it is not showing up here but inner text is
+working so now I'm going to update it like this key on key press I removed
+that event
+on key press I'll pick the key so I can say key press dot inner text is equal to
+key is event dot key event dot key and I could also have shift press I can put a
+condition here key if event dot shift press if it is true then it will be
+pressed otherwise it would be not pressed tick now let's test it out by
+default it is saying pressed for both
+because here it says
+key is like this okay I'm going to say s oh sorry I can remove this
+I can say yes key says shift is not pressed now I'm going to say scalar
+with capital C is it shift press only enough or something else console dot
+log event let's see it is shift key shift key is set to true event dot shift
+key yes see see it's working a L E R so it is working with every keystroke I'm
+getting a keyboard event and from that keyboard event I am able to tell key
+what character whether he was pressed or not whether the shift key was pressed
+or not what is the key right so I'm able to do all of these things in the event
+that I'm getting and I'm able to type this right so it's interesting right now
+I can listen to not just wonder events but I can also listen to keyboard events
+now this opens a whole new door for me is huh okay so just again take it so
+likewise not just keep this you would have similar events like this available
+on some there are multiple events present there is key press key down key
+up and they mean exactly what you think they mean right so basically key presses
+when an actual event is pressed key down the event is fired when you keep when
+the key is still down right and key up is when it is left up so when the key
+goes up on that point the event is fired key press and key up more or less work
+the same way right but yes
+key press cool then so is it clear to everyone was everyone able to follow
+till here no doubts or is there anyone who has any doubts till here anything
+you think I would be good to cover Opendra, Vinay, Shaikh, Abhinav
+all right video breaking question seven from last class need this correct so
+question seven from last class need this and now you know how to solve question
+seven from last class is the video breaking us we just have one more one
+question to solve so let's power through the video still breaking let me turn off
+my camera it would definitely help take let me know if the video quality
+improves was breaking a little bit was past tense so is it fine now now good
+great great great great then so now for this problem so what is what was the
+problem the problem is simple when you press key one what was the problem so
+when we press one we should skip to section 1 when we press 2 which will
+skip to section 2 when we press press 3 we should go to this when you press T we
+should go to the top of the page and when we press B we should go to the
+bottom of the page right so which means key we simply have to listen to certain
+events we could put an event listener on h1 I'm thinking we can listen to
+these events and if it matches any of these things will take them to the
+respective places where they want to go right and to scroll basically there is a
+method which is available on this thing called IDs are given right so we need to
+have something for these IDs ticket we need to have something for these IDs and
+there is something called scroll into view scroll into view so what does it
+say the elements interface score interview methods scrolls the elements
+ancestor container such that the element of score interview is visible to the
+user so this is what we want so what we want is key when I press one this is in
+my viewport when I press 2 section 2 is in my viewport right so we will be using
+this scroll into view for this so now let's go ahead and implement it so first
+thing first I need to put a sector key various s1 s1 is basically my document
+dot query selector since it must be having an ID so I'll put an ID called s1
+likewise I'll make it for s2 and s3 need to change it here as well as to an s3
+and now I need to add event listener so where should we add event listeners
+considering key we are listening to event throughout considering we are
+listening to even throughout so we can go ahead and add a div and listen
+directly to window so I can say window dot add event listener so which means
+key since we are adding the event listener on Windows so anywhere you click
+as long as the window is focused anywhere you click we we should be able
+to scroll basically this callback would work right and what event are we
+listening for we are listening for key press and we are expecting a callback
+here obviously and this callback will be getting an event now we need to use this
+event so I'll need to say let key is equal to event dot key right now let me
+just console dot log key now let's go to the page go to console clear here if I
+press 1 2 3 anything I'm doing as you could see I am getting the key correct
+so far so good we are we are halfway there now all I have to do is use this
+scroll into view this is how it's used it's called into view it it again is a
+method so which means key you need to add the element in front of it which
+element s1 s2 s3 so are we need to write it something like s3 dot scroll
+interview s2 dot scroll interview cool so let me check the type of these things
+I'll go back here I'll press 1 now we are getting string so this is a very
+common mistake that people do key since you are getting a string people while
+writing condition they put triple equal to and put it there so which means key
+it does a hard check so it doesn't find any matches right so let us now write
+it if key is triple equal to one focus that I put it on in quotes right I want
+to do s1 dot scroll into view cool and save it now let us go and see if it
+works right I am on section 2 I am going to press 1 and it works right right
+everyone followed right how we got to this it's interesting right
+Arun, Nehmat, Abhimanyu, Abhinav, Ankit, Chinmay, Dheeraj, Hemant, Munishwara, Pramod, Raja, Ramesh, Sheik, Vijay, Shashank, Vinay
+I hope my screen is visible to all now all I have to do now all I have to do is
+just keep on adding these condition for all the keystrokes which are mentioned
+the question so one it's that secondly if I need to put a condition if key is
+triple equal to 2 then in that case s2 dot scroll into view right else if key
+is triple equal to 3 in that case s3 dots scroll into view right there is
+something called tall sorry top and bottom as well so which means I'll
+again check for if key is equal to B or just adding a double check if it is
+equal to capital B essentially that typing bottom only so in that case I'll
+write a different function window dot scroll to right so in window I'm saying
+by scroll to zero document dot body dot scroll height right what does this do
+let me copy this go here and I'll paste it don't paste code to depose that you
+don't understand oh yeah I understand yeah
+oh it's not letting me add code okay I'll type it window dot scroll to zero
+comma document dot body dot scroll height see when I run this I got jump to
+the bottom of the page right so basically what what am I saying here
+I need to scroll to zero distance what is the starting point zero and how much
+are we scrolling we are scrolling to body height so whatever is the body
+height I will be able to scroll to that so body height obviously would be equal
+to the entire thing so I would eventually be jumping directly to the
+bottom open raise my screen clear I've zoomed the ID as well right cool so
+likewise I can put somewhat the same logic for top also right else I can say
+key is equal to T or key is equal to capital T case window dot scroll to zero
+comma since we are scrolling to the top what is the distance we want to go far
+away from top is it the entire body length no so what should I write here
+crawl to says ki mujhe top se kitna dur jaana hai here I had mentioned ki mujhe
+code top se body ki height jitna dur niche scroll karna hai now I want to stay at the top
+so which means here from top I want to go zero far so which means key I have to
+write it this way so now when I save this and I'll go here now I'm going to
+press one two three let me you probably won't believe me you may think I've act
+somehow so just to prove that I am legit I'm going to write key error so
+right so you would see here the key also
+okay I'm here I'm going to press one as you could see one was pressed right I'm
+going to press two three if I were to press four nothing happened five nothing
+happened any of this but when I press B sorry B I jump to the bottom when I
+press T I jump to the top
+Ankit is the screen not visible?
+your caps lock is your caps lock is on I thought that you were shouting
+now it's like here but you were able to follow right the demo part key how the
+entire thing is working so we were successfully able to solve this question
+as well correct
+it's fine cool yeah so anyone has any doubt in this question interesting this
+way we can make napa to scroll to say correct actually this is the way that
+people do in big organization also this is the code that they write to make it
+work one final dry run yes so in first of all what I did was I I had ID attached
+to three sections so I was able to store it in these three element again I'm
+storing objects the thing that we started this lecture with then on key
+press I've put this event listener on window because I want to listen to the
+entire no matter where the person click I want to listen to it so which is why I
+had mentioned key press here now this event I'm receiving a keyboard event
+from that keyboard event I'm extracting the key storing it in a variable called
+key now we check the type of key it is always going to be a string it will
+never be a number right so which is why I am doing a cross check for string one
+two three four and for that we are using a function called scroll interview if
+I'm not wrong in scrolling to view you can pass something called smooth also
+yes there is called behavior and in behavior I can pass smooth let's try
+that once I can again add an object here in here I can say behavior as smooth so
+if I go back here and I scroll down when I press key one you see that smooth
+behavior right so again it's nothing but object so I can do one two three you see
+how smoothly it is scrolling here and there right and that was so easy you
+just need to add a behavior to it right so which is why I say MDN is the golden
+resource out there right all you have to do is go through MDN and you would find
+it is such a golden resource correct cool yeah so I hope you guys found it
+interesting today's class right that's all what I planned for today now in case
+you have any doubt now is the time let me start the doubt solving session also
+quick now if you have any doubt whatsoever now is the time what's the
+scope when we put a listener to window what if we are typing somewhere else I
+don't think it would well of your window should be in focus when I'm here and I'm
+typing right now it is not showing but when I click here now my window is in
+focus now when I type okay my bad need to console also
+good so when I focus here and I'm typing SCALER it focused when I come here and
+I type SCALER you see I'm typing here it is not focusing so as long as my window
+is focused it is listening to those event when I click anywhere else it
+won't if I come here and I type SCALER see it's not showing up here so which
+means key my window needs to be focused because status where now when I click
+back here SCALER cool right any other doubts regarding any any of the
+questions that we had covered today be it keyboard events be target current
+target event bubbling any of those things if you have doubts now is the
+time anyone anyone has any question regarding anything
+Abhinav, Ankit, Abhimanyu, Ahmed, Arun, Bhuvanesh, Chinmay, Dheeraj, Saraut, Hemant, Muniswara, Pradeep, Pramod, Rhea, Raja, Ramesh, Tejal, Lupendra, Vinay, Kiran, Shambhu, Rajesh, Ashank
+no all good did no question because tomorrow class is going to be super
+interesting tomorrow we will be integrating our very first API understanding
+but overwhelming and the fact that you are finding it overwhelming is you are
+on the right track it is supposed to be overwhelming but that is the journey
+right from finding it overwhelming to finding it underwhelming so you're on
+the right track shall we use click events to scroll to window shall we use
+click events to scroll to window you can you can there's no problem with that but
+that depends on the use case what is the use case you are solving for if the
+product requires this then now you know key this is how you can achieve it but
+why you should do it is up to you right
+by the way tomorrow's lecture is going to be super interesting believe me 40 to
+50 percent of your day-to-day tasks is integrating API's and tomorrow we will
+be making call our very first API right we'll be building sort of a better app
+tomorrow so do join it huh I'll share it on the
+I'll share the for further reading for further reading I'll share some articles
+current so I'll share this one there cool I hope you guys like the lecture
+though and that's it I need any doubts or we can call it a day and once again
+thank you for joining on a non-class day it means a lot please do please do
+please do and in case you find any doubt whatsoever and kid feel free to
+raise it within the first five minutes tomorrow right be on time raise it right
+there and then I'll resolve your query there cool I'm good sounds like a plan
+right great great great I need any doubts anyone any other doubts thank you
+Pindra cool yeah I guess there are no other doubts but still I would urge all
+of you to go through the recording complete your assignments and in case
+you face any doubts feel free to visit on the whatsapp group discuss among
+yourself the whole point of doing it as a cohort is you interact among yourself
+right so discuss the questions among yourself and try to solve right so it's
+it would be beneficial for everyone right and for any queries relating to
+class bring your doubts tomorrow first time within the first five minutes we'll
+talk it out cool with that I think we can call it a day right I have attached
+the github link I'll be pushing the code now and you should be able to access it
+right and for any other doubts you know where to reach me on whatsapp right
+group right so with that going to today and ending the meeting now so I'll see
+you all tomorrow thank you shake and bye bye everyone
+you
+you

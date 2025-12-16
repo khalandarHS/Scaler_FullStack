@@ -1,0 +1,2064 @@
+you
+you
+Hi all good evening
+Can anyone confirm if you can if I'm audible and visible this
+Thank you
+I
+Share my screen if my skin share is also visible guys
+So let's have time of four minutes
+Yeah, so how are you all how's everyone doing? How's your work going at offices? How's your preparation going?
+Any challenges
+So how many of you have already sold all the assignments guys if you have sold all the assignments give me thumbs up once I
+See three people
+Okay
+People who couldn't do it right who are not able to do the assignments in the challenges guys
+That would be really helpful for our analysis also like we can really try to do if you are having time issues
+Understand that but any other thing like you have it if you have any challenges do let me know
+enlighteners or enlighten me so that
+We'll try to work out on a part such that we can help you out
+To left yeah, sure. Thank you promote
+Okay
+So I'll drop a message in the what's up guys all great. Thank you station great work keep doing
+I
+Just a second
+I'm I am NOT great great something
+You
+So
+What's up link
+Give me a second guys
+Can anyone share the whatsapp link guys I have to open and laptop
+So if anyone can share it I can you know pin that
+I
+Great summit and scalar editor they have already one CSS style sheet is linked. What is the purpose of that? We can see it
+Scalar editor I'm not sure because and I didn't open the scalar editor guys. Give me a second. I'll do it and
+Let you know on that
+We can use it I
+Hope it should be editable, but not sure like how that works. I'll confirm to it Kabir
+I'll check on that and confirm to it often. Okay
+Yeah, okay, you might be having seen that link is attached in HTML is it like you hyper reference
+Yeah, you can type it down using style tag directly
+Okay
+Yeah, so somebody's I shared what's up chat
+In this thank you something
+So guys, you know, let's get started with today's class
+You know, okay. Did anyone go through get a prep? Oh guys. I have actually
+I've added actually one of the screenshot earlier
+So facing issues in question to anyone test cases are failing
+We'll check that in touch in some bit. Can you add that as a question?
+I will fix that one will verify okay add that as a question. We'll pick it up in touch
+But guys did anyone got chance to go to get a repo?
+I've added one of the you know picture which can help you to revise
+positions
+Okay positions property can anyone see
+so
+I've summarized all of them into one sheet
+Will revise this thing again and we'll move ahead with the flexbox. Okay
+so
+Let's get started with agenda today what I have in my mind
+So today's class is mostly based on one topic called flexbox will be spending more time on that
+We'll understand what is this and why if we are using or why it is being used across like
+Why it is like bread and butter for the person for the front-end developers who's working on CSS and will also understand media query
+But this is the most important thing
+I hope I'll try to explain my best and hope you solve all the doubts that you have if you are facing anything
+Let me know. Okay, but before going to flexbox guys, I just want to revise
+property position
+So can anyone help me why or when that party position?
+Property comes into the role in CSS. What is a use case of this?
+When does we use position property?
+Where do we actually use this position property anyone
+Guys
+To set something at a required place to allow to move aside any side, right?
+So if by default when you write CSS like HTML
+The every HTML element will have a desire, you know a place where it will render, right?
+But that's a default place by from but if you want to move it from that default place to some other place around the
+HTML, you know
+I mean whole rendering box or the browser or any device that you are working on then you go for the position
+Property where you by which you can move all the elements to any side that you have and to move all the elements you have
+four properties top
+bottom
+left
+And right right we use them
+So any of the combination of two either this two or this two will help you to move the item any side, right now
+When we started if we thought we say that by default default proper what would be the default property of position guys?
+What we have discussed?
+What would be the default property of version?
+Static right, so by default all the HTML elements will have position called static, right?
+So this is what we discuss then we went with discussion
+There are two properties which plays major important role and major confusion, which is like related versus absolute
+right
+Now what we have understood is that if we want to move the element
+With respect to its original position
+Okay, whenever so imagine this thing if you are
+There is a certain defined path like this is a HTML
+Positioning by default when you add all the HTML content
+But if you are moving any other part right using the same method
+But if you are moving any other part right using position property
+It is being moved on to the different layer once it comes under the different layer length
+Then it can move or hover around the other properties, but it doesn't happen on the same layer
+So all the properties through which
+Which you can apply top bottom left right are generally on a different layer. Okay. Similarly, we also discussed absolutely something element
+that moves with respect to
+Window position
+Right then we discussed went on to discuss with fixed and sticky
+Fixed is wherever you define once you define a fixed again this axe element is set
+With respect to window
+Right and
+Once you define any position it will be fixed even if you scroll this element doesn't move
+Even if you scroll
+Element is fixed so that's a unique thing
+Sticky is also same thing, but you know when when you scroll it the behavior changes
+The behavior of sticky
+Changes
+When you scroll
+Right, so this is what we have discussed earlier in the class, right any doubts till now guys this thing, right?
+You I hope everyone have a clarity on this one
+Still if anyone have doubt, please let me know
+And I hope everyone is clear on this
+So now I want to add one of the other like, you know, then there's some one condition
+I didn't want to complicate it in the last class
+No, so as this one thing that I have want to talk about absolute property
+Let's say
+Now this thing we say that it will work with respect to windows
+Okay, but this can be configured configured such that
+It was configured such that it works
+Or moves with respect to that element
+Like to parent element
+Or
+Do I exactly mean by this is that let's say there is a div inside and then there is something called span or
+Let's say span
+Right
+So what we are saying is that if let's say this is absolute position absolute
+We think that now by default when we apply position absolute
+If this will be moving according to window position, right?
+Like it will be in your top zero or anything. It will move to window position
+But this thing behaves differently when your parent element any parent element is having position
+relative
+So what I'm saying is that
+Firstly whenever you apply any element absolute value
+Then it goes into the hierarchy checks if there is any parent element or a wrapper around it
+Which is having position relative if it is having it will move with respect to that parent element
+Or else it will go to the window position
+Is this point here guys how many of you have understood this one?
+I'll give you an example of this one
+Imagine like you have a drop-down value like you remember drop-down value
+Let's say you have dropped on input type
+Is equal to drop down
+When you have drop-down value
+Is equal to drop down
+When you have this whenever you click here, which where you're having arrow
+Let's say this is an arrow whenever you click you will see that there's a pane a list of
+The list of items that comes exactly below it, isn't it?
+It comes exactly below it
+Right it will have a list of values, let's say these are the list of countries
+You'll have India, let's say Bangladesh
+Sri Lanka
+Right
+You'll usually this is the behavior of drop-down rate and whenever you see a drop-down, right?
+This is usually looks like on a highlighted pin. Let's say this is a drop-down input
+Then whenever you click that button, right the drop-downs like values you usually see in a bit of upper plane
+Like you can use it using layers and you can verify that but that's how behavior looks right
+Now in order to fix this one, right in order to fix this sort of behavior now
+How would you approach? How would you approach this problem that you want something a child elements this being the parent element?
+This being child element
+To something which is moving with respect to this one
+Like something is which in which is coming down and moving according to the parental
+So in those use cases, you will see a combination of relative and absolute
+Is this point here is?
+So if you have any doubts on this let me know because I'll open that sheet again
+Okay
+Let's go to this sheet
+Now if you see this what I made it I have all the properties static relative fix sticky and absolute
+And I've given all the five parameters like distance like when I say distance
+Where you can move can you move other element top bottom left right?
+it's static you cannot move it because default nature in all other properties you will be able to and
+Does it create layers like when you apply this property when we say layers what we exactly mean
+Is that whenever your top bottom left and right are being applied, right?
+that usually it means that that element is already elevated into the different position and
+Whenever that element is elevated then only you will be able to move on to the different place because default nature will be on below
+Okay. So
+Wherever you will say for distance is yes and same layers will be having the same. Yes. Okay now
+The important thing is what is the starting position when you apply like for static it will be default place for relative
+It will be the original place wherever it started and for fixed it will be
+Window like with respect to window top left like for sticky also with respect to window and for absolute
+window or parent relative
+right and when it comes to
+Like this does it maintain the original place once applied these are like same thing
+Like if you see this will like static is yes relative is yes
+Fixed is no sticky will behave. Yes, because here I have to add another condition
+I'll edit this one
+But for sticky it will act like for with respect to it original position initially then when you scroll right when you scroll
+It behaves in a different way. So that's why
+With respect to like it start from original position, then it acts like with respect to window both the things
+With a very whereas we come to this one absolute again. It doesn't maintain its original question, right?
+now when it comes to scrolling all the elements, you know
+Move like with the scroll but only fixed element doesn't move because they are particularly fixed at one particular position
+Same goes with a sticky it moves like until it comes into the role
+It the all the elements will move as as usual
+But once the elementary it it is comes into the viewport then it behaves in a different way as you configure it, right?
+I hope you'll go and revise this part and explore this one, right? So
+How many of you feel confident about now position property post understanding this concepts I
+See only one thumbs up guys
+For
+Shin there are many people in our class. I just need few more words to understand that like if you're feeling confident
+Okay now so if you are confident, I need one help from you
+Let's say we are building something now what I want to build
+is that
+where
+We'll try to do something such that will have
+Let's say a layout in which I have to fix the header
+Like if you go and see any device any application that you want to see, let's say you pick it. I'm a song
+Or flipkart or anything like if you go and see here
+Five scroll if I scroll if you see this header is fixed, isn't it by scroll? This is fixed
+How can I build that? How can I build that?
+Just just let me help me out such that I can understand like how can we build this
+Can anyone think of something guys
+Any ideas guys, let's say I have a header
+I
+Say this is
+Header of page I write down this one and I also let's say I have
+Sections multiple sections
+it says a
+content
+box one
+And let's say I have content box two
+Now
+For going to style block, let's say we style a few of things
+Yeah, what we'll do is that
+Firstly
+Let's say we say that section whatever section it is, okay
+And let's say I also have an class
+called box one and
+Class as box two
+Okay, now let's say I give her default height HEIT or 200 pixel and width is
+Let's say again 150 pixel
+Okay
+And let's say we have a border of
+two pixels solid
+We have a border of two pixels solid black right let's say I have a box one
+Background color
+To be RGB
+Say some random 24
+45
+63 okay. Similarly, I'll select the other one which will have box two
+Let's reverse this one I'll put 45 here
+I'll put 63 here
+Okay
+Say 45 here
+Okay, now let's open the preview here firstly
+If you see here, we got the two boxes and let's say
+If you see one thing guys
+Here on the top. There is an empty space on the left is also empty space. Why this space is coming guys?
+How can I fix this issue?
+We have discussed this problem. Also, how can we fix this issue?
+Right, yeah, we have to give the universal selector
+Such that we define that hey, we don't need any margins or
+Right, let's say padding zero and there is another property that we prefer is
+Border box sizing right
+Border box to apply the exact things right now, let's say we go for height is as like this way
+With this
+300
+Okay, fine. No
+Height is let's say 500
+No, okay fine if you see here, let's say I also add some styles to the header part
+Say I say color
+Background color
+Any background colors guys?
+I
+Have having the same
+Okay, and I'll make it with as hundred percent. I don't want to give pixel
+Okay. No, this is how the behavior is now what I want to talk about is that I want to fix this header header
+Is something like we are able to scroll so how can I fix this header?
+What do you guys were suggesting to me earlier? I?
+I didn't look into the chat position fixed. Okay, let's say I call it as position fixed
+Now I fix the question does it solve it
+But do you see this that my behind the scene the box one is like, you know hiding
+Behind it. How can I fix this that you know my box one comes below?
+This is position sticky
+Okay, I will try that so let's say I try that sticky, okay
+Now even if I try that sticky if you see that
+Issue seems to be fixed which I was mentioning that a content one box is not visible when I
+Select fix but still when I'm you know, scrolling it you see that that is not fixed onto the top
+What can be the issue is
+Padding where you want to add padding some bit
+Where you want to add padding
+Let's say I'll give a padding also, but doesn't matter padding is not the right thing
+Think of it
+Once we apply once we apply position. What are the fields we play around with?
+Once we apply position, what are the fields we play around with
+What are the fields we use it to move the element
+Top bottom right or left right. So once I am giving this fixed
+Where this item I wanted to be fixed where this item should be fixed
+Top zero, right
+You guys agree firstly
+Even then if you see it's not working
+What could be the issue
+Like even then let's say refresh even still I am not able to see
+My element to be on there. Like how can we fix this?
+Think of it guys. Like if you go back into the Amazon, let's say I'm scrolling you can see
+It is still sticking there like let's say inspect it now, let's see the behavior how it is built
+If I go around and let's say this is the diff but
+This is the whole day, right?
+Let's go and see here. What is the position? This is there using position static, but
+Let's say I scroll it down
+It's not coming now, let's use some different website maybe
+Flipkart
+This is working as expected at least
+Let's say I go and select this one. This is their Dave
+Let's say this is their Dave. Okay
+Let's say this is their Dave, okay
+If you see here, they use display flex will see understand all the points here border boxing is fine
+But I'll select this one
+and
+All this are fine
+Okay, let's go to computer and see if there is any position property applied
+No
+So
+There is no position property applied this
+So, how do you think that this particular thing is working like when I'm scrolling it is still fixed there
+Can't we just increase the width of the header and add the index? Okay, let's try it
+Let's try it out. Let's say I give this
+height of the header of
+hundred pixel and
+width of
+100%
+Okay
+No, I've done this now. What I'm saying is that you want z-index, right? Let's say I add a z-index of
+thousand if you need like
+Even then my content box is not visible
+Even then my content boxes make the section as relative and keep the top value
+Here it says makes a section. Okay
+Okay, let's say I make this position as section as position relative
+fine now and
+Give the top value equal to height. Okay, let's say I give top
+Which is 500 pixel
+Only to the first section, okay, let's I cut it here and I waste it here again
+Do you see any change here
+If I comment this
+Then the position relative is applied and it is moved to the below
+But if I'm not commenting this one
+If I'm not commenting this one
+Because this is coming into the different layer guys just thinking from perspective of this one
+Let me refresh it
+Guys give me a second
+Okay, and
+Where did I mess up yeah
+So this is what we were doing it can we use Omni food website, which is practice for okay
+Shall we make box relative?
+So guys what I'll do is that I
+Want you to think on this problem and come back. This is a really basic problem
+You can go into any site and search right we have seen that how can we make a position like, you know stick it
+How can we make a position like, you know stick it now if you go to the
+Earlier class also if you go for the position if you go for fixed item
+We have shown like how can you fix that item, right? How can you fix that item to the top? But
+We have to learn like how can we make it obvious that you know, the other items are like visible, right?
+Make a margin top of a section height
+I don't know you can try it down this one
+Please come up with solution so that we'll move it with the class and we'll address this one in break time
+works is
+We're addressing break time. I'll give you 10 minutes in the break. I'll push the code you guys think of it post the break
+I'll fix it
+Okay
+so
+Let's get started with today's class now
+Coming back to because when you up like by theory, right what I just wanted to show by theory you can
+You can understand topics, but when you apply it, right?
+So there's too many, you know suggestions and too many things
+Now if you go and try to fix it on your own
+You'll understand like what is actually when you can apply the all the concepts taking in all the possible positions, right? Okay
+now
+Let's get started
+Let's get started
+With the flexbox guys
+Okay
+Have anyone used flexbox earlier
+Have anyone used flexbox earlier?
+No
+No, cool
+Great
+So
+Guys till now we discussed property called display, right?
+How this property used to help us how this property used to help us display property
+What are the possible values we have learned in line
+Block
+In line block
+Then none right
+We were be able to align elements as we wanted using them right on a on an axis level
+Let's say horizontally or vertically
+Using this one and then we were able to apply height and width using in line block, right?
+We can we are able to hide using none. So this is what we have learned right till now
+Do you guys agree with me?
+On display property now there is a new value that you can
+Provide it for display which is flexbox flex
+display flex now
+What or how what problem this flex is solving actually till now whatever websites we have seen or designed it, right?
+We have designed it without considering
+any
+Size of the particular device right my laptop your mobile or your laptop your tv screen anything
+So when we say client client can be anything right it's like multi-device or cross-device applications
+So you whatever websites you build it should be cross
+Uh, you know cross-device application like once you're designing it should be applicable for all the things
+So what they told is like what if you want to build something like, you know layout structures
+Layout structures like if you want to align elements in layout like or you want to build a layout like
+Hey this this thing should be here that thing should be there and how you want to arrange in terms of layout
+for the cross-device applications
+The solution introduced was flexbox and this is
+one direction
+One direction layout
+This can be used for a
+Small to medium scale applications
+We'll see in the next class another property called grid which can be used which which is actually two direction layout
+Okay
+Which will be a two direction layout and will be solving for the bigger applications, okay
+So I hope this introduction is clear like flexbox is usually used to solve
+Cross-device application problems or you can say responsiveness how many of you heard this word responsive websites?
+When we say responsive website what we exactly mean like one application should be supporting to the all media devices media devices when I say
+All types of screen could be a mobile
+Mobiles can be of different size rates some screens are because some screens are larger
+but every website that you open or app you open in mobile all are like
+Working in a right way as we expected isn't it?
+So if you want to build those kind of applications or though if you want to do it that way
+Then yeah, rightly said something we go with one of the layout
+If you want to lay out the design then you go for the flexbox now
+To understand few basic things, right?
+How many you have you on how many of you know this like x-axis and y-axis?
+How many of you understand this x-axis and y-axis?
+So basic geometry, right? Basically basic maths in geometry, right? So
+All the flexbox revolves around this axis axis game only right so
+in general
+This direction right?
+There's a one property in flexbox like once you define display as flex
+You have to design since it's a one direction as I say one direction you have to decide
+Hey where
+My items will be aligned
+Will be aligned
+Like
+We were earlier used to convert inline to block block to inline because we are converting from horizontal vertical vertical to horizontal
+Still still that same concept still it is the same concept. So
+To convert to make this one, right? We have
+One property called flex direction
+In the flex direction you have four values, but we'll consider we'll filter out two values are only
+row or column
+Okay, now by default
+Flex direction is true. So whenever you have multiple elements, let's say we go and design and we come back to this part
+Okay, let's say we go back and create one file called
+You know flexbox dot html
+Okay, and what we'll do is that we'll use html5 extension
+And we'll close this we'll call something as flexbox
+Fill open show preview
+Will minimize this one?
+Let's say what i'll do is like i'll have a container inside that i'll have a multiple types called one
+Uh, let's say I have a four
+So
+Okay, now what i'll do is that let's say these are the class
+I call it as flex items flex item. I'll apply the common class to all
+So
+Now if you see this I i'm not doing anything else like let's say I call this class as a flex container so
+Okay, and what I'll do is that i'll open the style block
+And i'll select this flex container
+And let's say I give display equal to flex
+What's happening is all the elements are aligned horizontally right though
+These are block level elements. What's the default nature of block level elements? It starts on new line and take whole row space, isn't it?
+That is what we have learned right
+Takes the whole row space, but once we apply display flex those are all aligned into horizontal
+Now we'll come back to this explanation like why this is happening actually what is happening here?
+Okay
+As i've told you that this is it always align the elements in one direction
+Whether it is like a row or column you have to choose by default flex direction is zero
+Okay now
+Whenever your elements are like consider i'm considering flex direction and row and i'm trying to explain this approach
+Okay
+The x-axis is called as major axis
+And the y-axis is called as
+Minor axis
+Okay, this is the convention that people generally use to explain okay flexbox
+Is that clear guys, uh, give me a second
+Okay, uh, let's let's move this we call it as main axis and cross axis
+These are not specific to x and y these are not specific to x and y
+These are specific to flex direction if your flex direction becomes column then this would become
+Main axis and this would become cross axis
+Is this point clear guys
+Refer to it if row flex direction is row main axis would be x
+And cross axis would be y
+And if flex direction is column main axis would be
+Y and cross axis would be x
+Okay now
+Once this is clear now all the css properties right in flexbox are divided into two things
+Between container
+And its items
+Okay now every time you apply display as flex
+To a container item or the parent element so that you want to align all the child elements
+So that you want to align all the child elements
+Okay, you apply display flex to the container or the parent item so that you can align all the child elements
+Similarly what we have done here if you see the example
+We applied display flex to the container like which is a wrapper here
+And we are trying to align this children elements, right?
+Now
+So there are a few list of properties which applies to container
+There are a few list of properties which apply to items
+We'll see them one by one
+But till now the concept is clear, right? What is main axis cross axis?
+And container and items definition
+How you can relate with it?
+Guys any doubts till now
+I
+Hope there are no doubts now. We'll go to the practical thoughts all things. Okay
+Now let's say what I'll do is that I'll have a container height
+Container height as let's say 500 pixel and width
+As
+100 percent and what I'll do is that I'll have a border
+Two pixel solid black
+Okay, let's say I have this I also make again
+Margin zero padding
+Zero, right? No
+So
+Also, I say that margin should be five pixel so that we can see the box now
+Let's go
+And apply some properties to this flex containers or flex items also so that we can see all the changes that we'll be applying to each
+Okay
+flex item
+Let's say I can give
+height of
+Each item, let's say 50 pixel
+And width would be
+Again 100 pixel
+Okay, I let's say border
+Two pixel solid
+Blue
+And let's say margin of five pixel, okay
+And we'll have let's say this other item one
+One item two
+Item three and item four
+I go and select the item one first and I'll give the background color
+As let's say tomato
+So
+Let's say item two
+Background color as dodger blue
+Okay, so item three as
+This
+Blue violet doesn't look good, but let's go with brown then we'll go with item four
+Background color as
+Okay, let's convert this into black
+Okay
+Okay now
+So what we have done is we have just distributed all the elements like we have created a box inside that
+We uh just have done this now. Okay
+Flex item text align center cool. Okay
+We've aligned it now
+But what we have done we have created just a box inside that i've set up the all the items and given basic css
+I should I hope everyone should be wouldn't be having any doubts till now because I haven't done anything new
+Till now, right? So
+Now our container is flex
+What is the by default guys? What is the default position of flex direction that I have told you just now?
+What was the default direction of flex direction?
+Row right now, let's say I give it row again
+now when the
+When I give it row, there is no change if you see but when I convert into column
+If you see all the elements will be again converted into
+This like vertically now, what would be the main axis guys? What would be the main axis when flex direction is a column?
+So
+Why right then cross axis would be x remember that thing that basic definition
+Now also flex direction gives us ability in order to rotate the items. Okay, let's say I say column reverse
+When I say reverse if you see it took to the it went to the bottom position
+And it reverted it started from below
+Right started from down. It went to the bottom and then started from reverse
+Similarly also you can apply row reverse
+Is this clear say is this clear like how this thing is working?
+Like how flex direction can be used to align items vertically or horizontally. Okay. Let's say I make it as only
+now
+Once this is done
+You also have an ability. Let's say I have much space now if you see
+There is one property called justify content
+Whenever you go for justify content
+If you see this x-axis having more space, isn't it?
+Let's say if I drag it further if I drag this further is having more space
+Like on x-axis it started from left corner, but it is having some empty space, isn't it?
+Guys, can you see this empty space?
+What if you don't you want to utilize this space like you don't want to sit on any website?
+If you see this space is like looks ugly what you can do if you want to move these elements
+Left right or anyway, you can use justify content property and you can give
+values like center
+Which will move
+Like however width your x-axis can be but it will move all the elements into the center
+Or else you can give like if you want it to be flex start
+When I say flex start it means that it will be aligned to the left only
+Okay, if I wanted to align to the right I can go to flex end
+Okay
+Similarly if I wanted to align like such that if they're all are distributed all are distributed and occupies complete space
+Right, we can use something called a space between now as much as you as much as you drag as much as you drag
+So these are being you know taking space as it needs. Can you see this guys?
+So why we call this flex box is as you develop as you even if you pull the screen out
+You make it big or small it will automatically it works like a jelly if you pull it it will stretch if you leave it
+It will come close
+Do you see that feeling where we use display flicks? I didn't apply many properties yet
+But it is spreading like a jelly and taking it whatever it is. That's how magical it is
+That's why we say that whenever we are using flexor, we are we are building actually cross device application
+Okay. Now, let's say i've used the space between
+Now that's okay. I'm moving something i'm moving something around the x-axis
+What if I want to move along the y-axis? There's a lot of empty space below
+What if I want to utilize that then you have something called as align items?
+You can go and use align items where if I let's say I give flex start
+Nothing will change because it is sticking to the start only on the top
+If I give it as end see it went to the bottom it stick to the bottom
+Right if I give it as a center
+It stick to the center
+right
+Now many people have asked me like how can you center at dips the simple solution you go on internet?
+You will find it this one
+right
+design a box
+Dip box which is
+Make it display flex and give it like justify align content as a center handle
+Now if you see even if I stretch it further
+The box will look like in
+at the center
+Yeah, these all properties whatever properties i'm applying all with respect to only display flex if I comment this display flex
+Or let's say I comment this display fix if you see this
+No property will be aligned by default this div are the block elements block level elements
+So all the elements still works like a block level
+Is that clear aswini?
+So these all elements works only when your display is flexed
+So we are applying all these properties to the container. Just remember that guys that we are applying all these properties to the container
+okay
+now
+Let's do you want me to write those definitions also here in comments so that you can remember or if I share notes that would work
+I need your comments guys so that it works for both of us
+Like if you want me to write I can I have already returned some definitions I can
+Let's say I paste it here such that flexed a flex item, okay
+Yeah, okay, let's say I use this
+Also I
+I mean I have
+Testing already written in different batch. So I'm just copying it from my notes
+Okay. So what we have said that flex direction it is it defines a flexed items direction like flex items
+These are the items in it, right?
+Are the least items like where you want to be shown them and it has which are directly proportional to main axis
+Okay, wherever like if you are if it is zero main axis is zero if flex section is column main axis is column and
+Items will be aligned that way and justify content. This property is always applied to main axis since it is a row
+According to row it is working in center and align items. This will work according to cross axis
+So remember in terms of main axis and cross axis, this will be really helpful
+now
+Guys, do you see this if I reduce it further if I reduce it further these boxes are getting stringed isn't it?
+These boxes are getting stringed but we have given each box
+A particular height and width right this boxes are we have given this items each particular box height and width
+What if we want it to stick it? What if we want to stick it?
+So for that we can say that hey can we wrap these items if your space is getting reduced
+You can always wrap the items now if you see what automatically when I use wrap this items got
+Distributed taking that same width and height if I increase my space again, the items will be aligned in the same room now
+Uh, let's say I reduce the height as 30
+Uh, this is fine 50 but
+Okay
+No worries
+so
+I hope you're getting the understanding like what flex wrap does flex wrap is usually helpful to define like hey
+My item height and width are this 100 pixel
+But if the space is reducing can you move the item to the next line?
+Like if you are writing a paragraph in your notes, right?
+Let's say you start from a line one and you are writing it your line one is finished
+You'll start writing the paragraph in the next line, right?
+But you wouldn't reduce the font size of your first line and you try to adjust all the paragraph in only line one, isn't it?
+Like just consider like you're taking our notes and you have a rule book
+You're starting in the line one. Now your line one is completely finished
+You have moved to the end. I have the book now you want to go and write on the second line, right?
+This is the same thing if you give flex wrap as a wrap
+It will take whatever space it have and if it is not
+Having enough space to render the next element or write the next element. It will move to the next room
+Okay, what if I give it as no wrap? Let's say no wrap if I give it no wrap
+And if I reduce the space it will try to align that same thing like you are you want to adjust whole paragraph in only line one
+Remember it that way
+Okay
+I hope this would be clear guys how wrap works
+When to use a wrap?
+Right, there's also something called as wrap reverse
+It will move the items up and down order
+Okay, we don't basically use it, but this is a property is used for flex wrap
+Now, uh, i'll add a content for this one also
+Let's see it helps to wrap elements as per width available like reference screen width
+Whatever screen width is available according to that it will adjust the element width
+Okay, I hope these properties are clear guys, whatever we have discussed till now. Okay, four properties we discussed display flex
+Flex direction justify content align items and flex wrap
+after that
+You know, there is one property
+called
+Flex flow
+Flex flow
+Like it generally defines in which direction you are generally flowing like when if when we say in which direction
+You are all the elements are flowing. It's a combination of
+flex direction
+It's a combination of flex direction and flex wrap
+Okay
+If you say let's say I make it flex flow as row wrap
+Okay, and I can comment
+These two things still it would work in the same way
+It still would work in the same way
+So it's a combination of two fields
+like a short short format like you go for
+Uh, we've seen that padding left padding right padding top padding bottom
+We can design it only one thing we we have discussed like top right bottom left right same way
+If you want to combine two properties and write down
+You can use flex flow you can design direction and you can say that whether you want to wrap it or no wrap
+So people generally use right they directly go use instead of flex direction and flex wrap
+They directly use flex flow and they use column wrap or row wrap
+That's easier, right?
+So I hope this this point is also clear guys there's nothing
+Uh like to be understood here. It's just a combination of flex direction flex wrap you can give space separated both the fields
+Okay
+Now there's a one last item
+That that which is present something called as align content
+Now this is different from the align items guys, this is different from the aligned. Let's just see what's happening
+If I use as flex start
+What just happened guys
+If anyone can explain what is happening from the behavior I would be I would really appreciate you like let's say I move flex end
+Or else, let's say I I just make it center
+Okay, the children got aligned with the container right now let's say uh
+Uh
+Align to canvas. Okay. Now, how would I explain this? Okay, let's say I
+Take an ip i i'll explain an ipad
+So
+Let's say you are
+boxes of this size
+Okay, and you define
+Flex items here. This is a container you have one two, three four
+Items which are having let's say one
+Two three four
+I hope this is visible guys
+Like for a while i'll zoom it in. Okay, this is where your container is there. This is a whole html document
+Or your device width viewport you can say
+Okay, and then let's say this is your flex container
+And the items
+Now
+This is aligned onto the
+Like top left, right?
+But what if we want to move this container in this free space anywhere like what if we wanted to move
+Somewhere around center, let's say you wanted to move here center or somewhere you want to move to end
+Now till now you were aligning all the internal items
+You are aligning all the internal items like whether flex start flex and center
+But this particular
+Aligned content right that works with respect to html like absolute field used to work for the position
+So this container where it should be returned with respect to html
+Is that clear according to your viewport or html you can say
+Guys how many of you understood this property align content?
+Uh, I see two thumbs up I need a few more guys if you're convinced, okay, cool. Thank you
+Cool. Thank you
+As per html as in like this is our whole viewport right some bit like whole
+Whatever viewport it is like even if you have less space, let's say if I reduce it
+Uh
+It wouldn't work that way
+But I have this is list of com terminal section
+But what i'm saying is that hold your screen size in your screen size if all the elements are lying on the one end
+But your screen other screen is empty. You want to move on the anywhere in the empty screen
+Then you can use align content. So that's why i'm saying that with respect to window or html. Okay now
+So
+I have written some specific definition like considering height and width property
+So if you see what I have given as a comment here
+It works same as a align and align item
+But if container height is very large in that case, it helps to put the element as a respective version using this property
+Yeah
+So it it takes the free space inside the body. No, not exactly. Let's say I also add
+a flex item
+Give me a second. I'll help you out understand this one
+If you see I reduce to 100
+Now when I move it to the 100
+This align items if I give flex start
+Or flex end
+Or center
+Okay, nothing major change is being applied here
+but only if your container if you are like whole container height is way much or
+Like whatever your container is there in that that flex
+Sorry flex container
+Whatever flex container height is there in that if you have empty space you can move align the items the children's all the children
+Okay
+so
+Guys, these are the things that you can actually apply
+To the flex container, I hope all these properties are clear. I'll try to revise here once. Okay. Give me a second
+Okay, so
+Let's say
+For the container as we have seen it here
+So one of the property is called
+flex direction
+Which is used to define?
+In which direction the elements will be now what what all we have seen here what all properties are available row
+column
+Then you have row reverse column reverse
+Right then we have seen the other property called justify
+Content
+Justify content always aligns with main axis
+Right so here you can align always the items on the main axis
+Yeah on the main axis like flex start
+Flex end
+Then you have center space between
+Or space around
+You have a list of properties that you can apply to move elements around your main axis
+Okay, then you have something like
+Align items
+This applies to cross axis
+Right again all these properties whatever you have here same
+Then we have discussed something called as flex wrap
+Like to to adjust according to the width how you want to adjust all the elements like you have here properties like
+Wrap no wrap wrap reverse
+Then
+We talked about something called as flex flow
+Right which is a combination of
+Flex direction
+Space flex wrap
+A
+Shortcut but you can define it then we talked about one of the other field which is align content
+To move
+All the items
+Flex items
+Like
+Inside container
+Like
+To start end or anything. These are the properties that we have learned
+So any doubts on these guys anything you want me to revise in this or this is clear
+If you are if you have understood these properties and their usage give me thumbs up guys
+If you are clear with these properties
+Okay
+I see four people giving me thumbs up few more guys. It would be really helpful
+Great, thank you. So now
+Let's go to the items
+Now we have said that all these properties whatever we applied are respective to container
+Right all the properties that we applied are on only on container wherever we have defined as flex container now for how
+Let's say I also give some background color here
+Any background color guys that you like
+It's a slate gray, that's fine. Okay. Yeah slate gray. Thank you
+so now
+All the properties till now whatever we applied are for the container right now
+But what how children's canvas like how children's can all the child elements right flex items
+how they can change for them there are basically a set of properties like
+One of the property is called order
+Now if you see here the items of order order of these items are one two, three four
+What if I want this fourth item?
+To be displayed first
+Or the third item to be displayed in between these two
+Can we do it this arrangement using CSS?
+So this can be done in flexbox
+How can we achieve it? Let's go to that property something called as order
+now by default
+Anything will have order zero
+Okay order zero now, let's say I rearrange this one. Firstly, uh
+I'll arrange and show like something like let's say I give order zero to each item first
+Okay
+Order zero now what what we want to do is like we want to align them again such that one two, three four
+No, so whichever value will have less order now that will
+Be coming first. Let's say what I mean exactly is that let's say I make item order four as a four order
+Okay, so it went to the last if I make order item of three
+Then it will come last a second. Then if you see by default it is zero zero, but I can make two and one
+Right, so this is how order works whichever is having the lower order by default it will come first if
+There is a chance that let's say if I make this both order zero and zero
+By default one is coming first
+The reason behind the first is present above the item two
+Okay
+Okay
+Now let's say if we want to rearrange this item, let's say I again, uh, what I do it is that I fix this one firstly
+Let's say I fix this item three
+Keeping it here
+item four keeping it below
+So by default what I did is like I kept the normal nature. However, the items are there. What if I want
+Fourth item to be first what I can do is if I want this fourth item to come first in in place of one
+What I can do the order of item four should be less compared to the order of other items
+How can we do that
+Like can we make order order of item four equal to zero
+Then this is the first element, right? This will become the first element that to come in the screen
+so generally the order
+Is used to rearrange the items that are children's or like flex items
+Like in which order you want to represent if you want to play around with order, then you can use this property
+I hope this is the thing is clear guys how order works or how order helps us in order to rearrange
+the existing children flex, uh items
+Uh negative values. It doesn't work. Let's say I make
+Minus three it is working, but by default it starts from zero
+Have you know
+Let's say I make minus three three is coming. Let's say I make again minus two
+Three still there if I make minus four it still works but
+I never used a negative go with positives starting from zero because by default
+By default order value for any element would be zero there wouldn't be like minus
+Integer value max integer value
+Okay
+That's how the reason that's why I say that only play around with the positives
+Okay, but I hope uh, okay vigneshwar what's what I was trying to say that
+Uh, let's say I remove order property all the order property, okay
+Okay
+Do you see all the items are aligned as like we have written in html 1 2 3 4
+Right now what I want is that
+One to come at last one to come at last
+Like instead of uh one coming at the first one two three four. I want to see it as two three four one
+Then what I can do by default the item two and three and four are having default value of order as zero
+I can go I can use define order. I can give order as one
+Once I give order one all these are item like order having zero then by default this is having a higher order
+So it will come at last whichever is having lower order. It will come at first it starts from ascending order
+Consider zero as a default value, okay
+If I want to move the item three should be the like last second
+Then I can say that order should be two
+Once I give it to if you say two and four are having still order zero
+And then item will one come then item three will come
+That's how it rotates. I hope the order definition is clear what order does
+Okay
+Okay, so i'll add it here guys what order does order is helpful in order to rearrange the
+Order in which elements are rendered too much order order in the definition also what I've written
+But I hope this thing this definition makes it further clear like what is exactly we are doing dealing with this
+Okay now then there is something else guys then there is something else now
+Now
+We have used something called as flex wrap
+If you see it is coming into the second position if I reduce it further
+If I reduce it further if you see one item, but what like let's say I open in
+Live server
+Okay, let me open this one I want to show you other some other properties or how it works
+Now if you see this, this is how we defined items
+Now I convert into different sizes I can use this one to move to different sizes
+I am going for the mobile version now if I reduce it further if you see i'm going into one direction if I reduce it further
+This is shrinking isn't it?
+Or else if I increase it these are increasing this much but as as soon as I increase the screen
+As soon as I increase the screen they are like even like till here they are into one size
+Even if I increase further, they're not increasing in nature, right? They are that small only but what if your screen?
+Yeah hamburger menu
+I didn't get that
+Okay, this one responds here. Okay
+Yeah, you can use this mobile any mobile version that you have. Okay, but I am using response in order to drag it
+Yeah
+So what I was saying guys here is that understand the problem let's say I have
+A tv
+Uh, I have to make 100
+Just let me refresh this
+Okay. Anyways, if you see let's say I have a tv
+And my tv is smaller in size
+I'm able to see fully filled i'm able to see all the pictures, but what my what if my tv size increases
+The item size are still same
+Let's say you are seeing the cricket match on a
+32 inch screen
+Okay, that's fine
+But what if that same 32 inch screen you will see all the players like very small in size
+If that same match is rendered on a cinema theater size of screen, let's say that big
+70 mm 90 mm screens right in that that range of screen
+Do you if you see that say your small players are playing would be able to see that?
+Will it be able you will be able to see your neck by your naked eye or you need a binoculars to see them, right?
+So what we say when you go for the responsive nature
+Whenever you are increasing the size the elements whatever children items are there
+Their size size should increase and with reduction their size also should decrease
+How many of you agree with this point guys?
+How many of you agree with my this point the size should increase and decrease along with the screen size, isn't it?
+If size is same then we'll have a lot of issues, isn't it?
+So to address them right to address them
+We have two properties in order to address the sizes
+Something called as let's say I remove the order property because we know it how order works
+We have something called as flex grow
+When we use flex grow
+We say that by what size you want to increase this item
+Let's say I say one
+And let's say I say here flex item two as a two
+Okay, and I again I give it here I comment this order
+This one has a one and this one also one
+But do you see uh behavior here guys what's happening
+Like we have defined flex items to have height of 50 and 100 pixel once we gave flex flow
+flex grow
+They are behaving as the fish right according to the screen size. They are not taking this height and width
+Right
+Whatever default height and width are there this width and height we defined it when we thought of this screen particular screen
+But we didn't thought of like whole approach, right?
+How many screens we can have many screens we can have n number of mobiles we can have new mobiles can come
+But we want to support all of them. So for that reason whatever items by default you give
+Like this width property, right?
+Width or height depending on how we align the items now it is according to the row
+So width is not playing the role if you align align according to vertically then height wouldn't play any role
+Now, let's see once I gave flex one item flex item to us flex two only
+Remember this thing that only item two is having flex guru as two all other items are having flex grow as one
+Now let's go onto the browser and see what's happening
+Now let's say this is the browser that I have
+Now the if you see on the mobile since the space is small only
+Using a flex wrap of the container. It took whatever space it needs if I reduce this further
+Okay, if you see it is reducing further, but what if I keep growing?
+If I keep going if I keep growing again, do you see this like there is something that I want to see you
+It's like can you see the item two comparatively it is double of size of all the other items
+Item two is double size of all the other items when we are growing the screen
+Isn't it so whenever we want one particular item
+Let's say there is a particular item in which there are too much paragraph
+Let's say this is having something along with two. Let's say there is a span tag
+And too much of paragraph let's say lorem 20 right
+Let's say this is a too much amount of paragraph, okay, let's give lorem 5 only
+Okay
+Okay, the paragraph is there now
+Let's see now if I reduce it that's fine
+But if I want that paragraph to contain to be readable when I grow right I want that item to grow
+So that it can be visible as such. We want we also want to increase the font size
+That's where media queries will come. I'll show you how can you deal with that?
+But for the from the item level from the flex item level, I hope this point is clear
+Whenever you want a particular item to grow at a double rate or 1.5 rate or any rate compared to the other elements
+You can specifically define the values of flex go that with respect to that
+Now let's me let me give you the definition how you can remember that what how do I remember it?
+Okay, if you see this
+What I say is that flex i flex grow is used when we want the items to grow with the ratio
+When the fifth of screen is in the width of screen increases like whatever ratio like this is increasing
+Item two is increasing with the with the double of all the other items
+one is to two ratio
+Okay, I hope this is clear guys how the flex grow works
+Is that clear guys flex grow similarly we have something called as flex shrink also
+Now flex shrink is also in the same way. Let's say I shrink it by two
+And I have let's say this is as one
+And let's say this is as one
+This is also same definition as flex grow
+This is also same definition as flex grow, but this is like when you are reducing the width of a particular
+Screen, let's say I reduce it
+Now if you see the after a some extent rate after some extent the one will reduce further at speed
+Our rate one will reduce our speed rate if you see one is comparatively smaller
+If you want me to show let's say i'll pick it as
+three
+So each to one ratio
+If you see
+Let me comment flex grow as of now then you will be able to see how that flex shrink is working
+Okay
+Now what I have done is like I have just used flex
+String three as for the item one and all other items are still flex like one
+If I go back
+And I reduce it
+Why this is not working as expected
+Give me a second guys
+Refresh
+Wouldn't work it but
+Let's say I did I mess up with some property let me remove this pan tag we don't need it
+Uh, I use flex string for the one of the thing then I
+Did I use right spelling that's that's that's fine, but let's say I have a width of 100 pixel
+uh
+1000 pixel and if I reduce it all are reducing it same rate
+Uh guys i'll fetch the example for first thing, but it's it is in same way
+how flex grow works if you want the one of the particular item that you want to you know shrink in the faster rate compared to
+The existing thing then you can use a flex string like if I write down the exact definition, right?
+This is how it works
+Flex string is used when we want the items to shrink when the width of screen is when the width of screen decreases like
+uh
+Let's say I remove the wrap for now flex wrap if I remove the flex wrap you will be able to see now
+that
+If you see the item one is of one by third of size, let's say I go and reduce this
+whatever
+Flex string we applied let's say I reduce this one now just see this if i'm reducing it
+If I give it one now all the items are having the same space
+But if I take it as two it will have less like if I enter it
+It will have it will string further at a speeder rate
+I hope this thing is clear like if I increase it further if you see that size is increasing a bit
+But it will reduce by half of the size each time
+We can give 1.25. Yeah, I can we can give any unit as we want
+Okay
+Like if you see it's reducing it double rate now, whatever
+Reduce this is reducing with that comparatively it reduces with a speeder rate
+But exact dimensions when you're dealing with flex screw and flex string, right?
+You have to decide like
+Exactly, like how proportionate you want to do it
+but whenever i'm applying the flex wrap it is automatically adjusting the
+You know alignment since it is going to the next row
+The flex link is not applying because it is having the enough space to render the each item in a row
+Is that clear guys how flick why flex string is not working when we have flex wrap?
+Because it is having enough space. It is it don't need to increase any of the item firstly until unless they are in one row
+It is not needed
+Okay
+Then then there is another one
+Field another property which is like a property called basis. Okay
+Okay
+now
+Let's say I comment this one also flex string
+Now basis is something like guys. What is the default?
+Now basis is also applies
+Along the main axis itself. It's a flex basis
+Whenever you give flex basis, you are supposed to define what is our default height of the item
+What would be the default height of the item let's say if I give 100 pixel
+100 pixel now if you see let's go on to the screen and what's happening here
+Okay, I go and apply here the flex basis is 100 now if I reduce it if I reduce it see this what's happening
+So by default when even when you grow even when you grow you want certain items to have that particular space only, right?
+So imagine what are these three properties?
+Right are dealing with it whether increase with the screen size or reduce with the screen size or keep it a fixed size
+Doesn't matter. Uh, like if the size is increasing it will be minimum of that size
+Let's say now what happened with the item one if you see it if I have the more space
+Item two three four are increasing in width but item one is constant because maximum
+It will have only 100 pixel if I reduce it
+It will reduce to any content any extent but maximum height is at maximum width
+Whatever it can be i'm defining using flex basis. You can also give in terms of percentages. Let's say I give
+25 percent
+Okay
+Now if I give 25 percent it will be like whatever according to screen size it will fix according to 25 percent
+Okay
+So flex basis is generally user to define what could be the item's maximum height. Sorry maximum width and
+Even you will increase the screen size. It will like if you give it percentages
+It will auto adjust because of screen width when you are increasing reducing
+But if you give a fixed unit like pixels or rem or em, then that is the maximum, you know width
+It will be considered but if you are already shrinking it it will shrink as much as it can it is needed
+Is that clear guys like how this property works flex basis?
+I
+I'll add a definition to this
+So i'll show you an application for this one all guys like we'll build something so that you know
+You are you'll be able to remember
+When you have
+Fix width or height
+With respect to
+Flex direction
+Particular
+Size of item
+Okay, so guys revising again, let's go to ipad and then
+Uh, so hey mangi you want me to repeat this one? I'll repeat it. So what I was saying is that
+Flex basis is generally used to define what would be let's say if I have certain certain things, right?
+Let's say
+I want this particular item to be minimum of 100 pixel
+Consider this as a minimum of sorry maximum of 100 pixel not more than that
+If I go on to the screen here, let's say even if I increase the screen size width
+It is only maximum of 100
+But if I reduce it it can still reduce it
+So whenever you want to fix a particular item height like this is a maximum
+Width it can take or maximum height can take you can you should go for the flex basis property
+So all these three properties whatever we have learned
+Are dealing with whether to grow a particular item or reduce the particular item or it
+At which ratio it should grow with compared to the other one or what would be the maximum height to it?
+So these are all processing but dealing with actually
+item
+item flex items width
+How they should play around when you increase them reduce the screen size?
+Is that clear hey mangi you are able to relate it
+Yeah, okay, so i'll try to revise this guys again, uh, let me come back to ipad once
+Okay, let's come to items
+So we discussed three properties one is flex crow
+Like
+It takes numbers
+And user to define
+The ratio
+At which
+Particular item
+That's a flex item
+Should increase
+Should grow
+When size of screen grows
+When size of screen grows
+Okay, next we have same thing as a flex string
+So this is actually mostly same definition right it takes again number
+And use it to define
+Ratio
+At which
+Particular
+Flex item
+Should reduce decrease
+Decreases
+When
+Size of screen reduces
+Decreases
+Okay, then we had something discussed about something called a flex basis
+This is user to define
+Size of
+Each element
+That it can take
+As max value
+You can assign percentages
+Or
+Pixel or em or rem
+We'll come to all the units different units, but this is how it works
+so guys
+I hope these points are clear how
+Basically what we are dealing with yeah order. I have to write order just a second. I'll write order
+If you
+Want to
+Change order existing order
+Of element
+You can use
+To change
+And default order is
+Zero and ascending
+Order will be rendered
+Okay, so
+We have discussed some least of properties guys, I hope
+These properties are clear to you firstly like when it comes to container when it comes to item
+So what I'll do is like once we have these nodes and these examples, right? I want you to go and play around with them
+Okay
+so
+Uh, can I have one thumbs up if you have understood all these properties guys?
+So that we can go ahead with the break
+And I'll push the code
+And if you are able to solve that problem, right where we got stuck in the position I would be happy
+Others I'll address that
+Okay
+So how many do you need do you need break guys or should I continue
+Like what do you prefer like how many minutes break you need if you need it?
+You need five minutes
+Or how much you need it?
+Continue, oh, okay. Hey man says continue guys people in favor of continue
+Okay, uh, so I see two two votes
+Let's take five minutes break guys so that you can think of problem also position then we'll come back and continue the other items
+Okay. Next we will build some layouts. Actually, we'll actually build layout and we'll see how we can leverage flexbox
+Okay
+Let's say
+Five minutes break
+Okay
+I'm starting this guys. Please take your break. I've pushed the code. Uh, you can verify that problem. Okay
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+Uh guys is everyone back
+Opened I didn't understand your question for the first time. Uh, dev css is enough or doping reaches
+Uh
+Can you explain me better further I can understand
+Check on that
+So guys, can you give me again thumbs up guys if you're back some reactions you displayed a timer in the break time
+Okay for that timer we need uh, js we need js because there's a buttons right button you click it you reset it
+So for all of them we need
+So guys anyone able to figure out?
+What was the issue with that problem position one?
+I believe everyone was somewhere near around only while if we are fixing this one we have to just move the
+this one right
+like box one
+whatever height whatever height of the header is let's say if we have to fix the
+header height
+And the header height was defined using this one, let's say if I have a height header height of header as 15 pixel
+Okay, once we have that we can give margin top right for the box
+Margin top as 15 pixel
+Now let's say you have to address it like let's say 25 or let's say
+Since this is a paragraph, right? Let's say 40 pixel and not enough
+100 is also not enough. Let's say 300 my god 500
+Just let's let's do one thing. Let's do one thing. I open this with the live server. I pick it up
+I
+Use rem units since I haven't thought Kabir I cannot use that
+Okay
+So let's say 100 pixel
+So box one is the right thing that I'm applying right yeah, this is a header then I'm saying this one
+Margin top 200 pixel
+And this is too much 150 pixel
+And this is too much 150 pixel
+So this is generally i'm applying randomly but what how you can prefer this one is like you can
+Always go and select this link
+And then you can go here and see this is the height of 164.8. Right if I go and give that same height
+to box one
+As a margin top
+Right
+Uh, and let's say this is a pixel
+So you'll be able to see that it's having right thing then let's say I also give width as 100
+percent
+And I have to reduce it further
+150 pixel or 155 pixel
+Let's say somewhere around that place
+So what you can do is like whenever you scroll it now that header will be fixed now
+so
+This is how you actually use it that container, but i'll give you the exact example
+But this is how I thought I thought like I was expecting something like margin top
+Is that you know basic example?
+Okay
+Let's going back to one more example guys that we want to build full full-fledged one
+Is that let's say if we want to build something like nav bar
+Nav bar dot html. Let's say we have nav bar
+So what is the first thing that comes to your mind whenever you hear nav bar
+What's the first thing that comes to your mind whenever you hear nav bar
+All the menu items right guys if you go back to again flip cart
+All the menu items right same thing like but what are the menu items that you have like this list of gross?
+Let's say groceries mobile fashion
+right
+even
+So how you can do this? Let's say
+We have something like unordered list. Let's say I have something like unordered list inside that li
+Let's say I have li
+Inside that let's say I have something like anchor tag
+Okay, and I'll list multiple items, let's say
+default
+I'll use it like home
+And like basic things right
+Like let's say a boat
+Products
+And let's say I have something like contacts
+Okay
+To make this something href pointing to right we always have to give something. So I'll give i'm giving something like hash
+Uh, this doesn't lead to anywhere
+so
+Fine no
+If you go and render this one, let's say if you go and render this one guys
+To go and render this is how you expect. Uh, like you know nav bar like
+Unordered list to work right generally. This is how unordered list work, right?
+Right guys now so what i'll do is that let's say I have
+A class called i'll call it as navigation bar
+Navigation let's say I have a navigation
+Okay, what I'll do is that i'll apply here all the flexbox properties that we have learned
+Now what I'll do is that let's say I have a class so i'll select navigation
+And I open the braces now, let's say first thing what we'll do is like we'll use display flex
+What it will do is when I give display flex firstly
+What it's supposed to do?
+In align along the align along
+The x-axis right which is my main axis, right? Let's say I apply flex now
+Once I give this these are assigned now
+Usually you see the menu on the right side, right? Usually you see the menu on the right side, isn't it?
+Let's for the sake right for the sake i'll give uh, this as a row also
+and
+When you see on the right side if I move if I want all the items to move to the right side what I can do
+What I can do if I want to move all the items to the right guys
+Justify content
+So justify content always plays around with the main axis now main axis is row so I can say that
+flex end
+Isn't it? This is what we wanted to do
+now
+here
+now
+here
+Inside this navigation
+Okay
+now
+Just think of let's say if we give a background here background color for this banner background color could be something like a
+dark
+Let's say dark
+Let's say this darkly it doesn't look good, but that's fine. Let's say this is a background color that we gave
+Or let's say
+Let's say we have this khaki color as of now
+right now
+What would be the next thing guys? What would be the next thing to fix like what would we should like firstly?
+Can we uh for the menu, right? We don't really see the dots coming up, right?
+There shouldn't be dots, right?
+The whatever you see in the unordered list these dots
+right
+If we can remove them
+Yeah, so
+Hemangi says least styles, right?
+least style
+I'll go and say say none
+Once I remove that if you see the everything got cleared now now what we can do is what we have to do
+Do
+What we are supposed to do
+We need a gap between all of the elements, right? Let's let's do something
+Like for all the navigation and anchor type what's what type of selector is this guys? What type of selector is this?
+Navigation and a what type of selector is this?
+When I write down this way
+Uh, that's fine class selector, but this kind of combination what we call it as this kind of combination
+Descendant selector, right? Do you remember that descendant selector?
+parent-child fine, but uh
+Even if you go for children selector, it will be like a parent-child only but this is something comes in the descendant category
+Okay
+You can always say okay all you can also say parent-child
+But this is something descendant category like all the descendants and the navigation will be applied least of property now for this anchor
+Firstly
+There's one property that I can use uh to remove underscore guys this we have already learned
+How we can remove these underscores or like we can add top layer or bottom layer how we can do that guys?
+Anyone remember? Yeah text decoration. Thank you
+Let's say text decoration to the none
+fine now also
+What if I want to?
+What if I want to make uh, let's say I color the changes here, let's say I make it look at white here
+Okay, and basically I want to also add some padding
+Let's say I give four pixel. Okay basic things
+Uh, and let's say I use something like deep sky blue
+Does it looking good or?
+Fine this is looking good rgb color now
+So a basic, uh make it black preview with color
+This is fine. Uh
+Now this look good right now. Let's see
+I want to add one of the pseudo selector now what sort of buttons on one hover of button
+There is something right happens right now on hover. I want to add some background color. How can I do that guys?
+On hover
+Right, I have to use pseudo selector hover, right? Let's say I go for the navigation
+Again, I use descend selector. I go for the hover and I say that there should be something background color should be coming
+No, I have to use some background color. Uh, let's say
+It should be something around this one only
+Uh, let's say I copy this
+And
+I select this one. I go to this one
+Now if you see, uh on hover guys, there's a background color that is something is coming, right?
+And one thing we have to make is like this navigation bar
+height
+To be a bit more but let let it be that way for now
+but do you guys agree like
+Uh, this is how your menu bar generally looks like
+Uh basic menu bar
+Let's make it more lighter
+Okay
+Okay
+Now uh
+Okay
+Once this is done
+Now comes the main rule guys till now we haven't used much of display properties display flex
+We have used direction. We have justify content we have
+but
+When i'm reducing it
+Is it reducing or is it happening same something like what how it should behave for the other mobile screens is something we have to decide
+Like we have told that we this child children item will be aligned or we can play around with that
+But what if we have to use only container properties and we have to say that
+Uh, depending on this maybe we are changing the flex direction, right? If you go for the mobile, right mobile
+Let's say I go for the mobile
+If I go for the mobile the menu now if you see it converted into hamburger hamburger icon, right
+Can you see this on flipkart? This is converted into hamburger
+If I if I don't use it in mobile format all the items are available here itself
+Do you guys see this so there's a difference in how you render the menu
+So if you want to fix this sort of issue or address this kind of things
+Then this should be aligned in a vertically, right?
+This should align vertically now for that what we'll do is that fill apply something called as media query
+How many of you have heard something called as media query earlier
+Okay, let's let's go and explore what is media query. Okay firstly
+media query
+in css
+so
+I'll go for this one itself
+Now what it says is that you have different types of media first what sort of medias you have
+firstly
+Whether it is printing or screen size or even audio. I believe I don't remember
+There should be an audio also
+Okay
+But for the all the different preview modes, right if you want to add something conditional, how can you add conditional?
+Let's say this is a syntax now. We say that at the rate media
+like whether to apply
+Only or not only and you have to select media type
+Always, uh, you prefer screen, but I go with all okay at the rate media
+All and then you have to select the feature
+When I say media feature
+What we exactly mean is that we have to write the condition. Let's say this is an example if you see
+They are applying here at the rate media onto the screen
+And if minimum width of the screen is 480 pixel
+then apply
+This particular css to the body
+So firstly you have to define at the rate media and for the all screens and then you have to define condition
+And this is like a if condition
+Only if this condition meets then the all the css watch are defined inside would be applying
+Is that clear guys is that point clear how this actually works
+Right, so let's see let's say we apply some one css where we say that
+Let's say
+At the rate media now. I'll use that same thing. I'll use something like media all
+and
+Let's say I use something like max width
+Okay, and I select something like let's say 600 pixel which is like ipad or less than ipad
+Now inside this I have to write
+Again a new list of css now whenever you have let's say a navigation
+Imagine now what will happen what we have seen just now. Let's say we don't want to
+Completely build that solution like
+converted to hamburger like this hamburger button will come and then you will be able to
+Click it or deal with it, right?
+But what if we can do is like align all the elements vertically
+To align all the items vertically what we have to do
+To align this all the items vertically what we can do guys since this is a flexbox
+By default for the navigation flexbox is applying
+Flex direction column, right?
+great
+Let's say flex direction if I convert into column
+Now if you see as i'm reducing it, it is converted into column if I increase it
+It it will go into the end action
+Now when i'm converting into columns
+When i'm converting into column
+What if we want to move the elements to the center?
+What if we want to move the elements to the center?
+I
+Think of it guys
+I would go with align items or justify content
+This is columns
+Okay, let's say I give align items center
+Thank you
+So if you see what we have done it whenever you align items now, well, let's say I also have something like border
+For each of one
+So that it looks like bit
+One pixel solid
+Black
+It looks hard. I don't want to play around with this one, but
+No
+Also what we can do is that
+Let's say whatever padding is there whatever padding is there
+If I make it zero
+Zero is not applying
+Because we are applying to navigation for navigation. We didn't give any padding as such so we don't need it
+Okay, fine
+now
+To the anchor tags, let's say to the anchor tags
+What we can do what we can apply further?
+What we can deal with this further guys?
+Think of it
+Now I was trying to add the border which was failing because I was adding to a navigation
+But I want to add here into the anchor text, right?
+Let's say I go and say that
+I can give specific borders right like
+Border top let's say I go for border top like i'm giving only the top like one pixel
+Let's say solid
+Black
+Okay, now instead of black, let's say
+I go for this one something like and also let's say we say something like border bottom
+Say one pixel solid
+Now
+So looking all odd right isn't it if you are trying to apply
+What if we gave some padding to each item then might be five pixel?
+No, it doesn't work
+rightly
+Let's say we don't want to deal with this all this navigation
+But this is how you generally move the items right now. What if there is some other thing?
+Like let's say I also add one condition at the rate media
+All and max width now, let's say max width is 800 pixel
+Now I want to explain me the difference like how how these things are applied like when I say something like
+When I say something like 600 max and there is 800 max both conditions are true
+Let's say i'm having a screen size width of 700 pixel. Now, which one should apply guys?
+Which one should apply let's say I have something like navigation and I say justify content
+To the space around
+Let's say I have screen width of 700
+Consider screen width of 700 now, let's see this what's happening if you see
+Whenever i'll show you here, let me render it where is this
+This
+If you see it here what will happen
+Generally, we are having three types of media query three types of resolutions that we have written as of now
+One thing is like diff by default
+But if you see the dimensions here, this is the width that is acting if I reduce this width if you see
+Something we came under 800
+Now below whenever we are we are saying that below 800 maximum width whenever we are hitting below the 800 this justify
+Content is applied
+Right 801 will apply like if you see i'm reducing it further
+The space like space is getting added to them if I reduce it further below 600
+This this type of like anchor tag will come
+Now this is how your nav bar works right with this like uh, like as you go for flexible patterns
+Like your menu will come like will be in a different way for the bigger screens for the smaller screens it changes, right?
+This was one of the example that I wanted to show you
+Okay that how we can build a flexible nav bar
+But I have some css written. Let's say I apply all of the css and see
+Uh how this is changing
+I had some predefined colors with me
+Okay, I guess the all the padding and everything was not applying because I didn't add box sizing
+Because of box sizing I was having issue earlier
+Okay now uh what I just made it guys is uh
+Same thing I've added same thing media all for max 800 width
+And this is also same thing
+but here
+If you see
+Uh, we don't need this
+Nothing matters here margin zero
+Padding zero
+Right
+Not needed
+If I expand it again, it's the same way. It's the same behavior like if I expand further
+That that will come one one direction
+I've just enhanced that properties how they are looking like, you know, there's a division
+And just like that css changes small css
+But overall, I hope you got the basic idea like how you can build a flexible nav bar using display properties display flex properties
+Guys if you understand this, can you give me thumbs up if we can go to some other example and build it one more?
+So I have one more example guys like which you can which we can explore
+let's say
+I want to build like
+Uh, one of the basic example right where you have carts when you have many carts like you see netflix one
+Let's say carts dot html
+Uh will build this step by step
+Can you show the inline css?
+Uh mobile view, okay, this is the mobile view
+Uh minimum width so this is what we have applied
+So just we have moved text item to center and we added padding guys and there's like, you know border that has been added
+This is a border like top border top and bottom bottom
+And on hover property anyways, this is coming because we have added background color
+Same thing just that color differences. So can media queries be applied to images?
+uh
+Yeah, it should be it should be if you're applying for normal screens, you can be able to apply for all the things somewhere
+We'll see that let's say we have a carts example we'll build this carts example
+Let's say we'll build uh carts uh demo using flexbox
+Like where you have a list of cards you want to show it how you can build it
+now
+Firstly, let's have something like a container
+Our div is a normal container
+Yeah
+then for each card, right i'm using something like let's say this
+Instead of div we'll go with a semantic tax like main
+Then for each card, let's say I have something like a section or article
+Which I go and use article
+Okay
+Now inside this article i'll have something like let's say image
+Inside this i'll have something as src and inside image i'll have something like let's say
+Uh content which i'll render here firstly what this image is talking about
+and then
+Uh description about that whole image and for description i'll use something like p tag
+Okay
+Like this is a basic guys. So what i've done i have picked one card
+Let's say I also give a class as a card for you know, uh, so that we can
+Feel that and let's say these are the least of uh diff
+Pural form of cards
+Okay, what i'm giving i'm giving an image under that image. I want to talk about what this image is talking about
+Let's say if I give something
+randomly
+What we'll do is like to build this one. We'll go for unsplash
+Unsplash website, let's say this is unsplash
+Now let's say I select this one copy
+Image address copy. Yeah link address
+Okay
+Okay, once we give this let's say what this image is talking about
+Uh currently I say lorem 5 lorem 5 and let's say this is a lorem
+20 okay
+Uh
+Show preview
+So the image is not coming
+So did I copy
+as
+Copy image address
+Alt i'll add it but yeah, this is uh, I have I have to copy image address. So let's say alt
+Since I am talking about
+Say uh
+Man staring at cave
+Cave
+Let's say this is what he's trying to do
+Is staring at a cave
+Then we'll add some of the css to this one to show and we'll build multiple cards using this card
+Let's say I have a style
+And let's say I have a container called cards inside this
+Let's say I have I copy this one and create multiple items
+Okay
+Okay, I have address added four five items now if I use something like display flex first
+Let's have this only one property for the cards and let's open this in the uh live server
+Okay, if you see here
+Multiple cards are added horizontally
+Okay, we'll copy all the images one by one
+But uh, i'm just want to build this firstly then we'll go and do all the things that we want to do
+now
+So one thing what we wanted to do guys is that if the full screen is covered right if you see here it is
+Assuming complete screen and it it is horizontally scrollable, but we don't want to do do this
+we want that hey if the
+Screen width is consumed please take take the next image go next in the next line
+Or go to the next line how we can do that?
+Like come below the first image
+There's a one property
+We have learned that can help us like if you're i've told you that example, right?
+On a notebook if you are starting from the left and you are ending it the right you're supposed to start on the next line
+Flex wrap, right? Let's say if I use flex wrap as wrap
+You see all the items are aligned in a vertically now, okay once we have gave direction now
+And i'll say that hey, uh all the aligned items right to the stretch now stretch is something like consume full space like
+Don't leave empty spaces. Uh, if you are having empty space take it full things. Okay
+Uh, also i'll make this
+default
+styles, right
+Margin zero
+Adding zero
+And box sizing as border box
+Okay
+Now let's say it came to the completely at the left end now what we'll do is that?
+Uh, let's say by default we'll have
+margin here
+Margin of uh 10 pixel around each thing
+Okay, fine. No
+What I want to do is let's let's say now i'll go for the cards
+Before that card there is something I have to fix this image size, right?
+Let's say I go for card then I select image inside that
+Now how can I what what I have to fix on this guys on this image I have to just fix the width and height, right?
+Width and height, right?
+But to fix only the height and width so i'll go and say that hey max height max width max width can be
+100% of screen and
+max height can be
+Let's say 80% of the screen
+So i'm giving in terms of percentages as of now so till now we have gave uh like pixels
+Now what I did is like I just I've built such a way that hey if you
+Uh, like i'm telling that what height it can take and maximum height and width just simple properties. Nothing much in that
+Let's say this is left and right fine
+top and bottom three pixel
+Okay now
+also, uh, let's say the kind like inside this card now inside this card I want to add
+Uh, let's say firstly border
+Border because to differentiate also one pixel solid
+Then I can give something like let's say black or
+This is something like uh showing, you know, a light line. Can you see this light line here a simple line, right?
+That is what i'm using it currently this line as a border
+But now to show a card as a card right to show a card as a card something this there's one property
+which is called as
+Uh, which which is used to show like a deviated one or which other than z-index
+There is something like if you want to show there's a box shadow, right? Yeah
+Uh, thank you for catching this
+Box shadow now to giving box shadow again it you have to define shadow on the all the directions like four directions
+Let's say i'm taking again two pixel two pixel two pixel
+Right again two pixel all the four sides. I've added box shadow then I can also give the color
+But I don't need a color. Let's say what type of shadow it is and for rgb. I select zero zero zero
+Then there's a fourth property guys. What is the fourth property which used to deal with?
+Opacity right and rgb whenever we are dealing with so that's like how transparent you want to deal with
+So let's say I give 0.3 or 0.4 anything
+Now do you see this like a image?
+You know image which is coming lifted up in air like something like lifted up in there
+You know, so box shadow is something like all the directions that you can decide then you can give the styles to it
+Okay now
+Once this we have add this border and this one then let's say
+We give for each card
+Let's say for each cards
+Instead of okay for each card because these cards are attached, right? Let's say we give a margin top of
+Let's say 15 pixel. Okay such that they are separated
+Okay
+once this is done now what we'll do is that
+We'll make all of them like flex grow all the these are items, right? So flex grow
+To be default like i'll give a default zero. Don't grow or don't shrink it keep it as it is
+Okay, keep it as it is whatever we have do we have blur and direction
+In shadow, yeah, we can do that. We can do that. We can do that open
+I'll show it like how we can do that
+But let's say next if you want to fix the size of a card
+If you want to fix the size of a card
+What is the one property that we can deal with?
+Like whenever you are having screen speaker or size
+We can deal with one of the property i've already thought you
+Flex grow shrink and there's another order other than that one property. There's something called a flex basis, right?
+Which sets the maximum?
+width or height
+Let's say I select flex basis and I say that this is like maximum of 200 pixel let's say
+If you see whenever I give maximum height an image can take it automatically fixed all the things now
+for me
+If I am increasing the space, let's say
+If it can accommodate multiple things like if I don't have flex wrap
+It will come in all will come in one row or center line that I don't want it
+Okay, and let's say I have
+border
+background color here
+Let's say I don't need this
+Okay
+So what I have done is guys is that
+I've added something like flex basis
+Now if I remove flex basis all the images and everything is taking uh, you know this
+Like taking whatever space it is having. Okay, let's say if I use this inspect tool
+Uh, and I try to play around like all the other views. Let's say I increasing it
+All things are working fine
+But if I reduce it the still the size is like whatever it is defined we have defined it is taking that but
+If I give maximum size, let's say flex space is 200
+Which is like minimum you have to have this size
+Then it is like it doesn't get affected much
+But even if you are increasing further the size wouldn't increase it will come in only one row
+I'm just trying to use all the properties that has been thought guys
+Okay
+now
+Let's say
+Now one thing what I'll do is like for this articles, right?
+I have already selected images and content what we have to write. I'll copy that content actually
+Let me take that
+Because I also added a button that I wanted to show you
+You
+Give me a second
+I'll copy that html
+Let's say I minimize this one main content I replace with this one
+Now if you see what I have done is like I have selected a different sort of images
+And I have one button below that. Okay
+now
+Just nothing. Uh
+Creative wise just those again those images itself
+Uh, we have extra button here. So we'll style them. Okay the content and the button now
+Let's say I have to style button now if you see the button is present inside
+div
+This particular text dot button now, let's say if I go and do this way
+Dot text dot button
+I
+Can I can do all the css that I want to apply using again descendant selector?
+Okay
+Now let's say I say that a background color to be gray
+Okay, I added background color to be gray for each element
+And let's say
+Uh, I also deal with border making them zero because there's an underline which we don't need it
+Let's say I make it zero then
+Also, let's make color as white
+Padding I'll add it. I'll add it. Let's say padding we need padding for this box. Let's say 10 pixel
+Okay
+We added 10 pixel for this one and then we want to align them
+align them into
+center
+Or let's say I can consume the whole space width of should be the hundred percent. Let's say
+So the button will come here like here. Why?
+so
+now
+Also for this text right text is not really greatly aligned
+So what we'll do is that we'll add some padding to it around the box
+Let's say card and I select text inside each card and I say that I'll give just a padding
+on each side
+Let's say on top and bottom. I don't need it. So I'll go with zero then I'll say that 0.4 pixel
+Left and right not working this way. Let's say I give
+Five pixels two pixel
+That's not exactly
+But let's say I play around with 10 pixel
+then
+10 pixel then let's say 10 pixel
+Okay
+Now
+If I remove flex wrap it will be let's say item switch items if I comment this one
+Uh doesn't matter
+What i'm thinking is that if there is a space available if you see the uh, the next problem would be this space
+If you see the space of between each card
+Is not rightly assigned
+Yeah border radius we can add right thanks somebody for a suggestion
+Let's say I go and add here
+Border radius for the cards. Let's say I give eight pixel
+So that they look rotated
+But if I give a space then it will look like that
+Let's say if we go and fix this one
+Uh giving we have margin top, uh, let's say I convert this into margin
+Okay, now let's say instead of 15 pixel on the top let's say I have 10 pixel on the top
+On the right side, let's say I have 5 pixel on the bottom again. Let's say I have 10 pixel then 5 pixel
+This is looking better so let me
+Go and update this one as
+Uh, this is the one right under the card
+10 pixel and 5 pixel, okay
+Fine so there is a space between the cards exactly what we can see now
+So, uh, whatever border radius I have added 8 pixel is not something visible. Let's say I make 15 pixel
+Or 20
+Nothing is applying. Let's say why it's not anything applying
+Okay, I haven't I shouldn't apply for the whole container it should be for each card
+Right
+It should be for the each card that you apply
+Instead of 20, let's reduce this as a 10 so that you have a rotated
+card like borders which are
+Like
+Border radius
+Now along with this
+What do you think guys what what else we can uh, you know edit or like what what else we can make better
+What do you guys think?
+Let's say if you go for uh, you know this one, uh flexible layout
+Uh, yeah, we can add button on hover
+Hover
+Let's say I select a button
+Text
+Button hover, uh, let's say background color to be changed to white say you can say
+Can any color can you suggest any colors guys?
+Okay
+Yeah bottom should stick to the like like but i've given some padding right, uh, that's why it is coming out to be that way
+If I give this that's fine, yeah background color is changing, but let's say uh, if I want to make
+Top right bottom zero pixel
+Than 10 pixel
+Uh, no, this is changing the content of it
+But let me go and fix this one i'll do this
+Uh
+You want me to stick this button below and because it's having some space
+This is coming from card level, let's say firstly the top right bottom, let's say we make bottom zero pixel first
+Now it is still like, you know, all other things are getting changed, uh, so
+We can address many things here, okay all buttons should align horizontally right agree
+So firstly you can also add, you know, too many styles to the pop button also, let's say
+Uh border radius you can give it here, uh, which is eight pixel so that they look a bit curved then
+You can always say uh position
+How can you fix this guys
+Fixed and let's say okay. This is coming out of whole container
+right
+bottom
+All the all the buttons are coming below
+So let's say, uh, how can you move it to the below?
+Stick it to the bottom
+Firstly how where the space is coming here?
+The space is coming from here like wherever text is there
+Okay
+If I reduce this then it is completely taking it. I think it is already stick to bottom guys
+It's just a padding that we are having around it, right?
+so
+No, no, it is already sticking to the bottom itself
+It's just that whatever padding it is having it is consuming it for the each card
+So there is something extra space also
+But inside that text container only since we have that button or that css of text is generally applied here
+Because that's how I have written
+Our div is wrapped around the text container inside the text if you see
+Uh card or text
+I've applied multiple things to here. So
+Let's keep it this way guys. Let's keep it this way
+So I hope uh, you got to learn today related to flexbox a lot
+Basic properties how we can use it and how can you relate with them? Right if you felt
+Good, give me thumbs up seeing this one or you know building this along with me
+I hope the basic knowledge right on flex properties. Uh, you can all refer to one of the link that i'll give you
+Uh, I said i'll paste it in the notes itself. Let's say I go here
+Uh links dot empty
+This is only one major topic that we picked it up today class five
+Uh flexbox
+Okay
+So refer to this link guys i'll also
+Uh pin here
+And there's one more site that I wanted to show you uh, it's something called as can I use
+Can I use css
+So this website guys actually css are applied on
+Uh, all the different browsers, right you can always refer to this one. Let's say flexbox
+If you go and search
+It will give all the like uh browsers on which browsers you can apply this particular css styles
+Okay
+So also refer to this any property if not applying on any browser then you can refer to this one
+Okay
+Guys if these things are clear, uh, I would like to start the doubt session
+Uh, the content part is completed for today
+Uh, so i'll be starting out session if you feel free to drop whoever have understood the topic
+Uh, and if someone is having doubts, please stick around we'll discuss some doubts whatever questions have been there, okay?
+So i'll start the doubt session guys
+So, thank you for attending today's session guys who are dropping but let me say uh, some bit some some all small sounds and first like
+Okay, uh
+like
+Whatever things that I picked it like for flexbox, right?
+You have to practice flexbox which is used for you know building layouts some with
+Go and I would say directly right try to replicate anything like, uh
+bigger website itself like how they are behaving in a
+Responsive design pick it only small thing. Let's say you go and try to replicate any site like let's say you go
+and
+Go and replicate myndra itself
+So
+Like
+If you see this will look like bit simple because these are like, uh, you build cards already
+These are corazel corazel component how these are being built you can check on that
+uh
+I'm not getting a right click here. I think inspect is not allowed on this one
+Uh their design but you can feel it
+Yeah, econ sites are particularly power without function, right? Yeah, so they are simple
+So try to build a part by part. Let's say these are
+Menus, right now think of this
+Firstly, uh, whoever they're in class think of this one like whenever i'm hovering over men
+I'm able to see below this particular thing right this list of things how this can be built
+How this thing can be built?
+Yeah, how this can be built guys under menu or women you we are able to see this
+And wherever i'm going right if you see it is taking the same space till that beauty part
+It is taking the same space, but only content is changing
+So think in that way like if you go for even for like this one, right if you see here
+Yeah, they're coming multiple things like if you go and check one this one, right?
+Uh, i'm selecting it but if you apply you will be able to see like let's say I
+Select this one
+This is a fashion but I think there are on click events, right?
+There are no on click events present in this to verify like one click
+So if you go and check this one, right?
+There are no on click events present in this to verify like what all the elements that are rendering below because this is like, uh,
+Not sure like how can I show that example how that works but try to explore them
+Uh on hover. Yeah, they're setting that like display none to changing it and rendering it using position
+Uh, but try to verify look into that. Okay, but i'll go with the questions
+Go with the questions
+I see
+Assignment second question. Uh, let me uh check that just to let me open that
+some which for you
+Which assignment second question firstly like
+I just want to know
+Last last class is it last class?
+Uh, let me go
+What's our current batch name like I don't remember, uh, just a second
+March 23 beginner fe right academy much bigger
+Yeah, uh
+So it's just a second guys i'm trying to open it
+So it's css display
+The box model question is it like I see there are too less many people who attempted it
+Uh, how can I attempt it? Okay
+Cute question a position in css or box model one
+Okay, uh
+Let's create an html that distribute demonstrates a user position property
+Inside a container div the page should have display four boxes
+Diffs with a box as a class and each unique class, uh, let's say show it on here itself
+Okay
+So let's say
+I go to this
+This was the question, right?
+Okay, uh, you gave me the that one. Okay, i'll try to
+Copy this one
+HTML compiler
+Okay
+Uh some boxes one, two, three four, okay
+But let's go to the question back
+Each page should have four display work dips with the box as a class
+With each unique item absolute relative, okay
+Use css to set associated position attribute respectively given all the boxes unique
+Top right bottom left values as well. Okay
+So
+Okay, there should be four dips generally with a box as a class
+Uh
+so
+Yes here your class name is class one class two class three class four you have to address that one first
+So the first line says it's like
+Uh, you have to make a you know box as a css class here. They have also given a suggestion, right?
+Yeah, so you can add a box here firstly
+Then once you have this
+Each with each with unique class, uh, then you have absolute relative classes to be attached to each one
+Let's say relative
+You tried it already it didn't work, but that's what it's suggesting, right?
+Okay, let's see this let's see this
+Okay
+Okay, you have four things now you mentioned it
+Now a class container, which is not necessary because if they haven't mentioned it
+Okay
+Just do what they mention it
+Use css to set associated position attribute respectively. Okay
+Now
+You
+How can I attempt this problem is there any way that I can attempt this problem
+I'm not sure if I can attempt this problem submit but okay paste the code I can submit. Okay
+So whatever by default you are having right let's say your box firstly class box then
+Uh, you have all the css different css
+so
+Firstly your dot absolute
+Will have position absolute
+Let's say then you have relative you'll have position relative
+Then you have fixed you will have position fixed
+Then you have something called static
+So position static
+Okay
+Okay, and what is their suggesting?
+And give all boxes unique top right left bottom values, okay, let's say I give top bottom
+Top zero bottom
+As zero
+Left as zero
+They're basically not asking you to build any layout. They're just asking you to assign a list of values
+Yeah, which are unique
+Just like one two and three and let's say, okay, let's keep it one
+One
+Similarly you will have the other things also
+Once you have this then let's say remove all of this
+Okay, and let's say we make border box sizing as border box
+Okay
+And
+Once we have this then
+I don't miss this wrapper
+Okay, all that items are aligned then let's say I have a css box
+Then i'll say let's say
+A particular height of 50 pixel into width of 50 pixel
+And let's say background color
+Okay
+Okay
+Oh anything else in that question guys got the issue
+Okay, uh, i'll try look I have made mistake my box absolute
+Is that working guys like is it that issue solved or I was like solving one way
+Can you try this this should work?
+Okay
+Let me know if all the test cases are passing or having still any issues because
+Doesn't seem to have any thing like assets to build isn't it like should have four boxes
+dips with the boxes a class and
+Each with a unique class absolute relative use css
+To set associated position with reds respectively and give all the unit boxes
+Top right left bottom values as well
+Try it some with if it is working if not, let me know there's anything else guys if you want me to address
+So how dsa helpful in front end dev, okay open the uh
+Firstly a dsa is helpful first because it's a
+Like when you learn dsa, what do you think like what like yeah, thanks that's working fine
+Uh, so when you're learning dsa, right it's like, you know, you are trying to learn problem solving firstly
+That's something that comes to your mind right could be any language or could be anything
+That's you are trying to build the intuition like what happening now if you go for javascript, that is also a programming language
+We will have n number of issues to solve currently we are dealing only with the layout and things
+But javascript has so many things that will also go for the back end right in back end you'll write
+The logics that all the things dsa you have learned in a way you will be applying those learnings in the back end more
+But when it comes to front end
+The scope of problem solving would be less because the scope of problems in the front end would be more of a design like
+How you are making uh using csn html in the right way
+Because
+moreover
+If you are writing logics on a front end or in any project you are forced to write many logics on front end
+then that's a bad design practice because
+Clients are supposed to be light
+And more business logic is supposed to be on the server side
+Okay, if you go for specifically front end interviews, right specific front end interviews the dsa, uh, I mean
+The interviews if you have dsa interviews, those are going supposed to be easier
+Medium not going to be hard that I can say specifically like if someone comes to me
+Like with a front end, uh, no role or front end interview
+I wouldn't be testing them on a problem solving, but I would give them a layout. Hey, can you build this layout for me?
+Right, of course backend developer cannot do it for them. We'll test this
+For our lld itself is based on uh design
+Like how can you build the components?
+We'll come to that
+Okay
+Uh guys anything else do you have anything else? Okay
+Yeah, thank you pendra
+so
+I'll upload the notes and uh the site that i've told you right, uh, there's something that I uploaded css tricks one
+Uh flexbox, please go through this one, right all the things
+Uh, i'll also refer for the grid also from here only because they have given a right
+Where like how you can feel it like flex direction how they are working in this is the row reverse row reverse
+Column column reverse the exact content also
+If you want to revise you can refer to our code or else you can come to this one. It's a 10 minutes read
+Uh spend at least three to four days on this like uh revising through it like three to four times
+You will be clear because all the properties are I've already told you applied only on two things
+Which is container and children or container and items on container. There are five on children
+There are three properties if you learn how to use them. It's good enough. Then there is something called
+Flex froggy
+Yeah, flex froggy this one
+You can use this to learn flexbox I would suggest everyone to go through this one as a practice
+I use this, uh, generally, uh to revise my
+Concepts let's say one of the thing is like, uh, it says that I welcome to all this stuff
+And I want to move this particular person to this end
+Let's say how we can do that
+So it will say that justify content to the flex end because we are not giving flex direction by default
+It is zero now. Once you give this value and you will semicolon you click next you will go to the next level
+Next problem. Okay, so you keep solving these things like now you have to just do it
+Like justify content to the center
+So this game will actually help you to solve all the levels
+Okay
+Now this is like space in between or space. Sorry space around so this will help you try to play around with this game guys
+Okay, uh then
+Okay, so if everything is clear, can we close the session today?
+Thank you, maneshwara
+So, hope you go through it enhance whatever you want to enhance on the existing things that you have
+Uh, i'll try to come up with assignments if you need personal assignments like a problem statement
+Uh where you can solve it and push the github repo
+The github repo i've asked people to you know, add github, uh get
+Recordings to you also on portfolio project recording if available. I'll check with them. Okay, but get i've told them
+So that should be available next week most probably
+Okay
+So the question thank you, let's see you on saturday
+Where we learn css grid, uh much more advanced layout structure, which will be more interesting
+There are too many properties in that we have seen only eight to nine properties here, but that's two direction layout
+So let's learn that let's explore that
+Okay
+So see you on saturday. Hope you have a great good night. Have good sleep solve all the assignments
+Okay, if you're not able to solve again try to connect with me. I'll try to help you out whatever way I can
+Okay
+So love I said have a good night
+You

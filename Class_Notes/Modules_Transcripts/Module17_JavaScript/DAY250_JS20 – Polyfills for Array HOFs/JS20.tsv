@@ -1,0 +1,931 @@
+start	end	text
+0	29640	hi all good evening hello all guys am I audible and visible hi Kabir thank you
+29640	38480	nice let me share my screen
+38480	44680	please let me know if you can see my screen share also
+44680	61360	so we are going to end our classes on JavaScript next week isn't it next week
+61360	69640	let me see how many classes are left yeah I think four classes are left on
+69640	77520	JS part so one thing call out is that you know post JS there will be a
+77520	85360	contest and also mock interviews case so I hope you guys are preparing for the
+85360	90640	contest firstly contest like revise all the topics revise all the things that we
+90640	96520	have discussed over the time okay if there is any challenge during any
+97040	102680	of time whatever we have discussed I've been always available whoever ping me I
+102680	108920	try to respond them personally anyway with any way of communication and even
+108920	112600	in case you feel anything there's something left behind to discuss or
+112600	117780	teach or you know topic that is being discussed please bring it up so that we
+117780	130220	can you know discuss on that topics other than anything in curriculum okay
+130220	137940	Kabir so are you talking about asynchronous JavaScript things we have
+137940	146900	discussed on promises and okay so this thing related to promises async await
+146900	153900	keep keep the oops part aside but other than those two classes call blind bind
+153900	160020	apply and we have seen examples related to call bind apply and then we have
+160020	163140	discussed asynchronous JS like those are concepts right in order to introduce
+163340	168980	concepts we have discussed with those examples I've also shown you one of the
+168980	175700	API read JSON builder where you can actually you know communicate with a
+175700	181620	real-time API and how you do it so those concepts are actually not theoretical
+181620	186660	but those concepts are really important like from interview perspective to know
+186660	190860	or answer like if someone asks you what is asynchronous JS how does it execute
+190860	197860	how does things handle what is your promise or promised at all settled race
+197860	201820	conditions you should be knowing all of this stuff because in a way around when
+201820	205460	you actually do good do and you know build a project you are going to come
+205460	211260	across this topics very frequently very very frequently if you remember one of
+211260	215860	the project we build a very small project called weather app in that you
+215860	220140	are actually making an API call to weather API which was giving you a data
+220140	224740	depending upon users input right so you should be knowing it how we are
+224740	229100	actually handled handled it like if you go back into the code now we will be
+229100	233220	able to relate more why async await was added and what is actually happening
+233220	243380	behind the scenes right so it's more of with practice it will come we'll see
+243380	249620	usage of them more and more but you know since those were topics introduction
+250100	257340	that's how it can be thought that's one that's my idea but for more practical
+257340	261820	use cases right when you actually consume more amount of APIs when you
+261820	265460	actually build projects then you will be seeing that part of asynchronous
+265820	281540	okay so if there are any other concerns or any other doubts right related to
+281540	286420	anything topics that we have discussed on the day one of our classes for this
+286420	291420	full stack if you have anything please raise it raise them like we'll have a
+291420	308420	discussion on that part okay let me start stop watch so majority of things
+308420	313100	could be like if you see like all the things that you see in the network tab
+313100	316340	right whatever calls are being made in the network all these things are ready
+316340	320460	to promise itself like how do you consume even the style sheets there
+320500	324860	might be a API call which is actually putting the data that will be an also
+324860	332380	need like you know promise rough-handed you go to any built-in application you
+332380	340540	will see n number of API calls are being done let's say if I reload this page so
+340540	344900	let's say if you see these two calls are done how would you consume their data so
+344900	348460	in order to understand all of them you have to know what's a behind the scenes
+348460	353700	things are happening so we'll come to them each one by one step when you
+353700	358140	actually how you build an API or how do you consume more amount of APIs are
+358140	362260	doing with a post put update calls all of them you'll see great amount of
+362260	368980	examples post react but currently we are introducing a good topics at our length
+368980	374860	right if I overburden you guys with more more amount of more things then it would
+374900	378540	be really difficult to get the understanding about the topics that we
+378540	389980	are discussing so anyone else having any other doubts guys anyone else having
+389980	399940	any other doubts does anyone else feels same as Kabir that the topics that we
+399940	406300	have recently discussed are more like you know or theoretical but connecting
+406300	410500	them with the real-time will take more time for you guys
+410500	433660	I see one thumbs up okay let's bring in chat guys like whatsapp but just let me
+433660	439300	know whether are you able to follow up with whole asynchronous JS have you got
+439300	446060	the understanding about asynchronous JS right
+446060	471940	okay yeah so that things will come guys like with practice like as some bit
+471940	477700	says you if you see building projects is an actual use case where you will be
+477700	482700	seeing it as we build few more projects you'll be seeing them but few things
+482700	486340	comes from our point of view is that actually teaching you the basics of it
+486340	492860	then building things up on that one right so but any any other doubts like
+492860	496660	if you have any other concerns from the topics we have discussed in case if you
+496660	507220	didn't understand any of the use case do let me know okay because asynchronous
+507220	511580	JS is one of the interviewers kind of favorite topic when they want to really
+511580	516900	understand things right how you would you make a series calls now when I say
+516900	522500	that we are all we have discussed in terms of like calls right making series
+523500	532100	consuming data from third source party like it can be file or simple array or
+532100	539260	object or any data source so these are the most common use cases where you're
+539260	544340	going to deal with them at real time how would you consume all of them and how
+544340	548540	would you use use easy use case like this will come with more amount of
+548540	557460	experience like when to make what sort of calls and all those things still I
+557460	566780	see okay but any other things guys if you want to flag if you have any
+566780	573060	challenges but I want to talk about one thing is that again our disclaimer we
+573060	582100	have four classes left in order to complete HTML CSS and JS part this will
+582100	588140	cover all core fundamentals and basics of your web development once these are
+588140	595780	done we'll be moving with the react react JS to be specific make sure that
+595780	604860	you are pretty much clear with each of topic so that we leverage this in a
+604860	609900	better way so that we can understand this thing in a better way I hope this
+609900	614780	point is clear guys so that if you are clear with this each of one you will be
+614780	619740	able to understand this one in a better way if you are lacking somewhere then it
+619740	624460	would be a tricky for you also like why even if I explain multiple times there
+624500	627780	might be a few things that you should be knowing basics of them and these are the
+627780	632700	basics that we have covered hope you revise everything and there will be a
+632700	638740	context coming after this for class so be prepared with them so that you you
+638740	643060	know test your knowledge right so be prepared with that part and try to
+643060	655060	attempt it okay will it be theoretical I'm not exactly sure something let's
+655060	668180	let's not keep it that way let's go and try it out okay it will be 50-50 you can
+668180	675780	say okay there might be some questions asked there might be things on a
+675780	682980	synchronous chairs okay but as I've seen that most of the people who were
+682980	687900	actually attending classes and you know trying to attend the mock sorry contest
+687900	692580	they are doing better and they're also raising flags on questions like how
+692580	698260	there can be multiple answers or the P1 answer is wrong I appreciate your
+698260	702660	efforts and going into you know understanding each of them one by one
+702660	707540	but if there is someone who haven't taken earlier marks right I would request
+707540	715660	everyone of you go and take you know in the practice mode open the can we pick
+715660	720380	it up once we get started with that topic actually because that would be
+720500	731260	better way to explain things on that okay great just a second guys I just
+731260	736260	want to see how we are doing in terms of batch
+736260	753540	anyways so this can we get started with today's content great so let's not wait
+753540	758980	anymore and we'll get started with this class I think good enough people are
+758980	765500	there that's 12 minutes up now so today's class and the class is mostly
+765500	772340	based on some topic called polyphils okay but now I have raised this word
+772340	776340	earlier also but do you know what this polyfill is what why we call it as a
+776340	782220	something called as a polyfill does anyone know this keyword I see one
+782220	790660	thumbs up can you two people can you guys type it down personally to me what
+790660	799060	you understand by a polyfill guys Muneshwar Opendra what's your understanding
+799060	813660	related to it what is an polyfill okay nice Muneshwar are you typing it down
+813660	825340	okay great so there are two definitions that I got it both are actually trying
+825340	830220	to explain what polyfill is but let's see let's understand going back to
+830220	838420	JavaScript right where does this HTML JS and CSS are actually passed into and
+838420	843500	where this are working on which is the machine is actually executing them
+843500	850740	guys I think everyone knows this answer just want to know like where do you
+850740	858980	where you use actually this HTML CSS and where this is actually executed or
+858980	865860	past like where do you open a website what is a tool you use to open a
+865860	873140	website browser right now all these things are done in a browser now if you
+873140	880060	remember browser is providing us some API's right like API's when I say
+880060	886460	inside a window you will see that there is something like document there is
+886460	894780	something like location there are storages most of the things are being
+894780	904300	provided by a browser right guys do you agree that browser is actually providing
+904300	910460	us this list of API's to in order to build or develop now even if I type down
+910460	915020	like array at heart if you see remember in our inspect console tab I used to
+915020	921260	type it down array.prototype right all of those things I used to type it down
+921300	927300	and this array is also defined where if I write down directly in a browser I'm
+927300	932260	able to access array right I'm able to write down console directly logics how
+932260	935220	this is able to work
+939700	947180	this is because whenever you install browser right all JS code is already
+947180	951860	present in that array array related information is there object related
+951860	955860	information is there function function related information is there do you guys
+955860	960580	agree with that part guys that everything is present in the browser
+960580	965740	be pre-packed like if you want to see let's say this is an browser where we
+965740	971660	haven't written any code but if I go into console like I can type down array
+971700	978980	see I'm having this number of arrays I can type down object if you see I'm
+978980	982460	getting this amount of things this all things are actually coming along with
+982460	989180	the browser itself now who is actually building the browser am I are we
+989180	995020	responsible or any companies are responsible or is there any common body
+995020	1003220	or everyone have their own set of specifications who is actually owning
+1003220	1014740	or managing the browsers guys who is actually managing the browsers
+1015340	1026220	companies like let's say who is who is the owner of Chrome Google everyone
+1026220	1042220	knows that then if I write Bing who is the owner of Bing Microsoft and then
+1042220	1044740	Safari
+1051660	1066980	Apple so even there is one more thing Firefox just Mozilla corporation now are
+1066980	1070700	the developers of this four companies sitting together and building this apps
+1070700	1074300	or their each individual team is actually building as per their own
+1074300	1079980	requirement each everyone is building as per their own use case right whatever
+1079980	1084820	they want to add that's where that's where this different browsers are like
+1084820	1088780	we might prefer Chrome better than any other or Bing is preferred better than
+1088780	1093580	Firefox Safari now the developers specifically prefer Chrome there's a
+1093580	1098060	reason for that because we were able to debug in a better way we are able to see
+1098060	1102380	the code write down the things isn't it that's where Chrome is actually better
+1102380	1108980	application now even if you go these are the latest browsers but do you remember
+1108980	1122620	something like Internet Explorer Netscape old browsers these are old
+1122620	1127660	browsers now let's say this is actually managed by Microsoft itself isn't it
+1127660	1135220	now Microsoft in between left this project and they started this one right
+1135220	1141820	Bing from scratch again to compete with the world the left Internet Explorer
+1141820	1146940	they stopped releasing new versions and this they built this one but if you see
+1146940	1155380	what happened our HTML CSS JS code all is passed into this set of machines and
+1155380	1160340	this set of machines are not same each company is building own machine and we
+1160340	1166180	don't know where things will be working right now so what poly fields are let's
+1166180	1171380	say there are some latest versions let's say there are some functions let's say
+1171380	1175620	there is some like let's say you say that some methods newly introduced
+1175620	1182020	mothers let's say promised at all okay we need to see whether this particular
+1182020	1187180	method is actually supported in all of them we are not sure right we don't know
+1187180	1192500	whether all these things are supporting that one we know that this promised at
+1192500	1196740	all is coming from browser we have checked in the chrome but our website is
+1196740	1200220	not specifically supposed to run in chrome is it supposed to run in all the
+1200220	1207780	applications right wherever user opens do you guys agree with that point we
+1207780	1213020	have to build application cross-functional sent it now there is a
+1213020	1226020	one website do you guys know this can I use this actually websites gives you
+1226020	1231860	information about actually which feature is available in which browser like it
+1231860	1237580	shows a browser compatibility let's say if I tried on promised at all and enter
+1237580	1242260	it what it gives me it gives me the different browsers like chrome it's
+1242260	1248100	Safari Firefox Opera right now they'll give you actually let's say promised at
+1248100	1251380	all JavaScript built-in or promised our
+1251380	1255540	prototype but finally all these methods where they are available if you see in
+1255540	1262500	the Internet Explorer is not supported anymore okay this this actually website
+1262500	1267460	gives you information about like which is actually supporting right now in
+1267460	1275140	case in case let's say if you see opera mini right opera mini that doesn't have
+1275140	1279460	any information here we don't know if they are supporting it like promised at
+1279460	1286100	all sector or UC browser do you remember UC browser Chinese browser which used to
+1286100	1292580	come in mobile right by the browser so there are many things there are
+1292580	1296900	different machines built by different teams so we don't know whether it is
+1296900	1300580	actually supported if you see our promised at all sector is actually
+1300580	1305180	supported for the ninety five percent and promised at all is supported ninety
+1305180	1309900	six percent but there are some use cases which are not actually supported now but
+1309900	1317020	how do you deal with them like what if let's say if you see a banks right banks
+1317020	1328540	even in most of the let's five years back banks used to prefer I browser do
+1328540	1334300	you know this they used to prefer only Internet Explorer mostly five years back
+1334300	1340700	they actually used to write now a person like a web developer like us was
+1340700	1345700	actually building for a crow and this people Microsoft people are not you know
+1345700	1350020	building this one but whatever we are supporting chrome we are supposed to
+1350020	1355380	support in this IE then what we used to do right if there is a some API or some
+1355380	1359420	method like let's say this is a promised at all is available in chrome not
+1359420	1366820	available in IE then we used to write a custom function like a promise start my
+1366820	1373500	all which used to actually take care of replicating the behavior what actually
+1373620	1378340	doing so that we ourselves are building this common API's and so that it is
+1378340	1383980	supported in cross browsers and this custom function whatever you have
+1383980	1388260	written which is replicating actual behavior in order to support all the
+1388260	1392580	application this is called a polyfill polyfills for the non supportive
+1392580	1399300	browsers or non you know which doesn't have that feature is this point here
+1399300	1409340	is what is polyfill now so this is actually five years before five years
+1409340	1419460	this was actually one of the interviews focused questions because they used to
+1419460	1424700	ask them specifically because web once you develop in one browser it should be
+1424700	1428900	supporting in other browsers so how would you make it compatible so if you
+1428940	1433620	are this is a production bug right so no one wants like one working in one web
+1433620	1438340	not working in other web so you they they used to specifically see whether a
+1438340	1443840	developer is able to write the code but today's world mostly all the browsers
+1443840	1449180	are well maintained and they're doing it well the teams are doing well to keep it
+1449180	1453700	up with you keep it up with in sync with ECMA script but what happened is like
+1453700	1458340	because this was asked in earlier interviews they're still asking right
+1458340	1470500	writing up polyfills write a polyfill for let's say some for some dash any
+1470500	1473980	function whichever you have it in JavaScript they asked you to write your
+1473980	1482700	own library method is this clear guys what polyfill is and why we have to
+1482700	1489980	learn it and why the interviewers used to ask and okay so now we have two
+1489980	1495140	classes on polyfills first okay these are interview specific so one in class
+1495140	1499940	we will discuss about discuss about HOF in other class we'll discuss about call
+1499940	1507220	wind up like okay we'll discuss these two topics okay in today's class we'll
+1507220	1514780	cover HOF where if you see an array with three had three functions map filter
+1514780	1526020	reduce and for each okay if time permits I'll pick up flat also this five
+1526020	1530660	functions this five functions without using these functions will write our own
+1531660	1539420	okay we'll try to implement on our own guys I'll come to that some bit I'll
+1539420	1545980	come to that we'll talk about that okay but we have to we have other than flat
+1545980	1553320	we have discussed each of this function isn't it I hope all of you know the
+1553320	1558380	meaning of it so that we'll get started with this implementation okay let's say
+1558380	1568300	I go back into our code now if even if you go and see this right filter let's
+1568300	1574460	say if I search it let's say in global if you see only 17 percent they
+1574460	1581420	supported all other people are not supporting it like most people are you
+1581420	1585660	see in Chrome they are not supporting it particularly you can verify like where
+1585660	1591940	it is supported why it is not supported okay you can use this website well pin
+1591940	1602300	this one I mean back in my days when I used to code for Deutsche Bank I used to
+1602300	1605580	use this website because they used to use IE Internet Explorer which was like
+1605580	1611740	really difficult for me to write any logics and cross browser testing we had
+1611740	1617620	to do we had to do many things okay and other than this thing guys I have added
+1617620	1623820	the screenshots which you asked for me like related to this okay guys I hope
+1623820	1627500	you are able to understand when I when I have written this way I try to replicate
+1627500	1634780	it what we have written in notes like so that you can figure out the output and
+1634780	1641300	also I added related to slice and splice because this is also asked in
+1641300	1644460	interview like what's the difference between array dot slice or array dot
+1644460	1655300	splice okay hope you go through this one push this code already okay thank you
+1655300	1667460	guys so let's start with our last coding okay first and foremost polyfill
+1667460	1675740	that we are going to pick is about for each let's say for the start chase now
+1675740	1685780	yeah class number 27 right some so guess how do you define for each what do you
+1685780	1693300	think for each is firstly just want to know what's your understanding on for
+1693300	1703220	each let's say I have array of 1 2 3 4 5 6 let's say this number numbers are
+1703220	1709460	there now what for it used to help me out every item in an array it is an
+1709460	1715820	iterator can I say it is an iterator right let's say if I do array dot for
+1715820	1723620	each first it used to take a callback function isn't it it takes a callback
+1723620	1728980	function inside this callback function it used to provide support like what all
+1728980	1733940	it used to provide support it used to give each element to us also it is to
+1733940	1742500	provide index right if you remember callback function value current element
+1742500	1747220	value and index and the array itself like if you need even array you will be
+1747220	1752460	able to access it let me show you once an outputting this thing how this thing
+1752460	1757460	looks let's say index and array all of them
+1761380	1765900	clear node
+1772500	1791220	okay if you see it here what just happened it prints first number like
+1791220	1796580	element one then it is you give me index and then it is giving me an array right
+1796580	1801740	and depending on whatever operation whatever operation I have to do let's
+1801780	1806700	say if I'm trying to multiply each element let's say I try to say that
+1806700	1815060	return element into twice okay let's say I'm doing this logic now tell me one
+1815060	1820940	thing does this for each returns anything or does it for each returns
+1820940	1827340	anything or it's just like an iterator it's like a for loop do I get anything
+1827340	1832540	in return by directly or it manipulates existing array what do you think like
+1832540	1840260	if I do console dot log array what it should be if whether this it will be
+1840260	1847140	multiplied all the things will be multiplied like two four six eight what
+1847140	1851260	could be the output here firstly when I print array itself like it should be
+1851260	1862420	this order or it should be this order it manipulates existing array okay how
+1862420	1866620	many if you think that it if you think that it is manipulating existing array
+1866620	1871100	give me thumbs up if you think that it doesn't manipulate existing array give
+1871100	1879380	me thumbs down okay three people say that it manipulates okay let's see this
+1879380	1887140	what is actually happening if I try to print it now okay clear it if I try to
+1887140	1890900	do this do you see it here that it doesn't manipulate existing array
+1890900	1898420	firstly guys whoever give me four thumbs up it is not actually touching the
+1898420	1905220	existing array but it you know multiplies each index and whatever you
+1905220	1912620	need it right you have to store in a new array value okay if you see let's say
+1912620	1918420	if now whether this will be actually returning here you see here I'm trying
+1918420	1923020	to store in something in array one whether this will be having anything
+1923020	1928860	value now what could be the output of area one case firstly I'll come to that
+1929020	1936180	I'll come to that but do you think that what will do think here output should be
+1936180	1945700	two four six or here we have figured out that it is one two three itself let's
+1946180	1963260	it is two four six if you see I'm receiving an undefined check now if I
+1963260	1969700	want to manipulate let's say if I want to manipulate existing array firstly you
+1969740	1981700	know remember one thing for each doesn't return new array okay it doesn't return
+1981700	1987780	new array if I want to if I want to manipulate existing array what I can do
+1987780	1998180	it here is that I can select array dot index equal to this one is this clear
+1998220	2003700	if I want to manipulate existing array I have an index I have the current element
+2003700	2009300	I have an array I can I can take that existing array I can point to each of
+2009300	2017740	index and update it now let's see this start if it is updating let's say this
+2017740	2022540	is I'll comment this one let's keep it let's keep it so that you remember that
+2022740	2033420	it doesn't return anything now do you see this it got updated we are getting
+2033420	2039460	four two four six now in array also I hope this point is clear related to
+2039460	2044340	footage it is just like an iterator it doesn't any do anything it is like if
+2044340	2048500	you want to iterate over the each element it iterates it doesn't do
+2048500	2052780	anything else I hope you got it it's just like first loop nothing each
+2052780	2057740	nothing much now if you want to replicate let's say if someone asked you
+2057740	2063580	in the interview can you can you build this can you build and give me a poly
+2063580	2069420	fill for this one for the for each function how would you approach it what
+2069420	2074260	would be your idea let's say now what how I want to execute this let's say for
+2074420	2085020	I'll say like my footage and I want to do this thing let's say copy everything
+2085020	2097380	here okay guys now whenever I try to do again I know if I'm again outputting it
+2097940	2106660	it should be giving me an actual output of four eight to well since once we have
+2106660	2111180	multiplied it already here we will be replicating again if I try to do a
+2111180	2116820	console lock below it should be updating it now it's some bits it's create a
+2116820	2124740	function I takes three parameters okay any anyone else case anyone else having
+2124940	2131820	ideas like firstly it is available on my array array dot my footage how would I
+2131820	2135380	how should it be how we can make sure that it is it should be available on
+2135380	2145620	array dot how should we make make sure that it is available for all the arrays
+2145620	2151380	because we are building up array I'm in a utility method on an array type and
+2151380	2155580	it should be supporting each and everything so one thing we can do is
+2155580	2162540	that let's say I built I build on the top what I'll say that array dot
+2162540	2167860	prototype now how many of you understand this word prototype is there anyone with
+2167860	2177020	this who don't understand my prototype okay I hope everyone understands what's
+2177020	2183260	prototype and why I am writing it this way now let's say here I'm having a
+2183260	2193340	function okay good now this is the function now on this array now every
+2193340	2197960	array whichever is built actually you know leveraging on every array my for
+2197960	2203140	each will be available now once I do this but how this should work they
+2203140	2207740	should try to replicate the same behavior firstly let's think of this
+2207740	2216940	thing what my for each is taking what is this what it is taking firstly what is
+2216940	2221460	for each is taking as a parameter
+2223500	2230980	approach step by step guys what it is taking a function right and what we can
+2230980	2234380	call that function as callback function can we say that it's a callback function
+2234380	2241540	right let's say that it takes a callback function in it right can I say this
+2241540	2251580	guys no if I if I try to do this let's say if I try to do here now just one
+2251580	2256820	question guys if you understand this keyword properly just tell me what this
+2256820	2264500	will point out inside here what will be this pointing to inside inside this
+2264500	2275380	function it should point out to a function or it should point out to an
+2275380	2279900	array because we are doing everything is an object which everything is an object
+2279900	2285740	in JS we have understood behind the scenes right so array should be this
+2285780	2291380	should be pointing to ARR right because we are calling array dot my for each so
+2291380	2299660	this keyword will be actually pointing to array which is this one okay once I
+2299660	2304220	have this now what should be my next step guys this is pretty much simple if
+2304220	2311340	you are able to think it what does for each is doing
+2315740	2325820	once have an access to array what what should I do pick up each element now in
+2325820	2330460	order to pick up each element what should I do it use for loop right let's
+2330460	2340420	say I have to write a for loop let index I should write the in a for loop on this
+2340420	2345940	array right on this array which is actually I'm receiving this dot length
+2345940	2351540	guys are you able to understand this like why I'm writing this for loop now
+2351540	2358720	inside this for loop for each element for each element am I calling this call
+2358720	2366340	back function for each element in this array one by one I'm calling this call
+2366340	2370220	back right same thing I'm doing it right for each of this element I'm actually
+2370220	2377500	making a calling a call back let's say we we call a call back now while
+2377500	2381260	executing call back what all things it is expecting the call inside the call
+2381260	2392300	back it's expecting three things isn't it the current element how can I get an
+2392300	2398660	access of current middleman can I say this dot index and I can pass on index
+2398660	2412820	and then I can pass on this right yes I did you understood this one this is an
+2412820	2419420	actually prototype of for each let's say execute this one let's execute this one
+2419420	2428780	whether this is working or not now do you see this first a general for each
+2428780	2433620	function which was returning me once I executed this part on this array it was
+2433620	2439660	returning multiplied by two four six eight then we built our custom logic my
+2439660	2446100	for each and we implemented proto fill a polyfill for that one and we executed
+2446100	2454100	then we got output of four eight well I hope this polyfill is clear to you if
+2454100	2458060	there is anyone who don't understand this do let me know I'll wait for two
+2458060	2462100	three minutes here okay if there is anyone I'll wait for two three minutes
+2462100	2465460	so that you are able to get all the concepts that how we are actually
+2465460	2472620	creating a function on a library how we are replicating them step by step okay
+2472660	2478140	is use case of for each is clear again and how does for each works and how can
+2478140	2482900	you build a proto polyfill for each for the furry if someone asked you in the
+2482900	2486780	interview would it be able to demonstrate this one taking an example
+2486780	2500500	and building this again replicating this one yeah I would do that okay so first
+2500500	2504540	thing remember one thing that for each actually doesn't return you anything
+2504540	2511460	okay it just like an eye-treater it just I treat over the elements it doesn't do
+2511460	2517900	anything else okay and it takes a callback function inside it and inside
+2517900	2522820	the callback function it receives three parameters one is the current element or
+2522820	2529000	the current index item you can say then you have the index of each item then the
+2529000	2535280	whole array itself will be available as a third parameter using this you can do
+2535280	2538880	anything that you want to do in a function body what I've just read is it
+2538880	2544560	I'm updating the existing array information I wanted to replicate this
+2544560	2550280	structure building my own custom polyfill such as such that I call it
+2550280	2556360	like array dot my for each now I'm supposed to make this my for it should
+2556360	2561520	be firstly available on all array data types so what did I do is that first I
+2561520	2566080	created I've written this logic that array dot prototype prototype dot my
+2566080	2571200	forage because it should be available in all array types of data types once this
+2571200	2578360	is available I was trying to see this behavior firstly okay then I went step
+2578360	2584120	by step I've seen that hey I have this up this keyword here and this is
+2584120	2589080	actually pointing to an object now that object can be an array since everything
+2589080	2593920	is an object in JS I'll be having an access to the array once I have an
+2593920	2599960	access to array inside this I ran a loop over this which is an array itself and
+2599960	2604440	call this callback function with these three parameters whichever this call
+2604440	2612240	the pack is expecting okay is this clear guys
+2613400	2624640	shadow let's move to new thing called map dot JS let's again I have this array
+2624640	2636280	itself now what does map do is I just want to know if you remember what does
+2636280	2652560	map do what's our difference between map and forage does anyone remember it what
+2652560	2662880	map does it returns a new array right anything else case
+2671880	2678240	okay let's say let's say that I write array dot map again does it take a
+2678240	2689360	callback function guys some bit map that's something that you are
+2689360	2694000	understanding keys and values it's a different thing but I'm talking about
+2694000	2700880	higher-order function map here pointing to some bit wasn't not you trip some
+2700880	2707200	bit party so that you understand that on array we have three higher functions map
+2707200	2712160	filter and radius which are commonly used and extra one is for each okay I'm
+2712160	2724760	talking about them so hope you are hope you got this point okay so as people are
+2724760	2730600	suggested okay returns a new array and also again each element right it's an
+2730600	2734920	iterator and it returns something whatever you do it operation now let's
+2734920	2741680	say if I have three things again an element again if you see index again I'll
+2741680	2748240	have whole array here available right once I have this now let's say I can
+2748240	2764080	return element restrict twice now again again once one question does it still
+2764360	2772360	changes or manipulates this array if I do a console log let's say if I do
+2772360	2780540	console log of array what should be the expected output guys here does it affect
+2780540	2793800	the existing array got it some bit like let's say I store it and again array one
+2794320	2804480	but what could be the output of ARR what should be the output for this one what
+2804480	2810840	should be output for this one so Ashish says that it will manipulate the
+2810840	2818680	existing array also so do you guys agree that it should be two four six and here
+2818680	2828160	also you are saying that it should be two four six is it so what should be an
+2828160	2839160	output for this one guys firstly this is really basic concept I hope everyone
+2839160	2845080	remembers how that what is the difference between for each and map any
+2845080	2849520	random day anyone can ask you if you're a front-end developer anyone can ask you
+2849520	2857080	this thing like even a block person right let's say there's too much blocking
+2857080	2861320	happening on roads or streets in Bangalore or Hyderabad one can put up a
+2861320	2865600	mic and ask you if you're a front-end developer say difference between map and
+2865600	2872960	for each you should be able to say that it's really basic so firstly how many
+2872960	2884360	of you think that the output should be one two three right so let's let's see
+2884360	2888080	this one firstly I'll
+2891560	2900120	node map dot JS if you can see this that it doesn't manipulate existing array
+2900120	2907080	still not not even for each not even map touches your existing data I mean
+2907080	2912560	data set your existing data structure is not changed in both use cases is that
+2912560	2923040	point clear first point that in both use cases it doesn't change output of of the
+2923040	2928000	same data set only a thing a main difference between map and for each is
+2928000	2934320	that map returns you a new array like if you see I was able to store here in
+2934320	2939760	array one and I was able to output it whereas in for each I was getting an
+2939760	2944680	undefined when I was trying to output the array one so for each doesn't return
+2944680	2951600	anything map returns or something man's map returns as a new array is this point
+2951600	2959520	clear guys would you be able to answer difference between for each and map from
+2959520	2963840	now on it's really important because if those are higher order commonly
+2963840	2969840	reusable functions you will be using day in day out because the only two type of
+2969840	2974120	data structure that you play around mostly in front-end is array and objects
+2974120	2980960	so you should be knowing a good amount of like understanding on them okay now
+2980960	3003840	let me show you our difference between for each and map this is not the right
+3003840	3014040	article maybe images okay the return value is I hope you are able to see this
+3014040	3016560	image
+3026640	3039760	nice is this clear can you guys read it once from your point of view both the
+3039760	3044360	use cases it doesn't modify original array for each returns as undefined
+3044360	3050520	whereas map returns is like a new array let's say it says that new array is not
+3050520	3054480	greater at the end of the method call which is exactly pointing out to the
+3054480	3061200	second point itself here newer again okay this I mean I don't understand why
+3061200	3065080	they say that new array maybe they are talking about in different context but I
+3065080	3073200	hope this first two points are clear to you but what what is actually happening
+3073600	3083040	right now let's go back to this no can anyone help me out or volunteer me to
+3083040	3088680	build up route or polyfill for a map it's a completely same as her forage but
+3088840	3100960	some small change just want to know if can anyone help me out or just I'll give
+3100960	3111840	you five minutes guys just think of it like how would you build this one say
+3111840	3118960	what I want to do what I want to do is start let's say I try to copy and paste
+3118960	3133040	here but I'll say this is array 2 it's array 2 but I'll use my map yeah can
+3133040	3136920	anyone write it down guys can anyone write it down and send me send the code
+3136920	3153000	to me like for my map I'll wait for two three minutes they agree with your
+3153000	3160680	points Ramya in some bit but can you would write it down because if I write
+3160680	3164360	it down it's just like I can copy and paste off for each and I can change
+3164360	3174160	something I'll also give you if you want to see this use case I can also give you
+3174160	3178760	this thing now what would be the only changing thing here
+3194360	3221320	guys is anyone trying it or everyone waits waiting for me to do it no
+3221320	3234560	reactions do you want me to do it okay let's let's okay trying it trying great
+3234560	3238800	guys keep going I'll wait for the for the two minutes
+3251320	3281200	well what I'll do is that I'll just copy this one I'll keep it here on the
+3281200	3290720	top now instead of for my each I'll do my map I have to change two things
+3290720	3295680	inside it I just want to know what would you change it
+3311200	3337040	yes can I move ahead okay some bad ass ish
+3342040	3346560	okay somewhere the sing one minute okay
+3360760	3365440	meanwhile others also can think like what we have to change it because it's
+3365440	3368820	pretty simple and straightforward there's only one difference have we have
+3368820	3374940	highlighted is that map returns you something whereas for this doesn't
+3374940	3390220	return anything great on Ashish right somewhere agree so as ass is suggested
+3390220	3397940	that we need to create firstly new array with some memory one thing I said is
+3397940	3403040	that in JavaScript you doesn't really need to specify the size of an array you
+3403040	3411620	can directly initialize an array with an empty okay you don't really need to say
+3411620	3417240	that this start length that works but not needed okay if you are using
+3417240	3425640	constructor function of new array like it should be this way new array only
+3425640	3432000	when you do this then it can you know it will say it will ask you the length
+3432000	3436680	like then you can pass on this start length this would be the syntax in case
+3436680	3442860	if you want to create a new array with the certain length is this point here
+3442860	3447560	guys like how would you actually create an array with a certain length I hope
+3447560	3450660	everyone remembers that there's something like constructor function we
+3450660	3456840	have discussed and every thing should be there so let's say not complicating it
+3456840	3461040	this should be also working it now and this is something let's say we are
+3461040	3469460	returning it response and each of the value each of the value I have to be
+3469660	3484540	adding into this one right again I can do this thing or else I can do this
+3484540	3486820	thing
+3486820	3510540	anything works face both the things should work okay now how many of you are
+3510540	3515340	able to understand this a small chain is that we are trying to create a new array
+3515340	3520260	and pushing every element line by line because if you see whatever this callback
+3520260	3524220	function is executing multiplying each index we are adding back into a new
+3524220	3529620	array which is array one in a way right this array whatever this callback
+3529620	3533540	function is actually executing it and whatever this function is returning it
+3533540	3537300	like you can say element into two that we are pushing back into a response
+3538300	3548660	let's say this is working fine now do you see this guys that my array 2 is
+3548660	3556500	actually returning 2 4 6 8 10 I hope this logic is pretty much clear simple
+3556500	3564300	basic and there is if you see here in the differences they talked about one
+3564300	3570780	more thing guys this last point hoping if you are able to understand this last
+3570780	3576660	point for each method is not chainable map is chainable what do you think this
+3576660	3593340	is why do say that chainable not chainable anyone I see one thumbs down
+3593340	3602220	two now since can I say this in one line that farage doesn't return anything to
+3602220	3606780	make it a chain map returns you something so that you can add multiple
+3606780	3614180	operations like you can you can filter things right do you guys agree that if
+3614180	3619340	you want to do it let's say once you do this you will be able to filter it let's
+3619340	3642140	say filter again say element return let's say element modulus of 2 now what
+3642140	3646420	they should do actually what they should do what should be the output of here
+3646420	3661500	what should my output be here guys this was my output earlier let's say
+3661500	3669260	everything is even so let's make it odd or else let's let's do some condition
+3669260	3680460	let's build since they are multiplying by 2 let's make it multiplying by 3 now
+3680460	3685820	just we know that right we I think I hope we got the understanding what this
+3685820	3696700	will actually do why changing is possible on my app not on farage okay
+3706460	3714260	let's say I do this now if you see I'm able to get all the even numbers when
+3714300	3718960	I'm trying to output of arrow to just like I'm trying to fetch like I can
+3718960	3724980	filter it this is what a chaining means I hope this point is clear what what was
+3724980	3730660	that table talking about like third point with the basic differences anyone
+3730660	3736400	will be able you will be able to recall it right the difference between map and
+3736400	3742860	forage and once they ask you difference between an app and forage would you be
+3742860	3754140	able to build their poly fields to the fast great now now we'll move to the
+3754140	3760420	filter function actually it's again pretty much similar guys again like if
+3760420	3767580	I pick it up you have to help me out how would you do this let's say I have this
+3767580	3777940	array and if I do this filter what I can do is that let's say again if you see
+3777940	3783300	this this the callback function whatever callback function is there it again
+3783300	3794700	receives three things value in index an array now this is a predicate predicate
+3794780	3800100	something like based on condition something it does okay now let's say I
+3800100	3810540	have element index again the whole array now what we'll do is that only if
+3810540	3822420	element modulus of 2 is triple equal to 2 which I'll say instead of this adding
+3822460	3836180	condition we can directly return it okay now one more question does filter again
+3836180	3847140	does filter again change your existing array does it affect ARR would it
+3847140	3855140	manipulate it or it will return something it would return an array isn't
+3855140	3864820	it okay let's say I store it here and ARR 1 and I try to do console.log ARR 1
+3864820	3876340	and again console.log ARR okay now let's recheck this output clearing it node
+3876380	3884820	filter.js now I hope this point is clear how that filter is working it is returns
+3884820	3891580	or something and this is also still like you can add any number of chainings that
+3891580	3899220	you want okay yeah somebody is already thinking like how we can build polyfill
+3899220	3904580	but I hope this function filter works how it works we know that right and you
+3904580	3909580	guys give me one thumbs up if you know how does filter works it doesn't
+3909580	3913700	manipulate existing array and it returns as based on some condition it is trying
+3913700	3920620	to predicate something like possibility now again I am building something let's
+3920620	3930340	say array 2 and let's say instead of filter I'll say my filter and if I try
+3930340	3935740	to output again console.log array 2 it should be array 1 should be actually
+3935740	3944620	value should be equal to array 2 okay now if I have to build it on my filter
+3944620	3950060	filter on my array one of the common thing we have to do is like an array
+3950060	3959900	dot prototype dot filter once I do this I'll have a callback function on this
+3959940	3965180	callback function I have to do some condition one thing is common is that it
+3965180	3974860	is still taking callback so let's add a callback cool again cross checking what
+3974860	3985220	this is pointing to here the still is pointing to ARR isn't it right object
+3985820	3995860	nice now how would you build a filter here I think Sambit has already done the
+3995860	4002980	condition guys do you understand that what Sambit written in the chat able to
+4002980	4007300	follow up so I'll try to write down the logic let's see firstly again
+4007300	4015420	I treating through the loop I treating through all the items of an array then I
+4015420	4023620	have to check only if if callback of now callbacks take three things here again
+4023620	4034540	this start I and then I then this let's say instead of I I can make it again for
+4034540	4042180	better you know muscle memory takes me to I we are used to DSA people usually
+4042180	4054580	write IEJ those are things we remember right now only once this is only if this
+4054580	4067860	condition is true we add it to the response right again response start
+4067860	4075220	push I should off index I should be doing this start index and I should be
+4075220	4083980	returning this guys is this logic clear to you let's say I say this mime filter
+4083980	4095740	not overriding existing library right good now let's say if I execute this one
+4095740	4104820	again okay if you see we are still getting both the same outputs for the
+4104820	4111900	array 1 and array 2 so both are working as as expected so I hope this this thing
+4111900	4115140	is clear but I didn't wait for this one because this is pretty straightforward
+4115140	4120660	just like based on only condition if it is true whatever callback is executing
+4120660	4124900	only if that condition is true only then we'll push it or else will exit will not
+4124900	4131260	do anything if it is returning false right and this is the reason why I
+4131260	4136820	explained about like whether truthy or falsy condition like how does it works
+4136820	4140620	like in if condition when there is a particularly there is nothing like
+4140620	4146220	return type if there is even value how that can be if we go inside the if loop
+4146220	4152500	okay but I hope my filter for each and map is clear guys these three functions
+4152500	4157420	you hope you will be able to write polyfill without some revision on it okay
+4157420	4166660	then there is one thing which is you know reduce.js now how many of you
+4166660	4174300	remember reduce guys I'll open an example that we discussed interesting
+4174300	4181580	example I don't remember where it is
+4182540	4190260	guys do you remember how does reduce works
+4197220	4201860	it takes okay let's say I'll come to that I've actually shown you an example
+4201860	4210660	of prefix sum right if you remember prefix sum calculating a prefix sum using
+4210660	4219580	the reduce right I'll come to that I'll show that example again but let me
+4219580	4226140	introduce again a reduce once for you all okay let's say again I have an array
+4226140	4234060	again one two three let's I have this numbers reduce is actually a returns as
+4234060	4241860	a value let's say it returns as a value not an array but it does such a way
+4241860	4247380	firstly you know it's a it takes a callback function and it takes a two
+4247380	4253900	parameters what will be the default value and what will be the let's say
+4253900	4257740	initial value if I put it as zero why I'm putting it to zero is because I'm
+4257740	4265180	trying to replicate some of elements let's say some of elements now when
+4265180	4270460	there is no cancellation is done by default the value is zero it takes three
+4270460	4277220	parameters one is accumulator then current value let's say if I write down
+4277220	4292260	exactly the way it is showing previous value and it returns again an array okay
+4292260	4300900	it is doing three things for us clear firstly also let's say if we what if we
+4300900	4311900	receive index here the index have they they haven't exposed index in reducer is
+4311900	4326060	it it should be there okay let's say good now what I can do if I want to use
+4326060	4332580	this simply I have to do is like previous number plus equal to current
+4332580	4343100	value this will do my calculations now how many of you recall this example how
+4343100	4346460	many of you are able to understand this reduce how does it work if there is
+4346460	4349740	anyone who doesn't understand reduce case give me thumbs down if there is
+4349740	4357100	someone who don't understand reduce it is reducing all the numbers into a one
+4357100	4360940	particular number where we are doing some of the all the numbers here
+4360940	4366060	starting with zero as a previous value previous value is actually pointing
+4366060	4373340	starting with zero then it keeps on adding with the current number the
+4373340	4376820	current number will be one then two then three then it will keep on adding all
+4376860	4393900	the numbers let's see this console dot log result clear mode reduce dot js just
+4393900	4401700	a second did I make as I didn't return it sorry it should return the number
+4401700	4408420	right right yes if you see it here we got the whole sum of the all the elements
+4408420	4415260	I hope this example everyone remembers it so I'll go back to class that we
+4415260	4420540	have discussed class number 10 where we try to calculate prefix sum and we
+4420540	4425760	remember that for the prefix sum right we always used to return now everyone
+4425760	4430100	remember this prefix sum right the sum of the previous all the elements with
+4430100	4434940	the current element till that point now if you see this I have tried to
+4434940	4439540	initialize the existing array which will be resulting this is a prefix sum array
+4439540	4445860	in this callback function I mean two things an accumulator accumulator is a
+4445860	4450340	previous value till now what is the accumulated data accumulated number and
+4450340	4455940	the current value so what I say is that if there is if the item is itself first
+4455940	4462540	number if the index is 0 then directly add it push it to this array the current
+4462540	4466560	number because for the index one prefix sum of index one will be equal to the
+4466560	4477300	same number isn't it sorry index 0 isn't it let's say if you have an array of 1 2
+4477300	4491300	3 prefix sum would be 1 3 6 isn't it for the first index it should be this
+4491300	4495500	condition right same thing whatever it is there push it into this one then if
+4495500	4499900	the length is greater than it then I'm getting the previous sum whatever my
+4499900	4506940	previous sum is there plus current value same use case I hope this example
+4506940	4511260	everyone recalls it remembers it again rechecking with you if there is anyone
+4511260	4514300	who don't understand reduce if there is anyone do let me know or else we are
+4514300	4521420	moving ahead with implementing the polyfill for this one okay take it as
+4521420	4526140	know that there are no doubts on reduce I hope everyone understands it but now
+4526140	4533740	let's let's think of this one guys how would you implement this one what would
+4534220	4542100	it take to build a polyfill for reduce let's say I call it the same logic I'll
+4542100	4553780	copy this part instead of result I'll say result one and I'll say my reduce okay
+4553780	4563060	and here on the top I'll basic syntax I'll write down prototype dot my reduce
+4563060	4573260	on this let's say I have a function and this is what I'm doing same concept
+4573260	4583020	isn't it Ashish it's it's still same isn't it it's what firstly let's go
+4583020	4592620	step by step is it taking a callback function inside reduce firstly let's
+4592620	4598140	decide what should go inside this parameters here first is it taking
+4598140	4609700	callback function right let's say there's a callback function right it is
+4609700	4615740	taking an initial value it is taking two parameters isn't it this reduce function
+4615740	4623540	is saying two parameters callback function till here then no don't go
+4623540	4627100	inside the callback function somewhere first seen on terms of reduce level
+4627100	4643580	itself so if I cut down this one I write down const so CP is it taking two things
+4643580	4647500	inside my reduce
+4655660	4662540	guys right so we have to say that also along with the callback function I'll
+4662540	4678020	have something like initial value this is clear guys that it should have
+4678020	4684580	something like initial value first now what if what if there is no initial
+4684580	4695980	value provided what should you do if there is no initial value provided let's
+4695980	4702620	say I try to let's I try to comment this part let's say that we remove this zero
+4702620	4710980	initial value and I try to print this again what it is taking by default it
+4710980	4721420	is taking as zero okay now even if I let's say if I try to multiply it it is
+4721420	4733180	still does it take like one here if it takes zero if it takes zero then it
+4733780	4742180	multiplication should be zero of everything isn't it you get this point
+4742180	4761260	guys okay so now what I'll do is that I'll give a break of six seven minutes I
+4761300	4765900	want everyone to explore like how should you handle the initial value if you see
+4765900	4772740	for one use case it took it as zero for any use case it took it as one now how
+4772740	4779700	would you define like what should the exact value what in case if there is no
+4779700	4788260	initial value provided if it is an undefined how would you handle it okay do
+4788260	4798220	you need break guys or should we continue I think that people are not
+4798220	4802940	responding today too much guys I hope everyone is able to follow up it's not
+4802940	4807980	boring yeah condition for initial value figure out that thing guys that if you
+4807980	4812300	see I've shown you two use cases I have removed initial value for this
+4812300	4817980	existing function where I'm trying to find some of values in that condition it
+4818020	4823660	considered initial value zero but when I try to multiply it multiplying all the
+4823660	4837740	numbers then it considered as a one is that point here explore that summit I
+4837740	4842460	will discuss with after the break for the five minutes let's take the break
+4842460	4847180	for five minutes and come back okay
+4850980	4856580	I have started break let's meet in five minutes
+4872460	4875040	you
+4902460	4905040	you
+4932460	4935040	you
+4962460	4965040	you
+4992460	4994720	you
+5022460	5024720	you
+5052460	5054720	you
+5082460	5084720	you
+5112460	5114720	you
+5142460	5144520	you
+5155340	5159460	guys is everyone back
+5159460	5176260	do you guys think what should be the how would you handle if initial value is not
+5176260	5178700	provided
+5189460	5214660	okay if not can we can we do it and I'll explain back let's say firstly
+5214700	5220580	whether whether firstly what we are resulting is like it's a constant value
+5220580	5224540	right we are resulting in a one constraint value let's say that I have
+5224540	5235900	a response and it is pointing to let's say initial value itself okay because we
+5235940	5245740	are supposed to return response okay in between we know that we have this
+5245740	5258740	operator which is actually giving me the array itself till here no doubts right
+5258740	5262420	till here no doubts I hope
+5266940	5276620	guys this point is clear right this is pretty much basic now what I'll do here
+5276620	5285700	for response I'll check first if response exists what I'm trying to check
+5285700	5290620	whether response exists what in general what I'm practicing whether initial
+5290620	5298900	value is provided if not provided this will become undefined isn't it so I hope
+5298900	5306020	you got this condition so if value is undefined I'll say that pick it up
+5306020	5314820	initial value initial value of array or else if value is provided in the right
+5314820	5321460	way then you go on to do the operations what operations you will do again in the
+5321460	5325180	callback if you see I have something that previous number where I'll store
+5325180	5332260	it in a response then I have the current number which is this dot I then I'll
+5332260	5351300	have I then I'll have this initial value points to this dot 0 if undefined right
+5351300	5357540	right something so this is what this is how you can handle it like if undefined
+5357540	5363060	will directly go for pointing out to first key then for the all other
+5363060	5369700	iterations it will you know take from that level if not if it is provided it
+5369700	5382700	keep on taking that initial values okay I hope that point is clear guys so let's
+5382700	5394100	execute this one whether this is working as expected say uncomment this logic I
+5394100	5411740	put back this call back inside here I remove the CB okay let's execute this
+5411740	5427300	one again no okay I made a constant variable let me make it as lit right
+5427300	5432800	now I got something is like I've seen for plus let's say first first we'll
+5432800	5442120	verify for the plus both are 5555 and if I check for the multiplication for the
+5442120	5447800	both the things with provided value as one first we will check with provided
+5447800	5454720	value both things are one if I don't give any value even let's verify this
+5454720	5461200	again both are still resulting in same things so I hope this polyfill is also
+5461200	5469920	clear guys like how this thing works for reduce function to can I receive one
+5469920	5474000	final check from you guys like all of you can you give me a wooden please I
+5474000	5478320	just if all these functions are because these are the three functions that you
+5478320	5484040	would be asked map reduce filter where people try to grill on they check on
+5484040	5488400	your kind understanding first you do understand this once you they you say
+5488400	5493040	that you understand this they might ask you to write a polyfill on that okay if
+5493040	5498440	this thing is clear I'll talk about one final method which we haven't talked
+5498440	5510880	about it yet flat dot JS have you anytime heard about flat added or flat
+5511880	5518880	okay I see no one notice
+5528680	5537040	now what do you see here this yeah flatten you might have seen like flatten
+5537040	5543240	the binary tree flatten the linked list these questions you guys came across
+5543240	5551840	this one anytime what do you generally do in flatten whenever you have a tree
+5551840	5555960	you would try to arrange them in one an array right one array like if you have a
+5555960	5560660	iron inside array if you see this is a two level nested level you try to make
+5560660	5568060	it one level nested is this clear what actually array dot flat does it's the
+5568060	5575060	same functionality let's say array dot if I take pick it up flat inside flat it
+5575060	5581780	takes depth what does it exactly mean by depth is that how many levels of
+5581780	5588060	recursion calls it should do that if I am having this is level of one level
+5588060	5593660	this is a two level if I write down level one okay and try to store here
+5593660	5600980	firstly let's see what happens if I store it if I make it level one and try
+5600980	5612380	to print it no flat dot JS if you see what just happened is it flattened all
+5612380	5618700	to the level one right it went into the depth of initial array then it went to
+5618700	5629940	level one let's say if I have it this way okay this is this is 0th level first
+5629940	5635060	level since second level now let's see what happens if I try to print it again
+5635260	5642700	do you see that 2 and 3 is still in array if I increase the level further if I
+5642700	5650820	increase the level further now it will completely flat it up okay generally the
+5650820	5657420	parameter inside this one is taking like how many times it should you know
+5657420	5661780	recursively check the condition nested condition how many times it should
+5661780	5669460	iterate through that I hope that point is clear like what depth is actually
+5669460	5673300	meant we what are the what is the value I'm actually why I am passing this one
+5673300	5678460	two or not passing anything if you don't pass anything what happens just let's
+5678460	5683920	see if you don't pass anything what is a default value also it doesn't do
+5683920	5690340	anything the depth level is zero it returns whatever array it is so did you
+5690340	5697580	understand what is flat what do you mean by flat flattening an array right
+5697580	5701860	this is an algorithm that you have already practiced for the different data
+5701860	5706780	structure in your DSA can you guys think like how would you do it let's say this
+5706780	5713340	is like a simple data structure DSA problem right flatten the array let's
+5713340	5723500	say that I write a function flat and ARR I give an array you just go and do
+5723500	5728980	this logic part this can be asked in any interview like how can you make an array
+5728980	5740500	flat any any ideas guys how would you approach this one okay so these are what
+5740500	5748620	is actually happening if you see this example firstly our array isn't nested
+5748620	5755500	right nested arrays you have this one top level array which is having one two
+5755500	5764940	three then a second array inside it in third array right now let's I write a
+5764940	5778860	for loop here to show you guys better say console.log array.i and also let's
+5778860	5786760	say I okay now if you see firstly the array looks like this at zero index one
+5786760	5792340	and then one first index it is two then second index it is three third index it
+5792340	5797140	is having an another array in nested level that fourth index it is having
+5797140	5803860	another array now when I say flat is that converting removing this braces
+5803860	5808860	removing this braces converting this arrays and merging into this existing
+5808860	5815820	array like if you see here one two three then one two three then again removing
+5815820	5825340	this array and merging this into the existing array got this so and the
+5825340	5830580	number of nesting levels is actually defined by the parameter called depth if
+5830580	5837820	you see it takes something value like like parameter which is depth here if
+5837820	5845620	you see the maximum if you see the maximum recursion depth it says now
+5845620	5850340	also if you see the definition it is actually pretty much like DSA it returns
+5850340	5855260	a new array with all sub-array elements concatenated into it recursively up to
+5855260	5862260	the specified depth now if someone says that you know a front-end developer
+5862260	5867220	doesn't need a data section algorithm knowledge ask him to flatten the array
+5867220	5875980	write polyfill for the flat now without your DSA knowledge do you understand
+5875980	5883460	sub-array recursion call stack recursion right how would you do that so never
+5883460	5887100	fall in that trap that hey DSA is not treated everywhere it revolves around
+5887100	5894220	I've shown you reduce example using you know prefix some so every language does
+5894220	5900020	it but they have library built it such as that friend and people don't use it
+5900020	5904020	much extent but we need to know if you want to build the libraries like if you
+5904020	5912740	want to be a really good at it okay now guys how would you approach this
+5912740	5922980	question basic which algo will work here hey have you went to lead code
+5923020	5926020	flatten
+5932980	5936980	let's have you seen this question
+5936980	5953460	right there are too many things these are directly asked in interval questions
+5953460	5967260	okay I'm getting directly related to JS wait this is a question it is asked now
+5967260	5971140	this is this is where you are trying to apply recursions and trying to go
+5971140	5976300	through it but here in order to make it more useful what we have given we also
+5976300	5980420	need a parameter called depth so one thing if you want to approach anything
+5980420	5989780	right you might have you might have got you might write like what is the way
+5989780	5993220	that you approach a DSA problem it's like simple right thinking them from a
+5993220	5999420	brute force and how would you do it what algorithm should apply here right those
+5999420	6003220	step-by-step things that you whatever you might have learned till now let's
+6003220	6008740	apply those knowledge itself okay first let me write down the basic syntax array
+6008740	6016220	dot prototype dot let's say I'm trying to build my flat then you have function
+6016220	6021220	called my flat let's say this is a simple function doesn't need anything
+6021220	6026940	name or anything but let's say this is what it is and it takes something called
+6026940	6038460	as a depth here okay once it has stepped now okay some bits is travels and add it
+6038460	6046260	into new array and return it cool but that's fine that we are returning it
+6046260	6050700	let's say okay some with I'll do something like as you suggest let's say
+6050700	6059700	const response I have array I'm returning this response okay and I'm
+6059860	6070140	through this I said is dot length now what should I return it how should I
+6070140	6074060	handle the conditions inside this some bit
+6090700	6103100	array right you have to think how would you handle this firstly one simple okay
+6103100	6109060	guys think if you can think hollows I'll solve it pretty basic pretty easy this
+6109060	6114340	one only one condition you have to do it when to call okay think that firstly
+6114340	6124780	when to call recursion what would be the condition when to call a recursion or
+6124780	6138620	when we can directly add element into response array if you answer these two
+6138620	6147500	things Arun says that when the index has length more than one okay right answer
+6147500	6158100	right right I would agree with that point anyone else has anyone else the
+6158100	6162500	other way around I don't can I take that if if you remember last class we have
+6162500	6167780	discussed to check whether a particular item is item data drive is an array or
+6167820	6172300	not we can do that thing also right if a particular index value is an array then
+6172300	6177660	we can excuse it if not we can have to call a recursion on that do you remember
+6177660	6187380	array dot is array page did you remember array dot is array condition okay yeah
+6187380	6192060	that's that's a way we can go even Arun's point is also right but think of
+6192060	6204060	it if you if you have done DP logic also dynamic programming that would be it a
+6204060	6208980	basic recursion would solve it not needed DP where you try to memorize the
+6208980	6222900	steps let's say if if I'll solve a basic condition if it's an array then we have
+6222900	6231740	to do something else I have to directly add a response dot push of this now I
+6231740	6239900	have to do something here I have to check another condition also here
+6261740	6274380	the this can you think of it what would be the second condition I have to check
+6274380	6284060	here firstly other than like yeah another loop here but how many loops you will be
+6284060	6295220	keep on adding some bit if array is found or because it can be end time nested right
+6295220	6303420	end time nested in the inside array inside another array inside another array yeah so
+6303420	6310500	when you have depth level going when you have a chaining depth what could be the right way
+6310500	6316460	how would you travel for you know like a tree when you have a node then you have its children
+6316460	6328020	right you travel next or left dot or a right element root dot left or root dot right or
+6328020	6334260	anything combination but before that before that guys do you see another condition that
+6334260	6343500	only if I have to come inside this condition only if depth is greater than 0 if depth is
+6343500	6350100	not greater than 0 I can push an array into it directly right only if depth is greater
+6350100	6355820	than 0 that many for loops I should add inside it or else that many recursion calls I should
+6355820	6373780	do it is that point clear firstly guys okay now what is the value of depth is doing now
+6373780	6381300	when I say that you know depth one it will go and check that okay one two three fine
+6381300	6387820	now I see that depth one I have to remove this I'll remove this one I'll merge here
+6387820	6392940	I can see that this is depth level two I won't touch it this one I'll push it as it is again
+6392940	6399900	this is depth one so I'll add it I'll remain it now this the reason this was left behind
+6399900	6412500	was this was nested inside nested got this point somewhere this is talking about depth
+6412500	6418420	only when depth is greater than 0 we should go or else we have to push it directly now
+6418420	6424220	inside this let's say I don't think why you are not able to think it let's say I have
+6424220	6432180	to push it again but I have to push it based on some condition whatever array I have whatever
+6432180	6439140	array I have I'll say that this dot I again in order to call a recursion I'll say that
+6439140	6455100	get my flat with depth of less than one you guys understand this point what just happened
+6455100	6463020	I've reduced the depth so that again I'll call this function recursively I'll call it
+6463020	6478740	again once that is resolved this will be pushed into it yeah guys give me thumbs up thumbs
+6478740	6484820	down if you are able to understand this logic if not let me know how this is working but let
+6484820	6490180	me show you this that it is actually supposed to work it I'll keep it on to the top
+6490180	6514140	yeah just a second let's say I do flat to also I try to make it
+6520180	6543980	first let's see this if this is working fine clearing it node flat dot JS okay firstly we
+6543980	6565060	had an input just a second okay I need to call my flat
+6573980	6590740	yeah this is working fine now also I'll try to output firstly console dot console dot log
+6590740	6604260	array let's verify this one okay yeah cool so let me go to iPad I think this should be
+6604260	6615660	basics to you guys once you have completed DSA have you cleared mocks guys right now
+6615660	6619060	let's say what is the input we have took
+6619060	6641540	now when this is happening this brace is depth level 0 this level is depth level 1
+6641540	6662740	this braces depth level 2 firstly is this point clear what is meant by depth okay once now when
+6663740	6672060	let's say if my depth value is 0 what they are saying is that directly you need not to
+6672060	6678900	flatten anything there they are they are telling how many levels I should flatten okay if depth
+6678900	6686180	level is 0 they I can return directly whatever array they have given to me isn't it I need not
+6686180	6695980	to flatten anything only when they say that a flatten till depth level 1 then I should go
+6695980	6712380	1 2 3 then 1 then 2 comma 3 then 4 5 6 this is for 1 when they say 2 I can go further
+6717060	6729140	okay this is what I can do nice is this clear is this point clear now what was happening in
+6729140	6735060	the code what was happening in the code was if you remember whenever we are actually you
+6735060	6742420	know coming across this part whenever we are coming across this part we are checking whether
+6742420	6749100	the value provider depth is greater than 0 if the greater than 0 is there then we were actually
+6749100	6757620	taking this array whole array taking this whole array and we are calling this function again let's
+6757620	6770540	say this array 1 2 dot 3 dot my flat reducing depth let's say we passed you we are reducing
+6770540	6779180	depth by 1 now on this level when this again actually goes by it if it flattens again this
+6779180	6789620	becomes again this one isn't it so this is what is happening we did a multiple recursion calls
+6789620	6796140	for this one like for this one we did it two times for this one we did it one time we called
+6796180	6803180	it three times if I can dry run and show it to you like in the debugging mode what's actually
+6803180	6810660	let me open a debugger tool
+6833180	6846940	yes let's say this what's happening firstly this keyword is having five elements with a
+6846940	6853700	zeroth index pointing at the first zeroth index so this is not an array type so this
+6853700	6859820	condition is failing it came here and we were pushing that element now then we went on to
+6859860	6869460	second element then we went on to third element okay now if you see in the local my flat in the
+6869460	6876020	response array we have stored 0 1 2 which is 1 2 3 items now when we go to the third index index
+6876020	6889780	number 3 let's see where the call comes here okay what is it firstly it is executing this
+6889780	6897340	part so let me comment this one I don't need this both things let me let us execute firstly
+6897340	6912260	directly this one okay I'll move forward for two levels now if you see what just happened when
+6912260	6921020	I is equal to three the whatever we have stored it is of data type of an array and the current
+6921020	6927260	depth if you see depth we are talking about is 2 now what just happened here let's see this
+6927260	6934420	okay when we are saying that we are calling back again my flat with increasing it now and if I try
+6934420	6952780	to do this let's say if I try to triple lot and of do this this of I okay clear this of I I'm
+6952780	6960060	getting this an array which I'm spreading it here whole array I'm spreading it and I'm calling on
+6960060	6967460	my depth because why I'm spreading it here is that actually cleaning up one level of depth I'm just
+6967460	6974380	trying to remove this like first array like whenever I do let's say there's an array let's
+6974380	6982180	I store it in the memory called array one I say one two three and let's say I console log
+6982180	6993580	spreading an array one you see I've removed that array symbol so that's why I've spread it first
+6993580	6999700	level and then I called my function with reduced depth is this point here guys why I am calling
+6999700	7010500	back again because my depth is still in still to right once I call this now what just happened
+7010500	7021340	if you see here we went on to push here firstly now the current array looks like this it has
+7021340	7029220	at the 0th index it has one if you remember at 0th index it has one and the first index just 2 and
+7029220	7041220	3 and even in the response array there is nothing else as of now if we keep on adding it if you see
+7041220	7055420	there are two things present it's now if you see once we have iterated over this part once we have
+7055420	7062700	completed iteration over this part now what it is stored is 1 2 3 and 1 2 3 because two levels of
+7062700	7072380	depth recursion calls are completed now then it is going again for this part 2 3 4 ok because I
+7072380	7082700	is pointing at 4 here I go back again now if I see that depth level is still 1 it will push it
+7082700	7090260	it will push all the elements and then we'll be able to see the output as I hope I hope this
+7090260	7097100	example is clear how that array dot flat is working is this anyone who still don't understand
+7097100	7106940	this to let me know and if this part is clear I think this is it when it comes here when you
+7106940	7115260	come for higher order functions writing you know polyfills nothing much more than for
+7115260	7121100	considering higher order functions will be asked okay next class we'll discuss again call bind
+7121100	7129700	apply and few more things few more important questions let me commit this
+7141700	7149420	I actually picked it up flat as extra it was not part of thing that I have to
+7149420	7155020	do but I thought to discuss this because this is something interesting and if someone asks you
+7155020	7163660	this one you should be able to do it guys again rechecking before I start the doubt
+7163660	7170060	session is this things clear to you all like what we have discussed in today's class all of the
+7170060	7194020	topics cool so I'll start doubt session guys then I received very less the amount of thumbs up just
+7194020	7200500	want to check like again started out session guys but do let me know I can recall few names
+7200500	7216380	I have to some bits in class Pramod Rajni Hemanki guys are you able to follow up did you guys
+7216380	7232500	understand upendra right in that case guys keep practicing this one if someone asks you polyfills
+7232500	7240100	I hope you will be able to explain them using a flat is really simple easy you should be able
+7240100	7252940	to also build that one someone asked it just want to know when I asked a flat no one told
+7252940	7258980	me that I would be applying a recursion when do you guys think that recursion should be applied
+7258980	7269300	yeah Rajni will do that give me a minute I'll open whatsapp and share the link yes when do
+7269300	7287860	you think that recursion should be applied any idea guys when would you go for recursion
+7287860	7301940	solving sub problems are solving same sort of problems same problems right when you have
+7301940	7307460	same sort of problems again and again occurring so you don't write a logics for them so in order
+7307460	7314340	to call you create a one function you will keep calling that function and amount of time so
+7314340	7330020	you have that same sort of problems right okay whatsapp web and how would you figure out like
+7330020	7336540	when DPA should be applied I'm just thinking like you know asking you some random stuff
+7336540	7349180	when how do you come to know that when if there are like you know DPA should be applied
+7349180	7363420	right so whenever you come across a point where you see that there are same sub problems like
+7363620	7367900	whenever you are in recursion if you see that there are some same parameters are being passed
+7367900	7374980	each time and same time you are getting the same result in that use cases you actually use DPA
+7374980	7379980	where you try to optimize that hey once if I solve the problem why should I do it again
+7379980	7400300	let's let's let's you know optimize that logic guys be okay I've shared whatsapp chat actually
+7410860	7416980	nice there's any any other doubts in our class today's class or anything else if you have
+7416980	7423420	anything please feel free to ask I'm here for some time or else we can close the session if
+7423420	7442540	there are no doubts I'll wait for one two minutes how's your appraisers going on this
+7442540	7456700	month have you got your appraisers write your current form guys no not yet
+7456700	7478020	okay report to release next week seems to be okay hey why where do you work upendra
+7478020	7495740	which form is it is it happening with everyone or like bank based out of Bangalore Bangalore
+7526580	7532740	there's a few people in Jigini and work from and my related works there I've been to Jigini
+7532740	7556140	start of my career I started with HCL so guys I don't see any doubts coming up so can we close
+7556140	7562740	the session tonight I hope you get back the one hour that you have and try to solve the
+7562740	7569340	assignments guys try to keep preparing yourself for the context upcoming context next week
+7569340	7575380	revise those topics in case you have anything bring me in what's app or in the class we'll
+7575380	7584060	pick it up and we'll try to discuss that thought topic okay so from my side that's it guys then
+7584100	7588860	see you in the next class where we pick up few more polyfills and try to revise few more concepts
+7588860	7596500	like as we did we revise the concept then we went on to build a polyfill happy shivarathri
+7596500	7603940	all happy happy shivarathri upendra thank you all guys for attending hope to see you soon on the
+7603940	7617340	Saturday yeah it takes time for the practice I completely agree some bit with with time you
+7617340	7623860	will get it so whenever I'm explaining I just want to be sure that the topics whatever I'm
+7623860	7629380	trying to explain you you are able to understand that part and with repeating with you do it
+7629380	7633580	personally when you type it down you'll get it further it's like when I'm typing it down it's
+7634220	7639380	like a magic for you guys firstly so until you try to repeat it you won't be able to feel it up
+7639380	7649380	okay it's like virat koly playing cover drive right until this you don't practice it you won't
+7649380	7656180	get it we know that okay what is cover drive when the ball is pitching up on the fifth
+7656740	7665300	side some you guys try to you know play it we know it but it comes with a practice same thing
+7665300	7674780	so otherwise then with that I'll close the session for today see you on Saturday thank
+7674780	7684260	you Muneeshwara bye bye guys good night take care again happy shivarathri all

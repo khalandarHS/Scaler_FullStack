@@ -1,0 +1,3779 @@
+WEBVTT
+
+00:00.000 --> 00:29.240
+Hi all good evening guys am I audible and visible great thank you to see so
+
+00:29.240 --> 00:38.920
+we'll wait for five minutes until all people join meanwhile I'll share my screen do let me
+
+00:38.920 --> 00:55.160
+know guys if you can see this screen share also okay it failed I'm not sure
+
+00:55.160 --> 01:00.080
+why I'm not able to share the screen today isn't screen share working guys
+
+01:00.080 --> 01:14.000
+are able to see VS code okay give me a second I'll join back the call okay just a second
+
+01:25.160 --> 01:44.920
+I'm audible right again just trying to check on this I'm not sure let me take a screenshot
+
+01:44.920 --> 01:52.040
+of this one screen share is failing and post it on a slack
+
+02:14.920 --> 02:26.160
+give me a minute guys I'm just speaking tech team
+
+02:44.920 --> 02:52.880
+let me retry again
+
+02:52.880 --> 03:10.960
+sure starting the screen share but failing again
+
+03:10.960 --> 03:28.040
+I'll try to rejoin guys give me a minute okay we'll start it anyways 905 let me restart the
+
+03:58.360 --> 04:00.160
+I'll inspect this one
+
+04:00.160 --> 04:27.360
+okay
+
+04:30.160 --> 04:58.800
+guys give me a minute I'll check with the team like what we can do here because
+
+04:59.000 --> 05:01.600
+technical issue not from my side
+
+05:17.280 --> 05:19.080
+give me a minute guys I'll check on call
+
+05:58.800 --> 06:28.720
+guys let me try
+
+06:28.800 --> 06:34.920
+once again if not we might have to reschedule this class it's not in my
+
+06:34.920 --> 06:41.720
+hand I'll try to rejoin it give me a second close the browser instance and
+
+06:41.720 --> 06:44.440
+start again
+
+06:58.800 --> 07:24.760
+guys let's try again
+
+07:28.800 --> 07:40.080
+started working is it okay a minute guys just a minute I'll have to do some
+
+07:40.080 --> 07:42.800
+of my setup
+
+07:42.800 --> 08:09.200
+but screen share is working fine right just want to check with you guys once
+
+08:09.200 --> 08:27.600
+right okay give me a minute guys okay fine yeah so how's everyone doing just
+
+08:27.600 --> 08:33.800
+will get started in two minutes how's everyone doing this great so how's your
+
+08:33.800 --> 08:40.520
+assignment going is everyone able to solve their assignments any challenges
+
+08:40.520 --> 08:53.600
+from assignments perspective cool let's drop a message in group also whatsapp
+
+08:53.600 --> 08:58.000
+group can anyone drop on behalf of me like we're getting started not sure if
+
+08:58.000 --> 09:03.120
+some people have got dropped because of technical issue can anyone help me with
+
+09:03.120 --> 09:05.320
+that
+
+09:12.080 --> 09:16.120
+somebody's had a question somebody will check into that because we haven't
+
+09:16.120 --> 09:27.920
+sent root dot js file but I'll pick it up in the doubt session okay thank you
+
+09:27.920 --> 09:36.040
+guys thank you thank you all so I hope you all able are able to you know solve
+
+09:36.040 --> 09:41.080
+the assignment problems that we like are you know said been given hardly I
+
+09:41.080 --> 09:45.720
+believe one or two questions are there for each class and they just touch your
+
+09:45.720 --> 09:50.400
+basics like refreshing your basics and but other than that thing right other
+
+09:50.400 --> 09:55.480
+than that thing today we are formally ending introduction to like this two
+
+09:55.480 --> 09:59.320
+modules I would say introduction but not completely and because we will be
+
+09:59.320 --> 10:05.600
+dealing with these two topics each and every day but yeah but ease how you
+
+10:05.600 --> 10:10.680
+feeling confident after like this seven classes that we spent on this like HTML
+
+10:10.680 --> 10:21.400
+and CSS do you understand this one better right HTML and CSS guys I received
+
+10:21.400 --> 10:26.480
+only one thumbs up we have good amount of people in class just you know are you
+
+10:26.480 --> 10:31.320
+feeling comfortable with HTML CSS the concepts that we learned right if you
+
+10:31.320 --> 10:36.200
+have any doubts if you have any doubts you know drop in the whatsapp chat or
+
+10:36.200 --> 10:46.240
+ping me because on Saturday Sunday this weekend Saturday Sunday we are going to
+
+10:46.240 --> 10:55.800
+have context or you can say exam on this content so it would be straightforward
+
+10:55.800 --> 11:00.400
+basic and simple I would expect every one of you who have been attending
+
+11:00.400 --> 11:05.880
+class at least you know you crack it easily because it's it's straightforward
+
+11:05.880 --> 11:10.520
+and easy nothing included like there's no coding as such it's just a set of
+
+11:10.520 --> 11:17.920
+rules right isn't it so keep or revise all the notes that we have shared with
+
+11:17.920 --> 11:23.680
+you links just read through it once all the HTML and everything so be prepared
+
+11:23.680 --> 11:28.640
+for this one once we add in class today right there is no class on Saturday
+
+11:28.640 --> 11:33.160
+Saturday would be a holiday such that if you are starting or like prepping on
+
+11:33.160 --> 11:36.400
+Saturday and taking exam on Sunday it's up to you if you're confident you can
+
+11:37.400 --> 11:44.920
+so it's your choice so one request from my side would be surely attend
+
+11:44.920 --> 11:56.880
+contest second thing keep your 100% PSP for assignments okay let's just not
+
+11:56.880 --> 12:02.040
+overburden ourselves in future just keep let's keep this module clean okay are
+
+12:02.040 --> 12:05.080
+you aligned with my idea guys
+
+12:06.600 --> 12:13.480
+let's let's close off this weekend with HTML and CSS part okay now before going
+
+12:13.480 --> 12:19.960
+into the today's topic like I just want to know are you comfortable with few
+
+12:19.960 --> 12:28.840
+properties like all the properties related to font right and display
+
+12:28.840 --> 12:43.040
+position when I say display guys I include all in line block in line block
+
+12:43.040 --> 12:48.880
+then at least concept wise you should be okay because you haven't used it
+
+12:48.880 --> 12:54.240
+that's okay up to an extent but whatever concepts I have taught you are those
+
+12:54.240 --> 12:57.880
+clear and position when it comes to question I also have shared you a chart
+
+12:57.880 --> 13:03.800
+that can be used for revising like if you go and see here in the self-study
+
+13:03.800 --> 13:09.400
+and you open this you'll be able to see like all the five positions that would
+
+13:09.400 --> 13:18.280
+act as a like shot of you know revision sort of thing right sticky static
+
+13:18.480 --> 13:32.920
+absolute relative and then there is one what is the other one guys fixed right
+
+13:32.920 --> 13:40.140
+and then we have discussed about box model right box model is really common
+
+13:40.140 --> 13:47.320
+each every element in HTML is a box so we have by default like this is a
+
+13:47.320 --> 13:52.080
+content area around that you have something called as padding and this
+
+13:52.080 --> 13:56.360
+particular thing acts as a my border and then you have some space around it
+
+13:56.360 --> 14:02.760
+called as margin right so I hope this all things are clear whatever CSS we
+
+14:02.760 --> 14:06.680
+have learned and the HTML we have specifically talked about you know
+
+14:06.680 --> 14:11.880
+tables forms and introduction to all those concepts right so I hope you revise
+
+14:11.880 --> 14:16.240
+everything and then go ahead with us like all the assignments just go to the
+
+14:16.240 --> 14:22.240
+assignments it's for your use case like going front ahead right once I start JS
+
+14:22.240 --> 14:29.120
+then I go for react it would be really easy for you like if you know HTML CSS
+
+14:29.120 --> 14:37.360
+and JS right this three to a good extent you can learn anything like react view
+
+14:37.360 --> 14:46.440
+angular or you can have next year's or you can write n number of n number of
+
+14:46.440 --> 14:50.320
+things but if you know only this three at good extent then only you can start
+
+14:50.320 --> 14:54.400
+with them okay so having good understanding of this three things is
+
+14:54.400 --> 14:59.320
+really important so we covered as a part of our club this two by today's class
+
+14:59.320 --> 15:05.200
+content will be covered but we'll keep on practicing it so and I would I hope
+
+15:05.240 --> 15:09.200
+that whatever we have learned together you will be revising them and being
+
+15:09.200 --> 15:14.680
+like you'll be confident about them if you have doubts shoot at me I'll try to
+
+15:14.680 --> 15:26.080
+help you out and understanding and solving them okay guys right now let's
+
+15:26.080 --> 15:33.440
+let's get started with today's class okay you know by the heading you might
+
+15:33.480 --> 15:37.280
+be seeing something called advanced CSS but not specifically advanced CSS I
+
+15:37.280 --> 15:41.800
+would call it but it's a basic definitions and basic some of some more
+
+15:41.800 --> 15:48.560
+properties okay let's explore something what was a full form of CSS guys does
+
+15:48.560 --> 15:55.800
+anyone know this I haven't told it I guess till now anyone does know it does
+
+15:55.800 --> 16:02.280
+anyone know it what is the full form of CSS cascading style shit
+
+16:03.440 --> 16:10.600
+right we have used this word multiple times like when we are linking an
+
+16:10.600 --> 16:15.720
+external styles file right whenever we are linking external style then we used
+
+16:15.720 --> 16:23.080
+to give relation relation to that link as a style sheet so if we have came
+
+16:23.080 --> 16:30.000
+across this word good amount of times but what is this word what is this word
+
+16:30.080 --> 16:35.800
+okay what is cascading okay we'll explore that we'll explore what is
+
+16:35.800 --> 16:42.480
+cascading before that anyone know anything on this what is cascading does
+
+16:42.480 --> 16:49.720
+anyone know what cascading is all right good so we'll explore that but before
+
+16:49.720 --> 16:56.000
+that I need your help to understand the basic difference between two things one
+
+16:56.000 --> 17:10.320
+is called priority one is called specific okay so Ashwini had some
+
+17:10.320 --> 17:16.840
+parent props to child firstly the props word is itself too complex to explain
+
+17:16.840 --> 17:23.800
+now Ashwini so maybe we'll talk about that but I just want you guys to answer
+
+17:23.800 --> 17:28.000
+me what do you understand by these two words what is priority and what is
+
+17:28.000 --> 17:34.320
+specific when what are the use cases you see a priority what is the use cases of
+
+17:34.320 --> 17:44.080
+UC specific how do you define these two things anyone
+
+17:44.080 --> 17:53.440
+guys please come on quick okay I got Kiran says sequence what sequence
+
+17:53.480 --> 17:59.920
+signify signifies Kiran what does it talk about
+
+18:05.120 --> 18:10.320
+let's say this is a series of events isn't it
+
+18:12.680 --> 18:21.640
+like what you should be doing an order of execution or you can say order of
+
+18:21.640 --> 18:38.880
+execution right and the specific when you say when we say specific it's like
+
+18:38.880 --> 18:45.600
+whatever modiji say that's a specific and it's final isn't it
+
+18:46.120 --> 18:56.320
+other than promises but more digits words are like specific task particular
+
+18:56.320 --> 19:06.440
+thing particular everything is fine
+
+19:06.440 --> 19:18.200
+yeah he can say in a 500,000 bandhaj ratse so that's what he specific aborted
+
+19:18.200 --> 19:25.440
+he declares it there is no priority order okay so but I hope you got the
+
+19:25.440 --> 19:29.880
+basic understanding about these two words right priority and specific now
+
+19:29.880 --> 19:33.720
+we'll understand these two things in terms of CSS actually let's go to the
+
+19:33.920 --> 19:38.480
+and let's see actually and then we'll understand the word cascading also how
+
+19:38.480 --> 19:42.960
+what is cascading and how does it work or how can you relate it because we have
+
+19:42.960 --> 19:48.280
+seen that we have already discussed that one but we haven't connected that with
+
+19:48.280 --> 19:55.920
+this you know jargon called cascading okay let's create a class 7 and let's
+
+19:55.920 --> 20:08.760
+create an index.html file inside this again I'll initialize this one and let's
+
+20:08.760 --> 20:15.400
+say what I'll do is that let's take a simple example firstly what I'll do is
+
+20:15.400 --> 20:23.720
+like let's say I have a diff and just a diff inside that let's say I have a span
+
+20:23.720 --> 20:35.360
+tag inside span let's say this is a para 1 okay next let's say I have a line
+
+20:35.360 --> 20:50.120
+break here okay again I have a span let's say this is a para 2 and once this
+
+20:50.120 --> 20:57.920
+div is ending let's say I have a div again here I have an h1 tag and let's
+
+20:57.920 --> 21:05.200
+say this is a heading simple so what I'll do here is that while open a style
+
+21:05.200 --> 21:12.360
+block here okay once I have style block let's say I give some diff I'm
+
+21:12.360 --> 21:15.720
+selecting an element selector I'm selecting a diff then I'm directly
+
+21:15.720 --> 21:26.680
+giving it as a color okay let's say and color would be tomato okay then also
+
+21:26.680 --> 21:31.880
+what I'll do is like I'll select the span I'll give something color like
+
+21:31.880 --> 21:44.640
+it's a dark blue okay and also again I'll select diff I'll make color as a
+
+21:44.640 --> 21:53.600
+red no let me open preview here but I just want you to you know help me out
+
+21:53.600 --> 22:00.720
+understanding what would be the colors of each thing would be let's say I add a
+
+22:00.720 --> 22:06.040
+span again and I make color as tomato
+
+22:08.000 --> 22:11.000
+grace
+
+22:13.640 --> 22:20.000
+red and tomato okay so what should be going for red and what should be going
+
+22:20.000 --> 22:32.120
+for tomato let's say this is one and two and three I add a three here now red
+
+22:32.120 --> 22:41.920
+goes for a day find tomato for the span okay but I gave in context of span is
+
+22:41.920 --> 22:55.120
+tomato okay then this h1 tag guys h1 tag what this h1 tag will go for what this
+
+22:55.120 --> 23:02.560
+h1 tag will go for right okay now let's see if this is working if this is
+
+23:02.560 --> 23:12.200
+working rightly no okay what's happening is let's let's change this color to bit
+
+23:12.200 --> 23:20.120
+you know different so that you will be able to see a difference okay now what's
+
+23:20.120 --> 23:25.600
+happening here is like para 1 para 2 we have given something like dodger blue
+
+23:25.600 --> 23:33.600
+and we have something called we overrided with a different color now why
+
+23:33.600 --> 23:38.560
+this sort of property is working firstly why this sort of property is working
+
+23:38.560 --> 23:47.240
+like why we are able to override CSS okay so what CSS talks is like this is
+
+23:47.240 --> 23:52.400
+like this is what we call it as cascading cascading is something like if
+
+23:52.400 --> 23:56.200
+you say cascade whenever you see that cascade let's say that different what is
+
+23:56.200 --> 24:05.960
+cascade let's see in the browser let me pull an instance of in a browser say I
+
+24:05.960 --> 24:19.240
+say meaning of cascade okay so what it says you know pour downwards like if you
+
+24:19.240 --> 24:25.440
+see in large quantity like cascading down the stairs pass something on a
+
+24:25.440 --> 24:30.720
+succession to the other or small waterfall typically one of the several I
+
+24:30.720 --> 24:36.040
+mean in general something which is coming down the line I mean like coming
+
+24:36.040 --> 24:41.560
+from talk to bot is that clear now all the properties when we say overriding or
+
+24:41.560 --> 24:47.380
+something is happening this is because that we say that in what CSS by
+
+24:47.380 --> 24:53.220
+definition that rule applies is like so it executes on top to bottom but there
+
+24:53.220 --> 24:59.900
+is a trick here let's say I give here style
+
+24:59.900 --> 25:12.460
+and color blue okay this blue color is applied but what if what if I cut this
+
+25:12.520 --> 25:20.800
+style what if I cut this style and paste it below here below the body what would
+
+25:20.800 --> 25:24.880
+happen guys if I paste it below the body
+
+25:25.600 --> 25:32.480
+do you think this blue tack will be updated do you think this blue tack will
+
+25:32.480 --> 25:39.400
+be overridden no change right this this is something we have already discussed
+
+25:39.400 --> 25:44.620
+in first class right the reason I'll tell you so how can you remember this
+
+25:44.620 --> 25:53.260
+cascading how does it work is let's say surely it works from top to bottom that
+
+25:53.260 --> 25:59.980
+point is clear top to bottom it will work but only one thing will have our
+
+25:59.980 --> 26:10.300
+top priority which is called which is inline CSS inline CSS will have top
+
+26:10.300 --> 26:15.120
+priority how does it work is let's say whatever element is there let's say this
+
+26:15.120 --> 26:20.920
+is h1 okay for this h1 it will check by default if there is something like style
+
+26:20.920 --> 26:26.360
+added it will pick it up this one and apply if there is no style added for
+
+26:26.360 --> 26:31.460
+this element then it will go and see if there is something style that need to be
+
+26:31.460 --> 26:36.320
+applied to this one but if there is directly available near to it it doesn't
+
+26:36.320 --> 26:41.440
+go and try to find it that point is clear so it works from top to bottom but
+
+26:41.440 --> 26:48.520
+it starts from this element here okay
+
+26:49.520 --> 27:00.040
+is that clear guys like inline will have highest priority
+
+27:05.200 --> 27:09.440
+actually I'll give you the logical explanation for this one why does this
+
+27:09.440 --> 27:16.160
+happen in some time like let's say in 10 minutes but I see one thumbs down
+
+27:16.160 --> 27:20.720
+Ankit you didn't you understand this inline when I say inline I mean to say
+
+27:20.720 --> 27:25.420
+that this something that yeah when I mean to say inline it is something
+
+27:25.420 --> 27:29.920
+whenever you define here inside the tag itself whatever attributes to define
+
+27:29.920 --> 27:36.040
+here we say that inline like inline CSS I have explained this keyword in the
+
+27:36.040 --> 27:41.520
+initial class right you have three types of CSS inline internal and external this
+
+27:41.520 --> 27:45.320
+is something called inline whenever you define the style tag that is called as
+
+27:45.320 --> 27:49.560
+internal and whenever you use link tag and separate style file then you call
+
+27:49.560 --> 28:00.600
+it is called as external are you able to recall this one Ankit right great so I
+
+28:00.600 --> 28:08.200
+hope the word cascading is clear now it just like which CSS should apply okay in
+
+28:08.200 --> 28:13.920
+general it executes from top to bottom and it it overrides and clear the all
+
+28:13.920 --> 28:21.880
+the conflicts exist and then there is H1 already blue doesn't matter if inline
+
+28:21.880 --> 28:27.760
+style is applied that will you know be applied whatever cost it comes okay but
+
+28:27.760 --> 28:35.240
+what if this is something we are saying in terms of priority right that hey if
+
+28:35.240 --> 28:39.240
+there is a inline style it will be applied and it will like if there is no
+
+28:39.240 --> 28:44.240
+style whatever you know after resolving conflicts whatever style comes it will
+
+28:44.240 --> 28:49.240
+apply but what if there is a inline style already defined for the H1 let's
+
+28:49.240 --> 29:02.920
+say style color it's red is given and there is some content okay but I want
+
+29:02.920 --> 29:07.480
+this particular thing not to be applied but I want something else to override
+
+29:07.480 --> 29:12.840
+this one I mean there is where this is place this is a place where we talk
+
+29:12.840 --> 29:19.040
+about specific like can we override and specifically say that I want a
+
+29:19.040 --> 29:25.240
+different style because when you go for a larger projects right there are too
+
+29:25.240 --> 29:30.200
+many files or too many things that you will be reusing them and building them
+
+29:30.200 --> 29:35.640
+okay it places let's say you define a one button and you will be reusing that
+
+29:35.640 --> 29:40.280
+button again and again but if you but that button color will be different at
+
+29:40.280 --> 29:45.560
+every place you have to override it but if someone when they define that button
+
+29:45.560 --> 29:50.280
+they gave some inline style how would you override that button color how can
+
+29:50.280 --> 29:55.520
+you say that specific like whatever the user story is does it doesn't matter
+
+29:55.520 --> 29:59.600
+like our prime minister say something that's final he overrides everything
+
+29:59.600 --> 30:06.440
+whatever is there doesn't matter right so that's how like how can you do it
+
+30:06.440 --> 30:11.280
+specifically does anyone know how can you apply a specific okay Dheera says
+
+30:11.280 --> 30:20.920
+not important keyword great okay no okay so if you see here what just happened
+
+30:20.920 --> 30:26.880
+let me undo this one I'll put it this style block again onto the top just for
+
+30:26.880 --> 30:33.800
+following this order that's look good ID class no all those things won't work
+
+30:33.800 --> 30:37.920
+guys if you want to be specific you want to be updating let's say this is blue in
+
+30:37.920 --> 30:44.440
+color span if I give something keyword like not important if I keep this keyword
+
+30:44.440 --> 30:53.000
+not important do you see this blue style tag is also you know been overridden
+
+30:54.000 --> 31:01.920
+do you say this this is like high command order you can say like how high
+
+31:01.920 --> 31:06.040
+command does you know they gave this time how many of you watch that seller
+
+31:06.040 --> 31:12.240
+like if they have stamp they don't stop right same thing this is a stamp of the
+
+31:12.240 --> 31:20.600
+CSS that this will be applied at any cost if you go and see yeah I grown up
+
+31:20.600 --> 31:29.800
+in Hyderabad so if you go and see here many times right if you go and yeah I'll
+
+31:29.800 --> 31:34.600
+come back to that guys if you go and explore like any website you will be
+
+31:34.600 --> 31:41.640
+able to see somewhere like not important being used at many places okay let me
+
+31:41.640 --> 31:47.360
+explore one by one but generally whenever you want to override anything
+
+31:47.360 --> 31:51.920
+you want to make it a specific doesn't matter what is the order what is
+
+31:51.920 --> 31:58.040
+everything priority I don't care about priority I don't care about priority
+
+31:58.040 --> 32:03.880
+whatever it can be but I want a specific style to be applied to this particular
+
+32:03.880 --> 32:09.120
+element or this class or the ID whatever it can be any selector that you have
+
+32:09.120 --> 32:14.520
+but if you want to apply any particular color to element for surely if you want
+
+32:14.600 --> 32:19.800
+override it then you can use something called as not important and this is like
+
+32:19.800 --> 32:24.080
+until unless you don't have a other way you're not supposed to use not
+
+32:24.080 --> 32:31.480
+important because you will get you'll be flagged in your peers
+
+32:35.000 --> 32:43.720
+but why we use keyword like it's like yeah Kabir you can say that the way I
+
+32:43.760 --> 32:48.520
+remember is hey it's important whenever you say exclamatory mark you say that in
+
+32:48.520 --> 32:54.520
+an action of you know amazed or shocked or like trying to stress how important
+
+32:54.520 --> 33:00.000
+it is so that's how this works like when to use external libraries and want to
+
+33:00.000 --> 33:07.200
+override their styles yeah right right something so company to get that point
+
+33:07.200 --> 33:12.200
+like the just it says that hey it's like actually reverse order the way you can
+
+33:12.400 --> 33:21.440
+remember is this way something that I relate is this way at least but that's
+
+33:21.440 --> 33:27.000
+how syntax they have given like this one are able to relate like it's
+
+33:27.000 --> 33:41.080
+important apply this okay so it's in reverse direction so guys I hope the
+
+33:41.120 --> 33:47.520
+order of priority was a specific you are clear on this part like how does we
+
+33:47.520 --> 33:52.200
+because we have already discussed like inline get highest priority then goes
+
+33:52.200 --> 33:57.280
+with the flow from top to bottom if we when you use internal external doesn't
+
+33:57.280 --> 34:02.880
+matter whatever comes later that will be overriding it isn't it but when it when
+
+34:02.880 --> 34:08.200
+you wanted something to be specific you have to use this important keyword okay
+
+34:08.200 --> 34:15.160
+so moving ahead guys moving ahead I'll take another example I want you I want
+
+34:15.160 --> 34:24.800
+us some I will introduce some difficulty here this think of this one let me do
+
+34:24.800 --> 34:32.240
+one thing I'll copy the example since it's a specific example simple example
+
+34:32.400 --> 34:41.160
+let's say I have something called as this one okay an unordered list simple
+
+34:41.160 --> 34:48.920
+unordered list where we are having three things apple mango and orange nothing
+
+34:48.920 --> 34:56.440
+new right now I'll apply some styles to it okay well let me close this first I
+
+34:56.440 --> 35:01.040
+don't want to show which thing will be applied and which not okay firstly what
+
+35:01.080 --> 35:09.680
+I'll do is that I'll say that Li tag all the Li tags will have color red okay till
+
+35:09.680 --> 35:14.840
+here there is no match I say that Li all the Li tags will have a red in color so
+
+35:14.840 --> 35:21.520
+apple mango orange should be red in color but let's say now again I define
+
+35:21.520 --> 35:33.520
+Li tag and I say color to be blue once I do it again so since we have just
+
+35:33.520 --> 35:38.760
+discussed about cascading this Li will be overridden now all the things will be
+
+35:38.760 --> 35:44.000
+converted into blue that is what we know but let's say if I make something like
+
+35:44.000 --> 35:52.440
+this way let's say UL hashtag fruits so what I'm saying
+
+35:54.600 --> 36:03.760
+select a UL tag which is having ID as a fruit okay then I'm saying select Li
+
+36:03.760 --> 36:07.960
+having a class as favorite
+
+36:07.960 --> 36:23.240
+okay then I'm giving some color as red okay then again again what I'm doing is
+
+36:23.240 --> 36:36.800
+like I'm selecting UL hashtag fruits and I'm giving color as just think of it
+
+36:37.000 --> 36:43.920
+take two minutes of your time think of it what color should be applied for
+
+36:43.920 --> 36:48.120
+apple what color should apply for mango what color should apply for the orange
+
+36:48.120 --> 36:52.760
+for the current knowledge that we have from the knowledge current knowledge we
+
+36:52.760 --> 36:57.280
+have just think of it like what what can be applied just write it on some with
+
+36:57.280 --> 37:01.920
+apple hyphen a mango hyphen orange hyphen that would be better for me to
+
+37:01.920 --> 37:14.880
+you know take the mango goes for red okay okay let me write down here let me
+
+37:14.880 --> 37:25.200
+give a comment here mangoes mango says red then I got answers as apple and
+
+37:25.200 --> 37:33.920
+orange blue okay how many of you are agreeing with this one guys apple and
+
+37:33.920 --> 37:46.480
+orange will have blue and mango goes with right okay let's let's explore this
+
+37:47.480 --> 37:56.000
+yeah so if you see apple and orange are blue mango goes for it that's easy now
+
+37:56.000 --> 38:01.080
+what if I make this one green
+
+38:02.800 --> 38:10.680
+and let's say I make this one yellow I'm still not changing a class for mango
+
+38:10.680 --> 38:17.360
+just think in terms of apple and orange
+
+38:25.320 --> 38:33.400
+think of what would be the apple and orange apple will be apple and orange
+
+38:33.400 --> 38:39.200
+yellow mango red okay cool so
+
+38:39.760 --> 38:50.400
+yeah cool thank you guys so I hope you are able to relate with this one but
+
+38:50.400 --> 38:57.240
+coming back to the right question let's say this I'll make it as a blue do you
+
+38:57.240 --> 39:03.680
+see here do you see here difference between this anything here because if
+
+39:03.680 --> 39:08.920
+you see here if we talk about cascading right if we talk about cascading first I
+
+39:08.920 --> 39:15.280
+said all the light act should be in red right firstly how many of you are able
+
+39:15.280 --> 39:20.600
+to understand logic clearly is there anyone who is still having you know
+
+39:20.600 --> 39:29.840
+problem and figuring out this one okay now I just want to talk about these two
+
+39:29.840 --> 39:36.280
+things here you say that you this one you will ally fruits both things are
+
+39:36.280 --> 39:42.120
+common then you have ally and favorite you made it mango but you came back
+
+39:42.120 --> 39:48.640
+again you said hey override all the ally tags inside the you will fruit by this
+
+39:48.640 --> 39:53.560
+condition it should have been converted into all into this color right whatever
+
+39:53.560 --> 40:00.680
+the green is being applied but that is not getting applied here did anyone have
+
+40:00.680 --> 40:03.160
+this question
+
+40:08.720 --> 40:13.720
+right so if you think from cascading perspective this is not following the
+
+40:13.720 --> 40:20.320
+order there is something magic is happening firstly what happened behind
+
+40:20.320 --> 40:25.440
+the scenes let's understand what happens behind the scenes okay whenever you have
+
+40:25.440 --> 40:30.120
+one element let's say these are the one common elements and for this common
+
+40:30.120 --> 40:36.600
+elements you kept you know keep providing a different isostyle using
+
+40:36.600 --> 40:40.160
+different types of element selectors or different things but you kept applying
+
+40:40.160 --> 40:44.320
+for those always you're trying to point at the ally here we are pointing ally
+
+40:44.320 --> 40:48.560
+here you are pointing ally you are pointing ally here again a lie right you
+
+40:48.560 --> 40:52.200
+kept trying to override again and again so when you are trying to do it this
+
+40:52.200 --> 40:56.480
+way right there is something that happens here that's that is what while
+
+40:56.480 --> 41:02.560
+resolving conflicts behind the scenes there is a tree called CISCOM is built
+
+41:02.560 --> 41:07.680
+will come to that CISCOM tree in future but while it is built while it is trying
+
+41:07.680 --> 41:11.480
+to resolve the conflicts and trying to say that which color should be applied
+
+41:11.480 --> 41:18.040
+it follows some one rule specific rule called as a specificity rule now if I go
+
+41:18.040 --> 41:23.080
+and hover over here can you see the something called a selector specificity
+
+41:23.080 --> 41:35.080
+102 can you see this 102 and if I if I go up if I go up and apply here can you
+
+41:35.080 --> 41:47.680
+see here what it is 1 1 2 ok now let's say I write down specificity here ok so
+
+41:47.680 --> 41:55.080
+here specificity was something like 1 1 2 but when it comes to here let's say I
+
+41:55.080 --> 42:03.280
+it was 102 now let's figure out where this is coming from where this is
+
+42:03.280 --> 42:08.680
+coming from ok let's understand the specificity
+
+42:09.280 --> 42:21.400
+ok we'll resolve all these doubts let me take this ok let's take that same
+
+42:21.400 --> 42:28.560
+example ok what what was the selector what was the exact selector that we had
+
+42:28.560 --> 42:34.920
+let's say I write down in the iPad I'll share back guys I have you will
+
+42:34.920 --> 42:44.480
+Hashtag fruits Li now I want you to help me out with the what type of
+
+42:44.480 --> 42:48.960
+selectors we have here firstly I want you to help me out with the type of
+
+42:48.960 --> 42:57.760
+selectors we have here and number of selectors we have yes come on quick
+
+42:57.760 --> 43:03.600
+what type of selectors we have here and how many selectors we have here inside
+
+43:03.600 --> 43:12.720
+those types let's say what this you will and Eli is just think of this one what
+
+43:12.720 --> 43:15.920
+is you will analyze
+
+43:16.640 --> 43:24.360
+element right these are element I hope everyone have a better idea on this
+
+43:24.360 --> 43:29.760
+this is element selector because they are directly HTML elements then what
+
+43:29.760 --> 43:38.880
+type of selector is this ID right no if you see when I wrote down
+
+43:38.880 --> 43:48.800
+specificity here now we have two elements and 180 this is what we told
+
+43:48.800 --> 43:55.080
+now if you go here I have written something called as 102 ok let me say I
+
+43:55.120 --> 44:02.520
+again write down 102 are you able to relate anything here what 102 is
+
+44:02.520 --> 44:05.120
+standing for
+
+44:09.520 --> 44:19.560
+what 102 is standing for guys right so when we say I'd one is something called
+
+44:20.280 --> 44:25.560
+then zero is standing for class there are no class then two is standing for
+
+44:25.560 --> 44:33.080
+elements let's do that same mathematical you know this one calculation on this
+
+44:33.080 --> 44:43.560
+time something called as you will hashtag fruits and Li and favorite
+
+44:44.560 --> 44:51.840
+let's do it for this one guys so how many again how many element selectors
+
+44:51.840 --> 44:57.160
+you have how many element selectors you have in this example to what are those
+
+44:57.160 --> 45:06.960
+you will and Eli again how many ID selectors you have one how many class
+
+45:06.960 --> 45:12.880
+selector you have again one which is start favorite right that that is the
+
+45:12.880 --> 45:20.480
+reason why you get this 112 which is ID then you have a class then you have
+
+45:20.480 --> 45:31.320
+element okay so it went this calculation it went had with this calculation even
+
+45:31.320 --> 45:38.400
+though cascading was being applied here it calculated specificity rule it
+
+45:38.400 --> 45:43.560
+applies if you go and highlight the Li right if for everything for each and
+
+45:43.560 --> 45:48.080
+every tag or which and every element whatever you do the specificity rule
+
+45:48.080 --> 45:53.200
+applies for resolving the conflicts behind the scenes okay so when it went
+
+45:53.200 --> 45:59.760
+ahead and tried it's it saw that the specificity is 112 and here the like
+
+45:59.760 --> 46:03.560
+whatever we are when we are overriding through cascading it saw the specificity
+
+46:04.120 --> 46:11.840
+is 102 now 112 is greater than 102 right isn't it you guys agree with this
+
+46:11.840 --> 46:17.000
+pointedness that's the reason that's the reason though this particular mango is
+
+46:17.000 --> 46:23.720
+being overridden but for that red was you know playing yeah not exactly
+
+46:23.720 --> 46:28.000
+addition I'll come to that teacher but generally I'm trying to specify no I'll
+
+46:28.000 --> 46:32.520
+come to that exact point but I'm just trying to explain why that red color
+
+46:32.520 --> 46:38.560
+came in because the specificity of this particular color in red is higher than
+
+46:38.560 --> 46:43.080
+compared to this one is this point clear like how why this kind of why this color
+
+46:43.080 --> 46:47.960
+is being uploaded at least till now will come to specificity again anyone having
+
+46:47.960 --> 46:50.840
+any challenge till now
+
+46:50.840 --> 47:03.640
+okay great let's let's go and explore like it pointing to a specific path I'll
+
+47:03.640 --> 47:06.920
+try to explain that Kishore then let's let's try to re-understand your point
+
+47:06.920 --> 47:13.200
+okay now so what specificity says is that it has a generally four positions
+
+47:13.200 --> 47:22.920
+okay let's say box one box two box three box four okay one two three four
+
+47:22.920 --> 47:30.000
+now one first box goes further something called as thousands position and this
+
+47:30.000 --> 47:41.240
+position is always applied for style or you can say in line style second
+
+47:41.240 --> 47:49.440
+question which is called hundreds position is applied for ID okay hashtag
+
+47:49.440 --> 47:57.840
+then third question goes for 10 which is goes for class then there is something
+
+47:57.840 --> 48:09.960
+called once position which is applied for element selector okay what do we
+
+48:09.960 --> 48:15.480
+exactly meant by this is whenever you are trying to apply anything like CSS
+
+48:15.480 --> 48:19.960
+always specificity is calculated now if you see whenever we are seeing we are
+
+48:19.960 --> 48:26.520
+seeing only in terms of this tree okay whenever we are seeing like two three
+
+48:26.520 --> 48:30.500
+four we are only seeing for three things ID class and element because in line is
+
+48:30.500 --> 48:35.440
+defined separately if you have by default anything like in line thousand is
+
+48:35.440 --> 48:39.480
+always going to be greater than any anything that you define in the style
+
+48:39.480 --> 48:45.240
+block or external styles are you able to relate now why in line style is give
+
+48:45.240 --> 48:53.080
+gets more preferred so this is a logical explanation why in line gets priority
+
+48:53.080 --> 48:57.280
+because there is while resolving conflict in specificity rule in line
+
+48:57.280 --> 49:02.240
+style wherever you define a style block that's the for that thing specificity
+
+49:03.080 --> 49:14.280
+let's go and see here in the example that we had okay this one here it didn't
+
+49:14.280 --> 49:22.560
+apply I guess but here it starts highlighting but that's how it works in
+
+49:22.560 --> 49:28.840
+line is always standing in thousands position okay now if you see this example
+
+49:28.840 --> 49:34.920
+that we had if you see this example that we had the other example we had one
+
+49:34.920 --> 49:41.000
+one two and then we had something like one zero two now even if I do this
+
+49:41.000 --> 49:47.280
+calculation let's say one into ID being thousand hundred plus one into ten plus
+
+49:47.280 --> 49:52.800
+one into one right I'll get something like one eleven but if I go and do a
+
+49:52.800 --> 50:01.880
+calculation for this one I'll get one into hundred the zero into ten plus two
+
+50:01.880 --> 50:07.640
+into one it's giving me one or two so one to well is always greater than one
+
+50:07.640 --> 50:16.640
+zero two that's a reason why mango was applied red in color I able to get no
+
+50:16.640 --> 50:22.560
+better understanding why that color is applied how it is calculated how why
+
+50:22.560 --> 50:27.080
+like the styles are overriding or how it get resolved and why we say that in
+
+50:27.080 --> 50:34.240
+line will have a highest priority compared to any other thing right so
+
+50:34.240 --> 50:38.760
+generally while specificities this is how it is applied so I have some of the
+
+50:38.760 --> 50:44.640
+you know exercises for you in order to try it out and explain it okay so let's
+
+50:44.640 --> 50:49.200
+say I'll give you a five minutes let's take this example guys let's let's see
+
+50:49.200 --> 50:55.880
+if you are able to solve this one let's say I have something called as test
+
+50:55.880 --> 51:04.240
+thank you copy and then you have something called as h1 dot test then
+
+51:04.240 --> 51:09.000
+something you called you have something called as try giving a really basic
+
+51:09.000 --> 51:13.800
+example guys I hope you will be able to solve then I have something called h2 so
+
+51:13.800 --> 51:20.320
+give me something here you know in the ascending order ascending order is
+
+51:20.320 --> 51:25.840
+something like this if someone has problem no arrange this in the
+
+51:25.840 --> 51:31.960
+specificity order take your time if anyone don't have notes or anything try
+
+51:31.960 --> 51:36.720
+to calculate it let's let's just put those four boxes and try to calculate
+
+51:36.720 --> 51:43.280
+each specificity and then try to figure out so that this is an exercise where
+
+51:43.280 --> 51:47.680
+you'll get more confident about specificity
+
+51:55.720 --> 52:03.240
+I'll wait for two minutes guys take your time until unless I get an answers so
+
+52:03.280 --> 52:13.720
+Muneeshwar has suggested one answer Muneeshwar I just needed in ascending order
+
+52:13.720 --> 52:33.440
+okay let's say Dheeraj is saying h2 then test then h1 dot test then hashtag
+
+52:33.440 --> 52:42.440
+try and Muneeshwar like let's say if I count this way right three four now he's
+
+52:42.440 --> 52:54.120
+saying that three is like hashtag try is less than h1 dot test three two then
+
+52:54.120 --> 53:07.480
+one is dot test then four h2 yeah okay Muneeshwar let's say I again I would say
+
+53:07.600 --> 53:14.040
+your answer and Dheeraj answer is same so I'll take it both so I got two options
+
+53:14.040 --> 53:18.840
+guys so let's say this is option one this is option two this is for thumbs
+
+53:18.840 --> 53:26.880
+up this is for thumbs down go and press it gets whichever you believe it is
+
+53:26.880 --> 53:36.160
+right okay I see more of a thumbs up cool no worries so but I hope everyone
+
+53:36.320 --> 53:47.760
+is able to relate this both are same now how come not same you sure I'm saying
+
+53:47.760 --> 53:53.800
+h2 is greater I think it's they gave it a Vigneshwar has written in reverse
+
+53:53.800 --> 54:02.760
+order but I would expect him also like have done it right okay Kabir go ahead
+
+54:06.680 --> 54:11.260
+you type it down meanwhile what we'll do is like we'll write down specificity for
+
+54:11.260 --> 54:18.560
+each one yes what would be specificity for this one dot test let's give
+
+54:18.560 --> 54:23.400
+let's write down you know specificity for this one dot test give me in like
+
+54:23.400 --> 54:32.160
+this way it is zero in line style 0 ID then I have one class then I have zero
+
+54:32.160 --> 54:40.560
+element now let's go for dot test and try no not exactly no no Kabir it won't
+
+54:40.560 --> 54:50.080
+be for dot test zero in line style zero ID H1 goes for element so we have one
+
+54:50.080 --> 54:57.880
+then dot test go for class I have this one then I go for try have this one then
+
+54:57.880 --> 55:08.080
+h2 0 0 0 1 okay coming to answer your question if I say dot test and dot try
+
+55:08.080 --> 55:17.080
+hashtag try see try goes into the hundred question hundred and this is
+
+55:17.080 --> 55:25.200
+ten so try will be always will be having more priority compared than dot test
+
+55:27.920 --> 55:35.880
+is that clear yeah I'll share this one okay if you didn't note this
+
+55:42.080 --> 55:47.680
+okay so I guess guys hope you got to understand this one then you get you
+
+55:47.680 --> 55:51.800
+calculate it this is what the right order is I think Vigneshwar has also
+
+55:51.800 --> 55:56.080
+written rightly but he might have messed up in the ascending and descending order
+
+55:56.080 --> 56:06.160
+but that's also confused okay where hey how many of you have got clarity or is
+
+56:06.160 --> 56:12.000
+anyone confused case if you are confused can you give me thumb down if anyone is
+
+56:12.000 --> 56:20.320
+confused before confused not okay great so I hope everyone is feeling good on
+
+56:20.360 --> 56:29.720
+this topic like specificity would be clear now so I would expect priority and
+
+56:29.720 --> 56:41.280
+specific specific is something like going with not important and priority is
+
+56:41.280 --> 56:46.520
+always something according to specificity calculation
+
+56:50.320 --> 57:05.320
+okay and you can remember always this has a style then ID then class then
+
+57:05.320 --> 57:17.040
+element this is the order like thousand hundred ten and one okay I hope now you
+
+57:17.080 --> 57:21.240
+will be able to you know even if there you know sometime your CSS is not
+
+57:21.240 --> 57:23.880
+applying though you have written right you will be able to relate with this
+
+57:23.880 --> 57:37.520
+one cool guys so moving it to the next topic now is this one common topic which
+
+57:37.520 --> 57:43.000
+jumps into most of the languages I thought like when I was start learning
+
+57:43.000 --> 57:47.560
+initially right this topic wouldn't be there because firstly in my college when
+
+57:47.560 --> 57:52.320
+I was in college I learned firstly Java like mainly people start with Java or C
+
+57:52.320 --> 57:56.320
+plus was there you there you have object oriented programming isn't it and there's
+
+57:56.320 --> 58:01.200
+one topic commonly in every object oriented programming right there's
+
+58:01.200 --> 58:08.720
+something called as inheritance right everyone might have gone through the
+
+58:09.560 --> 58:14.800
+inheritance topic it's someone new to programming language that's fine but I
+
+58:14.800 --> 58:20.480
+thought this is specific to oops I am programming languages but turned out to
+
+58:20.480 --> 58:27.440
+this one it present in CSS also no worries uncle no worries so that's a
+
+58:27.440 --> 58:32.760
+something we have to we're going to start now inheritance topic itself but
+
+58:32.800 --> 58:38.800
+let's start with basic guys basic like when I say literally yeah there's
+
+58:38.800 --> 58:45.320
+something everything turned into blue do you feel that guys everything turned
+
+58:45.320 --> 58:52.760
+into blue I mean it's happening everything in my system too much
+
+58:52.760 --> 59:04.040
+technical issues no worries wear glasses I will highlight this one also I'll take
+
+59:04.040 --> 59:08.680
+a screenshot that suddenly turned into blue
+
+59:12.200 --> 59:20.840
+cool okay notice so yes let's let's get back to this one inheritance what would
+
+59:20.880 --> 59:24.880
+be something like in general term like what would be the inheritance would be
+
+59:24.880 --> 59:29.840
+where you might can where you can relate this property inheritance in general
+
+59:29.840 --> 59:34.280
+terms you might be hearing at home and someone for not particularly from
+
+59:34.280 --> 59:38.080
+computer science also might have gone through this word acquire property of
+
+59:38.080 --> 59:40.480
+parents
+
+59:40.480 --> 59:56.840
+right property or you can say ancestral property that you are getting by default
+
+59:56.840 --> 01:00:08.440
+so whenever your children generational wealth hierarchy right so we'll learn
+
+01:00:08.480 --> 01:00:14.920
+this topic again in JS also JavaScript oops okay JavaScript oops but let's
+
+01:00:14.920 --> 01:00:21.360
+understand in terms of like how in CSS works okay no let's go and start with
+
+01:00:21.360 --> 01:00:26.080
+examples because examples will drive you to understand in a better way let's go
+
+01:00:26.080 --> 01:00:35.560
+there and open I have a list of set of examples that we'll be exploring it let
+
+01:00:35.560 --> 01:00:46.720
+me make a folder here firstly specie okay I'll push this files inside this
+
+01:00:50.400 --> 01:00:57.920
+then I make a new folder called as inheritance as I'm trying to maintain
+
+01:00:57.920 --> 01:01:03.920
+this repo I hope you utilize this repo well for revision and practice purposes
+
+01:01:04.120 --> 01:01:18.400
+okay let's say index one dot HTML HTML 5 then let's say I pull up first example
+
+01:01:18.400 --> 01:01:21.640
+that I want to show you
+
+01:01:26.120 --> 01:01:33.560
+no let's take this example guys you just told me parent properties by default you
+
+01:01:34.400 --> 01:01:41.560
+get to the children and everything right now if you see what I've done there's
+
+01:01:41.560 --> 01:01:47.040
+something parent if and there are something like children to it I've gave
+
+01:01:47.040 --> 01:01:54.400
+parent some color right do you think children also should get that color
+
+01:01:54.760 --> 01:02:04.600
+right we have seen this example already and we can say that yeah children should
+
+01:02:04.600 --> 01:02:10.160
+have got this color isn't it so that's where by default this is a first step
+
+01:02:10.160 --> 01:02:14.360
+where you can actually see that inheritance is applied okay this is
+
+01:02:14.360 --> 01:02:19.720
+where the concept comes something like parent is having yeah by default
+
+01:02:19.920 --> 01:02:25.960
+whatever parents is having children also get that property okay this example is
+
+01:02:25.960 --> 01:02:31.520
+clear right I think no one would have any doubt in this basic one now let's
+
+01:02:31.520 --> 01:02:34.680
+go and pick the other one
+
+01:02:49.840 --> 01:02:55.240
+no let me open in the preview
+
+01:02:56.400 --> 01:03:06.760
+no let's come and see this case if you see there is something like parent
+
+01:03:06.760 --> 01:03:15.280
+today one if you go and see the day one color is red okay by default every child
+
+01:03:15.320 --> 01:03:20.760
+in it let's say if I collapse this one okay there are the two child
+
+01:03:20.760 --> 01:03:27.800
+specifically child one and child two okay so whatever parent by default
+
+01:03:27.800 --> 01:03:34.080
+parent has it should go for every child isn't it that's what we try to
+
+01:03:34.080 --> 01:03:43.320
+understand from the example one but now in the second example we try to see this
+
+01:03:43.320 --> 01:03:48.880
+one that it second child also has a grandchild like I mean to say it has
+
+01:03:48.880 --> 01:03:54.200
+its own respective chain and what we have done this the child one has having
+
+01:03:54.200 --> 01:04:01.560
+a color green now it took it from like the this particular child the innermost
+
+01:04:01.560 --> 01:04:06.880
+child took exam like color from this particular child everyone is everyone
+
+01:04:06.880 --> 01:04:10.640
+able to relate this example that whatever I say what I'm trying to say is
+
+01:04:10.640 --> 01:04:16.640
+that whenever you are going from this like you know spanning out whenever
+
+01:04:16.640 --> 01:04:20.640
+you are spanning out from your current element you try to check for the each
+
+01:04:20.640 --> 01:04:25.080
+parent whenever you go and try to check the first immediate parent if this but
+
+01:04:25.080 --> 01:04:29.280
+that particular thing is having some color it will inherit from their
+
+01:04:29.280 --> 01:04:34.520
+particular part it won't go to the till extent okay yeah so what I'm saying is
+
+01:04:34.520 --> 01:04:48.160
+that let's say let's say there is a one grandparent okay he's carrying something
+
+01:04:48.160 --> 01:04:57.200
+red color then there are two two child let's say this is a child one this is a
+
+01:04:57.200 --> 01:05:06.440
+child by default this child one child two should be getting red but we said
+
+01:05:06.440 --> 01:05:12.560
+that red C1 will have respect green color we just told this inside this C1
+
+01:05:12.560 --> 01:05:20.720
+again there is a child call C1 dot C1 let's say this one now C1 even doesn't
+
+01:05:20.720 --> 01:05:25.880
+have any property color so it goes and check with its parents do you have
+
+01:05:25.880 --> 01:05:32.400
+anything now if we go and check here C1 has something green so this person will
+
+01:05:32.400 --> 01:05:41.880
+take green and it will settle but it won't go and reach out grandparent yeah
+
+01:05:41.880 --> 01:05:47.200
+child inherits a immediate parent try immediate parent is like not exactly
+
+01:05:47.200 --> 01:05:51.360
+until unless if there is a something let's say what if it doesn't see one
+
+01:05:51.360 --> 01:05:55.680
+doesn't have any color then it will go and check for the GP right so till that
+
+01:05:55.680 --> 01:06:00.320
+property is found till till that property is found it will span out from
+
+01:06:00.320 --> 01:06:07.880
+lower level to the top levels okay I hope this this this particular thing is
+
+01:06:07.880 --> 01:06:20.480
+clear guys this example okay so now let's take an example of now this one
+
+01:06:20.480 --> 01:06:29.040
+thing what if do you think if I have something like border if I have
+
+01:06:29.040 --> 01:06:35.960
+something like border let's say I have something like border here one pixel
+
+01:06:35.960 --> 01:06:45.400
+solid black do you see if border is being inherited by the other children
+
+01:06:46.400 --> 01:06:54.040
+but does does child have border like we told parent have border by default
+
+01:06:54.040 --> 01:06:59.640
+children are not having it right so there is a particular section of
+
+01:06:59.640 --> 01:07:05.000
+properties which are by default inherited okay by default inherited what
+
+01:07:05.000 --> 01:07:09.920
+all properties are there which can be by default inherited are one is for color
+
+01:07:09.920 --> 01:07:18.440
+color is for sure okay this is not working let's say
+
+01:07:20.280 --> 01:07:27.400
+color is for sure that is inherited also the properties with whatever font you
+
+01:07:27.400 --> 01:07:32.520
+have something like font let's say if I give a font in the parent and I say
+
+01:07:32.520 --> 01:07:38.720
+that font size I say 20 pixel do you say everything is being applied
+
+01:07:40.000 --> 01:07:46.840
+so everything starts with font is inherited whereas properties with
+
+01:07:46.840 --> 01:07:53.960
+something like you know border all like you can say box model properties okay
+
+01:07:53.960 --> 01:07:58.520
+box model properties or display properties whichever are trying to help
+
+01:07:58.520 --> 01:08:04.040
+you to enhance a particular thing right I mean changes view wise those
+
+01:08:04.040 --> 01:08:08.560
+properties like position properties these properties are not doesn't work in
+
+01:08:08.600 --> 01:08:13.800
+inheritance this point is clear like there are some set of properties works
+
+01:08:13.800 --> 01:08:17.200
+for the inheritance there are some set of property doesn't work imagine if
+
+01:08:17.200 --> 01:08:20.960
+border is working as inheritance each every element will be having border
+
+01:08:20.960 --> 01:08:26.480
+that doesn't suit it right so that's how they built it now let's go and try to
+
+01:08:26.480 --> 01:08:29.920
+explore the third example
+
+01:08:29.920 --> 01:08:32.240
+let's say I have this
+
+01:08:39.280 --> 01:08:47.000
+now let's explore this one guys if you see just now I have towards that border
+
+01:08:47.000 --> 01:08:55.200
+once one px value blue do you think the child will have do you think child will
+
+01:08:56.200 --> 01:09:03.960
+do you think child will have that border no right now and do you think child will
+
+01:09:03.960 --> 01:09:13.200
+have color red do you think child will have color red yes right now then I have
+
+01:09:13.200 --> 01:09:19.680
+used some property here called height has inherit let's say what if I comment
+
+01:09:19.680 --> 01:09:26.760
+this firstly let's comment this if you say it is rendered as needed but there
+
+01:09:26.760 --> 01:09:32.720
+are some properties yeah there are some properties with which you can inherit
+
+01:09:32.720 --> 01:09:39.240
+forcefully there are some properties like let's say your grandfather properties
+
+01:09:39.240 --> 01:09:43.680
+are there you want to inherit or there is someone else who want to claim those
+
+01:09:43.680 --> 01:09:49.360
+properties they can they have an ability according to rule of law let's say and
+
+01:09:49.400 --> 01:09:55.640
+for non-inheritable properties like the height is non-inheritable property but
+
+01:09:55.640 --> 01:10:00.880
+we are trying to inherit for this child if you see when I've gave 100 pixel as
+
+01:10:00.880 --> 01:10:06.860
+a height for the day one parent box is having 100 pixel let's say if I give the
+
+01:10:06.860 --> 01:10:17.060
+background color so I give a background color of wheat if you see this
+
+01:10:17.060 --> 01:10:22.980
+particular parent is having 100 pixel but children are not having rate is this
+
+01:10:22.980 --> 01:10:26.540
+point clear firstly parent is having height and children are not having height
+
+01:10:26.540 --> 01:10:31.060
+because it is non-inheritable but what I am saying is that I am using a
+
+01:10:31.060 --> 01:10:36.140
+something like keyword height keyword height and I'm saying that inherit
+
+01:10:36.140 --> 01:10:41.300
+whenever I'm inheriting it again goes like a color itself it goes to the
+
+01:10:41.300 --> 01:10:44.980
+immediate parent then next parent and it sees that whether there is a height
+
+01:10:44.980 --> 01:10:48.740
+property if there's height property please share it with me I want to
+
+01:10:48.740 --> 01:10:55.180
+inherit please share it with me so here this particular child Dave one child is
+
+01:10:55.180 --> 01:11:00.380
+having hundred pixel height let's say if I want to show you that height exists I
+
+01:11:00.380 --> 01:11:10.460
+use something like let's say this one can you see this this child one starting
+
+01:11:10.460 --> 01:11:14.900
+from here is having same hundred pixel height it's taking hundred pixel height
+
+01:11:14.900 --> 01:11:20.100
+as parent there so if you want forcefully if you want to inherit a
+
+01:11:20.100 --> 01:11:26.380
+property from a parent you can use a height and a property called inherit so
+
+01:11:26.380 --> 01:11:30.900
+whenever you are going to a like there are some like let's say I write down the
+
+01:11:30.900 --> 01:11:40.780
+definition here using inherit you can
+
+01:11:42.260 --> 01:11:52.700
+get parent values for particular property
+
+01:11:52.700 --> 01:12:02.740
+is that clear guys like how this is working inherit one anyone having any
+
+01:12:02.740 --> 01:12:11.740
+challenge please please react did you all get it I see three thumbs down cool
+
+01:12:11.740 --> 01:12:18.660
+notice now let's say going back to that
+
+01:12:21.900 --> 01:12:39.300
+so height is a one diff I have given this diff as height hundred and height
+
+01:12:39.340 --> 01:12:44.500
+is not inherited because I have added inside diff some content XYZ inside that
+
+01:12:44.500 --> 01:12:54.100
+I have two children this has C1 and C2 by default since height 100 is not
+
+01:12:54.100 --> 01:12:59.300
+applicable it just took inside the content wherever contains it just got
+
+01:12:59.300 --> 01:13:04.940
+side on side of it itself what if I want the C1 to take the same height as a
+
+01:13:04.940 --> 01:13:13.860
+parent I can say height and inherit whenever I say inherit it will go and
+
+01:13:13.860 --> 01:13:18.700
+check with parent do you have height property applied to it if you have height
+
+01:13:18.700 --> 01:13:23.820
+property can you give me that value as soon as it get its value it will take
+
+01:13:23.820 --> 01:13:29.860
+that hundred pixel height starting from here it will consume hundred pixel then
+
+01:13:29.860 --> 01:13:35.940
+something like this box will change as this parent content then child one will
+
+01:13:35.940 --> 01:13:43.020
+have hundred pixel of height this is C1 this is P then under below this then you
+
+01:13:43.020 --> 01:13:50.100
+will have something like C2 because that's what an order it is this is clear
+
+01:13:50.260 --> 01:14:06.300
+okay this parent has a child yeah child one content is like top aligned right if
+
+01:14:06.300 --> 01:14:17.740
+you want it to move below then you can apply display flex and yeah I think I
+
+01:14:17.780 --> 01:14:24.820
+am Kabir pinged me personally then he corrected it did you get that Sambit I
+
+01:14:24.820 --> 01:14:33.700
+hope this example is clear to you all like how you can use inherit okay then I
+
+01:14:33.860 --> 01:14:43.980
+have another example let's say I go and
+
+01:14:45.220 --> 01:14:49.700
+index 4 dot HTM
+
+01:14:49.700 --> 01:15:06.460
+say when in the preview now if you see this guys we have created a simple day
+
+01:15:06.460 --> 01:15:13.820
+for the content hello and we added background color and color red okay now
+
+01:15:13.860 --> 01:15:21.300
+it's working fine but let's say if I go and create another day I'm having some
+
+01:15:21.300 --> 01:15:25.620
+gibberish by default a black color is applied where this black color is coming
+
+01:15:25.620 --> 01:15:41.500
+from why not any other color so by default whenever your CSS are loaded or
+
+01:15:41.540 --> 01:15:46.740
+anything that you use it has a some default colors and default CSS are added
+
+01:15:46.740 --> 01:15:51.460
+to each and every to remember something like this border and margin is not
+
+01:15:51.460 --> 01:15:55.820
+removed like because body is having something if you go and do something
+
+01:15:55.820 --> 01:16:05.300
+like body padding zero and margin zero
+
+01:16:05.300 --> 01:16:10.740
+do you remember this body tag is by default coming and that's how for each
+
+01:16:10.740 --> 01:16:14.700
+and every content that you write it or each and everything you do it yeah
+
+01:16:14.700 --> 01:16:20.660
+yeah universal selector you can apply it for everything that's how else it will
+
+01:16:20.660 --> 01:16:26.660
+work but now what I was talking about is that if you see this content it's
+
+01:16:26.660 --> 01:16:33.540
+coming in black in color no this is what by default whatever default colors are
+
+01:16:33.540 --> 01:16:39.060
+there whatever default browser gives you specifically if you want in any time
+
+01:16:39.060 --> 01:16:44.980
+like any time in particular thing that if you are anything that you applied
+
+01:16:44.980 --> 01:16:49.180
+CSS but you want to override with whatever browser is giving you like how
+
+01:16:49.180 --> 01:16:54.860
+can you go for default thing like I want a default color to be there how can you
+
+01:16:54.860 --> 01:17:00.380
+go and do that for that reason again what in inheritance like if you want to
+
+01:17:00.380 --> 01:17:05.700
+inherit a default color you can always say something like get me an initial
+
+01:17:05.700 --> 01:17:11.580
+color if you see around this keyword if I click enter now do you say this it is
+
+01:17:11.580 --> 01:17:15.340
+div is converted into black color
+
+01:17:16.620 --> 01:17:23.500
+so whichever thing are there if you want up default colors to come back to you
+
+01:17:23.500 --> 01:17:29.460
+you can always type down wherever property are using it to the D like get
+
+01:17:29.460 --> 01:17:35.020
+me the initial like if I go and select for the padding right get me the initial
+
+01:17:35.020 --> 01:17:42.380
+padding there is no initial padding by default okay if I go and select that hey
+
+01:17:42.380 --> 01:17:47.860
+get me the initial margin there's nothing there but what if I go and select
+
+01:17:47.860 --> 01:17:54.820
+for the body it will be applied but I hope you got the basic idea when to go
+
+01:17:54.820 --> 01:18:01.260
+for initial it's like whenever you want to go back and get the default colors
+
+01:18:01.260 --> 01:18:08.460
+that are be given by the browser to you is this example clear guys is inherit
+
+01:18:08.460 --> 01:18:15.860
+an initial property clear like we have discussed two properties okay let's say
+
+01:18:15.860 --> 01:18:19.980
+I write on the this particular statement on the top if you want to remember
+
+01:18:19.980 --> 01:18:25.660
+anytime by default whatever browser you are giving you are getting it from color
+
+01:18:25.660 --> 01:18:36.220
+that will be applied or the CSS sensor okay next example would be index start
+
+01:18:36.220 --> 01:18:42.540
+HTML okay this is one of the tricky example that I wanted to help you out
+
+01:18:42.540 --> 01:18:51.060
+understand this property is something let me type it down so that I have added
+
+01:18:51.060 --> 01:19:01.540
+too much content at their class let's say this is a dev with class dev let's
+
+01:19:01.540 --> 01:19:11.660
+say content is hello now what I'll do is that I'll have a style block inside
+
+01:19:11.660 --> 01:19:19.620
+this let's say I have HTML by default color red
+
+01:19:21.460 --> 01:19:29.260
+okay let me open in the preview by default color is right now but what I
+
+01:19:29.260 --> 01:19:42.460
+will do is that again I'll go and make a diff color as green okay then I'll go
+
+01:19:42.460 --> 01:19:51.540
+and try to do this thing what I'll do is that let's say margin these are the
+
+01:19:51.540 --> 01:19:57.060
+basic properties nothing use case here just 8 pixel margin then I'm trying to
+
+01:19:57.060 --> 01:20:01.300
+define a new property for the color
+
+01:20:02.300 --> 01:20:14.540
+there's something called as unset no by default do you see any difference here
+
+01:20:14.540 --> 01:20:27.140
+when I use unset keyword here do you see any difference when I use unset okay
+
+01:20:27.140 --> 01:20:35.900
+even if I if I comment this if you see this red is being imported okay so do
+
+01:20:35.900 --> 01:20:45.500
+you see this this is working as inherit if I'm commenting this one it is trying
+
+01:20:45.500 --> 01:20:48.460
+to import this one
+
+01:20:48.460 --> 01:20:59.500
+this when I'm using color as a unset it is importing right it is like getting so
+
+01:20:59.500 --> 01:21:04.380
+for whatever inheritance like capable things like color is in inheritance
+
+01:21:04.380 --> 01:21:09.300
+capable and it is trying to get using answer so unset works in both ways
+
+01:21:09.300 --> 01:21:16.260
+firstly on set works in both ways for
+
+01:21:16.780 --> 01:21:24.260
+inherit table properties it works like
+
+01:21:24.980 --> 01:21:35.620
+inherit keyword okay but for let's say non-inheritable
+
+01:21:39.740 --> 01:21:51.260
+it works like initial okay now let's say I can show you an example of this one I
+
+01:21:51.260 --> 01:21:56.420
+have let's say they have and everyone there okay I have multiple things have
+
+01:21:56.420 --> 01:22:06.980
+defined it now if I use something like display okay let's say I go back now
+
+01:22:07.020 --> 01:22:12.540
+what is the display of this property guys firstly what would be the like what
+
+01:22:12.540 --> 01:22:18.580
+type of elements these are firstly are those in line or block level block right
+
+01:22:18.580 --> 01:22:25.380
+so they're coming in each line now if I go and use something like a display
+
+01:22:25.380 --> 01:22:36.940
+property let's say I make them here flex okay now if I use here unset what do you
+
+01:22:36.940 --> 01:22:40.860
+think it should happen for non-inheritable it works like initial I've
+
+01:22:40.860 --> 01:22:45.220
+just told you display is not in heritable I've just told you like
+
+01:22:45.220 --> 01:22:54.380
+earlier now if I set an unset here and I save it do you see this is like
+
+01:22:54.380 --> 01:23:05.180
+applying anything here firstly let me open this in the life so for better
+
+01:23:05.180 --> 01:23:15.900
+understanding give me a second guys I'll pull this
+
+01:23:15.900 --> 01:23:41.380
+no I'll go and select this one and I'll go and open this no if you see by
+
+01:23:41.380 --> 01:23:48.300
+default when I'm setting as inherit sorry when I'm setting as unset if I go
+
+01:23:48.300 --> 01:23:52.780
+for color property it is getting those color property and applying it when I'm
+
+01:23:52.780 --> 01:23:57.780
+selling color equal to unset so it is working as inheritance like or like a
+
+01:23:57.780 --> 01:24:03.140
+inherit keyword just I just just have a tool here written that line when in
+
+01:24:03.140 --> 01:24:07.340
+inheritable properties it works like inherit get the parent property go and
+
+01:24:08.340 --> 01:24:14.300
+whereas for the like properties which are like non-inheritable like where you
+
+01:24:14.300 --> 01:24:19.380
+cannot inherit it like the property is here for display you cannot inherit it
+
+01:24:19.380 --> 01:24:25.900
+so whatever by default browser provides you you'll get that property is that
+
+01:24:25.900 --> 01:24:31.460
+clear because I've just told here unset I didn't say that get me a block here
+
+01:24:32.460 --> 01:24:39.100
+is this clear guys like how unset works unset works in both ways like for like
+
+01:24:39.100 --> 01:24:44.580
+initial and inherit but for this works for the different properties people get
+
+01:24:44.580 --> 01:24:48.940
+confused in this I would say like I'll try to give an another example which is
+
+01:24:48.940 --> 01:24:53.740
+combining all the things and I'll revise all of that stuff you don't need to
+
+01:24:53.740 --> 01:25:03.380
+worry on this one if you are bit messed up here index six dot HTML let's say I
+
+01:25:03.380 --> 01:25:13.060
+pull this no let's see this example is firstly let's try to figure out what
+
+01:25:13.060 --> 01:25:19.420
+will be applied for which one now this is a question to you guys let's say I
+
+01:25:19.620 --> 01:25:30.380
+have this stack here firstly a right and this one and this one and this one so we
+
+01:25:30.380 --> 01:25:36.020
+have to guess what color will be applied for a lie what color will be applied for
+
+01:25:36.020 --> 01:25:41.200
+anchor tank because there are two things like if you see if you go for the line
+
+01:25:41.200 --> 01:25:46.020
+one the second default the color can have different color and link can have
+
+01:25:46.020 --> 01:25:50.500
+different color so just think of it
+
+01:25:56.220 --> 01:26:00.740
+what color would come to this one
+
+01:26:02.540 --> 01:26:06.900
+let's just think for this a lie tag
+
+01:26:06.900 --> 01:26:16.820
+default or the red color because it is trying to inherit because something
+
+01:26:16.820 --> 01:26:20.820
+color is present for the body it will go and check for the ally do you have any
+
+01:26:20.820 --> 01:26:25.140
+color applied no I'll go for you will tie I'll check there is no color then
+
+01:26:25.140 --> 01:26:29.140
+I'll go for body and I'll see that in body red color is there so everything
+
+01:26:29.140 --> 01:26:35.220
+should be red in color that's our guess right no when it comes to class one when
+
+01:26:35.220 --> 01:26:38.180
+it comes to class one
+
+01:26:42.500 --> 01:26:49.620
+when it comes to class this one second ally think of it guys think of it a
+
+01:26:49.620 --> 01:26:54.700
+whole thing will be read or there will be something difference
+
+01:26:55.060 --> 01:27:00.100
+see how like
+
+01:27:02.820 --> 01:27:12.540
+aligned with that everything will be read cool think of third one
+
+01:27:12.860 --> 01:27:26.380
+think of third one class two okay so a combination of two things are only one
+
+01:27:26.380 --> 01:27:31.780
+thing whole will be black initial default fine in each whenever you see
+
+01:27:31.780 --> 01:27:36.420
+that hey there is something like initial will be applied for this one but do you
+
+01:27:36.460 --> 01:27:43.380
+see that I am applying only CSS for this anchor tag not for everything I am
+
+01:27:43.380 --> 01:27:52.300
+applying CSS for only this thing in what this anchor tag color would be default
+
+01:27:52.300 --> 01:27:56.060
+color whenever you write hyperlink
+
+01:28:00.740 --> 01:28:06.220
+blue right so I we say that one thing will be surely blue and the other thing
+
+01:28:06.220 --> 01:28:11.700
+guys other thing guys think of other thing like this initial and color this
+
+01:28:11.700 --> 01:28:16.260
+keyword so we say that link will be blue in color but what's the use case of this
+
+01:28:16.260 --> 01:28:22.820
+color initial and color what would be the color of this one both things
+
+01:28:22.820 --> 01:28:39.100
+check what condition can be applied here black a light act content a lie it can
+
+01:28:39.100 --> 01:28:43.780
+go and inherit right it can go and check to the parent no bodies having the red
+
+01:28:43.780 --> 01:28:49.540
+do you think red does anyone think red
+
+01:28:53.820 --> 01:29:04.060
+blue is applied for this part does anyone think red should be applied
+
+01:29:05.060 --> 01:29:11.700
+but initial right but initial where I'm applying where I'm applying initial okay
+
+01:29:11.700 --> 01:29:18.620
+let's see this so everyone says blues right okay then what should be working
+
+01:29:18.620 --> 01:29:28.140
+for this use case guys what could be the use case of this one
+
+01:29:36.860 --> 01:29:43.100
+when I'm setting as unset I'm setting as unset so we are applying for the color
+
+01:29:43.100 --> 01:29:46.700
+color is something like which can inherit the property then it will be
+
+01:29:46.700 --> 01:29:55.100
+red right now let me open this okay let's see how much our guess is right
+
+01:29:57.260 --> 01:30:11.620
+guys do you see anything difference here so first answer is wrong firstly we told
+
+01:30:11.620 --> 01:30:18.020
+that a light act content it will be able to inherit and get it but a link
+
+01:30:18.020 --> 01:30:23.620
+whatever hyperlinks are there they don't inherit until you specifically
+
+01:30:23.620 --> 01:30:29.700
+mention them because they are not in a table this tax itself whatever content
+
+01:30:29.700 --> 01:30:35.060
+is there they act like a hyperlink they get some initial value for this one
+
+01:30:35.060 --> 01:30:47.100
+default default link color is that clear this first one anchor tag doesn't get
+
+01:30:47.100 --> 01:30:54.180
+like it doesn't go for inheritance property but the default and color these
+
+01:30:54.180 --> 01:30:58.140
+two keywords like how if you're guys getting confused I'm not sure if
+
+01:30:58.140 --> 01:31:04.180
+you're getting confused this is how it is guys parent then there is a child in
+
+01:31:04.180 --> 01:31:08.180
+between the child can inherit or cannot inherit depending on the type of
+
+01:31:08.180 --> 01:31:13.860
+property but default and color are of course inside content so this Li tag
+
+01:31:13.860 --> 01:31:17.540
+anyways having a color right so that's why this color is up like this is line
+
+01:31:17.540 --> 01:31:26.540
+one Li first line is clear no it's not it's inline elements like if I say span
+
+01:31:26.540 --> 01:31:34.180
+let's say if I space span okay if I say span do you see this red color is being
+
+01:31:34.180 --> 01:31:39.780
+applied Kabir it doesn't work with like all inline elements it just for hyperlink
+
+01:31:39.780 --> 01:31:50.060
+the specific use case right now second example let's say we say that inherit
+
+01:31:50.060 --> 01:31:57.860
+the property by default this inherit will anyways inherit then we told that
+
+01:31:57.860 --> 01:32:03.060
+hey anchor tag can you inherit the property whichever parent is having by
+
+01:32:03.060 --> 01:32:09.140
+this example dot class and a we say the inherit the property so it went and
+
+01:32:09.140 --> 01:32:13.340
+checked body is having color right so it applied color right is that clear how
+
+01:32:13.340 --> 01:32:17.660
+this thing is being applied you you all people just explained me this one right
+
+01:32:17.660 --> 01:32:23.580
+so I believe we got correct on this one right then we had something called as
+
+01:32:23.580 --> 01:32:32.020
+this one blue we all said that blue color will come but it happened like a
+
+01:32:32.020 --> 01:32:42.460
+initial color content color what firstly I confused you here asking the question
+
+01:32:42.460 --> 01:32:50.180
+what would the color of hyperlink but are we applying color on a hyperlink or
+
+01:32:50.180 --> 01:32:56.260
+the content that's where it's a tricky guys but I I hope you all people got it
+
+01:32:56.260 --> 01:32:59.820
+like it's actually black in color because few people all suggested black
+
+01:32:59.820 --> 01:33:05.140
+what I try to stress like are you sure that okay
+
+01:33:05.420 --> 01:33:09.340
+this is clear why black is coming yeah I'll post this on kid we'll take the
+
+01:33:09.340 --> 01:33:17.620
+break okay this is black I say getting the initial color for this one now next
+
+01:33:17.620 --> 01:33:23.500
+is completely red because unsaid works in a such a way like inherit property
+
+01:33:23.500 --> 01:33:29.460
+when you're using on a color side of property right so I hope this example is
+
+01:33:29.460 --> 01:33:32.380
+clear to you guys like how these properties are working how these are
+
+01:33:32.380 --> 01:33:36.820
+rendering is anyone having any challenge over this and when understanding this
+
+01:33:36.820 --> 01:33:43.820
+one so I hope every concept is now whatever we have understood those
+
+01:33:43.820 --> 01:33:51.380
+things are clear if these things are clear we can take break guys any doubts
+
+01:33:51.380 --> 01:34:01.780
+any doubts how many minutes you need guys eight minutes would work that's
+
+01:34:01.780 --> 01:34:05.020
+enough right eight minutes
+
+01:34:07.820 --> 01:34:10.820
+okay
+
+01:34:15.580 --> 01:34:22.700
+we have like less amount of content to be covered next I'll try to cover that
+
+01:34:22.700 --> 01:34:26.420
+let's take the break guys
+
+01:34:37.060 --> 01:34:46.980
+which CSS Kabir like this one something that we have written the last one this
+
+01:34:46.980 --> 01:34:57.620
+one okay so I'll keep switching the screens you can see this
+
+01:35:06.820 --> 01:35:09.860
+you
+
+01:35:36.820 --> 01:35:39.860
+you
+
+01:36:06.820 --> 01:36:09.860
+you
+
+01:36:36.820 --> 01:36:39.860
+you
+
+01:37:06.820 --> 01:37:09.860
+you
+
+01:37:36.820 --> 01:37:39.860
+you
+
+01:38:06.820 --> 01:38:09.860
+you
+
+01:38:36.820 --> 01:38:39.860
+you
+
+01:39:06.820 --> 01:39:09.860
+you
+
+01:39:36.820 --> 01:39:39.860
+you
+
+01:40:06.820 --> 01:40:09.860
+you
+
+01:40:36.820 --> 01:40:39.860
+you
+
+01:41:06.820 --> 01:41:09.860
+you
+
+01:41:36.820 --> 01:41:39.860
+you
+
+01:42:07.820 --> 01:42:09.860
+you
+
+01:42:31.820 --> 01:42:35.580
+well guys is everyone back
+
+01:42:37.820 --> 01:42:48.780
+only one on this great thank you so guys I hope inheritance concept is clear to
+
+01:42:48.780 --> 01:42:54.940
+you basically we have understood four five properties and then I have one of
+
+01:42:54.940 --> 01:43:00.580
+the examples like if you does anyone remember like the cards example that we
+
+01:43:00.580 --> 01:43:09.340
+built for flexbox and great right we but we have used one property right to show
+
+01:43:09.340 --> 01:43:15.260
+it as a card likely we entered and some shadows around it box shadow right but
+
+01:43:15.260 --> 01:43:25.540
+we didn't understand how box shadow box isn't it does anyone remember this so
+
+01:43:25.620 --> 01:43:30.620
+let's let's explore that one property let's explore that one property so what
+
+01:43:30.620 --> 01:43:39.180
+I'll do is that I'll I'll just use something like dev ID container okay
+
+01:43:39.180 --> 01:43:46.980
+inside this let's say I click create do you hashtag card and let's say I'm
+
+01:43:46.980 --> 01:43:55.180
+having a card here okay I render this one on the show preview now I'll
+
+01:43:55.180 --> 01:44:04.180
+minimize this one and let's have some stylus style inside the style let's say
+
+01:44:04.180 --> 01:44:16.300
+firstly for the container part I'll have some of the given information let's say
+
+01:44:17.020 --> 01:44:21.220
+so I hope anything if you don't understand is any property don't
+
+01:44:21.220 --> 01:44:25.060
+understand let me know like a given width like it should contain a half
+
+01:44:25.060 --> 01:44:32.020
+width of this one then I got height of 200 pixel like this is the height of the
+
+01:44:32.020 --> 01:44:36.820
+box then I have to like border should be two pixel solid gray like this is our
+
+01:44:36.820 --> 01:44:43.180
+border then I gave border radius as 8 to make this as a curved edge right then I
+
+01:44:43.180 --> 01:44:49.900
+gave display flex item and no and align items and justify content as a center
+
+01:44:49.900 --> 01:44:55.660
+because to move this particular item into the center is this clear guys
+
+01:44:55.660 --> 01:44:59.820
+anything that you feel you nothing right it's something that we have seen over
+
+01:44:59.820 --> 01:45:08.220
+again again now let's come to the actual card okay so what we'll do is that I'll
+
+01:45:08.260 --> 01:45:16.460
+give some width and height to the card let's say 100 100 pixel and height has a
+
+01:45:16.460 --> 01:45:28.660
+hundred pixel and let's give some border border here okay one pixel solid
+
+01:45:29.100 --> 01:45:40.260
+it's a black okay no others let's comment this don't need it also the card
+
+01:45:40.260 --> 01:45:47.700
+is there fine let's have it no issues now I'll go and do something to the box
+
+01:45:47.700 --> 01:45:55.860
+shadow no box shadow generally takes four things guys initially like let me
+
+01:45:55.860 --> 01:46:11.020
+comment down firstly it takes like horizontal offset what does this exactly
+
+01:46:11.020 --> 01:46:22.260
+means is that I'll show you increasing just let me write down this one
+
+01:46:22.300 --> 01:46:31.380
+increasing shadow along x-axis or looking or consider horizontal similarly
+
+01:46:31.380 --> 01:46:36.660
+next you have something called as a vertical offset okay then you have
+
+01:46:36.660 --> 01:46:45.260
+something called as blur effect how much blur you need blurring the shadow like
+
+01:46:45.660 --> 01:46:52.660
+then you have something called a spread till how much long how far you need the
+
+01:46:52.660 --> 01:47:01.580
+spread okay now let's write down one one thing so the this goes in the same
+
+01:47:01.580 --> 01:47:07.260
+sequence like let's say I go and say that hey give me one pixel or of
+
+01:47:07.260 --> 01:47:13.620
+horizontal shadow two pixel or vertical shadow okay can you see this like I'm
+
+01:47:13.660 --> 01:47:18.220
+not giving any other property let's say this only these two properties if I keep
+
+01:47:18.220 --> 01:47:22.220
+on increasing this let's say if I give you five pixel can you see this in
+
+01:47:22.220 --> 01:47:28.920
+horizontal direction the shadow is increasing if I give 15 this way on the
+
+01:47:28.920 --> 01:47:35.340
+cross axis this way is this point clear like if I give let's say 20 pixel as a
+
+01:47:35.340 --> 01:47:41.220
+vertical can you see this it's moving down the vertical direction now if I go
+
+01:47:41.220 --> 01:47:46.300
+and give the blur let's say five pixel can you see this blur how how blur the
+
+01:47:46.300 --> 01:47:51.940
+shadows becoming blur as much as you add here it will become more blur let's say
+
+01:47:51.940 --> 01:47:57.660
+if I make 15 to 12 that's that's what it gives your blur effect on the border now
+
+01:47:57.660 --> 01:48:02.380
+after that what you can give is how long you want to spread this blur let's say if
+
+01:48:02.380 --> 01:48:11.140
+I make 50 pixel okay how long I want to spread the blur let's say if I
+
+01:48:11.140 --> 01:48:18.620
+make five pixel okay then actual magic comes this is other properties that you
+
+01:48:18.620 --> 01:48:24.140
+want can apply on a box shadow but actual properties like color let's say if
+
+01:48:24.140 --> 01:48:31.620
+I make green and I give something like let's say I select an RGBA this shadow
+
+01:48:31.620 --> 01:48:37.540
+let's say we reduce this as a one pixel and we make it as two pixel let's say we
+
+01:48:37.540 --> 01:48:42.460
+make it as like blur as a two pixel let's make blur more eight so that you
+
+01:48:42.460 --> 01:48:46.820
+have a shadow sort of feel and let's remove border also if you remove border
+
+01:48:46.820 --> 01:48:51.620
+let's see how magical this box looks like and we can have something like
+
+01:48:51.620 --> 01:48:56.620
+let's say border radius I don't know if this will be visible since we don't have
+
+01:48:56.620 --> 01:49:03.340
+border eight pixel so this is what we were doing in the card right we were
+
+01:49:03.340 --> 01:49:08.820
+adding some shadow to look up do you find this good guys do you find this
+
+01:49:08.820 --> 01:49:14.260
+good it some bit like it
+
+01:49:14.980 --> 01:49:18.860
+so this is what we are doing let's say if you want to again spread this hard
+
+01:49:18.860 --> 01:49:23.540
+gently I give 10 it will move on that X axis to the right if I want to move it
+
+01:49:23.540 --> 01:49:29.660
+them to the bottom then I can you can use I can use this one so this is one of
+
+01:49:29.660 --> 01:49:32.540
+the way you can play around with the box shadow but there's another thing that
+
+01:49:32.540 --> 01:49:38.340
+you can do if you like to fix the box shadow right one of the best ways to go
+
+01:49:38.340 --> 01:49:42.780
+and do it in the browser itself like let's say I go and open the browser that
+
+01:49:42.780 --> 01:49:48.700
+is something how I play around with box shadow at my workplace if I want to deal
+
+01:49:48.700 --> 01:49:52.580
+with this one reason I will tell you why if I go and select this element let's
+
+01:49:52.580 --> 01:49:59.260
+say this is a card if you see here I have this one whenever I have this
+
+01:49:59.260 --> 01:50:04.660
+selected right I can select like a how much I need along the X axis or how
+
+01:50:04.660 --> 01:50:09.340
+much along the y-axis I need or else if I need around this one or if I need on
+
+01:50:09.340 --> 01:50:15.580
+the center itself and I can give some blur of 8 pixel or how much blur I need
+
+01:50:15.580 --> 01:50:21.300
+then I can spread it if I need let's say if I want to spread the shadow does this
+
+01:50:21.300 --> 01:50:23.820
+look cool
+
+01:50:23.820 --> 01:50:31.820
+yes this this is how you can play around with blur anywhere you want to do it
+
+01:50:31.820 --> 01:50:36.580
+then there's something called inset it's like inset is also something like if you
+
+01:50:36.580 --> 01:50:43.580
+want to add a blur inside where you want to play it inside okay let's say you
+
+01:50:43.580 --> 01:50:50.580
+apply this one and you leave it and you go to the card if you see you if you
+
+01:50:50.580 --> 01:50:55.500
+want to apply a like shadow inside you have to give the word inset then only
+
+01:50:55.500 --> 01:51:01.740
+you can play around with that one let's say if I go and do add here
+
+01:51:01.740 --> 01:51:12.340
+something like inset you see this it's applying the blur inside inside yes yes
+
+01:51:12.340 --> 01:51:19.340
+yes open so it acts it goes on X axis for axis that's why the first two
+
+01:51:19.340 --> 01:51:23.060
+values whatever you are giving those are actually meant for horizontal axis
+
+01:51:23.060 --> 01:51:27.980
+and vertical axis like where you want to move then you have a blur the width of
+
+01:51:27.980 --> 01:51:33.780
+blur then you can keep like a how like once you define the blur how much spread
+
+01:51:33.780 --> 01:51:39.880
+I want once that blur is there yeah inside 10 pixel is there like you can
+
+01:51:39.880 --> 01:51:46.460
+do it now like if I open that again tool so it goes on longer the x-axis y-axis
+
+01:51:46.460 --> 01:51:52.700
+right let's say if I go on to and the both negative right X is negative and Y
+
+01:51:52.700 --> 01:51:57.260
+is negative here in diverse like when you go for off in our inset when you go
+
+01:51:57.260 --> 01:52:03.300
+for off again this is how it works X and Y axis is a bit different here but
+
+01:52:03.300 --> 01:52:06.260
+generally this this coordinate is something both have used to have
+
+01:52:06.260 --> 01:52:12.780
+negative isn't it sorry this is the quadrant rightly mentioned coming from
+
+01:52:12.780 --> 01:52:19.180
+top to bottom I forgot much but I hope this box shadow you are able to relate
+
+01:52:19.180 --> 01:52:27.980
+how can you revolve and play around with this one cool field right so I hope you
+
+01:52:27.980 --> 01:52:31.740
+will be play or will be able to play around with box shadow I hope box shadow
+
+01:52:31.740 --> 01:52:36.340
+is clear for you like how can you deal with it are because by default right
+
+01:52:36.340 --> 01:52:40.540
+whenever you want to fix it this is whenever you type it down 1 pixel 2
+
+01:52:40.540 --> 01:52:45.420
+pixel 8 5 or you want to give the color that you won't be able to fix it
+
+01:52:45.420 --> 01:52:50.100
+right away by writing it you can use inspector what was our last one element
+
+01:52:50.100 --> 01:52:59.460
+be before the horizontal vertical blur before horizontal this one inset is it
+
+01:52:59.460 --> 01:53:15.180
+this one 5 pixel spread so let's say if I go and show you real-time use case if
+
+01:53:15.180 --> 01:53:19.340
+I go and select this one if I spread this let's say this is the 5 pixel this
+
+01:53:19.340 --> 01:53:23.140
+is the last element if I can't spread it how much how much ever I want let's say
+
+01:53:23.140 --> 01:53:30.420
+if I make 100% of it it didn't take it but you can take it as much as you want
+
+01:53:30.420 --> 01:53:35.940
+like how much as you want to increase it here you can apply I guess let's say if
+
+01:53:35.940 --> 01:53:44.620
+I open here and so in I'll remove this inset I don't need this inset but let's
+
+01:53:44.620 --> 01:53:51.180
+say I make this 50 pixel can you see this something got it yeah size of
+
+01:53:51.740 --> 01:53:58.500
+right so I hope this property is clear I have one last topic guys to cover in
+
+01:53:58.500 --> 01:54:13.860
+CSS which is different types of units right different types of units dot
+
+01:54:14.580 --> 01:54:22.980
+let's take this way html5 so I want you guys to tell me how many units you have
+
+01:54:22.980 --> 01:54:27.060
+seen or you we have used it till now
+
+01:54:27.060 --> 01:54:45.620
+case I'd say okay pixel the fraction it is specific to grid somewhere so
+
+01:54:45.620 --> 01:54:56.780
+percentage then view height and then view width also I can include which is
+
+01:54:56.780 --> 01:55:08.260
+W view then something is let's say this is view height then these are the fixed
+
+01:55:08.260 --> 01:55:19.580
+units these are the something called as let's say absolute units whereas do you
+
+01:55:19.580 --> 01:55:24.340
+know this there is a there are something like centimeter millimeter inch this can
+
+01:55:24.340 --> 01:55:29.700
+be also applied but we don't really use them then you have something like the
+
+01:55:29.700 --> 01:55:38.340
+relative units inside it related units two of the most used things one would be
+
+01:55:38.340 --> 01:55:43.300
+you would be playing around with them is something called relative M the so the
+
+01:55:43.300 --> 01:55:48.940
+you you pronounce this one as a relative capital M or or else you have something
+
+01:55:48.940 --> 01:55:58.500
+like M just like M okay now we'll try to explore each of them let's say I create
+
+01:55:58.500 --> 01:56:06.860
+let me have this open okay we'll go in reverse order itself guys so we'd go in
+
+01:56:06.860 --> 01:56:15.060
+reverse order let's have a div okay and let's say this is a class of container
+
+01:56:15.220 --> 01:56:27.140
+and let's say I have something like diff this is lorem 20 okay now this is let's
+
+01:56:27.140 --> 01:56:38.620
+say again a diff this is also lorem 20 okay so what I did is like I just had
+
+01:56:38.620 --> 01:56:49.900
+let's say ID as item one let's say this is an ID called as item two let's explore
+
+01:56:49.900 --> 01:56:58.420
+using this to ice and create a style block okay so what I'll do is like I'll
+
+01:56:58.420 --> 01:57:05.700
+use this class container and I'll use something like font font size let's say
+
+01:57:05.780 --> 01:57:13.780
+I use 20 pixel okay now firstly everything inheritance so font as I've
+
+01:57:13.780 --> 01:57:18.300
+told you earlier that font can be like inherited so everything went into this
+
+01:57:18.300 --> 01:57:27.860
+one okay but I'll go and say that hashtag item to as a font size to be
+
+01:57:27.860 --> 01:57:34.060
+eight pixel so this is specific whenever you say pixel you are trying to use a
+
+01:57:34.060 --> 01:57:42.780
+specific let's say like each screen is built using like some range of pixels
+
+01:57:42.780 --> 01:57:47.900
+guys let's say even if you go and try to see here right let's say if I select the
+
+01:57:47.900 --> 01:57:53.420
+whole body everything will be having in terms of like pixel size 880 into 240
+
+01:57:53.420 --> 01:57:57.820
+that is what my pixel is okay every screen will have its own respective
+
+01:57:57.820 --> 01:58:03.460
+pixels so now that's how the space units works for them like that's how your
+
+01:58:03.620 --> 01:58:08.900
+screens are decided but now what I did is like I've selected hey any screen you
+
+01:58:08.900 --> 01:58:13.860
+pick it up any screen doesn't matter how big screen is how less screen is size in
+
+01:58:13.860 --> 01:58:20.180
+my leg doesn't matter I'll pick it 10 pixel of that screen size is this clear
+
+01:58:20.180 --> 01:58:26.580
+what when we say pixel when we use PX what does it exactly mean now let's say
+
+01:58:26.580 --> 01:58:39.140
+I use something like item one now I say font size and I say something like let's
+
+01:58:39.140 --> 01:58:50.260
+say to EM what just happened is what just happened when I used to EM the
+
+01:58:50.260 --> 01:58:57.340
+font size you know increased at least this thing I can say the font is
+
+01:58:57.340 --> 01:59:06.740
+increased for this particular content now let's see open in live server open
+
+01:59:06.740 --> 01:59:09.460
+in live server
+
+01:59:16.220 --> 01:59:28.820
+let's debug this one what is the font size of this content when I say to EM
+
+01:59:29.820 --> 01:59:37.340
+it is showing as a to EM itself it's not showing me the exact value okay because
+
+01:59:37.340 --> 01:59:42.020
+it has overridden this one but what does this exactly let's say now if I convert
+
+01:59:42.020 --> 01:59:45.980
+this to EM just remember the difference is this is like this is how it is
+
+01:59:45.980 --> 01:59:57.580
+looking I'll go and do 40 pixel to fill it is still same size if I write down
+
+01:59:57.580 --> 02:00:05.140
+40 pixel or 2m how many of you agree guys a few more thumbs up if you are
+
+02:00:05.140 --> 02:00:11.380
+agreeing that to 2m and 40 pixel are equal so whenever we are using relative
+
+02:00:11.380 --> 02:00:15.700
+units whenever I'm saying when we say that relative units it's respect to its
+
+02:00:15.700 --> 02:00:24.460
+parent so if you go and see here item one is wrapped inside this container and
+
+02:00:24.620 --> 02:00:29.500
+container is having some font as 20 pixel 20 pixel now I'm saying that
+
+02:00:29.500 --> 02:00:35.740
+whatever I'm writing it in terms of M it is a multiplier of that pixel so
+
+02:00:35.740 --> 02:00:41.140
+whenever I say to a to it's equal to 20 into 240 pixel let's say if I make it 10
+
+02:00:41.140 --> 02:00:47.620
+right let's say if I make it 10 it will become 20 pixel if I make it 15 if you
+
+02:00:47.620 --> 02:00:52.020
+see I'm changing this container height but the content inside content is
+
+02:00:52.020 --> 02:00:59.820
+getting multiplied are you able to understand now how does M works M
+
+02:00:59.820 --> 02:01:06.420
+always try to connect with its parent font sizes and it multiplies like this
+
+02:01:06.420 --> 02:01:12.420
+is a multiplier or let's say you might be seeing that 1.3 1.4 right mostly
+
+02:01:12.420 --> 02:01:16.420
+people write in the multiple units this way but it just like it behind the
+
+02:01:16.420 --> 02:01:23.820
+scene what's happening here is that just let me write it on the top so what's
+
+02:01:23.820 --> 02:01:32.820
+happening is 1.4 into 18 pixel is what is being applied okay I hope this point
+
+02:01:32.820 --> 02:01:40.180
+is clear how M works now then there is something called as rem now let's see
+
+02:01:40.180 --> 02:01:45.740
+what if contain what if it not given to contain what by default it will take
+
+02:01:45.740 --> 02:01:50.660
+okay let's say I comment this thing is I comment this thing I commented this
+
+02:01:50.660 --> 02:01:56.100
+thing by default 1.4 M is taking something let's say I make it one guys
+
+02:01:56.100 --> 02:02:02.900
+for easy understanding right I made it one now if I go back in the browser if
+
+02:02:02.900 --> 02:02:10.820
+you see one M is applied now one M is generally talking about like 16 pixels
+
+02:02:10.820 --> 02:02:15.700
+guys by default the content comes at 16 let's say if I convert this into 16
+
+02:02:15.700 --> 02:02:21.060
+pixel just remember this one how it is looking this is how it is looking if I
+
+02:02:21.060 --> 02:02:33.100
+convert into 16 pixel does it look same Kabir so by default the font let's say
+
+02:02:33.100 --> 02:02:37.580
+if it container is not there it will go and check in the browser level what is
+
+02:02:37.580 --> 02:02:41.700
+the font size you have given so it will go and check like take it as 16 but if
+
+02:02:41.700 --> 02:02:45.580
+you have defined in the parent container it will take with respect to that one
+
+02:02:45.580 --> 02:02:57.020
+now let's say I convert 10 pixel into 10 rem now this has become really huge
+
+02:02:57.020 --> 02:03:03.540
+then actually how does the rem works is like it always takes with respect to
+
+02:03:03.540 --> 02:03:11.020
+browser's default or whatever you have defined in HTML let's say if I go in
+
+02:03:11.020 --> 02:03:20.980
+HTML since it's 10 rem I'll go and say font pixel as a 2 pixel if I want to
+
+02:03:20.980 --> 02:03:28.140
+make both the paragraphs equal if I have 10 let's say if I make 1.8 pixel so it
+
+02:03:28.140 --> 02:03:35.860
+will be equal both are being applied 18 pixel so how this is working is how this
+
+02:03:35.860 --> 02:03:42.940
+is working is like whenever you use rem it always checks with the HTML content
+
+02:03:42.940 --> 02:03:47.780
+or the top level like hit exactly HTML itself if I would say there is no
+
+02:03:47.780 --> 02:03:54.980
+specifically mentioned by default this each rem is equal to 16 pixel okay by
+
+02:03:54.980 --> 02:04:07.060
+default by default rem or em is equal to 16 pixel if we are giving one unit
+
+02:04:07.060 --> 02:04:22.060
+but if there is something mentioned rem always prefer HTML tag fonts okay if not
+
+02:04:22.060 --> 02:04:32.180
+there by default it will go for 16 but whereas come to M checks in hierarchy
+
+02:04:35.580 --> 02:04:41.900
+for parents if not available it will also take 16 is this point here guys
+
+02:04:41.900 --> 02:04:49.020
+like how rem works and how em works firstly anyone having any challenge here
+
+02:04:49.020 --> 02:04:55.820
+understanding these two things guys if there's someone who don't understand it
+
+02:04:55.820 --> 02:05:03.260
+okay somebody says no face let's say what I'm saying is that rem is then rem is
+
+02:05:03.260 --> 02:05:08.020
+always good prefer go and this is a multiplier guys whenever I'm saying the
+
+02:05:08.020 --> 02:05:14.620
+relative units it is trying to multiply with some values so by default if there
+
+02:05:14.620 --> 02:05:20.380
+is no property in HTML mentioned this 10 pixel will be multiplied by 16 pixel
+
+02:05:20.380 --> 02:05:24.580
+because that is what browser is giving like a default font size would be 16
+
+02:05:24.580 --> 02:05:29.340
+pixel that is what I have written here by default rem or em will have a
+
+02:05:29.340 --> 02:05:34.140
+multiplier of 16 okay let's say multiplier of 16 because it's a default
+
+02:05:34.140 --> 02:05:46.380
+is 16 okay great okay sorry my mistake what's the best to use what would you
+
+02:05:46.380 --> 02:05:50.180
+think Hemangi what's the best for you if you have worked on projects what is the
+
+02:05:50.180 --> 02:05:59.620
+best thing is used if I have written pixel right in any PR if I used PX in
+
+02:05:59.620 --> 02:06:09.120
+any PR of my experience I've always needed to convert into rem do you know
+
+02:06:09.120 --> 02:06:19.340
+why rem no not Hemangi em we don't use it we use rem mostly as per my experience
+
+02:06:19.340 --> 02:06:24.900
+I have used rem I'll tell you why I'll tell you why so if you go and see for
+
+02:06:24.900 --> 02:06:30.380
+the bigger projects any bigger projects you'll have something like theme file
+
+02:06:30.380 --> 02:06:36.060
+have anyone seen it like theme file or initial font size like whatever your UX
+
+02:06:36.060 --> 02:06:40.380
+team gives right you have a default fonts like for paragraph in our
+
+02:06:40.380 --> 02:06:44.620
+application this would be the font size for the headers this would be the font
+
+02:06:44.620 --> 02:06:51.140
+size for sight lines this would be a font size so if we have a predefined style
+
+02:06:51.140 --> 02:06:57.060
+like if you go in a PayPal app or any app let's say Flipkart all the fonts are
+
+02:06:57.060 --> 02:07:01.100
+like similar in nature if you see paragraph they will been similar in
+
+02:07:01.100 --> 02:07:04.340
+nature at one place they might not have different right one place they might
+
+02:07:04.340 --> 02:07:09.700
+not have different so there is a one global file in whole project level or at
+
+02:07:09.700 --> 02:07:14.060
+org level company level because whole Flipkart app will have a different
+
+02:07:14.060 --> 02:07:19.660
+teams will be working on each team will have their own specific repo no in each
+
+02:07:19.660 --> 02:07:24.860
+repo whatever the lead UX team decides right they will give you that what are
+
+02:07:24.860 --> 02:07:30.900
+the default font sizes now with respect to those font sizes you use a rem unit
+
+02:07:30.900 --> 02:07:35.260
+and you use as a multiplier to render your content whatever you are particular
+
+02:07:35.260 --> 02:07:43.660
+project UX team suggest is this clear like why we go with rem units
+
+02:07:43.660 --> 02:07:53.300
+I hope this point is clear guys and next and if you see other than pixel
+
+02:07:53.300 --> 02:07:58.380
+percentages we have explored view height and view width are literally same
+
+02:07:58.380 --> 02:08:03.220
+related to like screen width and screen height like with respect to whatever
+
+02:08:03.220 --> 02:08:11.300
+viewport is there and we hardly use this I never seen anyone doing this one like
+
+02:08:11.300 --> 02:08:19.820
+not not used any like literally inch or mmr like cm centimeter millimeter an
+
+02:08:19.820 --> 02:08:23.860
+inch but I hope you got the basic understanding because people try to
+
+02:08:23.860 --> 02:08:28.580
+tend to you know face difficulty understanding Rema in EM I think I have
+
+02:08:28.580 --> 02:08:35.300
+explained that topic so I hope if these things are clear guys content is done
+
+02:08:35.300 --> 02:08:45.580
+from my side for CSS part I hope you you enjoyed learning like HTML and CSS
+
+02:08:45.580 --> 02:08:51.980
+because I try to come like take as much concepts I have to but if we have you
+
+02:08:51.980 --> 02:08:57.300
+know missed anything we'll make a list of it and we'll try to cover in future
+
+02:08:57.300 --> 02:09:03.060
+also because I'm still here to you for more than four months all right till we
+
+02:09:03.060 --> 02:09:09.180
+cover a whole full stack right because we learn react and then we learn node
+
+02:09:09.180 --> 02:09:18.780
+also node JS then express Mongo right all the six so journey is still big
+
+02:09:18.780 --> 02:09:24.380
+really big but if you face any challenge anything or you're not able to
+
+02:09:24.380 --> 02:09:32.900
+understand yeah Mongo database thank you so it's no sequel database right so
+
+02:09:32.900 --> 02:09:41.460
+document DB we'll try to use that but if during this journey you see any CSS at
+
+02:09:41.460 --> 02:09:45.140
+your office place or any place you're not able to understand let's set
+
+02:09:45.140 --> 02:09:50.180
+together and explore even the HTML part because I wait I didn't cover some
+
+02:09:51.180 --> 02:09:58.980
+advance like iframe does anyone know iframe iframe have anyone heard iframe I
+
+02:09:58.980 --> 02:10:08.300
+see one thumbs up two people no problem uncle no problem
+
+02:10:10.300 --> 02:10:18.900
+iframe guys YouTube links like how you have like let me show you how does
+
+02:10:18.900 --> 02:10:23.380
+iframe works it's a really powerful thing but can I start doubt session guys
+
+02:10:23.380 --> 02:10:27.980
+because I have I've completed the content I'll show you iframe and then we
+
+02:10:27.980 --> 02:10:32.220
+can keep on discussing if you want but the content is clear do you have any
+
+02:10:32.220 --> 02:10:36.780
+doubts ember ember is also a framework can you please explain again why did you
+
+02:10:36.780 --> 02:10:44.940
+use 1.8 pixel to the HTML hey monkey 1.8 pixel in the HTML so these are the like
+
+02:10:44.980 --> 02:10:49.340
+default like team styles like that was I was referring let's say if your project
+
+02:10:49.340 --> 02:10:54.620
+says that default font size is 1.8 then you can multiply whatever M you like
+
+02:10:54.620 --> 02:11:03.020
+rem you want to multiply with so this actually font size will become here 1.8
+
+02:11:03.020 --> 02:11:10.820
+into 10 which will be equal into 18 pixel this is how it will work is that
+
+02:11:10.820 --> 02:11:13.340
+clear
+
+02:11:14.980 --> 02:11:19.460
+okay great so guys I'll start out session then we'll explore iframe so
+
+02:11:19.460 --> 02:11:25.860
+repeat initial inheritance once in after iframe sure Kabir I'll take that let's
+
+02:11:25.860 --> 02:11:32.540
+start the doubt session first I'll take our talk one doubt about Kabir like then
+
+02:11:32.540 --> 02:11:39.660
+we'll go for iframe initial in inheritance okay let's take this example
+
+02:11:39.660 --> 02:11:49.420
+of this one yeah fourth one let me open this open in the show preview okay no so
+
+02:11:49.420 --> 02:11:55.860
+Kabir now what happened here is that by this drift tag content by default we are
+
+02:11:55.860 --> 02:12:01.060
+giving color red if I don't have this part let's say if I cut this the color
+
+02:12:01.060 --> 02:12:07.940
+red will be applied but if I say that I want by default whatever styles like for
+
+02:12:07.940 --> 02:12:12.820
+the content itself content like when I say this this particular content that
+
+02:12:12.820 --> 02:12:16.620
+would be default browser will be given CSS engine whatever default cells keeps
+
+02:12:16.620 --> 02:12:22.140
+that is like black in color the whenever you want to apply those default colors
+
+02:12:22.140 --> 02:12:27.380
+you can go for initial okay similarly I think you got confused at anchor tag
+
+02:12:27.380 --> 02:12:32.620
+let's say if I use anchor tag and I write down something okay and let's say I
+
+02:12:33.620 --> 02:12:42.340
+href okay if you see in href let's say this is google.com I don't want to click
+
+02:12:42.340 --> 02:12:48.580
+it it will redirect me there that's how it works but this is by default if you
+
+02:12:48.580 --> 02:12:53.980
+see coming in blue in color okay but if I use again the style color as initial
+
+02:12:53.980 --> 02:12:58.780
+I am applying the style for this content inside it not for this whole anchor tag
+
+02:12:58.780 --> 02:13:03.620
+right if I make it it is coming as a black because the kind whatever this
+
+02:13:03.620 --> 02:13:08.140
+particular text text will be black in color like same like div or span or
+
+02:13:08.140 --> 02:13:18.340
+anything you pick is that clear Kabir no it won't take if I if I give to the
+
+02:13:18.340 --> 02:13:26.740
+color to the body also let's say let's say I pick color and let's say brown it
+
+02:13:26.780 --> 02:13:32.700
+won't take so this color black color is coming from the browser level
+
+02:13:35.900 --> 02:13:40.420
+is that clear browser whenever browser is parsing or converting this HTML and
+
+02:13:40.420 --> 02:13:46.540
+rendering it right then default content color is black some of the CSS you write
+
+02:13:46.540 --> 02:13:54.700
+some of the CSS by default browser gives you okay I hope this is clear let's go
+
+02:13:54.700 --> 02:14:09.260
+guys iframe example this is one of the powerful tag so iframe works like this
+
+02:14:09.260 --> 02:14:15.740
+is not the example that I wanted to show let's say
+
+02:14:15.740 --> 02:14:30.740
+if you see this example guys what's happening here they used let's say I
+
+02:14:30.740 --> 02:14:36.980
+copy this one and I use here in the browser
+
+02:14:42.300 --> 02:14:58.340
+do you see this if you want to like like embed let me yeah embedded is open like
+
+02:14:58.340 --> 02:15:03.980
+if you want to inject a some like you know different things like a different
+
+02:15:03.980 --> 02:15:09.180
+projects are a different things so how do I understand iframe right mostly if
+
+02:15:09.180 --> 02:15:14.260
+you see on a top of your website many times you see advertisements coming up
+
+02:15:14.260 --> 02:15:20.860
+different things they keep on playing our video audio right they use it iframe
+
+02:15:20.860 --> 02:15:28.140
+tag like this iframe tag now if you see I can click on it I can it will read
+
+02:15:28.140 --> 02:15:33.420
+it will like work like a project for me so if you want to inject a new project
+
+02:15:33.420 --> 02:15:38.220
+inside your project right you can use a iframe tag giving the exact URL where
+
+02:15:38.220 --> 02:15:42.840
+you can if I use it let's say if I want a browser engine to work in my app I can
+
+02:15:42.840 --> 02:15:54.420
+simply say www.google.com now just let's say what's happening here this might not
+
+02:15:54.420 --> 02:15:56.780
+work
+
+02:16:09.540 --> 02:16:16.900
+okay it needs HTTP yes but it's not loading let's say if I load flipkart
+
+02:16:17.100 --> 02:16:24.620
+now to the configure it whatever now if you see that flipkart is loading
+
+02:16:25.620 --> 02:16:29.820
+can you see this case what iframe does if you want to launch a flipkart sort of
+
+02:16:29.820 --> 02:16:36.220
+app inside your application whatever you have built this is really powerful guys
+
+02:16:36.220 --> 02:16:42.940
+really powerful I would say like your whole thing will work but the way your
+
+02:16:42.940 --> 02:16:48.580
+project might not support sometimes but initial load it gives but generally iframes
+
+02:16:48.580 --> 02:16:53.740
+are used for advertisement or rendering those sort of things are you able to
+
+02:16:53.740 --> 02:16:59.980
+relate what like iframe example what iframe does it embeds some new project
+
+02:16:59.980 --> 02:17:06.340
+or new content whatever is designed by giving as a source tag
+
+02:17:07.340 --> 02:17:13.060
+yeah yeah yeah you can do that you can do that okay so upender has this thing
+
+02:17:13.060 --> 02:17:17.880
+like and we use embedded is it to embed our projects into portfolio you can
+
+02:17:17.880 --> 02:17:23.700
+always do that open you can always do that but you have to design your project
+
+02:17:23.700 --> 02:17:27.380
+such a way that those are like super responsive that it doesn't break
+
+02:17:27.380 --> 02:17:33.260
+whenever you are using embedded okay so that because you are whenever you embed
+
+02:17:33.260 --> 02:17:37.420
+it right it will be having such window size because here they have given some
+
+02:17:37.420 --> 02:17:41.860
+height and width customized so be careful whenever you are injecting in
+
+02:17:41.860 --> 02:17:49.340
+portfolio you use it this way okay
+
+02:17:50.180 --> 02:18:03.460
+now I'll show like let's go to the YouTube and show you that one say I
+
+02:18:03.460 --> 02:18:16.540
+search iframes let's say this they have display none like they aren't using this
+
+02:18:16.540 --> 02:18:27.580
+one this is they are using now if you see they did something like a sandbox
+
+02:18:27.580 --> 02:18:39.860
+URL now if you say accounts YouTube what this URL takes to let's say I copy this
+
+02:18:39.860 --> 02:18:55.580
+URL I click on so this is what they have embedded now if I load it it doesn't
+
+02:18:55.580 --> 02:19:00.060
+return me anything but I don't know what logic they applied here they're using
+
+02:19:00.060 --> 02:19:08.860
+for cookies like let's say instead of display none right we'll make a block
+
+02:19:12.780 --> 02:19:18.540
+in line doesn't show up anything here because even the pages seems to be empty
+
+02:19:18.540 --> 02:19:27.420
+for us right but what if I gave the same example let's say I pick this source
+
+02:19:27.420 --> 02:19:35.260
+stack whatever source tag they gave me let's say I pick this source and I
+
+02:19:35.260 --> 02:19:49.820
+inject in the YouTube so this is the iframe right then instead of display
+
+02:19:49.820 --> 02:19:58.540
+none I'll I'll say display block and I'll say here
+
+02:20:02.260 --> 02:20:05.660
+SRC
+
+02:20:11.500 --> 02:20:14.500
+try
+
+02:20:19.860 --> 02:20:27.940
+it is not letting me add okay I added this program is now can you see this
+
+02:20:27.940 --> 02:20:34.060
+guys this this got embedded here because it didn't have height and width now what
+
+02:20:34.060 --> 02:20:42.740
+if I they disabled height and width here like I mean they were just trying to do
+
+02:20:42.740 --> 02:20:51.820
+this one maybe a small project they stopped it in YouTube maybe then enable
+
+02:20:51.820 --> 02:20:59.020
+sometimes like do you remember what used to come here if anyone remembers what
+
+02:20:59.020 --> 02:21:07.660
+used to come here below this here on the do you remember daughter's go YouTube
+
+02:21:07.660 --> 02:21:11.660
+daughter's like Google daughters they build different types of things right
+
+02:21:11.700 --> 02:21:18.940
+this particular YouTube icon get exchange changed with that have you seen
+
+02:21:18.940 --> 02:21:23.500
+that this icon get changed I believe that's where they were trying to embed
+
+02:21:23.500 --> 02:21:28.620
+it and override this one because you don't want to deploy it separately maybe
+
+02:21:28.620 --> 02:21:31.740
+that's how they were using it
+
+02:21:33.780 --> 02:21:38.500
+okay but anyways guys any more doubts
+
+02:21:42.660 --> 02:21:51.780
+this class is awesome so excited sure sure copy thank you thank you for
+
+02:21:51.780 --> 02:21:54.780
+appreciation
+
+02:21:56.380 --> 02:22:03.180
+we'll keep building cool things ways just I would ask you know keep keep okay
+
+02:22:03.180 --> 02:22:09.740
+I'll take that somebody give me a minute I'll take that I'll answer now if I use
+
+02:22:09.740 --> 02:22:15.100
+CSS and use great it's covering the whole page in HTML file but when I use
+
+02:22:15.100 --> 02:22:21.340
+in same in CSS JS well it's not taking so can you show me the code some bit
+
+02:22:21.340 --> 02:22:28.820
+because I want to see how you are using like how we are trying to render like
+
+02:22:28.820 --> 02:22:36.140
+JS how we are connecting I'll see if I once I'll push the code I'll give the
+
+02:22:36.140 --> 02:22:48.140
+permission okay get commit minus and then class 7 get push let me check if I
+
+02:22:48.140 --> 02:23:01.780
+can give you an access some bit some bit I have on mute button then if I go for
+
+02:23:01.780 --> 02:23:15.180
+settings screen share admin hello okay then
+
+02:23:16.900 --> 02:23:27.540
+give me a minute I'm trying to find that option so me we unmuted okay yeah I
+
+02:23:27.660 --> 02:23:33.860
+got it so I'm unmuting you you will be able to have that option to share some
+
+02:23:33.860 --> 02:23:40.540
+you can check that okay no worries can you check that can you check if you are
+
+02:23:40.540 --> 02:23:44.620
+having access to share the screen
+
+02:23:44.620 --> 02:24:02.220
+some bit I unmuted you you are on mute can you try to speak once okay speak
+
+02:24:02.220 --> 02:24:16.220
+once do you see access yeah I have got the access right now okay yeah like I
+
+02:24:16.220 --> 02:24:24.660
+shared miss okay I'll pull this window here for everyone yeah please share
+
+02:24:24.700 --> 02:24:37.700
+yeah is my screen visible I don't see your screen being shared now is it
+
+02:24:37.700 --> 02:24:49.300
+visible no can anyone can anyone see guys I am not able to see that oh is it
+
+02:24:49.340 --> 02:24:54.780
+I'm not able to see it just a second
+
+02:24:58.820 --> 02:25:04.300
+like I'm actually not able to see it do do you mind some bit like you can share
+
+02:25:04.300 --> 02:25:10.580
+me or get a repo I can I can share the screen if you have pushed that code in
+
+02:25:10.580 --> 02:25:16.940
+get up no I haven't pushed it it's just in my local oh okay can you try to
+
+02:25:17.060 --> 02:25:27.940
+reshare it once maybe I'll be able to see it yeah I'll do that yeah yeah
+
+02:25:27.940 --> 02:25:30.460
+shared it
+
+02:25:34.140 --> 02:25:46.300
+I'm not literally okay I'll just try to you know like tell you the problem
+
+02:25:46.340 --> 02:25:52.060
+what's happening huh huh yeah please yesterday when we discussed about the
+
+02:25:52.060 --> 02:26:02.700
+grids right so we like created a layout like head on nav mean so when I try to
+
+02:26:02.700 --> 02:26:08.500
+do it with a dot HTML file right it's like covering the whole page like how
+
+02:26:08.500 --> 02:26:15.660
+we were able to see yesterday but if I create like something as a dot thing
+
+02:26:15.700 --> 02:26:28.340
+right huh as a dot js file huh for the same CSS huh it's like you mean to say
+
+02:26:28.340 --> 02:26:34.740
+that you you manipulated the extension is it correct yes so that wouldn't work
+
+02:26:34.740 --> 02:26:38.820
+right if you are trying to play around with something like an HTML files in
+
+02:26:38.820 --> 02:26:44.660
+HTML like how does browser understand it okay like if you're using dot js
+
+02:26:44.660 --> 02:26:51.060
+extension it's a code which is to try to render it but it won't be able to pass
+
+02:26:51.060 --> 02:26:58.100
+the CSS from that that's how extension works extensions like if I if I try to
+
+02:26:58.100 --> 02:27:02.420
+show it right let me share my screen I'll show you that example like whatever
+
+02:27:02.420 --> 02:27:10.180
+you are trying to do it let me know if you can see the screen yeah I can right
+
+02:27:10.660 --> 02:27:19.540
+now this is let's say I pick this HTML I have show preview yeah now let's say I
+
+02:27:19.540 --> 02:27:32.580
+convert this into js file okay do you see this what just happened yeah that I
+
+02:27:32.580 --> 02:27:38.020
+understand like this show preview is not working but I am like running it on the
+
+02:27:38.020 --> 02:27:45.140
+server okay like I connected the CSS to this JS every CSS is working fine only
+
+02:27:45.140 --> 02:27:52.380
+the width and height are getting affected oh then I think I need to look
+
+02:27:52.380 --> 02:27:56.740
+at it completely are you can you push that code and I can check and I can let
+
+02:27:56.740 --> 02:28:01.540
+you know in the whatsapp chat yeah sure I'll do that yeah push that code I can
+
+02:28:01.540 --> 02:28:08.620
+check that okay if I think you are trying to send HTML from a JS code you
+
+02:28:08.620 --> 02:28:12.540
+are trying to it's like server-side rendering if I try to space specifically
+
+02:28:12.540 --> 02:28:19.780
+I'm trying to render the HTML from the server not sure I'll just push it then
+
+02:28:19.780 --> 02:28:26.740
+maybe I can discuss on that yeah sure sure sure I'll do that yeah yeah thanks a
+
+02:28:27.060 --> 02:28:31.780
+yeah so I'll mute you back yeah
+
+02:28:36.220 --> 02:28:45.140
+guys any yeah like there's a one cool website case open the hash shared
+
+02:28:45.140 --> 02:28:50.660
+earlier also I bookmarked it but if you see this this is something let's say if
+
+02:28:50.660 --> 02:28:57.540
+I click this if you see this it's a music got play started playing once it
+
+02:28:57.540 --> 02:29:04.900
+loads it is a 3d website
+
+02:29:08.100 --> 02:29:18.580
+okay when I click start there's a music can anyone here along with me okay let's
+
+02:29:18.580 --> 02:29:28.140
+do one thing I'll pin this play in your systems yes play in your systems finally
+
+02:29:28.420 --> 02:29:39.700
+play in your system and click on the start button stop the music right you
+
+02:29:39.700 --> 02:29:44.660
+are able to see that music now let's let's say like actually what's happening
+
+02:29:44.660 --> 02:29:50.140
+this is a really cool site that they built it but what's happening here when
+
+02:29:50.140 --> 02:30:00.060
+I load this let's say I do it in incognito so that I can see what all
+
+02:30:00.060 --> 02:30:09.740
+things are happening okay inspect it and I click play load it first it got this
+
+02:30:09.780 --> 02:30:21.140
+one then you see it is downloading still or else I can say that this is parsing
+
+02:30:21.140 --> 02:30:28.380
+the content whatever content you have they have shared it is parsing okay if
+
+02:30:28.380 --> 02:30:36.100
+you see the amount of MBs resource got downloaded okay the amount of MBs that
+
+02:30:36.100 --> 02:30:44.420
+got downloaded 10 KB per second where 23 24 MB 23 MB of data is transferred
+
+02:30:44.420 --> 02:30:49.820
+onto the client it for sure this site looks cool because they added loader
+
+02:30:49.820 --> 02:30:54.420
+there initially okay but if you go and explore this one right what what could
+
+02:30:54.420 --> 02:31:00.380
+be the thing that they might have done if you see that mp3 where they have
+
+02:31:00.380 --> 02:31:16.060
+linked let's say if I try to find this way this mp3 is loaded like this music
+
+02:31:16.060 --> 02:31:29.460
+is coming from or let's do something let's do something this is the code
+
+02:31:29.460 --> 02:31:39.380
+that they have it right let's say I have a start button this is start button is
+
+02:31:39.380 --> 02:31:45.900
+it button start here now whenever you click this button they that but let it
+
+02:31:45.900 --> 02:31:51.540
+start loading it now they have use position fixed inline cells that are
+
+02:31:51.540 --> 02:32:01.380
+fine but on click of this button there should be something happening so if I go
+
+02:32:01.380 --> 02:32:10.180
+into the JS part where is the JS code or else let's say if I can debug this one
+
+02:32:10.180 --> 02:32:19.740
+okay I didn't go through that one but one thing I would unappreciate this
+
+02:32:19.740 --> 02:32:27.460
+website is actually a sound would you won't be able to find this one sound
+
+02:32:27.460 --> 02:32:33.660
+footer sound yeah sound labels and everything is there that's that's cool
+
+02:32:33.660 --> 02:32:40.380
+site but one thing I have only one issue right guys here is that the amount of
+
+02:32:40.380 --> 02:32:48.860
+resource if you see twenty nine point three MB data transfer right do you see
+
+02:32:48.860 --> 02:32:56.380
+this twenty nine twenty nine point three MB of data that is received firstly let's
+
+02:32:56.380 --> 02:33:06.100
+go pick any website let's pick any big website that you want let's go and
+
+02:33:06.100 --> 02:33:13.220
+amazon.com just see how much of data is transferred for me to reach this
+
+02:33:13.220 --> 02:33:18.700
+particular site okay since I'm doing from incognito it asked me to enter
+
+02:33:18.700 --> 02:33:27.740
+this PCC EAN let's I clear this again I continue shopping okay it loaded with a
+
+02:33:27.740 --> 02:33:33.100
+whole website but if you see for the whole Amazon level of content it it got
+
+02:33:33.100 --> 02:33:43.620
+only downloaded 4.6 MB of data that big huge website let's go and open YouTube
+
+02:33:43.660 --> 02:33:49.980
+okay YouTube being the biggest streaming service content right let's say I go to
+
+02:33:49.980 --> 02:34:00.220
+YouTube now see when I'm playing YouTube imagine YouTube got loaded with only
+
+02:34:00.220 --> 02:34:11.100
+2.1 MB 2.1 MB guys imagine if you see the amount of requests are going the
+
+02:34:11.100 --> 02:34:15.580
+things now but if you go and load this website for the initial load you are
+
+02:34:15.580 --> 02:34:24.300
+trying to download 29 MB at the speed of 10.7 KB so that load time if you see the
+
+02:34:24.300 --> 02:34:29.940
+load time here it takes it took 9.1 seconds to load the website whereas if
+
+02:34:29.940 --> 02:34:35.980
+you go for YouTube it took 1.5 second for Amazon it took 3.5 second because I
+
+02:34:35.980 --> 02:34:40.780
+had to enter that key all else it would be speed now which website you would
+
+02:34:40.780 --> 02:34:46.260
+prefer guys let's say you are on Instagram you have one reel and it got
+
+02:34:46.260 --> 02:34:50.740
+stuck for one second or two second would you state that or you would move to the
+
+02:34:50.740 --> 02:34:53.220
+next reel
+
+02:34:57.700 --> 02:35:05.380
+next right so in industry right in industry one of the basic norm one of
+
+02:35:05.380 --> 02:35:10.500
+the basic norm is that hey your content right your content whatever the content
+
+02:35:10.500 --> 02:35:15.820
+you are having firstly you have to consider two things first is once you
+
+02:35:15.820 --> 02:35:20.580
+build since I didn't introduce Dom imagine once your Dom is built right
+
+02:35:20.580 --> 02:35:27.020
+then the painting starts happening on the site so the Dom content load this is
+
+02:35:27.020 --> 02:35:33.260
+most important parameter this parameter of load 3.5 seconds is might be loading
+
+02:35:33.260 --> 02:35:37.380
+JavaScript and every other thing it will be kept on loading the code that's fine
+
+02:35:37.380 --> 02:35:42.300
+but this thing matters more let's go and see it for this site what they have
+
+02:35:42.300 --> 02:35:49.500
+done it is taking 5.7 seconds now if you go and do that performance testing right
+
+02:35:49.500 --> 02:35:55.620
+for this website let's say I do this one profiling
+
+02:35:59.780 --> 02:36:07.300
+since it is already downloaded it might not download because it is cached okay
+
+02:36:07.300 --> 02:36:11.380
+but you will able to analyze the results here which will show that hey it is
+
+02:36:11.380 --> 02:36:16.220
+taking more amount of time and everything okay but one of the best
+
+02:36:16.220 --> 02:36:20.020
+thing is to do is lighthouse testing has anyone done it this one lighthouse
+
+02:36:20.020 --> 02:36:22.420
+testing
+
+02:36:24.900 --> 02:36:31.460
+so this test this is like on a chrome if you want to test your any website you
+
+02:36:31.460 --> 02:36:36.180
+want to test its performance or accessibility best practices you can go
+
+02:36:36.180 --> 02:36:40.540
+to lighthouse and analyze the page load let's say if I do analyze the page load
+
+02:36:40.540 --> 02:36:45.500
+it will be audit that whole website it will audit that website and it will test
+
+02:36:45.500 --> 02:36:49.140
+and let you know that how you can improve your website let's say it is
+
+02:36:49.140 --> 02:36:53.340
+downloading the whole content again see if it says if the site takes more than
+
+02:36:53.340 --> 02:36:58.100
+one second so it will give you the all the speeds and it will compare it will
+
+02:36:58.100 --> 02:37:00.900
+do the all the analytics and give you the results of your website whether your
+
+02:37:00.900 --> 02:37:08.100
+website is good enough or wrong it's a really cool project I hats off to them
+
+02:37:08.100 --> 02:37:12.740
+who have built it and they have done only one server side render projected
+
+02:37:12.740 --> 02:37:18.020
+everything into one file of HTML that's where it hit me hard if they wouldn't
+
+02:37:18.020 --> 02:37:22.700
+have that only one thing right if they had lazy loading sort of concept if you
+
+02:37:22.700 --> 02:37:27.980
+see performance got hit all the other parameters are really great but if their
+
+02:37:27.980 --> 02:37:32.260
+engineers have decided that we'll take a hit on a performance then you should
+
+02:37:32.260 --> 02:37:38.420
+see if I go and a YouTube okay I go and do it on a YouTube let's say I select a
+
+02:37:38.420 --> 02:37:44.100
+SEO progressive web app also and like the speed
+
+02:37:45.500 --> 02:37:51.460
+let's see how fast what results this YouTube gives us
+
+02:37:57.980 --> 02:38:12.100
+this is taking time to do it but you can experiment on your on your things guys
+
+02:38:12.100 --> 02:38:18.380
+go do it on your projects that you are building or talk to them like how can
+
+02:38:18.380 --> 02:38:23.300
+you improve it or what you can do it right talk to them if you see YouTube
+
+02:38:23.300 --> 02:38:30.260
+performance got hit drastically okay they now the best thing right the best
+
+02:38:30.260 --> 02:38:35.540
+thing what they can do what this lighthouse gives you it gives you a few
+
+02:38:35.540 --> 02:38:42.700
+parameters these are the once you become higher level of engineering in front end
+
+02:38:42.700 --> 02:38:47.980
+right this is somewhere you will come and fix the issues like first content
+
+02:38:47.980 --> 02:38:52.620
+full paint total blocking time I'll talk about this parameter step by step but
+
+02:38:52.620 --> 02:38:58.420
+not now but if you come to this website let's say first let's say their time
+
+02:38:58.420 --> 02:39:03.420
+what is the most time of the most time spent first content full paint is 2.8
+
+02:39:03.420 --> 02:39:09.540
+seconds for the YouTube it is 2.3 seconds okay this parameter should be as much
+
+02:39:09.540 --> 02:39:14.380
+slow as possible and you will get you can calculate everything right you will
+
+02:39:14.380 --> 02:39:22.180
+get so you'll see that all the things that you are getting if you they are
+
+02:39:22.260 --> 02:39:26.780
+pointing out something called index TV now if you go into the application and
+
+02:39:26.780 --> 02:39:30.980
+there is something called index TV they are having too much of data stored
+
+02:39:30.980 --> 02:39:40.660
+guys and therefore this one okay for the YouTube for like percent entities to you
+
+02:39:40.660 --> 02:39:48.540
+can or do play around with this data I'm doing it so this is in incognito mode
+
+02:39:48.540 --> 02:39:53.500
+this is the performance but if I do it for the YouTube again in the normal
+
+02:39:53.500 --> 02:39:57.180
+browser right it will load it faster rate because they have all the data
+
+02:39:57.180 --> 02:40:03.720
+cached it need not to download again we'll explore this DB also like once we
+
+02:40:03.720 --> 02:40:09.340
+go in the JS part like all the DBS that are given here
+
+02:40:09.340 --> 02:40:15.180
+it's too much we have discussed so let's close the session today we'll come back
+
+02:40:15.660 --> 02:40:21.420
+on Thursday where we'll start JavaScript and we'll explore further but I would
+
+02:40:21.420 --> 02:40:27.580
+ask you guys you know to complete your assignments and do whatever problems
+
+02:40:27.580 --> 02:40:34.740
+you face let me know okay we'll explore that okay some with I'll I'll mark your
+
+02:40:34.740 --> 02:40:39.740
+question as answered as of now but I'll pick it off line okay
+
+02:40:39.780 --> 02:40:46.620
+so nobody's that can we close the session guys today for today final thumbs
+
+02:40:46.620 --> 02:40:54.820
+up cell and see you in the next class guys hope you do your assignments
+
+02:40:54.820 --> 02:41:01.820
+good night guys take care bye guys
+
+02:41:02.860 --> 02:41:07.860
+thank you Kendra good night
+
+02:41:09.740 --> 02:41:12.800
+you
+

@@ -1,0 +1,3596 @@
+WEBVTT
+
+00:00.000 --> 00:20.580
+Okay.
+
+00:20.580 --> 00:46.900
+Hi Kabir, so how's everyone doing guys, how's your energy, we are about to complete our
+
+00:46.900 --> 00:53.540
+HTMLC, CSSJS, we'll get started with React next week, how are you guys feeling about
+
+00:53.540 --> 01:07.900
+that? Excited or the current content you have consumed is heavy? Panic? Why Kabir, you've
+
+01:07.900 --> 01:16.620
+been following up classes right? Let's keep that worry aside guys, panic, worry, these
+
+01:16.620 --> 01:23.500
+are big words, okay, yeah, so I'm planning something for that Muneshwar, so we'll talk
+
+01:23.500 --> 01:29.620
+about it like once we have good amount of people, I wanted to take some initiative,
+
+01:29.620 --> 01:36.940
+let's see how many people joins that or how that will go, because I want you guys to be,
+
+01:36.940 --> 01:41.680
+if you are learning, since when we say it's a full stack developer, it's more of a front-end
+
+01:42.040 --> 01:50.760
+full stack developer isn't it, so the more knowledge is consumed on the browser side,
+
+01:50.760 --> 01:56.520
+so considering that, I want everyone to be good with that web development part at least,
+
+01:56.520 --> 02:05.960
+so let's see, I'll talk about that in some time, but keep that worry aside guys, someone
+
+02:05.960 --> 02:10.840
+thinking like where to start, I'll talk about that Kabir, so can I attend, yeah somebody,
+
+02:10.840 --> 02:19.280
+you can attend, you can attend, yeah, yeah Kabir, you can ask, you can ask, we have good
+
+02:19.280 --> 02:44.520
+amount of time, we can ask, so okay, so let me open VS code, yeah, I'll repeat that Arun,
+
+02:44.520 --> 02:50.840
+I'll repeat that before getting started with today's class, we'll again solve last 4 to 5
+
+02:50.840 --> 02:59.680
+questions, so that everyone is you know fresh with that energy, but let me take up a question
+
+02:59.680 --> 03:09.400
+by Kabir, so he had some question, okay, let's do one thing, I'll paste your question here,
+
+03:09.520 --> 03:16.120
+post end of the class, let me know if you are able to answer this or not, okay, I won't pick it up
+
+03:16.120 --> 03:31.280
+right away, because this concept will be covered today, okay, works Kabir, I'll add your question
+
+03:31.280 --> 03:48.400
+as doubt, so let me start the screen share guys, do let me know if you can see the screen share,
+
+03:48.400 --> 04:08.280
+guys can you see the screen share, working fine, cool, so I've seen right, I've taken a poll related
+
+04:08.280 --> 04:14.680
+to assignments first, so I wanted to talk more on that, like I want to talk about whole about
+
+04:14.680 --> 04:20.880
+curriculum part, like how things spin, how we can improve on, so from your point of view,
+
+04:20.880 --> 04:25.200
+from my point of view or scalar point of view, right, so there are too many things that we have
+
+04:25.200 --> 04:31.120
+to discuss and we will sit together with your points with my points, right, so let's communicate
+
+04:31.120 --> 05:01.080
+that way, then it will be better for us, okay, I see only 19 people, let's say I put
+
+05:01.080 --> 05:01.600
+a message,
+
+05:31.080 --> 05:53.480
+okay, I see two people joined more, but let's wait for three to four minutes more, before
+
+05:53.480 --> 06:01.160
+we talk on anything else, but anyone having any particular like, you know, anything that if you
+
+06:02.040 --> 06:24.520
+concerns, please do let me know, okay, I don't see any concern, specifically anyone having it,
+
+06:24.840 --> 06:31.720
+but if you have anything, you can ping me personally and you know, set up the meeting with me,
+
+06:31.720 --> 06:38.120
+we can discuss over it, since you know, one thing that I want to tell you is like after Thursday's
+
+06:38.120 --> 06:46.360
+class, we have Friday, Saturday and Sunday, three days, where you might be taking a contest on this,
+
+06:46.360 --> 06:55.960
+and this contest will be specifically based on from async classes, async classes to post,
+
+06:55.960 --> 07:02.280
+but I want all of you to be, you know, thorough with all the concepts that we have learned,
+
+07:02.280 --> 07:11.960
+I'll talk about it, how we can achieve that, how we can prepare for that, but again, I don't see
+
+07:11.960 --> 07:33.080
+people coming up, Abhinav, I'll make sure that you have all the content, so even if it is not
+
+07:33.080 --> 07:41.400
+there, you can ask me anytime, anything, but everything will be covered, okay, so if you know
+
+07:41.400 --> 07:46.920
+all these basics in a right fashion, right way, those things will be pretty easy,
+
+07:49.960 --> 07:56.680
+okay, can we fetch data from excel, surely upendra, you can read it from excel or any type
+
+07:56.680 --> 08:07.960
+of data type, any MIME type right, like you can read data from that, it would be interesting,
+
+08:08.520 --> 08:17.480
+it would be kind of reverse engineering Abhinav for you, so let's see, like when we see 12 classes,
+
+08:17.480 --> 08:24.360
+it's approximately one month, if I don't have any emergencies, it will be done in one month, so
+
+08:24.360 --> 08:35.000
+you can say mid of April, by April you should be having good amount of knowledge, and with you,
+
+08:35.000 --> 08:40.120
+Abhinav having hands-on, it would be far easier for you, better like day to day and day out,
+
+08:40.120 --> 08:45.160
+because you'll be having a really good code base already available to you to understand the code,
+
+08:45.160 --> 08:50.280
+read through the code, right, I hope that's a latest code, right, it's having all functional
+
+08:50.280 --> 09:00.280
+components, like if you understand that keyword at least, there are no classes in that, yeah, okay,
+
+09:01.160 --> 09:01.660
+great,
+
+09:05.880 --> 09:10.600
+great upendra, so I hope everyone is, you know, trying to apply the knowledge we have gained
+
+09:10.600 --> 09:18.360
+over the time, just try to put your hands through, as I told you, it's when you're being a UI
+
+09:18.360 --> 09:23.000
+developer or front-end developer, it's all about visualization, how do you see things working,
+
+09:23.560 --> 09:28.920
+where things should be going, what, how it should be working, so the more curious you are understanding
+
+09:28.920 --> 09:33.960
+the real-time world, like whatever you see on screens or the desktop, even for the matter, say
+
+09:34.920 --> 09:39.800
+televisions or any screens that you see, you should be able to see like what it takes to build that,
+
+09:39.800 --> 09:45.800
+how would you do it, okay, that initial state of my initial state should be clear, that picture
+
+09:45.800 --> 09:55.000
+should be clear in your understanding, how you can do it, okay, so I see that, you know, it's 10
+
+09:55.000 --> 10:01.960
+minutes, but let me pull the screen,
+
+10:11.160 --> 10:20.360
+okay, so can we get started guys, it's 10 minutes up, with one thumbs up, I have good amount of
+
+10:20.360 --> 10:28.120
+people, I expect everyone to be active today, so please guys, keep reacting it, keep showing
+
+10:29.000 --> 10:33.960
+like, you know, that you are excited about things, like how things are going to be, so
+
+10:35.240 --> 10:44.200
+there are two classes left specifically for completing whole HTML, CSS and JS part,
+
+10:44.920 --> 10:47.000
+these are three introductory modules,
+
+10:53.560 --> 11:01.800
+okay, so you have already completed two contexts, so I hope everyone has already attempted it,
+
+11:02.440 --> 11:06.680
+guys can you give a thumbs up, if you have attended already two contests that has been taken place,
+
+11:07.560 --> 11:13.720
+and I also assume people who are giving me thumbs up, they also felt that those topics are really
+
+11:13.720 --> 11:24.920
+relatable, right, every topic, so I mean, you would have that, you would completely understand
+
+11:24.920 --> 11:32.840
+it, you know, that's my, keep trust on me, will help you out, okay, so now there is a one more
+
+11:32.840 --> 11:40.600
+contest coming up guys, which will be based on mostly on the JS part, so be ready with that,
+
+11:40.680 --> 11:47.240
+and don't be worried or panic or wait to start, how to start, what to ready, because after this
+
+11:47.240 --> 11:54.840
+contest, we are going to have a mock interview, which is more important, from people, is there
+
+11:54.840 --> 12:00.440
+anyone who picked up masters here, it's Kayla, is there anyone who picked up masters,
+
+12:02.200 --> 12:07.000
+I don't see, I have seen only one people giving me thumbs up too,
+
+12:11.240 --> 12:13.480
+okay, is it recording,
+
+12:17.560 --> 12:19.160
+is my screen share visible guys,
+
+12:22.440 --> 12:25.400
+Maneshwara says that I don't see a timer, which I usually I can see,
+
+12:28.760 --> 12:38.200
+hey, it's working fine, it's not, I cannot talk on that, we know, it's really helpful,
+
+12:38.200 --> 12:43.320
+if you are not from CS background, but it's also like anyways, you are putting all amount of
+
+12:43.320 --> 12:48.120
+efforts going through the curriculum, it's just like giving a few more exams and you get a degree,
+
+12:48.120 --> 12:55.000
+why not, right, that's another reason, and plus, it really helps you, if you are planning to migrate
+
+12:55.000 --> 13:00.760
+to Europe in future, if you have an European credits, it's really easy for you, right,
+
+13:00.760 --> 13:06.200
+showing that I've studied here, so so and so, your immigration becomes easy, so there are multiple
+
+13:06.200 --> 13:12.680
+benefits out of it, multiple things, so you have to consider that, so you can reach out any help
+
+13:12.680 --> 13:17.560
+desk, but I see that there are two people who are actually attempting taking the masters,
+
+13:20.280 --> 13:28.920
+right, yeah, it is an European degree, it is not an Indian degree, so the credits will be ECTS
+
+13:28.920 --> 13:37.880
+credits, so this this credit system is based out of Europe, so the degree is only valid in Europe,
+
+13:38.600 --> 13:44.280
+and whichever country accepts the ECTS, ECTS credits, those countries also agree that you
+
+13:44.280 --> 13:49.000
+have done the masters, so basically Europe's a Europe centric and North America, South America,
+
+13:49.000 --> 13:56.280
+everyone agrees that you have done masters or proper masters, so it's a valid kind of thing,
+
+13:57.160 --> 14:03.720
+so but one thing I want to mention about mock is that, it's one is like people who are doing
+
+14:03.720 --> 14:09.960
+masters, and people who are not even doing masters, but you know, if you have gone through
+
+14:09.960 --> 14:16.840
+placement policies, one of the most important thing, if they want to shortlist, if scaler need
+
+14:16.840 --> 14:22.840
+to help you out, they always check whether the mock interview is cleared or not, let's say you in
+
+14:22.840 --> 14:32.200
+your resume, you say that you have mentioned HTML, CSS, JS, right, you mentioned three of them,
+
+14:32.200 --> 14:36.840
+but they'll check whether this person is qualified, like when how they filter it out,
+
+14:36.840 --> 14:42.920
+is that depending on your mock clearance, your resume, you are like, you cannot apply it, most
+
+14:42.920 --> 14:48.440
+of the things on your career portal, from a scaler's help, the second thing is, and the
+
+14:48.440 --> 14:55.560
+con mocks are not really in order to judge you, not in order to judge you, but in order to help
+
+14:55.560 --> 15:01.880
+you out, actually, if you think from the perspective of taking a hell, it would be really working in
+
+15:01.880 --> 15:08.440
+your case, because you have multiple attempts, you can do it, and this, whatever we are learning,
+
+15:08.440 --> 15:17.320
+monstack, the basic building block for this one, we have covered most of them, like these three
+
+15:17.320 --> 15:23.480
+concepts, so I hope once you are better clear with this, and you clear mocks, you'll be better
+
+15:23.480 --> 15:29.320
+equipped, understanding react and node.js, and which will boost you up whenever you go and face
+
+15:29.320 --> 15:36.680
+interviews, so I wouldn't prefer anyone, like once we complete react classes, directly go and sit in
+
+15:36.680 --> 15:43.880
+interviews, just go and give a mock, try to see what actually the people who are in industry already,
+
+15:43.880 --> 15:48.920
+what they expect out of you, when you say that I'm a react developer or I'm a front end developer,
+
+15:49.480 --> 15:53.960
+so check like whether they're asking machine coding or theory questions, there is nothing
+
+15:53.960 --> 15:58.120
+costing you, you have already paid fees for that, it's just that if you give an attempt, you get to
+
+15:58.120 --> 16:07.160
+know it more, okay, so please remove these two words, like panic and worry, this doesn't really
+
+16:07.240 --> 16:15.000
+help, okay, not a worth of it, like be chill, enjoy the journey, firstly, enjoy the process,
+
+16:16.200 --> 16:21.640
+go through the content, I have given you all the github codes, I've always been available, whoever
+
+16:21.640 --> 16:28.680
+asked me out, like I've been always like first to react it, or help them out, so if you need any
+
+16:28.680 --> 16:34.920
+help, I'll be there, so there's one more initiative that I'm taking for you all guys is that,
+
+16:35.000 --> 16:42.840
+so I've seen when I've raised poll, let's say if there are 100% of people who reacted to that poll
+
+16:42.840 --> 16:52.840
+in whatsapp, if you see more than 50% of people are above 80% of PSP in PSP terms, and there are
+
+16:53.800 --> 16:57.160
+30% of people above 50,
+
+17:02.040 --> 17:12.680
+right, and 20% of people below 50, so my target firstly, in order to revise concepts,
+
+17:13.480 --> 17:20.760
+how would you revise any concept, how would you do it anything faster, because R in HTML, CSS, JS,
+
+17:21.720 --> 17:27.960
+all things are mostly theory, even if you go for assignments or homework problems, most of them
+
+17:27.960 --> 17:35.640
+were theory, so what I want is that you revising the stuff firstly, revising assignment questions,
+
+17:35.640 --> 17:42.760
+which in turn, which will help you, hey, this is a concept and let's figure out, reattempting it,
+
+17:42.760 --> 17:48.920
+okay, people who have done, I really appreciate your effort, but I want all the other people also,
+
+17:49.320 --> 17:55.400
+join in, try to complete it, and revising through assignments would be far easier than
+
+17:55.400 --> 18:00.360
+going through each of the notes, do you guys agree with that point, because after each class,
+
+18:00.360 --> 18:05.560
+you might have 5 to 10 questions, and it would be really easy to skim through it, like one by one,
+
+18:06.200 --> 18:12.280
+and if you do it twice, let's say you pick it up, let's say you pick it up HTML, like for one hour,
+
+18:13.000 --> 18:18.600
+it has only two classes, it will take more than enough one hour, CSS, let's say you give three
+
+18:18.600 --> 18:27.000
+hours, right, it has five classes, that's done, two topics are done, JS, maybe split into three parts,
+
+18:27.000 --> 18:33.640
+async.js, then you have DOM manipulation, where you actually interact with it, then you have the
+
+18:33.640 --> 18:40.360
+other important concepts like harvesting and any other important concepts that you think of, so
+
+18:40.360 --> 18:45.960
+split one by one, and divide into hours, and so that you can, you know, everything, if you see a
+
+18:46.760 --> 18:51.560
+really big picture, that here I have too much of syllabus, and covering that one would be really
+
+18:51.560 --> 18:58.840
+difficult for me, don't think it that way, take it part by part, as we have covered the classes,
+
+18:58.840 --> 19:04.120
+where like 30 classes of content revision may not be done in one hour, it may not be done in two
+
+19:04.120 --> 19:09.800
+hours, for the complete beginner, it might take 10 hours, that's okay, it's all fine, we have assigned,
+
+19:09.800 --> 19:14.040
+we've been, you know, taken up this challenge itself, where we'll try to complete that,
+
+19:14.040 --> 19:19.320
+and be good with that, so break your task, whichever task you have, into multiple small
+
+19:19.320 --> 19:26.600
+chunks, and try to go through it, and I'm going to be with you, so what I thought is right,
+
+19:26.600 --> 19:33.400
+one initiative to help you out guys, to achieve, you know, completing, so I just, you know,
+
+19:34.200 --> 19:40.760
+my goal, since first thing is like everyone have, everyone have paid, everyone have paid that same
+
+19:40.760 --> 19:45.880
+amount of money, right, so everyone had paid same amount of money, so I just want everyone to have
+
+19:45.880 --> 19:53.960
+this 100% firstly on this, 100% of PSP, which will help me out, ensure that whatever I deliver in
+
+19:53.960 --> 20:00.680
+React and Node.js, you are able to understand that firstly, if you know, if you go and check that,
+
+20:01.160 --> 20:10.520
+a share that I have done in WhatsApp group, that one particular LinkedIn post, have 90% of concepts
+
+20:10.520 --> 20:18.200
+we have, you know, revised in JS part, I mean, discussed in JS part, so five to six files,
+
+20:18.200 --> 20:24.040
+which will cover most of them, if you skim through it, the topics will be covered, so I've
+
+20:24.040 --> 20:28.840
+wantedly shared that, where you can start that particular, you know, a LinkedIn post, which has
+
+20:28.840 --> 20:35.480
+a multiple, everyone can look at it in WhatsApp group, so maybe I'll share that and I'll show it,
+
+20:36.520 --> 20:41.480
+yeah, do check that, but it will cover, so the initiative that I was talking about is that, you
+
+20:41.480 --> 20:47.880
+know, one thing usually you might have been saved from the day one class that, hey, if your class is
+
+20:47.880 --> 20:55.240
+from 9 to 11.30 pm on Tuesday, Thursday, Saturday, don't consider the other days as holiday, like
+
+20:55.240 --> 21:01.160
+Monday, Wednesday and Friday, like try to spend this two hours, two and a half hours, right,
+
+21:02.520 --> 21:06.680
+this might have been already told to you, that leverage this other days,
+
+21:08.200 --> 21:12.920
+you know, are you able to do that, are you actually consciously able to do that,
+
+21:14.280 --> 21:22.200
+did anyone try, are you able to leverage this, the other alternate days, so this is where I
+
+21:22.200 --> 21:29.640
+wanted to take initiative, so one thing I thought was like, where I can, because I've seen people
+
+21:29.640 --> 21:40.200
+having reasons that, hey, I have office, I have class, I have home and multiple other responsibilities,
+
+21:40.200 --> 21:49.800
+all right, that's all fine, in my case, I have office, I have class, I have to prep for class
+
+21:50.520 --> 21:55.160
+and home, do you see that I have an extra work than you guys,
+
+21:56.600 --> 22:01.560
+can you consider that I have to prep for it, for your class, like if I want to teach you,
+
+22:01.560 --> 22:08.600
+I have to be preparing that content, isn't it, so I have some extra work more than you, so even then
+
+22:08.600 --> 22:13.160
+like what I'm planning is like, I'll sit with you, along with you on this Monday, Wednesday, Friday,
+
+22:13.640 --> 22:18.600
+where we'll be, you know, on session, like where you can group of people can come and join, it's
+
+22:19.480 --> 22:25.960
+like a kind of a study, where we won't be talking much, but I just want to show that, how can you
+
+22:25.960 --> 22:31.720
+manage time better, I'll be sitting with you, on back of site, either you do office work, either
+
+22:31.720 --> 22:37.800
+you do your assignments, either you do something, we can keep communicating, we can keep chatting,
+
+22:37.800 --> 22:43.720
+but I just want you to spend those like 9 to 11.30, blocking those hours, right, I want to block
+
+22:43.720 --> 22:49.480
+these hours for the next two months, because the important topics are going to come up and
+
+22:49.480 --> 22:53.640
+everything will be, you know, bundled up together and it would be difficult for you to digest it,
+
+22:56.520 --> 22:59.320
+so do you guys want to do that,
+
+23:01.800 --> 23:07.640
+yeah, Abhinav says that he is doing actually, you know, assignments in the free time itself,
+
+23:07.640 --> 23:12.920
+so Abhinav, you can do that in session, like you can do other office work again, or like you can
+
+23:12.920 --> 23:18.200
+study about the like mock interview, so anything you can do, I'll be there, we can chat, we can
+
+23:18.200 --> 23:23.400
+discuss about a certain topic, if you have, so I just want to make sure that I'm with you guys,
+
+23:23.400 --> 23:29.160
+like it's like a kind of a you can say, if you have a face somewhere like study or concept,
+
+23:29.720 --> 23:33.800
+where I'll be doing my own personal work, maybe my office work or anything, but I'll be there
+
+23:33.800 --> 23:43.400
+with you guys, okay, so I tried to find multiple mediums, like maybe google meet, zoom calls,
+
+23:44.040 --> 23:51.800
+right, nothing was working out, because everything has its own limitations, when you consider like
+
+23:51.800 --> 23:58.760
+how many people can join, how long you will have it, so even, you know, creating a dummy class would
+
+23:58.760 --> 24:04.280
+be really difficult, like in scalar also, so I thought that like I'll be streaming on youtube,
+
+24:04.280 --> 24:09.160
+where we can discuss it, I'll share personal link with you in the whatsapp group, where you can join
+
+24:09.160 --> 24:13.960
+and we can discuss over, because these people provide free services, right, everyone keeps
+
+24:13.960 --> 24:22.600
+streaming it, so we'll use it for studies, like parallelly, so I hope you sign up, because I'm
+
+24:22.600 --> 24:28.920
+here to help you out and you have signed up to take up this big task, where you are actually
+
+24:28.920 --> 24:34.120
+paying this too much amount of money, where you want to leverage it, so let's come back,
+
+24:34.120 --> 24:39.160
+let's stick together, let's figure out what we need to do and how we want to approach,
+
+24:39.160 --> 24:47.960
+right, so first and foremost thing, I, yeah, so Muneshwara says that this has already happened,
+
+24:48.920 --> 25:00.040
+okay, discord server, I'll check that, so I'll do that, but I just created a youtube account,
+
+25:00.040 --> 25:06.440
+so I just thought like I didn't find anything, but even we can do the discord server, but what
+
+25:06.440 --> 25:10.600
+I'll do is that, once we pass out, right, I'll create a discord server, where we can keep
+
+25:10.600 --> 25:16.040
+communicating offline, anyways we have whatsapp, I'll be anyways available to you all guys,
+
+25:16.040 --> 25:21.480
+but let's see, let's start that initiative, I just want that people come in and leverage this two
+
+25:21.480 --> 25:28.600
+and a half hours and only my efforts are towards your betterment, where you try to achieve this
+
+25:28.600 --> 25:34.200
+mark and you know, if I see some people, while the batch is going on, if one two people even get
+
+25:34.200 --> 25:39.160
+placed from react or node.js, it would be really good for me, like if I just want to know your
+
+25:39.160 --> 25:45.320
+experiences, how things are going, even for the mock attempt, right, so I'm going to do that,
+
+25:46.280 --> 25:52.120
+so that's the reason why I'm trying to push you guys, and only this way you will be able
+
+25:52.120 --> 25:55.880
+to study and revise the concepts too, and I'll be available, so that you go through
+
+25:56.440 --> 26:03.640
+the github nodes, anything, if they're like you can revise it and come back to me, so does it
+
+26:03.640 --> 26:07.800
+does it find good guys, would you be joining it, give me thumbs up, if you feeling like joining it,
+
+26:07.960 --> 26:13.080
+so I'll be pasting that links in the alternate days of class, in the like whatsapp group,
+
+26:13.080 --> 26:19.560
+I hope to see everyone, who are you know, wanted to actually build their thing, I'm not asking you
+
+26:19.560 --> 26:26.840
+to particularly drive any particular task, that you do it, it's your forum, you do it anything,
+
+26:26.840 --> 26:31.080
+but I'm there with you, if you need anything from my side, okay, it's just that we are doing
+
+26:31.080 --> 26:36.120
+collectively sitting and doing our own works, okay, so that's it for today, I hope you guys
+
+26:36.520 --> 26:45.320
+okay, so I just want this to you know, you guys clear mock interviews and prep for that, okay,
+
+26:46.040 --> 26:55.240
+so with this, that was a short announcement that I wanted to do, but let's get started with
+
+26:55.240 --> 27:02.920
+today's agenda, what we are going to discuss, and how today's class is going to be, so mostly right,
+
+27:03.640 --> 27:10.600
+we have two classes, so I'll try to cover today closure, and do you know we have missed two data
+
+27:10.600 --> 27:22.040
+searches, like in JS, a good amount of like important data, like when we cover data types
+
+27:22.040 --> 27:29.000
+and other things, do you think anything we have missed it, does anyone recall that something we
+
+27:29.000 --> 27:38.760
+haven't covered, do you remember have we covered map and set, do you recall if we came across this
+
+27:38.760 --> 27:48.360
+use case, no right, so we'll cover these three things today, from like you know, like we'll
+
+27:48.360 --> 27:51.960
+just put our hands to understand the concepts, in the next class,
+
+27:51.960 --> 27:57.720
+right, next class is more of a advanced asynchronous coding, where there is nothing like
+
+27:57.720 --> 28:03.480
+a more advanced asynchronous coding, but what I'll do is that, since we have two and a half hours,
+
+28:04.680 --> 28:13.320
+I'll try to revise whole things that we have done it till now, whoever are not attempted any class
+
+28:14.280 --> 28:21.720
+or didn't come across, I would ask everyone to be there, and I would ask you to nominate
+
+28:21.720 --> 28:26.680
+like which topic you want to re-discuss on the WhatsApp group, or if you want to pick it up
+
+28:26.680 --> 28:32.440
+something new, ping that nominate that topic, so that we revise through the things and understand
+
+28:32.440 --> 28:38.920
+it completely digested, and one more thing I have shared you one of the, yeah we'll do that poll
+
+28:38.920 --> 28:44.280
+Kabir, we'll do that poll, but I've shared you one of the document, like how does web works,
+
+28:44.280 --> 28:54.200
+how many of you have read that, like I mean, like how HTML, CSS and JS is rendered into browser,
+
+29:00.360 --> 29:05.960
+yeah, we'll be doing that anyways some bit in the future, so I just want to cover the whole
+
+29:06.360 --> 29:11.400
+in the future, so I just want to cover the concepts that we have done it, so we'll pick
+
+29:11.400 --> 29:17.320
+it up that way, but guys have you read this something like a document that I've shared you,
+
+29:18.120 --> 29:24.680
+like how actually it's done, how these three things work together and build, okay,
+
+29:24.680 --> 29:29.080
+so I'll pick it up first this one, which actually shows you in behind the scenes how things works,
+
+29:29.720 --> 29:31.560
+so one topic will be covered,
+
+29:38.680 --> 29:44.440
+okay great, so other can nominate it, but let's start with some of the coding guys for today,
+
+29:44.440 --> 29:49.960
+firstly then we'll come to closure and everything, understanding those topics,
+
+29:51.960 --> 29:58.440
+let's say I call it as, firstly let me create an index.html file, I hope you can see
+
+29:58.440 --> 30:07.800
+Visual Studio code, right, okay, let's say you have script,
+
+30:28.440 --> 30:35.800
+okay, so
+
+30:39.080 --> 30:45.800
+now, so I have few questions for you again, okay, before starting today's content, I just want to
+
+30:45.800 --> 30:50.600
+revise few things that I have done in previous class, how many of you were there in previous
+
+30:50.600 --> 30:57.560
+class guys, give me thumbs up, if there is anyone who was not there, I see only one thumbs down,
+
+30:58.440 --> 31:01.400
+okay,
+
+31:06.440 --> 31:12.200
+but let's say if I go back to the previous class and I've covered good amount of examples here,
+
+31:12.840 --> 31:19.160
+okay, just let's just try to you know revise few of the things, how these things were working,
+
+31:20.280 --> 31:26.920
+okay, I'll try to remove all the answers that I have, will revise few examples,
+
+31:27.640 --> 31:32.120
+like how we were able to get this and what was the concept behind, okay,
+
+31:43.080 --> 31:50.680
+let's say we start from 18, yes, I just want you to recall or you know, what do you think
+
+31:50.680 --> 31:56.040
+the answer for this one would be, firstly, I just want someone to you know think what would be the
+
+31:56.040 --> 32:03.480
+output for this one, for the parent file, just think of this one guys, for five minutes, because
+
+32:03.480 --> 32:08.040
+the topic is dependent on this, if you have the good understanding of this, things are sorted,
+
+32:13.560 --> 32:16.920
+though we have done in last class, have received really great amount of answers,
+
+32:16.920 --> 32:18.600
+but just rechecking this one,
+
+32:27.640 --> 32:29.960
+I hope everyone is again trying to solve this,
+
+32:30.920 --> 32:39.240
+Muneshwara has given an answer, but any other people are trying it again,
+
+32:53.000 --> 32:56.440
+okay, Arun has given an answer, so there's a difference in answers now,
+
+32:57.160 --> 33:05.480
+okay, just keep adding your answers again, Thiraj has given his answer,
+
+33:08.600 --> 33:14.520
+guys, I need some new names who are trying out, because Shambhu, okay, you have given an answer,
+
+33:15.800 --> 33:22.920
+any other one, few more, three to four, people giving me this answer would be really great,
+
+33:26.840 --> 33:31.720
+so I hope everyone is paying attention, this concept is really important and
+
+33:32.840 --> 33:36.920
+you will be seeing day in day out, every day in your code, whichever code you write in JS,
+
+33:36.920 --> 33:47.880
+you will be seeing these concepts again and again, okay, Kishore has given his answer,
+
+33:47.960 --> 33:55.400
+so with this, let's see this again, guys, what just happened, yeah, so
+
+33:57.480 --> 34:04.040
+now as soon as first call is like, we call the parent file and this is something in parent file,
+
+34:04.040 --> 34:12.520
+these three things are there, so firstly, we have a var variable, a equal to 20, which is hoisted,
+
+34:12.520 --> 34:19.960
+initialized with undefined, sorry, declared with initially initialized with undefined, then
+
+34:19.960 --> 34:25.560
+actual initialization happens, where 20 is assigned to this a variable, right, then you have a function
+
+34:25.560 --> 34:32.200
+definition, but here you are calling that function, so once your code execution comes here, it goes
+
+34:32.200 --> 34:38.280
+inside this child function, now let's see what is happening in child function, now here, if you see,
+
+34:38.280 --> 34:46.040
+there is a new memory of a is created, okay, whenever you see firstly, a new variable is
+
+34:46.040 --> 34:52.440
+created, this is actually every, we know that every function executes in a separate execution
+
+34:52.440 --> 35:00.920
+context and by default, each function have its, you know, the scope of parent,
+
+35:01.560 --> 35:07.240
+the global execution context, it is available through lexical scoping, right, scope chain,
+
+35:07.240 --> 35:12.280
+there's a level of scopes, different scope, so you always, your child functions or the functions
+
+35:12.280 --> 35:17.720
+which are inside of functions, always have an access to previous, right, that's through happening
+
+35:17.720 --> 35:23.800
+through lexical scoping, now once we have it here, we see that there's a new value, it's initialized,
+
+35:23.800 --> 35:29.960
+now in this particular execution context, another a variable is initialized, this is not going to
+
+35:29.960 --> 35:35.160
+update this existing var, okay, now let us initialize with 10 and we're trying to output
+
+35:35.160 --> 35:41.560
+the console log of a, now this will check this firstly a, whether in its current local memory,
+
+35:41.560 --> 35:46.920
+a value a is available, it says that it is available, then it will print that then, now
+
+35:47.720 --> 35:54.760
+this function declaration comes, then we call that function, now it goes inside that function,
+
+35:54.760 --> 36:01.320
+now we are trying to directly print it, it checks whether in its memory, any there is a new creation
+
+36:01.320 --> 36:08.440
+of variable with variable a, there is no variable a available here, right, then it goes to the parent
+
+36:08.440 --> 36:14.520
+level scope which is its lexical scope, here it sees that let a is 10 is available in parent scope,
+
+36:14.520 --> 36:21.640
+immediate parent, okay, then 10 is printed, then we are actually updating a equal to 30
+
+36:22.360 --> 36:31.080
+and that 30 is actually updating this value as a equal to 30, right, now whenever
+
+36:31.080 --> 36:39.160
+this value is actually updated and you come out, this child like two is executed and you see there
+
+36:39.160 --> 36:46.760
+is a console log of a, now if you see the value of a is updated as 30 in its scope, it prints 30,
+
+36:46.760 --> 36:53.400
+then once if we minimize this child, this whole execution is completed, it comes to the last point
+
+36:53.480 --> 37:00.760
+again it sees a equal to 20, right, so the answer comes 10 10 30 20,
+
+37:01.960 --> 37:08.360
+right, I hope everyone is clear with this point, is this anyone Arun, is this clear with you,
+
+37:09.640 --> 37:17.640
+okay, I hope this is clear with you, now let's go back up, let's answer this one, the parent 4,
+
+37:17.640 --> 37:23.880
+okay, the parent 4, once again,
+
+37:47.640 --> 37:49.880
+okay,
+
+37:56.920 --> 38:01.960
+guys, I hope you are trying it out, some patience for some time would be really helpful,
+
+38:01.960 --> 38:07.000
+just a revision of concepts where you think in terms of execution context,
+
+38:08.360 --> 38:14.280
+plus hoisting, plus how things are working, right, so Maneshwara has given his answer,
+
+38:14.680 --> 38:20.680
+I need at least five to six answers from different people, so that I can re-explain that,
+
+38:29.720 --> 38:31.160
+got two answers,
+
+38:33.080 --> 38:33.880
+three,
+
+38:36.280 --> 38:37.000
+four,
+
+38:37.400 --> 38:37.720
+four,
+
+38:40.360 --> 38:45.880
+great, I got five answers, so somebody has, okay, great guys, great, great effort, so I've received
+
+38:45.880 --> 38:53.000
+good amount of answers, so let's revise this again, so firstly, function, let's say this
+
+38:54.040 --> 39:01.240
+parent 4, okay, so initially it sees function, it hoist that function, then function call is
+
+39:01.240 --> 39:06.840
+actually happening, it goes inside this function, our new execution context for parent 4 is created,
+
+39:07.160 --> 39:13.880
+with having access to the global scope, with this keyword, in this new execution context,
+
+39:13.880 --> 39:19.640
+inside this execution, new created execution context for parent 4, a variable is declared,
+
+39:19.640 --> 39:25.720
+which is hoisted with undefined, then initialized with 20, it goes to the function firstly at line
+
+39:25.720 --> 39:31.800
+number 165 to execute it, it enters into the child function, once it enters, it sees a new
+
+39:31.800 --> 39:38.680
+variable again, in its new execution context for the child, so let a equal to 10, now whenever we
+
+39:38.680 --> 39:44.680
+are trying to console log in a, so firstly it will try to access here itself, since a is available
+
+39:44.680 --> 39:53.720
+in its own scope, okay, let's say I print a, then I create, this function is hoisted and kept ready,
+
+39:53.720 --> 39:59.880
+then you go and see that there's another console log of a, so it will print again a 10, then you
+
+39:59.880 --> 40:05.640
+see that hey I'm calling this child to function, so I'll go inside this function, I'll see another
+
+40:05.640 --> 40:11.800
+console log of a, since in this scope there is no a available, it will go to the parent scope,
+
+40:11.800 --> 40:17.880
+which is its lexical scope, it sees that a value a equal to 10, so it will take 10, then we are
+
+40:17.880 --> 40:25.480
+trying to actually update a equal to 30, which is updating this one, let a equal to 30, right, now
+
+40:25.480 --> 40:31.480
+whenever you come outside, let's say when this a is actually updated as 30,
+
+40:33.240 --> 40:38.440
+right, now let's say this execution of child function is done, now once the execution of
+
+40:38.440 --> 40:43.720
+child is done, it comes to the next line, it sees that what is the value of a in parent's scope,
+
+40:43.720 --> 40:52.680
+so we see that 20, okay, so it's 10, 10, 10, 20, I hope I have got 100% right answers and I hope
+
+40:52.680 --> 41:00.360
+everyone is also aligned with this, okay, let me solve this functions parent tree directly, okay,
+
+41:00.360 --> 41:09.400
+so firstly we call a parent tree function, we go inside this function and value a is initialized
+
+41:09.400 --> 41:16.520
+with a equal to 20, then you see that child is being called, so you go inside the child function
+
+41:16.520 --> 41:23.080
+and you see a console log of a, since here there is no variable is initialized, we see there is no
+
+41:23.080 --> 41:28.520
+variable installed in the child, so it will try to access from the parent, which it will receive it
+
+41:28.520 --> 41:36.040
+as 20, then it sees that hey when I try to update here a equal to 10, actually I'm updating here a
+
+41:36.040 --> 41:42.440
+equal to 10, right, once I update it here, then I'm calling child two, let's say if I go into the
+
+41:42.440 --> 41:49.240
+child two and I try to print console log of a, it should print 10, because it is updated in its
+
+41:49.240 --> 41:55.640
+parent scope, parent's lexical scope, then but if you see here it shouldn't be coming as 10,
+
+41:55.640 --> 42:02.520
+reason behind in this scope variable a is already initialized, isn't it, new variable is created in
+
+42:02.520 --> 42:09.640
+its local scope and whenever we see a variable initialized with var keyword, those are generally
+
+42:09.640 --> 42:15.720
+hoisted and set with undefined, now first it will check in its local scope, does variable a exist,
+
+42:15.720 --> 42:20.600
+it says that variable a exists, but the value is undefined whenever you try to do console log,
+
+42:20.600 --> 42:26.120
+because initialized doesn't went through this scope, okay, now this line get executed,
+
+42:26.120 --> 42:31.480
+value is updated as 30 for this particular scope, now this child to execution is done,
+
+42:32.360 --> 42:40.920
+then you come back, a child is also done, you come back here, you check that hey value of a equal to 10,
+
+42:40.920 --> 42:47.480
+so you update this, is this clear guys, I hope everyone is aligned with this answer also,
+
+42:49.960 --> 42:55.320
+right, now, so now do you understand the lexical scoping,
+
+42:55.960 --> 43:01.960
+a one second child, okay, let's see this what happened here, now if you see once we have
+
+43:01.960 --> 43:08.440
+144 is executed Kabir, we updated var equal to 10, because in this particular scope,
+
+43:08.440 --> 43:13.240
+in the child scope, we don't have variable initialized or created in a local memory,
+
+43:13.240 --> 43:17.400
+so it goes and check whether it is not there in my space, so it will check in the parent,
+
+43:17.400 --> 43:23.640
+so it checks in the parent updates at 10, okay, then child to get executed, when you go into the
+
+43:23.720 --> 43:30.760
+child to, if you see first hoisting happens, whenever the execution context is created,
+
+43:30.760 --> 43:37.480
+so when the when hoisting happens, variable a is actually hoisted and initialized with undefined
+
+43:37.480 --> 43:45.080
+value and when it does happen, it starts execution, when it starts execution, it sees that there is a
+
+43:45.080 --> 43:50.440
+console log of a and this in this execution context, it checks that whether in my local
+
+43:50.440 --> 43:55.880
+memory, value a is already available, so it says that yeah, value a is available because we
+
+43:55.880 --> 44:01.960
+hoisted it, now, so we'll get an since this line initialization doesn't happen with 30,
+
+44:02.680 --> 44:10.120
+we get undefined here, okay, so now just rechecking with this, again, let me show you the
+
+44:11.160 --> 44:18.120
+definition of lexical scope or scope chain, two things, scope chain in JavaScript and
+
+44:21.080 --> 44:28.760
+okay, let's let's pick some article, good article, let's say, I don't want to go into
+
+44:28.760 --> 44:45.240
+close here yet, but let's say I pick it up this one, but I hope you got the basic understanding
+
+44:45.240 --> 44:50.120
+about scope chain, like a function is having access to the top level function, like
+
+44:50.680 --> 45:08.680
+let's say there's an image added by in this article, so I try to zoom it in,
+
+45:09.560 --> 45:16.520
+now, if you see here, maybe in this article, generally, whatever I'm saying is that whenever
+
+45:16.520 --> 45:21.480
+your inner most child is actually having an access to the parent element till its global
+
+45:22.360 --> 45:28.120
+scope, that is itself is called a scope chain from immediate parent to the upper parent, like
+
+45:28.120 --> 45:35.000
+inheritance concept, right, having like always access to those things levels and similarly,
+
+45:35.000 --> 45:38.600
+this concept is also called as, you know, lexical scoping,
+
+45:41.240 --> 45:44.680
+both the things are actually meant in same way,
+
+45:48.200 --> 45:50.840
+you see, again, this definition itself,
+
+45:55.320 --> 45:59.400
+data success that stores a variable and functions that are defined in current scope
+
+45:59.400 --> 46:04.360
+and all of outer scope, right, let's say, whatever the outer scope it is present,
+
+46:04.360 --> 46:08.680
+it tries to remember all those things and along with its current scope, so bundled together,
+
+46:08.680 --> 46:14.360
+current scope plus for our parents code is called as a lexical, you know, lexical scope,
+
+46:14.360 --> 46:18.280
+like whatever, in general, this is also called a scope chain, you can resemble two things in
+
+46:18.280 --> 46:22.840
+a same way, because they look both same, like you're trying to have access to all the levels,
+
+46:23.560 --> 46:27.400
+lexical scopes also tries to state that thing itself, like current scope
+
+46:27.400 --> 46:33.160
+plus all the levels of like access to all the variables. I hope these two points are clear,
+
+46:33.880 --> 46:35.560
+lexical scope and scope chain,
+
+46:38.280 --> 46:41.720
+give me thumbs up if these points are clear, what is lexical scope
+
+46:41.720 --> 46:45.720
+and if there is anyone who don't understand it, give me thumbs down right away,
+
+46:45.720 --> 46:51.400
+we can explore further examples and figure it out, okay, I see one thumbs down,
+
+46:53.720 --> 47:00.120
+cool, two people, there is anyone else who don't understand it, happy to repeat it,
+
+47:00.120 --> 47:05.560
+okay, I see two people Kabir and Rajni, now if you see this guys, what just happened here firstly,
+
+47:06.200 --> 47:12.280
+whenever we were going inside the child, let's say child two, if you remember this a is actually
+
+47:12.280 --> 47:21.800
+referring to the parent scope, elect a equal to 10, isn't it, do I agree with that, it is actually
+
+47:21.800 --> 47:28.840
+trying to reach out the parent, so what I'm trying to say is that, this along the scope,
+
+47:28.840 --> 47:34.280
+whatever in child two things are defined, along the variables and functions defined in the child
+
+47:34.280 --> 47:44.120
+two, along with that and the all outer elements in the memory, you know, this may be the scope of
+
+47:44.120 --> 47:51.240
+child or the parent for everything are bundled together, the memory or values available in those
+
+47:51.240 --> 47:58.440
+bundled together is called as lexical scope, this is point clear, in general like whatever
+
+47:58.440 --> 48:04.200
+hierarchy and this is also called as a scope chain, because like this is particularly having
+
+48:04.200 --> 48:09.720
+an access to this one, then this one, this chain continues till the global execution context,
+
+48:12.440 --> 48:17.000
+is this point clear guys, I hope Rajni and
+
+48:19.480 --> 48:25.960
+right, okay, cool, now let's get started with one of the question guys, I just want to ask you one
+
+48:25.960 --> 48:31.000
+of the question is that, let's say if I want to say that I want to build a counter,
+
+48:34.280 --> 48:40.200
+where if I call that counter again and again, it should start printing me one, two, three,
+
+48:40.200 --> 48:49.320
+four, say if I write down a question, let's say, implement a counter
+
+48:49.880 --> 48:52.680
+function, that returns
+
+48:56.280 --> 49:02.120
+plus one value, so how it would be like, let's say if there is a function that you have defined,
+
+49:02.920 --> 49:04.920
+I'll call that counter function,
+
+49:08.680 --> 49:14.120
+let's say I call this function, it should print one, then again if I call that counter function,
+
+49:14.440 --> 49:17.880
+then again if I call that counter function, it should print two,
+
+49:20.120 --> 49:23.000
+then again if I call this counter function, it should print three,
+
+49:24.280 --> 49:28.200
+so how would you approach this question guys, how would you approach like if I want to do this
+
+49:28.840 --> 49:33.320
+sort of implementation, it's a very basic thing, but how would you approach it,
+
+49:33.320 --> 49:47.720
+after printing, increment the value inside the function, can anyone write down that logic for me,
+
+49:47.720 --> 49:53.080
+can you build a function counter, can you guys take your time and write down that function counter,
+
+50:03.960 --> 50:12.360
+so I'll be waiting for your outputs guys, just think of it, how would you build this one,
+
+50:21.400 --> 50:25.720
+I have to execute, whenever I'm executing, actually the one should print, then two should
+
+50:25.720 --> 50:37.800
+print, then three should print, let's say I write down a basic syntax for you,
+
+50:39.080 --> 50:45.560
+function counter, then I have something like this, then let's say it returns something,
+
+50:45.560 --> 50:52.680
+it returns some value here, so I've seen some bit tripartis answer, like this is where a equal to
+
+50:52.680 --> 51:00.680
+zero console of a plus plus, okay cool, now then I have other answer, I've been of says loop,
+
+51:00.680 --> 51:05.880
+I've been, why would I call loop, like I'm calling a function here, first think of this thing,
+
+51:07.800 --> 51:14.680
+okay Arun says set timeout, we don't need any delay as of now, Arun just I want to add numbers,
+
+51:15.640 --> 51:17.400
+counter, just simple counter,
+
+51:20.520 --> 51:26.920
+just I hope you guys are thinking about it, like I just need to return, like let's say as Sambit
+
+51:26.920 --> 51:33.160
+says that, I try to console log a value, let's say this is a val, I have to console log each time,
+
+51:33.160 --> 51:38.760
+now firstly when I first call the function counter val, it should print this val as one,
+
+51:38.760 --> 51:42.760
+then it should print val as two, then it should print val as three, how would you do it,
+
+51:44.680 --> 51:48.680
+so
+
+52:02.360 --> 52:06.680
+guys anyone trying it, is anyone attempting it,
+
+52:14.680 --> 52:18.680
+so
+
+52:19.240 --> 52:22.360
+I don't see any reactions, give me reactions at least if you are trying it out,
+
+52:26.520 --> 52:27.880
+do you want me to do it guys,
+
+52:31.480 --> 52:36.680
+okay I see one thumbs up that you want me to do it, but any other people,
+
+52:45.400 --> 52:52.200
+okay, someone is asking please do it, so let's let's do this guys, now let's say if you see
+
+52:52.200 --> 52:59.320
+firstly, I have to call this val label a value, try to print out right val, now where how can I
+
+52:59.320 --> 53:05.320
+create a val, let's say if I create a val here, let a val equal to zero and let's say I say that
+
+53:05.320 --> 53:12.840
+hey after console logging, increase this val plus equal to one, do you think it should work,
+
+53:12.840 --> 53:17.400
+do you think it should work, if I do it this way,
+
+53:20.600 --> 53:24.840
+now let's let's do this, let's do this what happening here, let's see this what happens,
+
+53:24.840 --> 53:36.120
+okay if I try to open here a terminal and I try to do node script dot js, now do you see this,
+
+53:36.200 --> 53:43.880
+I'm printing consistently zero firstly, any idea how can I fix this,
+
+53:50.680 --> 53:55.000
+recursive function says Krishna, now this is a basic example, easy example,
+
+53:55.000 --> 54:01.800
+can you guys think like how can I do it, counter val, so he promote this thing pass the value
+
+54:02.440 --> 54:06.280
+from the like you know when you're calling the function, I don't want to do it,
+
+54:06.280 --> 54:12.440
+if I pass value then how would I get the counter, I just want to hey whenever I come to you,
+
+54:12.440 --> 54:15.640
+let's say Pramod I'm coming to you, I will say that hey give me the count,
+
+54:15.640 --> 54:19.240
+you should be giving me, I don't want to give you the value, if I give you the value,
+
+54:19.320 --> 54:20.440
+just print it, isn't it,
+
+54:29.480 --> 54:33.080
+so chances let's define the value let outside the function,
+
+54:34.760 --> 54:39.320
+do you guys think this should work, if I initialize with one,
+
+54:44.440 --> 54:48.040
+guys I've received good amount of answers, now do you think the output should be right,
+
+54:49.880 --> 54:57.880
+we're getting one two three, now but let me know, let me know this thing, now is this way of writing
+
+54:57.880 --> 55:03.800
+logic is good, because now let's say there are n number of functions you can write in a one
+
+55:03.800 --> 55:10.360
+JavaScript file and there might be people who want to use this I mean variable again and what
+
+55:10.360 --> 55:16.200
+if if there is someone changing unknowingly in their logic behind the scenes and it will affect
+
+55:16.200 --> 55:21.720
+our counter right, it's like let's say you're standing somewhere and you are trying to count
+
+55:21.720 --> 55:26.840
+number of people coming inside and someone can just keep disturbing you or else you your focus
+
+55:26.840 --> 55:33.080
+will be lost isn't it, so there's there is a way that someone can and reuse the value and update
+
+55:33.080 --> 55:40.120
+the value, so we have to protect this one right, the way of protecting now how can you do it if
+
+55:40.120 --> 55:45.160
+you're thinking from object oriented programming, what type of variable you need to declare such
+
+55:45.160 --> 55:52.280
+that no other person from the outer scope can act you know disturb it, private isn't it, now if
+
+55:52.280 --> 55:59.720
+we can create a private variable sort of concept where no one can come and change it right, our
+
+55:59.720 --> 56:07.480
+problem would be solved isn't it, firstly and it would be a better way of writing code isn't it
+
+56:07.480 --> 56:13.000
+and when I told you earlier that there is no way of syntax earlier like before ES6 right,
+
+56:13.080 --> 56:20.440
+writing or declaring a private variable or making construct a private how there is always a way
+
+56:20.440 --> 56:25.320
+where how you can restrict it because every language has figured out to do that same activity
+
+56:25.880 --> 56:33.400
+now the one of the way is one of the best way is actually closures itself
+
+56:34.280 --> 56:41.160
+in order to make any variables private or do something the answer is closure now I've
+
+56:41.720 --> 56:48.520
+and if I tell you that you've been playing around with first class of js with from with closures
+
+56:48.520 --> 56:56.360
+you wouldn't you've been actually using use const instead of well okay even if I use const the
+
+56:57.320 --> 57:06.760
+I can can I update it here Pradeep can I update it here no right so my work wouldn't be done right
+
+57:07.720 --> 57:15.560
+so no but if I if I guys if I tell you that you've been actually using closures from the day one
+
+57:16.520 --> 57:23.720
+you would be amazed it because closures are so much near way and everywhere in the JavaScript
+
+57:23.720 --> 57:29.560
+we'll figure it out how this is actually being done let's say if I implement this using a closure
+
+57:29.560 --> 57:36.440
+now firstly what closure says is that now let's say that if I copy definition if I copy definition
+
+57:36.520 --> 57:44.120
+anywhere from the internet closures in JavaScript let's say if I pick this
+
+57:44.120 --> 57:50.280
+and go to any website let's say if we go for MDN docs any docs right let's say if I go hit here
+
+57:51.000 --> 57:54.840
+okay now it says that let's say I copy this firstly
+
+57:57.000 --> 58:01.560
+these two lines that's enough let's say I comment it here
+
+58:06.440 --> 58:09.560
+so
+
+58:16.360 --> 58:22.120
+now firstly we'll read this sentence again coming back to it later but now let's say if I want to
+
+58:22.120 --> 58:27.720
+create if I want to solve this problem such that I make a variable private such that no one will
+
+58:27.720 --> 58:34.600
+be able to access yeah Sasha it's kind of a function inside in a function but let's see how
+
+58:34.600 --> 58:43.560
+do you do it let's say I have a function called create counter okay once I have a create counter
+
+58:43.560 --> 58:46.120
+inside this I'll return a function firstly
+
+58:48.360 --> 58:57.560
+now this syntax we have seen n number of times when as a white printed 000 last time okay what
+
+58:57.560 --> 59:03.480
+I did is like I had this value here and I initialize it with zero now
+
+59:06.040 --> 59:11.400
+whenever whenever I call this function let's say if I call once the value is initialized
+
+59:11.400 --> 59:16.600
+let let is initial I mean value is initialized with zero and it tries to print zero right Arun
+
+59:17.960 --> 59:22.200
+then you are trying to increase it but this function execution context is closed
+
+59:22.200 --> 59:26.200
+but again you are calling a function then again it is in stress with zero
+
+59:26.200 --> 59:30.600
+and it will be loaded again so everything happens so the execution context right you
+
+59:30.600 --> 59:34.840
+I hope you remember that diagram memory creation and code execution face
+
+59:35.880 --> 59:43.320
+okay I hope this doubt is solved right okay going ahead now so I hope you guys have seen
+
+59:43.320 --> 59:49.720
+this syntax case where we try to function returning a function or function accepting
+
+59:49.720 --> 59:56.440
+a function what what type of function is this what we call it as create counter which type
+
+59:56.440 --> 01:00:06.680
+of function is this is it a higher order function guys I hope you remember that name
+
+01:00:09.400 --> 01:00:13.400
+right it's a higher order function now let's say what I'm trying to do it here
+
+01:00:14.040 --> 01:00:19.400
+I'll try to do the same logic let's say I copy and paste whatever I've done it here I'll paste
+
+01:00:19.400 --> 01:00:26.280
+it here firstly now once I'm pasting it here and let's say I have to initialize it earlier
+
+01:00:26.280 --> 01:00:31.160
+I was initializing it globally now what I'll do it here is that I'll initialize here
+
+01:00:32.760 --> 01:00:37.720
+okay now let's see if we are able to if we are able to replicate this one firstly
+
+01:00:38.360 --> 01:00:43.320
+okay let's say if I'm trying to able to replicate this is working fine okay
+
+01:00:49.400 --> 01:00:57.720
+let's say I go into terminal and I try to clear it then I try to implement it now
+
+01:01:00.920 --> 01:01:04.680
+okay so firstly it is returning a function so let's call it again
+
+01:01:07.960 --> 01:01:15.160
+okay now if you see each time I'm calling a function so I have to store this let's say
+
+01:01:15.720 --> 01:01:22.280
+firstly I'll show you how you can use this let's say this is a const counter one
+
+01:01:23.640 --> 01:01:28.440
+then you can say counter one call it multiple times
+
+01:01:35.320 --> 01:01:43.800
+okay now let's say I remove this two things as of now clear it and then execute it but both the
+
+01:01:43.800 --> 01:01:49.160
+use cases we are able to solve this function that we are able to actually print one two three the
+
+01:01:49.160 --> 01:01:53.880
+number of times you'll call this counter on the one it will it will give us the right value
+
+01:01:53.880 --> 01:02:01.000
+firstly so I hope this firstly how the output is fine right I'll come to the logic how it is
+
+01:02:01.000 --> 01:02:06.920
+working why it is working what actually happened it will figure it out step by step okay now
+
+01:02:07.000 --> 01:02:14.920
+let's go back to the definition of closure what it is saying so a closure is a combination of
+
+01:02:14.920 --> 01:02:23.160
+a function bundled together enclosed with reference to the surrounding state the lexical
+
+01:02:23.160 --> 01:02:30.040
+environment okay so it says that of combination of function bundle together so if you see this
+
+01:02:31.000 --> 01:02:35.160
+function is actually bundled together along with its lexical scope
+
+01:02:37.400 --> 01:02:41.720
+do you see this a function bundled together along with the lexical scope this is happening here
+
+01:02:41.720 --> 01:02:49.240
+isn't it so this thing will you know form a closure but we'll see in browser I'll show you
+
+01:02:49.240 --> 01:02:54.520
+how this forms in other words closure gives you access to the outer function scope from
+
+01:02:54.520 --> 01:03:01.800
+a inner function okay if you see each time I'm calling it I am getting the value
+
+01:03:01.800 --> 01:03:04.920
+and where I'm getting this value from I'm getting a value from here
+
+01:03:06.760 --> 01:03:15.160
+so this particular function always remembers the value or the its scope its lexical scope
+
+01:03:15.160 --> 01:03:20.920
+it always remember its lexical scope wherever it is present even though we have returned this
+
+01:03:20.920 --> 01:03:26.920
+function outside it was returned in the counter one right we stored that function in the counter
+
+01:03:26.920 --> 01:03:33.240
+one even then even if you are calling it it is remembering that hey this function is actually
+
+01:03:33.240 --> 01:03:40.040
+declared here and in spare and scope there is a value a and it doesn't actually point to the
+
+01:03:40.040 --> 01:03:45.720
+value it actually points to the reference of the value that's the reason why when I'm calling it
+
+01:03:45.720 --> 01:03:50.040
+first time it is regiving me one then it was actually incrementing it one by one
+
+01:03:52.360 --> 01:03:56.840
+is is this point anyways relatable guys is anyone got this point
+
+01:03:59.320 --> 01:04:04.520
+just rechecking with you did you understand what so now if we try to print value yeah if
+
+01:04:04.520 --> 01:04:09.480
+we try to print value we'll always get one two three if you see let's say if I comment this one
+
+01:04:09.480 --> 01:04:13.240
+I am not printing anything from the top counter if I'm printing it here
+
+01:04:15.720 --> 01:04:18.520
+you see I'm able to print one two three using this counter one
+
+01:04:21.800 --> 01:04:28.360
+so this is actually having an access to this one and this function is actually forming closure with
+
+01:04:28.360 --> 01:04:34.200
+its this function is actually you know bundled along with its lexical scope these two things
+
+01:04:34.200 --> 01:04:37.960
+are there now let me show you in the actually browser how this thing works
+
+01:04:38.920 --> 01:04:45.080
+uh let's say I launch this index.html open in live server
+
+01:04:47.480 --> 01:04:56.840
+let's say I have this I go to sources I go to the script now let's say I have here I have this
+
+01:04:56.840 --> 01:05:07.000
+counter one let me refresh it now here if you see whenever I'm here inside it I go print now
+
+01:05:08.760 --> 01:05:17.240
+now if you see the firstly the counter one okay the counter one is actually this particular
+
+01:05:17.800 --> 01:05:22.920
+function isn't it this particular function where now if you are if you see that we got a call here
+
+01:05:23.240 --> 01:05:29.240
+now if I try to click a play it will come inside this one and this particular function if you see
+
+01:05:29.240 --> 01:05:35.240
+here I got a word called closer and the closure is actually create counter now the create counter
+
+01:05:36.200 --> 01:05:41.080
+now the create counter is actually forming a closure and if you see if you remember the
+
+01:05:41.080 --> 01:05:47.800
+definition which we just said that a closure is a combination of a function which is bundled
+
+01:05:49.000 --> 01:05:55.880
+together along with its surrounding state okay the surrounding state is actual lexical environment
+
+01:05:55.880 --> 01:06:01.640
+okay a function which is bundled together along with its function its surrounding state
+
+01:06:02.200 --> 01:06:08.360
+so this create counter is actually forming a closure now the only thing that specialty
+
+01:06:08.360 --> 01:06:19.160
+of closures is that it always remembers the value remembers the value of the variables the lexical
+
+01:06:19.160 --> 01:06:26.520
+scope it doesn't actually point to the value but it points to the references okay since if why do
+
+01:06:26.520 --> 01:06:31.880
+I'm saying that it is pointing to the references is that once this function is executed again when
+
+01:06:31.880 --> 01:06:37.480
+we call this well it is actually updated the value is updated as two but when I'm calling
+
+01:06:37.480 --> 01:06:42.600
+it again it is reading as a two not as a one again because it is actually pointing to value
+
+01:06:42.600 --> 01:06:49.640
+not to the value is this clear guys how this counter is working how many of you understood
+
+01:06:49.640 --> 01:06:59.240
+this explanation closure it's just a simple thing it's just a simple thing it's a combination of
+
+01:06:59.800 --> 01:07:03.160
+function bundled together well along with the surrounding state
+
+01:07:06.360 --> 01:07:10.520
+yeah like if you if you call this let's say if you call this as create counter
+
+01:07:10.520 --> 01:07:17.240
+let's say if I call it as a create counter and that's how I call it as this one now what is our
+
+01:07:17.240 --> 01:07:25.080
+expected output here this should be printing kabir one right if I write if here it should be
+
+01:07:25.080 --> 01:07:34.680
+printing one then two then three again if I call this again I call this separately it should be
+
+01:07:34.680 --> 01:07:41.000
+printing one isn't it so everything should have its own scope right everything should have its
+
+01:07:41.000 --> 01:07:46.120
+own scope in execution context let's see if this is working fine as expected now if I execute it
+
+01:07:46.120 --> 01:07:53.160
+if you see for the first counter whenever I created this okay I've got as a one two three
+
+01:07:53.160 --> 01:07:58.600
+and this variable become private here because nobody will be able to access it
+
+01:08:00.040 --> 01:08:03.880
+and nobody will be able to change it this is present inside the create counter in
+
+01:08:03.880 --> 01:08:09.080
+in that memory execution isn't it even if you declare 100 methods below you won't be able to
+
+01:08:09.080 --> 01:08:13.080
+change it is our problem statement solved guys
+
+01:08:16.840 --> 01:08:22.360
+like we made a variable private so that no one can get affected and it's not publicly available
+
+01:08:22.360 --> 01:08:28.920
+to everyone like this valve you cannot access it like outside here well it is only available
+
+01:08:28.920 --> 01:08:34.200
+here right this definition is clear like in a closure gives you access to the outer function
+
+01:08:34.200 --> 01:08:41.880
+scope from a inner function like this is like this function is actually having an
+
+01:08:41.880 --> 01:08:47.080
+access to this variable that is it is talking about that but now if I tell you this
+
+01:08:52.280 --> 01:08:54.760
+have you seen a closure example before like
+
+01:08:56.200 --> 01:09:00.040
+can you think from this understanding have we discussed anytime closure earlier
+
+01:09:00.920 --> 01:09:04.120
+have you came across this one point anywhere where
+
+01:09:05.480 --> 01:09:10.840
+where you are passing a function inside then it is actually executing later on stages
+
+01:09:18.680 --> 01:09:25.480
+even even in kanban board but really common use cases promises works in closures but guys
+
+01:09:25.480 --> 01:09:29.640
+if you see dom events right if you go for any dom event
+
+01:09:31.880 --> 01:09:39.960
+now this particular thing this callback function you are not actually executing it right this is
+
+01:09:39.960 --> 01:09:45.320
+actually given to an add event listener function and doesn't know that how add event listener is
+
+01:09:45.320 --> 01:09:56.040
+working isn't it whenever you are passing a callback inside it right we don't know how it is
+
+01:09:56.040 --> 01:10:02.120
+actually working where this event is coming from where do you think this event is coming from
+
+01:10:03.160 --> 01:10:08.920
+who is giving us this event we just pass it on inside this variable
+
+01:10:09.560 --> 01:10:13.560
+if you go and see add event listener how this is returned
+
+01:10:22.520 --> 01:10:31.560
+but in general this listeners add event listeners or to say so that bind function if you remember
+
+01:10:31.560 --> 01:10:37.400
+that bind function that we have discussed call bind apply that bind function also forms a closure
+
+01:10:38.920 --> 01:10:44.600
+right because that bind function is actually returning you
+
+01:10:47.800 --> 01:10:48.680
+where is this call
+
+01:10:55.160 --> 01:11:02.200
+okay if you remember in the bind function we were actually getting a function right output
+
+01:11:02.200 --> 01:11:12.760
+code if you remember this bind is actually returning us that function we were executing
+
+01:11:12.760 --> 01:11:19.400
+later stages but this reusable code is actually remembering all the information available
+
+01:11:20.760 --> 01:11:26.600
+like if you go inside the get info get info there might be n number of things available here
+
+01:11:26.680 --> 01:11:30.280
+and that it will remember it right i mean not
+
+01:11:31.000 --> 01:11:34.200
+get info but inside the bind where you're passing this information
+
+01:11:35.400 --> 01:11:38.840
+like if you go for polyfill and see how did we write it
+
+01:11:42.520 --> 01:11:49.720
+do you see it here we are actually returning a function with all the scope in bind function
+
+01:11:50.040 --> 01:11:57.560
+now is this my bind is a forming a closure because it is actually bundled together with a function
+
+01:11:58.520 --> 01:12:05.160
+and along with its lexical scope isn't it this definition is still applicable here isn't it guys
+
+01:12:07.560 --> 01:12:12.520
+do you guys agree with that point firstly whether this point is like actually we are forming a
+
+01:12:13.400 --> 01:12:14.120
+closure here
+
+01:12:17.000 --> 01:12:22.520
+guys how many of you are able to follow follow this point okay because here if you see this
+
+01:12:22.520 --> 01:12:28.200
+function is being returned and will be executed and anytime that it wants but out of that it
+
+01:12:28.200 --> 01:12:33.720
+remembers the context value any number of times you call this function it remembers the context
+
+01:12:33.720 --> 01:12:41.560
+value and whatever changes made the context will remember it okay now let me take a one classical
+
+01:12:41.560 --> 01:12:51.480
+example to show you let's say i have a for loop okay and this is actually how a closure is thought
+
+01:12:51.480 --> 01:12:59.640
+in if you go anywhere let's say i have this and let's say i have this set timeout
+
+01:13:01.880 --> 01:13:05.480
+and what i'll try to do is that i'll try to print console log
+
+01:13:05.480 --> 01:13:14.040
+log of i now i'll try to print i every second
+
+01:13:16.440 --> 01:13:19.480
+now what do you think the output should be here when i try to do this
+
+01:13:23.960 --> 01:13:24.920
+just this for loop
+
+01:13:35.480 --> 01:13:40.360
+okay guys please think of it
+
+01:13:42.920 --> 01:13:45.000
+what do you think the output should be for this one
+
+01:13:52.520 --> 01:13:58.600
+uh zero to ten infinite loop why do you say so muneshwar i just want to
+
+01:13:58.600 --> 01:14:10.840
+understand interesting answer same as zero to ten okay guys any other answers anyone having
+
+01:14:10.840 --> 01:14:15.560
+any other answers zero says eleven zero to nine
+
+01:14:20.440 --> 01:14:24.120
+now receive different answers zero to ten zero to ten times
+
+01:14:24.840 --> 01:14:29.560
+uh eleven zero to nine any other answers anyone having any other answers
+
+01:14:35.000 --> 01:14:41.240
+okay let's let's see this what actually happens now do you see this actually it is printing
+
+01:14:41.320 --> 01:14:49.160
+now so it is printing ten to sprinting ten ten number of times
+
+01:14:51.080 --> 01:14:58.520
+now can anyone think of this thing why what what the hell has happened just like can anyone
+
+01:14:58.520 --> 01:15:02.680
+think of this thing why this has happened what can be the reason
+
+01:15:02.680 --> 01:15:04.120
+happened what can be the reason
+
+01:15:07.800 --> 01:15:12.680
+but where is there but what is the problem what is an issue with the
+
+01:15:12.680 --> 01:15:16.680
+value
+
+01:15:23.480 --> 01:15:26.680
+can i use where and solve this issue
+
+01:15:35.080 --> 01:15:41.720
+guys how many of you think that this answer is odd firstly like i'm just trying to print a for loop
+
+01:15:42.280 --> 01:15:47.720
+and i'm trying to console log it should be printing the value of i from zero to nine isn't it
+
+01:15:53.240 --> 01:16:00.920
+right so we see that 10 is actually being printed but any any idea like why this is actually happening
+
+01:16:01.000 --> 01:16:12.360
+okay so let's say i firstly call one i go through iteration and i call the set time out and i put
+
+01:16:12.360 --> 01:16:18.840
+it into the web api's then again a call can be done right i it is in the callback queue
+
+01:16:18.840 --> 01:16:26.360
+okay so let's say i first call one i go through iteration and i call the set time out and i put
+
+01:16:26.360 --> 01:16:33.320
+into the web api's then again a call can be done right i this is a like you know keep on going
+
+01:16:33.320 --> 01:16:38.840
+right the value of i how this is actually being referred to this variables is the question
+
+01:16:39.640 --> 01:16:44.760
+i know that it is in callback queue it comes after the one second it executing we know that
+
+01:16:44.760 --> 01:16:48.840
+it is taking the same amount of time like if you see this i try to execute it again
+
+01:16:51.400 --> 01:16:56.040
+it is taking time three seconds four seconds five seconds and then it is printing one by one
+
+01:16:56.440 --> 01:17:01.560
+right so it is coming out of callback queue and coming back but when it is coming back into the
+
+01:17:01.560 --> 01:17:17.800
+stack why the value of i available to it is becoming 10 do you see it here that actually
+
+01:17:18.600 --> 01:17:27.240
+i is actually not carrying the value but it is having a reference to it
+
+01:17:30.760 --> 01:17:37.400
+leader says that it is accessing a global value right so can i say it this way the rush that is
+
+01:17:37.400 --> 01:17:42.760
+actually having a reference to i value now when it actually coming back into the call stack
+
+01:17:42.840 --> 01:17:47.880
+already 10 times iteration has been done and the value of i is increased to 10
+
+01:17:48.680 --> 01:17:55.080
+and it is actually checking that value of i is 10 it is outputting 10 because if you see this
+
+01:17:55.080 --> 01:18:01.800
+functions a 10 copies will be taken put it into the web api's and when it come backs into the
+
+01:18:01.800 --> 01:18:09.320
+call stack and it tries to refer the value of i the value of i is actually incremented by 10 times
+
+01:18:09.880 --> 01:18:16.680
+then the then if you try to refer to that value it gets that value as a it is 10 isn't it
+
+01:18:18.040 --> 01:18:20.200
+as you say it's a global value global scoping
+
+01:18:21.320 --> 01:18:25.400
+guys did you get the problem here firstly what is actually happening why this is happening
+
+01:18:31.800 --> 01:18:36.280
+how many of you understood this point okay let's see let's see this in the browser
+
+01:18:36.280 --> 01:18:39.800
+okay let's see this in the browser let me
+
+01:18:42.760 --> 01:18:50.680
+okay remove the debuggers here now i'll put a console on the console log i'll try to put
+
+01:18:50.680 --> 01:19:03.080
+this one i'll try to let's say remove this i'll refresh it let's say i print this once
+
+01:19:03.800 --> 01:19:09.880
+now if you see it here firstly if you see it here inside this local scope
+
+01:19:11.080 --> 01:19:16.680
+inside the set timeout whenever a callback is called okay here
+
+01:19:19.240 --> 01:19:24.440
+the value of i if i try to hover over it let's see if i try to print value of i here
+
+01:19:24.440 --> 01:19:33.160
+here its value is already 10 the reason is that 10 loops are already iterated and when
+
+01:19:33.160 --> 01:19:39.320
+is actually execution context is coming let me show you that actually how this thing works
+
+01:19:40.920 --> 01:19:42.200
+console dot log
+
+01:19:47.400 --> 01:19:48.680
+for loop iteration
+
+01:19:54.600 --> 01:19:55.160
+okay
+
+01:20:00.680 --> 01:20:01.160
+start
+
+01:20:04.520 --> 01:20:05.160
+then end
+
+01:20:09.640 --> 01:20:13.960
+okay now let me go back here try to print it
+
+01:20:13.960 --> 01:20:24.200
+okay firstly do device let me remove this console log here
+
+01:20:30.440 --> 01:20:34.200
+let's say i try to put it here and i call it here
+
+01:20:36.760 --> 01:20:43.000
+no inside the console log if you see this for loop is not yet executed firstly
+
+01:20:43.000 --> 01:20:50.120
+it is still on the line number 32 once i click a play once i click a play by the time this
+
+01:20:50.120 --> 01:20:55.880
+callback function by the time this callback function is executed let's see what happens
+
+01:20:56.840 --> 01:21:03.720
+okay by the time this callback function actually comes all the iterations of loop is completed
+
+01:21:03.720 --> 01:21:09.640
+isn't it the 10 iterations of the loops is completed and this this has been actually
+
+01:21:09.640 --> 01:21:17.480
+put down to the web i mean that callback queue and it came after out of that queue onto the call
+
+01:21:17.480 --> 01:21:22.920
+stack again you see here onto the stack this anonymous function is there set timeout is there
+
+01:21:23.720 --> 01:21:29.240
+it came back from that queue and by the time it came out man this loop has already iterated
+
+01:21:30.280 --> 01:21:36.760
+and this loop has iterated once it became nine loops and when it iterates by i plus plus 10
+
+01:21:36.760 --> 01:21:41.320
+it checks the condition okay if i'm less than only 10 then i can go inside the loop
+
+01:21:42.520 --> 01:21:49.720
+till then i cannot go now if you see here the value of i how this is actually coming here
+
+01:21:50.360 --> 01:21:53.960
+okay fuse uh let me show here scope
+
+01:21:58.040 --> 01:21:58.760
+this thing
+
+01:22:01.800 --> 01:22:03.560
+i'm having a script here one
+
+01:22:07.320 --> 01:22:15.320
+okay this is a call stack but if i try to access here if you see the value of i becomes 11 firstly
+
+01:22:20.280 --> 01:22:24.520
+uh i didn't print should be 10 actually
+
+01:22:27.880 --> 01:22:34.040
+okay it kept on rotating guys if you see this uh once i hover over it the for loop
+
+01:22:34.040 --> 01:22:41.880
+is kept on happening so if i come come out here again i try to do it again it will come out 18
+
+01:22:41.880 --> 01:22:49.560
+but when actually console log is been registered the loop is actually happening and it is actually
+
+01:22:49.560 --> 01:22:54.840
+does not remember if you see whatever value now let's say when what i mean to say is that
+
+01:22:54.840 --> 01:23:00.840
+when the loop actually starts it the variable is not private to each iteration
+
+01:23:01.480 --> 01:23:08.760
+it's it it is not private to its iteration each iteration specifically but whenever you actually
+
+01:23:08.760 --> 01:23:14.200
+start executing this start executing after one second two second three second now whatever
+
+01:23:14.200 --> 01:23:19.640
+value after three four seconds whatever value of i is available it will take it in but we are not
+
+01:23:19.640 --> 01:23:25.800
+sending that surely that hey you should be taking one two three four values is this clear guys why
+
+01:23:26.520 --> 01:23:33.000
+this is actually happening firstly that hey you are there outside you came back and if you say
+
+01:23:33.000 --> 01:23:40.600
+that give me your coupon it doesn't work that way okay you when you come back here you will be
+
+01:23:40.600 --> 01:23:50.840
+served whatever is available i hope this point is clear like how this works is let's say if i have
+
+01:23:50.840 --> 01:23:59.240
+this other code console log of loop iteration start and end this part of code is execution is
+
+01:23:59.240 --> 01:24:04.840
+completed right if you see this execution is already completed now this person let's say there is
+
+01:24:04.840 --> 01:24:11.080
+someone 10 people standing in the line and other people they also stand in line but while they are
+
+01:24:11.080 --> 01:24:17.800
+standing in line they get some work like async work they go out of line and all the other people who
+
+01:24:17.800 --> 01:24:24.520
+are standing in line their work is done now when the person who left the line he comes back can he
+
+01:24:24.520 --> 01:24:31.640
+get executed along with this people itself this people work is already done right when he comes
+
+01:24:31.640 --> 01:24:37.080
+back he'll stand in the new queue which is the i 10th number or 11th number isn't it
+
+01:24:37.080 --> 01:24:49.640
+so guys are you able to relate this okay now here also problem is with respect to variables itself
+
+01:24:49.640 --> 01:24:55.960
+like they are actually global we are not binding this way now to fix this one also to make it more
+
+01:24:55.960 --> 01:25:00.840
+private such that you actually pass a variable inside this you can actually how you can do it
+
+01:25:00.840 --> 01:25:06.760
+using again closures how can you do it closure what was the definition of closure
+
+01:25:09.080 --> 01:25:15.480
+what was the definition of closure that a closure is a combination of a function bundle together
+
+01:25:15.480 --> 01:25:22.200
+along with the reference to the out surrounding state isn't it if i can bundle this particular
+
+01:25:22.280 --> 01:25:29.800
+thing in a function let's say i put this in a function so i say that function a
+
+01:25:36.920 --> 01:25:39.160
+okay let's say it's receiving some
+
+01:25:41.720 --> 01:25:45.000
+value okay let's say it's receiving value i put it as well
+
+01:25:45.000 --> 01:25:48.920
+okay now
+
+01:25:50.760 --> 01:25:58.040
+and once this function is available and i call this function val a with value of i
+
+01:25:59.400 --> 01:26:01.160
+now do you think this should work actually
+
+01:26:06.200 --> 01:26:12.200
+no you never should do that ashwin you should never write for loops in a sink await
+
+01:26:12.920 --> 01:26:18.920
+use case because ever it is actually are waiting stopping an execution and that's that's
+
+01:26:20.440 --> 01:26:22.120
+that's not the right way of doing it
+
+01:26:24.840 --> 01:26:30.120
+okay but i'll come to that part i'll explain more on that but do you guys see this here i
+
+01:26:30.120 --> 01:26:38.680
+just applied the logic of closure i said that hey i bundled this particular set timeout with a function
+
+01:26:39.160 --> 01:26:47.240
+and in its scope in its lexical scope the value of i is available now the value of i each time
+
+01:26:47.240 --> 01:26:53.080
+let's say as you see as i say what was the use case we remember that hey this is a synchronous
+
+01:26:53.080 --> 01:27:00.200
+use case like this line is synchronous then this line is also synchronous inside this function is
+
+01:27:00.200 --> 01:27:05.960
+asynchronous doesn't matter set timeout is working in a scene doesn't matter but this step is
+
+01:27:06.840 --> 01:27:12.680
+synchronous isn't it it goes inside this function and it remembers this value val
+
+01:27:13.720 --> 01:27:19.960
+because it is actually here this function is forming a closure is forming a closure with this
+
+01:27:21.880 --> 01:27:27.320
+right this line will also execute it simultaneously so we are each iteration whenever the
+
+01:27:28.200 --> 01:27:34.280
+10 iterations you are doing each time you are calling this function the sink and you're passing
+
+01:27:34.280 --> 01:27:40.760
+this value as we say that closure is some someone who remembers the value who remembers the value
+
+01:27:40.760 --> 01:27:46.440
+even they're executed out of the context right this this actually set timeout is being actually
+
+01:27:46.440 --> 01:27:51.800
+taken out of context coming back later but this whenever you are forming a closure it remembers
+
+01:27:51.800 --> 01:27:58.040
+the value where it was there it's like you've been in indian going to us also you remember india right
+
+01:27:58.040 --> 01:28:06.760
+india all those things that's like a closure even if you are there or anywhere in the world
+
+01:28:06.760 --> 01:28:12.840
+you still remember our culture and values ethics same way closure also it remembers its lexical
+
+01:28:12.840 --> 01:28:20.040
+scope environment is this point here even if you execute outside firstly yes did you get this
+
+01:28:21.320 --> 01:28:26.600
+point firstly okay let's see this firstly this is working or not let's see this is working or not
+
+01:28:27.160 --> 01:28:34.280
+if you if you see it here firstly i am able to print zero to nine again and it is actually again
+
+01:28:34.280 --> 01:28:41.000
+happening after this iterations itself okay i hope this point is clear it is actually happening after
+
+01:28:41.000 --> 01:28:46.200
+all the iterations itself but now i am able to print this all the things now but let me show you
+
+01:28:46.200 --> 01:28:51.480
+that how this closer is actually forming okay let me show you this how this is actually being formed
+
+01:28:51.560 --> 01:28:56.440
+if i try to refresh it let's say i create counter is being called now if you see this
+
+01:29:00.360 --> 01:29:06.520
+whenever this this actually console log is printed let's say uh i go
+
+01:29:08.120 --> 01:29:15.800
+now whenever i come here if you see whenever i try to print a a closure is formed inside a closure
+
+01:29:15.800 --> 01:29:22.920
+a value is there because a closure always stores it uh lexical environment scope like
+
+01:29:22.920 --> 01:29:29.320
+if it's it stores the value whichever parameters are passed here if i print it again it remembers
+
+01:29:29.320 --> 01:29:36.040
+the value one because in for loop somewhere we passed a value one then it remembers value two
+
+01:29:36.920 --> 01:29:40.600
+is this clear guys how this actually is working
+
+01:29:40.600 --> 01:29:47.000
+okay i received only two thumbs up but i need few more people let me know uh if there is someone who
+
+01:29:47.000 --> 01:29:52.760
+don't understand it still i can unmute them we can discuss over this because this concept is uh
+
+01:29:52.760 --> 01:29:56.760
+maybe tricky i'm not sure how much tricky it is for you to understand it but if there is someone
+
+01:29:56.760 --> 01:29:59.960
+who don't understand it let me know i'll try to re-explain this
+
+01:29:59.960 --> 01:30:03.800
+but if there is someone who don't understand it let me know i'll try to re-explain this
+
+01:30:06.440 --> 01:30:09.720
+but there is an another way to solve this problem
+
+01:30:11.640 --> 01:30:16.520
+there's another way to solve this problem this thing will be asked in interviews mostly they
+
+01:30:16.520 --> 01:30:22.760
+ask this uh but they should be able to explain reasoning like how can you fix this using closure
+
+01:30:22.760 --> 01:30:28.600
+okay but there is another way you can solve this problem let's say instead of where i use let
+
+01:30:30.760 --> 01:30:33.880
+instead of where i use let
+
+01:30:37.160 --> 01:30:41.240
+let's say i try to print i after i seconds
+
+01:30:45.000 --> 01:30:51.880
+okay if i do this now if i go back in the browser i try to remove this if you see
+
+01:30:52.840 --> 01:31:03.160
+i'm still printing 0 1 2 3 4 5 6 7 8 9 now this is working when i change type of data
+
+01:31:03.160 --> 01:31:09.800
+type from var to let but are we forming a closure here firstly are we doing something those sort of
+
+01:31:09.800 --> 01:31:19.720
+activities here guys please answer this are we doing this closure or any functionalities here
+
+01:31:20.600 --> 01:31:26.520
+implementing those sort of use cases no the here the trick that thing happening is let
+
+01:31:26.520 --> 01:31:35.560
+keyword is always a block scope in this block each time a block is created we know that each
+
+01:31:35.560 --> 01:31:44.280
+time a block is created this will be always a separate value for let it is like 10 separate
+
+01:31:44.360 --> 01:31:52.520
+blocks of code and for each block it will have itself like this is that's that's happening
+
+01:31:52.520 --> 01:31:56.440
+because of temporal dates like each time it will have its own new copy
+
+01:31:58.440 --> 01:32:05.720
+because the let and const are they are having uh like block scope inside the block scope
+
+01:32:05.720 --> 01:32:11.320
+whenever this uh in again this iteration is installed i mean whenever you do again
+
+01:32:11.320 --> 01:32:16.360
+iteration new iteration each time a new value will be actually available for you
+
+01:32:18.840 --> 01:32:24.200
+this point is clear like why is this with let is actually happening the thing here which is
+
+01:32:24.200 --> 01:32:29.960
+helping us let in order to solve this is block scope and block scope is like because whenever
+
+01:32:29.960 --> 01:32:35.720
+you write in a code of block and if there is any variable inside that which is referring to let
+
+01:32:35.720 --> 01:32:44.120
+or const always it will have a separate copy and its private owns copy is this clear
+
+01:32:49.000 --> 01:32:54.520
+guys give me thumbs up thumbs down that works let me uh like if you don't understand it do let me know
+
+01:32:57.960 --> 01:33:03.640
+i received only two people giving me thumbs up so i don't see people giving me thumbs down if i
+
+01:33:03.640 --> 01:33:11.720
+i'll consider it as yes okay now this was a introduction examples that i wanted to do
+
+01:33:11.720 --> 01:33:19.480
+but let me go back to something called us okay uh guys do you need a break
+
+01:33:24.680 --> 01:33:27.160
+again only two people voting up for the break too
+
+01:33:28.680 --> 01:33:32.200
+okay let's say six seven people good so we'll take five minutes break and come back
+
+01:33:34.440 --> 01:33:36.680
+let's say uh timer
+
+01:33:41.960 --> 01:33:44.680
+i think some bit i'm using your app more than you use it
+
+01:33:50.120 --> 01:33:52.680
+chalo baise in five minutes
+
+01:34:03.640 --> 01:34:04.440
+you
+
+01:34:33.640 --> 01:34:34.440
+you
+
+01:35:03.640 --> 01:35:04.280
+you
+
+01:35:33.640 --> 01:35:34.280
+you
+
+01:36:03.640 --> 01:36:04.280
+you
+
+01:36:33.640 --> 01:36:34.280
+you
+
+01:37:03.640 --> 01:37:04.280
+you
+
+01:37:33.640 --> 01:37:34.280
+you
+
+01:38:03.640 --> 01:38:04.280
+you
+
+01:38:34.200 --> 01:38:34.280
+you
+
+01:38:51.000 --> 01:38:52.360
+guys is everyone back
+
+01:38:55.720 --> 01:39:01.800
+uh a few more reactions just want to know are you able to understand closest did you get the point
+
+01:39:01.800 --> 01:39:07.480
+like uh how the closers are actually formed what is the use case of closure is actually
+
+01:39:08.680 --> 01:39:16.360
+why we need a closer like you go across you'll see a number of closers whenever you write a call
+
+01:39:16.360 --> 01:39:23.960
+back functions you do it a number of things like if you see even if you go and let's say if i
+
+01:39:23.960 --> 01:39:31.320
+execute this part let me pick it up one example like filter
+
+01:39:33.960 --> 01:39:37.320
+now if you let's say if you go for the polyfills of filter also
+
+01:39:39.800 --> 01:39:45.320
+where have we built if you see this actually filter
+
+01:39:46.200 --> 01:39:46.680
+uh
+
+01:39:47.800 --> 01:39:55.480
+is forming a closure here we use something called as let here firstly let doesn't really matter but
+
+01:39:56.760 --> 01:40:06.200
+this function is actually bundled along with its scope i mean wherever you see that there is a
+
+01:40:06.200 --> 01:40:13.320
+funded i mean function inside a function and that inner function bundle along with the state of that
+
+01:40:13.320 --> 01:40:20.520
+particular function right is uh combinedly is called as a closure okay in the examples we have
+
+01:40:20.520 --> 01:40:28.280
+discussed today the counter create counter is actually forming a closer and in this use case
+
+01:40:29.800 --> 01:40:32.440
+the a is actually forming a closer
+
+01:40:34.760 --> 01:40:40.280
+i hope these points are clear i hope you got the gist of it will build few more examples and
+
+01:40:40.280 --> 01:40:49.800
+understand few things on the closers okay let's say i need need your help to build few more
+
+01:40:49.800 --> 01:40:56.440
+examples okay i'll give you the questions maybe let's try it out if you can guys can figure it out
+
+01:40:57.080 --> 01:41:02.920
+let's say this this is a combination of something concept called as function carrying
+
+01:41:03.720 --> 01:41:11.080
+okay let's say question one this is also asked in interviews guys let's say write a function
+
+01:41:14.120 --> 01:41:19.720
+some such that you pass x then you pass y then you pass z
+
+01:41:20.920 --> 01:41:28.920
+now whenever let's say if i call it as sum of one then sum of two then sum of three
+
+01:41:28.920 --> 01:41:38.200
+when i call this my output should be six this is an expected thing now how do you think this
+
+01:41:38.200 --> 01:41:44.840
+sort of functions can be written we have just seen one syntax uh when i try to write down this
+
+01:41:44.840 --> 01:41:51.400
+create counter if you remember uh i've had i've called this some sort of syntax like a return
+
+01:41:51.400 --> 01:41:56.840
+function is called again right uh whatever function is returned i'm calling that again
+
+01:41:56.840 --> 01:42:04.840
+using second uh like syntax or braces same thing you have to do something here such a way that
+
+01:42:04.840 --> 01:42:11.800
+this thing can be achieved like you can pass on uh different arguments how do you think that
+
+01:42:11.800 --> 01:42:20.200
+this can be achievable how can you build such functions any ideas guys how can you do this
+
+01:42:26.840 --> 01:42:34.200
+okay guys please come on uh try it out uh whatever things comes to your mind
+
+01:42:39.480 --> 01:42:41.880
+let's say you do this you print six
+
+01:42:46.600 --> 01:42:47.880
+uh anyone trying out
+
+01:42:47.880 --> 01:42:51.400
+uh i hope everyone is available in class
+
+01:42:53.000 --> 01:42:59.640
+there's some reactions uh if you're there in class okay because everyone is silent i don't i didn't
+
+01:42:59.640 --> 01:43:05.800
+get it like how can we do this give me your way of understanding no worries there's no one to judge
+
+01:43:05.800 --> 01:43:10.840
+it's just like we are learning together whatever you understand whenever we see these sort of
+
+01:43:10.840 --> 01:43:17.800
+functions how can you do this so i'm going to show you how to do this so i'm going to show you how
+
+01:43:17.800 --> 01:43:33.720
+arun has given an answer okay and any other answers guys
+
+01:43:33.880 --> 01:43:37.640
+um
+
+01:43:44.120 --> 01:43:50.360
+if you know uh this was an assignment question uh right kabe so that is what i'm trying to discuss
+
+01:43:50.360 --> 01:43:55.960
+like how would you do this because without understanding closures you your sense of
+
+01:43:55.960 --> 01:44:00.920
+understanding this one wouldn't be right so that's the reason why i picked it up now
+
+01:44:01.320 --> 01:44:08.280
+because closures in a way explanation itself takes half an hour to do it in last class we
+
+01:44:08.280 --> 01:44:13.640
+took a good amount of 18 examples where we were understanding lexical scope and how things work so
+
+01:44:13.640 --> 01:44:24.600
+didn't have bandwidth but do you uh kabir have any idea like how can we achieve this
+
+01:44:25.480 --> 01:44:26.280
+so
+
+01:44:28.040 --> 01:44:33.720
+i'll take it up this first thing so as arun stated that you know there is a function
+
+01:44:35.880 --> 01:44:41.480
+some let's say this is a function sum if you see go step by step there's a function sum
+
+01:44:42.920 --> 01:44:50.200
+there's a passed on value let's say x then how can you call a function on a function
+
+01:44:50.200 --> 01:44:53.880
+when it is possible when you can when you can call a function on a function
+
+01:44:54.680 --> 01:45:00.120
+when it is actually returning something returning a new function right only then you will be able to
+
+01:45:00.120 --> 01:45:09.080
+call guys are able to understand this when would you call a function on a function like if you see
+
+01:45:09.800 --> 01:45:15.400
+this example you were able to call this time twice at times when function was actually returning a
+
+01:45:15.400 --> 01:45:20.680
+function okay in the same way let's say if i try to return
+
+01:45:23.400 --> 01:45:31.000
+a function let's say i i can name it an ominous i don't need to give a name it takes a value y
+
+01:45:31.880 --> 01:45:42.280
+then again you have to return a function called z and you are out of this returning
+
+01:45:42.840 --> 01:45:50.120
+x plus y plus z okay now let's see if this is working first and i'll explain
+
+01:45:50.120 --> 01:45:53.160
+how this is working what is actually happening behind the scenes
+
+01:45:53.160 --> 01:46:04.040
+behind the scenes
+
+01:46:06.760 --> 01:46:09.960
+if you see i'm getting output as a six as expected but
+
+01:46:11.640 --> 01:46:18.680
+firstly think of this thing a function bundled with another function with and along with its scope
+
+01:46:19.640 --> 01:46:25.800
+what do you think the function y is it forming a closer with this one
+
+01:46:30.760 --> 01:46:35.560
+guys and this function sum is forming a closure with this one
+
+01:46:37.800 --> 01:46:43.800
+right this syntax is now how if you remember like if you remember now what just happened here let's
+
+01:46:43.800 --> 01:46:49.320
+say what just happened if i write down in a syntax let's say const let's say there is a
+
+01:46:49.880 --> 01:46:55.800
+sum one now you actually should have been calling like this one okay inside someone
+
+01:46:55.800 --> 01:47:06.120
+i have received something like sum two okay sum two then you have const sum three
+
+01:47:07.880 --> 01:47:10.840
+now here if you try to directly call console.log
+
+01:47:13.800 --> 01:47:21.400
+sum two of three
+
+01:47:24.200 --> 01:47:30.520
+okay sum one of two now if you see what just happened here is that first level
+
+01:47:31.240 --> 01:47:37.000
+whenever this particular thing is returned in someone this whole thing is returned isn't it
+
+01:47:37.000 --> 01:47:40.600
+right this whole thing is returned in someone
+
+01:47:42.680 --> 01:47:46.200
+you know let's say i copy this i put it here in the someone
+
+01:47:53.160 --> 01:48:02.200
+if you see this is a part of which this function function y sum now here someone actually having
+
+01:48:02.200 --> 01:48:10.120
+function i but where this value one is stored this is actually again lexical scope now that
+
+01:48:10.120 --> 01:48:18.680
+function that closure itself says that even if the function is executed outside its scope like this
+
+01:48:18.680 --> 01:48:24.920
+function is being pulled out and executed somewhere else even then we say that this function if it is
+
+01:48:24.920 --> 01:48:30.520
+a part of closure it will remember its lexical scope it will remember its states so the value
+
+01:48:30.520 --> 01:48:37.640
+of x is still persisting whenever you are executing separately also even if i execute it this way
+
+01:48:37.640 --> 01:48:43.880
+let's say if you see it i save this one logic and try to print it it will print two times six
+
+01:48:44.840 --> 01:48:48.440
+so do you understand the power of closure that even if you pull up somewhere
+
+01:48:49.880 --> 01:48:55.720
+it's like if you go into any other country if he's indian he'll follow that rituals
+
+01:48:56.440 --> 01:49:02.920
+okay it remembers its lexical scope even if he's executed outside are you able to relate more with
+
+01:49:02.920 --> 01:49:15.000
+this example that what closure is okay now let's say i i give you one more question let's say if
+
+01:49:15.800 --> 01:49:17.880
+let's say if you want to implement let's say
+
+01:49:21.160 --> 01:49:21.880
+question two
+
+01:49:25.400 --> 01:49:26.600
+write a function
+
+01:49:33.800 --> 01:49:41.480
+let's say someone where you pass x comma y and you pass z and then you call
+
+01:49:41.480 --> 01:49:48.440
+it this thing also should return still if i pass one two three let's say one comma two
+
+01:49:49.240 --> 01:49:53.320
+then pass three this should still return me six
+
+01:49:56.040 --> 01:49:59.960
+how do you think this should be written what would be the syntax of writing this one
+
+01:50:11.960 --> 01:50:19.000
+so pretty straightforward simple just like that we have done it i hope everyone is writing down
+
+01:50:19.000 --> 01:50:29.960
+typing time takes i know that but typing it down type it down guys
+
+01:50:41.480 --> 01:50:43.960
+so
+
+01:50:47.320 --> 01:50:53.320
+muneshwara has shared a partial code i think he might have instead of shift enter he might
+
+01:50:53.320 --> 01:51:01.560
+have missed it right uh arun can you recheck your thing a small mistake
+
+01:51:01.560 --> 01:51:01.640
+logic
+
+01:51:07.480 --> 01:51:14.440
+but i hope the urge is has given a right answer and muneshwara might have shared it
+
+01:51:14.440 --> 01:51:20.760
+upendra has shared answer right guys i hope this logic is pretty simple and straightforward let's
+
+01:51:20.760 --> 01:51:27.160
+say you have function uh someone uh you have it it accepts two values x and y
+
+01:51:27.400 --> 01:51:31.000
+and it returns a new function
+
+01:51:34.280 --> 01:51:40.200
+which takes up extra parameters z and it returns a new function
+
+01:51:45.480 --> 01:51:49.480
+and this function is actually executing all the values
+
+01:51:49.800 --> 01:51:58.760
+okay if you want to execute this thing again you have to do console.log
+
+01:52:02.280 --> 01:52:02.840
+someone
+
+01:52:05.400 --> 01:52:11.480
+so you pass one comma two then you pass three then you call that function
+
+01:52:11.480 --> 01:52:15.480
+uh just let me see this
+
+01:52:25.240 --> 01:52:31.480
+okay someone was already defined here uh let me comment this part of code
+
+01:52:35.800 --> 01:52:36.280
+clear
+
+01:52:42.360 --> 01:52:49.480
+now yeah we were able to print six or twice it is coming from there and here again this is also
+
+01:52:49.480 --> 01:52:55.480
+forming a closer now if you remember this innermost function is executed separately but it doesn't
+
+01:52:55.480 --> 01:53:02.120
+it somehow it remembers the values of x y z that is forming that is coming because of our closure
+
+01:53:02.120 --> 01:53:09.480
+let me show you this with uh a proof when i go and execute it here let's say i comment every
+
+01:53:09.480 --> 01:53:17.080
+thing and i try to print this logic just this logic let's say i go back here in the closures
+
+01:53:17.960 --> 01:53:21.880
+and go to the sources of the script file
+
+01:53:24.040 --> 01:53:33.640
+i put it here debugger and let's say that i'm here firstly it calls a function uh someone so it
+
+01:53:33.880 --> 01:53:40.840
+calls a function uh someone so it should return this lot of piece of logic let's say now when this
+
+01:53:40.840 --> 01:53:47.560
+returns now if you see the x value and y value is one and two and let's say what happens when it
+
+01:53:47.560 --> 01:53:55.320
+returns now if you see it formed like someone is forming a closure someone like this part of thing
+
+01:53:55.320 --> 01:54:01.400
+is forming a closure with this part now let's say if i open this if you see it forming a closure
+
+01:54:01.400 --> 01:54:07.720
+with values of its external or like the states surrounding states like one and two lexical scope
+
+01:54:07.720 --> 01:54:14.280
+then there is another closer where it is storing because we came at line number 54
+
+01:54:14.280 --> 01:54:20.600
+the second closer is this one which is actually bundling this function an ominous function with
+
+01:54:20.600 --> 01:54:28.040
+its values whatever there so this way uh since x y z are available in its lexical scope we are
+
+01:54:28.040 --> 01:54:33.320
+able to access this value is this clear guys how this function is this is working
+
+01:54:34.680 --> 01:54:38.360
+now would you be able to understand whenever you see a closure anywhere
+
+01:54:41.480 --> 01:54:43.960
+can you understand this code if you see anywhere closure
+
+01:54:45.800 --> 01:54:49.240
+right you would be able to understand it what what is actually happening
+
+01:54:49.240 --> 01:54:53.960
+there might be bundling it is having a you know lexical scope values available so
+
+01:54:53.960 --> 01:54:59.720
+those things are there you know there are generally when you go for scopes right when
+
+01:54:59.720 --> 01:55:05.640
+you go for scopes basically you will have local scope if there is something available inside this
+
+01:55:05.640 --> 01:55:11.320
+function okay in this thing you have only window object which is pointing to this keyword other
+
+01:55:11.320 --> 01:55:17.080
+than that it is having a two levels of closure accesses because these are bundled inside inside
+
+01:55:17.080 --> 01:55:23.480
+inside also it is having an access to the global this is what it is actually called as a scope
+
+01:55:23.480 --> 01:55:30.280
+chain like from local to the closure another closure then the global like from one level
+
+01:55:30.280 --> 01:55:33.960
+to the all external levels is this clear
+
+01:55:38.680 --> 01:55:46.040
+yes uh what is scope chain how many types of scopes are there right now i'll show you
+
+01:55:46.040 --> 01:55:52.760
+there is this example how this let voila thing is working let's say i try to comment this piece
+
+01:55:53.240 --> 01:56:00.120
+i didn't debug and show this one right the difference between later and what happens here
+
+01:56:03.000 --> 01:56:05.560
+let's say i try to put a debugger here
+
+01:56:08.840 --> 01:56:14.120
+okay now let's say i try to put a debugger but
+
+01:56:14.120 --> 01:56:28.040
+no if you see it here firstly inside this local scope inside the set timer callback function
+
+01:56:28.040 --> 01:56:33.640
+there is nothing available when you're going for using a lit key but there is something like a
+
+01:56:33.640 --> 01:56:40.600
+block scope is available this block scope is available this scope is actually providing the
+
+01:56:40.600 --> 01:56:47.480
+value of i when you're going for let you know only let and const are block scope that is something
+
+01:56:47.480 --> 01:56:53.560
+we read now that you can see it at real time here okay if i click it play again you will
+
+01:56:53.560 --> 01:56:58.920
+see in the block scope the value is available is this clear guys how this is working
+
+01:57:01.560 --> 01:57:06.840
+when i use let keyword and solve that set timeout issue like when i'm trying to print zero to nine
+
+01:57:11.560 --> 01:57:16.760
+let's give me thumbs up if you got this point or give me thumbs down if you didn't get it
+
+01:57:20.920 --> 01:57:21.400
+okay
+
+01:57:24.840 --> 01:57:30.440
+good great now then there's a one more thing that let's say if i pick it up one more use case
+
+01:57:32.760 --> 01:57:34.760
+as i paste the question completely
+
+01:57:34.760 --> 01:57:36.760
+firstly
+
+01:57:38.920 --> 01:57:47.160
+we have to implement a function that generates a random number between one and hundred and return
+
+01:57:47.160 --> 01:57:52.520
+a function that checks if the guest number matches the generated number let's say what i'll say is
+
+01:57:52.520 --> 01:58:00.200
+that i'll tell you it's like a game like what happens is like you know in my heart i'll tell
+
+01:58:00.200 --> 01:58:05.640
+you guess a number what i'm thinking in my heart and that number will be between one and hundred
+
+01:58:05.640 --> 01:58:13.080
+if i say that let's say i think 43 or 44 in my heart i don't say it on out but you say that it
+
+01:58:13.080 --> 01:58:21.000
+is 20 i say that the target number i mean the your guest number is less than the expected number
+
+01:58:21.000 --> 01:58:27.960
+some something that's hard of it now how would you implement this logic like you have to handle
+
+01:58:27.960 --> 01:58:32.520
+three conditions if generated number
+
+01:58:36.040 --> 01:58:39.560
+whichever generated number when i said generate number i what i thought in my heart
+
+01:58:39.560 --> 01:58:42.600
+is greater than guest number
+
+01:58:46.600 --> 01:58:51.240
+then opposite case and then equals case three cases
+
+01:58:58.520 --> 01:59:03.400
+so guys can you think of it like how can you approach this question again
+
+01:59:10.280 --> 01:59:17.960
+to pointer base but uh yeah i need anything i've been anything works like just like try to figure
+
+01:59:17.960 --> 01:59:22.440
+out like firstly you have to run generate a random number how would you generate a random number
+
+01:59:22.440 --> 01:59:29.400
+between one and hundred think of that thing how would you generate a random number mad
+
+01:59:29.400 --> 01:59:35.400
+dot random into hundred okay what it would give mad dot random into hundred what it would give
+
+01:59:36.120 --> 01:59:38.600
+what would the values are range of values
+
+01:59:38.600 --> 01:59:54.840
+uh it it gives a decimal values right if you give a mad dot random uh it's it's it stretches from
+
+01:59:54.840 --> 02:00:04.920
+zero to one and you are trying to multiply right uh ramya says that mad dot random multiplied by
+
+02:00:04.920 --> 02:00:14.360
+100 plus one okay i had got answer from upendra but if i combine upendra's and ramya's answer
+
+02:00:14.360 --> 02:00:21.400
+it would be right okay let's say i'll so as you guys guessed it that yeah math library will be
+
+02:00:21.400 --> 02:00:26.520
+something helping us to build a random number but how many of you know the difference between mad
+
+02:00:26.520 --> 02:00:29.240
+dot floor versus mad dot seal
+
+02:00:34.440 --> 02:00:37.560
+give me thumbs up if you understand this difference between floor and seal
+
+02:00:39.240 --> 02:00:42.840
+right let's say what is according to floor what will be the value of
+
+02:00:43.640 --> 02:00:52.440
+0.4 what will be the value of 0.4 0 if i say let's say 1.3
+
+02:00:56.520 --> 02:01:01.640
+1 right if i go for uh seal let's say 3.6
+
+02:01:09.720 --> 02:01:10.360
+should be 4
+
+02:01:12.840 --> 02:01:22.200
+even if i have 3.1 what should be the value of seal 4 now this this is once this is clear
+
+02:01:22.200 --> 02:01:27.480
+now imagine if i want to generate a random number now firstly we know that mad dot random
+
+02:01:28.680 --> 02:01:32.840
+what what is the range of this thing what it returns us
+
+02:01:34.840 --> 02:01:37.640
+what is just if i call mad dot random what it will return us
+
+02:01:45.480 --> 02:01:51.720
+zero to one in any values right anything 0.1 0.2 anything it can come so if we multiply by 100
+
+02:01:52.360 --> 02:01:58.680
+we are we are we're thinking that it will be from zero to one uh like you know if if let's
+
+02:01:58.680 --> 02:02:05.960
+say if it gets number is zero itself zero into 100 becomes zero then let's say if i keep on add one
+
+02:02:06.760 --> 02:02:09.080
+then this issue is solved in a way
+
+02:02:11.320 --> 02:02:17.640
+isn't it no but in order to make it better let's say mad dot floor
+
+02:02:17.640 --> 02:02:28.280
+uh dot random this one what this will do is like this use case is just handling from let's say zero
+
+02:02:30.120 --> 02:02:36.200
+whatever you get it in like 0.1 0.8 whatever you see that it will floor it down then it will add
+
+02:02:36.200 --> 02:02:42.680
+up to one so all the edge cases will be handled when you actually uh take this uh floor plus one
+
+02:02:42.680 --> 02:02:48.040
+if you have either you can do something like seal seal and remove plus one
+
+02:02:49.800 --> 02:02:54.200
+do you guys agree with this point either use seal or if you use floor do it plus one
+
+02:02:57.240 --> 02:03:09.320
+right let's say i have a floor and i do it plus one okay now let's say we build this function called
+
+02:03:09.640 --> 02:03:16.360
+guess game inside this guess game
+
+02:03:18.440 --> 02:03:20.760
+we have to return another function
+
+02:03:25.240 --> 02:03:30.600
+okay that is what a statement is saying implement a function that generates a random number let's say
+
+02:03:30.600 --> 02:03:37.000
+this function generates a random number now in order to generate a random number let's say i take this
+
+02:03:37.000 --> 02:03:45.480
+i take this uh and i cut it i say that const generated number
+
+02:03:49.320 --> 02:03:55.240
+okay now let's go through the statement again
+
+02:03:59.640 --> 02:04:04.360
+you see implement a function that takes a generate a random number between one to hundred
+
+02:04:04.360 --> 02:04:09.720
+now we have covered like one we are generating a number and returns a function that check
+
+02:04:10.360 --> 02:04:16.120
+if a guest number matches now let's say if we if we need to receive a guest number let's say if
+
+02:04:16.120 --> 02:04:22.840
+this they are passing something like guest number okay in this return function and what i have to
+
+02:04:22.840 --> 02:04:31.560
+check like whether guest number is equal equal to generate number generated number let's see
+
+02:04:31.560 --> 02:04:39.320
+okay if it is equal i'll say that hey return congratulations i'll say that return congratulations
+
+02:04:40.440 --> 02:04:47.400
+but you have guessed it right if it's just a if else conditions nothing much guys
+
+02:04:48.520 --> 02:04:53.960
+if guest number is greater than generated number
+
+02:04:54.360 --> 02:04:58.360
+let's say i say that
+
+02:05:02.200 --> 02:05:06.920
+try a lower number again
+
+02:05:11.080 --> 02:05:23.000
+else return try a high number again okay let's say if you uh do a
+
+02:05:23.320 --> 02:05:28.120
+game of call and this returns a function
+
+02:05:30.760 --> 02:05:33.640
+let's say const game start
+
+02:05:35.880 --> 02:05:43.240
+this particular thing stays now once you start that game start dot say you pass on 20
+
+02:05:43.240 --> 02:05:49.320
+and try to execute then it will keep on playing the game let's have to do a console log of this
+
+02:05:49.320 --> 02:05:51.480
+one since we are returning a statement
+
+02:05:58.200 --> 02:06:04.840
+you see it says try a higher number we don't know which number it is if i say 40 let's say
+
+02:06:06.920 --> 02:06:10.120
+try a higher number again 60
+
+02:06:10.280 --> 02:06:21.880
+okay now why did i write logic this way in order to in order to keep consistent of generated
+
+02:06:21.880 --> 02:06:27.800
+number if my generated number keep on changing each time i try to do it it will fail it isn't it
+
+02:06:29.160 --> 02:06:34.920
+firstly did you get this why did i implement enclosure format is reason because since the
+
+02:06:35.080 --> 02:06:40.840
+session is started the generated number will be same until i keep guessing it won't change each
+
+02:06:40.840 --> 02:06:52.760
+time i call this right i can call again let's say console dot log game start of 80
+
+02:06:58.600 --> 02:07:03.800
+do you guys see this low so it says that number is between 60 to 80 let's say if i try to print
+
+02:07:03.800 --> 02:07:12.680
+down here if i try to print down
+
+02:07:15.800 --> 02:07:22.120
+you see my number is actually 85 now even if i again call it let's say if i call it again here
+
+02:07:25.400 --> 02:07:25.960
+okay
+
+02:07:26.120 --> 02:07:34.760
+uh anyways that number will change when i again execute it reason behind i'm calling this function
+
+02:07:34.760 --> 02:07:39.960
+guess again again but if i load it from separately let's say game start i'm calling it from different
+
+02:07:39.960 --> 02:07:46.040
+place this instance this actually generate function will not be called again again
+
+02:07:46.040 --> 02:07:52.360
+but this part of logic will be called a number of times do you guys agree with that point
+
+02:07:53.160 --> 02:07:57.720
+that we are actually fixing one generated number and you can keep on generally playing around
+
+02:07:57.720 --> 02:08:01.800
+let's say if i say in my heart 23 number you keep on saying that guessing it
+
+02:08:01.800 --> 02:08:03.640
+till then i won't be changing that number
+
+02:08:05.880 --> 02:08:07.560
+yes are you able to relate that point
+
+02:08:11.320 --> 02:08:19.800
+okay so this is also again forming a closure this is the the reason that multiple instances
+
+02:08:19.800 --> 02:08:26.840
+this game start that 60 whatever like multiple game start functions still sharing that same
+
+02:08:26.840 --> 02:08:32.360
+generated number 62 the reason it is because we are still forming a closure here this
+
+02:08:32.360 --> 02:08:37.320
+guest game is forming a closure with this function and its scope like single scope
+
+02:08:40.280 --> 02:08:47.720
+so so this is what topic is on closures guys i this is what i have come with
+
+02:08:48.440 --> 02:08:54.520
+and i hope you all got the zest of closes like how closures and what can be examples of closures
+
+02:08:54.520 --> 02:09:02.280
+like let's say if you go and write down in like examples of closures
+
+02:09:05.400 --> 02:09:06.680
+in js
+
+02:09:09.960 --> 02:09:16.440
+built in js if you see okay they might have
+
+02:09:17.720 --> 02:09:27.880
+multiple things okay there you have multiple things but
+
+02:09:33.000 --> 02:09:37.080
+let me give you real time things which are actually you know forming a closure
+
+02:09:37.080 --> 02:09:43.080
+let's say add event listener is a closure
+
+02:09:47.720 --> 02:09:51.080
+so
+
+02:09:53.800 --> 02:09:54.920
+there might be an answer
+
+02:09:58.200 --> 02:09:58.520
+okay
+
+02:10:05.000 --> 02:10:10.600
+here actually they for this issue is actually related to var key where they are actually binding
+
+02:10:10.600 --> 02:10:11.640
+the value of i
+
+02:10:16.680 --> 02:10:19.240
+so this is the same for loop issue classical issue
+
+02:10:23.240 --> 02:10:30.680
+but you know all the callback function which takes in and execute the function later on mostly all
+
+02:10:30.680 --> 02:10:35.480
+the parent functions forms a closure with those child functions because they're bundled together
+
+02:10:35.480 --> 02:10:43.560
+and child functions surprisingly remembers all the parent elements right i mean lexical scope items
+
+02:10:44.200 --> 02:10:50.360
+okay i hope that makes sense so guys do you want me to cover set and map now
+
+02:10:50.360 --> 02:10:53.960
+or do you want me to cover in next class just want to know your opinion
+
+02:10:54.600 --> 02:10:56.600
+okay
+
+02:11:01.320 --> 02:11:06.360
+i see most two people there's few more votes if you want me to cover in next class give me thumbs
+
+02:11:06.360 --> 02:11:14.280
+up promo says now if you want me to cover now give me thumbs down i received one
+
+02:11:19.080 --> 02:11:22.760
+okay what if we cover one topic and one topic i leave it for the next class
+
+02:11:24.040 --> 02:11:27.160
+would that be fine it will take 10 hardly because it's a
+
+02:11:30.040 --> 02:11:33.080
+promote can we cover in next class itself i've received like you know
+
+02:11:33.080 --> 02:11:35.560
+to majority of people wanted to cover in next class
+
+02:11:37.640 --> 02:11:46.600
+okay okay so with that guys i'll start the doubt session for today let me add a bookmark
+
+02:11:47.400 --> 02:11:54.440
+i see very low on you know energy after the closures so i hope everyone got the basic
+
+02:11:54.440 --> 02:12:01.880
+understanding of closures now i'll go back to the doubt that earlier i have received
+
+02:12:02.920 --> 02:12:08.440
+so kabir do you understand the answer of this thing now how this thing works
+
+02:12:16.600 --> 02:12:21.960
+would you be able to answer this one now i hope like just that that's the reason why i told that
+
+02:12:21.960 --> 02:12:27.240
+i'll pick it up at last once we go through the multiple use cases so that you will be able to
+
+02:12:27.240 --> 02:12:33.480
+understand how this thing works break down part by part you'll see like what is actually returning
+
+02:12:34.120 --> 02:12:36.280
+okay and how this is actually returning
+
+02:12:39.560 --> 02:12:42.840
+and what will be the output for this one what do you think the output should be
+
+02:12:46.840 --> 02:12:47.340
+okay
+
+02:12:55.160 --> 02:12:58.440
+in this in this scope in this scope
+
+02:13:02.040 --> 02:13:06.200
+check the value of num whether it should be initialized hoisted
+
+02:13:06.760 --> 02:13:13.400
+it multiply by two becomes a function okay
+
+02:13:16.120 --> 02:13:19.640
+yep kabir look at here firstly
+
+02:13:23.880 --> 02:13:28.360
+i'm returning a function let's say now if i write let's say i write a function
+
+02:13:29.240 --> 02:13:36.920
+sum i return x comma y and let's say i return x plus y
+
+02:13:40.200 --> 02:13:49.960
+okay let's say i store const well equal to sum of x one comma two one comma three now
+
+02:13:49.960 --> 02:13:55.480
+what will be stored in well the return type of value calculated isn't it
+
+02:13:56.280 --> 02:14:01.720
+right what is a number four is a return type now here what we are returning actually
+
+02:14:05.320 --> 02:14:13.720
+function isn't it and we have learned that you can always assign functions to variables
+
+02:14:14.280 --> 02:14:18.920
+you can always assign functions to variables let's say you can always write this right we
+
+02:14:19.000 --> 02:14:21.800
+always write this right we have written this multiple times
+
+02:14:24.600 --> 02:14:30.280
+so this is the same use case where it is actually returning and you are storing in a multiply by
+
+02:14:30.280 --> 02:14:37.080
+two and then you are passing five value into it where your x value become five and num value was
+
+02:14:37.080 --> 02:14:45.720
+two but whenever you are trying to print result whenever you are executing this part here there
+
+02:14:45.720 --> 02:14:52.120
+is some trick going on try to remember this let's say if i go and paste this logic
+
+02:14:56.520 --> 02:14:58.600
+did i have anywhere open
+
+02:15:04.760 --> 02:15:09.960
+now do you see this it received nan because you are actually multiplying
+
+02:15:10.920 --> 02:15:16.600
+a num which is undefined value into x like if you do let's say undefined
+
+02:15:17.960 --> 02:15:26.840
+multiplied by three you'll receive not a number because here in this scope in this scope the
+
+02:15:28.040 --> 02:15:35.880
+where num is initialized will be hoisted with undefined value but from even but in a closure
+
+02:15:35.880 --> 02:15:40.840
+num is available but it won't go to the closure scope because we have seen in the sequence in the
+
+02:15:40.840 --> 02:15:49.400
+scope chain that you first check local then block then closures then global right this is the order
+
+02:15:49.400 --> 02:15:56.760
+of the scope chain a number of closures can be in between number of things okay
+
+02:15:56.760 --> 02:16:07.240
+so guys this is actually a you know one of the beautiful concept where you will be seeing
+
+02:16:07.240 --> 02:16:13.480
+everywhere like you know everywhere where you want to create a private variables how we want to
+
+02:16:13.480 --> 02:16:21.320
+actually you know encapsulate the data how things works you know i i got even one example let's say
+
+02:16:22.280 --> 02:16:26.840
+i i got even one example let's say if you see this example i'll paste it here
+
+02:16:28.520 --> 02:16:34.200
+now what this looks like you are trying to make an api call right you are trying to make an
+
+02:16:34.200 --> 02:16:44.280
+api call fetch call fetch data url isn't it now this fetch data is actually a function
+
+02:16:45.240 --> 02:16:53.160
+now this function is actually bundled inside this fetch data function so we have written this logic
+
+02:16:53.160 --> 02:16:58.760
+earlier but we didn't know that earlier that this is actually fetch data is actually forming a closure
+
+02:16:58.760 --> 02:17:07.080
+with this part so we have seen closures day in day out everywhere but we just didn't know it
+
+02:17:07.080 --> 02:17:26.360
+so but but if you go anywhere if you go anywhere any youtube channel anything you will be having
+
+02:17:26.360 --> 02:17:33.640
+this example for sure for loop this is a classical question that is asked in interviews go anywhere
+
+02:17:33.640 --> 02:17:39.800
+you will see that for loop with var they'll ask it like try to print it what is an expected output
+
+02:17:39.800 --> 02:17:46.520
+you have to guess it right because var is again it's not a block scope it's a global scope and by
+
+02:17:46.520 --> 02:17:51.560
+the time the set time what comes into the call stack for loop has been iterated so many times
+
+02:17:52.120 --> 02:17:57.240
+that it refers to the i value i value is currently updated to 10 or 11 whatever value
+
+02:17:57.800 --> 02:18:02.920
+range is there then it prints all the times that particular value but when you go for let
+
+02:18:02.920 --> 02:18:08.680
+it have a block scope in the chain that's how it works in order to fix with a var itself you have
+
+02:18:08.680 --> 02:18:16.120
+to use a like closure for you should wrap it with a function and pass a value into that function simple
+
+02:18:21.000 --> 02:18:31.880
+so in next class i'll be picking two things guys from my side so i'll explain how browser
+
+02:18:32.920 --> 02:18:48.760
+works renders html css and js and set and map and i'll revise async js
+
+02:18:51.480 --> 02:18:52.360
+this would be fine
+
+02:18:54.840 --> 02:18:57.560
+yeah harish you can you can
+
+02:18:57.800 --> 02:19:06.120
+uh did you want to share your screen let me see if i can give you an access
+
+02:19:12.280 --> 02:19:19.160
+uh can you do one thing can you uh like let me see if i can give you an access
+
+02:19:19.160 --> 02:19:22.360
+i just want to see that how can i give an access
+
+02:19:27.560 --> 02:19:28.360
+uh
+
+02:19:31.880 --> 02:19:38.360
+allow multiple hosts to share the screen uh that's fine but screen share
+
+02:19:38.360 --> 02:19:39.160
+you
+
+02:19:55.400 --> 02:19:59.160
+okay i'll see
+
+02:19:59.160 --> 02:19:59.960
+you
+
+02:20:06.280 --> 02:20:13.240
+how do you have actually unmuted you uh can you hear me yeah you can paste the error too
+
+02:20:13.240 --> 02:20:24.040
+that's fine i i unmuted you apparently hi hi yes yes okay so uh i was like trying practicing
+
+02:20:24.040 --> 02:20:29.080
+myself the canon board so in between that out of nowhere when i was running on chrome browser
+
+02:20:30.120 --> 02:20:36.360
+so the code part is okay i checked with your codes also it is showing me some error i'll post
+
+02:20:37.000 --> 02:20:45.000
+yeah that some json issue is there while you're trying to do it yes so so json uh pars and sting
+
+02:20:45.000 --> 02:20:52.200
+if i wherever you are doing uh like if i if i remember in group uh let's say i have that photo
+
+02:20:52.280 --> 02:20:53.640
+uh let me check that
+
+02:20:56.840 --> 02:21:04.520
+here i've tested it okay uh on syntax unexpected non-white space character of the j
+
+02:21:05.320 --> 02:21:12.840
+json at position two line one column three so you are when you are trying to parse it
+
+02:21:12.840 --> 02:21:17.560
+json dot parse wherever you are adding can you check like whether the syntax is right
+
+02:21:18.360 --> 02:21:26.840
+uh in uh script javascript or in in javascript itself i tried pasting your code also so still
+
+02:21:26.840 --> 02:21:34.440
+i was getting the same error okay let's see let's say like uh if i go into canban board
+
+02:21:34.440 --> 02:21:37.320
+code
+
+02:21:40.440 --> 02:21:48.840
+see the my code if i try to execute it's not breaking but if i see json wherever it is set
+
+02:21:48.840 --> 02:21:54.440
+so i am doing a stringify but your part of code is actually breaking here
+
+02:21:56.440 --> 02:22:01.000
+okay but i have not written that much i have written only up to that color selection part
+
+02:22:01.000 --> 02:22:09.240
+right up to that only i'll say like i'm halfway through i have not completed fully yet okay so
+
+02:22:09.240 --> 02:22:14.120
+still uh like when i try to assess those color elements you remember like while clicking the
+
+02:22:14.120 --> 02:22:21.800
+color the top color will be changed so while typing that one only it raised and i uh make it
+
+02:22:21.800 --> 02:22:27.000
+like i deleted these things again the same error repeating so i tried to do it but i could not
+
+02:22:27.000 --> 02:22:33.080
+find like what exactly it is meaning okay wherever you add json right wherever you are doing
+
+02:22:33.080 --> 02:22:40.920
+trying to uh manipulate it i have not added any json i guess so okay you haven't added the json
+
+02:22:40.920 --> 02:22:48.600
+point yes yes unexpected non-wide space character of the json at position two i actually have to
+
+02:22:48.600 --> 02:22:53.160
+debug it can we connect on the google meet or maybe i can get an access to your system and check it
+
+02:22:53.160 --> 02:22:57.720
+yes that would be fine yeah okay drop me a link after the class i will connect back
+
+02:22:59.240 --> 02:23:07.160
+okay okay in what's up yeah yeah what drop me in what's up i'll join fine thank you yeah thank you
+
+02:23:09.880 --> 02:23:21.160
+i'll mute you back
+
+02:23:23.960 --> 02:23:32.520
+so guys is there any other questions but you know uh there are some articles that i keep pasting
+
+02:23:32.520 --> 02:23:40.360
+but i'll try to put it one place i'm not sure how many of you are getting a time but guys seriously
+
+02:23:40.360 --> 02:23:47.960
+tell me would you be joining tomorrow if i paste a live link of youtube streaming right it's like
+
+02:23:48.520 --> 02:23:52.760
+right it's it's like we collaboratively sitting together and figuring out time
+
+02:23:52.760 --> 02:24:01.960
+and studying together okay uh thanks maneshwara it's good for us and guys is ankit available
+
+02:24:03.960 --> 02:24:11.240
+he's not here he's under he's having struggle uh i'll share in the
+
+02:24:11.240 --> 02:24:16.840
+whatsapp once i start streaming because i raised permissions yesterday let me see if i got that
+
+02:24:16.840 --> 02:24:26.840
+permission if we can do it
+
+02:24:34.280 --> 02:24:40.840
+so i go into studio
+
+02:24:46.840 --> 02:24:56.840
+so
+
+02:24:56.840 --> 02:25:20.840
+okay let's say i'm creating it uh yeah kabe doubt station was started actually
+
+02:25:26.840 --> 02:25:30.840
+so
+
+02:25:34.440 --> 02:25:37.320
+guys can you check this if link is working for you
+
+02:25:39.720 --> 02:25:47.800
+oh this is from studio i guess so this might not work but share yeah this is the link
+
+02:25:49.720 --> 02:25:55.320
+if you can check if you can join and type in on chat if this is working we can sit together
+
+02:25:55.320 --> 02:26:03.320
+discuss communicate work on it
+
+02:26:06.200 --> 02:26:16.520
+i i don't see anyone yet yeah shashank is there working right so we'll we'll do it tomorrow
+
+02:26:16.520 --> 02:26:22.840
+uh we'll find right i'll share the link in the whatsapp so where we can sit together and work
+
+02:26:22.920 --> 02:26:30.120
+work on it okay so that we can think discuss doubts and whatever it is i can keep sharing
+
+02:26:31.080 --> 02:26:36.680
+also if i'm like it's like people sitting together and learning is that's it nothing else
+
+02:26:37.720 --> 02:26:40.840
+okay i'll end the stream from there
+
+02:26:40.840 --> 02:26:44.840
+so
+
+02:26:49.720 --> 02:26:50.840
+okay cool
+
+02:26:58.760 --> 02:27:05.720
+chalo guys then with that uh i'll connect with harry offline uh anything else guys if anyone
+
+02:27:05.720 --> 02:27:13.800
+else is having any concerns ping me right away uh and try to keep it uh 100% guys psp 100% and
+
+02:27:13.800 --> 02:27:19.640
+start prepping for your mock uh for html css js as i've told you break down break down into
+
+02:27:19.640 --> 02:27:27.080
+power pieces go for first tag it down html read it through complete it then go for css then come
+
+02:27:27.080 --> 02:27:33.720
+for js first start from the dom level try to put your hands around how we are adding event listener
+
+02:27:33.720 --> 02:27:40.680
+how document or query selector all is working once you do that anyways i'll cover the asynchronous
+
+02:27:40.680 --> 02:27:46.600
+js again uh the next class uh because i have to teach that because that's a tagline of the class
+
+02:27:47.640 --> 02:27:54.760
+plus i'll take how browser works and set time map so that we'll complete uh html css but still
+
+02:27:54.760 --> 02:27:58.440
+there is a two months of time where i'll be covering good amount of things and we'll be
+
+02:27:58.440 --> 02:28:04.280
+learning together guys okay
+
+02:28:07.160 --> 02:28:10.440
+so hi i hope you got to learn today something interesting concept
+
+02:28:11.080 --> 02:28:15.320
+i hope you liked it if you liked it please share your feedback okay
+
+02:28:18.360 --> 02:28:27.240
+uh related to yeah me too muneshwara uh like react is liberty amazing like library to learn
+
+02:28:28.440 --> 02:28:34.440
+but open how many how will be marks how many theory problems so i have limited knowledge on
+
+02:28:34.440 --> 02:28:39.720
+that open there like how things works but i need few more feedback feedbacks but i'm
+
+02:28:41.080 --> 02:28:46.440
+just prepping from all over interview point of view pendra so wherever someone who will ask me
+
+02:28:46.440 --> 02:28:53.160
+out right like how would i prepare for mock when it is specific to html css js then we have to
+
+02:28:53.160 --> 02:29:00.440
+prepare as per that and we will be talking over this multiple times in upcoming weeks and every
+
+02:29:00.440 --> 02:29:05.560
+week from here and then when we will be sitting together maybe 9 to 11 30 or whatever time it is
+
+02:29:05.560 --> 02:29:13.160
+alternate days uh let's say you pick up one topic let's say if we pick a schedule like uh do you
+
+02:29:13.160 --> 02:29:19.480
+want me to build up a schedule so that you can revise it better easily what how how it would be
+
+02:29:19.480 --> 02:29:28.440
+easier for you to revise it for mock interviews so let me share it uh let me share that uh give
+
+02:29:28.440 --> 02:29:33.640
+me some time i'll work it so that you can break down the slots between one one and a half hour
+
+02:29:33.640 --> 02:29:42.280
+right not more than that so so that you have enough time and uh it's it's not like uh i give
+
+02:29:42.280 --> 02:29:48.520
+that uh hey one and a half hour you complete html it wouldn't work that how where do you should
+
+02:29:48.520 --> 02:29:54.360
+start from how what you have to prepare from that things also i should uh we'll talk about that okay
+
+02:29:55.000 --> 02:30:02.440
+let me uh i'll prepare a one readme file i'll paste it in our repo itself so let's say i create
+
+02:30:03.160 --> 02:30:08.760
+file called as a mock one and what all things how can you break down uh how which classes you can
+
+02:30:08.760 --> 02:30:16.440
+prep from okay i'll break down i'll give it to you okay i i would say something is like just hang on
+
+02:30:16.440 --> 02:30:24.040
+with me believe it we'll sail it through we'll we'll get uh good off like we'll we'll learn
+
+02:30:24.040 --> 02:30:30.120
+knowledge in a better way offers and everything is like uh like depends like when when you get
+
+02:30:30.120 --> 02:30:35.640
+shortlisted once you get i'm i'm only worried about is that once you get your CV get shortly
+
+02:30:35.640 --> 02:30:41.560
+said that then we should not lose that uh interview like we should be able to crack it we can fail n
+
+02:30:41.560 --> 02:30:48.760
+number of boxes no worries even if like i i'll also help you out with marks but
+
+02:30:50.600 --> 02:30:58.040
+practicing is more important than failing at a real time interview okay and keep it
+
+02:30:58.040 --> 02:31:03.720
+in a way that if you apply for 10 positions five calls clear five out of five two to three that is
+
+02:31:03.720 --> 02:31:12.360
+more than enough okay so then we have extended session for good time uh we close the session
+
+02:31:12.360 --> 02:31:19.320
+today here i hope to see you soon everyone there tomorrow and figuring out doing uh problems uh
+
+02:31:20.760 --> 02:31:27.320
+closing out your moving your psp percentages high i'll put a reminder such that you keep on
+
+02:31:27.320 --> 02:31:33.880
+working whenever you have bandwidth okay uh keep closing your uh assignments and psps
+
+02:31:35.720 --> 02:31:52.840
+thank you manesh farah so guys then good night take care thank you pendra bye bye guys
+
+02:31:57.320 --> 02:31:57.960
+you
+

@@ -1,0 +1,1268 @@
+Hi all, good evening, am I audible and visible guys, yes great, thank you Abhinav, give me
+a second, I'll share my screen, yeah I will do that, okay we'll do that, please let me
+know if you can see my screen, screen share is visible right, yeah great thank you, so
+I wanted to ask one thing like you know there's a drop in number of people who have solved
+assignments for the last class css one, is it because of attendance or you had any challenge,
+I just want to understand if you had any challenge or those straightforward or anything you have
+faced it, anyone, okay let's see we have 16 people in the class, how many of you
+have solved it, if you have solved it give me thumbs up, if you haven't tried it give me thumbs down
+okay
+great, so among them three what could be the possible reason guys like you were not able to
+find time or like any challenges or if I can help you out, okay great Abhinav, time,
+sure it would take I think believe me this full stack related assignments right
+shouldn't be taking more than half an hour for you to solve them like two three questions so
+maybe you can try it down okay because I don't want your backlog to you know fill up
+right so people who gave me thumbs down right please try to you know manage it
+and give your you know like time some time to it at least half an hour or one hour whatever it is
+like depending on your speed okay so yeah no worries Abhishek please
+just cover it up only you have two classes right so moving forward you won't have that backlog
+okay thank you Abhishek, so guys anyone can drop message in whatsapp again
+would be really helpful like we are getting started
+frequently traveling because of work from different state to state
+state to state
+Dhanraj where do you work
+uh can you add that as a question like I'll try to take it commonly like this
+you have your own business okay
+okay let's let's do one thing guys what we'll do is like
+firstly we'll revise what we have discussed in session one then we'll get started okay
+I'll drop a message in group give me a second yeah Tejal has dropped a message
+thank you Tejal thank you Raman
+okay great so let's
+okay guys you can discuss with Abhishek discuss with Dhanraj later on but he maybe he's trying
+to build his career in IT let's focus on that last part okay so
+we'll get started guys it's seven of nine oh five already okay so today's agenda is
+morally specifically based on box model display and position these three particular fields
+particular fields but before going on to that I want you to you know shoot the something that
+you remember what we have learned in last last class like what you have learned or what we have
+discussed so what are the sections css we have introduced right we talked about what is css then
+we have discussed what is inline css
+selectors
+then we have discussed colors right if you remember colors and font and background property
+these are the things that we introduced already in last class now just trying to revise guys
+trying to revise if you come to selectors what all selectors you have
+like what all selectors you have can I say id then you have something called as class
+after that you have element selector then you have attribute selector
+these are the simple selectors that you can see other than this thing you have combinatorics
+when you go for combinatorics combinations you have descendant selector
+descendant selector
+and then you have children's selector right we have discussed all of this so I hope all
+these things are basic things are clear right how do you access a particular field using id class
+attribute descendant and children right okay great now if you have also seen about colors like
+how many types of how many ways you can choose colors what all things are there guys
+three right what would be the first way like you want to select directly you can directly
+write it down blue green red what we have limitation how many colors this way we can
+add it 140 right great right but what was the second way of doing it rgba function
+where r goes for red then green then blue then alpha goes for opacity like how much
+transparency you need it in color right then you also had hex code hex code again starts with hash
+then rr bb gg right then you had hsl we stand for hue saturation
+and what was l rise lightness right
+right this was from 0 to 360 which is used to manage the red and this was for
+like saturation 0 to 100 you can give it this also goes for 0 to 100
+which is used to you know darker or lighter and this used to generate
+different shades of a particular color right
+what is 255
+255 was this one right 0 to 255 was the range for this one right yeah great no worries
+after this we also discussed background right and background what all things we have discussed
+right like one thing we had is image like how we can add an image or a background image right
+then how can you center it or you know position it right so we had discussed about background
+properties if i put it in there are many properties in background but we have discussed about
+background in general repeat no repeat like if you want to repeat or gently if you want to
+repeat that vertically right so these are things that we have discussed also we have seen fonts
+like how we can import the fonts of different like if you want extra things which are other
+than the browser which will provide support if you can download from google fonts link your
+api google api and then attach your fonts and you can use them in the font family property
+right so i hope this is something that we have discussed and there are no doubts on this right
+if there are no doubts we can get started with today's class guys
+yeah great great guys let's let's get started with today now first thing that i want to discuss
+is that few properties i want to talk about on font and text right so these are the two things
+which are that will be for the total positive if we import and use that in app yeah yeah right
+some bit so it will be you can use it like wherever you want to define it for each element or every
+element font you can use it okay depends on it like if you want to use it for the whole project
+or like it's your specifications what your ux designer or your if you are designing your own
+app you can define it okay i've just showed you the way you can do it it's up to you how
+you want to do it okay now so guys uh so let's start with font and text these are the two short
+properties that i want to discuss first because if you go and see right uh the most of the websites
+any website you pick it up in today's world every site is filled with most of the content in it
+right where you consume the data like reading website you go for geek for geeks you go for
+medium.com or you go for the reference material that i was giving you it has more of a text
+content isn't it other than streaming apps that you see more of the apps or everything that you
+have is more of a content text right related to or you can say typography right so we'll see
+what are the properties that are available on the text and what all things you can deal with
+okay so i'll create one html file and we'll see like what all things you can apply firstly
+this is again referring to the same thing let's say you go open a microsoft word or anything
+and you start let's say typing it down a content or a paragraph that you write in microsoft excel
+and what all things you deal with okay so the same things that what what you can do it in
+microsoft excel will be able to we should be able to do all of them so let's see okay i hope my
+vs code is visible guys
+okay thank you so let's say i'm using m8 again i would say this is font and
+text part okay now let's say i have one h1 tag so
+uh okay munishwar i'll push it this is heading one uh and i'm using another paragraph p tag again
+i'm using lorem 20 so let's say i've generated this code now i'll try to open it in show preview
+on the right side let's say i minimize this now let's say we open style block here to write down
+let's say we open style block here to write down all the styles we have
+now so last time in last class we have discussed like related to font
+like font already font family right let's say we use it again okay one is a font family which used
+to change the type of fonts that we are using like if you see the current current one we can
+change it by using any of the font family that you have let's say i've used this for heading
+you see the heading type of the style that heading is generally applicable is changing let's say we
+apply that other thing so this thing i've already shown you that if you want it even you can uh
+change the like you know you can if you the particular properties if whichever are available
+if not enough you can also import it right so let's say i'm using here
+uh georgia times new sheriff then let's say i also use for paragraph where
+font family let's say this one okay so font family was something we have already discussed in last
+class now i want to talk something let's say this heading how do you like other than the font like
+the height of this word what is the difference between this one and this one guys what do you
+see a difference between two two of these lines other than the height
+other than the height like what do you see the difference boldness right so if you if can we
+make this particular paragraph content also increase the boldness and spacing agree right
+so we'll try to do something like such that we can make this you know paragraph track convert
+into h1 somehow so if you want to increase or play around with the boldness of a particular
+paragraph or a content right you can always use a one property called font weight which keeps your
+value from 0 100 to 900 and or else if you can use it by words you can use it by words like lighter
+bolder let's say if we use lighter it is still the same but what if we use bold see that converted
+into bold but if i convert into bolder it will be same way as you see it for the h1
+okay or else you can give 800 or 900 this all things again define on the same range of lighter
+bold and bolder okay this font weight here guys what font weight does for us
+right now the other thing imagine like if you want to increase the size of this paragraph size
+equal to like h1 let's say we want this paragraph to be equivalent to h1 somehow
+and we do it or use can we do it some achieve that or do we have any property if anyone knows
+right let's say there is one property already i've got suggestions right font size so even
+you have font size using that you can always deal with it it takes all the types of yeah so
+i was talking about like can we convert this paragraph size like the size of the words you
+can see to the size of this one or you can increase the size okay let's say font size again
+font says what are the least of values it takes okay so different types of units i haven't introduced
+it like pixels em or rem right relative units so we'll discuss them in the future classes but for
+now consider there are the pixels now pixels are like each screen can have a depending on a screen
+width and height it have a list of size of pixels now you have to define in the terms of like how
+many pixels that you want to cover on a screen okay similarly let's say you also have this
+you know words given due like like large larger medium small and smaller which again define the
+different size of sizes so i'm using just by default like larger which will be converting into
+nearly same side of font okay others if you want to convert into it directly like you can give a
+30 pixel okay which is like let's say 28 pixel is something i guess equivalent to
+h1 heading okay now we have converted two of the things now but there is something
+let's say what if you want to move anything let's say the content right if i let's say i expand it
+okay let's say i make this as a low ram 10
+okay now if you see what's happening is that it's taking full space and full width but what i
+wanted to show you guys is that let's say i'm having a div here
+okay i'm adding some css guys i'm converting this div into container
+okay i'm having a border of two pixels solid i'll talk about this one
+black and let's say i also give height of
+400 pixel and let's say width of 100 percent
+okay now let's say this now there is something let's say if you see this word side this whatever
+paragraph and h1 tags are there all of them are left aligned right all of them are left aligned
+do you guys agree with this they are left aligned right they are starting from the left most like
+if you take a note you start writing from the left left most writing right but if you go for
+some languages like urdu they write it from right side right they start it from right side and they
+they come back they that's how they write it what if we have such kind of languages or
+what we have such kind of scripts if you want to move it from the start the content left or right
+for that also we have one of the field called anyone does know it anyone do do you know it
+text align right where you want to align the text let's say if i put it end if you see like as you
+see maybe it didn't convert like this is the heading from the reverse but if you see that
+content has been pushed to the end okay now imagine if i have this in the span tag
+span tag again this is heading one
+okay and let's say that i say i say i have a span
+and text align left let's say center
+do you see guys span for this particular text align is not being applied for the center
+do you see this text align is not working for the span tag so i'll keep that open-ended question
+for some time what i'll do i'll do i'll go into us like i'll go and apply text align center
+for the paragraph meanwhile okay it converted into center so i've kept open this span uh so
+this one difference that you can find it like between these three types of elements can anyone
+figure it out what is the difference in this so shant has said in line span is not a block
+element span is right so what what exactly meant is guys like let's say when you go for h1
+let's say when you go for h1 and paragraph these are block level elements so only there
+are few css properties that applies for the block level elements and the few properties
+which doesn't apply for inline because inline takes only the amount of space it needs it starts
+from the place where you have defined it and it ends at the place where it is like the content if
+it space is whatever content it has once it occupies that space it doesn't do anything like
+you cannot change its location because the if you see uh let's open this uh particular thing
+uh in the live server open in live server uh give me a second guys
+yeah we can use it shortly now
+if you see this inline element right the span tag is ending here itself but when i go for h1
+if you see it's occupying whole row when there is a space of row in the whole row it can move left
+right center right but when it when it is like when it's occupying only the amount of space it needs
+it's occupying only the amount of space it needs then you cannot move it because the space is
+already fulfilled do you guys understand why first this property is not applying
+anyone having any doubt on this why uh you know this text alignment is not working on span tag
+okay thank you guys okay so what i mean to say is that uh arun tejal okay okay so firstly
+if you come and see here i have used three types of elements one is h1 one is span and one is
+paragraph h1 and paragraph are block level elements whenever you go for block level elements
+it takes whole space like whole row space like if you see this is a block level element it is
+taking whole row space if you go for this paragraph it is taking whole row doesn't matter how much
+content it is having or it doesn't have it okay but when it comes to span it is taking only the
+amount of space it needs it it is not consuming whole space whole row space is this point clear
+tejal arun hariprasad ankit right so now what happening is let's say i have more amount of
+space if let's say if you go into the uh train and the whole coach is empty you can set it in
+any table but if it is only one set you will be able to go and sit in only that set right
+but here if you see the for this uh block level elements there is a space it can move left right
+bottom anywhere i mean it has a start end and uh and like start end and center only three places
+right so what we have done is like we told that whenever you go for block level elements
+textile and property will be used to assign elements to the left right or the center it
+will apply for only block level elements because it they consume whole space of a row
+i hope this point is clear now and it won't apply for the span level elements because these are
+inline elements okay great guys now coming to the next property once textile and we completed
+excellent now there's something called let's say you you remember there are like if you go for
+microsoft word or google docs you have like underlines you know strike off through the
+content that you have right so we'll try to apply if we can do that same property since
+there's a heading available for us this is a heading okay
+let's say text decoration some width will discuss them one by one okay
+not going completely in depth because if i cover each and every property classes might not be
+enough you have to explore few i'll explore explain few of things in that okay it's like
+both the ways okay we'll see but i'll explain that part if you go for text decoration if you see
+there is something like if you see uh overline if you see overland what overland does it like
+adds over the heading so there are basic three properties that you use generally for the text
+decoration one is overline then there is something called underline which adds you know underline
+over the heading then there is something called line through which cuts the line these are the
+three things that you keep on using in the words right or you are preparing any documentation or
+you're writing things these are the basic three things type of decorations that you use with the
+text isn't it so i'll use this underline here
+as of now i hope this point is clear what does text decoration gives us
+right then there is some someone told me right there's a you know word spacing there's a word
+spacing difference between this is heading and this lot of paragraph content if you want to give
+a spacing or increase of spacing right between words there's a property again you have something
+like word spacing you can go and add word spacing let's say you go for and say two pixel now if you
+see once i gave two pixel this both looks like a line bit of a line right so word spacing generally
+gives a space between the words and there is something another property called line spacing
+which gives
+sorry letter spacing which gives space between the letters let's say i give to 0.2 pixel
+okay so there are two things word spacing and letter spacing like if you want to give a space
+between two words then you can use word spacing if you want to give space between two letters you
+can use letter spacings okay and there is something also called as line height line height is used to
+adjust this one height like what are the heights like let's say if i give uh i'll show you the
+difference since it's a paragraph we have yeah line spacing
+uh it's a line height guys let's say if i give eight pixel
+okay let's say i give uh 20 pixel let's say 25 pixel for the space now what do you see this what
+what do you understand like if you see uh like if i let's say i go to the chrome now since line height
+is 25 now if you see here what i applied here uh let's not refresh let me refresh this one
+okay i didn't save it let's save it come back here this is an element selector guys i use
+this element selector i hover over this and i click on this so it takes me to that paragraph
+and i can see here what are the styles are applying now on the paragraph if you see line
+height 25 pixel is there now if i keep on increasing if you see the each line right uh
+the under the paragraph let's say a paragraph is having a five six lines of paragraph now we are
+deciding what would be the size of each line if you see there are books which have bigger lines
+divided blocks such that in early age when you write down like if you remember hindi sort of
+whenever you write a hindi language you learn you have a different sort of lines distributed book
+when you go for english you have a rule book of different lines right so that way each line
+can have a certain space that depending on that we can customize it okay
+can you show where and how you increase that okay now if you see okay if it is not visible
+give me a second can you see this now uh shan if you see i selected element selector then i select
+this content now if you see in the style block right i have this line height now line height is
+usually used for each row height what is the row of each each row height if i reduce it it will
+both will collide or else i can increase it which will give me a spacing between two lines like how
+much spacing do i need between lines okay so i hope these three things are clear one is word
+spacing how much space you need between words and then there is something called letter spacing how
+much space you need between the letters and then there is space between lines how many how much
+space you need this between the lines i i hope these properties are clear to all like can you
+give me thumbs up if this properties are clear related to font i see three good good guys thank
+you so i'll try to summarize here what all things that we have learned okay so related to
+font something that we have seen in last classes field called font family which is used to you know
+add different type of uh font like text like font which are handling like maybe calligraphy or
+chinese or any sort of things like different types of fonts that you see something in newspaper or
+same language but writing it in a different way okay then we have discussed something called font
+size which is used to increase the size of like letters how much uh size you want to see okay
+again it has all the things large larger smaller bold like and pixels it takes and every other
+different unity it takes okay then we have discussed something called font weight which
+is used to handle boldness like how much bold content you need it then something we discussed
+about is text align right then we have discussed something called as text decoration which is used
+to add underscores are or like you know line through i mean scratch the line or get underscore
+on the top right then we have discussed three types of spacing between like words
+word spacing
+then we had letter spacing
+then something called as line height
+i hope this this whatever words you have seen now all this you are familiar now you would be
+familiar with it like if you see if you want to use it in future you will be able to use them
+right a basic idea that you have it in your mind right
+great guys now
+thank you
+now we'll start with some of the some of them in one of the important topic of css actually
+okay which is called box model
+okay but before coming to box model let's take off one example okay let's take this one example
+that uh have anyone been to vilas like have anyone seen vilas society
+like a society filled with vilas or anyone seen in movies or
+you know so like what we say series says
+open there i'll share you the links you click you can go through them
+okay for the like all the attributes are the properties for each one right
+well i'll share you all these things you can refer to them okay now so has everyone seen it
+firstly let's say there is something like this is an villa
+uh consider and hot sort of villa guys okay but now each villa uh has some specialty like
+uh around the villa what do you usually see guys
+some carpet area filled of gardens right can you imagine right now let's say i have this
+now let's say i have this
+let's say this is a garden i'll pick some other color okay this is a garden area right
+where you have plantation also you have a pathway right a pathway to the home but there is something
+like garden now after that garden then do you think uh the other home the other building right
+let's say if i draw again other building other house will be attached to this one or there will
+be a space let's say if i if i want to create a new building here it would be attached to this
+border or there will be some space space right let's say i do the same thing
+let's say i design other two villas let's say i keep it this way
+okay now so what we have seen here is that firstly
+let's say i go to a house there is something like a house area right let's say i if i write
+down the architectural part there is a house area where you can stay
+right outside house area then there is something like garden area
+right then there is a boundary wall right
+right
+once your boundary wall is done then you have something like called as space empty space
+let's say empty space
+which is like mandatory or i have seen people fighting for this space right if someone attaches
+their building for this one there are too many fights mandatory
+empty space right so overall overall this is how things look like right house structure or
+something like now right this is how a generally a house looks like now each element in html is
+also same i know you won't believe it but each html element is also you can consider it as a villa
+okay now let's talk about it when i say each element is a villa itself now what do i exactly
+mean by that is now if you are writing something in the paragraph content or between a heading
+content anything that you write in between those elements each elements each tags okay
+will have the same properties you can define them now let's say you have
+told like let's say this is a content area again i'm talking in terms of now html okay
+this is content area
+around that content area as you need a garden you have something called as padding
+okay padding is you can say the gardens for the the html elements you added after that
+you need a border or a fencing okay this is something called as border
+border okay you can say a border then you have something called
+margin
+okay margin is something which keeps space between two of the content like if you go and see
+in any textbooks or anything a each paragraph have a some space around it right that thing is
+same thing like these are the three basic things that you can relate with box model when you go
+for box model we are talking about only three properties okay those are margin
+padding and border
+okay i hope these three things are not like new to new to you now you are able to understand
+or relate with this one right with this example i'll show you the real time application of this
+one but now let's see the content that we have already prepared right now i'll go to the example
+of fonts that we have used now let's say i go to this paragraph now do you see this paragraph the
+if i highlight our paragraph the yellow line the yellow everyone can see that
+yellow line before over the lorem right
+right now let's see what that yellow line is about so where you can see the box model
+once you expand this tab and you go to the bottom in the style now if you see
+there is something called margin border and padding and the content area the content area
+is the height and width of the content that you see let's say if i highlight over it if you see
+this is the content area or you can say the area of that particular house that needs
+fine we told that hey this content doesn't need any garden or it doesn't need border
+but it surely need margin on the top and bottom so what it says that before the next line content
+or the earlier content whatever the this is heading right the content it should be separated
+i need a space between the each of the houses so that each of the space between each of houses
+is decided by margin if you want to add a garden around it let's say if i go to the padding let's
+say i go and select here and i want to add a like padding on the top side i can give 20 as as soon
+as i enter see this what's happened on the this highlighted one so as soon as i click enter now
+if you see there's something called green space added which is like what what do i exactly mean
+by that is like i've added a garden let's say if i want to add a garden on left side okay which is
+15 right now if you see that content moved it so are you able to relate like how this thing works
+guys are you able to relate the box model now better
+it is that is it guys like how each element in the html i've shown with a p tag now if you go
+and go and select the h1 tag also it will also have that same box model so all the properties
+in html everything that you have it you can define three properties to it which are padding margin
+three properties to it which are padding margin and border to it everything is a box in a html
+so now let's do one thing let's do one thing we'll go and do some of the you know we'll build some
+boxes and we'll see how how uh you can build actually how can you apply this all this fields
+okay let me go here and create one new folder called box model
+okay inside this i'll create new file called index.html let's say i have html5
+and i say this as a box model
+okay so what we'll do it here is simply i'll copy some content for you don't need it actually
+can type it let's say this is a div okay inside this let's say i say there's a paragraph i say this is
+a scalar class simply okay now i'll go to the style block let's say i open this in the view
+you can see this is a scalar class is something coming already now what we'll do is like let's
+say i go to this style block
+and i select this particular p tag so let's say i give a class as scalar class
+name let's i minimize this one and i go into style block for selecting class how can i select
+this class selector is how can i write it using dot operator right it's a scalar class
+now let's say first what we want to do is let's say we want to have some border let's say we want
+to have border now if i go and write border okay so border has again three list of properties guys
+okay you can define how many pixels border you need let's say you have two pixel of border
+okay now the solid and the color which selects is like let's say i select this one then you go for
+border style okay let's say i go for border style here border style is like something some
+some peoples have fencing with current something some people have small walls some have big walls
+some have big walls right similarly in html elements also you can have different types of
+borders like you can have dashed line or you can have dotted lines around it
+or else you can also have solid which is like single line then you can also have border color
+to it okay when you go for border color let's say i select as brown
+okay i hope this property is clear now what happens is we can write all these things into
+together into one line now if i define a border i can say two pixel solid brown this is what i
+was doing it earlier like i was combining border border style and color is this clear guys
+i hope this border property is clear like how we can leverage how we can add it
+now once border is done so each thing right as i've told you earlier if you see in the box
+you can have each customized let's say now when i'm applying border to pixel right what's happening is
+on top bottom left right two pixel is being applied but if i want to change it on a top and
+bottom how can i do it is that let's say border i can say top okay i can say border top and i can
+say 10 pixel solid brown if you see what i exactly doing is like if you want to customize like here
+all the fields are different different like you can apply for left right bottom top or anything
+that you want to have right customizable any way that you can have it okay now even you can add it
+for border border bottom let's say you go for eight pixel solid brown
+okay you might have seen many rajinikanth movies right where his name comes in between top border
+and bottom borders are thick lines which comes like left to right in a low lines or in old movies
+you can see right so this is how you can what about border size yeah this is a border size right 10
+yeah this is a border size right 10 pixel 8 pixel on the sides also you can do
+border left you can apply left and right also you have left right and everything you can define it
+clear you can also do one thing let's say let's say you i want to comment this thing
+let's say i want to comment this thing i say 10 pixel
+okay for border you have to individually define it let's say i comment this one also uh i keep this
+open
+okay i keep this comment border then i say 10 pixel 5 pixel 3 pixel then 2 pixel
+no it's not working for the border but border is something simply you can apply
+uh like how much you need it i hope this this properties are clear guys how this thing works
+how border you can apply it and how we can deal with this like there are three properties you
+deal generally apply one is but the the size of the border then the style and the color
+then there is something like border radius when you select border radius you can select
+how much curvature you need on the edges let's say if i give 8 pixel okay if i give 8 pixel
+now do you see this this is like a bit curved this looks like bit curved like the buttons are
+that are built these days like curved buttons okay so border radius is generally used for this one
+mostly images right uh what if you see the pictures like uh in link then you see that
+there is a picture in circle right let's say i
+i don't have linkedin login here but you can explore linkedin go put a debugger if you give
+50 percent right let's say if i give 50 percent you'll see that converts into a circular okay
+border it is used to convert that border into sub like depending on the type of items that
+you can play around you can give or use this properties okay now moving to the next property
+what i'll do is now i'll go and play around with the padding part now let's say i add some padding
+okay what i what i'll say is that let's say i give some padding like 10 pixel
+now here if you go and see here again the padding is around left right bottom right
+right top left right bottom now similarly if you want to give it each side padding you can give
+again padding left or padding right or padding bottom everything you can deal with it but what
+if you want to define a different heights of padding in a same value you can do it like let's
+say i if i give it this way 8 pixel 10 pixel 8 pixel if you see here what's happened is
+top and bottom padding are same left and right padding are same now what does exactly mean is
+how you how we can define things like this way is that when you
+let's say i'll define what is the rule for when you define it all properties in one line
+you select first top then bottom then like sorry top right bottom left
+does this look like something something is clock right so you have to define properties
+in terms of clock right let's say if i give 18 pixel so right property doesn't matter because
+if you see if i give let's say this instead of this this is a class if i give lower m 20
+if you just see now what will happen if i increase the right if you see right side padding is added
+i'll come to that somewhere i'll come to that now if you see what's happening here when i
+added pattern let's say if i go and add 20 now bottom padding is increased let's say if i give
+50 okay let's similarly let's give 50 here okay this is how you can deal with padding like you
+can add it padding across left right bottom and if you want to define let's say you also can do
+one thing is that if you want to give it a top and bottom to be same and left right right to be same
+then you can what you can do is you can define it in two terms itself let's say i go and say
+padding 10 pixel and 8 pixel it will take it as like top and bottom as 10 pixel
+and left and right as 8 pixel so the convention for this one goes as top bottom will be same left
+right will be same
+okay i hope this is clear guys how padding you can define it individually or for one side or
+all the sides right if you want to define it like if you're going for in one line it goes in the
+clock signal if you are defining like both the sides top and bottom are same left and right are
+same you can define it in two ways okay so this is how you can deal with padding now let's say
+you also have something like margin to show margin what i'll do is that let's say i create
+another paragraph if you see now let's say i open this in a live server too
+because i wanted to show you something
+do you see space between this each paragraph guys already
+do you see space between this paragraph already like this space after border right
+where this space yellow space is coming from why this yellow space is coming from where this is
+coming from why this yellow space is coming from where this is coming from
+this padding margin 16 we haven't given it right have we defined margin 16 for any of the paragraphs
+no right so what happens how it happens guys is that you know
+mostly div and span are the empty tags that you generally see all other tags are like semantic
+tags now each semantic tags build with certain style in html but if you wanted to build it like
+a raw you have to define few properties okay have anyone seen many times that on the top of the
+project whenever you go and see they add some universal selector does anyone know universal
+selector here does anyone know universal selector so what does universal selector is means it means
+say that it should apply for the all the properties when i say hash when i say star so it means that
+i am applying for the all the properties and whenever you start it is supposed to make
+padding equal to zero and margin equal to zero by default so what happens is now let's say now
+when i declare padding and margin as zero now if you see all of them have sticked together
+i'm just saying that whatever by default your style is there now whatever your default style is
+there it don't bring that one i'll define my custom one because my calculation is going wrong
+this is point here like how this is working padding and margin
+because paragraph by default let's say if i read remove this margin and i save it so if you see
+so if you see even though we haven't defined margin by default paragraph tag is bringing
+some of the margin along with it so if you want to override and custom make it custom according to us
+we can all it is suggested it is a like a good practice that you you know you clear all the
+existing margins then only you go and design your custom margins is this clear guys
+please
+how many of you understand understood this point like why i'm making margin zero
+or how many did not understand it okay now going to next point now here
+let's say i see one two great okay thank you people i would request you right if you're not
+understanding it give me thumbs down instantly no specific no space between the paragraph
+no pendra what i'm doing is saying is that let's say this paragraph is a built-in head stream
+melting that i'm using it already but what i'm saying is that hey there are some you know they
+are bringing some their inlines like styles which are defined by browser itself so whenever i'm
+going and saying that hey i'm i'm suddenly seeing that i've designed a paragraph next to each other
+i don't know how the space is coming suddenly right how the space is coming we are we haven't
+defined that space right so i'm saying that to overcome this come of shortcomings right
+because i'm showing you simple structure here that's why you don't find a problem
+but imagine you are building a big scale project and let's say you defined like content
+or let's say netflix dashboard right there are images cards side on side if there is a space by
+default is coming because of in built-in html elements that is not right right you want to
+override as per your need so what it is generally suggested is that if there are some whatever
+html elements since every html element is a box in nature all the html elements will have certain
+styles attached with it so what we say that hey don't give me those styles bring all the properties
+whatever you have but give me mad padding and margin as zero so we are overriding at the start
+and applying for every html element on the top i hope this is clear guys to abhinav and hariprasad
+also
+cool now once once this is done so we remove for all the elements yeah so we are
+yeah overriding for removing for all the elements right now i have some mathematical question guys
+now tell me the height of this each box now what would be the height and width of this each box
+what would be the height of this box
+what would be the general formula of this height and width how would you calculate
+you have you can see 37 pixel
+okay
+yeah
+sheik has suggested that content plus padding plus border open says that margin padding border
+and 37 pixel so in general whenever you go for height and width right whenever you go for height
+and width of a particular html element something like if you go for height it would be like
+content area or html element like 37 pixel we had plus padding on y-axis
+plus border
+on y-axis plus margin on y-axis
+similarly for width
+width content area width
+plus padding x
+plus border x
+plus margin x right do you guys agree this actual height and actual width would be this is the
+summation of this one can you guys give me thumbs up guys quick thumbs up if you are
+able to agree with this point because the other element will start after only this and height
+and width is consumed right now if you go and see the height of this particular element is like
+37 pixel plus 10 plus 10 plus 2 plus 2 right 20 plus now if you see 37 plus 20 plus 2 4
+57 plus 4 61 right the height would be 61 right
+do you guys agree the height would be 61 now let's say i also add margin for for the space
+right i override it let's say i also add margin now margin let's say 5 pixel i added 5 pixel margin
+around okay now if i do it 5 pixel 61 plus 10 which is 71 is height now but
+do you see any problem this way like if you are saying that hey uh like whatever you are adding
+all of those things and consuming that space but what if i want you to consume only 37 pixel of
+height and you can deduct whatever padding height border and margin from inside that because if you
+go uh go and buy a property or a villa right they'll give you a complete space in that only
+you have to content area space will be given like whole villa space would be given inside that only
+you should have uh like padding border right do you guys agree like they wouldn't you be giving
+extra space for you right for you can have garden you can have also border how many ways you want
+you can build it it doesn't work that way right so for that one let's say if you want the formula
+the currently we have discussed this one if you want this formula to work this way let's say
+this is default in nature whatever we have discussed this is default in nature but if
+we want this to work such way that height is equal to content area
+uh minus padding of y
+minus border of y margin of y
+i mean uh this would actually result
+this would actually equal to the content height
+right let's say i replace this one with content instead of content area height
+whatever height is defined by you isn't it
+so if you want this thing to work this way if you want this work to this if you want your
+html environment to work this way right there's a one property that you add globally that is called
+as border box
+give me a second guys
+sorry box sizing
+these are one-time elements guys if you see when i when you click border box
+it changes nothing seems to be changing but if you go and see here below let me refresh it
+now give me a second
+let me to cut this here and apply it for the body
+uh
+i didn't yet apply it
+give me a second okay i have to go for custom element not for the whole element uh let's say
+if i want to go and apply for the scalar classes let's say i go and uh do it for here when i apply
+it here now even then it's not changing
+but if i go and let's say okay if we haven't defined height here actually
+we have to define height to see the changes here let's say i go and define height 200 pixel firstly
+okay now
+now if you see here what just happened here uh let me make it 100 guys uh for a sec now how this
+formula will work now i've gave paragraph height as 100 pixel if you see on the top 100 pixel
+but the content area space whichever this content area space is made into 76
+how it is coming up to 76 because it detected the space for padding border and margin
+this is the same way how this formula that i've just wrote it like height whatever you define
+height for each html element if you want that to consume only that amount of height let's say
+you you say that hey my height of the box is 100 but if you don't say box box sizing as border
+box now let's see how this behaves the height of the box ultimately become 100 plus 20 plus 4
+which is 124 plus 10 134 but we said that box should be size of only 100
+okay if you want to that stick all those sizes heights to be that same thing right then you
+have to go and use this property as box sizing as border box is this point clear guys how that box
+sizing is helping us
+anyone did like anyone having any doubts here
+i see two people thumbs down cool further three guys please vote it so that i am
+you are not getting it okay cool okay fine let's say going back and taking this example
+okay
+let's say your villas dimensions
+is width into height or height into width let's say i gave width as 200 pixel and height as 100
+pixel right if i've given this height and width of your dimensions of villa now you are supposed
+to add garden border inside this one itself right leave it extra space now this is a box
+leave it this extra space but this till this border is supposed to be in 100 percent 100
+pixel height itself right now so that is what i'm saying now whenever you go by default html
+right what happens is whenever you say that hey height should be 100 pixel
+and padding should be
+10 pixel and margin should be sorry border should be
+5 pixel then this is like going on top and bottom so it will be 20 pixel this is also
+going on top and bottom so it this will be 10 pixel now the total height of actual building
+is calculated as 120 plus 10 130 pixel but do you have 130 pixel of size available according
+but do you have 130 pixel of size available according to your plot you have only 100 pixel right
+if you construct an extra if you take an extra space and construct it
+they'll come municipality will come and demolish your house right or that society will fight with
+you so that is what happening here if you see if i go and say let's say this is my house
+okay i will remove this box sizing and if you see i didn't save it now
+save it now if you see i've told that hey my house size is 100 height but i'm adding a garden plus
+border to it now the what what is happening it is increasing the height of that whole house
+because we are adding garden and borders to it but we don't want it we want something that
+hey let's say i'm having garden of 10 pixel on top and bottom then i would say that if i remove
+this i'll have only for the house i'll have only 70 pixel height left right this is how it should
+be now if i'm having actual house i'm building it height content or house height
+should be 70 pixel then padding should be
+20 since i'm considering top and bottom top 10 bottom 10 border should be top and bottom 10 pixel
+is this clear now like this example is clear at least
+guys who people who gave me thumbs down so i would i'm asking you them so it's this example
+that i'm not going into html part as of now i'm just explaining this mathematical thing now this
+is by default nature this is the default nature whatever you give height padding and border it
+will be added as extra but if you want this sort of calculation to work which is actually right
+according to our rules of understanding with real life then you are supposed to use something
+called as border box sorry box sizing as border box
+when i say border box i mean to say that whole like include whole till till the border area
+okay now let's go and see what's happening when i don't apply box sizing property my height becomes
+100 plus 20 plus 4 124 it becomes what if i go and apply this property what if i go and apply
+this property what if i go and apply this property i come back and i see
+that it becomes 76 plus 20 which is 96 plus 400 is this clear what problem this box sizing is
+solving for us uh guys if there are still someone who don't understand it please give
+me thumbs up thumbs down that works for me i can re-explain this topic
+okay it's just that if you are still facing challenge i would request you to watch the
+video you'll be able to get it completely is it automatically yeah it is automatically adjusting
+on kids so it is fixing it okay i'm just adding one property i'm saying it that the height of
+the whole box should be only maximum 100 pixel now if you want margin like padding and border
+you would deduct it from inside that let's say if i make five five pixel of border and i save it if
+you go and see here my height of border earlier it was 76 now it became 70 only it won't include
+margin shake so margin is separate if i made it return that way i'll clean it up margin formula
+okay it won't include margin it would include only these three parts okay let me make this part
+also clear okay margin is separately because the space will be given by society only yeah it will
+adjust calculations automatically but the default value for box sizing is content box if you again
+box sizing is content box if you again convert into content box right
+the box will be size of 100 these are extra added again 10 and uh extra 10
+if you you can always fix this using border box
+okay i hope this box sizing property is clear now
+uh so how many of you are clear with this like properties like why we made padding margin zero
+and what this property is making so generally these three fields right if i take it on this one
+these three fields are by default every project they certainly add these things like margin
+padding and box sizing because they assume that they will define for everything what they need it
+it doesn't want it they don't want system to bring anything their sizes or anything
+we'll define it our own okay i hope uh all this current topics that we have discussed are clear
+guys like related to box model or like uh you know the padding margin all of these three properties
+i hope everyone is clear anyone having still doubts please let me know uh or else i'll start
+one quiz for you okay so so one simple quiz guys uh try to attempt it i'm starting it
+so
+take your time guys uh time is there
+okay
+i see only 22 people voted in uh people uh i have seen many people are there in class guys try to
+mark your vote
+mark your option actually
+come on guys
+okay so i'm ending the quiz guys so i've seen 28 people have voted in and out of that 75 people
+have said right answer so actually when i've told you already right the property is here itself you
+can see on the uh like samvith has answered in very quick time right so we have already discussed
+like if you want to add margin or padding you can add it in terms of clock size like top right
+top right bottom left so if you if you want to add respective you know sizes of
+padding or margin to it okay i hope uh this thing is clear guys like how
+this thing uh like box model and font text area related content till now so this is clear
+we'll go ahead with one of the next content of today's class which is display property
+okay from now on guys uh these have been uh display property has been simple i would say
+that we have we already know that uh what does display do okay uh pretty simple
+okay let's say i go and design index start html i have okay let's have go for display property
+and i have div tag inside that again i have div tag let's say i have one this i have four elements to it
+say i have something like two three and four and let's say this is something like class container
+okay and let's say these are class like items
+okay uh so i'm making it preview
+okay now let's say i have some default styles i added to
+container let's say selecting a container class since we have introduced all the properties i'll
+try to write it down such that you know we are hands-on with them firstly i'll go and make the
+j star
+margin to be zero pixel and padding to be zero pixel now as soon as i do this guys
+just see what's happening and
+box sizing
+okay now once i have been this we have done this what i'll do is like let's say i have this div
+container so i'll have some certain height and width to it let's say 300 pixel to it and width
+should be 300 pixel and let's say we have some border to it i say five pixels solid or let's say
+dotted and gray okay uh doesn't look good so solid okay now once we have added this let's
+say we also have some padding let's say we say 10 pixel around each element
+and margin should be 20 pixel from each side okay this is something we have already discussed
+till now uh nothing new i'm just applying those properties so that we get used to it so can we
+align them in single line each is it in the box yeah that is where i'm coming okay no no
+which type of these elements are like which category this elements comes in dips i have
+seen discussed this one already whether this is an inline element or this is an block element guys
+block element right now block elements always starts in new line and uh like we said that item
+one item two item three item four it's it's always starting in new line but what if we want to
+convert them into inline element what if we want them to come side by side as just ankit mentioned
+them to come side by side as just ankit mentioned
+so there those sort of places itself we use property called as display display property
+is used to deal with these items to convert them into uh different types of like you know display
+to uh like inline to block block to inline let's say i go and say item display to inline
+okay as soon as i do this i add dot now if you see this these are converted into
+uh not flexed some with yet don't let's not go there yet okay let's pick to fix to display
+can you see this ankit your problem is solved as soon as i told it that uh you know item should
+be converted into inline now what if what is the one property that inline elements we cannot
+apply to like what if we want can we can we apply width and height to this one guys
+can we apply width and height to inline elements
+let's say i apply 25 pixel let's say i apply height to be 20 pixel and let's say i also have
+a border uh five pixel solid pink let's say i make it three and i also have some padding to it
+five pixel around it okay also let's say i gave some margin to it
+10 pixel but do you see any height and width are getting affected let's say i make for
+100 also not being applied right no heights are see height and width are generally not applied
+for inline elements that is what we have discussed earlier when i have told you about font text when
+we discuss related to this example right what is the difference between span and h1 and p tag same
+same example right same example we picked it up like text align center is not happening because
+it can it takes only the space it needed you cannot deal with it you cannot add extra height
+and width to it but what if i comment this one what if i comment this one
+would the width and height would be applied
+right
+that's right let's see this if i apply this if you see
+let's say i make this as container height as 100 percent 100 percent
+100 percent okay this can you see this let's say i make in terms of percentages uh 10 percent
+and let's say this is 20 percent right and let's say width would be 60 percent of it
+just to view it now i hope they are able to get it like what is our difference between
+inline and block and how can you convert an inline element into block block and inline let's say i
+have a span text now i'll have next items as a span okay let's say these are the span text
+uh let me repeat a span okay five six seven eight okay i'll have a class here
+which will say span item or let's say this is uh item one
+these are spanned by default the nature of this one is like if we want to convert them into a
+block how would we do this as you should help me out uh with this example because
+i have solved for one thing you have to suggest me take how can i make them same as this one let's
+say we apply all of these properties right by default we know that height and width wouldn't
+be applied display equal to block right let's see if i see this now this is working fine right
+right now but what i'm saying is that what i'm saying is that now let's say i converted into
+this one as a uh six and six i'm figuring this one
+so i hope this is clear like how item can be converted to block block to inline inline to block
+this is clear to everyone guys final thumbs up i will shoot next question
+okay now let's say next element next thing that i have is uh okay which should be more
+uh let's say i save 10 let's say make it 15
+okay fine what my question is i want to align them in a single row i want to align them in
+a single row all of these items and apply height and width through it how can how can i do it
+so there are div elements there are span elements i want to apply
+let's say let's solve for first four elements first four elements let's solve problem for
+first four elements let's say we have item one two and three four uh no we don't want
+to use display flex hashvini here so dhira suggest inline block how many of you think
+that inline block in inline block would solve the problem
+i see one thumbs up
+uh if you don't know if you're not sure you can give me a thumbs down if you're not sure
+but i just want to know you all of you got the question right all of you got the question
+right i just want to convert them into horizontal row but i also want them to have height and width
+so guys what we can do is that if you want to convert any element into let's say inline
+you converted into inline they are fine but if you want to apply height and width to it
+you can always use something called inline block when you use inline block right it is supposed to
+take the height and width whatever you mention it is that clear guys whenever you apply inline block
+all the elements inside it would be converted into inline but you can apply height and width
+converted into inline but you can apply height and width to it that's only the difference
+okay the difference between inline and block we know but if we convert something into inline block
+we are converting such that those are aligned in horizontal line and it is taking only the
+amount of space it needs right we can apply height and width to those particular elements clear
+okay now can you see this like all the boxes are arranged in a right like a let's say if i have a
+nine element so i have a nine element this is looking like a dialer if i reduce the
+right
+let's say whatever it is so i hope a difference between let's let's say i write it down on the
+ipad so that it's a kind of a revision so we know that there are some elements let's say we are
+taking something like inline block and inline block
+something like inline block and inline block
+right if i write down definition takes only the space needed
+right
+height and width not applied
+but when it comes to block
+takes whole row
+new row to render data
+and height and width
+can be applied
+applied
+when it comes to inline block we say that takes only the space needed
+and also
+we can apply height and width
+right these are the basic differences guys is everyone aligned with this
+between inline block and inline block
+okay if everyone is aligned with this i have another thing to show you guys okay
+then there is another property called
+display none what does it do display none anyone any idea display none
+let's say if i make it none
+you see this all the items been removed nothing will display but there is something called also
+display hidden
+sorry display none is a one property i can also achieve this using
+visibility hidden what would be the difference between these two guys
+like both are achieving same thing right both are achieving same thing firstly
+let's say i make it display none you see we are not able to see elements if i comment this and
+uncomment this one still the same thing right
+so people are saying the space will be there space will be affected okay display equal to none what
+will happen think in terms of answer in terms of dom guys let's say i open this in live server
+give me a second
+let's say i open this in live server give me a second
+in terms of dom guys let's say i open this in live server give me a second
+okay okay there are too many answers but let's say i go to inspect
+i select inspect selector i just hit here this is a container that we have written now if you see
+what is the property that we applied on item one we say that visibility hidden when visibility
+hidden like if you see i'm hovering over this property i can see those boxes right actually
+but it is like present here present in the dom but what if i uncomment this one and i make this one
+okay still it are present in dom firstly okay some people confuse you with this question firstly
+like whether the elements are removed from the dom or those are there first question is this one
+second thing goes for the space when you can see about the space when you can see the problem
+about the space is when you have extra elements below firstly let's say i go and add
+why that issue why that question of item element is present in dom or not comes is i'll tell you
+let's say i go and add 10 okay now if you see 10 is there but where you can see the 10
+it is below the 3 whereas it's supposed to be after 4 isn't it
+isn't it
+because we defined after 4 right it is after 4 directly because these elements are removed
+if these elements are removed after 4 the 10 should be there right but 10 is coming
+here at the edge the reason for this one is because for the visibility hidden
+then all the properties which are defined only they are hidden but not removed
+is this clear for visibility the items are hidden but not removed like there is a box
+you just throw a cloth on it but there is a box under the cloth but when it comes to display equal
+to none the boxes are removed itself so when the people say that display equal to none do you think
+the items are not removed i mean items are present in dom they ask this question
+because if you see in the dom still you have these elements present you can still play around with
+them isn't it so remember with this only one thing as you said that space will affect it that is all
+good but related to dom also remember this point okay i hope this is clear guys how visibility and
+display works now when you define both the properties display is overriding the visibility
+okay can you repeat from the point of dom okay so what i was saying is that sambit here
+like this though i haven't introduced the word dom like it's a just a document object model
+which represents a tree tree like data structure builds a whole like a tree we'll see it in the
+javascript initial class but here this is what a representation of dom looks like all the html
+in the element tag what's happening is when i'm using display equal to none right because when
+i'm display equal to none the element 10 is coming exactly after the four it means that all the
+elements are removed from that space right that that items are not there itself there's a difference
+between hiding and removing it so display equal to none works as something that removed it so when
+we are removing it we mean to say that those are shouldn't be present even if you consider a tree
+even if you consider a tree if you have a nodes of 10 nodes if you say that display none for the
+some five four nodes it means that we are removing that nodes right but remember that it present in
+the dom in both the cases okay only something like the behavior how display equal to none and
+visibility hidden is working hiding and removing kind of that okay so let me say this one
+uh
+display none
+removes elements
+from screen you can say this way whereas visibility hidden
+takes space and hide the elements
+okay so i hope these points are clear guys how visibility and display none works
+so i'm converting this into display equal to inline block for our sake
+okay so even with the display none the elements will be present in dom yeah that's what it is
+looking like right that's what it is showing here you can still see that the element here it is there
+like let's say i use display none right okay i remove this one if you see i'm hovering over it
+but it's not present in the element but they are present in the dom tree right
+they're not on the hd document but they're present in the dom tree
+that is what i was talking about shape right so i mean they try to confuse your test they
+basically all the answers that you gave were right that uh here the space will get affected
+or there will be some items where hidden or removed but i want to say that hey
+yeah dom will not be affected in general dom will be there okay
+okay so if this is this thing is clear display property is also completed okay i hope this
+things are clear if you need break let me know how many minutes you need it because i have one of
+the important property to cover uh which is a position where i've seen people been asking me
+from the first class about the position which is like difficult one we'll come back and we'll
+discuss on a position property you need 10 minutes okay i'll keep 10 minutes but as i need your full
+attention after uh 10 minutes okay because that's a one of the uh important topic an easier topic
+to say so this push the code yeah okay i'll do that uh give me a second i'll push the code
+so
+uh done some bit okay i'm starting 10 minutes guys uh so please uh come back with full energy
+because i need uh you to understand that topic well okay because that is somewhere people
+try to struggle and it has been asked in interviews also
+which software i'm using to teach uh which one ankit i'll start the timer i can discuss with you
+guys take the brick uh html this one uh this one is vs code
+okay visual studio code if you go to the project repo right uh you go to self-study link uh let's
+say i show it in the pre-open and preview i've given this uh vs code editor download link also
+you can download it from here okay and also uh if you want uh live server i've given that and all
+the reference material whatever you need to go through i'm giving in self-study document you can
+refer to that class by class okay i'll keep on adding the document that you have to go through
+after each class because all the things cannot be thought or i cannot go in depth because i have the
+time like time right that two and a half hours three hours whatever it is so if you read more
+you can come back and we can discuss in depth more if you have those questions
+okay so guys take the break i'll come in a minute
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+guys i hope everyone is back
+guys can you give me some reactions uh if you're back
+okay thank you thank you i see six people
+so guys what we have discussed till now font text
+then we discussed box model
+then we discussed display on top level we discussed all the types of things that
+that you can do here we learned margin padding and border and box sizing
+property right in display we have understood in line in line block then
+lock then none and visibility right hidden so I hope when you see this
+property is whatever I've just wrote now everything is clear to you right
+anything do you feel like still new to you or anything you feel under
+confident about any property let me know if I write down font size weight text
+decoration spacing all type of spacing right guys are you confident about this
+properties we discussed give me thumbs up if you are feeling confident about
+this one or like from concept point like I don't assume that you are expert at
+them because it will come with practice but you understand them right I see six
+thumbs up okay if I'm not getting thumbs down I'll agree I'll consider that you
+had a good understanding on them okay moving it this to the property one of
+the confusing property is position how many you have faced under problem
+understanding this one if you have studied earlier if you have studied
+early how many of you have faced challenge understanding this one three
+people okay okay okay cool no worries I see three people no yes when I say when
+I say this position at office what do you exactly know about it like position
+at office let's say I'm sd2 I'm sd2 what would be the role like sd1 then I can go
+to sd3 or senior software then maybe at my office we call it as MTS one which
+is tough right this is the hierarchy right we say this one as a position only
+know in in general terms which keeps changing with your experience and your
+performance right do you guys agree like what's your position at your office
+not a multitasking the member of technical stuff they call it as a staff
+engineer they were working in on actually you know renaming this
+convention also but this is what position looks like right similarly if
+you go for this one also we have said that all the elements are like boxes
+HTML elements are like boxes now all this boxes whatever boxes are there are
+present in one of the box which is your laptop or your device or whatever it is
+take right what does whatever the size of your screen is that is a one big box
+inside the box box only all the boxes are designed and kept right but if let's
+say this is how we design that one to nine inline block one item then what if
+we want to move this elements to any side from their respective position
+right let's say my phone is currently here if I want to move it from position
+that's a left right or top bottom on to the table from its particular position I
+can use this property called position okay so position property generally
+allows you to move the elements from its designed place place like when I say
+design place all the elements whatever we have defined like item one two three
+four are designed to be this way side by side but if we want to move from their
+position to some other position or like move from with respect to anything if
+you are moving them any side if you want to move them any only different places
+then we have to go to the position property at least this thing is clear
+when to use position and what is position
+guys give me some reactions if not if not give me thumbs down if you don't if
+you're not getting it give me thumbs down that's okay I'll take it slow okay
+I see one thumbs down cool now what do I exactly mean to say is that when I say
+HTM element I'll have div one right and div two I'm supposed to render one and
+two on the screen right this is a screen right the person Ankit do you agree this
+is how it will render right on screen but what if I want to move let's say one
+and two here or one is somewhere here and two is still here like this thing
+moving the particular element from their respective position though the
+dom will be represented this way itself you got this if I have to move that
+element to the left right top bottom then I have to approach for this person
+position from their respective position like whatever these are position are
+default positions okay the default the default there's a one property all the
+elements whichever has same element you see the default property is static being
+applied to it already whenever I say static what do we mean a difference
+between like if you go for physics also static and dynamic right static is
+someone who's to who is residing there itself right is not in motion is not
+moving anywhere right stable there itself bodies at rest so all the elements
+which are like already which are defined in HTML all the that you do it the items
+will be defined till now whatever HTML we have written all the elements are by
+default are having position static which means that they are not moving from
+their position not moving from the question it means whatever you are
+defined by default those are applied is this clear guys
+till now the whatever story I explained is it clear to everyone right now if we
+want them to be dynamic if we want them to dynamic or move from their position
+whatever position is like assigned by Dom to them render while rendering we
+want to move them and behave in certain way then we go for a properties like
+relative absolute then fixed and sticky okay what all these properties are doing
+you know one property should be actually enough to move the element like to move
+the element you generally use something like top bottom left right again this
+all the properties takes values in pixels REM and EM so I haven't discussed
+this too I'll discuss in future but current currently consider pixels okay
+these are the properties you can define once you define any position this one
+this one or this one or this one or anything you are using okay but I hope
+position static is clear by default it is rest that's a default nature and it
+keeps the values in the same way but when it comes to other things let's say
+relative and absolute let's pick them first okay this is somewhere people
+confused relative and absolute okay we'll discuss this first now both things
+are helpful to move the element from one position to other position from their
+assigned well assigned place let's say this is a table and my phone is here
+okay what I'm doing is I'm moving my phone from here to here okay I'll say
+that this is a distance X and I'll say that this is a distance Y okay what is
+happening here which I also make a dotted line I moved my mobile from there
+to here now what is generally happening is like if my phone is moving with
+respect to its original position like what do I say when I say X X is a
+distance which is moving with respect to
+original question I mean if I say an element let's say my phone is here let's
+say my phone is here at this particular question and I say I'm moving this mobile
+to this one this thing can be only done like we are moving it from the
+particular question where it was there let's say you say 10 pixel move towards
+the right from your point of view left if I'm moving 10 pixel this side I mean
+to say that I'm moving it from with respect to its actual original position
+and when you can apply this thing when position is relative
+but when this role of Y comes role of Y comes when item is moved with respect to
+window or you can say table top corner
+this is clear guys what I'm denoting X&Y top left yeah top left so I'll show you
+this examples both again I'll come back to this example but but how many of you
+got this diagram or representation that I was trying to explain if you didn't
+get it that's also fine give me thumbs down if you didn't get it I'll explain
+with a real-time example then I'll come back okay see too cool further yeah three
+people got it no this case let's come back let's do some coding and then come
+back so let's say let's create a folder calling as position again inside this
+I'll use index start HTML okay let's see the magic is what's happening now I'll
+close this I'll render this don't need a server live server but there is nothing
+in it yet but let's say this is absolute
+versus related okay but before that what I'll do is that let's say I go and define
+let's say I have a paragraph I use lorem 20 lorem 5 that's enough again I'll replicate
+this one multiple times let's say okay and I say this as class first I use
+class as second as third classes second third fourth okay now what I'm doing
+here is like I'll create a style block now let's say I created a style block
+and I'm just trying to access first element and even if I give display first static okay I'm
+giving static okay and if I'm trying to define this property top 10 pixel or bottom 10 pixel
+or left 10 pixel actually one of the set of the properties would be enough either
+you pick top or bottom and right or a top and left anything would be enough for you
+to align the item let's say I'm doing it this way nothing is being applied firstly do you
+guys agree I made this change I applied to this first class do you see when I make it
+static and I'm trying to apply this property this top bottom left right first those are not
+applying to it is this clear because static property doesn't take any changes along with it
+it doesn't move the element from its position it keeps it static okay now let's say I'm making
+it relative okay sorry I have to pardon me is no one reminded me I have to make position static
+I went on to define as display again but I'm I want to reconfirm that nothing is changing okay
+let's say I comment this and I make it relative okay still there is no change in this lore but
+what if I make this particular thing here do you see there's something happened to it let's say
+I create a border of one pixel solid black okay I'll give a color of red so that you can see if
+I comment this now let's say there's a particular position this particular red one is already
+present what I'm saying is that what if I want to move from that particular position to below
+then I can say move it from below 10 10 pixel if I say top equal to 10 pixel so I'm saying it
+now wherever it is actual position is there move it 10 pixel below is that clear let's say I open
+this I'll show it in the browser I want to explain you basic difference how actually absolute
+and relative works firstly if you see I am selecting the element selector okay if you
+select this one if I remove this if you say it is going to that actual position from its wherever
+it is actual position where it should be residing but as soon as I apply this one it is moving
+towards below and if I give let's say left value let's say I give left 10 pixel now can you see
+this it is moving from that particular position to left to the towards moving towards left I'm
+going towards right yes how many of you understand how relative works it is actually moving from
+its X its position itself like if you see that diagram right whatever I was saying so whatever's
+definition I'm so like my mobile was here not this one but I don't know which yeah this one
+let's say this was a position I moved it to this position that's I said left equal to 10 pixel when
+I'm moving with actual its respective post position which was actual position not horizontal axis
+somebody don't take it that mode towards left yeah so from its actual position wherever it
+was residing I'm moving from there okay but what if I make now let's see what if I make this
+particular value I remove this and I make it absolute do you see one thing something happened
+guys do you see something I had four content here I had four content and the values got merged do
+you see you can see only three things there what if I make color to be blue okay and I go and add
+let's say top 10 pixel or let's say 20 pixel can you see what happened here guys
+how many of you understood what happened here so what I said earlier from diagram
+let's say item is moved with respect to window like top left corner I mean to say that it will
+start whenever you define it absolute right so that particular position wherever that item is
+there it will be removed pulled up from there it will be taken to the starting position let's say
+I don't want to deal with the first item okay let's say I don't want to deal with the first
+item I'll select the fourth item itself if you are confused about first item that's I select the
+fourth item no okay so fourth item it is relative let's make absolute do you guys agree now even
+the fourth item was pulled and took to we took it to the first position top most position top most
+like windows position and from there we are moving it wherever position we want to now is
+the difference is clear guys what does relative and what is absolute absolute always moves from
+the window position like whatever top left right bottom you give it moves with respect to that
+window position whereas relative takes from its actual position where it was earlier there from
+there will move left and right and bottom this is basic difference clear guys how many of you
+have understood this one if there is still someone who didn't understand let me know because the
+only difference between absolute and relative is this one I see one thumbs down do you want
+me to unmute you some bit you want me to unmute you okay okay just recap okay I'll do this one
+let's say again re-explaining yeah no matter where it will be pulled it will be pulled it's
+like boss I'm I'm the boss of the HTML I don't care I'll be removed from my position I'll go
+anywhere I want okay you define me where I want to go using top left right bottom absolute is
+that that kind of person is that clear some with okay yeah no then let's say I actually
+write down few examples to it it's the same thing guys but what I'm trying to do is that let's say
+I copy paste some of the content for you so that you can refer it better okay I made this one but
+let's say I have an example I build this again lorem ipsum itself now with let's say what I have
+done is I add some styles to this paragraph div container let's say these are the things that
+I added nothing just like 5 pixel border and I've given height and width nothing much in it then
+we know that static doesn't matter right even if I declare you know here since these are all
+paragraphs let's say if I declare p tag and I add it like position static doesn't matter
+that should be clear to you okay but I'm removing it then let's say I have here IDs like para 1 para
+2 because I have defined it using IDs here let's say I go for para 2 and no if you go in major
+websites right major websites like if I go for let's say HDFC life insurance itself life
+insurance okay I'll show you one thing here they I won't give my contact details to them
+the stuff too much but okay it's very slow isn't it their website is slow or like okay
+yeah anyways so what I was what I was trying to show you guys is that let it load
+huh now do you see this on top right chat and this one these two things chat with us and this
+one these are defined let's say if I go and search in the DOM right I go and search here
+in the DOM let's say chat with us if you see this is the class applied message icon okay now if you
+go here what they applied here what is the thing applied here what is the position applied here
+absolute right and they made something like top zero what is the behavior now if you see if you
+want to define a footer for your website this is how you do it you said that hey can you come out
+of your actual HTML flow and always stay wherever I define always stay like from top to zero select
+like reverse it or else you can also also say this way let's say if I'm this I'm defining a
+footer here using para one I can say ID para one I can say position absolute and I also can say
+bottom zero okay now if you see this particular thing let's say I define it in the color red
+doesn't matter if I have height of let's say 1400 pixel okay you see it is always let me close
+this one if you see it will be always there whatever your height of your absolutely like
+this one is in the size of it it will be stick to there or else let's say if I make top to be
+zero if you see it will go to the top to the particular viewport yeah is this clear guys how
+now absolute property works I hope this is clear like how absolute and relative are working now
+I'll show you the example of really I'll write down for relative also let's say I have this
+styling I've just build this example let's say now if you see para 3 right para 3 I made it
+related and I've gave it would be actual position would be this one and the top and left are moving
+like from its actual position wherever it was position was this one but I made let's say if
+I move again top let's say 20 or 30 its position should be somewhere here but we are moving it
+down and also we are moving it from left side we are moving 30 pixel that way okay I hope now
+absolute and relative should be clear to you like how they are working okay now I have two
+other examples guys they are pretty simple so I'll I'll explain you why pasting it okay because
+we are running out of time fixed dot HTML so fixed is like let me show I'll show you with the
+example itself that I have let's say I build this HTML 5 and I reclose this one I open show
+preview let's say I have a div again I have a list of four paragraphs again I built it using
+lorem itself let's say copy and paste it nothing new in this same thing one div as a container
+inside that four paragraph with ID para 1 para 2 para 3 para 4 IDs okay and lorem lorem being
+added for div what I'll do is like let's say I've added this one inside a style block I'm
+adding just for container height and width I'm giving it okay what I did I gave food 400 pixel
+okay by default browser will give me a scroller if my page size is more than it is viewport like
+my laptop sizes are certain height but if the height is more than my laptop height I'll
+automatically get a scroller okay now what I'm going to do is that let's say let's say what
+I want to do is like I want this paragraph to be sticked here only like like if you see in the
+going back here if this HDFC right the resume application premium the header header part you
+can see this this is always stick there can you see this it is always on the top itself it has
+hanged but the page is like going below the page is going below once like we are scrolling it okay
+so we are saying that hey that position should be fixed when we are getting so that even if the
+viewport is changing pages crawling down you want to be something to be fixed you can use
+position fixed let's say how can you do it I have para one as an ID para one I use position as
+fixed and let's say I define it as top equal to zero okay and I say color equal to right now
+though they both are residing if you see even if I'm scrolling it it will be always there the
+going it is converted into two layers so the whenever you fix the particular position it
+will be always be there now even if you go for bottom right bottom zero okay now whenever I'm
+even scrolling it is still stick there the difference between now let me show absolutely
+if I open this absolute right index dot HTML show preview okay now if you see this absolutely made
+bottom zero if you are scrolling it is coming again it will be only fixing to the viewport I
+mean which is using absolute or relative you can make changes till particular viewport only
+on current page but if you want to play around with the different level like you you have to
+go with fixed one if you want it to be header and footer sort of implementation
+here guys can we use both like give me an example some bit like how do you want to use both because
+fixed is something in doesn't matter where you give it particular location that hey whether you
+fixed has been designed for that use case itself like it will be always stick to the bottom or
+top that's how they have used it I hope this thing is clear guys absolute relative and fixed
+right now I have the final one let's say I say sticky sticky is really similar to fixed actually
+but there's some change in its behavior I will show you how it works left and right can be used
+fixed let's say I'll show you it can be used it can be used some bit it can be used just a second
+I made some how it can I take your doubt in break we can explore further but I'll complete
+the fix sticky part then I'll pick it up okay let's say I open in a show preview no sticky
+is actually similar to fixed one but the behavior of sticky starts when it comes to the viewport
+I'll show you how let's say this is a sticky and let me copy the this is pretty simple example I
+have container and four dips let's say I design container this way using style property okay I
+had this dodger blue color and I can do like I may making them all the boxes converted into in line
+in line block okay and I've given him height and width okay I don't need this in line block also
+okay let it make let it be there so that height and width are applied margin top is applied okay
+if you see here what's happening is like I've just made it like I've added margin 300 picture
+and given the height and width to the each box nothing new I have done it but there are sometimes
+right on the websites right when you're scrolling through there is something right like when you
+keep on seeing there is some picture gets stick and if you keep on solving scrolling below but
+that they that stick to the viewport there is some picture always stick to the viewport like
+there are some advertisements that happens comes let's say there is an overlay overlay comes and
+it stick like but the other ones keep scrolling like menu I don't think it I try to find that
+example but let's say this is the one even if I scroll I cannot scroll it yeah I'm able to
+scroll it but this is not the exactly sticky example nothing is available here as a sticky
+even if I go to let's say google news ad okay let's say google news I go to google news
+uh use precise location I don't need
+okay not now India
+let's say I scroll it
+there is no behavior as such guys but I'll show you what I exactly mean
+okay you will get a sticky ad okay geek for geeks but I hope you got the basic thing now I'll show
+you how that actually plays a role okay let's say I select the box three here
+box underscore three and I open this and I just add position as sticky so what I'm saying that
+box three this particular box should be sticky and I'll give that position let's say top and zero
+okay now if you see there's nothing happening but there's nothing happening till that box three
+comes as soon as box three comes and goes right even if I'm scrolling box three sticks to the
+top position so it behaves like a fixed but only after some extent
+only after it reaches the actual viewport it comes into the role
+it comes into the role
+is that clear guys how sticky is different from
+fixed it acts as a fixed only when you get introduced let's say if I make it bottom zero
+okay let's say I scroll through if you see
+only only like let's say from when you're coming from top three will be there till it's till that
+position actual position of three comes okay after that position of three has been entered
+it behaves like a normal element goes away but generally this is used for top like as soon as
+you've seen that picture it will stick on to the top until even if you scroll it it will stick there
+clear so sticky is similar to the fixed type of you know element generally it that comes into
+the role whenever you visit that element how you want to behave it okay guys so I hope these are
+the basic examples I picked it up if you still have any doubts stay here in the class I'll try
+to explain you all those properties like whatever you have doubt what I'll do is like I'll share the
+content that you can read through I'll get push the push in the data while you know ping in the
+whatsapp group so that you all have the notes okay or wherever you want to refer to okay but
+any doubts from today's class if you have please stick to the stick for the doubt session guys
+okay uh guys so with your permission can I start doubt session
+thank you guys
+uh I'm supposed to pick few things uh I have missed it okay some bit has pushed it equation
+so normally most of the time I use margin right uh and left to fix the position
+is it always recommended to use position uh like as I told you firstly some bit think of this way
+uh firstly I'll answer uh some bit question some bit now think of this way the use case right uh
+when to go for position I've told you that firstly if I'm moving it from the current position
+right I'm moving it from the current position all the other elements are also getting disturbed
+okay I'm taking a huge risk that whether I will be able to manage the viewport
+or how it will be rendered if you are using position mainly they are dealing with like you
+are uh like whatever flow of your document right you are you are removing you are playing around
+with that document flow mostly people what they do is like they deal uh use position for headers
+footers and menu sort of fields okay and there are some things right like like fixed and sticky
+they use it but if you want to use position people are using relative because if you want to move
+like let's say you want you said you told that you want to move it from left or right of that
+particular uh existing position then you can use relative you can make that position as
+relative and move left and right okay that you can do but like there if you again if you use
+absolute somewhere below that things will overlap it's up to you if you are designing how you want
+to do it but if you are using margin right margin left that is again a box model which that space
+will be consumed okay you have to decide your way of designing like with how you want to pick it up
+but if i'm at your place i would go ahead with the position but i want to see your exact use
+case like how when you are using it is that answered some bit can i take it as answer
+yeah with because that will clutter it right that will clutter it like you have to see uh
+like because if you if you don't take care of other elements they can overlap and you
+may not be able to see because how this happens it right the fixed and uh the sticky one if you
+see absolute one they are removed from their existing position and they come over the layer
+on a different layer they come on to the different layer and they behave like these are like html is
+of two layered uh pages on a viewport so there's a one page running on the bottom there are some
+elements that you defined with position are running on the different layer this happens
+this happens because you told that here there is an existing flow but i want to remove from
+their existing flow and move it to the different position using top right bottom left so you have
+to think uh from the viewer perspective because we are viewing in 2d 2d format now let's say i
+open this right i open this itself uh let me say open in live server
+uh give me a second i'll show you why you need to think it in uh other elements also
+let's say this is a thing available for us
+which one i opened sticky one is it
+okay let's keep it this way okay now there is something called layers
+now if you go and open this okay till the third part and i do something like let's say i
+let's say if i bend down and i use scroll a bit of a scroll
+if you see that third part right here below i'm not sure if you can see it because it's really
+small like you you can use this layers section and you can rotate and you can see that how
+it is actually changing let's say even if i remove paint it will be black in color but i can show
+like how that are coming over each other so you have to play around with that other elements
+also if you're using position okay something but most of the time right
+um i mean i use uh like only for headers and footers position but mostly
+grids and display flexes flex pause are solving most of the problems right
+right yeah z position by z position is uh is z index is different one uh that is for multi-layer
+whether you want to show priority order how we want to show it that that i agree upendra
+but this generally what happens let's say if i open the other one absolute let's say i open this one
+so again
+it's just that you can you would be able to see it in your screen i'm not sure if i'll be able
+to zoom it this part right let's say i paint this uh i mean
+you will be actually able to see how they are actually behaving but guys you can explore this
+layers actually how can you use it uh i can show that like how layers you can see in the screen
+different screens because generally they whenever you define this property they are coming from the
+actual flow uh then out of the flow and they're sticking to that question it is converted into
+sticking to that question it is converted into two layers screen and z index will uh
+yeah you can explore layers there are too many things to explore we'll explore one by one i've
+just shown uh elements and i didn't even talk about computed actually what computed does
+i'll talk about this computed in next class like how computed works there are too many things to
+explore somebody will explore step by step
+huh uh yep and uh any other so ankit was saying sir i'm working on a project of mine using
+wordpress wordpress i never used it uh okay but what's your doubt i can take it if you have
+anything specific to it
+okay yeah anything if you want to add on that
+i was just confused for the positioning okay uh okay great great if you are clear that's
+that's super great thank you so anything else guys anything else you have i'll push the code
+yeah thank you ankit hope you enjoyed it keep attending keep solving assignments guys which
+will you know uh actually i wanted to keep one reading session uh earlier i used to take morning
+batch so on saturday uh i used to have one document reading session but when we have saturday class
+it's night it's 12 o'clock people are in weekend mode uh i'm not sure if i'm even if i open an
+article where i can read or something related to front end or back end how many people are going
+to be there i mean i had a habit of doing that one uh but anyways i'll i'll try to say uh you know
+share uh articles in that whatsapp group where you can go through whatever i'm reading right content
+related to web
+if anyone is also exploring something they can also drop i can read it can understand
+thank you sam
+uh one okay um not take it's getting difficult to remember htmlc syntax tags any suggestions
+class concept here but takes time uh from what uh i carry four plus uh i remember concepts
+i refer to still syntaxes okay never worry that if you are not able to remember syntax
+because there are too many things to remember from too many things like uh how many of you
+how many will remember like i've told i have only today if we pick up css right i have discussed
+for text i've discussed seven to eight properties for display i discussed uh four properties i mean
+values for property there are too many things will be coming even if you go for further class
+right it will be difficult but what's uh you know uh you need not to mug up anything i would say
+that concept keep it clear you should be able to figure out how you can do it even in interviews
+right uh i mean uh interviewer should allow like if you remember if you know the basic syntaxes
+but there is some syntax that you don't remember you can communicate with him he'll help you out
+or you can go and copy uh like check on it you can google it because once one is not supposed
+to mug up uh syntaxes basics should be clear concept should be clear you can always refer okay
+because a web uh in a way web development is very much huge guys very much huge whatever the
+the content that i'm discussing would be overwhelming in itself but i would say that
+we are covering uh not completely in depth i'm trying to pick up easy examples such that you
+are able to get that concept clear first once the concept is clear then uh then you can go
+in depth and experiment with that part okay uh how will be interview task uh upendra mostly
+from find and write uh or full stack level those are mainly based on machine coding
+uh when it comes to machine coding you are supposed to build html css and javascript
+if it is they are talking about vanilla js or else uh they might go to react specific machine
+coding i will be sharing those parts like how can you prepare for that how can i help you that
+okay we'll see we'll solve some of the machine coding rounds machine coding problems also
+okay interesting problems but for that i have to build all the basics for you like
+all the html css javascript once i cover basics of these three then you we can will do some
+machines coding solve problems in uh using plain vanilla js then we'll learn react then we'll do
+some more machine coding related uh problems in react then we'll build some projects also
+then we'll go to node js so it's a huge module too many things to cover i'll try my best and
+also keep sharing extra things that how you can you keep yourself focused and keep learning
+works upendra there will be theoretical rounds too
+but something where much will be deciding will be machine coding rounds
+thank you
+and
+so hello guys then uh hope you have a you know take a rest
+solve assignments see you on thursday where we'll introduce one of the much interesting topic which
+is flexbox which you will be using in day in day out like once you start your journey
+if you are writing css uh 70 percent of time you are going to deal with flexbox which i feel it
+because that's how my journey has been uh okay so come back uh and try to understand everything
+revise this content if you have any doubts bring back me pull pull me in that whatsapp also if you
+want to learn anything new tag me there we'll explore things okay so see you on thursday guys
+hope you solve assignments and meet you on okay meet you there so hello guys good night take care
+stopping screen share
+good night
+you
+You

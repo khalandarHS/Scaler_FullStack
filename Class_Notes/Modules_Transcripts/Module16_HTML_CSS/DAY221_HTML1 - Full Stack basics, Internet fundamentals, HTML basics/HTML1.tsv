@@ -1,0 +1,1572 @@
+start	end	text
+0	27360	Hi all, good evening.
+27360	35040	Give me a thumbs up if I'm audible and visible cool thank you guys hello so
+35040	42240	we'll wait for some time today since it's a first class before I start
+42240	51440	speaking on something I'll share my screen meanwhile so can you see my screen
+51440	57920	share also so I'll keep the five minutes timers as that will start with the
+57920	61960	content post five minutes meanwhile if someone want to talk about anything or
+61960	70720	do you have anything we can discuss among among us okay so how's everyone
+72440	79560	class strength I'm not sure I've enough have to check on that but currently I
+79600	84400	see 15 people are there in the class so we'll wait for some more time and get to
+84400	91480	know okay so how how is your preparation with our DSA and sequel do you feel
+91480	98160	confident how many of you have cleared mock interviews for them or attempted
+98160	108040	pretty good great little little good so how many of you are freshers if you are
+108080	112000	give me thumbs up for the freshers
+114080	121680	I'm due to job okay most excited for efforts great great okay I see six
+121680	129400	people which I can say 25% of batches freshers cool since full stack is a
+129400	134560	beginner course right for the it's designed for religion for freshers
+134560	139800	perspective and we'll slowly speed it up do we cover react and Redux also yes
+139800	143480	I've been I will cover that but it will come in the later part of the you know
+143480	149200	curriculum initially we'll pick it up slow but slowly one after the other so
+149200	154820	once we reach at good pace then we'll cover react Redux and other state
+154820	164400	management tools and node express all things a complete monstack okay so we'll
+164440	171360	wait for another three minutes you only take over the LDF here after yes I'll be
+171360	178800	here Emma okay so I'll be helping you out okay my LinkedIn introduce myself
+178800	185760	then I thought to share it give me a second I'll pull it up okay and what's
+185760	190200	up group yeah I just want to create give me a second meanwhile when since we have
+190200	195480	two minutes I'll create a whatsapp group for us
+195480	208640	just a second till it loads I have to scan this
+209120	222800	okay device
+233120	238480	creating whatsapp group guys just a second
+238640	258960	group so let's say
+258960	281200	let me do one thing I'll create it in the break and I'll give it with you I'll
+281200	286440	give to you okay so do we go into deep dive in each points of this module or
+286440	293760	will go into deep dive permission so we'll build projects over the each module
+293760	300120	if you learn react how much different is difficult angular to adopt so I'll tell
+300120	304760	you on that part I'll come to that part frameworks are really after right so
+304760	309120	just focus on basics once you build that I'll tell you how it is different and
+309120	315760	what you need to learn okay you know so let's not jump into that depth like many
+315760	320760	people might not know might have heard words like angular and react but they
+320760	325480	might not know everything okay so I see we have good enough people today to get
+325480	333240	started let me stop this timer and let's get started with the class okay give me
+333240	338840	a second I hope you can see my iPad too
+339920	349960	great so how's the juice guys give me a thumbs up if you can get started with
+349960	362040	full stack LLD month stack right hi thank you so okay so firstly I want to
+362040	370280	introduce myself so I'm Uttam Sharma right so I carry more than four point
+370280	386600	seven years of work X working at PayPal since 1.5 years as SD 2 okay previously
+386600	394320	I worked with UHG and HCL 2 that had really less amount of time spent here so
+394320	399240	more on a PayPal basis so I've been a full stack developer since start of my
+399240	406440	career with major centric focus centric was on front end and I had good
+406440	414080	experience on node and Java stack to up to an extent on a back end and a middle
+414240	420880	but major was on front end okay so this is just a introduction about myself so
+420880	428680	this is what I've been doing or what what my experience is about but now let's
+428680	437040	get started with today's content okay so firstly since it's a first class we'll
+437040	440960	talk some some about like you know or something about web fundamentals
+440960	446280	firstly once we cover what fundamentals will go for the introduction of HTML and
+446280	453640	the thing okay so let's start with one of the basic questions okay one of the
+453640	459800	basics questions that you come across okay like what do you think you know
+459800	466280	when I go when I say let's say consider this will can start with the overview of
+466280	477480	full stack how many of you understand what is full stack so how many of you
+477480	486760	understand what is full stack okay front end place back end okay I see two
+486760	491760	thumbs up two thumbs down maybe if it is more reactive right like let's keep
+491760	498320	people if you can react thumbs up thumbs down maybe more okay I see many
+498320	502920	of the people are you know giving me this answer which whether whether say
+502920	513320	this is a front end plus back end okay it's equivalent to full stack so how
+513320	518120	many of you agree with this which is friend and just back end is equal to
+518120	523800	full stack right great so full stack is someone who knows end-to-end domain guys
+523800	528680	who knows end-to-end domain so this is what they are trying to define it here
+528680	533840	but let me you know not talking about technical let's pick up an example and
+533840	539200	try to understand what full stack is okay so how many of you have been to
+539200	544360	restaurants like many restaurants is taste like you been visiting right you
+544360	547920	might everyone might in the class have been visited restaurant anytime in the
+547920	554080	life right so can anyone help me out like what is once you go to go to
+554080	557340	restaurant what things happen what are the events that happens in the
+557340	563200	restaurants what are things are there like let's say this is a restaurant you
+563200	567480	let's say let me draw a box here
+571320	575920	okay so what all things can be there in a restaurant let's say this is a
+576080	588120	restaurant so do we see a kitchen can there be a kitchen and restaurant table
+588120	594040	chairs fine let's say this is our table and where you have many people sitting
+594040	604680	over here okay and there can be a kitchen to write and fan AC menu all
+604720	609760	this fine but now let's say when you go to the restaurant what we go for we go
+609760	616200	for a lunch or the dinner or anything right so let's say consider we are the
+616200	621480	people who are going to the restaurant to utilize its services okay once we are
+621480	627960	going there there's a one person who comes and shows us menu who is that
+628960	637920	waitress or waiter right let's say I'll turn down this thing waiter okay then
+637920	643680	one is one is a person like let's say I write it down here so these are we
+643680	650640	people who are visiting restaurant then we can say there's a waiter and waiter
+650640	657940	brings us and gives us menu and what we do what we do then what we do then
+657940	662980	once the waiter gives us menu we select and order it right we select and order
+662980	672380	it once we select and order it then what waiter does then what waiter does once
+672380	677860	we select and give it order what he do bring the food right so for bringing the
+677860	683660	food he places an order into the kitchen right let's say this is a kitchen okay
+683660	696500	so he sends an order and this you know what he brings back his food and this
+696500	704340	food is actually served to us this is what the cycle is right the food is
+704340	711020	served here isn't it this is what happens in restaurant do you guys agree
+711020	717940	with this example at least like a simple example now let's say if I say
+717940	723900	that under we if I put it this as a client
+729900	739780	and under kitchen if I put it as a backend okay let's say something that is
+739780	748020	transferring data or a waiter can be the HTTP protocols or HTTP has a DBS
+748020	754220	protocols okay so I am what I'm saying is something that we are using it
+754220	760660	utilizing it when I say client we can consider an example of mobile or desktop
+760660	767540	or laptop any sort of this interfaces right whatever you see on screen that is
+767540	772100	called a client which is interacting let's say we went to the restaurant and
+772100	776500	we saw we sat down we are trying to utilize the services but we are saying
+776500	781260	that hey I need this particular thing but we don't know how he's going to cook
+781260	786220	it in kitchen isn't it we don't know how is going to cook it kitchen in kitchen
+786220	791860	did he already prepared it or not or how we are going to get it but then there is
+791860	796620	something called backend in backend you have something called servers okay this
+796620	802980	is where kitchen kitchen lies so in backend you have two parts one is
+802980	813740	application code then there is a databases okay now what happens in
+813740	822340	application code let's consider this in the kitchen as a fridge or storage where
+822500	827500	have groceries where you have everything put up like maybe cereals pulses rice
+827500	833180	and everything you use this items and you cook it in an application code and
+833180	839020	then you give it back the data to the client to show it onto the screen okay
+839020	843660	now this communication whatever things are happening here now if you are
+843660	849900	handling all the task right can the task of you know serving a customer could be
+849900	854860	a waiter job which is actually related to the client and then which is a
+854860	858940	cooking where you are trying to cook the items or like you know we're cooking it
+858940	863300	like maybe anything that you order so that back-end job if you're handling all
+863300	867860	these three jobs is generally called as full stack
+867860	879740	is this a better way to understand it do you guys agree with me if you can
+879740	884900	understand this or relate this now if someone asked about you know full stack
+884900	889380	development now you can see that hey there is someone who is serving someone
+889380	893940	serving us that's a client right like that's something like being served then
+893940	897140	you have a back-end system like a kitchen where it's being cooked but we
+897140	901460	don't know how it is being cooked it's something hiding behind us so these are
+901460	905620	the machines which you cannot see it but these machines like the interface that
+905620	910940	you are seeing like if you see on a scaler you are able to see me website I'm
+910940	916220	able to screen share it we know that this is being done on the back end the
+916220	921420	servers of scaler are trying to you know stream the data of my me being teaching
+921420	925380	you are you learning from whatever I'm trying to teach that are happening on
+925380	928980	the back end which we don't know how it is happening but just happening those
+928980	935500	systems are there now so this is just an overview of how you know friend how
+935500	941260	these things are connected when you when we say front-end exactly what we mean by
+941260	946260	that is something our development which you are trying to do it on a client
+946260	952460	side when I say client side basically all the devices in world it can be an
+952460	959380	Apple watch it can be a smaller device to like bigger 65 inch screens okay
+959380	965260	whatever it is whichever software it can be an Android iOS or web browsers or
+965260	970340	anything whatever a end customer is experiencing so that customer
+970340	974740	experiences built by a front-end which is done on the client side okay on back
+974740	984940	end the scope is very huge which is server side are generally who handles
+984940	993100	business logics mainly when I say business logic just a word keep it that
+993100	996940	way that someone is cooking food for us we don't know how he is doing is
+996940	1001820	managing all things food is serving waiter is only handling the data which is
+1001820	1006500	given by the kitchen or the chef so he's not responsible to cook it he
+1006500	1010540	doesn't know what ingredients needed to cook it all things are done on
+1010540	1016100	server side so main logic happens on the server side client side job is only to
+1016100	1021980	you know present it communicate it well well like you know giving making it
+1021980	1027820	descriptive good experience for the user okay I hope now front-end and back-end
+1028060	1033540	idea is clear like what these are basically about and how we can
+1033540	1038860	categorize them and how you can you know think of it as an example okay so if
+1038860	1050860	this is clear can we go move ahead is good so let's get start with the second
+1050860	1057620	thing okay so now there's a one interesting question guys I have one of
+1057620	1064860	the interesting question that you should think of like you know when I say like
+1064860	1071860	let's say let's say if I coin it this way what happens
+1071860	1089740	when you enter URL in browser okay so just think of it like what happens when
+1089740	1095380	you enter anything let's say you are trying to do scalar dot com okay just
+1095380	1100140	something that you have been doing it every day or let's say few days back you
+1100140	1104220	might have watched World Cup so you might have been checking that you know
+1104220	1110420	scores of cricket matches okay so you know I'll try to write down all the
+1110420	1114580	suggestions that are coming to me Teja and somebody it would be good if you can
+1114580	1119740	bring it to the you know normal people not to me personally like everyone not
+1119740	1124780	to the normal people I mean to say it will be helpful okay so it will direct
+1125780	1133460	web page so one of the suggestion is that it loads the web page
+1139180	1150780	second thing is request goes to DNS any more ideas guys what happens like let's
+1150780	1155340	say when you enter scalar dot com actually what would actually what's
+1155340	1160500	happening behind the scene think in terms of like the analogy in client or
+1160500	1165460	desktop or the laptop you just enter a scalar dot com there is someone
+1165460	1172380	picking up sign building it interface and giving back to us right someone is
+1172380	1178700	doing it for us it will connect to scalar servers Dom okay it will fetch
+1178700	1184420	the data from the server then it will show us on the web cool okay so a few
+1184420	1189860	things that unique names I'm trying to I'll write it down they are says Dom
+1189860	1206340	scalar servers okay okay cool now guys so let's say now you being here let's
+1206340	1210240	say I'm taking this example as Teja is trying to search something in the
+1210240	1220140	browser okay scalar dot com so we know commonly as an end user is something
+1220140	1228780	that we are able to open dashboard right we are able to open dashboard and we
+1228780	1232940	know that once dashboard is so we know that there's something being received so
+1232940	1238460	somebody is cooking us that website and giving us back okay somebody is doing
+1238460	1241980	this thing at least everyone agrees with this right we are entering scalar dot
+1241980	1245900	com it is authenticating if user is logged in we are getting a dashboard of
+1245900	1250500	our acts right this thing is clear now but we'll understand what all steps are
+1250500	1255920	it's going through in the back end how it is you know trying to get it now tell
+1256000	1264360	me something scalar dot com so one thing we are sure about is this front end or
+1264360	1270480	back end everything is in computer isn't it your mobile isn't computer your
+1270480	1278320	laptops are computer back end servers are also computer isn't it now if that's
+1278320	1289960	so how does the scalar dot com or the browser knows to go which way to go out
+1289960	1294960	to reach out to which computer that will give it resource I mean how do you know
+1294960	1300080	that how does chrome or any browser knows that when I type search a scalar
+1300080	1306640	dot com here I should go to a particular computer and fetch the data so people
+1306640	1317320	are saying IP okay by IP address anyone else anyone else URL is basically an IP
+1317320	1330360	DNS server okay DNS server cool so guys let's take an example of phone book
+1330920	1335920	right let's say I want to make your call let's say I want to make let's say you
+1335920	1339540	are trying to make a call to your friend you don't remember numbers of
+1339540	1344720	friends right all friends what do you do once you open the mobile what do you
+1344720	1350240	usually do what is the approach that you follow you go and type the name right
+1350240	1353920	you go and search and type the name and you directly click on a call button
+1353920	1366520	right so can you can you think of this way it is a map of string and string or
+1366520	1380000	a number where you are storing let's say my name and xxx right this is how your
+1380000	1387080	phone book is stored you click on its number and dials up right now everyone
+1387080	1393280	is saying that you know all the websites in this world are known by phone numbers
+1393280	1397880	now like their numbers they have specific unique coding okay whenever you
+1397880	1404200	type down scalar dot com okay scalar doesn't know this particular name right
+1404200	1408320	domain name or the website name doesn't know which system it need to contact it
+1408320	1416480	but there is a one system which maintains this mapping this map mapping
+1416480	1421480	like which which stores that hey if someone is typing scalar right I have to
+1421480	1427360	give it back some number of system like that could be a ten dot eleven dot one
+1427360	1432600	twenty seven dot something something zero okay so there is a one system which
+1432600	1436520	keeps all the mapping among of the all the websites in the world could be
+1436560	1444400	google.com or could be any website any other websites okay they all maintain a
+1444400	1451240	mapping table okay this particular machines right hope the stores this data
+1451240	1461000	are known as DNS machines or you can say domain name system
+1467520	1476440	okay so as you make a phone call yeah we'll come to that so as you make a phone
+1476440	1480960	call you try to go and search in the contact list right hey I want to dial
+1480960	1486560	this person now similarly in any website or anything in the browser whenever you
+1486560	1491120	try to make a call to a particular website it's just like a phone call okay
+1491120	1495680	so what it goes is talk to this machine hey can you give me the phone number of
+1495680	1499880	this particular website no this particular website gives us back this
+1499880	1507760	ID or you can say IP address of that machine and port number port number
+1507760	1517520	could be four digit once it have this IP right or you can say public IP of a
+1517520	1522880	machine then it goes and reach out to the backend system
+1525680	1531160	this logic is clear guys firstly at least like there is a some machine
+1531160	1536360	called DNS domain names system server which is maintaining whole mapping of
+1536360	1540120	our you know phone numbers or the IP addresses for the each name that you
+1540120	1549880	type it okay so now this is there you know before even going to the reaching
+1549880	1553480	out this backend server right there are many steps that
+1553480	1560520	intermediately happens there are many things that happen now imagine you type
+1560520	1565800	in your browser a new website name compared to something that you keep
+1565800	1573600	visiting imagine you go into incognito not an incognito window but a new system
+1573600	1580560	and a new place you type down scalar.com if scalar.com a new let's say you
+1580560	1587880	type it down and if it is taking let's say 10 seconds okay but if you type it
+1587880	1600440	on in your system it might take only two to three seconds okay so if if what I
+1600520	1605240	mean to say is that this is like first time visiting
+1609680	1621400	this is from the second or nth time visiting the website so what I mean to
+1621400	1625800	say is that when you visit a website for the first time right it is taking long
+1625800	1629600	amount of time but when you're visiting from the second time to the nth time it
+1629600	1635720	generally takes less amount of time have anyone felt this way earlier in
+1635720	1640240	life or whenever you have seen this okay when you type something new right takes
+1640240	1647720	time to load compared to yeah it stores right okay now so why this happens
+1647720	1653800	we'll try to understand reasons behind this okay how many of you know heard
+1653800	1665000	this word called cache how many of you know this word cache anyone who haven't
+1665000	1674680	heard it I see 13 people cool now what happens right okay so you know there are
+1674680	1679900	multi-level of caching that happens multi-level now we'll try to see what
+1679940	1686980	levels of caching in generally happens with respect to this DNS map okay no so
+1686980	1693860	first when we type in browser a new website at scalar comm first it where it
+1693860	1705220	goes it goes to it try to search in browser cache just a second this
+1709900	1711960	you
+1727900	1734140	pardon me guys my niece was inside the room so I have to ask her to go out so
+1734140	1740780	okay coming back to the topic so whenever you search scalar comm inside
+1740780	1746500	the website right it goes and try to see in the browser cache when I say browser
+1746500	1756980	cache cache is nothing but a memory a temporary memory okay so this browser
+1756980	1762340	engines right whatever you say chrome or edge or anything everyone stores this
+1762340	1769240	mapping whatever key value pair mapping of a particular site name a domain name
+1769240	1774860	and IP addresses okay where actual servers are residing where I have tried
+1774860	1779980	to reach it up okay so this first level of caching is stored in the browser
+1779980	1785140	level once the browser level if when we are trying to do scalar comm checks in
+1785140	1789780	the browser cache that if it is there that's fine if it is not there then it
+1789780	1794620	will go to the next level what would be what do you think in terms of internet
+1794620	1802940	where it should go to the next level DNS directly no there are multiple other
+1802940	1809140	stages the rich think of it from computer whenever you're trying inside
+1809140	1817180	the browser where this browser is running on where this browser usually
+1817380	1822340	runs on on what type of machine this browser PC right how this species running
+1822340	1831460	how what is driven driven on PC operating system right OS so then there
+1831460	1839020	is something called OS cache so there can be a chance if if not in the browser
+1839020	1842860	cache because that there might be a chance right you might search scalar
+1842860	1846560	comm in chrome tomorrow you might not like the chrome you might open in the
+1846560	1851640	edge okay first it will go to scalar from scalar to browser it didn't find it
+1851640	1856800	it will go at the OS level it knows the mapping it will be this OS cache will
+1856800	1861800	return that you know IP address of machine and it will go and reach it out
+1861800	1867920	this is point here so once OS cache is clear think of it where it can go
+1867920	1870200	further
+1871240	1875640	there's a one level of it then it goes through DNS let's say I'll write down
+1875800	1883560	here as one level and then from here it goes to DNS think of it where it can go
+1883560	1886240	in between
+1887880	1891240	anyone in the class
+1892480	1905160	route okay anyone else shake is actually right so we say that ISP is right
+1905160	1911120	internet service providers whoever is providing us internet like could be an
+1911120	1917520	atl or geo or you can say act fibernet or multiple people who are providing us
+1917520	1925600	so this particular ISP's firstly there's a router at your home right in your
+1925600	1930040	router machines that you have a box which provides you the Wi-Fi so even
+1930040	1935080	that Wi-Fi box right it is also storing some data that shows it store this
+1935080	1941960	cache like of the website or the IP address mapping if it is not there in
+1941960	1946560	cache then it goes to ISP then if internet service providers also not
+1946560	1951120	having it's it's a new URL new website that got added into DNS then it goes to
+1951120	1957160	DNS then on reverse right once it is reaching out on the back end it goes to
+1957160	1963560	each step and it stores that key value mapping at each step okay then it gives
+1963560	1972080	us back this particular IP address is this point here guys at least like
+1972080	1978000	anyone having any doubts on this like how we are able to get the IP address or
+1978000	1983040	you can say a phone number sort of logic of a back-end server where it is located
+1983040	1987400	okay or you can say where kitchen is there who is giving us the scalar dot
+1987400	1993360	com dashboard okay so I'll write down this step as a simple way let's say this
+1993360	2002720	is a client okay let's try to reach out multiple systems okay so let's say first
+2002720	2018520	step is browser cache then it goes to OS then it goes to a router then ISP then
+2018600	2027560	DNS so what it returns us overall is the IP address IP address of server so once
+2027560	2035000	it has IP address of server it goes and interacts to the server okay this server
+2035000	2043080	might be returning us HTML website yeah we can see this in live I'll show it
+2043080	2050160	give me a second okay so this server is returning us HTML data or any other
+2050160	2058440	format data router is your Wi-Fi box right which is you are having in the
+2058440	2065920	home okay that is what now once you have this right once you have this IP address
+2065920	2070440	it goes to the server server let's say let's keep it this whole thing right
+2070440	2076000	what's happening here behind the scene how it is interacting with DB and what
+2076000	2079880	it is happening how the communication between these two things are happening
+2079880	2086840	let's keep it as a black box as of now because we'll explore this once we
+2086840	2092480	start with a back-end system but let's understand till here like this
+2092480	2103280	interaction till this interaction okay this interaction okay so now we say that
+2103280	2110240	I mean let's see this let's see this in life let me open the browser let me try
+2110240	2115800	to let's say any famous websites that you want to open or you want to open
+2116400	2127400	itself okay let's open the scalar.com itself okay scalar.com if you see you
+2127400	2131200	know scalar.com slash Academy mentis dashboard there's something that
+2131200	2136640	happened okay now if you see we got the dashboard completely I hope you can see
+2136640	2142080	the screen right I hope you can see the screen all of you okay great so now if
+2142120	2147160	you see here below there are too many API calls are being done you know if you
+2147160	2152160	see this fetch call okay initial load data or user info let's say I'm trying
+2152160	2156600	to fetch the user info details of all these things are being merged to get the
+2156600	2163040	data but we'll see each one step by step now if you see here okay here request
+2163040	2170720	URL is www.scalar.com slash user info but the remote address is this one can you
+2170760	2173760	see this IP address
+2175280	2182240	so this one is a machine which will give me this user info data so this is what
+2182240	2187160	I was talking about this particular mapping right to this website slash user
+2187160	2194120	info need to be fetched from this particular site is being stored okay now
+2194160	2201720	if you see all the things right remote if you see 13.35 point like 21056
+2201720	2207240	443 now 443 is a port number if you if I go and open all the webs all the API
+2207240	2212920	calls I'm trying to interact with only one machine if you say 443 all the way
+2212920	2217600	although you know this remote addresses are same but if you come and see this
+2217600	2222360	one right again there is something new thing that is being fetched it is
+2222360	2228280	interacting with different system okay so all the things if you see there are
+2228280	2232920	different things are being you know taken into accordance to build this
+2232920	2237680	particular screen that you see here but all the data that you see are being
+2237680	2240960	fetched from a server a different location there's a machine which is
+2240960	2246280	kept there and from using that we are able to load it okay now if I show you
+2246280	2263760	one of the thing let's say this are fetch xx hr let's say document okay okay
+2263760	2269000	if you see it here so now this is the actual website you know menti dashboard
+2269000	2273280	you can see this menti dashboard slash to dos which is the actual URL that we
+2273280	2278600	hit now this mentis dashboard is you know we are hitting still on the same
+2278600	2285200	machine that is being reverted with you know HTML I'll come to this what it is
+2285200	2290120	this HTML or what what we are talking about I'll introduce this properly but
+2290120	2295440	this is something a response like when we order a food from the kitchen waiter
+2295440	2299600	is bringing us something back food now this is the food which is given to the
+2299600	2304520	browser back and this thing is being understood by the browser and being
+2304520	2309800	loaded this point is clear guys how this interaction is happening where that
+2309800	2314060	systems are located or what this for remote rather scale multiple servers
+2314060	2319320	yeah there will be a different things right so this like you have you can have
+2319320	2323160	a number of machines you go for the bigger sites they'll have the different
+2323160	2327400	contents if you know when you go for Microsoft is sort of architecture each
+2327400	2332200	service will be doing some sort of work so you will be able to see the different
+2332200	2339160	addresses okay but overall the core logic is that there's a client which
+2339160	2343640	don't know anything we just say that scalar.com I didn't say that hey go and
+2343640	2347360	interact with a ten dot twenty one dot two zero five dot four four three system
+2347360	2352240	or any other machine I've just that scalar.com it automatically handled
+2352240	2356520	figured out where to fetch and what what need to fetch if you see it happened at
+2356520	2361360	so pace that it took more less than ten seconds or less than three seconds of
+2361360	2368000	time to fetch all the data and load it okay I hope now you feel I mean I'm
+2368000	2376040	having a better idea of like actually what's happening isn't it like how this
+2376040	2379680	data is being fetched on to the client or which machine or how machine is
+2379680	2383680	generally interacting how clients are interacting with the machines which are
+2383680	2391520	somewhere present we don't know right anyone having any doubts till now what
+2391520	2407720	we have discussed okay now no let's say you know we'll talk about something
+2407720	2412680	called just and this is an overview guys don't be overwhelmed if you are not
+2412680	2416460	completely able to get it but they're really basics we'll discuss this over
+2416460	2421080	over the time again and again to get complete clarity okay now so I said
+2421080	2425960	that you know these are two machines which is client and server these two
+2425960	2431400	people got the address now this machine got the address where this is located do
+2431400	2436760	you think once I do this you know the server will give me the all the list of
+2436760	2443720	resources it have if I go to any random restaurant and as I say that hey give me
+2443720	2448200	a piece of biryani would they give it to me or it will give to a authorized
+2448200	2455000	waiter itself it will give to an authorized person only know it should be
+2455000	2459640	a like he should be having certain validations and things now before that
+2459640	2463240	before going to that authentication authorization process there is a you
+2463240	2467680	know to establish connection right to establish connection between client and
+2467680	2473040	server in order to say that hey I'll keep exchanging this data once I have
+2473040	2477800	hit you yeah I know your address I came to your you know I came to your machine
+2477800	2483040	now I want to make a connection with you so that I can keep exchanging resources
+2483040	2488280	okay so for that thing there's a one type of connection which is
+2488280	2493880	established which is called as TCP connection there are other types of
+2493880	2497280	connections also which will you will learn in the high-level design course
+2497280	2504760	but anyone have heard about this TCP connection earlier have anyone heard
+2504760	2513120	about this okay I see four people three people some stuff okay no worries guys
+2513600	2521920	so what happens in general right okay when clients client is there no where
+2521920	2526000	there's let's say this is a client machine and this is a server machine
+2526000	2530720	once you know the address once you know the address to the server right to
+2530720	2540360	establish a connection you send a signal called acknowledge you send a machine
+2540840	2545800	to the server called acknowledge signal so this is on a top level guys from you
+2545800	2550440	can say 10,000 feet not into the complete depth because in complete
+2550440	2557040	depth you'll learn again and the future HLD classes okay but what happens in the
+2557040	2562080	does is when whenever you are trying to interact with any other system firstly
+2562080	2566000	you will try to say validate yourself saying that acknowledgement let's say
+2566000	2570960	I'm trying to come in me I'll say hello hi right now I'll say I'll extend my
+2570960	2575040	hand and then say hello so that what this client machine does it says that
+2575040	2582400	acknowledge it sends a signal called AK now if this person want to respond right
+2582400	2590880	this person want to respond back then what it does is it says that sink it
+2591080	2599400	with a smile then he also says that hello back again okay then if this
+2599400	2603960	client if they're making a connection then it sends a third message called
+2603960	2611240	sink which means you just remember this as a handshaking process this is called
+2611240	2615080	three-way handshake generally
+2616080	2622320	how connection is establishment to two machines let's say I go to I come to you
+2622320	2627680	and I say that I'll hello when I extend my hand and saying hello if you like to
+2627680	2631880	connect with me you'll also smile greet with greet me with smile and you will
+2631880	2637240	also keep me back your hand shake hand saying hello isn't it and then if I
+2637240	2640080	smile back then the connection is established for the further
+2640080	2644560	conversation so far it starts with a greeting so you can understand this as
+2644560	2649920	a three-way handshake where the greeting happens is this clear guys
+2649920	2654200	anyone having any doubts so just remember this one as a top level anyone
+2654200	2659080	have asking how TCP three-way handshake happens it's just a greetings is
+2659080	2662680	extending a hand smiling if the other person also smile back then the
+2662680	2666840	connection is established two things acknowledge and reverse acknowledges and
+2666840	2672040	then there's a sink messages which happens okay clear I hope there are no
+2672040	2679040	dodge so once the this this thing is happened right now all the data or the
+2679040	2687680	network now this is what we call network okay there are two machines they are
+2687680	2692400	somewhere located but if two people are interacting they interact over the
+2692400	2699120	network now there is some person who will hold the load of communicating okay
+2699120	2704200	what type of communication is happening which type of things are happening what
+2704200	2708920	he is bringing or what he generally happening right for all those net what
+2708920	2712520	communication that are happening with the network in order to understand you
+2712520	2717500	use something called there are two types of protocol which is one is called HTTP
+2717500	2724760	and the other one is called HTTPS this is a secured way this is a normal call
+2725280	2730220	HTTP is a hypertext transfer protocol okay which are generally used for
+2730220	2736320	transferring transferring the messages over the network okay is this clear on
+2736320	2741280	a top level what is TCP connection and HTTP I mean I'm trying to generalize
+2741280	2746000	such a way that you know you can understand connect with them not in
+2746000	2749520	complete depth knowledge as a networking class since this is a full stack class
+2749520	2757040	I'm just trying to okay I'll get to the full form I don't exactly remember
+2757040	2770280	the agent let me fetch it TCP full form transmission control protocol okay it's
+2770280	2773520	a transmission control protocol
+2780160	2786600	then there is another another protocol called a UDP can you could you explain
+2786600	2791600	the TCP purpose once again yeah sure Suresh so not going just as spending
+2791600	2798240	another minute now let's say that hey what happened is you got the phone
+2798240	2802640	number you picked it up from the mobile you searched it now we are trying to
+2802640	2806320	click on it when you're trying to click on it there's the connections that
+2806480	2810240	should be established between your mobile and your friends mobile right
+2810240	2815880	which is your where you are trying to call now in order to make this call to
+2815880	2819840	work then there is something called you know connection establishment does
+2819840	2828520	happen between two missions okay so that connection establishment is in that for
+2828520	2831480	establishing this connection there's a one type of condition that we generally
+2832320	2838360	is TCP connection where you have this process of three-way handshake this
+2838360	2844680	three-way handshake is specific to HTTP in HTTPS you have further because you
+2844680	2848800	have to extend certificates and multiple things but just the knowledge that I'm
+2848800	2852920	trying to explain the CCP connection is because I'm saying that hey once you got
+2852920	2856880	the phone number you cannot make a direct call you need some network
+2856880	2860600	connection which needs acknowledgement that hey I want to connect with this
+2860600	2875000	particular person is that clear Suresh okay yeah there's a handshake is a like
+2875000	2879920	one of the core thing without connection you cannot extend the network data over
+2879920	2884720	the network right so that it will happen every time okay it will happen every
+2884720	2891800	time but it takes a really less amount of time now moving right guys I hope
+2891800	2900000	this thing is clear now just a second so coming back to HTTP and HTTPS no once
+2900000	2904280	you have established connection there is a now you are once you establish a
+2904280	2907560	connection you keep talking to your friend right you might speak in English
+2907560	2912200	or Telugu or Hindi different languages do you guys agree you speak in a
+2912200	2917760	communication language you have a language to speak with your friend now
+2917760	2922280	imagine for this language right you have a particular protocol now those
+2922280	2927920	protocols are defined by HTTP and HTTPS now for this one you have only four
+2927920	2933360	things in general that are happening on a server either you are getting a data
+2933360	2939240	hey you are asking like can you give me some information or you are yourself
+2939280	2944640	giving some information which is a post call or you are saying that hey that
+2944640	2949160	information which I gave earlier which was wrong so I'm trying to update that
+2949160	2953600	information using put and then you say that hey can you please remove that
+2953600	2960320	information which is not needed using delete so there are four types of
+2960320	2963680	communication that happen generally between two machines these are the four
+2963680	2967520	things to create a resource
+2970240	2989800	okay sorry this is a get a resource or create a resource update a resource or
+2989800	2998160	delete a resource right in general these are the four types of communication that
+2998160	3005480	happens and these are being generally done from client client says that hey
+3005480	3009040	can you give me because I made a communication network with you I called
+3009040	3014400	you you have to serve my request so client make a request using this four
+3014400	3020480	types of communication so it says to the HTTP that HTTP asked us to provide
+3020480	3025200	which type of communication you need it whether you want to get some data or you
+3025200	3030160	want to create a data or update data or delete data once your request is made
+3030160	3034400	right server response back
+3036960	3041880	back with some information no but there are multiple informations that are
+3041880	3046560	happened transferred over the network I will discuss that about in depth later
+3046560	3051880	on but what server responses response in terms of you know status quotes there
+3051880	3056800	are many status quotes that you will see now if I show you one of the status
+3056800	3061360	code that we have generally seen as of now if I go back into this website if
+3061360	3069720	you see if I open anything if you see here 302 200 302 right a 304 all these
+3069720	3075040	are status quotes these are being given by server now if you go back to headers
+3075040	3079480	right here I'm saying that request method get so we are saying that hey I
+3079480	3083680	made a communication with you I want to get the data now in the response if you
+3083680	3088320	go to the response right here let's say response it is giving us 302
+3088320	3092480	redirection I'll see I will talk about all the status quotes how in a top
+3092480	3097760	level how the status code works let's say they are basically status quotes in
+3097760	3110520	5 series 1 xx 2 xx 3 xx 4 xx 5 xx ok now one of the error code everyone knows is
+3110520	3118440	404 not found right everyone knows this does everyone know this 404 error now
+3118440	3124200	what this 404 error says what what this 404 errors mean is something that you
+3124200	3129000	are trying to search or get the data it is not available let's say you give some
+3129000	3133080	gibberish website let's say you give them some gibberish website let's say I
+3133080	3141800	go and open a network tab and inspect it let's say I clean this I write
+3141800	3150400	something okay and I try to search okay it's giving me something or that lot of
+3150400	3154560	information available in Google but what happens is if there is nothing
+3154560	3159400	available with this name or this thing right URL that there is no resource
+3159400	3165680	available then what it says that hey you have made a mistake there is nothing a
+3165680	3169880	place called this one or there is no mapping available where I have to route
+3170880	3184920	machine okay so we say that client had made a mistake or you are pointing to
+3184920	3189360	the wrong direction let's say you are going to Ambani and asking her to be to
+3189360	3194440	cook a tea it's not possible man right so he wouldn't be available to do it for
+3194440	3199040	you so that's not found resource not found he won't be able to serve you so
+3199040	3203000	it's a your mistake that you're asking a wrong person to do something now if
+3203000	3208160	something let's say you after four four xx series right you might have also
+3208160	3218880	seen five excess series also have anyone faced 5x code series 500 server down
+3218880	3225560	right people say that five server is down server is down what does it mean
+3225560	3234320	what does it mean when I say server is done the back-end system right this
+3234320	3241200	server the system is shut down internal server error okay bad bad gateway so all
+3241200	3245240	these things all the 500x codes whatever you come see right those are like
+3245240	3250320	problem with server like you don't know there is a issue with a server ongoing
+3250320	3254880	so you cannot do anything so 4x series is something that you can't do right
+3254880	3258560	this is something problem from the front-end 5x series is something a
+3258560	3264600	problem from the back-end is this clear 4x and faxes might be clear right now
+3264600	3271960	then there is something called 2x code so this is a success code for all the
+3271960	3277520	get calls for all the get calls right you get a success code or the post calls
+3277520	3282640	you get to 200 code or 202 code where you are trying to say that whatever you
+3282640	3287400	want you made a request of these four items get post delete and if that
+3287400	3290840	particular call whatever you request made it if it is successful it will
+3290840	3296320	return us that data along with the status code of 200 okay then there is
+3296320	3301720	something called three excess three excess is something like redirection just
+3301720	3308560	we have seen is that if you see scalar.com got I just entered scalar.com
+3308560	3313920	but it redirected me to menti dashboard have you seen this I have entered
+3313920	3318240	scalar.com only but it took me to the menti dashboard right URL got appended
+3318240	3324200	dynamically it's a runtime and it loaded me a new site instead of loading just a
+3324200	3326880	scalar.com
+3328120	3334480	did you guys notice that or I'll show it again okay I'll show it again if you
+3334480	3338480	need give me a second
+3339920	3345240	let's clean it up again let's say scalar.com let's say I'm just entering
+3345240	3350800	scalar.com when I click enter if you see it appended menti dashboard and to dos
+3350800	3356080	now why this happened is it says that scalar.com by default home page is not
+3356080	3360880	available it need to someone hitting this URL need to be navigated to menti
+3360880	3365960	dashboard now but if you see when I hit a scalar.com it is giving me 300 status
+3365960	3370320	code it means it's saying that hey this something I recognize it but actual
+3370320	3374800	website where you have to go to is menti dashboard so whenever something is
+3374800	3380280	coming with a 300 X code return return status right response status it is
+3380280	3383480	something related to
+3387200	3390200	redirection
+3391480	3398080	okay and there is one thing which is left is info first one excess code
+3398080	3401760	whenever you see this is one of the rare code it gives just the information
+3401760	3406840	okay information about resource
+3407840	3414160	I've seen very rare use case of 1x code which you might not have face it but it
+3414160	3418240	gives just gives information about resources like back-end system and where
+3418240	3423240	it is and if you want to fetch information about systems okay and that's
+3423240	3427600	not commonly used mainly important things that you need to remember is 2x
+3427600	3435000	4x and 5x okay whatever this code starts with 2 4 and 5 are more important 2
+3435000	3438920	stands for success 4 stands for client-side mistake 5 stands for server
+3438920	3446280	side mistake okay now I hope this part is clear like how when I said that I
+3446400	3453720	just want to focus on this part layer till this part okay so firstly if I try
+3453720	3459680	to repeat this revise this once okay what we thought what we okay 1x code
+3459680	3469480	okay let's say I try to give an example of 1x code let's say
+3476280	3483840	just a second I'll fetch it and show you what actually gives us okay so here
+3483840	3487520	they say is that you know information response now what sort of information
+3487520	3494160	responses like you know in on the network layer like switching protocols
+3494160	3500600	are processing this is not actually used on the system like I we don't really use
+3500600	3505480	them when you're developing websites or applications you never throw 1x code
+3505480	3509440	this is actually happened on a network layer by the systems itself that
+3509440	3513720	servers that handle where it shares shares information about the resource
+3513720	3517280	let's say client machine resource the what this client machine is all about
+3517280	3521360	what this server machine is all about okay you won't be able to see it in the
+3521360	3528080	network because whatever you make either whenever you making a yeah I'll give you
+3528080	3532840	the real-time scenario for 1x code give me some time but what I was trying to
+3532840	3535880	say talk about is when when communication is happening between two
+3535880	3539320	system right if you think it from the perspective of communication is
+3539320	3544800	happening firstly either this person can say wrong or either this person can say
+3544800	3550520	wrong or this person both can you know like make a communication real real you
+3550520	3555520	know work properly so if this person is making wrong it is 4x code if this
+3555520	3560000	person is making wrong this is 5x code and if there is something going right
+3560040	3565320	between all the communication then there is a 2x code okay for 1x I'll get I'll
+3565320	3575600	get the real-time examples I'll share it with you okay works guys okay cool now
+3575600	3581800	trying to revise again repeat once on a top level so then we have understood
+3581800	3586160	that what happens in the browser whenever you enter a URL so the first
+3586200	3590200	thing that we have figured out that when on the client whenever you enter
+3590200	3600800	anything it goes to you know a series of steps okay I'm wrong with spellings
+3600800	3620760	series series of steps no to fetch IP address of server once it gets IP address
+3620760	3626120	it goes to the server but no there are two things that are happening in middle
+3626120	3631400	one is connection TCP connection this thing we have learned two things three
+3631400	3636360	things happen in the ACP handshake ACK where it sends some client to server and
+3636360	3645800	server sends sync less ACK then client again says sync okay once this
+3645800	3650680	connection is done then this people connect and communicate using HTTP
+3650680	3653280	protocols
+3656160	3661480	I hope now you are at least on a top level you have a you know greater
+3661480	3665440	clarity what is happening behind the scenes how data is being served from a
+3665440	3672120	machine right this is clear guys okay if there are other than any doubts other
+3672120	3679360	than one excess please shoot it I'll wait for a minute to before I go ahead
+3680360	3686120	because next topic that something that I want we need to get started with is
+3686120	3692360	introduction to HTML part because this is you know high-level introduction
+3692360	3697280	about web fundamentals where we understood about what full stack domain
+3697280	3701960	is overall like what what we have what we have to work or what we have to learn
+3701960	3706800	then we understood like what happens in a system actually when you enter any you
+3706800	3714920	are this things acts as a base to move ahead in the further classes okay this
+3714920	3721240	was being a theoretical now we'll start with a more practical part so as height
+3721240	3728040	when API comes into the picture okay now okay
+3728080	3733480	API's are generally let's say
+3734960	3743400	I'm a client I'm a server okay a client can talk to multiple people
+3744360	3750320	okay let's say how do I say okay this way
+3751000	3756800	yes yes this day right so API's are application programming interface they
+3756800	3761400	say that you know these are the end points with which you can connect to
+3761400	3766120	get the information that you want now this like you know using this whatever
+3766120	3770120	get post delete calls right you cannot say that randomly give me any
+3770120	3775200	information for getting this information this server should support right firstly
+3775200	3779200	back-end system should support that hey you can get this information from me I
+3779200	3785080	can give you this information now to get that you know in order to give that
+3785080	3788960	information right this back-end systems build application programming interface
+3788960	3793480	there can be multiple endpoints like we have seen one of the end point is user
+3793480	3799760	info when we entered you know scalar comm right we seen that user info now
+3799760	3805600	user info is a get call now how we know that we ensure interact user info will
+3805600	3811040	get the data because inside the server they are someone who is listening to get
+3811040	3817400	call on this URL called user info so someone is coming with you know this
+3817400	3821000	call then they'll do something they'll implement some logic and give it back to
+3821000	3826040	us now this endpoints right whoever are building this in points like the URL
+3826040	3830920	pattern or the type of HTTP methods who are defining it if you particularly hit
+3830920	3836120	this particular thing you will be able to do this let's say if you go for again
+3836120	3839880	restaurant right there can be Chinese restaurant there can be a South
+3839880	3843600	Indian restaurant there can be Japanese restaurant where you can eat sushi
+3843600	3847760	American and South Indian you can eat South Indian breakfast so if you go for
+3847760	3850520	one particular sort of restaurant you can get only particular item you cannot
+3850520	3854920	get the other items so now each server will have a capability to serve
+3854920	3858280	particular things now all those capabilities are defined by using this
+3858280	3863200	menu now well waiter is bringing us menu now we know that what all things it can
+3863200	3872360	give it us those menu items are only API's is that clear Sean the that menu
+3872360	3876280	items right whatever API's are being developed in the back end are the menu
+3876280	3879320	items now we select those many items like the user info get for this
+3879320	3883840	particular server and we try to interact with them so that generally the menu you
+3883840	3894080	can consider example as a menu or the API's okay now yeah I hope I hope this
+3894080	3898800	this top level this thing is clear but this way this will be coming back to us
+3898800	3903920	again and again when while we are discussing a whole end to end right
+3904320	3908600	TCP call is made with which server TCP call is made with the actual server
+3908600	3913320	which where you are trying to fetch the IP address once you receive an IP address
+3913320	3918000	from the beginners right that a particular IP address whichever mission
+3918000	3923080	is mapped to it will try to establish a connection with that let's say I got a
+3923080	3929200	phone number of you Suresh from my dialer I try to make a call I'm trying
+3929200	3933240	to establish connection with you with your server with your mobile phone
+3933440	3943680	that's what is happening here is that here so nice so guys moving it from
+3943680	3954800	here now now is actually where we start with HTML okay how many of you are
+3954800	3960320	completely beginner to this word HTML how many of you are completely beginner
+3960320	3963320	to this word HTML
+3968000	3973000	please what it guys it will it will allow me to know if I can go speed or
+3973000	3984800	slow or what pace I will maintain it okay cool I didn't get your point
+3984800	3991960	Muneshwara beginner okay no worries okay cool so I see you guys 50-50 ratio
+3991960	3997160	people there too many beginners so we'll start with completely basic people who
+3997160	4002160	already know people who already know right 12 people I would ask you to you
+4002160	4005880	know have some patience till I build the basics but all the people are starting
+4005880	4010120	from zero such that we'll bring him on to the pace and then we'll continue
+4010360	4021360	from there okay great now so let's take an example you know so I'll introduce
+4021360	4028200	three words now let's not introduce HTML let's take an example of
+4032920	4036240	building a house
+4037240	4042600	now tell me what all three things that are happened like when you build an
+4042600	4047640	house let's say imagine building an house so I'm asking for all the nine
+4047640	4053320	like you know people who haven't doesn't know anything or who knows everything
+4053320	4056840	doesn't matter but just tell me what happens what are the events that are
+4057400	4060800	there while building a house
+4064240	4074760	basement cool plan layout plan cool basement pillar walls right cool yeah
+4074760	4084620	let's say I'm building a two-story house plan is ready everything is ready okay
+4084620	4090260	foundation column beams okay foundation
+4093300	4101740	columns and beams now let's say this is done then then what you do okay someone
+4101740	4107340	says structure okay one structure is done what do you do can you go and stay
+4107340	4113300	in a house which is structured okay roof is added here itself
+4114780	4125020	bricks cement now yeah there's something called paint interior now let's say paint
+4125020	4128940	and interior is done tiles are done foundation roof columns are beams are
+4128940	4133300	done now what would be other thing what you would have
+4133300	4139900	plumbing electricity okay
+4145460	4151180	cool guys thank you so much you have solved my problem actually now let's
+4151180	4159900	try to connect this root dots okay let's get it this starts so now even while
+4159900	4166020	building websites you need all of these things you need all of these things so
+4166020	4181380	what if I put this all these things let's say a roof basement walls floor
+4181380	4189620	everything into a structure structure of a building is this clear do you agree
+4189620	4194300	with me if I can put all of them into this category structure of a building
+4194340	4205620	right now second thing would be painting a house or adding an interior so what
+4205620	4209740	we are doing we are making it to look beautiful
+4211700	4220660	beautifying the house beautifying the structure I can say isn't it right now
+4220660	4225820	once these two things are done then there is something someone say that
+4225820	4240620	plumbing plumbing or electricity okay or you can say fan you know lights or
+4240620	4246140	anything now what these are giving us this this thing is giving us you know
+4246140	4250220	behavior let's say I'm going on switching on a fan when I click a
+4250220	4256820	button is something rotating right isn't it something rotating when we switch on
+4256820	4260420	the fan there's something rotating or there's a light on that's what behavior
+4260420	4266300	is happening right even in the website you go and see a website you scroll it
+4266300	4270940	down where only when you scroll that page goes up or you click a button there
+4270940	4276540	is something happening isn't it same as a like something happening on the house
+4276540	4287380	interaction or clicking button presses clicks or let's say clicks interaction
+4287540	4293900	okay so these three things are happening in the website too we are building a
+4293900	4298740	structure of a website we are making it look beautiful using adding colors we
+4298740	4302100	are adding behaviors like you know behaviors like as you're giving me
+4303100	4308380	typing it down you're posting it so all these are behaviors so all these three
+4308380	4313380	things are need to be handled whenever you are building this website okay so
+4313380	4317860	for building doing each of this work right since these three are core
+4317860	4322740	fundamentals of any building there are you know there these three things are
+4322740	4327340	really important in order to be good at web development so now let's say the
+4327340	4332540	first point whatever you say the structure of building I categorize as
+4332540	4339500	HTML now when I want to color a building or add a more beautification part I say
+4339500	4345020	it is a CSS then there is something called electricity or you know lights or
+4345020	4351260	I want to say that hey someone clicked button I want to fit some data or like
+4351260	4356740	you go on a Netflix you click a movie button watch now it loads a movie there's
+4356740	4360940	something who is getting the data for us loading that movie so that thing's
+4360940	4370380	behavior can be handled using JS is that clear guys on top level what HTML CSS
+4370380	4376620	or JS is behaviors only that roles of them okay I've took an example of house
+4376620	4381940	I hope you never forget it and now one tricky question I want to ask everyone
+4381940	4391740	how many of you think HTML and CSS are programming languages how many of you
+4391740	4396740	think HTML and CSS are programming language
+4396740	4420700	okay so I have four people saying yes guys so firstly they're not okay because
+4420700	4430020	one thing I'll tell you programming language is handling only behavior part
+4430020	4435540	behavior part when I say behavior part what I exactly meant is something
+4435540	4440540	someone is user reacting to clicks or building the data or someone cooking it
+4440540	4446600	or anything something which is really static doesn't have any programming to
+4446600	4454920	be written you cannot write for loops while loops or additions or any
+4454920	4457960	arithmetic operation
+4463520	4469800	using this tool so never say whenever you're saying that HTML and CSS you
+4469800	4474920	cannot use them for you know as a calling them as a programming language
+4475120	4479600	there's a difference why when we say that's a programming language you can do
+4479600	4485960	all the problem-solving events now HTML CSS are solving different problems but
+4485960	4489520	the actual when we say that a high-level programming language those are something
+4489520	4494920	that you apply you know too much of logic to build something like you said
+4494920	4500720	DSA you're solving a problem statements for them those sort of things like when
+4500720	4504280	you're trying to solve those are problems there you have like language
+4504280	4514760	like JS Java Python okay these are the high-level programming language you have
+4514760	4526040	many Ruby go lang okay no JS there are too many things okay but HTML and CSS
+4526040	4531400	are not a programming I'll explain more reasoning for this but on top level at
+4531400	4534640	this point they are not programming language only the reason is you cannot
+4534640	4539400	write for loop and while loop and no problem can be solved without adding a
+4539400	4544760	loops or recursion logic isn't it can you solve any DSA problem without
+4544760	4550920	writing a loops or a recursion you pick it up any data structure you pick it up
+4550920	4554520	any data structure you pick it up anything you won't be able to solve it
+4554520	4559680	so now this is just an top level guys never say that it's a programming
+4559680	4570760	language now we'll start with official introduction of HTML okay let's say we
+4570760	4575960	are starting with HTML if I write down the full form of this one right we call
+4575960	4590600	it as hypertext markup language okay so we'll come to this definition step by
+4590600	4596920	step okay we'll come to this definition step by step you need a break can we
+4596920	4601880	take it after 15 minutes have you know works at 130 hours like class of 130
+4601880	4609280	hours okay cool now in this HTML there are only two things right if you if you
+4609280	4614440	learn two things right if you learn only two things that's enough if you learn
+4614440	4618440	only two things that's enough to you know you will figure it out all the
+4618440	4621800	other things you'll figure it all the other things now what are those things
+4621800	4631920	are two things are some says element some says tax this is one thing second
+4631920	4641600	thing is called attributes or some says properties these are the only two things
+4641600	4648840	present in a HTML whenever you write now to design any structure of a website
+4648840	4653680	right content you have only these two things elements and tax have anyone
+4653680	4660440	heard of this things attributes elements and tax earlier can anyone give me an
+4660440	4663960	example of element or tag
+4665960	4676720	someone says P okay good good good okay so let me dive down this one button as
+4676720	4682920	people can understand image okay anchor I'm writing down things only which I'll
+4682920	4689800	introduce now okay paragraph heading these are the elements or tax what are
+4689800	4693400	the attributes are the properties
+4695560	4704160	what are the attributes are the properties okay source or href okay
+4704320	4709280	anything else guys does anyone remember
+4712800	4721880	iframe is again a different thing big thing so someone says hash ID but it is
+4721880	4727760	only an ID then there is something called class name class then there's
+4727760	4734840	something called style right all these are attributes okay now for the people
+4734840	4738960	who are completely picked us right understand this one elements are
+4738960	4743120	something which is you to add a structure to a website these are the
+4743120	4747440	things which are adding a structure elements can be anything could be an
+4747440	4752920	button button now to define an element you use this way there is an a button
+4753200	4764360	once you define this way okay this is an element can be a button to click okay you
+4764360	4769680	define an element this way an element is something which has a opening and a
+4769680	4778000	closing okay something which is born it will surely die okay once you define an
+4778000	4781800	element you can write the content it will see this in live after the break
+4781800	4786800	but on a top level elements and attributes are only the things which can
+4786800	4792000	which can be used to define the whole HTML content all the now will see them
+4792000	4810880	live but attributes are something which is used to enhance property of element
+4811000	4819520	applied on it okay let's say you have defined a button there are too many
+4819520	4824440	buttons buttons will have a color or you can add a style button you want to make
+4824440	4828800	the button to look in a different way or the button should be jumping all of them
+4828800	4834800	can be done using attributes you have to define different attributes okay this is
+4834800	4839480	on a top level what elements and attributes are I hope this is clear
+4839480	4843960	anyone having any doubts on that on this we'll see them in live again once
+4843960	4848640	we start coding we'll start coding in the you know ten minutes later but
+4848640	4855560	anyone having any doubts on this on this like elements and attributes I hope no
+4855560	4867760	right class will go till 11 yeah yeah we will be going till 11 okay so I hope
+4867800	4872400	there are no doubts now since I have four five minutes I'll explain what is
+4872400	4878080	you know this HTML is you know markup whenever someone says that you know
+4878080	4890640	markup language so it means to say that structure structure website you can take
+4890640	4895480	the example as something adding a structure to it you have anyone have
+4895480	4900360	written anything in the life called readme.md files have anyone written
+4900360	4909760	readme.md files in life earlier markdown files okay no I'll show you that one how
+4909760	4916440	we do it but all the markdowns right markdown files or markup files are
+4916440	4920680	generally adding a structure to the content now wherever you use this word
+4920680	4925000	called markup it is just adding a structure to a particular thing that's
+4925000	4931360	where these people used as a markup okay now second thing they use something
+4931360	4940920	called hypertext they use something called hypertext
+4940920	4949480	when I say hypertext I mean to say that do you know have you seen XML comes
+4949480	4956200	under markup language not exactly Suresh not exactly okay markup is
+4956200	4962080	something different XML is different okay I mean it can be a part of a
+4962080	4966120	category out out of that but I'll try to you know Google and come back to that
+4966120	4975760	exactly okay but now coming back to hypertext if you see in websites right
+4975800	4981200	you have many things like buttons you can see something which is like a links
+4981200	4984800	you can see right there are too many links on a website or even if you
+4984800	4989880	prepare a resume who have built it you might have added a scalar you know
+4989880	4994240	your coding profile you might have added your github profile you might have given
+4994240	4998400	your you know LinkedIn right have you have have you prepared anyone have
+4998400	5004160	prepared the resumes adding these three links at least right now these are the
+5004240	5008760	links that are done now imagine this links once you click a link you are
+5008760	5012920	redirected to that particular website right could be a github or scalar or
+5012920	5019720	lead code or whatever you have a github now this redirection is able to happen
+5019720	5024080	because they are hypertext then when we say that their hypertext we mean to say
+5024080	5033080	that hyper linking hyperlinking of text so the text is up entry point which is
+5033080	5037160	redirecting you to the next something new place so that's why we say that is
+5037160	5042520	a hyper linking of text which is helped to structure a website now even if your
+5042520	5046960	resume is something called a HTML only which doesn't have color or which is
+5046960	5051880	normal in different fonts different typography and just you having a
+5051880	5056400	hyperlinks are able to relate now definition of HTML also because that's a
+5056400	5061360	bookish definition it doesn't really matter to us now if we have once we have
+5061400	5068400	understood this book is definition right not needed but the way I understand the
+5068400	5075720	way I understand is HTML is mother tongue
+5078680	5081680	to browse
+5083120	5088960	why do I say mother tongue to the browser is because imagine we have each
+5089000	5093200	person is very much comfortable with their mother tongue right because there
+5093200	5098880	is something that you have learned in the while you were born first isn't it
+5098880	5103080	you might be super comfortable because you've learned it at home and you
+5103080	5107680	understood it you know that's really easy to understand and you know do it
+5107680	5112920	sometimes what happens is people who are trying to learn new language let's say
+5112920	5116680	if someone is trying to learn maybe someone who moved from North India to
+5116680	5121080	South India is trying to understand small words he tried to relate those
+5121080	5125640	words convert into their mother tongue and try to connect a dot if someone is
+5125640	5131520	saying something right do you guys agree with me let's say someone is coming from
+5131520	5139880	Delhi Delhi to Hyderabad someone is speaking in Telugu okay and his mother
+5139880	5145360	tongue person who is in Delhi his mother tongue is Hindi and he came here he is
+5145360	5149800	trying to learn Telugu so first thing he'll learn is like I'm a Telugu I know
+5149800	5156120	Telugu so first thing he'll learn is like I don't know Telugu right can you
+5156120	5161560	speak in Hindi this is our English he'll say this line so whenever you teach him
+5161560	5167880	that person right hey I don't know Telugu can you like can you speak in English or in Hindi
+5167880	5173120	so if you I have sprained the sentence now but whenever happens
+5173120	5178240	whenever a new person comes in whenever I say this thing he tried to map this
+5178240	5183920	each letter in Hindi back right he's trying to convert back into mother
+5183920	5188560	language and then understand it and remember it you guys agree this is a
+5188560	5196560	process generally what we follow if you are trying to learn something new right
+5196560	5202400	so even in the browser right even in the browser it is same thing for browser
+5203280	5209960	browser can understand something is HTML by this is his mother language if you
+5209960	5215280	give him this data it will load the website at a short it didn't need to
+5215280	5221880	translate or convert into anything it will load it a short so if you see even
+5221880	5227560	when we loaded a scalar website first okay something that we got in the
+5227600	5233600	initial response was HTML all the other things if you see other things all the
+5233600	5237640	other things were you know script JavaScript is downloaded later on but
+5237640	5242560	first HTML was loaded this is something a browser understands once we load this
+5242560	5248160	if you see the like if you say this is a title that scalar is coming now the
+5248160	5251920	title will be if I hover over it
+5251920	5257480	okay home scalar everything you will be able to find how it is happening okay so
+5257480	5262160	but I hope you are able to relate this this is a mother tongue of a browser
+5262160	5268000	which it can understand it exactly and it is very speeded understanding it
+5268000	5273360	doesn't need to go to multiple steps so if you are serving HTML to a browser
+5273360	5279240	it's a cakewalk for it to load it fast but if you are giving a code or a logic
+5279240	5284120	to run in the browser it takes time to convert into to what it understands it
+5284120	5290960	then render it onto the screen okay I hope you are able to understand now what
+5290960	5297240	HTML is basically on top level because this will help to understand the word
+5297240	5300880	called Dom in the future classes I'll introduce Dom I'll see if I can
+5300880	5306480	introduce today itself but okay I hope now you got that on a top level what
+5306480	5310840	hypertext markup bookish examples you learn a lot but watch my idea is right
+5310840	5315480	how I understood the computer scientists with my examples something
+5315480	5318920	that I see in real life I go to the store and I try to connect with them I
+5318920	5324240	try to see everywhere what is in general connected with the nature that we see so
+5324240	5331440	that's that way if you try to remember will remember for life okay so the my
+5331440	5336200	notes would be not that bookish all our notes or my way of teaching wouldn't be
+5336200	5342400	that way it would be really simple on a top level so that it would be easy so
+5342400	5349000	whatever code we write is converted into HTML completely no some bit no I'll come
+5349000	5354440	to that wait for you know I would say two months actually when we come to
+5354440	5360680	react you will be amazed how things are working okay but wait for some time
+5360680	5366040	like but I'll you can ask me this thing again then but I'll show it but
+5366080	5371000	understand this thing this is something that someone understands it HTML okay
+5371000	5376920	browser understand this thing for sure so I hope the class you are clear with
+5376920	5382080	the things till now you know what we have learned I hope if you are clear we
+5382080	5386440	can go with the you know break session okay how many minutes of break you
+5386440	5389440	usually want
+5390320	5397360	how many minutes of break you needed five minutes would be fine right because
+5397360	5402440	we have to cover some content since it's initial class okay I'll give the five
+5402440	5409640	minutes guys to keep it in between okay let's reset this one and start it okay
+5409640	5416160	so that we can end class early that's my point okay starting this timer
+5416480	5421440	please take break guys see you in five minutes again
+5426080	5431600	this Java is helpful for the full stack developers I'll answer you back to this
+5431600	5435920	again in some time after a break
+5446440	5449020	you
+5476440	5479020	you
+5506440	5509020	you
+5536440	5539020	you
+5566440	5569020	you
+5596440	5599020	you
+5626440	5629020	you
+5656440	5659020	you
+5686440	5688500	you
+5717440	5726200	I hope everyone is back guys can anyone give me some sub-thumbs down if you are
+5726200	5743200	back any reactions so guys should I have I've got nine responses so I'll take one
+5743200	5747560	doubt that I had it there is what is a usage of one excess code I don't
+5747560	5753080	remember who asked me but what is the use of one excess for an HTTP coach so
+5753080	5761400	one excess is not an end state it is an ongoing state okay so whenever you make
+5761400	5768120	a request and your response is served okay
+5768680	5774000	response is being served it goes through multiple states like continue or
+5774000	5777520	switching protocols
+5781120	5787880	like this is no yeah so there is no like thing like what it is defining an
+5787880	5791360	instant it is not really you won't be receiving the status code in your
+5791360	5796720	request or the response it is just a happening at a network level that it is
+5796720	5802240	saying that what are the steps are happening at that time I was taking one
+5802240	5813920	doubt some bit so just one excess code okay so there is no particularly end it
+5813920	5817840	like where one excess is like you will receive an one excess code in front end
+5817840	5822520	of the back end or in your logs because it is not actually an end state it is an
+5822520	5825760	ongoing story to the state it happened at a network layer whenever you are
+5825760	5829360	making a request and between till you receive the response whether it is
+5829360	5832960	success or the failure response that something that is happening on a system
+5832960	5837560	level is like one excess code if system needs any other information between one
+5837560	5841880	of each other that is one excess so the till the moment like let's say you
+5841880	5845520	ordered a food in the restaurant and you are waiting till that food is being
+5845520	5849520	served you are in the one excess code because if you order on a swiggy your
+5849520	5852840	food is being prepared once it is prepared your food is assigned to a
+5852840	5857600	particular driver till it reaches so that status is changing continue
+5857600	5861400	switching protocols or it is you know data is being binded it will be sent
+5861400	5865560	back so all this states right those are on the top level what one excess is
+5865560	5871560	talking about information about the resource is that clear shant
+5876400	5882360	yeah okay I'll discuss this in further if you wanted in doubt session okay no
+5882360	5892040	worries so guys I want you to install a few things how many of you have heard
+5892040	5896080	of visual studio code editor
+5898120	5903880	how many of you installed it how many have you have in this system how many
+5903880	5912240	of you have it I see one thumbs down so I would give you a URL okay so if I open
+5912240	5920520	this let's say I open this URL and also pin this URL okay I've pinned this URL
+5920520	5926480	guys who people who gave me thumbs down you know go on to this size according to
+5926480	5931400	your machine configuration if it is windows or you're using Ubuntu or like
+5931400	5938960	whatever if it is macOS try to install the you know using this website once
+5938960	5943840	you are downloaded we can get started I'll give you five minutes you can do
+5943840	5948480	it install it okay you can like if you go for this one right directly click on
+5948480	5952560	this don't do anything go for the windows part it will download it I don't
+5952560	5958800	need it because my system is not windows okay if you want for a Mac you just go
+5958800	5963240	and click on a Mac it will start the downloading once it is downloaded it
+5963240	5966480	will show automatically installation process click next next next and
+5966480	5977200	download it okay is it fine guys who people who don't have VS code installed
+5977200	5980480	are you trying to do it
+5981400	5988560	okay then there is something called node.js not needed as of now we'll see
+5988560	5993840	them later but at least we if VS code is installed right you what you can do is
+5993840	6000200	you can so let's say open a VS Visual Studio code it would look like this way
+6000200	6005240	like it will go and it will open the you know Visual Studio code and it will show
+6005240	6016480	your recent things and whatever things are there okay so once you reach that
+6016480	6021840	particular place once you are able to download it and open it you can click on
+6021840	6027200	open and open any of the folders that you have anything that you have you can
+6027200	6037280	open it so one thing I'll do is that you know I'll have links in this thing let's
+6037280	6052520	say dot MD inside this file I have this let's say class one inside this I'll
+6052520	6057200	paste this links for your future use case such that if you need it from you
+6057200	6063040	know initial step you will have all these links that you need okay
+6067880	6079520	install editor okay once you do this one MD once markdown that is that's what I
+6079520	6084640	was saying like if I show you in the preview right this is how it will look
+6084640	6090200	like I haven't written anything right like I need underscore or this one if I
+6090200	6095640	write down like let's say one dot I'll show you how we can do markdown or
+6095640	6102160	beautify the documentation part okay but that's just a markdown like you are
+6102160	6106880	trying to describe the country in different way if you do it in double
+6106880	6115160	hash it will show it in different way it's a single hash but I'll teach you
+6115160	6120400	how do you can write a better markdowns also but that's out of the scope guys
+6120400	6127040	okay but now once you are able to install it can we move it guys with your
+6127040	6134520	permission can I move it with the HTML part so I'll go inside the classes I'll
+6134520	6143200	create a class one okay let me create a folder instead of this one I'll go here
+6143200	6149480	inside the classes I'll create a new folder called class one okay inside this
+6149480	6154880	class one I'll create a file called index dot HTML this is a base file that
+6154880	6159080	I'm trying to create it let's say there's a new folder I'll create here
+6159080	6169880	HTML let's push this class one inside the HTML part okay now inside the HTML
+6169880	6173560	right whenever you are writing a structure so there is something like
+6173560	6178040	basic level on a top level as I've told you there is if there is something
+6178040	6184120	taking a birth and then there it should have an end so if you are opening
+6184120	6191640	something this element HTML element you should close this HTML element also is
+6191640	6197320	that clear is that clear that you know every structure of your file will be
+6197320	6203920	enclosed between these two tags when I say tag it is one tag and this is this
+6203920	6208120	is closing tag this is opening tag this is closing tag okay both things are
+6208120	6216120	combined called as an element okay now inside this you know opening and raising
+6216120	6225400	HTML tags well you have two things basically two things now in human one is
+6225400	6230200	structure one is brain right both like brain is someone who is operating whole
+6230200	6236560	body isn't it even though you have too many things like hands legs and eyes and
+6236560	6240400	the mouth speech and everything but something which is driving his brain
+6240400	6249680	isn't it you guys agree with that right similarly here you have two things one
+6249680	6261240	is body okay one is body other thing is head okay head is something which is
+6261240	6266760	not will not be seen by the other end users like users like when I say other
+6266760	6270760	end users I mean to say that something which is running inside my mind you
+6270760	6276360	cannot predict it what is happening but by seeing my body you may see what are
+6276360	6283520	the actions I can make isn't it so whatever you things you write down
+6283520	6288180	inside the body you will be able to see on a website but whatever things you
+6288180	6292080	write in the head you cannot see in the website but are those are the very
+6292080	6296160	important things will explore what all things goes inside head what all things
+6296160	6301240	goes inside the body okay these three elements are clear to you what these
+6301240	6307920	three elements are HTML head and body okay now so what we will start okay let
+6307920	6314840	me write down small definitions also first thing is like how do you add a
+6314840	6323440	comments okay so I what I did is I've did command and forward slash to add
+6323440	6328120	this comment we can type it down manually or you can write down command
+6328800	6334480	slash to get this comment okay or you can do control forward slash for the
+6334480	6340680	Windows laptop so I'll write down small notes also about this one head contains
+6340680	6349600	generally metadata I'll come to this each words later on related to website
+6349600	6355720	there's nothing that you need to get it as of now I'll explain everything step
+6355720	6360120	by step okay now what things are present inside the body is something
+6360120	6370480	that you can see on the screen so whole structure is written inside the body
+6370480	6380800	okay now let's say what if I want to what if I want to write a heading let's
+6380840	6389040	say heading could be I don't want to give a hello world guys can anyone give
+6389040	6407240	me some right heading can anyone give me let's say welcome to scalar okay okay
+6407440	6414640	I've just written welcome to scalar now welcome to world of web anything works
+6414640	6420840	it's just on to it now I've used something called h1 h1 is something when
+6420840	6425800	I say that heading okay so there are two good amount of headings guys that way
+6425800	6429520	you want to write main headings subheading side heading okay all the so
+6429520	6436440	but headings are generally you know from h1 till head 6 you know there are
+6436440	6440080	different types of heading I'll show you let's say I've written h1 and
+6440080	6447160	welcome to scale now since this is rightly you know this is since browser
+6447160	6451920	can understand this HTML directly I should be able to open this file right
+6451920	6456360	the other should be able to understand and show it to me this whole HTML
+6456360	6460560	content right render on the screen that's what we understood when we
+6460560	6464600	understood definition of HTML isn't it
+6466720	6472400	right now let's let's try to do that thing let's try to do that thing okay
+6472400	6477000	give me a second I'll open this
+6480360	6485320	I'm trying to find the okay folder
+6485320	6496640	okay give me a second guys actually I have another desktop where I have all
+6496640	6501640	the files let's say I go back to the browser now if you see here what I am
+6501640	6506680	pasting is the file location in my laptop okay where that file is located
+6506680	6511280	because if you see inside the desktop folder I created full stack merge
+6511400	6516000	because if you see inside the desktop folder I created full stack merge and
+6516000	6520880	classes this is the structure right full stack merge and classes HTML class on an
+6520880	6525360	index system so I'm directly loading the HTML file in the browser I'm hitting
+6525360	6529320	into the browser directly if you see what's happening in the inspect when I
+6529320	6535120	do inspect I go to the network tab when I hit this if you see I made a request I
+6535600	6541560	made a request I made it get request to this system to the file system file
+6541560	6546040	system is also a database right like a local database that's in the present
+6546040	6550960	inside the system it made a call it received 200 status code success status
+6550960	6557680	code and we rendered this welcome to the scalar is this clear guys now directly
+6557680	6564320	the content of HTML is parsed and understood by this browser and loaded
+6564320	6569640	for us is this clear is
+6572280	6580360	okay now second thing is that you know you can also do one thing okay if you go
+6580360	6585480	for this one right marketplace I don't want to load it from always from the
+6585480	6590320	file system server because each time I make a change I have to reload it
+6590320	6595600	refresh it because it will refetch it it will refetch the API and it will load
+6595600	6600720	the data so what I want to do is I want to use a one dummy server on my this one
+6600720	6605600	so in order to create that dummy server I'll go to here in the market list click
+6605600	6613960	this button on your extensions and I try to search with live server okay this
+6613960	6626040	one I'll see if I can copy extension ID and I can give it to you I'm not sure
+6626040	6635160	this is working fine yeah this is the person rithi wiki day is someone who
+6635160	6639200	created you might be able to search with this name also that's something that I
+6639200	6649480	have given okay so say live server I'll write down everything that I'm using
+6649480	6663160	live server extension for loading HTML browser okay yeah I'll pin that give me
+6663160	6675800	a second now what will happen once I do this I go back to the index file now
+6675800	6681120	I'll just right click this one okay and I'll go with open with live server once
+6681120	6687840	I do this okay it is loading in the other instance give me a second let's
+6687840	6694880	say I go back here inside now if you see if you see the URL now what is the URL
+6694880	6702000	this is an IP address of my machine isn't it this is my IP address and this
+6702000	6708120	is a port this is a port where server is running and I'm loading this inside this
+6708120	6716840	port I'm loading this classes HTML index one okay if you see now I got I got three
+6716840	6723920	zero four status code the reason behind I entered this URL if you see I entered
+6723920	6733160	this one it redirected me and loaded the website it does the same thing now what
+6733160	6737480	why I use I'm using this one is as soon as I write down let's say I write down
+6737480	6745400	again h2 since we have all the levels of heading right so I'll say that we are
+6745400	6755800	glad you are here okay if I go and dive down I need not to click anything save
+6755800	6760680	once I click save it is reloaded you know a pay call is being made and you
+6760680	6766200	know loaded for me I hope this point is clear guys so I'll try to introduce all
+6766200	6771840	possible headings for us okay such that we have documented in the notes
+6771880	6781520	whenever someone opens get up I hope this hope you find this you know and
+6781520	6788640	let's say I try to copy paste and create other headings let's say this is h4 this
+6788640	6805200	is h5 h6 h5 h6 h4 okay these are the list of headings we have generally like
+6805200	6810920	if you see this can be a main heading to the page or this can be heading to the
+6810920	6815560	section this can be heading to the paragraph a sub paragraph or the side
+6815600	6820320	all the these are these are the headings given by a given by HTML to us that we
+6820320	6826800	can use it okay now other than headings right we have some other elements that
+6826800	6832840	we will be discussing so I'll introduce one by one okay so most of the you know
+6832840	6839280	most of the website have content to read right content to consume more isn't it
+6839280	6844640	do you guys agree like you go for any site gig for gigs or medium the more
+6844640	6849200	than diagrams more than images it is a more content so to write down content
+6849200	6855040	right the basic one of the main main element that you have is something
+6855040	6861240	called paragraph this is a root element upon this root element each you know
+6861240	6864480	down the lane I'll tell you but frameworks how they have built many
+6864480	6872080	typographies okay now let's say I write down paragraph tag this is paragraph
+6872080	6876480	goes by P later okay once you open and close P so there's something called
+6876480	6882520	lorem guys have anyone knows lorem which generates a content for us
+6882520	6885880	automatically if I am trying to write them lorem this is a Emmett
+6885880	6889520	abbreviation which automatically builds content for me let's say I write down
+6889520	6895960	lorem 35 and then click enter it will build me a paragraph I size of 35 words
+6895960	6900080	okay it's just like I'm trying to generate a dummy data I don't want to
+6900080	6905880	type the whole paragraph okay now if you go and see on the website if you see
+6905880	6911600	this content paragraph is loaded this way okay this is a general size of fan
+6911600	6916640	so whole content is generally written in terms of part now inside this paragraph
+6916640	6922000	you have too many things too many things that you can write down let's say I do
+6922000	6931680	one thing which is called strong which goes for boldness let's say I try to
+6931680	6945360	make here add a strong here okay and I cut this I end it here okay so if you
+6945360	6950480	let's say what how this changes if you see here inside the lorem if I made this
+6950480	6957840	part of it as strong it updated as a bold okay so you might be seeing it
+6957840	6961640	right whenever you want to highlight you go for any document let's say you go for
+6961640	6965960	this document you see there is a color there's inverted comma there is a
+6965960	6970400	change in style okay there will be or maybe somewhere italic or red in color
+6970400	6977200	is a hyperlink okay but what do I you are hopefully you are able to understand
+6977200	6980840	what do I mean to say that it's a paragraph will have a different ways of
+6980840	6985880	showing something which is important content and which is something not right
+6985880	6997600	you go for flipkart if you see open anything anything anything now if you
+6997600	7005200	see everything will have some extra price 60% off 895 striking off now how
+7005200	7011740	do you think this thing can be done in HTML now I don't want you to you know
+7011740	7016720	mug up this even I don't even remember all of them just that you should know
+7016720	7019720	that there's something can be doable and if you are able to search you'll
+7019720	7023840	remember all these stacks only remember important tax and all the other things
+7023840	7028520	we will figure it out okay now imagine that there's something called strike
+7028520	7039280	okay once I do this let's say I go back into the website if you see this part is
+7039280	7045760	striking off the same thing that people are the flipkart team or any other team
+7045760	7049120	have done it so they are striking of this thing and they highlighted the
+7049120	7054880	other thing right bold and striking is that clear how this can be done for the
+7054880	7062400	content paragraph no similarly what people does it right people what people
+7062400	7067600	does it is that you know they also style this kind of thing which they you know
+7067600	7072680	striking off how you can do that thing is let's say you can have another thing
+7072680	7080200	which is italic tag when something if you might have learned in school right
+7080200	7085880	they teach you different types of style writing curse you writing or you know
+7085880	7091280	calligraphy or many things like you bent keywords that you write down because it
+7091280	7096720	goes by bending it to make it look beautiful so that's what happens in
+7096720	7100400	website also once you do this if you see I have striking off I have changed the
+7100400	7105680	style of content okay these are the things that you can do on a content part
+7105800	7111400	okay mainly I've tried to write down four to five things let's say I'll write
+7111400	7127280	down I'll introduce one by one I goes for italics style then strike goes for
+7127720	7138680	scratch over letter words then there's something called underscore also like if
+7138680	7146640	you want to underscore something you can do it using you okay once you do this
+7146640	7151280	let's say I'll show that one also
+7154920	7161720	underline underline sorry underline the words okay if you see I've underlined
+7161720	7169280	this words so this can be done using this way any doubts guys on this part
+7169280	7174880	how we can design a paragraph or how we can style it adding a you know this one
+7174880	7179520	pretty basic and pretty simple and straightforward right now then there is
+7179520	7183080	something called when I introduce hyperlinking right I've talked about
+7183080	7189480	something called links now let's see how can you create a link anyone any guesses
+7189480	7192600	how can you create a link
+7194760	7202080	anyone any guesses there's something called anchor tag
+7202480	7209400	which is used to create hyperlinks now let's say when I define anchor tag
+7209400	7218160	anchor tag goes for a okay a letter now let's say I try to open an anchor tag
+7218160	7230120	okay and inside this I'll say that hey google.com Google search engine okay once
+7230160	7236440	I have this Google search engine here now I've introduced till now I have
+7236440	7243120	introduced till now we talked about elements or the tags now when I say
+7243120	7247960	that this is a hyperlink when I say Google search is a hyperlink when you
+7247960	7253120	click on this it should redirect us to the new website so what we are mean to
+7253120	7258080	say that we are adding some new extra properties or attributes to it now
+7258080	7262800	people are saying there's something called href attribute now what this href
+7262800	7267360	attribute will give us is something where you want it to redirect when you
+7267360	7278920	click it let's say I say that HTTPS double colon WW dot google.com okay so
+7278920	7284640	let's have this thing I save it I go here if you see now this is converted
+7284640	7289640	into blue in color once I had it href now let's say if I click this if you see
+7289640	7294720	here the website made a call to google.com and returned as Google search
+7294720	7301480	engine okay sometimes what happens is where you whenever you open you know
+7301480	7308720	links can we use it is not suggested to it is you cannot use it actually let's
+7308720	7317040	I use href same attribute here that's a it's a wrong thing to do it okay now
+7317040	7323720	even if I click whole thing here nothing is happening okay but if I click this it
+7323720	7326600	is redirecting
+7327640	7335120	clear upendra so each element tag elements will have its own rule so you
+7335120	7342920	have to use them that specifically okay so now you might have seen many things
+7342920	7346880	right if you say that I open this one product it took me to the new page it
+7346880	7352680	didn't open in the new page right does anyone know how to do this when I'm
+7352680	7356520	clicking a page it didn't open me in the same page like when we're clicking this
+7356520	7361880	it is opening us in a same page but we wanted to open in the new like page
+7361920	7368040	right so there is something another you know attribute if I add attribute called
+7368040	7376480	target and underscore blank so it will open in the new blank page target open
+7376480	7381760	in the new blank page okay let's say I go back I open this click on a search
+7381760	7396800	engine just a second it's acha target spelling is wrong okay once I click it
+7396800	7402000	now Google search engine is opening in the new page right I hope you got this
+7402000	7409080	what is anchor tag and how you can handle this clear eyes now other than
+7409080	7415200	hyperlinks or content what do you see else in the website what do you else see
+7415200	7420240	in the website what is the one more important thing
+7421560	7428080	images right now let's say I go for images there is a simple tag call for
+7428080	7433440	images there is a tag called IMG okay to render image now let's see if I write
+7433440	7439560	down IMG there's only one special thing about IMG is that you know it's a
+7439560	7446160	self-closing tag it's a self-closing tag I'll tell you why it is a self-closing
+7446160	7454080	tag as I told earlier that everything which starts it ends it takes it should
+7454080	7460160	whenever I was standing it shouldn't but while writing image you this whatever
+7460160	7463480	content we are writing it we are writing between those tags it is
+7463480	7468560	supposed to be inside that container but image itself is an container you don't
+7468560	7473240	want to write between images right it is on image or behind the image but not
+7473240	7479320	between them you are able to relate this when I write down anchor tag also I
+7479320	7484560	want to write this Google search engine as between this link now added
+7484560	7489600	attributes on over it but images you don't have anything to write between so
+7489600	7495240	there's no use case of having an entire it is itself an ending tag now this
+7495240	7500580	image tag takes two attributes again to show what sort of image it should have
+7500580	7506680	so to in order to show image right if we use something called source tag SRC
+7506680	7512280	SRC is a source or the location of a image where it is located then there is
+7512280	7520280	something called alt alt is something let's say as I've told that HTML is
+7520280	7527800	something a mother tongue to the browser now browsers each mother can have its
+7527800	7535040	own capability right like like let's say Chrome is a very smart mother whereas
+7535040	7540000	Internet Explorer which got deprecated which is very like you know say old age
+7540000	7544260	that doesn't understand all the new things are happening when I say new
+7544260	7549720	things are happening the types of images you have PNG JPEG and everything you
+7549720	7554040	have so there are some browsers which cannot render your certain types of
+7554040	7561960	images you whichever you can cannot read you know render that image you have to
+7561960	7566880	write description for the image what this image is talking about so whatever
+7566880	7571880	you give it an alt something if you are not if that image is not rendering that
+7571880	7575920	alt text whatever you try to text in the alt what that will be rendered onto the
+7575920	7581880	browser okay I hope this is clear so what we'll do is like we'll pick one
+7581880	7593920	images let's say images we'll go to let's say I copy link address copy link
+7593960	7603040	address copy image address sorry okay I go here I give this image address okay
+7603040	7616160	this is way much big my god I did I copy right thing let me go back
+7624920	7632160	let's say what this picture that we copied is about it's an like let's say
+7632160	7644720	lake lake with water and moon okay I have what I've done is like I have
+7644720	7651240	returned a tag image tag with this information I don't know if this image
+7651240	7658080	will work guys let's see yeah if you see I'm able to see a image with the
+7658080	7664360	lake right entering it now if image is not able to render it how can we do
+7664360	7672920	that let's say let's say I don't want I don't give this image description here
+7672920	7685320	let's say I comment this thing okay I cut it okay I cut I cut down the image
+7685320	7692040	now if you see image icon is showing with the lake with a water and moon now
+7692040	7699160	this is how it works that if the images image copyright that that's directly
+7699160	7705400	available if I post it in a public domain Suresh I'll be you know flagged
+7705400	7710160	but I'm not posting pub in on cloud or I'm using or making a business out of
+7710160	7722680	it right until I make a business out of it I'm not you know I can use it yeah we
+7722680	7728200	can use pixels website is it something okay so I hope this is clear guys how
+7728200	7734520	image tag works so these are the least of you know basic tags that you need to
+7734520	7740400	have aware of something to get started with HTML no before ending this class
+7740400	7745280	right I want to add few things okay before ending this class that's something
+7745280	7753960	that I want you to build after once we learn right our learn this HTML and you
+7753960	7759480	know CSS part only with HTML and CSS part I've built one project called
+7759480	7764360	portfolio project I'll share a code base with you I'll also parallel record so
+7764360	7769440	this is something a dummy you know what we say portfolio project which you can
+7769440	7774160	create with only simple HTML and CSS so where you have like you know download
+7774160	7778760	resume button doesn't happen anything it just renders the images and the project
+7778760	7785360	like my project section get in touch form and adding this icons and you know
+7785360	7791600	making this boxes okay all these things can be done using simple HTML CSS so
+7791600	7796640	what I want you guys to focus on is currently till we are in the part of
+7796640	7802640	HTML you want you need to focus on more on the content part like maybe this icon
+7802640	7809680	image home about project section this one then this content part okay you have
+7809680	7815920	to focus on the content part nothing else okay what I'll do is that I'll pin
+7815920	7827600	this link here along with that I'll also keep it here okay at the end of the CSS
+7827600	7832840	class right at the end of the CSS class what I'll do is that I'll also give you
+7832840	7837560	the whole project repo this repo portfolio project repo code such that
+7837560	7849240	you can explore back does that work guys okay yeah great so other than this thing
+7849240	7855440	let's say inside this right I'll create another section called projects okay
+7855440	7859080	let's say not here but
+7861320	7869840	I'll pull it later on projects whatever projects we are building along with that
+7869840	7876040	I'll also create this project basic HTML with you so that whatever time see so
+7876040	7881680	the clock is at 2 11 do you want me to build this projects getting started with
+7881680	7887920	it or you want to build it initially and how you want me to go with
+7893640	7900080	guys do you want me to code it down start with it a simple HTML content for
+7900080	7906960	this one initially okay yeah sure so let's say I have created a project
+7907120	7918760	section I'll create a portfolio project portfolio okay so anyways I have to
+7918760	7926560	provide you the images and icons which you can use it index dot HTML okay now
+7926560	7932280	yeah one message I've got is from Dhanda says someone who knows the language can
+7932280	7937320	we start it on HTML CSS someone who knows the language then as I didn't get
+7937320	7942960	your question when you and you say that language which language you mean to say
+7942960	7951800	that you mean to say coding languages like JavaScript Java maybe we can
+7951800	7958760	discuss about this under in a doubt session I'll get started with project you
+7958760	7963440	know here so there's one shortcut I'll use guys whenever you know there's
+7963440	7968160	something called Emmet when I drive down this HTML right as I've shown you for
+7968160	7973600	the lorem right lorem 35 I've created a content as such you have also you can
+7973600	7979680	generate a dummy HTML okay dummy HTML I'll click HTML I'll find and I'll do it
+7979680	7985440	just click it so I'm able to generate default content now I'll also explain
+7985440	7990440	one thing I forgot to include is that you know here inside the head I didn't
+7990440	7995400	have anything if you go to the website that we rendered it right if you hover
+7995400	8001480	over it that's I go and hover over this tab it is still showing me that same you
+8001480	8006480	know this IP address and port number right what if we want to change and give
+8006480	8011160	it a name like let's say I go to the scalar and I hover it there is no IP
+8011160	8016880	address is being shown or anything it shows that home scalar Academy okay I'll
+8016880	8022240	come to that around give me a minute so inside and head if you want to override
+8022240	8027200	what you want to show on a browser tab right you have a you know tag called
+8027200	8036960	title inside a title you can say introduction to HTML elements okay
+8036960	8045760	HTML since we discussed about attributes to now if I go back if you
+8045760	8052080	see my name got changed okay does it matter to does it matter to any website
+8052080	8056080	it doesn't matter to any website but it's present in head to make it give a
+8056080	8061840	content like what this website is upward okay website is mainly this part but
+8061840	8067360	this is something in the present in head which is not useful okay but that's how
+8067360	8072080	head works the content that you write in heads that's how it works no so someone
+8072080	8079200	asked me what is what is with that HTML file so HTML file introduced few more
+8079200	8085400	things for us like how can you write in HTML in a better way okay for writing
+8085400	8089880	content right for division dividing the content earlier now let's say if I
+8089880	8096320	typed on let's say I want to build portfolio section okay if you see in
+8096320	8102840	portfolio I have basically what all things I have here I'll talk about this
+8102840	8107960	are on in five minutes in portfolio I have something called header right let's
+8107960	8117040	say something I have header okay then there is something called I also have
+8118040	8125000	footer where I have the form okay
+8130240	8136800	then we have my project section then you have a bot me section let's say header
+8136800	8145480	footer my project then also you have a bot me
+8145480	8153760	section so what I did is like I divided our project into four parts to you know
+8153760	8157680	break down what we say you go for DSA big problems think it in the brute
+8157680	8163200	force I'm trying to go with a brute force logic now earlier before HTML 5
+8163200	8167840	right before HTML 5 for dividing any containers right you have something
+8167840	8180920	called diff tax okay each container will have its own diff okay okay so each
+8180920	8185520	container will have its own day there is just a basic like you can say that it's
+8185520	8190000	an structure like sections if you want to do build it in sections you can use
+8190000	8195800	this dev tax okay we will be using this diff tax up to extend that when we are
+8195800	8200640	building projects together okay now inside this diff tax all the elements
+8200640	8205560	that will go is something that we have discussed till now okay let's say if I
+8205560	8212360	want to say that let's ignore ignore this firstly image but here we are having
+8212360	8218320	four things like home a board projects and blog right now let's say if I want
+8218320	8222360	to clear a quick create this one I'll again use our diff tag let's say I
+8222360	8238480	create a home again I copy and paste it okay now let's say I home a book
+8238480	8253840	projects and blog okay so let's have divide done this now I go and back and
+8253840	8261120	open this thing okay live server now let's say I got this four things no what
+8261120	8266080	happened is like we need all of them in one row right what we need all of them
+8266080	8270840	in one row so there is something called span we will I'll introduce this divine
+8270840	8281800	span in next class okay don't worry about this much I'm currently so in
+8281800	8286720	general what I'm what I'm saying is that by adding a span is on a top level is
+8286720	8290480	that I'm I'm telling it a home and a board projects whatever space you need
+8290480	8295160	it use that but don't get started on the new line okay now if you see I'm
+8295160	8299640	getting started on the same line okay so currently while I'm building a
+8299640	8303880	project as of now I'm just focusing on the content part now then I have
+8303880	8308640	something my name let's say I go for the if you see on the top level section I
+8308640	8312480	have only this thing along with that image I'll go to the next section where
+8312480	8317720	I have my name and I'm the full friend full slide developer let's say I go back
+8317720	8329600	on our website where we are coding it okay let's say I use h3 I am Sharma
+8329600	8347560	then I use let's say h5 I am friend and full stack developer okay so what I did
+8347720	8353080	is that if you see I folk went there and I build this content whatever I need so
+8353080	8356800	I'm just focusing on what are the content and now I have a description and
+8356800	8369920	a download resume okay now let me add this part to you give me a second yes
+8369920	8376760	okay now let's say I have a description let's say I for writing a description
+8376760	8382480	right I'll introduce head six I say description then under this you can
+8382480	8386760	write a whole description about yourself and you can also have a ability to give
+8386760	8396640	a button now this is a button okay no let's say I write a paragraph itself be
+8396640	8401600	now let's say for the download resume
+8402480	8409480	whatever we have introduced okay this is what I've covered about first two parts
+8409480	8414840	isn't it like this is something that we have here home about project blog and
+8414840	8420040	this thing in our image now for adding an image also what you can do in this
+8420040	8428480	part you also have an image so let's say I have an image right SRC can be
+8428480	8441080	anything this is all is like let's say profile pic picture for portfolio right
+8441080	8446360	you have written all this stuff simple pretty basic I'm just asking you to
+8446360	8450920	focus on the content part of it since only what we have learnt not going into
+8450920	8457880	further now what happened with HTML 5 is that let's say now I have this thing now
+8457880	8462560	the dips are like if I remove this comments right if I remove this comment
+8462560	8466400	would you be able to understand the structure how it is there how it has
+8466400	8472760	been segregated what is header or about me section or my project footer it would
+8472760	8477440	be difficult right it would be difficult like to see hey what this section is
+8477440	8483460	about to write it down to write it down and understand in a better way what this
+8483460	8488740	people in HTML 5 they have done it is that hey if you are having an header
+8488740	8492620	right in order to tell that it's a header you can write down it as a header
+8492620	8499300	tag itself they introduced new tags now this tax are self-understanding other
+8499300	8503540	than using div everywhere their self-understanding it is helpful to
+8503540	8509140	understand it so this is what they say that semantic tags if anyone asked you
+8509140	8514340	about semantic tags semantic tags are something where you can by default
+8514340	8533060	understand let's say semantic goes by name and it overrides divine span okay
+8533060	8542220	replaces okay now since these buttons are nav bar related item so for nav bar
+8542220	8547540	you can write down nav buttons let's say I can have nap
+8553780	8558820	okay still if I go back and see on the screen it is still same the content got
+8558820	8567260	you know on this way but it is still doing that same job for us isn't it do
+8567260	8572620	you see do you see this guys HTML is not changing anything it just that naming
+8572620	8576940	convention is changing now if you see this section about me now there's
+8576940	8581380	another tag called section which is helpful to you know to know that hey
+8581380	8586380	this is a section separate section this is a separate section so whenever I use
+8586380	8590940	this naming convention right by naming convention even for the button right you
+8590940	8595480	don't use paragraph P tag you have button tag which is introduced in HTML
+8595480	8601940	file so all the semantic tax right all the semantic tags by default whenever
+8601940	8605420	you're using a tag which is understanding by name itself we are
+8605420	8609540	setting we're seeing that header this is a footer tag so I'll use a footer tag
+8609540	8616140	directly not this something else okay so if you go and understand just let's say
+8616140	8626900	that what are the semantic tags definition HTML file is a version yes so
+8626900	8631180	if you see semantic tags are the form stable article where a non semantic
+8631180	8636020	elements are the defense man tells nothing about it contain but it clearly
+8636020	8642820	defines its content like header nab section footer wherever you are using a
+8642820	8647740	name right a name for all the divide divisions or the things that you are
+8647740	8651340	using by default we are saying that semantic this is one of the interview
+8651340	8656700	question also semantic elements are the elements with a meaning hope you'll
+8656700	8660660	remember this case right
+8662260	8672220	okay so so this is where actually I want to you know end the class for today
+8672220	8678180	since we are already on the time and I've started bit on a project section
+8678180	8683260	not going into depth because once we learn this maybe we can build step by
+8683260	8688180	step okay once I complete tables and forms in next class I'll build whole
+8688180	8695420	structure for this one okay we'll build whole the structure for this one then
+8695420	8707460	we'll see on the CSS part step by step works guys good so coming back to this
+8707460	8713980	one guys like give me a I want five minutes of your time I want your five
+8713980	8719980	minutes of time since I landed 230 so one thing one thing I want to tell you
+8719980	8726980	guys is that you know I want everyone might have already you know they might
+8726980	8732540	have their own goals this year like 2024 you might been targeting good job or you
+8732540	8737220	might have taken some resolutions right since this is just a start of an year
+8737220	8745140	okay my job is to help you understand a whole full stack curriculum or in the
+8745140	8749420	books in the part of curriculum of curriculum anything if I don't think I
+8749420	8753300	learn and come back and teach you because it's a vice versa vice versa
+8753300	8758020	learning right because that's my job what I do at office if I don't know
+8758020	8761980	anything I'll come back learn and teach you back but what I want from you guys
+8761980	8770340	is that only three things one of three things is something that attend classes
+8772540	8776940	please try to attend classes such that because most of the content will be
+8776940	8782660	thought and you can avoid the time where you can go and you know watch the
+8782660	8787660	recording but that time can be utilized in a further other things okay second
+8787660	8792340	thing is you know complete your assignments
+8797300	8801740	reason I'm telling you reason I'm telling you why you want to why you need
+8801740	8807060	to complete these assignments is if you do those core problems right and there
+8807060	8811700	with you I will be here if you don't have any you have problems with the
+8811700	8816580	assignment problems initial five minutes of the class right or the other doubt
+8816580	8821820	session will pick those assignment problems will solve them together
+8821820	8826620	works is because that will help you to understand what are the interview
+8826620	8832460	specific things are there and how we can work on it third thing is what I
+8832460	8838660	will do right in the here in the project section in the links right I'll also
+8838660	8843660	have the self study links content where you can read a particular website or
+8843660	8853780	things related to it okay anything I'll give those links do self study utilize
+8853780	8867900	them and read through it just like you know skim through it like whenever you
+8867900	8872900	have five ten minutes of time in a day because I'll have a repo I'll share it
+8872900	8877300	with you repo and you know whatsapp group in that group also whatsapp group
+8877300	8882300	also I'll pin that get up repo you open that get up repo go to the link section
+8882460	8888180	you'll open that hyperlink whatever class has completed that you can just go
+8888180	8892260	through it understand it it would be really helpful for you it's kind of a
+8892260	8896660	revision on a day-to-day wherever you are there five minutes ten minutes not
+8896660	8900780	more than that if you don't understand anything next class I'm there again we'll
+8900780	8907460	discuss it okay and another thing last thing is
+8907660	8915300	contest this thing will it come at last later time but since you have started
+8915300	8919700	this year I want you know this five months the five months that are going to
+8919700	8925860	spend with me just focus on doing the things that I'm asking you to do you
+8925860	8930580	will yourself will see the results at the end of the time okay how confident
+8930580	8937740	you will become in terms of web development okay so hang in there just
+8937740	8944780	do this and one more thing is that a bonus from me is someone who will be
+8944780	8948020	able to do these things right who someone who will be able to do these
+8948020	8955820	things till till like you know react part I'll personally you know mentor them
+8955820	8963340	and refer them at my team in paper okay for front-end or full stack rules but I
+8963340	8969820	want someone to focus on it someone to learn these things okay it is just I'm
+8969820	8977240	trying to create an incentive because everyone here is for their job to up
+8977240	8984260	skill themselves so hope you do all of these things prepare it come back to me
+8984260	8989660	we'll discuss if you have anything drop me directly in whatsapp chat okay so I'll
+8989660	8997860	start a doubt session guys okay and I'll create a whatsapp group give me a second
+8997860	9004700	so I hope you will be able to do all of these things right whatever I needed from
+9004700	9009460	you I've I'll do my commitment job whatever things needed I'll learn I'll
+9009460	9013300	come back to you teach you we'll do the revision stuff if you need an extra
+9013300	9017540	classes we'll think about it but you please focus on attending classes
+9017540	9021900	completing assignments and self-study utilize the links okay I'll keep
+9021900	9026020	updating you something related to if you need to go through anything or anything
+9026020	9032100	but this five months give your attention I know you might have issues like
+9032100	9037300	attitude maybe you want to revise the DSA you want to revise sequel all those
+9037300	9041220	things are important but when you go into the job this will matter more but I
+9041220	9045020	feel it those will clear interviews this will also help you clear interviews
+9045020	9049220	but this is something day-to-day job will revolve around so clearing this
+9049220	9052740	basics I didn't I don't mean to say that completely spend time here but
+9052740	9057340	clearing this basics will help you really you know be confident about the
+9057340	9067900	skill that you are writing down in your resume okay guys so give me a second so
+9067900	9073900	I had yeah thank you Munesh you stock time line on the top of the file
+9073900	9079980	without it what will happen yes it is coming back to that I'll take this so
+9079980	9084900	Suresh has a one question like what will happen if I do or what what this doc
+9084900	9091860	type is about talk type HTML so you know if it if you don't write the stock type
+9091860	9096460	okay if you don't write this doc type there is something you know engines
+9096460	9101940	mother tongues also have a certain way of understanding it okay each browser is
+9101940	9107300	a coded in a different languages and different ways doc type is a keyword
+9107300	9113340	which is explaining it that hey use this particular type of parser in general
+9113340	9118180	okay when we say that this is a document type of HTML it will pass in a
+9118180	9122780	particular way but if you don't write it down this thing this use a different
+9123500	9130540	okay this uses a different quick small now meta tags I introduce in the next
+9130540	9135860	session some bit okay I'll take that in the top first no first question I'll
+9135860	9142060	pick it up meta tax okay in general doc type is talking about is like this is a
+9142060	9148900	document HTML document type so this is that works okay if I google and show you
+9148940	9160420	right doc type okay it's a declaration to web browser that what version of HTML
+9160420	9167660	is written okay generally we are using this you know HTML5 version but if
+9167660	9172540	you go for something website in a depth right that that is not the right website
+9172740	9179460	I will say that you know web.dev if you go to this site right this is somewhere
+9179460	9184020	you have to read because I'll paste this links all these links where you can
+9184020	9194260	where you need to learn this one this is actually maintained by Google so let's
+9194260	9211140	say go for here if you see here and now the doc type so so doc type so it's a
+9211140	9215220	special like I'll come to the notes here I didn't introduce what notes or
+9215220	9219500	anything generally doc types tell the browser to use a standard mode when it
+9219500	9223340	is trying to parse it or understanding if omitted a browsers will use a
+9223340	9228980	different rendering mode called quick modes so mentioning it helps its help
+9228980	9238140	help it to understand in a better way I hope this answers you Suresh is that
+9238140	9248860	fine no reaction did you understand or not yeah it helps understand browser to
+9249460	9254940	in which type it need to parse that HTML like if you explore this quick mode
+9254940	9261980	right like if it is you know older way how the how it used to convert this
+9261980	9267860	HTML like but if you write this doc type in general whenever if you go for the
+9267860	9271460	other sites right it says that hey if you add a doc type it will pass in a
+9271460	9278540	HTML5 version so it means that only how we want to convert this okay so that
+9278540	9282540	can understand pass and render it on the screen so as you define it in short
+9282540	9287460	term helps browser to understand better that's exactly what what you are what I
+9287460	9301140	was talking about okay cool so give me a second I was creating a group just a
+9301180	9309780	second I'll create it on whatsapp mobile images can act as a hyperlink right like
+9309780	9315420	LinkedIn get images website show yeah that can also give me a second I'll come
+9315420	9321340	to that before that I'll create a whatsapp group before all people leave
+9331140	9334180	you
+9361140	9374020	no give me a second I'll share this link and target here
+9374020	9395460	guys this is the whatsapp link you can join using this give it to everyone who
+9395460	9401420	drop the call such that you know everyone can join images can act as a
+9401420	9407540	hyperlink right like LinkedIn get websites you show how does it work okay
+9407540	9423900	so now let's go to this like I'll go to LinkedIn itself let me this is my I
+9423900	9431340	don't have my ID here give me a second I have to use another browser instance
+9431340	9454940	let's say I click on any link right now this link is being converted now let's
+9454940	9460260	say I go what how can you explore more is something let's say you go here and
+9460420	9466660	you click on a hyperlink this element element selector you click here now if
+9466660	9472740	you see anything right if you see in image tag they added a source element
+9472740	9483780	shunt for yourself itself if you can see on a screen share there is a source
+9483780	9487820	element added now the source element is where it is navigating to if I click
+9487820	9492860	here that is where it is redirecting me to okay each image we can you can have a
+9492860	9501900	source to it yet like even if I go back on my let's say I don't want to do this
+9501900	9515780	but let's do this this is a source tag right image let's let's make it not the
+9516300	9522980	give me a second href it should be href itself I'll check that and I'll get back
+9522980	9535060	to you but there should be a redirection link for sure okay no no no no give me a
+9535060	9537100	second
+9545220	9548460	I didn't load it
+9548460	9576900	I think my server got slow so anyways I'll show you this browser is not
+9576900	9591060	responding is it okay let's say you go and add a href to this one I'll copy
+9591060	9598020	this href okay
+9598020	9610500	nothing is happening here but I'll check that and come back to you some with
+9610500	9617500	alt is not mandatory but it is suggested that you have to add it okay alt is not
+9617500	9624540	mandatory but it it is needed like if you see what happens with this right
+9624540	9631780	there are like only for the text no no how does it work so from web development
+9631780	9637300	point of view right only it's it's not only that you know that websites will be
+9637300	9640860	used by the only people who can see it there are other people who cannot see
+9640860	9645740	this I know screen right they use screen readers sometimes you know your mobile
+9645740	9651380	start reading the screen accessibility right yeah so for accessibility for the
+9651380	9655260	impaired people who cannot see the screen they run that website on a screen
+9655260	9659060	or you know reader screen readers mode so when they're reading through the
+9659060	9663500	screen screen if you don't define what your image is talking about they won't
+9663500	9667540	be able to get the context of it so it's needed that you write down the alt for
+9667540	9681300	that content okay great okay then okay then I think guys that's it for
+9681300	9688620	today I hope I hope you had fun it's a just a beginning a session and we'll
+9688620	9694420	learn a lot okay Suresh says that I'm familiar with Java how it will be
+9694420	9701180	helpful for stack journey Suresh I'm the person who started with Java Java is
+9701180	9705000	really wonderful language where you have object-oriented programming and big
+9705000	9709180	things big things saying we're done but it's just a focusing on server side if
+9709220	9715580	you go back right if you go back five ten years before there was no there was
+9715580	9719620	nothing like you know full stack rule there was nothing like JavaScript being
+9719620	9725500	used it was only a Java stack where you have EJP based applications so you had
+9725500	9730700	a timely based applications right where you also write HTML in Java application
+9730700	9740700	itself if you know that right where Java was throwing for HTML screens itself to
+9740700	9746600	the browser okay Java itself was acting as a full stack application sometime
+9746600	9750740	back but later on what it did is like Java told it hey I'm good with the
+9750740	9756740	backend system I'll build that API's that whatever interfaces role it need to
+9756780	9761940	been taken care that will be done by the front end system Java is really great
+9761940	9766340	backend knowledge back backend language I would say which had a really lot of
+9766340	9770980	lot of amount of openings which has a lot of scope but learning full stack
+9770980	9778860	this JavaScript based stack right will add a more of you know flags to you
+9779860	9786820	work Suresh do you get that so it will be really helpful but if you go back
+9786820	9790860	right time leaf like if I show you
+9793180	9802860	like if you go with the time leaf right what it does it is used to resolve you
+9802860	9811380	know screen HTML screens right as far as I remember yeah if you see you are
+9811380	9818060	writing form and table inside Java right so we are you are actually throwing
+9818060	9823180	HTML screens from Java itself so Java is to do all this works but later on they
+9823180	9827460	say that I'll focus on one thing so there are many solutions that were added
+9828300	9833820	time but as the screens got complicated right as more interactivity came more
+9833820	9838220	of things him came so Java was this timely framework was an accurate right
+9838220	9845020	solution to do it then they went on to build this react and angular or simple
+9845020	9852860	you know Ajax calls all those things we'll see step by step one by one okay
+9852900	9865660	you'll get that so rich thank you some bit thank you Suresh did I miss any
+9865660	9872780	doubt hopefully everyone enjoyed today's class guys it was really great class
+9872780	9875140	okay
+9877420	9883820	yeah okay always able to want to help you guys because that's how you will be
+9883820	9890060	learning right that's what you are here for thank you shake after angular came
+9890060	9894420	react that's a different story on and do I will tell you actually they both are
+9894420	9902220	solving different problems I if I since it's a doubt session if I just want to
+9902220	9909140	say it in a word right react solved only small problem react solved one of the
+9909140	9918220	core problem is when I say that HTML is not a programming language right do you
+9918220	9926340	agree with that Anandu HTML is not a programming language then they wanted
+9926340	9936260	like what if I want to create if you go for a site like flipkart right if you go
+9936260	9940940	for a site like flipkart if you see all the stacks right four five tags like one
+9940940	9947620	two three or six sex they both all have same things same size same things only
+9947620	9952780	the image and the data is changing right do you agree only three items are
+9952780	9959500	changing shop now from top-selling pendels or the image right now imagine if
+9959500	9965020	we had a for loop if we had a for loop and we if we can just pass on the three
+9965020	9970620	information and build boxes for me it would be easier right
+9972460	9979180	so what react react told is that hey why can't we write something which will make
+9979180	9987420	HTML dynamic and easier to build user interfaces so react was solving a
+9987420	9993580	problem which can automate the HTML part along with the coding language so but in
+9993580	9999060	the end right in the end browser is always served HTML only so they return
+9999060	10003940	some yeah code replication becomes less so in a way when you are writing a
+10003940	10011220	react you are writing a logic more than a HTML and CSS okay I'll tell them in
+10011220	10015300	depth when we started I'll explain the problem statements and everything but
+10015300	10020020	you'll get to know about react and angular let's wait for that time guys
+10020020	10025860	okay let's build that intuition by then let's be comfortable with all the you
+10025860	10030100	know jargons that we have before that Dom know what is a dom tree how that
+10030260	10035060	happened how react has solved the problem like if I'm using a coding
+10035700	10040820	language since HTML is something browser depends on to render a screen why you
+10040820	10045220	want to write a logic and why you want to convert it how we are enhancing a
+10045220	10050260	speed so there are too many things we'll come to them step by step okay
+10052580	10056420	but till now I would ask you to just focus on the something that we are learning
+10056980	10060420	will build one after the other that works
+10067780	10073780	okay cool so anything else guys before we end the session I'll I'll what I'll do is
+10073780	10078340	like I'll create a GitHub repo I'll share it with you guys okay
+10079140	10083220	I'll wait for another one two minutes if no doubts I'll close the session for
+10083220	10088820	today guys so thank you for attending today's session hope you saw the
+10088820	10094820	assignments and we meet on you know next class Thursday and there's a few
+10094820	10099540	more things to explore in the HTML part then we'll get started with the CSS
+10099540	10106820	okay let's get started with the CSS okay let's get started with the CSS okay
+10107780	10110660	there are too many interesting things we'll learn in the next class where
+10110660	10117060	we'll also complete a portfolio project up to an extent thank you Muneshwara
+10118580	10121300	good night take care
+10121300	10123780	care
+10128260	10136900	okay examine some with when I told about this client and server right
+10136900	10141220	we talked about how connection is established what mode of connection is
+10141220	10146500	there but if if if waiter is bringing a food
+10146500	10150900	he would bring in some utensils and some plate right
+10151140	10157220	do you agree from kitchen when you order a item he'll bring in some plate and
+10157220	10161220	food right now what would be the right sort of
+10161220	10164900	utensil to bring data from backend to the client
+10164900	10170900	from server to the client is in two ways xml is a older way how it used to be
+10170900	10176180	done but json is something a new way of doing
+10176180	10181300	that same thing these are the two formats
+10181300	10184580	where which were used for the mode of communication
+10184580	10187060	when we when there is a mode of communication between the two systems
+10187060	10191700	how data should be transferred so earlier we used to use xml now we
+10191700	10196100	are using json and but xml used in different ways to
+10196100	10199140	write configuration like in many languages like java if you
+10199140	10203700	go for any applications right like spring
+10203700	10208180	application they used to write xml coding to xml
+10208180	10212820	this configuration to explain like what what all things they are using it
+10212820	10215780	but from our learning perspective we'll never see that
+10215780	10219300	from our learning perspective what we'll see is that more of a
+10219300	10222740	json data that is being transferred from backend to the client
+10222740	10230020	instead of json you can also use xml data is that clear because from client
+10230020	10235060	side we can consume both json and xml data
+10236900	10242420	okay so like if you can go to the browser also
+10242980	10248420	xml versus json you can search this okay
+10249460	10254260	you can find it like how these are used this is aws
+10254260	10258340	related you know questionnaire
+10259060	10263780	so it's about like when to use which one how data is transferred over it you can
+10263780	10266500	read about this like you have any doubts while reading
+10266500	10269700	about this you can come back with and discuss you can paste it in group also
+10269700	10273700	what's a group i'll i'll i'll try to answer there also
+10273700	10276100	okay
+10278740	10281780	so otherwise then
+10283700	10286420	thank you shan
+10287060	10289860	thank you sam
+10292580	10296260	so good night guys then i'll stop the screen share
+10296260	10301140	meet you in the next class have a great night
+10301140	10303700	take care
+10306820	10310340	good night shade good night somewhere
+10310340	10312340	okay
+10312980	10320260	i'll have a 10 count 10 second counter and then i close the class
+10340340	10342660	you
+10370340	10372660	you

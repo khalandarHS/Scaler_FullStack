@@ -1,0 +1,2209 @@
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+am I audible?
+am I audible?
+yes, great, great, great
+so let's begin
+just quick show of hands in case my screen is visible
+cool
+cool then, let's begin
+it is 9.05 I guess
+we are all good, let's begin
+so, hi I am Shashwath
+I will be filling in for Uttam for
+I think three classes
+so in these three classes we will be talking
+a lot about a lot of things
+but we will also be talking about
+some of the things that we will be talking about
+so let's begin
+so let's begin
+so hi I am Shashwath
+I will be filling in for Uttam for
+but we will be getting started with
+one of the most important things
+especially when you think about front end development
+so let me
+so first of all
+let us talk about the agenda for today
+as you could see we have a couple of things on our board today
+firstly I want to cover up what is in DOM
+basically give you an idea what DOM is
+then we will be talking about
+how can we retrieve an element
+because DOM is more like a tree structure
+so how do we retrieve a particular element
+out of that tree
+and then we have to perform some operations on it
+that would bring us to the third point
+which is event and event listener
+and certain functions
+like createElement, appendChild, innerHTML, innerText
+so I will be setting context
+for all of these things
+and we will try to cover all of these things
+in today's class
+cool
+just a quick
+reminder in case
+you are not able to follow
+feel free to raise your hand
+feel free to comment
+in the chat
+I will be going over it
+once again
+all good
+shall we begin
+yes
+yes yes yes
+let us
+begin
+so I have
+cloned the repository
+that you guys were already working on
+and I will be continuing
+from that repo itself
+cool
+just give me a second
+so let us get started
+what is DOM
+it is a very simple question
+so let me write a bookish definition
+for it first and then
+we will understand it in detail
+right
+DOM basically stands for
+document
+object
+model
+that's it
+that is what DOM is
+now let me say
+let me create
+an index file here
+I will fill in a couple of things
+and here I will say
+let me create a div here very simple
+let me say
+hello
+scalar
+and let me save this
+and now I will
+cool
+so
+I simply had written
+I have simply
+written here a very simple
+HTML page which we will be
+going through in detail
+I have simply created here a single div element
+and nothing else
+you could go to the elements tab here
+and here you could see everything
+present here so this
+matches exactly what I have written here
+yes
+can you increase the font in HTML
+sure I can
+cool
+it should be
+enough
+so here
+I have written hello
+scalar here that is what it is reflecting here
+so everything that you see here
+is your DOM
+and all of this is present on
+your document
+so let me say
+document as you could see
+the entire thing got selected
+because inside of this document
+I have the whole thing present
+so this is why it is called
+document object model
+before I get into
+detail what exactly DOM
+is now so let me
+write the definition for it
+first and say
+document
+DOM is
+DOM is a tree structure
+in
+which
+every
+HTML
+element is
+arranged in
+a
+hierarchical
+order
+so we have a couple of
+keywords here
+first is the tree structure
+and second is arranged in
+a hierarchical order
+so we will be looking into
+these two things why
+did I say DOM is in a
+tree structure and second why
+one would
+say the elements are arranged in a
+hierarchical order
+cool
+so let's go to DOM
+so here let me write
+a very very simple
+HTML document for you
+here we could probably
+have a div inside of this div
+I could have let's say
+two divs
+in this particular div I could go on
+to have an H2 tag I am sure
+you are all aware of what H2 is
+this is a H2 tag
+and inside of this
+div what I could have is
+let's say H1
+this is
+a H1 tag
+and I could
+potentially have
+a P tag as well
+so now that
+you look at this particular structure or
+the whole thing as a whole
+how do you visualize
+it this is the way that
+we are seeing it but there is a better way to visualize
+it so let us look at that better
+way of how we
+can visualize it
+so here
+what we have is a document
+sitting at the very top
+as I mentioned at the very start and we saw
+in the browser as well that
+your whatever web page that you are seeing
+all of it is inside
+a document right so document
+sits at the very top and
+what is the first element that you all see here
+what is the
+first element that is visible
+what is the first element which is visible at the
+very top in here
+other than doctype, doctype
+simply tells you about what type
+what type of a document it is
+in our case it is HTML so
+which is why it is written like this and if you see
+there is no ending of doctype
+it is just something that you are sort of like
+announcing
+correct, correct
+so the top most element here is
+HTML so let us put it
+so let us put it like this so top most element
+is HTML as you all pointed out which is
+correct
+so here I could say
+I have
+HTML correct
+now what else
+what is the next element that you
+would see you would find here
+inside of HTML what is there
+correct yes
+there is head
+anything else other than head
+correct
+so head and body
+it is not like they are on a different
+level instead they are sort of like a sibling
+so the parent element in
+this particular case is HTML
+that and inside of this we have
+two elements one is head one
+is body so let us make it like that
+in
+here we have head
+and here we have
+body
+now if
+I were to expand head likewise
+now I am
+say there is a meta
+meta and there is a
+title
+likewise in body I have
+a div
+there is
+inside of this div
+I would be having two divs
+which is two div siblings
+and inside of one div
+I have
+H2 and inside of
+another I have H1
+and B
+now one look at this
+diagram and one look at this
+does it like
+does it look like a good visual
+representation of your DOM
+or of your HTML
+yes or no
+yes
+and what data structure does this remind
+you of
+what does it look like to you
+if you were to look at it upside down
+won't it look like that
+this particular part
+so won't it look like
+so won't it look like
+this particular part is sort of like
+the trunk and here
+goes all of the branches
+which are further spreading out
+at each direction
+yes
+so would it be fair to say
+DOM
+so would it be fair to say
+DOM is a tree structure
+one look at it and would it be
+right to say DOM is more or less
+like a tree structure
+yes
+correct right
+so because DOM is more or less like a tree structure
+and if you look at it
+one parent
+can have as many
+children as they want like in this particular
+case HTML tile has two
+children one is head
+one is body in this particular case
+head has three children
+three children meta
+meta title in this particular case
+body has one further goes to have
+two and then two and one
+respectively right
+which means a particular parent can have
+multiple children but
+no matter what element you pick
+they will always
+have only one parent
+right so they form sort of
+like a hierarchy yes or no
+yes
+yes
+yes
+yes
+yes I hope everyone is able
+to follow so
+now if you
+look at it now
+so DOM is a tree structure
+in which every HTML element
+is arranged in a hierarchical
+order it makes sense now
+right DOM is more or less
+like a tree structure which
+also maintains a hierarchical order
+now since you are talking about
+trees won't there be a root there
+has to be a root element and
+root element is sort of like the
+top most element right
+top most element of the tree and
+the special thing
+about root is that it does not have
+a parent right
+so in our case that
+root element is
+can you guess which one is a root
+element do not include body
+sorry document
+so everything document has
+a lot of things it encapsulates
+the entire tree
+so other than document what do you think
+is a root element correct
+so in our case
+the root element is
+HTML right
+and
+in simple terms
+this is what document
+object model is
+now think of it like this no matter
+what class you were to apply
+no matter what HTML you were to write
+all of it
+will be eventually converted into
+DOM and all of it
+would eventually be reflected
+in here right
+and all of it would be eventually reflected
+in here now there I think
+you would be better able to see
+HTML is at the top it has two children head
+and body if you were to go down body
+there is a div element further go
+down there are two divs further
+go down there is a H2 tag here in this day
+there are two elements here so it is
+sort of forming a tree
+right and that is what
+it is all about
+and the
+main part is
+TV
+we will be
+using
+JS
+to put
+interactivity
+to
+our
+web apps
+slash
+websites
+what does it exactly mean
+when I say that I want to put
+interactivity
+what would be interactive
+suppose if I were to hover over it or suppose
+if I were to click on a button something happens
+when I say something happens what do
+I mean by that something changes suppose if
+I were to click on this particular
+suppose there was a button here for
+example
+click me
+okay now
+what would you say interactivity
+is suppose if I were to click on this button
+somehow this
+thing were to change the
+whatever is written here in this H1 tag
+gets to change and let's say
+it gets changed to
+I am
+the biggest
+tag
+out
+here
+would this qualify as
+interactive website yes or no
+if I were to click on this button click
+me and it changed the
+element the
+whatever this particular H1 tag was written
+to this would you say that this is interactive
+yes because this
+is interactive so what all things
+if you were to break it down
+all we did was
+we changed the DOM
+we went to the DOM and I simply
+edited the thing
+I edited the thing
+here right so which
+means it doesn't mean the interactivity
+is nothing else but
+changing DOM
+elements or like accessing DOM
+and you should be able to change certain
+parts of it and that would qualify as
+interactive yes or no
+so far are we on the
+right track does that
+make sense
+yes
+great
+cool
+so
+what I have in mind now
+is I have prepared
+a couple of questions here question
+one two seven so we will try to
+solve these questions in
+today's class so obviously since we are
+solving questions I will be needing help from your side
+and while we are
+at it in case you
+I will be needing your suggestions and all
+and we will try to solve as many
+as possible
+in today's class and
+I will also give you a couple
+as a homework
+after the class cool
+so does that sound good so
+we will be learning things and then
+we will be solving
+questions and while we are solving them
+we will also be learning the concepts
+cool
+so this is what the structure is going to be
+for today's class
+right
+cool
+so before
+we move forward to the next topic
+which is the first
+question is this thing
+clear to everyone
+when I say that JavaScript will put interactivity
+to your web apps all I am
+saying is that using
+JavaScript I should be able to access
+certain DOM elements and
+make changes to that DOM
+element that's it
+yes
+so in that case
+let's move on to the
+very first question here
+this is
+Q1
+so
+okay this looks like a
+friendly question it says say hello
+but on click of it nothing is
+happening let's see what the question is
+question one on clicking of the button
+append hello to the
+page okay so
+the idea is that I should be
+able to append
+certain thing
+in here suppose
+here you have a body right
+I will say edit as HTML
+and in here
+I could have a p tag saying
+hello
+see hello's are getting
+here
+if I were to copy then
+paste paste
+so every time I click
+this button I should be
+adding a new
+DOM element
+p tag let's say for example and
+in this I should be having
+a hello right
+so if I were to refresh because we were
+doing it manually changing the DOM
+we should be able to write
+JavaScript to do this cool
+so now
+to solve this problem what do you think
+should be the first thing that we should
+do anyone
+if I were to apply brute
+force what was I doing first of all
+I was able to
+select my body
+element and inside of this
+body element I was
+writing the p tag or any
+tag for that matter and inside of that
+tag I am writing hello
+right so basically I should be having
+this particular tag somewhat prepared
+and I should somehow
+know if someone has clicked
+on this button only then I
+should be adding that particular
+element inside this body
+correct does that sound like
+a logical plan
+yes Raja, Sambet,
+Ashish, Tejal, Pradeep
+correct
+so
+a couple of things
+which are
+important for us
+to do that
+we need to first somehow
+identify an element
+right how can I
+possibly listen that
+I am listening to this particular button
+there could be n number of buttons present
+on this page this is a very
+simple example so which is why we don't have
+any we only have one
+button but since there could be
+multiple buttons
+yes Abhishek we are
+gradually moving towards that only
+I somehow need to identify
+how can I
+pinpoint on this button
+and say that let me know
+when someone clicks on this button
+right so as
+Abhishek and Tejal has pointed out one of the
+way one of the many ways
+that we could do so is using the
+ID but how so
+let us talk about that so before
+we do I just like to mention that there
+are a couple of ways we could
+identify an element
+methods
+used to
+identify
+an
+element
+right
+so one is
+get
+element
+by ID
+second is
+query
+selector
+third is
+query
+selector
+all
+fourth is
+get
+element
+by class
+name
+there are a couple more but
+we will be focusing on
+these four for now right so
+let's start with a very very basic
+one which is get element by
+ID
+so
+since I mentioned all of the
+elements all of all that you
+are seeing on this particular web page is present
+inside of one big object
+can anyone help me remember what
+that object was
+that object was
+document
+right inside of this document
+everything is there everything
+that you see here is inside
+of this document and one of the best things
+about document is that all of these
+methods are also
+present inside of document
+so how will I
+be accessing get element by
+ID I should be
+able to write document
+dot
+get element by ID
+so let's give it a try
+let's say
+document dot
+get element now you see
+a couple of options are popping up
+here and I want to play
+around with get element by ID
+what do you think would be
+the ID do we
+have an ID on this particular button
+yes or no
+correct that is
+btn so I will be putting
+in double quotes here and say
+btn and
+it will be giving me the
+reference to this button so which means I need to
+store this reference with me somehow
+so that I can use it at a later
+point in time so let's say
+I can say
+cons
+btn lm is equal
+to this thing right
+and now simply let me log
+it btn
+lm
+and save this
+oh
+it's getting saved
+let me add a comment as well
+double button
+element
+cool it's showing up and as you could see as I'm hovering
+over it it is basically highlighting
+this but what if the ID was
+somewhat different what if the ID
+was let's say bt
+nn
+right
+do you think would it be able to return
+anything
+no
+correct so here now you could
+see I'm getting null right
+because no value was returned
+so which means
+when I'm saying get
+element by ID I need to provide in
+an element here
+right and which is why
+I need to do it like this
+make sense
+now if I go here the element is there
+and now
+suppose this
+ID was not there instead a class
+was there
+can you help me
+how can I access this
+particular element now
+there is no ID present here but a class
+so how can I access it
+correct
+document dot
+get element by class name
+and what is the class name it is
+btn so if I were to save
+this
+it is in here
+cool
+and
+there is one more way
+two more way actually
+one is query selector and one is query
+selector all this is going to be
+interesting why so
+let's say
+query
+selector
+now do you think this
+would work yes or no
+let me change it back to ID
+class name is also fine but
+changing back to ID so now
+do you think it would work
+query selector basically says
+tell me
+what am I looking for and it will
+traverse the dom
+it will traverse this
+particular dom in
+search of that element
+which matches the condition
+in our case the condition is
+document dot query
+selector btn
+do we have anything with btn in here
+yes or no
+yes but it would
+still not be able to access it
+why because
+if you remember earlier we were using
+we were using
+get element by ID
+or
+get element by class name
+so we were actually specifying
+what exactly
+is the attribute that I am looking
+for be it ID
+or be it class name but now
+in query selector have I specified
+is btn
+is a class name or
+an ID
+have we specified it by any how
+no right correct
+we haven't so now if I were to
+specify it that I am looking for
+an ID called btn
+how would you say so in CSS
+how would you target
+you must have
+learned this in CSS selectors class
+how would you target it
+there is
+a special symbol that was used
+yes
+it is
+hashtag now that I put
+in hashtag here if I were to save this
+and go here yes the element
+is targeted
+and suppose if I were to change this to
+class and save it
+it would not be able to target it
+because it is still looking for a btn
+ID
+if I were to say that btn is a class
+in that case I need to put
+dot in here and now
+I am again able to
+access it
+so which means that
+using these methods
+I am able to access all of these
+correct
+so which means that
+I am able to
+pinpoint now what element
+I am listening to
+but
+how do I say that
+I am listening to this element
+how do you say that
+any idea
+how would you say
+I am able to access this but
+how would I know whether the user
+has clicked on it
+so there is a very interesting thing
+now which is very very important
+in terms of
+how we get
+to it
+think of it like
+think of it like
+how does keyboard works
+whenever I type in something
+something must be telling the
+cpu that okay
+shashwat has typed this key
+generator
+shascaler
+whatever I am typing
+something is listening to every keystroke
+and it is telling the cpu
+that this person has typed this thing
+so what do you think that is called
+that is sort of like a signal
+would everyone agree yes or no
+so whenever I am typing something
+somehow a signal is
+sent inside and
+what the cpu could be doing
+cpu could be listening to that
+signal correct
+yes
+abhimanyu abhishek ahmed ashi
+shashwani
+hemangi krishna pradeek
+all able to follow right
+let me know in case there are
+any doubts
+okay so there is
+this signal happening my point
+is ki is there a way
+I could listen to those signals in my
+case I am listening to
+a click signal he whenever I am
+clicking on this this particular button
+I can somehow
+attach a listener
+right he that listens to a
+particular signal there could be n number of
+signals right like I could be double
+clicking on it I could be clicking on it
+I could be dragging it I could be doing a number
+of things with this button but
+the one event that
+I am interested in is a
+click button is a click
+event basically click signal right
+so in javascript that signal
+is basically called event
+what is an event whenever you do
+any interaction
+any interaction a event is
+released
+an event is released
+and we are listening to that particular
+event in our case the event that
+we are listening to is on click
+so let me open
+w3
+w3
+w3 school
+events
+now as you could see
+these are some of the elements
+on click on change
+on mouse over on
+this thing mouse out
+like so there are
+n number of such events present
+right so what does it
+say html events
+are things that happen to
+html element right in
+our case what is happening to this particular
+html element a click
+right so let
+us let me write down the definition
+what exactly
+is an event first
+what is
+event
+anything
+that happens
+depending on
+some
+other thing
+to an
+html
+element
+is an
+event right
+so there is
+a btl
+someone
+clicks on it
+right in that case
+a
+click
+event is
+fired now
+if a click event is fired I could
+potentially listen to
+that click element right and
+I could know for a fact okay if this
+particular event is fired which means
+I need to do something
+right so
+let's go ahead and
+write the code for
+this now yes
+good so
+we already have the button element in
+place and I want to attach
+a particular listener
+on this so what exactly
+are we listening to
+we are listening to a click event
+correct
+yes we are listening to a click event
+event is the keyword here we are listening to a
+click event so
+what I am going to say here
+you can read or you can read it
+sort of like a English
+statement also this particular line
+that I am going to type
+btlm
+dot
+add event listener
+what event listener
+I am listening to is click
+right
+and one of the best thing about JavaScript
+is it will you can pass
+a callback here a callback
+is nothing but a function call
+so you could say to you if
+on this particular btlm element
+you listen a click event
+you have to execute
+this
+function
+and this function you will be getting
+a event
+right that was fired
+so let me just log
+event
+event fired
+so now let's go in here
+all clear
+where I click on this hello
+button say hello
+see event fired and what
+was the event pointer event
+if I were to expand it see
+so much information was shared
+with us
+now using this information
+if we want we can play around with things
+and you could see
+it also has the element also
+the target where the
+element was fired for basically it's the
+source
+and it has the entire
+thing about all the information
+about this particular button that you could
+possibly be needing right
+and it is a very detailed
+information that you could possibly use to
+decide what you want to do now
+right so now
+I'm able to do two things using
+only these four or five lines
+of code I'm able to identify
+in a huge
+web application
+I can somehow pinpoint
+HTML element
+and second thing that I'm able to do I'm able to
+listen to a certain event
+right suppose
+we have a different event
+event list in JavaScript
+JavaScript
+let's say there is
+event list in
+JS
+suppose we have
+mouse over
+so I could probably listen to
+mouse over
+and let's go back here
+see I haven't
+clicked on it as soon as my mouse is
+hovering over it
+it is launching an event
+so likewise there are n number
+of events but the event that we are interested
+in is click event
+and this particular event I'm getting
+the event also that is being fired
+cool now
+all I have to do is
+if you remember
+the changes
+that we were doing here I'm able
+to
+put an event listener to on this
+particular element now
+I'm able to know
+that a particular event
+is fired or basically someone
+has clicked on this particular
+button now what to do
+what do we have to do let's revisit
+the question or clicking of the button
+so this part is sorted I'm able to
+listen to it that now
+the latter half is append hello
+to the page
+yes so let's go towards
+this now so here
+I will be creating an element
+right let's say
+let new
+dev
+lm is equal to
+again for creation I'll be using
+a function called create
+element
+this function it will basically
+create an element and what element
+I'm looking to create let's say
+dev
+I can choose to create any element
+any
+legit element that I want
+I could create a p tag h1 tag
+h2 tag span tag
+or any possible tag
+using this particular function now it
+has basically created that element
+and it is stored the reference in new
+dev element and
+what does the dev element
+say hello
+right so let me simply say
+new dev
+lm is equal to
+hello right
+now all that
+is left is I somehow need to
+put it on this term
+inside our body right
+so which we see again we have
+to target body first
+right so can anyone help me
+targeting body
+which of these
+selectors we should be using
+should we use get element by id query
+selector query selector all
+get element by class name I think
+the most logical selector
+that we could probably
+use is query selector right
+because there is
+we can choose to put id or
+class here but if you want
+we can simply choose to use
+query selector also right
+so let me copy paste it
+here and here I will say
+body lm and here
+I could simply say body
+now this
+new dev element that we have created
+all I have to do now
+I have the new element in place
+and I have the
+body lm
+I know where the body element is
+now all I have to do is
+take this new dev element
+and put it on the body
+that's it right and how can we
+do that
+we can do that by saying
+body
+lm dot
+append
+so append is the function which is
+used to append
+something as in put something in it
+and I will say new
+dev lm that's it
+now let us
+quickly go through a dry run
+of the logic
+we have a btn element
+document or query selector btn
+I am targeting the btn element
+I am putting an event listener
+what event am I listening to click event
+and I have given it a callback
+so every time a click happens this particular
+function will be called and in this
+particular function what am I doing
+I am creating a new dev element
+and I am putting the value hello
+on that new dev element and
+then I am somehow getting
+the target body
+and I am appending this
+new dev element that we have created
+inside of
+body element
+is the logic sound
+does it make sense
+in an ideal world this should work
+when I click on this it should
+append something
+let's see if it works
+yes
+it is
+working
+if I were to change this to
+p tag then it will
+do next
+it's working
+oh my god
+I need to do
+inner text
+right
+now
+without manually
+doing this
+I am able to do this using
+just javascript
+yes
+was it interesting
+yes no
+abhinav obanyu
+ahmad ashwini
+chandini dhangraj
+hemant kishore krishna lapreet
+uniswara kishore
+krishna lapreet
+uniswara pradeep rajakta pramod
+raja rita charanya tanu
+tejil shaykh
+rohit shashank
+vigneshwar
+was everyone able to follow this part
+why so many
+hello because I clicked so many times
+if I were to refresh all of
+them would be gone if I click one time
+then I am getting only one
+right
+now before we proceed to the
+next question which is question two
+any doubts
+whatsoever
+so far in whatever we have covered
+any doubts anyone
+yes no
+inner text correct
+so good point if you remember
+what I had done previously
+was I was able to
+solve btn
+let me
+save this
+we have the btn
+element
+when I click
+I am getting the event
+this is the target element
+so this button for
+any element
+or any element as
+these many key value pairs
+as you could see re auto complete
+null or almost everything
+is null so one such element
+which is present here must be
+inner text this one
+so basically this defines
+what does this particular element
+is going to say
+so if I were to change this
+it would basically reflect here so what I
+had done here I was creating a new
+p tag and inside of
+that p tag I am simply setting this
+inner text for that
+p tag to hello
+correct so likewise there are so many
+properties that you could modify and play
+around with so one such element
+one such property that I played around with
+was inner text
+cool
+cool upendra
+ask come again once please
+upendra
+our strategy was simple
+because we had to append hello on the page
+on click I somehow targeted the button
+using query selector
+class because I had class here
+so I added dot here I am
+able to target that element
+I was attaching event listener
+to it what event click event
+and I passed a callback function
+in this callback function I am
+simply saying that create a
+new element p tag
+to set the inner text value
+of this newly created p tag
+to hello and
+post at
+post at
+target the body element
+and append this newly created
+div element on that body
+does that make sense
+upendra code wise
+code wise does that make sense
+promote does that also
+answer your question
+yes
+great great
+cool
+assuming it's all clear
+to everyone let's quickly
+take up question number two and question
+number two is an interesting one because
+in this question we will be learning about
+a new way to select elements
+that is query selector all
+so let's do that
+let's go through the question
+here it says
+here it says
+fix the list by
+inserting the missing element
+using query selector all and
+insert before
+so far we have been
+doing what we have been
+appending now
+we learn about two things
+we learn about query selector all
+and insert before
+as the name suggest
+we somehow have one
+li tag missing here right
+we have one two three four
+five six
+eight nine ten so seven
+is missing so I need to somehow
+target this eighth element maybe
+and I can insert before
+a li here
+achha
+so I am assuming ki
+this part
+would be easier right
+I can
+somehow
+say
+li
+new li
+lm
+right
+and in this all I have to say
+is seven
+so li I will make
+here
+the tricky bit
+so this I can definitely make
+using this way the tricky bit
+is this how can
+I make sure
+ki it gets inserted
+only at this place
+not at the start not
+at the end but
+exactly as this place
+right so this
+is the challenge that we are trying to
+solve here so let me
+comment this for now because we will
+come to that part so first we need to figure out
+how will I get to this particular
+element this particular space in between
+so any idea anyone
+anyone would like to take a rough guess
+you don't have to be right but
+you have to be active though
+so as you could see
+we have one two three four five six
+seven is missing
+then eight nine ten so seven
+is something that we have to
+integrate there so any
+idea
+okay
+you will take a query selector
+and target the parent
+element okay that makes
+sense so let's do that
+so
+what
+so
+let's say here we have net
+ul is equal
+to document dot
+query selector
+and here we are targeting
+ul okay parent is now targeted
+okay raja says query selector all
+okay so basically
+what i'll be getting is all of the list
+items so let me say let
+all list items
+is equal to
+document
+dot query
+selector all
+okay
+okay so now
+what is the difference
+in between
+all list items
+so what is the difference between query
+selector and query selector all
+what query selector does is that it will
+target the first element
+it will target the first element
+which matches the condition and it will
+call it a day
+but not in the case of query selector all
+it will keep on going and it
+will return you a list
+an array you could say
+an array of all the elements
+that basically passes this
+condition this selection criteria
+that you'll be
+writing here right so in our
+case all of this
+these items would be returned so if I go
+here you can see there are total and note
+list of nine items one two three
+four five six seven eight nine
+but we have ten why because we have
+one of the thing is missing here
+and I can go here you can see
+all those properties
+are present here
+so somewhere in here you see inner
+text is visible which says six so
+this thing this particular
+li is for sixth
+right likewise
+we get to four three two
+one and likewise
+cool so now
+so now the idea is
+key now I am able to access
+all of the list items I somehow
+need to get access to the
+eighth element
+right and which index
+is the eighth element in
+it is in
+sixth right
+it is on sixth index yes or no
+ah open the correct
+it is on seven but array
+starts from zero right
+so on zero we have
+one likewise it will keep
+on going and eighth is on sixth
+so which means
+ah correct
+so which means what
+I can do here is
+that to make things somewhat
+easier I can say
+const
+e i g h eighth
+l m is equal to
+all list items
+and the index was sixth
+so now I am on sixth element
+right so
+I can
+uncomment
+this
+now right
+and let me say
+seventh length
+right
+in this I can say
+inner text is equal to seven
+now all I have to do
+is insert it before
+this right but
+how does insert before works
+lets look at it
+so how does insert before
+works it takes
+a li element create a text node
+insert
+so
+insert basically
+takes in two things
+and
+hmm
+and
+I need to
+add a new node first
+in our case the new node is
+seventh element
+and I also need to add
+lay
+what are we inserting it before
+right in our case we are
+inserting it before the eighth element
+and all of this
+needs to be done on a list so which means
+a parent would also
+be needed does it work on click
+no it won't work
+on click up you know
+as soon as your javascript gets loaded
+as soon as your page
+gets loaded this particular script tag
+would be executed right there and
+then so it should work
+it should reflect right away so it won't
+wait for a click or anything
+cool
+we can make it
+so it also happens on click
+but as of now it would happen
+automatically
+as the page loads
+okay so now let us
+just say what is the parent element
+of all of the li's here
+anyone what is the parent
+element for all of the li's here
+remember all no matter
+how many the children only
+one parent can be there in this particular case
+that parent is ul so
+and do we have a
+javascript element here
+yes we have targeted
+the ul lm before
+only so i can say ul lm
+dot
+insert before
+what is the new node
+the new node is
+seventh lm
+and what are we inserting it before
+what are we inserting this seventh lm
+before
+correct we are inserting it before eighth lm
+and we have targeted it
+here so which means
+all i need to do is create it here
+right
+cool
+what about if we have multiple
+ul then how can we
+check for parent in that case you need
+to apply some sort of id or class
+right
+so that is the only way
+cool
+now
+our code
+looks somewhat fine
+i am targeting the parent element
+i am getting
+all of the list from list i am getting
+the eighth element i am creating
+a new element li and in
+that li i am setting the value as
+7 and ultimately i am
+on this particular parent lm
+i am inserting seventh
+element before eighth element
+now the best thing about
+these commands is that you could read it like a
+sentence so
+if i were to read this line i would say
+on
+ul lm insert before
+seventh lm
+eighth lm
+so basically it is saying
+for ul lm
+insert seventh element
+before eighth
+element right so when i save this
+and i go here it should probably
+reflect and we have
+7 here
+so it works
+basically
+was everyone able
+to follow this question
+yes
+tanu
+sambit
+sharanya
+vineshwar upendra
+shambhuraj
+shashank
+shashank
+prajakta
+pramod krishna
+everyone was able to follow right
+are you finding this question somewhat
+interesting
+yes
+because next question onwards we are
+upping the level a bit
+what if we have to
+search and insert
+we are searching and inserting right
+so right now
+i knew for a fact that eighth element would be
+existing here you can also
+search also but that depends
+how would you search and
+what are you searching for so you need
+to have some sort of clue there
+based on that you can write
+your logic
+cool
+cool then everyone
+it's been almost
+one hour would you like a break
+should we move on to the next question
+this is a somewhat
+smaller only
+it would take hardly five minutes for
+to solve this
+so let's do one thing we will solve this question
+then we will take a quick break
+cool
+cool then let's
+go ahead and solve this
+question then
+so
+so the problem is fix
+the mathematical problem using simply
+js right
+what is the problem
+does it look wrong
+yes it does and how
+can we solve it
+the ideal answer to
+what is 2 plus 2 is it
+22 yes or no
+correct almost everyone
+is saying 4 i think
+my math is wrong
+i have written 22 here so now that everyone
+is saying 4 let's make it 4 but
+how can we do so just using javascript
+and nothing else
+right how
+can we do that
+so first of all obviously i will have
+to target
+the p tag here
+right
+so let's target
+let
+para lm
+is equal to document dot
+get
+not get
+let's say query selector only
+query selector
+and let's make it p now
+this is a test for you guys now tell me
+would this target both
+of the p's or would it target just
+one p
+both or one
+we have used
+query selector
+correct correct so muneshwar
+went a step further and provided
+extra information it will also target
+a first one this is what i was going to
+ask next
+in case one then which one
+but ha so basically since we are using
+query selector it will be targeting
+the first element which matches this
+condition in our case it's line
+number 11 so which is
+this particular
+one right so let's fix
+math on that one
+and the simplest
+way would be to say
+para lm
+dot
+error text
+is equal to
+2 plus 2
+is equal to 4
+right let's go here
+and change this to q3
+and yes it is
+working
+cool
+so we are able to target a first
+element also and we are able to change
+that also in case you wanted
+to change for both that
+anyway we will see an example of
+this in upcoming question
+but basically we will be using query selector
+all and in the call will map
+through each of the elements which
+is there and i will be
+applying the same logic
+for each of those element but we
+will see an example for this in upcoming
+questions
+cool then
+now
+just a second
+it is
+10.05 i think
+it is 10.05 let's take a break for
+5 minutes
+we will
+continue
+at
+10.10
+cool
+so we will be continuing at 10.10
+meanwhile go for a walk
+stretch your legs
+and we will be solving the rest of
+the questions starting 10.10
+meanwhile if any one of you has
+any doubts regarding
+anything that we have discussed so far
+now is the time
+anything you all want to know
+anything related to the question
+anything related to any topic
+that was not clear that we have covered so
+far anything
+related to any topic
+that was not clear that we have covered so far
+so is
+everyone able to follow
+so is everyone able to follow
+Abhinav, Abhimanyu, Aima,
+Ashish, Ashwini, Chandni
+Dhanraj, Hevant,
+Kishore, Krishna,
+Munisura, Pradeep, Prajakta,
+Pramod, Raja,
+Rita, Sambhya, Sharanya,
+Tanu, Tejal, Vipendra, Vigneshwar,
+Priyanko, Rohit,
+Shambhu, Raja, Shashank
+Next question that we will be solving
+is going to be a tricky one
+and
+we will see
+but it is going to be a tricky one
+yes that is correct
+that is correct
+if
+if
+if
+if
+if
+if
+if
+if
+if
+if
+we may
+We also go
+we also go take forever
+we also take forever
+go there for you
+you
+you
+you
+Yes, so this is one tiny thing that I used to do is so this is very very simple question
+I'll be launching a pool and it is sort of like a game which no one is able to beat me so far
+is you need to match there are only two options and you guys need to match some monkey it somehow
+ends up with 50 50 percent for both of the options so let's see if so far no one has been able to
+beat me at this as in king or no class whatsoever anyone has been able to score 50 50 landed the
+poll result at 50 50 yet let's see if you guys are able to do that or not it's launching the poll
+now
+it's already 100% oh 71 29 I think again I'll be winning this one again no one would be able
+to beat me and this particular thing once again 50 50 is hard now I told you it's a very tricky
+thing at one point after scale you'd be you might be able to crack interviews but this question
+no one's been able to beat me at this great cool let's begin with the second half of the lecture
+now take now that everyone is back let me ask this again is these three questions clear to
+everyone especially what all things we are learning what all tools we are learning to
+solve these be it this query selector method like get element by ID query selector query
+selector all get element by class name or beat about events active and listener and all of those
+things is everyone able to follow for these yes I'm just an FYI in case you have any doubts
+related to any of these things feel free to ask now with no doubt so far let's move on to the
+big boss question like it's a one of the big question here so let's move on question four
+okay that's a big one as I could see let me open the question here directly first okay so there
+are a number of boxes here fine and okay let's see what the question is write a script which
+fetches the data color attribute of the card on double click on them and attaches the fresh
+glass to that card also change the data color attribute to used okay so you get right what
+needs to be happened here cool to get so what needs to be happen here is we have the style
+sheet already present with us right as you could see there is body blue green red card so we
+have three such classes also present here blue green and red so what they're asking is key on
+any of these square if I were to double click right if I were to double click I somehow need
+to fetch the color on them I like in this particular case for the first card it is blue so I need to
+fetch this blue and put it here right and change this blue to used when I do this you would see
+it is not turned blue right same thing if I target this this one is red I need to copy this go here
+paste red and change this red to used key as in case someone has already clicked on it so this
+is what that has to be done right here so cool let's try and solve this so before we proceed is
+clear is the end goal clear to everyone what has to be done yes take it so let's get coding for
+this so what should be a first step somehow I need to attach an event listener on all of these
+elements from what I can think right here I need to attach an event listener in that event listener
+callback I'll be writing this logic key ticket if anyone were to double click on it then launch
+this thing right basically launch this particular function in that function I somehow need to fetch
+the value from this particular attribute and get it here right so there is something called get
+attribute and set attribute that we have to learn for this right let me mention it here there is
+get attribute and there is set attribute right these two get attribute is somewhat simple this
+method returns the value of the elements attribute in our case the attribute that
+we are targeting is data color so using this get attribute method I'll be somehow fetching the
+value of that data and set attribute because after changing the color putting the color here in
+classes I need to change this to used right so that can be done that can be done using set
+attribute right it basically sets the new value of the elements attribute in our case
+what is the new value that we are looking at correct the new value that we are looking at
+is used yes okay so let's get rolling we need now I know the new thing that I have to do here
+is use get attribute and set attribute right so let's get started so what should be my first
+step any idea I say fire away on double click because I want my callback to be executed whenever
+someone double clicks on something so I will listen to double click off card class because
+I see card class is common across all right so I what I could have done I could have targeted
+body and inside of this body I could have simply passed all of the elements inside of it but I
+think it would be much simpler because all of them has card elements sorry card class so I can
+simply use query selector all in this particular case right I can use query selector all and
+and am I audible
+cool cool cool so I could use query selector all and I can get all of these elements T now after
+using query selector all I am putting a function on double click right so there must be an event
+for double click event double click JavaScript in these case you don't need to remember anything
+right so you can mostly rely on Google for these right okay so this event name is double click
+D V L C L I C K so the normal click was simple click in here if I if I'm listening to a double
+click so that is this one so whenever a double click happens in that case I have to do something
+here right so I am I will be listening to double click on this what would be the next step I need
+to somehow fetch the data color this could be done using get attribute right third would be
+at the first attribute value as class right and after that I need to change data color to
+used right and this would be done using set attribute is the plan clear to everyone that
+what we what we will be doing to solve this particular problem we'll be listening to the
+fire we'll be applying a double click we'll be listening to the double click event and in
+the callback I'll be doing these three things I'll be fetching the data color using get attribute
+I'll be taking the first value and put it in X class and as third point I'll take said attribute
+and set this particular value data color of that particular thing that was double click to used
+right I think it would work I think it would work right let's give this a try so first thing
+first I need to attach an event listener to all of them right so let me target const cards is
+equal to document dot query selector all help me with the query what should I write the query
+selector value I'm targeting all the card using card class so how should I target what what we
+should be writing here correct some would you you need to add dot also because this is query
+selector on it does not know whether you're talking about ID or class or what so which means
+you also need to add a dot so correct everyone I need to do dot card now if I were to console
+dot log cards you would see I'm getting a list right I'm getting a list and it has all of these
+cards right now all I have to do now is loop right all I have to do is loop so let's say for simple
+let I is equal to zero I is less than cards dot length as you could see it also gives me the length
+property at the end as well it is 10 right so this value would be there and I can do I plus plus
+and now tell me I can do const current card is equal to cards I and in that current card dot add
+event listener what event are we listening to what event are we listening to correct correct
+Shambhuja Pramod we are listening to DBL click right and now let me console here first keep
+whether it is working hello let's see I'm going to single click on it here first nothing gets
+logged here now I'm going to double click on it see it's working double click let me also
+add double click and index hello from index I so now I would also be knowing the index that
+we are clicking so do you know which card this is what is the index of this card yes or no I
+can tell this no no it's not zero how can this be zero there are so many above it right so randomly
+what do you think is the index of this card do we know correct you won't you can't tell
+but I can because I have written the JavaScript for it which will give me the index on double
+click so all I have to do is double click and I get five so this is on index five what about
+this one seven nine all of this is happening on double click not on single click right so now
+are you guys able to somehow make an image key how those Rockstar developers that you are
+thinking these are the basic concept that everyone follows right they don't change for everyone
+better you are sitting at company a or company B this logic this learning these fundamentals
+are same for all of them right all of them no key or double click this is how you will fire an event
+right cool so this is all your firing element ticket so now my first task is done now the second
+task is to get a data color using get attribute right let's do that how do you suggest we get
+the value first of all we need to get an event here because we are listening to a certain event
+it will give us the data about that element also right correct so here if I were to say let's say
+on story console dot log event I'm getting this thing in here I have target in this target I have
+the card which I want to make changes to right so what if I want to target event dot target right
+see I'm getting green this one I'm getting blue this one I'm getting blue this one also
+I'm getting blue this one I'm getting green right so so far so good right now how can I access a
+certain value inside of this right I want to get a attribute on this particular thing so if I were
+to expand this go to target you see we have so many things here and in here we
+somewhere in here that particular method would be present that we are looking for see data
+color and to access this data color get attribute method is present somewhere in here so let's
+try and access it right let's say const class to be added is equal to event dot
+target dot get attribute data color right this is the name of the attribute
+you're targeting right now let me try console it and see if you are able to get it class to
+see we're getting green blue blue red yes so we are able to get the class also so which
+means this part is also done what is the next step I somehow need to take this class to be
+added and include it here in class right correct so there is something called class list that is
+present on each of these things suppose if I were to open this go to target right here there would
+be something called class list somewhere classless see you have a class with present where it says
+it only has one card class right so which means key in here you have certain methods which are
+available right on this class list I can add contain entries for each to all of these things
+so what I want to do do we want to remove anything from here yes or no correct no we
+don't want to remove anything from here the point says add the fetched attribute value to the class
+the we are able to fetch attribute here to add it I can simply use this add method right which
+is present on class list which is present on the target element right so what I can say here is
+simply it is as simple as invoking a method right so what I can say I can say even dot target dot
+class list dot add what are we adding class to be added right let's save this finger crossed if
+it works let's see it's not working why are we missing something here event or target let's
+see if we are we are getting the values or not right let's start there okay my bad I think it
+added oh yes it added we had hard-coded it here I've added a string here so I need the
+value not the class we saw no changes here why how we are getting the path as in for what path
+okay meanwhile can anyone tell me what what did we do wrong why even though class to be added
+was written here but still no change was observed here any idea what could be the reason the last
+which you written this one okay just give me a minute I'll get to it I've been up firstly how
+about this you tell me why does this not work okay class to be added and a class was added here
+but we don't see any difference here that is fine that is fine it was hard-coded but why don't we
+see any difference here and there's a very simple reason for this like very simple reason
+key why don't we see any difference even after a new class was added
+correct correct so this is a very typical thing you see thing that I've done there is no class
+written here right we have only classes present here for blue green and red so even though this
+thing was added here class to be added we didn't see any differences so which is why I just removed
+that thing here and now yes so it's working everyone which is interesting as you could see
+this one is blue on clicking with this this would turn blue see we are legit adding interactivity
+to our live website if that's not interesting that is like that should that should be like
+unica moments for everyone right okay now you are asking something right can you show once I forget
+where you get you are getting the path the last which you had written I think you're talking
+about this path right class list add all of these things right okay I have unmuted you
+yeah hi Sasha can you able to hear me yes yes loud and clear last line of code event dot target
+dot class list dot add like this line you have taken from some classes right so we are from
+where you are accessing their that path I just want to see once so let me go through it I'm
+meeting you now right yeah cool so that's a good question let's go through it once again I'll be
+logging it the event here and sold out log and this particular event will only be fired when I
+double click on it right so let's see I say double click on this one I get an event in this event it
+mentions key on what was the target what was the target that it received so this event is something
+that we are receiving right this is the event on double click on some element right in this
+particular case it's this element here if you were to go to target this target basically points to
+this element in down right if I were to click here I think see it takes me back here so inside
+of event dot target I've now expanded the target also you know I can scroll down scroll down scroll
+down or no matter what classes are there all of those classes will be present inside of this value
+class list no I'm not sure key whether uh has hasn't covered prototype with chaining with you
+a prototype inheritance
+yes he has right great great great so this would be much easier for you to understand now
+key now see there is this class list but do you see any functions here even though I written
+class list dot add but I don't see any function on this particular classes right so which means
+key it is present here in its prototype right I can go to prototype and you can see all of
+these methods are present here there is entries which will probably list all of these elements
+there is for each it is like a iterable it will go through all of these one by one there is replace
+remove keys items and the one that we are using which is add right and this is all I'm getting
+to the add method so help me with the path event dot target dot class list dot add and that is all
+I'm getting to this thing right so this is what I meant key this event is is such a enriching data
+about what just happened then you can just play around with so many things here
+right all of these have so many methods inside of it that you could play around with those
+and get to the expected result that you want are we going to cover all tasks no we are not going
+to cover all tasks we will be going through some of the tasks which would help in our use case
+so which is why I say key you need to do a lot of self-study here right and to be honest if you if
+I tell you about from my experience day-to-day work I have hardly used 80 percent of these things so
+how many of you have heard about Pareto's principle there is something called Pareto
+principle how many you
+principle
+that comes from experience now I have read it I'm correct Nishora so Pareto's principle this
+is an interesting thing for each one of you like this is like a a guidebook for me especially when
+I'm learning new things so this has helped me a lot so Pareto's principle is basically a 80-20 rule
+so suppose say JavaScript is this big right there is HTML there is DOM there is a
+JavaScript engine callback queue promises so many things are there right Pareto principle is very
+simple it says key there is 20 percent of it that you will be using 20 percent and this is
+80 percent right so this 20 percent of the things you will be using 80 percent of the time and this
+80 percent of the things you will be using 20 percent of the time so in simple words basically
+you should be targeting whenever you're learning new things you should be targeting to learn these
+things because in your day-to-day job only 20 percent of the things of any new language you'll
+be using 80 percent of the times think of it like this in dictionary you have so many words right
+so many words are there but have you ever wondered key I hardly know any word from dictionary will
+have not all of them but still I'm able to live through my life right because you as per Pareto's
+principle you know 20 percent of the words which you are using 80 percent of the time so which is
+why you are not blocked anywhere right so to get back to Abhinav's question how how am I going to
+cover are we going to cover all the tags no what we are expiring to cover here is these 20 percent
+of the topics which will be used 80 percent of the times and for these 80 percent of the topics
+is something that you will have to cover on your own and we are here to assist you on that
+does that make sense
+no yes too much gap too much helping here
+no
+yes you can get all of these in w3 school
+cool let's get back to the question now I hope that answered your question though Abhinav right
+okay great great great
+cool then so now we fetch the value as a class and this thing is also done the only thing left
+is change the data color attribute right because we have to mark it as done
+to mark it as done we have to do something like earlier we were doing get attribute this time
+we'll have to do set attribute instead of get we have to do set what we are setting we are setting
+data color we are setting data color to what we are setting data color to used
+right and see that's it and we are good now let me reduce the size
+okay as you could see now what I am going to do or take let's say let's pick this one
+okay the color is right focus on this one this red will be shifted here
+and this red would be turned to used
+okay so this is the finished result yes
+it's working right
+and all of this is happening on double click
+so I hope you all find it interesting well up these are the building blocks these are the
+building these only are the building blocks and these things compound so these knowledge
+especially these compound now that you have seen me using get attribute in set
+attribute you are more or less comfortable now whenever in future
+someone says to me how can I access this value here you know what to do right
+likewise everyone this is the building block and now you know the way so let's
+solve another question now yes let's move on to the new question yes no or is
+there anyone who has any doubt regarding this question all good let's move on to
+the fifth question now right this is the interesting one it says he jailed the
+mouse okay question you are given an empty cell right let me open the
+question first let's go to question five we are given an empty cell here we are
+given an empty cell here write a script that whenever the mouse enters the mouse
+is this mouse this mouse my computer mouse right so whenever the mouse
+enters the cell jail should be drawn over it and it should be removed once it
+leaves right there's a hint given also use the background image to set jail and
+we have an image here right so the idea is here I should be able to wherever my
+mouse enters this block there should this image should be loaded inside or
+here right so sounds like an interesting problem to mouse to jail a mouse right
+so let's give this a thing a try so let's go to question five what would be
+my strategy let's talk about it so we basically need to have first of all we
+need to target this element right target cell LM right this is the first thing it
+would be probably easy for us to target we can use query selector or get element
+by class name so the first one is somewhat easy then second is we need to
+attach two event listener here what I am thinking one would be for mouse entered
+and one would be for mouse left so can any one of you Google and let me know
+what would be the event what would what would be the event that we should put in
+add event listener like up until now we were putting DBL click or click for this
+one mouse enter and mouse leave mouse left something so what event would be
+there mouse mouse over mouse out mouse left so anyone help me with the what
+should be the event that we are listening to right so we could probably
+have one event listener for mouse enter and one event listener for mouse leave
+is the strategy clear okay Muneeswara says we can use on mouse over because we
+are using add event listener so we can drop the on we can just use mouse over
+okay and what about mouse out correct oh there's a event called mouse out also so
+we are using correct we will be using mouse over and mouse out so let's get
+coding let's get coding so let's get done with the easiest part first let cell
+is equal to equal to document dot query selector and what we are selecting for
+cell right now in here I need to have two functions so cell dot document no
+sorry cell dot add event listener what event listeners are we listening to
+mouse over and mouse out okay let me mention it here mouse over and let's
+have a callback here that we will write the function in some time and this one
+would be mouse out okay to keep the code clean let's create a function outside on
+mouse enter caused on mouse left tick I can paste it here and I can paste this
+one here so this is done so on mouse enter I'll write a logic here I'll be
+getting the event here so now what should we do on enter we should load
+this particular image in the background image right so let's do how do you
+likewise we were adding class list right corn sorry console dot log event so
+let's see if it works I'll be entering mouse I'm getting an event I can go to
+target there must be something called
+there must be something called style in here style so no matter what CSS
+property you may have heard of all of that gets eventually applied to this
+right border top right radius true false all of the values that you possibly know
+of thesis value gets eventually applied in here it's interesting right so which
+means key you can change the styling also you can add classes you can add
+values you can change values you can also add certain styles also in our case
+the property that we are looking to change is the background image so there
+must be a background image here somewhere this one okay so how do I
+access this event target style dot background image there must be some
+right so let's get started
+actually we don't need event only in that cell element we had already
+target here right so I can simply say cell
+I can simply say cell dot style dot background image is equal to how do we
+write the background image value we add the URL and in that URL I mention the
+value in our case it is jail dash bars dot PNG right and what I could also say
+is background dot background size is equal to cover cool let's see if it
+works see it's working great right is everyone able to follow yes
+great great great now we also have to remove it I think remove it removing it
+is the easiest part so for remove it we know the basic value for background
+image but the default value is empty string so I can just do it like this so
+on mouse enter on mouse over this function would be called where we are
+doing these two things on mouse left I'm simply doing this so which means key my
+mouse would be trapped so now it's time to test
+correct they could have also used hover I think in case my mouse is hovering over
+it then show this as soon as my mouse is not hovering over it remove it so there
+are multiple ways of solving this problem I used a long way because I
+wanted to show key how multiple event listeners can be attached to a single
+element but I hope it makes sense to everyone right yes right so this is also
+done and this is also done great
+cool so now let's get started with the sixth problem should I solve this
+problem or you guys want to try it yourself this is an interesting one I
+think okay got it so the problem statement for this one is key all of
+these movies have a category present I think you should you should be able to
+solve it right all of these things have a category present and when I say let's
+say filter when I say romance you somehow need to filter all of the movies
+here which meets the criteria for romance meets the criteria for comedy
+meets the criteria for action so accordingly you need to filter all of
+these and when I say none when I say none you need to bring back all of the
+movies why target is not needed there just a second because we already have
+the element in place right event or target is something which is present on
+event right here to my element is already present if I were to use the
+event which which I didn't when he saw right in that case I need to write it
+like this event or target but because event or target would eventually point
+to this only which I was able to pinpoint so which is why I didn't need
+the event or target right because I didn't use event only I directly targeted
+this particular element cool so for this one should I do it again I'll solve this
+one you can solve the next one I'll solve this question six and then we can
+call it a day well sounds like a plan yes let me solve question six then we
+can start with a doubt-solving session let's get started
+okay so do I worry about the classes no take it on click of all of these things
+somehow I need to listen to first of all to the select element keep what is the
+active value here right so active value needs to be selected first of all then
+what I can say key whenever any change happens here any change happens I need
+to react to it so one event listener that we had seen event JavaScript one
+event listener that we I saw here is on change right and HTML element has been
+changed right so in our case whenever this is changed from romance to action
+action to comedy none basically this HTML element is changing so that is the
+event listener that I will be listening to then I will simply be first of all
+targeting all of the P element I would say then what I could simply say key by
+if it is none do something if it is not none then I need to somehow get the
+category key suppose this is romance right so I need to get a category of all
+of these things and simply map over it key if your category is romance then you
+will be visible in case it is not then you will not be visible and the
+attribute that we will be playing around with for this could be display none how
+does display none work suppose so here I'll just say display none see it is
+gone so interesting thing about display none suppose I have this div right and I
+say display none if you see here it is still on the dom but it is not visible
+to everyone right so that's all you play around with display none so display none
+it will be removed if I say display block it will be brought back there are
+multiple values also inline block inline flex and all but I remember key this
+must have been covered in one of the CSS classes because I've also covered this
+in my batch right so we have a plan we have a strategy in place key my event
+listener will be placed on here post that if any change happens I'll be seeing
+the active value in case it is romance I need to access all of the divs all of
+the divs with the class movies and I can say key if the category is action or
+if the category matches the selection here then display would be blocked
+otherwise display would be none right it's a strategy clear to everyone what
+what strategy we will be pursuing yes is it clear yes Abhinavavimanyu
+Aditya I am Ashish Chandni Dhanraj Kishore Heman Krishna Muniswara Pramod
+Prajakta Pradeep Sambit Tanu Tejas Raja Ramesh Sita Vigneshwar Shashank yes great
+great great ticket now I have my strategy so let's get coding by I hope
+the pace and all is okay everyone is able to follow in case there is any doubt
+feel free to ask if not feel free to stay back in the doubt solving session to
+resolve your doubts right but we are learning a lot of new things today if
+you think about it we just started with a simple hello question but now we are
+this is like a actual full-fledged application problem to apply filter we
+will be solving this so it's interesting that so far we have covered in last two
+hours right if you can question is simple make the filter work so let's get
+started first thing first I need to target the element so let's say const
+filter lm is equal to document dot query selector right what how do I select this
+okay we can this is the only selector so I can simply write select element so it
+would pick the select element okay I can say filter lm dot add event listener
+what event are we listening to change on change I will be getting a call back I
+need to get the event here because I want to get the value also and I can be
+logging event dot target dot value let's see if it works let's go to console
+clear it changes to action they're getting action here changes to comedy
+comedy romance so now I'm able to access all of the all of the available options
+with me now all I have to do now is apply filter when I say filter I simply
+have to based on the selected option pass through all of these lists and tell
+he whether the data category whether the data category is comedy romance whether
+it matches this condition or not yes so can anyone help me remember how will I
+access us this particular attribute there is a method if I remember correctly
+what was the method name we learned it in one of the questions earlier what is
+the method name that we could use to access the attribute value he correct
+correct it is get attribute correct correct promote also yes Munishwara
+correct so let's get beginning
+so let's say I want to add the filter value at my disposal so I don't have to
+write event dot target dot value every time even dot target dot value and let's
+say all tickets is equal to document dot query selector all p
+ticket ticket now all we have to do is if filter value is equal to none in that
+case what we have to do is basically I'm going to loop through the entire thing
+and say let I is equal to zero I is less than all tickets dot then I plus plus
+then I can say all tickets dot sorry all tickets me us IK parent element dot style
+dot display is equal to lock what just happened if the filter value is none for
+this as you could see I'm targeting the P element I'm targeting this particular
+element not this element so I'm saying key for this particular element is
+cap parent you access the parent element using this particular thing parent
+element if I were to log also for this P tag you would find console dot log all
+tickets see all tickets here somewhere in here parent element Namsevi something
+would exist and that talks about this one parent element right so if I were to
+extend extend this you would see again the whole thing started at the very top
+we have access key for regarding this P tag right now we are the same for div
+here right so you can access parent element also using this which is great
+so what I was doing key in case the value is none I'm saying go through the
+all of the list and through that list get to the parent element go to style and
+set the display to block remember how we were accessing style here exactly like
+this we are accessing style here also right
+but what if it is not none in case it is not none then else else again we'll have
+like this and what we have to do is all tickets all we have to do is if what
+should be the data what should be the condition here basically the condition
+is key if the data category matches filter value in that case set their
+display to block otherwise set it to none so let's write it all tickets may
+us I can you a dot get attribute what attribute are we looking for is sir data
+dash category if data category is not equal to filter value in that case I'll
+make it copy this paste it here and say no right else block cool does it make
+sense what we are doing here let's see if it works first this is romance let me
+say romance tea it works now we only have romance here let's change this to
+comedy we have only eight and nine had comedy action we have these many
+actions and if I were to say none all tenor back so it is working yes explain
+once the logic yes so the logic was simple first thing I did I put an event
+listener on change of this particular box right I said key by first or first of
+all targeted to select element I read a event listener key change so every time
+anything changes open it that's what I'm doing so every time anything changes I
+get an event right and in that particular event I am passing a call back
+which which will be getting that event and in that using that event first of
+all I pick out the value give me this thing change to what right right now it
+is none if change to romance right so which means key event or target dot
+value is going to be romance here so romance is going to be stored in filter
+value then what I did was as you could see there is a div there is such three
+there is p tag my data category is present in p tag so what I did was key I
+asked all of the p tags back all of the tickets query selector all p so far so
+good here we can use callback function like that like what well so far we've
+been using callback function like this only right
+so we have all of the p tags here I'm not sure what's that let's stay back at
+the inside of the loop no callback function is not inside of the loop
+right callback function the loop is inside of the callback function not the
+other way around cool then so we have this particular callback function here
+we are accepting the event we got the value where this select value changed to
+right in my case it changed to whatever value like in this particular case it
+changed to romance so filter value is romance I targeted all of the p tags and
+I simply simple logic now we're down to this part right if the filter value is
+none if the filter value is none just go through all of the p tags go through
+all of the p tags and make sure key all of the tickets that I got parent
+element so basically we are saying go to let's say this particular p tag go to
+its parent and set that style dot display to block and remember we what we
+learn if I set a display to none it will be invisible if I set it to block it
+will be visible so big which is why I simply said keep go through all of the
+elements p tags go to their parent and in for that parent set it to block so
+which is why they are visible when I say none everything is visible is it clear so
+far the dry run part open the bin of emma it's clear right everyone able to
+follow cheetah muniswara some bit promote great cricket ticket so now
+coming to the latter part else in is in case it is not none so which means the
+actual filter has to be applied so there needs to be another logic to check with
+you whether the category matches the filter value or not yes or no so which
+is why inside of it I am running another loop and in that loop it is exactly the
+same as this loop but instead of setting all of the elements as block now I put a
+condition here key if for that particular element get the attribute
+data category data category attribute right and if is and if this matches the
+filter value if this sorry if it does not matches the filter value then set
+it to none and in case it does then set it to block right and it seems to be
+working right
+cool ticket so before ticket so so that's all I had planned for today's
+lecture in next lecture we will be covering a lot of for dom things will be
+will try to cover a couple of for machine coding problems as one doubt why
+two blocks but if you could simplify the logic if you can find a better way then
+yes you can simplify a logic this is the way I was thinking key if it is none
+then set everything to block if it is not none so which means key I need to
+apply some logic so I accepted like this so this is like a logic thing only
+Abhinav polymorphism multiple ways of doing the same thing right I could I've
+done it in this way maybe you can come up with a better approach to solving
+this right so it is just about shifting lines here and there
+cool yeah so in upcoming lecture obviously will be deep diving into more
+such problems and more such things right like this so with that I hope you guys
+enjoyed the lecture today and the pace and all was okay right I was not
+rushing too much the other company no plan to nearer yes no yes no
+great class looking forward thank you thank you Muneeswara ticket now that
+being said any doubts whatsoever regarding anything now is your chance
+to ask clarify brainstorm let's talk so any doubts anyone stay back in case you
+don't have any doubts thank you thank you for attending the lecture and please
+go through the recording and try to complete the assignment questions which
+are very important obviously and I'll be pushing this code and I'll be adding a
+couple more problems we haven't sought question number seven maybe that is
+something that you can try on your own and in case you get stuck feel free to
+reach on on the whatsapp group and we'll try to solve the question together right
+so we'll do all of those things but for that obviously you guys also need to
+take initiatives you guys also need to be involved so talking about being
+involved any doubts regarding anything that we have covered in today's class
+please share github link I'll be pushing this in the same link as Uttam was
+pushing into so you'll find it in class 11 I'll do that in some time cool any
+doubts any doubts anyone understanding concepts or code part is a bit
+confusing any suggestion to overcome that as from non-tech no worries so
+there's only one solution to all such things that is practice if you are able
+to understand concept which as you mentioned you are able to understand
+concept so it is just about practice at this part you already understand key why
+we are doing certain things so as soon as you try your hands a couple of these
+problems maybe what you could do you can remove all of the code that I have
+written in today's class and you could try solving those problems on your own
+obviously you you might find yourself stuck at certain points at that point
+you could you know refer the answer that we have discussed in class right so that
+way through practice you can somehow fortify your concepts right and once you
+are able to because believe me from what coding is the easiest part
+understanding concepts is the difficult part why you are doing certain things
+why a is better than B or why B is better than A if you're able to tell
+that then huh again same same upendra key if you are able to understand then
+the coding is a lot easier today I feel interesting after nine classes of
+full-style developer yes I'll be IK key classes or interesting whenever you are
+so stay tuned right Pramod and upendra feel free to try this question I highly
+highly recommend try these questions on your own try to solve them on your own
+right if you feel stuck refer the question ripple the answer it's better
+you feel stuck now then five months six months down the line at your actual job
+right so please do that any doubts anyone any doubts anything you want me
+to discuss again today and any part of the today's lecture that was not clear
+anything that you want me to do no yes
+cool then I guess there are no doubts so thanks thanks good night so what I'm
+going to do now I'll close the class I'll upload the notes I'll push the code
+I'll update the same on the whatsapp group and now post that it's on you guys
+to go through the recording go through the assignment questions and in case you
+get stuck then clarify your doubts on the whatsapp group right once you start
+clarifying start discussing problem do all of those things and I will be active
+on the whatsapp group answering all of your queries in case you don't want to
+ask here right now right so with that good night good night I hope you guys
+enjoyed the lecture and that's all that's all folks from my side right good
+night it was super nice interacting with all of you and I'll see you guys soon on
+30th 30th 30th right bye
+you

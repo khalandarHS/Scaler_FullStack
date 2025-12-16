@@ -1,0 +1,4580 @@
+1
+00:00:00,000 --> 00:00:28,160
+hi all good evening good evening guys am I audible and visible guys give me
+
+2
+00:00:28,160 --> 00:00:37,400
+thumbs up thumbs down do you feel any disturbances voice of fan do let me
+
+3
+00:00:37,400 --> 00:00:54,080
+know if you okay hi Abhishek good evening
+
+4
+00:00:54,080 --> 00:01:18,520
+so how's everyone doing is everyone good anyone got placed like recent times
+
+5
+00:01:18,520 --> 00:01:42,520
+from scalar or on your own not yet no worries okay my initial round any
+
+6
+00:01:42,720 --> 00:02:02,560
+specific feedback you got it okay got it oh depending on your prior experience
+
+7
+00:02:02,760 --> 00:02:18,480
+that was affecting okay great so guys do let me know I'll share my screen if it's
+
+8
+00:02:18,480 --> 00:02:29,720
+visible we have lot to cover today can you see the screen share like it's
+
+9
+00:02:29,720 --> 00:02:44,480
+working fine great cool let me open just a second
+
+10
+00:02:59,720 --> 00:03:19,280
+you can also see the iPad being here right iPad is visible right say there
+
+11
+00:03:19,280 --> 00:03:24,160
+are no disturbances right my fan is running at speed so just want to check
+
+12
+00:03:24,160 --> 00:03:34,680
+with you guys like do you hear the noise no noise right great so today guys will
+
+13
+00:03:34,680 --> 00:03:38,920
+end most of the project complete most of the you know all the features but will
+
+14
+00:03:38,920 --> 00:03:45,000
+be will be left with I believe local storage and functionalities because
+
+15
+00:03:45,000 --> 00:03:48,400
+we'll discuss some theory part on that and then we'll implement it but other
+
+16
+00:03:48,400 --> 00:03:54,200
+than that we'll complete mostly we'll wait for another minute or two let me
+
+17
+00:03:54,200 --> 00:04:02,440
+start three minutes timer then we'll get started meanwhile if anyone want to talk
+
+18
+00:04:02,440 --> 00:04:07,200
+about anything they want to share anything please
+
+19
+00:04:07,200 --> 00:04:22,600
+can you try to fill the whole text area once then create a ticket okay let's do
+
+20
+00:04:22,600 --> 00:04:30,120
+that there is nothing like filling whole text area some bit because text race can
+
+21
+00:04:30,120 --> 00:04:36,920
+be expandable by default we change the CSS part of it so let's see this
+
+22
+00:04:37,920 --> 00:04:52,360
+okay let's have keep on pressing Q see I can keep on getting the scroll but
+
+23
+00:04:52,360 --> 00:05:01,560
+let's say if I do and do this okay the wrap is missing is it flex wrap let's
+
+24
+00:05:01,560 --> 00:05:03,920
+see this
+
+25
+00:05:03,920 --> 00:05:26,760
+but this is on this will apply only on parent let's see this
+
+26
+00:05:33,960 --> 00:05:53,040
+I'll choose display as flex then let's say flex direction column then flex wrap
+
+27
+00:05:55,920 --> 00:06:00,160
+okay it is touching all the way
+
+28
+00:06:03,920 --> 00:06:13,600
+give me a second
+
+29
+00:06:17,480 --> 00:06:30,200
+wait this long that's fine but if you want to wrap the text area the text
+
+30
+00:06:30,240 --> 00:06:42,160
+content text wrapped let's say text wrap
+
+31
+00:06:45,440 --> 00:06:48,440
+nothing works
+
+32
+00:07:00,560 --> 00:07:09,680
+let's see I'm applying on just a second we'll check that on we'll check that on
+
+33
+00:07:09,680 --> 00:07:15,880
+some with we'll check on that and we'll see fix this one okay word wrap break
+
+34
+00:07:16,120 --> 00:07:18,640
+okay
+
+35
+00:07:28,240 --> 00:07:38,080
+okay fine yeah this works so let me add this word wrap the text area
+
+36
+00:07:45,880 --> 00:08:01,560
+so it's working like normal rap but let me refresh and check this
+
+37
+00:08:15,960 --> 00:08:21,960
+still it doesn't work let me give it to the parent element itself
+
+38
+00:08:29,400 --> 00:08:44,040
+okay yeah there's lot to learn guys thanks Sashank okay I think is can we
+
+39
+00:08:44,040 --> 00:08:48,080
+get started with today's class second someone ping in once in whatsapp group
+
+40
+00:08:48,080 --> 00:08:53,280
+we are on time I don't want to get delayed today we have too many topics to
+
+41
+00:08:53,280 --> 00:09:03,000
+cover okay let's drop you know can drop a position whatsapp group meanwhile I'll
+
+42
+00:09:03,000 --> 00:09:10,360
+start writing things down yeah I think I received a message thank you guys so we
+
+43
+00:09:10,360 --> 00:09:17,000
+started with Kanban board project and we started with understanding
+
+44
+00:09:17,000 --> 00:09:29,200
+requirements then we discussed wireframe then we went on with development when we
+
+45
+00:09:29,200 --> 00:09:37,160
+started at work we completed HTML and most of the CSS part in first class then
+
+46
+00:09:37,160 --> 00:09:42,880
+in recent class we completed you know ticket creation
+
+47
+00:09:47,720 --> 00:09:58,680
+right ticket removal right these two features isn't it guys we have
+
+48
+00:09:58,680 --> 00:10:04,120
+completed till now so like I hope this till now whatever we have discussed on
+
+49
+00:10:04,120 --> 00:10:09,920
+the logic point of is those points are clear right I have you know added one
+
+50
+00:10:09,920 --> 00:10:14,600
+sort of logic like using event bubbling how many of you understand event
+
+51
+00:10:14,600 --> 00:10:22,480
+bubbling concept clearly give it up so if you understand even bubbling I see one
+
+52
+00:10:22,480 --> 00:10:28,600
+thumbs up one thumbs down I see two three okay good amount of people who
+
+53
+00:10:28,600 --> 00:10:32,480
+understand it there's some other people who don't understand so one thing I'll
+
+54
+00:10:32,480 --> 00:10:37,280
+do here is that I'll pick it up in the last point guys because the way I'll
+
+55
+00:10:37,280 --> 00:10:41,720
+write the code would be different so I'll pick it up at last I'll try to go
+
+56
+00:10:41,720 --> 00:10:45,520
+with the flow then I'll teach that concept and then I'll explain this code
+
+57
+00:10:45,520 --> 00:10:52,000
+how this works that would be fine right because we'll add will work on
+
+58
+00:10:52,000 --> 00:10:59,160
+implementing those features like remaining features then guys can you
+
+59
+00:10:59,280 --> 00:11:05,680
+share whatsapp group link so one thing I'll do is that I'll create a new
+
+60
+00:11:05,680 --> 00:11:12,760
+script script one dot JS inside that I'll repaste this whole logic we can
+
+61
+00:11:12,760 --> 00:11:18,200
+implement most of the things using event bubbling concept too but I'll try to
+
+62
+00:11:18,200 --> 00:11:23,180
+teach the other way around then we can explore like how can you improve the
+
+63
+00:11:23,180 --> 00:11:33,580
+existing logic okay let's say I keep this function as it is and let's say okay
+
+64
+00:11:33,580 --> 00:11:41,180
+fine but repeating again the whole thing what we have done till now is that
+
+65
+00:11:41,180 --> 00:11:49,780
+you know we discussed two things mainly one was like creating a ticket like if
+
+66
+00:11:49,780 --> 00:11:53,980
+you see create ticket function where we were calling this on click of you know
+
+67
+00:11:53,980 --> 00:11:58,340
+I'll function alt button and you can see here like this one whenever you are
+
+68
+00:11:58,340 --> 00:12:03,460
+clicking like on a model whenever you're clicking alt we were actually creating a
+
+69
+00:12:03,460 --> 00:12:07,700
+ticket we're passing text area value then we're creating a ticket and then we
+
+70
+00:12:07,700 --> 00:12:11,560
+were resetting all the things like resetting the text area changing the
+
+71
+00:12:11,560 --> 00:12:16,120
+design of model and cleaning up all color section and everything right so
+
+72
+00:12:16,120 --> 00:12:20,600
+once we did this then we explored like how can we handle remove to handle
+
+73
+00:12:20,600 --> 00:12:24,960
+remove first we know that we have to switch on that cross button which will
+
+74
+00:12:24,960 --> 00:12:29,360
+allow you to delete it so for that we added one event listener on remove
+
+75
+00:12:29,360 --> 00:12:34,320
+button where only if this flag is true then we were throwing alert delete
+
+76
+00:12:34,320 --> 00:12:39,000
+button has activated and we made it color as red then once it is only
+
+77
+00:12:39,000 --> 00:12:44,000
+activated we were checking a condition condition and handle remove like only if
+
+78
+00:12:44,040 --> 00:12:49,160
+it is hand remove task flag is true then we were removing the ticket so I hope
+
+79
+00:12:49,160 --> 00:12:53,560
+everyone everyone's power like point is clear till now what we have discussed in
+
+80
+00:12:53,560 --> 00:12:58,060
+earlier class is anyone having any doubt from the code perspective other than
+
+81
+00:12:58,060 --> 00:13:06,200
+the same and bubbling concept so I hope this all points are clear so I'll put
+
+82
+00:13:06,200 --> 00:13:12,320
+down the agenda like what we will be covering today okay so we may not be
+
+83
+00:13:12,360 --> 00:13:16,560
+able to complete whole project today a few parts will be left so but I'll tell
+
+84
+00:13:16,560 --> 00:13:21,240
+you what what are my plans to complete okay so since creation and deletion were
+
+85
+00:13:21,240 --> 00:13:28,080
+done now comes the edit part now the edit part specifically using lock
+
+86
+00:13:28,080 --> 00:13:34,320
+button like clicking on lock and changing things then once this is done
+
+87
+00:13:34,320 --> 00:13:50,320
+then filter changing status of ticket by clicking header like the stage in
+
+88
+00:13:50,320 --> 00:14:05,800
+which ticket is then filtering the tickets by color status so these are the
+
+89
+00:14:05,800 --> 00:14:09,520
+three things that I want to cover but there will be another thing is that I
+
+90
+00:14:09,520 --> 00:14:20,680
+will talk about the feature like on click off double click on color filter
+
+91
+00:14:20,680 --> 00:14:33,680
+color render all tickets so this is one extra feature that I want to add it but
+
+92
+00:14:33,680 --> 00:14:39,320
+these are the least of the things that we will be working on in a way
+
+93
+00:14:39,320 --> 00:14:42,840
+like all the features will be implemented today but we'll talk about
+
+94
+00:14:42,840 --> 00:14:48,520
+the persistence layer next class where we'll talk about like local storage
+
+95
+00:14:48,520 --> 00:14:52,880
+concept because I have to introduce I have to talk on what's on a theory part
+
+96
+00:14:52,880 --> 00:14:57,080
+I'm trying to move it to the next class where will be fresh will be completing
+
+97
+00:14:57,080 --> 00:15:01,320
+all features will make some necessary changes and then we'll go ahead is that
+
+98
+00:15:01,320 --> 00:15:10,520
+clear guys is agenda clear what will be doing it today great now let's let's
+
+99
+00:15:10,520 --> 00:15:15,600
+let's get started with today's classes I hope you will be supporting me like as
+
+100
+00:15:15,600 --> 00:15:20,960
+you did it in last class with your you know suggestions doubts you know all the
+
+101
+00:15:20,960 --> 00:15:26,560
+things that you are thinking from a problem statement now if you see the
+
+102
+00:15:26,560 --> 00:15:31,960
+place where we stopped in last class was let's say I'm creating a task one and
+
+103
+00:15:31,960 --> 00:15:37,320
+I'm creating a ticket now now comes a point where if I want to edit this task
+
+104
+00:15:37,320 --> 00:15:42,760
+I have to click on this lock button isn't it so once I click a lock button I
+
+105
+00:15:42,760 --> 00:15:48,720
+should be able to edit this task now let's just think if I am clicking here
+
+106
+00:15:48,720 --> 00:15:54,880
+so what what should be the point of you know how we should approach it like how
+
+107
+00:15:54,920 --> 00:15:58,280
+should we approach it like what could be the first thing that comes to your mind
+
+108
+00:15:58,280 --> 00:16:02,240
+do you want to add an event listener if you want to add an event listener to
+
+109
+00:16:02,240 --> 00:16:08,000
+which thing you want to add a listener and how you want to do it set the lock
+
+110
+00:16:08,000 --> 00:16:13,120
+add listener change flag flag to make text editable okay great those are the
+
+111
+00:16:13,120 --> 00:16:18,680
+steps right is everyone agreeing with what somebody tripati has suggested
+
+112
+00:16:18,680 --> 00:16:22,600
+simple and straightforward right let's let's do these things let's do these
+
+113
+00:16:22,600 --> 00:16:27,320
+things simple and straightforward steps okay so first first and foremost thing
+
+114
+00:16:27,320 --> 00:16:35,960
+let me go back here now if you see I have like handle remove function same
+
+115
+00:16:35,960 --> 00:16:40,840
+logic I'll I'll try to say that I'll create a function called let's say I
+
+116
+00:16:40,840 --> 00:16:50,960
+create a function called handle lock on this lock I have to listen to some event
+
+117
+00:16:50,960 --> 00:16:54,400
+listener now that event listener is always present on a ticket let's say I
+
+118
+00:16:54,400 --> 00:17:01,160
+have receiving the ticket each ticket now on this ticket adding a event
+
+119
+00:17:01,160 --> 00:17:06,680
+listener but for all the ticket we don't need to add it since it's we are
+
+120
+00:17:06,680 --> 00:17:11,880
+similarly pointing out the specifically to this but this icon let's let's go and
+
+121
+00:17:11,880 --> 00:17:17,840
+trim it down and reach this icon out of this ticket if you see in HTML part let
+
+122
+00:17:17,840 --> 00:17:23,920
+me split this not the HTML part we don't need it because we have code on
+
+123
+00:17:23,920 --> 00:17:32,800
+the top no if you see here the ticket specifically this whole container right
+
+124
+00:17:32,800 --> 00:17:36,760
+whole ticket is something we have to reach out something like class of lock
+
+125
+00:17:36,760 --> 00:17:41,920
+once we reach this class lock then we have to go inside the children element
+
+126
+00:17:41,920 --> 00:17:47,640
+which is icon okay let's try to do that firstly what I'll do it is that let's
+
+127
+00:17:47,640 --> 00:18:00,200
+say I I say that const let's say ticket lock element I say the query selector
+
+128
+00:18:00,200 --> 00:18:14,200
+document dot query selector inside that I'll pass like last lock so what I'm
+
+129
+00:18:14,240 --> 00:18:18,240
+trying to do it here is that I'm trying to reach that lock now inside this lock
+
+130
+00:18:18,240 --> 00:18:25,440
+I have to get exact element like ticket lock icon let's say I'm reaching out
+
+131
+00:18:25,440 --> 00:18:37,400
+that particular icon ticket lock element dot children of 0th element okay so if
+
+132
+00:18:37,400 --> 00:18:42,320
+you see first I restart this lock class inside that I went out to the children
+
+133
+00:18:42,320 --> 00:18:47,680
+to get me this thing now on this one's once what I'll do it on this one is
+
+134
+00:18:47,680 --> 00:18:53,840
+that I'll select this lock icon and I'm adding an event listener hey if you if
+
+135
+00:18:53,840 --> 00:19:01,760
+someone is clicking this thing I have to do something right simple so on
+
+136
+00:19:01,760 --> 00:19:06,320
+clicking of this thing what we are doing is some is some like let's say if you go
+
+137
+00:19:06,320 --> 00:19:11,200
+back and see right there should be an identifier from the design perspective
+
+138
+00:19:11,200 --> 00:19:17,200
+let's say there's a ticket some random ticket once I click this I should be
+
+139
+00:19:17,200 --> 00:19:22,240
+able to identify that hey someone had made a content editable so what I'm
+
+140
+00:19:22,240 --> 00:19:26,000
+thinking here is that let's change the icon once a user clicks it let's show
+
+141
+00:19:26,000 --> 00:19:31,360
+that like lock is open like going back to the font awesome site let's let's go
+
+142
+00:19:31,360 --> 00:19:38,320
+back to the font awesome for now some then I go to the icons let's say if you
+
+143
+00:19:38,320 --> 00:19:46,080
+see lock I said that lock open let's search this if you see this thing so
+
+144
+00:19:46,080 --> 00:19:51,520
+we'll be using this one and we'll try to toggle it now toggling that lock open
+
+145
+00:19:51,520 --> 00:19:57,640
+and close same functionality let's take this so what we'll do is that I'll copy
+
+146
+00:19:57,640 --> 00:20:03,800
+this open because if you see I just need FA lock open class because for the both
+
+147
+00:20:03,800 --> 00:20:10,600
+the classes if you go and see on the top if a lock if a solid is common thing if
+
+148
+00:20:10,600 --> 00:20:14,840
+a lock open and if a lock is a something which I have to toggle I have to remove
+
+149
+00:20:14,840 --> 00:20:20,640
+this class and add open class that's just just those two things I have to
+
+150
+00:20:20,640 --> 00:20:30,360
+handle so what I'll do here is that let's say I have two classes lock ticket
+
+151
+00:20:30,400 --> 00:20:41,040
+saying that I have to use this one I'll use this and then I'll say that unlock
+
+152
+00:20:41,040 --> 00:20:55,840
+ticket okay so just I'm using those same lock open not unlock so here the first
+
+153
+00:20:55,880 --> 00:21:00,040
+use case that I'll do is like once a user is clicking this one right I'll check
+
+154
+00:21:00,040 --> 00:21:06,800
+firstly which type of icon is existing in this like if particular ticket a lock
+
+155
+00:21:06,800 --> 00:21:14,280
+icon is having let's say class list inside this class list contains what I'll
+
+156
+00:21:14,280 --> 00:21:19,560
+check is that if it is already this is containing if it is a lock already
+
+157
+00:21:19,600 --> 00:21:27,920
+let's say if there's a lock already then I'm supposed to unlock it so what I'll
+
+158
+00:21:27,920 --> 00:21:34,720
+do is that hey I'll say that ticket list out of this ticket you know element dot
+
+159
+00:21:34,720 --> 00:21:50,320
+class list dot remove if a lock and then add if a lock open is this idea clear to
+
+160
+00:21:50,320 --> 00:21:57,040
+you guys like what I'm trying to do I'm just like toggling it using those icons
+
+161
+00:21:57,040 --> 00:22:03,280
+like I'm just using CSS classes I'm just using them okay same thing I'll do it
+
+162
+00:22:03,280 --> 00:22:13,240
+here so I'll put this on top then I'll click remove then I'll add it let's see
+
+163
+00:22:13,240 --> 00:22:20,400
+this if this is working fine script is something we are editing now going back
+
+164
+00:22:20,400 --> 00:22:27,960
+to our code let's say I have this random information of text and then we create a
+
+165
+00:22:27,960 --> 00:22:31,880
+ticket now once I'm clicking this nothing is happening let's see this why
+
+166
+00:22:31,920 --> 00:22:37,520
+this is not happening okay we haven't even called this function yet now handle
+
+167
+00:22:37,520 --> 00:22:43,040
+ticket needs a ticket now if you want to add a listener to a particular locks of
+
+168
+00:22:43,040 --> 00:22:49,960
+it all the tickets right we can only you know add a listener as we have discussed
+
+169
+00:22:49,960 --> 00:22:54,480
+in last class only from a place where we are actually creating a ticket because
+
+170
+00:22:54,480 --> 00:23:00,360
+here we'll have access to the ticket which is being created some hand just
+
+171
+00:23:00,360 --> 00:23:05,460
+where how the the way we handled removing will also handle the same way
+
+172
+00:23:05,460 --> 00:23:13,000
+the locking system okay let's go back and try to see if this is working fine
+
+173
+00:23:13,000 --> 00:23:20,000
+some random text and I click all now if I click this see there's something
+
+174
+00:23:20,000 --> 00:23:34,680
+happening here let's see this what's happening so if you see okay so we were
+
+175
+00:23:34,680 --> 00:23:39,640
+actually adding you know lock removing lock to the parent element instead we
+
+176
+00:23:39,640 --> 00:23:51,520
+should have been doing it for lock icon right now let's try to recreate some
+
+177
+00:23:51,520 --> 00:24:01,020
+alpha gibberish art now when I click this so yes how many of you did
+
+178
+00:24:01,020 --> 00:24:05,080
+understand this logic if there is someone who didn't understand they can
+
+179
+00:24:05,080 --> 00:24:09,520
+very well give me thumbs down so that I can repeat it because I moved a bit fast
+
+180
+00:24:09,520 --> 00:24:15,240
+here reason behind it's the same logic that we have still now implemented okay
+
+181
+00:24:15,240 --> 00:24:23,520
+so repeating it again guys no now let's see what's actually happening here okay
+
+182
+00:24:24,480 --> 00:24:37,440
+let's say okay I'll update here ticket no so let's see this case firstly my idea
+
+183
+00:24:37,440 --> 00:24:42,640
+was to you know play around with something called as lock as I have this
+
+184
+00:24:42,640 --> 00:24:48,920
+ticket no I have to add an event listener to this lock no there can be a
+
+185
+00:24:48,920 --> 00:24:54,120
+number of tickets and number of tasks which will have a number of locks so for
+
+186
+00:24:54,120 --> 00:24:59,760
+each task you will have a locks one one lock so for a way if I can if I want to
+
+187
+00:24:59,760 --> 00:25:03,720
+add a listener to this particular lock the only way that I can deal with it is
+
+188
+00:25:03,800 --> 00:25:08,080
+that whenever I'm creating this ticket itself I'll add a listener to that
+
+189
+00:25:08,080 --> 00:25:15,720
+particular thing so I called a function from create ticket itself and inside
+
+190
+00:25:15,720 --> 00:25:21,880
+that handle lock I passed on the ticket which is created if you see after
+
+191
+00:25:21,880 --> 00:25:26,440
+appending to the main container and passing on that ticket itself into the
+
+192
+00:25:26,440 --> 00:25:31,680
+handle lock inside handle lock I'm just trying to attach to that particular icon
+
+193
+00:25:31,680 --> 00:25:37,080
+that lock icon and event listener click and this part of code will be only
+
+194
+00:25:37,080 --> 00:25:43,720
+executed only when user clicks on that particular lock icon so now once user is
+
+195
+00:25:43,720 --> 00:25:50,240
+clicking on this so we are checking what type of is it a locked icon is present
+
+196
+00:25:50,240 --> 00:25:55,280
+or it's a locked icon so if I see if you see if it is a lock already it's like a
+
+197
+00:25:55,280 --> 00:26:00,840
+fail lock because that that's how we are talking CSS classes checking from font
+
+198
+00:26:00,880 --> 00:26:06,520
+awesome so if it is a fail lock then if it is a fail lock then I'm trying to
+
+199
+00:26:06,520 --> 00:26:11,920
+remove that class and then I'm adding a fail lock open open the lock and if not
+
+200
+00:26:11,920 --> 00:26:17,520
+if it is already open then I'm removing the open and adding a lock to it so just
+
+201
+00:26:17,520 --> 00:26:22,400
+toggling this icon adding an event listener to this icon just added a
+
+202
+00:26:22,400 --> 00:26:26,640
+listener and I toggled it depending on a condition depending on which type of
+
+203
+00:26:26,640 --> 00:26:31,520
+icon is there is this clear guys now
+
+204
+00:26:34,920 --> 00:26:44,760
+any doubts anyone having any doubts okay great now now comes interesting thing
+
+205
+00:26:44,760 --> 00:26:51,440
+now comes the main tricky thing like once you open the lock we have to make
+
+206
+00:26:51,440 --> 00:27:00,860
+this editable does anyone know how can they edit any content on any website
+
+207
+00:27:00,860 --> 00:27:06,400
+any content on any website there's a one powerful attribute which allows you to
+
+208
+00:27:06,400 --> 00:27:14,360
+change anything like even yeah I think Hemangi has suggested let's say if I
+
+209
+00:27:14,360 --> 00:27:20,440
+want to if I want to change the start even if I want to change the start I can
+
+210
+00:27:20,440 --> 00:27:27,600
+do this very well like if you see there is an attribute called like if I add
+
+211
+00:27:27,600 --> 00:27:46,400
+something like let's say content editable okay to true no once I do this
+
+212
+00:27:46,440 --> 00:27:52,120
+okay it restart refresh let's say we are editing this font or some site it's one
+
+213
+00:27:52,120 --> 00:28:01,000
+tag and I add something like let's say
+
+214
+00:28:02,200 --> 00:28:12,000
+content editable I pass on value like true okay once I make this country
+
+215
+00:28:12,600 --> 00:28:18,760
+now as soon as I click here I can write my name on actual website which won't be
+
+216
+00:28:18,760 --> 00:28:25,560
+saved anyways which will be you know dynamic in nature but on the click of
+
+217
+00:28:25,560 --> 00:28:31,640
+alt if you remember on ticket you are always updating that content right as
+
+218
+00:28:31,640 --> 00:28:37,200
+for our application logic but do you understand the power of content a double
+
+219
+00:28:37,200 --> 00:28:42,040
+attribute on any content like across any system like you can go to the
+
+220
+00:28:42,040 --> 00:28:49,560
+scaler site also let's say if we go for scaler.com for me invented dashboard
+
+221
+00:28:49,560 --> 00:29:05,560
+will load I don't know what this is there are too many things okay let's let it be
+
+222
+00:29:05,560 --> 00:29:09,960
+but content editable allows you to do anything guys anything that you want to
+
+223
+00:29:09,960 --> 00:29:17,080
+deal with okay that's our basic idea so what I'll do is that firstly when lock
+
+224
+00:29:17,080 --> 00:29:22,440
+is open I'll get an access to this content then I'll make it content data
+
+225
+00:29:22,440 --> 00:29:28,960
+blast true so that user can edit that content let's let's try to do that first
+
+226
+00:29:28,960 --> 00:29:32,880
+you for if you want to make any change to this one we have to get access to
+
+227
+00:29:32,880 --> 00:29:39,040
+this particular text so in order to do that if you see here we already have a
+
+228
+00:29:39,040 --> 00:29:44,800
+ticket right we already have a ticket now using the ticket we can always get
+
+229
+00:29:44,800 --> 00:29:50,400
+an access to this task area where we are having whole info of a particular
+
+230
+00:29:50,400 --> 00:30:02,000
+ticket okay so let's go there let's come back here I say that const ticket task
+
+231
+00:30:02,000 --> 00:30:09,920
+area while ticket dot query selector inside that I'll say that task area get
+
+232
+00:30:09,920 --> 00:30:17,520
+me that ask once I have this ticket task area I have to just in order to deal
+
+233
+00:30:17,520 --> 00:30:21,240
+with attributes what is the one method that we have discussed on any of the
+
+234
+00:30:21,840 --> 00:30:35,280
+elements how can you add a new attribute from JS just think of it like we have
+
+235
+00:30:35,280 --> 00:30:45,240
+discussed this already and I believe we have used it here somewhere yeah like
+
+236
+00:30:45,240 --> 00:30:50,800
+this one right if you see we were adding class set attribute right like
+
+237
+00:30:50,800 --> 00:30:55,080
+earlier we were adding a set attribute to add a new class this was an attribute
+
+238
+00:30:55,080 --> 00:31:00,680
+so same way if you want to add an attribute to existing element HTML
+
+239
+00:31:00,680 --> 00:31:07,240
+element I'll use that same thing when when there is an unlock when a user is
+
+240
+00:31:07,240 --> 00:31:16,480
+trying to unlock I'll make ticket task area dot set attribute I'll add a new
+
+241
+00:31:16,480 --> 00:31:25,720
+attribute card content editable and I'll make it as true and when user is
+
+242
+00:31:25,720 --> 00:31:37,760
+trying to lock a ticket I'll make it as false okay now let's see this if it is
+
+243
+00:31:37,760 --> 00:31:45,880
+working as we expected so let's create a task some gibberish and let's say I
+
+244
+00:31:45,880 --> 00:31:51,640
+have this one once I click this there's nothing this you see editable things
+
+245
+00:31:51,640 --> 00:31:58,120
+are editable now I can go and say this is the task one and I can click back to
+
+246
+00:31:58,120 --> 00:32:04,440
+close that like close the lock again is this clear guys how this locking
+
+247
+00:32:04,440 --> 00:32:08,280
+mechanism is working pretty simple and straightforward compared to what we
+
+248
+00:32:08,280 --> 00:32:14,680
+have done yesterday isn't it just getting an adding an event listener to
+
+249
+00:32:14,680 --> 00:32:19,600
+this lock and clicking on unlock we'll make it this country table and once you
+
+250
+00:32:19,600 --> 00:32:24,880
+user edit shirts again he clicks back on this one we are locking that so simple
+
+251
+00:32:24,880 --> 00:32:29,480
+straightforward if else condition and nothing much more interesting here
+
+252
+00:32:29,480 --> 00:32:35,400
+isn't it so any doubts guys on this handle lock how we are dealing with
+
+253
+00:32:35,400 --> 00:32:37,960
+handle lock
+
+254
+00:32:41,640 --> 00:32:48,680
+clear right great now now comes the second thing that we have to deal with
+
+255
+00:32:48,680 --> 00:32:55,920
+is that let's say I create a task one no I click here no do you remember we
+
+256
+00:32:55,920 --> 00:33:01,000
+earlier thought that you know this is a like pink statement pink line pink
+
+257
+00:33:01,000 --> 00:33:06,360
+color starts that you know tasks which need to be done when we say green it is
+
+258
+00:33:06,360 --> 00:33:11,560
+it means to be say that in progress and when we say sorry when we say blue it is
+
+259
+00:33:11,560 --> 00:33:17,320
+completed sorry to it need to be evaluated and when we say black task is
+
+260
+00:33:17,320 --> 00:33:21,680
+completed so these are the four statuses earlier we discussed now let's say if I
+
+261
+00:33:21,680 --> 00:33:27,240
+want to make it this task into in progress one click of this thing I this
+
+262
+00:33:27,240 --> 00:33:31,880
+color palette I'll be I should be able to make this color palette color change to
+
+263
+00:33:31,880 --> 00:33:36,360
+the green on the next time if I click again I should be able to make it to the
+
+264
+00:33:36,360 --> 00:33:41,760
+blue then I should be able to make it to black right this is the thing that we
+
+265
+00:33:41,760 --> 00:33:47,120
+should be able to play around with now I want you guys to think like how would
+
+266
+00:33:47,120 --> 00:33:52,920
+you handle this requirement let's say this comes to you now it would be
+
+267
+00:33:52,920 --> 00:33:57,920
+pretty straightforward that hey I'll get an access I'll get an access to this one
+
+268
+00:33:57,920 --> 00:34:02,360
+each ticket again same I will add a listener to this one but how would you
+
+269
+00:34:02,360 --> 00:34:07,560
+know that on click of this particular color I have to what color next color
+
+270
+00:34:07,560 --> 00:34:13,640
+would come and how would you update this color just think of that one how would
+
+271
+00:34:13,640 --> 00:34:24,440
+you update the color meanwhile I'll try to set up the dummy logic or you can say
+
+272
+00:34:24,440 --> 00:34:31,000
+the usual logic that we do it okay what I'll do is that let's say I say simple
+
+273
+00:34:31,000 --> 00:34:37,000
+handle color again because adding event listener is same thing let's say I go
+
+274
+00:34:37,000 --> 00:34:46,520
+back here I say that handle color hey I'm receiving a ticket in this inside
+
+275
+00:34:46,520 --> 00:34:55,280
+this then what I'll do supposed the same thing that I'll add let's say let's say
+
+276
+00:34:55,280 --> 00:35:05,120
+once once I have to get an access to this color from ticket dot query
+
+277
+00:35:05,120 --> 00:35:07,640
+selector
+
+278
+00:35:08,520 --> 00:35:17,080
+now if you go back and see what however adding earlier color was this one using
+
+279
+00:35:17,080 --> 00:35:25,960
+something called a stick at color isn't it so let's let's pick this one
+
+280
+00:35:36,120 --> 00:35:50,360
+okay no this is fine you got a access to this color now what's next or else
+
+281
+00:35:50,360 --> 00:35:55,600
+let's say this is as a color if I have to give a right naming convention color
+
+282
+00:35:55,600 --> 00:36:01,560
+band on this color band now you have to one thing you have to do is like add a
+
+283
+00:36:01,560 --> 00:36:06,560
+listener to this one so let's say I also add a listener to this one color band
+
+284
+00:36:06,560 --> 00:36:11,360
+odd add event listener and something that we are listening to is a click type
+
+285
+00:36:11,360 --> 00:36:17,040
+now once we click something we have to do some logic now tell me something like
+
+286
+00:36:17,040 --> 00:36:20,880
+what you want to do or else give me the statement so that I can write the
+
+287
+00:36:20,880 --> 00:36:25,800
+statement what could be the idea let's say I am trying to write a comments
+
+288
+00:36:25,800 --> 00:36:30,400
+here what would you want to do it here let's say user comes and clicks on that
+
+289
+00:36:30,400 --> 00:36:38,440
+color pallet some gibberish no we have a listener attached to this one now when
+
+290
+00:36:38,440 --> 00:36:42,120
+a user clicks we should be able to identify what could be the next color
+
+291
+00:36:42,120 --> 00:36:46,360
+using the current color isn't it
+
+292
+00:36:50,080 --> 00:36:53,560
+now how can we do that
+
+293
+00:36:54,560 --> 00:37:02,720
+how can we do that loop a loop on what some bit a loop on what where would you
+
+294
+00:37:02,720 --> 00:37:10,880
+apply a loop on so can you guys think this way that on classes of color but
+
+295
+00:37:10,880 --> 00:37:15,280
+you need a classes of color first on something like an array right once you
+
+296
+00:37:15,280 --> 00:37:22,120
+have this let's say const color and then you can add a color to it and then you
+
+297
+00:37:22,120 --> 00:37:29,480
+const colors once you have this colors let's say if you see what order we have
+
+298
+00:37:29,480 --> 00:37:34,360
+this is light pink light green blue and black let's say I make those colors
+
+299
+00:37:34,360 --> 00:37:44,760
+itself light pink let's say light green
+
+300
+00:37:44,760 --> 00:38:00,840
+then light blue then black so using this array if if you think if you say
+
+301
+00:38:00,840 --> 00:38:06,640
+this if we if I have this array now if you see what if if the current color is
+
+302
+00:38:06,640 --> 00:38:12,200
+pink I'm supposed to update that color with light green which is like index
+
+303
+00:38:12,200 --> 00:38:17,200
+plus one right that's the same logic we can apply like if the current color is
+
+304
+00:38:17,200 --> 00:38:21,960
+light green then we can make light blue if it is light blue then I can make
+
+305
+00:38:21,960 --> 00:38:27,200
+black and someone clicking black I can make light pink again so we have to just
+
+306
+00:38:27,200 --> 00:38:34,340
+keep on moving on a circular motion of the same array right identifying current
+
+307
+00:38:34,540 --> 00:38:46,940
+and selecting the next index of it guys are you able to think in this way like
+
+308
+00:38:46,940 --> 00:38:51,700
+is anyone facing challenge understanding my point here if you are not able to
+
+309
+00:38:51,700 --> 00:39:01,900
+understand give me thumbs down guys feel free to do that thing okay great great
+
+310
+00:39:01,940 --> 00:39:10,180
+at least one to further guys okay circular movement got it but not getting
+
+311
+00:39:10,180 --> 00:39:16,020
+any logic how to do it okay but but let's let's let's do this once if we
+
+312
+00:39:16,020 --> 00:39:20,780
+write first let's we write down in the comments part like like just a comment
+
+313
+00:39:20,780 --> 00:39:30,940
+we have to find we have to find color of the band okay just existing color of the
+
+314
+00:39:31,180 --> 00:39:55,500
+and then index of that color from colors array and then we need to update color
+
+315
+00:39:55,500 --> 00:40:09,960
+of a band with next index of color is this is what we have to do this one
+
+316
+00:40:09,960 --> 00:40:18,700
+right is this point clear to everyone now what we are supposed to do it as I
+
+317
+00:40:18,700 --> 00:40:23,660
+see some of the comments those great guys the region summit but is is this
+
+318
+00:40:23,660 --> 00:40:31,980
+point everyone able to understand it give me thumbs down if stills there is
+
+319
+00:40:31,980 --> 00:40:36,740
+someone who is struggling to understand the point like how we can handle color
+
+320
+00:40:36,740 --> 00:40:47,140
+band logic someone picks a random color how he would pick it up enough even if
+
+321
+00:40:47,140 --> 00:40:55,020
+I let's say week like let's say I clear task one even if we pick green doesn't
+
+322
+00:40:55,020 --> 00:40:59,020
+matter we'll try to find out the index of this green then we are supposed to
+
+323
+00:40:59,020 --> 00:41:08,380
+move to blue when we use the clicks here so it's just a moving things in order
+
+324
+00:41:08,380 --> 00:41:12,500
+when we are changing the color palette it is like status right if you remember
+
+325
+00:41:12,500 --> 00:41:17,540
+what we have pointed this one as
+
+326
+00:41:17,540 --> 00:41:45,020
+pink was to be done now then we have green in progress then blue to be
+
+327
+00:41:45,300 --> 00:41:59,740
+validated black was completed when user is toggling on a bar right when a user
+
+328
+00:41:59,740 --> 00:42:05,620
+is toggling on this bar he's supposed to move in this order itself
+
+329
+00:42:05,620 --> 00:42:15,420
+then black to green ok black to green this is in a circular motion right once
+
+330
+00:42:15,420 --> 00:42:21,140
+if it goes into the black then you'll go to pink then you can update to green
+
+331
+00:42:21,140 --> 00:42:28,940
+this will happen in circular motion we can reopen the ticket all the times we
+
+332
+00:42:28,940 --> 00:42:35,180
+can update the status of ticket again I think few people have already added the
+
+333
+00:42:35,340 --> 00:42:39,860
+handle the edge cases already if you see the above suggestion people have
+
+334
+00:42:39,860 --> 00:42:44,660
+suggested but coming back to that I'll show it like how we can do it now let's
+
+335
+00:42:44,660 --> 00:42:52,660
+say first and foremost thing first and foremost thing we have to find a color
+
+336
+00:42:52,660 --> 00:43:01,620
+of the band now how we can find the color of the band firstly let's say once
+
+337
+00:43:01,660 --> 00:43:07,380
+I have this ticket color if you see this ticket color this is the ticket color
+
+338
+00:43:07,380 --> 00:43:25,780
+right if I get if I get let's say const current color equal to color band dot
+
+339
+00:43:25,780 --> 00:43:33,380
+class list of 0th element let's do console dot log if I'm able to get
+
+340
+00:43:33,380 --> 00:43:38,900
+current color okay let's see if I'm able to get the current color now some
+
+341
+00:43:38,900 --> 00:43:50,340
+gibberish let's say firstly if I go and see this if I click here I'm able to get
+
+342
+00:43:50,340 --> 00:43:55,660
+that light pink axis is this point clear to everyone firstly I'll come back to
+
+343
+00:43:55,660 --> 00:44:00,300
+Abhinav's question somebody thank you for taking this but how I'm able to
+
+344
+00:44:00,300 --> 00:44:05,860
+access this light pink is clear now how I would be able to find the index of
+
+345
+00:44:05,860 --> 00:44:15,100
+this light pink is the question now let's say I say that current color index
+
+346
+00:44:15,100 --> 00:44:22,260
+do you see this I got this autocomplete but let's say I can write this one in two
+
+347
+00:44:22,260 --> 00:44:29,340
+ways index of I can use it also I can use something like another way of
+
+348
+00:44:29,340 --> 00:44:38,100
+writing is find index whereas it will be using as a iterator each time a color
+
+349
+00:44:38,100 --> 00:44:59,100
+comes I'll return color equal to current color so this is the one way you can
+
+350
+00:44:59,100 --> 00:45:12,420
+write down then the other way around was like simple current color index like
+
+351
+00:45:12,420 --> 00:45:34,860
+console dot log current color index okay let's see if this is working fine
+
+352
+00:45:34,860 --> 00:45:42,420
+create a some gibberish task and selecting and doing it now once I click
+
+353
+00:45:42,420 --> 00:45:49,100
+index of let's see
+
+354
+00:45:52,940 --> 00:45:55,940
+no
+
+355
+00:46:05,860 --> 00:46:18,140
+hmm I did he's in right winner okay let's see if this logic is working fine
+
+356
+00:46:18,140 --> 00:46:25,340
+I uncommon this logic and I'll remove this one as of now just let's let's
+
+357
+00:46:25,340 --> 00:46:46,220
+just verify I didn't apply it on array pardon me guys thank you once I click
+
+358
+00:46:46,220 --> 00:46:52,740
+this I'm able to access light green is of index one okay so hope this part is
+
+359
+00:46:52,740 --> 00:46:58,980
+clear now the second and third most thing is like finding the next index
+
+360
+00:46:58,980 --> 00:47:10,260
+okay so if I say const new color index or new color let's say if I directly
+
+361
+00:47:10,260 --> 00:47:19,260
+update it if I directly new color let's say if I give this as you can say
+
+362
+00:47:19,260 --> 00:47:30,900
+colors of current color index plus one and once I have this current color plus
+
+363
+00:47:30,900 --> 00:47:37,100
+index now the the thing I have to toggle is I have to do only from the classes
+
+364
+00:47:37,100 --> 00:47:42,780
+remove and add now I will do that remove and add on the color band now once I
+
+365
+00:47:42,820 --> 00:47:56,820
+have this class list I can do remove the current color and color band dot class
+
+366
+00:47:56,820 --> 00:48:04,660
+list dot add new color is this logic clear to everyone like how we are
+
+367
+00:48:04,660 --> 00:48:12,900
+writing this one does anyone face any challenge here there's a one condition
+
+368
+00:48:12,900 --> 00:48:17,740
+I'm missing but there's already few people answered that one for circular
+
+369
+00:48:17,740 --> 00:48:23,300
+array let's say if you see this is the same thing that we have done first we
+
+370
+00:48:23,300 --> 00:48:28,300
+have to find the color of the band now if you see for first sentence I found
+
+371
+00:48:28,300 --> 00:48:34,060
+the current color of the band then index of that color okay I found the current
+
+372
+00:48:34,060 --> 00:48:40,180
+index of that color okay then we need to update the color of the band with the
+
+373
+00:48:40,180 --> 00:48:45,340
+next index color so first I got the next color which is our next index color new
+
+374
+00:48:45,340 --> 00:48:51,020
+color then I removed it the existing one added the new color right plain simple
+
+375
+00:48:51,020 --> 00:48:55,620
+steps now if you go and see let's create one task
+
+376
+00:48:55,620 --> 00:49:07,500
+then I click option then if I toggle this if you see I'm going to green now
+
+377
+00:49:07,500 --> 00:49:20,300
+yeah coming back to that question okay no did I make no let's see what we just
+
+378
+00:49:20,340 --> 00:49:33,300
+did it let's try to delete this existing one let's recreate a new one again to
+
+379
+00:49:33,300 --> 00:49:42,340
+just to show you the behavior okay we have this now going back into this part
+
+380
+00:49:42,340 --> 00:49:51,380
+of logic what's happening when I click on pink now if you see the current color
+
+381
+00:49:51,380 --> 00:49:56,900
+would be the light pink now once I get the index of light pink now let's see
+
+382
+00:49:56,900 --> 00:50:03,100
+what is the index of light pink if you see the guard index value is 0 now if
+
+383
+00:50:03,100 --> 00:50:09,420
+you go to the next thing now second new color becomes light green since index
+
+384
+00:50:09,420 --> 00:50:13,940
+one value was a light green if you see it from the air itself then we are
+
+385
+00:50:13,940 --> 00:50:19,660
+removing current color and adding new color okay so green it has become green
+
+386
+00:50:19,660 --> 00:50:28,060
+now from green let's if I click it again now I click play again if you see I got
+
+387
+00:50:28,060 --> 00:50:36,860
+current index as a minus 1 what could be the issue what could be the issue just
+
+388
+00:50:36,860 --> 00:50:44,060
+think of this firstly what happened here if someone think can think what
+
+389
+00:50:44,060 --> 00:50:54,180
+problem just we arrived at oh well create the rest I missed did anyone can
+
+390
+00:50:54,180 --> 00:51:02,900
+think of this thing what just happened can anyone look at this what just
+
+391
+00:51:02,940 --> 00:51:09,680
+happened here ticket color once we adding new color right if you see in the
+
+392
+00:51:09,680 --> 00:51:16,540
+logic we are removing existing color and adding new color whenever new color is
+
+393
+00:51:16,540 --> 00:51:22,420
+added using you know this one class list add all the colors which are new colors
+
+394
+00:51:22,420 --> 00:51:28,260
+coming it will be added in the second question or the last question right like
+
+395
+00:51:28,260 --> 00:51:33,060
+first earlier if we remove light pink which was in the first position then we
+
+396
+00:51:33,060 --> 00:51:36,140
+added light green light green went on the second portion now we are trying to
+
+397
+00:51:36,140 --> 00:51:41,900
+remove the ticket color which is at zero at the index because we try to fetch it
+
+398
+00:51:41,900 --> 00:51:47,100
+existing current color from zero at the index now the code is breaking at this
+
+399
+00:51:47,100 --> 00:51:55,020
+line is this point clear like is an everyone able to think from this point
+
+400
+00:51:55,060 --> 00:52:03,380
+anyone who don't understand this one is anyone who don't understand this one
+
+401
+00:52:04,180 --> 00:52:08,380
+guys if there is anyone who don't understand this point give me thumbs
+
+402
+00:52:08,380 --> 00:52:16,380
+down if there is anyone okay now if everyone is understanding this point now
+
+403
+00:52:16,380 --> 00:52:21,940
+suggest me how can you address this issue how can you add okay I've been
+
+404
+00:52:21,980 --> 00:52:26,540
+says one more time now let's let's walk through this one again let's walk
+
+405
+00:52:26,540 --> 00:52:34,740
+through this one again okay let's refresh this one I'll create a new ticket
+
+406
+00:52:34,740 --> 00:52:41,860
+some random gibberish no just look at this I've you know what happened here
+
+407
+00:52:41,860 --> 00:52:47,780
+firstly on clicking off if you currently see right if you see if I go into this
+
+408
+00:52:47,780 --> 00:52:53,260
+current ticket that got created in the ticket container if you see I'm having
+
+409
+00:52:53,260 --> 00:53:00,180
+light pink and ticket color as a this banner for this one okay now once I go
+
+410
+00:53:00,180 --> 00:53:06,260
+into source code if you once I click here if you see I'm getting access to
+
+411
+00:53:06,260 --> 00:53:11,580
+this light pink from the dom token list because I'm trying to access 0th
+
+412
+00:53:11,580 --> 00:53:17,740
+element inside the class list okay now once I try to get an access to the 0th
+
+413
+00:53:17,740 --> 00:53:24,420
+element I am able to fetch exactly the light pink one that point is clear no
+
+414
+00:53:24,420 --> 00:53:29,340
+because it's right thing is at 0th question once I do enter if you see
+
+415
+00:53:29,340 --> 00:53:33,900
+current color is something that we wanted now using this one light pink we
+
+416
+00:53:33,900 --> 00:53:37,620
+were figuring out what would be the next color that we have to update with light
+
+417
+00:53:37,620 --> 00:53:42,540
+green so once we did it now if I'm removing it let's say if I go into the
+
+418
+00:53:42,540 --> 00:53:47,220
+next step of removing it now if you see we are removing this light pink as soon
+
+419
+00:53:47,220 --> 00:53:53,060
+as I click a play as soon as I click a play in the source tab or here in the
+
+420
+00:53:53,060 --> 00:53:59,940
+limits tab just think look at it here light pink will be removed light pink is
+
+421
+00:53:59,940 --> 00:54:05,420
+removed now next color will be added which is light green light green is
+
+422
+00:54:05,420 --> 00:54:12,100
+added in the second question now when I try when I try to do it again from green
+
+423
+00:54:12,100 --> 00:54:18,340
+to blue when I'm trying to access the 0th index of color band I'm getting an
+
+424
+00:54:18,340 --> 00:54:26,820
+access to ticket color instead of light green that was a bug is that point
+
+425
+00:54:26,820 --> 00:54:33,600
+clear everyone I try to repeat and show that whole debugging part so I have to
+
+426
+00:54:33,600 --> 00:54:41,580
+address this issue instead of going and addressing you know like changing the
+
+427
+00:54:41,580 --> 00:54:47,180
+position of how we are adding it can we think of addressing this issue in the
+
+428
+00:54:47,180 --> 00:54:51,540
+right way here itself in the function rather than trying to access current
+
+429
+00:54:51,540 --> 00:54:54,140
+color this way
+
+430
+00:55:07,380 --> 00:55:17,420
+think of it simply now can we say this class list is array of elements can we
+
+431
+00:55:17,420 --> 00:55:23,780
+say this class list is an array of elements once we try to access ticket
+
+432
+00:55:23,780 --> 00:55:28,060
+color light green light blue any number of elements you add once I get an access
+
+433
+00:55:28,060 --> 00:55:33,820
+to this element then I can say that class list and I have to select other
+
+434
+00:55:33,820 --> 00:55:43,340
+than ticket color is my current color other than ticket color whatever color
+
+435
+00:55:43,340 --> 00:55:47,420
+is there present in this day is the color that I want to is a current color
+
+436
+00:55:47,420 --> 00:55:55,860
+or that bad is anyone able to think in that perspective just I'm trying to say
+
+437
+00:55:55,860 --> 00:56:03,980
+that simple example let's say what I'll do that I'll say that let current color
+
+438
+00:56:04,820 --> 00:56:21,700
+okay now I can say out of this color band class list dot for each I'll get
+
+439
+00:56:21,700 --> 00:56:31,380
+color okay I'll say the return
+
+440
+00:56:34,980 --> 00:56:44,380
+color not equal to dot to get color
+
+441
+00:56:49,860 --> 00:56:57,580
+is anyone able to think this way this would work or it wouldn't work let's say
+
+442
+00:56:57,580 --> 00:57:09,940
+I make it const here itself instead of writing it later in this step did like
+
+443
+00:57:09,940 --> 00:57:19,580
+is it clicking guys are you able to understand this point like I'm just
+
+444
+00:57:19,580 --> 00:57:24,380
+iterating to the existing color and I'm checking that if the current color is not
+
+445
+00:57:24,380 --> 00:57:27,700
+equal to ticket color give me that because I have only two things here I
+
+446
+00:57:27,700 --> 00:57:32,460
+have only two things there one is the color of the band other is the ticket
+
+447
+00:57:32,460 --> 00:57:36,380
+color so I'm saying that other than ticket color give me anything that you
+
+448
+00:57:36,380 --> 00:57:41,020
+have let's see this if this logic is working firstly let's see this if this
+
+449
+00:57:41,020 --> 00:57:52,580
+logic is working I'll say this is a task one I click shift for the old key now
+
+450
+00:57:52,620 --> 00:58:04,420
+once I have this let's say click this now I go to the next step now let's say
+
+451
+00:58:04,420 --> 00:58:14,060
+what I'm getting here okay I'm getting undefined let's say I write down the
+
+452
+00:58:14,060 --> 00:58:31,500
+logic here itself colors dot class list of zero at index so it's a colors band
+
+453
+00:58:32,500 --> 00:58:49,780
+dot class list dot for each right I'm getting color inside that if I try to
+
+454
+00:58:49,780 --> 00:59:03,060
+return the statement color not equal to something like ticket color okay I have
+
+455
+00:59:03,060 --> 00:59:09,740
+to check this one whether I'm getting something like ticket color or dot
+
+456
+00:59:09,740 --> 00:59:18,420
+ticket color can we just unshift and start always huh right some with we
+
+457
+00:59:18,420 --> 00:59:26,220
+are iterating through this one I'm just picking the other color we can do
+
+458
+00:59:26,220 --> 00:59:31,820
+unshift also but let's do that both things some bit okay whatever you are
+
+459
+00:59:31,820 --> 00:59:38,220
+suggesting let me just go through this one that's I think this one I go inside
+
+460
+00:59:38,220 --> 00:59:46,620
+this I say color I'm getting light pink so I'm supposedly not sure I should
+
+461
+00:59:46,620 --> 00:59:58,380
+picking a dot one dot operator sorry darn I have to remove this so let's say
+
+462
+00:59:58,380 --> 01:00:16,340
+I readdress this one option then I click here no I can pick this still
+
+463
+01:00:28,380 --> 01:00:49,740
+just a second guys I went on to the color then if it is not equal to this
+
+464
+01:00:49,740 --> 01:00:59,940
+one then it should return it why I'm getting here inside this again okay now
+
+465
+01:00:59,940 --> 01:01:16,900
+I am in the light pink no ticket color let's make double equal to strictly
+
+466
+01:01:17,020 --> 01:01:34,220
+checking is anyone able to think why this logic is failing I'm just going
+
+467
+01:01:34,220 --> 01:01:55,500
+going on a color band I have two things have 0th index sorry for each will
+
+468
+01:01:55,500 --> 01:02:03,020
+always go for all the elements doesn't matter the the way I'm writing that
+
+469
+01:02:03,020 --> 01:02:09,500
+condition was wrong okay the way I was writing that condition was wrong so
+
+470
+01:02:09,500 --> 01:02:19,260
+pardon me guys no one thing I can always do is let's say current color the myth
+
+471
+01:02:19,260 --> 01:02:26,060
+the logic I was using was wrong so let's say I have a for loop simple for loop
+
+472
+01:02:27,060 --> 01:02:31,900
+instead of this one let's say I use
+
+473
+01:02:31,900 --> 01:02:59,980
+and I can say that if it's not double equal to ticket color then the current
+
+474
+01:02:59,980 --> 01:03:08,740
+color would be this one okay let's see this
+
+475
+01:03:14,220 --> 01:03:23,260
+still I got something an issue okay color color band I'm making too many
+
+476
+01:03:23,340 --> 01:03:46,660
+mistakes today again again a color color band here again here three times now
+
+477
+01:03:46,660 --> 01:03:57,500
+it's working fine no but but if you guys see this the one way is like trying
+
+478
+01:03:57,500 --> 01:04:01,260
+to I treating through a loop and finding the other way around but the one
+
+479
+01:04:01,260 --> 01:04:06,380
+suggestion that I've got from some bit was Rick can't we always try to add new
+
+480
+01:04:06,380 --> 01:04:12,460
+color into the first element no we could have done that we could have done that
+
+481
+01:04:12,460 --> 01:04:18,460
+some bit easily but only if class list class list exactly works like array if
+
+482
+01:04:18,460 --> 01:04:24,340
+we can apply all the properties that we can apply on the like array here you
+
+483
+01:04:24,340 --> 01:04:28,100
+cannot add it like if you can do it see if you remember the array we cannot do
+
+484
+01:04:28,100 --> 01:04:35,980
+we can do push and pop but we cannot do add and remove okay some with reparties
+
+485
+01:04:35,980 --> 01:04:40,120
+that point here like why I was trying to through I truth to the loop and find it
+
+486
+01:04:40,120 --> 01:04:44,280
+out no firstly I'll try to explain this kind of thing that what I was trying to
+
+487
+01:04:44,280 --> 01:04:50,760
+do here is that if you see let's say we are a green in color now if I click on a
+
+488
+01:04:50,760 --> 01:04:56,480
+green so I'm going through the list of color bands now if you see on the color
+
+489
+01:04:56,480 --> 01:05:02,160
+bank last list I have two colors ticket color and light green light green so I'm
+
+490
+01:05:02,160 --> 01:05:08,880
+checking like if the existing in the loop right in the color color the class
+
+491
+01:05:08,880 --> 01:05:14,640
+list if the current color is not equal to ticket color get then the current
+
+492
+01:05:14,640 --> 01:05:20,040
+color would be the this one the other thing right if you see inside if I go I
+
+493
+01:05:20,040 --> 01:05:24,320
+cannot go inside the if condition because it was pointing to the ticket
+
+494
+01:05:24,320 --> 01:05:29,440
+color now comes the index one index one now if you see in this index one is
+
+495
+01:05:29,440 --> 01:05:34,160
+light green and this condition will satisfy it will go inside that and
+
+496
+01:05:34,160 --> 01:05:40,720
+update the current color as light green now if you find that current color is
+
+497
+01:05:40,720 --> 01:05:44,600
+light green same we've tried to find the index of it then move to the next index
+
+498
+01:05:44,600 --> 01:05:51,240
+and then remove and add so I hope this point is clear a basic point I made
+
+499
+01:05:51,240 --> 01:05:57,080
+many mistakes while writing it because too many autocorrects and too many
+
+500
+01:05:57,080 --> 01:06:06,960
+things guys does anyone need a dry run on this because I feel it's clear cut
+
+501
+01:06:07,760 --> 01:06:15,760
+what if last index coming to that point now what if last index now if I if I go
+
+502
+01:06:15,760 --> 01:06:20,640
+on a last index and minus one I do plus one and I try to access out of the
+
+503
+01:06:20,640 --> 01:06:26,080
+colors one sort of error we supposedly we have we should be getting it what
+
+504
+01:06:26,080 --> 01:06:36,080
+should be that error if you are trying to access nth element of an array
+
+505
+01:06:36,080 --> 01:06:40,720
+index out of bond right now how can you address that issue how can you address
+
+506
+01:06:40,720 --> 01:06:48,320
+that issue if you don't want to go into index out of bond and then you can want
+
+507
+01:06:48,320 --> 01:06:56,060
+to rotate it yeah same thing you have to you know get the reminder using color
+
+508
+01:06:56,060 --> 01:07:10,060
+start length simply right now let's see this let's try to create a task task one
+
+509
+01:07:10,060 --> 01:07:15,900
+and I select pink color and option now if I want to move to the next status
+
+510
+01:07:15,900 --> 01:07:20,580
+green I can move from green to blue I can go from blue to black I can go and
+
+511
+01:07:20,580 --> 01:07:25,540
+from black again I can go to pink then to green then to blue then to black
+
+512
+01:07:25,540 --> 01:07:30,360
+again okay and the second feature that we implemented was this one like
+
+513
+01:07:30,360 --> 01:07:35,340
+updating layer task two and then I can close back again again I can update the
+
+514
+01:07:35,340 --> 01:07:41,380
+status so is this both things guys clear to you what we had just done like
+
+515
+01:07:41,380 --> 01:07:46,820
+simply selecting from the current array of the like I'm trying to find the next
+
+516
+01:07:46,820 --> 01:07:51,860
+element and just updating that dude if you see even in the handle lock if I go
+
+517
+01:07:51,860 --> 01:07:57,100
+to the handle lock method here also we were doing the same thing remove and add
+
+518
+01:07:57,100 --> 01:08:01,700
+logic here also we are doing that same removal add logic but we were figuring
+
+519
+01:08:01,700 --> 01:08:05,060
+out what to remove what to add
+
+520
+01:08:07,220 --> 01:08:12,700
+should be working only when it is unlocked right not exactly you can know
+
+521
+01:08:12,700 --> 01:08:19,300
+the status status can be moved only the content need to be updated when you have
+
+522
+01:08:19,380 --> 01:08:24,980
+to you know update it this lock is for only making edit the content not for the
+
+523
+01:08:24,980 --> 01:08:30,900
+status status can be moved anyways okay guys is there anyone who don't
+
+524
+01:08:30,900 --> 01:08:35,300
+understand this yet like is there anyone finding challenge understanding these
+
+525
+01:08:35,300 --> 01:08:41,580
+two functionalities that we have built yeah if you want we can change
+
+526
+01:08:41,580 --> 01:08:47,540
+accordingly yeah we can do that even if you want to do it on unlock you can
+
+527
+01:08:47,540 --> 01:08:57,300
+also do that just you have to add it in the above method guys do you want me to
+
+528
+01:08:57,300 --> 01:09:00,340
+reiterate both the functionalities or this point is clear like how we are
+
+529
+01:09:00,340 --> 01:09:03,660
+approaching this both things
+
+530
+01:09:04,860 --> 01:09:11,260
+because it's pretty straightforward simple you know trying to get an access
+
+531
+01:09:11,260 --> 01:09:17,340
+of the element figuring out like what to remove what to add and just the logic
+
+532
+01:09:17,340 --> 01:09:21,060
+that we have to apply is like on this array for this changing the status of
+
+533
+01:09:21,060 --> 01:09:31,460
+the color okay so now what what is the feature that left guy to left to build
+
+534
+01:09:31,460 --> 01:09:39,500
+what is the feature that one last feature which is left to build filter
+
+535
+01:09:39,500 --> 01:09:47,620
+right now think from let's let's try to create multiple tasks as of now let's
+
+536
+01:09:47,620 --> 01:09:51,140
+create multiple tasks
+
+537
+01:10:00,820 --> 01:10:07,140
+I'm creating some gibberish tasks now on click of pink we should be able to only
+
+538
+01:10:07,300 --> 01:10:12,340
+say pink on click of green we should be able to do decreasing green on click of
+
+539
+01:10:12,340 --> 01:10:16,220
+blue we should be able to see only this particular on click of this anything
+
+540
+01:10:16,220 --> 01:10:22,540
+filters that's what the functionality we were trying to build it now get the
+
+541
+01:10:22,540 --> 01:10:27,020
+class from filter get the class from the ticket if matches display block else
+
+542
+01:10:27,020 --> 01:10:34,460
+none straightforward simple thing that some it says but if I make it display
+
+543
+01:10:34,460 --> 01:10:40,940
+none you know play around with that just let's see this okay what I will do
+
+544
+01:10:40,940 --> 01:10:46,820
+is that I'll select this whole ticket one thing I want to straightforwardly
+
+545
+01:10:46,820 --> 01:10:53,700
+say is that let's say if I go on ticket container now ticket container doesn't
+
+546
+01:10:53,700 --> 01:10:58,260
+have any separate identification how would you make it a one particular ticket
+
+547
+01:10:58,260 --> 01:11:03,260
+as a display none and other thing as a display block or display flex anything
+
+548
+01:11:03,260 --> 01:11:08,540
+and unless you don't have right identifier so if you make ticket
+
+549
+01:11:08,540 --> 01:11:14,420
+container index now how would you access this index main ticket container dot
+
+550
+01:11:14,420 --> 01:11:24,620
+children you want to do it that way okay but think of other way around think of
+
+551
+01:11:24,620 --> 01:11:35,140
+other way around any other approaches is anyone having any other approaches any
+
+552
+01:11:35,140 --> 01:11:54,340
+other approaches some with can you think of this way like firstly as you
+
+553
+01:11:54,340 --> 01:12:01,500
+suggested we can get all the children all the tickets and we can filter by
+
+554
+01:12:01,500 --> 01:12:09,700
+what color is there and we can once you filter it can you render the whatever
+
+555
+01:12:09,700 --> 01:12:16,940
+filtered array output is there just like what I mean to say is that let's say
+
+556
+01:12:18,460 --> 01:12:30,140
+what's my idea is let's say you have ticket one two three what else let's say
+
+557
+01:12:31,540 --> 01:12:43,260
+pink pink green black let's say you have this four tickets all are these tickets
+
+558
+01:12:43,260 --> 01:12:53,140
+inside the main ticket container once user clicks on any of the filter let's
+
+559
+01:12:53,700 --> 01:13:04,060
+on this is pink this is let's say green this is blue this is let's say black let's
+
+560
+01:13:04,060 --> 01:13:09,540
+say once user clicks on pink it click this one can I get an access of this
+
+561
+01:13:09,540 --> 01:13:14,540
+array and I'll say that filter me of this array and give me output which only
+
+562
+01:13:14,540 --> 01:13:20,620
+matching this color that's I say that I'll get I'll apply all the all the
+
+563
+01:13:20,660 --> 01:13:32,140
+tickets whichever tickets are there with me on green and black filter it which is
+
+564
+01:13:32,140 --> 01:13:38,500
+matching the current color which is clicked like pink if it is only equal to
+
+565
+01:13:38,500 --> 01:13:50,180
+pink or let's say color color then return me into the new array and new
+
+566
+01:13:50,180 --> 01:13:55,780
+array will be only two things right out of this thing I'll get only two tickets
+
+567
+01:13:55,780 --> 01:14:02,780
+pink and pink and once I get this I can remove all the tickets I can add back
+
+568
+01:14:02,780 --> 01:14:09,060
+all these tickets filtered one is anyone able to is everyone able to
+
+569
+01:14:09,060 --> 01:14:13,940
+understand this idea like what I'm just suggest trying to explain just
+
+570
+01:14:13,940 --> 01:14:19,100
+filtering out depending on user click and whatever filtered output is there
+
+571
+01:14:19,100 --> 01:14:26,740
+will render that one and will remove everything okay let me write down in the
+
+572
+01:14:26,740 --> 01:14:32,100
+comments part so that you will be able to understand this firstly first and
+
+573
+01:14:32,100 --> 01:14:40,620
+foremost thing before going to that part itself let's say I try to go and get the
+
+574
+01:14:40,620 --> 01:14:53,940
+access to ticket okay no first and foremost thing is like I have main
+
+575
+01:14:53,940 --> 01:15:04,380
+ticket container isn't it firstly I'll get an access to this tool bar and the
+
+576
+01:15:04,380 --> 01:15:12,740
+toolbar if you remember if you see here that toolbar is this toolbox container
+
+577
+01:15:12,740 --> 01:15:18,380
+okay inside this toolbar container we have toolbox priority container we'll
+
+578
+01:15:18,460 --> 01:15:33,060
+get an access to this one let's say I go and select const toolbox color document
+
+579
+01:15:33,060 --> 01:15:39,060
+dot query selector inside this I'll say this class get me toolbox priority
+
+580
+01:15:39,060 --> 01:15:47,940
+container or else one other way around other way around is if you see all the
+
+581
+01:15:47,940 --> 01:15:54,140
+things having common color color property which will give us all the four
+
+582
+01:15:54,140 --> 01:15:58,380
+colors whichever is user is having access to if we are going by this thing
+
+583
+01:15:58,380 --> 01:16:03,300
+we have to again check or using the event bubbling process because we are
+
+584
+01:16:03,300 --> 01:16:08,140
+applying on a parent element currently we won't pick it do it that way so I'm
+
+585
+01:16:08,140 --> 01:16:14,620
+going to back check is checking color and instead of query selector I'll use
+
+586
+01:16:14,620 --> 01:16:23,180
+query selector on okay so once I have access to all the colors now the second
+
+587
+01:16:23,180 --> 01:16:30,180
+next thing I would do is let's say this is a plural form I'll iterate through
+
+588
+01:16:30,180 --> 01:16:33,260
+this all the colors
+
+589
+01:16:33,260 --> 01:16:44,900
+okay once I have all the colors for all the this toolbox colors we have to add
+
+590
+01:16:44,900 --> 01:16:56,660
+event list so just let me add this event list to this colors okay toolbox colors
+
+591
+01:16:56,660 --> 01:17:04,740
+dot I dot add event listener on each of event listener we are listening to
+
+592
+01:17:04,740 --> 01:17:11,220
+something called as click click event then we'll write down our logic here
+
+593
+01:17:11,220 --> 01:17:16,980
+but this part this four five lines of code is this clear what I'm trying to do
+
+594
+01:17:16,980 --> 01:17:21,940
+I'm just trying to get an access to those four colors and I'm adding a
+
+595
+01:17:21,940 --> 01:17:27,140
+listener click to it I think this is something we have been doing for each
+
+596
+01:17:27,140 --> 01:17:32,340
+and every piece of project like every item that we're adding a listener and
+
+597
+01:17:32,340 --> 01:17:41,420
+we're listening to click or any other event no inside this event now once
+
+598
+01:17:41,420 --> 01:17:48,860
+clicked once anything is clicked we have to access its particular color now how
+
+599
+01:17:48,860 --> 01:17:57,420
+we can access the color if you go back and see in the HTML again here the color
+
+600
+01:17:57,420 --> 01:18:07,300
+is index 0 right of toolbox so same logic again we'll use class list of 0
+
+601
+01:18:07,300 --> 01:18:16,940
+let's say I say const selected color selected tool let's say selected toolbox
+
+602
+01:18:16,940 --> 01:18:28,540
+color some selected toolbox color I would say toolbox dot class list of 0th
+
+603
+01:18:28,540 --> 01:18:36,060
+element let's see if I do this if I'm able to get the thing that we want okay
+
+604
+01:18:36,060 --> 01:18:43,900
+I go back into the console I try to click pink I'm able to get the pink if I
+
+605
+01:18:43,900 --> 01:18:48,260
+clicks this one light green I'm getting light blue I'm also good light black
+
+606
+01:18:48,260 --> 01:18:56,660
+black also getting that okay right so now comes the main point we got the color
+
+607
+01:18:56,660 --> 01:19:07,380
+now we have to filter based on all the existing tickets now how we would be
+
+608
+01:19:07,820 --> 01:19:16,420
+able to get the tickets now yeah how we will be able to get the tickets let's
+
+609
+01:19:16,420 --> 01:19:24,980
+say even if you try to get let's say main ticket container if we even if you
+
+610
+01:19:24,980 --> 01:19:28,260
+go through main ticket container inside that you will have all the children
+
+611
+01:19:28,260 --> 01:19:32,940
+elements and everything is fine but if let's say if we can store all the
+
+612
+01:19:32,940 --> 01:19:41,660
+tickets that are getting created somewhere what if we can store somewhere
+
+613
+01:19:41,660 --> 01:19:46,720
+all the tickets are getting created like an array because I can store all the
+
+614
+01:19:46,720 --> 01:19:56,700
+objects right whatever objects any type of objects it can store right is anyone
+
+615
+01:19:56,700 --> 01:20:04,380
+able to think like let's say what I'm saying is that that's how I say that
+
+616
+01:20:04,380 --> 01:20:11,940
+const tickets array I say this is an empty array right inside this ticket
+
+617
+01:20:11,940 --> 01:20:17,860
+array what I'll do it here is that I'll go to ticket create ticket now whenever
+
+618
+01:20:17,860 --> 01:20:24,940
+user is creating a ticket whenever user is creating a ticket I'll also push an
+
+619
+01:20:24,940 --> 01:20:32,740
+item into this an array okay and what information I'll push it here is that
+
+620
+01:20:32,740 --> 01:20:39,220
+firstly if you see here what are the elements that we are building it now
+
+621
+01:20:39,220 --> 01:20:51,820
+let's say I make it here as ticket ID I'll cut it here I'll paste it here and
+
+622
+01:20:52,020 --> 01:21:00,500
+I'll say that get me the ticket ID so firstly let's say I build an object I
+
+623
+01:21:00,500 --> 01:21:07,300
+say this is as a ticket ID okay fine then we are also passing something as a
+
+624
+01:21:07,300 --> 01:21:15,060
+ticket info okay then also we are pushing something called as ticket
+
+625
+01:21:15,060 --> 01:21:30,300
+status right let's say model priority color isn't it if we are able to store
+
+626
+01:21:30,300 --> 01:21:34,620
+this data of whatever all the tickets that we are pushing it it would be
+
+627
+01:21:34,620 --> 01:21:42,380
+easier to filter this array and do it no it would be easy to filter and store the
+
+628
+01:21:42,380 --> 01:21:46,820
+existing tickets also like if you in case if you want to reset it let's say
+
+629
+01:21:46,820 --> 01:21:51,260
+if you want to reset it if you filter the main container and remove and you
+
+630
+01:21:51,260 --> 01:21:55,260
+know you remove that like let's say you have a four tickets and you click the
+
+631
+01:21:55,260 --> 01:21:59,780
+pink ticket which is only one status and you remove all other things where you
+
+632
+01:21:59,780 --> 01:22:04,620
+will get back from so I'm trying to store in a extra memory space such that
+
+633
+01:22:04,620 --> 01:22:09,460
+we can if user if user do something like reset we would be able to show all the
+
+634
+01:22:09,460 --> 01:22:16,180
+other tickets also like if user doesn't want to apply filter again like applying
+
+635
+01:22:16,180 --> 01:22:22,420
+filter and remove the filter is everyone able to get the intuition that I'm
+
+636
+01:22:22,420 --> 01:22:33,220
+trying to build here guys are you able to get my point or I'm running bit speed
+
+637
+01:22:33,220 --> 01:22:42,780
+today like I just want to know I see only two thumbs up guys there are good
+
+638
+01:22:42,780 --> 01:22:47,300
+amount of people I just want to recheck like or you want to take the break and
+
+639
+01:22:47,300 --> 01:22:59,180
+come back and then build this one okay everything is going over my head because
+
+640
+01:22:59,700 --> 01:23:09,180
+joining I'll try to repeat this and get like okay people says break okay what
+
+641
+01:23:09,180 --> 01:23:19,580
+I'll do is that let's say I'll give ten minutes break okay and I'll try to I'll
+
+642
+01:23:19,580 --> 01:23:24,620
+try to repeat whole thing whatever we have done in this ten minutes break okay
+
+643
+01:23:24,620 --> 01:23:29,740
+so that everyone can understand then we can follow up on that is that clear
+
+644
+01:23:29,740 --> 01:23:34,660
+whoever want to take break they can freely take that break whether this idea
+
+645
+01:23:34,660 --> 01:23:39,660
+works because some people facing challenge understanding so I want to
+
+646
+01:23:39,660 --> 01:23:45,580
+repeat the whole things that we have this let's say I say this is as edit
+
+647
+01:23:45,580 --> 01:23:53,220
+content and change status
+
+648
+01:23:56,580 --> 01:24:07,220
+get push okay okay so Abhinav says that
+
+649
+01:24:08,700 --> 01:24:13,900
+yes please let me know if you want a break and then repeat it or you want me
+
+650
+01:24:13,900 --> 01:24:21,900
+to repeat then like how you want me to do it like you let's give me thumbs up
+
+651
+01:24:21,900 --> 01:24:25,260
+if you want me to explain during break give me thumbs down if you want me to
+
+652
+01:24:25,260 --> 01:24:34,340
+repeat everything or after break okay cool so one thing we'll do is like we'll
+
+653
+01:24:34,340 --> 01:24:37,900
+take five minutes break and come back understand everything what we have done
+
+654
+01:24:37,900 --> 01:24:43,700
+today once we get complete confidence then we'll move ahead okay we'll do that
+
+655
+01:24:43,700 --> 01:24:47,980
+okay let's take five minutes break guys and come back and then we'll move it
+
+656
+01:24:47,980 --> 01:24:58,260
+ahead okay I'm starting the break guys please refresh yourself and come back
+
+657
+01:24:58,260 --> 01:25:05,060
+I'll try to repeat it and we'll get a complete understanding of it
+
+658
+01:25:13,700 --> 01:25:16,280
+you
+
+659
+01:25:43,700 --> 01:25:46,280
+you
+
+660
+01:26:13,700 --> 01:26:16,320
+you
+
+661
+01:26:43,700 --> 01:26:45,960
+you
+
+662
+01:27:13,700 --> 01:27:15,960
+you
+
+663
+01:27:43,700 --> 01:27:45,960
+you
+
+664
+01:28:13,700 --> 01:28:15,960
+you
+
+665
+01:28:43,700 --> 01:28:45,960
+you
+
+666
+01:29:13,700 --> 01:29:15,960
+you
+
+667
+01:29:44,120 --> 01:29:46,180
+you
+
+668
+01:29:52,700 --> 01:29:54,720
+you
+
+669
+01:30:06,100 --> 01:30:08,140
+you
+
+670
+01:30:08,140 --> 01:30:23,900
+Guys is everyone back and am I audible right no can we get started I will try to repeat
+
+671
+01:30:23,900 --> 01:30:33,860
+it what we have done till now then we will move ahead okay no let's go back to the first
+
+672
+01:30:33,860 --> 01:30:39,740
+thing what we have done so today we started with something called as handling the locking
+
+673
+01:30:39,740 --> 01:30:49,100
+mechanism now if you see if you want to handle a lock to anything any task right now while
+
+674
+01:30:49,100 --> 01:30:55,620
+creating a ticket post creating a ticket once you click all or shift anything only then you
+
+675
+01:30:55,620 --> 01:31:03,020
+will be able to get access to that lock right now for each ticket you create let's say create a
+
+676
+01:31:03,020 --> 01:31:11,780
+task to now for each ticket there will be a separate lock identifier and for each lock
+
+677
+01:31:11,780 --> 01:31:18,940
+you have to add a listener to it now in order to do this what I was doing here is that once
+
+678
+01:31:18,940 --> 01:31:26,100
+ticket has been created and appended I'm using this ticket container and adding a listener to
+
+679
+01:31:26,100 --> 01:31:33,820
+it inside this handle lock if you go inside this handle lock to open this if you see first thing
+
+680
+01:31:33,820 --> 01:31:40,620
+what I'm doing is that I'm going to get the access to that lock from that HD dom then I'm
+
+681
+01:31:40,620 --> 01:31:47,580
+trying to get the access to that icon inside the dom if you see in HD in here when we created a
+
+682
+01:31:47,580 --> 01:31:54,820
+ticket we have the icon is present inside this so first I was getting access to this one this
+
+683
+01:31:55,380 --> 01:32:02,860
+then I'm going inside that as a children's first element okay once I got an access to that then
+
+684
+01:32:02,860 --> 01:32:11,620
+I was toggling two CSS classes in font awesome if we mean to say that if a particular icon is having
+
+685
+01:32:11,620 --> 01:32:20,140
+a fail lock it means to say that it will look like this as a lock icon and if you use apply a CSS
+
+686
+01:32:20,140 --> 01:32:28,460
+like a fail lock open class to a particular icon then it will look like a lock which is open so
+
+687
+01:32:28,460 --> 01:32:34,620
+I was toggling this lock checking the condition what is the current icon if it is lock then I'm
+
+688
+01:32:34,620 --> 01:32:41,980
+trying to open that lock if it is already open then I'm trying to lock that particular ticket
+
+689
+01:32:41,980 --> 01:32:50,620
+so I was toggling between remove and add and simultaneously I was using some you know on the
+
+690
+01:32:50,620 --> 01:32:56,700
+ticket task area like whatever task it is once you click unlock you're supposed to make this
+
+691
+01:32:56,700 --> 01:33:02,980
+content editable so in order to make this content editable I was using one of the attribute called
+
+692
+01:33:02,980 --> 01:33:08,460
+content editable which can make any content and any website in the table so it's getting
+
+693
+01:33:08,460 --> 01:33:15,620
+access to this ticket area and I was adding this attribute once if I pass our boolean value true
+
+694
+01:33:15,620 --> 01:33:24,020
+that becomes editable and if I want to make it not editable I can make as a false is this
+
+695
+01:33:24,020 --> 01:33:30,940
+guy is handle lock clear to everyone how the handle lock is working anyone having any doubt
+
+696
+01:33:30,940 --> 01:33:40,020
+still does anyone want me to repeat handle lock cool I on this I think you understood
+
+697
+01:33:40,020 --> 01:33:46,820
+handle lock clearly now now comes the second thing which is handling the color of a ticket
+
+698
+01:33:46,820 --> 01:33:57,100
+now if you see the ticket status color can revolve around only four things right if you
+
+699
+01:33:57,140 --> 01:34:04,940
+remember our first class even when we discuss requirements it can revolve around this four
+
+700
+01:34:04,940 --> 01:34:13,620
+things which is pink and green then blue then black all these four colors and it will be the
+
+701
+01:34:13,620 --> 01:34:20,980
+same sequence order also because status it can start from to be done in progress to be
+
+702
+01:34:21,180 --> 01:34:28,580
+validated then complete it status now if I if we follow the same order then what I was what
+
+703
+01:34:28,580 --> 01:34:36,580
+our idea was hey can we make something like an array of elements because if current color is
+
+704
+01:34:36,580 --> 01:34:42,380
+green then we have to make it blue if it is blue then we have to make it black if it is black I
+
+705
+01:34:42,380 --> 01:34:49,020
+have to make it pink that was a basic idea but in order to do this firstly for each and every
+
+706
+01:34:49,180 --> 01:34:55,140
+ticket again I have to get access to this one this particular color palette so again while
+
+707
+01:34:55,140 --> 01:35:00,380
+creating ticket itself I passed on this ticket inside this handle color now once we come to this
+
+708
+01:35:00,380 --> 01:35:08,620
+handle color if you see I try to get access to this ticket color and I add event listener to
+
+709
+01:35:09,620 --> 01:35:21,620
+inside this color band now since while adding the next color or previous color any color the
+
+710
+01:35:21,620 --> 01:35:27,980
+position where the particular color was getting added was like moving here and there like since
+
+711
+01:35:27,980 --> 01:35:36,020
+if you see whenever we are adding inside this class list right always a new color will be added
+
+712
+01:35:36,580 --> 01:35:44,100
+or the last position okay that's how this class list not add whether it works but here when you
+
+713
+01:35:44,100 --> 01:35:51,820
+go and see how the way we have designed it is that model priority color comes first position then
+
+714
+01:35:51,820 --> 01:35:56,780
+we gave ticket color now we are trying to remove this whatever existing color is there then we are
+
+715
+01:35:56,780 --> 01:36:02,420
+adding new color which is supposed to be coming next to the ticket color so for handling that
+
+716
+01:36:02,420 --> 01:36:08,660
+edge case what we have done is we have went through the existing colors whichever existing
+
+717
+01:36:08,660 --> 01:36:16,220
+colors are there here I mean existing CSS classes okay if you see this if you go to any of the
+
+718
+01:36:16,220 --> 01:36:22,260
+ticket so see we have two CSS classes we were going through all the existing CSS classes of
+
+719
+01:36:22,260 --> 01:36:28,260
+that particular thing and we were selecting current color as a color which is not equal to
+
+720
+01:36:28,260 --> 01:36:35,100
+ticket color it is having two colors only if something which is not ticket color is light pink
+
+721
+01:36:35,100 --> 01:36:40,580
+so we say that a current color is light pink and once we get that light pink color in the
+
+722
+01:36:40,580 --> 01:36:48,220
+current color then I was checking index of the light pink hey inside this colors array once I
+
+723
+01:36:48,220 --> 01:36:55,500
+get it a 0th index then I'll make an index plus one out of that colors array give me that light
+
+724
+01:36:55,500 --> 01:37:02,460
+green color inside a new color remove the current color which is pink color add the green color
+
+725
+01:37:02,460 --> 01:37:09,740
+and this percentage like you know this thing is to handle the edge case of rotational issue
+
+726
+01:37:09,740 --> 01:37:15,780
+whenever you go to the endpoint end of the n minus 1th array of element in order to handle
+
+727
+01:37:15,780 --> 01:37:21,580
+index out of bond issue we were using this percentage symbol I mean percentage and colors
+
+728
+01:37:21,780 --> 01:37:30,300
+which will always give you the reminder in that size of the array I hope this logic is clear how
+
+729
+01:37:30,300 --> 01:37:41,900
+handle color is working guys if even if there is a someone who don't understand it I'm okay with
+
+730
+01:37:41,900 --> 01:37:48,340
+it I will try to re-explain them show them debugging it's okay no no worries I see one
+
+731
+01:37:48,340 --> 01:37:55,580
+thumbs down cool anyone else who didn't understand it Ankit Tiwari says he didn't
+
+732
+01:37:55,580 --> 01:38:01,460
+understand it Ankit can I take take your doubt and doubt session possibly if it is possible
+
+733
+01:38:01,460 --> 01:38:09,820
+okay cool so other than Ankit I think everyone have understood so I'll explain Ankit again
+
+734
+01:38:09,820 --> 01:38:19,500
+now comes the third thing third the main thing which is like filtering all the existing tickets
+
+735
+01:38:19,500 --> 01:38:25,380
+now the idea was in order to filter all existing tickets firstly we'll get an access to this four
+
+736
+01:38:25,380 --> 01:38:31,580
+elements in order to again get this access to this elements if you see here there is a one common
+
+737
+01:38:31,580 --> 01:38:40,380
+property across these elements is like color like CSS so what I did here is I did query selector
+
+738
+01:38:40,380 --> 01:38:47,020
+on give me the all the colors I I treated through color and attached an event listener to it cool
+
+739
+01:38:47,020 --> 01:38:53,020
+all things are fine we attached event listeners here now now comes the main logic like how we
+
+740
+01:38:53,020 --> 01:39:07,140
+will filter it so the point where we got stuck is now if I say let's say document dot query selector
+
+741
+01:39:07,140 --> 01:39:16,100
+okay inside this if I say main let me copy this completely
+
+742
+01:39:16,100 --> 01:39:37,900
+let's and I put it in strings let's say I am trying to get an access to this one now and I say
+
+743
+01:39:37,900 --> 01:39:48,540
+the children okay when I do this children I am getting this two HTML elements two tickets okay
+
+744
+01:39:48,540 --> 01:39:56,820
+depending on what color this select we can always get inside this element and we can check again
+
+745
+01:39:56,820 --> 01:40:03,860
+filter it by their color and filter it down that's that's all doable that's all doable but
+
+746
+01:40:03,900 --> 01:40:11,580
+what if like let's say if I filter it down and I only read under the screen with only the colors
+
+747
+01:40:11,580 --> 01:40:19,260
+let's say if I have also a task which is green in color let's say this is a task three which is
+
+748
+01:40:19,260 --> 01:40:29,940
+green in color okay now if we go by this approach what we were doing earlier like getting all the
+
+749
+01:40:29,940 --> 01:40:37,420
+access to this one let's say now I have three things now if user clicks pink and we filter
+
+750
+01:40:37,420 --> 01:40:43,860
+this existing Dom itself then I'll have only two tickets what if I want to see all the tickets
+
+751
+01:40:43,860 --> 01:40:53,420
+again because there's a one functionality which is left like if you see like something that I was
+
+752
+01:40:53,420 --> 01:41:04,060
+highlighting which I should be applying to cover it's like on click of like on double click let's
+
+753
+01:41:04,060 --> 01:41:15,180
+say on double click of filters
+
+754
+01:41:20,180 --> 01:41:23,380
+filter color render all the tickets
+
+755
+01:41:23,380 --> 01:41:39,380
+so we were saying that hey if you re-click once you once you clicked it filter it but once if
+
+756
+01:41:39,380 --> 01:41:44,740
+I double click on any of this one I want all the tickets now if you have filtered the Dom
+
+757
+01:41:44,740 --> 01:41:50,620
+already and stored only on the base of color if user again clicks double click where you will
+
+758
+01:41:50,620 --> 01:42:00,180
+get all the tickets from so that was my point okay so my idea was like what if I store what
+
+759
+01:42:00,180 --> 01:42:08,620
+if I store all the tickets that are being created an array and when I apply a filter on an array
+
+760
+01:42:08,620 --> 01:42:17,420
+because filter method like yeah on a filter once I filter it it will return me a new array right
+
+761
+01:42:17,420 --> 01:42:23,100
+and only I can render a new array once user clicks double-click it I can render whole ticket
+
+762
+01:42:23,100 --> 01:42:32,260
+array is this idea you are able to understand so once I have all the tickets in an array ticket
+
+763
+01:42:32,260 --> 01:42:37,100
+array once user double-click I can render all things whatever things are present inside this
+
+764
+01:42:37,100 --> 01:42:42,700
+if user clicks once I'll filter it based on the color of this array and render it that was an
+
+765
+01:42:42,700 --> 01:42:50,740
+idea now in order to store firstly all the tickets I went to ticket create ticket part
+
+766
+01:42:50,740 --> 01:42:58,060
+and I was trying to push all the things here now let's say instead of model priority color
+
+767
+01:42:58,060 --> 01:43:09,900
+where it is there let's say we store it here const I say this other ticket color
+
+768
+01:43:09,900 --> 01:43:21,220
+let's not do it this way no wherever this ticket color create ticket is being called
+
+769
+01:43:21,220 --> 01:43:30,220
+what I'll do is I'll tweak some things here that let's say we also pass model priority color from
+
+770
+01:43:30,220 --> 01:43:38,660
+here itself so that this becomes completely reusable also I'll say that an ID which is an
+
+771
+01:43:38,660 --> 01:43:48,340
+empty thing okay now I'll say firstly I am receiving ticket color then I'm getting ticket
+
+772
+01:43:48,340 --> 01:43:57,860
+info then I'm getting something called as ticket unique ID let's say I write unique ID okay now
+
+773
+01:43:57,860 --> 01:44:04,220
+if unique ID is present take that or else take short ID and taking ticket color I'll update it
+
+774
+01:44:04,220 --> 01:44:12,340
+here is this clear guys I didn't make any change I was just trying to you know pass it down to the
+
+775
+01:44:12,340 --> 01:44:20,980
+function call instead of directly getting it here okay I have done nothing new here so one
+
+776
+01:44:20,980 --> 01:44:27,100
+more thing I'll do is that here I'll make it as ticket color and I'll store it this model
+
+777
+01:44:27,100 --> 01:44:41,660
+priority color instead of this one let's say this one and I can make this as a const also
+
+778
+01:44:41,660 --> 01:44:51,020
+we can make this const guys is this clear what I was doing here like I'm why how I'm pushing
+
+779
+01:44:52,020 --> 01:45:01,060
+into this tickets array now I'll show you one thing before here I'll try to output all the
+
+780
+01:45:01,060 --> 01:45:06,220
+things that are happening inside this ticket array like how these things are being entered
+
+781
+01:45:06,220 --> 01:45:16,580
+in through this one let's see I go back I try to create some random task I create enter now
+
+782
+01:45:16,580 --> 01:45:27,940
+okay nothing got entered just a second
+
+783
+01:45:27,940 --> 01:45:46,820
+now when we are pushing it we have dynamic ID ticket info tickets color all things are
+
+784
+01:45:46,820 --> 01:45:54,260
+cool and let's say remove this handle lock also remove this
+
+785
+01:46:06,260 --> 01:46:13,020
+go to console if you see here inside the array two tickets got created I have two
+
+786
+01:46:13,020 --> 01:46:21,060
+tickets now the simple logic now would be to filter it now right once I have this ticket
+
+787
+01:46:21,060 --> 01:46:26,260
+array inside this ticket array I'm having all the tickets which are needed so if you see in
+
+788
+01:46:26,260 --> 01:46:32,020
+the class list of zero I'm having the color now if you see inside this array if I say like a few
+
+789
+01:46:32,020 --> 01:46:39,340
+let's say if I say this array dot let's say I say index one
+
+790
+01:46:48,180 --> 01:46:55,180
+let's say I try to get okay let's say let's come back here and when once we are I treating through
+
+791
+01:46:55,180 --> 01:47:03,660
+this one we'll get it now what I'm supposed to do here what could be the my idea here is like to
+
+792
+01:47:03,660 --> 01:47:23,220
+filter this one let's say I say that const filter tickets would be get all the tickets dot filter
+
+793
+01:47:23,260 --> 01:47:32,900
+and filter on basis of one condition now that condition would be hey on each ticket check
+
+794
+01:47:32,900 --> 01:47:47,260
+what you have to check if selected color toolbox is equal equal to ticket dot if you see the
+
+795
+01:47:47,460 --> 01:47:57,580
+that we are pushing it when we are creating a ticket was ticket color so whatever tickets
+
+796
+01:47:57,580 --> 01:48:03,460
+colors will be there matching that selected color I should be getting inside the this one
+
+797
+01:48:03,460 --> 01:48:19,500
+let's see this if this is working as expected okay no I'll also had filtered tickets as this
+
+798
+01:48:19,500 --> 01:48:33,420
+one then let's say I have here going back let me create few tickets no let's say I have green
+
+799
+01:48:33,420 --> 01:48:47,660
+color let's say I have again green color let's have some blue in color okay now I have four
+
+800
+01:48:47,660 --> 01:48:53,940
+things if you see if I expand it I have four tickets 0 1 2 3 4 and light green pink green
+
+801
+01:48:53,940 --> 01:49:00,140
+green blue if you say anything will be there here also now now if I select pink color now
+
+802
+01:49:00,180 --> 01:49:05,340
+let's say if I say pink color if you see filtered tickets inside that filter tickets I'm having
+
+803
+01:49:05,340 --> 01:49:12,660
+only one color which is this one so I'm filtering it now once user is clicking this I am supposed
+
+804
+01:49:12,660 --> 01:49:21,420
+to remove all the things and I add this one onto the screen is this clear guys what I what's my
+
+805
+01:49:21,420 --> 01:49:35,500
+approach is everyone able to follow up I don't see reactions okay I see one thumbs down no
+
+806
+01:49:35,500 --> 01:49:43,580
+worries I'll I'll show you back okay okay let's complete this and then I'll show you like what's
+
+807
+01:49:43,580 --> 01:49:51,780
+actually you know being done now first and foremost thing that I would do is let I equal
+
+808
+01:49:51,780 --> 01:49:59,180
+to zero instead of filtered colors I'm supposed to remove all the existing tickets from their
+
+809
+01:49:59,180 --> 01:50:22,300
+down okay so tickets array dot I dot remove but here if I want to remove all the tickets
+
+810
+01:50:22,300 --> 01:50:30,540
+just let me think how can I get access to all the tickets
+
+811
+01:50:30,540 --> 01:50:50,460
+okay huh one thing I can do always is that I can get all the all tickets access was using
+
+812
+01:50:50,460 --> 01:50:59,300
+document dot query selector all using all the tickets whichever are there now that
+
+813
+01:50:59,300 --> 01:51:14,220
+thing I can use ticket container this particular thing once I have access to this one I'm supposed
+
+814
+01:51:14,220 --> 01:51:29,740
+to remove all tickets of I dot remove so let's say I do this all tickets no now let's say if I
+
+815
+01:51:29,740 --> 01:51:35,940
+show you back to remove all tickets you can do parent element dot text content no text content
+
+816
+01:51:35,940 --> 01:51:47,620
+will remove the tick let's recheck the rest now I'm removing completely from Dom right I'm
+
+817
+01:51:47,620 --> 01:51:53,700
+selecting each ticket parent each alib ticket directly and I'm going to remove it let's see
+
+818
+01:51:53,700 --> 01:52:00,940
+that relation later parent and child I'll come back to that okay okay now once I remove this
+
+819
+01:52:00,940 --> 01:52:06,700
+all the tickets now I'm supposed to add back all the tickets now in order to add it what I'll do
+
+820
+01:52:06,700 --> 01:52:14,340
+is that I'll select filter tickets all the filter tickets and I'll say for each and let's say I
+
+821
+01:52:14,340 --> 01:52:22,900
+get each ticket I write a arrow function and I call something like create ticket inside this
+
+822
+01:52:23,580 --> 01:52:32,620
+I pass on all the properties that I need I say it needs ticket collector ticket color
+
+823
+01:52:32,620 --> 01:52:55,460
+so let's say I have a ticket dot ticket color then also ticket info then ticket dot ticket
+
+824
+01:52:55,460 --> 01:53:05,820
+ID once I do this it should be working fine but let's re verify if this is working some
+
+825
+01:53:05,820 --> 01:53:18,780
+gibberish pink if I click green let's say if I select pink it's working fine now if I select
+
+826
+01:53:19,140 --> 01:53:31,260
+I'm getting green again I'm getting two things now there is a bug okay I'll come to this bug
+
+827
+01:53:31,260 --> 01:53:41,380
+but let's let's refresh this one guys firstly I am trying to re-explain the approach that
+
+828
+01:53:41,380 --> 01:53:47,980
+followed here I'll try to write the comments so that you can follow up remove all the tickets
+
+829
+01:53:47,980 --> 01:54:03,860
+those are created and recreate the filtered tickets
+
+830
+01:54:03,860 --> 01:54:23,980
+okay get the color of the ticket get the selector color selected color of filter
+
+831
+01:54:23,980 --> 01:54:47,380
+okay then here filter the tickets based on selected color guys are you able to follow
+
+832
+01:54:47,380 --> 01:54:56,860
+up this four steps what I have done here firstly like first get the color which user has clicked
+
+833
+01:54:56,860 --> 01:55:05,540
+then filter all the tickets which are present in a ticket array once you have filtered one then I
+
+834
+01:55:05,540 --> 01:55:11,380
+am removing all the tickets firstly then whatever filtered is there I am trying to recreate using
+
+835
+01:55:11,380 --> 01:55:20,020
+create method create ticket okay now the only bug if you see the bug where I am getting here
+
+836
+01:55:20,020 --> 01:55:26,020
+let's say if I say let pink and I do this option if I click pink I get one ticket if I re-click
+
+837
+01:55:26,020 --> 01:55:33,460
+pink again I'm getting two times if I re-click I'll keep on getting the tickets now the reason
+
+838
+01:55:33,460 --> 01:55:40,220
+I'll tell you what happening is that when I'm trying to recreate using filtered right already
+
+839
+01:55:40,220 --> 01:55:45,900
+there is a one ticket added into this tickets array when we are pushing it so each time you
+
+840
+01:55:45,900 --> 01:55:50,900
+are trying to recreate it each you are pushing new elements into ticket array because ticket
+
+841
+01:55:50,900 --> 01:55:56,220
+array is being storing only one it should store only one time right multiple tickets are being
+
+842
+01:55:56,220 --> 01:56:06,500
+stored inside this one did anyone understand it like why this bug was coming like once you
+
+843
+01:56:06,500 --> 01:56:12,020
+created it you filtered it then again you are trying to recreate it this array is getting
+
+844
+01:56:12,020 --> 01:56:17,700
+duplicate tickets entered into this one multiple duplicate tickets are coming into this so in
+
+845
+01:56:17,700 --> 01:56:22,540
+order to address that one right in order to fix this one what I can say is that I'll use one
+
+846
+01:56:22,540 --> 01:56:29,660
+condition simple condition is that since when when first time when ticket you know when we
+
+847
+01:56:29,660 --> 01:56:34,580
+are creating first time ticket using plus icon we are not passing an ID we are passing an empty
+
+848
+01:56:34,660 --> 01:56:41,420
+string okay and when we are creating through this one filtered one we are actually passing
+
+849
+01:56:41,420 --> 01:56:48,340
+an ID which ticket need to be created so I can check on the length of the ticket ID if the
+
+850
+01:56:48,340 --> 01:57:01,860
+length is equal to zero only then push the element that's ticket ID dot length is less
+
+851
+01:57:01,860 --> 01:57:11,500
+than equal to zero only then push this element or else don't push into the array
+
+852
+01:57:11,500 --> 01:57:24,140
+no going back and retesting this one let's say I do this pink color I click option then I click
+
+853
+01:57:24,140 --> 01:57:33,740
+this one then let's say it's like green then again I click blue okay now I have three let's say I
+
+854
+01:57:33,740 --> 01:57:39,340
+click on blue I have only blue if I click on green I have only one if I click on red pink I
+
+855
+01:57:39,340 --> 01:57:45,460
+have this one only one now I am getting only one if I select black I don't have anything that's
+
+856
+01:57:45,460 --> 01:57:56,140
+fine this filter is working fine as of now but reexperiencing this one guys what what's what we
+
+857
+01:57:56,140 --> 01:58:04,260
+have done firstly I got an access to this buttons once I got an access what whatever user is clicking
+
+858
+01:58:04,260 --> 01:58:09,260
+I'm trying to get to know which is the user click button like he's clicking blue green or
+
+859
+01:58:09,260 --> 01:58:16,540
+pink using this statement I'm trying to get to understand which is selected to toolbox color
+
+860
+01:58:16,540 --> 01:58:22,780
+once I have this color I'm filtering all the tickets using array filter method simple weather
+
+861
+01:58:22,780 --> 01:58:29,300
+then I'm trying to remove all the tickets from the existing in the screen then I'm trying to
+
+862
+01:58:29,300 --> 01:58:37,740
+add it the tickets which are being filtered based on the color is this clear guys how this
+
+863
+01:58:37,740 --> 01:58:48,940
+particular functionality is working filter one if there is anyone still who didn't understand they
+
+864
+01:58:48,940 --> 01:58:54,180
+can give me thumbs down feel free to do it I can repeat it if someone is feeling feeling
+
+865
+01:58:54,180 --> 01:59:00,460
+overwhelming seeing this logics they can understand this if someone is you know going through web
+
+866
+01:59:00,460 --> 01:59:17,740
+development for the first time okay now now there is okay I see one thumbs down okay I see
+
+867
+01:59:17,740 --> 01:59:24,820
+another thumbs down to cool guys give me if you if you're still facing challenge one thing I can
+
+868
+01:59:24,820 --> 01:59:33,060
+do is that I can I can stay long in doubt session I can explain you understand right yeah great so
+
+869
+01:59:33,060 --> 01:59:37,620
+I'm expecting this thing I'm expecting this thing to people to react so that I can re-explain things
+
+870
+01:59:37,620 --> 01:59:48,300
+okay okay cool filtering on basis of what filtering on basis of what user has selected no let me write
+
+871
+01:59:48,300 --> 02:00:11,900
+to debug and show okay what's happening here just see it here guys now if you see if I if a user
+
+872
+02:00:11,900 --> 02:00:18,140
+is clicking on green color now inside this toolbox what I'm getting here in selected
+
+873
+02:00:18,140 --> 02:00:25,380
+toolbox let's just see this now if you see in a selected toolbox color it's light green because
+
+874
+02:00:25,380 --> 02:00:31,660
+user has clicked light green here now we have to filter all the tickets on the base of light green
+
+875
+02:00:31,660 --> 02:00:39,980
+now if you see the ticket array we have three tickets so one is light pink the other one is
+
+876
+02:00:40,020 --> 02:00:47,060
+light green then the other one is light blue so we are supposed to show only one ticket which
+
+877
+02:00:47,060 --> 02:00:54,780
+is light green in color isn't it so now user selected light green now I'm checking on each
+
+878
+02:00:54,780 --> 02:01:02,100
+ticket on each ticket what is the color if your color is matching only then add it into this
+
+879
+02:01:02,100 --> 02:01:12,860
+filter tickets array that's how filter works right is this clear some bit so filtering based
+
+880
+02:01:12,860 --> 02:01:19,540
+on what you was selected once use once we get this once we get this if you see I'm going through
+
+881
+02:01:19,540 --> 02:01:23,380
+all the elements now I get only one ticket because there's only one ticket with a light
+
+882
+02:01:23,380 --> 02:01:29,660
+green color as I've shown you earlier on a ticket array only one thing one ticket this now I am going
+
+883
+02:01:29,660 --> 02:01:37,660
+into this one I am getting all the tickets again I'm removing each ticket from the dom okay if you
+
+884
+02:01:37,660 --> 02:01:43,660
+see once I remove all the tickets I'm coming back here I'm coming back here on the filter tickets
+
+885
+02:01:43,660 --> 02:01:49,340
+I am calling again create ticket function and I'm passing all the tickets whichever are filtered
+
+886
+02:01:49,340 --> 02:01:57,300
+one okay and adding on to the dom did you understand this flow guys know
+
+887
+02:01:57,300 --> 02:02:12,620
+how many of you are able to follow up this one now better Abhinav Kartika Ganesh okay
+
+888
+02:02:12,620 --> 02:02:22,660
+we're able to get this right guys this only one functionality that we have to you know there's
+
+889
+02:02:22,660 --> 02:02:31,020
+a one fix still there's a one bug I want to point out there is a one bug since we are adding all
+
+890
+02:02:31,020 --> 02:02:39,780
+the tickets right all the tickets into ticket array now what if user deletes the tickets we
+
+891
+02:02:39,780 --> 02:02:50,140
+have to remove that from array also right if user is deleting this ticket we have to update
+
+892
+02:02:50,140 --> 02:03:04,380
+update this particular thing right ticket array did anyone understand this point now while creating
+
+893
+02:03:04,380 --> 02:03:10,740
+ticket all good while creating ticket we are whatever new ticket user is creating you are
+
+894
+02:03:10,740 --> 02:03:17,580
+adding into that array good great but what if user is deleting are you taking care of taking care
+
+895
+02:03:17,580 --> 02:03:23,460
+of this ticket array memory like deleting this is like a database whatever new ticket you are
+
+896
+02:03:23,460 --> 02:03:31,340
+adding adding it but what if your user is deleting are you deleting that no so now we have to address
+
+897
+02:03:31,340 --> 02:03:37,940
+this one like once user is clicking any delete right if user is clicking any delete so we have
+
+898
+02:03:37,940 --> 02:03:46,740
+to take care to remove this one now how can you delete this one how can you think of this thing
+
+899
+02:03:46,740 --> 02:03:54,900
+let's say if you go for handle remove we are having here ticket hold to get information we
+
+900
+02:03:54,900 --> 02:04:05,340
+are having it can we pass here since we have ticket ID if we pass ticket ID unique value
+
+901
+02:04:05,340 --> 02:04:18,060
+here inside the ticket remove and I accept this particular ticket here okay and how many of you
+
+902
+02:04:18,060 --> 02:04:32,820
+remember splice method array or splice if I have to delete one particular element how can I do that
+
+903
+02:04:32,820 --> 02:04:47,340
+no firstly I have to get that particular ticket right let's say const get ticket okay inside that
+
+904
+02:04:47,340 --> 02:04:54,020
+first if I have to get the ticket which have to delete it I have to write a function to it now
+
+905
+02:04:54,020 --> 02:05:03,140
+let's say no we have this list of array ticket array inside that ticket array
+
+906
+02:05:03,140 --> 02:05:16,820
+now I have to write it to this array then I have to update and return it okay let's say const
+
+907
+02:05:16,820 --> 02:05:34,700
+empty then I'll filter through all the existing tickets tickets array dot length once I do this
+
+908
+02:05:34,700 --> 02:05:47,220
+once I have this array then what I'm supposed to do I have to check for the each ticket array
+
+909
+02:05:47,220 --> 02:06:06,020
+so ticket arrays ticket ARR inside the ticket ARR dot index dot ticket ID right if it is matching
+
+910
+02:06:06,020 --> 02:06:19,260
+the current ticket ID okay only if this is matching then first break the loop and update
+
+911
+02:06:19,260 --> 02:06:35,540
+ticket equal to this ticket information once we do this I'll say that hey return let's say return
+
+912
+02:06:35,540 --> 02:06:50,220
+ticket now I'll cut this one I'll say that I'll add it here bottom and something that we are
+
+913
+02:06:50,220 --> 02:06:58,580
+passing here is ticket ID in general what I'm doing it is that from this array whatever array
+
+914
+02:06:58,580 --> 02:07:04,060
+we are storing all the tickets based on ticket ID getting that object which object this object
+
+915
+02:07:04,100 --> 02:07:14,460
+whatever we are pushing right whole object that I'm trying to get back okay get the ticket based
+
+916
+02:07:14,460 --> 02:07:26,380
+on ticket IDs okay now let's say I call this here firstly can you get me the ticket based on
+
+917
+02:07:26,380 --> 02:07:36,700
+ticket ID and whatever it is returning it let's say we got hold ticket information that we need
+
+918
+02:07:36,700 --> 02:07:57,060
+to remove once I have this ticket I'll call tickets array dot splice ticket comma one do
+
+919
+02:07:57,060 --> 02:08:04,300
+you think they should work guys is it firstly did anyone and all of you understand what I was
+
+920
+02:08:04,300 --> 02:08:11,380
+trying to do here I was just getting the whole ticket using the ticket ID whichever user is
+
+921
+02:08:11,380 --> 02:08:17,940
+trying to delete it using this method get me that ticket once I get that ticket I'm trying to remove
+
+922
+02:08:17,940 --> 02:08:30,500
+it using splice method isn't it let's say if this is working fine if this is working fine okay let's
+
+923
+02:08:30,500 --> 02:08:41,060
+see if this is working fine firstly I I have let's say some gibberish task tasks pink color
+
+924
+02:08:41,060 --> 02:08:56,140
+let's say I have another task q2 green color okay let me open inspect tool also now if you
+
+925
+02:08:56,140 --> 02:09:10,580
+see here I have to create another task to see this one okay did I remove console log here yeah
+
+926
+02:09:10,580 --> 02:09:18,180
+let me add okay if I reload I'll lose all the tickets no worries I will show it by debugging
+
+927
+02:09:18,180 --> 02:09:24,820
+anyways I lost the tickets once I click save it will auto reloads
+
+928
+02:09:24,820 --> 02:09:51,620
+now firstly if you see here we have three tickets as we have created three now let's
+
+929
+02:09:51,780 --> 02:09:59,020
+enable the delete button once I enable the delete button let's go to handle remove let's see what
+
+930
+02:09:59,020 --> 02:10:09,700
+we are getting inside this one okay and the function here okay once I click this I'm trying
+
+931
+02:10:09,700 --> 02:10:22,860
+to click the pink ticket ticket has been removed okay did I mess up cannot access ticket before
+
+932
+02:10:22,860 --> 02:10:44,660
+initialization did we kill this process okay okay I let's say ticket object naming convention
+
+933
+02:10:44,660 --> 02:10:51,780
+was the issue guys so let's just try to create one ticket and try to verify this state if it
+
+934
+02:10:51,780 --> 02:11:00,420
+is working fine I try to delete it then I click here now once I do this ticket has
+
+935
+02:11:00,420 --> 02:11:05,100
+been deleted now if you see we were passing that particular idea because if you see here
+
+936
+02:11:05,100 --> 02:11:10,900
+only one ticket was there now we are supposed to empty this array right we have to remove
+
+937
+02:11:10,900 --> 02:11:16,660
+this from element from this area if you now if we go inside the get ticket function let's
+
+938
+02:11:16,660 --> 02:11:21,260
+say if you are able to get that whole object now that whole object is built and given back to you
+
+939
+02:11:21,260 --> 02:11:26,740
+once you receive this object you are doing something like a splice function okay I'm
+
+940
+02:11:26,740 --> 02:11:31,620
+removing this particular object and only remove that one starting from that index remove only
+
+941
+02:11:31,620 --> 02:11:42,420
+one thing okay once I do that it will be filtered now I have to console log again to show it show
+
+942
+02:11:42,420 --> 02:11:59,380
+back show to you console dot log after deleting from array
+
+943
+02:12:12,420 --> 02:12:24,300
+now let's say we clean this up now if you see in the console log I have one ticket and I'll
+
+944
+02:12:24,300 --> 02:12:31,980
+remove the debuggers as of now we don't need it now once I click this status is working fine let's
+
+945
+02:12:31,980 --> 02:12:39,060
+I enable this one once I enable delete button and click this if you see after deleting the
+
+946
+02:12:39,060 --> 02:12:46,700
+array become empty so we handle that edge case so I hope you are able to understand this case how
+
+947
+02:12:46,700 --> 02:12:53,340
+we are managing how we are storing in the memory and deleting the existing tickets and handling
+
+948
+02:12:53,340 --> 02:13:01,220
+it now I don't want to further overwhelm you guys because there is a one feature as I've told you
+
+949
+02:13:01,220 --> 02:13:07,740
+that you know I wanted to cover one more thing on double click of filter color like render all the
+
+950
+02:13:07,740 --> 02:13:13,020
+tickets like once I use a clicks like double click here or do anything we should be able to
+
+951
+02:13:13,020 --> 02:13:19,020
+render all the tickets like all the tickets you can get it again from this array itself you'll
+
+952
+02:13:19,020 --> 02:13:24,060
+have all the articles that are present in array itself do you want me to cover it up and explain
+
+953
+02:13:24,060 --> 02:13:31,420
+the whole thing or you want me to take it up in next class double on double click I have to
+
+954
+02:13:31,420 --> 02:13:41,020
+render all the tickets back do you want us to you want me to cover it I see one thumbs up
+
+955
+02:13:41,020 --> 02:13:47,700
+next class same as I click we can do it now yeah same as I click nothing nothing much new it's
+
+956
+02:13:47,700 --> 02:13:56,540
+just an five minutes work because already all the parts of the things have been covered it just that
+
+957
+02:13:56,540 --> 02:14:05,740
+I have to add simple one like four lines of code okay one thing I'll do is that I'll take it up
+
+958
+02:14:05,740 --> 02:14:14,300
+because in next class I have to explain local storage we can do the poll let me arrange a poll
+
+959
+02:14:26,540 --> 02:14:49,660
+let's say I also give 30 seconds are fine okay I'm launching the poll guys please select it
+
+960
+02:14:49,660 --> 02:14:57,580
+50-50 ratio
+
+961
+02:14:57,580 --> 02:15:21,020
+okay let's let's do it guys let's do this okay won't take much longer now if what I was saying
+
+962
+02:15:21,020 --> 02:15:25,420
+is that if you see from the requirement point of view I am still saying it that on double
+
+963
+02:15:25,580 --> 02:15:32,780
+click of this any color we are supposed to render all the tickets now we already added
+
+964
+02:15:32,780 --> 02:15:37,580
+event listeners to them and we added event listeners here itself we got an access to
+
+965
+02:15:38,140 --> 02:15:43,660
+toolbox colors and inside this we are adding all the events listeners to each each one of them
+
+966
+02:15:43,660 --> 02:15:51,660
+right now for this event listener we are listening to click but we want to listen to double click
+
+967
+02:15:51,660 --> 02:15:57,660
+so what I'll do right I'll just say that I want to listen for each color
+
+968
+02:15:59,820 --> 02:16:09,820
+double click for double click similar to click we have dbl click right do you all know this
+
+969
+02:16:10,620 --> 02:16:14,860
+if someone want to listen to double click it's just that same you have to just this
+
+970
+02:16:14,860 --> 02:16:21,420
+write down double click right plain simple straightforward now once you do this once you
+
+971
+02:16:21,420 --> 02:16:31,900
+do this you have to again when whatever tickets are there on the existing screen you have to
+
+972
+02:16:31,900 --> 02:16:38,860
+clean that existing screen right I'm trying to clean that existing screen same method copy
+
+973
+02:16:38,860 --> 02:16:45,660
+paste it same method copy paste it clean the existing screen now once cleaned up
+
+974
+02:16:46,780 --> 02:16:54,860
+again create for all things as we have done this for the filtered array I'll do it on ticket array
+
+975
+02:16:54,860 --> 02:17:06,860
+dot forage same logic let's try copy this I paste it here nothing else sorted it didn't even take
+
+976
+02:17:06,860 --> 02:17:13,340
+10 minutes but for re-explaining it will take it so on click of double click I say that if there
+
+977
+02:17:13,340 --> 02:17:17,900
+are on some on screen someone have filtered and there is one ticket showing I am saying that remove
+
+978
+02:17:17,900 --> 02:17:25,020
+that thing and I'll I'll recreate and render everything okay let's see this if this is working
+
+979
+02:17:25,020 --> 02:17:37,500
+fine okay I have one task of pink color let's say I have another task of green color
+
+980
+02:17:39,340 --> 02:17:46,380
+so I have another task of blue in color now three colors are there now let's say
+
+981
+02:17:47,260 --> 02:17:51,980
+we can filter based on pink green blue and black everything is fine
+
+982
+02:17:51,980 --> 02:17:57,420
+long black we don't have anything now if I click double click if I click double click
+
+983
+02:17:58,380 --> 02:18:08,300
+let's say I'll show you once a while we'll walk through remove all the other break points then go back
+
+984
+02:18:11,980 --> 02:18:18,060
+this is the part it should get created okay now once I click double click event
+
+985
+02:18:18,780 --> 02:18:24,780
+let's say I'm clicking on pink color two times I clicked it came into this execution and it is
+
+986
+02:18:24,780 --> 02:18:30,780
+working on removing this pink color first if you see it will remove this pink color okay inside this
+
+987
+02:18:30,780 --> 02:18:35,660
+dome whatever it is rendered it will remove pink color once pink color is removed in the ticket array
+
+988
+02:18:35,660 --> 02:18:41,420
+here I have three tickets one is in light pink one is in light green one is in light blue let's
+
+989
+02:18:41,500 --> 02:18:42,620
+create back all of them
+
+990
+02:18:45,740 --> 02:18:49,500
+simple and straightforward isn't it once you understand one third of logic
+
+991
+02:18:49,500 --> 02:18:51,340
+everything revolves around that part sir
+
+992
+02:18:53,580 --> 02:18:56,940
+are you able to follow up guys are you did you understand this one
+
+993
+02:18:59,420 --> 02:19:01,020
+great great great
+
+994
+02:19:04,140 --> 02:19:08,860
+so guys one thing I'll do is that I covered whatever I want to cover for today
+
+995
+02:19:09,420 --> 02:19:15,500
+okay next class I'll show you like if you if you see this one right what's happening currently if
+
+996
+02:19:15,500 --> 02:19:21,500
+I go and refresh we are not able to persist any ticket so we will work on local storage but we
+
+997
+02:19:21,500 --> 02:19:25,500
+have to understand different types of storages we'll introduce to that topic then we'll come
+
+998
+02:19:25,500 --> 02:19:33,100
+back and implement that part here okay so I'll commit this code
+
+999
+02:19:39,820 --> 02:19:41,500
+what we have covered filter
+
+1000
+02:19:43,340 --> 02:19:44,300
+filter based
+
+1001
+02:19:49,020 --> 02:19:49,580
+rendering
+
+1002
+02:19:51,660 --> 02:20:00,620
+git push now so I'll talk on few things guys I'll start the doubt session I'll talk on few things
+
+1003
+02:20:01,180 --> 02:20:06,940
+okay so I would request everyone to stay back in doubt session for five minutes I want to show
+
+1004
+02:20:07,020 --> 02:20:07,980
+you few things okay
+
+1005
+02:20:13,340 --> 02:20:19,580
+if someone want to go they are also open to go like if you want to leave but I want to talk
+
+1006
+02:20:19,580 --> 02:20:23,820
+about something like event bubbling concept firstly then I'll come back and pick though
+
+1007
+02:20:23,820 --> 02:20:25,500
+all the questions okay now
+
+1008
+02:20:29,260 --> 02:20:30,540
+give me a second I'll have water
+
+1009
+02:20:41,180 --> 02:20:46,620
+now in last class Kiran Kiran are you there in the class
+
+1010
+02:20:50,140 --> 02:20:51,420
+do I have him
+
+1011
+02:20:53,900 --> 02:21:00,780
+okay I don't think he's there but what he suggested hey can't we use event bubbling why do you want to
+
+1012
+02:21:00,780 --> 02:21:07,420
+add like handle remove during ticket creation what if I click on this main container itself
+
+1013
+02:21:07,420 --> 02:21:16,940
+and you try to identify okay what I have clicked on okay now so what happens in event bubbling is
+
+1014
+02:21:17,260 --> 02:21:23,900
+what happens in event bubbling is that let's say I try to explain on the ipad once for the
+
+1015
+02:21:23,900 --> 02:21:29,340
+few people I've seen that few people don't understand it so I'll try to explain it now
+
+1016
+02:21:32,060 --> 02:21:34,700
+let's say we have this main content area
+
+1017
+02:21:36,540 --> 02:21:40,300
+this is the main content area in this we have multiple tickets
+
+1018
+02:21:40,300 --> 02:21:50,780
+now once I have this multiple tickets I was adding event listener to this one
+
+1019
+02:21:51,580 --> 02:21:58,140
+event listener to this one event listeners to this one so his idea was why are you adding
+
+1020
+02:21:58,140 --> 02:22:04,780
+three event listeners if we can accept we can do it implement functionality by only one
+
+1021
+02:22:05,340 --> 02:22:11,340
+adding a listener here which is apparent to all the tickets can we do it
+
+1022
+02:22:12,620 --> 02:22:19,580
+but how we can do it there's some concept called event two concepts event bubbling
+
+1023
+02:22:24,300 --> 02:22:25,740
+and event capturing
+
+1024
+02:22:25,740 --> 02:22:33,020
+like when we say bubble bubble forms this way
+
+1025
+02:22:35,580 --> 02:22:43,180
+right going from center area to outward now same way when user clicks on this ticket let's say user
+
+1026
+02:22:43,180 --> 02:22:50,780
+clicks on this ticket if you add a listener to this one even the code inside this listener
+
+1027
+02:22:50,780 --> 02:22:51,500
+will execute
+
+1028
+02:22:54,140 --> 02:22:59,740
+that's what event bubbling talks about is this logic clear to everyone like how event bubbling works
+
+1029
+02:23:04,700 --> 02:23:11,980
+right I see one two three okay I can show you the demo also like how it works
+
+1030
+02:23:12,620 --> 02:23:19,660
+okay now I connected script one file instead of handle remote right or doing it this way
+
+1031
+02:23:19,660 --> 02:23:22,860
+now let's say I create some two three tasks
+
+1032
+02:23:31,900 --> 02:23:34,620
+I've created three tasks now I go here
+
+1033
+02:23:37,740 --> 02:23:42,780
+I come back here let's say I enable first delete button once I enable it
+
+1034
+02:23:49,660 --> 02:23:56,620
+if you come here and see in this logic now I didn't add event listener to the tickets but
+
+1035
+02:23:56,620 --> 02:24:01,900
+I added it to the main container main ticket container and I am just listening to the click
+
+1036
+02:24:01,900 --> 02:24:10,220
+element now let's see what happens here firstly if I click on this ticket let's say if I anyone
+
+1037
+02:24:10,860 --> 02:24:16,860
+I click on this ticket okay now I am checking whether ticket button is enabled
+
+1038
+02:24:17,420 --> 02:24:22,700
+delete button is enabled yes delete button is enabled so it will go inside this condition
+
+1039
+02:24:22,700 --> 02:24:31,660
+first if else condition okay then it will check firstly what I clicked what is this event target
+
+1040
+02:24:31,660 --> 02:24:36,780
+what I clicked I clicked on something called ticket ID because I clicked here on the yellow part
+
+1041
+02:24:37,660 --> 02:24:44,300
+I'm checking like hey on this ticket ID if this particular ticket ID existing in this child classes
+
+1042
+02:24:44,940 --> 02:24:56,700
+yeah that's there that's there once if it goes inside if condition I say remove its parent node
+
+1043
+02:24:56,700 --> 02:25:01,260
+when I say parent node what do I exactly mean by ticket ID is like if you go into elements
+
+1044
+02:25:02,380 --> 02:25:09,500
+if I go into the second ticket which I clicked on I clicked this particular part A5N1 I'm going to
+
+1045
+02:25:09,500 --> 02:25:15,180
+its parent to ticket container I'm saying that remove that particular ticket container itself
+
+1046
+02:25:15,180 --> 02:25:21,500
+let's see if this is working fine let's see if this is working fine if I click play now do you
+
+1047
+02:25:21,500 --> 02:25:29,100
+see that A5 got deleted because this happened because event bubbling concept we didn't go by
+
+1048
+02:25:29,100 --> 02:25:35,660
+particular now if I let's see if I instead of ticket ID earlier I clicked on ticket ID if I
+
+1049
+02:25:35,660 --> 02:25:41,900
+click on this container part let's say click on this container part even now our parent main
+
+1050
+02:25:41,900 --> 02:25:45,980
+container which is the whole container for all tickets are still listening that click event
+
+1051
+02:25:46,620 --> 02:25:50,620
+it received that click event now again it checks that hey delete button is still too
+
+1052
+02:25:51,180 --> 02:25:57,740
+now it goes inside this condition now once again it checks what is the thing you clicked
+
+1053
+02:25:57,740 --> 02:26:03,180
+you clicked on something called ticket container itself whole container you have clicked outside
+
+1054
+02:26:03,180 --> 02:26:10,220
+the task area because task area is only available when you are clicking on edit part okay once you
+
+1055
+02:26:10,220 --> 02:26:17,020
+are done that it will check whether that part is true like whether you are having this ticket container
+
+1056
+02:26:17,020 --> 02:26:23,740
+by default in inside this it is a child element if it is child element it will remove the parent
+
+1057
+02:26:23,740 --> 02:26:28,700
+so it's not a child element it's ticket itself with a ticket container so it will go into else
+
+1058
+02:26:28,700 --> 02:26:35,660
+if condition if you see else if condition ticket container and we are comparing with ticket container
+
+1059
+02:26:36,460 --> 02:26:41,580
+then it will go and remove that particular target element itself instead of removing the parent
+
+1060
+02:26:41,580 --> 02:26:48,220
+because something we got access to now is this whole ticket itself okay now let's see if I click
+
+1061
+02:26:48,220 --> 02:26:56,700
+play the ticket got removed wholly now there's a third scenario I click on ticket banner like which
+
+1062
+02:26:56,700 --> 02:27:03,980
+is a band on the top level let's click on this one now again this will go from the child parent
+
+1063
+02:27:03,980 --> 02:27:09,100
+node let's see this what's what we are getting here if you see I hover over it again I'm getting
+
+1064
+02:27:09,100 --> 02:27:16,540
+ticket color yeah ticket color if you see I am checking for ticket color okay I'm checking for
+
+1065
+02:27:16,540 --> 02:27:23,980
+the particular colors also light green light blue now what is the color I got I got something like
+
+1066
+02:27:23,980 --> 02:27:30,380
+light pink now light pink is there here okay it's not there but you can add it
+
+1067
+02:27:31,500 --> 02:27:36,140
+okay we can add it and you will execute this particular thing it will like if you add it
+
+1068
+02:27:36,140 --> 02:27:41,260
+here in the light pink then it will remove I hope you got the basic idea like how that
+
+1069
+02:27:41,260 --> 02:27:47,340
+event bubbling you can leverage and still build these futures rather than adding multiple event
+
+1070
+02:27:47,340 --> 02:27:53,260
+listers I hope this point is clear to everyone
+
+1071
+02:27:56,380 --> 02:28:04,380
+now guys I open for your doubts if you want me to repeat anything if you want me to talk on anything
+
+1072
+02:28:04,380 --> 02:28:08,700
+I can repeat and talk do let me know what you want me to talk on
+
+1073
+02:28:11,660 --> 02:28:16,860
+is there something that you didn't understand from today's class or the whole thing or part
+
+1074
+02:28:16,860 --> 02:28:25,340
+of curriculum or are you facing any challenge do let me know I can share some thoughts on that
+
+1075
+02:28:25,980 --> 02:28:31,260
+my thoughts but before that did you understand today's class completely
+
+1076
+02:28:35,260 --> 02:28:41,980
+how many of you understood today's class I see only one thumbs up come on guys
+
+1077
+02:28:42,940 --> 02:28:50,860
+thank you so I hope you enjoyed you know we picked it up this project because it's more of a
+
+1078
+02:28:53,500 --> 02:28:59,020
+event listener stuff like how few add event listeners how you go to child elements how
+
+1079
+02:28:59,020 --> 02:29:06,060
+can you manipulate existing and adding things there's nothing much of logic here we try to
+
+1080
+02:29:06,860 --> 02:29:12,780
+we try to make it as simple as this one and if you see it's it's all about
+
+1081
+02:29:13,500 --> 02:29:23,020
+if you search only right this method add event listener it's nine times right nine times we
+
+1082
+02:29:23,020 --> 02:29:27,900
+added event listener if you even if you go on the page you can see what are the nine times like
+
+1083
+02:29:27,900 --> 02:29:35,020
+one is plus one is cross one are these buttons then you have a lock icon then you have text area
+
+1084
+02:29:35,020 --> 02:29:41,660
+icon then you have color or that status changing status icon so all these parts you had event
+
+1085
+02:29:41,660 --> 02:29:48,220
+listeners and any user doing any interaction with them on on interacting with them we are making
+
+1086
+02:29:48,220 --> 02:29:55,740
+some changes on that just that said it will come by when you practice it you will get used to it
+
+1087
+02:29:55,740 --> 02:30:03,340
+okay so you need not to worry just give some time try to see that code offline okay if you face any
+
+1088
+02:30:03,340 --> 02:30:09,340
+challenge to let me know during that moment also thank you manishara
+
+1089
+02:30:13,340 --> 02:30:19,020
+guys did you enjoy this project i need your feedback like is this good enough
+
+1090
+02:30:19,020 --> 02:30:24,140
+for beginner level like when we teach whole things html css and down
+
+1091
+02:30:24,140 --> 02:30:26,940
+um
+
+1092
+02:30:32,380 --> 02:30:40,780
+no reactions okay i got only muneshwara's comment but i hope you enjoyed it i hope you understood
+
+1093
+02:30:40,780 --> 02:30:50,220
+uh like how how like because now if you see if this project was so difficult like if i build
+
+1094
+02:30:50,220 --> 02:30:56,220
+this with react right if i build this whole functionality with react i have took uh more
+
+1095
+02:30:56,220 --> 02:31:02,940
+than let's say three classes no nine hours or say six hours to range of nine hours six to nine if
+
+1096
+02:31:02,940 --> 02:31:08,540
+i build this with react i can do it in three to four hours not more than that i you will be able
+
+1097
+02:31:08,540 --> 02:31:14,860
+to understand uh more easily because that's what declarative way of coding does to you
+
+1098
+02:31:14,860 --> 02:31:23,500
+so now if you see i'm adding event listener i'm going manually selecting item dom item query
+
+1099
+02:31:23,500 --> 02:31:28,140
+selectors all these things will be done you know smoothly
+
+1100
+02:31:32,140 --> 02:31:35,820
+okay we'll see that in future someone also can replicate this one
+
+1101
+02:31:35,820 --> 02:31:46,060
+um yeah a complete website will be good cover for html css js uh yeah so one thing you can do
+
+1102
+02:31:46,060 --> 02:31:51,820
+is this this project you can also deploy on github pages so we thought of you know doing it two
+
+1103
+02:31:51,820 --> 02:31:57,500
+projects one is portfolio which will share recording should have been shared but i kept
+
+1104
+02:31:57,500 --> 02:32:02,860
+pinging that person person was on leave so by tomorrow i'll make sure that you get that project
+
+1105
+02:32:03,580 --> 02:32:09,260
+yeah i know that muneshwara not retarded because that also get right right uh the person who was
+
+1106
+02:32:09,260 --> 02:32:15,980
+supposed to do it he was on leave okay he was on leave because now he will be adding to your
+
+1107
+02:32:17,500 --> 02:32:25,260
+like your batch like uh and so basically we thought of building two projects uh and
+
+1108
+02:32:25,260 --> 02:32:31,340
+few mission coding uh problems so these are the two basic projects and then mission coding
+
+1109
+02:32:31,340 --> 02:32:36,140
+because on uh full uh end-to-end development right on html css js
+
+1110
+02:32:36,700 --> 02:32:39,580
+it would be more based on uh machine coding problems
+
+1111
+02:32:43,820 --> 02:32:48,940
+uh if we didn't click the color while creating a ticket it will make it as black if we're clicking
+
+1112
+02:32:48,940 --> 02:32:56,780
+one color okay let's let's try this thing uh i click something query and i click directly option
+
+1113
+02:32:56,780 --> 02:33:02,140
+if you see black is right default okay but if we click one color again creating a new
+
+1114
+02:33:04,860 --> 02:33:10,460
+okay firstly if we click any color while creating a ticket will make it as black that's okay
+
+1115
+02:33:10,460 --> 02:33:16,860
+that's okay but if we click any one color when create ticket and again creating a new ticket
+
+1116
+02:33:16,860 --> 02:33:20,940
+right
+
+1117
+02:33:22,780 --> 02:33:31,260
+okay now uh if you say so let's see this my first statement was validated second statement i click
+
+1118
+02:33:31,260 --> 02:33:40,940
+pink and i select option then i come back i uh do this i don't select color i click again this thing
+
+1119
+02:33:40,940 --> 02:33:47,660
+now i got the pink okay uh no by default we can we have to stick it to one color
+
+1120
+02:33:48,460 --> 02:33:54,620
+we'll fix this bug okay whenever user is not selecting it we have to make sure that uh
+
+1121
+02:33:55,900 --> 02:34:03,100
+there's a one consistent color all the time okay one way we can do is that uh since this is a model
+
+1122
+02:34:03,100 --> 02:34:08,300
+priority color uh you know black color while creating a ticket
+
+1123
+02:34:14,940 --> 02:34:21,820
+let's say here here is where we are calling it now we might be updating this color somewhere
+
+1124
+02:34:22,540 --> 02:34:23,340
+let me check this
+
+1125
+02:34:29,100 --> 02:34:36,540
+now user clicked it that's fine when he's reopening right when he's reopening and typing it down
+
+1126
+02:34:36,540 --> 02:34:51,260
+okay
+
+1127
+02:34:51,260 --> 02:34:58,060
+one thing we can do is like update this once you are doing this one update this as black
+
+1128
+02:34:59,260 --> 02:35:04,460
+so it this will be done this will be automatically taken care now let's let's try to read this do
+
+1129
+02:35:04,620 --> 02:35:12,460
+this one i select query pink color i click option then i take this one again do query ui
+
+1130
+02:35:13,020 --> 02:35:15,820
+then if i do this i'm getting black i'm not getting pink
+
+1131
+02:35:18,540 --> 02:35:21,820
+this is fine kabir thank you for pointing it out
+
+1132
+02:35:28,220 --> 02:35:33,340
+just uh resetting while resetting you have to update that reset as a because we are doing here
+
+1133
+02:35:33,340 --> 02:35:38,060
+reset right whatever reset we're doing we have to handle there
+
+1134
+02:35:54,700 --> 02:35:58,140
+so guys if all things are fine we can close the session for today
+
+1135
+02:35:59,100 --> 02:36:03,420
+thank you for joining see you in the next class where we'll be discussing different types of
+
+1136
+02:36:03,420 --> 02:36:09,660
+storages in browser so that concept should be would be important for you once you understand
+
+1137
+02:36:09,660 --> 02:36:17,420
+those concepts right then we'll like you know do apply those knowledge of local storage here in
+
+1138
+02:36:17,420 --> 02:36:23,100
+the application then revisit this whole application and then close this project okay
+
+1139
+02:36:23,100 --> 02:36:28,540
+okay i hope to see you everyone in the next class on saturday
+
+1140
+02:36:29,580 --> 02:36:33,740
+please do attend it or try to make it as simple as possible for you
+
+1141
+02:36:35,500 --> 02:36:39,980
+okay thank you all have a great night take rest
+
+1142
+02:36:42,540 --> 02:36:46,380
+bye guys good night good night kabir
+
+1143
+02:36:46,380 --> 02:36:54,700
+thank you sambit good night munesh for all
+
+1144
+02:36:56,860 --> 02:37:02,060
+good night sambit so guys see you on saturday bye
+
+1145
+02:37:16,380 --> 02:37:17,020
+you
+

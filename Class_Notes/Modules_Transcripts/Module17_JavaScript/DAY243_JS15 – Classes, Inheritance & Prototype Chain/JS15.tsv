@@ -1,0 +1,1106 @@
+start	end	text
+0	18120	hi all good evening guys am i audible and visible give me thumbs up if you can hear
+18120	28760	me out great so so how's preparation going on guys like how we preparing for contest
+28760	29760	all going good
+29760	48880	okay great let me share my screen
+48880	66000	do let me know guys if you can see the screen share good so
+66000	82440	fine let's pull ipad
+82440	87760	okay kabe i will talk about that you will get to an understanding on that point okay
+87760	115960	need not to worry i'll explain that point okay i'll speak on that today
+115960	129080	ipad sharing is also working fine right so kabe can you add this as a question at last
+129080	133400	a moment of the class at last whether this question is answered if you understand by
+133400	143920	that time or let me know that if not we'll pick it up okay
+143920	153080	so guys any updates anything there okay okay you fix a timer uh great so much let's look
+153080	154080	at this
+154080	166000	also you i had a code to
+166000	173600	set timer nice let's i set up the timer guys uh we'll set up for five minutes uh and i'll
+173600	183880	say start okay it works fine great so guys any updates anything going on your life or
+184400	190200	how's preparation going any updates on assignments let me check what's the percentages of our
+190200	201160	batch how many people are able to solve things i haven't checked in some time back
+201160	205520	so one quick feedback i need are you able to follow up with my teachings are you enjoying
+205520	212320	it uh like do i need to work on anything or from the topics point of view if you have
+212320	217240	any challenge understanding it do let me know okay then and there itself so that we
+217240	238080	clear them out and then we move ahead step by step okay guys uh
+238080	260680	so our assignments this percentage is 38 how to add a slider uh where you want to add
+260680	280680	a slider uh somewhere just wanted to know that a slide of a what like uh i didn't get
+280680	285400	your complete question summit maybe if you are typing it that's good uh like an option
+286280	291960	slide through different things as in there will be two things clicking on one thing will show a
+291960	299240	page on the other okay it's kind of a toggle rendering content based on html like toggling
+299240	306440	the content right on a button right or like a image carousel like moving one after the other
+308440	314520	okay that thing uh it's a button based event like enabling a div and disabling a div
+314520	322040	uh so that is something that you can do as of now but uh like if you want it more dynamic
+322040	327320	you have to go for react but current for current knowledge it's like if you are rendering one part
+327320	334600	of html then uh depending on a button click or event or a you know swipe event you have to
+334600	340760	check which is event is like actually working as a swipe okay or generally in uh web browsers you
+340760	347160	don't have a spike you can have that in the mobile events so you have to check like uh then
+347160	352360	once that is there and how do you render the other part of the content so it just that you know
+353000	356920	toggling between two different ifs one different one day will have the current content and the
+356920	365480	next day so uh there is a okay if there is a default html or not uh there might not be a
+365480	371800	default html built for that but we can you know uh in react based components you'll find it
+373480	377080	there you will find it okay
+382280	389800	okay revision i'll do that from okay toggling through different text uh good
+395960	396200	so
+400520	404920	again this is a new addition this is a great thing uh so you added a background image isn't it
+409640	410760	on this application
+415080	421880	whatever you do okay you are also okay this is nice this feature is nice you are uh changing the
+421880	429560	sentences after each second or what timeline you are using it
+432840	440520	so quotes.js is a different file uh you have an array of items uh then this you are using this
+440520	449160	array
+458920	463160	500 milliseconds is it
+470840	477160	after six seconds every six seconds okay
+481400	486040	great one you are trying to apply the knowledge we have learned up to greater extent so
+486680	492120	really happy with your application somewhere this add on you know inspiration for the people in our
+492120	498440	class or the batches will be i'll be talking about this one in the upcoming batches but great
+498760	503960	so guys uh can we get started with today's class can anyone drop uh in whatsapp group
+503960	509240	like we are able to get started uh one message would really help us you know i see a few people
+509240	512280	joining after the message
+512920	520120	so
+523480	525800	okay great so let's do one thing
+527560	531560	uh there's a message dropped i'll check from my side
+534760	536120	yeah great thank you brahmod
+536920	550600	okay thank you shik uh now so firstly just want to know like if you have any doubts from previous
+550600	557240	class where we started with this operator we understood context of this and what this talks
+557240	563240	about like we have figured out that you know this is always referring to some object
+566120	575480	object and on top level we had only four types of objects one is empty object then one is window
+576680	583240	one is global and the object itself which you are calling on right and there is something is
+583240	591320	undefined key these are the possible values we have seen and when it comes to this node.js
+591320	595720	this is specific and when it comes to windows this is specific to browser
+600040	605080	right and there's a thumb rule simple console log in node.js will always give empty
+608760	615320	whereas in window like one browser you will get a window object by default and other keys are like
+615320	621240	if there are no context in strict mode specifically you will see only in strict
+621240	625640	mode you'll see the undefined coming up in other cases you might not be seeing and we also understood
+625640	634040	what is strict versus non-strict mode whereas strict mode uh you know applies few more rules
+634040	641800	than existing javascript in it was introduced in es5 version where they introduced this one which
+641800	646200	had more error handling better error handling and exception handling that we have seen
+647000	651880	after this once we understood this this operator then we went went on ahead to
+651880	654120	understand something called as constructor function
+656680	662280	so these are the two topics that we have discussed last class and when it comes to
+662280	667080	constructor functions we figured out that hey if you want to create an object one of the way is
+667160	672200	always open a curly place and write down the different types of data types or the custom
+672200	677320	data type whatever you want to build that's all cool but what if i want to build a same sort of
+677320	684120	objects multiple times let's say this is the same object the content is still same like if the if
+684120	689320	that is a use case how can we automate it so the other way around of creating objects we figure out
+689320	695400	is constructor functions where you define a function uh function which starts again the function
+695400	701960	name should start with the capital letter let's say i say fun and this fun may be returning you a
+702600	710120	new object so here inside this one you have a constructor you define a constructor sorry
+710120	716200	you don't need a constructor you can directly simply define all the content that you wanted
+716200	722920	using the this key like simply let's say context so this start all the variables
+725800	735400	and whatever values are the parameters you accept here you define a parameter and using this if this
+735400	740680	is used for initializing all the variables and if you want to create a new object always you have
+740680	747080	to call a new keyword this new keyword is generally working as a memory assignment which creates a
+747080	748760	memory
+751320	756600	okay and the this memory is loaded with this variables whatever you pass in here
+756600	763000	and it is stored in some let's say variable here and this variable acts as a reference key
+764040	769240	right so this is something we have understood in last class uh any doubts still now guys on
+769240	775560	this concepts just revised the context we have understood in last class just want to know if you
+775720	779560	are facing any challenge or understood like this one if everything is clear can you give
+779560	782120	me a thumbs up so that we can get started with today's class
+785800	793720	great so if you see from the last class whatever we thought to cover in oops we have reached to a
+793720	799960	place where we have to discuss something called as classes and classical inheritance
+800520	808360	so I would request right uh one thing is that JS is a more of a functional programming language
+817240	824120	but as you see that there was a too much growth of OOPS system object-oriented system
+824120	833240	of OOPS system object-oriented system because of this growth this ECMAS script team like in ES6
+833960	839320	they launched a better version or a neater version of describing constructor functions
+843320	847320	and better way of doing or implementing constructor function is using classes
+848040	854920	this was introduced in ES6 now let's see like if both are solid like uh one thing I want to highlight
+854920	859560	is constructor function and classes are doing the same thing one is the older way of writing it
+860440	866360	uh still people prefer this way in many places and some people prefer this way so it is up to
+866360	871640	the use case this thing was introduced only because like popularity and people how they use
+871640	876440	and people how they use they wanted to introduce classes and we'll come to that classes
+877080	883800	okay one thing a few things that I want to set uh you know give you highlights on is that you know
+883800	893560	the object-oriented programming that you see in Java or C++ is not same as in JS
+894600	900600	JS uh you know they just added some support for the classes but it doesn't work in the same way
+900600	907560	we'll see why why not what all things are there here okay now let's get started with uh classes
+907560	914920	guys now uh so first and foremost thing you know whenever you go for any programming language what
+914920	921160	is the definition that you keep hearing for class anyone what is the definition that you think in
+921160	929960	terms of class like whenever you say class or if you go for struct if you are from C++ background
+930440	935720	if you think okay blueprint right now how many of you understand something called blueprint
+938360	942840	a keyword a normal word blueprint how many of you understand normal word blueprint
+944040	951080	okay I'm not asking for class but a blueprint now okay let's see that what happens now I want to
+951080	957720	explain one of the problem statement uh let's say if you are building societies like you so
+958360	965960	societies you see in Hyderabad they are upper now my home like many are there uh big construction
+965960	971240	companies real estate companies who are building societies now when you build up uh you know huge
+971240	979640	society in each society will have 10 plus towers okay in all those 10 plus stars you might have
+979720	989320	like you know a 2 BHK flat a 3 BHK flat a 1 BHK flat and but when you see a brochure
+989320	996120	let's say you have a brochure when you see a brochure do you get whole map of the society
+996120	1000680	or do you get a sample blueprint of each flat
+1000680	1009800	to get a simple blueprint of each flat in the brochure or do you get a whole
+1009800	1017560	thing in the society blueprint right now now using that one blueprint one blueprint that they gave
+1017560	1024760	you there's something architects might have uh in-depth blueprint using that one blueprint of a
+1024760	1032920	one flat or maybe a 2 BHK or maybe 3 BHK he builds more than 100 houses right 100 to 200 houses
+1033720	1039400	do you agree with me using one architecture or map he keep on building one after the other of same
+1039400	1045720	sizes same flats guys how many of you agree i see only one thumbs of you people reacting i want to
+1045720	1052440	you know see if everyone is able to follow me up okay now this blueprint whatever blueprint you
+1052440	1057880	create right one blueprint is called as a class and this 100 are called as objects
+1059080	1064600	okay this again goes back to the same definition if you see when we told that when we when we
+1064600	1071000	decided to go for constructor function is that when you have a common variables or data types
+1071000	1075720	if you want don't want to do it general duplication using this object so use one
+1075720	1081160	constructor function which will create n number of objects like what do we exactly mean by that
+1081160	1086680	sentence like if you have the same blueprint for n objects with only changing the variable types
+1086680	1092360	like only the numbers are changing then you can go for constructor function this is still you know
+1093240	1094840	again a constructor function
+1099000	1103480	is still the same as a class and objects are real time objects that you create
+1103480	1109160	okay so both things both this are solving the same problem now let's see one of the example of
+1109160	1111640	syntaxes like how this works okay
+1116440	1118440	let me create a class 22
+1126440	1130920	let's say i say class dot j s
+1130920	1138440	let's say class hyphen dot j s okay here now i'll introduce i'll talk about few syntaxes that how
+1138440	1143960	you can declare a class now for declaring a class you have to use a keyword class then you have to
+1143960	1149960	tell like what class name is let's say creating a class called person once you have this person
+1149960	1155320	what you can do it inside this is like you can have a constructor now as i told you in last class
+1155320	1161160	you can have a constructor now as i told you in last class that constructor is used to only
+1161160	1166840	initialize the variables but not to create an object now inside this constructor let's say i
+1166840	1172120	have three variables let's say i say that this dot name it means that i'm having a variable name
+1172120	1179080	this is the same name i'll receive it here let's say name and age and let's say gender we have
+1179080	1188040	three things okay let's say i'm assigning those variables this name dot age then let's say this
+1192040	1198040	okay now this is the same syntax now let's say i try to create an object one of the way to
+1198040	1204760	create an object is let's say this is a person one again you use a new keyword so you're trying to
+1204760	1208920	get an access to this per class and you you don't just call this as a function
+1209880	1215000	because you're just this is in a way classes are can be invoked this way when you're trying to
+1215000	1220360	create an object now whenever first thing that if you see whenever we are calling this way it is
+1220360	1225720	trying to actually interact with this thing at runtime whenever whatever you pass here inside
+1225720	1230040	this it will be received inside this because this is the first method which will be now these are
+1230040	1235080	things which are inside the classes are called methods now this method will be invoked this
+1235080	1239240	constructive method now let's say if you want to pass a name like just say john
+1240360	1248840	and let's say john ages maybe 26 and let's say gender is male okay once you do let's
+1248840	1254360	say create another person person two new person
+1257000	1262120	let's say duncan say 28
+1264440	1272680	say again male okay so is the syntax clear guys how this thing works let's me
+1272680	1280200	show you console logging this thing both like what class does for us same thing whatever
+1280200	1285320	constructor function was doing for us same thing class is doing it just in a better way like what
+1285320	1291960	do you want you can be able to relate if someone is coming from the background of this one like
+1291960	1298600	object-oriented background let's say if i execute if you see i'm still able to access this person
+1298600	1303800	one even you can access the object same way like let's say this is an object that you receive if
+1303800	1309320	you want to access let's say i say that name then i say that person one dot age
+1311960	1319240	and percent one say percent two dots and let me do update this person to
+1320760	1327080	save it let me re-execute it if you see i'm getting the duncan like you know 28 and male
+1327080	1331240	because it's the same way like you're accessing object you can access all the variables from it
+1331880	1337240	that's good that's good now let's say i go on implementing one more version of this one let's
+1337240	1348840	say call it as a let's say i call it as person one now here let's say i'm trying to add our
+1348840	1356840	one method say that greeting but before going ahead this one with this one hope i hope everyone
+1356840	1363560	is able to follow up with the syntax any doubts guys just one final check this is pretty basic
+1363560	1370760	simple straightforward if you have any doubts at any moment give me a thumbs down or give me
+1370760	1376840	some hint that that will act like i think i need to re-explain it okay let's say i'm adding a
+1376840	1384600	function here functions is let's say i say that hey console dot log
+1387320	1393320	i say greetings let's say i add greetings from
+1396120	1402760	this dot name now let's say if i try to implement the same thing let's say i
+1402760	1412360	take this object i say person hyphen one one now here instead of person object i'll use person one
+1414120	1423400	and i'll do console dot log person one one now let's say if i console log if you see
+1423400	1428280	in that object i'm still having all the types of data types it is still working like the same
+1428280	1433960	the way you create an object with a parenthesis symbol everything you can define it inside the
+1433960	1440440	constructor method itself even the functions you can declare it now let's say if i want to
+1440440	1445400	access that function itself what i can do let's say i can say that function dot greeting and i
+1445400	1451560	can execute that function let's say if i do that okay if you see i'm getting greetings from the
+1451560	1458200	john this is printed now this is the second version that i wanted to show you guys now there
+1458200	1465960	is a version three that i want to talk about where i'll take this one i'll paste it here again i'll
+1465960	1476040	say that function two percent two where i'll pull this one out let's say i'll pull this one out i'll
+1476040	1483320	end this i'll declare greeting here and let's say i try to still do the same console login
+1488440	1492360	okay once we do this let's say again i have the same line
+1496680	1502520	which i say person one two and instead of this object let's say i initialize this here
+1503320	1505560	now let's say i execute this one
+1509880	1515400	once i execute it now if you see i'm still getting the greetings from the john i'm still getting
+1515400	1519960	from the critics from the john but i just want you to think like what could be the difference
+1519960	1525480	between this version and this version where you are declaring this method inside a constructor
+1525480	1529160	inside a constructor which is declaring method outside the constructor
+1531480	1538120	anything nice do can you think of anything like what why undefined there i'm not exactly sure
+1538120	1541720	why that undefined is coming from but there's nothing as such we are printing
+1542760	1549720	you can ignore that it won't come in the browser okay if i try to execute this one let's say
+1550600	1553720	if i let's say i pick this example
+1560680	1566840	nothing as such like that's undefined yeah i'm getting greeting from the john but
+1566840	1573880	line number 13 is giving me undefined even if i try to execute this one
+1573880	1578040	let's say
+1582520	1588280	i'm having person one then i'm greeting function so i'm executing it so it's it's
+1588280	1594040	executing only once then i'm not sure why that undefined is coming it is printing rightfully
+1594040	1602520	okay so i'll come with an explanation for that one but the main question guys here is that
+1602520	1605640	i just wanted to figure out what can be the difference between
+1606680	1612280	declaring this greeting function inside a constructor towards declaring the function
+1612280	1619560	outside the constructor can you guys think of anything like wow what can be the reason here
+1619560	1624920	or what is the magic is happening why both things are working as you know expected
+1625480	1630280	okay any guesses guys any anyone can even think of anything here
+1631880	1635720	i'm still able to access person one two dot greeting person one one dot greeting
+1636280	1643880	i'm able to print like greeting from the john and let's say i say this as a john smith
+1646840	1653560	again i execute it now if you see i'm able to print a greeting from the john smith and john both
+1653560	1659400	things any ideas guys what can be the difference between these two things
+1660600	1663560	if you don't know you can give me a thumbs down at that any moment right
+1667000	1672920	so i see three people four people great now so but do you understand the syntax that you can
+1672920	1677400	declare functions in both ways one thing in the constructor the other one is outside the
+1677480	1684120	constructor both things are called as methods now and both can be used but you have to figure it
+1684120	1690760	out let's say now if i have to build of like as i told you earlier that let's say i create another
+1690760	1699880	file called class two dot js let's say if i want to replicate each step each of this file using a
+1699880	1707000	functional like constructor functional logic let's say all the versions now let's say this
+1707000	1712520	version if we want to replicate this version you will try to you'll try will understand this how
+1712520	1715640	what is the difference between declaring inside a constructor versus outside
+1716760	1720600	let me go back to that step by step let's see if i want to declare this person firstly
+1721960	1725960	what i can do is that let's say i can create a function i can say a person
+1727080	1733960	inside this i can have a multiple variables like name age and gender right
+1734280	1740920	and once i have this uh anyways i can copy this and this is the version one isn't it
+1742600	1747560	guys these both things are same isn't it class person and person class function person now let's
+1747560	1758440	say if i go to the person one version if i go to this person one person one name age this one
+1758520	1766200	this one let's i copy this again i try to print it in order to show this right whether how
+1766200	1769480	this is working or not i'll try to console log and show it to you
+1770280	1779800	uh let's say i am here i say person then uh person one is greeting then also i'll have
+1779800	1786200	an another object from this one let's say
+1790440	1793800	let's say i try to save it uh and execute this one
+1797720	1807240	clear node class hyphen two dot js okay person one one is not defined okay
+1810440	1817320	i should clear this and i should execute it now if you see i'm still able to execute as expected
+1817320	1823320	dunkin from the main dunkin 28 meal because this is what happened past here for the person two and
+1823320	1830200	i'm able to execute greeting from the john so this is working as expected as of now but i will show
+1830200	1835800	you one thing is that let's say if i try to copy this particular version one from the class point
+1836760	1838920	of view let's say i try to
+1841720	1849640	let's say i just copy till here i just copy till here and let's say i go back here and i try to
+1849640	1854520	paste this code just look at this guys what i'm doing i'm just placing that person one version
+1854520	1861800	where i'm just creating a greeting inside it and then let's say i uh paste it uh and i say that
+1861800	1868200	person one one one i try to accept access it now when i'm doing it one of the thing that i want to
+1868200	1876680	see you is that if you see here greeting is present inside the object okay just notice this one that
+1876680	1883000	greeting is inside this object itself or default object now let's say if i go to the next person
+1883000	1890120	like this person person one two let's say i take this code and i try to paste it again here
+1891080	1899800	once i paste it then if i access person one two now here when i expand it do you see greeting here
+1899800	1900760	in person two
+1904760	1912200	no right but if i try to access let's say if i try to access person one two dot greeting
+1913000	1918760	and i try to call it say do you see this i'm getting greetings from john smith though it is
+1918760	1925720	not present we are getting it from somewhere that is the difference between both the functions
+1925720	1931480	like how we are able to access this greeting where this greetings is stored when you go for
+1931480	1937240	the syntax uh like how this is working like where this is particular thing when i declared inside
+1937240	1942120	this is particular thing when i declared inside on constructor function i'm in constructor or
+1942120	1948600	method this was there like earlier example if you go and check here when i was doing this
+1949160	1953560	this thing was present like inside this object itself like person one you see this greetings
+1953560	1959000	is there but when i print person two there is no greeting so guys is the difference is
+1959560	1963240	you are able to understand there's a difference when you declare inside a constructor and when
+1963240	1968360	you declare outside of constructor okay i hope you are able to identify the difference i'll come
+1968360	1972760	to what is happening behind the scenes in some time but i just need few more thumbs up if you
+1972760	1980920	are able to figure out the difference okay now let's let's go and try to figure it out what
+1980920	1986040	happening now i'll explore open this one more object if you see here there's an object attached
+1986040	1992040	to the person to there's something called prototype object now if i expand this prototype object
+1992840	1994360	do you see greeting present here
+1999960	2005400	so this greeting is coming from this part now let's understand what happened here what happened just
+2006520	2012040	okay how we were able to achieve or what is this prototype or what is happening
+2012040	2019160	okay so one sort of definition that i want to give you these are what prototype is in javascript
+2020040	2025960	but i'll explain this completely in depth in next class what prototype and prototypical chain
+2025960	2030520	but on top level like when you declare let's say when you declare
+2030520	2031320	when you declare
+2037800	2042120	method inside our class
+2046360	2049320	outside constructor function
+2049320	2063000	that method is added into
+2065800	2066920	prototype object
+2066920	2079400	okay this is the sentence you do remember it guys just a basic difference now i'll
+2079400	2084040	talk about this like how can you build this in the construct like using a simple constructor
+2084040	2090280	function that we see if i try to avoid the classes now let's say if you see this example
+2090280	2095720	if i want to replicate it this thing we know that this version person one is working fine
+2096120	2102360	everything is working fine let's say if i go and say that person function percent two and i try to
+2102360	2110280	copy paste this existing thing that i have and now what if i want to add something into the
+2110280	2119560	prototype now if you see if i come here on the percent two i can do something like percent two
+2119560	2128600	dot prototype when i try to execute this prototype you can see this is a greeting printed coming
+2129400	2135560	so if i want to do the same behavior to be built in the functional programming like using
+2135560	2142200	constructor function i have to do something like let's say i try to create a let's say well
+2142280	2149560	let's say i try to create a let's say well i have an object called
+2153080	2156680	let's say we can do this way person three
+2160040	2160760	new person
+2163480	2167480	say again uh let me copy this content
+2173080	2181240	okay this is what it still looks like a version one of the person function but now if i want to add
+2181240	2188360	a do player on something i have to do like person one dot prototype on this prototype object
+2189240	2198200	i have to add greetings function if i want to execute or let it work as expected now let's say
+2198840	2206200	let it work as expected now let's say if i go it do do it here i write down the same console log
+2210120	2212600	and let's say i say that
+2216760	2223400	console log or let's say i say that person three dot greeting
+2223880	2227080	and i execute it let's see if this is working
+2229000	2233400	now i'll come to the syntaxes and all the things how this is working and why this is working
+2234280	2242920	let's say i go it here i try to print now cannot set properties of undefined greeting now
+2243400	2247000	pardon me guys let me create on a person two
+2247560	2247800	two
+2250360	2255560	i try to put it onto the top i was creating it on object
+2261160	2261960	okay uh
+2265480	2266600	it's not a function
+2269480	2270600	just a second guys
+2277480	2277960	okay
+2284040	2290680	why this isn't working let's say if i try to let's say we copy this person two
+2292200	2297000	and let's say okay i'm creating an object on person so that's a mistake guys
+2297000	2299000	guys
+2301000	2308680	clear if you see i'm still able to print greetings from the john now the difference what happening
+2308680	2315560	here what just prototype is where this is coming from why this is happening so the thing that i
+2315560	2321880	want to say that whenever you create any object anything or whenever you create any object or
+2321880	2328520	anything right always in javascript there is something called as a prototype attached to it
+2329240	2334200	anything that you create which is having a memory you will always see other than primitives
+2334200	2340200	other than primitives whatever you create everything will have a prototype object
+2340760	2344920	a prototype object attached to it
+2352040	2359080	okay now even if you create an array you will see a prototype available if you create an object
+2359080	2364360	you will see a prototype available if you create a function you will see a prototype available
+2364360	2369480	so anything you create this prototype will be there now why this is there what it is doing
+2369480	2375240	we'll discuss in next class when we pick up prototype chain and everything but i hope you
+2375240	2381240	are able to understand like how uh this thing is working like there is a difference when you create
+2381560	2387880	inside a constructor when you create in the outside the constructor and how what is it like
+2387880	2392920	if you see when i create an outside the constructor how this is being added no way this is added into
+2392920	2397640	prototype object if you want to replicate that same behavior if you want to replicate that same
+2397640	2404760	behavior in a functional constructive way you have to add it to that particular function to its
+2404760	2411640	prototype that same greeting method is this clear guys are you able to understand the three
+2411640	2417080	versions of it you even with the functional programming and the class level understanding
+2417080	2420280	if there is anyone whom i confused do let me know
+2423720	2428120	and there is a one of the thing that i want to show you there's a one of the thing that i want
+2428120	2432680	to show you let's say i have here one thing i'll do is that
+2434920	2439800	do you remember what type of uh used to do when we used to use type of
+2442440	2447080	used to tell which type of data type right now let's say if i do percent two
+2447080	2452040	do
+2452040	2458680	now do you see it is returning me function though something that person to be here created is class
+2460040	2465400	do you see this even if i open this person one type of
+2470840	2476200	it still returns me function so one thing that i want to say it in in javascript terms right
+2476200	2481800	there's nothing like class or anything these are like you know new syntax is added but behind the
+2481800	2487240	scenes everything working is constructor function itself this is the logic which is being you know
+2487240	2492200	built back this is the same logic which is being built back from this understanding this is
+2492200	2498280	converted into this thing and then this is what built i hope that logic is clear because even
+2498280	2502040	if i try to say what is the type of this person it is returning me function
+2502040	2506520	okay so are you able to understand that
+2510280	2517240	uh i see only one thumbs up few guys like i hope uh i'm able to make sense that okay now
+2518680	2525240	so what i was saying is that in javascript there is nothing like actually classes or there is no
+2525240	2529800	extra sort of logics have been added this is just so you can say syntactic sugar that is
+2529800	2535000	added onto the functional constructor how can you verify that one is if i try to see
+2535560	2541000	what is the data type of this class what is the data type of class if you see i'm trying to print
+2541000	2546120	what is the data type using a type of operator whenever i use type of operator it generally
+2546120	2549960	tells us what is our data type now when i'm checking for this person to in person one
+2549960	2555400	where i am trying to execute here using the classes uh you know syntax it says that it is
+2555400	2562760	a function data is a type of function so this is what i meant that hey whenever i'm even defining
+2562760	2569560	a class with syntaxes or using a constructor function in an older way which is uh before esx
+2569560	2576360	both are same thing this is being converted into this sort of syntax behind the scenes and this
+2576360	2582200	has been loaded into the machine i hope that is that is making the sense that point
+2582200	2590920	and which is better it's up to you whichever thing you use after this class after this class
+2590920	2596200	till our whole month stack completes end to end we are never going to write the syntax
+2598760	2604600	will be never be using classes so now by default you may understand like which is more important
+2604600	2612040	and better because this is not solving any new use case like i have to i don't go to it because
+2612040	2617080	you know why should i learn something new way of writing a code when whole js is a functional
+2617080	2623640	programming okay the concepts now then there is one more thing that i want to talk about
+2623640	2630520	like how many of you understand this you know access modifiers this keyword have you guys
+2630520	2633000	came across this keyword access modifiers
+2647800	2652440	i see two thumbs up guys people who gave me thumbs up can they say what
+2652440	2656600	the access modifier is about okay public private
+2656600	2660040	protector
+2663400	2667880	so this is actually oops level of understanding where you can make a
+2667880	2673240	you know methods and variables which are declared inside a class like how do you want to protect
+2673240	2676680	whether it's a private variable or protected available public variable
+2676680	2683640	but in javascript this doesn't exist everything is public by default so the access modifier
+2683640	2688040	concept doesn't apply in js i hope that point is clear guys
+2693240	2699320	no worries okay so there is no access modifier now once there are no access modifier does it
+2699320	2705160	make sense to have setters and getters in a class
+2705160	2715880	when there is no private variables does it do we need setters and getters
+2723080	2729560	they exist but not needed you if you want to let's say if you want to update any variable let's
+2729560	2738760	say if i go and say that hey let's say i got this greeting now i'll say that person one two
+2739960	2748440	dot name i can say that update it as uttam sharma let's say this is working
+2749960	2758360	again opening the terminal let's say i go back to this class 22 once i try to execute it
+2760040	2767880	one dot js now if you see i updated it but i didn't print it again let me print this object
+2772920	2781080	clear now if you see i am able to update the variable name i'll come to that munishwara
+2781080	2786440	again like one thing i just want to talk about is like do you see this i'm able to update the
+2786440	2791160	name again once the object is created directly using the equal to operator is this syntax clear
+2791160	2797000	like this is something we should do with objects firstly and if i want to access my name again
+2797000	2806200	can i do the same thing like person one two dot name so this is something like we are still like
+2806200	2812520	even if you create an object you still have in permissions to update the existing content and to
+2812520	2818360	read the existing content okay but whereas when you go for this you know what the setters get
+2818360	2823560	us to is like whatever variables you declare inside the class let's say inside the class
+2829160	2830840	let's say inside the class you have
+2831320	2839480	you have person class you have name age right let's say these are the two fields available
+2839480	2845880	you know what used to happen in other groups languages they used to make these variables
+2845880	2854520	private let's say a private name private age okay so whenever you're trying to let's say you have
+2854520	2861080	an object called person one person one object is there now you created using new person
+2863160	2868040	okay earlier if you want to access these names right let's say person one dot name
+2870840	2877400	or anything like you if you want to do it this way there was no output like you were not able
+2877400	2881800	to access this keyword in other programming languages because these variables were not
+2882040	2885720	in other programming languages because these variables were declared private
+2885720	2893480	whenever we say that private it means that you cannot access the values outside it okay now
+2893480	2898280	whenever we are trying to do it this is something like we are trying to read it when we say that we
+2898280	2903800	are reading it we mean to say that getting the value like get name so what they used to do is
+2903800	2909240	in that in the inside this class they used to write two functions what those functions are like
+2909240	2918280	let's say they used to give that let's say get name and the function syntax would be like a return
+2919880	2920760	this dot name
+2923960	2931240	okay and if you want to update it used to have set name and this function used to take the name
+2931240	2934360	updated name right used to return
+2934840	2935880	the start name
+2938680	2946680	also before returning it it used to update it this start name equal to name
+2948280	2953640	okay these are the two works that setter and getter used to do because if you cannot access like
+2953640	2958760	the the way we were doing it here was like just we are getting an object and we are giving that
+2958760	2965560	variable and we are updating it directly this sort of syntax may not be happening in few
+2965560	2969480	languages but in javascript you can read it directly since there is no something like
+2969480	2975800	private public protected so there is no use case of having this getters and setters but they have
+2975800	2980840	introduced you like setters and getters this works in the same way even without setters and getters
+2980840	2985480	you will be still be using it like still be accessing the values this way itself
+2986280	2989720	like still be accessing the values this way itself and read it this way
+2992600	2999160	this is clear guys like i mean i'm just saying that and you don't need to actually use setters
+2999160	3004040	and getters i was giving explanation for that thing that javascript doesn't really need it
+3004040	3009720	if you want to update or read any variables and there are no access modifiers i hope this
+3009720	3014840	thing makes sense that javascript is pretty simple this works same as a functional programming
+3015800	3022600	and most of the concepts that you see are not been applicable in here okay now
+3024120	3030840	next comes one of the more one of the most you know core concept let's say i create
+3031560	3042840	another file called let's say class hyphen 3.js let's say i create a function
+3042840	3051400	called let's again i create a person now in this person what i do is like let's say again i have
+3051400	3057240	that constructor name age to our variables inside this let's say again still updated
+3058840	3063800	okay this person is there fine here also i'll also do something like greet
+3063800	3064760	greet
+3069800	3076520	so this is a greet function where we try to console dot log greeting
+3078440	3085880	from the start name let's say this is a simple syntax that i have just everything is accessible
+3085880	3089640	in chairs right somewhere because everything is public you can access you can update do good
+3089640	3098040	anything okay now once we have this class person inside this now if i let's say if there is a
+3098040	3103400	student let's say if there is if i want to create a student object let's say i want to
+3103400	3107960	create a student object do you think student will also have the name and age properties
+3107960	3120840	yes you do think the student will also have a name and age right so whenever you have the use
+3120840	3126280	cases that you know there are common functionalities like whenever there is a common functionalities
+3126280	3131800	which exist in the multiple objects one thing you can do is that this is something i'll introduce
+3131800	3137080	a new key new way of saying a class is that you know this class is called as a parent class
+3137960	3145320	okay or super class let's say i'll write down the things here parent class because there is
+3145320	3150200	a child class now what does child class do i'll talk about that let's say i have a class student
+3150760	3157080	right i use that a extends person now whenever i say that i'm extending a person it means that
+3157080	3162680	i'm trying to inherit all the properties and functions which are present in parent class into
+3162680	3170120	the child class now here let's say other than this name age let's say you have anyway student
+3170120	3175400	will have its own name other than this he'll also have his age but let's say you also have a grade
+3175400	3180920	in which class he's studying if you want to play around with this syntax and if you want to pass
+3180920	3189560	on this values onto the top level i'll talk about this syntax case a second just let me code it down
+3189960	3194440	and let's say a student will also have a method called study
+3197400	3200440	inside the study let's say
+3205560	3206840	i write down
+3210440	3212440	this
+3219560	3222440	so
+3225000	3230280	now so what i just did here is that i say that hey there is over there may be a class which needs
+3230280	3235240	still you know same variables i don't want to declare these two variables here again and there
+3235240	3241240	can be a number of methods which are present which i want to reuse may not be declaring it okay such
+3241240	3247320	as that hey a student can also create a person will also be doing something great every person
+3247320	3253080	will create it okay so if you want to do that way and if you have specific methods you can add
+3253080	3261160	it in the child now this particular student class is called as a child class okay so because
+3261960	3265800	there is something we are extending we are extending parent like we are the children
+3265800	3273080	of our parents whatever by default our parents has will be available for us but by default whatever
+3273080	3280360	we has will not be available for the parents it's just is this clear guys why call name
+3280360	3284360	age again in the student i'll come to that okay now
+3290200	3296920	okay now if you see it here what what we are doing it like let's say now if i try to create a
+3297720	3301400	student let's say firstly what we'll do is that we'll create a person object
+3301400	3310440	let's say constant person equal to new person and let's say again i use
+3311960	3320920	john and let's say his age is 26 okay and let's say i create a student object
+3321960	3329480	student equal to new student now let's say student is what name we can let's say we'll
+3329480	3341000	say use some bit let's say some bit is 24 or 25 and let's say his grade is maybe some 10th grade
+3341000	3347400	okay now what i just stated here what's just happening let's say if i go through the flow
+3347400	3353720	what just happens whenever i'm trying to create this object student object now whenever this
+3353720	3358760	particular object is created the first function which gets executed is this constructor function
+3359320	3365560	inside this constructor function since we are passing name and age and name and age are not
+3365560	3373240	initialized here but they are initialized here in the parent class how you can call the parent
+3373240	3378920	class from the child classes using the super keyword once you call the super keyword you are
+3378920	3386120	actually going to this constructor and you know assigning values of name and age okay and creating
+3386120	3393160	that student object along with grade okay let me show you this step by step in the debugging mode
+3393240	3396280	let's say i have this thing
+3404840	3409640	cd classes javascript
+3414760	3415800	class 22
+3415800	3427320	say node class hyphen three dot j s now let's say i call it here i call it here i put it here
+3428120	3436600	okay let's try execute this one now if you see it here the first call now it is coming from the
+3436600	3442040	person object now if you see whenever this call is getting executed this constructor if you see
+3442120	3448920	this call is getting executed this constructor if you see age and name john and age is being
+3448920	3454200	passed and that will be initialized okay this person or now this is having you know once this
+3454200	3459320	name is assigned in this object which our object is created you can see that value is getting
+3459320	3466120	updated here okay now the second function which line number 26 is executing student one now if
+3466120	3471960	you see there are three variables that we initialize name age and grade when we pass these three things
+3472360	3478280	once we are passing this now inside the super we are calling something like if you see what this
+3478280	3484920	will happen once i click apply it is going inside the parent function do you see this like it went
+3484920	3490760	into the person function where it is initializing age and name let's say if i go and initialize
+3491400	3497480	okay now once i reach back here in this object both name age are initialized and the grade
+3497480	3505720	will be upgraded is this clear guys how this is working super is generally is trying to interact
+3505720	3510440	uh with the parent constructor where it is load initializing all the variables
+3510440	3515320	and this phenomenon how this particular phenomenon how this is working is called as
+3516360	3522840	inheritance the concept of inheritance is this simple that you are trying to get something from
+3522840	3530200	parent and that is being leveraged by the children okay so then there is another
+3531240	3538680	concept that i want to talk about is let's say there's something like static have you heard
+3538680	3550440	those words static earlier anytime the word static i see three people uh guys can we define
+3550440	3552200	it in your own terms what static is
+3561480	3567960	i see four people can you guys define what static is can be used by others it won't change
+3567960	3582200	okay guys uh let me explain it but before that i'll try to write one function okay let me do
+3582200	3587240	what i'll do that in in the parent class itself i'll add a one new static function
+3587240	3594040	okay saying that compare ages inside this i'll take two objects
+3594680	3602040	of person one let's say person one and percent let's say here what i'll do is that i'm just
+3602040	3612840	comparing it now what i'll compare let's say person one dot h if it is greater than percent two dot h
+3612840	3625400	then i'll say that simply is that return uh string that person one dot name
+3627560	3633480	is older than percent two dot name else if
+3635800	3639240	this is the true then return
+3639240	3645000	one person one is younger
+3648760	3649160	else
+3657640	3658120	return
+3661160	3664520	person one is and
+3664520	3674200	percent two are of same age okay so i hope this generally this method is i hope you got this
+3674200	3679720	method what that static method is talking about just comparing the two persons with their ages
+3679720	3685640	and whatever condition is satisfying will return that particular uh you know string now what the
+3685640	3691960	static is we say that static whatever method is initially you know uh before any method that you
+3692040	3698760	put it in the class if you are adding something like static keyword it means that this this
+3698760	3707960	particular function belongs to the class but not to the object i'm repeating it again whenever you
+3707960	3713720	have any functions or methods declared inside a class if there is something a static keyword
+3713720	3720600	added before a method it means that this particular method belongs to the class but not to the object
+3722680	3724440	did anyone understand the sentence
+3728120	3735320	no right now i'll tell you now let's say now let's say even even without
+3735320	3741880	even without you even without creating an object let's say now if i want to let's say that i'll
+3741880	3749800	just say let's say i have two objects say person and person two i say that say this is a person
+3749800	3762440	object i have say myself and let's say my age is 28 okay now i have this thing so one thing i have
+3762440	3768760	to do it here is that let's say whatever i'm passing i should be passing in number format not
+3768760	3777080	in the string okay now if i want to compare both the things if i want to compare both the things
+3777080	3783880	right i don't need to use this object like these are the objects right person one and person two
+3783880	3793000	are storing objects i don't need to do like person dot compare ages i can still do this but the
+3793640	3798040	what it gives the static what it gives abilities like i can use directly person
+3798040	3806120	class i'm using a class name here this class flash start compare ages if you see this method
+3806120	3812120	i'm able to call this method directly and i can pass both the functions you see person person
+3812120	3825720	too let's say if i try to console this log if you see john is younger than what some it says
+3825720	3832280	now this thing got executed this method is executed on the class itself we didn't access it from the
+3832280	3838520	object now if you remember do you do you by default anytime do you think that hey you can
+3838520	3845560	do that some function dot because we so as we say that you know by default this class is a function
+3845560	3851960	you know this do you remember by any chance if you remember can we do like function dot any method
+3855800	3858440	can we do this way whatever we have done it just now
+3858440	3867960	so are you are you able to understand what the static is firstly did you understand the static
+3867960	3874760	if not give me a thumbs down okay i see three people cool now it is repeating it again guys
+3874760	3882920	what i mean to say that now let's say if i do console dot log
+3882920	3891400	person dot name let me try to execute this one
+3898760	3903720	okay now what i when i do this person dot name what it what is the output that i get
+3904360	3910600	the whole person do you see this even if i do
+3915000	3921400	person dot age and i try to execute it it says that undefined
+3923400	3929960	okay now what is happening here what is happening here let me show you again copying this one
+3930840	3933560	uh putting it in the
+3936040	3942440	let's say what is uh putting it here i created this one let's just see in the terminal okay
+3944920	3951480	i created person constructor with this name name and age and a static method now once i initialize
+3951480	3959480	this one if i try to say that person dot name okay is giving me directly a sting call person
+3959480	3967560	where we didn't have initialized it yet but if i again go and do person dot age it gives me undefined
+3967560	3974440	so by default what it says if you if you see this keyword name is actually uh like you know
+3974440	3983800	present in the prototype let's say if i do this person um if i try to console dot even it will
+3983800	3990120	give that same thing uh person dot you see name and everything actually the
+3990120	3997320	keyword name is getting from the you know library which is which is telling the like what is the
+3997320	4003080	class name so it is returning what is the class name if i update this and also let's say person
+4003080	4009480	random it will return me still person random like let's say if i go and paste it again refreshing
+4009480	4013160	everything
+4021400	4027160	let's say i still do that person random
+4030120	4035560	so in general what i meant to say that i'm not able to access this way values i am not able to
+4035560	4039960	access but when i'm doing it name from the library it is giving me that what what is the
+4039960	4046840	name of this class just that but do you see this like if i try to do like uh person
+4051640	4059080	random dot age it keeps me undefined so this whatever values are generally you know name and
+4059080	4065320	age values right whatever are defined inside the constructor and outside the constructor all this
+4065320	4071400	belongs to an object you can always access this parameters or update this parameters only when
+4071400	4079720	you have an object now let's say if i create an object called a new of person random
+4084120	4088040	okay inside this i pass on let's say my name
+4088200	4095960	and let's say i say that 28 or then i say that age if you see this i'm able to access the age
+4095960	4101320	so there's a difference whenever there are some methods there are some things that you are only
+4101320	4106360	able to access using the objects whenever you create an object those things are all things
+4106360	4111880	which are present in the constructor function and all the methods except static static can be
+4111880	4118200	directly accessed accessed using the parent i mean direct class itself when you say that
+4118200	4124360	let's say person random will be able to access always this particular method if you see compare
+4124360	4130680	edges by default is available you can always call it and you can always execute it let's say i give
+4130680	4140360	it age as 28 and let's say another object age of 29 okay i'm not passing the name let's say i pass
+4140360	4158600	the name as x name as y okay y is younger than the x so this is the name of the object
+4158600	4164120	younger than the x so this is what it gives i didn't use any object i didn't create any object
+4164120	4169560	using new keyword but i'm able to access this compare ages so i hope you are able to understand
+4169560	4176360	what this static does static method belongs to the fun class doesn't belong to the object
+4177000	4181800	so you don't need to create a new keyword and object and then try to access it you can directly
+4181800	4187480	do it and you can use it anywhere and it whenever the class is initialized this thing is attached
+4187480	4195000	to it but these things are only attached to it when you are actually you know like object is created
+4195720	4200920	okay so i hope uh the concept these concepts are clear guys like what is static
+4202600	4209720	now and inheritance is also clear i'm uh we're not going completely into oops because this is
+4209720	4215640	a really lessly i mean we don't really use or i don't think you will be tested in interviews based
+4215640	4221880	on this concepts like our classes until unless until unless you are going with something written
+4221880	4229640	in your profile like you are an angular developer because angular uses class-based syntax this they
+4229640	4233480	are still for constructor-based syntax they are still creating an object and playing around with
+4233480	4240200	that but they write it in that in those terms when it comes to react next.js view or any popular
+4240200	4247240	framework you use they all use a functional based syntaxes okay i hope this thing is clear guys
+4248840	4251320	now so uh
+4253800	4260040	guys uh do you need a break or should i continue because there's only one topic left which i have
+4260040	4266680	to take it uh so then we can end the class because this is not a huge concept okay sure
+4266680	4272200	says break there's anyone needs a break or can i continue give me thumbs up for the continue give
+4272200	4280600	me thumbs thumbs down for the break uh guys i need some votes and to understand like i see that people
+4280600	4286280	are asking me to continue okay so hold on for half an hour uh like maybe 20 minutes 25 minutes
+4286280	4295080	we are done with uh today's content okay so i'll try to explain the kind okay now then let's say
+4295080	4303320	now i have one of the use case that i want to build okay let me do a you know class four
+4307480	4312520	dot js now inside this class four dot js what i have to want to do is
+4314120	4321720	if i want to replicate let's say inheritance if you see this logic like student is extending parent
+4322440	4328840	we say that this sound this thing this is same as like function constructor function but how can
+4328840	4336120	we do this how can we do this let's explore this one how can we do this okay let's say i go and
+4337160	4341400	write function let's say instead of person random i'll create a person
+4343480	4349880	again uh same thing uh this is pretty uh naive that this function that we are rewriting again
+4349880	4355720	and again let's say this is the same thing and once this is done we also have this greet
+4356520	4362600	now this greet is added outside the person so if i want to replicate that one i'll do something
+4362600	4374920	like person dot prototype dot greet inside this great i'll create a function and i'll call it
+4375480	4377480	let's console dot log
+4379720	4385720	okay so this is what we replicated now one thing i'll leave it to you is like how can you add a
+4385720	4391640	static method i'll show you the hint like how the static works but you have to figure it out
+4392840	4398520	okay and it will take only one minute for you guys to guess it i'll show it in real time how
+4399320	4406200	this works okay but uh but do you understand that how did i replicate this one this particular
+4406200	4411160	person class other than the static method if i close it down this thing other than this this
+4411160	4415240	these parts are clear right how i'm able to convert a class base into functional component
+4415240	4423560	functional constructor function guys uh quick thumbs up thumbs down if you are able to understand
+4423560	4429880	this one they're not okay great now then there is a something called let's say student let's say
+4429880	4441400	let's create this function student it will have a name age and grid cool it has these things now
+4441400	4448200	inside this i'll have something like this dot grade and great i am not still calling name in
+4448200	4455240	h but how we would handle it here can you guys think of it like what could be the use case
+4456120	4457240	how can we handle this
+4460520	4466600	now i'll write something which i'll explain it in the next class okay let's say i call something
+4466600	4476200	like person dot call inside this call i'll pass on something values let's say i pass on
+4476840	4484920	this keyword i say that i'm passing on this object i'm passing on name and each now firstly
+4484920	4490440	in next class i'll come back and explain this line but understand the thing that i'm just
+4490440	4497560	replicating the super behavior okay like i'm calling the parent level now once i do this i
+4497560	4508040	have this something like study let's say i have to replicate this study student dot proto type
+4511080	4513400	dot study
+4516040	4522200	inside this function let's say i have it this then i try to console log the same thing
+4522840	4532680	okay once i do this i have done it now that's all okay we have created student guys is this
+4532680	4541960	clear student how the student is replicating this particular class one final thumbs up great now
+4541960	4548280	but we miss something like hey how are you extending this person right how we are extending this
+4548280	4553720	person how we are able to connect both of those classes or both of these functions isn't it
+4557240	4563400	okay how we can do this is that let's say since this is an inheritance concept i'll say that
+4563400	4571800	student dot prototype student prototype i mean student is inheriting from its parent now which
+4571800	4585240	parent is that i will define such that object dot create student dot prototype sorry person dot
+4589240	4595800	no i'll talk on this what what is this actually doing okay we are saying that there is something
+4595800	4601560	which is extending parent okay we have to say that there is something which is you know
+4601560	4608680	should have access now if you see it what i exactly meant on this sentence what i exactly
+4608680	4615640	meant on this sentence is that if you see on person prototype i added greet method right if
+4615640	4623320	i need greet method inside the student also the student object should have access to this grid
+4623320	4629160	now how can i have it access i say that hey whatever in student prototype object is there
+4629160	4633400	in that object assign all the methods which are present in person prototype
+4635640	4643000	is this clear guys what this line is doing again i'll repeat it is that i want now using this call
+4643000	4648520	function i am able to assign all the variables that is fine i'm updating all the variables i'm
+4648520	4653800	getting the touch what about the function greet which is present inside the class like this how
+4653800	4660440	i'm able to access this greet method using student object in order to do that he's what
+4660440	4666680	we are saying that in student prototype will have all the methods which are present in persons
+4666680	4673400	prototype object okay using the syntax we'll be able to link those both those objects now let's
+4673400	4681240	say if i try to create const person same thing let's say i try to copy it from here and i try
+4681240	4694120	to show you guys okay now firstly i'll copy the whole content and i'll try to execute it here
+4694120	4700040	okay let's let me before executing again i'm showing you guys is that there's a one function
+4700040	4704920	constructor with these two variables and there's a one method which is added here
+4704920	4710040	into its prototype then there's a student which is trying to interact with its parent
+4710040	4715400	we are calling this call method i'll explain how this call works in next class but also student
+4715400	4720680	will also have its in prototype there's something function called study then we are linking both
+4720680	4726120	such that hey in the inside student object this should be able to access person we are this is
+4726120	4735800	how we are linking it okay now let's say i cool i execute this one okay person is already declared
+4736200	4746360	uh let me go into incognito mode new window let's say i inspected console clean it up
+4748600	4753320	yeah this is working fine now but now let's say what is happening here
+4757160	4763560	it's an access person now if you see i'm able to access all the values that i need
+4764200	4768360	john h fine what if i want to greet it
+4771160	4775000	okay i'm getting greeting from the john what if i want to access student
+4776200	4781000	student if i'm still able to access all the values let's say i will print a grade once
+4781640	4789400	just to replicate it that i have grade also if student want to greet it let's say greet
+4789400	4793400	do you see this greeting from some bit it says because we initialize students with a some bit
+4794120	4799880	okay also student want to study
+4803320	4811800	uh just a second we have a study function this dot name this dot grade all great student
+4812360	4818680	all great student dot study
+4821800	4827160	let's say i go it here inside this person object greet
+4831640	4832600	i have it
+4832600	4841880	it but there is something is missing is that okay now guys can you figure out why study is
+4841880	4853960	not available here why study is not available if i just update it from here to this line
+4853960	4861320	these things will be working why do you think i've assigned i updated its whole prototype
+4861320	4866040	but i want to add in prototype like new function right key value pair that's where it's missing
+4866680	4874040	let me try to show it again uh sorry for moving speed uh let's say if i go for a student
+4875960	4877800	now if i try to print student
+4882120	4888760	expand this one expand this person do you see study is available now okay let's say
+4889720	4896280	uh i go back i try to say the student not study
+4899560	4903960	okay student dot greet
+4907720	4908600	okay uh
+4911480	4916920	do you see both things are working on student student is able to access its own method also
+4916920	4923240	it is able to access parent class method parent constructor function method is this clear guys
+4923240	4927960	actually how this i'm able to convert from a class to the functional programming firstly
+4928840	4934200	just want to know give me one thumbs up thumbs down okay i want to explain few more things uh
+4934200	4939800	now i want to go into one one of the topic like if this thing is clear i want to talk on something
+4939800	4946760	like prototype and prototypical chain okay one concept like people generally you know
+4946760	4954040	fear of that's not a difficult concept at all okay uh okay what is prototype
+4956200	4958120	and prototypical chain
+4962760	4969160	okay basic thing now if you have seen i've shown you with the functions firstly i've shown you with
+4969160	4976120	the functions now let's say if i create an array const array let's say i have one two three
+4977160	4983800	okay i've created an array now if i do array dot length or last index
+4984440	4986680	where do you think i'm able to get this methods from
+4990520	4997160	where do you think these methods are available from array dot for each method or filter method
+4997160	5001560	or whatever map functions we learned right whatever things we have learned
+5001560	5006760	where do you think these are all are coming from any idea guys
+5011000	5017160	these are coming from again it's prototype now on based on the data type if you see if i expand it
+5017160	5022600	this is array is actually what uh you know some bit declared it in his project if i'm trying to
+5022600	5028920	console log i'm able to console log that one but here do you see that hey i'm having a prototype
+5028920	5035720	attached to it like array type of prototype yes can you see this there's a prototype available
+5035720	5045800	in array also expand this now if you expand this do you see concat entries fill filter find index
+5045800	5055400	last index flat right join keys map push and pop reduce all these higher order functions
+5055400	5061480	whichever are there are available in its prototype what what can you say all the library
+5061480	5065560	for each and every data type or each and every data structure that you see in javascript
+5066840	5074440	are accessed using this prototype so we can say that in each and every each and every data type
+5075800	5082440	has an object attached to it
+5087480	5098280	so whenever you create an array or function or class or object or set
+5098840	5107000	or map anything you create whatever you create in js an object is attached that object is called
+5107000	5117000	as prototype inside this prototype you will have all the methods now imagine even when someone has
+5117000	5124600	declared an array data structure in the javascript let's say they might have written something like
+5124600	5135800	this one right function dot array whatever it is there okay now on array dot prototype they added
+5139880	5146760	length what this length should do right then they added all simultaneous method this was
+5146760	5155560	a syntax that was done so by default array has an prototype which has all the library methods
+5156200	5164360	right is this example clear guys what prototype is every thing that you create in javascript there
+5164360	5171240	will be an object attached to it through which it is inheriting all the uh you know libraries
+5171240	5178120	methods supporting methods or the values that you see okay uh is this point clear guys
+5180680	5184280	uh guys if you didn't understand you can give me thumbs down right away i'll try to
+5184280	5188840	re-explain it we'll take a deep breath we'll come back and we understand it
+5188840	5194440	if you're not able to understand give me thumbs down cool now let's say
+5194440	5201240	okay let's say uh what i'm doing is that i'll create an object let's say object
+5202040	5208040	okay uh i think we have this already okay i created this object let's say
+5211400	5216040	okay let's say i have an object in the memory i try to access this object
+5219480	5219980	okay
+5224520	5225020	okay
+5234760	5242120	okay let's say i have this uh okay in the memory i have object now inside this object i should be
+5242120	5247240	able to access this first name that is fine because we declared it but if i try to print
+5247240	5252280	this object right if you see inside this object along with the first name there is something
+5252280	5256920	attached is something called prototype object this what is the data type of this object
+5257560	5261880	again they say that this it's an object type only and that object name is called prototype
+5261880	5268360	this is a key the key is called prototype okay now even if i go and say that array one
+5269320	5277560	and again i have one two three okay i print it now if i try to print array one now if you see
+5277560	5283080	inside this whatever we have defined it's zero index first and second index it is there length
+5283080	5288680	is there but do you see here even if i define object even if i define an array there is an
+5288680	5296520	prototype object is attached always let's say i create a function now function test
+5297320	5304520	console dot log uh let's say i did something random if i die to do test okay
+5308280	5316360	it is not showing but if i so if you see this i try to print prototype do you see this there
+5316360	5321880	are prototype object attached to the function also is this point clear that you create an array
+5322360	5328520	is this point clear that you create an array object or anything there is an object that is
+5328520	5333880	attached with the key value name as prototype you can always access this key prototype object
+5333880	5340120	using object dot prototype so every time you create anything there is an object attached to the
+5341000	5346680	like the the variable name that you are creating with and that you can access that extra object
+5346680	5355000	that is created using dot operator now all the libraries that you see in array or object right
+5355000	5359720	methods that you see like whatever methods we have learned on array how they are how we are able to
+5359720	5364680	access it if you prefer other languages used to import that whole library in the file right
+5365960	5371960	do you remember that that you import array array least properties or we can say that object class
+5371960	5378440	is a default i'll come to that up now i'll come to that but understand that first level is that
+5378440	5386360	you are having the library which is all available okay in java you used to import all like a library
+5386360	5393000	hole on a top from the java.util right in a same way here we are not importing it by default all
+5393000	5399240	these methods are loaded in the prototype if you see first level prototype is array.prototype you
+5399240	5404840	have all these methods which are available on array now if you see on this prototype also there
+5404840	5411560	is something like prototype available again this is something like constructor has own properties
+5411560	5421240	prototype is local string so if i try to do something like let's say array one dot prototype
+5421240	5427240	okay
+5439000	5449560	okay now if you see array one has this one like underscore underscore proto now if i do it again
+5449560	5456920	underscore underscore proto if you see this one what underscore underscore proto does is like
+5456920	5462760	whenever you want to attach value right whenever you want to attach anything value to it like we
+5462760	5467160	are just doing in the function right what we were doing here in the function whenever you want to
+5467160	5471800	attach or update this thing you have to use this keyword called prototype but when you want to
+5471800	5479000	access and see it you have to use something called as like like pro underscore underscore
+5479000	5484120	proto that gives you a lookup like you can search using that thing or understand that thing using
+5484120	5490360	now let's understand this case with a simple thing firstly array one is an array data structure
+5490360	5497080	where if i try to do something like underscore proto what it is giving it is giving me all the
+5497160	5502600	methods if you see it's an array of methods inside that array of methods we have all having the
+5502600	5510680	methods related to an array but if i go and do it array one dot underscore underscore proto
+5515160	5520200	again i do on this underscore underscore proto then i'm able to access still those methods
+5520200	5526760	and this method if you see constructor has own property property and everything now let's say
+5527160	5532600	again i have an object right object that i created if you see that with first name
+5532600	5541320	if i try to access its proto do you see this its proto and array one proto is same firstly
+5546680	5551800	guys are you able to see this these methods are same in object and array now what it says is that
+5551880	5557800	you know what happens in the chain what happens in the chain is let's say there is any library
+5558520	5564040	like if you see when we created first simple when we created simple person right when we created
+5564040	5572520	simple person and if we wanted to add anything method we added on its prototype right prototype
+5572520	5579000	we added like there should be a greet function now after this green on this function great function
+5579000	5582920	whenever you create a function we saw we have seen that there is another prototype added
+5583640	5589800	which is to the function level okay so in the end right if you go on building any data structure
+5589800	5595560	like array array will have its own prototype which will support all the methods like same as
+5595560	5603000	in a person object is agreed so it will have concat index of and all those methods like length
+5603640	5607640	is a variable so you can access without a prototype so all these things will be there
+5608440	5615160	now after this there will be another prototype so this last ending prototype right in the chain
+5615960	5621960	whichever thing is there in the chain it goes on to you know root prototype is object type
+5624280	5629400	when you create an object let's say when you whenever you create an object in js
+5630920	5632600	like first name or anything
+5632600	5644120	let's say you created this whatever object dot proto underscore underscore proto
+5645320	5652440	is there no that is our end that's the end prototype end object like because if you see
+5652440	5657480	there is something like oh if you go for array right how it will be it will be like okay whatever
+5657480	5663720	values you are there these values are there and then you have prototype inside this prototype you
+5663720	5669160	will have some list of methods after that list of method again you will have another prototype
+5669160	5675560	and this prototype is actually having a list of methods which are same as object dot prototype
+5676760	5682120	so we can say that this is a chain which is forming firstly you will have whatever
+5682120	5687000	values to describe then supporting library which is defined then you will have a object
+5687000	5692680	based library one thing you can do is like you can also access like this level of chaining
+5692680	5698600	like let's say if i want to access list whatever things are there in array one if you see inside
+5698600	5706040	array one you have this like has own property or anything let's say if i do array one dot has
+5706040	5714120	own property okay and it seeks that whether it has anything what i'm doing in array one i'm checking
+5714120	5719400	whether there is a value one available let's say if you see it here i'm having true let's say i try
+5719400	5725720	to reuse this one as of four if you say it is returning false so this method is not actually
+5725720	5730280	belonging to array because we don't learn it on array because this is coming from object level
+5730280	5734760	prototype because object also provides you something two string now where this two string
+5734760	5740680	is coming from let's say if i convert this array one dot two string okay whenever i call this
+5740680	5746440	method you see it converted this array into two string this is coming from object so can i say
+5746440	5752280	that everything in javascript is actually an object because through the prototype chain
+5752280	5755720	everything is having an access to that object object prototype
+5758200	5760280	yes are you able to follow up with the sentence
+5761160	5768520	so everything in javascript by default is is an object because anything that you create anything
+5768520	5775000	that you create of you know anything that you create in the end when you go at the last you'll
+5775000	5782280	have object prototype available attached to it on everything and mostly for everything you will be
+5782280	5788760	able to apply these methods okay like has own property constructor properties enable local string
+5788760	5795720	okay you'll be value of you'll be able to see all of them you can apply to them okay so i hope
+5795720	5801000	this prototype chain is also clear like how this chaining happens and how can you access the methods
+5801000	5808440	inside the chain because i have seen you with a real time example when you created this particular
+5808440	5815080	thing okay if you see if i try to replicate this example right how this thing worked how this thing
+5815240	5823960	how this thing worked how this thing worked okay let's say i try to show you like let's say i have
+5823960	5837480	an exiled raw so i use this one let's say i have this one and
+5845880	5853080	let's say this is a person inside person if you see what we are initializing variables name and age
+5853080	5856120	okay cool
+5862920	5870040	let's say we are having values here name and age that's done but when i create a prototype
+5870040	5872120	let's say i'm creating a prototype here
+5872120	5883720	okay let's say this is a another prototype
+5889080	5895720	now how did i access created this one i said that person.prototype add a new method inside
+5895720	5901960	this called as greet right if you see this this is the same thing that i did
+5903240	5907000	next level what i did i went on to create something like person
+5914680	5921720	i went on to create something like student then on the student i added like
+5921720	5930040	grade name age grade right i had grade name and age i'll explain in next class when i explain
+5930040	5935800	call function but other than that thing we also created a prototype for this one
+5945720	5951240	okay now what i did here in this next step was i connected these two functions
+5952440	5959240	how did i connect these functions what i just said there is that hey whatever student.prototype
+5959240	5967240	is there now you know attach it with something called person.prototype
+5977000	5981320	is this clear what actually happened in this line when i did this
+5982360	5987960	also what i did i said that hey can you do one thing or this so even though this is a prototype
+5987960	5992200	also add one more method here which is study
+5995000	6000440	so that whenever i do something like let's say i know after this what whatever i am trying to
+6000440	6006440	whatever i am trying to access it let's say i since this since i have done this chain
+6011160	6016600	i can say that i if i need to access person dot greet i will be able to access because on person
+6016600	6024680	prototype i'm having a greet if i have to do person dot study i won't be able to access it
+6024680	6030040	because on person dot prototype i don't have study okay it is present on student.prototype
+6030040	6040200	this won't work this will give undefined but on student i can say that student dot greet it will
+6040200	6046840	work because we can append it this one like on this more updated the whole object we actually
+6047800	6055880	sent all of assigned new object person and also student dot study will also work
+6055880	6063720	is this clear guys how this is working
+6074680	6078600	guys is this clear now let's let me show you one more thing
+6078600	6083560	let me show you one more thing once i copy and paste this one right let me go back here
+6086360	6091000	one thing i want to show you is that again i'll show you one chain system
+6091000	6098840	now let's say i go to the person this is a function right that we created let's say person random
+6098840	6105560	if you see i'm having this person random if i try to let's say access its prototype
+6108040	6111400	what is the default object attached in order to access i can do underscore
+6111480	6117640	underscore proto right if you see this is a function native it says but if i go and do again
+6117640	6125960	underscore underscore proto do you see this by default end goal for the function is also
+6128360	6132120	okay i'll come to that one i'm sure but do you understand this again for this function also
+6132120	6140760	whatever we created this same thing is happening like again the root level protein in the chain
+6140760	6147400	the root level is object itself okay i hope this chaining and what is the keyword called proto
+6147400	6151160	and when to use prototype when to use underscore underscore proto that thing is clear
+6151800	6156040	whenever you want to attach something is prototype you have to use prototype keyword if you want to
+6156040	6160200	read and understand the content of it you have to use underscore underscore proto underscore
+6160200	6167560	underscore okay now apart from this so muneshwara has a doubt that earlier we were adding it this
+6167560	6177320	one on the top why didn't it worked it now okay let's say what happened here now let's say i have
+6177320	6183960	let me explain an example what just happened let's say i have an const object i say that
+6183960	6187720	you know it has something first name let's say last name
+6188520	6199240	let's say smith okay and a created object one okay it has something like first name
+6202040	6208200	let's say john now if i want to update it if i want to update merge both of them right if
+6208200	6214360	i want to update both of them one thing i can always uh you know uh okay
+6215080	6224520	uh okay okay i have to i'm picking up wrong example but i will just show what i did it
+6224520	6227800	now let's say when i was having this thing
+6230200	6233240	on the student dot prototype let's say on the student dot
+6233240	6248040	i attached new method called steady
+6248040	6250840	okay
+6253800	6263960	this is something we did it but on this line i updated whole prototype object
+6268520	6270600	using assignment operator
+6270600	6277160	okay and we lost
+6278600	6287240	steady are you able to understand that we lost that completely so i said that hey i'll only i
+6287240	6292040	need to only attach a new new key q key value pair into the object right so i've just moved
+6292040	6293160	below then it will work
+6296280	6302760	so i guess uh hope everyone got this understanding and i just want to know guys
+6302760	6307240	did you understand internals like how this object-oriented programming actually works
+6307240	6313560	in javascript because there is nothing as such object-oriented uh exists in javascript it's
+6313560	6318040	it's just a constructor function and one thing i left it for you is that let's say
+6318040	6328200	let's say this one right how this static method is created i didn't create in the class four
+6328200	6334680	but i'll just show it to you how that works let's say if i try to print this person and
+6335400	6338840	since it's printing the whole class let's say i do that person dot
+6340120	6347240	under underscore proto once i do this it is printing me native still but when i say guys
+6347240	6353720	just think of this thing when i say that you know something belongs to a class it doesn't
+6353720	6365160	belong to its prototype isn't it isn't it same as this dot compare edges
+6372360	6374200	do you think isn't it same as this one
+6375080	6381000	this both things if i write static and i declare outside or else i declare it inside the constructor
+6381000	6393480	itself just think of it whether this is same or how do you can create constructor i'll explain
+6393480	6398520	in the next class how can you i hope you will debug and come back how can you create a static
+6398600	6404760	how can you create a static method in this format okay debug and come back and let me
+6404760	6412920	know how can you handle this one in the next class so guys the content is that i said today
+6413720	6419480	because we wanted to understand classes objects and you know behind the scene what happens and
+6419480	6426600	prototype prototype chain hope you all got the concepts right i'll i'll i'll would say that hey
+6426600	6432840	you want to go through pick up your any material that you have on this concepts go through it if
+6432840	6437400	you face any understanding challenge do let me know i'll be there i'll try to help you out
+6437400	6445480	understand things and figure it out is that fine guys so with this i want to start the doubt
+6445480	6453480	session and if you have doubts placed yeah i'll i'll give you that muneshwara i'll just say that
+6453480	6461960	you know go for by default you know javascript info firstly read about something called prototype
+6461960	6467160	or inheritance and prototype you will be able to understand like you know then you have something
+6467160	6474520	like class based things okay simple things you this two uh you know chapters okay these two
+6474520	6482760	chapters eighth and ninth chapter i'll ping you this one are we going to use this anytime in project
+6483480	6493000	uh somebody i hardly used it in my experience i never used uh i mean i did coding on angular
+6493000	6501480	angular 2 uh i used class based uh syntaxes up to extent but if i'm going on react profile i don't
+6501480	6507320	expect someone asking me classes but i can be asked something on prototype and prototypal
+6507320	6513160	inheritance reason behind because prototypal inheritance is how the inheritance works in
+6513160	6518200	javascript behind the scenes like how we are able to access methods on array or how we are able to
+6518200	6526760	access methods on function or on object those concepts may be asked in interview uh more but
+6526760	6532760	if you are going on react i expect this chapter to be covered but if you see this thing will be
+6532760	6538200	specific to mostly angular specific okay
+6540200	6546200	i hope you got that point so guys do you want me to attach this do you want me to attach this
+6550920	6553080	okay let's say this example will be there
+6559320	6560120	i'll just
+6563720	6568200	let's say i'll keep it here itself for reference okay anytime if you want to
+6568200	6574200	refer you can refer it i will push this code base and i'll start doubt session guys
+6575960	6582760	and uh guys stick around for five minutes uh i want to talk about the contest so that everyone
+6582760	6591000	is prepared okay i i want everyone to revise the you know the code that we have done with respect
+6591000	6596840	to dom with respect to the uh debouncing throttling the images that i have shared the
+6596840	6603960	differences you got it try to write your own one one set of example uh revise the dom concepts how
+6603960	6610680	things are going just go through the notes once or twice and then try to attempt the contest okay
+6610680	6615560	before that don't go directly with the blind just check on the notes and then you will be i will be
+6615560	6621560	i would believe that you are confident confident enough because i have received answers from each
+6621560	6625960	and everyone you were confident about when you were answering me all the things related to dom
+6625960	6631720	i believe you all people will go and clear that context in case you have any doubts you're not
+6631720	6637720	able to understand anyways i'm here we will discuss post contest okay but i want everyone
+6637720	6641720	out of 30 people who are joining the classes please attempt go and attempt the contest
+6642280	6648680	hopefully and let me know how how it was in the next class uh mostly it will be mcq promote but
+6648680	6653400	there might be one two coding questions maybe on rebouncing and throttling so you can expect
+6653400	6659400	that or a small js based questions uh but it will be pretty much simple as far as i know because
+6659400	6665800	it's our beginner batch right so it will be straightforward questions but anyways i contest
+6665800	6671640	is one of the way to test it but i want you guys to be prepared be understanding the dom
+6671640	6677880	and revising because we will be moving fast forward with you know with more speed uh with
+6677880	6683800	more depth in js as you see now i've covered the classes in a one hour and i say that it's
+6683800	6688680	not that much useful i say that everything is built using again functional constructors itself
+6688680	6693000	constructor function itself how do you deal it and what are the how do you connect with them right
+6693640	6700440	so all those things will be coming up i hope but you keep revising the concepts and come back
+6700440	6706440	leverage the weekend guys as much as possible clean the clear up all the assignment problems
+6706440	6712520	whatever you have seen percentage dropping uh maybe i see that there are 20 or 25 people who
+6712520	6717160	are consistent but there are four or five people who are facing challenge and getting time figure
+6717160	6722120	it out guys uh but if you need anything from my side do let me know i'll try to help you out okay
+6723000	6728920	so uh it was a big monologue guys
+6733320	6737400	but uh just want to go back know that did you understand the today's concept
+6738200	6745720	was it uh good to know internals how this thing works right because there is nothing new wheel
+6745720	6751880	invented guys the year 16 syntax team didn't do anything new they just converted the past this
+6751880	6757160	code converted into something existing thing okay in that existing concept also i taught you one is
+6757160	6761160	functional constructor function which you learned in last class and then there is something called
+6761160	6767000	prototypal chain okay i hope you go through this two chapters eight and nine chapters out of this
+6767000	6772920	javascript info we'll be picking up one by one guys if you see one by one when i say one by one
+6774280	6780440	what all we have covered we have covered objects like we have covered optional chaining uh
+6780440	6786840	constructor function we have covered this uh coding qualities we covered debugging in
+6786840	6794040	browser right poly fields will come to it but if you see um if you go and say this right all
+6794040	6798840	these things we will be count anyways we'll be covering it one by one if you feel i haven't
+6798840	6804280	covered anything do let me know there are a few library methods like map and set this thing we
+6804280	6809960	can cover it anytime if you want it not a big deal okay but it's not part of curriculum but i'll
+6809960	6814360	i can cover it as if you need it in js terms if you read it you'll get it if you don't i'd let
+6814360	6821640	me know okay destructuring we covered how can you destructure things right but it's just that you
+6821640	6826200	go and explore this one you will get to know okay modules and everything will come to when you
+6826760	6832600	exports and export how they work we'll come to that promises this thing is going to be all
+6832600	6837480	async class where we'll cover this whole this thing in three classes it will take three classes
+6837480	6843960	to understand promises and async await it is time taking one then i hope but one of the thing
+6843960	6850040	that you should be sure about is that this one browser documents interface this chapter inside
+6850040	6855480	the javascript info will have everything related to dom how dom is prepared what is happening
+6855480	6861640	behind the scenes and everything okay uh bubbling and capturing event delegation right this thing
+6861640	6866600	we have covered mouse events we have covered one of the event uh tricky event is how do you build
+6867000	6870680	drag and drop like if you want to upload a file how do you build it at drag and drop
+6870680	6877000	you can explore this then we have understood form like how do you focus on a form because we have
+6877000	6884440	built right that otp example where you focus was changing from one button to one form element to
+6884440	6891480	the other right then we covered what is difference between async and differ okay so most of the
+6891480	6897800	concepts we have covered but i would urge you again go and read this dom uh browser level
+6897800	6903000	events because this is something covered and i don't want you to say that hey we don't know
+6903000	6907800	some concept or anything it would be good for you if you go and read through this one okay
+6908840	6915240	then there is additional uh i'll i'll i'll tell you when to when you need to go through this one but
+6915240	6919800	you know this one particular thing right this particular thing is really helpful this site
+6920280	6924920	is good for revision quick revision if you want to do it in time in theoretical ways they also
+6924920	6931320	have an example like how this thing works like if you see one of the example for the browser events
+6931320	6937960	right if you see they'll see uh click mouse down mouse move mouse over right key down event submit
+6937960	6944280	focus transition so all those on top level they give how how do you handle these things and how
+6944280	6951960	this works uh leverage this site learn this much as much as possible right for html and css there
+6951960	6957560	was a different site that you have to prefer which is built by google
+6967000	6973240	yeah web dev so if you go to web dev right you it's really great site to understand both
+6973240	6979400	html and css leverage web dev uh for understanding this one like if i go back
+6980040	6984280	because this thing will not only give the knowledge on html css but down the lane
+6984280	6990280	this will also give you understanding you know core web vitals which is actually you know how
+6990280	6995480	do you test the performance of your application how do you optimize it all those things because
+6995480	7002920	this thing uh is it's a something that i i still keep reading because i still figure out how you
+7002920	7008360	can work on this because these are the bigger chapters uh reducing load uh largest content
+7008360	7014040	full paint uh you know the loading first time how how long time it takes to initially paint
+7014040	7019960	that first page and render it okay this is bit advanced level core web vitals but this is also
+7019960	7024760	one of the great websites to explore i'll give you this thing i refer to these two basic websites
+7024760	7032200	guys whenever i want to revise anything related to core fundamentals web dev and javascript info
+7032200	7038680	is our best site as per my knowledge if you have anything it's really great all the github's
+7038680	7043880	profiles gives you like another thing for machine coding as i shared you the urls for the machine
+7043880	7049080	coding go through them and for react when we go for react i'll share you the link actually
+7052600	7059960	anything else guys uh now there's a one question that initially i had it uh from kabir kabir do
+7059960	7064680	you understand what was your question's answer actually how does it work
+7070520	7073400	just checking with the kabir are you there in your are you there in the class
+7075880	7077000	uh he dropped
+7079400	7085720	let's say i've marked it as answered because the question was same thing as prototype
+7086360	7087800	how different is nextjs
+7090120	7091640	uh firstly
+7095480	7097800	what is nextjs what do you think nextjs amit
+7101320	7107640	what is nextjs according to you no idea at all okay no worries i'll tell you i'll give
+7107640	7114840	you just context about it don't want to talk it in depth at paypal we are using its beta version
+7114840	7118120	we are exploring whether to use it or not
+7120920	7126360	you know uh let me have a some water speaking for two
+7135800	7139720	there were two sort of architectures right there were two sort of architectures which
+7139720	7148440	was in discussion for the long time so client and server
+7151720	7159000	right when it comes to ui as i told earlier like when it goes for java right there was
+7159000	7165800	something like j2 double e they also in j2 they also gave an ability to build html
+7166600	7173560	write js and css inside the java code itself then they use what they used to do is right on
+7174360	7180920	on client itself there was no react there was no html css js written on the browser they were
+7180920	7188200	used to throw from server itself all the all the files there was no web layer in between but later
+7188200	7196680	on what it is that in order to build newer better syntaxes the world started building
+7196680	7203400	the client side applications are separately and in order to better optimize this thing
+7203400	7213000	there have been libraries and frameworks many things came into you know into the world
+7213000	7218760	now when this happened right so people started saying that hey java will handle only backend
+7218760	7226040	logic let's decouple both client and service layer will decouple we want this code to exist
+7226040	7231000	here this code to exist here related to browser will exist in different component related to
+7231000	7237880	server side will rely on different component so what then what happened is like we built html
+7237960	7245160	css js in the front end component along with this to optimize it we had frameworks like react
+7245720	7253320	angular and view in order to fasten the work now what happened with this thing all
+7253320	7260760	all is that i made i started now if i need a data i need a data or images or big things again i
+7260760	7266840	started communicating with this backend i'm still fetching the data right i'm still fetching the
+7266840	7275000	data and whenever i'm fetching the data i can see in the browser network tab all the api calls
+7275000	7281480	and i'm also able to see the ip address of a system where my calls are going though this ip
+7281480	7287720	address will be reflecting your router ip address but we are able to see all the api calls being done
+7288360	7293720	and it is comparatively slower they say that you are trying to fetch the data now
+7294360	7300360	then two things arised firstly older framework when they were directly rendering
+7300360	7303800	they used to say something called a server-side rendering
+7307320	7314040	when i say server-side rendering what i mean to say that hey i'll completely build all the merge
+7314040	7318920	all of them i'll build everything i'll serve browser only html
+7319000	7325960	html i'll give browser directly html it only need to pass html and work is done
+7327720	7333000	but here what we are doing on once it is passing is done we are loading the js
+7333000	7338440	joe's code is executed we are making api call we are getting json data and we are building it
+7338440	7341480	this sort of architecture is called client-side rendering
+7341480	7350520	so is this clear what is client-side rendering versus server-side rendering first point
+7352760	7359880	now when this next js came right when this next js came they introduced
+7361320	7363240	server-side rendering concept
+7363240	7365240	so
+7367800	7374200	such that you hide all api calls from network tab
+7379640	7381720	and prefetch
+7384280	7388040	prefetch required data from server
+7394040	7396040	so
+7397000	7402920	and load as much as possible
+7407240	7409160	static files on browser
+7414440	7420680	this is how i understand so what next js used to provide initially was server-side rendering
+7420680	7428040	components they they they leveraged react they built again they went back into the voltage they
+7428040	7433240	say that hey we'll make an api call behind the scenes we'll make it fast and we'll club
+7433240	7439080	everything on the server of this react next js itself and we'll give it browser only html so
+7439080	7445000	that browser doesn't take the headache this is clear what next js used to do that used to build
+7445000	7451800	server-side rendering components later on later on some people still leverage client-side rendering
+7451800	7460440	also on next js so next js was actually empowering react empowering react with few more concepts
+7460440	7466280	built along with it there was router examples and everything i'll tell you in the depth but
+7467880	7473160	this is on a top level what what was happening behind the scenes why people started picking up
+7473160	7483560	next js next js solved two problems one is routing one is ssr ssr is one of the most you know
+7486040	7490600	something new that people got attracted always people like something new and they find the
+7490600	7497000	reasons to use it okay so this is they leverage both of the same server-side rendering again
+7497000	7505960	ssr is server-side rendering okay server-side rendering not routing i would say okay now
+7507880	7513720	later on yeah these are the two things they kept on improving few more things i have not
+7514680	7518520	burst with latest next js because most of the companies still write
+7519320	7523000	when i when you go for enterprise level like really enterprise level
+7523000	7529400	when i say enterprise like consider my workplace paypal we still are on react
+7530360	7536600	we have our own framework called kraken i cannot talk more on this kraken
+7537960	7541880	let me see it is open source or not only then i can talk on it
+7553000	7555880	okay
+7566760	7569880	kraken
+7574440	7576920	yeah kraken js this is there now
+7576920	7579800	now
+7580920	7589560	no so we have built our yeah we have built our own framework called it's a murn stack
+7589560	7598040	framework full stack on for the client side web web layer where we have all the types of things
+7598040	7605000	that we need we we are using kraken we are leveraging ssr and csr client side and server
+7605080	7609960	side rendering both we have solutions for all the predefined as for our authentication there
+7610680	7617560	but leveraging next j's i we don't think having much of a opportunity so many teams are not
+7617560	7622520	spending time towards it because the code bases are huge we don't have time to work on it
+7623720	7630440	okay so you can study about kraken if you want to study it's exposed right you'll see that there's
+7630440	7635160	a next j's i mean note j's code written you will be able to understand all these things once we
+7635160	7643400	learn node j's how tough are paypal interviews
+7648040	7653160	i don't know what past but in future they are going to be more tougher because you know we
+7653160	7659800	are working on getting lean if you see we are having a tough time when it comes to because
+7659800	7667160	we are having competition from stripe and apple pay and some companies so there's too much things
+7667160	7672920	going inside and we are working on tightening things so hiring will be less important in terms
+7672920	7682280	of paypal and we will be having much more difficult things earlier i would say it was
+7683160	7689400	like at microsoft level and amazon these all things are less on the one level
+7690520	7698760	paypal and everything for for roles of sd2 and abo okay because here at paypal sd2 and sd3 is
+7698760	7708120	equal to like lower sd3 and sd2 is equal to sd2 of microsoft and you know sd2 of
+7708920	7715320	amazon whereas mts1 which we call it as a staff level engineer which is equivalent to senior
+7715320	7723720	software engineer high level and sd3 of amazon so depending upon the role you are viewing
+7723720	7728200	it is going to be tougher in future that's what's my understanding because we were even given
+7728200	7733320	guidance i used to take some interviews i mean i've interviewed only for the college level
+7733320	7741960	college freshers like who are for hiring interns and for paypal so i didn't get a chance to you
+7741960	7748840	know for fts to interview fts because hiring has been really less okay and our decks have been not
+7748840	7758360	yet supported okay guys so it's not good to talk about more personal internal things but i'll
+7758440	7760760	restrain from talking about them somewhere
+7768520	7776520	but if someone needs referral as i told if there are openings i would refer it once end of the
+7776520	7781480	curriculum right if they are still keeping in touch they're coming to class and they're doing
+7781480	7786760	really great if i feel them i will talk to the managers and you know try to get an interview
+7786760	7789320	set up if there are decks opening okay
+7794760	7801160	great guys then we will end the session today here hope you got to learn explore things and
+7801160	7808840	you liked it let's let's meet on tuesday hope you do the assignment problems and you know
+7808840	7814440	solve the things thanks ambed you've been really progressing great i hope everyone also try to you
+7814440	7822840	know build applications like you are doing it you know really great kudos to your efforts i hope
+7822840	7827880	i'm always bookmarking your applications and build one portfolio project where you link all
+7827880	7832440	the projects that you're building through the curriculum okay and notice i see other people
+7832440	7837000	if you're not able to find time we'll figure it out someday we'll sit together and build it
+7837000	7840920	even after the batch ends i'll be anyways available on the whatsapp you can ping me on
+7841720	7851800	okay so with that good night see you enjoy your weekend rock the contest let's meet back and
+7851800	7859240	explore some of the higher order functions and learn more things so guys bye bye take care
+7865240	7865960	good night guys
+7870920	7871560	you

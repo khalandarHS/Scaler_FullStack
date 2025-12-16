@@ -1,0 +1,1101 @@
+hi all good evening guys am i audible and visible
+guys can you hear me out
+good evening all let me share my screen too
+hello rajni so screen share is also working fine guys
+so I hope everyone is you know doing their assignment problems and you know
+keeping up with right amount of PSP's and prepping for the mock too many
+things are going to come up next week because next weekend I guess you have a
+mock like contest for the whole HTMLC as a JS part so irrespective of any
+frameworks guys these are going to play really important you know the whatever
+topics we have covered whatever concepts we have covered from day in till today
+are most important I would request right everyone to keep revising the go
+through the github and it's that's more important related to certification
+contest is it about mock interview Ashish are you talking about that once
+you do a mock interview you'll be able to get a certification isn't it
+certification contest let me check on this hi okay I'll talk about that on
+used I have to gather complete knowledge on that yeah because I okay
+Muneshwara says that is for DSA technical certification test okay that
+might be DSA test is it only for practice so I hope Ashish your question
+was actually answered by Muneshwara github link sure just a second
+I have attached here in the chat history great so how's your weekend going
+us guys how's the weekend going are you prepping continuously or there's
+something happening spy stuff news are you applying it any forms I know many of
+the many of you have told me that after react will start applying I but as you
+know there is a lot of calls from HRS of different organizations I think she
+nice so you are in Hyderabad itself right Muneshwara
+I'll type anglo okay so we'll wait for some time till people join classes class
+so then we'll get started let me bring in chart
+maybe we can plan make for this batch if possible or got clemency I sure sure
+I'll sometime visit Bangalore maybe this month and itself my sister stays there
+so they moved out to Bangalore so I'll probably coming there electronic city
+maybe they stay there guys did anyone understand the picture that I have a
+send in whatsapp chat like whatsapp group chat yeah we can meet but did anyone saw
+that picture CSR SSR CSR plus SSR did you guys just understood that point like
+anyone just did they understand anything on that part no no but that's
+one of the architectural discussions architectural decisions like but I'll
+talk about that in future class but just wanted to know if anyone have the
+context on that already because it's a really big topic to discuss once
+complete once we complete react then we'll talk on that part how things are
+working how completely things are rendered let me see one document this
+was the article that you have to
+good guys I'll urge everyone to go through this article after the class or
+anytime you find time but you know you should be knowing each and everything
+like how three things combined firstly how things are built like how Dom is
+built behind the scenes how CSS is actually mapped to each of the HTML
+node in that Dom key then how JS is actually downloaded and you know mixed
+and rendered with them how things works coordinate okay so I hope everyone goes
+through this article in a break or post class but in case you have any doubts
+bring it up with me in the next class I will discuss that in further okay spend
+some time understanding how complete rendering works because most of the the
+concepts that that I've shared picture right CSR SSR plus CSR plus SSR all
+these things will make sense only once you know how rendering works now when I
+talk about rendering how HTML CSS and JS are actually loaded and works in
+browser because we know that there is something called Dom tree but you also
+have something like Sysarm Sysarm is for CSS tree then Dom tree then you have
+mix both the things then you build something called as a render tree now
+this render tree is actually rendered in the browser so before actually you know
+working with anything once your HTML and CSS are downloaded in the network they
+build these two data structures of Dom and Syscom then they merge to build
+something called render tree then it works finally you also have JS and we
+have seen that how JS get downloaded you have async keyword then you have differ
+keyword then you don't do it anything then you know how it works so
+combinations of these things is actually how you should be understanding this how
+browser is handling all the edge cases once you know this maybe then we'll talk
+on this completely like sometime later of once we cover that yet because this
+is like specifically architectural decisions like how do you build certain
+components of the apps what's the best strategy okay this is really
+important from a senior a depth point of view I found that interesting I found
+it that in LinkedIn so I've just shared it but I but the whatever article have
+shared with you please understand those those will covered about this for this
+part and this part and this one and this thing we have anyways covered how JS
+okay and then we'll get started but I hope everyone you know find some time
+five minutes they can keep that open in the tab in your machine so that you will
+find time anyways go through that article because this will build your
+basics from rendering point of view because the JavaScript HTML CSS I'll
+teach it I'll teach up to an extent behind the scenes how things works but
+there might be some parts where I'll share the documentation or things where
+you have to put in efforts but in case you don't understand anything going
+through the commit documentation I'll be there to help you out okay I see less
+amount of people Saturday but what should we do guys it's ten minutes
+already should we get started I see only one thumbs up few more guys few more
+thumbs up so nice but yeah thank you guys so just wanted to know like did you
+understand what polyfills are and how can you write polyfills for HOF that we
+have discussed in last class could be filter could be map for each and we also
+consider reduce and flat these are the all methods which are built on array
+like these are the utility methods there can be a number of utility methods you
+might be writing in your project that we have just rewritten the logics how those
+things should work right now once this part is clear like we have further three
+things to rediscuss and reimplement it which are call bind apply polyfills for
+them we have discussed the concept for this one but just want to know if you
+remember the concept for this one guys can anyone summarize the concept for
+this one do you remember guys call bind apply when when we actually use this
+method three methods when does when what is your use case like why do we
+actually use this three methods if you don't remember it give me thumbs down if
+you remember it trying to put it in sentence give a thumbs up okay I see five
+people don't remember it okay so as you remember that we use this method to
+of this while borrowing function like we were actually changing what this should
+be pointing to we were specifically passing an object and we say that hey
+this should point to this particular object we were making sure that and all
+of them were doing the same things but everyone was behaving in a different way
+we know that call takes a list of arguments whereas apply takes an array
+of arguments extra arguments whereas bind used to return a function which can
+be called a number of times are we able to recall this with this short
+introduction again because I'll build those examples one by one and we'll
+write polyfills for them once we cover this polyfills will have some
+interesting you know JS sort of revision concepts but want to discuss about few
+of the you know basics that you have to work on okay so we'll have some of the
+more of conversational things going on today after this polyfills will cover
+them in half an hour I don't think it would need more time but next one one
+eight of our class would be much interesting okay let's let's go back to
+this one so can I get started with call bind apply or do you want me to re
+explain this topic guys because this was covered in earlier class there was a
+specific amount of time was given to this class on call by bind apply we have
+spent more than an hour right continue right okay let's not waste the time and
+focus on this so one of the one one example I'll pick it up so that everyone
+can recall it let's say I'll build one file polyfill call bind apply not JS
+let's say this is one of the file that I have and let's say we you know doing it
+again now if you say that I have a simple I'll take the same example person
+object and object will have again let's say name and age say name and age okay
+let's keep it name itself make it further simple and let's say you also
+have let's make this const you have another const percent two you have name
+again let's say we call it as a myth right then we had some common function
+let's say a function of separate age where it's I receive an age but when I
+try to do a console dot log I'll say that this start name is years old let's
+say years old now this was a use case when we wanted to use call bind apply
+let's say I'm using an example of call what I can do is that since I just need
+to call it what first thing is that something always I used to call it on an
+object let's say firstly I call it as this print age function now on this
+print age always when I'm borrowing this function I can apply three methods on it
+call blind apply I'll call this one then I can pass what this should point to I'll
+say that this should point to person object and then also can pass an age
+because we are accepting an age in this print age right so this is how we have
+learned it now let's see if this is working fine node so I hope this is
+something how it is working I hope everyone knows it one final thumbs up if
+you can further recall this one better right like why this is working this way
+and how this is this generally if you remember what this should be pointing to
+in a normal function what this is usually points to can you guys remember
+that one what they should point to it's a node.js non-strict environment it
+should point to an empty object isn't it this is the example this is sorry this
+inside a function it should point to a global object isn't it like this inside
+a function so I hope you remember these differences all the things that we have
+covered now we change that one from window object to this person object now
+just let's think like how can we approach now a polyfill for this one like
+where we are changing a context for this one we have covered this one in one of
+the class where we were discussing in doubt session but I made a pretty much
+simple code now but just want to just want you to think like what is actually
+this thing is doing this is just changing what this is pointing to isn't
+it nothing else and we are passing that inside this function how would you
+approach this one
+so I want to call this one as a printage dot my call person 2 and 23 let's say
+this should print Amit is years of 23 years old so this is something like my
+call function we have to build it but how would you approach this one guys
+what we have discussed in last class firstly this should be available on
+which library like which part of this my call should be available on what is the
+data type of this parentage function isn't it so let's slide down that
+syntax step by step okay function dot prototype dot my call once we have this
+then there is a function okay inside this function there's something happening
+but inside this function on my call what we are taking it they shall just wait
+talked about like how call works call wind apply and then we started with a
+prototype of call nothing much okay so if you remember if you see it here my
+call is actually taking two parameters one is object and the other one is the
+edge so let's say we say that this is a context object where we are changing new
+context and also we can say that we have a list of arguments okay now what I'll
+do here is that firstly I'll check that if context is undefined then I'll say
+put context equal to this one a check normal check but later on you have to
+you guys have to explain me what this would be pointing out here if you if you
+crack this what this is pointing here everything will be clear is it context
+that's that's coming out of you know autocomplete but think from a concept
+point of view neshara if you remember in last class if you remember in last class
+when we covered for each or anything this was pointing to add a right
+because we were calling added or for each this was pointing to an array same
+way here this should be actually pointing to
+function itself right yes are you able to link that point why this like let me
+try to console log this here you see when I'm trying to console log this
+actually I'm getting a print age function okay now I have this function I
+have to call this function in a such a way that I have to change the context of
+this one and with value 23 how can I do it how can I make sure that like this is
+actually pointing to my current object and you can always you know or try to
+open in a new tab this particular box you you will be able to see that this is
+a third is a use case like if you see third number this object function what
+we are saying I mean this inside an object which is it again there is a
+function inside a function so we are returning object itself this is the use
+case that we have to replicate it isn't it like there is an object inside that
+we have function inside that we are having a disk keyword what I exactly
+meant to meant by this is that if you can build something let's say a const
+object where you have let's say let's say some function funk pointing this
+then also if you remember in the context anyways we have all the things if I
+spread context this way do you think the no inside this context anyways
+whatever when I try to refer here inside the function I'll be able to get that
+values right whatever is needed like this is same way this is same way as
+let's say I have OBJ 2 I say name John age 42 let's say print age okay let's
+remove this arrow function convert into function okay and console dot log of
+this start name is years old even if I do this start age or if I pass an age
+here how can I call this I can make a call like OBJ 2 dot print age and pass
+on some age this should work right if we are able to replicate this one inside
+here the work should be done isn't it because we know that whenever we are
+making a call this way it the this is particularly pointing to object itself
+and inside that you have this dot name and age available so stocking but this
+like you if you can replicate this particular functionality of this third
+key your job will be done so how many of you are able to connect this dots there
+are people trying you know facing challenge and understanding this one give
+me thumbs down okay I see one person who don't understand two people three
+just let me see okay so firstly promote Kabir so are you able to recall this
+example firstly this this sort of use case that what this will be pointing
+here firstly all of you all of you three guys like this example right how we made
+sure that you know this object should be this object should be actually
+pointing to this if I remove this function outside if I remove this
+function outside and I try to say that trying to print this we know this
+example that it will be pointing to a global object right if I remove this
+function out of it like if I am able to pull this out this will point into global
+object isn't it and what I'm saying is that convert this use case convert this
+use case into this use case from second to third which will fix our polyfill
+okay because because we are already having this function here this and this
+is already pointing to window this is already pointing to window now I should
+make sure in a way inside this prototype prototype dot my call to build a function
+of like this way since I have all the variables needed here because if you
+see in the context if you see the context we are passing that object we
+have all the information needed like name and everything is available also I
+have H and inside of this keyword also I'm having a function so can't I
+replicate this use case so I hope approach approach is clear like how we
+are actually thinking like how we can build this one let me say that if I say
+that let's say I have one more check one more check is that firstly I'll check
+like if type of this is not equal to function then I'll return throw error
+can be called only on function okay now once I have this now let's say if I'm
+actually if you see this this is an object that I'm having right can I do
+something like adding a new property I say that object dot let's say function
+new function which I want to add what this single sentence has done it what
+this particular single sentence has done it this particular single sentence has
+changed if you see this use case if I try to remove all of them now if you
+remember if you want to add a new property into an object this is the one
+way of doing it or else you can always write down context start funk once we
+write this I added a new property and this is actually pointing to an object
+now inside this context currently what what else what we have we have name can
+be any name whatever we pass in the context also I created a funk and here
+I have something like print age now when I do this use case once I do this use
+case my problem is solved isn't it I can call this function directly guys are
+you able to relate this one again I see only one thumbs up if I need few more to
+understand whether you are able to follow up or not I'll show you in the
+debugging mode once more let's say once I make this I've added a new thing into
+this one I have to just call this funk right once I have to call this funk with
+all the arguments that I have
+I'm just calling this funk and what else you can do you need not to return
+anything because this is not returning anything it is just executing with
+changing the context now let's say if this is working fine I'll comment this
+part I'll remove this part let me show you step by step
+so have you guys tried debugging in JS like both browser and VS code have
+taught you how to do it right so I hope everyone is doing it now guys if you see
+it what just happened here what we have done it just in order to implement my
+call as I've told you that firstly this is inside this we have this function
+print age is coming because we are calling print age that my call always
+this will be pointing to plug-in I don't we don't really need plug-in
+muneshwara we can directly do it I'll talk about that but let's focus on this
+example again guys that if you see here when I try to print this if I see if I
+console log here this you will see this I'm getting print age function because
+we are calling print age here once now if I do like context dot now let's see
+if I execute this part of line and I move to next line now what happens in
+the context as I've told you that earlier that a new key is created inside
+the object called funk and print age is applied and this is somehow we converted
+into this use case isn't it third line so once we've done this we know that
+always in this use case if I call a function like this one like context dot
+funk we note that this will be pointing to the context itself you know that is
+the reason why we we tell that you know you should revise this or you should
+revise all the things so that you'll have a better clarity now I'm passing the
+arcs which will actually is similar to the age 23 whatever I'm receiving here
+I'm passing that and just executing it now this once we execute it let's see
+output now if you see I got Amit is 23 years old because percent two having the
+Amit name in it so let me know guys if there is still anyone who don't
+understand this one if there is anyone who don't understand this one please let
+me know I'll try to repeat it again if this thing is clear can give me
+thumbs up once this thing is clear can you give me thumbs up once I see three
+people further I have more than 25 people guys can you give me some you
+know reactions so that I understand that whether should I move forward or not
+okay I see four people okay I hope you are able to follow up I received eight
+people routine 50% of not even 50% of class but it's okay I hope but everyone
+is able to follow up and able to understand this concept like how we are
+building up in a polyfill for call now there is a only small change we know
+that if you want to call it for apply let's say if I again on a same function
+if I want to call and apply same thing I can do is that I can say a percent or
+two and I have to pass arguments in an array isn't it this is the only
+difference isn't it in call and apply do you guys remember this right now let's
+say that if I want to build a polyfill for this one what will be a small change
+that we have to address it what will be a small change we have to address it
+here inside this if I let's say if I copy this and let's say I paste it here I say
+that my apply what I should be doing it here on this only on the list of
+arguments what I have to do it
+take array instead of box okay let's say I have an array no once I have an array
+again I can I'll have to destructure here right I have to spread it I have to
+spread those items isn't it I can say something here is that if type of ARR
+is not equal equal to can I say that our array then throw a new array
+Kabir for call and apply so I didn't get it like what comments you need it how
+this is working because this concepts we have discussed earlier in the class
+right that's why I'm not focusing on the concept but on a polyfill more
+guys do you want me to okay okay let's say I have a divider here firstly
+okay yeah no worries but guys is there anything else like I have to do it
+specifically for handling apply from logical point of view because they're
+still doing that same thing isn't it on my apply it's just that we are receiving
+an array and anyways if I want to execute that item function again I have
+to destructure them and pass it on isn't it are you are you able to recall like
+how apply used to work let's say I try to show it taking the same set example
+I recall person one and instead of this I'll say my apply let's say we re-execute
+this one I'll remove debuggers from here okay I got an error
+okay person one was a person is not a person one object no okay say what is
+a type of it's an object like say clear this again re-executing this one okay
+we are still going inside this so let me write this again not equal equal to
+object so you cannot actually compare so single string but the other capital O is
+a mistake let's play this one re-execute this one okay now guys the only difference
+we had with call and apply was like the way the extra arguments are being passed as we
+have discussed earlier also in the class that you know doesn't really matter if you use
+call and apply today's age because you have destructuring syntax where you can extract
+and spread you know spread up you can use the spread operator where you can spread all the
+arguments that you are getting in an array isn't it still that same syntax and just whatever you
+are receiving here if you see array is having an item with the zero at the index 23 which I'm
+spreading it now depending upon how the function is accepting parameters it will be the same if you
+want manually you can do it here manually but this is how you should be building it and this
+would be working fine for the interviews okay this is this point here what's the basic difference
+funda here between my apply and my call the both are same in a way behind the scenes right let
+me add a comment here okay then we have pretty much simple implementation again we have bind
+if you remember bind also it used to return a function for us isn't it let's say return
+function I call this as this one and if I call print my age dot bind and I pass the object and
+again it takes any are any way of elements defined let's say I pass again 32 let's see
+what we get in return if I try to console dot log return function firstly now if you see I'm
+getting a bounded a print age now that bounded print age is like if you try to execute this part
+again it will work like a same my call apply where context is changed and you get the way
+you want it so you remember this how bind works bind used to return a function after changing the
+context and whenever you want to execute this function anywhere you can always execute this
+depending upon your use case it's still doing the same part where it's changing the context
+of this inside it as do you remember bind I kept asking like do you remember do you remember but
+I'm not sure like if you are able to recall those examples like what we have picked it up but these
+are pretty straightforward so that's the reason why I'm moving in bit speed again if I have to
+build a prototype on this one let's say I call function dot prototype dot my bind and if you
+see I have a function against like let's say this is a function and where you receive two things
+and context object and least of arguments once you have this one check you can do is this one
+if I write down the same logic what is the one thing that I should be doing it here what is the
+one difference I should be doing it here can you guys think what is the one common difference that
+my bind does it return some function isn't it it returns your function it returns you some function
+do you agree with that point it is returning some function and what that function usually do it once
+it is returned let's say this you call this function whatever you are returning here once
+this function is received when you call this there is something executed inside it there is
+something which is executed inside it now the way you can always execute is like again if I try to
+rewrite this line here this is it right now if you remember if I call somewhere my bind I'm call
+returning a function and if I execute this particular function this one this will be
+executed automatically with the least of arguments I what I will do is that guys is that I'll repeat
+it again all of this thing so that you remember this okay there's a one tweak you can always do
+it but before that let me show you that this works fine so I call it as one if you see I've
+got again a bounded vintage still we are getting that same output with our instead of this one
+let's say I call my bind I shouldn't be calling on library itself okay got an error okay let's
+add it here once you have it you will be able to pass on the information now what is one thing
+here we have to address it what do you guys think that why my aux is not being actually declared
+but values okay let's say I pass on my aux here I was not reading it properly so it is working
+fine but there's a small tweak tweak that you can always do is that let's say you passed on
+information this way that's all fine it is returning your function and this function is
+actually being returned what if we can pass our parameters to this one also like what if I can
+say that I can pass some parameter like let's say random string something like how would you
+accept this parameter you can also accept arguments here once this is returned and you
+can what you can do is like you can always merge here a list of arguments okay whenever
+you are returning let's say if you want to pass like this information let's go to this
+I'll also since we are accepting age only here let's say one string something we are
+receiving here let's say if I try to console dot log of string you will be able to see that that
+is being outputted in all other cases you will get an undefined because we are not passing
+something extra if I re-execute this one if you see every place I got undefined because we're
+not passing there but here we pass something like random where the extra parameter was
+passed inside the return function guys are you able to connect with connect the dots with this
+one like what my call my bind how these things are working just want to I don't think that you
+got the confidence on this is it isn't it I see only a few people reacting it so just want to
+know that we are able to understand this one or not give me honest response guys like did
+you understand this concept of poly full of call by apply buying need to revise so let me give you
+you know just off it again so on the iPad you know as I've told you that firstly all of these
+things were only changing the context of this this might be our sub you know in order to you
+know rewrite your own libraries poly fields okay so in that interviews they might ask it but not
+in real time like you would be doing it in development purposes mostly because you use
+latest process itself as I have introduced when I introduced a poly fields I talked about that
+like how would you do it and why would you do it okay but just let me let me share like what's
+actually happening if you see we had two objects like person one and name some random string and
+person to object of name and we had print age function which was taking age and trying to
+print this not name and let's say and age let's say we are printing this one now we know that
+whenever we call in a node.js non-strict environment in a simple function this points to global object
+so if I pass on something let's say for pass on I call directly person let's say if I call
+print age passing 23 it will give me undefined and 23 right so this was something that we already
+know that how this would work right now what was our role was that hey this undefined shouldn't
+be actually undefined this is something should be all anyways is with this object so what I've told
+is that for the all the functions right all the functions prototype I'll build some method like
+my call and that my method call will take two parameters one is this object itself called
+person one and age now the call would become actually my call dot person one and 23 but once
+I have this what I was actually doing here is that if you see this object right whenever person
+one object this person one is having what I was doing is that person one dot new function and
+that function I was attaching to this because if you remember I call always my call on this
+print age function itself the call was actually print age dot my call and I was doing it this
+when I do this this will be actually available in this function so after doing this what happened
+here inside this object a new func key was added and we had the whole function available inside it
+now once that was available the next step was only calling this function person one dot func we know
+that in order to call from object you can always call this way and I can pass age this was my call
+isn't it I've just changed how you remember how how the this is actually pointing to when I
+converted it this way you always know that if I write down this inside this one and this name
+is available here so this dot name will always return me the name instead of anything else
+instead of global object right this I see only one reaction but did you get that context did
+you understood like how the concept how we are changing it just like if you you can always go
+to that image that we have applied because this poly fields right for call by and apply
+test your knowledge like how this is working and how would you convert from one format to the other
+format here just we are converting from yeah today's class is challenging because this again
+I'm asking you to recall the other concept and how would you convert from the you know objects
+like how that pointing to this is changing that's the reason why we took whole one class spending
+time on this one understanding yeah but do one thing I would request everyone after the class
+right put the debuggers on try to convert it what I'll do it is that I'll have add some comments
+on this so that you guys remember it now here let's say till this point I'll add comments for
+one part context object is actually having one thing name John okay and this is actually
+available function print age so what I did I created for context equal to name John and funk
+print age okay I have created object this way how did I was able to do this like I call I just
+said that this line when I say this line this was actually done okay let me write down the top now
+we know that in an example whenever you try to get at this inside out of this context like when
+I call this way context dot funk execute it whatever I pass here age or anything but this
+name is available here so this dot name is always working so there's only one example which we tweak
+something to build all of this because all of them were seen okay guys one final reactions
+guys so that we can move ahead because there are too many bounces coming up now you have to face
+too many things today okay now I'll build an file called example.js just example.js file nothing
+else here let's say I have a few list of questions I want you to expect or answer me what could be
+the output of this one okay let's say if I try to do console dot of X okay what could be the output
+here if I just do this console dot of X directly what can be the output rethink it okay Arun and
+Ashish says that undefined Kabir says that X anyone else having any other Ashish again says
+X changes answer Muneshwara says X okay undeclared so what was undeclared Dheeraj what used to say
+that we had two keywords undefined and not defined what should be the output here so rethink it guys
+you know like what should be the like what do you think like whether it should be X are not
+defined or undefined actually testing your whole knowledge right refining whole things that we have
+learned to throughout chase so how many of you think it should be if you think undefined give
+me thumbs up if you think it's not defined give me thumbs down I see save seven people eight all
+people are saying not defined okay great so firstly I want to put one thing is that it doesn't print
+X because X is not a string here if I added a string format it would have printed X that point
+is clear it wouldn't print X the reason is that it is not a string it is a value it is trying to
+refer to something it's a variable value and this variable X is not defined isn't it let's to show
+you guys what I will do is that after every question I'll try to print it here in the console
+let's say I refresh it I try to print it you see that X is not defined is an error I hope everyone
+got it right and confident about this one so sometimes in interviews they might trick you
+this way now let's say second question is I have Y equal to one console dot of Y I say that where Y
+just think of this context what could be the answer here Dheeraj says one
+and if you think one why would you think it should be one what is the reason behind it
+muneshwara says not defined hoisting
+okay where key hoisting global so if how many of you think that if it is a one give me thumbs
+up guys if you think there is some other thing give me thumbs down
+okay I have three people who say it's not one okay just a second muneshwara pradeep shashank says not
+one hoisting concept so how many of you remember execution context and hoisting concept guys
+now what usually happen with hoisting what usually happen with the hoisting what generally it says
+that all the variables yeah let and const are in temporal zone dead zone but all the variables
+which are with var and functions are generally hoisted or declared but not initialized right
+all the variables in the file all the variables and functions are declared okay but not
+initialized here when I when I try to load a file when I try to load the file
+var y is there it will skim through it it will it will create or declare this variable y right
+on through the top this will be actually converted at real time let's say if I write down at real
+time this will be converted as like var y then y equal to one then console dot log of y this
+will be converted into reverse order do you guys agree with this my point
+how this will be actually done in behind the scenes
+okay let's see this let's see this output uh okay
+if I try to print it now do you see this one is coming out
+okay I hope you are able to follow up why this thing has actually happened in question two
+and then I'll put up another question let's say I try to console dot log
+or let's say z and let's say I give var z equal to one what should be the value of this one
+uh
+theory says undefined uh kabir uh kabir what's your question it's one okay uh promote says one
+muneshwara says one
+um
+so if you if you guys think answer should be one can you give me thumbs up and if you think
+undefined can you give me thumbs down
+rajnees is not defined
+okay uh so there's a complete split but let me ask you one question difference between
+declaration and initialization
+people whoever gave me one I just want to ask the difference between declaration and initialization
+how behind the scenes in hosting used to work is that if you remember whenever this logic is done
+you will be initializing where's that then you still have console dot log z
+okay then you have z equal to one this was converted into this way and at this point
+z is undefined we know that first time when the things are wasted it holds a value of undefined
+okay right so people who have gave me uh for one right do you understand this
+kabir muneshwara pramod why did one is wrong here
+let me show you here executing in the browser again let me copy this I clean it up I paste it
+here okay do you see this undefined coming out okay so firstly when I say this step is called
+declaration I declared a variable called z but I didn't put a value called one in it yet
+when I'm hosting the value the declaration happens value is not assigned the default
+value which is assigned is undefined for the variables
+okay so when I'm trying to print it here I'll get an undefined because at the line number 19
+actual value is being supplied okay so this will output in undefined
+are these three questions clear clear guys what is why behind the scenes and what the things are
+going on for these three questions is there anyone who is having any doubts in this
+okay now let's say if I go with a question for
+let's say I have a equal to one
+one then if I try to do console log a
+I I do something let a this one what do you think output should be now
+so
+okay mixed answers undefined error one
+okay
+firstly is this line valid
+is this line valid
+okay no
+okay let's let's check this like actually firstly because in the let first we have to declare then
+initialize what was your answer you said error right now right
+how let and const used to work there is a basic difference between where let and const when it
+comes to hoisting concept because let and const actually fixed hoisting issues isn't it
+now let me show you the output firstly what it would be there you clean it up
+I throw it you see cannot access a before initialization it says
+this when I'm trying to console log we say that a is not initialized if I convert this itself if
+I convert this into where this is fixed okay because this memory is loaded already if I clean
+it up reload the browser if I give it up here I'll be able to print it but if I try to
+just change from where to let there is a change in hoisting concept there is something like
+temporal dead zone in temporal dead zone this doesn't really you know hoisted to the global
+space they are actually hoisted to their local space in that use cases it is it works as expected
+guys read as it is when it comes to let and const okay you have to declare it then initialize
+it when it comes to let and const because we are fixing that random behavior which is happening
+is this point here like why we are getting here error because we haven't first we have to declare
+then initialize then go on okay that's a basic difference that has happened I'll put it as an
+error here let's say I have another question five
+now simple thing console dot log b let's say I have let b equal to one now what do you think
+I've just I've just told you that when it comes to let and const read as it as it is through
+read as it as it is
+like is it be accessible first guys is it be accessible first does b exist
+right if if it would have been here below that would be good that's the reason why I'm saying
+that hey consider it there's a temporal dead zone but that's a theory concept but what I'm saying
+is that when you use let and const go through go through a process of read it as it is like
+the first line if only if b is declared on the top then it will come but if when you are using
+let and const it should like you should line by line like you should go from top to bottom
+okay read it as it is that will help you to understand better like how would you actually
+deal around with the let and const okay now if I considered that thing this should be also return
+me an error right there is no b b is not defined itself when I'm trying to initialize here call it
+right let's see this if this if it if it returns the same thing like cannot access a before
+initialization
+you see b is not defined it says
+because this is coming after it is this clear guys how this is working
+okay for this whenever you see let and const for me the symbol use case is that
+I try to understand like what is our top line by line I try to understand the code and
+fix it up only the problem comes with a var that's the reason we avoided var to write it down
+everywhere that you see okay now one simple use case console dot log of c
+now where c equal to one
+one
+what do you think
+interesting
+uh one thing again if I want to declare a variable in js how can I do it if I want to declare a
+variable in js what is the syntax that I can use I have three things var let and const
+let and const
+isn't it am I using it here if I don't use this thing do you think the hosting works
+hosting works with respect to type of variable isn't it
+depends upon type of variable now even if I if you remember that we this used to work
+like like this will work only in the use case where you like this is a simple use case right
+what we have done is that I had declared it one but I have created a variable which will
+be hoisted and then it will work but here I haven't created that variable itself I'm trying to
+put it log for it okay this should also be returning a some error
+you see c is not defined but if I try to console log again if I try to console log c again
+it still says not defined let's say
+let's say we say that
+c equal to one and console dot log of c
+this is working this way in a reverse because once a way when anything is declared that was like
+I've told you that in non-stick environment this was supported but in strict environment this will
+also break earlier we have seen this example where this was actually working reason behind
+first when this is parsed when this actually values initialize this was considered as a variable
+and the var keyword was added automatically and then we were able to access it but when
+there is no var keyword hosting doesn't really happen for this one that's why we were getting
+error for this use case and the way even if I write this this is working this wouldn't
+work in a strict environment is this clear
+yeah if we are not declaring a variable type by default it will take it as a var keyword
+and post that you can use it but in strict environments when you use like
+browser strict or node.js strict level environments it will throw you an error
+okay I've enough if you use like this is a non-strict environment we haven't mentioned
+anywhere use strict or anything so that's why it is working even if I re-declare c equal to one and
+console log c but that doesn't really work it shouldn't be used that way okay
+now just want to recheck guys this six questions I've covered let's say one one final question
+before we take a break console.log of sum if I do this what do you think output should be
+okay
+not defined right
+sum is not defined let's recheck this one
+sum is not defined okay so I try to cover all the use cases which again covers up your hosting
+concept and you know the topics that you have to revise it basic topics so hope the this seven
+questions keeps you better understanding about things once we'll take a break for five minutes
+we'll come back we'll have like I have still further 10 questions which will actually cover
+one more concept that I actually want to introduce it I'll talk about that but we'll learn through
+this examples itself building one by one okay really interesting topic guys come back in five
+minutes where you will try to refresh your knowledge on this and we'll move ahead so five
+minutes is fine right or else can I continue it depends on your thing like if you want a break
+we can take a break or else if you want me to continue I can continue give me thumbs up for break
+guys
+okay let's take five minutes of break I'll start a five minutes timer we'll meet back in five minutes
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+uh guys is everyone back again
+uh
+okay uh give me thumbs up guys give me thumbs up if you are back
+see it only one a few more would be really helpful
+okay great so it was like going back to the question number seven
+uh as it was not defined what if what if I add where sum here and I declare a function
+a comma b and I try to return
+a plus b
+what it should be
+does the answer need to change or answer will be still same
+guys I'm waiting for your comment error might be now you need not to be might be use case
+have enough so let's clear it up firstly uh is it a variable is it a variable which is storing
+a function in it
+let's just think in that perspective is it a variable which is showing a function in it
+now oh first thing did I if I declare function this way then you can say that this was a function
+but I declared a variable called sum isn't it so whenever I use where keyword and I declare
+something it is mostly consider that where is always hoisted so we are talking about type of
+data types right dive where is always hosted now even if you have function in it this where some
+will be hoisted so it should be converting from not defined to undefined isn't it
+going back from that concept wherever you see this keyword this culprit which will this will
+work like in a hoisting concept and this will declare that where some it may not create that
+function in it but it will declare it and that will be storing so this person actually irritated
+many js developers so that's why we killed it we introduced let and const
+okay but do you understand why this is undefined guys again let me try to re-show you this one
+see this is coming as undefined that's that's what happens that's what happens when you build
+a coding language in 10 days okay now there's another question a question related to this
+concept itself let's say I have a console dot log I try to print total now
+but see that how I'm talking how I'm introducing total now
+still I'm returning that function itself so what do you think the output should be here
+firstly think from hoisting concept itself whether the const total should be hoisted in global space
+it shouldn't right it should not be like whenever I say that let and const go go as per reading I
+said that hey console log total I am seeing anywhere total no it's below it's there below
+but the variable is not var so it's a const I'll be getting something output here it will be
+resulting in some error and that error is like you cannot use it before like total is not defined
+or it doesn't exist you see that total is not defined
+did you understand difference where a var really irritates people like in old age that's the reason
+why people say that javascript is a headache that was headache was solved because this was a pill
+which was solving our problem
+guys did you understand this example difference between these two both seven and eight
+seven and eight can we move it to next question
+so question number nine let's see how many of you can answer this one this is interesting thing
+let's say I try to console log and I say that some one of two comma three
+and I have function some one and I return it a plus b what should be my output
+whenever I declared about hoisting or talked about hoisting I talked about like two things get
+hoisted variables and functions so once function is hoisted right I'll be able to access it I'll
+be able to execute it isn't it so how if you if you guys think five give me thumbs up if you
+if you guys think other the other way around give me thumbs down
+right great guys I got once first time I got all people aligned with one answer
+happy for that yeah it is five okay now let's take about some other example
+question 10
+okay let's have function called example one which is doesn't have anything in it
+but I have one if condition which is all the ways true and when it is always all the ways true
+I have var aa equal to one and let b be equal to two okay after that I'm trying to access them
+both the things
+now there is a one concept behind the scenes for this one but I just want to know like
+how many of you think what should be the output for this one
+one and undefined okay
+one and undefined okay
+one and not defined so I've received two answers how many of you if you guys agree
+with Dheeraj answer give me thumbs up if you agree with Ashish answer give me thumb strong guys
+guys please try to answer this one
+okay one and one four people if your people are not able to think let me
+know if you're not able to think anything okay we just executed the function then but
+just want to know Ashish what's the reason behind you let's see let me show you first output
+what generally happens when I execute this one
+one if you see I got one and b is not defined so Ashish answer is right
+Dheeraj you got it wrong here we'll explore the reason for that but Ashish do you know reason
+or the person who's what what you can how
+how can you say that it won't be available or not defined why do you think it that way
+okay right so yeah firstly there's a one concept called let and const variables
+are block scoped
+have you heard this one have you heard the statement anytime
+okay block scope now when to when we go for block when we go for block like if you if you cannot
+if you cannot write
+like logic in one line you go for block right if I say so example if let's say if I have this way
+let's say if I have this way if true I can say where a equal to
+one if there is only one thing I can write down this way but when I have multiple statements
+when I have multiple statements I'm always opening two braces
+whenever I'm opening a two braces whatever I write logic in it in between here whatever magic
+happens here whatever magic happens here stays here with respect to let and const variables
+whereas still where variables are hoisted in global space
+is this clear guys this statement
+like where and let are always block scope if there is a if you if you try to console log here
+if you try to console log here you will be able to access bb but if you come out of this block
+these two braces then you won't be able to access anything this and const which are coming inside
+this block
+okay
+I hope this logic is clear why the output one and not defined is coming up
+if there is anyone who didn't understand yet let me know
+guys if you understood can you give me a thumbs up if you understand what is block scope and how
+does it work for let and const whereas var is always hoisted it will come into the global
+space and pollute it okay
+so one strict suggestion would you ever use it a wire keyword in your project
+it's just for learning guys it's just for learning js but never ever go to go to that keyword
+never ever use that keyword where it's it's really bad if you use it in today's date okay
+we are trying to understand how yeah like it created too many problems initially when I started
+understanding out of college the repository I was working on was really 780 years old
+and that happened five years back if you can imagine two years old code of js
+first one month was like I literally had nightmare understanding concept literally
+nightmares like var was such a I can say I mean it gives you goosebumps sometimes it behaves in
+some way sometimes in different ways when you don't really understand js it's really difficult
+okay
+I revised this concept so that you will be able to figure it out yeah Ashish I completely like
+because even I had that because I seen production bugs issues right how should we address them
+now let's say I have var cc I created a variable called variable cc20 now let's
+say I have a function example and inside this function I'm doing something is that true
+and cc equal to one and not only this I'm creating it again and I'm trying to do console.log
+cc also
+so I'm calling an example
+this one executed also I'm trying to do console.log cc
+so I need output for this one a and output for b from here on game will be interesting guys
+so people say sir one and one
+okay
+one and 20s guys if you think it's one and 20 give me thumbs up if you think one and one give me thumbs down
+okay I've seen one and 20 people are four one and one are one but
+let's let's see the exit let's see the output for this one I'll copy and I'll
+give it to you show it to you like how this thing works okay and if you see I got an output of one
+and 21st got an output of one and 21st but what I'll do it here is that what I'll do it here
+in order to explain people who have got wrong right let me go to terminal
+what just happened here let's see this one okay clear I'll put a debugger here
+here here and even before the line starts
+let's say I make it an example.js
+okay I have to comment few things because all the not defines will result in error
+okay I hope all things are clear but let's check this
+okay where a equal to one where it is a equal to one
+like if I try to execute this one a comment
+and still have too many other let it be what I'll do is that in order to explain this
+let's say firstly I'll write down answer here one and 20 so let me build
+example one dot js
+so that I can show you guys
+let's say I have this example and I paste it here I have a debugger here itself
+let's see what's happening here clearing it
+and I try to execute this particular file okay now debugger is attached just see that
+yeah use pad I didn't get your okay ipad okay just wanted to show real time so that I'm using
+a debugging which is much better so the reason I'm doing this one is that even before the first
+line of statement is executed let's see what things all are available here inside this globe this object
+if you see inside this global object now let's say if I go to check this one firstly an example function
+okay this is not coming inside this one but
+let me see where this is loaded
+okay this is not coming inside this one but
+this is working in node js part
+let me see where this is loaded
+this is file path and example
+okay this is local scope whereas if I go for global scope
+let's see this in browser itself guys that will be better easy
+I'll create a index dot html
+uh html5 let's say rdev
+debugging
+so I have a script
+src
+okay launch it
+okay uh just a second we'll verify it here Kabir
+if I go into sources I open this one I put a debugger here itself now once I refresh this one
+now let's see what's actually happening here okay inside the global whenever this is done if you see
+the cc is actually initialized as for the hoisting concept with undefined key also you will have an
+example function which is present okay these two points are clear isn't it
+now after that the next execution line would be eight right
+do you guys agree the next execution line will be eight
+now let's say if I go into eight what happens here now when this eight example is actually
+executed it goes inside this if condition okay let's see if it goes inside this if condition
+it is whenever I create a new variable it is created inside its particular scope
+this particular scope is this clear firstly this variable got created
+not inside the global scope it created inside the local scope inside this if you see it also has
+a window object coming along with it now this window object also has cc but we are not using
+that parent one we are using its custom inside its scope is this clear like why the we are not
+updating the outer one which is why because the reason outer one still be 20 we have redeclared
+that one a new one in its local scope I hope now what is this is called here
+what is this is called here for this condition for all this for this example itself
+what this is called here this is something called is called as lexical environment have you heard
+this keyword lexical environment okay so lexical environment let's open this
+lexical environment in javascript
+let me open any medium
+if you see
+what it is saying lexical environment in the javascript is a data structure
+yeah if what it is talking about that stores the variable and function that are defined in the
+current scope and all of the outer scopes okay it is also known as lexical scope now whenever we say
+that lexical scope what is exactly meant is that this current cc plus parent scope now the parent
+scope for this one this particular function is a global scope isn't it so the lexical environment
+whenever we say that lexical environment the current local scope plus it's all parent scopes
+combined together is called a lexical environment that is what a lexical scope is called as
+is it this point here just one definition that the current scope and all the outer scopes combined
+is called as a lexical environment because if you see it here the example what they gave okay
+global execution context is having a var a equal to one and execution context one when
+when they're executing function one they have var a equal to two okay now
+if i have this further example i can show but i'll give you four more example better examples
+to understand this one but the basic definition is this one itself is the current scope plus all
+the outer scopes combined together is called as a lexical environment okay if i have other definitions
+if you see uh this definition also lexical environment in a javascript is simple object
+consisting of two parts a reference to the outer environment and the environment record the current
+environment record the current environment record is always present in local scope and this is
+pointing to an outer environment is it clear this point is clear
+one final thumbs up guys like if this point is clear that you got understanding of what lexical
+environment is okay and why the 1920 output is coming because this is not being changed which
+is in global environment a local scope is created inside that only the value is updated
+okay now if this point is clear let's go back to the questions uh question number 12
+this is another interesting questions from now on we'll see how many of you can think of this one
+let's say where dd i have 20 initialized here and let's have a function called example two
+and inside this example two what i'll do is that i'll say that if true dd equal to one
+also i'll do something like console dot log dd let's say this is one and i execute this example
+two and also i console dot log dd which is p here so what should be output guys for this use case
+for this use case
+everyone says one and one is there any other answer guys like if you think uh it should be
+one and twenty muneshwara says one and twenty uh one final check if you believe one and one
+give me thumbs up if you think one and 20s are right answer give me thumbs down
+okay i see two people three people three versus three
+okay now
+uh let's say what what would be answer let's say debug and see it directly i
+it should be both one and one actually why it should be one and one firstly i'll talk about
+that before that i'll execute it here and word to you you see one and one the reason why it is
+one and one i'll talk about that okay re-executing this okay first line number dd is initialized
+in global scope you'll have dd but if i go to line number eight where i'm executing function two
+if i see in the global scope i'll have dd 20 initialized but once i go into a separate
+execution context when separate execution context is created uh from execution if you
+remember execution context we made uh we create a new scope the local scope is there here in the
+local scope if you see i'm having this here here i'm not recreating value here but i'm having a
+attachment reference like when you say that lexical environment the lexical environment
+is current environment plus its parent environment uh here you have dd you are you are making an
+update to this dd let's say if i go to this line you update a dd now inside this if you see you
+made a dd updated one now this one is actually pointing to which one is it to global scope itself
+like dd one inside the global is also in each updated is this point clear how that
+one is actually updating the global scope logic so here when we refer again to refer this dd we
+have still global scope itself which is a lexical scope it prints one then again here it's still
+we are having one so is this clear guys why one and one people who gave me thumbs down for one
+and twenty muneshwara pramod abhinav okay i got two thumb two thumbs up uh abhinav
+did you got this point
+okay cool now once this is clear let's go for another example
+uh i'm not able to scroll system hanged or what okay i'll remove the debuggers
+let's say i go for 13 example in this example number 13 let's say i
+make something i build some function let's say i have a function called parent
+let's say i also have a declared a variable called a equal to 20 then also think like i
+have a child function in it what i'm trying to do is i'm trying to do a console dot log here of a
+and i execute child here
+here plus i execute parent outside here
+okay so what do you think the output should be here for this a
+what will a point do
+uh 20 guys do you agree with 20
+uh no one is acting anything no one is saying anything uh abhinav says no dira says 20
+muneshwara says 20 so abhinav what what you're you're saying undefined right okay uh
+rajini is saying 20 so firstly uh let's say what uh can you say lexical environment lexical
+scope for this one what could be lexical scope for this one current scope plus parent scope
+so
+it reaches global scope
+okay
+let's i cut this from here
+here
+i cut it i paste it here
+i hope you got the point like what is lexical scope here if you see
+in my current scope do i have a in my current scope do i have a when i'm executing this child
+do i have in my current scope does value a is available variable a is available no but when i
+go and see it in my parent does a is available in my parent does a is available so i'll be should be
+able to print 20 here isn't it once it is available it shouldn't be undefined or not defined anything
+anything right let's see this let's see this if we are getting this output
+if you see i'm getting a 20 output uh do i need to debug and show is show this guys because
+this is pretty straightforward example isn't it just now we understood lexical scope using
+two examples i hope abhinav you your doubt is also resolved did you get this point
+okay great now then there is another interesting question guys
+question number 14 from now on it would be much trickier i would give enough time
+for you to think of it okay so just understand complete question guys before you know answering
+anything
+let's say i have a parent i have a var so wherever you see a var you have to think
+slowly okay if later in const it's pretty straightforward i have child
+inside child i'll try to console dot log a again i have function child two inside it
+inside child two i console dot log a okay now here i try to call
+let's say i don't call child to here but i call child to here
+and i try to execute parent one what do you think my output should be
+for this one
+a and this one b ashi says error how many of you think it should be returning an error
+abhinav says here any reason guys why do you say that it should be an error
+okay muneeshwara says 20 and not defined
+because we call child to after child right so firstly this should be resulting an error guys
+if you think why is that i don't if i collapse this one i don't have child to execute anywhere
+here first in the scope okay parent is available by default to the child but child elements are
+not available to parent it's a children child child who is inside a child if we execute child
+here then we might get some output but other cases i should be getting an error is this clear
+why this should be actually coming out returning an error let's see if this is happening it
+if you see child two is not defined but if i convert this into child one
+if i convert this into child let's say what should be my output
+what should be my output still only 20
+okay do you think b should be printing or b shouldn't be throwing an error itself
+we are not even executing this function guys so b won't be outputting anything isn't it only 20
+i hope that is making sense because we are not executing this part
+only if i call this one then the both the outputs will be 20 and 20
+isn't it when i execute all the things it will go for the pair
+its whole lexical scope in the lexical scope the value of a is equal into 20
+and then i'll be able to print 20 and 20 okay with one example i try to replicate three scenarios
+because here comes a new question
+okay let's say
+a function i call it as parent two
+inside this parent function i have again where a equal to 20
+inside this function where let's say i have a child inside this channel i'll try to console.log
+a after console.logging a i'll try to build a child to inside this child too i'll try to console.log
+a okay but but when i'm trying to console.log child to here i initialized where a equal
+to 10 and i call child to then i executed child here and i called parent to here
+what do you think output should be for a and b
+ashish says 10 and 20
+20 and 10 corrected yourself very fast
+guys take your time i need few of answers zeerat says 10 and 10 yeah ashish take your time take
+your time muneshwara says 20 and 10
+if you go from lexical scoping point of you right like think one function is created then
+there is a another execution context created it has a own scope and its parent scope
+divide it that way if a value is available in current scope it don't it won't even reach out
+to the parent scope only if not available then it will go up
+frankly frankly if i would say i didn't receive a right answer yet
+anyone no one has given me right answer
+no one has given me right answer all the combinations were wrong just think of it
+guys where things are going to just imagine from execution context point of view hoisting point
+of view because here i have told you that there is a one person sitting that person is like you
+know the var keyword really create a tabl
+can anyone think of it if not i will talk about it
+okay let's let's go step by step guys let's go step by step this function is there
+okay this function is there this will not be called unless this line is executed isn't it
+this function once we call this function this line will be executed this whole function once
+we go inside this function i see that it it has a memory certain memory coming from the global
+scope and its current scope in the current scope value a 20 is available and the child function
+is you know declared initialized but not yet executed called then i'm calling it here
+once i'm calling it i am going inside it here then i see a separate execution context for
+each function as it is created i see there is a var is available when i see a variable with var
+that is hoisted when it is hoisted what is our default value assigned to the value which is hoisted
+default value muneshwara this line is not yet executed we are still here at the line
+execution of 124 it would be undefined right guys are you able to relate like
+this value is actually it's it's in its current scope they say it's it's made this block it's in
+current scope in that scope a new value is created whenever we saw we just saw that on above
+simple examples var examples that always get var get hoisted and initial value is undefined
+so what should be the value of a here what should be the value of a here
+undefined right okay guys is this clear to everyone why we are getting undefined here first
+everyone is there anyone who didn't understand this point
+is there anyone who didn't understand this point rechecking with you all
+guys is there anyone who didn't understand this point
+okay i'll take it as no then once this is executed this line will be executed then in our local scope
+in this current scope of child value is updated a equal to 10 then child two is called once this
+is called i'm trying to execute it here in the current scope it doesn't have so it will go to
+its parent scope which is of child scope what is the value of value of a child scope
+it is 10 so the value should be undefined and 10
+so are you able to relate this guys
+this might of questions might be asked in your contest you see undefined and 10 is coming out
+okay do you want another further questions on this like i can create more complicated questions
+want to practice more
+because i just introduce only var variables what if i combine with let
+right it will create my further confusion
+there can be multiple uh you know if i take one more example just think of this thing i have two
+questions left with me which i prepared it so that you will be all uh clear with the concepts
+now if you see this example guys see this example take your time take the amount of time that you
+need i am here if you need one hour also that's fine we will understand this one and leave it
+because uh this place are tricky where we people fail to understand things how execution context
+lexical scoping hoisting three things are working together it builds so much amount of knowledge
+over the classes that we are able to at least relate them things will come with practice but
+able to at least relate them things will come with practice but just think of it what could
+be an expected answer for this one go step by step
+how i it happened with me when i was learning concepts but i that's the reason why i'm putting
+all the examples in one file so that you go through it you revise once in a short
+huh execution context hoisting and uh you know uh lexical scope everything is one short may
+a key file may everything will be clear all the concepts so just think of this guys what
+will be the output for a and b and c part
+so
+okay uh ashi says 20 then he says undefined right then he says 10
+okay
+okay then he says 10
+okay then 20
+as you had two answers promotes answer and ashi's answer
+uh anyone else who's trying out figuring out answer for this one
+let's let's solve this case let's solve this let's figure out now muneshwara says undefined
+10 and 20 okay no no worries case let's let's break down again step by step
+let's break down step by step i called parent three he called parent three uh in its scope
+uh in its scope value is there child function is declared and called once i'm going inside
+this child function i see a console log a but before it start executing we know that memory
+execution phase happens and uh it checks if there is any new variables and functions are declared
+we see that it is uh child who is declared it will be hoisted but there is no other extra
+variables are uh you know declared so directly it it sees that okay value a variable a is not
+available in current scope it will go and check for the parent scope it says that hey in parent
+scope 20 is available so from the lexical scope of parent it will get 20 okay then i see that hey
+i am updating value of a equal to 10 now this value of 10 should be actually updated here
+which is parent scope because a variable is declared in the parent scope isn't it till here
+it's clear guys till here it's clear what just happened where how we updated 20 equal to 10
+then we went on to call a child function inside child once a separate execution context is created
+memory uh creation phase happens and function variables are hoisted now i see that hey where
+a is hoisted and set to undefined now i'm trying to access a which is undefined not yet
+dick uh initialized isn't it so i get here undefined
+now how i'm able to solve how i'm able to solve is i'm actually trying to read it through step
+by step it will help you whenever you are attempting this because it's on my screen on
+my laptop i'm able to drop close the functions and read it through but whenever you get these
+use cases read it through one by one separate execution context hoisting memory execution then
+code execution okay now once child two is closed now i come back i this part is done then this part
+is done then i try to access console log of a if this value is already updated by 10
+so i'll get 20 undefined and 10
+is this clear guys
+dhiraj you just called it out 20 undefined and 20 okay now let's see this if if my answer is right
+okay you see 20 undefined and 10 okay great guys people who are able to guess it kudos to them
+one final example uh okay for this part
+let's say the question number 17
+this question
+here comes a combination with let guys
+now you not not even need to think from perspective of execution context memory
+creation you want to have to think in terms of scopes
+context memory creation you want to have to think in terms of scopes
+okay i have four outputs now in this this is further actually complicated one
+but i hope a few people at least get it right
+or even out of four options if you get a good amount of things right that's also cool
+okay
+oh just one change
+one change other things are right
+think of it again
+why did you call an undefined check undefined that firstly
+if a variable is not available in local context it checks parents lexical scope what if I'm
+updating some parent value now updating a parent value it's logical right I can do it or if I'm
+trying to print it I should be able to get it from a parent and Ashish for you you have
+to check the last one anyone else trying it guys anyone else trying it right so I got
+one right answer but let's explore this guys again step by step firstly going back executing
+this one to cross checking if you see it's triple 10 and 20 firstly Pramod has answered right Pramod
+has sent me personally kudos Pramod but we'll come back to this one okay we'll see why this
+has actually worked and why not okay I'll minimize everything firstly parent fold 4 is
+called variable a 20 is initialized I go inside the child here I see when I host things nothing
+is with aware so I have to read it as it is later equal to 10 I got a console log of a I
+print 10 here okay then I went into the child too okay and I seen console log of a okay I
+don't have a value available here a well is not available so I'll update it value I mean I'll
+get it from a parent scope lexical scope which is this one then then I'm updating a equal to
+30 now let's say a equal to 30 which value will be should be actually updated this one of this
+one Ashish when I do this a equal to 30 here at line number 160 immediate parent right which
+is this one you know now if it is so if it is so let's see this let's see if I am updating
+this immediate parent and I come out of that one here I should be getting an output as output
+should be 30 here right if the immediate parent is outputted immediate parent is updated actually
+then if I come out if I come out by default firstly here it should be 20 itself but now
+let's see what actually happened here what actually happened here okay what why this a
+equal to 30 didn't apply when I updated I mean executed the same piece of code okay I'll show
+you guys here in the debugger mode I'll copy that that's the reason why when I told that I'll
+introduce later in const it will change a bit okay this is the expected thing but the output
+surprising was 10 here printing before calling child to hmm right yeah sorry pardon me yeah
+it was called before thanks Munesh for a pointed out so did you guys see this that I even got
+confused but the child was called later on and it updated this let later then we got 11 and 20
+but kudos to promote promote got it right and there's one more example guys last one example
+then we'll end the session today we'll come to will introduce closures in the next class
+just think of this thing guys I have again four things there's a one change that I have done it
+here I think I asked his answer you can actually copy paste your answer I guess think of it
+right this is the answer that we were expecting earlier but it was here at 10
+but only the changing the way we called got changed so it should be 10 again 10 here since
+it got updated we should be value should be updated as 30 then this is actually getting
+from the large parent scope complete scope so it should be 20 I hope this is clear to everyone
+guys I hope you got you had fun thinking about execution context harvesting concept mixing them
+I prefer question yeah got it even I didn't think at that moment even I got confused but
+it's okay once you go through step by step and read it properly guys you'll be able to figure
+but guys had you had fun revising this concepts how was it it was good like going through this
+questions and refreshing all the things that concepts that we have gone through and explored
+it so next class next class mostly will be based on this knowledge where you have to have a
+understanding on scopes understanding on hoisting with respect to where keywords and let and const
+and how this lexically you know we are able to access the parent variables once those things
+are clear we'll start something called as a closure if I say what is enclosure if it would
+be like 90% we have already covered only some part of his remaining which I'll cover it in
+next class I don't want to push it further today because we have covered good amount of
+content today okay so we have one major topic two things once one thing I'll prefer to help you
+out learn it like one I want to teach you guys is something called as currying functions function
+currying this is which is again of curriculum I'll try to put it in same set of examples where
+we have it then you will have this one closures will spend one class completely on closures okay
+these two topics will cover in next class then we'll have one final class where I'll try to
+spend one hour on the content then I'll give you enough amount of time to revise go through
+the whole notes of get up what we have learned it if you have doubts I'd be it will be like a long
+session where I can be you can we can sit together discuss any topic related to JS from execution
+context to event loop all synchronous asynchronous codes event handling the projects we have discussed
+all the array methods polyfills too much of content was covered guys I know it is really
+huge but I'll be here where we can spend one hour of time going through all the notes and
+figuring out everything trying to see remember all the things right on the next Thursday class
+but before that I just want you to go through these examples and come back we'll spend some
+good amount of time understanding closures because that's also one of the concept which
+is beautiful concepts one of the beautiful concept I would say that where people struggle to
+understand it okay this is the reason why I've took more than around 18 19 20 examples breaking
+down one example into multiple parts to understand and you know make yourself pressed up with these
+things and then we'll go to that topic okay guys so with this I'll start the doubt session guys I'll
+push the code if you have any doubts we can still hang in around if it is related to call
+bind apply polyfills or anything I'll still sit here and we can discuss further okay I'm
+going to start the doubt session okay let me push the code sorry
+so we have you know catered 30 classes for building all the basics of HTML CSS and JS
+where it is an intense amount of knowledge I completely agree that to carry on all the
+things one so if someone is starting from beginner but I hope you got to learn this
+one thank you Ashish okay so revise those projects revise those all the events how do
+you handle events and everything right because what I'm worried much about is that from my
+previous experience people struggle whenever I talk about this one right mock interviews
+they they try to think like what topic should I prepare well what topic shouldn't I prepare
+well so if you see that asynchronous JS we have covered it much in detail and that will
+be much more focused from the mock interview perspective like what are promises what is
+async await how you make a series calls how we make parallel calls how we make an API call how
+things works in event loop what is an execution context how things are actually passed why var
+variable is such a thing why we all the developers hate it right too many things going on but I try
+to make it as easy as much possible for you to understand it and ready open forum in order to
+like if you have it any questions happy to be here and discuss it right anything you have it do
+let me know guys open for understanding and discussing it I'll wait for two three minutes
+in case you have doubts or else will close the session most of the I mean things right all these
+things that we are learning are like for our basic building blocks for our react because if
+you go in today's era this all things will help you to build your basics and clear interviews per
+se but this understanding this one will make your journey of learning react will be further easy
+so this is for from interview perspective this is important but few people I know is that someone
+have started journey in reverse they pick it up what is more important in industry react let's
+start learning react and from there they come back to HTML, CSS and JS but the way we are learning
+it's I believe this curriculum is really designed in a way that we cover whole topics and you know
+sit together I my idea is that since I'm covering beginner there are people who don't even know
+anything for them it is difficult at one shot to get it everything so I ask them like it's a six
+month journey where I'll cover the whole web try to put in hours where we'll cover the whole web
+part and you'll completely love it and remember that that I've shared you a block yeah I've shared
+you a block where how things run behind the scenes combining HTML, CSS, JS hope you go
+through it read through it and in case you have anything doubt with that we are I'm here you can
+ping me in whatsapp chat I'll do that but let's let's read it through let's build that knowledge
+and when you face when you get a call interview call right we shouldn't be like that I don't know
+this or don't understand or not confident on that I'm trying to give my all of us you should
+be getting from your efforts guys so Muneshwar I hope you are learning lot you are getting concepts
+cleared like all things I've seen you one of the consistent person who attends classes okay so I
+hope your PSP percentages are also high and you've been maintaining things right so keep
+doing that guys keep your PSPs high and keep learning things yeah sure sure Ashish like
+there are too many people who help help can help us and even like you know you have a big
+community the main advantage of scaler is the community you have many people in your batch
+itself are experienced professional you being fresher they many people can refer you like you
+pick you talk to 10 20 people 10 20 people are working in different talks if you are confident
+with your knowledge reach out them if even 10 people refer you even if you get three calls
+convert one out of three so 20 odd people reach out 10 people referral three calls convert one
+the job is set if not scalar placements are anyways there if you keep your PSPs and everything
+and with that thank you Ashish with this I'll end the session guys I don't say doubts it's
+me continuously speaking so hope you have a great weekend and learning time again a special
+request is just go through it go through the things I'll update this readme file which class
+is covering which concepts I've written till class 20 I have to cover eight classes content
+which will I'll update it just now and then I'll push it so that you can see a topic and go to
+that particular class and read it through okay so guys then with that good night take
+care see you on Tuesday good night guys bye bye

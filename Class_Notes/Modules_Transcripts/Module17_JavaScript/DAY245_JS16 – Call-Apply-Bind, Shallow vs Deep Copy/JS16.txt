@@ -1,0 +1,1122 @@
+you
+hi all good evening guys give me a thumbs up if I'm audible and wish
+people great let me share my screen do let me know if you can see the screen
+share also will get started at 9 or 10 let's say I have eight minutes time okay
+so guys who were there in class how's your contest had gone is everyone
+attempted it I see one thumbs up it was good and able to clear cook a great
+mission it's not good for me I've enough anything specific like any challenges
+you faced or did you attempt and practice mode again have doubt on two
+questions Kabir okay great we'll discuss them but I've you know what's your
+challenge did you attempt and practice mode again so guys whoever have
+attempted that's great you know we can pick it up in doubt session
+MCQs only and all topics are covered in class yeah hopefully but if few people
+okay while selecting MCQs that's fine but you can go back into practice mode
+and you can reconfirm Abhinav whether the answers were right or what's the
+point of you know giving equation that way so I would highly suggest you to go
+back into the practice mode and just see them again whichever you were not able
+to attempt it and see if you are able to clear because it will take hardly 20 to
+30 minutes or I guess not more than that right so I saw other people a few
+questions had more than one answer does anyone feel same okay how many of you
+order Kiran says I see one thumbs up okay I actually didn't see the questions
+maybe if I have seen I could have comment more on that but but overall
+experience was good enough right did you feel those questions were like or the
+topics that we have already covered
+yeah so Muneshwara says that a session on MCQ test that I have to see I will
+check with the team and get back on that Abhinav like because I need timeline and
+you know to I'll check on that and I'll let you know if I can pick it up a
+session okay yeah okay so and how's your weekend had gone guys so how's
+everything going at your workplaces and how's everyone doing so one messing up
+topic in my head I shouldn't actually talk about it
+marriages say some bit hectic I know so how many of you are following a
+project where elections is happening I don't talk more on that but just want to
+know how many of you are curious hectic schedule for me to going to office okay
+I get that curious on what like how many of you are following up on projects of
+election like what's going on in there in today and tomorrow do you feel it
+same like what the prediction like BJP is sweeping again everywhere there's too
+much things going on anyways that's out of topic thing so anyone going through
+interviews guys any experiences you want to share if anyone is trying to
+interview at different workplaces because I've seen right no no we have an
+option some bit we always have an option because I mean I don't as it in
+light I don't want to share my opinions on public platform but we do have an
+option always regional specific like when you come to my state we had to we
+picked it up so that that's okay anyways like it's it's one perception once
+understanding right no worries guys don't want to go into that depth but
+there's any any reviews any feedbacks related to anyone appearing any you know
+interviews or taking up waiting to complete react up left okay great some
+cover that most probably next month we are going to start and nine eighty
+percent of thing I'll be completing in next month itself so but one thing guys
+please take care of it so that whenever we are completing any topic I've given
+you a few links right to where to study from things related to JS try to read
+the content from that try to cover all the topics that we were discussing so
+that you know we are on page okay okay great so guys can anyone drop in what's
+people today I'll drop myself let's see
+and
+it's summer everywhere right to like you know completely dry in our in my state
+this my place the wind is blowing you feel hands getting dried skin is getting
+dried here yeah I will be taking up react cover so we'll be getting started
+with react next year's projects I'll be covering all of them so hopefully I'll
+be delivering the content that up to a standard that you're expecting it okay
+okay this I didn't know for the last one minute you get a like red border box
+shadow border so guys anyone anyone working on building projects anyone
+tried it out new thing or anyone curiosity of like seeing any application
+or anything how they might have built something in anything that you see
+around any website anything we can discuss over that thing if you feel
+something curious about any particular thing let's discuss that thing also okay
+so I'll stop this I'm trying hopefully we can see some okay great magnetic
+mouse pointer interesting I don't really know that thing open drop maybe
+once you share some URL when you deploy maybe we'll explore that but looking
+forward to it
+okay just a minute place you can drop me a ping some bit then we can maybe
+connect because I have to manage my time right so once please check with me
+before directly picking me up you can bring me anytime it's just that I had I
+will check off from my side and we'll let you because if you have heard it we
+just have gone through live offset PayPal and that too many things going at
+work at my workplace too so still you know the we are hiring leadership
+continuously our new CU is hiring leadership so the things changing very
+frequently inside so we are also a bit confused whom to report whom to change
+my report my manager got changed twice so we are still in bit of mess I'm not
+sure how things are but just bring me up I'll try to find time and connect with
+you okay so guys can we get started with today's class we are on time great so
+just just trying to you know revise the content what we have covered till now if
+you if you remember when we started with oops firstly we have covered
+constructor function and we covered this keyword in all the context different
+context and once we cover this then we went on to understand you know class
+space syntaxes for the constructor function and also classical inheritance
+we can say this where you extend a particular class and we we have seen
+that and we have also converted a class into a function and you know the
+functions into prototypes and I have left with one question to you all like
+how do you handle static keyword inside a class convert into the functions in
+function use case like constructor function use because did anyone able to
+explore this one they didn't even get any chance to explore this one like
+declaring whatever static methods are there inside a class let's say you have
+a class a or you have a static test we had the syntax we know that if we want
+to convert this into this we can talk about function a and then how do we
+handle this like do you go a dot prototype dot test equal to something
+how do you declare it have anyone got chance to explore this part related to
+static try to check on this guys if you haven't done it okay no no worries not a
+big deal because it's I don't want to say it that way but not that important
+okay but try to explore that like how this has been built actually because
+those are the features been provided from the constructor function level just
+try to explore that now the last topics from the object render programming are
+left us like few higher-order functions that we should be knowing it so if you
+remember the higher-order functions that were declared you know studied on array
+where like filter map you know and reduce similarly we have here the other
+higher-order functions like call apply wine and so what is the definition of
+higher-order function base how many of you remember what is this HF HF what we
+call it as higher-order function
+anyone remembers this one okay it's a function which takes in a function or
+returns a function from it right yeah right so we have actually generally we
+have to declare read three methods this particular functions we have to
+understand then other than this single we'll again talk about something called
+as pass by value versus pass by reference this thing I think I have
+already covered it but I'll give you a glimpse of it again then I'll talk
+about like you know shallow copy like versus deep copy how can you make a
+shallow copy versus a deep copy so we'll talk on these two things other than
+this thing there's a one extra thing that I want to talk about is like this
+might I might cover in doubt session but if you're interested you can stay back
+and listen it like I'll actually implement this this function library
+function call in normal like if someone asked you to implement call how would
+you do that so we generally say write a polyfill for call so I'll cover that
+part if we want to cover in the class itself we cover or we'll take it up in
+a drought session okay guys so is the agenda part here what if what we are
+going to cover this is the part today what we are going to cover it okay let's
+get started with that then okay let's go back to directly visual studio code
+okay I don't have yes code
+let me create a new class class 23
+and let's do one thing let's create something file callers index.js now so
+let's start this focus on this thing let's say I build one object called
+student okay a simple object again taking taking that same generic object
+like where it has a first name and last name let's say I pick it up a first name
+as an Adam and last name as Smith and let's say age of this particular person
+is 25 and let's say there's a function called get email which returns instead
+of returning it let's say we are trying to console dot log where what we are
+trying to console log is let's say simply this dot first name and last name
+and now let's say if I execute this way get email what should be my output guys
+what should be my output if I execute this way this is straight forward we have
+done this multiple times so if I'm calling that function add up Smith
+right let's say if I execute this one to show you guys that this is the same
+thing that as you expect note index.js I'm getting that Adam Adam Smith that's
+working fine but now let's say if I create another object called student
+then you have teacher let's say there will be a teacher then he will be having
+some name let's say the first name of the teacher could be let's say we call
+Rohit let's rename teacher as a Rohit Sharma okay and age could be around 37
+again let's say I have his get email function so I'm trying to do a function
+call again I'm going to do a console dot log
+let's say again I execute this one teacher dot get human so still even now
+we are expecting rohy Sharma to be printed right so you agreeing with my
+point first like rohy Sharma something would need to go printed the console
+but let's see what is our problem statement here okay when all these
+issues comes in like do you see any common code here common code like
+anything in this or everything is common do you see this get email function get
+email function like this function is actually same right right so imagine if
+this function is taking thousand lines of code thousand lines of code would
+you define it this way that a teacher object will have a get email function
+again student object will have a again in thousands of lines of code do you
+feel this is the right way of writing logics we need to extract that get email
+get email out of this thing now let's say what if I try to extract this get
+email outside okay let's I get email function so that I want to reuse it what
+I'll do here it's like I'll clear let me copy that and paste that function
+completely okay what I did I just created that function and now let's say
+if I point this get email let's say I call this as this this way and let's say
+I point this thing this way and point this one this way okay how many of you
+still agree it's still thing that our output will be still same that we still
+should get Adam Smith and Rohit Sharma okay let's see two people agreeing if
+anyone there's a disagreeing let me know if everyone is agreeing let's see let's
+see this if it is working as expected I see one thumbs down but let's review
+this one let's say I execute this one now what just happened this what just
+happened did I save this clear it okay now I pulled I pulled this get email
+function outside and I have added it here it's still working as expected
+right it's still working as expected that I'm point taking that reference but
+now just let's let me try to you know link this with one of the file index
+start HTML just to see that if it is in browser environment also behaving same
+let's say I call it as call apply wine
+now let's start me with script SRC
+now let me go back into the browser let me paste this and let me open inspect
+tool for seeing the console locks now refreshing this one now let's say if I
+go back so now do you see this like firstly that I'm having this email
+inside this so whenever I'm trying to get the function here I'm actually
+getting that whole function and this is being working as expected so this
+whatever we think that you know our problem statement would be that is
+being solved isn't it like generally so what what was the problem statement that
+what if I want to like let's say there's a code now which I pull it outside and I
+keep it commonly here then I can reuse it for everything instead of writing
+multiple times but what if there wasn't a use case what if there wasn't a use
+case let's say I create another two functions let's say const student one
+okay again trying to copy the same thing okay now let's say instead of creating a
+common function outside I have a function here and let's say I have a
+teacher and it's I make it teacher one and that's I don't have this function
+so what if like if we can use this function somehow like now if you see
+earlier what we have done we have pulled out a function outside and we made it to
+work like so we removed the duplication of code following the type type
+principle that's all great can we write
+yeah okay so I'll come to that I'll come to that I'll come to that Kiran but
+let's focus on this like let's take this example second thing now if you see it
+here what I just did it is that I created another object called student
+one inside that there is a get email function and teacher want to use this
+function somehow which is present inside the object can can we do this also
+somehow like what if we can call this one like anyone having any ideas so Kiran
+says proto now so you are saying that something let's say I say that teacher
+one dot prototype okay equal to student one is it this is what you're trying to
+suggest Kiran okay is there any other way is there any other way now so first for
+let's see like can I can I do it something this way that it's a call
+student one dot get email and I can I can pass something the values of this
+one let's say if I can pass values of first name and last name of teachers
+object you assume okay huh super no ways exactly think of this one that how
+we can actually pass the object because if you see when I'm making a student one
+dot get email now you know that the this pointer is actually referring to this
+Adam Smith I need 25 right that point is clear from our earlier classes but now
+here if I want to borrow here function let's say if I want to borrow function
+from different object and execute it now when I want to borrow and I want to
+change the context where this is referring to is this point clear like I
+want to change this referring to inside student one right so is there any way
+that you can think of like how we can do that so one of the way what Kiran
+suggested is like you can use a prototype and you can leverage that but
+that's fine but is there any other way that you can think of now here's where
+guys here's in those cases itself where this all these functions comes now what
+this problem what these things are solving if I say let's say call bind
+apply all are solving same problem in different ways now what problems are
+actually solving is that if you want to change the context of this keyword
+a particular function is
+is referring to then we can use call apply by okay so I hope you got the
+stuff what actually we are about going to do is that if you want to change
+like what this get email is referring right because if I want to borrow this
+function and I want to make this teacher object actually this Rohit Sharma to be
+passed inside this then I have to do something leveraging these things okay
+now the another thing that I can show you here is that let's say what happens
+when I instead of now let's say if you see I have get email object now let's
+say if I remove this one okay I remove this one now earlier this was working
+fine if I remove it and I call directly get email function do you still think
+that the output will be still same like as earlier like wherever when you are
+getting Adam Smith and Rohit Sharma if I directly refer to this function so I see
+two people are saying still yes so let's see this guys once verifying this now do
+you see this that it says that you know get email function is not an object
+because firstly we are calling that function on this object object doesn't
+have this function you are surely that you cannot call it but how can you
+leverage this until unless you don't have a key value pair inside this let's
+say whenever you have only key value pair pointing to inside a function only
+then you will be able to call right so one of the way of solving this problem
+earlier was like wherever code duplications happens and all the
+context inside this is referring with this keyword is always trying to pull
+out a function and writing a generic function again still appending that
+instead of duplicating again still attaching the reference to it one way
+the other way around is using this keyword stack call this apply now what
+call apply and this does it is that it keeps you ability to change the context
+of particular function now let's say how we can change the context of this one
+what I'll do is that let's say now if you see I cannot pass here the teacher's
+object first so let's say what we can do it is that on student let's say if I go
+on the student and get email function on every function you will be able to see
+call apply bind will be available let's say okay now every time on every
+function that you see in JS you will be able to see call apply bind now what
+they are solving if you see here they are solving the same problem that is
+what I say in first statement in second statement what are trying to say is that
+let me make it as a multi-line comment here so that we are able to refer this
+one right away let's say this is the line one and let's say this is line two
+okay now so firstly what we are saying is that this all are solving the same
+problem but and what problem they are solving if you want to change the
+context of this keyword okay in a particular function okay this is
+referring to then we can use call bind apply now what I'm doing it is like
+let's say student dot get email in the student dot get email function if you
+see this is always referring to these two keywords but I want to change such a
+way that it refers to Roy Sharma what I'll do is that I should pass the object
+first okay if you see the first parameter it takes something is called
+as this function now let's say if I pass a teacher teacher one this will still
+execute in a same way let me try to you know comment this logic clear this
+clear this re-execute this so one thing I'll do it is that I'll comment
+everything on the top so that you get complete just of it now so guys are you
+able to see this like what just happened firstly is that I call something like
+student dot get email we know that when we learned you know in the first class
+where we are learning this it should have been referring to Adam Smith but it got
+changed to teacher when we used this call function okay how many of you are
+able to understand problem statement and solution give me thumbs down if you're
+not able to follow up guys I'll write try to show you in the debugging format
+this is changing now the function of this call is just doing changing where
+to what this is referring to okay okay I'll anyways explain this again let's
+say we don't have this function itself let's say we don't let's say we don't
+have this function itself let's say if I go to this use case the other example
+okay now in when I execute this get email function what what could be the
+value of this case simply if I call this function get email function and if I
+try to do console log of this what should be expected in non-strict
+environment let's say I'm executing in the browser you would be getting a
+window object isn't it window object how many of you agree with this point
+that you will be getting let's say if I try to console log firstly let's say
+console dot log this year okay and I try to call this function first let's say
+get email function okay and if I go back into the browser where is the browser
+okay now if you see I'm printing that window object that is coming from index
+to now what call will solve this now call will say that hey don't refer to
+the window refer to the object whichever I'm sending it are you able to relate
+with this point guys firstly did you understand that our default function
+whenever we execute in non-strict environment we get window object is
+there is anyone still who don't understand this point guys get give me
+some reaction so that I'm able to follow up okay so now what I'll do it here let's
+say if I want to execute this function changing the context of this let's say
+now it's printing window object and I'm getting undefined keys right if you see
+I'm getting window and undefined undefined because there's nothing like
+first name and last name existing inside this now let's say if I do get email
+function now as I said you on this function by default you will have all
+these methods call blind apply now just taking this and passing the student
+object on in it when I do this it will change the context from this referring
+to window object to this object so we are changing what this is pointing to
+okay let's see if this is working fine if you see here when I changed it the
+particular thing which was pointing to window object got changed to the object
+that we mentioned and it printed Adam Smith so I able to relate what call is
+actually solving so let me show you in pictographical way also which will give
+you better idea further so let's say in a function there's a function and you
+are trying to use this keyword anywhere and this keyword we know that it can be
+either window or an object undefined or empty string or global right these are
+the things that we know it but what if any time if they are referring to this
+least of least of things at a dynamic way if you want to change this
+particular thing whatever it is pointing to then we can say that whatever let's
+say this is a function a I can say that a dot call and I can pass the object
+that I want once I point object passes object this will be always referring to
+this object instead of this one whatever generic thing we learned is this clear
+what actually call is doing just changing the context remember that it is
+just changing the context where this is pointing to anyone having any doubt now
+is anyone having any doubt again I'm rechecking with you guys I hope no one
+no let's say when I say that you know all these things are doing still
+solving the same problem why we need firstly three methods isn't it now let's
+say we add on we keep on add few few more things like okay methods now let's
+say if we have this we have the student is and everything let's say I build some
+function where also I try to print the other things let's say student also
+studies let's say I have something like common cities it's a common items let's
+I have an array where say is in Hyderabad and we can say that so city
+Montessori and he likes to play cricket okay once we have this yeah so it is
+just changing the context but if as you mention it it's it's right thing like it
+is changing the object what it is referring to we are changing the object
+value whatever this is referring to inside a function using a call okay so
+that helps us in order to you know dynamically play around with anything
+that we want now let's say that we have the other things guys now what I'll do
+is that I'll change this function I'll build another function called get info
+and I'll call this function and we try to build the whole let's say information
+about this particular student so yesterday's
+let's say I have school let's say receive here school city and favorite
+sport okay right
+no so what I just stated here is that I created a function now just like I try
+to break let me try to break this line into two lines firstly there are few
+parameters I'm getting from the this object and then I'm trying to get the
+other things from the you know functional parameters now if we want to
+if we want to let's say if we are clear that okay we can change the context of
+this we are calling this function now how can we pass this parameters can we
+pass it this way like we call this array and we pass an array and you know this
+problem is solved or we have to pass it such a way that I have to give it all
+things one by one right because a function might not like oh you know have
+everything with related to this keyword like this dot first name it might not be
+getting everything from the object there might be some use cases like it
+might be getting some constant values right let's say we are grouping a list
+of people who are having common first name and last name but I mean first time
+and last time are different whereas school cities port are same thing like
+they what they likes to play so if you want to build up that category this
+reusable function where you whatever object you pass from the student
+information they'll have it but school and city information is common so that
+we can pass the same values into a function like we know not to maintain in
+terms of object let's say we have an array built is this clear guys like what
+I'm trying to do here firstly so what I'm trying to say is that how we will be
+able to actually you know call this particular things how we can pass on
+here using the call method now this the way of writing syntax currently
+whatever I have written is completely wrong because if you see here we are
+passing this information that's all great that's all great that whatever you
+are expecting inside the get email function okay it's not getting well
+anymore it's get info let's say I call this get info okay let me clear this and
+execute this one if you see still whenever I'm passing it this way and I'm
+trying to call it it doesn't execute it as we expected okay because the call
+actually the call function whichever is part of this you know we are calling on
+get info it's part of its prototype okay the way we can call this one is you need
+not to call it directly inside the caller function itself it takes multiple
+parameters other than this keyword now let's say if I hover over this do you
+see that it talks about this arc array arc you very can pass all the items one
+by one now let's say how we can do this let's say if I have this I say that
+array dot zero or array dot one or array dot two okay when we do this now let's
+say again I clear this part I execute it now do you see this Adam Smith studies
+in Hyderabad at City Montessori school and likes to play cricket okay this is
+what we are able to print hope the this whatever example I've picked it up I was
+just trying to show you that if you have let's say use case of passing extra
+parameters into a function which are common and there might be an objects
+like teacher a student everything will be different but there might be few
+fields which are common across for the common across we have an object which
+will I did and added its information but there are some common fields that will
+we'll pass it as a constants is this clear guys how this thing works how we
+are able to pass extra parameters in case if you want to using call now now
+let's say this this is about call guys this is about call that what call does
+now let me show you one of the example what bind us can use a spread operator
+surely Kiran we can use that I'll talk about that one okay I'll talk about
+that one how we can how you can use a spread operator or anything here
+firstly if you use this spread operator let's say array do you see this still it
+works okay it works with with the spread operator also now what bind us there is
+a small difference in call and wine if I still let's take or bind this function
+let's say I try to get email fn function and I say that bind bind with student
+what I'm trying to do here same as call earlier example whatever we have taken
+we we still took that same example like I picked up this object and I picked up
+this method I'm changing the what this is pointing to and I'm trying to call
+with the student let's say if I save this I'm still try to execute it if you
+see I'm able to print Rohit Sharma still right from mind do you see this like
+Scholar bind is still doing that same problem solving like they're still
+changing the context where this is pointing to now let me okay in browser
+I'll show it
+let's say I refresh this once we go inside this sorry not bind guys I was
+talking about apply give me a second now if you see this once I send apply it is
+still changing that same thing and it's trying to print the content yeah if you
+see this it's Adam and Adam Smith when is for a do you get this like not
+Rosham Rosham is coming from below I'll try to comment that part let me go down
+I'll comment this line okay so guys what I did here is that I was talking about
+bind I'll talk about in sometime later but now I introduced you new method
+like in from the call apply wine I picked it up apply now do you see this
+call and apply works in the same way if you see like I've tried to call that
+particular apply and I'm past the object of student and I'm trying to print it is
+printing that this whatever this is pointing to it got changed then Adam
+Smith is something it is printing so still both are doing the same thing then
+you might be thinking like a why we need both of these things right what what's a
+use case of using call and apply together isn't it so the problem here
+what apply is doing is with respect to the extra parameters how we are passing
+now let's say if this have let's say if this is having extra 10 parameters okay
+if you see this extra parameters we know that these are empty parameters and we
+don't really need to you know use them but whereas in call if you see earlier
+this spread operator is actually spreading each and every particular part
+of an array but how that call takes is that individual elements okay it takes
+individual elements but what apply does it takes whole array as an input it
+takes array of array of elements whereas this takes individual parameters okay now
+let's try to execute this one and verify if you see it still works it still works
+right where what do you have what we have got here Adam Smith studies in this
+college then we have got still okay let me try to print it using apply
+clearing this
+now do you see this using call and apply we are still able to print that same
+statements but are you able to get the gist of it like one thing is allowing
+us to add a complete array and one thing is allowing us to add individual
+elements and what apply does it right it picks from the starting index let's
+say now if I try to pull it up this way I'll show the difference where things
+goes wrong I had it this three elements and let's say as we were doing earlier
+we were using a spread operator now let's say if I spread it okay now still
+it behaves in same way right so what what's the main thing main goal of this
+one is that one thing accepts individual parameter wise like whatever parameters
+you mentioned you have to pass them like let's say like as array one array of zero
+and one and two whatever syntax this so individual elements you have to pass
+whereas in apply it takes array of elements so what what is the use case
+like when to use when to when to use call and when to use apply is that
+generally whenever you have an like bigger things right where you cannot pass
+individually spread operator helps you around actually to use both of things in
+the same way but this is a common interview problem interview question
+that when to use call when to use apply I'll just explain that point
+let's say you have an array which have too many things too many things and one
+of the better way is like always you can extract things which is if you are
+extracting it then you can use call anyways but before the spread operator
+was introduced people used to use apply where they can pass directly object of
+this and array instead of individually writing all the parameters like array of
+zero array of one array of two is this clear like this is just like how you
+want to pass an extra parameters the difference between call and apply is that
+how we are dealing with extra parameter
+call takes individual values whereas apply takes array of elements so
+depending on use case you can use either of them right yeah apply also takes the
+whole array and however the function you have written depending on that it will
+extract it so both in a way are actually solving the same problem as I say
+muneshwaram both are solving the same function same problem statement and they
+are actually same thing but it is just like how we are passing the extra
+parameters okay let me show this in the internet also for reference that's what
+the difference between call and apply if you see the difference is that apply
+lets you invoke function with arguments as an array call requires the parameters
+to be listed explicitly okay this is the just syntax like this function whatever
+function we have apply value for this and array of arcs whatever arguments you
+have it takes an array whereas if you go for call whatever object you want to
+change to this this then you have to give individual items is this clear guys
+what is difference between call and apply pretty straightforward and simple
+okay nothing complicated in this now because if you see because why this was
+introduced this one actually call and apply if you see here spread operator
+for the array was introduced in the year 6 it was not there before but call
+apply and bind were present from earlier so now people go and leverage call
+directly like where you can use spread operator or can use apply anything that
+works for you but there are two methods and why we are discussing both of them
+because sometimes in interview they ask it which one to use when and what is the
+context of this you can use anything as per your requirement because if you have
+an array you can spread it around or else you can write down manually one one
+parameter also okay now let's explore this call apply must be present in
+prototype right yes Kiran let me show you this one let's say if I do get info
+okay dot prototype if you see in this great info prototype here do you see
+this inside this prototype or inside the constructor function for the function do
+you see here call apply blind the three of them are present or as a core
+arguments because they're trying helping you to change the context of this okay
+this is how they defined earlier because JS was this is how that Brandon I created
+it but in order to you know mix both of things call and apply like we have a
+spread operator again both are solving same problem as I earlier told that you
+know all the all these three things are solving the same problem now when I say
+that bind also solves the same problem how does bind helps us that now let's
+say if I want to store this function let's say I say this has a reusable
+function now what I can do here is that I can go get info dot bind I can say
+that bind with the student and again this bind again takes individual
+elements okay now this reusable function if you say earlier when we were
+calling this get info dot apply and call that was executing the function for us
+but what bind does is bind gives us a it gives us abilities to store this
+function and use it whenever you want it because I able to understand this like
+it gives us a function now let's say if I try to console dot log reusable and I
+also call this reusable once I execute this now let's see the difference if I
+go back here so I'm still printing that Adam Smith and everything but if you
+see at line number 25 what bind is giving me a bind is giving me to store
+function which is having you know the context of this is being changed already
+let's see that let's see this in the life what actually happens if I try to
+re-execute this one okay we don't need call okay if you see if I try to print
+this reusable
+let's say let me go here and I'll explore I I'll show it here itself what
+is actually happening now if you see it here what happened is inside the
+prototype right inside the reusable there is something like call us target
+function inside this target function is actually having the function which we
+are which we are storing it like get info get info is become the target
+function and inside this view whatever this something object we passed it like
+which you are changing the context okay then we are also having something called
+as array of three inputs if you see this is accepting you know accepting
+variables as array is this clear so guys how this bind is working it gives us a
+you know storable functions and then you can use it whenever you want it okay so
+I hope this context is clear what is call apply wine to you know just
+to revise this thing nothing much big thing but just to simply explain this
+all of this thing are changing context of this keyword inside function okay
+and these methods are part of prototype of a function okay now call takes
+two things this checked and individual parameters this is before if I easy
+syntax says because spread operator can anyway solve okay whereas apply takes
+this object an array of parameters then bind takes this object and individual
+parameters and returns and say function now why I said this has a higher order
+function is called by and apply because bind actually is returning a function a
+function which is returning a function or taking a function in a parameter is
+usually called as higher order function that's the reason why I mentioned this
+thing okay I hope this call bind didn't get the bind okay let me explain it so
+what happened earlier now if you say if you say whenever we are calling this get
+email dot call we are passing object and value 1 value 2 so value 3 right this is
+executing function immediately similarly you have get email apply which take this
+object and you have array of values value 1 value 2 value 3 it still executes immediately
+but if you want doesn't want we don't want to execute it but we want to store in some
+variable let's say I will use it later then I can say that get email dot bind this again
+all these things value 1 value 2 and value 3 so this doesn't get executed instantly I
+have to call this whenever I want to use it so these are getting executed instantly this
+is like which gives you like willing whenever you want to use it you can use it again Muneshwara
+this is you know it takes individual parameters but it is up to you like again you can use yeah
+something like callback because it is returning as a function it returns a function which can
+be used later so to answer your doubt Muneshwara let's explore this documentation itself okay
+if you see this whenever I hover around around this if you see it says this least of arguments
+to be passed into the new function okay whenever I say that least of arguments now if I go back
+to apply now let's say if I go for apply what it says is that arcs array a set of arguments
+to be passed into the function when it says this least of items it is actually asking you to
+list on each of the thing it takes this way or else you can always anything as we have discussed
+earlier you can spread it around and leverage it okay anything works but I hope this point is
+clear like this this is just something is used to change yeah we can change it now if you see
+here I pass the student object I'm still using that same object of student I'm changing the
+here inside this this should be pointing to window but we are pointing to like student so
+it depends on what you are passing in okay the first parameter is object which are trying to
+change no context with this is this clear guys how this three things works really basic stuff
+we don't need much of time but I just tried to complicate it stretch it around okay I want
+to talk about some other concept basic simple concept again let's say memory.js now let's pick
+this example guys what like first let's say I have const I say first name I have let's say
+muneshwara okay I'll make it let again let's say I have second name some name say bapu so if I
+do first name equal to second name and I try to console dot log first name and console dot log
+last name second name what is expected guys what is expected to happen once we do this
+both a babu will be printing it right so I hope everyone is agreeing guys I'm
+receiving only two reactions I hopefully I receive some more reactions okay I see one thumbs down
+guys see three people great now let's say that node memory.js yeah it's printing babu babu that's
+clear right because now I want to talk about one phenomenon is like no let's say okay I also what
+I'll do is that I'll update the second name as let's say instead of so I keep it power then
+what is supposed to happen what is supposed to happen this time it will print power power right
+let's say let's view this if it is working fine so to how many people this point is clear how
+this power power or babu babu is printing is there anyone who is having doubt on this concept
+it's clear right now what can we call this can I call this pass by value where from one variable
+to the other variable actually I'm passing the value directly can I call this this way that
+actually I'm passing a value to the second name I have created new value then to the first name
+I'm passing whatever value power is having I'm passing it to it that now let's say I take another
+example where I have first name object inside this let me create name again let me pick
+something new name let's say I have Kiran and let's say I have let second name object I have
+name let me pick now breathe now let's say I try to do something like first name object equal to
+second name object now once I do this and I try to console dot log first name object and console
+dot log second name object now what is going to print it guys in this example what we are
+going to print it if I try to print first name object and second name object both the time it
+should be printing love breathe so are you guys aligned with the Muneshwara and Kiran's answer
+that every time we'll be printing a love breathe in both the cases guys give me thumbs up or
+thumbs down anything works fine just want to know okay great now let's say if we are printing it
+this is fine we are printing love within both these cases now what if I go and do something
+like once I updated it I go do this one and update the name as let's say no what is supposed
+to happen okay Muneshwara says love breathe and Uttam guys how many of you think that
+Kiran says Uttam twice so give me thumbs up if you are going with Muneshwara answers give
+me thumbs down if you are going with Kiran's answer guys please you know press that button
+if you are going with Muneshwara's answer give me thumbs up if not give me thumbs down I see
+only five six people reacting this up okay I see many people getting thumbs up so everyone is
+aligned with Muneshwara's answer let's see this now so do you see this guys people who gave
+eight people including Muneshwara are wrong both the time both the times I'm printing Uttam here
+so let's explore this what's actually happening okay let's explore this what's actually happening
+behind the scenes what's actually happening now we had something like first name object
+inside this we had field called name let's say I call it as first
+okay then we had second name object we had name called as second right then what I did
+I just updated this first name object equal to second name object then I updated second name
+object dot name equal to let's say third I make it as third then we were trying to console log
+both things it was printing third and third this was a use case that is happening right now let's
+explore this step by step what's actually happening when I declare this things when
+I declare this one code is executed think from the call stack point of view when you have the
+stack and there is a heap we know that all the memory objects are anything array sort of functions
+though those exist in inside the heap area now here we created something like first name object
+good enough and then we had something like second name object good enough first name object was
+pointing to name first right second name was object was pointing to name second so do you
+guys agree with this part till now this is what we have done till this point right then what we
+did is we called something like hey can you do this update the first name with the second name
+when we did this what actually happened is that this pointer this line got called off then there
+is a new line got updated as this one is this clear what happened with this line on this line
+so we cancelled this pointer and it updated with the current pointer then I say that second object
+name if I'm saying that second object dot name if you see this when I say that second object dot
+name now if a second object dot name I'm updating this as a third right let's say I'm updating as a
+name third this one and this got already cancelled now both of this are still pointing to this one
+and the name is updated as third is this clear why this third is printing third and third to
+all the seven people so in terms of object in terms of object whenever we are actually
+playing around with those objects right we say that values are passed by reference so
+whenever you are passing any object to the other object you are actually passing a reference
+pointer you are actually passing this items but you're not passing actual values values are there
+in heap values are not greater duplicate okay so is this clear guys what is pass by value versus
+pass by reference yeah pass by reference will actually come in terms of objects only because
+in the object what happens in terms of like when when it comes to the objects why this has been
+created this way is that objects are really huge in size like if you see those are custom
+data types it can be sizing like really big thing now if someone try to apply in a skip assigning
+this way right those will get duplicated each time they'll get duplicated and the memory will
+be used extensively so in order to optimize memory consumption they have created a heap area where
+you will put the all the objects and you will point to them so that duplicate objects are not
+created for each time so that each will have the same pointing to the same thing is this clear
+guys what is pass by value only primitives to pass by value yes only primitive does pass by
+value because primitives let's say if you go and back and see that example right let's say I have
+name equal to with them when I am doing this line and I'm assigning line this actually happening
+called call stack itself it will take name and it will assign it will do it here itself and it
+will have the context this value will exist only till the moment that function is executed once
+that function is execution is clear that file is cleared this value will be lost this value won't
+present but in heap area the objects are still persisting there is something like you know that
+cleaner comes who is the person who cleans this one who is the person who cleans this objects guys
+from the heap area anyone knows it does anyone know who cleans heap area like first call stack
+we know that let's say if you go back and see this example right in the one side once I let's say
+this this thing right this part is getting executed this if I remove this file from the browser
+context it will be removed but this objects are still present in the heap area because those are
+stored in memory but who is supposed to clean these objects or the like because point us once
+call stack is executed this point us will go away this point us will go away but in memory when
+I appended let's say take this example itself now when we assigned this first name we assigned
+first name equal to second name we updated these two pointers pointing to this one but
+this memory still exists in heap area right this one no one cleaned it up this is still
+consuming memory is this point here is this is still memory is existing this is not this is this
+is where memory leak issues comes in and the person who is up actually supposed to do is who
+is supposed to clean is called as garbage collector have you heard of this thing garbage collector
+earlier so garbage collector come signs he checks what he does he does a simple DFS call you know
+DFS right DFS and BFS calls graph calls how they go and check this you know DFS and BFS
+you don't know DFS and BFS you might have completed your data structure algorithm right depth first
+and breadth first search same same depth first and breadth first now what this there's an algorithm
+written inside that it starts with the one node all these objects are nodes in how it is stored
+now it starts from one node and it keeps on traveling to the other nodes and it checks
+whether there is an edge or reference pointing to it if there is no edge it removes it kills it
+is this clear now even you are one of the interviews core problem like number of distinct
+eye lines is actually like garbage collector algorithm itself how that works this is something
+that I'm talking about you can actually see how this garbage collector is built and how
+heap error is being cleaned when there is no reference pointer pointing to it anything so
+guys I hope you understood like actually what is pass-by value versus pass-by reference give
+me thumbs up guys once if you are able to understand them clear right now let's go and
+explore one thing now I we say that now the problem statement let's say I build a simple
+objects let's say person one let me copy this one simple object this is a person one I created
+nothing else let's say I have percent two if I do this it is you know copying the reference
+still right it is copying the reference this is what we have learned right now but I want
+this data to be cloned this data to be cloned such a way that in in heap area I create a new
+object taking this out values is my point here guys when I say clone what I meant by that
+you can say copy that's I want to create a copy now I don't want to talk about deep versus
+shallow copy first but I'm first do you need a break guys or should I continue it's one hour
+24 minutes do you need a break I can come back and talk on this topic okay let's take break
+five minute works right five minutes is fine we'll take five minutes and come back
+let's start we'll come back and discuss
+guys is everyone back okay great now if you're back let me state the problem statement clearly
+for you guys to understand this one right now what was happening earlier when we are
+passing by reference let's say there was an object one let me do one thing let me copy that
+part I don't want to write it again let's say okay we had this two objects now this
+we were the next line what we were doing next line was we were actually doing second image
+second name object equal to first name when we were doing this we know that just the second
+name pointer or the reference value is updated with this one right but we don't want that thing
+to happen in our heap in our heap what we want to do is even when this line is done we want
+something like let's say there is a name one equal to first which will this will point and
+then there is a name again a first and the other will one point okay and then there will be also
+name second which will be relying there is this clear what I'm trying to say is that when I'm
+trying to do says this one instead of pass by value can you convert this pass by reference
+into pass by value convert pass by reference into pass by value is this clear like how can
+we do this now this is for doing this thing there are two methods one is called shallow copy
+one is called deep copy the methods that we are going to learn now are the way the way
+we can do it this both are not perfect solutions okay not perfect solutions in order to do a deep
+deep copy when we say deep deep copy I'll come to that point in JS we had one library called
+Lodash Lodash dot copy function used to do that now what that used to do what we are going to
+do I'll come to that point but is this problem statement clear what we are going to do is that
+we will be converting and like pass by reference into pass by value and we'll be learning two ways
+of doing it one is shallow copy and deep copy and then I'll talk about something like a Lodash
+library is this clear guys let's let's explore this one how we can do this now now if you see
+it here I have one person object called which is having name agent address now when I'm doing it
+this way person 2 equal to person 1 is it a pass by value or pass by reference firstly reference
+right how many of you agree it is a reference guys okay I see all people agreeing with the
+reference great now if you want to convert this into pass by value if you want to clone a copy
+or create a new copy how can we do it any ideas we have seen this we have seen this earlier but
+just think of it like how we can do it if I want to if I want to do it pass by value I have to
+pick individual individual elements right because these are primitives inside our object data type
+isn't it do you agree if I can pick a name and create a name this will be a yeah so Kiran
+power suggests us this one right what she says is that what he says is that let's say person
+2 dot name equal to person 1 dot name right then we have something like person 2 dot age
+equal to person 1 dot H this is what up in the immediate answer is something that we get to
+mind or mind right the what is the easier way of doing this what is the easier way of doing this
+can I do it this way that I use parade operator that pull each and every field out of it and
+create a new object using this way instead of directly assigning a pointer how many of
+you are able to understand this point I see only one thumbs up guys all other people are
+able to relate this one like how I'm trying to copy is that I'm converting and when I'm
+spreading it it will spread one by one element right one by one element inside this object
+instead we are not getting a reference we are actually getting the values one by one okay but
+do you see any problem here still let me let me try to do one thing let me show you that this
+won't create a problem first what I'll do person 1 dot name I'll update as let's say Kiran okay
+now if I console log person 1 and console log person 2 I'll show that firstly this deep this
+copy is working okay let me remove all other console logs for a second
+if you see here one is I'm getting Adam the other one is getting Kiran so do you see this
+I'm changing one value but the other one is not getting change this means that we are actually
+converted a password value into pass by reference I mean pass by reference into pass by value do
+you guys agree with this point like are you able to understand what we have done it so is there
+anyone who don't understand this point what what just happened okay now the next thing let's say
+if I if I do something like let's say person 1 dot address dot city which I update with
+Hyderabad now once I do this I re-execute this one now do you see one mistake guys still the
+is changing for both of them when I'm updating it are you able to relate this one that it is
+not copying completely it is not converting completely from pass by reference to pass by
+value do you understand reason behind it because in whenever in heap right whenever in heap this
+address object is also created by reference like this will be pulled as a separate object
+this is object inside object this address here in person was also storing a reference
+right whenever I'm extracting it when I'm extracting it actually here also when I'm
+extracting address I'm also getting a reference but I'm not getting this object converted into
+primitives this is what we call it as a shallow copy is this clear wherever you are it you are
+copying the elements converting from pass by reference into pass by value at one level of
+items you're converting it one level of items clear guys no guys anyone who didn't understand
+my point this point I just want to know I see only one reaction just want to know that how
+many of you understand what shallow copy is I say three okay four now how do you think we
+can address this issue just thinking think it curiously guys this is also we have seen an
+example of this one think of it this one like how can you actually completely convert into a
+primitive like just the logic behind whenever someone says then to create a copy it is that
+they're creating a copy by converting a reference they're breaking the reference creating a new
+object and put adding a new reference separately so it's like pass by converting from pass by
+reference to pass by value so just think of it if something clicking you okay just let me know
+how many of you understand this thing when I write JSON dot stringify I do this how many
+of you understand what is just happening here what does this line do okay let me show you this one
+let me show you this one I execute it again now do you see this this object is converted
+into string both key and value key value pairs are converted into string do you see this when
+I do JSON dot stringify it is converted into string and what is a string what is a data type
+of string is it a primitive or non-primitive it's primitive right again if I'm able to convert this
+primitive of string into an object our problem is solved isn't it so let's do this thing let's
+say I create an object person 3 JSON dot pass which again converts a string into an object
+JSON dot stringify person one okay now once I do this let's say I again I'll update this
+things I'll again copy and paste this one so that I can show you that person one nine three
+I love I'll comment everything on there okay now let's see this if this is working fine
+do you see this when we updated person once address our city as hydrobot it worked fine
+but here it is mum by itself so this is what a deep copies you understand this point like
+how this is converted so do you understand the power that what JSON stringify and pass
+whenever we are doing this hope you understand what is actually behind the scenes happening okay
+firstly we are converting a whole object into string then we are converting back into an object
+format which is converting like like reference our reference data type into a string then into
+again a reference data type creating a whole copy this is what a deep copy looks like deep
+clone or deep copy this is point here guys what is shallow copy deep copy versus pass by value
+pass by reference all these points are clear is there anyone who is having doubts if there is
+anyone still having any doubts let me know I'll re-explain this one I've explained pretty much
+simply I also talked about what happens behind the scenes or what type of data type we are
+converting into other one okay I hope no one forgets this one this are a pretty simple examples
+and this is applicable for any of the you know language and why do I say that a deep
+copy is also not a complete copy the reason I'll tell you is that what if there is a function
+let's say I say get email function
+let's say this is a function that added okay why this deep copy also not completely works I'll
+talk about this when we convert this function let's say if I do this person stringify now
+if you see when I'm converting into stringify do you see anywhere function
+no right so json stringify and pass works for the objects pure objects but not which
+it contains functions or any other you know it works let's say if I pick it up array also
+let's say I have an array I create one two three four five I have an array let me clear
+this console and again reprint it now if you see for array it is still converting into string
+but do you see it not working for the function this is the reason why I say that even the
+deep copy is not a complete copy do you agree with my point whatever deep copy we just learned
+it is not a complete copy the solution for this one actually you know was built by was built
+by library called Lodash is a using only way to make the copies in json that's a one of the
+the other way or what is actually used in the project level right I'm talking about that one
+if you see this method cloned it Lodash cloned it you can explore actually the this is a built
+in library which will give you you know cloning an object if if cloning an object would happen
+that easy like you can do json spring if I pass we wouldn't need any library and if you see there's
+a weekly downloads of 11 lakhs the spread operator copy the functions it does you know copy the
+functions we name but again the function isn't stored in the heap area right it is like it is
+a separate execution context if you go from that point of view it will also have a reference
+pointer functions also are stored somewhere right in the memory in the global space so those will
+also get we'll get an reference point so even if you copy if you are updating that function
+everything will be updated so that's an problem so this is the library guys that helps us in
+order to clone it you can explore like document we can see the documentation if you see what it
+does like if you want to clone an object again you just do underscore which is a Lodash import
+dot cloned deep you pass an object you'll get it and whenever you try to compare it here whenever
+you're trying to compare 0th index you're not able to like match it because those not reference
+pointers are not same so that's the reason why we get and false because these are array of objects
+it's really difficult to clone this type of things like how would you clone combinations
+of combinations of combinations so this particular library is actually handling those use cases is
+this clear guys so I hope someone asked you to clone it someone asked you to do it an interview
+will be able to explain this like hey we can do using JSON Stringify and pass and even spread
+operator but this works up to an extent when it try to you know further complicated you can say
+that I'll use Lodash library which will help me to because there is a famous saying in the software
+engineering is don't reinvent the wheel until it is unavoidable okay so when there is a solution
+available try to go and use it and if that solution is creating a problem like it is a
+not a memory intensive or time operation intensive then go and create your own library is this clear
+guys so just want to recheck with you guys like are you able to understand call bind apply and
+let's say I'll repeat all the topics in the iPad itself so that I just want to check with you if
+you are able to understand all these points so call bind apply pass by value pass by reference
+shallow copy deep copy this using spread operator this using JSON parts dot JSON Stringify
+object so guys are this can we do an example of Lodash I have to import I'll show that in
+future Kiran okay I'll show that in future when projects will take that leverage will like when
+we build it so guys how many of you are able to clear with this points if can you give me
+thumbs up if you need me to revise I can revise in our five minutes if you want me to revise let
+me know other seconds again when we go to the next class I'll revise this concepts and then
+we'll move forward okay so is there anyone who don't understand this concepts let me know like
+I'll go I'll start the doubt session but we'll do one of the polyfill example it's not part of
+curriculum it is like out of my own interest I am trying to you know build it okay polyfill
+for call what's the time complexity Vinay good question let me see this
+so it says we go often since it's going through all the elements right objects it is going
+one by one element then converting into string format right the level of complexity let's say
+yeah if you have like object inside an object inside an object inside an object then it will
+become like going again for one level it will go into n so it can go to n power n also depending
+upon the level of complexity you have but it goes one by one and convert into string then
+parses also again converting into so if you are doing first n operations then you are doing
+again an operation so it is n square operations okay guys I hope the concepts are clear if the
+concepts are clear can we start with the doubt session so that I'll pick it up a polyfill and
+we'll explore what is polyfill and everything okay I'll start it and hang around guys hang in
+so that will you also get to learn few things more okay what happens right there are some
+interviewers right there are there's some crazy interviews what they do is that they ask you to
+implement library functions they ask you like hey you know how can you write you know use the
+call bind apply everything is working fine but what if there is an use case comes to you that
+hey can you implement call or what if there is an use case when you want to build your own custom
+logic like if I say for the deep copy low-clone dip was there now if I ask you to you know build
+algorithm which will be actually cloning in a deep it wouldn't take more than one day or two days
+for you to write it down because they're giving in a part of library or multiple utility methods
+that you are using the reusable right now that same problem we have to solve for the call function
+now let's say taking back going back picking up the same example what we had for call now let's
+say I have this function I'll copy here to refresh our brain and then approaching this
+problem okay this is what what call was doing call was changing the context of this and
+executing the function isn't it that is what we have understood and that is what we have learned
+right guys now if someone comes and tell you that hey write down your I don't want to give
+you a call function write down your own custom function and execute it how would you do it just
+try to give me a top-level idea then I'll give you the brief idea how it is done guys
+what would be the first step how would you get a like like you know the function available on
+get email function how would you make all function available on this firstly let's say you want to
+he'll ask you to create a my call function which will do the same work as call
+how can you make my call available to all the functions in the JS like you remember
+in array you have length index of in object you have has more on properties how those were
+available add new function to get email proto right killer you are on the right part but do
+I have to add it on get email function only or what if I can add it to whole function type only
+data type it would be great right every function whatever create you will have your own custom
+function every right so let's say I'll give you this function dot prototype dot my call
+let's say you design this function let's say it's a function and this function what it is
+generally taking ice it is taking two things this context whichever new context you want to
+update with and a list of arguments let's say which are coming comma separated right
+this was a function syntax isn't it now let's think of it how would you change it how would
+you change it how would you change this context now let's say I can say first and first line itself
+I'll say that a current context can you update this current context from this context okay I'll
+say that update the current context as this context okay once I get this I'll create a
+new key value pair I'll create a new key value pair and I'll call that new key as let's say
+const instead of const let's say I have a you know new I'll say prop math dot random now how
+many of you understand what math dot random does it gives a value from 0 to 1 right it gives you
+a random value so a certain range whenever you want it right now I'll write one condition guys
+I just want you to understand what this line is and I'll explain on this but I wanted to focus on
+this now what do you understand by this point what I'm saying is that I'm creating a new key
+I'm checking if that prop is already existing in this context if that is existing right then
+create me a new random value until unless I get a unique prop I'm repeating again whatever context
+user is passing since they are passing an object inside that it will have a key value pairs I am
+checking whether the new key that I created using math dot random if that is already existing in
+object I have to create a new key so I'm trying to create a new key until unless I'm getting a
+unique key is this clear point right this is what I'm doing once I get a new key what I'll do here
+I'll say that hey current context inside that take me the prop and assign this now the what
+this is pointing to here I'll show you while debugging actually this is pointing to the function
+itself and which function like you call gmail.call right this function comes into the this okay now
+once I have this what I'll do is that in order to get result that's how you get a result how
+I'll call this like current.prop I'll get pass on list of arguments and execute it then I
+will delete the current.prop and return the result guys how many of you are able to understand this
+one if you're not able to understand that's okay because it takes time to get it but let them just
+trying to see if you are able to follow up I see two people great no worries great let me do this
+I'll copy this function call and and I'll make it as such that you know my call okay now let
+me put a debugger here and show you guys how this works
+okay
+okay okay I didn't declare this array let me get this an array
+now again I failed to load it school okay I have to call this function as school
+city sport
+no so coming back to this point guys this is clear right and this what we are passing
+this context whatever object we have to change and then list of arguments whatever we are actually
+passing if you see here we'll be able to see inside the arcs we have three things let me
+minimize this call stack I don't need a break points one I don't need a call stack but I need
+this one this is screen what poly fields yeah Archana it is poly fields are like building
+whatever library is there now the call bind apply these are built-in libraries for us since
+what JavaScript has been developed what if there's a use case in interviewer ask like can you build
+the library itself okay those are itself called a polyfill so I'm saying that polyfill for the
+call writing your custom logic if you can build that call function like whatever call was doing
+can we do it that with our own logic with our own algorithm okay so guys till here any doubts
+like in this we are passing this where we are having the first name last name and age and
+we are passing this three parameters guys give me thumbs up thumbs down I have more than 20
+people in class till here no doubts right now let's let's see let's see what's happening if I
+go click play if you see in the current context the current context got updated with whatever
+this context we passed okay so we are having these three things now inside this I'm getting
+something called as prop now here if you see inside this inside this current context a prop
+is created with the value as this one I mean inside this function a new key value a new
+property is created called prop which is having from 0 to 1 value and 0.7 and the reason this
+while loop didn't get executed is because inside this object current context there is no key like
+0.7 this is clear till here is this clear line number 23 what just happened guys please react
+if this things are clear till here okay now here let's see what is actually happening in this now
+what I just say that hey I'll take this prop I'll use it as a key and you know when I'm
+checking for the this operator what is pointing where this is pointing to now if you see get
+email function dot my call now whenever you are calling email function email function is actually
+calling my call in by default inside my call function this will point to get email function
+isn't it that is what we are getting here this is clear so what I'm doing it inside this object
+I'm taking this this as a key and value as a this email function now if I go and click a play here
+if you see inside the current context I'm having key of 0.736 and value as a function and I'm
+having this objects object values Adam Smith and age 25 now when I go and execute it now what
+happens when I go and execute it now remember how I'm executing it now whenever I do let's say if
+you see this what is what just happened here let's say I create a const current context if you see
+here if I copy this let's say these are three values we are having also I'm having something
+like 0.736 and it is having this get email function overall right now whenever I try to
+do this execute this current context start execute 0.736 and I try to call it now whenever I'm
+calling it this way always inside this function this operator will refer to this keys isn't it
+this is what we have learned in earlier class when we are learning this now that is what I leverage
+here I've said that hey I'm calling that function inside the object and I'm passing whatever expected
+arguments like schools it is ports it is expecting so I'm passing all those arguments from the arcs
+if you see in the arcs I'm having these three values okay now once I do that let's say if I
+go back now if you see what I do here I have in the result I click play let me remove this logic
+just a second okay now click this now let me comment above line so that I can show you this
+is working as expected actually it doesn't need to return also it doesn't need to return also
+executing this thing itself will solve our problem right let's say I write down our console log
+executing from polyfill okay now if I clear this and execute it let me click play and play
+now do you see this executing from polyfill and then we were able to print Adam Steady Smith
+because this is how we can build my call function so guys I hope you understood this one how this
+is working and I hope you liked it this is something an extra content yeah we are deleting that
+context again we don't need it right so that's how Kiran it should be done because if you go
+for interview purposes so I'm actually planning to do one thing is that maintain a separate
+repository where I can build you know poly fills and store it also machine coding problems and
+its solutions maybe a website one thing I can do is that I can build it I'll initial layout I'll
+do it then I'll create issues if someone can if we want to contribute I'll create the issues and
+they can contribute it okay so that it will be used for you also and you will have like
+something open source contribution so what do you guys think should we do that where you write down
+poly fills for the most of the JS functions also machine coding problems like I'll create issues
+and it will take some time for me to build that layout and do it I'll do it and then I'll give it
+to you so that for you right react practice will be also happening parallelly also you will be
+practicing that thing very HTML CSS also you'll have an like practice like where you raise a PR
+you go through the code review then everything right so it will be a great exercise according
+to me but anyone who is willing to interested who they can contribute in repo if not they can
+like leave it and if we get luckily more stars and if your contribution is great you can add
+that in resume that I have done a contribution in open source okay so no guys if that is the
+this point is clear I would like to end my session today here itself I hope you got to learn few
+good topics today this is how we'll be continuously building upon knowledge on the JS part and then
+we'll move towards you know closure of JS and from next class on right interesting topics
+interesting interesting topics already I talked about single thread I talked about introduced
+event loop on top level but we'll see all of them behind the scenes on how they are working
+we'll talk about more async JS in three sessions where I'll go completely in depth of asynchronous
+JavaScript how actually JavaScript is magically handling many things and why it is so powerful
+right how things have been happening so we'll explore this one and without having any like
+locking mechanism if you go for any object oriented programming languages right where
+you have multi-threading concept you have locks on each part of code you need to have a lock
+because two threads cannot simultaneously work on one part of code so without even having those
+use cases JS works clearly so we'll explore that part but I'll take the doubts now guys so
+whoever don't have doubts they can feel free to drop but if someone is having doubts hang
+around I'll take them so Kabir can you share your Kanban link I'll check that
+firstly we'll check that and then we'll come to other contest outs
+so I have this I create task hyphen one okay you have the create button cool now I have
+let's say another task okay I have this that's fine task hyphen two create cool you know
+this is fine this is fine if I double-click it's working fine now
+Kabir if I click once it is loading okay in responsive layout let me
+this is away this is this level to this extent or let's say any extent right
+okay there you don't have filter itself I okay you converted into this way okay
+now let's say I have this I click this one and you have only one item if I click this one you
+have only one item if I double-click it okay it is not being created if I double-click it
+okay interesting
+let me go through the source code
+firstly when I'm clicking double-click okay one thing when you go for responsive
+right in mobile it is working but here how do you do a double-click is a bit different I guess
+because double-click operation itself that event listener itself is not listening right
+let's say double-click it's not working
+there are some issues people have faced yet they want to go with jQuery we don't need jQuery
+in mobile it is working because it is rendering that way it works fine but when it comes to
+the type of event being flagged right when I'm clicking here let's say when I'm double-clicking
+also it is printing something okay but where this is being printing over is being print from
+this part let's say if I double-click it always it is listening to a single click it is not
+listening to a double-click in a mobile view whereas if you expand it a bit further it won't
+work here also if I remove this pane I mean do you see a difference in the cursor Kabir
+like whenever I'm hovering over it right it is giving me a round symbol whenever I'm expanding
+it it is actually when I remove this right it becomes a pointer from even point of view I have
+to check on this like why double-click is not working what is a substitute like while you are
+testing it it is not a problem with your code it is a problem with how this Chrome browser is
+rendering let's say if I go with some other browser I don't have like other than Safari
+I don't use Safari much it's a problem with browser how they are rendering not with your
+working in mobile right oh I don't need to make this as a primary okay here I don't even view it
+this is not that developer friendly actually when it comes to Safari Safari doesn't really
+help us to you know do it I mean it won't give you let you do the responsive but do one thing
+Kabir try to see in your system if you have any other browser right I don't seem to have many
+other browsers in my machine let me recheck if I have any browser other than Chrome and Safari
+you can see in Mozilla Firefox if you have it in your machine once install Mozilla Firefox because
+it is not a problem from your code because code is working fine even in the mobile and this one
+it is just that browser how they render it okay how they're listening to the clicks actually
+okay so other than that thing things are fine and the other doubts that you had related to
+contest if you have question ready it's okay fine let me know if you have the question available
+I shall give it share it then we'll pick it up okay great let me copy this logic
+commented is the option can always let me go back to the code base
+let me do one thing I'll push this code once
+so have you guys gone through Git class did you get to explore that one the links that we have
+shared I mean did you guys get the chance to not yet we'll do this work okay explore that guys too
+okay so I have this button click me document dot get element add event listener click function
+I've added on the my div okay cool and console log div clicked then you have document of
+great element by ID my button which are listening to the button specifically click me and you have
+an event you have stopped the propagation now by default it is a bubbling right by default it is a
+bubbling now when I click whenever I use a clicks button it will stop bubbling out
+that's cool doesn't matter anyways it will now only the button click will be locked to
+the console when the button is clicked and button click will be locked to the console button
+this is half the code is it okay both are there are clicked and button clicked because
+they haven't printed anything in the div click right there is nothing in the my div clicked
+to print anything okay so firstly there is no chance let's go by the process of elimination
+Kabir do you by any chance do you think this fourth option will be correct by any chance
+when you're clicking the outer div when I click the outer div the div will be locked to the
+console that they've clicked is locked to the console this is true or false like firstly do
+you see anywhere div clicked present in the content if you see here I'm having this container
+no no it is there here no it is printed here whenever user clicks on at this part div it
+will be printing div clicked okay now the div in case right firstly only when div is
+clicked top level div is clicked shortly it should console log div clicked isn't it this
+point should exist now let me show you by creating index.html itself okay
+but you will be only able to verify this one whenever user clicks our dev right it's a CSS
+should be there without that you won't be able to verify where that container button clicked
+first option option or okay what Archana says yes sir this went wrong or I also selected button
+click first option right but option fourth they say but the correct option is a first option
+huh okay now if you see the by the context right let's say if I go by I add the script here
+firstly do that do you have any border and spacing and padding given so that you'll get
+to know that firstly nothing is mentioned so you don't know where the div exists and button
+exists whatever you are clicking is you are able to click only the button first
+so I did anyone catch this point I mean if you see in the question Archana and even when
+render this if I render this let's say if I render this live server so I won't say that you guys
+are wrong but from the question point of you right do you see div anywhere that div wrapper
+only if you click it let's say only if you click it here div clicked will be printed but
+something that you are seeing only is button right Kabir let's let's validate all of them
+let's validate all of them four points whatever you guys had see most of the times right it's
+good that you guys are picking it up and coming to back to me I appreciate that effort because
+there might be a certain confusion but let's understand this this this can happen to anyone
+even if I put a quiz competition quiz sort of thing here it can happen but now let's say only
+button will click will be locked to the console when the button is clicked if I click it now do
+you see this button click is being locked firstly option one is right because by default we are
+going with the event bubbling concept when until unless you flag it a flag whether it's a bubbling
+out or capturing face and we made a propagation stop right if you if you let's say if you didn't
+if you didn't do this even stop propagation and since event listener is available for this one
+not here but here you will be able to see for both of them let's say if I click it button click and
+they click both will be coming okay since its event stop is there by default on interface you
+are able to see only button so first sentence is clear now what happens with the MCQ suggestion
+is like whenever you see that first statement is right right you should go with it until unless
+there are multiple answers okay now now second thing if you say button clicked will be locked
+to the console when button is clicked if you see this is also right only right if I clicked
+it only button click will option 2 is also right isn't it option 3 is definitely wrong
+option 3 is definitely wrong and div click will be locked to console when div is clicked surely
+this is also a right only but you have to be able to see that div being clicked if you see
+I'm clicking div only div is getting incremented so you have actually three right answers according
+to an UI developer friend and developer only one wrong answer which is this one the question
+should have been actually so one rule for the MCQ's right what is a definite rule for MCQ's
+right I agree that you lost the point lost the marks it's not your mistake I'll ask the team
+to work on it okay I'll share that this question to them but remember one MCQ how that MCQ works
+is you have to check first option if it is true go with that if the second one is also right right
+mainly whenever a paper setter does got it Archana I'll try to highlight this guys that
+you lost you know marks because of this one but actually question should have been reverse
+isn't it like both a divine clicked will be locked to the console when button is clicked
+like which wouldn't be the right answer in the poor of those options because three options are
+the fourth one is wrong it should have been fourth one right so I'll check with the team
+to fix this up but by whenever you go for MCQ's right here or anywhere validate from the top
+ABCD go over if you feel is right go for that one mostly because that is how they will defend
+themselves like if I'm defending now myself that hey first option I gave that is right it should
+go right if you go for any competitive exams that's how paper setter will look into it he
+might not give the other one if you select other one then there might be you cannot challenge them
+okay but from your point of view guys this question that whatever you have attempted I
+agree with your answer also that is also right but it's just that I think I have to change can
+you give me the question number Kabir this is first question itself is it
+option options were toggled okay give me the question number I'll ask them to update this
+update this one as such that I have this copied also in the content I'll copy this content such
+that last time to update the question as like which one might not be the right I
+just need MCQ 14 okay great I'll ask them to update it pardon me guys like one thing
+right I can tell this right I'll ask them like if we can if we can address this one okay the
+second question this is something okay dev my dev okay get element by ID adding a new class
+call highlight and we're trying to do console dot div dot class name okay
+we are adding no class name should have highlight space box
+this highlight okay we are adding it to the last so it should be a box and highlight will
+be locked to the console in the code is that possible to get by ID and add a class name
+huh you can do that now let me show you this one that we can do this anytime this is right
+okay this is the part okay now once I let's say I write down div to just to see on the screen
+I have Dave if you see box highlight is something rendering you can use query
+selectors or get by ID get by class name anything you can use like you in instead of
+get element by ID if I get by class name now class name of let's say box this should also
+work so sure if I show you just let me check this
+okay having two things see the error no just a thing I am getting the two things here do
+okay I have only one item elements I'm getting elements guys autocorrect okay I'll type it
+down fastly now whatever suggestion I've got I've clicked that one but let me see if this is okay
+get element by class name but still I'm getting an error document it's not a function
+even when I do get elements by class name it should give me in a box if I have multiple
+classes also that doesn't should should not be having an issue okay I see where this is
+coming from so what what's happening here is that so you move to diff you are getting two
+diffs here my div and 0th div in the browser if I go inside the body okay I'm having only
+my diff then when I getting by class why I'm getting two values that's what I'm thinking
+but for IDs right Kabir for IDs for IDs like IDs will be unique right so you will be always
+receiving only one value for class name I'm thinking like why I'm getting two values here
+firstly like where this is actually getting created let's say if I if I have multiple things
+other let's say if I have another diff my div one and I try to save this I go back
+let's me render this one again okay now what is an issue that you are able to identify for each
+ID they are creating a duplicate if I don't have an ID let's say if I don't have an ID it will fix
+it I am assuming that if I don't have an ID it will address the issue let's say remove this an ID
+okay still I don't have an ID but now okay whenever first and foremost thing is like
+the basic concept is whenever I'm getting by class name I have I can have multiple values so
+whatever div element I'm having it will be an array of elements because it's in
+plural form I cannot do class list directly that's where I'm committing mistake so one
+thing always you can do play around is like you if you have this derivative element odd
+0th element then this will be working fine that's my understanding but let me see
+this is working fine as of now because class name if you see this is getting updated but
+ID Kabir hope you got it that get element by ID gives you the unique value all the time and it
+can be only one thing when you're getting my class name there can be multiple elements so
+there they might be accessing those through this syntax is this clear
+yeah yeah it will work on so in order to avoid confusion right go with query selector query
+selector all most of the times but if you see anywhere get element by ID ID will always give
+unique class name is for common group of people and when you get common group it is always an
+array of elements that's the reason why if you see when I coded actual machine coding and everything
+I've selected query selector in order to avoid confusion I go with query selector
+okay anything else guys
+so if there are no other doubts we'll close the session Kabir we have stretched lot
+okay then why we use get element by id if you have a see get element by id comes into the
+use case when you have unique value in order to identify diffs if dom right if you want to access
+let's say let's think in from the coding problem point of view if you if I give you a unique
+identifier like let's say it's an array you have an index out of it right you can get value out
+of index directly by easily but when you that's how that's how that method works get element by
+id is like everything is stored in a key value pairs like each id is acting as a key values acting
+as a whole div element that's how that property works document dot get element by id get element
+by class name is where you're having a one class name multiple diffs are stored in a hash map
+I mean like I can talk about data structure but how they are stored it will take time
+they'll ask you to I mean
+uh it's good to get proficient many people want to trick it around right
+they try to confuse you but you should know there are three types of
+two selectors and the common things are query selectors
+okay okay I hope I solved out guys so we close the session today I'll end the session today here
+stretch much thank you kabir thank you for asking them and no no worries no worries kabir so I hope
+you tested once in mozilla firebox once okay because it's not a problem of your code it's
+in responsive design it is a double click event which is not able to listen okay
+or check for the remedy if you find remedy also let me know like how you can handle double shift
+double click you can explore one technology called web view
+web view I'm giving you this context try to explore web view okay once how that web view works
+so hello guys that's good night take care see you see you in the next class bye guys
+I'm stopping screen share bye guys
+you

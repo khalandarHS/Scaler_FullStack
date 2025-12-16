@@ -1,0 +1,4752 @@
+1
+00:00:00,000 --> 00:00:24,040
+hi all I'm audible and visible guys good evening great so let me share my
+
+2
+00:00:24,040 --> 00:00:36,000
+screen do let me know if my screen share also works fine great let me start
+
+3
+00:00:36,000 --> 00:00:39,000
+five minutes timer
+
+4
+00:00:45,920 --> 00:00:52,800
+yes how many of you did went home and tried or like I after the class tried
+
+5
+00:00:52,800 --> 00:00:58,760
+you know reopening that project and checking on that can man board have you
+
+6
+00:00:58,760 --> 00:01:01,760
+all gone through the code base
+
+7
+00:01:04,520 --> 00:01:09,200
+okay so how is the experience I say in turn project his timers he has j's are
+
+8
+00:01:09,200 --> 00:01:19,120
+you able to understand and great some with Kabir we can check it we have four
+
+9
+00:01:19,120 --> 00:01:24,040
+minutes or else if you're not able to complete informants we can take it you
+
+10
+00:01:24,040 --> 00:01:30,360
+know after class that's all that's also fine right we can we'll take it post
+
+11
+00:01:30,360 --> 00:01:38,040
+class let's take it that way great some with them it can you raise a PR or show
+
+12
+00:01:38,040 --> 00:01:48,680
+it to everyone okay great so let me open this link so he has deployed yes let's
+
+13
+00:01:48,680 --> 00:01:51,680
+see what somebody has done
+
+14
+00:01:53,760 --> 00:02:02,120
+well this looks cool so he had played around you know with CSS and made
+
+15
+00:02:02,120 --> 00:02:07,200
+something looking make it look cool cool so if you see to do in progress and
+
+16
+00:02:07,200 --> 00:02:13,080
+QA and done so I really appreciate this one because you played around with some
+
+17
+00:02:13,080 --> 00:02:18,400
+of the styles and you know on hover of this button other than take you know
+
+18
+00:02:18,920 --> 00:02:24,120
+great so this thing you can fix it some it's still like you can make it look
+
+19
+00:02:24,120 --> 00:02:34,440
+further better this empty space I think you missed some padding on the right
+
+20
+00:02:40,320 --> 00:02:47,160
+okay I'm not exactly sure where it is coming from but you can address this
+
+21
+00:02:47,160 --> 00:02:55,880
+one's okay that's a small thing and then let's say if I make task one you can
+
+22
+00:02:55,880 --> 00:03:01,680
+also make this rounded one let's say to do okay he had given a create button can
+
+23
+00:03:01,680 --> 00:03:06,040
+you see this guys instead of giving alt button so we can also he has created a
+
+24
+00:03:06,040 --> 00:03:09,400
+create button like on click of this thing I think the activity will take
+
+25
+00:03:09,400 --> 00:03:14,320
+place right let's say okay nice another pop-up which shows that hey ticket got
+
+26
+00:03:14,320 --> 00:03:20,920
+created instead of alert box where we were trying to delete it he has done
+
+27
+00:03:20,920 --> 00:03:30,880
+this now let's say if I try to edit this one hey edit button enabled for the
+
+28
+00:03:30,880 --> 00:03:38,240
+ticket ID cool so let's I update this 101 and I close this let's see if this
+
+29
+00:03:38,240 --> 00:03:42,720
+all things have been updated in the local storage too
+
+30
+00:03:44,320 --> 00:03:57,400
+okay to do right great so that got updated now it also has a status and
+
+31
+00:03:57,400 --> 00:04:03,600
+everything fine now let's see if I move to in progress nothing is there a good
+
+32
+00:04:03,600 --> 00:04:07,720
+in progress double-click it I can see everything now let's say I have another
+
+33
+00:04:07,720 --> 00:04:17,680
+task let's say zero or task zero two and I say in progress create fine let's
+
+34
+00:04:17,680 --> 00:04:27,120
+say if I filter by zero two cool zero one great so this was really cool you
+
+35
+00:04:27,120 --> 00:04:32,880
+know add on some bit appreciate it so guys do you like this I'll bookmark this
+
+36
+00:04:32,880 --> 00:04:38,920
+one in the class so this is an add-on from the features that some with tried
+
+37
+00:04:38,920 --> 00:04:44,160
+it hopefully everyone explored this you know if someone want to add more
+
+38
+00:04:44,160 --> 00:04:48,560
+features on to this one he can you can talk to him if one thing you can do
+
+39
+00:04:48,560 --> 00:04:56,120
+somebody said share your kit link in group it's up to it's your personal
+
+40
+00:04:56,120 --> 00:05:01,360
+project maybe what this onto your resume if you want to share with everyone
+
+41
+00:05:01,360 --> 00:05:05,400
+that's okay or else anyone some someone can take inspiration from this deployed
+
+42
+00:05:05,400 --> 00:05:12,040
+website they can add on their own things right but I've do I did I make justice
+
+43
+00:05:12,040 --> 00:05:18,080
+that I explained everything properly but everyone can do you know built on their
+
+44
+00:05:18,080 --> 00:05:24,520
+own side of things right so great this is really appreciated appreciable so one
+
+45
+00:05:24,520 --> 00:05:30,120
+thing I did it guys is that for you okay I pushed another code like I believe
+
+46
+00:05:30,120 --> 00:05:33,800
+like you can go through this code and understand this one initially I was
+
+47
+00:05:33,800 --> 00:05:40,240
+talking about portfolio project right like I made some dummy data I did some
+
+48
+00:05:40,240 --> 00:05:44,040
+starting in so currently we haven't moved to react so let's make it a simple
+
+49
+00:05:44,040 --> 00:05:53,120
+portfolio project then you can improve on so if you see if you see this is a
+
+50
+00:05:53,120 --> 00:05:57,160
+project earlier I have shown at the starting of the when you started no for
+
+51
+00:05:57,160 --> 00:06:02,000
+this code base I have pushed into this gate of repo I have added so now let's
+
+52
+00:06:02,000 --> 00:06:07,120
+say you have built two projects right one is weather project and another is
+
+53
+00:06:07,120 --> 00:06:11,400
+Kanban what if you link those both things here and on click of this thing
+
+54
+00:06:11,400 --> 00:06:18,080
+you redirect to let's say Kanban board or any other board okay so I'm giving
+
+55
+00:06:18,080 --> 00:06:22,640
+you this thing you also link your gate of repos lead code LinkedIn and whatever
+
+56
+00:06:22,640 --> 00:06:26,960
+you have write it down your things just update the content that would be enough
+
+57
+00:06:27,440 --> 00:06:32,680
+okay update the content in the HTML file everything will be auto done and you can
+
+58
+00:06:32,680 --> 00:06:37,000
+add your description so that you are a web developer a portfolio is built
+
+59
+00:06:37,000 --> 00:06:44,240
+parallel okay group of projects that you need the tech whatever you need I am
+
+60
+00:06:44,240 --> 00:06:49,240
+moving pushing this code so if you see I have added some changes I'll move that
+
+61
+00:06:50,200 --> 00:06:54,440
+so that everyone can use this one let me open a new terminal
+
+62
+00:06:54,440 --> 00:06:58,640
+get commit
+
+63
+00:07:15,640 --> 00:07:23,360
+okay so one thing I'll do is that I'll you know I'll bookmark this for showing
+
+64
+00:07:23,360 --> 00:07:29,560
+some other parts like when I take this I did
+
+65
+00:07:40,480 --> 00:07:47,440
+okay cool great on some bit so I hope everyone go and you know try it out put
+
+66
+00:07:47,440 --> 00:07:51,960
+your hands on hands around you can see this how this is working fine or not one
+
+67
+00:07:52,000 --> 00:07:56,760
+thing why I wanted to test this one is that let's say if I make it responsive
+
+68
+00:07:56,760 --> 00:08:05,800
+cool so cool I can see it's working fine great one so one thing you can do here
+
+69
+00:08:05,800 --> 00:08:11,760
+one suggestion some bit just you know make this in a in a button like you can
+
+70
+00:08:11,760 --> 00:08:15,560
+explore like how can you like a hamburger button or anything okay this
+
+71
+00:08:15,560 --> 00:08:21,040
+this only this thing like you can use media query and just add one more thing
+
+72
+00:08:21,040 --> 00:08:24,840
+like instead of horizontal you can make it vertical or any anything like as you
+
+73
+00:08:24,840 --> 00:08:33,720
+like it only filter by okay great other than that everything looks cool good one
+
+74
+00:08:33,720 --> 00:08:39,960
+so guys let's get started with today's class I think we are on time I see good
+
+75
+00:08:39,960 --> 00:08:43,640
+amount good amount of people but can you can anyone ping in whatsapp group for a
+
+76
+00:08:43,640 --> 00:08:50,440
+second that we are getting started with today's class
+
+77
+00:08:50,440 --> 00:08:52,440
+okay
+
+78
+00:09:05,440 --> 00:09:08,440
+great
+
+79
+00:09:13,960 --> 00:09:19,920
+thank you guys so let's let's get started with do let me know once you can see the
+
+80
+00:09:19,920 --> 00:09:25,960
+iPad I'll share this iPad
+
+81
+00:09:25,960 --> 00:09:47,320
+so it's loaded right okay good now I hope everyone can see this and I'm
+
+82
+00:09:48,320 --> 00:09:57,400
+okay good now I hope everyone can see this and let's get started with today's
+
+83
+00:09:57,400 --> 00:10:02,080
+class guys so we'll talk about agenda and what we are going to cover and how
+
+84
+00:10:02,080 --> 00:10:06,680
+it is going to be so today's and next class will be basically focused on
+
+85
+00:10:06,680 --> 00:10:13,840
+something called as machine coding so these are the questions that are used
+
+86
+00:10:13,840 --> 00:10:21,880
+for LLD interviews so I'll share you one of the repo where you know you have to
+
+87
+00:10:21,880 --> 00:10:26,560
+practice a different side of LLD equations now those LLD equations have
+
+88
+00:10:26,560 --> 00:10:40,720
+to be solved by both using vanilla JS and react JS so one is using HTML CSS
+
+89
+00:10:40,800 --> 00:10:49,520
+JS now this using again simple framework or library okay so the same set of
+
+90
+00:10:49,520 --> 00:10:52,360
+questions you should be able to solve both things because this will be the
+
+91
+00:10:52,360 --> 00:10:57,760
+interview specific projects that are you are building or we are learning will be
+
+92
+00:10:57,760 --> 00:11:05,760
+helpful to build our portfolio and also for the practice purpose to get into an
+
+93
+00:11:05,760 --> 00:11:10,480
+understanding of all the concepts we are learning and how we'll apply okay so
+
+94
+00:11:10,480 --> 00:11:16,080
+this is what our plan is going to be for the current today's class and
+
+95
+00:11:16,080 --> 00:11:22,360
+upcoming next class and in this right currently we'll focus on today we'll be
+
+96
+00:11:22,360 --> 00:11:30,400
+focusing on building two things one is a counter component like it's really
+
+97
+00:11:30,400 --> 00:11:34,960
+basic we'll get started with really basic example counter component like you
+
+98
+00:11:34,960 --> 00:11:39,560
+click off button you should be able to increase the account on the click of
+
+99
+00:11:39,560 --> 00:11:43,280
+minus but we should be able to decrease account and similarly you can also add
+
+100
+00:11:43,280 --> 00:11:47,600
+an form element which can help you to increase by decrease by value and then
+
+101
+00:11:47,600 --> 00:11:53,480
+there will be a star rating star rating component is something like you can see
+
+102
+00:11:53,480 --> 00:11:59,200
+on many apps right if you go for any app if you want to give a rating or on your
+
+103
+00:11:59,200 --> 00:12:04,160
+Ola over or any Amazon flipkart any site that you see online they always can
+
+104
+00:12:04,160 --> 00:12:08,400
+take the rating as a basic feedback because no one is willing to write a
+
+105
+00:12:08,440 --> 00:12:13,240
+content full feedback so rating is component is something really used so
+
+106
+00:12:13,240 --> 00:12:21,120
+we'll see how we can build it using HTML CSS and JS so once we do this we'll go
+
+107
+00:12:21,120 --> 00:12:25,280
+into the next class where we'll learn something like OTP how do you enter OTP
+
+108
+00:12:25,280 --> 00:12:29,940
+then comment section how do you build comment section right and then there is
+
+109
+00:12:29,940 --> 00:12:33,720
+another thing that we explore but this is for the next class currently we'll be
+
+110
+00:12:33,720 --> 00:12:36,800
+learning today applying our knowledge to this one like how would you actually
+
+111
+00:12:37,080 --> 00:12:41,480
+approach an interview okay and other than this thing there's a one concept
+
+112
+00:12:41,480 --> 00:12:47,040
+that I have to cover but few people say that it has been already covered few
+
+113
+00:12:47,040 --> 00:12:52,440
+people say it not it was not covered so I just want to know whether do you
+
+114
+00:12:52,440 --> 00:13:02,000
+understand something called event propagation how many of you understand
+
+115
+00:13:02,000 --> 00:13:12,640
+this word even propagation see four six seven okay great so some someone told me
+
+116
+00:13:12,640 --> 00:13:17,680
+that Sasha has covered this one so I just got confused okay no worries if it
+
+117
+00:13:17,680 --> 00:13:21,920
+is not covered we'll get started with even propagation then once we understand
+
+118
+00:13:21,920 --> 00:13:26,520
+this then we'll come to this too I hope the basic agenda is clear is like what
+
+119
+00:13:26,520 --> 00:13:33,000
+we are going to do it today so let's let's get started with the even
+
+120
+00:13:33,000 --> 00:13:44,640
+propagation then yeah yeah yeah yeah so firstly like you know in the DOM right
+
+121
+00:13:44,640 --> 00:13:50,400
+whatever DOM tree is created now whenever let's say DOM is looking like
+
+122
+00:13:50,400 --> 00:13:56,480
+let's say if I try to down a particular tree it looks like something like this
+
+123
+00:13:56,480 --> 00:14:01,880
+right if we try to replicate let's say this tree itself let's say I have a
+
+124
+00:14:01,880 --> 00:14:09,360
+particular level div container inside that let's say I have another two divs
+
+125
+00:14:09,360 --> 00:14:29,480
+okay this is something you can say root node then let's say I give the naming
+
+126
+00:14:29,480 --> 00:14:37,320
+convention one then two then three right let's say this is zero this is one this
+
+127
+00:14:37,320 --> 00:14:47,600
+is two then you have this is let's say three right let's make it as two three
+
+128
+00:14:47,600 --> 00:14:50,080
+fine
+
+129
+00:14:55,840 --> 00:15:04,920
+zero okay in mistake say this is one this is two this is three then you have
+
+130
+00:15:04,920 --> 00:15:21,640
+well let's say a span here an image here okay let's say this is four this is five
+
+131
+00:15:21,640 --> 00:15:31,880
+then again in this between let's say you have video here then you have input here
+
+132
+00:15:32,200 --> 00:15:42,960
+okay six seven now what we exactly meant by propagation is that whenever
+
+133
+00:15:42,960 --> 00:15:49,880
+whenever we click whenever we click something let's say we click on this
+
+134
+00:15:49,880 --> 00:15:55,760
+particular day or for the matter let's say even HTML whenever we click on a
+
+135
+00:15:55,760 --> 00:16:02,680
+whole page there are two types of propagation does happen there are two
+
+136
+00:16:02,680 --> 00:16:09,200
+types of propagation that happen one is in words second one is outwards now how
+
+137
+00:16:09,200 --> 00:16:14,240
+does we can resist like let's say you have a boxes this way our parent-child
+
+138
+00:16:14,240 --> 00:16:20,400
+relationship let's say this is a grandparent this is parent then this is
+
+139
+00:16:20,400 --> 00:16:24,680
+child now whenever you have this sort of children relationship when we say
+
+140
+00:16:24,680 --> 00:16:31,880
+grandparent parent-child let's say this is a HTML this is a div and this is
+
+141
+00:16:31,880 --> 00:16:37,640
+something like a span no whenever by default right what whatever the default
+
+142
+00:16:37,640 --> 00:16:44,120
+nature of HTML is that you know all the events usually bubbles up this is the
+
+143
+00:16:44,120 --> 00:16:51,080
+default nature default nature right whenever let's say what if what if you
+
+144
+00:16:51,080 --> 00:16:57,760
+had event listener added here when you had an event listener here okay and by
+
+145
+00:16:57,760 --> 00:17:03,720
+any chance by any chance if you click by any chance if you click on a parent
+
+146
+00:17:03,720 --> 00:17:09,680
+right let's let's see this with an example but there are you know I will
+
+147
+00:17:09,680 --> 00:17:13,880
+draw the will go to the example and we'll see basically what I'm trying to
+
+148
+00:17:13,880 --> 00:17:22,400
+say that even propagation happens in two ways which is one is called as
+
+149
+00:17:22,400 --> 00:17:32,320
+bubbling one is called as capturing okay when we say bubble in general we mean to
+
+150
+00:17:32,320 --> 00:17:36,480
+say that it comes out it bubbles out when you click a child element you will
+
+151
+00:17:36,480 --> 00:17:41,960
+be also be able to hear in the parent element okay but that's what it says
+
+152
+00:17:41,960 --> 00:17:45,760
+that like whenever you click a child element parent element will also be able
+
+153
+00:17:45,760 --> 00:17:51,160
+to listen that click but what capturing says is that if you click parent element
+
+154
+00:17:51,160 --> 00:17:55,720
+child element will also be able to listen like it works from this bubble up
+
+155
+00:17:55,720 --> 00:18:01,800
+capturing so we'll see by default nature is something called as bubbling okay by
+
+156
+00:18:01,800 --> 00:18:09,080
+default is about let's say this actual you know using HTML CSS for the better
+
+157
+00:18:09,080 --> 00:18:16,720
+understanding we'll come back to this diagram in a minute let me create a class
+
+158
+00:18:16,720 --> 00:18:30,040
+of 17 in JS part only folder class 17 which I have simple index start HTML
+
+159
+00:18:30,040 --> 00:18:37,680
+inside this let me generate auto HTML part then we'll build a simple dip like
+
+160
+00:18:37,680 --> 00:18:49,400
+the diff and I'll say this as a grandparent let's say okay inside this
+
+161
+00:18:49,400 --> 00:18:59,400
+let's say I have Dave parent so I have Dave child okay simple three dips that I
+
+162
+00:18:59,400 --> 00:19:08,040
+talked about now what I'll do here is that I'll create a script and okay
+
+163
+00:19:08,040 --> 00:19:12,960
+before this let's add some CSS to this so that will be able to identify these
+
+164
+00:19:12,960 --> 00:19:31,680
+boxes okay let's say body for this one I'll say display flex align item center
+
+165
+00:19:31,680 --> 00:19:45,480
+justify content center and have some padding across of 20 pixel okay fine or
+
+166
+00:19:45,480 --> 00:19:56,000
+let's say I can say 20 percent fine and now what I'll do is that I'll give you
+
+167
+00:19:56,000 --> 00:20:01,640
+know like a basic CS styles for this one so that we are able to play around with
+
+168
+00:20:01,640 --> 00:20:09,720
+this content okay let me pick up this part of style for each diff I added
+
+169
+00:20:09,720 --> 00:20:15,800
+minimum height and minimum width and padding around it okay let's let's go to
+
+170
+00:20:15,800 --> 00:20:30,560
+open this one and browser no okay this is what we were able to build out of
+
+171
+00:20:30,560 --> 00:20:37,760
+that but now what we'll do is that we'll also do something like we'll add what is
+
+172
+00:20:37,760 --> 00:20:48,320
+child what is parent and everything let's let me do this say child parent
+
+173
+00:20:48,320 --> 00:20:59,240
+grandparent let's say this reflects yeah fine now what I'll do simply is that I'll
+
+174
+00:20:59,280 --> 00:21:05,560
+add basic listeners to all of them now to add this listeners what we will be
+
+175
+00:21:05,560 --> 00:21:11,640
+doing it is like fairly simple getting all these elements okay getting an
+
+176
+00:21:11,640 --> 00:21:19,400
+access to the element let's say const I say that grandparent document dot query
+
+177
+00:21:19,400 --> 00:21:25,400
+selector inside this since it's an ID I'm trying to access my ID I'll say that
+
+178
+00:21:25,400 --> 00:21:35,040
+grandparent okay const then parent say document dot query selector I say
+
+179
+00:21:35,040 --> 00:21:42,880
+hashtag parent again const child
+
+180
+00:21:42,880 --> 00:21:56,760
+document dot query selector child okay so I had created a prank to access all
+
+181
+00:21:56,760 --> 00:22:02,360
+the elements which are created and no HTML so let's once we have this access
+
+182
+00:22:02,360 --> 00:22:05,840
+to this dom elements what I'll do is like I'll add a listener to each of them
+
+183
+00:22:05,840 --> 00:22:12,040
+let's say and event listener and I'll specifically listen to this click event
+
+184
+00:22:12,080 --> 00:22:18,200
+inside this click event I won't be doing anything but I'll console log let's say
+
+185
+00:22:18,200 --> 00:22:25,680
+console dot log I'll say that this is a grandparent grandparent clicked then
+
+186
+00:22:25,680 --> 00:22:33,440
+let's say I copy this I paste again twice I'll see this as a parent I'll
+
+187
+00:22:33,440 --> 00:22:41,320
+convert this as a parent I'll put it as a child I'll keep it as a child
+
+188
+00:22:41,360 --> 00:22:46,520
+so any doubts guys on this till now what we have done this is a pretty basic right
+
+189
+00:22:46,520 --> 00:22:52,360
+what we have achieved here like straightforward creator three days box
+
+190
+00:22:52,360 --> 00:22:56,080
+inside box inside box how we were able to create box we know that using a box
+
+191
+00:22:56,080 --> 00:23:00,360
+model will be able to achieve that and I've just tried to put those elements
+
+192
+00:23:00,360 --> 00:23:04,520
+in center using these properties and I tried to get access add event listeners
+
+193
+00:23:04,520 --> 00:23:09,520
+to them now let's see what's happening in the console okay I come to the
+
+194
+00:23:09,520 --> 00:23:15,040
+console now I just want you to know check on this one behavior what happens
+
+195
+00:23:15,040 --> 00:23:20,360
+like if I click here if I click here on the grandparent let's see what's what
+
+196
+00:23:20,360 --> 00:23:25,240
+we are able to see output do you see when we click it grandparent clicked is
+
+197
+00:23:25,240 --> 00:23:32,960
+something out we got it in console as an output this is the reason why this has
+
+198
+00:23:32,960 --> 00:23:36,480
+been effective because we added a listener to the grandparent and we
+
+199
+00:23:36,480 --> 00:23:44,080
+directly console dog but now what if what if I go and click on a parent if I
+
+200
+00:23:44,080 --> 00:23:49,880
+click on a parent now if you see both parent and grandparent got clicked no I
+
+201
+00:23:49,880 --> 00:23:53,680
+didn't click anything on a grandparent I didn't click any button on this
+
+202
+00:23:53,680 --> 00:23:57,960
+grandparent but grandparent automatically got clicked now this
+
+203
+00:23:57,960 --> 00:24:02,120
+particular feature is called as bubbling that am clicking something
+
+204
+00:24:02,120 --> 00:24:07,000
+innermost child element now all the parents are also getting clicked
+
+205
+00:24:07,000 --> 00:24:13,160
+automatically when the listeners are attached to it okay now let me show you
+
+206
+00:24:13,160 --> 00:24:18,440
+again if I click child now child they click then parent then grandparent are
+
+207
+00:24:18,440 --> 00:24:21,240
+you able to see this bubbling effect like how this bubbling effect is
+
+208
+00:24:21,240 --> 00:24:28,280
+happening so this is what an even propagation that by default whenever you
+
+209
+00:24:28,280 --> 00:24:33,160
+click any child element parent if parent is having a listener or any
+
+210
+00:24:33,160 --> 00:24:37,600
+subsequent parent is having listener those are those parents will be always
+
+211
+00:24:37,600 --> 00:24:42,200
+listening like when whenever you have this sort of listeners let parent have
+
+212
+00:24:42,200 --> 00:24:47,800
+it they'll listen this I hope you understand that how at even bubbling is
+
+213
+00:24:47,800 --> 00:24:52,000
+how even propagation happens in even bubbling and by default the nature of
+
+214
+00:24:52,000 --> 00:24:58,880
+this particular events whatever by default are even bubbling format okay
+
+215
+00:24:58,880 --> 00:25:07,000
+this point is clear now let's let's explore what is capturing now if you
+
+216
+00:25:07,000 --> 00:25:17,120
+see if I hover on add event listener then okay now if you see here what's
+
+217
+00:25:17,120 --> 00:25:22,760
+happening here they say that in the event add event listener first is type
+
+218
+00:25:22,760 --> 00:25:28,560
+when I say type it is talking about the event type like click mouse over mouse
+
+219
+00:25:28,560 --> 00:25:35,200
+mouse leave and everything to or like any sort of events then it it takes the
+
+220
+00:25:35,200 --> 00:25:40,520
+listener object or the function that we had now then there are multiple sets of
+
+221
+00:25:40,520 --> 00:25:45,160
+options like optional options that you can give we haven't given any option yet
+
+222
+00:25:45,160 --> 00:25:49,400
+but this is working as expected but there is a one thing that you can play
+
+223
+00:25:49,400 --> 00:25:54,240
+around with there's a one thing you can always play around with is that let's
+
+224
+00:25:54,240 --> 00:26:01,520
+say if I give here false okay let's say if I give here false what happens let's
+
+225
+00:26:01,520 --> 00:26:06,300
+say if I go and click it here still nothing is nothing is you know no
+
+226
+00:26:06,300 --> 00:26:12,280
+problem everything works fine everything is looking good but what if I go on to
+
+227
+00:26:12,280 --> 00:26:15,600
+give false everywhere
+
+228
+00:26:20,120 --> 00:26:24,400
+let's say this is a third parameter that I am adding in this add event
+
+229
+00:26:24,400 --> 00:26:29,560
+let's see if it's still affecting anything when I click child child is
+
+230
+00:26:29,560 --> 00:26:35,560
+printed parent is printed a grandparent is printed now did anyone observe
+
+231
+00:26:35,560 --> 00:26:41,240
+anything any change there do you see any change guys
+
+232
+00:26:42,280 --> 00:26:47,840
+is there any change no change right now what this third parameter is talking
+
+233
+00:26:47,840 --> 00:26:57,120
+about so firstly when we say this event listener right takes three things first
+
+234
+00:26:57,120 --> 00:27:05,240
+thing is like type of event then it takes something like a function a call
+
+235
+00:27:05,240 --> 00:27:12,960
+back function what we'll do once listeners click then you have use
+
+236
+00:27:12,960 --> 00:27:19,520
+capture now whenever you say that use capture by default is use capture is
+
+237
+00:27:19,520 --> 00:27:24,360
+set to the false the reason is that by default when you said use capture as
+
+238
+00:27:24,360 --> 00:27:30,160
+false it works in the event bubbling fashion okay now let's see if I convert
+
+239
+00:27:30,360 --> 00:27:37,480
+okay now let's see if I convert all of them into true let's say if I convert
+
+240
+00:27:37,480 --> 00:27:42,520
+them into true that I am using in the capture format now if I want to
+
+241
+00:27:42,520 --> 00:27:47,160
+propagate events or anything that according to like you in the capture
+
+242
+00:27:47,160 --> 00:27:53,360
+format even capturing let's see how this works now if you see if I click on a
+
+243
+00:27:53,360 --> 00:27:55,880
+child
+
+244
+00:27:56,480 --> 00:28:05,440
+no if I click on a child you see here first grandparent got clicked okay then
+
+245
+00:28:05,440 --> 00:28:11,560
+parent got clicked then child got clicked so event whenever you click
+
+246
+00:28:11,560 --> 00:28:16,700
+innermost element the bubbling happened from top most to bottom earlier it was
+
+247
+00:28:16,700 --> 00:28:21,760
+happening from target element to top most now it is happening from top most
+
+248
+00:28:21,760 --> 00:28:28,200
+to the target element now even if I click parent grandparent and parent
+
+249
+00:28:28,200 --> 00:28:35,040
+will be clicked is this flow clear guys how capture and bubbling differs like
+
+250
+00:28:35,040 --> 00:28:38,960
+one is going from a target element to the top the other one is come coming
+
+251
+00:28:38,960 --> 00:28:43,000
+from the top to the target element that's a basic difference between event
+
+252
+00:28:43,000 --> 00:28:47,120
+bubbling and capturing opposite to each other by default you'll seen bubbling
+
+253
+00:28:47,120 --> 00:28:53,560
+nature now what if what if you don't want this behavior to happen why like
+
+254
+00:28:53,560 --> 00:28:58,560
+how these there is any way that we can stop this event flow like sometimes you
+
+255
+00:28:58,560 --> 00:29:02,720
+don't want to leverage this flow like if there is something that we can stop it
+
+256
+00:29:02,720 --> 00:29:08,460
+so for in order to stop this execution a like what you have is like you have one
+
+257
+00:29:08,460 --> 00:29:14,880
+of the ability called stop event propagation okay now how can you do
+
+258
+00:29:14,880 --> 00:29:21,960
+that how can you do that let's say if I have here event okay I say that event
+
+259
+00:29:21,960 --> 00:29:30,040
+dot stop propagation once I call this event inside the listener I mean call
+
+260
+00:29:30,040 --> 00:29:33,280
+back function let's say when you when you are exiting callback callback
+
+261
+00:29:33,280 --> 00:29:39,440
+function let's see if this is working fine now what if we are able to stop the
+
+262
+00:29:39,440 --> 00:29:45,960
+propagation and we are in the capture phase if I click child what should be
+
+263
+00:29:45,960 --> 00:29:55,520
+the output we are in even capture phase it should start from the topmost
+
+264
+00:29:55,520 --> 00:30:02,200
+element and come to the child you know target element grandparent parent then
+
+265
+00:30:02,680 --> 00:30:12,920
+okay how many of you are agreeing with Arun Sambit okay great now let's see if
+
+266
+00:30:12,920 --> 00:30:24,640
+I click on a child still do you see do you see child didn't even print it though
+
+267
+00:30:24,640 --> 00:30:31,160
+we added listener to the child though we added listener to the child since we
+
+268
+00:30:31,160 --> 00:30:38,200
+had stop propagation in the parent element itself and the parent element
+
+269
+00:30:38,200 --> 00:30:43,680
+itself we had stop propagation so it didn't let this listener this console
+
+270
+00:30:43,680 --> 00:30:49,800
+lock print or it didn't let execute this callback function is this clear how this
+
+271
+00:30:49,800 --> 00:30:54,680
+event propagation works like doesn't matter where you click what you do if
+
+272
+00:30:54,680 --> 00:31:01,080
+in the flow it stops stops like that flow completely now let's say even if I
+
+273
+00:31:01,080 --> 00:31:07,320
+click let's convert this into bubbling format and let's see what's the
+
+274
+00:31:07,320 --> 00:31:12,080
+difference now when I'm trying to bubble it now if I click on a child again it
+
+275
+00:31:12,080 --> 00:31:18,120
+goes from target element to parent or topmost element now when I click child
+
+276
+00:31:18,120 --> 00:31:22,880
+let's say if you see child and parent got printed but grandparent didn't
+
+277
+00:31:22,880 --> 00:31:27,680
+print because we stopped propagation there itself so I hope this point is
+
+278
+00:31:27,680 --> 00:31:36,440
+clear like how stop propagation works so the reason behind right why we don't
+
+279
+00:31:36,440 --> 00:31:41,680
+use this even propagation we should know this concept but if you see this like
+
+280
+00:31:41,680 --> 00:31:45,640
+how events are flowing how the events have been triggered it's really tricky
+
+281
+00:31:45,640 --> 00:31:51,360
+to handle or you know build a code on this one so it is suggested that you
+
+282
+00:31:51,360 --> 00:31:55,760
+try to you know you can take advantage to it but if you are really great with
+
+283
+00:31:55,760 --> 00:31:59,720
+but if someone beginner comes or someone new to this project it would be really
+
+284
+00:31:59,720 --> 00:32:05,120
+difficult for him to understand how bubbling and you know like capturing is
+
+285
+00:32:05,120 --> 00:32:09,080
+working up to an extent of a whole when a whole project is built on that sort of
+
+286
+00:32:09,080 --> 00:32:16,280
+idea okay so it's good to build what if stop propagating at a grandparent and
+
+287
+00:32:16,280 --> 00:32:24,680
+it will block the parent okay let's see this let's say this I cut it here and
+
+288
+00:32:24,720 --> 00:32:29,560
+make it true okay
+
+289
+00:32:31,960 --> 00:32:39,280
+no case I'm in the capturing phase I know what if I click on a child element
+
+290
+00:32:39,280 --> 00:32:50,560
+what could be the out of output of it I'm in capturing face just think of it
+
+291
+00:32:50,560 --> 00:32:57,360
+some bit think of it triparty
+
+292
+00:33:03,760 --> 00:33:10,600
+okay yeah so only GP people just like let's say if I click on a child if you
+
+293
+00:33:10,600 --> 00:33:16,000
+see only grandparent got clicked even if I'm clicking child or parent okay
+
+294
+00:33:16,200 --> 00:33:20,880
+anything so that's how even propagation works so it is not suggested to play
+
+295
+00:33:20,880 --> 00:33:24,600
+around with this event bubbling and you know capturing at a bigger extent
+
+296
+00:33:24,600 --> 00:33:31,240
+because that's confuses people even it's really difficult to build project
+
+297
+00:33:31,240 --> 00:33:36,600
+according to this okay I hope this points is clear guys how even bubbling
+
+298
+00:33:36,600 --> 00:33:40,280
+capturing works and even propagation works if someone asked you into would
+
+299
+00:33:40,280 --> 00:33:45,080
+would you be able to answer taking the simple example just like from target
+
+300
+00:33:45,080 --> 00:33:48,680
+element to complete outwards or complete outwards to the target element
+
+301
+00:33:48,680 --> 00:33:55,360
+two flows by default it bubbles up any doubts on this topic guys anyone having
+
+302
+00:33:55,360 --> 00:34:06,880
+any challenge understanding this topic can we go ahead with machine coding cool
+
+303
+00:34:06,880 --> 00:34:20,280
+so let's say simply we can say that when when we put an event prop will block
+
+304
+00:34:20,280 --> 00:34:25,440
+all the child yeah propagation will block it however you define depending on
+
+305
+00:34:25,440 --> 00:34:30,480
+the concept whether coming inverse or going outwards it will stop outgoing
+
+306
+00:34:30,480 --> 00:34:42,360
+thing counter dot HTML let's say I have this counter dot HTML firstly I'll show
+
+307
+00:34:42,360 --> 00:34:48,920
+you what I exactly mean like how we want to build this counter let me open my new
+
+308
+00:34:48,920 --> 00:34:55,960
+other repository and launch it and show it to this second guys
+
+309
+00:35:01,320 --> 00:35:10,480
+no this is really basic don't judge me on my CSS but if you see it here can you
+
+310
+00:35:10,480 --> 00:35:19,360
+guys see this let me know if you can see the screen okay can you see this on
+
+311
+00:35:19,360 --> 00:35:24,280
+screen okay now so what happens in many of the machine coding runs or what I
+
+312
+00:35:24,280 --> 00:35:30,360
+faced it from my experience or I'll tell you a few things what happens right some
+
+313
+00:35:30,360 --> 00:35:35,640
+times in some use cases you may not be given a complete problem to solve you
+
+314
+00:35:35,640 --> 00:35:40,400
+will be given a partially completed problem where you have to understand the
+
+315
+00:35:40,400 --> 00:35:46,680
+document they give and the code it is already written so the it will have a
+
+316
+00:35:46,680 --> 00:35:51,240
+combination of such that you understand the code and fix the issues in the code
+
+317
+00:35:51,240 --> 00:35:56,560
+existing like they'll create a box in the existing code okay so firstly will
+
+318
+00:35:56,560 --> 00:35:59,940
+understand like hey can you fix this issue can you fix that issue once you do
+
+319
+00:35:59,940 --> 00:36:05,260
+this you'll also have an ability like next would thing would be like you add
+
+320
+00:36:05,260 --> 00:36:11,980
+on some features to the existing project okay so that's a one type of LLD rounds
+
+321
+00:36:11,980 --> 00:36:16,780
+whereas other types of LLD rounds are basically based on building a simple
+
+322
+00:36:16,780 --> 00:36:22,540
+components where end-to-end things you have to build in one hour or given a
+
+323
+00:36:22,540 --> 00:36:26,260
+time there are some times that they'll give will they'll give you a use case
+
+324
+00:36:26,260 --> 00:36:31,740
+where you have to build end-to-end things so you can't they won't stop you
+
+325
+00:36:31,740 --> 00:36:36,260
+from taking advantage of library or mostly they if they are it's a pair
+
+326
+00:36:36,260 --> 00:36:40,180
+programming they'll stop you from using AI tools though they'll allow you to do
+
+327
+00:36:40,180 --> 00:36:45,740
+it in company but they might not allow you to do it in interview process is this
+
+328
+00:36:45,740 --> 00:36:53,220
+clear what type of rounds are expected at LLD level in front end okay so if I
+
+329
+00:36:53,220 --> 00:37:03,060
+try to summarize again like simple thing complete
+
+330
+00:37:03,420 --> 00:37:06,420
+scratch
+
+331
+00:37:09,700 --> 00:37:17,940
+to full feature this will be small questions there will be some incomplete
+
+332
+00:37:17,940 --> 00:37:20,300
+projects
+
+333
+00:37:23,260 --> 00:37:30,900
+incomplete projects deep so I'll tell you what sort of skills are tested on
+
+334
+00:37:30,900 --> 00:37:38,220
+this thing okay so here your skills of like how are you trying to build
+
+335
+00:37:38,220 --> 00:37:42,060
+everything like from end to end when you're doing end to end right so your
+
+336
+00:37:42,060 --> 00:37:50,220
+thinking process will be common for both the things but when you build end to end
+
+337
+00:37:50,220 --> 00:37:55,980
+project right this is like more important around this will be like for
+
+338
+00:37:55,980 --> 00:38:01,340
+the initial levels screening okay once you are able to only clear this will
+
+339
+00:38:01,340 --> 00:38:07,500
+come to incomplete project where you will be tested on debugging like how we
+
+340
+00:38:07,500 --> 00:38:13,660
+are able to debug existing code because you have to fix defects debugging is
+
+341
+00:38:13,660 --> 00:38:28,500
+important for fixing defects and understanding existing code okay once
+
+342
+00:38:28,500 --> 00:38:37,740
+you're able to do it then creating or building
+
+343
+00:38:41,620 --> 00:38:56,580
+add-on implementation okay here more leaf when you do from scratch clean code
+
+344
+00:38:56,580 --> 00:39:07,580
+clean code should be opted okay now but I hope you understood these two points
+
+345
+00:39:07,580 --> 00:39:12,860
+like how LLD goes when it comes to front end right there will be there can be two
+
+346
+00:39:12,860 --> 00:39:17,340
+rounds and there can be both the rounds for some companies okay some might give
+
+347
+00:39:17,340 --> 00:39:21,580
+complete scratch one some people might give incomplete project and try to help
+
+348
+00:39:21,580 --> 00:39:25,340
+you know you should have been working and understand the existing code and
+
+349
+00:39:25,340 --> 00:39:31,060
+then debug it and complete it that's the reason why that is the reason why I
+
+350
+00:39:31,060 --> 00:39:35,500
+also parallelly debug and show you that how I'm doing it whether it is in
+
+351
+00:39:35,500 --> 00:39:42,660
+browser or whether it in visual studio code okay I hope you follow each and
+
+352
+00:39:42,660 --> 00:39:56,700
+everything okay guys is that clear no now comes the point is that now let's
+
+353
+00:39:56,700 --> 00:40:00,820
+say there is some interview interview when you go and someone says that hey
+
+354
+00:40:00,820 --> 00:40:06,060
+you have to build this you have to build this this encounter he won't talk much
+
+355
+00:40:06,060 --> 00:40:09,860
+he'll say he'll say that have to build this now you go and test it out let's
+
+356
+00:40:09,860 --> 00:40:18,260
+say if I say increment by five okay and I click on let's say plus so it is added
+
+357
+00:40:18,260 --> 00:40:23,900
+by five each time if I reduce each time it is reducing by five what if I go on
+
+358
+00:40:23,900 --> 00:40:30,980
+increase by six no it is increasing by six but the route the thing you have to
+
+359
+00:40:30,980 --> 00:40:37,100
+work on is each time they are updating the item is not being reset to zero but
+
+360
+00:40:37,100 --> 00:40:43,660
+it is keep on adding to that existing value okay and on click of reset the
+
+361
+00:40:43,660 --> 00:40:51,860
+value is becoming zero is this clear is the functionality wise now you guys
+
+362
+00:40:51,860 --> 00:40:59,460
+will help me out to build end-to-end a simple HTML CSS and JS now you have to
+
+363
+00:40:59,460 --> 00:41:04,780
+help me out build this one now first and foremost thing what we'll do is that
+
+364
+00:41:04,780 --> 00:41:14,700
+we'll build it HTML okay no can anyone okay you guys help me out what we want
+
+365
+00:41:14,700 --> 00:41:23,020
+to do it I'll just open a file let's say this is an in default HTML file no let's
+
+366
+00:41:23,020 --> 00:41:29,540
+make this a div container let's say our Dave with a container class keep on
+
+367
+00:41:29,540 --> 00:41:33,820
+pitching it guys now why have this container what should I contain inside
+
+368
+00:41:33,820 --> 00:41:36,420
+this container
+
+369
+00:41:45,180 --> 00:41:54,260
+okay counter text h1 counter text okay let's say if I make this h1 okay counter
+
+370
+00:41:54,300 --> 00:42:11,700
+okay cool then then yeah great guys next one before input you have something a
+
+371
+00:42:11,700 --> 00:42:24,140
+number before label also guys do you see output value you see this output
+
+372
+00:42:24,140 --> 00:42:31,220
+value in orange color how would you address that one so Abhishek Pratap has
+
+373
+00:42:31,220 --> 00:42:37,780
+given everything no let's say can I say this way they've dev dot let's say
+
+374
+00:42:37,780 --> 00:42:46,420
+hashtag number and I give it zero let me open or show preview also on the site so
+
+375
+00:42:46,420 --> 00:42:50,540
+that you can see step by step what we are doing currently we have built this
+
+376
+00:42:50,540 --> 00:42:59,180
+one now then we have input value right let me build this one I'll say there's
+
+377
+00:42:59,180 --> 00:43:10,940
+a div a simple live I'll have like increment or decrement by
+
+378
+00:43:13,220 --> 00:43:19,660
+once I have written this then I can have input element
+
+379
+00:43:20,740 --> 00:43:33,380
+okay and type would be what could be the type guys number right number so that
+
+380
+00:43:33,380 --> 00:43:38,820
+you have a element anything you can add it but you cannot type down anything
+
+381
+00:43:38,820 --> 00:43:45,300
+string well like string data where it is a data now what's the next thing plus
+
+382
+00:43:45,300 --> 00:43:55,020
+and minus button div then inside two buttons right let's say I have div then
+
+383
+00:43:55,020 --> 00:44:04,500
+inside that I'll have button and let's say ID would be add and inside that add
+
+384
+00:44:05,100 --> 00:44:19,340
+to give it I'll give it as plus icon then button hashtag subtract then I'll
+
+385
+00:44:19,340 --> 00:44:26,940
+give minus let's say this one get the better sheet now after this you have
+
+386
+00:44:26,940 --> 00:44:38,460
+reset but isn't it now let's say I have again button hashtag reset I have this
+
+387
+00:44:38,460 --> 00:44:47,740
+reset okay I hope this is clear a basic pretty simple thing anyone having any
+
+388
+00:44:47,740 --> 00:44:51,460
+doubts this thing everyone would be able to do this one right if someone asks you
+
+389
+00:44:51,460 --> 00:44:57,380
+to build this layout pretty simple straight forward now now comes the
+
+390
+00:44:57,380 --> 00:45:01,740
+styles let's say if we are trying to add styles here itself for the class
+
+391
+00:45:01,740 --> 00:45:09,700
+purpose I'm adding it here okay now let's say what you are seeing here okay
+
+392
+00:45:09,700 --> 00:45:19,060
+container let's say a container so display is flex okay I see all the items
+
+393
+00:45:19,060 --> 00:45:25,860
+went justify content center and center
+
+394
+00:45:27,180 --> 00:45:33,300
+cool now do you guys see any issues here
+
+395
+00:45:35,820 --> 00:45:41,700
+okay can can anyone fix this so whatever is comments I get it I'll try to add
+
+396
+00:45:41,700 --> 00:45:47,500
+that one other people will help me out okay flex direction column let's say I
+
+397
+00:45:47,540 --> 00:45:54,900
+have flex direction column cool now now comes the next thing let me show you
+
+398
+00:45:54,900 --> 00:45:57,180
+this
+
+399
+00:45:57,180 --> 00:46:16,140
+no for buttons okay there's a margin and okay let's say I have a margin of 10
+
+400
+00:46:16,140 --> 00:46:38,540
+pixel okay fine now then border 2 pixel solid black okay then gap of 10 okay
+
+401
+00:46:38,540 --> 00:46:53,100
+let's say if I give gap of 10 pixel okay good no border radius of one rim
+
+402
+00:46:55,700 --> 00:47:06,660
+let's say I convert this into rem units itself let's say 0.7 rim I keep it a 0.7
+
+403
+00:47:06,660 --> 00:47:25,460
+rim so 0.2 rim okay cool now okay height 25 VH
+
+404
+00:47:26,180 --> 00:47:42,820
+the height VH 25 VH is not helpful make it 45 good no a basic set of colors a
+
+405
+00:47:43,820 --> 00:48:00,340
+basic set of colors like let's say hashtag firstly let's let's make it
+
+406
+00:48:00,340 --> 00:48:04,900
+style that reset button okay let's style that reset button it's come step by step
+
+407
+00:48:04,900 --> 00:48:09,220
+going from the bottom reset button
+
+408
+00:48:11,820 --> 00:48:27,540
+busy color coral button blue okay let's say hashtag reset background color
+
+409
+00:48:27,580 --> 00:48:36,460
+coral cool no after that
+
+410
+00:48:36,460 --> 00:49:03,780
+let's make this lighter one okay let's add up order radius of 0.15
+
+411
+00:49:03,780 --> 00:49:18,500
+rim this is not enough let's make it one rim itself okay now this one thing
+
+412
+00:49:18,500 --> 00:49:36,220
+and okay let's make this hashtag ID
+
+413
+00:49:48,500 --> 00:50:11,620
+fine now the color for this content ID number is left okay so what color I have
+
+414
+00:50:11,620 --> 00:50:22,780
+coral well that's a tomato fine so I hope this this is something orange okay
+
+415
+00:50:22,780 --> 00:50:30,220
+anything yes I hope this is pretty basic and clear right whenever you see a
+
+416
+00:50:30,220 --> 00:50:35,380
+layout you will be able to imagine how that layout was built and what it might
+
+417
+00:50:35,380 --> 00:50:40,460
+need to require to build that one okay I hope that amount of confidence you as
+
+418
+00:50:40,500 --> 00:50:50,060
+you guys are getting it now by now okay now comes the JS path logic part now
+
+419
+00:50:50,060 --> 00:50:53,620
+let's say how would you approach this one let's I have a script tag here
+
+420
+00:50:53,620 --> 00:51:00,980
+itself okay once I have the script tag now let me know what I want to write
+
+421
+00:51:00,980 --> 00:51:04,780
+because this is something that you are going to teach me out I'm not going to
+
+422
+00:51:04,780 --> 00:51:09,580
+teach you out because this is pretty simple example get the access to the
+
+423
+00:51:09,580 --> 00:51:19,780
+required buttons help me out help me out let's say I have add
+
+424
+00:51:20,820 --> 00:51:24,540
+const subtract
+
+425
+00:51:24,540 --> 00:51:44,500
+then you have reset okay okay now how can I get access to this one document
+
+426
+00:51:44,700 --> 00:51:56,340
+query selector inside this I have to give something no tell me or guess what
+
+427
+00:51:56,340 --> 00:52:01,020
+I should add like for the ad if I want to get at okay this is the suggestions
+
+428
+00:52:01,020 --> 00:52:11,660
+hashtag add and then let's say hashtag subtract okay then you have something
+
+429
+00:52:11,820 --> 00:52:20,460
+like reset okay so this buttons are clear enough to us now you have input
+
+430
+00:52:20,460 --> 00:52:29,980
+element also now in order to get input element let's say I can say const I can
+
+431
+00:52:29,980 --> 00:52:44,940
+say something like counter underscore increment or decrement okay document
+
+432
+00:52:44,940 --> 00:52:53,540
+dot query selector okay I'll get an access to this one as we don't have here
+
+433
+00:52:53,540 --> 00:52:58,540
+anything entered now let's give some information here okay let's give
+
+434
+00:52:58,540 --> 00:53:13,300
+something ID as increment or underscore decrement okay let's select this ID
+
+435
+00:53:13,300 --> 00:53:28,460
+hashtag okay then we had const counter document dot query selector inside this
+
+436
+00:53:28,460 --> 00:53:39,300
+if you see I have number hashtag number cool so guys did we get access to all
+
+437
+00:53:39,300 --> 00:53:46,380
+the things that we need now great now what could be the next step what could
+
+438
+00:53:46,380 --> 00:53:52,180
+be the next step what would be the next step
+
+439
+00:53:55,900 --> 00:54:03,180
+add click listeners to add okay add event listeners to let's say add dot add
+
+440
+00:54:03,180 --> 00:54:15,140
+event listener now let's say I added a event listener here then do I need to
+
+441
+00:54:15,140 --> 00:54:27,900
+add even further it further more event listeners right now let's say I have to
+
+442
+00:54:27,900 --> 00:54:35,380
+add further more listeners now what all event listeners I need for subtract and
+
+443
+00:54:35,380 --> 00:54:51,460
+then reset anything else guys and do we need to listen to click for all of them
+
+444
+00:54:51,500 --> 00:55:01,740
+now now comes the role play now tell me what we have to do now let's say on
+
+445
+00:55:01,740 --> 00:55:14,180
+click of add what we'll do let's say I have a event okay no on click of I event
+
+446
+00:55:14,180 --> 00:55:20,740
+let's say I have one user clicked on plus what should happen on add get the
+
+447
+00:55:20,740 --> 00:55:24,740
+value from the input add to the update the value of the number with the
+
+448
+00:55:24,740 --> 00:55:31,340
+counter plus input value great the it's it's great how do I get access get value
+
+449
+00:55:31,340 --> 00:55:37,660
+from the number that's my question that's my question how do you get it
+
+450
+00:55:37,660 --> 00:55:44,580
+value from that input value what is the where that input get attribute works
+
+451
+00:55:44,580 --> 00:55:50,620
+fine but on the form elements you can directly get using one of the value on
+
+452
+00:55:50,620 --> 00:55:56,740
+event or target dot value we won't be having that because on that's a click
+
+453
+00:55:56,740 --> 00:56:04,100
+event is for add button okay now few people suggested that let's say I say
+
+454
+00:56:04,100 --> 00:56:13,580
+current number if I say current number and I just keep that counter okay I get
+
+455
+00:56:13,580 --> 00:56:26,220
+the counter dot value whether this will give me the value current value
+
+456
+00:56:29,220 --> 00:56:36,980
+no so that's that's present in the div that's present in the div isn't it so we
+
+457
+00:56:36,980 --> 00:56:46,860
+can get it in a text okay once this is done how can we convert this one into
+
+458
+00:56:46,860 --> 00:56:54,940
+integer how can we convert this into integer percent
+
+459
+00:57:01,420 --> 00:57:06,140
+this is clear like how current number we are able to get access to this
+
+460
+00:57:06,140 --> 00:57:19,780
+particular number now let's say I have another variable called once increment
+
+461
+00:57:19,780 --> 00:57:35,620
+or decrement by let's say I have this one now how would you get this
+
+462
+00:57:36,300 --> 00:57:43,660
+can I do this increment decrement dot value
+
+463
+00:57:50,380 --> 00:57:56,340
+right input dot value that's how I convert this also pass end not
+
+464
+00:57:56,340 --> 00:58:01,820
+necessarily needed but let's for the safe side no so we got the two numbers
+
+465
+00:58:01,820 --> 00:58:08,500
+now how we should be able to update it how we should be able to update it same
+
+466
+00:58:08,500 --> 00:58:23,020
+thing counter dot in a text equal to current number plus increment decrement
+
+467
+00:58:23,220 --> 00:58:32,180
+right so I hope you guys all agree with this one let's say default number I put
+
+468
+00:58:32,180 --> 00:58:40,340
+it as one now and let's say I also have here let's say this is a zero by default
+
+469
+00:58:40,340 --> 00:58:48,700
+and here inside this value let me give it one as a number okay no once I click
+
+470
+00:58:48,700 --> 00:58:52,860
+this what should be the value of this particular value once I click plus now
+
+471
+00:58:52,860 --> 00:58:59,180
+it should be updated as one right as per our idea let's say this is working fine
+
+472
+00:58:59,180 --> 00:59:04,120
+if I convert into two it's working fine three great guys now now comes a
+
+473
+00:59:04,120 --> 00:59:09,500
+subtract part isn't it same things that we have to use it only one operation
+
+474
+00:59:09,500 --> 00:59:12,420
+that we have to change
+
+475
+00:59:17,180 --> 00:59:24,860
+just change the sign cool no let's say I update this then I am able to reduce it
+
+476
+00:59:24,860 --> 00:59:30,140
+cool but I want to do something I want to handle one of the use case you guys
+
+477
+00:59:30,140 --> 00:59:38,820
+have to help me out I don't want negative outputs negative numbers if
+
+478
+00:59:38,860 --> 00:59:46,180
+let's say if I my current number is by 3 and I'm decrementing by 5 reset it to 0
+
+479
+00:59:46,180 --> 00:59:57,020
+reset it to 0 but don't give me negative okay so can we do it this way like if I
+
+480
+00:59:57,460 --> 01:00:12,180
+can write this condition if only greater than 0 execute this statement else apply
+
+481
+01:00:12,180 --> 01:00:16,060
+zero a basic condition
+
+482
+01:00:19,540 --> 01:00:24,540
+no if I'm trying to reduce it let's say it is always on the zero if I have
+
+483
+01:00:24,540 --> 01:00:32,100
+further it can reduce to 2 1 it won't let's let us take the negative number
+
+484
+01:00:32,100 --> 01:00:40,260
+this is clear now on click of reset what we should be doing it let's say I have
+
+485
+01:00:40,260 --> 01:00:47,100
+this number and also let's say I have this number now what should be the two
+
+486
+01:00:47,100 --> 01:00:55,340
+things that we should be doing on the click of reset make it 0 input value
+
+487
+01:00:55,340 --> 01:01:00,460
+equal to default no input value equal to default let's get that input value
+
+488
+01:01:00,460 --> 01:01:12,460
+equal to default let's make that dot value equal to 0 once we make this reset
+
+489
+01:01:12,460 --> 01:01:18,860
+button then also counter dot in a text equal to 0
+
+490
+01:01:22,700 --> 01:01:29,500
+to 0 let's let's make this input value in y1 let's see this if this is working
+
+491
+01:01:29,500 --> 01:01:36,780
+fine I have this random number let's say 3 then I increase it then I'm reducing
+
+492
+01:01:36,940 --> 01:01:46,260
+it if I click reset this is working fine so how does it feel guys is it simple
+
+493
+01:01:46,260 --> 01:01:50,060
+like machine coding would be able to do this sort of problems if asked in
+
+494
+01:01:50,060 --> 01:02:00,260
+interview straight forward and simple isn't it so now now I have one more
+
+495
+01:02:00,260 --> 01:02:08,780
+interesting question that we can pick it up okay this is going to be bit
+
+496
+01:02:08,780 --> 01:02:18,820
+tricky okay let me show you that give me a second how it would look like
+
+497
+01:02:18,960 --> 01:02:34,180
+but great guys you are able to follow up I'm really proud of that point now you
+
+498
+01:02:34,180 --> 01:02:40,740
+are able to see the star component now again some basic HTML CSS but now I have
+
+499
+01:02:40,740 --> 01:02:44,580
+this I have when I click this I'm getting count as 2 if I'm clicking this
+
+500
+01:02:44,580 --> 01:02:53,220
+getting count as 3 then 2 and then 1 okay I hope this is you are able to get
+
+501
+01:02:53,220 --> 01:02:58,460
+it how this is have to be built and what is the logic behind it okay so one thing
+
+502
+01:02:58,460 --> 01:03:03,260
+I'll do is that since this is the last topic for today's class I am making it
+
+503
+01:03:03,260 --> 01:03:09,740
+much lighter today or else we can pick it up one more question if we want to
+
+504
+01:03:09,740 --> 01:03:14,740
+but what we'll do is that I'll give a five minutes break you guys figure it
+
+505
+01:03:14,740 --> 01:03:20,740
+out how you can build this one we'll come back and we'll build okay some
+
+506
+01:03:20,740 --> 01:03:25,660
+which says let's pick two three more I'll give it as a homework some bit
+
+507
+01:03:25,660 --> 01:03:33,180
+because I have a number of questions that you can solve and number of
+
+508
+01:03:33,180 --> 01:03:38,260
+questions that you have to solve because people were asking me like they need a
+
+509
+01:03:38,300 --> 01:03:45,380
+few set of questions 2.5 that would be a part of a homework what currently we are
+
+510
+01:03:45,380 --> 01:03:54,180
+building like to build like whole thing you should be able to give 2.5 okay so
+
+511
+01:03:54,180 --> 01:03:58,020
+you should be able to figure out like how like if I'm clicking on the left
+
+512
+01:03:58,020 --> 01:04:01,860
+part of but the so you have to figure it out how we could be able to do this but
+
+513
+01:04:01,860 --> 01:04:08,660
+let's come back okay I'll give a five minutes a break then we'll come back and
+
+514
+01:04:08,660 --> 01:04:11,900
+build this one okay
+
+515
+01:04:14,300 --> 01:04:19,980
+today is going to be shorter class I believe you know so starting the timer
+
+516
+01:04:19,980 --> 01:04:31,780
+guys okay seven minutes I can give it no issues since classes shorter today okay
+
+517
+01:04:31,780 --> 01:04:34,360
+you
+
+518
+01:05:01,780 --> 01:05:04,360
+you
+
+519
+01:05:31,780 --> 01:05:34,040
+you
+
+520
+01:06:01,780 --> 01:06:04,040
+you
+
+521
+01:06:31,780 --> 01:06:34,040
+you
+
+522
+01:07:01,780 --> 01:07:04,040
+you
+
+523
+01:07:31,780 --> 01:07:34,040
+you
+
+524
+01:08:01,780 --> 01:08:04,040
+you
+
+525
+01:08:31,780 --> 01:08:34,040
+you
+
+526
+01:09:01,780 --> 01:09:04,040
+you
+
+527
+01:09:31,780 --> 01:09:34,040
+you
+
+528
+01:10:01,780 --> 01:10:04,040
+you
+
+529
+01:10:31,780 --> 01:10:34,040
+you
+
+530
+01:11:02,300 --> 01:11:04,360
+you
+
+531
+01:11:04,360 --> 01:11:30,440
+guys I hope everyone is back
+
+532
+01:11:30,440 --> 01:11:39,720
+ok so Pradeep was asking me to re-explain the subtract part so Pradeep the only thing that
+
+533
+01:11:39,720 --> 01:11:46,600
+change we had done in subtract is that I don't want to address negative values in the output
+
+534
+01:11:46,600 --> 01:11:52,400
+so whenever I'm doing a subtraction between current number and increment decrement by
+
+535
+01:11:52,400 --> 01:11:58,640
+I'm only if it is greater than if subtraction is greater than 0 then I'm doing a subtraction
+
+536
+01:11:58,640 --> 01:12:10,440
+or I'm resetting it the value of 0 I hope this point is clear Pradeep ok still it is not clear
+
+537
+01:12:10,440 --> 01:12:17,520
+so let's say if you see my current number is 5 and I'm trying to reduce what should be the
+
+538
+01:12:17,520 --> 01:12:30,240
+value if I click on minus 4 then 3 then 2 and then 1 then what could be the next value 0 now
+
+539
+01:12:30,240 --> 01:12:39,660
+if I try to subtract further minus 1 minus 2 right but if I am clicking it again do you see
+
+540
+01:12:39,660 --> 01:12:48,220
+the value is getting subtracted further no right so I was trying to handle this edge case
+
+541
+01:12:48,220 --> 01:12:53,860
+where I'm saying that in output what if you don't want the negative values so I was saying
+
+542
+01:12:53,860 --> 01:12:59,220
+that whenever I'm updating the counter inner text value this inner text value I was saying
+
+543
+01:12:59,220 --> 01:13:05,860
+that hey whenever you are doing a subtraction compare this is a tertiary operator I hope you
+
+544
+01:13:05,860 --> 01:13:11,420
+understand tertiary operator how does it work I'm checking if the subtraction is only greater
+
+545
+01:13:11,420 --> 01:13:19,020
+than 0 then subtract and assign this value to the counter or else assign 0 to it like even if I'm
+
+546
+01:13:19,020 --> 01:13:27,340
+reducing minus 1 the value becomes minus 1 so it is resetting it with 0 I hope this point is
+
+547
+01:13:27,340 --> 01:13:33,340
+clear how this works this is equivalent to if condition then if and else condition simple if
+
+548
+01:13:33,340 --> 01:13:42,700
+else condition okay great so guys let's start get started with other example if you are still
+
+549
+01:13:42,700 --> 01:13:48,300
+interested in pursuing another example we'll pick it up OTP today then we'll have further examples
+
+550
+01:13:48,300 --> 01:14:04,540
+in next class okay star dot HTML okay let's make it star rating okay let's close this let's open
+
+551
+01:14:04,540 --> 01:14:17,100
+this no default HTML 5 this again as you suggested me earlier I need your help again so you are in
+
+552
+01:14:17,100 --> 01:14:23,820
+interview again you are given a discretion so what could be your approach firstly let's build
+
+553
+01:14:23,820 --> 01:14:41,460
+HTML itself let's build HTML itself firstly guys is everyone the class one by one thing
+
+554
+01:14:41,460 --> 01:14:51,460
+let's say I'll start typing it down div with a container okay once I have the container inside
+
+555
+01:14:51,460 --> 01:15:04,700
+that I have same h1 tag as earlier with the star component then I'm supposed to have a list of
+
+556
+01:15:04,700 --> 01:15:15,380
+stars inside the dev let's say dev dot class star container okay we'll come to stars how can you
+
+557
+01:15:15,380 --> 01:15:19,620
+build the stars and we'll come to that now let's say next time next thing we have is something like
+
+558
+01:15:19,620 --> 01:15:26,020
+ratings count okay font also we can leverage right agree now then you have something like
+
+559
+01:15:26,540 --> 01:15:38,820
+let's say h2 inside that I can say that ratings count and I'll say this way and I'll keep the
+
+560
+01:15:38,820 --> 01:16:00,140
+value let's span zero to ID I'll give us count ID for just for reference now now let's let's
+
+561
+01:16:00,140 --> 01:16:12,620
+explore this one how does how does this should work firstly for icons if you go to font awesome
+
+562
+01:16:12,620 --> 01:16:27,540
+and go to the icons I say star I have this star icon whatever we need right we have fs
+
+563
+01:16:27,540 --> 01:16:34,940
+solid fs star both things are there but do you know so how many of you understand difference
+
+564
+01:16:34,940 --> 01:16:47,340
+between ascii and utf it how many of you understand difference between ascii and utf it
+
+565
+01:16:47,340 --> 01:16:59,460
+doesn't even know what ascii values are or what utf values are okay so ascii values are in general
+
+566
+01:16:59,460 --> 01:17:07,380
+starts from a to Z capital A to capital Z and zero to nine so all these numbers are ranging
+
+567
+01:17:07,380 --> 01:17:16,020
+in ascii value so basically initially when applications were built mostly they have
+
+568
+01:17:16,060 --> 01:17:23,820
+based on ascii support okay what whatever you see that you know like deep by default ascii
+
+569
+01:17:23,820 --> 01:17:30,420
+was something was considered but utf8 was like used for global which has a 8 encoding bit where
+
+570
+01:17:30,420 --> 01:17:37,340
+you can go and build you know as many characters you want like if it's a Chinese or Telugu or
+
+571
+01:17:37,340 --> 01:17:42,740
+Hindus Hindi scripts all those things can be still written on the websites and right they can be
+
+572
+01:17:42,740 --> 01:17:49,060
+leveraged or anything so such kind of things can be encoded in the utf8 that's the reason why
+
+573
+01:17:49,060 --> 01:17:57,020
+whenever you see in the meta care set they say that this particular HTML is utf8 compatible it's
+
+574
+01:17:57,020 --> 01:18:02,980
+not only ascii compatible but it is utf8 like a wrapper where you can also write Hindi Telugu
+
+575
+01:18:02,980 --> 01:18:07,980
+English right whenever you go for if you remember when we were using when we're trying to use a
+
+576
+01:18:07,980 --> 01:18:13,900
+font family for like when we are learning font family we saw that every different type
+
+577
+01:18:13,900 --> 01:18:18,940
+of language can be rendered in HTML and HTML should be able to understand and render it right
+
+578
+01:18:18,940 --> 01:18:24,500
+so that that's that's where utf8 comes into the role I hope this difference is clear basic
+
+579
+01:18:24,500 --> 01:18:30,580
+difference like ascii goes from A to Z A to Z and zero to nine but utf8 is much more than like
+
+580
+01:18:30,580 --> 01:18:37,620
+everything comes into it okay just an encoding but now what I was trying to point out is that if
+
+581
+01:18:37,660 --> 01:18:46,900
+you want to use font awesome that's very good idea but there is something also like utf8 icons
+
+582
+01:18:46,900 --> 01:18:54,260
+HTML let's say if you go and see right miss all the icons there are different sort of icons by
+
+583
+01:18:54,260 --> 01:19:01,660
+default HTML will provide you we didn't explore this one yet but we are exploring this one because
+
+584
+01:19:01,660 --> 01:19:07,060
+sometimes this like interviewer might ask like what other than font awesome what is a default
+
+585
+01:19:07,060 --> 01:19:13,940
+HTML provided icons if you see in the utf8 you will see in different cassettes like ascii win
+
+586
+01:19:13,940 --> 01:19:20,660
+ISO symbols utf8 here you will be able to see that all the Greek letters punctuation marks currency
+
+587
+01:19:20,660 --> 01:19:26,900
+symbols letter like number forms so all those all of those things concerned are emojis are also
+
+588
+01:19:26,900 --> 01:19:32,580
+there like whatever emojis you need to that's by default you'll be you'll have under this utf8
+
+589
+01:19:32,580 --> 01:19:38,980
+encoding okay so how let's say if you see here spade right now in order to render the spade they
+
+590
+01:19:38,980 --> 01:19:44,260
+have different like they use ampersand symbol for your letting it know that hey we are trying to
+
+591
+01:19:44,260 --> 01:19:51,100
+use the this dex code okay I mean we are trying to you write something in a utf8 then you use
+
+592
+01:19:51,100 --> 01:19:58,420
+hashtag or this one symbol to depend whether you are using Dex or hex code okay here if you
+
+593
+01:19:58,420 --> 01:20:05,940
+see for the star symbol we are having something black star and white star do you see this black
+
+594
+01:20:05,940 --> 01:20:14,380
+star and white star so star symbol is by default being provided here so let's let's try to use
+
+595
+01:20:14,380 --> 01:20:21,700
+this and let's see how we can use this one also what I'll do is that I'll copy this Dex code
+
+596
+01:20:21,700 --> 01:20:39,300
+I'll copy this Dex code and then I'll create a diff of let's say star into 5 okay I created
+
+597
+01:20:39,300 --> 01:20:50,820
+a five diffs of star and I'll paste it let's say ampersand hashtag or do you see that star
+
+598
+01:20:50,820 --> 01:21:07,060
+is coming by default let me copy this okay yeah it works in any platform because it is
+
+599
+01:21:07,060 --> 01:21:16,900
+browser compatible now if I if I change this cassette to ask I still it is working because
+
+600
+01:21:16,900 --> 01:21:26,180
+it in you know modern browsers it they pass it okay but by default these are utf8 compatible
+
+601
+01:21:26,180 --> 01:21:33,180
+and most of the HTMLs are come utf8 compatible like you go for any project and you go for the
+
+602
+01:21:33,180 --> 01:21:45,420
+headers the basic cassette would be utf8 compatible I hope this point is clear okay you go and pick
+
+603
+01:21:45,420 --> 01:21:52,980
+it up anything today's world they uses now once we have built this now comes the main CSS part
+
+604
+01:21:52,980 --> 01:22:00,260
+let's help me out with the basic CSS that we have to apply here
+
+605
+01:22:00,260 --> 01:22:14,740
+it's the same sort of CSS right on a container I'll apply same still display flex
+
+606
+01:22:14,740 --> 01:22:32,660
+align items also let's say flex direction column align items center justify content center okay
+
+607
+01:22:32,660 --> 01:22:47,980
+no but if I don't give this if I do I need this doesn't really matter but let me know this star
+
+608
+01:22:47,980 --> 01:22:57,940
+icons do you see the star icons as aligned as we need it okay let's say also suggestion the
+
+609
+01:22:58,300 --> 01:23:14,940
+next suggestion is let me go to star container display flex okay I got this icons as suggested
+
+610
+01:23:14,940 --> 01:23:20,900
+let's say if I want to increase this icons so as we know that our icons font size is something
+
+611
+01:23:20,900 --> 01:23:32,500
+applicable let's say I say that 3 rem okay now now comes let's say for firstly I let me add a
+
+612
+01:23:32,500 --> 01:23:50,100
+border to this container border radius of 1 rem also border of 2 0.2 rem solid black
+
+613
+01:23:50,100 --> 01:24:01,300
+okay cool now then there is something let's say if I want to give some padding to each of
+
+614
+01:24:01,300 --> 01:24:08,900
+this particular class whatever star we have let's say I have some styling to it now do you see here
+
+615
+01:24:08,900 --> 01:24:13,860
+there's something that we were doing when you click it it was orange color yellow in color that
+
+616
+01:24:13,860 --> 01:24:20,300
+something filling or gold in color then there's something changing okay let's address that one
+
+617
+01:24:20,300 --> 01:24:26,860
+and I want to see you something firstly we'll come to ratings count display in line rightly I
+
+618
+01:24:26,860 --> 01:24:40,700
+said but if you see here there is any change do you see anything change in my mouse do you
+
+619
+01:24:40,700 --> 01:24:46,780
+see cursor getting changed from this this particular key to hand key cursor is pointer
+
+620
+01:24:46,780 --> 01:24:59,620
+right let's let's make that okay cursor is pointer now also let me add some padding it
+
+621
+01:24:59,620 --> 01:25:18,500
+to it so that they look differentiated 5 pixel or 0.3 rem okay cool then we had let's say by
+
+622
+01:25:18,500 --> 01:25:27,460
+default right let's say by default I'll say that these are white in color by default okay let's say
+
+623
+01:25:27,460 --> 01:25:42,500
+gray does it look better by default gray okay fine no if I make it white guys here are the
+
+624
+01:25:42,500 --> 01:25:51,220
+completely you know they are erased so I'm using so instead of white star I was thinking to you
+
+625
+01:25:51,220 --> 01:25:58,740
+know instead of toggling this content in our text like as you suggest if I go there are two
+
+626
+01:25:58,740 --> 01:26:05,820
+ways to build this one one is like if I if I want to use an inner text I will be on click of each
+
+627
+01:26:05,820 --> 01:26:13,540
+things I will change using inner text like replace this 97 double 3 with 9734 or else I can play
+
+628
+01:26:13,540 --> 01:26:22,060
+around with the color of a CSS right on click of this thing fill this particular star with the
+
+629
+01:26:22,060 --> 01:26:27,420
+color I hope these two approaches are like one approach and this approaches are clear right one
+
+630
+01:26:27,420 --> 01:26:36,300
+is toggling the CSS class the other one is updating the divs in us inner content in a text now then
+
+631
+01:26:36,300 --> 01:26:44,140
+firstly what I'll do is like you know for identifying each child uniquely for identifying
+
+632
+01:26:44,140 --> 01:26:51,220
+each child uniquely and what I'll do is that I'll add a separate attribute which will help me to
+
+633
+01:26:51,220 --> 01:26:58,140
+identify which particular star or which particular value I'm clicking it because if you see here
+
+634
+01:26:58,140 --> 01:27:04,300
+there's a one use case if I click on three third star do you see first three are getting filled
+
+635
+01:27:04,300 --> 01:27:11,620
+if I click on first four four are getting filled right so that's each case that we have to handle
+
+636
+01:27:11,620 --> 01:27:18,700
+when you click one only one when I'm clicking for all the four from left should be filled it's
+
+637
+01:27:18,700 --> 01:27:27,300
+not only one thing okay so let me give someone a data index so as you know that we can give
+
+638
+01:27:27,300 --> 01:27:33,460
+a number of attributes as we want so I'm just adding an index to the stars like two in order
+
+639
+01:27:33,460 --> 01:27:48,660
+to identify better okay now I'll add as to then three then four then five once we have this now
+
+640
+01:27:48,660 --> 01:27:58,780
+comes the main rule so now this you have okay we have to fix something which is like H2 make
+
+641
+01:27:58,780 --> 01:28:19,620
+it H2 as display in line as does this fix as one thing we still left help me out this one
+
+642
+01:28:19,620 --> 01:28:23,940
+ratings and this number how can we address this one
+
+643
+01:28:23,940 --> 01:28:49,780
+okay one way to fix this one is like and if you don't want to do it using CSS always cut
+
+644
+01:28:50,780 --> 01:29:00,460
+and put it here inside this one okay this is one of the hack you can always use it okay now
+
+645
+01:29:00,460 --> 01:29:09,180
+because I when I'm trying why did we do this one is that yeah right Ashish one one why I have to
+
+646
+01:29:09,180 --> 01:29:13,980
+put this zero inside the span tag is because I need to access the count using ID and then
+
+647
+01:29:14,580 --> 01:29:21,060
+that's the reason why we have written this way okay now comes the actual part where I'm
+
+648
+01:29:21,060 --> 01:29:26,980
+adding script tag where our logic should be handled now so one of the suggestion I've
+
+649
+01:29:26,980 --> 01:29:35,460
+already got from Kiran was can we get put further for loop which goes from one to the number
+
+650
+01:29:35,460 --> 01:29:41,140
+represented by star click and this loop would change CSS of star according right Kiran agree
+
+651
+01:29:41,620 --> 01:29:46,660
+but now you guys help me out how would you approach actual logic part here
+
+652
+01:29:46,660 --> 01:29:53,860
+which all things I should get access to which all things I should get access to
+
+653
+01:30:01,380 --> 01:30:07,100
+think of which strategies would you get access to all stars and then span okay let's say I get
+
+654
+01:30:07,100 --> 01:30:24,700
+const star document document dot query selector all and I use star okay I got the star then also
+
+655
+01:30:24,700 --> 01:30:44,420
+I got const count document dot query selector inside this I can say since it's an ID I have
+
+656
+01:30:44,420 --> 01:30:49,740
+to say this account now a good I got access to both the elements now is what I should do
+
+657
+01:30:49,740 --> 01:31:01,020
+where would you add an event listener where would you add an event listener for each on the star
+
+658
+01:31:01,020 --> 01:31:16,380
+event listener okay so I just want you to think we have learned even propagation technique can
+
+659
+01:31:16,380 --> 01:31:23,820
+we leverage that one or we have to add it on individual item which one is more preferable
+
+660
+01:31:23,820 --> 01:31:32,140
+like this is a simple question like okay we can run a for loop on star also I agree let's say let's
+
+661
+01:31:32,140 --> 01:31:43,660
+build this both things star dot for each let's say each star that's how I make it this has a
+
+662
+01:31:43,660 --> 01:31:56,300
+stars once we get each star we can say that star dot add event listener inside this event listener
+
+663
+01:31:56,380 --> 01:32:06,620
+we are listening to click okay on click of this listener what we'll do it's a both ways like
+
+664
+01:32:07,660 --> 01:32:13,900
+propagation is better since event account is decreased right somewhere I agree with that but
+
+665
+01:32:13,900 --> 01:32:21,660
+let's build this way and then that way so that everyone have that understanding right okay once
+
+666
+01:32:21,740 --> 01:32:25,660
+only one event is listeners click to the container later I think I agree with you
+
+667
+01:32:25,660 --> 01:32:31,740
+Kiran as that some bit suggested both are you know standing with same point but here let's say
+
+668
+01:32:31,740 --> 01:32:36,700
+I've added event listeners to all of them now what should we doing it now let's say I have an event
+
+669
+01:32:36,700 --> 01:32:48,860
+here now can I know how can I know which index item is clicked just help me out with that one
+
+670
+01:32:51,660 --> 01:32:54,860
+let's see
+
+671
+01:32:55,820 --> 01:33:01,100
+inner text in the inner text I don't have any value right in the inner text I have only this one
+
+672
+01:33:02,060 --> 01:33:05,980
+do you see any identifier that I added in order to identify which item is being clicked
+
+673
+01:33:06,540 --> 01:33:12,300
+data index right data index how would you access the data index
+
+674
+01:33:12,300 --> 01:33:23,660
+so let's see can I do something like
+
+675
+01:33:28,220 --> 01:33:38,140
+index what I can do is that let's say I start I say a particular star event now this is the star event
+
+676
+01:33:42,380 --> 01:33:46,460
+whichever star user is clicking get attribute
+
+677
+01:33:52,380 --> 01:33:53,580
+the data index
+
+678
+01:33:56,380 --> 01:33:58,620
+let's see if we are able to get this output
+
+679
+01:33:58,620 --> 01:34:13,420
+okay star pardon me guys now let's see if this we are able to get the output I'll copy the url
+
+680
+01:34:14,140 --> 01:34:15,180
+I'll put it here
+
+681
+01:34:18,860 --> 01:34:25,020
+so I have added our listeners everywhere now once if I click this I'm able to get it I'm able to
+
+682
+01:34:25,020 --> 01:34:31,020
+get that index as expected right now
+
+683
+01:34:33,660 --> 01:34:46,860
+line 50 star spelling I've addressed that one okay now guys what's the next thing what's the
+
+684
+01:34:46,860 --> 01:34:52,220
+next thing do I have to again go through each of stars
+
+685
+01:34:55,820 --> 01:35:07,340
+like I have to run a loop for let i equal to zero then till till where I have to go till the index
+
+686
+01:35:07,340 --> 01:35:14,540
+right till I reach index less than when I start from zero with index or else let's say start from
+
+687
+01:35:14,540 --> 01:35:17,660
+first index equal to this one right
+
+688
+01:35:17,660 --> 01:35:22,140
+now
+
+689
+01:35:25,020 --> 01:35:33,660
+one thing I have to do here is that star dot on each of the particular out of the stars
+
+690
+01:35:34,300 --> 01:35:41,020
+I'll get access to this each of the star on this star which particular attribute will have classes
+
+691
+01:35:41,740 --> 01:35:46,220
+on an element which particular attribute will have classes like
+
+692
+01:35:47,340 --> 01:35:53,180
+I've got one answer yeah great guys classes do you remember this that we on class list we will be
+
+693
+01:35:53,180 --> 01:36:01,420
+able to get all the classes that we need for a particular hsv now here what we are supposed to
+
+694
+01:36:01,500 --> 01:36:11,100
+now here what we are supposed to do we are supposed to add a new css class which will
+
+695
+01:36:11,100 --> 01:36:20,780
+fill the particular star now let's say I have a css class called star and I say fill
+
+696
+01:36:22,620 --> 01:36:30,780
+I say that color should be good okay no I'll say that can you add the css
+
+697
+01:36:31,420 --> 01:36:34,780
+class okay
+
+698
+01:36:39,660 --> 01:36:40,620
+is that it
+
+699
+01:36:43,740 --> 01:36:51,740
+is class list is default element no on each element on each element you will be able to
+
+700
+01:36:51,740 --> 01:36:56,940
+access what are the amount of classes that are applied using class list like if you say
+
+701
+01:36:57,900 --> 01:37:06,060
+go here dev dot class list you should be able to do it but div is not defined here but
+
+702
+01:37:11,100 --> 01:37:12,300
+like I can show you
+
+703
+01:37:17,980 --> 01:37:24,620
+but that's how it works actually I can have to put the debuggers and show it to you but here
+
+704
+01:37:25,580 --> 01:37:29,420
+one thing guys one thing I want to show you is that let's say I click on
+
+705
+01:37:31,020 --> 01:37:36,460
+yeah I have an access let's say I go to script tag let's I'll show you this one how this thing
+
+706
+01:37:36,460 --> 01:37:44,700
+works let's say I have here I put debuggers here as of now okay now let's say I have this
+
+707
+01:37:44,700 --> 01:37:52,140
+debuggers now if I click it on this third point if I click it in this third point let's say for
+
+708
+01:37:52,140 --> 01:37:58,540
+what is the index value I got I got to the as third that's great okay one thing one mistake
+
+709
+01:37:58,540 --> 01:38:01,820
+can anyone help me out what is the one mistake that I've already did it
+
+710
+01:38:10,300 --> 01:38:14,140
+no index 2 is fine data type can you see what is the data type of index
+
+711
+01:38:14,140 --> 01:38:23,260
+in for loop I'm no no this index is showing in the string format right 3 as a string but it should
+
+712
+01:38:23,260 --> 01:38:30,540
+be a number right because we are iterating through the loop I should be less than index
+
+713
+01:38:30,540 --> 01:38:36,540
+but I shouldn't be less than any string value right are you able to see this case this bug
+
+714
+01:38:36,940 --> 01:38:43,340
+are you able to see this case this bug so this is how debugging helps you like I put a debugger
+
+715
+01:38:43,340 --> 01:38:48,460
+point you know that what is the issue that where you got stuck now let's say I update this one
+
+716
+01:38:49,500 --> 01:38:51,020
+as a pass int
+
+717
+01:38:56,460 --> 01:39:05,260
+okay once I do this let's say this is working fine though but it by default it converted that one
+
+718
+01:39:05,260 --> 01:39:05,740
+but now
+
+719
+01:39:09,340 --> 01:39:16,060
+let's let's redo this one okay let's redo this one now if you see I
+
+720
+01:39:17,820 --> 01:39:24,380
+got the index as three now I'll update this index has three now let's get
+
+721
+01:39:24,380 --> 01:39:30,620
+we go to the stars now if you see each star let's say if I get go and do here star
+
+722
+01:39:30,620 --> 01:39:40,060
+star starts dot index of one that's how I do this index of one and
+
+723
+01:39:42,220 --> 01:39:50,860
+class list when I do this class list do you see a particular class list called star you can see it
+
+724
+01:39:50,860 --> 01:39:55,980
+how can you see this one that already there is a star added this is where you will be able to
+
+725
+01:39:56,940 --> 01:39:57,580
+identify
+
+726
+01:40:00,620 --> 01:40:06,220
+I hope this is clear to submit
+
+727
+01:40:08,940 --> 01:40:14,460
+okay now once we got this now once we got this let's see what's happening
+
+728
+01:40:15,900 --> 01:40:18,940
+let's say if I go and do this dot add
+
+729
+01:40:18,940 --> 01:40:29,260
+now I'm making another mistake here if you guys see you have to suggest me what mistake I did it
+
+730
+01:40:34,300 --> 01:40:42,540
+I'm adding a star fill once I click a play another time I click a play I click a play again now
+
+731
+01:40:42,540 --> 01:40:46,860
+now does this particular star fill got applied
+
+732
+01:40:49,340 --> 01:40:52,380
+now firstly does this star fill got applied till here
+
+733
+01:40:54,780 --> 01:40:59,660
+no let's see what happened here do you see here there is some mistake that star
+
+734
+01:40:59,660 --> 01:41:02,780
+fill is applied but it is applied in a wrong way
+
+735
+01:41:02,780 --> 01:41:10,780
+okay are you able to find the mistake guys
+
+736
+01:41:13,180 --> 01:41:17,260
+right when I'm adding a class if you see I'm adding as a dot
+
+737
+01:41:17,820 --> 01:41:23,900
+dot star where I have to add as a only css class name okay once I do and fix this one
+
+738
+01:41:25,020 --> 01:41:29,820
+and then there's another mistake that when I'm moving it from the index I have to start from
+
+739
+01:41:29,820 --> 01:41:36,460
+0th index because the divs will start from 0th index for the class list also it works like a
+
+740
+01:41:36,460 --> 01:41:45,740
+start from 0th index okay now now let's say I click on this one three times now if you see
+
+741
+01:41:46,380 --> 01:41:56,220
+first star got good second got good third got good now now what if I click on two elements only two
+
+742
+01:41:56,220 --> 01:42:08,060
+elements I want to give two ratings now do you see in that third element is not uncolored how
+
+743
+01:42:08,060 --> 01:42:15,180
+can we address this issue how can we address first we need to remove the class list okay great
+
+744
+01:42:15,740 --> 01:42:21,500
+so I hope this point is clear to everyone like we have to remove a particular class first then
+
+745
+01:42:21,500 --> 01:42:32,380
+we have to do it for like everything right let's say I go from let's say
+
+746
+01:42:33,820 --> 01:42:40,940
+on the loop I run the loop from stars index instead of this one I say stars dot length
+
+747
+01:42:41,980 --> 01:42:48,460
+okay and I do remove that's it right now let's say this is working fine
+
+748
+01:42:49,420 --> 01:42:55,340
+from rating point of view if I click that's how I remove the debugger as of now three then I'm
+
+749
+01:42:55,340 --> 01:43:01,900
+clicking two then I'm clicking one then I'm four then three till five then two I hope this is clear
+
+750
+01:43:01,900 --> 01:43:08,940
+how this is working guys anyone any doubts till now like how we are able to add CSS particular CSS
+
+751
+01:43:08,940 --> 01:43:17,980
+class how we are able to remove that now now comes the ratings part how would you update this ratings
+
+752
+01:43:18,940 --> 01:43:23,020
+pretty simple straightforward anyone can get it help me out
+
+753
+01:43:27,020 --> 01:43:28,620
+do I need to have a counter really
+
+754
+01:43:38,540 --> 01:43:43,340
+okay let's say can I can I do this count dot in our text
+
+755
+01:43:43,340 --> 01:43:49,900
+right now let's say if I click this star do you see this rating got in automatically added
+
+756
+01:43:49,900 --> 01:43:54,940
+because this index is giving me the data attribute index a data index value which star you are
+
+757
+01:43:54,940 --> 01:44:00,620
+clicking I'm getting that value and updating it simple and straightforward right
+
+758
+01:44:03,500 --> 01:44:08,940
+now let's say I'm going to add this index right now let's say I'm going to add this index
+
+759
+01:44:08,940 --> 01:44:10,140
+simple and straightforward right
+
+760
+01:44:13,180 --> 01:44:16,460
+now now this is the approach one
+
+761
+01:44:22,060 --> 01:44:29,260
+but before I go to approach second I hope for this this how this problem is being solved using
+
+762
+01:44:29,260 --> 01:44:32,860
+this way is clear to everyone anyone having any doubts in the whole class
+
+763
+01:44:33,660 --> 01:44:38,700
+I hope everyone is clear right so if if this sort of question comes you would be able to solve
+
+764
+01:44:41,020 --> 01:44:47,900
+in interview confidently without a sweat on face or any mark
+
+765
+01:44:50,140 --> 01:44:57,020
+so every problem whichever lld problem you face in interview take it step by step create a HTML
+
+766
+01:44:57,020 --> 01:45:04,780
+create a HTML go to basic CSS then access those elements add eventlessness simple
+
+767
+01:45:08,300 --> 01:45:15,180
+with the sweat on the face yeah that pressure will be there but I'm just trying to say that
+
+768
+01:45:15,180 --> 01:45:19,580
+once you build HTML part right you will be confident when it comes to JS part
+
+769
+01:45:19,580 --> 01:45:23,260
+right now guys
+
+770
+01:45:25,580 --> 01:45:34,140
+now I have this one that what if you want to build the same logic using event bubbling concept
+
+771
+01:45:36,380 --> 01:45:40,540
+firstly we need to have access to the container right the star container
+
+772
+01:45:41,100 --> 01:45:43,820
+let's say I get an access to star container
+
+773
+01:45:44,220 --> 01:45:52,780
+okay document dot query selector then I have dot class star container
+
+774
+01:45:59,820 --> 01:46:05,740
+let's say I pick the star container now on this container I attach one add event listener
+
+775
+01:46:06,060 --> 01:46:12,940
+I attach one add event listener click event is clicked and I have to be
+
+776
+01:46:12,940 --> 01:46:17,500
+able to do everything inside this one now
+
+777
+01:46:22,780 --> 01:46:27,900
+inside this event how would I will be able to get the values is the trick
+
+778
+01:46:29,980 --> 01:46:33,260
+only one thing I have to get it is that only this thing
+
+779
+01:46:34,220 --> 01:46:39,580
+only this thing is the trick that I have to get it other things let's say other things I copy paste
+
+780
+01:46:39,580 --> 01:46:47,020
+it other things I copy paste it simple I say const index also
+
+781
+01:46:52,300 --> 01:46:54,300
+okay now
+
+782
+01:46:54,700 --> 01:46:55,200
+no
+
+783
+01:46:59,100 --> 01:47:01,100
+okay current target no but
+
+784
+01:47:05,260 --> 01:47:09,900
+how would you get out of that event event dot
+
+785
+01:47:12,380 --> 01:47:16,060
+just I'm trying to get that okay let's let's do this let's do this
+
+786
+01:47:17,660 --> 01:47:22,780
+one thing I'll do it here is that let's comment this part okay and let's do
+
+787
+01:47:24,780 --> 01:47:28,700
+comment this part let's console log event here for a second
+
+788
+01:47:35,340 --> 01:47:37,900
+and let's comment this logic also
+
+789
+01:47:39,820 --> 01:47:47,500
+now go back to this one let's say if I remove this all this parts and I click something like
+
+790
+01:47:47,500 --> 01:47:55,340
+this one I click first star now if you see it here if you go to target element let's say
+
+791
+01:47:55,340 --> 01:48:04,780
+we go to target now we have this element now here inside this target let's say we go to
+
+792
+01:48:07,660 --> 01:48:09,020
+firstly let's see
+
+793
+01:48:09,020 --> 01:48:13,100
+the no
+
+794
+01:48:15,980 --> 01:48:20,380
+inside attributes do you see this data index
+
+795
+01:48:22,700 --> 01:48:26,780
+does this data index gives us the value that we need let's see this okay
+
+796
+01:48:30,220 --> 01:48:37,180
+I apply here I go to console I clean it up I select this one now let's say
+
+797
+01:48:37,180 --> 01:48:44,300
+event say I print just event dot target dot attributes
+
+798
+01:48:46,540 --> 01:48:53,580
+okay let's say I still get attribute inside that I pass it as data index
+
+799
+01:48:58,140 --> 01:48:59,340
+is my job done still
+
+800
+01:49:03,580 --> 01:49:04,860
+can I leverage this one
+
+801
+01:49:08,140 --> 01:49:14,380
+okay now let's see if I try to click it on the other one let's say click on fourth element
+
+802
+01:49:14,940 --> 01:49:17,900
+and I try to print this fourth element I'm still getting it
+
+803
+01:49:20,380 --> 01:49:25,500
+okay now let me do that same logic
+
+804
+01:49:28,700 --> 01:49:35,180
+so just uncommenting this one event dot target dot get attribute of data index
+
+805
+01:49:37,500 --> 01:49:41,500
+removing this part
+
+806
+01:49:49,340 --> 01:49:55,900
+okay this is still working so guys I hope this approach event bubbling concept is also clear
+
+807
+01:49:55,900 --> 01:50:02,460
+right how did we approach this one anyone having any challenge understanding this one how did we
+
+808
+01:50:02,460 --> 01:50:05,500
+approach this one
+
+809
+01:50:08,060 --> 01:50:17,420
+I hope this part is clear now I want to talk about something is that do you really think
+
+810
+01:50:18,860 --> 01:50:22,380
+we should be listening to click event or it should be something like
+
+811
+01:50:23,260 --> 01:50:31,500
+once you hover over it it should be filling that one
+
+812
+01:50:31,500 --> 01:50:39,500
+it should be a click event or listening to click is the right way or hover would be like let's
+
+813
+01:50:39,500 --> 01:50:45,500
+let's explore a real time now let's explore something like amazon what could be there
+
+814
+01:50:46,060 --> 01:50:54,060
+like I don't need anything okay hover changes the CSS but if you see
+
+815
+01:50:54,060 --> 01:51:00,300
+but if you see okay I'm getting the overall ratings here
+
+816
+01:51:03,020 --> 01:51:06,460
+okay only while buying we can keep the rating right
+
+817
+01:51:08,780 --> 01:51:12,460
+we cannot give the rating okay top reviews can we write a review
+
+818
+01:51:12,460 --> 01:51:14,620
+do I have an access to review write a review
+
+819
+01:51:14,620 --> 01:51:25,260
+okay write a product review
+
+820
+01:51:26,300 --> 01:51:33,100
+so they're asking me contact details and all but so but what if okay IMDB
+
+821
+01:51:34,540 --> 01:51:39,100
+yeah IMDB is right example let's say I go to this one
+
+822
+01:51:45,580 --> 01:51:47,580
+let's say I pick some movie
+
+823
+01:51:50,380 --> 01:51:55,660
+have anyone watched this movie good to caram
+
+824
+01:51:58,060 --> 01:51:59,820
+did you guys like this
+
+825
+01:52:05,020 --> 01:52:11,660
+okay average won't be able to take it pardon me
+
+826
+01:52:14,620 --> 01:52:21,020
+so if I hover over it do you see this here it is working on hover
+
+827
+01:52:25,180 --> 01:52:29,740
+I mean I like Mahesh Babu so I don't judge it is it good or bad I'll watch
+
+828
+01:52:29,740 --> 01:52:36,220
+good amount of times even I like Salar movie because I like Prabhas too so it doesn't matter
+
+829
+01:52:36,220 --> 01:52:37,340
+whether it's good or bad
+
+830
+01:52:37,340 --> 01:52:45,340
+it now so do you see this like until I hover there's a one sort of event once I click it
+
+831
+01:52:46,060 --> 01:52:47,260
+the number is updated
+
+832
+01:52:50,780 --> 01:52:55,900
+but while I'm hovering over it so there are two types of event
+
+833
+01:52:57,340 --> 01:53:04,460
+the color filling and the color removing is working on I mean the CSS class ticker is working on
+
+834
+01:53:05,100 --> 01:53:07,500
+mouse over and mouse leave event
+
+835
+01:53:10,140 --> 01:53:11,260
+are you able to see this
+
+836
+01:53:15,900 --> 01:53:22,300
+color filling is happening on mouse over and only the count is updated
+
+837
+01:53:23,100 --> 01:53:26,140
+on click of click now let's say leave it everything
+
+838
+01:53:27,580 --> 01:53:31,260
+what if I come and tell you build this whole component would you be able to do this
+
+839
+01:53:34,460 --> 01:53:39,420
+okay straight forward right we know how to build a overlay
+
+840
+01:53:40,940 --> 01:53:45,580
+we'll be just moving it to the width and height or according to the viewport
+
+841
+01:53:45,580 --> 01:53:50,860
+we'll make it this z index as high we'll give some background color for the whole container
+
+842
+01:53:50,860 --> 01:54:00,060
+when we open it and just add stars like 10 stars and give a one big star and rating button okay
+
+843
+01:54:01,020 --> 01:54:03,420
+this is fine right you would be able to do this guys
+
+844
+01:54:07,020 --> 01:54:11,740
+no I'm just asking like from your idea because I'm giving a one homework
+
+845
+01:54:12,300 --> 01:54:16,380
+that homework would be like how would you do it on mouse hover and mouse leave
+
+846
+01:54:16,380 --> 01:54:20,460
+and just I'm trying to think like would you be able to replicate this one
+
+847
+01:54:20,460 --> 01:54:23,180
+like if you want to replicate this one how would you be able to do it
+
+848
+01:54:24,140 --> 01:54:31,020
+okay so that confidence we need it you see go anytime real-time application any website that
+
+849
+01:54:31,020 --> 01:54:38,540
+you see think like from now on whenever you see any website or anything just think of it like
+
+850
+01:54:38,540 --> 01:54:44,540
+if you're adding devs header or h1 tags h2 tags okay how they're doing it now if you see this one
+
+851
+01:54:44,540 --> 01:54:51,980
+this is pretty simple right add four five devs four five items then add different states make
+
+852
+01:54:52,380 --> 01:54:57,820
+them display flex flex horizontal add a border make it keep a border radius
+
+853
+01:54:59,100 --> 01:55:04,140
+right pretty simple and straightforward right you will be able to design this one also
+
+854
+01:55:05,500 --> 01:55:09,580
+this particular India United States United Kingdom Bangladesh Canada
+
+855
+01:55:11,020 --> 01:55:15,660
+so whenever you see any website right you should be able to think that hey what is
+
+856
+01:55:15,660 --> 01:55:20,460
+how this layout has been designed what it took behind the scenes to build this one so it
+
+857
+01:55:20,460 --> 01:55:25,660
+should be that easy for you to know like what how that is being done okay it should be that
+
+858
+01:55:25,660 --> 01:55:32,060
+straightforward because we are doing enough things and we will be also building in next class but
+
+859
+01:55:32,060 --> 01:55:37,420
+I just want to know that this part of today's class content is clear like how we approach
+
+860
+01:55:37,420 --> 01:55:45,180
+this both the things now I want to talk about one thing before I start explaining how we can debug
+
+861
+01:55:45,260 --> 01:55:53,180
+so Arun had added a question like how should we able to debug I won't be picking up in the doubt
+
+862
+01:55:53,180 --> 01:55:56,860
+session but I'll pick it in the class itself because it's important for one person to know
+
+863
+01:55:56,860 --> 01:56:03,820
+how do we do it okay right before I do it so one thing I have to call out is that two people might
+
+864
+01:56:03,820 --> 01:56:10,860
+not have attended it there's a one site that is built by some with do you remember this there's
+
+865
+01:56:10,860 --> 01:56:17,900
+something likely like have you seen this website earlier anywhere have you seen this
+
+866
+01:56:21,260 --> 01:56:27,260
+right this looks cool right so some with the party has built this one he has you know changed
+
+867
+01:56:27,820 --> 01:56:32,860
+there was also an extra requirement of filtering the stars he has done that part so from now on
+
+868
+01:56:33,420 --> 01:56:39,740
+this is something looks like cool to me better to me okay now I hope you you also go and build
+
+869
+01:56:39,740 --> 01:56:44,300
+your own prototype of the project that we have built so that you can attach to the resume
+
+870
+01:56:44,860 --> 01:56:52,300
+second thing I've also pushed a code base related to my portfolio project where I want you to you
+
+871
+01:56:52,300 --> 01:57:00,620
+know edit your content as in the HTML part and link link to projects one is weather app
+
+872
+01:57:02,380 --> 01:57:09,180
+one is weather app and other one is your to-do list app or Kanban board
+
+873
+01:57:10,460 --> 01:57:18,220
+hope you will be doing this hope a few people will share me like the url some bit has done
+
+874
+01:57:18,220 --> 01:57:24,300
+done it hope you share it to me so that when we go on building the multiple projects across our
+
+875
+01:57:24,940 --> 01:57:29,980
+like cycle you will be able to have four or five projects added in your portfolio which you will
+
+876
+01:57:29,980 --> 01:57:36,780
+add it in a resume because when you put your scalar website you all portfolio website like you
+
+877
+01:57:36,780 --> 01:57:41,260
+generally show that how many dsa problems you have solved that's cool but when you have learned
+
+878
+01:57:41,260 --> 01:57:46,460
+front end or you have built full end-to-end language or build projects you should be also
+
+879
+01:57:46,460 --> 01:57:52,380
+able to show that I hope that you will be doing but one request I would make it is don't paste it
+
+880
+01:57:52,380 --> 01:57:57,260
+as it is because earlier batch also might have pasted that same projects wouldn't look good
+
+881
+01:57:57,260 --> 01:58:06,220
+add your own flavor of touch is that fine add your own sort of flavor so that you would be
+
+882
+01:58:06,220 --> 01:58:10,700
+your project might be looking like same functionalities but some css changes or
+
+883
+01:58:10,700 --> 01:58:20,220
+some additions that you can do is that is good enough I wouldn't say kiran like any project is
+
+884
+01:58:20,220 --> 01:58:26,620
+good enough or anything is good enough okay what I just want you to is think of it like whether
+
+885
+01:58:26,620 --> 01:58:32,060
+I'm clicking on this project I'm able to navigate to it you'll see I'm not able to go to that section
+
+886
+01:58:32,060 --> 01:58:38,700
+part still but I want you guys to you know get I'm trying to help you out with some part of it
+
+887
+01:58:39,340 --> 01:58:45,660
+so that you can build it the other things I'm there with you guys if you're not able to do
+
+888
+01:58:45,660 --> 01:58:52,380
+it anything we can we have the community and whatsapp group where we can like help each other out
+
+889
+01:58:52,380 --> 01:58:57,420
+if it is not possible you can message me directly if I'm available I'll try to take those questions
+
+890
+01:58:57,420 --> 01:58:59,900
+if I'm not I'll take it in the doubt session of the class
+
+891
+01:59:03,260 --> 01:59:09,340
+is that good enough kiran but I'm giving you a part of a code which you can edit and you can
+
+892
+01:59:09,340 --> 01:59:15,020
+add it like let's say get in touch on flick of the send how would you click off send how would
+
+893
+01:59:15,020 --> 01:59:21,500
+you make a function call like that will learn further when you when you go further and you know
+
+894
+01:59:22,380 --> 01:59:28,540
+send to your particular email id okay this information then same thing like how on click
+
+895
+01:59:28,540 --> 01:59:34,220
+of this let's say this other calculator shopping card or to to list I want you to edit this container
+
+896
+01:59:34,220 --> 01:59:39,260
+and show it like how can you do it these are the different containers I gave like about you about
+
+897
+01:59:39,260 --> 01:59:44,460
+yourself section the links you can add maybe if you want to add a picture then you can add a
+
+898
+01:59:44,460 --> 01:59:50,860
+project that you have done it okay add much of the content that you can but I've given a basic
+
+899
+01:59:50,860 --> 02:00:00,780
+prototype that you can do it okay great guys so if this is clear now I'll come to actually how
+
+900
+02:00:00,780 --> 02:00:09,580
+can you do the debugging part now so please pay a focus here guys now if you see one thing I'm
+
+901
+02:00:09,580 --> 02:00:15,260
+doing is like this is a source tab where I'm trying to debug it now I'll show it today in
+
+902
+02:00:15,340 --> 02:00:20,860
+how do you do it in browser I'll come to come back in future cases when I how you can do it in
+
+903
+02:00:20,860 --> 02:00:27,180
+visual studio code but now if you want to debug anything here firstly you you have this control
+
+904
+02:00:27,180 --> 02:00:33,820
+p or command p button I'm in macbook so I'm using macbook once you do command p whatever by default
+
+905
+02:00:33,820 --> 02:00:39,340
+whatever by default source code is there that you will be able to see here like you can search the
+
+906
+02:00:39,340 --> 02:00:44,540
+file names like I have star rating file name I'll be able to search it let's say if I have this
+
+907
+02:00:44,540 --> 02:00:52,140
+counter file no I don't have it because I loaded on this particular inside this classes javascript
+
+908
+02:00:52,140 --> 02:00:58,300
+star html in this particular thing I have only this one file I can open that file using command
+
+909
+02:00:58,300 --> 02:01:06,700
+is that point here how can you access your file firstly okay once you are able to access it now
+
+910
+02:01:06,700 --> 02:01:11,820
+once your code is loaded so what I can do is that mainly when you're debugging it you are trying to
+
+911
+02:01:11,820 --> 02:01:18,060
+in windows it is I think control p not control p but windows windows p I guess windows button you
+
+912
+02:01:18,060 --> 02:01:23,740
+can check that okay but it's suffix is p that is I can show a little
+
+913
+02:01:26,460 --> 02:01:34,780
+okay search button just search okay now what I'm doing only mostly will be trying to debug the
+
+914
+02:01:34,780 --> 02:01:40,380
+code part now let's say on this buttons right the line of code what I'm trying to do is that
+
+915
+02:01:40,380 --> 02:01:46,140
+I'm clicking on any of the line now let's say if I click on this line 67 or numbers when I'm
+
+916
+02:01:46,140 --> 02:01:53,020
+clicking on this numbers on the right side you will be able to see that where you have added
+
+917
+02:01:53,020 --> 02:02:00,380
+firstly you know this debuggers you can also delete this debugger if you want okay or else you can
+
+918
+02:02:00,380 --> 02:02:09,020
+also add it okay now also you can like you can write down the conditions if you want this is
+
+919
+02:02:09,020 --> 02:02:13,260
+really rarely I use it because I added conditions directly in the console log
+
+920
+02:02:15,340 --> 02:02:19,660
+okay I leverage console log I don't really add the conditions here
+
+921
+02:02:21,100 --> 02:02:28,140
+like in order so it's up to you but let's say I remove this debugger again I add it again
+
+922
+02:02:28,140 --> 02:02:30,860
+I hope these points are clear how can you add a debugger firstly
+
+923
+02:02:30,860 --> 02:02:36,540
+okay I see one thumbs down
+
+924
+02:02:39,660 --> 02:02:40,300
+we'll start
+
+925
+02:02:47,740 --> 02:02:54,140
+Krishna like I'm just selecting the number now when I select this number by default a debugger
+
+926
+02:02:54,140 --> 02:02:58,300
+is added to those particular lines and you'll be able to see all the debuggers on the right side
+
+927
+02:02:58,300 --> 02:03:07,020
+here below the breakpoint section okay if you want to remove the debugger either you can click
+
+928
+02:03:07,020 --> 02:03:14,220
+on that same line again or else you can click this cross button okay same thing now on whenever
+
+929
+02:03:14,220 --> 02:03:19,740
+a particular line of statement a code is getting stopped then you can add a conditions if you want
+
+930
+02:03:19,740 --> 02:03:26,140
+to add up whatever like if you want to test something like you want to do like let's say
+
+931
+02:03:26,140 --> 02:03:38,140
+console dot log of index now you can add this condition here okay now let's say if I refresh it
+
+932
+02:03:39,420 --> 02:03:40,540
+and I click this one
+
+933
+02:03:45,100 --> 02:03:51,020
+it will try to execute that particular point but I'm what I'm saying is that never use this way
+
+934
+02:03:51,020 --> 02:03:57,020
+like whatever condition I have used it here don't write that way but if you want to play around
+
+935
+02:03:58,060 --> 02:03:59,420
+if you want to play around right
+
+936
+02:04:03,260 --> 02:04:08,540
+if you want to play around with anything what you can do is like once you put the debuggers always
+
+937
+02:04:11,420 --> 02:04:16,860
+you if you want to if you want to if you want to write if you want to play around with the
+
+938
+02:04:16,860 --> 02:04:22,140
+like application now once you put the debuggers refresh this page once you refresh it or launch
+
+939
+02:04:22,140 --> 02:04:30,140
+the code then you will be able to apply the logics now once I click star button this part of code
+
+940
+02:04:30,140 --> 02:04:37,340
+will get executed now what you can do is at runtime right at runtime whatever values are there you
+
+941
+02:04:37,340 --> 02:04:43,420
+will be able to access everything now let's say in the memory if you see in the memory whatever in
+
+942
+02:04:43,420 --> 02:04:49,900
+this memory you can see here you will be able to access all the elements inside the console if I
+
+943
+02:04:49,900 --> 02:04:57,340
+want to access event I will be able to access event now in the memory I have also the value index
+
+944
+02:04:59,020 --> 02:05:07,500
+I'll be able to access index okay now similarly you also have the values like
+
+945
+02:05:07,500 --> 02:05:16,460
+since index is not yet loaded values and available once index is loaded once I click a play here so
+
+946
+02:05:16,460 --> 02:05:23,100
+there are two ways of doing it once you click a play the next time debugger will stop at the place
+
+947
+02:05:23,100 --> 02:05:27,900
+where you have the debugger point I mean the code execution will stop whenever you have the next
+
+948
+02:05:27,900 --> 02:05:33,420
+debugger point like let's say click a play it will stop at this point it won't stop at the for loop
+
+949
+02:05:34,300 --> 02:05:39,900
+okay this point is clear how this play button affects and how would you be able to access
+
+950
+02:05:39,900 --> 02:05:46,380
+all the values which are present in memory okay these are the items present in the memory that
+
+951
+02:05:46,380 --> 02:05:52,780
+you can see and even if you want to also check the call stack you can also leverage that and see that
+
+952
+02:05:52,780 --> 02:06:01,180
+now this is it guys nothing much you add a debugger's point this is like debugging any part
+
+953
+02:06:01,180 --> 02:06:04,860
+of the code you can do it on lead code you can do it on your code bases or anything
+
+954
+02:06:05,500 --> 02:06:11,820
+just add the debugger's point when you click a play it will go to the next debugger if you go to
+
+955
+02:06:11,820 --> 02:06:16,700
+the you can use all these functions like you can use this function to go to the next line
+
+956
+02:06:17,260 --> 02:06:21,980
+like it will go to if you see that when I click this one it will go line by line it will go to
+
+957
+02:06:21,980 --> 02:06:26,620
+for for the condition then it will execute next line so whatever the step by step if you want to
+
+958
+02:06:27,100 --> 02:06:32,220
+execute the code you can do this if you want to go inside this class list remove how it is working
+
+959
+02:06:32,220 --> 02:06:37,420
+you can click it inside okay if there's a library function added it will go inside that library
+
+960
+02:06:38,300 --> 02:06:45,980
+okay you have to explore all of these buttons but I am explaining on top level once you click a play
+
+961
+02:06:45,980 --> 02:06:51,500
+it goes to the next debugger and if you want to remove it you can remove it here cross button
+
+962
+02:06:51,500 --> 02:06:58,220
+or you can double click here which will remove that okay I mean click and re-click that's it
+
+963
+02:06:58,220 --> 02:07:04,300
+then if you want to disable all the debuggers just disable using this button once you disable
+
+964
+02:07:04,300 --> 02:07:12,060
+and you click a play everything will be loading as as you want I hope this point is clear a basic
+
+965
+02:07:12,060 --> 02:07:16,620
+level of debugging once you keep practicing this thing you will be able to get this case
+
+966
+02:07:17,420 --> 02:07:24,140
+is this clear Arun and everyone I I want everyone to explore this one so that you will be getting
+
+967
+02:07:24,140 --> 02:07:32,620
+hands-on it will take time and do you think what the way I was able to get start.html I'll be able
+
+968
+02:07:32,620 --> 02:07:39,020
+to get Amazon code complete Amazon code on here in my network tab
+
+969
+02:07:39,020 --> 02:07:41,020
+do you think it is possible
+
+970
+02:07:47,020 --> 02:07:49,820
+do you think it is possible to get the whole code base
+
+971
+02:07:55,660 --> 02:08:02,460
+so what happens here guys is that you know once your code is deployed right at the at the scale
+
+972
+02:08:02,540 --> 02:08:09,260
+happens here guys is that you know once your code is deployed right at the at the scale of this
+
+973
+02:08:09,260 --> 02:08:18,940
+like site mostly they combine these files into smaller you know files like let's say if I try
+
+974
+02:08:18,940 --> 02:08:28,060
+to filter html or let's say index.js if you see there are many index.js
+
+975
+02:08:28,060 --> 02:08:34,060
+but you don't have access to any of this code
+
+976
+02:08:39,500 --> 02:08:45,260
+let's say I go to this one I go to this one you can explore the how they have deployed everything
+
+977
+02:08:46,380 --> 02:08:51,340
+okay gif files and everything whatever downloaded things are getting downloaded are present here
+
+978
+02:08:52,140 --> 02:09:01,100
+now this min.js if you see this is the code they have written and this is like they have written
+
+979
+02:09:01,100 --> 02:09:06,940
+in some other language but it is minified it is bundled and minified to convert it into this file
+
+980
+02:09:06,940 --> 02:09:12,620
+min.js now this is the logic you can see there's a lot of javascript written inside this this is
+
+981
+02:09:12,620 --> 02:09:18,220
+system generated or you can say webpack bundled this is the logic you can see there's a lot of
+
+982
+02:09:18,540 --> 02:09:24,300
+or you can say webpack bundled we'll see all of them how this thing works but at real time
+
+983
+02:09:25,260 --> 02:09:30,460
+you might not be able to debug the application at only development time because at development
+
+984
+02:09:30,460 --> 02:09:36,220
+time we are trying to load the whole source code and I'm trying to experience this one we have not
+
+985
+02:09:36,220 --> 02:09:44,380
+bundled completely now let's see if I if I go to some with netlify app are we able to see this
+
+986
+02:09:44,380 --> 02:09:51,660
+project code now but if do you see this I'm able to access some bits code completely
+
+987
+02:09:58,220 --> 02:10:04,860
+this project code now this is not a right way right if I want to
+
+988
+02:10:06,060 --> 02:10:09,100
+copy all some bit css I can do it right away
+
+989
+02:10:09,100 --> 02:10:14,780
+okay so I'm with your project is copied now I'm sorry for this
+
+990
+02:10:17,340 --> 02:10:20,780
+I didn't want to show this one but yeah that's that's how
+
+991
+02:10:23,020 --> 02:10:29,900
+it works if you want to build this right if you want to build you have bundlers you have bundlers
+
+992
+02:10:29,900 --> 02:10:34,060
+let's say friend and bundlers
+
+993
+02:10:39,100 --> 02:10:42,060
+so
+
+994
+02:10:44,540 --> 02:10:53,500
+okay there are many js bundlers which are available okay one is like have you heard this
+
+995
+02:10:53,500 --> 02:10:58,460
+keyword called okay I'll start the doubt session guys I hope I've answered how debugging is
+
+996
+02:10:59,420 --> 02:11:05,420
+is done right can I start a doubt session guys because content is covered I'll keep on talking
+
+997
+02:11:06,060 --> 02:11:09,900
+uh and can I mark Arun your question has answered
+
+998
+02:11:14,540 --> 02:11:16,540
+I don't know marking your question has answered
+
+999
+02:11:20,140 --> 02:11:28,540
+okay great now so have you heard this webpack earlier so webpack is one of the most
+
+1000
+02:11:29,020 --> 02:11:36,540
+uh used bundler in our whole projects they we use this bundler like what happens is like
+
+1001
+02:11:36,540 --> 02:11:43,660
+a project will have n number of html files n number of js files n number of css files because
+
+1002
+02:11:43,660 --> 02:11:51,980
+you cannot really build whole amazon or flipkart or netflix in three files right one css one
+
+1003
+02:11:51,980 --> 02:11:57,820
+html and one js file do you guys agree with that point at least like only three files if you write
+
+1004
+02:11:57,820 --> 02:12:03,740
+down it will be more than 50 60 thousands of code now if you write down that way it is really
+
+1005
+02:12:03,740 --> 02:12:10,060
+difficult so what does this this do is you have n number of files you have to merge all of those
+
+1006
+02:12:10,060 --> 02:12:16,700
+files into basic three files which is one index file one index css file one index js file now for
+
+1007
+02:12:16,700 --> 02:12:22,140
+doing this thing right for understanding all the code and bundling together is being done by this
+
+1008
+02:12:22,140 --> 02:12:28,540
+part of packages now webpack is one of the thing which handles it for that one you have to give a
+
+1009
+02:12:28,540 --> 02:12:35,180
+certain set of configuration what is the entry file okay how can you access that entry file
+
+1010
+02:12:35,180 --> 02:12:41,100
+okay what is a path then how you want to use loaders okay mode browser compatibility
+
+1011
+02:12:41,900 --> 02:12:47,900
+a list of configurations you have to write okay then it will be able to bundle it then you have
+
+1012
+02:12:47,900 --> 02:12:56,380
+browserify i have parcel fusebox fusebox i never heard it roll up roll up is really common
+
+1013
+02:12:58,940 --> 02:13:00,620
+explore this one also guys roll up
+
+1014
+02:13:02,620 --> 02:13:06,220
+wheat wheat.js is a really great one
+
+1015
+02:13:10,620 --> 02:13:13,100
+but there was something new thing that got
+
+1016
+02:13:13,740 --> 02:13:19,260
+uh jspopular frameworks let's say
+
+1017
+02:13:22,300 --> 02:13:29,420
+no there's a one website
+
+1018
+02:13:29,740 --> 02:13:33,740
+so
+
+1019
+02:13:37,180 --> 02:13:47,740
+react is anyways on the top stack or survey but this is not the site
+
+1020
+02:13:59,420 --> 02:14:01,740
+so
+
+1021
+02:14:04,060 --> 02:14:05,740
+okay
+
+1022
+02:14:10,620 --> 02:14:18,940
+now okay uh they have awsl lrt no i don't really know okay they might have
+
+1023
+02:14:23,020 --> 02:14:26,380
+i'll get you one site guys where you will be able to see
+
+1024
+02:14:26,380 --> 02:14:29,660
+the actually things
+
+1025
+02:14:35,340 --> 02:14:36,780
+free code camp popular
+
+1026
+02:14:38,940 --> 02:14:47,740
+okay free code pack camp 30,000 stars i don't want to go to org but where is this github repo
+
+1027
+02:14:52,220 --> 02:14:53,260
+they have more than
+
+1028
+02:14:56,380 --> 02:15:01,180
+three eight three stars now if you go to different things
+
+1029
+02:15:03,500 --> 02:15:08,060
+let's say i go for web what i have it in web
+
+1030
+02:15:12,540 --> 02:15:17,340
+cd npm i so this is a basically react project you can explore this one
+
+1031
+02:15:21,100 --> 02:15:24,220
+but why so many stars what they are building here
+
+1032
+02:15:26,380 --> 02:15:34,620
+so you have issues of 290 okay you have 71 pull requests which are open you can always
+
+1033
+02:15:37,820 --> 02:15:43,020
+know there's something called babel also we'll explore react does this right
+
+1034
+02:15:45,420 --> 02:15:53,020
+no react is just a library we'll see what all things are there what or not now we'll come to that
+
+1035
+02:15:53,980 --> 02:15:54,940
+everything guys
+
+1036
+02:15:59,740 --> 02:16:04,220
+but you see this free code camp is one of the most popular website where you can add
+
+1037
+02:16:04,220 --> 02:16:06,460
+if you want to do open source you have to do this
+
+1038
+02:16:08,300 --> 02:16:12,700
+there are some awesome uh front-end projects that are being built if you are good with really
+
+1039
+02:16:12,700 --> 02:16:18,540
+HTML CSS JS right uh you will be able to do this now if you see if you want to learn system design
+
+1040
+02:16:18,540 --> 02:16:26,540
+design in future they have built one project called system design okay this looks cool
+
+1041
+02:16:37,260 --> 02:16:42,380
+best you see this designer hash map least recently used cache call center deck of cards
+
+1042
+02:16:42,380 --> 02:16:47,180
+parking lot chat server circular array everything is available explore this explore this
+
+1043
+02:16:49,100 --> 02:16:54,940
+really popular github website so you can find all the code that you need in github itself
+
+1044
+02:16:56,860 --> 02:17:01,900
+and also that's something you will be learning in future maybe sometime later
+
+1045
+02:17:01,900 --> 02:17:07,740
+cap theorem and everything this is really cool and people pay a really great amount of money
+
+1046
+02:17:07,740 --> 02:17:16,220
+for this one on educative.io i've shared this link i was also just exploring see if you go to
+
+1047
+02:17:17,180 --> 02:17:23,500
+explore what are the possible uh facebook react is also one of the popular github repo
+
+1048
+02:17:23,500 --> 02:17:27,580
+if you want to see how where react code is there this is a github repo where
+
+1049
+02:17:28,220 --> 02:17:37,420
+all the code is there now if you see it's had having a 219 uh k like stars and if you see it
+
+1050
+02:17:37,420 --> 02:17:45,340
+is having more than 1.2k problems still present in this uh library it has more than 417 pull
+
+1051
+02:17:45,340 --> 02:17:52,300
+requests which are open that need to be merged so every day continuous developments keep on going
+
+1052
+02:17:53,900 --> 02:17:56,940
+okay anyways i'll keep on talking but i'll address the question
+
+1053
+02:17:57,660 --> 02:18:01,660
+need help with css position like if we add position css how can we make it
+
+1054
+02:18:01,660 --> 02:18:05,420
+stable when page is minimized or maximized
+
+1055
+02:18:06,140 --> 02:18:22,300
+uh some with uh how pages uh okay uh yeah like are you meant to say that uh for example in my
+
+1056
+02:18:22,300 --> 02:18:31,020
+to-do app search icon works good at 100 window okay okay let's let's do that
+
+1057
+02:18:35,420 --> 02:18:37,020
+this one
+
+1058
+02:18:40,860 --> 02:18:47,020
+okay uh for this okay when i reduce this one is it
+
+1059
+02:18:57,900 --> 02:19:02,780
+i think you have used your vh and that one right percentages for the model
+
+1060
+02:19:02,780 --> 02:19:12,300
+so that will be automatically calculating here not there then in search bar okay
+
+1061
+02:19:16,300 --> 02:19:20,780
+if i minimize further just a second
+
+1062
+02:19:23,820 --> 02:19:26,700
+okay this icon you mean to say that search icon
+
+1063
+02:19:29,340 --> 02:19:30,140
+okay now
+
+1064
+02:19:33,020 --> 02:19:38,140
+for that one uh let's let's see what's the css apply let me close this one first
+
+1065
+02:19:46,060 --> 02:19:53,180
+okay position relative uh okay that because you have used with respect to parent uh you have
+
+1066
+02:19:53,180 --> 02:19:55,420
+kept it that here now
+
+1067
+02:19:59,420 --> 02:20:04,300
+let's say inside this container if i go here uh you have the solid icon
+
+1068
+02:20:10,780 --> 02:20:11,280
+no
+
+1069
+02:20:15,980 --> 02:20:18,620
+you have made it that one like let's say then you have
+
+1070
+02:20:18,620 --> 02:20:27,980
+uh if you want to move with respect to this one uh you also have to make a simple position as
+
+1071
+02:20:29,420 --> 02:20:37,980
+absolute then you have to give the exact ratio like let's say if i have this position absolute
+
+1072
+02:20:37,980 --> 02:20:47,260
+always added now let's see if this is moving as expected it's coming inside as of now okay
+
+1073
+02:20:49,180 --> 02:20:58,140
+okay i am having this one but i have to make it let's say for this one container you have always
+
+1074
+02:20:58,140 --> 02:21:12,780
+our display justify content center uh which is uh let's say if i use space around
+
+1075
+02:21:12,780 --> 02:21:12,940
+one
+
+1076
+02:21:16,620 --> 02:21:20,380
+and i remove this okay this is fine but now
+
+1077
+02:21:23,740 --> 02:21:27,500
+okay i'll check on that and come back somewhere because i have to figure out
+
+1078
+02:21:27,500 --> 02:21:35,900
+how we'll be able to do that not getting any direct ideas but if anyone is having any better
+
+1079
+02:21:35,900 --> 02:21:43,180
+ideas uh can you go to css file okay uh let's let's let's go to this css file
+
+1080
+02:21:45,500 --> 02:21:46,140
+in my local
+
+1081
+02:21:48,540 --> 02:21:49,180
+okay last
+
+1082
+02:21:54,940 --> 02:21:58,300
+search icon bottom left you have added two fields like
+
+1083
+02:21:58,300 --> 02:22:07,900
+okay but again uh see when you are minimizing it with respect to
+
+1084
+02:22:10,060 --> 02:22:13,260
+it is always you have given in terms of percentages that's cool thing
+
+1085
+02:22:14,300 --> 02:22:20,300
+you're having a search icon class right let me see search icon class you're having this
+
+1086
+02:22:20,300 --> 02:22:28,780
+field value given now that's fine but if i'm reducing it further if i
+
+1087
+02:22:33,740 --> 02:22:37,740
+you're having this bottom left that's fine
+
+1088
+02:22:42,140 --> 02:22:50,140
+now the problem here in terms of percentages happening is that uh that the screen percentages
+
+1089
+02:22:51,020 --> 02:22:56,300
+somewhere if you see it here the screen percentages for earlier 23 percent of value is something
+
+1090
+02:22:56,860 --> 02:23:03,740
+and 60 percent value is something but now uh when you uh fix this uh like let's say if you fix this
+
+1091
+02:23:03,740 --> 02:23:17,020
+using vh and let's say you fix this with uh because percentages are not supporting really
+
+1092
+02:23:17,020 --> 02:23:24,540
+because if i tell you this uh if i minimize this one the 23 percent for uh the larger screen is
+
+1093
+02:23:24,540 --> 02:23:28,860
+different uh when you reduce the screen size 23 percent is different
+
+1094
+02:23:32,220 --> 02:23:37,820
+we can fix this by media query update right uh media query will support it but uh what if
+
+1095
+02:23:37,820 --> 02:23:44,140
+you want to address it directly at one shot uh do this
+
+1096
+02:23:47,740 --> 02:23:54,540
+well how we can if i if i use any other units if i use any other units like let's say uh
+
+1097
+02:23:57,180 --> 02:24:03,020
+now since we are moving with respect to uh this parent right search container let's say
+
+1098
+02:24:03,020 --> 02:24:05,340
+we are moving with respect to this container itself
+
+1099
+02:24:09,980 --> 02:24:12,540
+then we are positioning this bottom end
+
+1100
+02:24:13,100 --> 02:24:22,140
+now i made this container position uh position relative then i'm using this to make it uh look
+
+1101
+02:24:22,140 --> 02:24:27,980
+up move around the question with this one that's cool but how would we make it in terms of other
+
+1102
+02:24:27,980 --> 02:24:32,060
+than percentages
+
+1103
+02:24:32,060 --> 02:24:35,580
+this
+
+1104
+02:24:38,780 --> 02:24:41,740
+if i can i use
+
+1105
+02:24:47,420 --> 02:24:49,020
+let's say if i use uh
+
+1106
+02:24:52,460 --> 02:24:58,060
+bottom is fine bottom is always ticking it right bottom is always ticking it until i reduce it
+
+1107
+02:24:58,540 --> 02:25:06,060
+until i reduce it from uh this way bottom is ticking it now if i uh reduce the screen size
+
+1108
+02:25:06,860 --> 02:25:13,740
+by this way uh still my bottom is reducing it uh sticking it now i have to only fix something is
+
+1109
+02:25:14,540 --> 02:25:22,380
+left one let's say instead of left uh what if i give right value as always 40 percent
+
+1110
+02:25:22,460 --> 02:25:33,900
+40 percent or let's say if i increase it by further reduce it say 38 now but if i
+
+1111
+02:25:37,340 --> 02:25:49,900
+no it it still doesn't matter because we have to move according to the sibling
+
+1112
+02:25:52,860 --> 02:25:55,900
+vertically it's absolute search parent okay
+
+1113
+02:26:00,220 --> 02:26:06,300
+okay let's say uh we don't want to play around with something like
+
+1114
+02:26:06,300 --> 02:26:11,980
+a relative absolute let's say i go there i remove this absolute value also
+
+1115
+02:26:12,060 --> 02:26:12,540
+no
+
+1116
+02:26:15,020 --> 02:26:23,500
+no the search container uh let's say i just make it as center
+
+1117
+02:26:25,980 --> 02:26:26,300
+and
+
+1118
+02:26:30,300 --> 02:26:35,980
+align items center fine no
+
+1119
+02:26:35,980 --> 02:26:48,860
+no uh also i say that i also have some gap of five pixel or let's say i make it
+
+1120
+02:26:53,020 --> 02:26:57,580
+30 pixel then if i do this
+
+1121
+02:26:57,580 --> 02:27:11,820
+this will work fine but uh if this will work fine but but but i have to do another thing which is
+
+1122
+02:27:14,700 --> 02:27:21,180
+aligning that vertically in between this is working some bit like i'm just using a gap
+
+1123
+02:27:21,180 --> 02:27:27,340
+property to move it across a common gap between each of the element but also
+
+1124
+02:27:30,540 --> 02:27:37,980
+like rather than using position relative or absolute for this one if you want to
+
+1125
+02:27:37,980 --> 02:27:42,780
+use it for resizing uh this will work better
+
+1126
+02:27:43,260 --> 02:27:50,380
+but the only thing i'm thinking is like of you okay you have padding on the top is it
+
+1127
+02:27:50,380 --> 02:27:55,580
+padding on the top uh how come the padding i can see the padding here
+
+1128
+02:27:56,700 --> 02:28:02,060
+inside the search box container input tag element you might be having a default values coming up
+
+1129
+02:28:02,780 --> 02:28:09,580
+let's say uh padding top i try to make it zero so that everything looks alike
+
+1130
+02:28:09,580 --> 02:28:13,020
+i try to make it zero so that everything looks aligned
+
+1131
+02:28:17,980 --> 02:28:25,020
+and margin is something like or else let's say i go to this class search icon i also add
+
+1132
+02:28:25,020 --> 02:28:33,900
+in order to make it look even i have to replicate that same css which are added there let's say i
+
+1133
+02:28:33,900 --> 02:28:41,020
+go and have a padding of seven uh
+
+1134
+02:28:44,220 --> 02:28:48,540
+pixel and let's say i also have a margin of
+
+1135
+02:28:52,540 --> 02:28:59,580
+one pixel now if i have this i don't need a padding uh margin would work fine
+
+1136
+02:29:00,380 --> 02:29:06,220
+but i have to increase it further only i have to need it in the margin top
+
+1137
+02:29:15,020 --> 02:29:20,380
+to make it center aligned but let's see if this is working fine
+
+1138
+02:29:20,940 --> 02:29:27,340
+this is addressed uh up to good extent some bit
+
+1139
+02:29:28,620 --> 02:29:34,940
+do you agree with my point or do you uh do you have to uh say anything on this i just uh
+
+1140
+02:29:34,940 --> 02:29:42,940
+uh address this issue using gap property which will help me from the flex but using even even
+
+1141
+02:29:43,100 --> 02:29:50,540
+but using even even using this position right even using this position absolute and relative
+
+1142
+02:29:50,540 --> 02:29:57,500
+we should be able to figure out because flex was not always available in nature right uh
+
+1143
+02:29:57,500 --> 02:30:02,060
+there might be a way but i am not it's not clicking me direct i'll check on that and come back
+
+1144
+02:30:02,700 --> 02:30:09,180
+okay uh so yeah filter by text is also having same issue okay uh
+
+1145
+02:30:09,180 --> 02:30:16,300
+uh okay that also you can check like you can always use list of such things but
+
+1146
+02:30:16,940 --> 02:30:18,780
+this will help you to figure it out okay
+
+1147
+02:30:23,820 --> 02:30:30,460
+cool guys uh kabir has one question yeah kabir please go ahead i'll take your question
+
+1148
+02:30:31,020 --> 02:30:36,220
+uh do you want me to unmute or you'll be sharing it
+
+1149
+02:30:39,580 --> 02:30:44,220
+okay i'll do you unmute you
+
+1150
+02:30:49,580 --> 02:30:50,540
+please go ahead kabir
+
+1151
+02:30:56,540 --> 02:31:00,060
+hello can you hear me
+
+1152
+02:31:03,740 --> 02:31:05,340
+uh i've unmuted you can you speak
+
+1153
+02:31:05,420 --> 02:31:08,620
+hello
+
+1154
+02:31:11,580 --> 02:31:17,180
+hello yeah uh kabir
+
+1155
+02:31:19,740 --> 02:31:26,220
+try speaking i'm not able to hear you can anyone hear okay i'm not able to hear guys uh just a second
+
+1156
+02:31:26,540 --> 02:31:30,700
+uh
+
+1157
+02:31:32,220 --> 02:31:50,700
+pardon me i'm not exactly able to hear because if you see if i try to remove my headphones
+
+1158
+02:31:56,220 --> 02:32:06,700
+okay
+
+1159
+02:32:06,700 --> 02:32:10,700
+hello
+
+1160
+02:32:13,580 --> 02:32:24,700
+hello
+
+1161
+02:32:26,220 --> 02:32:34,700
+okay
+
+1162
+02:32:46,460 --> 02:32:52,700
+so
+
+1163
+02:32:56,220 --> 02:32:58,280
+you
+
+1164
+02:33:26,220 --> 02:33:51,280
+you
+
+1165
+02:33:51,280 --> 02:34:02,620
+Okay, not exactly sure I was not able to listen to Kabir with my headsets on I tried to remove
+
+1166
+02:34:02,620 --> 02:34:08,880
+then I was able to hear his voice but when I was trying to speak you were not able to
+
+1167
+02:34:08,880 --> 02:34:15,360
+listen maybe some glitch guys I'll have to recheck but Kabir if it's possible write it
+
+1168
+02:34:15,360 --> 02:34:22,000
+down or else I'll connect with you offline if it's big one how do you want me to take it up
+
+1169
+02:34:33,440 --> 02:34:39,880
+right let's connect offline we can connect on call works well okay want to show some
+
+1170
+02:34:40,440 --> 02:34:48,120
+okay you share me the link show me the link or else we can connect the offline we'll connect
+
+1171
+02:34:48,120 --> 02:34:55,040
+post this class Google meet link I'll join that
+
+1172
+02:34:55,040 --> 02:35:08,480
+great guys in that case can we end the sessions today's session I hope you all
+
+1173
+02:35:08,480 --> 02:35:16,120
+have enjoyed and learned a bit from machine coding point of view we just got but I wanted
+
+1174
+02:35:16,120 --> 02:35:23,280
+to give you one thing that maybe I'll give it in next class itself for practicing purpose right
+
+1175
+02:35:23,280 --> 02:35:28,120
+what are the most interview asked questions how where can you get those things from LLT
+
+1176
+02:35:28,120 --> 02:35:39,960
+perspective so I'll share that do you know this person he is a front-end senior front-end
+
+1177
+02:35:39,960 --> 02:35:51,520
+developer currently he's working with Atlassian he was used to work with coin I think coin DCX
+
+1178
+02:35:51,520 --> 02:35:57,800
+okay these are the set of many challenges that you can solve with JS you have a set of questions
+
+1179
+02:35:57,800 --> 02:36:04,600
+that you can solve we have solved coin counter and we might have also stopped a solved a question
+
+1180
+02:36:04,600 --> 02:36:10,860
+of ratings but there are some least of questions that you can solve like star rating display we
+
+1181
+02:36:10,860 --> 02:36:18,320
+have solved whether app we have build okay we have covered few set of questions I view have to
+
+1182
+02:36:18,400 --> 02:36:26,120
+like footer we have covered you have to see like what you can build and what you're not okay these
+
+1183
+02:36:26,120 --> 02:36:36,040
+are the least of which that you have to be okay work around and built it simple HTML then you are
+
+1184
+02:36:36,040 --> 02:36:43,640
+I'll talk on this in next class okay there for now chill and just try to you know solve if you
+
+1185
+02:36:43,640 --> 02:36:48,080
+have any assignments complete them and let's meet back on the Thursday guys I think I have
+
+1186
+02:36:48,080 --> 02:36:55,480
+tried to wanted to make this session extended to us 36 minutes okay so you guys then good night
+
+1187
+02:36:55,480 --> 02:37:06,840
+take care take rest and meet back on Thursday so guys can I end the session give me thumbs up one
+
+1188
+02:37:06,840 --> 02:37:12,920
+final thumbs up shall always bye bye
+

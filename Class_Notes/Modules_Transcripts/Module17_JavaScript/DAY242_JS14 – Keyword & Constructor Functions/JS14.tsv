@@ -1,0 +1,1085 @@
+start	end	text
+30000	41560	hi all good evening guys am I audible and visible if you can hear me out can you give
+41560	49080	it a thumbs up yeah great guys thank you so let me do the screen share
+49080	74920	I know what topics for upcoming context will be yeah I'll come to that
+74920	91840	so guys let me know if my screen share is also working fine okay so great so one small
+91840	97280	announcement is that this weekend we won't have any class and you will be having the
+97280	106120	contest on 24th and 25th Jan right two days of the weekend you can leverage it to attempt it and
+106120	118000	this will be based on completely Dom plus HTML plus CSS till Dom part okay and it will also
+118000	128440	include the bonds and throttling concept till last class the object oriented programming that
+128440	136240	will start today will not be involved in it so I hope you are able you will be able to do it and
+136240	142240	be prepared with this guys I think Dom is something you might be experienced with it like we have done
+142240	149000	good enough project and you know machine coding and things so you know be prepared with these
+149000	156400	two concepts also understand them maybe build your own example try to learn it is this clear
+156400	165320	Kabir do you get the contest of like what will be asked in okay great so I hope everyone is
+165320	170800	preparing eyes for the contest can we use our own data for solving questions in the contest
+170800	182400	you should be able to I'm not exactly sure here as I have to you know I have to check on that how
+182400	192120	does it work okay so firstly I'm not sure exactly whether it will be MCQ based it will be having
+192120	200240	again machine coding around so and there might be a question where you have to code it down so
+200280	208360	three things can be possibilities yeah but we have to submit there only yeah so you know if
+208360	215240	it is of and machine coding around the questions will be have simple and straightforward it know
+215240	221200	it wouldn't be that big because you have one one hour of context contest and you have to we have
+221200	226840	to test you on base of three three knowledge right so if you think from that perspective
+227240	236640	mostly it won't be there but you will be having a code and MCQ you have an MCQ mock interview
+236640	242160	on Saturday also so can we take it on Sunday no you have two days right contest will be on
+242160	254080	two days is it a flag should not be you know writing HTML will be same way right there
+254080	260320	shouldn't be any plagiarism issues there okay if you face any of those challenges to let me know
+260320	267800	we'll check with the team okay if you are able to execute all the test cases that's that's fine
+267800	272680	like that's it that is what main discussion would be it wouldn't be like we are checking
+272680	277760	plagiarism although all those things will not be considered right so you just have to execute the
+277760	290160	test cases even you will be discussing right I think in HLD sessions where you will be
+290160	295520	discussing how actually submission of this questions in contest happens like how what is
+295520	302840	the workflow how they test all those you know test cases right like when you would submit your
+303200	310360	question there are like 100 or 120 test cases runs simultaneously and you error is in populated
+310360	314960	those things happen so fast you will be able to see like how they're working so it's not a
+314960	322320	distributed system that of that scale but the processing is the mathematical computation is
+322320	333000	heavy okay so we'll get to learn that also okay guys can anyone drop a message in chat
+333000	342120	okay okay great some it will use it that thing itself so somebody has built another application
+342120	350120	so let me bookmark this one also if you want me to use it for our whole batch
+350120	366960	let me see great I have this okay this is a stopwatch I don't have a timer right how
+367000	376160	many minutes timer I have to do or build this one some bit so you played around with the box
+376160	383120	shadow where you are toggling the colors for each second each time the box had is changing
+383120	388000	you have four types of classes flip being played around running through the loop is it
+388000	399720	for each second you are having the inner text yeah you set interval and then you
+399720	411040	are checking and updating the color right great good idea so I believe like somebody
+411040	416120	has applied the same knowledge that we have all just learned it's really great that you
+416160	420840	are applying in terms of project because this is where you get on add-on right that you are
+420840	426880	learning a concept then you are applying back so from I think somebody are very much clear
+426880	436640	with the dom right by now like dom and all those parts but good one good one some would
+436640	440880	keep doing keep building good projects for us so I'll reset it I'll set for two minutes
+440880	448240	guys then we'll get started but meanwhile anyone having any doubts from the last class
+448240	455320	because we have you know picked up bit heavy heavy things like firstly we clear set timeout
+455320	467800	then we understood set interval then we went on to understand debouncing then we understood
+468360	476560	these are the four concepts we picked it up we used same sort of example as input search
+476560	484400	okay but there are many other examples where you can use trottling that I have also given you
+484400	490640	examples but hope you try it out and build it out guys you can expect at least one one question
+490640	497480	on each of this in the contest so what I have done it for you guys is that as I promised in
+497480	503320	last class that I will give you a screenshot where you know you directly see differentiation
+503320	508280	and the kit of repo so I'll push this image where you can see that what is the purpose when to use
+508280	513700	the bouncing when to use our trottling and what are the different parameters and the examples
+513700	521600	events where you can build it okay I hope this thing also helps guys sort of a notes where you
+521600	530680	get overview of debouncing and trottling okay so other than this thing guys is everything clear
+530680	539560	so just want to know give me thumbs up if you are confident with HTML CSS and DOM operations
+539560	546920	and beginning level of JS 2 because we are getting started with new part of JS I just
+546920	554000	want to know how confident you are feeling so I see five thumbs up guys is there anyone who's
+554000	559080	facing still challenge with the topics that we have learned or if there is anyone who feels like
+559080	564400	he's feeling lack you know lacking behind if there is anyone give me thumbs down maybe if we can have
+564400	571080	a conversation in the doubt session there is anyone give me thumbs down this because the things we
+571080	582240	have covered are all basics are done now from the last class I say to people hey monkey and promote
+582240	589760	guys waiting down session will have a conversation will discuss your point of view right so because
+589760	598000	you from today on will be moving bit forward and fast so that you don't feel lacking behind okay
+598000	606320	and then we'll pick it up so great I don't see people coming up we are 10 minutes of the start
+606320	616800	so let's do one thing we'll start with today's class guys so today let's let me start agenda
+616800	626040	discussion firstly you know we have three classes for oops and the topics will be covering inside
+626040	638240	oops this keyword will understand what is this keyword in context of JavaScript then
+638240	655440	we'll understand constructor function okay then we'll understand classes in JS and inheritance
+655440	672040	once we cover this then we have I'll talk about that prototype and prototypical inheritance
+672040	699040	then we'll have call apply bind methods and we'll understand again in depth again memory of objects
+699040	706800	because you know object oriented again it's everything is about objects so we'll come to
+706800	713440	them so these are the broader six level topics will be picking up so this will both will go
+713440	724640	for first class and then we'll pick it up again these two items in second class then we have third
+724640	734320	class for this one okay so these are the topics that will be picking up so firstly we understood
+734320	741760	that you know JS is functional programming based language but why did oops coming to the picture
+741760	749440	right how many of you understand what oops is firstly how many of you understand what oops is
+749440	765840	if there is anyone who don't understand oops okay I see three people cool so object oriented
+765840	778400	program so in object oriented programming we'll see of this examples when you come to something
+778400	791600	called as constructor function in depth but you know everything revolves around objects
+795040	801200	just let's keep this no lighter definition for now but we'll come to the depth understanding oops
+801200	807280	and its principles you know object oriented programming is a one of the one of the best
+807280	813600	oldest fashion that people have leveraged to build applications because using this thing
+813600	822160	they are more able to relate with the real world I'll show you this one
+825120	829360	how how they how we are able to relate and what things have all those things are ever
+830000	836560	will come to that step by step but before that we have to start one of the topic
+837440	846560	understand one of the concept of JS itself like have you heard keyword called use strict in JS
+846560	851120	guys have you heard this keyword use strict
+851600	863360	I see five people yeah great many people didn't hear it off okay and so what happens is right
+865760	873520	yeah bishak rightly pointed out but let's come back to this use strict okay firstly when we
+873600	879840	introduce JavaScript we all know that JS comes with a many you know errors or many
+881440	887360	functional issues because that was developed in 10 days right and then there was a ECMA team
+888080	894960	who kept on improving the JS to write better JavaScript this is something we know the story
+894960	900880	right we know what happened and why this happened and how it was JavaScript was developed and there
+900880	909280	was too many issues like if you remember we had issues like hosting right that was fixed again
+909280	916160	using let and const I mean let and const are still hosted but they are hosted in temporal red zone
+916160	923040	right so similarly we had many things right many issues that were there in JS like when it's when
+923040	929680	you go for initial JS you had a var keyword which was a global variable all the time and
+930320	935840	we had also seen potential issues with a var keyword right all those things were part of the
+935840	945600	initial JS issues now also initial JS was not you know throwing us the good required amount of errors
+945600	950400	like if you see there are many parts of the code which is not expected to write such way but people
+950400	955440	were writing it and that code was being passed inside the system because system was able to
+955440	966640	understand but after you know ES5 ES5 okay when ES5 was introduced like this is the code that we
+966720	978320	but after you know ES5 ES5 okay when ES5 was introduced like ECMA version 5 ES5 when I say that
+978320	984960	they introduce something keyword called as you sticked so what they say is that when you use
+984960	989840	this on the top of the page okay top of the JS page
+989840	1001680	JS file let me write this one so if there are any issues it throws us errors with the right messaging
+1006960	1014880	or I can say better messaging so what happened is they have handled exceptional handling they
+1014880	1019920	have done better in ES5 version and when you use use stick method and they gave it so now that
+1019920	1027280	same use stick method is also used for react also they have launched in react 17 so 16 I guess so
+1027280	1031760	we'll be exploring that in terms of firstly you will see like what one of the example I'll show
+1031760	1036800	what happens with use stick non-stick but in general what have what happened is when you use
+1036800	1042480	this you are supposed to write a better JS code okay let's see one of the example how that is
+1042720	1053040	this affects moving back to code guys I'll start class number 21 let's say class
+1054240	1059600	81 once I have this I close this one
+1061760	1062880	let's say I write
+1063360	1075200	okay now let's say I write down name equal to my name and I write down console.log
+1077280	1084400	okay and I print name what is expected to happen this year what is expected to happen
+1086400	1089680	should it be throwing error or should it be shouldn't be throwing it
+1092880	1093680	okay
+1098800	1101920	did I declare a variable what is the syntax of declaring a variable guys
+1108320	1113760	how variables are declared firstly let's see first let's see what happens okay I'll open
+1113840	1120480	integrated terminal I'll use a node strict.js
+1124000	1130480	okay I'm able to print out them so is anyone amazed like how this is working firstly without
+1130480	1136400	using any let const var or anything you didn't declare any variable but still it is executing
+1137360	1140080	do you see this this should be a flagged write error
+1140880	1146640	if it can work without using any let var const why we need to introduce that thing first place
+1148160	1148720	isn't it
+1152560	1158640	guys are you able to follow up so now let me show you one thing like what happens if I
+1158640	1166160	use use strict here okay once I use strict and again I rerun that same file now do you see this
+1166160	1171920	what use strict says that hey reference error name is not defined you didn't define the name
+1171920	1175440	variable and you're trying to directly assign a value to it
+1178400	1183600	are you able to see what that use strict does use strict try to follow the right side of guidelines
+1183600	1189120	and rules and gives you the right sort of errors that you need in real time so this was introduced
+1189120	1194400	in ECMAS 5 this was one of the examples that I wanted to show where you declare a variable
+1194400	1199840	without any var let const but it gives you the right amount of error codes okay and it also
+1199840	1206560	explains you properly okay so I hope you got the gist of what top level use strict and non-strict
+1206560	1212080	mode is by default every js file is non-strict mode if you see whatever we were writing it down
+1212080	1216960	at here everything was a non-strict now but when you use this keyword use strict you're supposed
+1216960	1221040	to follow the guidelines that we have learned till now where if you don't follow it you will
+1221040	1225600	be flagged that error and you can fix that one I hope this point is clear guys
+1228800	1232080	guys is this point here with use strict and non-strict mode what are those things
+1235040	1241440	I see three thumbs up good now so now let's say I have one question to you where
+1242000	1244000	js can be compiled or passed
+1246160	1250000	where js can be compiled or passed where all js can be compiled or passed
+1251760	1256400	I ain't passed sorry compiled and passed where all
+1259600	1264160	browser is there anything else guys browser
+1270640	1280000	node yeah node js right right okay then Abhishek says the use strict will be slower than non-strict
+1280000	1285840	it shouldn't be abhishek like what if like imagine you are not declaring a variable and
+1286560	1292400	just trying to execute in strict non-strict mode by default behind the same system is actually
+1292400	1297520	applying a variable right so they are doing the two works instead it will throw an error to us
+1297520	1302400	so it's better if you go for any production-based apps you will always see a use strict flag will
+1302400	1308000	be used okay any js file you go for production-based code you will see that use strict is used
+1308800	1316560	it doesn't affect that performance okay now so as we know that we have the two environments
+1317760	1322880	browser and node js so we'll understand this keyword with respect to all of them
+1322880	1328720	but let's understand what this is talking about you know this is a keyword which usually
+1329440	1332960	points to an object let me write those sentence
+1335520	1336240	this keyword
+1338960	1343040	always refer to an object
+1349840	1352480	refer to an object and the value
+1352800	1356800	of this keyword
+1360800	1362800	will depend on
+1368320	1371520	on how it was called
+1373280	1380800	okay so basically whenever we say that let's say this dot something
+1381200	1386960	this dot something you might have seen there's some many syntaxes this dot name or
+1386960	1392720	trying to console log or assigning a value to it right you are using always so we are talking
+1392720	1398640	about what this is standing for we all we almost we always know that this operator dot operator is
+1398640	1404320	always used on objects mostly in js so we are still saying that the same thing that this is
+1404320	1410720	always referring to the object and value of this particular which object we are pointing will depend
+1410720	1416080	on from where it is being called okay this is a top level definition guys we'll come back to this
+1416080	1421760	one we'll understand multiple times okay so that we'll get a complete just of it and we will be
+1421760	1428880	exploring this in in both the browser environment and node js environment whereas both in strict
+1428880	1434240	and non-strict mode okay let's start with one by one we'll pick it up one environment and we'll
+1434240	1440160	see what all behaviors are there then we'll go to the next environment okay let me go back
+1440720	1449440	to the code base let's let's understand this keyword in depth now okay let me build a folder
+1449440	1457760	called node js so firstly we'll understand in terms of node js and i'll create a new file called non-strict
+1461120	1468560	js now let's understand in terms of non-strict firstly okay i'll write down comments also so
+1468560	1477280	that you can refer this whenever you feel confused let's say if i say that simple console log
+1480400	1489680	what if i do console dot log this keyword in non-strict mode we say that this will always
+1489680	1498160	point to an object now what can be the object initially where it can point out any ideas guys
+1498160	1506960	anything that you remember window says diraj i'm in non-strict mode in terms of node js
+1508160	1509760	anyone else any ideas guys
+1513760	1517600	okay let's let's explore this no this this is always will point to
+1518400	1524400	some of the object here okay some says empty okay let's explore this what happens okay
+1525040	1537040	let's say node cd node js no non-strict dot js
+1540960	1548080	okay now one of the common problem with node js is whenever you are using this contest simply
+1548160	1554960	right you may not be able to you know access the object that you need it and this
+1554960	1564000	generally should be pointing to a global object so here in node js environment window object is
+1564800	1572080	similar to global object here they call it as a global object okay remember that thing here
+1572080	1577280	but when you do simple a simple console log this this is referring to an empty object which doesn't
+1577280	1584880	have any values okay there's no proper explanation to this why this behavior comes out but in node
+1584880	1589600	js whenever you are trying to do console log without any context here there is no context
+1589600	1597280	for this one so this is actually acting as an empty object okay now let's see what happens if i
+1598080	1607760	put this put let's say this inside a function okay when i do inside a function let's say i
+1607760	1613600	have a function called test and i try to do console log of this same thing
+1615520	1623120	and what i'll be doing is i'll be executing this just now what could be our expectations guys
+1627280	1643360	so empty empty again okay now so if you go and write down the execution process for this one
+1643360	1648800	what could the execution process for this one like if you go create a memory phase and
+1649520	1655520	execution phase like our code execution phase separate execution context will be created for
+1655520	1660800	each function right
+1665280	1672400	okay so many says it should be empty or an error but let's see what happens then if you see
+1673760	1679760	here whenever we are doing inside the function now inside the function you are expected to write
+1680640	1686720	this functions right set interval set timeout clear timeout all these functions you would be
+1686720	1694000	writing it generally set immediate micro task you accessing global object now these all methods
+1694000	1701440	these all methods are referring to a global object now inside a function will this particular this
+1701440	1709280	keyword refers to an window object or a global object okay this thing you know i'll help you
+1709280	1714320	to understand step by step how this works but let's explore examples more and then we'll come
+1714320	1728080	back to this one so even if i show you why this happens okay if i put a debugger here let's say
+1728080	1738880	if we do this
+1742800	1752880	let's say i move to okay i'm here let me say i'll open here
+1758080	1766880	so
+1766880	1769680	okay
+1783600	1791280	second guys just i'm going inside that path folder so to execute you know in terms of
+1791280	1797520	testing i'm debugging more non-strict dot js
+1799440	1805440	and if you see here firstly we are getting of calling a functional call if you see in the call
+1805440	1811200	stack we are you know having an ominous step at line number 10 once i call this a separate
+1811200	1817120	execution context is created pushed onto it where test is executed now if you see here always
+1817760	1823920	it will be having an access to global object as i told you in terms of node just window object
+1823920	1830000	is equaled into global object only the use case where it fails is like it will refer to an empty
+1830000	1836320	object only when you are using simple console log dot but always in other cases it tries to refer
+1836320	1842080	to this this refers to some object and this this object here it is trying to refer to a global object
+1842080	1849520	it checks in the local scope it finds that this is pointing to global object i hope this point
+1849520	1859280	is clear we'll go ahead with the next example one more thing is that let's say what happens if this
+1859280	1865600	keyword is inside an object itself
+1865600	1875920	okay let's see this example guys i'm trying to use as many examples as possible uh we'll try to
+1876720	1881360	give you just stuff it with all different environments to understand this one okay
+1882160	1890880	let's have adam uh and let's say age is of adam is something 32 and let's say we are seeing that get
+1890880	1900240	it print info a function uh let's say i call an anonymous function where i try to return
+1901440	1907280	or let's say we try to console dot lock here this start name
+1907280	1923120	and this start h okay we did this then what if i call let's say object dot get print info if i
+1923120	1930080	execute this thing what should be my output here any ideas guys what should be my output
+1930720	1936320	always remember that this points to an object and where it is being called now if you see
+1937040	1943600	the context here whenever i'm getting inside this it will check whether this is pointing to any object
+1943600	1949360	now if you see this function context is always being changed because you are having this object
+1949360	1955440	here referred and whenever in in any when if you're trying to create any key variable keep
+1955520	1962240	any key value pairs and if it's a part of object it always refers to its current object okay
+1962800	1973680	now let's see if this is working fine clear it if you see here i'm getting adam and 32 as printed
+1973680	1979520	because here this object is referring to the current object where it is being called from so
+1979520	1985360	you are using this object itself the current object dot great in print info is this clear guys
+1985360	1992160	how i adam and 32 is coming are you able to follow guys
+1994720	2000560	so i've shown you three of the examples where one of the thing is by default any function right if
+2000560	2006880	you write a console log of this and it is outside any context and it is it is always referred to the
+2006880	2014720	global execution context okay and simple this is always pointing to an empty object if this always
+2014720	2020640	it will point to some object but it is either pointing to empty global or the object where it
+2020640	2028480	is being called from okay now let's see another example if i write down this way let's say this
+2028480	2032960	keyword from a function
+2035520	2038800	that is inside a
+2043600	2044080	function
+2047040	2053120	inside an object now i return one j bridge line guys let's understand this one firstly okay
+2053520	2060240	okay so what it says is that let's say i have an object to
+2062400	2068560	you know from here again i'll use same thing name would be now instead of adam let's say we have
+2068560	2076160	steve and let's say also age is something around 26 and let's say i again have the
+2076880	2083440	let's say i define as a test function inside the test function i have a function
+2084720	2090800	okay this this function will again have a function inside it
+2096080	2104320	okay that'll revise anyways okay so now inside this function i'm trying to console dot log of this
+2106960	2115280	this dot name and this dot age and also i'll try to console log of this here
+2119680	2124880	so guys can you expect here what will be happening let's i'm executing g also here
+2125600	2129840	and i try to call object to dot test function
+2130640	2136640	so firstly let's understand this line whether this keyword from a function okay this keyword
+2137200	2141040	from a function that is inside a function
+2143760	2150880	inside an object so this is what it is actually meaning that particular sentence now let's
+2150880	2157200	expect like what do you expect an output here can anyone think can anyone think it like what
+2157200	2162000	can anyone think it like what could be the output we have seen three use cases
+2167680	2177440	steve and 26 is from earth anyone else steve 26 how many of you believe that output should
+2177440	2185680	be steve 26 this will point an object and steve and 26 okay great so i see one thumbs up
+2186480	2191840	is anyone is all able to follow up guys i see i don't see all people reacting it if you don't
+2191840	2196800	understand it at any point of time do let me know we'll try to spend time on that understanding it
+2196800	2205520	okay now let me show you one thing you will be astonished to see this one the output of this
+2205520	2214080	one let's say i try to comment above console locks i'll stop this execution i'll stop this
+2214080	2223760	execution okay i'll stop this execution okay let's say i try to print this one now
+2224560	2229680	if do you see this here what what just happened now this is pointing to
+2232160	2234160	a global object and
+2234880	2242080	this particular this dot name this dot is caught undefined undefined now
+2243920	2249680	i've shown you output i've shown you this thing can anyone think of what could have just happened
+2249680	2256160	here just see this code guys i believe you should be able to understand try to draw an
+2256160	2261280	execution context for this one how it would execute it you'll be able to think what will be
+2261280	2270400	able to think what will be the output for this one
+2275280	2283440	okay meanwhile what i'll do is start so you are thinking it that's fine also i'll try to replicate
+2283440	2288880	this in the ipad i'll show you what is exactly actually happening let's say i have that same
+2288880	2296320	object const object to where i have name called steve
+2298960	2308480	and age as 26 and then we have something like text function inside that we had another function
+2312080	2316080	an ominous function inside that let's say i have function
+2319520	2322080	g i try to console log
+2324320	2324880	of this
+2328080	2329600	i console log of
+2334000	2335040	the start name
+2342160	2343120	the start age
+2343120	2352640	h i'm executing g here then i'm closing this function closing this object and i'm calling
+2353280	2359680	object to dot test function this is what we are doing it right
+2364080	2366400	now let's see what just actually happened
+2373680	2397440	okay this is what we have just written now firstly this whenever i create an execution
+2397440	2405040	context right whenever i create an execution context let's say this is an execution context
+2405040	2410880	one now whenever i try down here we have two faces right
+2414000	2420480	memory creation code execution now first step whenever i do it memory execution you know that
+2420560	2427600	object 2 will be stored here and on a heap you will be having all the content right
+2427600	2433600	and that will be referring here and then we have we say that from this object can you execute
+2434160	2441200	test function now in the code execution i go and try to say that test function i execute it
+2442240	2450240	right once i do this no once i do this i go here i see that in this execution context when this
+2450240	2457600	test function execution context okay test function execution context when this is created
+2458320	2466640	it has two things again memory creation code execution here if you see in this you have
+2466640	2473680	function g which will be initialized and left and on this this is always pointing to
+2474240	2481360	this particular execution context which is object 2 till here as we have this object
+2481360	2488080	but now when you have g and you are trying to execute g here and it will create another
+2488080	2498240	execution context of function g and here this won't be pointing to through the chain it won't
+2498240	2504240	be going from here to here but it will be for this it's a separate execution context is created
+2504240	2514240	so this will be pointing to global object okay and when you try to console log this you will
+2514240	2525120	be see you will be seeing this one here and whereas if you try to see name and age in this
+2525120	2530720	global object we don't have name and age so both will be undefined
+2535600	2540160	do you guys understand this one what just happened like i just try to show you in terms of
+2540880	2547600	yeah right cover okay i see one thumbs down guys can you give me further
+2547600	2549200	thumbs down if you don't understand it
+2553040	2560320	no okay cool i see many people who don't didn't understand it now i'll show you once
+2560320	2564800	with actually you know debugging it so that again we'll come back to this one
+2564800	2573200	now let's say i put a debugger here also here here okay i go back and try to execute the same file
+2574080	2580000	now you guys just check it on this okay firstly when i'm when i'm executing it
+2581200	2588640	in the local context or if you go for global context okay firstly it checks in local context
+2588640	2594160	whether there is something like this is if there is an object or memory is loaded
+2594160	2603760	okay guys i hope this you are able to see this one right this is visible enough or you are not
+2603760	2610800	able to look at it okay cool now this is a call stack now at call stack we are at the line number
+2610800	2618000	37 if you see 3776 it's it shows it highlights that one and here in the memory you have object
+2618000	2622880	two and object one now let's see what happens when you go inside this function whenever you
+2622880	2630880	are trying to execute the test function okay now i click the play button now if you see whenever
+2630880	2636720	i'm going to the new function test function there's a new thing that i got added into
+2636720	2642480	call stack now when you whenever you see this one right so i've told you that initially when
+2642480	2648240	memory loads this is the step one that is happening then you have the execution context two
+2648240	2654400	which is for test function okay which is pushed onto the call stack here when i go inside this
+2654400	2661120	if you see when i go inside this test function still this object is referring to the globe or
+2661120	2666960	this object too because that is calling this function that is calling this function and it
+2666960	2674800	is wrapped with these names okay so if you expand this one if you see age and name and age will be
+2674800	2680960	available here is this point clear till now how the test function is able to access this name and
+2680960	2689680	age because that is that is itself calling right so as i told you here this will be always pointing
+2689680	2694160	to the object to itself because it is acting as a wrapper yes i see only one thumbs up can you give
+2694160	2698560	me thumbs up if you are able to understand this how we are able to access age and name inside the
+2698560	2705840	test function uh i don't see any reactions
+2709680	2717280	okay cool now what happens let's see what happens let's see here if i go and create call the function
+2717280	2724000	g now a new execution context will be created altogether if you see a new execution context
+2724240	2732000	created for this it is this is pointing to global it doesn't have any context related to
+2732000	2737840	previous functions previous object it doesn't remember this thing it doesn't remember because
+2737840	2744000	this is completely getting executed in altogether different context it doesn't have any understanding
+2744000	2749120	of what is happening in the previous so this thing you will be able to refer better when you
+2749120	2756320	think in terms of this way okay this is a step one this is the step two then you will see that
+2756320	2764240	g function is a step three okay this is one where you have an object you loaded memory you are
+2764240	2771360	calling test function then you execute text function where you have access to this keyword
+2771360	2776880	because the object to dot test function something we are calling an object to data will be there
+2776880	2782720	once test function execution starts we say that we need to execute g function once we go for g
+2782720	2788400	for every function we know that the separate execution context is created and once it starts
+2788400	2796640	it it always points to as we know and this this is behaving same way as this one isn't it
+2798080	2804720	if you see here also we wrote a simple function always execute uh points to global object
+2805280	2805840	isn't it
+2811040	2816720	guys is this clear like how this thing is this thing is working so how many of you uh are able
+2816720	2823200	to relate with execution context process like did anyone practice it once we learned in hoisting
+2823200	2830000	concept uh because there we practiced it i've drawn execution context diagram so hopefully
+2830000	2839120	you are able to relate with this one okay now so let's let me revise again guys for you all
+2840160	2847200	so if you see it here i've took four examples first example was simple when i tried to console
+2847200	2855680	lock this in non-strict mode it always point to an empty object okay let me write here empty object
+2856640	2861120	okay this is one of the edge case where you will be seeing a different output
+2861120	2866880	but when it comes to function dot test it will this will point to the global object which
+2866880	2873040	it refers to in new execution context that we we just seen this okay and when it comes to object
+2873040	2878160	when you're trying to access this i mean inside the object it will always refers to its same object
+2878160	2885680	where it is calling from okay then you have a i mean a function inside a function which is
+2885680	2890880	inside an object then this will be executing in a separate execution context so this will
+2890880	2896720	behave as a simple function and the simple function we know that it always points to a global object
+2896720	2911600	okay is this clear guys i hope i revised it again you are able to get through it so one thing we'll
+2911600	2917680	do is that one thing we'll do whenever we are going through these four examples we'll try to
+2917680	2924480	make a notes of this one here so that you can come back and see remember these examples let's say
+2924480	2928640	i write down for the
+2938160	2942640	nojs and this is non-stick mode
+2945760	2951760	okay here let's say first example was simple we know that console log this
+2954960	2957760	object what this points to guys
+2960640	2965840	this always points to some object but which object would be pointing it in simple the console of
+2965840	2975040	this context empty right let me write down this one in second example we had this inside a function
+2976320	2978800	and wherever it's inside a function what it points to
+2979680	2989920	is a global object right and then we have another example this is inside an object
+2991520	2994160	okay let me write down this way
+2997920	3006640	this is inside a function and that function is inside an object and i'm calling object dot
+3007200	3011520	function and what will be the output for this one
+3019680	3023760	think of this one this is the same example i'm calling object dot function
+3025840	3035840	if you see this i'm calling here object dot function so i was able to get the object itself
+3035840	3042400	right now here can i say that here it will be our object itself
+3044720	3045440	as output
+3048960	3050240	guys are you able to follow up
+3052720	3060240	okay great now then there was something that we tried experimenting on this inside and function
+3061200	3067600	and which is again inside and function and which is part of object now here
+3067600	3075760	we are again calling object dot funk when we are doing this we got global object
+3078560	3082480	right i hope this differences are clear these four examples
+3083200	3088800	so usually this keyword confuses you so i'm trying to you know note down all the possible
+3088800	3092960	use cases which will give you a gist of it completely when we complete for the all the
+3092960	3100240	modes okay let's go and explore the same use cases same examples in the strict mode how this thing
+3101040	3104400	how this thing behaves okay
+3108640	3116880	now we'll go to something called a strict mode let's say i go to a strict mode and i remove this
+3116880	3125360	one and let's say i try to control dot log of this now what could be the expectation in the strict
+3125360	3132160	mode because strict mode was acting as an enhancement and by default do you think there
+3132160	3135360	should uh without any context this should be pointing to something
+3143520	3150720	all right we think that it should be creating an error but there is a one of the edge case guys
+3150720	3158000	one of the you know default exception case you can say for this one simple console log
+3158000	3160000	but because if you see the output
+3162880	3169040	it still points to an empty object this is without meaning in non-strict mode or strict mode it is
+3169040	3176880	always pointed to an empty object is this clear like always uh this one simple console log this
+3176880	3183360	will point to empty object whether it is strict or non-strict when it comes to node.js environment
+3183360	3190960	okay now let's say that i go and try to replicate this function okay let's say this thing i copy
+3191600	3196800	and i paste it here now think of it what it should be pointing to
+3199440	3200800	uh let me remove this
+3207200	3212240	in the strict mode uh do they have any object available here
+3216560	3225120	global function right let's explore this okay do you see this it is printing undefined
+3227440	3233760	in the strict mode there is nothing as such that you will be able to access uh in simple function
+3233760	3237520	like you won't be having any global function by default attached to it
+3238080	3242160	you have to define a context for that if there is only context for that
+3242160	3247680	only then you will be able to access that global function global object uh to say
+3248960	3253040	is this clear guys how the strict mode is saving for saving us like trying to protect from
+3253040	3257680	all the sites the all the errors that we see that you know all the use cases that creates
+3257680	3263600	this confusion when you use a strict mode it simplifies our pain point okay now let's
+3263600	3268320	see uh with the third example if i pick it up this example
+3276000	3283600	let's say comment let's say i have here i'll say this points to
+3284080	3292720	undefined okay now what would be the output for this one guys uh object where we are trying to
+3292720	3303440	print get print info are we binding this operator with this object so i done 32 says the edge how
+3303440	3305680	many of you agree with the edge point of view
+3305840	3308160	how many of you agree with the edge point of view
+3311520	3316640	i see two people so i hope you understand the reason behind why you are agreeing because
+3316640	3322080	we say that him using this object itself we are calling this function and this will always have
+3322080	3328720	an access to this one in its context in its local context itself uh and this will be always printing
+3328720	3335280	the right thing so there is no magic if you see adam 32 sprinting here okay so it is working
+3335280	3343440	in a right format now if i pick it up fourth one this example if i pick it up fourth example
+3349280	3350320	what should be the output
+3354080	3356480	now this is calling from object inside an object
+3358560	3362240	earlier it was pointing to a global object but what this will point to
+3362240	3368960	to undefined how many of you agree with or disagree with guys pradeep and diraj
+3371280	3379680	here agree right great let's see if this is giving me undefined okay now it gives me undefined it
+3379680	3387280	also throws me an error that you cannot read the property name and age if you see earlier uh if you
+3387280	3392880	see earlier in non-stick mode we didn't get this error isn't it we got undefined simply undefined
+3392880	3398800	isn't it for name and age also but here in the strict mode as i told you earlier that when you
+3398800	3403680	use use strict flag it gives us the right understanding of errors it gives throws us
+3403680	3409360	errors that we need to see it says that type error cannot read properties earlier if i still
+3409360	3414720	execute this point right if i still go and execute this file non-stick mode i'll show you the
+3414720	3415920	difference what happens
+3422880	3427600	you see i'm getting undefined undefined pointing to window object you see this there's a difference
+3427600	3432800	here it is returning as undefined but whereas in strict mode it throws us error so this was
+3432800	3437280	an implementation that uh you stick flags giving us i hope you understand this
+3438000	3446640	okay guys are you following up great now let's let's fill in this blanks that we were preparing
+3446640	3451680	notes for now in the strict mode what this console log adopt this prints
+3457280	3463680	what does it prints for the first one console empty right still and second one when we are
+3463680	3470080	inside the function the stick mode undefined
+3473440	3477280	and in the third one still do we print object
+3480400	3486800	data right object itself in the fourth one
+3486800	3497680	error and undefined both things right so i'll write here undefined because i'm i haven't written
+3497680	3503520	logic just i'm trying to say that what how the context switching is happening so i hope everyone
+3503520	3509520	is but having a clarity here like how things are differing in terms of strict and non-stick mode
+3509520	3514720	with respect to node chase environment and with these examples is anyone having any challenge
+3514720	3521840	understanding this one do let me know guys if you want me to repeat it give me thumbs up if you
+3521840	3527440	want me to repeat it again completely or else if you want me to go ahead give me thumbs down
+3528800	3537760	okay i see people are asking me to repeat it once i see three four okay great okay let's say uh i'll
+3537760	3546160	repeat it once uh so what i was saying is that you know always this operator uh refers to some
+3546160	3551600	object now that object we have to figure it out whether it's an empty object or the object is
+3551600	3556240	doesn't exist or whether it's a global object or window object or the object itself that we are
+3556240	3563280	calling on now that which type of object that uh this is pointing to depends upon how it is being
+3563280	3568880	called so the basic definition is always this points to an object but we need to know how
+3569920	3573520	how this is changing because this changes depends on how it is being called okay
+3574320	3578880	now we have seen in the strict a non-strict environment that whenever we are trying to do
+3578880	3584160	a simple console log this is an uh you know exception case uh you do it in strict and
+3584160	3589040	non-strict mode it always points to an empty object okay it doesn't mean anything but when
+3589040	3595040	it comes inside a function uh if you go for non-strict mode it always refers to a global
+3595040	3601440	object where you can access all the set timers set time or functions you know uh set interval
+3601440	3608320	all those functions inside the non-strict mode okay and when it comes to a simple object here
+3608320	3613840	if you see the way we are calling this function get print info function we are calling this function
+3613920	3619920	using the object itself so the context of this changes to this object this is always pointing
+3619920	3626640	to this object itself okay and inside that object memory we have add a name and h so we are able to
+3626640	3635280	print name and h here okay so if we go for the next example if you see it here till if you say
+3635280	3640640	object to dot test function wherever we are calling this function of this test function
+3640640	3646800	we always have the this operator append pointing to this object to this test function will have an
+3646800	3653200	access to name and age but when this g function is getting executed it executes an altogether
+3653200	3659200	separate execution context where there is no object that is particularly calling this function
+3659200	3665440	so whenever it is getting created as an empty use case it behaves in a same way as a simple function
+3665520	3674240	and when this happens it always this refers to a global object and this dot name and age are
+3674240	3680080	set to undefined because global object doesn't have name and age whereas if you go for strict mode
+3680880	3687200	still see this is an edge case so it still points to an empty object generally in the strict mode
+3687200	3693040	it behaves as we look at it now when we say that we are trying to print something this operate
+3693040	3697600	directly inside a function there is nothing like we're defining an object here so it always point
+3697600	3703920	to undefined whereas for this example we are strictly straightforwardly defining that hey
+3703920	3709840	object to dot great print info and we are doing this this particular object already have this name
+3709840	3714960	and it so it is giving us that output and when coming to this one again this function is acting
+3714960	3721200	as a simple function and there is no this keyword pointing to anything there's no context for this
+3721200	3730080	one so it gives us undefined and for this one we it throws an error type error i hope the
+3731840	3736720	guys i hope you are able to follow up and things are clear now how this works in strict and
+3736720	3742160	non-strict mode which comes with respect to node.js environment now let's explore
+3743200	3749360	how this thing changes with with respect to browser because we know that you know js works
+3749360	3753280	in both the environments now we have explored one part of it now let's explore this in the
+3753280	3764080	second part of it okay going to browser and again non-strict.js let's say i try to copy this code
+3764080	3773280	whatever code i have let's say i comment or else let's say we type it down one by one
+3774240	3784640	let's pick one by one okay and if we want to if we want to execute a file in the browser we have
+3784640	3793200	to have a one html file okay let's say i'll remove this one let's say i have an index html file
+3795440	3799760	and this index html let's say i have this and we
+3804240	3807600	define script we have source tag
+3815520	3824160	non-strict.js let's say i say strict versus non-strict
+3824160	3834560	okay let me refine this other day i'll copy this
+3839680	3846880	context of this key let's say we write this thing and i launch this html
+3847120	3854800	so i haven't done anything great guys so just a thing that i created an html connected with this
+3854800	3860000	non-strict file and i try to console lock this simple thing now what do you think in terms of
+3860000	3868000	browser this points to when i do the console log of this one any guesses you might have played
+3868000	3874560	around with a browser many times till now you might not have used node.js environment as as much as
+3874560	3881840	environment as as much as we have used document or window says zrash okay let's see this case
+3882560	3889680	no one thing i want to know why do you think document zrash just want to understand your
+3889680	3899120	point of view document is a dom api right and that is not an object which is having all the
+3899120	3907440	functions that we need it will always point to a window object okay which have all the browsers
+3908880	3917360	functions available in it submit as in terms of node.js as we had edge case in strict and
+3917360	3922480	non-strict it was pointing to an empty in terms of browser it will always point to window okay
+3922720	3931120	this is also another edge case okay so here guys if you see if i try to write down simple this here
+3931120	3937680	what do you see see this window is building out if i say this dot document
+3941120	3949120	so document is a part of window object itself zrash this dom is a part of whole object that's
+3949280	3954960	a whole object which is having everything okay document will be there but it's a part of window
+3954960	3959760	itself you will see when i open the window right in the browser you will have too many things
+3959760	3966160	too many methods available if you go and try to use navigation right a location based too many
+3966160	3970720	events too many things that you will be able to see what all things that you can see on the browser
+3970720	3975360	that all things will be available here you'll be able to see performance and you know
+3975360	3989680	be able to see in the window object so simply in non-strict mode when it comes to browser simple
+3989680	4000080	console of this points to the window now let's say in function okay let's say yeah that's that's
+4000080	4008480	depending on how you know the js is executed i don't because now if a browser is built by
+4008480	4014000	different teams node js is built by one of the different open source organization
+4014640	4020320	they called it that way particularly that's how you write you've been writing the code legacy code
+4020320	4026560	indirectly in browser you can access like the timer functions and everything okay that's how
+4026560	4031120	the wrapper has been built whereas in node js it behaves differently okay
+4033520	4039280	so let's say console lock this and let's say if i execute test now
+4040960	4046720	what do you guys think what was the answer for this one in the node js environment
+4046720	4050080	anyone remember it in the non-strict mode
+4056560	4067760	global right here as i told you in node js if it is a global is equal to window object let's see
+4067760	4074000	if this is working fine okay i go back here i try to console log if you see still we are able to see
+4074800	4080320	window object coming from the line number five okay this line number five is this one itself
+4080640	4087520	okay i hope this is clear now this global and window object name is convention is also changed
+4087520	4095760	by the respective teams who build this node js framework and you know browser okay now let's
+4095760	4104240	see the third example which is this one and i hope this is a straightforward example one final check
+4104480	4108240	uh one final check guys would be the output still same for this one
+4109280	4116800	would you see the adam in 32 still getting printed for this use case let's see let's see this
+4118720	4125520	okay do you see that adam in 32 is printing so when it comes to this use case it's a straightforward
+4125520	4130320	right object is calling and this will always point to the object so in those use cases it's
+4130320	4135120	straightforward and simple now let's go and try to execute this use case
+4142800	4143040	no
+4145840	4150080	do you think still it should point to global object in a separate execution context
+4153200	4153840	for this one
+4161040	4161920	someone says no
+4169120	4175920	okay okay still if you see as i told you earlier this will work like a
+4177200	4182080	same function as this one right a simple function in a new execution content it was
+4182080	4187200	pointing to window this will also be pointing to the window object okay
+4191200	4193200	so
+4197920	4204320	now let's see do you see it here it points to window object and it throws an undefined here
+4204320	4210240	reason behind we are trying to access this one if i try to comment this one you will be able to see
+4210240	4217600	only window i hope these points are clear guys like how in terms of non-strict environment
+4217600	4224800	browser is behaving the only change is again this console of this this behaves by default
+4224800	4230960	it provides us access to window and all the use cases you see window object getting printed or
+4230960	4237680	the subject itself right let's try to fill in the notes that we are preparing for understanding
+4238640	4240160	okay let's say
+4242400	4245280	i write down as browser
+4249600	4252400	okay and i say that non-strict mode
+4258800	4264240	simple console log of this so what was this pointing to guys again
+4267920	4279280	uh you'll help me out right writing this thing down so
+4285280	4291120	window right inside this also window isn't it this inside the function
+4291120	4301840	now the third example was this inside a function which was a part of object and we were calling
+4303120	4312560	object dot function and we should be able to print object itself here this is a common across
+4312560	4320960	each environment strict non-strict browser or anything now this inside a function inside a
+4320960	4328720	function and that is inside an object right and this points to again window
+4331680	4336640	is this clear guys like how this works in the non-strict environment
+4337600	4344560	is this clear guys like how this works in the non-strict environment with respect to browser
+4347360	4351920	you know i'm doing this exercise for on this particular keyword is because
+4351920	4356480	people get confused so you should be able to understand how this works
+4357120	4361920	if you are clear with the execution context point of view you will be always be able to figure out
+4362000	4368560	other than this one of the edge case okay now let's go and see what happens in the strict mode
+4370400	4379120	let me create inside a browser strict dot js and let me link
+4383760	4391600	strict dot js once i link this i'll go to this file i'll try to print this one now what do you
+4391600	4402240	think guys the output should be in the strict dot js in terms of browser and define let's see
+4402240	4411040	this if this is working that way browser always gives you window object as i told you the edge
+4411040	4420640	case for this one is that in as in strict and non-strict mode always console log okay let's
+4420640	4432240	me use that that one use strict okay let me go back you see this see this i refresh it
+4434880	4439680	now as i told you this is one of the edge case that happens like in simple console log this
+4439680	4447120	either it is pointing to empty object or like it is pointing to window object here in both
+4447120	4452880	in strict and non-strict mode this is pointing to window object okay now let's see if i write
+4452880	4457520	down a function again test inside the console dot log
+4460720	4466640	this and let's say i execute this here now what would you expect here again
+4467840	4475360	in the strict mode what was from earlier experience what would be the output in terms of
+4475360	4479840	node js strict mode
+4482320	4489600	undefined isn't it there in node js let's see what happening here still do you see this undefined
+4490240	4495360	that those both are aligned because there is no binding object binding is happening here there
+4495360	4503280	is no context for this one this okay now let's go with the third example which we have now
+4504160	4509200	this should be pretty straightforward that each time because this is one of the valid use case
+4509200	4514160	it should be still printing adam32 right it's still printing adam32
+4516000	4519280	now then there's one of the other last case
+4522400	4526400	let's say i try to take this and print it
+4526560	4531040	it now what should this point to here guys
+4534320	4539680	again undefined isn't it let's see so i guys align how this is working
+4541680	4547920	in the strict mode same way so which environment do you find better guys
+4547920	4560000	this strict mode now let's say i write down here in the notes that first point
+4560640	4566720	it's still pointing to window object this one it points to undefined
+4569760	4571760	this points to object itself
+4571760	4578160	this points to undefined
+4582640	4587600	so which is a better environment for to use for the production spaces just let me know whether
+4587600	4593840	you would use strict or non-strict which would be preferred guys from your understanding strict
+4593840	4599120	right strict mode is preferred and when it goes to that's the only difference if you see the
+4599120	4605280	outputs right if i zoom it out when it comes to strict or non-strict both the things this one or
+4605280	4611280	this one only the this use case right first use case are behaving differently but in all other
+4611280	4619760	use cases you'll be able to see that they are behaving in a same way okay so in production
+4619760	4625200	basis we go with the strict mode and this is what you have to remember i've but i have given you
+4625200	4630080	the context of everything which i'll be again taking a screenshot and i'll be adding that into
+4631280	4637600	you know as i've added it for these two things like you have a debouncing throttling the topics
+4637600	4642240	whichever you feel confusing right like the position property i'll be adding an image for
+4642240	4647360	this one so that you remember it if you are not able to access this notes whatever we are preparing
+4647360	4653440	i'll add this one if you need it do you want me to add it add this one there guys this differences
+4653440	4661920	block okay great i'll do that i have to prepare this one i'll add this one there okay great so
+4663440	4670560	are you feeling confident about like understanding this this is always again repeating the you know
+4670560	4680960	definition definition of this is like this this is pointing to some object now this object can be of
+4683600	4692160	how many types it can be window or global depending upon which node chase or the
+4692160	4700960	like browser then you have sometimes it object itself sometimes it is undefined
+4702080	4709520	now the undefined gives whenever in the considering strict mode if no context
+4710480	4714560	like there is nothing like whenever you're executing you are simply calling that function
+4714560	4721920	like function dot whenever you're calling this without any object context then you it will give
+4721920	4726880	you undefined whenever you're calling from the object point of view it will always print object
+4726880	4735280	itself and this is by window and global is like in strict mode when you will be able to access guys
+4736000	4741520	only in simple console lock this other times you won't be able to access
+4743680	4748880	directly the reason they have done right in strict mode you will be only able to
+4748880	4754160	access the window or empty object from friend end point of view in browser is that
+4754160	4758320	you always try to add this set timeout and everything right
+4758720	4763200	okay so the definition is simple this is pointing to some object we should know where it is being
+4763200	4767600	called from once this point is clear you will be able to figure it out
+4769600	4776880	so guys do you need a break or should i go ahead i need another half an hour to complete the class
+4776880	4783840	if you need a break so you can go ahead and complete the class and then you can go ahead and
+4784240	4788800	i need another half an hour to complete the class if you need a break let me know
+4788800	4794400	or else if you want me to continue i can continue okay you need a break how many minutes guys
+4795680	4803120	so we'll use some bits application some say seven some say ten okay so
+4805280	4809440	okay what i'll do is that i'll give it for seven minutes guys so i'm starting a timer
+4810320	4816000	once it is clocking seven minutes so i hope some bit you will improve this application redeploy
+4816000	4822240	and give it to me where i can enter the number of minutes okay i'm just waiting to clock it seven
+4822240	4831360	next week surely done so i've started guys take the break and come back in seven minutes
+4839440	4840240	you
+4869440	4870240	you
+4899440	4899600	you
+4929440	4930240	you
+4959440	4960240	you
+4989440	4989600	you
+5019440	5019600	you
+5049440	5049600	you
+5079440	5079600	you
+5109440	5109600	you
+5139440	5139600	you
+5169440	5169600	you
+5199440	5199600	you
+5229440	5229600	you
+5249840	5255920	uh guys i hope everyone is back can you give me one thumbs up if you are back guys
+5256880	5263440	cool uh so one check can anyone check if in archive section do you see
+5263440	5268800	github uh class and uh you know portfolio project class is added
+5271120	5276400	i got confirmation today i've been asking for some days uh but can you check
+5286720	5287200	so
+5288800	5304400	is anyone confirming guys is anyone checking
+5304400	5310880	so
+5314400	5319600	so please go through those classes guys it will really help you to fill up the other content which
+5319600	5325280	is not been covered so okay
+5327920	5332960	great uh again uh i would again ask you like you know uh whatever classes are there please
+5332960	5338480	try to go to check them once you have bandwidth uh even if you need any other content other than
+5338480	5343520	this thing if we are missing any topic or anything you can uh you know mention to me in whatsapp group
+5343520	5348560	or anywhere visionary or in class we'll try to cover it up we'll try to pick it up okay
+5349680	5353120	but can we move it guys can we move it the next topic
+5356400	5362240	great so let's say next topic is uh something called as constructor function
+5363680	5372080	before going to its name or anything what it is let's let's do something let's build something okay
+5375280	5378000	let's say i create a file called constructor
+5380240	5383600	dot j s now let's say
+5383600	5393760	let's say let's just think of this one that what if you want to build an car what all things you need
+5396960	5401520	let's say you went to a tata factory uh let's say you say that
+5401520	5406240	hey this is a car one uh what all properties it can have firstly
+5413760	5423920	color model can i say name firstly let's say it will have some name and then color then model
+5427680	5433360	and features all these are features itself upendra so company have fixed this is a tata
+5434560	5441120	manufacturing date can i use another top speed keyword let's say four things okay
+5441680	5448640	now let's say that uh one of the car arun suggestors is nexon let's say nexon tata nexon
+5448640	5455360	now inside nexon which color you want it arun which color i pick it any color guys nexon looks
+5455360	5462880	cool cool in coral do we have coral nexon available okay let's say nexon
+5462880	5463440	nexon
+5465760	5473120	petrol okay then you have a top speed of nexon as let's say 160 kmph
+5476320	5479680	okay this is an object now if you want to create an another object
+5482320	5489120	bumblebee uh okay but let's come back to this guys if you want to build how many other car
+5489120	5494320	like in tata factory there are many other models also are being built right now if you want to
+5494320	5501600	build another model which would be you're picking up tiago let's say you have a tiago
+5502560	5510560	and let's say color of tiago is a black and let's say this is uh electrical
+5510560	5512560	model
+5514960	5523680	and let's say this runs on up to 160 kmph still tiago i'm not sure but it goes okay safari
+5526640	5531520	this is one of my favorite model no one mentioned it yet i'm seeing comments
+5531520	5534960	tiago only 80 let me give 100 at least
+5535600	5545120	safari okay let's say safari is red in color it's a petrol engine heavy uh sorry diesel engine
+5545120	5556560	heavy vehicle uh and it goes up to 240 kmph no yeah i was waiting for this harrier have you been
+5556720	5562400	waiting for this harrier have you been in harrier guys have you experienced harrier
+5564400	5571840	have you seen harrier it's it's it's literally wow for me uh it's really classical car
+5573280	5574320	i really like it
+5578480	5583520	i mean my neighbors have it we give it my car to him i pick it up other car
+5586560	5595520	so yeah uh yes there's one more car uh kind of a hatchback can you guess it
+5597520	5605600	but it's really cool car also yeah altros right let's say i pick it up altros
+5606160	5608000	hey this will go up to 240
+5610560	5614160	altros let's say it's blue in color
+5617280	5626960	uh it's again petrol let's let's say it goes up to 160 kmph now yes uh we have uh ferrari it's not
+5626960	5634160	part of tata motors so if you see here there's one thing what we are doing is that the one way
+5634160	5639360	of creation object is this way right whenever object whenever see where object what we are
+5639360	5646400	actually meant to say that we are trying to envision the real time entity right a real time
+5646800	5654320	entity like a car it can have a number of properties yeah uh classes i don't want to
+5654320	5659280	talk in terms of class some bit we didn't introduce the word class or we don't know what class is
+5659840	5664240	but let's just talk in terms of objects functional objects or javascript objects that we discussed
+5664800	5670160	but are you able to relate like if i give any real time entity or real world entity you will
+5670160	5677120	be able to create objects this way like defining a space square i mean curly braces and defining
+5677120	5682800	its properties and functions in it right you will be able to relate with any any real world entity
+5682800	5688560	like take it a house take it a building take it apartment or anything you will be able to
+5688560	5696400	relate it right anything you will be able to build it this way yeah providing reality to idea
+5696400	5702480	because this is where objects helps you to connect with you real time things like you can
+5702480	5707360	build even if you want to build a macbook or windows you can keep on defining properties
+5707360	5712400	functions everything so you'll be able to do that so now but do you see here some use cases
+5712400	5718080	like if i want to build n number of cars let's say if i want to build i feel i build five cars
+5718080	5725120	i have defined five objects specifically to it okay like car 1 car 2 car 3 car 4 car 5 each time
+5725120	5732640	i'm trying to type a car name model top speed right so i'm trying to duplicate i'm duplicating
+5732640	5736000	the code here do you see this this is a duplication code duplication happening
+5738160	5748000	so imagine now even what if i want altros of red in color i don't have a way if i want to create
+5748000	5754240	altros of red in color i have to create another object of altros red what if i need altros blue
+5754240	5760320	of desert i have to create another object so if i'm trying to build that way there's a lot of
+5760320	5768240	you know the code gets lengthy and you know way of defining the objects is really it looks not
+5768240	5775360	that you know good to eyes right whenever you see that code so in order to fix these issues there
+5775360	5780960	is a one of the other way how you can define this object creation one of the way you can create
+5781040	5786080	object is this way in js the other way is something called as constructor function
+5786080	5792160	but do you know what constructor is called in any language whenever you say that whenever you
+5792160	5797680	hear this word constructor what do you exactly understand by this keyword
+5801120	5803760	what do you understand by this keyword call constructor
+5807280	5810640	any idea what do you understand by this keyword call constructor
+5811280	5819120	in any language go to java python c++ anything that you bring there is a this keyword is common
+5819120	5824560	across each and every language but i just want to understand what do you exactly understand by this
+5824560	5827280	keyword call constructor anyone
+5829600	5834400	called every time an object is created somebody says and any other definitions guys do you
+5834400	5836320	remember any other definitions
+5841680	5842180	okay
+5846080	5852960	is anyone trying out anyone from java backgrounds that's one of the basic color definition
+5857280	5860000	any object-oriented programming so there were many people
+5860880	5864160	who were working around with java object-oriented programming
+5864720	5868960	so just want to know what do you understand a function to create or initiate object okay
+5871440	5876480	okay it's like creating ones initializing constructor using multiple to create object
+5876480	5882160	okay great now one of the you know clarity that i want to give it to all you is that
+5882160	5890720	you know constructor is used to initialize object variables
+5893520	5895440	in order to create object
+5901280	5909120	you use new keyword generally new keyword is something which is creating memory
+5909840	5915680	right which is creating an empty memory for you where in constructor you pass on the values which
+5915680	5921440	initializes the variables right whatever you define it in a class like i don't want to say that but
+5921440	5925360	if you want to relate it that way so do you agree with this definition
+5925360	5931680	okay guys whoever commented in the chat do you agree with this definition
+5934640	5940560	now and i just want to know in the class how many of you are able to understand this thing
+5940560	5944880	firstly i hope there are many people who don't understand these two sentences even
+5944880	5956560	okay great now i hope everyone is able to relate it but now let's see how do you do it in javascript
+5956560	5961600	if you want to create these objects like you want to reduce the amount of this code duplicacy and
+5961600	5967520	how would you do it so one of the thumb rule for creating a you know constructor function is
+5967520	5972560	whichever function you are creating if you are trying to make it as a runner as a constructor
+5972560	5977440	function you have to define that function starting with a capital letter let's say
+5978080	5987840	i say it as data cars do you see i have mentioned capital t there okay this is first thing now
+5987840	5994240	inside this data car it will receive a list of variables now let's say you have this name color
+5994800	6004720	model and top speed okay these are the variables that you have now in order to create these
+6004720	6010000	variables what i'll do it here is something i'll just show you guys you have to tell me
+6010000	6013760	whether this will work or not
+6022080	6023200	the start model
+6025680	6034160	equal to model the start top speed equal to top speed
+6034160	6038320	okay just let me know whether this will work or not
+6042240	6048400	okay now what i did it here is start now let's say if i if i create a new memory how can i call
+6048400	6053920	this function if i want to create an object anytime let's say i am creating a const altros
+6053920	6060800	if i'm trying to create an altros here let's say i will say that hey can you give me a new car
+6061360	6067760	and uh let's say tata car inside that i'll give all the information i need
+6067760	6069440	i'll say that this is in altros
+6072160	6080000	and let's say i'll give the customization let's say blue i'll say model is electric
+6082640	6085280	and i'll say top speed is 180 kmph
+6085280	6095600	okay now the let's let's see if this i'm able to execute as expected uh what i'll do is i'll try
+6095600	6100720	to console log this object okay then i'll try to explain what's happening behind the scenes
+6101760	6103600	first let me see if this is working fine
+6107280	6110400	constructor dot js
+6111120	6117440	if you see it here i'm printing something called a star tata car with this all things now but what
+6117440	6123040	is exactly happening here let's understand what happens when i call this function
+6125600	6132800	uh when i call this function let's say new dot tata car what do you think this will be initialized
+6132880	6135680	what do you think this will be initialized with
+6138800	6141440	can i say step one
+6143920	6148320	would be whenever you are creating an object whenever you are trying to initialize using a
+6148320	6154800	new tata car whenever you say this this first thing initializes a new empty object here
+6154800	6161280	i mean this is pointed to an empty object because you created a whole whole together new object
+6162000	6167760	is this clear guys step one what is happening whenever you use new keyword you are generally
+6167760	6173200	creating a whole together new object which this is pointing to this empty object once this is done
+6173760	6178720	then wherever you have this variables right wherever you have this variables this start
+6178720	6184880	name model it takes those all those variables whatever defined in the function it takes those
+6184880	6192560	variables let's say it takes this like this start name is always pointing to undefined
+6193920	6203600	like then the start model values will be undefined okay the start color undefined the start color
+6205760	6212880	undefined so this is how this will be working in second step like all the way
+6212880	6220320	initial first is empty object then this object then at step three all these values will be
+6220320	6229920	filled with actual data now this object whatever object you have it with this will point this will
+6229920	6238560	change to such a way that this will point to an object which will have name auditors
+6238560	6255280	then you'll have color let's say blue then you'll have model as electric
+6257280	6261280	then you'll have top speed as some random value
+6261920	6268320	so are you able to relate to this case how actually object is being created using constructor function
+6269920	6277440	okay even this doesn't work this way it takes like a model it initializes all values with the
+6277440	6283440	undefined like same like a memory execution execution phase all the variables first initialize
+6283440	6288800	with undefined okay this is what happening in the second step then third step it is this is
+6288800	6294080	what it is building it now if i want to rebuild all of these models right it's really simple
+6294080	6300080	right one of the simple use cases would be for me to it's like replicate this one let's say i want
+6300080	6311920	to create a safari i'll go and say that get me the new car i'd say safari color would be red
+6312720	6318560	uh color would be red model would be petrol
+6320880	6328400	uh top speed will be let's say 240 kmph right so i hope you are able to
+6328400	6333440	connect with this case how concept of functions are used how can you optimize the code the way
+6333440	6339120	you write right i can end up this in five lines of code like if i can create a number of objects
+6339120	6344960	that we want so hope you are able to know understand the new way of creating an object
+6345440	6352560	uh like if you have a really reusable object let's say each and every object will be having
+6352560	6357600	a same sort of fields like say they will be having the same sort of fields then we will be using this
+6357600	6363200	one right like we can write a constructor function and we can reuse it this is the one of the core
+6363200	6374400	concepts of javascript now i hope you got to know now two ways of creating objects in js
+6376720	6385120	one is simple using curly braces then you will have constructor function so why we when we need
+6385120	6389680	to go to constructor function the only in the use case where you have the where you have to create
+6389680	6396640	a multiple objects with similar variables or even that's the same definition right when you
+6396640	6402880	want to go for a class whenever you have multiple objects are of same type or with changing the
+6402880	6407520	types of variables but i'll come back to the class in the next class i hope this point is
+6407520	6413360	clear guys anyone having any doubts why constructor function and how constructor function works
+6413360	6423520	okay can you please scroll to the first method uh step what if you miss a variable in the
+6423520	6430320	uh new constructor okay what if we missed it let's say i try to build it up that way like color
+6430320	6435760	uh let me miss this okay let's say i have i don't have this color okay let's say
+6435920	6442000	let's say i have i don't have this color okay let's say i've gave only three values now
+6444640	6448320	okay uh let's say i try to print safari
+6454160	6460880	here if you see it here what happened whenever you miss some variable here
+6460880	6464080	so it or the last variable will be assigned undefined
+6467600	6473680	like it the petrol was assigned earlier so that's how it works as per index
+6474720	6481360	as per index other than that thing like it's not as per index but if you see i'm picking name then
+6481360	6487760	i'm applying yeah like you can say the the exact way that how it is defined in the parameters the
+6487760	6491440	same way you have to pass the arguments the function okay
+6497520	6504560	so great guys guys any anything else any doubts if you don't have any doubts uh so uh today's
+6504560	6511040	classes that's that much itself because i don't want to confuse you introducing new things like
+6511040	6517440	classes as of now but this is what today we are talking about like what this is talking about
+6517440	6523280	this context of this in no like understanding strict and non-strict environments and both
+6523280	6527840	like how this works in both browser and node.js then understanding a constructor function
+6527840	6533840	up to an extent then we'll come back with the new topics again right samvith yeah we have
+6533840	6536160	ended the content that we have to discuss for today
+6540640	6545280	so if there are no doubts can i start doubt session and we can go ahead
+6548400	6551040	great guys so let's say i start the doubt session
+6554400	6560000	okay so i've started out session guys but uh what i'll we'll be doing it right uh something
+6560000	6562640	i just want to talk about it once i introduce classes
+6565600	6573680	yeah uh we started early quite early today right uh doubt session but uh next in next class we
+6573760	6579520	actually will start with actual object-oriented programming that you reflex with which is esx
+6579520	6586800	syntaxes esx concepts where you see classes and classical inheritance and then we'll try to see
+6586800	6592320	how they have built it actually what is the behind the scenes you know how they were able to build
+6592320	6602560	this class samvith was waiting for ankit's reactions things so guys uh so i i knew that
+6602560	6606720	i was able i'll be closing up early today that's the reason why i asked people who were facing
+6606720	6613600	challenge i'll be discussing with them so guys uh earlier uh whoever gave me thumbs down right
+6613600	6618800	who were not able to follow up with the class or the content uh let's have the conversation
+6618800	6624320	uh just you know raise your hand so that i'll unmute you we can have discussed broadly we'll
+6624320	6629920	understand your points i'll try to add my uh you know my vision or my way of understanding
+6629920	6631040	how can you do it better
+6634080	6639920	uh good night guys if uh if there are no doubts feel free to drop uh we'll connect back on the
+6639920	6652800	thursday uh okay kiran's has shared me uh you know kanban board get kiran let me share it to everyone
+6652960	6660960	okay uh i'll come to come to you for a second so this is built by kiran kudos to kiran for building
+6660960	6666080	it uh putting all the efforts so one suggestion i can give you is that you know the font size are
+6666080	6673200	really small if you can improve a bit big uh would be really cool this one this are all to do okay
+6674080	6683200	this one this are all to do okay maybe a little bit bigger okay uh no screen size
+6691840	6698000	okay i see search filter going at below so i just want to see uh
+6698000	6704960	uh yeah i it's looking a bit different on my system i agree so there might be few things
+6704960	6712640	breaking uh yeah uh we have to address that issues we have to address that issues like how why it is
+6712640	6717600	breaking let's say if i give you some pointers uh let's say i zoom it out
+6723040	6724240	hey it was working fine
+6724240	6735680	now if you see uh at 100 zoom uh the search is going inside it but when i'm opening debugger
+6735680	6743520	i'm able to see that one now if you see how this is working this been added or dealt with
+6743520	6746800	with
+6748960	6755840	or the search container css position relative uh position relative to which one is this this
+6755840	6760880	container with this container if you do seven rem uh when i
+6763440	6769680	when i when i do this right when i play around with this my screen sizes and width it will be
+6769680	6773280	breaking this one search container what if i remove this
+6776160	6780240	i remove this by default uh
+6784000	6789840	let's say we have a wrapper around here i say display as a flex
+6792400	6795760	and flex direction as a column
+6799680	6811120	let's say as of now um i'm just editing i'm trying to figure it out okay when i put this
+6811120	6822000	column reverse uh it still goes inside because this toolbox container is defined in terms of
+6822000	6826640	height of 15 percent 15 percent of width let's say you give some
+6830000	6842000	let's say 25 pixels uh 250 pixel which is too huge 100 pixels try to use relative unit so that
+6842000	6848640	it would be good kiren right in terms of uh use relative units you'll be able to figure it out
+6848640	6857680	use rems okay now if you see uh once i fix that 15 pixel one even if i go and try to use your
+6858640	6868640	properties like if i use this now let's say i go and remove this display flexion direction
+6869760	6877040	this works fine i have to only address this issue i guess this whatever height you are using 15vh
+6877040	6883760	that's the thing which was creating an issue okay uh and another uh keep check this font sizes uh
+6883760	6888880	use relative units as per screen width it will change it okay uh keep it default
+6888880	6895120	using rem units so that will work fine uh trying to create ticket uh this looks cool
+6896000	6905920	let's say i again use task one uh and i click pink so i have a really yeah the highlighter is
+6905920	6912720	you can add a much more box shadow because box shadow is of same color and the background is
+6912720	6920080	same color right so that the click feel the click feel is not that up to an extent maybe
+6920080	6926080	ticket this feedback as a positive way okay hope you are not feeling offended okay
+6927520	6935280	because we all are learning right now once i click so how do this ticket get created
+6935280	6942080	what key i should use here what you have decided shift or enter or how does it work
+6943520	6946080	because i'm trying shift and enter it's not working
+6948720	6958400	okay option alt key okay great so i have alt uh now let's say i create another task task hyphen
+6958400	6968320	two i have green in color i click alt and then i inspect it i go to application
+6968960	6981200	and storage uh let's say okay uh one thing do you see ticket content i have task hyphen one
+6981760	6990640	slash n now if i go and edit it i don't have that slash n which is like entered into the next line
+6991520	6997120	check this this bug can exist in all the apps like created across okay this slash n because
+6997120	7005280	i clicked enter and then pressed alt like alt yeah trim would work trim would work
+7010000	7017520	okay check check on that kiran okay if that works now i'll update it as zero one and again i click
+7017520	7024960	alt uh i lock this button so it got updated as expected let's say if i update color it is
+7024960	7032320	expected working as expected to be review cool in progress cool to do nothing double click
+7034160	7041600	uh how do i get all okay all all is the button you have given all okay will that matter
+7042160	7048000	uh it is a usual string right let's say if i create uh what what will happen let's say i create
+7048000	7054960	another task file i'll show it here uh let's say i say task hyphen three and i'll keep on
+7054960	7061600	entering it since it's a text area i've came to last time i click uh pink as a default color
+7061600	7067920	i come back here i click alt now if you see what happens do you see here the text content what if
+7067920	7074240	you are sending this data to api you will be having slash and slash and slash n so this will
+7074240	7078160	matter when you're actually sending it to server so trimming it is a better option
+7082240	7090080	you get that okay great so yeah it is great kiran like only one css fix that i see uh which is
+7090080	7096960	respect to height of ph and other things are looking cool only font sizes and good one so
+7096960	7101920	if i filter it out let's say task okay uh do you see this
+7104080	7112080	okay uh it's case sensitive isn't it kiran's case sensitive so one suggestion again here
+7112080	7120240	uh try to use uh like uh not make in sensitive uh let's say case insensitive we should make this
+7120240	7126640	one maybe use lower two lower case or two upper case anything works okay uh anything that you
+7126640	7132880	are trying to check like uh the check condition uh let's say if you uh there are too many console
+7132880	7138320	locks also try to remove this console locks from the application uh things are getting printed so
+7139280	7145120	one of the way that i was talking about is let's say this is a task uh you will always have a two
+7146720	7156000	local uppers case i don't think two local two upper case okay and so you can always triple check
+7156960	7165280	with task to upper case you have to do use uh for both the conditions something that you are getting
+7165280	7171920	it from uh local storage and the value which is area okay you will be able to get this way
+7171920	7175040	and you'll be able to filter it and return or based on the filter
+7177600	7186240	got this hidden uh this point okay yeah uh and the other one is like if i enable delete uh
+7186240	7195760	let's say i hey this is cool samit you got a new point to implement our c on this one
+7197360	7204160	so if i hover over it again kiren there's a one suggestion what do i do it if i hover over it
+7204160	7211600	do i get a different feel no like i'm able to delete this one what if this bulges up again
+7211600	7218640	again like i'm just adding my idea uh like uh whenever i'm hovering over it the cursor should
+7218640	7223040	change to pointer first then only you will be able to know that you are going to delete this
+7223040	7229760	pattern this particular card uh particular task so at least cursor make a change of cursor
+7230800	7233600	whenever on hover the cursor will change to pointer
+7234320	7236320	uh
+7237280	7242960	yeah uh no no no worries no worries uh no worries uh i all like i understand it right
+7245280	7253680	yeah can we make it a burst uh you can actually you can make changes uh but uh i would say even
+7253680	7259280	if you did it in hurry right uh you you really got some great changes you can keep on like
+7259360	7266480	you know improving it yeah uh yeah you you you can do that right you can do it you can keep on
+7266480	7273760	implementing i have so that's where our ideas come right uh as a front-end developers if you
+7273760	7279760	see the same application functionalities are same the app that i built was different the sam with
+7279760	7286560	version was different your version was different uh those two functionalities are same so uh kudos
+7286560	7291760	to your efforts guys so try to think like how can improve uh because it will help you to improve
+7291760	7298400	your uh ui ux skills more and css skills more i would say like yeah because those
+7298400	7303280	devs are still going to exist uh the functionality is still going to exist the same way it's just
+7303280	7308800	that you are playing around with the css and some of some of your ux ideas okay so try to improve
+7308800	7314240	uh like i mean i won't say that improve maybe whatever idea clicks inside your mind try to
+7314240	7321120	implement that because i i feel if you are able to come for this the only deployment took two
+7321120	7330720	hours truth and i get that uh okay uh even if null check is also not needed uh one thing i suggested
+7330720	7336400	you know optional chaining also you can take it up get an optional chaining i suggested in the chat
+7336480	7345040	uh that will also work uh yeah null check uh all optional chaining if you add it here optional
+7345040	7351040	chaining now this will also work because it checks now if object is empty it won't go for for each
+7353760	7357040	okay optional chaining i have already taught you know uh let's say uh
+7359040	7363680	let's say this is uh let me go to some random file
+7366720	7374320	let's say i say this is an index dot js okay let's say this was an array right empty array
+7374320	7383920	so on this forage was breaking so let's say array dot forage uh whatever element i have i'm trying
+7383920	7387440	to print it
+7393600	7399120	right this is what we were doing it now now if i try to go and execute this file let's say
+7400320	7407360	i'm supposed to get an undefined error you know or else let's say uh earlier we were actually
+7407360	7413680	you know since this is an array this will still work let's say a node index dot js it will still
+7413680	7418640	work it won't output anything but earlier on the step two we were getting values from
+7421520	7427920	you know local storage or else it is setting as undefined now if i do this you see i get forage
+7427920	7433040	as a property of undefined now whenever i want to handle this issue one of the check is i can do
+7433040	7438560	null check or any undefined check or else i can add this condition when i add this if you see i
+7438560	7444400	still don't get any error because this checks uh whether if there are only values only then
+7444400	7452160	it will execute it okay so this is an optional changing if find it checks like if array is not
+7452160	7459920	empty go for the next method if array is like that sort of things like okay i hope you got this uh
+7459920	7463680	try to use this use case like if you don't want to use that null check
+7469360	7474720	no null check works null checks works by default but i'm saying that better way of writing is like
+7474720	7476720	this optional changing
+7482080	7488960	so uh i had to stringify store it in local yeah yeah string because local storage stores only
+7488960	7493600	strings you have to convert json's into strings and only then you can store it you have to parse
+7494160	7500240	it you have to parse back whenever you are using it that happens with even api api sometimes
+7500240	7506080	doesn't send you json you have to parse it uh then you have to use it so you should know that
+7506080	7516320	those those are like uh yeah okay no no worries no worries uh going back to the people who wanted
+7516320	7522320	to discuss here uh ankit how you doing i just want to know how are you going well is your
+7522320	7528080	preparation yeah thank you kiran thank you for putting effort so you are getting to learn and
+7528080	7534720	apply those knowledge okay uh try to improve on this one uh but hey one thing guys uh since
+7534720	7543040	classes are added i since you have now three apps right uh of a portfolio app or weather app uh and
+7543920	7549440	this one like to do list app why don't you integrate them if someone can integrate them
+7552720	7556160	okay trying to link portfolio app uh with a link
+7559920	7568960	oh okay your health is not good um but let me know ankit if i can help you out by some way
+7568960	7573920	uh if you want me to connect with you in any session we can maybe discuss a strategy
+7573920	7579680	which can help you to you know cope up with the things uh once you are you are good now
+7579680	7583120	yeah going good good now or like you still your health is affected
+7593200	7600640	uh job is affecting my studies too much okay uh that thing here uh it's it's like you know tricky
+7600640	7601280	thing if you
+7605360	7613600	look uh okay so one of the way i consider it right one of the way i say strictly right
+7615600	7625360	it's not to be said this way but i should say it like what happens in job is that uh like
+7625840	7629840	uh do you follow agile process in your system
+7632640	7641680	agile do you follow agile okay no yes okay so if you're following agile you always have a
+7643200	7650800	story points right when you start the sprint so i always uh what i do is that
+7650960	7659920	i discuss with my leads uh and think that you know if a sprint a sprint is usually at my place
+7659920	7668160	is of two weeks okay in two weeks we have to estimate how much amount of work we'll do
+7668720	7677600	so for us when i go for two weeks i have 10 days of working with four week uh leaves or four weekends
+7677600	7686240	or four weekends right so i have 10 days so what i pick is like i pick 10 story points work
+7690000	7696320	not more than that if there is something ad hoc if there is something ad hoc like let's say let's
+7696320	7701600	say there is something i don't which happens usually okay if there is something i don't that
+7701600	7707120	you want to do or you want to work on something what i do is that again i go to jeera board
+7707120	7712320	i say that if i'm working on ad hoc story i'll add those points there hey that i work two story
+7712320	7716960	points of work this one so i'll reduce two points story work i'll move it to the next sprint
+7719200	7723840	because this is what you are getting paid for not more than 10 story points
+7723840	7729600	if you are doing it more than that then your manager is able to leverage you better
+7730400	7735840	and doing this 10 story punch should you should be able to quantify it because i'll tell you it's
+7735840	7743280	not today's time even if you change your job after putting off so much of hard work uh whenever you
+7743280	7749760	go to let's say you cracked amazon or fang mang or anything or a good product based mnc or any
+7749760	7755760	company that you want to even if you go there you have to know like how much work you should be able
+7756400	7762080	to take it how much you would be able to deliver it because when it comes to work-life balance
+7762080	7768720	no company provides work-life balance it is up to you how do you choose it i've seen in paypal
+7768720	7776400	or any aux that i worked in people working 16 17 hours whereas i was working only for the amount
+7776400	7781200	of thing that i was paid because i was always upscaling myself focusing on things that i wanted
+7781200	7787920	myself focusing on things that i wanted to learn as an engineer okay so considering these things
+7787920	7794560	you should always set up you mean you should fight for yourself because end of the day when
+7796080	7803520	when your appraiser hits when your appraiser hits your manager has 100 rupees in his bucket
+7804080	7812240	he have to distribute between the whole team doesn't matter if you work 18 20 hours he won't
+7812240	7818880	get extra like someone is working of more than nine hours of time that is working extra five six
+7818880	7825760	hours he won't get extra money like 120 or 130 per year in order to distribute if he's getting
+7826320	7831840	it's it's good to put in those efforts but he's not getting it so he'll be having only 100 rupees
+7831920	7837360	he'll be distributing it so first thing is communication understanding how do you drive it
+7837360	7844720	whether it's your business analyst who's driving the scrum or scrum master the respective product
+7844720	7853440	owner or the client or your manager lead whoever is a stakeholder you have to understand how do
+7853440	7859120	you build it how do you build it so that you have to manage your time otherwise you'll keep on
+7859440	7864800	otherwise you'll keep on working and you won't be able to learn things other than your work
+7867440	7871520	this is clear guys like there's a strategy that you have to build
+7876480	7886400	uh so that okay i'll come to your use case and uh kit now because i'm not uh like because i have
+7886400	7891680	been into this role right i know how things work so i was talking about that from that perspective
+7891680	7896000	but from your perspective uh i would say that
+7899600	7901520	it's it's it's six months hard work
+7905440	7906000	somehow
+7906000	7918480	how maybe while you're i agree i agree uh i agree that but but you know six months hard work from
+7918480	7925600	scratch if you are able to put on effort i'll give you my time also to help you out to you know do
+7925600	7932800	it but if you if you are doing it then i'll be also doing it okay if you have any challenge i'll
+7932800	7937440	be also doing it but if you should be putting it from your side so that i can contribute from my
+7940000	7942800	i'll be available you can ping me but it's it's that
+7944400	7953120	you have to find time i cannot i even i need it i need it like i need more than 25 even sometimes
+7953120	7959280	i have too much workload i'm my eyes are burning right now uh my day started morning seven i want
+7959280	7966240	system for continuous okay so but there are some days you'll have tough days there are some days
+7966240	7971440	you'll have good days okay but it's it's our job like we will be should be able to figure it out
+7972320	7978800	how we'll be able to doing it okay so if you are able to figure it out time in this 24 o'clock
+7978800	7983760	cycle as unshuman says right unshuman might have told you if you have been into is one of
+7984320	7991120	any classes he talks about something called a focused hours do you know this concept of focused
+7991120	8001200	hours focused hours uh so they what he says is what generally happens with the people right
+8001200	8007840	when you're too much busy when you are too much busy uh in your life work life uh even right right
+8007840	8017360	like i it for me uh if i if i have to say so my job plus if you go back sometime back my sister's
+8017360	8021840	marriage right i had family when they have to take care of shopping and things supporting parents
+8022400	8032640	that one family support then preparation for class then taking class so i had four five items going
+8032640	8037200	on in my day life these are the things that i can mention in class so i'm mentioning them
+8037200	8043440	but there were few more things add on so but if you see how i'm able to manage all of these things
+8043440	8049360	is that i i will leverage this one something called focus task technique now focus hours is
+8049360	8057920	let's say i say that from seven to seven a.m to nine a.m nine a.m i'll do for surely focus on
+8057920	8065840	something one activity maybe it is my family time or it's a preparation time or it's taking class
+8065840	8074320	or job time anything i'll surely during this moment of time i have completed that like in
+8074320	8080320	your office you have meetings right which are scheduled in your calendar and you are supposed
+8080320	8085760	to take that you cannot say that i'll sometimes you can say that when you're a really high head
+8085760	8092240	position that can remove this meeting to other time but this is fixed so prepare your google
+8092320	8098400	calendar such a way that you are able to take this and this thing not only will help you for
+8098400	8103440	this next six months of preparation after cracking job but will help you in future also because i've
+8103440	8109440	used family also here because how do you manage that time the better you manage your 24 hour
+8109440	8118400	talk cycle the better more happier and driven you will be okay so when i say for the and even i
+8118800	8127360	my focus stars are divided into something called as promodoro techniques so have you heard this
+8127360	8140800	promodoro like i use 45 hour promodoro technique like yeah i use 45 hours because initially i
+8140800	8147280	started with 15 30 and now my strength goes for 45 minutes i can focus on things for up to 45
+8147280	8153040	minutes not more than that it's it's really difficult to focus for 45 minutes continuously
+8153040	8159040	on one thing but i use this to push my productivity
+8165840	8170640	like i push my productivity for 45 minutes then i relax for 15 minutes
+8171200	8178720	then again i move it okay so that we will be able to complete our task in this 45 minutes focus like
+8179920	8186000	so this is how my things works i can talk about you but when it comes to people who are following
+8186000	8191280	agile i would say that hey take up the work which you have it if there is something add up add those
+8191280	8195680	story points and deal with it because you're not supposed to work because i've told you it doesn't
+8196080	8202800	matter you're putting extra hours 16 20 hours or 23 hours also working doesn't matter
+8202800	8208320	you add only 100 rupees you'll distribute in the whole day there are no extra money any manager
+8208320	8216000	is writing this is applicable for even if you're working google or any company say so okay uh that's
+8216000	8225600	a thing guys so there's a theme of working extras like doesn't matter because if you see most of
+8225600	8234160	the companies are based out of europe and us the people leave like as soon as the time clicks
+8234160	8238720	they leave the office and they go and they enjoy their life but for us
+8240960	8246880	indians indians works comparatively more than what around the globe people work because their
+8246880	8252560	way of looking at life is different our way of looking at life is different too much hardworking
+8252560	8258240	people are japanese in nature japanese continuously can stretch it even they sleep
+8258240	8264960	it in office they don't have uh like kitchens in their home uh like they eat outside in the
+8264960	8274720	restaurants uh japanese culture is completely different like uh post uh like this one right
+8276480	8281440	world war their culture changed it completely if you see them now they are struggling to maintain
+8281440	8286320	this they pay people like if they have planned kids family planning if they do family planning
+8286320	8293600	they government pays the money to them for taking care of them kids like it's it's really uh that
+8293600	8297840	culture is different if you go for country by country the cultures are different so you can
+8297840	8305360	take leverage of those cultures okay like you really like to work go to japan like they will
+8305360	8311920	pay you good also as per your work if you want to enjoy it manage thing go for europe or us based
+8311920	8320000	companies they have their own uh cultural policies you can check them uh they leave after the bosses
+8320000	8325760	like yeah it's it's everything every company will have their own culture guys so but i hope
+8325760	8330960	you got the gist of it that you have to figure it out the time and use focused hours such that
+8330960	8338800	you leverage all the learnings uh and if you need my time right in anywhere i'll try to help you out
+8338800	8344400	but i'll make sure that doom inform me such that i'll you know i have to manage that time also
+8344400	8350880	right my time then i'll try to focus with you so that's what i'm talking about like if you are
+8350880	8359840	able to put efforts i'll also try to give my add-on points okay let's say this is class 21
+8360960	8371360	okay so hello guys then we'll uh yeah yeah i'll i'll try to connect on some time on sunday
+8371360	8379040	if possible okay if things are clear we have discussed good enough things
+8382240	8388640	yeah great yes good night take care guys see you on the next class bye good night guys
+8390960	8398640	okay i've stopped screen sharing in the session guys see you on thursday
+8420960	8421840	you

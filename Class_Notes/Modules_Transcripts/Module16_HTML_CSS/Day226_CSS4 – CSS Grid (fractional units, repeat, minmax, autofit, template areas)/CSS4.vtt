@@ -1,0 +1,4064 @@
+WEBVTT
+
+00:00.000 --> 00:19.880
+hi all good evening how's everyone doing how's your weekend going guys?
+
+00:31.000 --> 00:43.040
+okay so did anyone try that flex froggy that I pinged you last week I mean last
+
+00:43.040 --> 00:58.880
+class did anyone practice on that let me pin that that's like a weekday okay
+
+01:00.000 --> 01:07.600
+Abhishek you're planning you're doing some assignments or stuff like how's
+
+01:07.600 --> 01:23.680
+the day was going just randomly watching some content consuming it Abhishek so
+
+01:23.680 --> 01:31.400
+guys we'll wait for two three minutes then we'll get started let me share my
+
+01:31.400 --> 01:48.480
+screen okay office work where do you work Abhishek if you don't mind
+
+01:48.640 --> 01:54.880
+I check all our days too okay does my screen share is working guys can give me
+
+01:54.880 --> 01:59.120
+thumbs up if screen share is working fine right let's say we have a three
+
+01:59.120 --> 02:15.800
+minutes timer get started okay push the I pushed it Munesh like you could have
+
+02:15.800 --> 02:19.440
+reminded me in the whatsapp I would have done that I just seen that some code
+
+02:19.440 --> 02:27.760
+was pending so I couldn't push it just I just have done that nobody I'm happy at
+
+02:27.760 --> 02:42.680
+the place where I am so how's your experience at Acolyte Digital yeah
+
+02:44.720 --> 02:49.280
+but why on weekends is it like work life balance is wrong or like there's
+
+02:49.280 --> 02:55.920
+something going on crazy yeah can someone share the whatsapp group link
+
+02:55.920 --> 03:02.480
+guys okay old tech what tech you're working on we could have chatted on this
+
+03:02.480 --> 03:07.760
+like in a normal way also to your opinion personally saw all other doesn't
+
+03:07.760 --> 03:17.120
+for to see never been near and on that Abhishek never been around that for
+
+03:17.160 --> 03:23.360
+currency see I have learned it some for some time but not to that like photon
+
+03:23.360 --> 03:35.680
+level so guys how many of you have solved the assignments of previous
+
+03:35.680 --> 03:44.000
+class or how many face challenge or anyone having any challenges is those
+
+03:44.000 --> 03:54.160
+assignments easy enough great age I see only six votes guys can anyone
+
+03:54.160 --> 03:58.040
+have ping in the whatsapp group again like we are getting started easy and
+
+03:58.040 --> 04:06.320
+basic great I see less people join class today that's the reason someone can
+
+04:06.760 --> 04:15.520
+will get started I specifically put a message such that you know this this is
+
+04:15.520 --> 04:26.720
+of today's a weekend right so people are indifferent okay that's why I was like
+
+04:26.720 --> 04:33.680
+there was only one question in assignment but I have shared I've shared
+
+04:33.680 --> 04:40.960
+flex froggy to practice you can check in the pinned one that that would be
+
+04:40.960 --> 04:45.520
+really helpful you know to practice it it's very difficult to get a job in a
+
+04:45.520 --> 04:51.200
+full stack as a fresher it's tricky because freshers you know there are two
+
+04:51.200 --> 04:55.320
+different domains one is SD roles had good good companies where you are
+
+04:55.320 --> 05:01.120
+expected to perform in certain role then it's fine but there are some companies
+
+05:01.120 --> 05:05.240
+which you consider yourself as a fresher as a fresher whatever skill set your
+
+05:05.240 --> 05:08.840
+position poses doesn't matter to them they train you against on something what
+
+05:08.840 --> 05:15.000
+they wanted so either of it but I would prefer like you pick something open
+
+05:15.000 --> 05:28.520
+source related tech and then go into that let's get started guys okay what do
+
+05:28.520 --> 05:32.080
+you think react is going to replace with next year's next year's is a react
+
+05:32.080 --> 05:44.720
+framework you cannot build next year's project without using react do you think
+
+05:44.720 --> 05:54.960
+it you can do it Abhishek next year next year's is just you know I'll come to
+
+05:55.040 --> 05:59.040
+that actually I'll actually come to that what is react and what is next year's
+
+05:59.040 --> 06:04.860
+well I'll just introduce next year's because I wouldn't think you know really
+
+06:04.860 --> 06:10.320
+bigger enterprise applications right are still using next year's we haven't
+
+06:10.320 --> 06:13.920
+moved it our application is not on next year's because we are analyzing state
+
+06:13.920 --> 06:21.000
+performances and everything if we want to move it on to that or not okay
+
+06:21.040 --> 06:27.160
+so guys we'll talk about that in future in summit let's come back to today's
+
+06:27.160 --> 06:34.640
+class we'll get started yeah so guys in last class we'll discuss something
+
+06:34.640 --> 06:40.240
+called as flexbox can anyone can all of you define in your own terms what is
+
+06:40.240 --> 06:46.720
+flexbox actually what did you understood by this one just I'm having a recap of
+
+06:46.720 --> 06:51.600
+what we have learned in last class can anyone give me what do they understand
+
+06:51.600 --> 06:59.800
+this by the word flexbox any keyword that you have
+
+07:00.000 --> 07:08.120
+okay so Kiran says for layout okay auto layout as per screens right yeah
+
+07:08.120 --> 07:21.440
+layout can we say this is as a flexible box box for cross screen development
+
+07:21.440 --> 07:28.080
+songs cross-screen layouts like multi-screen layouts like whatever it is
+
+07:28.080 --> 07:34.720
+right yeah to build a responsive website as per screen dimension right so yeah we
+
+07:34.720 --> 07:38.860
+have understood this one now the second question that I want to ask with a
+
+07:38.860 --> 07:43.400
+flexbox is a one-direction layout or two-direction layout
+
+07:49.120 --> 07:56.520
+guys it's one direction it's not two direction people who have you know
+
+07:56.520 --> 08:01.160
+replying me 2d I'll talk on that I haven't I've told her it's a one
+
+08:01.160 --> 08:10.400
+direction the reason you arrange only items depending on flex direction right
+
+08:10.400 --> 08:18.680
+and flex direction can be either row or column only one direction isn't it either
+
+08:18.680 --> 08:23.600
+you pick it up yeah so you are putting all your items either in row or in
+
+08:23.600 --> 08:30.120
+column and depending on that you are moving that items right now when I put
+
+08:30.120 --> 08:37.360
+row what would be the main axis case when I put flex direction as a row what
+
+08:37.360 --> 08:52.360
+could be the main axis X and cross axis would be y ultimately similarly vice
+
+08:52.400 --> 08:59.400
+versa right now when I'm considering let's say I'm considering row as an
+
+08:59.400 --> 09:04.000
+example what does justify
+
+09:05.080 --> 09:08.280
+content us
+
+09:08.640 --> 09:14.480
+what does justify content as us give it for give it to us
+
+09:15.480 --> 09:25.680
+quick guys quick justify content spread end-to-end but on which direction on
+
+09:25.680 --> 09:30.320
+which direction on main axis or cross axis
+
+09:30.640 --> 09:36.320
+so it helps us to move the elements on a main axis right
+
+09:36.320 --> 09:49.120
+move items on main axis then when it comes to align items
+
+10:06.320 --> 10:09.360
+you
+
+10:36.680 --> 10:38.740
+you
+
+11:01.120 --> 11:05.240
+you guys I'm audible
+
+11:06.840 --> 11:12.000
+I think my had a network connection I got stuck in between I had to connect
+
+11:12.000 --> 11:20.920
+with my mobile hotspot pardon me for that but again okay let's get back to
+
+11:20.920 --> 11:26.400
+this one guys now after justify content and align items we learned one of the
+
+11:26.400 --> 11:32.160
+one more property which is used to you know stop overflowing of elements into
+
+11:32.160 --> 11:37.880
+the one single line such that you know as we move the screen width and width it
+
+11:37.880 --> 11:50.160
+pushes the other items to the below of wrap right yeah flex wrap so so we used
+
+11:50.160 --> 11:54.760
+to wrap all the items such that you know those take whatever space is needed and
+
+11:54.760 --> 11:59.960
+push the other items to the below right then we understood another property
+
+11:59.960 --> 12:06.960
+called a line content like you are if you have flexible container whatever
+
+12:06.960 --> 12:11.320
+container you have defined it if it's a larger in size and all the elements are
+
+12:11.320 --> 12:15.080
+being fitted in only top like let's say you have three four elements there is
+
+12:15.080 --> 12:19.720
+enough space to move all this other items if you want to move anywhere those
+
+12:19.720 --> 12:23.840
+all content right on the in that container you can use a line content
+
+12:23.840 --> 12:39.240
+again move all items inside container right these are the properties that we
+
+12:39.240 --> 12:43.960
+discussed on a container specific like any property that you remember guys on
+
+12:44.160 --> 12:56.520
+children elements on items on child items right so can I say order in if you
+
+12:56.520 --> 13:02.560
+want to change the order of particular like rendering process like if you want
+
+13:02.560 --> 13:07.640
+to move the element from two to three three to one right order then you had a
+
+13:08.640 --> 13:18.640
+sorry flex grow like if you are increasing the screen width how the item
+
+13:18.640 --> 13:23.400
+should particularly you know react to it like how much by in which ratio it
+
+13:23.400 --> 13:28.400
+should grow then we used flex should grow and similarly for the opposite we
+
+13:28.400 --> 13:32.360
+use flexing like if a red is in the screen width how that particular item
+
+13:32.360 --> 13:39.680
+should behave then we had like a flex basis which was acting like a maximum
+
+13:39.680 --> 13:44.600
+maximum width a product that particular item can take right so these are the
+
+13:44.600 --> 13:49.800
+things that we have learned already in the last class so how many of you are
+
+13:49.800 --> 13:54.560
+feeling comfortable or you know feeling better of this properties because
+
+13:54.560 --> 13:59.280
+everything you would see that comes with a practice like it will take time so
+
+13:59.280 --> 14:05.080
+that you be good with them it will take time but at least by definition and by
+
+14:05.080 --> 14:11.440
+yes you know whatever I have tried to explain so you if you are able to
+
+14:11.440 --> 14:15.600
+understand this one please give me thumbs up and we can go ahead with the
+
+14:15.600 --> 14:24.760
+great part today if anyone have doubt on flex layout or using a display as flex
+
+14:24.760 --> 14:32.040
+drop me a question we'll take it up in the doubt session okay now let's get
+
+14:32.040 --> 14:38.280
+started with great guys let's get started with great
+
+14:42.240 --> 14:50.160
+okay now how many of you remember are this one matchbooks where we were
+
+14:50.160 --> 14:55.880
+supposed to write one two three initially in our childhood it used to
+
+14:55.880 --> 15:06.680
+look like this one isn't it okay no worries I just tried to revise it but
+
+15:06.680 --> 15:11.160
+you will be able to feel comfortable once you watch the session okay but how
+
+15:11.160 --> 15:15.520
+many of you remember this book guys which had boxes and used to fill in one
+
+15:15.520 --> 15:23.400
+two three four right so grid also works in a same way where earlier when we
+
+15:23.400 --> 15:29.520
+talked or discussed about flex right we thought in terms of X and Y axis and we
+
+15:29.520 --> 15:36.880
+were aligning items along X axis either or along Y axis but here this is not the
+
+15:36.880 --> 15:43.500
+case here you can define how many rows and how many columns you want like same
+
+15:43.500 --> 15:47.340
+way how we define an array when you initialize an array you're supposed to
+
+15:47.340 --> 15:53.860
+give the rows and columns isn't it like you provide maybe three rows and four
+
+15:53.860 --> 15:59.500
+columns right but when it comes to CSS you also have to define many properties
+
+15:59.500 --> 16:04.460
+like width height and all other things we'll see how we can leverage this
+
+16:04.460 --> 16:10.940
+layout and build really complex one in a very easy format so I don't really have
+
+16:10.940 --> 16:15.380
+anything to say on theory part but it's just a 2d layout where you can always
+
+16:15.380 --> 16:20.260
+configure items on rows and column because you have an ability to deal on
+
+16:20.260 --> 16:25.940
+change those things okay we'll see more on a practical basis like how this thing
+
+16:25.940 --> 16:32.820
+works let's go and start with the directly visual studio code
+
+16:33.820 --> 16:51.700
+I'll start as a class 6 let's say we have one index start HTML so firstly I'll
+
+16:51.700 --> 16:56.700
+try to set up a basic layout guys such that we can get started with actual grid
+
+16:56.700 --> 17:01.980
+right but till then whatever code I'm writing if you feel any challenge in
+
+17:01.980 --> 17:06.140
+that also right help me out understanding a problem I'll try to
+
+17:06.140 --> 17:13.780
+answer that okay so let's say I say this is a good now inside body let's say what
+
+17:13.780 --> 17:19.580
+I'll do is now I'll show you some of the shortcuts guys like m8 one what I'll do
+
+17:19.580 --> 17:27.980
+is that I'll say def dot container okay once I have this and I click enter now
+
+17:27.980 --> 17:37.140
+just see whenever I use dot operator what does it mean in HTML files what do
+
+17:37.140 --> 17:41.040
+we exactly mean when we say dot operator class right let's say now I'm
+
+17:41.040 --> 17:47.500
+clicking enter it has built a div with this class as a container so I don't
+
+17:47.500 --> 17:52.660
+need to type down every the HTML element so you can leverage Emmet to do this
+
+17:52.660 --> 18:03.220
+okay now let's say I go and build something like def okay and I say item
+
+18:03.220 --> 18:10.380
+and I multiply it by 9 now what I'm saying that created a with item class
+
+18:10.380 --> 18:15.940
+and nine times so when I click enter it has built me this night now what I'll do
+
+18:15.940 --> 18:20.580
+I'll just you know type down all the numbers so that we can create these
+
+18:20.580 --> 18:23.060
+boxes
+
+18:25.380 --> 18:33.820
+okay once we have this now let's go to style let's explore open this in preview
+
+18:33.820 --> 18:39.700
+right we are having them all in a one line since all the items are block in
+
+18:39.700 --> 18:47.100
+nature okay once again this is Emmet abbreviation Emmet shortcuts guys so just
+
+18:47.100 --> 18:54.260
+I'm using whatever element you have and then you can use hash for IT or dot for
+
+18:54.260 --> 18:59.060
+your class and that's I'm using item one when I do item one and click enter it
+
+18:59.060 --> 19:05.420
+will be they will be created with it's an automatic if okay
+
+19:07.700 --> 19:14.780
+now let's go and create style block inside style block first they will give
+
+19:14.780 --> 19:20.100
+some basic properties to the container before coming into the container now I
+
+19:20.100 --> 19:24.580
+if you see here I'm having here space on the top on the left side I see some of
+
+19:24.580 --> 19:31.940
+the padding how can we remove this guys how can we remove this because there's
+
+19:31.940 --> 19:38.460
+something coming by default right we have to say that whatever padding or
+
+19:38.460 --> 19:44.540
+match margin by default div is having I want to override it with 0 0 let's say
+
+19:44.540 --> 19:50.340
+I say 0 and padding as 0 see now those are aligned to the start of the page
+
+19:50.340 --> 19:57.780
+right next I'll go and define some CSS in the for the body type whole items
+
+19:57.780 --> 20:02.860
+whichever present in the body I'm assigning to them okay now what all
+
+20:02.860 --> 20:06.900
+things I'll apply so let's say we make like just trying to increase the font
+
+20:06.900 --> 20:11.420
+size I say 20 pixel of each number whatever content is there in the whole
+
+20:11.420 --> 20:17.540
+page then how many of you remember line height
+
+20:17.540 --> 20:24.340
+line height do you remember line height
+
+20:24.820 --> 20:31.580
+right so let's say if I give 1.5 what just happened for each line it just took
+
+20:31.580 --> 20:39.740
+1.5 times of height right like increasing it for text ankit I think I
+
+20:39.780 --> 20:49.340
+already had it in class for when you go for font text I've used here this line
+
+20:49.340 --> 20:55.060
+height you can explore this one it will be there already okay like what is it
+
+20:55.060 --> 20:59.500
+exactly like if you have a paragraph how much each line should be a half height
+
+20:59.500 --> 21:05.300
+off so that's our basic different basic definition then let's say I use a color
+
+21:05.500 --> 21:12.980
+as a dodger blue so what I did is like I just converted this color now let's say
+
+21:12.980 --> 21:21.340
+I give some background color as a tomato okay looking really odd but will make it
+
+21:21.340 --> 21:27.620
+look good now coming back to this one container okay so here where we learn
+
+21:27.620 --> 21:31.620
+all the things but before coming to this one let's let's keep do something let's
+
+21:31.620 --> 21:37.900
+give some width to the container as of now let's say 600 pixel and let's say
+
+21:37.900 --> 21:45.180
+height is somewhere around 550 pixel once we have this height and width yeah
+
+21:45.180 --> 21:55.540
+right yeah 1.5 times of font size 1.5 times okay now let's say I have a
+
+21:55.540 --> 22:02.340
+border of 2 pixel solid black
+
+22:06.060 --> 22:14.740
+okay and let's say I also give some margin to it by default I say 100 pixel
+
+22:14.740 --> 22:24.100
+right now I say that auto okay now is what do you think this is when I say
+
+22:24.140 --> 22:32.700
+auto or do you think exactly what I'm trying to do here I'm just introduce
+
+22:32.700 --> 22:36.420
+this one I'll overwrite this one but whenever I'm using somewhere or to what
+
+22:36.420 --> 22:41.740
+does it exactly like do you feel like when if I even if I'm increasing
+
+22:45.420 --> 22:52.900
+yep I mean it will try to give depending on right let's say exact screen width it
+
+22:52.900 --> 22:57.140
+will automatically calculate how much you need it let's say I if I explore
+
+22:57.140 --> 23:06.020
+open this if I open in the live server I'll show you this how this one works
+
+23:07.180 --> 23:15.620
+not exactly center but if you see
+
+23:16.620 --> 23:18.620
+no
+
+23:22.060 --> 23:33.220
+if I select this and if I go for you know margin inside container if you see
+
+23:33.220 --> 23:38.660
+it's 267 if I keep extending it is automatically cali calculating and
+
+23:38.660 --> 23:44.340
+putting it in the center so among as you said it is right only but auto adjust
+
+23:44.500 --> 23:51.580
+automatically it will calculate such that all the items are in center is it
+
+23:51.580 --> 23:58.540
+okay guys it's just like flexible one like as as soon as you increase doesn't
+
+23:58.540 --> 24:06.660
+matter but it will put items into the center okay now once the margin is done
+
+24:06.660 --> 24:11.940
+like what's next is what's next an item that we can add here by default can we
+
+24:11.980 --> 24:24.460
+some padding okay I'll get I'll explain that copy so if you see here I am
+
+24:24.460 --> 24:31.660
+selecting container and by default I've give margin a top and bottom as 100 but
+
+24:31.660 --> 24:37.180
+the other margin I kept it as auto currently it shows 453 pixel but if I
+
+24:37.620 --> 24:45.780
+keep decreasing okay up to an extent okay it up to an extent now what is an
+
+24:45.780 --> 24:51.140
+extent is like till that width is hit okay till that width is hit but if I
+
+24:51.140 --> 24:56.020
+increasing over the width on to the top of it how however you increase it
+
+24:56.020 --> 25:01.340
+doesn't matter it will distribute the equal amount of margins above 550 pixel
+
+25:01.340 --> 25:06.780
+of width like we since we have defined with the 600 pixel now if you are
+
+25:06.780 --> 25:10.860
+increasing the screen width now if you see a screen with this 1220 it will do
+
+25:10.860 --> 25:16.660
+1220 minus 600 and whatever is remaining it will distribute it and put that
+
+25:16.660 --> 25:20.220
+particular container in the center
+
+25:20.980 --> 25:28.300
+it won't take whole size of L&R left and right yeah it is taking if you see yeah
+
+25:28.300 --> 25:31.900
+it will put it in center auto is like just like calculating whatever left and
+
+25:31.900 --> 25:35.940
+right you want you distribute on yourself
+
+25:37.780 --> 25:46.060
+did you get this point okay now moving ahead once we added padding let me open
+
+25:46.060 --> 25:57.540
+this up it let's say I give width I reduce this 500 of width or 450 pixel of
+
+25:57.540 --> 26:07.300
+width just to see this one okay now going next next race now earlier if I
+
+26:07.300 --> 26:14.500
+used to do display and as soon as I give flex do you see would you what would
+
+26:14.500 --> 26:19.660
+happen guys what is expected to happen if I give
+
+26:19.660 --> 26:22.740
+display as a flex
+
+26:23.740 --> 26:33.780
+yes if I apply display as flex as of here what is supposed to happen on the
+
+26:33.780 --> 26:40.700
+container level yeah all items will move in the row right let's let's just let's
+
+26:40.700 --> 26:45.620
+let's see okay all the items are moving in a row as suggested but before coming
+
+26:45.620 --> 26:51.000
+to this display property let's add some margins and borders to this each item
+
+26:51.000 --> 26:57.640
+okay each item let's give some basic styles let's say I select item and let's
+
+26:57.640 --> 27:03.000
+say background color I would give it like again for this one also I'll give
+
+27:03.000 --> 27:09.360
+as a dodger blue but will override color property that we defined a bow as smoke
+
+27:09.360 --> 27:11.760
+white
+
+27:15.160 --> 27:26.440
+sorry white smoke okay then I'll give something like a border one pixel solid
+
+27:26.440 --> 27:36.640
+black then we'll give some like padding eight pixel that's okay now if I give
+
+27:36.680 --> 27:44.320
+again let's say as a flex it is supposed to move all the elements and it is
+
+27:44.320 --> 27:51.320
+consuming all the height okay but now let's say if I give it as a grid let's
+
+27:51.320 --> 27:57.280
+see what's happening by default when you apply the grid there is no chain isn't
+
+27:57.280 --> 28:01.120
+it these are block level elements and they're supposed to be render this way
+
+28:01.120 --> 28:08.880
+and these are rendered in such in such format itself isn't it right so by
+
+28:08.880 --> 28:12.960
+default when it's not a directional base it is a 2d direction so by the
+
+28:12.960 --> 28:17.040
+until unless you go and do the formatting there's nothing being
+
+28:17.040 --> 28:23.300
+applied here okay once if you do it here how can you play around with the 2d
+
+28:23.300 --> 28:27.640
+format like how can you define number of rows into number of columns that's where
+
+28:27.640 --> 28:32.800
+we are going to enter now let's say if I go with grid template columns now
+
+28:32.800 --> 28:38.840
+inside template columns I can say that how many columns I need firstly for
+
+28:38.840 --> 28:43.360
+that let's say I say that I need hundred pixel one then let's say I need hundred
+
+28:43.360 --> 28:48.720
+pixel two and then also I need another hundred pixel three now what I just say
+
+28:48.720 --> 28:54.240
+it here what I defined it here is that I've created a display of a grid
+
+28:54.240 --> 29:00.400
+format then I told that I need three columns now how many ever you
+
+29:00.400 --> 29:05.480
+define here you have to define each column and its respective height size
+
+29:05.480 --> 29:11.000
+okay column whatever width is there okay what we have done we have created three
+
+29:11.000 --> 29:15.320
+columns and we gave each column as a hundred pixel now if I create again add
+
+29:15.320 --> 29:21.800
+a hundred pixel the fourth column will be created is this clear like how this
+
+29:21.800 --> 29:29.080
+is working first template grid template columns guys how many of you understood
+
+29:29.080 --> 29:33.720
+this one if there is someone who didn't understand can they can give me
+
+29:33.720 --> 29:41.000
+thumbs down okay I hope this point is clear like this this is how you define
+
+29:41.000 --> 29:46.920
+columns like when we thought about an array also or a grid format you always
+
+29:46.920 --> 29:50.600
+deals with the rows and columns I'm trying to show like if you want to create
+
+29:50.720 --> 29:56.000
+a column this is how you do it specifying each particular column like
+
+29:56.000 --> 30:01.240
+number of columns individually like that pattern okay now there are many ways
+
+30:01.240 --> 30:08.600
+that you can define this way let's say you can give 25 pixel 25 sorry percentage
+
+30:08.600 --> 30:15.760
+and then 25 percentage okay then again 25% so it accepts all the units that you
+
+30:15.800 --> 30:21.160
+generally see even there's a new unit that I want to introduce something
+
+30:21.160 --> 30:30.120
+called as VW okay does anyone know what is VW
+
+30:30.120 --> 30:35.440
+height is we have given already right for container we have defined it but I'll
+
+30:35.440 --> 30:43.880
+tell you I'll come to that I'll come to that view width okay viewport width
+
+30:43.920 --> 30:50.360
+generally so we are saying that does 25% and viewport width is equal
+
+30:54.440 --> 31:02.200
+no right so but even if I yeah exactly so it's not but I was just trying to
+
+31:02.200 --> 31:06.440
+show you that all it accepts all the units so we'll go with the percentages
+
+31:07.040 --> 31:16.040
+but this is fine but what if I have the grid specifically gives us a one of the
+
+31:16.040 --> 31:21.480
+better way to describe how the element should be distributed and this is the
+
+31:21.480 --> 31:25.760
+one of the industry standard how they distributed like let's say if I use a
+
+31:25.760 --> 31:39.320
+word like 1fr okay then I say that 2fr let's say 2fr then I say again 1fr okay
+
+31:39.320 --> 31:47.180
+what do I exactly mean by this 1fr or 2fr 1fr fr goes for frame rate okay now
+
+31:47.180 --> 31:51.680
+how this is calculated how this is calculated let's go let me save this
+
+31:51.760 --> 31:57.480
+let's go to here let's come here now if you see here what what's happening here
+
+31:57.480 --> 32:02.320
+okay what I'll select something this element selector let's remove the as of
+
+32:02.320 --> 32:09.280
+now responsive layer okay if I go and select this one and apply on the
+
+32:09.280 --> 32:16.600
+container item level one item one right what is the width and height of it okay
+
+32:16.640 --> 32:24.960
+what is the width and height of it guys if I increase this nothing is applying
+
+32:24.960 --> 32:32.200
+but I'm getting us 94 pixel nothing is affected here till you click enter but
+
+32:32.200 --> 32:40.520
+what can you see here what is the width and height of this particular element
+
+32:41.000 --> 32:52.160
+let's say if I select item 2 it's it's w into h guys 165 is a height 207 is
+
+32:52.160 --> 33:01.160
+width right now if I go for item 3 it is still showing 94 okay now coming this
+
+33:01.160 --> 33:06.800
+is just a mathematical definition here like if I write down let's say your whole
+
+33:06.800 --> 33:13.080
+container width okay let's say if I define how I can say that is that what
+
+33:13.080 --> 33:20.040
+is the container width guys here 450 pixel right can you see here container
+
+33:20.040 --> 33:27.960
+width is 450 pixel now this container pixel is divided by whole summation of
+
+33:27.960 --> 33:36.480
+frame rates how many frame rates we have here if I sum them 4 right now let's say
+
+33:36.480 --> 33:41.260
+if I have four some rates what could be the each some rate each frame rate
+
+33:41.260 --> 33:43.520
+value
+
+33:47.600 --> 33:58.320
+right 1 to 1 point 1 to 1 to 0.5 right now so what happens here what happens
+
+33:58.320 --> 34:05.360
+here is that whenever you are giving in frame rates what it divides is what it
+
+34:05.360 --> 34:10.900
+does is like it takes a whole width and it do the mathematical equation before
+
+34:10.900 --> 34:15.880
+the behind the scenes and each column now let's say when you select one FR it
+
+34:15.880 --> 34:23.480
+will have width of 1 to 1.5 okay now let's go back and see do we have 1 to
+
+34:23.480 --> 34:33.840
+well point width now if I select item 2 let's item 3 now 94 plus a like if you
+
+34:33.840 --> 34:42.120
+calculate 8 what could be the unit let's say 16 like if you calculate this one
+
+34:42.120 --> 34:52.760
+right 16 plus 2 18 right width padding is 8 plus 8 16 plus 2 18 plus 94 are you
+
+34:52.760 --> 35:05.360
+getting that 1 to l point 5 right so if you calculate this one so that is what
+
+35:05.360 --> 35:11.880
+here we are getting it now whenever you say one frame rate how comes 18 guys
+
+35:11.880 --> 35:16.800
+padding is also considered into width right when we are using here we didn't
+
+35:16.800 --> 35:23.160
+use box a border box I mean box sizing if I use box sizing as a border box then
+
+35:23.160 --> 35:31.000
+you will be able to see exact frame rate right that's what we learned right sorry
+
+35:31.000 --> 35:38.920
+here it got reduced now if you use calculate this one do I need to do the
+
+35:38.920 --> 35:47.880
+sum also let's say write down this let's say we are getting the height of this
+
+35:47.880 --> 35:57.400
+box as 88 just let me write down somewhere here only 88 plus 16 what is
+
+35:57.400 --> 36:08.840
+the sum guys 88 plus 16 94 plus 8 102 104 104 point 104 only now so what what I'm
+
+36:08.840 --> 36:12.480
+supposed to explain I'm trying to explain here is that whenever you are
+
+36:12.480 --> 36:16.760
+dealing in terms of frame rates whenever you are dealing in terms of frame rate
+
+36:16.760 --> 36:22.720
+right that generally width whatever width you get it by default okay whatever
+
+36:22.720 --> 36:27.840
+width you are getting it by default is equivalent to your total width of a
+
+36:27.840 --> 36:36.240
+container divided by total frame rates is that point clear like how each
+
+36:36.240 --> 36:42.400
+column is getting this width or how it is being calculated is that point clear
+
+36:42.400 --> 36:48.040
+guys what we exactly mean by frame rate and how it can be calculated let's say
+
+36:48.040 --> 36:52.360
+if I if I reduce it right let's say we have a 4 right let's say I reduce it to
+
+36:52.600 --> 37:01.160
+100 now 400 the calculation becomes simple now let's say it becomes 400
+
+37:01.160 --> 37:08.440
+divided by 4 which is equivalent to 100 right now let's say going back and
+
+37:08.440 --> 37:16.980
+refreshing this one we select item 1 and go here and see this so if you see 82
+
+37:16.980 --> 37:21.620
+plus 16 plus 2 which is 100 right
+
+37:27.540 --> 37:33.900
+right so we when we give this exact unit right which can be divided by exact I
+
+37:33.900 --> 37:38.860
+mean if you have a right value which which are when you are dividing by the
+
+37:38.860 --> 37:42.700
+frame rates if you're getting it 0 it you will get an exact distribution but
+
+37:42.700 --> 37:46.500
+if you have something like other pixels then you have somewhat here and there
+
+37:46.740 --> 37:50.620
+but I hope you got the basic understanding like how the frame rates
+
+37:50.620 --> 38:00.100
+are decided and what the value get it is that clear guys okay now anyone having
+
+38:00.100 --> 38:04.820
+any doubt on the frame rate is every FR is clear if anyone is having still
+
+38:04.820 --> 38:11.820
+challenge can I can have some can't we fix flex along with the column size
+
+38:11.820 --> 38:20.340
+sorry I didn't flex and grid template column shunt firstly grid template
+
+38:20.340 --> 38:25.540
+columns this particular property is only applied when display is grid now you can
+
+38:25.540 --> 38:31.780
+be only apply flex to the display and once you apply display as a flex then
+
+38:31.780 --> 38:35.660
+you have a separate properties which can you use to move the items here and there
+
+38:35.660 --> 38:39.420
+using those list of properties that we just introduced when we are doing a
+
+38:39.420 --> 38:44.260
+recap okay but to answer your question you you may you wouldn't be able to do
+
+38:44.260 --> 38:52.860
+that here okay so once the frame rates are clear now guys this there are few
+
+38:52.860 --> 39:00.420
+reusable functions that you can use it okay let me come to them let's say one
+
+39:00.420 --> 39:07.100
+function is called as repeat now what repeat does is like repeat is generally
+
+39:07.100 --> 39:11.820
+because if you if you see this let's say you have a website I didn't under I
+
+39:11.820 --> 39:19.100
+didn't understand for okay okay so what I let's say I make it this as a 450
+
+39:19.100 --> 39:27.380
+itself okay now I made as a 450 now what I did is like once I have a 450 width
+
+39:27.380 --> 39:32.380
+now and I'm dividing total frame rates are by 4 each frame rate is supposed to
+
+39:32.380 --> 39:42.500
+be 1 to l 0.5 of pixel how come 4 will be there like 1 plus 2 plus 1 3 plus 1
+
+39:42.500 --> 39:50.420
+4 because I am using 4 free like a first some of 4 3fr like all their first is
+
+39:50.420 --> 39:59.340
+that clear among like what is the sum of yeah like I am calculating this like
+
+39:59.340 --> 40:04.740
+sum of all these elements like 1fr plus let's say what is this sum right or
+
+40:04.740 --> 40:14.060
+let's let me write down here that 4 also how I'm getting 1fr plus 2fr plus 1fr
+
+40:14.060 --> 40:19.620
+that's how we have been able to utilize it for easier calculations I am giving
+
+40:19.620 --> 40:26.980
+400 pixel now coming back to this one guys what does repeat does now if you go
+
+40:26.980 --> 40:31.420
+for a website site most of the times what happens is like you don't have
+
+40:31.420 --> 40:36.300
+really like too many columns or how do you define it or if there is something
+
+40:36.300 --> 40:41.420
+that all the columns are of same size like a table format if you see in the
+
+40:41.420 --> 40:47.500
+most of the tables you have a equal sized columns for those use cases what
+
+40:47.500 --> 40:51.860
+you can do is that you can use a repeat function what does repeat function takes
+
+40:51.860 --> 40:57.260
+is that it takes two value it says that hey can you give me a number of columns
+
+40:57.260 --> 41:04.580
+you need and the width of each column okay once you keep this function and call
+
+41:04.580 --> 41:09.420
+it it is supposed to return its returns is this in this format let's say if I
+
+41:09.420 --> 41:18.220
+give it like repeat I say give me three columns of 1fr each okay so what it will
+
+41:18.220 --> 41:23.260
+return is here at runtime it will return what it what it does is like it
+
+41:23.260 --> 41:30.700
+creates like 1fr 1fr and 1fr this is how it works behind the scenes no so I'll
+
+41:30.700 --> 41:35.100
+just show you the exact like like how you can leverage it let's say I go and
+
+41:35.100 --> 41:40.480
+write a repeat function inside that I give that one like three columns and I
+
+41:40.480 --> 41:45.580
+say that 1fr let's say for calculation specific I'll use 4 where you will be
+
+41:45.580 --> 41:50.980
+able to see 100 pixel because with this 400 pixel okay so you are creating four
+
+41:50.980 --> 41:56.260
+columns each one of one frame rate by if you go by calculation you are supposed
+
+41:56.260 --> 42:02.500
+to have hundred pixel each column right let's say we go and see it here on the
+
+42:02.500 --> 42:10.140
+item one you calculate 82 plus again the same padding and this one okay is this
+
+42:10.140 --> 42:20.300
+clear guys what does repeat does for us if R is a fractional unit yeah sorry let
+
+42:20.300 --> 42:29.940
+me check the definition of it give me a second
+
+42:29.940 --> 42:43.860
+yeah fractional unit you can say that but we can't use if you want a different
+
+42:43.860 --> 42:51.420
+fr right if you want different as fr then we cannot use this repeat function
+
+42:51.620 --> 43:01.340
+okay I'll write down this fractional unit so repeat can be only used when you
+
+43:01.340 --> 43:07.100
+want to replicate same like same width let's say even not fr in terms of let's
+
+43:07.100 --> 43:12.540
+say you want a hundred pixel one also okay or let's say you want a ten pixel
+
+43:12.540 --> 43:18.540
+one also it's up to you whatever you can define but if you want like only to
+
+43:18.540 --> 43:24.420
+repeat the columns then only you go for this one is that clear guys like what
+
+43:24.420 --> 43:34.500
+went to use repeat and what is the use case of repeat is okay great now once
+
+43:34.500 --> 43:39.260
+this is clear now then there are few things guys that I want to explain now
+
+43:39.260 --> 43:45.540
+if you see here let's go and let's save this and let's see like what what's
+
+43:45.540 --> 43:51.180
+happening here if I go for increase and decrease this one there wouldn't be
+
+43:51.180 --> 43:54.580
+nothing happening because I'm not playing around with a container but I'm
+
+43:54.580 --> 44:00.340
+playing around with this one okay but what I wanted to show you is that let's
+
+44:00.340 --> 44:06.540
+say I have fixed the size of hundred pixel what if we want this to be act
+
+44:06.540 --> 44:12.180
+like a flexible thing like if you want to give a range of values like where it
+
+44:12.180 --> 44:18.660
+can take let's say now if you see even if I'm reducing it it is still like
+
+44:18.660 --> 44:23.780
+reducing in an equivalent size but what if we want to give them a variable size
+
+44:23.780 --> 44:29.660
+like a range of values for that also grid has given us a function which is
+
+44:29.660 --> 44:38.540
+called as min max okay min max what does min max does is it takes two values
+
+44:38.540 --> 44:44.260
+again where you can define it like what could be the minimum value and maximum
+
+44:44.260 --> 44:55.540
+let's say you have 80 pixel to 1 fr okay or else let's say 50 pixel there's
+
+44:55.540 --> 45:00.860
+nothing changed here nothing changed as of now right but what we are saying is
+
+45:00.860 --> 45:06.740
+that let's say but I'll show that when this thing will change but is the
+
+45:06.740 --> 45:11.260
+definition of min max is clear like we are saying that whatever columns you are
+
+45:11.260 --> 45:16.820
+creating the column size can be anything between 50 pixel to 1 fr which is like
+
+45:16.820 --> 45:26.780
+100 pixel so there where it can vary from that to that range okay now once
+
+45:26.780 --> 45:32.820
+this is done now what if we don't know right we never know that like the number
+
+45:32.820 --> 45:39.260
+of columns will be always consistent like what if we want like some property
+
+45:39.260 --> 45:45.340
+like flex wrap like what if like there is a space more space coming up and the
+
+45:45.340 --> 45:51.380
+instead of going on a second row like 5 6 7 and it can accommodate here itself
+
+45:51.380 --> 45:57.300
+right that sort of it should be we should be it should be able to take that
+
+45:57.300 --> 46:03.100
+right like something like flex wrap like let's say if I'm increasing the
+
+46:03.100 --> 46:09.820
+space let's say I increase the space
+
+46:09.820 --> 46:14.220
+since I'm having a 1fr it is automatically will work fine but let's
+
+46:14.220 --> 46:20.620
+say I make it as a hundred pixel okay now I make this width as a let's say 700
+
+46:20.620 --> 46:25.980
+pixel now if you see there's enough space here do you see this enough space
+
+46:25.980 --> 46:33.260
+on the right let's say I go to chrome there's a space but this space is wasted
+
+46:33.260 --> 46:41.260
+right in a grid layer we want the space to be consumed isn't it what if we had
+
+46:41.260 --> 46:45.620
+a flex wrap like it would have or took all the elements and if there is not
+
+46:45.620 --> 46:50.820
+enough space only then it would have pushed to the next row right
+
+46:51.820 --> 46:59.460
+yes if is anyone able to relate this right so for that reasons right what flex
+
+46:59.460 --> 47:04.940
+or a grid team has done they have given us two values so if you are not sure of
+
+47:04.940 --> 47:14.020
+about like let's say we told like firstly we'll define each column size okay what
+
+47:14.020 --> 47:18.380
+if the column size always keep changing then we told that you can give a range
+
+47:18.420 --> 47:24.940
+of values minimum maximum such that your fixed column size has become variable
+
+47:24.940 --> 47:29.820
+now that it can range from here to here similarly what if we can make columns
+
+47:29.820 --> 47:34.620
+also variable like it can do anything let's say for those things what grid
+
+47:34.620 --> 47:40.620
+team has done is they have introduced two properties one is called autofill
+
+47:40.620 --> 47:42.620
+and the other one is autofill
+
+47:50.620 --> 47:54.620
+just let me check the convention guys
+
+47:58.620 --> 48:00.620
+yeah I think this is it
+
+48:01.620 --> 48:10.620
+okay now if you see what just happened if I go back again if you see this
+
+48:10.620 --> 48:17.620
+autofill aligned all the elements in single like in one row we see only one
+
+48:17.620 --> 48:26.540
+particular column isn't it now just let me check this autofill it shouldn't be
+
+48:26.540 --> 48:37.620
+this convention yeah this one actually this is how it works if you see on the
+
+48:37.620 --> 48:41.820
+container right what we have done we have told that of like if you see the
+
+48:41.820 --> 48:48.100
+of this grid template we show we told that repeat all the columns autofill
+
+48:48.100 --> 48:53.700
+the space if you have whatever space you have fill the each color take as many
+
+48:53.700 --> 49:00.780
+columns you can take it and each column width whatever width can be it can be
+
+49:00.780 --> 49:07.980
+ranged from 50 pixel to 100 pixel okay and what it does is that clear like how
+
+49:07.980 --> 49:14.060
+this is working guys we are saying to repeat now as many columns you can fill
+
+49:14.060 --> 49:18.740
+it as much you can fill it in a one row and each column can take between 50 to
+
+49:18.740 --> 49:23.420
+100 now let's say what is the width of each box let's say what is the width of
+
+49:23.420 --> 49:29.340
+each box now it's a still it is hundred no let's say if I try to reduce it if I
+
+49:29.340 --> 49:38.820
+try to reduce the container with let's say if I'm trying to reduce it okay if
+
+49:38.820 --> 49:44.420
+it is not able to accommodate new new party it will throw into the second row
+
+49:44.420 --> 49:51.180
+like same as a flex wrap let's say I'm reducing it below 600 where maximum is
+
+49:51.260 --> 49:56.100
+like 100 pixel what we have given if it comes below that the sixth element will
+
+49:56.100 --> 50:04.580
+go down if I reduce below 500 for fifth element will also come down let's say if
+
+50:04.580 --> 50:11.700
+I go below this now is this clear like how autofill is working if there is a
+
+50:11.700 --> 50:17.540
+space available let's say if I make 900 pixel all the rows will be applied on a
+
+50:17.540 --> 50:23.900
+same row itself like autofill is like trying to fill as many as elements can
+
+50:23.900 --> 50:29.940
+come into the same row with this particular value minimum and maximum
+
+50:29.940 --> 50:32.940
+okay
+
+50:34.300 --> 50:38.300
+guys is autofill clear
+
+50:41.980 --> 50:46.460
+anyone having any doubts till now whatever we have discussed anyone
+
+50:46.460 --> 50:55.180
+having any doubts okay right now then there is something is that I want to
+
+50:55.180 --> 50:58.940
+show you something called as autofit
+
+50:59.740 --> 51:07.620
+now let's go back and see the see the property how it is behaving now I had
+
+51:07.620 --> 51:17.180
+700 pixel I'll just reduce it okay do you see any change here do you see any
+
+51:17.180 --> 51:22.980
+change here between autofill what if we give a thousand pixel give it thousand
+
+51:22.980 --> 51:30.700
+hundred pixel not hundred pixel but a thousand pixel right all the properties
+
+51:30.900 --> 51:42.980
+took their value and and you know are coming in one row is that clear like it
+
+51:42.980 --> 51:47.580
+will consume a whole row and extra hundred pixel right with there you can
+
+51:47.580 --> 51:55.500
+still give a new element if there is a new element it will consume it okay now
+
+51:55.540 --> 52:02.860
+guys do you see any difference between autofit and autofill now I mean do you
+
+52:02.860 --> 52:08.140
+feel anything till now like even if I'm reducing increasing still autofill and
+
+52:08.140 --> 52:15.060
+autofit are working like a same right right they both are working like same
+
+52:15.060 --> 52:23.420
+but now what does autofit does what does autofit does I'll show you
+
+52:25.540 --> 52:33.820
+let's say I give it unit instead of fixed value since I'm using 50 pixel to
+
+52:33.820 --> 52:40.020
+100 pixel it is supposed to take only 100 pixel as a maximum and these are
+
+52:40.020 --> 52:44.820
+rendered as a hundred pixel space that's I use this hundred pixel because I can
+
+52:44.820 --> 52:50.200
+show you exactly like how all the kind like elements are being moved to the
+
+52:50.200 --> 52:57.000
+top bottom or the top but now let's say I go and give it as a fr here instead of
+
+52:57.000 --> 53:10.480
+min and max I give it as a fr no what just happened what just happened is
+
+53:10.480 --> 53:17.200
+think of it like why like what could be the value of one fr could come is by
+
+53:17.200 --> 53:22.640
+default we say that seven hundred divided by one so it is consuming whole
+
+53:22.640 --> 53:28.720
+space and all the elements are coming in one row but let's say I give one of the
+
+53:28.720 --> 53:35.440
+value just let me take this okay
+
+53:35.440 --> 53:47.440
+let's say we take this as this one where I'm trying to repeat autofitted and I'm
+
+53:47.440 --> 53:50.520
+using min max
+
+53:52.400 --> 54:02.560
+ranging from hundred pixel to one fr okay and let's say I'm having this 700
+
+54:02.560 --> 54:07.120
+columns now let's go back here and see the some difference if there is some
+
+54:07.120 --> 54:17.400
+difference happening if I increase reduce the space still there is no does
+
+54:17.400 --> 54:20.960
+it look like any difference guys still
+
+54:23.680 --> 54:29.800
+I got one answer but I want some other people to notice it
+
+54:30.800 --> 54:37.360
+there's only one thing guys let's say I make it let's say instead of autofit I
+
+54:37.360 --> 54:47.360
+give fi LL just observe if I'm reducing it if I'm increasing it I'm reducing
+
+54:47.360 --> 54:51.240
+below 600
+
+54:51.280 --> 55:06.080
+let's say instead of this one we'll give something like 80 to view this one instead
+
+55:06.080 --> 55:13.680
+of one fr it will take in units only but let me show you yeah zoom in zoom out
+
+55:13.680 --> 55:19.080
+okay let me show you one of the thing like a video which will show you exactly
+
+55:19.400 --> 55:28.800
+difference between autofill and autofit to visualize this one better so what
+
+55:28.800 --> 55:37.240
+happens is generally if you see like there are seven elements there are seven
+
+55:37.240 --> 55:43.920
+elements okay and you have given some range like let's say you are even in the
+
+55:44.480 --> 55:51.400
+yeah shrinking shrinking and expanding is becoming automatically I'll if you
+
+55:51.400 --> 55:59.720
+see this example when I'm making it autofit the elements inside it whatever
+
+55:59.720 --> 56:05.880
+elements you see inside that they shrink and you know increase in size if you see
+
+56:05.880 --> 56:11.800
+the width of them are increasing according to this range okay if I what
+
+56:11.800 --> 56:16.880
+was happening is earlier when I had a fill when I let's say I have a fill
+
+56:16.880 --> 56:25.800
+again we were able to see the spaces in that right empty spaces in a row let's
+
+56:25.800 --> 56:32.800
+say if I increase this one as a thousand pixel again if you see there is a space
+
+56:32.800 --> 56:42.760
+but what if I make as a fit this is the difference so we had thousand pixel of
+
+56:42.760 --> 56:50.480
+width so it can accommodate 10 items in it isn't it it can accommodate 10 items
+
+56:50.480 --> 56:57.200
+of 100 pixel but we told that hey autofitted like you can take the space
+
+56:57.200 --> 57:02.560
+each column width from 80 pixel to the 1fr unit now 1fr will come but
+
+57:02.560 --> 57:07.920
+like when you divide a thousand pixel divided by one like 1fr if I convert
+
+57:07.920 --> 57:22.600
+into this one same thing into fill now let's say if you see this what what
+
+57:22.600 --> 57:30.160
+just happened where is the width guys did I lost width let me refresh this one
+
+57:30.160 --> 57:37.960
+I have width now I have autofill instead of autofit let's have autofill
+
+57:37.960 --> 57:45.840
+as of now firstly and let's make thousand pixel so firstly I'll tell you
+
+57:45.840 --> 57:49.280
+what just happened in this what is what is this example is talking about let's
+
+57:49.280 --> 57:54.120
+go to the container now what we just told is that hey you have width of
+
+57:54.120 --> 58:01.760
+thousand pixel and also make this as a 80 min minimum as 80 doesn't matter
+
+58:01.760 --> 58:06.600
+though but I'll just show you the difference
+
+58:07.600 --> 58:27.040
+let's say I make it autofill firstly and I make as a thousand pixel of width so
+
+58:27.080 --> 58:37.040
+now guys can you see the firstly space on the right side can you see the spaces
+
+58:37.040 --> 58:42.280
+on the first right side on the on this right side so what does autofill does it
+
+58:42.280 --> 58:46.000
+firstly there are two things that are happening when you use autofill or
+
+58:46.000 --> 58:50.600
+autowrite so they check like if they can accommodate extra column they keep on
+
+58:50.600 --> 58:55.200
+adding that extra column okay they keep on adding whatever columns they can
+
+58:55.200 --> 59:02.000
+accommodate but if there is a more width left autofill leave that space as
+
+59:02.000 --> 59:07.080
+an empty space empty column but what does autofill does it it tries to
+
+59:07.080 --> 59:12.640
+consume whole space fit the screen into that container
+
+59:13.200 --> 59:19.520
+let's say if I give fit do you see that it is trying to consume whole space and
+
+59:19.520 --> 59:24.440
+it is happening only because we are saying that the range exists from 0 80
+
+59:24.520 --> 59:30.880
+pixel to 1fr now whenever we are giving a maximum as 1fr at runtime it will say
+
+59:30.880 --> 59:36.720
+that hey like thousand pixel divided by 9 column it will come up to like 110
+
+59:36.720 --> 59:43.280
+maybe right then it will distribute to the size of 110 for each item is this
+
+59:43.280 --> 59:48.680
+difference clear between autofill and autofit autofit tries to accommodate as
+
+59:48.720 --> 59:55.320
+many columns as it can in a one row plus if there are no columns are available it
+
+59:55.320 --> 01:00:01.000
+tries to consume whole space rather than not leaving empty space around on the
+
+01:00:01.000 --> 01:00:05.480
+right side or the left side is this point clear guys what is the
+
+01:00:05.480 --> 01:00:10.000
+difference between autofill and autofit
+
+01:00:10.000 --> 01:00:14.960
+or anyone having still challenge do let me know if anyone is still having
+
+01:00:14.960 --> 01:00:22.560
+challenge do let me know so I hope this point is clear I'll try to write down
+
+01:00:22.560 --> 01:00:31.280
+these definitions of this one using min max use it yeah is still using in min
+
+01:00:31.280 --> 01:00:37.400
+max right so how that if you see that container with the right now if you go
+
+01:00:37.400 --> 01:00:42.800
+and see the container each one it is above 80 pixel we told that each
+
+01:00:42.840 --> 01:00:51.320
+item which should be around 80 to 1fr isn't it so it is taking that range it is
+
+01:00:51.320 --> 01:01:03.800
+more than 80 pixel of each column says okay no going back to here let me write
+
+01:01:03.840 --> 01:01:27.560
+down few definitions for min max it takes the range as a variable for column
+
+01:01:27.560 --> 01:01:39.280
+or the row width okay now then we had discussed two other points autofill and
+
+01:01:39.280 --> 01:02:01.200
+autofill and autofit sorry it tries to accommodate as many columns as it can
+
+01:02:01.200 --> 01:02:19.400
+if columns are more than width width of container new columns will be moved to
+
+01:02:19.400 --> 01:02:38.520
+into new row and if width of container is more than number of columns autofill
+
+01:02:38.520 --> 01:03:00.080
+will leave empty space whereas autofit will adjust width according to
+
+01:03:01.080 --> 01:03:11.920
+min max value min max range so I hope guys whatever we have discussed till now
+
+01:03:11.920 --> 01:03:20.720
+how is the range to 110 pixel okay Kiran let me go back to this one so when my
+
+01:03:20.720 --> 01:03:26.400
+width is thousand pixel and I the number of rows I have nine what could be the
+
+01:03:26.400 --> 01:03:34.600
+one fractional unit value like you divide one 9fr divided by thousand right I mean
+
+01:03:34.600 --> 01:03:44.120
+thousand divided by 9fr that's how it is coming nearby to 110 or 1 to whatever
+
+01:03:44.120 --> 01:03:56.480
+calculation you can do let me yeah okay got it so guys is this clear what is how
+
+01:03:56.480 --> 01:04:02.200
+FR is calculated how repeat function can be used or min max autofill auto write so
+
+01:04:02.200 --> 01:04:10.120
+everything is a variable in grid like like we don't need to define any time of fixed values
+
+01:04:10.120 --> 01:04:15.600
+like fixed units there's nothing like needed like you want to define anywhere fixed units so
+
+01:04:15.600 --> 01:04:21.600
+you can everything you give you can give in range and you can give it auto auto fill or
+
+01:04:21.600 --> 01:04:29.760
+repeat anything that you want but now for making our job easy I'll just give something like repeat
+
+01:04:29.760 --> 01:04:36.320
+so that we can keep learning ahead with other properties I'll just give three columns with
+
+01:04:37.320 --> 01:04:49.800
+and making this as a let's say 300 pixel for understanding it better okay now after as as we
+
+01:04:49.800 --> 01:04:56.560
+have discussed for grid column now what if we want to give a gap between each column right so
+
+01:04:56.560 --> 01:05:01.880
+let's say you have a if you want to give a gap you all you have something properties like column
+
+01:05:01.880 --> 01:05:07.960
+gap if you give a column gap like let's say 10 pixel can see this there is a gap coming up
+
+01:05:07.960 --> 01:05:15.200
+between each of the column so this can be also added similarly also have a property called row
+
+01:05:15.200 --> 01:05:24.040
+gap let's say I also give this 10 pixel so there is a equal distribution that you can give whatever
+
+01:05:24.040 --> 01:05:29.480
+gap you need between the items elements like items defined inside the container you can define it
+
+01:05:29.480 --> 01:05:35.960
+here itself also if you want to give it as a common value right in like you can give 10
+
+01:05:35.960 --> 01:05:48.160
+pixel and 8 pixel okay this again goes for same way guys let's say I comment this now like column
+
+01:05:48.160 --> 01:06:04.120
+it comes as a let's say it takes value column then row I hope this property is also clear like
+
+01:06:04.120 --> 01:06:12.560
+how does gap property works between the items pretty simple right straightforward now let's
+
+01:06:12.560 --> 01:06:19.840
+say I go and calculate template rows now I'm going for rows like this is where today format
+
+01:06:19.840 --> 01:06:27.200
+comes in let's I go and say repeat three like make it fix it into three columns because we
+
+01:06:27.200 --> 01:06:33.440
+have only nine elements and I say instead of let's say one let's say I give one effort let's see what
+
+01:06:33.440 --> 01:06:41.880
+happened here there's no change coming up but let's say we make 50 pixel can you see this
+
+01:06:43.520 --> 01:06:49.360
+so this is where 2d layouts comes in earlier we were able to only align items according to
+
+01:06:49.360 --> 01:06:56.440
+row or column but here we are saying number of columns we want number of rows we want let's
+
+01:06:56.440 --> 01:07:04.440
+say I say that I need only two rows two rows repeat the two rows with a 50 pixel like first
+
+01:07:04.440 --> 01:07:11.360
+two rows are with 50 pixel and the third row is consuming whatever width is available by default
+
+01:07:11.360 --> 01:07:20.080
+is that clear like if it is if it need not to be always n by n or like that sort of parameter
+
+01:07:20.080 --> 01:07:25.600
+you can give it anything even if you if you wanted like you can give individual descriptions
+
+01:07:25.600 --> 01:07:35.440
+as we discussed earlier like 1fr then 2fr then 1fr again it's up to you yeah it is actually
+
+01:07:35.440 --> 01:07:44.040
+height Raja because column goes for width right element width this is for height row height okay
+
+01:07:44.040 --> 01:07:54.520
+now same properties all the properties that we learned or can be applied here also so I'm
+
+01:07:54.520 --> 01:08:03.400
+just trying to repeat that repeat three columns with a 1fr I hope this point is clear guys
+
+01:08:05.440 --> 01:08:22.640
+VH right I didn't get open Raya point so I make this to a view height not exactly view height
+
+01:08:22.640 --> 01:08:32.600
+like this is a height of VH is a viewport height yeah no their height is not viewport height this
+
+01:08:32.600 --> 01:08:37.680
+is like particular all the items whatever items you are getting we are again calculating FR is
+
+01:08:37.680 --> 01:08:44.560
+again calculated by considering now we considered width right earlier now this will be calculated
+
+01:08:44.560 --> 01:08:54.120
+depending on the height this will be divided like 550 divided by 3 and that height will come okay I
+
+01:08:54.120 --> 01:09:00.200
+hope guys that point is clear like how this FR will be calculated for rows and how FR will be
+
+01:09:00.200 --> 01:09:05.520
+calculated for columns so keep that difference like some way stay someone is taking width someone
+
+01:09:05.520 --> 01:09:13.440
+is taking height to define it now going to the next property I hope this point is clear the
+
+01:09:13.440 --> 01:09:20.620
+properties that you see in flex they are still applicable here properties like just a justify
+
+01:09:20.620 --> 01:09:30.000
+items if I give justify items let's say I give it as a center and also let's say I give something
+
+01:09:30.000 --> 01:09:38.760
+like align items center so now tell me there's this one what's exactly happening here what's
+
+01:09:38.760 --> 01:09:47.920
+what happened what just happened here what does item when I'm trying to you know giving this
+
+01:09:47.920 --> 01:09:54.000
+properties whatever property is applicable for flex let's say I give flex start for a better
+
+01:09:54.000 --> 01:10:03.920
+interpretation now when I'm moving this item where these items are able to move where these
+
+01:10:03.920 --> 01:10:12.640
+items are able to so each item is got some column height and column width right some column height
+
+01:10:12.640 --> 01:10:21.560
+and like particular that box that grid box inside that grid box only if you want to rotate or move
+
+01:10:21.560 --> 01:10:29.680
+anywhere this all the items you can use justify items and align items are you able to relate like
+
+01:10:29.680 --> 01:10:48.400
+if I say whenever you go with this keyword here items you are trying to move items inside one cell
+
+01:10:48.400 --> 01:10:58.280
+of grid is it relatable guys no like if I say center and center if I remove this property if
+
+01:10:58.280 --> 01:11:04.340
+I comment this property if you say this is the cell if this is the whole cell and inside this
+
+01:11:04.340 --> 01:11:08.760
+cell only I'm trying to move the item anywhere that I want to like I can move it to this corner
+
+01:11:08.760 --> 01:11:14.440
+and this corner and this center so I am saying that you are trying to move the items inside one
+
+01:11:14.440 --> 01:11:22.280
+cell of a grid or each cell with respect to itself like inside that particular cell this one will
+
+01:11:22.280 --> 01:11:29.440
+revolve here two will be all revolving inside this particular thing is it relatable guys are
+
+01:11:29.440 --> 01:11:36.160
+you able to understand this one this property how justify and align items are working here is anyone
+
+01:11:36.160 --> 01:11:42.440
+having challenge understanding this property yes please give me thumbs up or thumbs down I'll try
+
+01:11:42.480 --> 01:11:47.560
+to repeat it again because that's how I am able to understand it if you are not able to understand
+
+01:11:47.560 --> 01:11:55.280
+when I ask it give me thumbs down I'll repeat it again yeah here items are not exactly digits if
+
+01:11:55.280 --> 01:12:02.120
+you see I have each diff right yeah items are the digits but each diff boxes I've given them a
+
+01:12:02.120 --> 01:12:09.160
+particular class and if you see when I say container I'm talking about this container this
+
+01:12:09.160 --> 01:12:22.400
+border right if I go for the iPad right so just a second if you see we had one container
+
+01:12:22.400 --> 01:12:35.840
+right inside container we distributed items or these bigger items this is a space each item
+
+01:12:35.840 --> 01:12:43.200
+got it by default when we defined grid template rows and columns but inside this if we want to
+
+01:12:43.200 --> 01:12:48.760
+say let's say this item is smaller enough and we want to move it here or here here here here
+
+01:12:48.760 --> 01:12:53.960
+anywhere like and this item will be able to move here and here and here and here if you want to
+
+01:12:53.960 --> 01:12:58.920
+move it to center you can also do that and to move this one you have to again move along the
+
+01:12:59.480 --> 01:13:08.320
+y-axis inside the each element right justify content again goes for x-axis so justify item
+
+01:13:08.320 --> 01:13:20.240
+and align item goes for y-axis okay inside that particular cell only if you want to move the
+
+01:13:20.240 --> 01:13:26.120
+particular thing then you can use this property like you are not moving anywhere around the whole
+
+01:13:26.120 --> 01:13:37.400
+grid or anywhere it will based on item length and like here it is one yeah right if I even
+
+01:13:37.400 --> 01:13:45.240
+give lorem let's say lorem let's say not even if I try to update with two keywords if you see lorem
+
+01:13:45.240 --> 01:13:50.440
+if some has content whatever content you have if you want to move that content let's say it's a
+
+01:13:50.440 --> 01:13:59.480
+flex start as of now if I make them center center now imagine I give them center and also I make
+
+01:13:59.480 --> 01:14:05.120
+them center so whatever cell that particular cell is having space it will move into that
+
+01:14:05.120 --> 01:14:12.120
+particular respective things okay I hope this I this part of this whenever I'm using justify
+
+01:14:12.120 --> 01:14:18.520
+so that it will be aligned to top left or right center bottom within that cell right
+
+01:14:18.800 --> 01:14:23.760
+you got it clearly so within that cell only it will keep on moving when you're using with
+
+01:14:23.760 --> 01:14:32.200
+items justify item and justify sorry align items but now you also want to move this items let's
+
+01:14:32.200 --> 01:14:42.440
+say here what if I have let's say I go and make a container pretty big but how can I make a pretty
+
+01:14:42.440 --> 01:14:55.760
+big container let's say let's say I give it the row as a 50 pixel each okay now if you see we
+
+01:14:55.760 --> 01:15:02.200
+have this can we change for each item differently justify an align item I'll show that I'll show
+
+01:15:02.200 --> 01:15:08.040
+that Raja you can do that but I'll show that but you have to if you have to do it for one one item
+
+01:15:08.160 --> 01:15:12.640
+you have to go from the item level not from the container level currently all the properties
+
+01:15:12.640 --> 01:15:21.240
+we are applying are on the container okay now guys if you see this there are the items inside
+
+01:15:21.240 --> 01:15:28.080
+the container are on the top what if we want to move let's say this is a whole cell now this box
+
+01:15:28.080 --> 01:15:35.080
+whatever this box if you want to move inside this container like somewhere bottom down or anywhere
+
+01:15:35.080 --> 01:15:43.280
+left right how we can do that let's say I also make this as a 50 pixel instead of this one you
+
+01:15:43.280 --> 01:15:51.040
+see now this will this like moving all the children items together inside a container all
+
+01:15:51.040 --> 01:15:58.000
+items together you can do that using something property called as justify content all the
+
+01:15:58.000 --> 01:16:03.720
+content all the content okay let's say I'm moving it to center if you see it got into center if I'm
+
+01:16:03.720 --> 01:16:09.240
+moving again align content into the center it will bring all the items into the center
+
+01:16:09.240 --> 01:16:16.640
+is it relatable guys how items and content are different when you are talking about content it
+
+01:16:16.640 --> 01:16:20.880
+is you are talking about all the content when you're talking about items you're talking about
+
+01:16:20.880 --> 01:16:27.280
+one respective item inside that cell is that difference clear guys when to go for items when
+
+01:16:27.280 --> 01:16:46.200
+to go for content content is you are let's say you are trying to move item inside grid container
+
+01:16:46.200 --> 01:16:54.160
+okay I hope the basic difference is clear when to use this properties in that properties but
+
+01:16:54.200 --> 01:16:58.720
+there is some new property guy that the guys that I want to introduce something called as
+
+01:16:58.720 --> 01:17:05.600
+place content like this is a short format same like you want to go for justify align content
+
+01:17:05.600 --> 01:17:15.080
+and it starts like this way let's say I make it sent start and center so what does exactly it
+
+01:17:15.080 --> 01:17:20.800
+is doing what does it is exactly doing let's say I comment this if I want to replicate the
+
+01:17:20.800 --> 01:17:30.680
+start and center right I can say align content start same thing a shortcut for both things
+
+01:17:30.680 --> 01:17:41.680
+like it goes place content goes with a line content then space justify content
+
+01:17:41.680 --> 01:17:50.240
+too many things
+
+01:17:56.520 --> 01:17:57.760
+let me recheck
+
+01:17:57.760 --> 01:18:07.080
+is this clear guys how you can use a shortcut because whatever you are whenever you are
+
+01:18:07.080 --> 01:18:13.000
+selecting place content so firstly you have to give what is a property of align content then
+
+01:18:13.000 --> 01:18:17.800
+you have to give justify content property you can define individually but also you can give
+
+01:18:17.800 --> 01:18:23.800
+in short format same goes with this align items okay let's say you want to do it for the align
+
+01:18:23.800 --> 01:18:33.360
+items how can you do it now let's say I go for place items now what if I do center and center
+
+01:18:33.360 --> 01:18:40.240
+so inside each cell they are again moving into the center and the syntax is same
+
+01:18:40.240 --> 01:18:46.880
+like instead of content I'll use item here
+
+01:18:46.880 --> 01:19:02.400
+is this clear guys what how you can leverage justify items justify content the basic difference
+
+01:19:02.400 --> 01:19:09.600
+between those elements I hope this is clear if these points are clear then there is one more
+
+01:19:09.600 --> 01:19:16.160
+property that I want to talk about let's say I fix this one again as a 1fr 1fr
+
+01:19:16.160 --> 01:19:31.320
+okay now I wanted to observe some changes when I write down this property grid auto flows
+
+01:19:32.280 --> 01:19:42.560
+I make it as column okay now again let's make it 50 pixel only as of now okay
+
+01:19:47.000 --> 01:19:55.640
+any change did you guys observe let's say let's say I comment this shant has mentioned one thing
+
+01:19:56.280 --> 01:20:03.800
+guys just see the numbering format just see the numbering format and if I uncomment it again
+
+01:20:06.920 --> 01:20:14.840
+transfers right like 1 2 3 4 5 6 7 8 9 it was but it converted to 1 2 3 4 5 6 7 8 9
+
+01:20:16.360 --> 01:20:17.800
+did you guys notice that
+
+01:20:17.800 --> 01:20:27.960
+did you guys notice that so what this grid autoflow says grid autoflow says that let's say
+
+01:20:27.960 --> 01:20:31.320
+whenever you are building a layout whenever you are building a layout
+
+01:20:32.520 --> 01:20:37.640
+whatever first item when you add it is of course it will go to the top left according to the
+
+01:20:37.640 --> 01:20:43.080
+column and road definition then it is always your decision like let's say
+
+01:20:44.040 --> 01:20:47.160
+I write down here
+
+01:20:49.240 --> 01:20:55.880
+let's say you have defined a grid of three by three matrix like okay where you have three
+
+01:20:55.880 --> 01:21:04.680
+columns of 1fr 1fr 1fr fractional unit each fractional unit and here also 1fr 1fr you have
+
+01:21:04.680 --> 01:21:11.560
+it this is the same configuration we had now autoflow says that first once you add this item
+
+01:21:11.560 --> 01:21:19.000
+one then in which direction you want to add the second item or new incoming item let's say when
+
+01:21:19.000 --> 01:21:28.360
+autoflow is column it will add it in the column space like two three then once it is done it will
+
+01:21:28.360 --> 01:21:39.480
+go for four then five and six okay if flow is a row okay it will say that one once I have grid
+
+01:21:39.480 --> 01:21:44.680
+let's say I'm talking about two by two matrix once I have one flow is a row so I'll fill the
+
+01:21:44.680 --> 01:21:51.960
+first row then I'll go to the next row is it clear like how grid autoflow works whenever there's a
+
+01:21:51.960 --> 01:21:57.720
+new incoming item where it should go first filling that it should fill the row then go to the next
+
+01:21:57.720 --> 01:22:00.920
+row or it should fill the column then it should go to the next column
+
+01:22:00.920 --> 01:22:08.440
+guys is this point clear like how grid autoflow works
+
+01:22:15.000 --> 01:22:20.280
+yes to revise right these are the properties that you can apply generally on a grid container
+
+01:22:20.840 --> 01:22:25.800
+so we have discussed something called as fr which is standing for fractional unit
+
+01:22:26.440 --> 01:22:32.040
+and each of this fractional unit can be calculated for rows and columns
+
+01:22:33.400 --> 01:22:40.040
+when you are defining the each column and row width in in terms of fr and this can be calculated
+
+01:22:40.040 --> 01:22:49.160
+by if you are getting this width width by total fr total column let's say column fr
+
+01:22:49.320 --> 01:22:54.520
+let's say column fr will give you one fr for column
+
+01:22:58.120 --> 01:23:00.200
+and then let's say you have height
+
+01:23:03.320 --> 01:23:15.080
+by total row fr will give you one fr for row right only all these properties
+
+01:23:15.080 --> 01:23:20.040
+and this can be applied to grid template
+
+01:23:23.640 --> 01:23:31.320
+column and similarly for this one for the row right and what are the next properties
+
+01:23:31.320 --> 01:23:36.600
+that we have discussed once we have done this then we went and understood what does repeat function
+
+01:23:36.600 --> 01:23:44.280
+does and repeat is commonly used repeat is commonly used first we thought like hey repeat
+
+01:23:44.280 --> 01:23:49.880
+can be only used when you have a constant recurrences like let's say you have a constant
+
+01:23:49.880 --> 01:23:54.920
+recurrences so we thought that use cases can be different but then we thought what we can make
+
+01:23:54.920 --> 01:24:00.040
+this both things are variable this one has a variable and this one has a variable
+
+01:24:02.360 --> 01:24:08.840
+now how in industry standard is like they write down this repeat function and they give like
+
+01:24:08.840 --> 01:24:16.920
+autofiller or auto fit here two things auto fill or auto fit property
+
+01:24:19.640 --> 01:24:28.760
+then you go and define this here min max range you give a minimum pixels like most of the times
+
+01:24:28.760 --> 01:24:35.320
+this minimum range is always in terms of what can be the minimum size of the content in pixel
+
+01:24:35.320 --> 01:24:42.600
+or rem or em but whereas maximum people try to give in terms of fr terms for the industry standard
+
+01:24:44.040 --> 01:24:51.960
+okay then we went on to discuss something like justify items
+
+01:24:54.840 --> 01:24:55.960
+and align items
+
+01:24:58.360 --> 01:25:04.200
+if you want to move inside a cell if you want to move the content inside the cell left right bottom
+
+01:25:04.200 --> 01:25:09.080
+top anywhere you can use this property but if you want to move a particular
+
+01:25:11.160 --> 01:25:14.680
+item inside a container you go for content properties
+
+01:25:17.240 --> 01:25:23.800
+and grid flow always define in which how the next incoming element should go
+
+01:25:23.800 --> 01:25:31.240
+in the grid in which cell it should go i hope these points are clear guys i just try to summarize it
+
+01:25:31.720 --> 01:25:37.800
+uh i hope you got a better understanding about grid now everything will come with practice if
+
+01:25:37.800 --> 01:25:43.960
+you i would prefer i would ask you to you know revise this lecture once to get the good understanding
+
+01:25:43.960 --> 01:25:50.040
+write down the properties in your understanding because i'll show why grid is important uh i'll
+
+01:25:50.040 --> 01:25:56.840
+show after my plea i would ask you to wait for some time in like doubt session where i'll show
+
+01:25:56.840 --> 01:26:02.680
+the real time debugging how can you debug grid and flexbox both things but coming back to this
+
+01:26:02.680 --> 01:26:10.600
+one guys there are few there are only less amount of properties for the items okay let's say i have
+
+01:26:10.600 --> 01:26:19.320
+here a new class called item one what i'll do is that i'll go here i'll select let's say item one
+
+01:26:19.720 --> 01:26:24.680
+and inside this item one there are only few things now
+
+01:26:26.600 --> 01:26:32.520
+uh after this promote uh we'll have only 10 minutes then we'll take break okay
+
+01:26:33.720 --> 01:26:40.120
+only 10 minutes then we'll take break so earlier raja had a question like what if
+
+01:26:41.560 --> 01:26:47.240
+a particular item want to be in a different position from their existing thing like how
+
+01:26:47.240 --> 01:26:53.000
+what if item want to move anywhere isn't it like we told that if you want to move all the
+
+01:26:53.000 --> 01:26:58.680
+items to the center or the top right left we are moving all the items like applying it to the all
+
+01:26:58.680 --> 01:27:03.560
+the things but if you want to do it individually right you go you can go to the item and you can
+
+01:27:03.560 --> 01:27:15.800
+say simply justify self once you do justify cells let's say i give start flex start and align self
+
+01:27:16.760 --> 01:27:18.280
+i say flex start
+
+01:27:21.160 --> 01:27:27.240
+do you see this guys let's say i make it as a this one also one effort then you will be able to relate
+
+01:27:27.240 --> 01:27:37.960
+this one raja able to relate this you had this question i remember in chat so you asked me like
+
+01:27:37.960 --> 01:27:41.080
+how can i make it for one respective one specific item
+
+01:27:46.200 --> 01:27:53.080
+okay so guys is this clear like if you want to move inside the cell
+
+01:27:53.080 --> 01:27:57.480
+only one item then you can use something like this property
+
+01:28:03.480 --> 01:28:03.960
+let's say
+
+01:28:07.160 --> 01:28:12.200
+uh guys do you need a break or can i continue i see no reactions
+
+01:28:13.000 --> 01:28:19.640
+so if you need a break because okay let's take the break and come back we'll cover the items part
+
+01:28:19.640 --> 01:28:27.640
+then we'll go for the practical examples let's do the 10 minutes break okay let me start that
+
+01:28:27.640 --> 01:28:29.240
+10 minutes timer
+
+01:28:35.080 --> 01:28:37.720
+can i make it eight minutes guys that would be enough right
+
+01:28:37.720 --> 01:28:42.760
+right i'll make it eight minutes because i want to cover a few things
+
+01:28:45.000 --> 01:28:48.200
+few interesting things for you for the like industry standards
+
+01:28:49.160 --> 01:28:51.160
+let's see you meet you in 10 minutes
+
+01:29:07.720 --> 01:29:07.880
+you
+
+01:29:37.720 --> 01:29:37.880
+you
+
+01:30:07.720 --> 01:30:07.880
+you
+
+01:30:37.720 --> 01:30:37.880
+you
+
+01:31:07.720 --> 01:31:07.880
+you
+
+01:31:37.720 --> 01:31:37.880
+you
+
+01:32:07.720 --> 01:32:07.880
+you
+
+01:32:37.720 --> 01:32:37.880
+you
+
+01:33:07.720 --> 01:33:07.880
+you
+
+01:33:37.720 --> 01:33:37.880
+you
+
+01:34:07.720 --> 01:34:07.800
+you
+
+01:34:37.720 --> 01:34:37.880
+you
+
+01:35:07.720 --> 01:35:07.880
+you
+
+01:35:37.720 --> 01:35:37.880
+you
+
+01:36:07.720 --> 01:36:07.880
+you
+
+01:36:38.200 --> 01:36:38.280
+you
+
+01:36:58.280 --> 01:36:59.560
+uh guys is everyone back
+
+01:36:59.560 --> 01:37:08.040
+uh guys if everyone is back and give me thumbs up thumbs down any reactions guys
+
+01:37:10.840 --> 01:37:19.240
+i need your attention guys for some time uh okay need your full attention uh so i hope everyone is
+
+01:37:19.240 --> 01:37:27.480
+back okay so we were can we get started guys can we get started or
+
+01:37:30.280 --> 01:37:34.280
+uh i know i'll show that i'll show that let's complete this content then i'll show you real
+
+01:37:34.280 --> 01:37:41.400
+time examples where this grids and flexboxes can be used okay because these are the layouts
+
+01:37:41.400 --> 01:37:47.480
+like every website that you see in real time right uh you go for any site that you pick it
+
+01:37:47.480 --> 01:37:53.800
+you pick it any site website you go for scaler.com and so there will be a grid of flexbox being used
+
+01:37:55.400 --> 01:37:55.800
+okay
+
+01:37:56.120 --> 01:38:01.320
+okay uh but guys can we get started
+
+01:38:05.000 --> 01:38:12.200
+so that we were onto the flex like grid items how we can do it so we were discussing two properties
+
+01:38:12.840 --> 01:38:19.720
+like justify self and align self now we have made like justify self and align self as a flex start
+
+01:38:19.720 --> 01:38:25.720
+both things and this both items as a sender now this is the same thing this is in this is
+
+01:38:25.720 --> 01:38:30.920
+the same way how align items and justify items used to work they are also trying to move the
+
+01:38:30.920 --> 01:38:36.440
+items inside the set but if you want the same like all items to behave in such way then you
+
+01:38:36.440 --> 01:38:42.040
+have to define it on a container but you want if you want item specific then you can use justify
+
+01:38:42.040 --> 01:38:49.720
+self property okay to move the container i mean items inside the container is that point clear
+
+01:38:49.720 --> 01:38:59.480
+guys how does justify in align this self works then we have only two other properties for the
+
+01:38:59.480 --> 01:39:06.760
+this one let's say one is called as grid row okay what does this thing works how this thing works
+
+01:39:06.760 --> 01:39:14.520
+is that let's say now i've see that one my column is taking only one unit of space what if i want
+
+01:39:14.520 --> 01:39:22.120
+this one to take two units of space like did you remember like in table table is also in html tables
+
+01:39:22.120 --> 01:39:29.800
+right we used to do row a column span and row span does anyone remember that row span and call span
+
+01:39:29.800 --> 01:39:36.440
+this is the same property that use helps you to span this particular uh each element let's say
+
+01:39:36.440 --> 01:39:43.320
+i am at the contain item one i'm saying that starting position would be one and please go
+
+01:39:43.320 --> 01:39:50.200
+through three so what i'm saying is that how this this thing works is like i'm saying that
+
+01:39:50.760 --> 01:39:55.480
+it goes by grid lines whenever i say grid lines like it says that grid line is one is this one
+
+01:39:56.360 --> 01:40:04.600
+two is this one and three is this one so i'm saying that this is this starts with starting
+
+01:40:04.600 --> 01:40:09.560
+and ending line let's say starting line and slash ending line
+
+01:40:12.040 --> 01:40:17.960
+similarly if i want to expand this on a column level let's say if i want to do a column call span
+
+01:40:17.960 --> 01:40:22.840
+sort of this then i can say start with one again go till third
+
+01:40:26.920 --> 01:40:33.880
+is it clear is how the call span and row span works in grid at item level generally you can
+
+01:40:33.880 --> 01:40:39.480
+give a starting line and ending line i'll exactly show you how you can see the lines now if you see
+
+01:40:40.280 --> 01:40:46.440
+if you go for any inspect tool right any inspect tool you put on a container you see this grid
+
+01:40:47.400 --> 01:40:53.240
+once you select the grid you can go into the layouts option and there will be something
+
+01:40:53.240 --> 01:41:00.600
+like show track sizes area names and the grid lines all it will show now this uh i hope like
+
+01:41:00.600 --> 01:41:07.400
+i'll remove this one so that you can see this now if you see what's exactly happening
+
+01:41:10.280 --> 01:41:16.360
+let me make this one itself but what i was trying to say is this visible guys you are able to see
+
+01:41:16.360 --> 01:41:24.520
+this one lines all the lines one if all the units so when i'm saying it that one first element item
+
+01:41:24.520 --> 01:41:31.000
+one like if you go for item one css i'm saying that it it will start at the line one indicate
+
+01:41:31.000 --> 01:41:37.800
+three so this is the line one this is the line two this is the line three so this is how you can
+
+01:41:37.800 --> 01:41:44.360
+differentiate the other way around is that if you don't want to go in terms of lines let's say then
+
+01:41:44.360 --> 01:41:50.760
+you have an ability to use something like span like merging the grids exactly like spanning out
+
+01:41:50.760 --> 01:41:56.680
+each element to multiple columns and multiple rows shant to be more in technical terms
+
+01:41:58.680 --> 01:42:07.960
+okay so like if you want to spend like let's say you can also use span the same thing if you see
+
+01:42:07.960 --> 01:42:14.600
+still i'm doing that same thing like i can say that hey start from line one start from line one
+
+01:42:14.600 --> 01:42:19.480
+span till two elements you can use also the keyword called span if you don't want to give
+
+01:42:19.480 --> 01:42:27.880
+end line is this clear guys like you can use span or you can define directly end line similarly
+
+01:42:27.880 --> 01:42:36.280
+what if i want to make this particular item to item two to span to this level let's say i go for
+
+01:42:37.640 --> 01:42:44.520
+grid row now what would be the starting line for this element let's say if you go here
+
+01:42:45.160 --> 01:42:52.200
+and see the item two is starting at grid line three right i'll select the three
+
+01:42:53.480 --> 01:43:01.000
+then i'll go and i'll say the span two okay i'm going for row let's go for column as of
+
+01:43:03.720 --> 01:43:07.160
+okay it will start from column one and span for two rows
+
+01:43:07.640 --> 01:43:11.880
+okay so it took the same thing as this one now
+
+01:43:14.280 --> 01:43:24.440
+let's say i go for grid row also inside grid row i have to say that hey you are starting at line three
+
+01:43:26.600 --> 01:43:28.600
+and span two
+
+01:43:28.680 --> 01:43:29.720
+span two
+
+01:43:35.000 --> 01:43:38.840
+what if you gave the correct number i gave the incorrect number itself shan
+
+01:43:38.840 --> 01:43:42.840
+now if you see i've said that i'm having three by three matrix
+
+01:43:43.640 --> 01:43:50.120
+i've gave start from three and span till two two terms right if you see when i did that
+
+01:43:50.680 --> 01:43:55.160
+if you see this convert this the demography of this particular grid got changed
+
+01:43:55.880 --> 01:44:01.640
+so if you want to fix this layout go with the description definition of what you have given
+
+01:44:01.640 --> 01:44:06.840
+in the grid template rows in grid template columns but if you do some mistakes here
+
+01:44:07.800 --> 01:44:13.480
+or when you are spanning it out or then your layout will be disturbed now if you see go and
+
+01:44:13.480 --> 01:44:20.120
+see the layout if you say this one and two then three four five and six then seven eight nine
+
+01:44:20.600 --> 01:44:26.760
+this there is an empty space on the here right you can also fix this fix this what if what
+
+01:44:26.760 --> 01:44:36.360
+you can say is that hey i'll go and say that item let's say i say that item six i can say dot item six
+
+01:44:39.160 --> 01:44:40.120
+grid column
+
+01:44:40.120 --> 01:44:51.560
+right starting at second span two if i fix it this way if you see
+
+01:44:54.040 --> 01:44:59.960
+it's still if you see this one starting at two i'll give i should be starting at three instead
+
+01:45:01.000 --> 01:45:10.040
+if you see when i gave it three okay did i let's say i comment this i'll see the issue and fix that
+
+01:45:10.440 --> 01:45:16.760
+what i'm saying is that this is the line one line two this is minus two you can always see
+
+01:45:16.760 --> 01:45:22.440
+the lines here also right minus one minus two whatever the lines you are getting here you can
+
+01:45:22.440 --> 01:45:27.720
+use them and you can span it i say that select the line till minus two and span it till two
+
+01:45:30.840 --> 01:45:32.680
+let's say i say grid column
+
+01:45:32.680 --> 01:45:42.280
+let's say i is two minus two and span it still it is doing it from here not
+
+01:45:45.640 --> 01:45:48.520
+okay it doesn't have the enough space to consume it i guess
+
+01:45:49.080 --> 01:45:53.000
+but i hope you got the basic idea what the spanning does
+
+01:45:53.000 --> 01:46:00.840
+okay so grid
+
+01:46:04.280 --> 01:46:10.680
+let me go back to grid row two starting line would be two let's say when you go for row this
+
+01:46:10.680 --> 01:46:18.280
+is the starting line and span two it will span around those these two rows yes then here line
+
+01:46:18.280 --> 01:46:26.600
+two will be used instead of item one huh so it will give errors there is nothing as such error
+
+01:46:26.600 --> 01:46:32.440
+but it's it's just like how you want to lay out the layer your layers like how you want to show
+
+01:46:32.440 --> 01:46:38.600
+show your all the fields is that clear shant like if you want to distribute equally you are not
+
+01:46:38.600 --> 01:46:44.440
+supposed to use grid column or grid row but if you want to span out or if you want to move the
+
+01:46:44.440 --> 01:46:48.280
+elements you will have the side effects that you have to manage it out
+
+01:46:55.800 --> 01:47:03.560
+is that clear guys how many of you have any doubts on this like how grid column and rows work
+
+01:47:06.280 --> 01:47:09.160
+did everyone understood this one how this property works
+
+01:47:09.160 --> 01:47:17.880
+okay i see two people's hamster cool uh this is what i wanted okay now
+
+01:47:19.160 --> 01:47:26.680
+okay let's say i start with property one first so
+
+01:47:29.240 --> 01:47:36.200
+i'm saying that what is the position if you see there are something like each time right
+
+01:47:36.200 --> 01:47:41.720
+when we say matrix let's say we go to the definition of matrix here
+
+01:47:44.120 --> 01:47:49.720
+like if you see in the 2d layer grid right if i draw the lines
+
+01:47:52.680 --> 01:47:59.000
+right this is the line one this is the line two this is the line three this is the line four so
+
+01:47:59.000 --> 01:48:06.280
+if i'm saying this particular element element item one which is over here i say that grid column
+
+01:48:07.160 --> 01:48:10.440
+let's say grid column
+
+01:48:16.360 --> 01:48:26.520
+starting from line one end till three or i say starting from line one span two
+
+01:48:27.480 --> 01:48:32.920
+i mean spanments consume two lines like line two and line three so it will say that it will move
+
+01:48:32.920 --> 01:48:40.440
+the item one whatever one is there it will consume whole of this space this space is this point
+
+01:48:40.440 --> 01:48:47.720
+clear what is the grid column is doing whenever we write this way guys uh i need specifically
+
+01:48:47.720 --> 01:48:52.040
+thumbs up from the people who gave me thumbs down ankit and tejal
+
+01:48:52.040 --> 01:48:56.360
+guys is this point clear
+
+01:48:59.800 --> 01:49:02.520
+okay now when i say grid column
+
+01:49:06.120 --> 01:49:07.080
+oh sorry grid row
+
+01:49:10.440 --> 01:49:16.760
+again these lines are also distributed like you'll have specific numbering always you can debug
+
+01:49:16.760 --> 01:49:21.160
+and check the numbering one of the ways like you can check this numbering like you'll have
+
+01:49:21.160 --> 01:49:27.080
+minus four minus three minus two or whatever you have or else you can say always let's say
+
+01:49:27.080 --> 01:49:33.800
+i'm starting from i since this is starting here one and it is going till if you see this is
+
+01:49:34.600 --> 01:49:41.080
+in the below you had a minus four minus three minus two minus one this is how representation
+
+01:49:41.080 --> 01:49:48.200
+has been given okay here below if i want to expand till here if i want to expand till here
+
+01:49:49.000 --> 01:49:57.400
+i'll say grid row whatever row is there right starting from one or let's say minus four
+
+01:49:58.200 --> 01:50:05.320
+consume it till minus two this is the starting and ending or else you can say minus four
+
+01:50:08.040 --> 01:50:08.760
+span two
+
+01:50:09.240 --> 01:50:11.720
+so
+
+01:50:15.800 --> 01:50:21.720
+clear guys like what i have done in the code here is that when i use grid row
+
+01:50:22.760 --> 01:50:28.840
+let's say i write down here instead of this one uh in the grid column right in the grid column
+
+01:50:30.600 --> 01:50:32.280
+uh let's say minus four
+
+01:50:32.280 --> 01:50:41.800
+so i have written that clearly i hope everyone having better idea now how this spanning works
+
+01:50:51.400 --> 01:50:57.960
+yes uh still having any doubts do let me know okay always what you can do if you want to go
+
+01:50:58.040 --> 01:51:03.960
+by the lines right uh you can always wherever grid is rendered you can open inspect tool just
+
+01:51:03.960 --> 01:51:09.880
+highlight this one and go to the layout section and see all uh tick all this them then you will
+
+01:51:09.880 --> 01:51:15.720
+if if i don't tick it let's see what all things i'm not able to see many things you won't be able
+
+01:51:15.720 --> 01:51:21.080
+to see if you see extended lines these are the grid lines that you can see how many lines these
+
+01:51:21.080 --> 01:51:27.160
+are layout has been divided into so all of this tools will be really helpful to design your layout
+
+01:51:27.160 --> 01:51:32.760
+like whenever you are doing website right this is only done once on a top level once your layout
+
+01:51:32.760 --> 01:51:40.840
+is designed internal items you can do anything okay i hope these properties are clear if these
+
+01:51:40.840 --> 01:51:51.880
+properties are clear yes i would say uh like this is it when it comes to grid part but i want to
+
+01:51:51.880 --> 01:51:58.120
+show you one of the exact example like exactly like how can you leverage and play around with
+
+01:51:58.120 --> 01:52:05.560
+that uh let's build one of the layout okay let's build actual one of the layout a general layout
+
+01:52:05.560 --> 01:52:12.840
+that you see or you generally have been used which had let's say let me write down that layout uh
+
+01:52:12.840 --> 01:52:23.000
+like firstly uh let's say i have something like layout dot html i use html file uh take some
+
+01:52:23.000 --> 01:52:29.080
+yeah uh i'm i'm going to show you exact one uh basic uh layout i mean now firstly this is because
+
+01:52:29.080 --> 01:52:34.040
+i have to introduce one more property then i'll try to show you the exam example that we solved
+
+01:52:34.120 --> 01:52:38.360
+with flexbox i want to solve that same using grid okay
+
+01:52:44.840 --> 01:52:48.920
+let's say i have something common header which is like header across
+
+01:52:50.840 --> 01:52:58.760
+like page you can say page header and let's say i also give the id as page header
+
+01:52:59.640 --> 01:53:05.880
+okay once you have taken the header let's say you have something like article which is again
+
+01:53:05.880 --> 01:53:11.400
+a semantic tag which will show the content area let's say this is a content area
+
+01:53:12.360 --> 01:53:21.240
+again i can give id as a let's say main main article or main content anything that you can
+
+01:53:21.960 --> 01:53:27.240
+then let's say i have once i have this header and main article i can also have a navbar
+
+01:53:27.240 --> 01:53:35.000
+i can also have a navbar let's say i have id called nav here or let's say this is a main nav itself
+
+01:53:37.000 --> 01:53:38.760
+and we can say this is a navbar
+
+01:53:42.440 --> 01:53:47.000
+and there's something like aside which is like showing the advertisement let's say
+
+01:53:47.880 --> 01:53:48.840
+on a website
+
+01:53:52.440 --> 01:54:01.400
+let's say ads so basically and i can give ids as site ads whatever ads you see in a website
+
+01:54:01.400 --> 01:54:08.840
+particularly okay then let's say you have something like footer and this this is a footer
+
+01:54:08.840 --> 01:54:17.320
+here so this is how your basic layout looks like right each page let's say
+
+01:54:19.080 --> 01:54:25.960
+if i go back and write down on the ipad yeah can i show you in a preview nothing will be
+
+01:54:25.960 --> 01:54:30.440
+you will be able to relate now because we haven't applied anything as of now
+
+01:54:31.480 --> 01:54:36.840
+you will have a header you will have a footer right you'll have a content area where your
+
+01:54:36.840 --> 01:54:42.280
+actual content is there then you have some menu section navbar then you have like most of the
+
+01:54:42.280 --> 01:54:49.560
+sites show ads on the website for the ad revenue right this is how basically you have our top
+
+01:54:49.560 --> 01:54:55.160
+level elements that you can see on most of the websites or like revenue generating websites
+
+01:54:55.160 --> 01:55:02.440
+right so now let's see how we can build our layout for this one okay what i'll do is that
+
+01:55:03.240 --> 01:55:09.640
+uh firstly fixing this style
+
+01:55:12.680 --> 01:55:14.360
+removing this padding and matching
+
+01:55:19.880 --> 01:55:26.760
+okay once we fix this then let's go for the body tag apply some basic html
+
+01:55:27.400 --> 01:55:33.560
+uh i'll give display as a grid but i won't be applying as of now any properties because i want
+
+01:55:33.560 --> 01:55:40.760
+to give uh let's say a default height could be 100 view height i'm just giving it this one
+
+01:55:41.880 --> 01:55:48.360
+okay it distributed article just i'm giving that consume all the height not only the top okay
+
+01:55:49.480 --> 01:55:53.560
+again going to the let's say each part let's say i select header
+
+01:55:54.520 --> 01:56:02.920
+and also article also aside also let's say nav
+
+01:56:06.920 --> 01:56:15.960
+then footer covered all for all these things i'll apply common css i'll give just like padding should
+
+01:56:15.960 --> 01:56:27.320
+be eight pixel and let's say background color just tomato nothing else now
+
+01:56:29.080 --> 01:56:35.720
+once we have given this let's say i pick it up this ids right i pick up this ids all the page
+
+01:56:35.720 --> 01:56:44.280
+header and everything let's say page header i'll write down all these ids whatever we have defined
+
+01:56:44.920 --> 01:56:47.240
+firstly main article
+
+01:56:52.120 --> 01:56:55.240
+okay then main nav
+
+01:56:59.080 --> 01:57:00.600
+then you go for site ads
+
+01:57:06.200 --> 01:57:08.120
+also you have page footer
+
+01:57:08.120 --> 01:57:18.200
+okay these are the ids we have described inside this thing i'm going to add one property called
+
+01:57:18.200 --> 01:57:24.920
+grid area this is something new that we haven't discussed yet but i'm just giving it let's say
+
+01:57:24.920 --> 01:57:35.800
+this is an header and let's say i say grid area i'll say this is a content area let's say content
+
+01:57:35.800 --> 01:57:45.640
+area similarly i'll say that this main grid area can say menu bar
+
+01:57:49.000 --> 01:57:57.800
+or menu bar let's say then let's say i say grid area i say ads section
+
+01:57:57.800 --> 01:58:05.880
+section and i say again grid area footer section
+
+01:58:08.840 --> 01:58:12.360
+let's say i add a section only header section all these properties
+
+01:58:14.600 --> 01:58:21.880
+okay you might not be able to see anything as of now the reason now comes the main place
+
+01:58:21.880 --> 01:58:29.560
+is yeah i'll come to that uncle but let's solve this problem now
+
+01:58:31.160 --> 01:58:40.360
+there is something that i want to talk about is grid let's say i also give this template columns
+
+01:58:40.360 --> 01:58:48.280
+and let's say we give columns and also rows template rows now let's say i'm dividing this
+
+01:58:48.280 --> 01:58:56.600
+into three sections like main content ad section and also menu bar a lot like a side one okay then
+
+01:58:56.600 --> 01:59:02.760
+what i'll give let's say 20 percent will be aside okay which will be like covering one part of the
+
+01:59:02.760 --> 01:59:12.280
+thing then one fr will be main frame then let's say 70 pixel can be a ads part i'm just able to
+
+01:59:12.280 --> 01:59:17.320
+write it because i have built this one guys but i'm i'll explain everything like how i'm able to
+
+01:59:17.320 --> 01:59:25.560
+assume this one okay then i'll have 80 pixel for the first row then one fr for the middle call a
+
+01:59:25.560 --> 01:59:32.280
+middle row then 15 percent for the bottom one now till now there is nothing that you can see
+
+01:59:32.920 --> 01:59:39.080
+also i'll add let's say gap between each of the items as a 10 pixel for the along the column and
+
+01:59:39.080 --> 01:59:45.240
+row now comes one property which is used to define templates in any
+
+01:59:47.240 --> 01:59:54.680
+office you go something called as grid grid template areas okay let's say how can you do it
+
+01:59:55.960 --> 01:59:57.800
+let me pull this also below
+
+02:00:00.040 --> 02:00:05.560
+here let's say if i go and see what i have defined grid area i'll select the header section
+
+02:00:06.120 --> 02:00:09.080
+as a header section is something which will be going coming on the top
+
+02:00:09.800 --> 02:00:14.920
+since i have defined template columns as the three columns i'll give header section as three
+
+02:00:14.920 --> 02:00:20.360
+times so i'll say that whatever page header is there by default it will consume all the space
+
+02:00:21.960 --> 02:00:29.800
+next next i'll go and say in the second row i'll go and define the what is my second row looks like
+
+02:00:30.760 --> 02:00:37.480
+in second row i'll say hey where is my nav bar like menu bar let me get the menu bar
+
+02:00:38.360 --> 02:00:46.920
+menu section once i have this menu section then i'll go for content section then i'll go for
+
+02:00:46.920 --> 02:00:52.200
+something called as or what we have defined other thing aside add section
+
+02:00:52.200 --> 02:00:55.560
+add section
+
+02:00:59.000 --> 02:01:02.600
+okay menu bar it's a menu section
+
+02:01:05.320 --> 02:01:11.640
+are you able to relate this guys what i'm matching all the keys grid area keys whatever
+
+02:01:11.640 --> 02:01:18.040
+key i'm having here defined it i'm matching here like how that my layout should be decided
+
+02:01:18.040 --> 02:01:22.840
+i'm not writing exactly one one item but i'm using all the things together
+
+02:01:23.400 --> 02:01:31.960
+now to here i'll use something called as let's say again menu section would be ending part
+
+02:01:33.480 --> 02:01:35.640
+and let's say these are the footer sections
+
+02:01:35.640 --> 02:01:50.680
+okay can you see this guys what just we got created very basically simply i haven't done
+
+02:01:50.680 --> 02:01:57.720
+anything here much complicated it's just that i use one of the magical property called get
+
+02:01:57.720 --> 02:02:03.480
+grid template areas so what it does is like whatever your main level wrappers are there
+
+02:02:03.800 --> 02:02:09.720
+whatever your main level wrappers like you build go and see any website you'll have header footer
+
+02:02:09.720 --> 02:02:16.920
+nav bar content area ads we went on to play like we know that position is there many things are
+
+02:02:16.920 --> 02:02:21.080
+there all these things are there but but if you want to build a layout if you want to build out
+
+02:02:21.080 --> 02:02:26.680
+a layout like this one it really fast now the magic thing that i want to show you is this is
+
+02:02:26.680 --> 02:02:34.520
+flexible this is flexible like if i show how flexible this is because how grid is solving
+
+02:02:34.520 --> 02:02:41.160
+this magical thing now all the properties we just learned right it helps to solve the minute minute
+
+02:02:41.160 --> 02:02:46.600
+problems but if you want to create a very basic simple layout see this is this is so flexible if
+
+02:02:46.600 --> 02:02:53.320
+you go and do it anything these are increasing and decreasing the height and width as per our need
+
+02:02:54.120 --> 02:02:58.840
+but one thing we want to do is like for mobile devices we are not supposed to have
+
+02:02:58.840 --> 02:03:05.880
+this way i'll just go and add one media query and i'll try to i'll explain it this one again
+
+02:03:05.880 --> 02:03:19.800
+whole thing okay let's say what i'll say is that media all and then i'll go and write the condition
+
+02:03:19.800 --> 02:03:20.840
+as max width
+
+02:03:23.240 --> 02:03:33.560
+okay let's say i go and say some 600 pixel till 600 pixel apply these properties okay how can i
+
+02:03:33.560 --> 02:03:41.320
+what can i say this i'll say that go in the whole body inside the whole body grid template areas
+
+02:03:42.280 --> 02:03:50.760
+inside this grid template areas i'll just define such that in each row in each row let's have
+
+02:03:50.760 --> 02:03:58.040
+header section only only on the first row then in the second row i'll say that get me the content
+
+02:03:59.960 --> 02:04:03.400
+section then i'll say that get me the ads
+
+02:04:03.400 --> 02:04:13.880
+uh what was it ads section then i'll say that a get me the nav uh section
+
+02:04:18.120 --> 02:04:21.480
+then i'll say that get me something called as footer section
+
+02:04:25.800 --> 02:04:30.920
+okay i didn't have something called nav uh that's all the menu section
+
+02:04:33.960 --> 02:04:40.760
+okay now let's see what just just happened did this problem is solved for
+
+02:04:42.120 --> 02:04:48.280
+smaller screens not completely because we have to fix these properties that we have defined grid
+
+02:04:48.280 --> 02:04:53.880
+template rows and columns how we want to do we have to we say that when grid template is for single
+
+02:04:53.880 --> 02:04:59.880
+row single in single column we are defining i'll say grid template columns as simple one fr
+
+02:05:00.200 --> 02:05:02.760
+fr to consume it whole thing
+
+02:05:05.720 --> 02:05:13.800
+like in fractional unit then i can go and say in grid template rows again i can give
+
+02:05:13.800 --> 02:05:20.040
+n number of things that i want like let's say uh 20 pixel then give me something but we don't
+
+02:05:20.040 --> 02:05:27.160
+exactly need here for the rows whenever you are having mobile view your view is like scrollable
+
+02:05:27.160 --> 02:05:29.560
+view right you can scroll as much you can you have
+
+02:05:32.680 --> 02:05:39.320
+so guys do you think till 20 minutes before grid was looking like much difficult to deal with
+
+02:05:40.440 --> 02:05:46.840
+but do you feel it's difficult when you see this example like if you see this if i'm expanding it
+
+02:05:47.400 --> 02:05:57.720
+the grid has become changed right just using one property called grid template areas is a
+
+02:05:57.720 --> 02:06:04.120
+something called which is creating a magic for us in a mobile view it is having all things are
+
+02:06:04.120 --> 02:06:11.160
+aligned and vertically in like responsive view you are getting this uh the way you want so any
+
+02:06:11.160 --> 02:06:20.760
+layout go and pick any layout in websites let's say layout examples in html okay
+
+02:06:22.680 --> 02:06:30.760
+uh you you want to build this is it easy this is header footer sidebar and main content area
+
+02:06:31.640 --> 02:06:35.640
+easy right you will be able to do with grid template areas straightforward
+
+02:06:36.200 --> 02:06:42.680
+if you go and do this part header nabba section aside footer aside pretty easy straightforward
+
+02:06:42.680 --> 02:06:49.880
+right any anything you pick it you try to apply these properties that you have learned even there
+
+02:06:49.880 --> 02:06:58.040
+are some difficult uh templates and all other properties right item level properties yeah item
+
+02:06:58.040 --> 02:07:03.720
+level properties those i container level properties this those will help you further whatever
+
+02:07:03.720 --> 02:07:08.120
+those will help you further whatever properties we have learned those will help you further to
+
+02:07:08.120 --> 02:07:14.280
+enhance your content like how we want to show it okay only thing only the thing that i've done
+
+02:07:14.280 --> 02:07:18.760
+here is that i've i've i've generated these values because it's really difficult to do it live
+
+02:07:19.400 --> 02:07:26.280
+i've just fixed it using it in inspect tool itself i've built it then i'm trying to show that
+
+02:07:26.280 --> 02:07:32.120
+how can you leverage grid template areas actually and its connection with grid area properties
+
+02:07:32.120 --> 02:07:38.280
+these are acting as ids and these ids are used in a grid template i guess like how can you load it
+
+02:07:39.960 --> 02:07:46.040
+is this clear guys this example is clear grid one anyone having any doubts in this
+
+02:07:51.720 --> 02:08:00.520
+i hope uh no doubts uh if this is clear uh one example guys if you remember uh inside flexbox
+
+02:08:00.520 --> 02:08:04.280
+right we developed this example in last class
+
+02:08:08.520 --> 02:08:12.600
+in flexbox we developed this example how many of you remember this
+
+02:08:14.040 --> 02:08:22.520
+carts one in flexbox right let's see how we can do it in the grid using this example how can we
+
+02:08:22.520 --> 02:08:28.040
+solve this in the grid okay i have built this one to just show that you can do that same thing
+
+02:08:28.040 --> 02:08:36.040
+in the grid also and how easy it is because that's also a layout only uh let's say i say
+
+02:08:36.040 --> 02:08:44.600
+carts dot html now you'll be able to feel like how powerful each item is and what can be used
+
+02:08:44.600 --> 02:08:52.360
+i'll do one thing i'll copy the html content both are same uh you'll be able to see i'll show both
+
+02:08:52.360 --> 02:08:53.240
+of things to you
+
+02:08:59.240 --> 02:09:01.000
+let's say i copy this
+
+02:09:06.280 --> 02:09:14.120
+okay let's preview this as of now show preview yeah this is working something like that
+
+02:09:14.120 --> 02:09:19.640
+but this is just an html now let's go apply uh all the properties that you see
+
+02:09:19.640 --> 02:09:27.080
+okay i'll just apply the properties let me know something that if you feel anything like different
+
+02:09:27.080 --> 02:09:33.400
+okay so firstly uh i'll give a list of properties that we have applied already in last class
+
+02:09:34.040 --> 02:09:39.400
+uh even i can pick it from here let's say this all list of properties that if you see
+
+02:09:39.400 --> 02:09:45.000
+this card image text content button i'm copying this all the css that you see
+
+02:09:45.160 --> 02:09:51.960
+okay now i've copied that content now what i'll do is that once i have this let's say
+
+02:09:55.320 --> 02:10:02.920
+i'll also do one of uh we added a box shadow and everything is it no we didn't add it i'll pick
+
+02:10:02.920 --> 02:10:11.400
+it under the property that we applied here so since it's mixed i won't copy it i'll do
+
+02:10:11.560 --> 02:10:15.240
+since it's mixed i won't copy it i'll do something like i'll write
+
+02:10:17.240 --> 02:10:24.040
+uh article article is something attack that we used here uh for the classes
+
+02:10:24.840 --> 02:10:32.280
+so just adding a border for each card guys uh let's say border one pixel solid
+
+02:10:32.280 --> 02:10:41.160
+let's say black or let's say uh triple c that same thing that we used also i can pick it up
+
+02:10:41.160 --> 02:10:45.240
+manually from here itself box shadow also same to these two properties that i needed
+
+02:10:46.280 --> 02:10:53.240
+okay once i added these are looking like a bit uh on on a liberated stage now let's go
+
+02:10:53.800 --> 02:10:57.560
+and do the actual styling that where you will do it using
+
+02:10:57.560 --> 02:11:04.520
+grid display cards now here what i'll do is like i'll say display grid
+
+02:11:06.680 --> 02:11:15.720
+okay now here i'll say simply grid template columns i'll say something like repeat for me
+
+02:11:17.160 --> 02:11:25.800
+autofill like you remember autofill right let's say autofit will go for autofit and i'll say min max
+
+02:11:28.200 --> 02:11:31.720
+uh let's say 200 pixel to 1fr
+
+02:11:36.040 --> 02:11:46.520
+and i can go and say give me a gap of 10 pixel or let's say 20 pixel
+
+02:11:49.320 --> 02:11:56.360
+and uh let's say i go and i'll just align the items all the items right uh to something called
+
+02:11:57.000 --> 02:12:05.160
+a stretch nothing seems to be uh like or else let's say we put it into the center
+
+02:12:06.200 --> 02:12:13.080
+okay now let's go back and see how flexible is this one okay this is something we have designed
+
+02:12:13.080 --> 02:12:20.120
+using flexbox i've added only three property for three properties to be specific in grid all the
+
+02:12:20.120 --> 02:12:28.840
+other uh are like simple basic css okay i open this in the live server again if you see
+
+02:12:32.760 --> 02:12:37.640
+we can add something like here uh let's say border radius to give that same look
+
+02:12:38.280 --> 02:12:43.880
+as a eight pixel around each box okay say 12 pixel
+
+02:12:44.840 --> 02:12:55.560
+now if you see here do you guys feel like same isn't it now i'll show you magic with grid is that
+
+02:12:56.760 --> 02:13:02.920
+guys it's flexible also flex wrap is working flexible go for mobile screen all will become
+
+02:13:02.920 --> 02:13:09.720
+scrollable right all are becoming scrollable if a screen size is increasing there is an empty space
+
+02:13:10.040 --> 02:13:19.640
+there is an empty space coming up why let's say i go and see uh did i make a mistake while writing
+
+02:13:19.640 --> 02:13:27.400
+auto fit is fine that's why i use auto fill or doesn't auto fit is the right thing to say
+
+02:13:27.400 --> 02:13:33.400
+because this empty space is coming if i use fill i don't want that empty space i will go with fit
+
+02:13:33.480 --> 02:13:42.520
+itself okay i hope this example is clear guys you can explore uh this one it's pretty clear so what
+
+02:13:42.520 --> 02:13:52.520
+i've done is i've built one using flexbox this is also flexible in nature okay so that you whatever
+
+02:13:52.520 --> 02:13:57.320
+time you have right you will be able to explore and learn both are used for layout one is one
+
+02:13:57.320 --> 02:13:59.160
+direction the other one is two direction
+
+02:14:07.080 --> 02:14:14.360
+is this clear is this clear like how this cards is working cards example anyone having any doubts
+
+02:14:14.360 --> 02:14:22.680
+anyone having any doubts till now so if you don't have doubts i would say i've covered the content
+
+02:14:22.680 --> 02:14:30.200
+that i have to cover for today's class okay but i'll explain you one of the topic okay
+
+02:14:32.520 --> 02:14:34.360
+uh give me a second guys
+
+02:14:37.880 --> 02:14:39.800
+this has deteriorated
+
+02:14:43.240 --> 02:14:46.360
+my whole layout scalar layout got completely
+
+02:14:46.360 --> 02:14:55.640
+uh i'm not sure how to fix this i'm starting the doubt session uh because i don't have
+
+02:14:55.640 --> 02:15:06.120
+other option to see okay so guys i started uh doubt session guys but i want everyone to stay
+
+02:15:06.120 --> 02:15:12.520
+here i want to uh talk about few things okay that whole layout got struck for me i could not see
+
+02:15:12.520 --> 02:15:17.240
+anything only one button was available like start out session because we have something new
+
+02:15:17.240 --> 02:15:23.080
+feature called druva for us uh while expanding i could see some spaces at the end of first row
+
+02:15:23.080 --> 02:15:29.640
+that you can see it in the flexbox that you can see it in the flexbox if you see here
+
+02:15:32.440 --> 02:15:39.320
+okay that you can see it in the flexbox example in grids example autofit is applying so it will
+
+02:15:40.120 --> 02:15:45.560
+expand the card size you can fix that flexbox issue also but you have to explore that how can
+
+02:15:45.560 --> 02:15:51.720
+you do it so guys i have an announcement that i want to make i've seen few ratings are coming
+
+02:15:51.720 --> 02:15:57.400
+low so i would request whoever rating me low right i would write ask them to write you know
+
+02:15:58.280 --> 02:16:04.200
+maybe a feedback like what i can improve or what i can work on if you have challenge writing there
+
+02:16:04.200 --> 02:16:09.240
+you can ping me directly personally i wouldn't mind i would work on that okay i'm here to learn
+
+02:16:09.400 --> 02:16:15.400
+one of the skill i'm trying to share what i know as a knowledge i'm trying to learn okay so that
+
+02:16:15.400 --> 02:16:17.800
+on a lighter note take that on a lighter note but
+
+02:16:20.600 --> 02:16:23.720
+people who are in class i want to show you few things few amazing things
+
+02:16:24.680 --> 02:16:31.480
+so hope my screen share is working right hope my screen share is working right
+
+02:16:32.840 --> 02:16:38.360
+pick any one side guys pick any site pick any random site pick any random site that you like
+
+02:16:40.040 --> 02:16:41.320
+whatever website you like
+
+02:16:43.720 --> 02:16:46.840
+youtube guys it would be really difficult to debug youtube
+
+02:16:47.400 --> 02:16:50.920
+or else i can show that also youtube fine no worries let's go to youtube
+
+02:16:52.280 --> 02:17:01.240
+okay let's say i explore this one now i remove this one okay this is how youtube is rendering
+
+02:17:01.240 --> 02:17:06.440
+now what i want to show you here is that this is the whole html youtube has written right
+
+02:17:07.400 --> 02:17:14.840
+okay market me dot in i'll i'll talk about the tank but so shanth has suggested me youtube
+
+02:17:15.480 --> 02:17:22.760
+so guys this is a html that youtube has written right for this rendering website now let's say i
+
+02:17:22.760 --> 02:17:29.960
+go and select here the flex box if you see can you see this flex when i'm hovering over it
+
+02:17:31.000 --> 02:17:35.320
+when i'm hovering over it hovering over it if you see the whole page is highlighted you see
+
+02:17:35.320 --> 02:17:42.360
+this whole page is highlighted so they have built this layout using flex box this is the something
+
+02:17:42.360 --> 02:17:49.560
+we have learned if i go and click it see they applied something called display as flex and they
+
+02:17:49.560 --> 02:17:55.320
+gave something flex basis property also and if you want to see actual properties while of what
+
+02:17:55.320 --> 02:18:00.840
+applied right you can go to the computer you can say flex places you have they have given flex crow
+
+02:18:01.720 --> 02:18:04.360
+flex string they have defined all these properties
+
+02:18:06.600 --> 02:18:13.160
+okay you can play around with them let's say i i go and say uh let's say i go and say whatever
+
+02:18:13.160 --> 02:18:22.760
+flex is there now i say this i was a block no when i say block let's say this element actually what
+
+02:18:22.760 --> 02:18:27.880
+all this element is targeting that i have to see to show you the changes let's say instead of block
+
+02:18:28.600 --> 02:18:34.280
+let's say we say in line do you see any changes guys that are being applied
+
+02:18:35.960 --> 02:18:37.720
+let's remove this display itself
+
+02:18:40.680 --> 02:18:47.720
+so you what i what i mean to say is that you can always see this this container wherever
+
+02:18:47.720 --> 02:18:55.400
+these cards are rendering this whole cards rendering are on this flex box but if another
+
+02:18:55.400 --> 02:19:01.480
+thing you can do is like you can click on this okay flex box editor if you want to play around
+
+02:19:01.480 --> 02:19:07.240
+you don't know what property to apply on any website you can open this and let's say i have
+
+02:19:07.240 --> 02:19:13.640
+this i do something like this like column reverse if you can you see anything here all the videos
+
+02:19:13.640 --> 02:19:22.040
+gone gone away right let's say i select this one column not working if i select row by default
+
+02:19:22.040 --> 02:19:27.880
+this youtube i used flex direction as a row is that point clear like how can you see
+
+02:19:28.520 --> 02:19:33.160
+what what they have applied or what properties they are playing around with let's say if i
+
+02:19:33.160 --> 02:19:38.760
+use flex wrap this will only work when i am reducing increasing size let's say align content
+
+02:19:38.760 --> 02:19:44.840
+justify content let's say we make it into the center or left align because they their content
+
+02:19:44.840 --> 02:19:50.200
+is completely fixed and their spaces are filled you might not be able to see this property being
+
+02:19:50.200 --> 02:19:58.840
+applied okay but you can see using this flex direction there are some some properties are
+
+02:19:58.840 --> 02:20:04.440
+you know all the properties they applied those are gone so what i want to say you is that you
+
+02:20:04.440 --> 02:20:11.640
+know go and open each existing websites right this is also another thing that is applying
+
+02:20:11.640 --> 02:20:18.200
+at the same part like if i if i remove this let's say i deselect i select this one
+
+02:20:18.360 --> 02:20:22.840
+this is the container you will be able to see even the part right when you click on this
+
+02:20:23.320 --> 02:20:28.920
+on which area this flex box is applied you will be able to see that thing getting highlighted also
+
+02:20:29.400 --> 02:20:34.200
+so you can go and see you can learn actually let's say they are having flex direction as column
+
+02:20:34.200 --> 02:20:40.440
+if i remove it let's say everything is gone if i align this items let's say align items are
+
+02:20:41.320 --> 02:20:48.360
+on center i say that flex start nothing changes because the space is completely consumed
+
+02:20:49.080 --> 02:20:59.880
+or flex end right so you can play around with all of these things let's say the column reverse
+
+02:21:02.360 --> 02:21:09.720
+so what i am saying is that you can go and explore these sort of things any other website guys you
+
+02:21:09.720 --> 02:21:16.120
+want to pick it up where here i am able to see only flex because i want to show you grid
+
+02:21:24.920 --> 02:21:32.200
+any other website guys choose other websites i'll show you grid also youtube has used
+
+02:21:32.200 --> 02:21:38.760
+flexbox everywhere it is a flexbox so do you understand the importance of these things guys
+
+02:21:38.760 --> 02:21:46.360
+what we have learned just now what we have just learned how important is this stuff is
+
+02:21:49.640 --> 02:21:57.400
+see the header is also fixed header is also fixed using flexbox all the items are in
+
+02:21:57.400 --> 02:21:59.800
+row what if i change into column
+
+02:22:00.280 --> 02:22:07.160
+okay i change into column this has become into that what we say a menu button in a mobile view
+
+02:22:07.160 --> 02:22:12.440
+like you open this you will be able to see like menu button in mobile view this is how centered
+
+02:22:12.440 --> 02:22:18.840
+right so all you can also play around with this one let's say this is a column i want to make
+
+02:22:18.840 --> 02:22:23.400
+it reverse you see this button came here on the right side youtube came on right side compared
+
+02:22:23.400 --> 02:22:29.240
+to the whatever its order is so this is actual live website you can see that this is the
+
+02:22:29.240 --> 02:22:34.840
+website where i'm trying to play around i'm trying to learn from there okay let's go someone
+
+02:22:34.840 --> 02:22:44.280
+suggested me apple website apple.com this is the one of the website where you have too many
+
+02:22:44.280 --> 02:22:51.880
+transformations and too cool to be actually you know let's say if i go for a but i'll show you
+
+02:22:51.880 --> 02:22:59.800
+this particular thing directly firstly let's say you go and open here here also everywhere
+
+02:22:59.800 --> 02:23:02.920
+see yeah we got the grid guys can you see this grid
+
+02:23:05.800 --> 02:23:12.440
+apple is using grid layout 2d layout and whole content is selected if i select this grid
+
+02:23:13.080 --> 02:23:19.320
+now they say they are using grid gap okay they are passing some i mean this is from javascript
+
+02:23:19.320 --> 02:23:23.720
+perspective guys they are using some variable they are passing real-time values now they are
+
+02:23:23.720 --> 02:23:30.200
+also using something called grid template areas they have used grid template columns so if we
+
+02:23:30.200 --> 02:23:36.200
+know all of these values right what we have just learned all of these things at least these are
+
+02:23:36.200 --> 02:23:41.320
+you are able to relate you know because everything nothing should be new to you because we are
+
+02:23:41.320 --> 02:23:49.080
+concluding the part of html and css now everything that you see on the screen like this could be
+
+02:23:49.480 --> 02:23:57.560
+like a html element or a tag or the css property you should be able to relate it if you are not
+
+02:23:57.560 --> 02:24:03.160
+able to relate or anything you have doubt let me know i'll explain that explore we'll explore that
+
+02:24:03.160 --> 02:24:10.440
+okay now let's say we remove this display grid so this part right whatever they are doing on the top
+
+02:24:11.320 --> 02:24:16.040
+this is where it is fluctuating if you see if i am playing around with that
+
+02:24:17.000 --> 02:24:24.120
+on and off and you can go and see in the computed area what all things they have applied actually
+
+02:24:24.120 --> 02:24:30.840
+here display grid is there then they have applied font weight grid template areas none
+
+02:24:30.840 --> 02:24:36.840
+but they have given template grid template columns this is coming from a variable value okay
+
+02:24:38.680 --> 02:24:43.160
+and line height is there this is something we have used already row gap is there row gap is
+
+02:24:43.240 --> 02:24:48.920
+coming from again like whatever we have defined here gap that is coming from variable
+
+02:24:50.040 --> 02:24:57.560
+okay that's coming from js again z index right so what i was saying is that again there is a
+
+02:24:57.560 --> 02:25:03.080
+new section for this section now if you see when i highlighted this guys can you see this
+
+02:25:03.080 --> 02:25:06.440
+yellow line somewhere between a low line here
+
+02:25:09.640 --> 02:25:16.200
+now they have a gap of some let's say 10 pixel and this is a 1fr and this is the 1fr
+
+02:25:16.200 --> 02:25:19.240
+so they converted a website into two columns isn't it
+
+02:25:23.560 --> 02:25:29.800
+this is what we intuition we get right let's say let's see what they have done here we are
+
+02:25:29.800 --> 02:25:34.760
+not able to see this one because see the columns and this values right if you see
+
+02:25:35.400 --> 02:25:42.600
+the column value is two so if you say these are we got two columns now going back again
+
+02:25:43.560 --> 02:25:49.400
+like i have clicked here this is a real time value two columns repeat two columns of one of
+
+02:25:49.400 --> 02:25:57.480
+one fr each right if you go and say grid grid gap give a 12 pixel of gap okay
+
+02:25:59.880 --> 02:26:07.800
+so go and apply and even for firstly for to lay show this right you have to select this
+
+02:26:07.800 --> 02:26:11.560
+one grid lines and if you don't select this one you won't be able to see these yellow lines or
+
+02:26:11.560 --> 02:26:22.280
+anything okay uh let's say i also select this one there are too many things guys flexbox all
+
+02:26:22.280 --> 02:26:28.040
+things you can select and explore this i want you to explore this all these things okay till the
+
+02:26:28.040 --> 02:26:36.280
+properties whatever i'm introducing right you have free time open inspect tool try to debar
+
+02:26:36.840 --> 02:26:42.120
+choose your favorite website someone also suggested me hotstar website i might not
+
+02:26:43.160 --> 02:26:46.360
+have logged in into this one let's say
+
+02:26:49.080 --> 02:26:54.280
+they have also built i would say only disney symbol will be coming out let's say only this one right
+
+02:26:54.840 --> 02:27:02.440
+got logged out login let's say this is a how this has been aligned okay this is a small layout
+
+02:27:02.440 --> 02:27:10.440
+right this is a small uh no no reason so this i just let's discuss on css5 but this is a small
+
+02:27:10.440 --> 02:27:19.320
+layout right small layout let's say how the small layout is built okay uh please let's go here and
+
+02:27:19.320 --> 02:27:27.480
+select this whole content okay here if i selected whole content this content is built using flex
+
+02:27:28.520 --> 02:27:34.360
+if i select this flex let's go below and see how they have said that hey display is flex
+
+02:27:34.920 --> 02:27:41.480
+i'm using column and i'm using some dynamic value 40 rem now they have used something called as rem
+
+02:27:41.480 --> 02:27:47.560
+value then also if you see this box is bit curved this box is bit curved because they have given
+
+02:27:47.560 --> 02:27:53.400
+some radius like eight pixel also they have given some background color this is coming like hash
+
+02:27:55.080 --> 02:28:00.920
+whatever hash code we many hash codes we have seen right now what if i change this one into row
+
+02:28:01.960 --> 02:28:02.600
+do you see this
+
+02:28:05.880 --> 02:28:13.240
+got changed now all the layouts in this world are built using this two only guys flex box
+
+02:28:13.240 --> 02:28:18.040
+and grid that's why i am spending more time explaining you the importance
+
+02:28:18.040 --> 02:28:22.200
+you go into any website if you know these two layouts if you know this tool
+
+02:28:22.200 --> 02:28:28.920
+specific specifically flexbox because grid is used one time to set out the whole layout
+
+02:28:28.920 --> 02:28:33.560
+flexbox will be used to layout all the small items small things that you design
+
+02:28:33.560 --> 02:28:39.560
+okay and flexbox is completely easy use that flex froggy revise it put a sheet on your
+
+02:28:40.280 --> 02:28:45.080
+like wall keep doing it because this is going to be really important you go for
+
+02:28:45.080 --> 02:28:47.800
+any machine coding around this will be important
+
+02:28:50.280 --> 02:28:57.080
+js okay we'll talk about that upendra in future like if you don't mind why we need getting
+
+02:28:57.080 --> 02:29:04.440
+values from the js because those are calculation specific they calculate if this viewport is there
+
+02:29:04.440 --> 02:29:09.800
+pass on this value pass on this value they do some sort of logic but i'll talk on that
+
+02:29:09.800 --> 02:29:17.560
+specifically okay most of the sites will send the dynamic values to this one okay see box
+
+02:29:17.560 --> 02:29:27.640
+box sizing is for hotstar they applied it yeah i'll talk on that i'll talk on that like what is the
+
+02:29:27.720 --> 02:29:38.680
+like syntax right firstly whenever you are going for like you know type of cases
+
+02:29:43.160 --> 02:29:54.520
+in naming css class okay so if you see basically one thing i would suggest
+
+02:29:55.480 --> 02:30:02.520
+not this one not this one but have anyone heard this bem convention
+
+02:30:03.880 --> 02:30:11.000
+this is what we generally is followed at a like you know industry standard whenever
+
+02:30:11.640 --> 02:30:18.040
+i'll give you this link i'll actually tag this link in today's class bem convention is a
+
+02:30:18.040 --> 02:30:25.160
+convention like how like you go and say that i want to define for each html element a class name
+
+02:30:26.040 --> 02:30:31.800
+how would i define it there's a certain standard now bem talks about something like block element
+
+02:30:31.800 --> 02:30:41.480
+modified okay so block element block is like what type of block it is like then you go for element
+
+02:30:41.480 --> 02:30:46.920
+underscore depth then modifier modifier is like uh let me give you an example i would want you to
+
+02:30:46.920 --> 02:30:57.720
+go through this one let's say button right uh let me show you actually examples i wish i should
+
+02:30:57.720 --> 02:31:05.640
+i can show you my pr how i used to write if you see this uh this is a block called nav then i'm
+
+02:31:05.640 --> 02:31:11.480
+using a lease item lease item is a like element underscore underscore then if you have modifier
+
+02:31:11.480 --> 02:31:16.280
+you can use again underscore underscore and add new thing that you want to do but this is how you
+
+02:31:16.280 --> 02:31:23.560
+do it once you this first thing is common category then you go for sub common category like lab nav
+
+02:31:23.560 --> 02:31:28.120
+dot underscore lease item both are same then you add something unique like let's say underscore
+
+02:31:28.120 --> 02:31:33.960
+item one to be specific okay but i would want everyone to go through this article guys uh
+
+02:31:34.680 --> 02:31:41.320
+if you are going to the industry standard anywhere writing uh naming convention thanks for asking
+
+02:31:41.400 --> 02:31:49.080
+this uh i'll put it here in the link let's say i'll give all the links also i'll push the code
+
+02:31:49.080 --> 02:31:59.080
+guys uh stay in the call i'll give this uh let's say naming convention for css
+
+02:32:00.520 --> 02:32:05.720
+there are too many standards guys naming conventions uh for css we follow them uh but
+
+02:32:06.360 --> 02:32:12.760
+if you go for uh like constants how they few people follow camel case few people follow snake
+
+02:32:12.760 --> 02:32:18.760
+case camel case is somewhere starting from a small letter and then all the words that you append
+
+02:32:18.760 --> 02:32:25.640
+will be capital okay same you have many other things uh let's say i have other websites
+
+02:32:26.440 --> 02:32:32.680
+uh something that i want to link this is auto fill versus auto fit
+
+02:32:33.640 --> 02:32:39.160
+i try to explain this at at most simple way it's just a difference between the space
+
+02:32:40.280 --> 02:32:47.880
+okay then one of the most important article that you have to revise is this one whole thing grid
+
+02:32:48.120 --> 02:32:54.040
+uh when i say revise it just to click keep your concepts clear use these two classes talk uh this
+
+02:32:54.040 --> 02:32:59.400
+one uh at most guys like keep revising you face any challenge you're not able to understand drop
+
+02:32:59.400 --> 02:33:06.200
+in we'll discuss in the whatsapp chat uh what is figma figma is something a tool used by like we
+
+02:33:06.200 --> 02:33:13.480
+are using vs code or any other thing like figma is a tool that is used by ux uh ux designers they
+
+02:33:14.200 --> 02:33:20.520
+uh ux designers they design what have to be designed like you are not as a developer you
+
+02:33:20.520 --> 02:33:26.280
+are not responsible to build this that hey this product will look like this they will give you
+
+02:33:26.280 --> 02:33:32.360
+this thing they they want this device logout layout to be this way on your figma tool you
+
+02:33:32.360 --> 02:33:41.000
+will try to replicate by writing the code on it is that clear it's just a tool like it's a website
+
+02:33:41.560 --> 02:33:46.680
+where they design all the websites like ux designers do that and they share with you because
+
+02:33:46.680 --> 02:33:53.960
+you are not supposed to uh uh design it they'll design it you are going to code it you are a
+
+02:33:53.960 --> 02:33:58.760
+developer you're not a designer that's a difference it's for a designers you
+
+02:34:01.400 --> 02:34:09.160
+uh let me push this code guys let's let's go to readme.file also once
+
+02:34:09.400 --> 02:34:18.760
+we have covered okay class five we covered something called as flexbox
+
+02:34:21.080 --> 02:34:30.760
+uh then we discussed uh media query then we uh repeated uh revised uh but that's fine uh
+
+02:34:30.760 --> 02:34:36.200
+that's fine uh class six we discussed grid
+
+02:34:39.080 --> 02:34:41.800
+and layout example
+
+02:34:44.200 --> 02:34:54.840
+custom layouts then uh also we built cards example here cards example with flex
+
+02:34:54.840 --> 02:34:55.880
+uh
+
+02:35:00.520 --> 02:35:07.880
+here we have built using cards example with grid okay
+
+02:35:10.760 --> 02:35:16.840
+grid commit minus nm uh class six nodes
+
+02:35:16.840 --> 02:35:20.840
+uh
+
+02:35:27.560 --> 02:35:36.360
+okay dummy side yeah open the CSS so Ankit had his built his own websites he needed some suggestions
+
+02:35:37.000 --> 02:35:44.280
+uh can we go ahead and say any other time Ankit like I'm like we are overshooted much long actually
+
+02:35:44.280 --> 02:35:51.240
+two hours 35 minutes others let me explore this uh but I can if you want my real time suggestions
+
+02:35:51.240 --> 02:36:00.040
+actual suggestions I would need some time okay this looks cool design is cool uh that's my first
+
+02:36:00.040 --> 02:36:09.400
+impression uh so you have your own company is it
+
+02:36:14.840 --> 02:36:20.840
+uh this is for what like this is your organization like this is what market.me.in
+
+02:36:23.720 --> 02:36:28.440
+like uh okay uh let's say page source
+
+02:36:32.680 --> 02:36:38.920
+use table use something like table padding spotters
+
+02:36:38.920 --> 02:36:46.760
+uh okay some some are like taken but taken from wordpress okay
+
+02:36:50.120 --> 02:36:55.240
+any website you build right chrome understands only HTML and CSS I told you mother languages
+
+02:36:55.240 --> 02:37:00.280
+they take only that other thing understand it you have to give it that part so you can always
+
+02:37:00.280 --> 02:37:06.280
+explore like you have media queries uh you have let's say
+
+02:37:09.880 --> 02:37:14.520
+let's say you have many classes defined here if you see here header main layout
+
+02:37:14.520 --> 02:37:19.560
+if I show go and show you right even if you picked it when you fixed it from there right
+
+02:37:20.840 --> 02:37:22.680
+see do you see flex boxes everywhere
+
+02:37:22.680 --> 02:37:31.160
+okay great but do you see flex boxes everywhere that same thing even if you want to build it you
+
+02:37:31.160 --> 02:37:37.080
+got stuck you design it by your own saying the seeing this one you got stuck load your website
+
+02:37:38.120 --> 02:37:43.800
+open the flex box apply the same properties using your HTML and CSS you will be still able to do it
+
+02:37:43.800 --> 02:37:49.960
+it's like reverse debugging reverse engineering okay for each thing like you can pick this div
+
+02:37:49.960 --> 02:37:55.080
+hedge feed site what this do what is this is doing right you can go and do it everything
+
+02:37:55.800 --> 02:38:01.240
+you have applied position relative and many things are there but looking cool you can if you build
+
+02:38:01.240 --> 02:38:08.280
+this right using the properties that we I would say build this using react uh even with the HTML
+
+02:38:08.280 --> 02:38:14.280
+CSS which doesn't have any behavior this will give you a really great experience uh dealing
+
+02:38:14.280 --> 02:38:23.000
+with this HTML and CSS okay because what I can say is like this layout is like uh you know
+
+02:38:23.000 --> 02:38:29.480
+boxes everywhere behind the scenes this gives me that already agreed like feeling
+
+02:38:31.560 --> 02:38:38.600
+but uh good one it would be a really great exercise actually see every container in a
+
+02:38:38.680 --> 02:38:45.400
+flex itself like it's a flex box this particular container or anything if you go on a top level
+
+02:38:45.400 --> 02:38:50.840
+if you go on a top level let's say top level uh this is a body item
+
+02:38:53.320 --> 02:38:57.880
+if I remove this body shadow see your websites look odd now
+
+02:39:00.120 --> 02:39:06.840
+one element is doing the magic like gradient uh adding the all the colors and background images
+
+02:39:07.800 --> 02:39:11.880
+because this is this is made cool completely cool using background image
+
+02:39:13.800 --> 02:39:21.800
+and repeat this background properties had uh helped you a lot and
+
+02:39:23.320 --> 02:39:29.880
+what cool one here one should prepare this sort of sites anyone like uh once we learn JS right
+
+02:39:29.880 --> 02:39:35.480
+I'll give you really one cool task one can implement that one uh
+
+02:39:37.240 --> 02:39:42.200
+so hello guys if you don't have doubts can we close the session I see many people got dropped
+
+02:39:43.560 --> 02:39:47.480
+in real time how we'll get the project requirement I'm from a non-coding
+
+02:39:47.480 --> 02:39:54.600
+background so I just wish to chant it's it's simple right um as we just uh discussed
+
+02:39:54.600 --> 02:40:00.760
+this that we have a figma sort of tool where they give you that hey I need let's say
+
+02:40:01.560 --> 02:40:07.960
+uh they'll give you a task like or a user story they'll ask you to build this thing out so you'll
+
+02:40:07.960 --> 02:40:14.440
+have a layout first once you do HTML and CSS part then you will write uh all the like uh
+
+02:40:14.440 --> 02:40:19.080
+logics that you have to do it like login again or closing let's say if I click on a close
+
+02:40:19.080 --> 02:40:24.120
+there is some action going on right once I closed it it redirected me to the home page
+
+02:40:25.960 --> 02:40:29.720
+right so all those behaviors you have to handle that's one of the example actually
+
+02:40:31.720 --> 02:40:38.280
+but it would be really great like to go and uh which kind of project should we practice so
+
+02:40:38.280 --> 02:40:43.720
+I'll teach you a few projects I'll teach you a few projects uh and I'll also help you out
+
+02:40:43.720 --> 02:40:51.160
+if you are building your own project okay think of it uh basically we'll be building on HTML
+
+02:40:51.160 --> 02:40:56.200
+CSS JavaScript once we learn that uh we'll be building one till we complete JavaScript
+
+02:40:56.200 --> 02:41:00.520
+we'll be learning two projects then on react we'll have one project then on full stack we'll
+
+02:41:00.760 --> 02:41:06.520
+have one project four projects I'll also share that simple portfolio project right code after
+
+02:41:06.520 --> 02:41:12.440
+next class I'll share it I'll upload here only where you can go and refer it and you can improve
+
+02:41:13.640 --> 02:41:20.920
+uh you can improve this one completely uh the CSS that we I have written or what we have done it
+
+02:41:20.920 --> 02:41:28.760
+okay that portfolio project initially I've shown you right uh I think if that url is cache
+
+02:41:31.160 --> 02:41:36.680
+yeah if this url is cache right so this particular thing that I'll share with the code base
+
+02:41:36.680 --> 02:41:45.240
+I wish I wish you design it on your own guys okay this would be really basic if you go and do it
+
+02:41:45.960 --> 02:41:53.160
+this is a menu bar this is one section second section third section four section
+
+02:41:53.560 --> 02:41:54.200
+four section
+
+02:41:57.960 --> 02:42:05.480
+okay uh guys any if you do there must be a foot or two yeah uh
+
+02:42:07.080 --> 02:42:12.120
+I mean yeah there should be a foot or two but you can add it you can customize it as much you can
+
+02:42:12.120 --> 02:42:18.440
+like for a beginner level uh I mean I'm actually what I feel like I'm introducing too many
+
+02:42:18.440 --> 02:42:24.840
+complicated things also because uh for a for last batch I didn't go into that depth initial
+
+02:42:24.840 --> 02:42:32.120
+classes because it would be too heavy for people to take it uh sometimes uh but you can always
+
+02:42:32.120 --> 02:42:36.600
+customize this and get like whatever you want to add there too many things better can be done
+
+02:42:36.600 --> 02:42:43.400
+right one of the best cool websites that I feel like you can explore uh like if you want to see
+
+02:42:43.400 --> 02:42:47.160
+3d sites
+
+02:42:54.360 --> 02:43:01.160
+if you go and see uh 3d websites
+
+02:43:01.480 --> 02:43:04.920
+so
+
+02:43:11.880 --> 02:43:15.480
+I mean not this uh but they are showing how can you build it
+
+02:43:19.560 --> 02:43:27.000
+let's say 20 awesome websites so if you want to really stand out right
+
+02:43:27.560 --> 02:43:30.840
+if you want to really stand out as a fresher or anyone
+
+02:43:32.920 --> 02:43:36.360
+this is the cool one let's say what this they are doing chipperlay.ai
+
+02:43:37.000 --> 02:43:41.560
+now let's say if I'm scrolling it I'm guys I'm scrolling it below now if you see
+
+02:43:42.200 --> 02:43:47.160
+when I'm scrolling it I'm getting something new I'm just scrolling it below
+
+02:43:49.320 --> 02:43:55.800
+these are like transformation CSS these are like advanced really advanced like how can you deal with
+
+02:43:57.160 --> 02:44:01.160
+this cool looking cool right
+
+02:44:05.160 --> 02:44:13.480
+apple at apple uh you won't be seeing it at a top level top level website has really simple
+
+02:44:13.480 --> 02:44:19.160
+but if you go for let's say mac and you open uh macbook pro let's say macbook pro
+
+02:44:19.320 --> 02:44:25.240
+uh and now if you scroll if see the 3d uh evaluation and how images are changing
+
+02:44:26.280 --> 02:44:32.520
+see now they got something new right I'm scrolling it below so there are stories coming in
+
+02:44:35.960 --> 02:44:39.960
+I'll slowly slowly I'll show you like what they are doing behind the scenes okay
+
+02:44:41.000 --> 02:44:47.080
+if you really scroll speed right if you see all the images were not loaded if I really scroll
+
+02:44:47.080 --> 02:44:53.640
+speed there is something going on because this the images they use right are so heavy so heavy in
+
+02:44:53.640 --> 02:45:03.880
+nature let's say I okay they're pre-loaded is it once I click it let's say I go to some other
+
+02:45:03.880 --> 02:45:15.480
+product iPad shop iPad buy iPad uh okay I got three calls which fetched me documents okay
+
+02:45:17.240 --> 02:45:25.640
+all things are being returned uh preview see I got some documents html documents response
+
+02:45:26.600 --> 02:45:33.960
+would be directly html they gave me but the cool thing would be guys uh let's say I select
+
+02:45:35.400 --> 02:45:42.040
+like uh one thing would be they have scripts too many JavaScript is written here
+
+02:45:43.000 --> 02:45:46.760
+but let's say I search here image
+
+02:45:50.920 --> 02:45:51.880
+will come to this
+
+02:45:55.880 --> 02:45:56.840
+you pick this
+
+02:46:00.200 --> 02:46:06.520
+they have deployed on their uh see they haven't written description about this
+
+02:46:07.320 --> 02:46:13.080
+if you go and do some security issues like performance right let's say I go and do
+
+02:46:13.720 --> 02:46:19.720
+a performance here for profiling for this side because this thing might be
+
+02:46:21.160 --> 02:46:28.360
+uh they have done built it using uh different uh teams like this shop slash iPad
+
+02:46:29.080 --> 02:46:32.760
+they this team might be a completely different okay
+
+02:46:37.000 --> 02:46:42.760
+so you can see actually uh paint time 6.2 minutes this is really quick this is first time paint
+
+02:46:45.880 --> 02:46:50.840
+you can go and explore like for different different uh actually I'll explain the step
+
+02:46:50.840 --> 02:46:58.440
+by step guys like uh don't you know take it as heavy uh like what is exactly happening
+
+02:46:58.440 --> 02:47:02.280
+and why what are the screenshots and what we are what I'm showing everything because
+
+02:47:02.280 --> 02:47:06.360
+and what we are what I'm showing everything because as a front end developer right when
+
+02:47:06.360 --> 02:47:13.400
+you grow over the when you grow down the lane you have to understand this things if you see out of
+
+02:47:13.400 --> 02:47:22.680
+all the time 10.4 or 10.8 milliseconds were actually taken by uh parsing that html all other
+
+02:47:22.680 --> 02:47:31.000
+tasks were really small okay right the other biggest task was recalculate the styles whenever
+
+02:47:31.000 --> 02:47:39.000
+you are using styles and overriding it that was a maximum second thing okay so you can see uh
+
+02:47:39.000 --> 02:47:42.520
+what all things are taking time just doing by profiling you'll get it
+
+02:47:45.560 --> 02:47:51.240
+if you are fixing this side of issues now these sort of issues because I fixed one of the great
+
+02:47:51.240 --> 02:47:58.360
+issue last year which was based on js heap uh this heap storage we got memory leak in our application
+
+02:47:59.320 --> 02:48:01.320
+that was one of the hell of the tasks because
+
+02:48:03.240 --> 02:48:08.600
+yeah I'll I'll try to uh just throw light on them but because those are really in depth chance like
+
+02:48:08.600 --> 02:48:13.400
+we need a specific classes for them but I'll give as much as knowledge and reading documents
+
+02:48:13.400 --> 02:48:22.120
+that you can go and explore on yes uh if the content for uh you know flexbox grade and display
+
+02:48:22.760 --> 02:48:29.480
+position properties display properties have covered inline block inline block none flexbox
+
+02:48:29.480 --> 02:48:39.640
+great keep revising them most important okay then so hello guys then we'll close the session my
+
+02:48:39.640 --> 02:48:42.840
+ears are also painting holding this microphone
+
+02:48:42.840 --> 02:48:45.560
+uh
+
+02:48:46.120 --> 02:48:50.360
+then I'll stop the class if I stay here I'll keep on speaking something
+
+02:48:52.600 --> 02:48:54.120
+have a good night uh
+
+02:48:58.840 --> 02:49:03.800
+young kids will have till like we have still three months to explore we can keep on discussing many
+
+02:49:03.800 --> 02:49:12.200
+things okay uh okay I'll do that open I'll check that
+
+02:49:13.240 --> 02:49:21.640
+I didn't go through this uh okay thank you uncle okay good night guys hope you saw all the uh you
+
+02:49:21.640 --> 02:49:29.240
+know uh assignments and problems also and I'll see if there is a tool where you can practice CSS
+
+02:49:29.240 --> 02:49:37.000
+grid I can give you one uh and we'll enjoy all the time guys all the all these four months right
+
+02:49:37.800 --> 02:49:43.160
+right we'll learn a lot we'll don't panic anywhere like if you're facing channel and come back let's
+
+02:49:43.160 --> 02:49:48.840
+discuss because I'm picking all the international main long websites we are applying we are seeing
+
+02:49:48.840 --> 02:49:52.920
+them uh those are the same things that we are learning of the are being applied in there
+
+02:49:52.920 --> 02:49:59.560
+nothing new just with practice you are going to build them with just with some practice
+
+02:49:59.560 --> 02:50:06.120
+guys good night take care thank you all
+
+02:50:29.560 --> 02:50:30.200
+you
+

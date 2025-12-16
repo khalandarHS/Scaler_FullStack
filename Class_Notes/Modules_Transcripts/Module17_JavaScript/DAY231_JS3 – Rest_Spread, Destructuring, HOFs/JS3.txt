@@ -1,0 +1,2024 @@
+you
+you
+Hi all good evening
+I'm I audible and visible guys any thumbs up reactions
+Thank you. Yes. Thank you. So let me share my screen
+To let me know if you can see the screen good evening Tejal
+Just to let me know if you can see the screen share too
+Good so let me open the code base
+This is something that I was building an open source project for myself
+Give me a second
+Good evening, I appreciate good evening some bit
+So
+Guys I've seen there's a drop in you know assignment problem solving percentages
+Are you able to catch up or having any challenges that you want to point out or do I need to take it anything from?
+my side
+Just want to know if there's any reason that you know this or you are able to do it till now easy in JS, okay
+So I hope everyone is able to catch up, right
+Great I wish it
+Right. Great. So whatever responses I'm getting I believe from that part of you, you know, this
+Assignments, whatever there are those are comparatively easy, isn't it?
+So let's start with a screen share of iPad
+Uh
+And the second thing guys
+I hope all the topics that we have covered till now in the js are those are clear
+Uh related to maybe introduction of variables data types and then harvesting concept
+Then we understood how behind the scenes things work. We also learned bit of debugging in, you know browser
+Meanwhile when I was trying to show that
+So I hope all those concepts are clear, right?
+Whatever we have covered till now difference between let and
+Const
+Great, uh, can anyone help me drop me a message in whatsapp group for the people to join?
+So i'll start a two minutes timer meanwhile because I want to start at nine or five
+So
+Let's keep it this way
+So guys, uh, if you thank you manesh
+So if you if you see, uh the topics that we have discussed till now when we introduced it
+a series listening to
+Okay
+How should I stop this
+Okay, fine
+Great. So till now if we have learned like we have introduced what js is and how you know the web has
+You know came into the picture of two days and what could be the future?
+And how they how you know web 1 web 2.0 and 3.2 got evolved then
+Uh, we have started with something like variables
+right
+Then we have understood something called as data types
+You've seen some examples on this
+Right different data types we have explored iris and objects in depth and their respective functions
+Then we have picked one of the core concept of javascript which is called hoisting
+right
+and we have understood hoisting with respect to var and
+latent const
+So for both hoisting exists, but latent const behave differently. There's a better error handling
+The only reason is there's something like latent const are initialized in temporal
+Dead zone
+The whatever hoisting is happening. It's happening here in temporal dead zone and then it behaves
+In a single way
+Right. So I hope this concept still now whatever we have discussed if those things are clear
+Can you give me thumbs up so that we can get started with today's content?
+Great guys, great. So
+I want to talk about something that I left in last class
+Is that
+If you see in the class 9, uh when I was discussing about objects
+I think in the here in the reference data, right? So I have used something called a spread operator. Let's get started with this one
+Okay
+So in javascript, right if you pick js
+Inside this this three dots
+Is a common thing and this can be used in a two parts. Okay
+Sometimes it is called as rest operator. Sometimes this is called a spread operate
+Okay, we'll give you an examples of them in depth one by one
+but
+Uh, like both these things are called in a you know with the different names depending on the use cases we have
+Spread is something which is trying to spread like if you see on a toast you try to spread a
+Butter or any jam that you have right? That's the same thing the same way
+It spreads all the items in it
+All items in it
+Okay, so which items it will be able to spread something which are i-triple
+Now what are the i-triple data types that we know anyone
+What all i-triple data types that we know on which you can apply for loop when I say i-triple
+I mean to say that on which type of data types we can apply I like this one array, right?
+And the other thing guys
+Okay in js you can also iterate for objects
+I'll show you a loop like how you can do it and maps
+If maps are like a data structure a bit advanced data structure when compared to js
+Okay, but i'll come to that. So basic things are like whenever you are trying to do something like let's say there's an array
+of items
+one two three
+Then you are let's say you are declaring an array one
+Then you want to let's say if you want to use this one reuse the same elements which are there
+Then you can do dot triple dot and spread all the items present in an array
+So since this is an i-triple item i-triple data type on those things whenever you are using dot triple dots
+So and you are trying to spread all the items in it in those case use cases. We call this as spread operator
+Is that point clear guys?
+Like what is spread operator in general?
+So
+This is the same thing that I did here in the last class if you see
+I have told that there is an object
+Something called as a first name and last name
+so the object can be you know, iterated using a
+let's say
+key
+in object
+So all for all the keys, let's say if you iterate through it
+You will be able to get all the key and you can get a respective value for that one
+So
+I'll try to repeat this case whatever i'm covering. I'll show the examples till now. I'm just getting
+Covering up theory so do not worry. Okay
+Nothing I searched something
+so
+What I was talking about is I was talking about something called a triple dot operator that you see in js commonly
+And it's called with two different names. One is one time they call rest and sometimes they call spread. I was talking about
+When do you call it as a spread?
+Okay
+When do you call it as a spread now spread operator?
+You call that a particular three dots as spread operator only on like when you are trying to
+You know spread all the items in a i-tribbles. No, what are the i-tribbles exist on top level are like array and object
+No when I used in this example
+So I mean to say that i'm using like a spread operator i'm spreading all the items present in an object
+I hope this example and this thing is cleared guys to everyone
+I've really figured the thing that I had just introduced till now right now. Let's see some of the examples. Okay
+Let's see some of the examples. I'll create a class 10
+Folder class 10
+So let's name it as rest versus spread
+Spread
+Dot js, okay. So what I did here is let's say I have something like const array
+uh, and I have one two three, uh, and let's say I
+Go by four comma I click a tab
+So I have this an array since it's an i-tribble. Now, what if I let's say I have an array one
+Now let's say I have some elements like let's say 12 13
+14
+and remaining items
+What if I want to build a new array?
+Including this two like let's say I want to update such that array one will have all the elements from one to twenty
+So one of the ways that you can build a new array called
+Uh array two and initialize is empty and then you can run a for loop over it
+I mean
+says that you can you know, you keep on pushing the items like
+Let's say you write a for loop
+let
+I equal to zero then array dot length i plus plus
+And then you can do something like array dot push array to dot push and
+Right the same syntax you can do for array one also and
+Let's say this is how we are supposed to build it, right?
+So this is how we can merge two arrays into the one isn't it? Like if you want to build a new array or
+Which is having all the elements from one to twenty and this is just an example where you have to merge two things, right?
+But the what js provides you is like, let's say you are building in a new array like array two
+As here we have an example
+Let's take an array three one of the simple ways of doing it is like let's say I want to spread all the items since
+I'm pushing all the items in it. I'm not picking one by one all I mean specific items
+What I can do is like I can just spread this three dots
+I can say that hey take all the elements from array
+And also take all the elements from the array one and put it in array three
+So both the in a both use cases if I try to do console dot log, let's say
+Array two
+And console dot log
+Array three
+Now if you do this
+Let's see the example if it is working in both, you know, both are satisfied
+node rest versus spread
+Dot js
+If you see in the both the examples i'm able to get the all the elements
+So do you find it easy like when you want to merge two things or like if you want to build it something
+You need not to iterate and push it all the items. You can actually spread all the items whatever you need it
+So I hope the basic idea of spread operator is clear to you all isn't it?
+Okay
+now
+What i'll talk about is something like a called as a rest operator. So one of the use case, right?
+Whenever you see the rest
+So what is the general meaning of rest?
+Let's say can I say is the rest of items
+Rest of items in an array or an object or anything
+Can we like this is just a rest when I say i'm just trying to get the meaning of it
+Like whenever I say rest rest operator, it's something getting a rest of items
+Now how this use case works is let me give you an example. Let's say you have a function called my bio
+Okay, and in my bio
+Let's say you have something like first name and last name as a mandatory fields
+Then you don't know what all things are there
+So let's say
+rest bio
+So whatever user provides it you will fulfill it but these are the two mandatory things and you don't know what are the
+Exist like parameters like you need to accept in the bio and one thing you can do here is that let's say
+You can return an object
+Which is saying first name
+then last name
+Then you can say rest of items
+now
+Okay. Now let's say how you can do how can you call this? It's a dynamic function
+Now, let's say I have a my bio building it and I call it as a them then I can give it as you know
+Sharma
+Then I can give something like a contact number
+Like let's say some random
+Then I can give city like hydropad. So if you see what what's going to happen here?
+Now I say that whatever the first argument that i'm passing in the my bio is first name
+And the second thing is called as last name
+And then after these fields are not mandatory as many fields you want you can pass it down
+So it says that hey, can you get me the rest of all the items that user is passing?
+Accept it and then i'll use it in the future discuss depending on the whatever you write in function board
+So in these use cases
+Whenever you have something like a get me the all the rest of items other than this first name and last name
+Then you call this particular three dot and that particular key as a rest operator
+Is this clear guys when we say when we call it why we call it as a rest operator
+Uh, let me try to rerun this file
+Uh, okay, I didn't console log it. Let's do something like console dot log
+Okay
+So let me clear this
+Yeah, if you see i'm getting all the things like when i'm getting the rest operator
+I I don't know the exact param like you know the items keys what it should be
+So i'm getting a zero and one with the default
+How the objects prepares it right the more important use cases of rest operator comes when you use something called as
+destructuring
+Has anyone came across this keyword destructure
+Here does anyone know have heard this word destructure
+Okay, see one
+Yeah, uh by default right when you don't provide any key, uh for the object
+Some bit so it starts from zero like zeroth key and first key then it goes on iterating whatever things you provide in an object
+Okay
+Okay, now so let's let's see understand this what's destructure is now
+Whenever I say i'm destructuring a building. What is it?
+Converting a hole into variables
+Yeah now
+But let's let's take this an example in terms of building. Let's say if I say have anyone in noida
+Have anyone been into noida city?
+Okay
+Right there was a building beside my college imity
+Uh, there's a huge building like uh, I don't remember the tower which was in circular shape
+So they destructured they bombed that whole building like more than 30 floors
+Right breaking down into small pieces like destructuring like if you constructing it
+You are trying to build one onto the together, but when you're destructuring you're trying to pull out into the pieces
+Okay, like uh, you can say
+Breaking down
+breaking down into
+smaller
+Parts so this is a generic meaning but now let's say how this works. Okay deal demolishing right now, let's say
+One of the first programming question that you might have come across in terms of dsa or any problem solving
+Uh, you might have thought of like doing something like a swap of our two numbers
+Have you got across that?
+Swap of our two numbers
+Right. Let's say I have const a equal to 10
+And const b equal to 20 so they might ask you to you know, swap the numbers, isn't it?
+So let's say if I want to destructure what I can do here is that let's say I have a const array
+Uh an empty array
+So
+Don't go into something like i'm using an extra space or those things, but that's that's fine
+I'm just trying to explain for extra, you know
+Way of doing it. So let's say I use array four
+dot push a then I can do something like
+Same array four dot push b the time i'm pushing this both the elements a and b
+now this will be like
+array four will be something like
+10 and 20 isn't it?
+So this is how the array
+Will be right. Yeah. Now if I want to swap it something that I can do here is that I can declare an array on the left
+Okay, I can declare an array on the left then I can say
+b comma a
+Now, let's see what happens if I do console dot log
+If I do console dot log
+B console dot log a
+Okay
+Let me see this
+Let declare this as a let because you are trying to re change there, you know the definition of it
+I'll clear it. I'll comment this
+Whatever I am having it
+All the console logs, let's say I comment this I comment this
+I try to read on this
+Now I fail to get this one, uh, it's a spelling mistake, I guess yeah c 1 s t
+No
+Okay
+Now let's say what I'm doing here is that
+Let's see this firstly whether we were able to swap it
+Okay
+Now if you see I was trying to print a b value here. Let's say I say b
+And this is a string
+And this is something like a
+So
+If you see something that I got as converted b equal to 10 and equal to 20
+So one of the easiest ways right if you can comment this part also
+I was trying to just explain you things like let's say I have something like 10 comma 20
+So the process of doing this one, right the process of doing this one
+Like what I or what I was just doing is like I was trying to change the way like
+Let's say if you have an array of items
+Uh
+Another example, this is like just a swapping of elements that how you can you how can you do that?
+Let's say you have something like one, two, three, four five. This is enough. Uh, and
+Let's say you building a new
+Array six
+Let's say you are doing something like can you get me an a b?
+c and then let's say all the e
+Me from arr5
+So i'm here i'm trying to use you
+You in elements like f and g and give me all the other elements like three four five in e
+Let's see this if this is working
+Let's see, uh, my audible i'm audible
+Uh
+So
+Give me a second my screen share stopped, right, isn't it?
+Let me switch to the net different network base
+Uh, i'm can you see me guys
+I
+Switched off my you know video
+But can you see me now
+Is it fine?
+Now working fine, right now
+Screenshare is working. Everything is fine now
+Okay, cool
+great, so
+Uh guys what I was talking about is that I constructed a new array called array five one, two, three, four five elements
+And I created a new array this way
+Then I was trying to destructure like destructure is breaking this array fine into multiple paths
+Okay, then
+Yeah, i'm trying to re-explain up. You know, okay
+I'm trying to re-explain it
+So what I was doing is that I was trying to destructure this array fine into multiple parts such that I say that
+Gave me first two elements in f and g variable and all the remaining
+Rest operator gave me all the rest of elements in e key
+Okay, let's e variable. Let's say if I execute this one if you see what's the output here?
+I got one and two for the f and g
+Then I got e as all the other other items
+Is this clear like how this rest operator is working?
+Like i'm just talking in terms of rest operator for destructuring i'll come to that step by step
+Yeah, in general can you get me all the rest of items it just says that
+Any iterable let's say if you when if you have an object, let's say I have an object
+uh
+Let's say let's build an object same thing as a first name john
+Let's say you have a last name do then let's say you have something like
+phone number
+Okay
+Okay
+and
+Let's say you can do something here is that let's say i'm getting the first i'm getting a name
+and
+Uh, let's say whenever you destructure an object you should destructure in terms of object. Let's say you're getting a name then you say that
+Uh, you actually should get that particular key only you only then you can you will be able to get it
+Let's say less lost items
+Object other items
+Okay, so now let's see if I try to do a console log what i'm able to get it here
+Object other items
+If I try to re-execute it now if you see
+If I particularly picked one particular key, right?
+For while destructuring I say that hey, please break that particular room out of an this one
+So i'm also parallelly expressing explaining what destructuring is combining with rest operator
+So when I use rest operator other than last key last name this particular key i've got the first name and phone number here
+Parallelly, I also try to destructure this one such that I can give me that last name
+So that if I want last name anywhere, I can use this way
+Is this example clear guys like how destructuring and rest operator is working?
+combination
+Fing okay, cool
+So guys what I did here is that I created a new array called array phi
+And I had items from one to three four five
+Now I want to destructure them. Okay such that i'll get i'll use this first two elements
+Like let's say if I use fing then i'm saying that can you give me the first element and second element of this array?
+Then pack all the rest of items
+into this e variable
+So when i'm trying to do console log here if you see for the
+F and g i'm getting like one and two for the e i'm getting all the three all the three
+three four five
+Is this clear guys now I hope like a rest versus spread operator and then destructuring on a top level is clear because
+This concept will will be keep on using it now and when when we
+Going we will reuse it again again. I will keep rebrushing this one. Okay
+Yeah, all the things will be stored in an array because you're trying to destructure an array
+So it will come in an array if you see object other items when i'm trying to destructure i'm getting an object
+Is that clear somebody
+So great guys, I hope if we are clear can we move ahead with the next topic
+Great
+So if you have any doubts do let me know any name is fine
+Yeah, any name is fine. Even uh, let's say you can give something like alias names also
+Let's say I gave this as a name
+Uh, and I can print this name here if you want to do it
+That's also possible
+If you see for the name also when i'm trying to do console log
+uh
+Like I i'm not supposed to give use this particular way like a name constraint
+So since it stays deprecated but I can give any alias names to the properties whatever I have
+Destructuring hemangi when i'll use react right in each file i'll be using this concept again and again destructuring
+I'll show you many of the examples
+Like I introduce this topic so that once I start right when i'm trying to do this one
+Like if you remember in last class, I did this something called
+Spread operator now you will be able to see in future like when i'm destructuring how I can do it. Okay
+So you go for any react component something that you receive props you destructure the props first
+So if I tell it on a top level, but i'll give you many more examples in real time when we keep on doing the projects. Okay
+so
+Let's move ahead guys
+So the second topic that we have to pick it up today is something called as
+from the functional
+programming point of view
+uh now let's say
+What are the types of programming that you might have?
+here heard or
+You know seen those
+Uh
+What type of different types of programming styles that you might have heard of
+Uh guys, uh programming styles, right? Uh, some people say oops
+And functional
+And procedural
+Right this type of programming languages you might have heard isn't it
+Guys, can you give me thumbs up if you have heard this these are the principles
+No, this is the way of writing code or getting your work done. I've been
+It's a different way of writing your building projects you can follow any of this
+Your building projects you can follow any of this, uh, you know, yeah, you can say the principles also, but
+This is a you know, different language supports different sort of things
+Okay
+But now if you see any any example for oops, which language does oops use like any examples, which language you have seen oops more
+utilized
+java
+And any other language case other than java
+python
+And any other c++ more right now when it comes to procedural
+I'll come to javascript
+And comes to procedural sequel, okay and
+One of the first book that you might have studied in computer science if if you are from computer science background or any other engineering background
+You
+See right have you got
+Went across this book called let us see by kushvan connect
+In libraries or anywhere that you've been if you remember in your college
+right, so
+That's so what happens in procedural language like yeah if I came in top level, right?
+I'll just try to explain what's happening in the in in these three types of you know
+A paradigm
+Okay
+I agree. I didn't like c2. So what happens here is that in c most of the things are, you know top to down
+top to bottom
+Level of execution
+Right c executes from top to bottom and those are the procedures like from one by one procedure it will execute that's how
+C used to when it comes to java
+This works on all the like object-oriented programming concepts, which are like inheritance
+And all this thing firstly inheritance and everything revolves around something like class and object once you know them
+Then you can apply principles like
+inheritance then abstraction
+Then you have something like polymorphism
+What is the last thing guys
+Encapsulation
+Right, so these are the things that generally an object-oriented programming looks like isn't it?
+Now
+So what happens to this function of programming language is that javascript?
+Is actually a functional programming language, okay, but this also
+Yeah
+But it's a more of a procedural
+Specific abhishek like how that is executed. I mean to talk about that
+On a top level i'm trying to talk about this one, but nothing much in depth as of now
+Because i'm particularly focusing on what's functional programming language as of now
+Okay
+so
+Javascript is completely functional programming language
+now
+How like you know everything that you write everything that you write in javascript will be
+Around everything is like around the functions like you write down all the functions and then only you do it
+You cannot write down anything like variable and then you type on you write the arithmetic operations and keep on writing those like top to bottom
+So this is like function if you do if you even define the function below above you can reuse them as per your use
+so javascript also
+supports
+Object-oriented
+programming
+but
+How does it do it will explore in the future classes when I teach object-oriented programming?
+But behind the scenes
+Okay
+It's functional programming
+Okay behind the scenes it's completely a functional programming
+So just keep this is just a overview like the different types of you know
+What type of paradigm paradigm we follow and what are the existing things that have been done?
+But let's not explore the definitions and what's going in depth but
+You have to come back to the one concept called callbacks
+Have anyone heard about word callback
+Callback
+No
+When I say
+If I say you can you call me back later, what do you exactly mean that
+If I say that someone is calling me i'll say that can you call me back later now that person other person will decide right
+Uh that when he'll call me back
+I'm giving him
+Yeah, uh, but let's talk it in real, you know real time examples guys firstly not going into javascript as of now
+But think of it if you're on a phone call and if you're saying that someone
+Yeah contact later like if you say as for as himang is himang you suggest like wait for now, but contact later
+Now if you say that when i'm saying that hey you call me back later. Now that person decides right you're giving a control to that person
+To call you back whenever after some time, but you are not specifying like can you call me back later at this particular time?
+Okay, when you say just call back it's it's it's his responsibility to call you back whenever he needs isn't it
+At least that level definition like you remember call me back later
+Okay now
+Let's understand this one in terms of you know javascript now. Let's take that example by example
+Let's say I have a function call
+Print
+First name so i'm taking really simple examples guys, uh, which will help you to understand concepts one by one
+Okay, let's say i'm trying to do something like console.log name
+And I say that i'll also try to print this again
+as a last name
+And let's say I try to do something like console.log
+And I say that print first name dot inside that uh, let's say I pick it up
+Himagi
+Then I can say print last name as
+power
+Okay
+now
+Let's try to first execute and verify this one if this is working fine
+Verify this one if this is working fine
+Clear ls
+uh node
+Call back
+Hof dot js now when I execute so first thing i'm getting is like i'm getting this output himangi power. That's fine
+But here ignore this undefined undefined. We'll talk about that why it is coming and when it's use case
+What is the use case of this one?
+now
+Do you say this function both functions are like
+This is there's something common like
+Do you really need these two functions?
+To do some activity which is like just printing it
+Isn't it duplicating?
+code
+Guys, uh, it's it's just printing that name right console log nothing else it's doing
+Right, so if you want to so it's what's what's principle breaking what's oh have anyone heard of this something called dry?
+Have anyone heard of this something called dry?
+Have anyone heard this something called dry?
+Can't see it properly, uh
+Abhinav can you rejoin the class?
+Okay
+Is anyone else facing net internet, uh, okay great so dry stands for something like don't we use it
+Don't try to repeat I mean if I exactly term this one don't repeat yourself
+Abhinav
+So if you see this is breaking some of the design principles such that we are saying that
+Uh, we are repeating that same logic right functional body same right at least names are different
+But this particular body both things are same, isn't it?
+Is that clear like uh what this principle is talking like don't repeat yourself so it is asking us to fix this issue
+Now, how can we fix this issue?
+Let's say this one of the way that you can do
+Okay, one of the way that you can do
+So what I'll do is that let's say
+One of the basic thing that I can do is like let's say I have some
+function
+I can say print
+Full name
+and
+What I can do here is that let's say I have
+name
+And then have something like callback function
+I'll come back to what's callback function is
+Now what I'll do here is that I'll just return here this callback function
+Passing name into it
+Now let's decide what this callback function will do
+Now let's say I say this callback function will take the name and try to print the name
+And try to print the name
+Now how do you exactly execute the both the things now if I say console dot log
+Okay, I say print full name inside that I can pass let's say hey monkey
+Also, I can give something like callback function
+And similarly I can again say this logic
+Power
+Now do you see this case what I was trying to just do is that I'm changing now if you see
+The body is different
+I am
+Something what I'm doing here is that when I'm passing inside when I'm calling this function
+I'm passing a function which is declared now in last class. We have understood that
+Functions in javascript as called as first-class citizens reason behind it
+It can be used as method variables expression. It can accept functions. It can return function
+Now if you see I'm just re-executing that statement. So I'm passing a function and it is executing that function and returning it
+Okay, now let's see how this is working if I try to
+Re-execute this one
+Still I'm getting hey monkey power. Is this at least clear like how I'm getting output?
+Is this clear how I'm getting output
+Yes, is this clear how I'm getting output
+Okay now
+Now let's say what is callback? Okay. So let's say whenever I'm saying that on a phone call
+Hey call me back later. So I'm saying that this is let's say a person b
+Uh, give me a second. Let's say this is a person b and this is something like a
+okay
+Now let's say
+Whenever you are trying to print this one print full name you are
+Passing a callback function, but you are not saying anything to this print full name when you're calling it
+Saying that hey call me back at particular time. You're not passing any say saying anything
+But this function inside this its body
+It will execute whenever it needs so whenever I are using something like a
+You're saying that can you call me back later?
+So whenever this particular thing is being used it says to a particular function in which it is being passed
+Can you call me back later? Like can you call me later like something like
+Uh, I I hope you are able to relate this that a saying that call me later
+And this person is calling it later whenever it can use it in the body
+Why undefined if I'll come to that, okay if I execute this in the browser I won't get that
+Okay, but now callbacks are those functions a callback function is those functions which are passed inside a function
+Okay, whenever you are passing any function as a argument into any other function
+Those functions are called as callback functions because those will be called
+Inside those functions at any of any time we don't have any control over it when we are passing into it
+Whatever function body is defined in it will move it will behave and execute according to that
+Is that point clear guys like how what is callback?
+Like let me give you a definition
+Yeah, uh, let me give you an exact definition if you go through it
+Like let's say I copy this and I put it here let's read it through now what it says is that
+A callback function is a function passed into another function as an argument now here
+We are passing a function as an argument into this function. Okay
+and
+Which is invoked inside the outer function to complete some sort of action
+So this function will be invoked out out the outer function to do some action
+So I hope it doesn't mean really anything great guys
+It's just a bookish definition
+But what I exactly mean by callback is whenever you are passing a function inside any other function
+It's just that is called as a callback. It's because you're giving that power to that other function
+Hey, you can call me back anytime that you want or behave
+You use me as you want it
+Guys are you able to relate with what callback is?
+Uh, where are we gonna use this thing? Okay, i'll come to that. Okay. This is like one of the core concept
+Really useful concept. Let me do one thing. Uh
+Let me do one thing say I use
+Uh
+You know, I can show you the debugging in the ps code also what you can do is like you can click on this button
+And you can open this javascript terminal, uh, and it is pointing here. Let's move to that particular thing
+CD classes
+Ls cd javascript
+Ls
+CD
+Class 10
+And this node uh callback
+Hof dot gs
+Now if you see
+These are both functions. Let's understand flow by flow guys step by step
+You can see a call stack on the left. It is executing this particular step. Uh, let me close this watch
+I don't need this
+Now if you see so firstly i am executing this print full name
+Then it will go inside this print full name. Now if I go inside this print full name
+If you see a callback function is holding this function
+This particular function, right?
+Print full name is added on the stack here
+then
+If I re-execute this one, then if you see on a new execution context for the callback is created
+and this callback
+Is getting something called as a name attribute called hey monkey
+So in order to avoid something called a dry principle
+like in order to use like
+In order to avoid duplication of code what we have done done it here is that
+We pass whatever common use case would be there. We have written a function
+We gave this power to you know, print full name and we'll print it whatever it you want to do it
+Okay
+Is this example clear guys how this is working step by step?
+So it's it's nothing but whenever you pass a function inside any other function
+That which function is being passed inside is called as a callback function. Just remember that simple definition
+I was just trying to make it complicated because I want to explain you how this will be executed
+You know step by step
+But the basic definition is in whenever in arguments if you are passing any function
+Like let's say this is a function or any other function if you are passing it that particular function will be called as callback because
+That will be called back
+Inside this function at any random time depending upon how this is defined
+So I hope no doubts guys in this case
+Hey, this undefined undefined
+like
+Let me see where i'm getting it. How i'm getting it
+Not exactly sure because i'm not printing something undefined here if you see
+The name is available. Everything is available, but we'll see this
+Okay
+I'll come to that but is the concept of the function is the concept of the function is the concept of the function is the concept of the function
+Come to that but is the concept of callback is clear firstly
+Right now now i'll explain one more thing guys one more definition, let's say
+I'll come to call something called hof
+Now hof stands for something called as high
+order
+function
+Or you can say higher order function
+Okay
+Now what hof is
+It says that let me copy this definition that i have written
+Now if you
+Read this definition any function that takes in a function or returns one out is a higher order function
+So it says that any function that takes in a function like it means when it says that takes in a function
+This is this particular printful name is taking a function in it, right?
+So can I say printful name is a higher order function?
+Right, let's say I change this uh print name instead of callback
+I give this
+And let's say I change this
+Uh print name instead of callback
+I give this here
+Right now so here in this example if you see print full name is an higher order function
+So
+Reason it's taking accepting a function inside it as a parameter
+and print name
+Is a callback function
+Because that is being passed into a function
+And that function function will decide when to execute this one
+Is that clear guys what callback and higher order function is with small example i've tried to explain you this one
+So this both things are allowing us to this combination is allowing us to you know, avoid something called as dry repeating ourselves
+Okay
+so
+Any doubts guys still no any doubts?
+Okay
+Not outside, okay, let's let's go
+Moving ahead with the one, uh, you know small simple dsa problem for you all
+So, please help me out guys to you know address this problem
+uh
+Let's say I have something like uh, uh my radius array
+Okay
+Inside that i've given us different radiuses, okay
+Let's say I have this radius seven
+two five two three five six seven eight and this radiuses are of
+Let's say radius of different circles
+Okay now i'm I want to
+find
+For each circle
+Three things what are those three things that I want to find area then circumference
+And diameter how would you write a logic?
+Is this question clear guys three functions
+Good now, let's say I try to write function called calculate
+Area I am receiving a radius here
+In it now what could be the
+What could be the
+Formula for this one. Let's say I pass on whole radius array inside this one
+So one of the ways like let's say area of a result area. I can say that this is something like a result area
+And you have an array then you iterate through the loop
+Then you iterate through the loop
+Right
+So you have a result area dot of i equal to
+So i'll leave that mathematical equation as of now and i'll say that fit on result area
+So
+So it says 2 pi r is everyone agreeing guys it's 2 pi r for area
+Yes, just think of it what is the formula for area of circle
+Pi r square. No, what is the value of pi?
+Value of pi
+3.14 I said 3.14 into
+My radius array of I
+Into my radius array of I
+This is it right this is how you will be able to calculate
+So let's say instead of putting here as I index I do something like push
+Because here I want to push it each item into an array
+This is what a function looks like
+Right calculate area similarly what we would do is like we'll create another function here
+And it does the only thing difference here is that formula now what would be the formula
+Let's say I do this result I just make it result instead of result area
+Uh, and actually declare a small
+And let's say I call I am trying to calculate circumference
+And what could be the formula for second 2 pi r, okay, right so I make uh two
+Two into this one and this one right
+Let's say another function that I have I'll I'll replicate this one
+I'll put it here then something that I have to calculate is diameter
+Diameter is
+2r so let's remove this pipe
+Right now if I try to console.log console.log and I say let's say area
+Uh, I calculate calculate area and I pass my radius array into it and let's say I try to
+Copy and create this one. Let's say I say circumference
+Right, let's say I do the same thing I say calculate diameter. This is our diameter
+Right now if let's say if this is working fine, I'll try to comment all the epoch code for a second
+Let's try to re-execute this one
+Uh, okay, there's a debugger here. I don't need it now if you see here what's happening is that we are able to print
+All the values here that's working fine if you see here I'm able to get all the things that we need
+Okay, but but do you see
+Anything again are we breaking any principle that just we have discussed just now we have discussed something
+Are we repeating any logic here
+Are we repeating any logic here
+Are we repeating any logic here guys just think of it like
+Loops right. It's a common thing that we are trying to redo again and again again again, right?
+Just a formula is changing isn't it all the other structure is same
+Right
+Param is same just a formula is changing now. Can anyone think of like the the structure that we have like this can be
+Made a better readable code in terms of using something like high order function and a callback function
+Can anyone think of it like that combination? How can we do that?
+Anyone think of it like how can we do this?
+So
+Right now let's say let's say if I give you an
+You know idea
+What if I have a common function function?
+calculate
+And I say that i'll have something like accepting parameters
+What i'll accept here is that so let's say radius array
+I'll see i'll still have
+my radius array
+But also hell i'll have something like callback function
+Say callback
+Now what i'll i'll i'm supposed to do here is that i'll copy this thing whole thing
+I'll put it here, but instead of this thing
+I'll do something like callback
+And i'll pass inside my radius of like
+So
+So what i'm just trying to do is that i'm just i've put all this thing here
+and
+Yeah
+Right somewhere. So now we made one common function called calculate
+Which is accepting a callback now, let's declare those callback functions. Let's say
+calculate
+Let's say I try to this is a the top one is version one of a code. Let's say I make this as a
+version one
+something like
+v1
+Okay
+Now we are trying to build something called as version 2 v2 of code
+Let's say calculate area inside this area what i'll receive i'll receive a radius of it
+What I can return here return that same formula isn't it area is 3 pi r square
+I mean pi r square. Sorry, let me copy this
+Instead of this I can do radius
+And radius
+Okay
+So this is supposed to give me area now if I try to copy this one, I paste it here, let's say diameter
+of
+It would be 2 r
+Right and twice of radius then let's say I have
+Circumference
+Now circumference again picking up that formula 2 pi r
+So
+I do 3.14 into this one
+Okay, so what I've just stated here is that I've created one function which will iterate and do all the handling
+I'll pass on a function which is supposed to handle the logic part. Why did I separate this way is that
+This is simple
+Area diameter and circumference
+But what if there are some complicated problems that you see in the circle like when you studied any mathematical chapters
+Which are related to menstruations or geometry?
+Wherever circles comes in
+There are difficult problems comes in so what if those calculator parameter calculator that particular function will be common
+And this result if for each radius array, it will try to calculate and push it and build back the logic
+So i'm trying to separate the concerns so this will handle the logic part
+This will try to work on a building an output for us. Okay
+Now let's say how do we actually call this?
+let's say I do
+console dot log
+Let's say I have an again
+I tried to copy this whole thing
+So we have calculated instead of calculate area i'll call calculate
+and
+I'll give let's say calculate area
+here
+now
+Uh in the same way, let's say I update this I update this
+And I pass something like
+calculate
+Circumference then again, I say calculate
+diameter
+Is this logic clear guys what i'm trying to do when I why how i'm able to avoid this particular for loop
+Write it once a dummy logic, which is applicable for every function
+And i've written separated the point of concerns also
+Is this clear
+So tell me what is higher order function here and what is a callback function here?
+Here in this example, what is a higher order function when what is a callback function according to you?
+Yes, can anyone write down
+okay
+So somebody says calculate is a high order function
+So somebody says calculate is a higher order function is everyone agreeing on that
+Right
+Anyone having any doubt whether calculate is a higher order function or not because it's it's it is something which is accepting a function
+And or it is returning even if it is returning or accepting it
+That this particular function is called as higher. So here
+Calculate is something called as higher order function
+Whereas this particular calculate area circumference diameter are called as callback functions, isn't it?
+They will be called depending on whenever whatever use case it is
+Right
+I hope this uh
+Now you got the better clarity
+Like how higher order functions and callbacks helps us to write a better code
+And it's a clear-cut simple basic two concepts
+Is everyone agreeing that you got it you got better understanding about what is callback and higher order function now?
+So
+Great summit
+so now
+now
+We have something really interesting guys something really interesting that I want to talk about
+Called as imperative versus declarative way of writing code. Has anyone heard of this one?
+Okay, uh, do you want me to execute this i'll execute this give me a second
+Uh callback
+Open integrated terminal
+Let's say this this is a terminal which is having code
+Now if you see still i'm able to execute that code
+And top code I have commented it and still i'm able to get that same result whichever I got it earlier
+Is that clear?
+Okay now
+Now, uh, I want to talk about something called imperative
+Versus uh declarative
+Let's say this is just uh, you know a theory concept that I want to talk about because
+Um
+In future i'm going to say that this is a declarative way of writing a code or this is an imperative way of writing a code
+I just want you to understand that when I say that keyword, okay
+now
+Let me think of it guys example, okay now let's say
+Okay
+If you see there are some people uh in real life
+You might have seen like where you have to guide them step by step
+Like one by one like if you are asking them to do one work
+You have to tell them
+Let's say if you have seen tarak mitaka ultra chashma
+So in that there's something some character called as baga bhai where you have to introduce tell him step by step
+Hey do this step then this step then this step you're not supposed to tell him that can you complete this work?
+so
+Uh, how do I tell this one is that let's say
+There are some people slow learners. There are some one like fast learners
+Okay. Now for the fast learner, you'll say that hey, there is some bug
+In your project
+Go and find it out and close it off. There is something let's say your manager comes and tell you that hey
+There is a p3 bug and close that one and let me know once you close it
+Now he calls you this phone and he says this one and it's done
+Now there are two two types of people now firstly he he told that there is something p3 bug
+We don't know who reported it where it is there
+Uh what of whom to contact what to do. There's no message specifics have been given, right?
+When someone comes to and tell you that complete this one, but there's no specifics given
+but
+If you are someone professional and better at knowledge, right and responsible you'll understand what he's trying to say
+It's like hey, uh, if you know, there's a p3 bug you'll go and check
+Yeah, you'll go and check
+Inside your emails there might be someone who reported and uh bug
+Then you will go and do the debugging part and then you will face the pr and fix it up
+And push it to the live then you will say go back to the manager and say that hey, I've addressed the issue
+right, you are trying you reduce that all the efforts, but
+This is one of the use case and the other use case is let's say
+Um
+He called it same call to the fresher
+Now fresher doesn't know where to find a bug
+He doesn't know whom to contact. He doesn't know how to raise a pr. He doesn't know where to get approvals. He doesn't know
+Uh, like once pr is merged to go for the deployment. He doesn't know like then go back and respond to him
+For in order to know all of this right you have to tell him
+Go and check this bug you that might be there in some e-mail that user might have reported it
+Once you find that email
+Try to recreate those scenario on your product once you recreate it
+If you are able to recreate it then fix that bug push that code
+Right when i'm saying that
+When i'm when a person who is whoever is telling that right step by step procedure like one by one command
+to other person
+That one by one type of command is something called as imperative way of coding
+Like when you try to guide each line of step
+by step
+Step by step process
+Whereas something like declarative is
+You just say it
+Like they handle all the things like you just say that
+I want this thing to get done
+Right
+Yeah, now the better example i'll say
+Now i'll take a simple example, but did you get the theory part at least a theory logic that I was talking about till now
+Did you understand the theory? Uh, just I was speaking about no, let's say
+Let's say we know that there's an array
+1 2 3 4 and what if I want to do push an element 4 into it
+Right and I try to do a console dot log of array
+now, let's say
+uh instead of executing this file, let's say I
+node
+Imperative versus a declarative
+Don't chase
+If you see I I got output as expected all the items are there but
+You call a function called push
+But did you explain that array? How can you push that four item into it?
+Like how can you push a particular what should you do in order to push that item?
+Like you have to increase the size of an array by one then add that item at the last of the item
+Then only do it
+Right. We didn't say that particular all those statements. So we didn't guide it step by step. How can you do it?
+We just say that hey push it
+You you decide like how you want to do it's your headache. I don't know get it done
+So this is when i'm when i'm using something library, right to do some other work
+Then I say that i'm i'm trying to write a declarative code i'm trying to write a better cleaner code like
+If I if I don't have a push out of library available or method available
+Imagine if I want to write this custom logic native logic, it would be really tough, right to do all the use cases that are available
+like step by step process
+so
+most of the coding that you do in today's world is like a
+declarative way of doing it
+But
+When you'll go to the web development, right when you are actually dealing with dom
+uh that
+in next class, uh, you will be
+Meeting shashvath will be taking those classes for next three classes. I wouldn't be available, but when he'll start teaching the dom
+When you're trying to change something on a web
+On screen
+Using some javascript on screen when you're changing something you have to tell it step by step
+What you are doing like you have to select a particular item then you can change the color or update it
+So when you're actually dealing with dom, it's like
+Doing writing an imperative way of coding
+You got the basic understanding right? What is imperative versus declarative?
+Right now, uh
+Now if you if someone says that react is a declarative way of code declarative way of writing a code
+At least you will be able to get a meaning of it like
+There's a much of work being done behind the scenes rather than we saying it react is doing much of work for us
+Isn't it?
+So you can explore like uh imperative
+versus uh
+Imperative versus uh declarative programming
+So if you see declarative program is a paradigm describing what program does without explicitly specifying it control flow
+Imperative programming is a paradigm describing how the program should do something explicitly specifying each instruction or step statement step by step
+So are you able to relate this now this definition
+Yeah, bootstrap is also declarative you are not doing much of work right somehow the other person is 20
+Okay
+So if you go and see
+If you see
+Is c++ declarative or imperative for trans java c c++ are example of imperative programming
+Uh, this is not the right, uh, maybe
+Example but i'll give you further more right examples like to relate it because this will confuse you again
+But the on top level this is the definition guys just try to relate with that one
+Okay
+Someone else is doing work for you. This is a declarative way when you are trying to guide through each step by step
+Yeah, mostly libraries and frameworks are declarative because whenever you are using the libraries and frameworks
+Are imperative but when you are consuming or using that library, then you can say that i'm i'm writing a declarative code because i'm using someone else work
+I've been up. This is a example of this one, right? This is a theoretical concept
+Okay, same as like if I say object oriented functional programming or anything that's like, uh, yeah
+This is for imperative what about declarative I didn't get your exact question
+This is a declarative code buddy, this is not an imperative imperative is where you do step by step process
+Okay, so this is a declarative code body this is not an imperative imperative is where you do step-by-step process
+This is not an imperative imperative is where you do step by step process
+The above example
+This is for declarative example
+This is a declarative where you are trying to when you're pushing an item four into an array
+You're not saying like how you should be able to push it
+How you can increase the size of an array and add an item new item into it
+Okay
+Yeah, let's say if you say imperative logic, uh, i've got a suggestion from some bit some bit let's say if I say
+X equal to 10
+And const y equal to 20 then I can say if I want to add
+let's say
+sum
+Equal to x plus y
+Console dot log sum this is an imperative code
+Step by step process. This is somewhat declarative in nature
+Got it. So I hope guys this this basic definition is clear now
+I'm going to talk about few of the you know existing
+Existing higher order functions
+Those are present on array
+Does anyone know?
+Uh, like some higher order functions
+If anyone have came across and understood that
+like
+Some advanced functions on arrays
+That you might have come across
+Because we have introduced a list of functions which are already on arrays when we discuss in depth
+But some more functions
+Okay
+Have you have anyone heard of?
+No slice shift and all all those things we have covered right, uh, but some more advanced
+Yeah map no
+Let's say I have map.js
+No, what does i'm doing let's say I pick an example, uh
+Uh
+I have an array again basic example. I'll try to use that and explain this concept
+Say I have an
+two three four five six
+Let's say I have this elements now
+I want to
+Multiply each item by
+Like three or four or five anything let's say, uh
+Or let's say I can say calculate squares of each number
+If I want to calculate squares of each number i'll write a function right calculate
+Square
+Of each number where i'll have an array then what i'll do i'll isolate through the loop
+Let's say I have a lit
+result of an array then
+For loop
+Doing this then
+result dot push
+array of i into
+array of i this is what a function looks like right for
+Calculate squares do you guys agree square is like multiplied by itself
+You know
+This is right way of writing code. I agree
+I agree that you can always do this thing and
+Let's say calculate squares and then you can say that
+Hey, I want to pass this array
+Uh, and if I try to execute this let's say node
+map dot js
+If you see i'm able to get what output as expected for a 9 16 25 36. That's fine
+but
+What if there is a utility that you don't need to do this and you have something like higher order function?
+Now what map suggest is
+Here where map comes but what one thing I want to explain here is that for each item in an array
+Are we doing same operation?
+Are we doing same sort of logic same operation here?
+Like multiplying by itself
+Same operation right so you should prefer map only on when
+Each index of an of the array
+You are executing same operation or expecting same operation
+To be done, okay, so let's say
+How does map works now let's explore how does map works
+If you see here one of the common principle is like
+Whenever we have studied problem solving right we are supposed to not disturb existing
+Input arrays right or whatever you are receiving array in a function you are supposed to build a new array and return it
+This is not considered an extra space, but this is something by default you do it
+Instead of disturbing this existing array you create a new array
+This is a common core principle, right?
+You guys agree with that point
+So
+Map also what it does it internally map is an higher order function, okay?
+Whenever say is I say higher order function on each array you can call something like map
+What what does higher order function does?
+What does higher order function does when we can call a particular function as higher order
+Again trying to re-revise that same definition when it when it takes an callback function into it, right?
+Do you guys agree with that point when it has a callback now, let's declare something a callback function. Let's say this is a callback
+Have a callback function inside this i'll have let's say
+Number
+And what is all this something i'm doing is i'm returning number
+into number
+Okay, i'm multiplying by number by number now
+What I can do inside this map is that let's say if I hover over it if you see
+Let me do this if you see it takes a callback function
+And number array
+Right if you see it again
+Honestly one way of writing this logic is like you can always do this callback function pass this callback function into it
+Okay
+now
+Though the the better way of writing this one is like, let's say
+you declare a callback function here itself and
+So what it does is like it iterates through each of the item
+Let's say now each item is having a number and its index. We can have you'll have an access to the index each time
+Okay. Now you can return something here. Is that
+number into number
+Same thing again, so what maps does it it works like a for each loop
+For each loop
+But you can directly write like this logic and you can store as a output array
+Okay now
+Also, if you want to do a console log you can do something like console dot log
+Number and index let's say if i'm doing this also
+And I try to do console dot log of a number output array
+No
+So what map does map?
+Takes a callback function since it's a higher order function
+Once it takes it it iterates through each of the array index like for each loop for each item
+And this is number is that particular item and it also has an something like index
+This value can be you can define anything like you can say num or anything up to you. It's up to you
+Like whatever you want you can define it
+Okay. So how can you say that I can define anything if you hover over it if you see
+It has something like value
+then index
+Then array of numbers like if you even want the whatever array you are having you can also access the array
+Okay, you can also scroll down and you can see what all definitions of this are
+but on top level
+Since it's a higher order function it takes an in your callback function and it's iterating through each of the index
+Each of the index then it's getting that index value and return this returning this one
+let's say if I
+Try to execute this one node
+map dot js
+Now do you see this?
+What's happening here? I will try to comment this again
+Clear this console clear and try to re-execute this one now if you see
+firstly
+What's happening?
+Here in the array we had something like two three four five six
+So it picked first item and the index of that particular item is zero because we we were trying to output something like
+Number and index and the next item was three and its index was one
+So why I was trying to print index is that I was wanted to show that that you know
+This works like a for each loop for each of item
+This callback function will be executed
+Like for each item this callback function will be executed some the other syntax that I was writing was
+I was I wanted to show you this how this works
+callback
+Now let's say you have here
+You can have num and index same logic. Let's say if I cut this
+And paste it here
+And you can say
+You have this callback function here
+Each time you'll call it
+passing
+num and index
+You can still do that. I just extracted that logic outside
+So that you can feel that i'm still passing a function instead writing the inside it
+Okay
+I hope this is clear guys how map works
+This
+Oh, there are too many guys so too many functions like because it's a functional programming language itself
+I just want you to introduce step by step. What is an higher order function and the main
+Core higher order functions what are existing in it
+Now if you see when to go for map again trying to repeat guys because this is somewhat interview specific
+And you will be trying to use this
+More than anything else even if you go for react
+Okay
+A map function is used when you want to do a same operation on each item of an array
+Same item of an array you picked each item and you try to do that same operation like you're trying to multiply it
+It's a square
+Okay
+So map is something where we can pass the function inside it and perform a task directly inside it
+but for but for each it's just like
+To cover it all elements to cover all the elements only
+Uh last point I didn't understand some with a performer task directly inside but for each is like just to cover all the elements
+Yeah for each
+Uh, yeah, it covers all the elements but here
+Uh, if you see it is also returning as a new array
+Like you are storing here inside a new array
+This is working like a same this function
+Whatever function we have written it is working like the same function, but it just replaced our logic
+Yeah
+Okay, so
+Is map clear guys when to use map and what is map?
+of
+like
+On what data type you can use map?
+All those points clear, right?
+I've took it very slowly. I took it really slowly
+Okay
+Do you need a break or I can take uh 20 minutes I can close the session today. It's up to you guys
+Okay continue, okay, then uh, let's say I have a some simple problem like cons or transaction
+Uh and an array of transactions, let's say I have like thousand three hundred five hundred
+two hundred
+Hundred like these are the list of transactions. No
+These are let's say these are in rupees. I want to convert into uh
+Ust like let's say inr to usd
+Ust
+So let's say the currency currently inr to usd is at valuing it 83 rupees to one dollar now
+Do you think here I can use some somewhere around a map function here
+Do you think I can use map here
+Because what what would be the operation that I actually have to do divide by it right divide each
+uh value of an array by 83
+So let's write down write down this logic. Let's say I have
+output
+Transaction array
+I can do transaction dot map
+Again a callback function inside it. Let's say I have each transaction and I have index
+Which I won't be using it as of now and what I have to do I have to return something like transaction
+Uh, it's txn each item of this one divided by inr to usd
+And I can console dot log of output transaction array
+Okay
+Is that clear guys how can how we can write down okay how we can use this map
+I just gave gave one more example simple example
+So if this is clear, let's move with the something called as filter filter dot js. No, so i'm introducing
+No exact dollar value on it. Yeah
+Yeah
+So
+Guys coming to second higher order function called filter
+Now let's take an example of an array where you will have item from one
+To three five then let's say I have nine then let's say I have this then I have this
+So what we have one to twenty in the items in an array, okay
+Uh, what if I want only even numbers?
+What if I want only even numbers
+Okay out of this array what I can do is that let's say I have a function
+Get even
+Okay again same thing an array inside it I can have let output
+Right then I can go for the loop then the basic logic would be array of i
+Percentage of twice is equivalent to zero
+Then I would add element into this one, isn't it?
+Guys this would be a logic for writing an even getting an even numbers out of an array, isn't it?
+Like i'm just iterating through each item then i'm checking if it is like, uh, you know
+Kind of matching this condition
+Uh
+Ankit I I need to show around this like you can google this
+What it does is like two?
+Amper cent of two gives you zero. It's just i'm checking reminder if the reminder of value
+When it is divided by two is equal to zero then
+It says we can say that it is an even number
+Like
+That's a basic formula right how to know if a number is even or not
+Okay
+I can execute this one and show you uh node
+Let's say I have to call this function
+Uh get even of array
+I have to console log this one
+Okay node filter.js if you see i'm getting only the even numbers out of it
+Guys is this clear the point is clear, right? Uh, this is a basic function
+You might have came across multiple times in the dsa. No, but what we are doing here
+Like earlier in map we were iterating through each of item and then we were doing some same operation here
+Are we filtering out an existing array?
+Do you think we are doing that filtering out on a basic each kind one condition?
+Are we filtering out an array aren't we filtering out this array?
+Basing on a condition like based just on if condition
+Yes, right muneshwar do you think any even like other way around
+So
+The same thing can be done using filter
+Function which is a hydra function
+Let's say if I want to do something get even numbers
+here
+What you can do here is that let's say I have an array dot filter
+I'll say that filter items based on a particular condition. How can I do it? Let's I'll get each number
+On each number check one condition check one condition what condition if
+I'll say that if only number multi divided by two
+only if
+Only if this statement is true
+Only if this statement is true, then include it in the ket even numbers or else
+Don't include it
+So filter is generally used
+whenever
+You want to filter and particular array based on some condition
+Let's say I put it here
+And I try to re-execute this one
+Uh, okay, just a second get you
+Okay
+Uh, it's not a function here
+Do you see this guys
+Uh, i'll help you out with that, uh bishek, uh, give me some time, okay
+But let's focus on the concept so that we can finish our day today
+now
+Filter logic is now what if I want to get odd numbers here?
+What if I get need to get odd numbers it would be really simple right I have to change one condition get odd numbers
+Filter it with return
+Not equal to
+Is entry
+So
+Okay
+Yeah, i'll come to that somewhere
+so
+I hope now map and filter logic is clear when to go for map if you want to apply any common
+operation on each of item like multiplication division or any logic on anything or any item you go for map
+Right if you want if whenever you are choosing filter actually you are filtering out items
+Like I want only this thing or that thing basing on a one condition and if this particular condition is satisfied only that
+Only then this whatever you are returning right? Whatever is happening like this logic same thing in that output array that will be there
+Okay, base if you want to this is just a simple condition like a if condition
+Okay, is that clear guys filter one map and filter both things?
+Now I want to talk about
+One thing triple equal to versus double equal to
+Does anyone know what this does if anyone knows can we pick can they ping me personally if anyone knows this?
+This is a
+Like if you see I used sometimes a triple equal to sometimes I used double equal to somewhere
+Right i'll show it
+But I use this one
+Okay
+Now let's let's see this what it does. Okay, firstly
+Both the things are used for comparison. These are comparison
+Operators, okay
+Now how does it compare let's say I say const
+X equal to 10 or let's say 10 and const y equal to 10
+Now if I try to do console dot log
+Let's say
+x double equal to y
+comma
+X triple equal to y
+Just let's explore this by this example, uh, i'll try to come let's be that also we'll see all the outputs
+now if you see
+for the first thing
+When I used double equal to I got something as a true. Can you see this guys?
+When I use double equal to I got true and when I use triple equal to I got false
+So behind the scenes when you are using something like double equal to
+Is just checking
+Content
+Content value
+So there's a one big huge concept going on behind the scenes when you use double equal to
+But when you are using triple equal to
+checking
+both
+Data type and value
+Okay
+now how can
+A particular string can be converted into number or a number can be converted into string when using double equal to
+That's a type conversion by default. It is happening in js
+That's really one of the difficult
+Uh, you know, I would say way to
+Understand there are some set of rules that you can always remember
+but
+in my coding practice in my experience
+Whenever if someone is using double equal to I flag it or i'm being flagged
+So you're always supposed to use triple equal to which will do exact
+Comparison check like if both are equal or not
+Is this clear what is double equal to and what is triple equal to and what to use it?
+Okay
+Because behind the scenes this particular thing
+10 of string is converted into
+number 10
+There are many use cases how this thing works because javascript is really
+Irritating language when you because that's been developed in 10 days. Now this triple equal to is solving those issues
+So you if you are using double equal to you might sometimes fell into problems
+Uh, like if you're using it in any pro like when you're writing code huge code
+Please avoid using double equal to if you want a statements like a series of rules
+Which thing is converted into which one?
+I would give it but I won't recommend you to remember all of them those conditions. It's generally useless
+Why don't you write a write a coding practice use statistic or triple equal to?
+Okay, I hope this basic uh
+Uh, idea is clear. I hope map and filter is also clear
+So if this thing is clear, can we move it guys?
+Can we move it to the last thing?
+and uh people generally
+Uh avoid this one and but
+Let's say uh again, I just want to end this filter with one example, uh, if you go for the map
+I had this transaction, right?
+let's say I have this an array and also
+I have uh inside this array. I have some negative numbers. Also, let's say
+Minus 200 220
+Minus 300 minus 400
+So i'll say that uh, can you get me only positives? Let's uh get me
+only positive
+Transactions
+So how can you do this guys?
+Okay
+How can you do this
+Can anyone give me uh, what condition I should write on filter?
+Just one condition transaction greater than zero, right?
+This should solve my issue right only get me the positives simple if condition
+Or else imagine for doing this also sometimes we have to write the loops
+For loop and write those many conditions and find the length of an array and all those things, right?
+We can avoid this using filter. Do you understand the power of this functions that we are learning?
+It it eases your code now if you see those have been filtered out
+Now comes one of the
+Best thing guys that I feel uh, you know reduce what reduce does or the problem statement for the radius. Okay?
+How many of you remember something like prefix sum?
+Dsa problems
+Where you have to you know
+Prepare an array which is storing all the sums from the array
+Uh prepare an array which is storing all the sums from the before index still there, right?
+so you have to write a loops and store it or let's say something like
+Sum of all numbers sum of all the numbers
+Let's go back to the prefix sum later, but sum of all the numbers
+right
+What could be the basic use case? How do you do this one? Let's say again I take this array
+I'm using this example. I can use prefix one, but that will complicate a way of understanding it
+But let's say I have this one to the way
+What is a way that you can calculate the sum? Let's say if I go for for loop again
+Uh, I can still do something like is that let's say I have let
+sum equal to zero and
+I have to declare this outside. This is
+This is not the right way to do it
+Let's say this is a function
+sum of numbers
+array
+Right, then something you would do is sum plus array of i then you will return sum
+Right, this is the example that you would do it, right?
+If you say say if someone says that write a method for finding a sum of numbers
+Isn't it
+Guys give me thumbs up thumbs up if you are aligned with me
+Okay, this is a like a function where you can find sum of numbers now what if
+If here what we are doing it here, let's say I'll execute this one for our sake
+But what what we are trying to do it here what sort of operation is happening here
+Just think of that way
+Aren't we reducing all the items of an array into one number?
+Number
+Just think it from that perspective that
+Aren't we reducing all the array in numbers into one number like a sum?
+Like we are not utilizing here the logic here is just that if you see in the earlier filter or
+When we write a simple functions or map
+I'll put it, uh them by one by one. Let's say I split this one
+Again, I go
+I pick up a map here
+So I pick up a map and let's say close my filter now
+I'll pull this one bit down here
+Let's say I reduce this one
+Yeah
+If you're seeing there's all those examples when we write the simple functions right a sum of number calculate square or get even
+We were storing results in an array when it comes to filter and map
+But when we went when we went for some of our numbers, we are actually using only one variable and we are returning it
+We are not using of our each index right?
+We are not doing it for each index item or some operation or filtering out on some condition
+But we are reducing an array of items into one number. Can I say that?
+Yeah, that's common analogy that I want to catch it so
+What I want to say is that reduce is a higher order function
+Reduce is a higher order function
+Should be used
+When you want to
+Reduce
+Array of
+Numbers or items
+Into one
+Into a single item. Okay. Now, how can you do this? I'm just showing you one example
+Let's say
+const
+someone
+I'll just go on array. I'll say reduce
+Reduce again since this is a higher order function. It is supposed to take a callback function
+Once it takes a callback function here
+It has two things
+One thing is called accumulator
+Or acc and this can be number so when I say acc
+Okay
+You can always relate to the some variable that we used where we are appending each time again and again
+Okay, or else let's declare this as a result
+result variable
+Which will be appended again and again now
+What and how you will reduce this one?
+is that
+You will return
+Result plus now
+So what we are doing earlier if you see here one variable
+that we have kept it that will be first now if I hover it if you see
+A callback function and it says that previous value previous value when I say that first value will be zero
+Then I'll go with the first number number would be one
+Then I'll store number one here in the result
+Then i'll keep on updating this one
+Is are you able to relate this how this will work I can show you step by step give me a second
+If you see for both the things we are able to get that same output
+But what i'm saying is that it takes two parameters
+One is accumulator or like one person who is accumulating operation results like this is a variable which is
+You know defined outside of a loop that is accumulating all the results right consecutive results and attaching to it
+And it is being reduced and returned at last. So this is how it is working if I can show you
+Let me debug this logic
+If you see here
+firstly
+What I got here if you see first time
+When I entered it the initial result
+is one
+Because index one is executed the second item i'm getting as num as a number two
+And when I execute this one, let's say if I press enter
+Again when I come here if you see this number is updated as three
+Because it summed first two items then the third item that I have in the result is to sum the three
+If I click again press, uh, you know play
+If you see the number become
+The num is four and the result becomes six because it had
+Like some of the elements still now like three plus two plus one six and the number is four
+Next step the result will become ten
+Then I have num five
+Then i'm executing result then it will do some
+I hope this point is clear guys how this is result is working accumulating all the consecutive results that you have
+Okay
+now
+you can
+Let's explore how
+Think of it. How can you do something like prefix sum logic here?
+Just think of it if you can apply prefix sum
+So
+Time complexity same for yes time complexity same, but uh, the way of writing code is easier upendra
+Right this this particular thing the whatever higher order functions we have discussed filter map
+Reduce are generally
+Yeah, pre-push those results so those are actually making you to write a better code with a clear code
+Okay, I have uh
+You know a function i'll give you an example. Let's say I
+Copy the code. I just generated this logic. Okay in chat gpt
+Uh to just show you like how this works, okay
+If you see uh calculate prefix sum if you are doing someone is you writing in js code
+They should have done this way now if you see
+Accumulate the sum previous sum
+What we are doing here?
+Like uh, it's an input array then i'm calculate prefix sum if I go inside this i'm getting an array of item
+I'm reducing array of item here
+Now each time i'm getting an accumulator
+and a current value
+When i'm getting this current value now inside accumulated dot push
+Okay, i'm considering this element now. There is something
+Extra thing that I want to help you understand you that
+I have to define
+What is a default value of result if I give a default value of result as zero?
+So if you see it is asking me point out the initial value. What would be the initial value?
+After a callback
+So it takes two things here first is a callback callback function then a default value here
+when I
+Did when I explained i'm trying to explain prefix sum the default value for prefix sum would be because we need an array of
+Items calculated till that range right?
+Now if you see
+I had a default value as an empty array then i'm trying to push
+each item into this uh
+It array such that if accumulated dot length is greater than zero like if the item is greater than zero
+and
+Here with something used called as a tertiary operator, okay
+Something as a tertiary operator then i'm accumulating current item whatever item is there now
+So if you see this if I can write down this condition in a easier way to make you understand here what's happening if
+This is there
+If accumulator dot length is greater than this one
+Let's say I can push the pull this one outside because they have returned tertiary operator
+Let's say if I make it easier to understand this one
+Let's say if this is greater than length zero then I'll use something like
+Okay accumulator dot push
+Plus current value
+Or else
+I'll push accumulator dot push current value
+This is a condition they have written simple condition like if the first if it is not the first element push the current value if it is like
+Uh other elements like second index just keep on adding get the last element. What was in the accumulator and keep on adding it
+Is this clear guys how this prefix sum is function is written
+If I reduce remove this comments, right you will be able to see how clearer this code works when you use the reduce function
+But it just comes with a practice like what is a again like if you can write down in a simple js and compare this one
+Then you will be able to relate like how reduce actually is trying to help us out
+writing a better code
+Okay
+Uh, if you want to use all of this hos on objects which has an array, uh, can we just directly pass object?
+Yeah, uh, we can do that some bit. Yes, we can do that
+Always right. Let's say I push this inside an object itself
+Uh const object inside that let's say I have an array
+All right, I have this one
+Okay, if I have this one, so whenever i'm calling a function i'm supposed to call object dot array
+That's it, uh, everything will be solved
+And here if I want to do it added object dot array reduce still it would work as expected
+So, let me remove this debugger and play it if you see i'm able to get all the things
+prefix sum is also working i've just copy pasted it because
+Uh, you all all people, you know all know that logic actually what prefix sum does and by this example
+You might be able to better relate how reduce works
+So, let's say I have an array of objects which has an array and I want to use it as an array
+So, let's say I have an array of objects
+So guys, uh, is this
+Clear what we have done? Yeah, syntactically I would say it takes time
+But to you know in order to revise this thing, right? Uh, just let me give five minutes on it
+What we have done where you have understood first thing something called as
+higher order function and callbacks
+Higher order is a function which takes function in it along with other arguments or doesn't matter if it doesn't
+Callback is something which one is passed inside it that example we have cleared it
+Then we went on to discuss some existing library
+higher order functions
+Before this we understanding something something called imperative versus declarative
+Coding now whenever you are using something existing library higher order functions
+We are writing a more declarative code rather than writing a it's like more and the more declarative code you write
+It's a more cleaner code. You can always solve the functions like whatever functions we have discussed
+Map filter reduce if you see we were all we were able to do
+Build or get the result out of this using for loops that we can write it logic
+But the more declarative code you write the syntaxes are shorter and it's a better cleaner thing now
+If you when you now when you want to go for map
+When you want to apply same operation?
+on each item
+And when you want to go for filter filter in order to filter items of an array
+of items
+Based on condition
+Go for reduce when you want to
+Reduce array of items into one value
+So
+Is this clear guys how this all things works whatever we have discussed today
+Uh cheat sheet, uh cheat sheet. I'm not exactly sure upendra, but
+Uh for me right whenever I want to prepare anything, so it's a javascript info, uh, if you search here
+uh
+Let's say reduce
+It's not there here. I'll show you the document where you can prepare map reduce filter, but
+This is a better document where you can understand things
+Okay
+For the javascript level, but i'll share documents whichever you won't be able to find here
+But I hope uh, you will be able to
+Understand the concepts of higher functions callbacks and some existing higher functions which are there. Okay
+So if all these points are clear guys
+Uh, can we start doubt session because this is the content I wanted to uh, you know
+Take it
+So nice guys
+I'll start the doubt session. So
+Whoever had better understanding, uh, feel free to drop
+So from the next class guys for the next three classes, uh, I won't be available
+so
+Your uh three next three classes which will be more related to dom
+Since we have introduced js up to an extent
+Now we will be talking more on a how
+You will be able to use html
+css and js
+And use js to interact with html and play around with those things
+So these things will be taken by
+shashwat
+Okay, he works at geocinema one of the really great co, uh, you know web developer
+Okay
+Okay
+So he has been associated with scaler for more than eight months and he has proven himself to be a good instructor
+So hope you will enjoy classes for the next three classes
+Then i'll come back and we'll build a project called canban
+So once you understand basics of dom and how do you interact and what are the events that are generally handled how events are handled?
+in a browser
+Okay
+So once you get those clarities, we'll build something like a canban board
+So project level project level item. I'll pick it up again back
+Okay guys
+So did you like today's class in last class fns data type we had used something cons and then we
+Try to change the values. It should be technically
+Ah, okay. I'll answer this question share your code base also. Okay. Uh, yeah, i'll do that munish
+So shashar will be pushing his code i'll also uh may make sure that i'll try to update my code so i'll answer
+some bits question
+So some bits where basic question is like if you remember in last class we declared an object
+Uh, like let's say this is uh, one
+Let's say I have something like one and two. I have something like two
+And I go on to say that object two
+And I say object and I say that hey object two dot
+One equal to let's say three
+If i'm doing this way so
+Or this is the question, isn't it sambit are you talking about this one?
+Right now what's happening when I explained last time in reference data type
+Let's take this one
+Let's take this example
+First object was declared and uh memory was created which is storing this particular thing, right?
+Let's say what it is storing
+one
+one
+And two two
+Right now when i'm assigning
+Object two to this one
+Right when i'm assigning this to it
+actually
+Const is something we say that final
+final value
+right
+So what I mean to say that for the object to one object you cannot change it
+But when you're actually considering reference data type, right when you're considering array also
+Array also you can declare array
+Like one two, three
+Four if you see when you're declaring a const as an array you are able to do something like a push operation
+or pop operation
+Or shift or unshift or any sort of operations because on reference data types
+You're not actually you know, there's something like it's not working like pass by value
+It's working like a pass by reference
+I'll discuss this in depth actually how this is working why const why even after declaring const you are able to update
+When you're declaring it pass by reference, right each copy will have the reference and they can update it
+It's not that you are updating the like this value
+But if you declare
+Like a primitive data type right const x equal to two
+Right, then you cannot go and say that x equal to three
+Because this will be stored
+Here in the stack and stack value will be final. But when it comes to reference data type, you can still do the manipulation
+Yeah const behaves like a let so when you go for
+Like let's make let me fix this issues like i'll show you wherever I use let right
+Since we were discussing more about
+for some works
+For map, let's say, uh, if you see here wherever I used it
+Let's say this is a loop, right if you see loop
+Uh, let me uncomment this code in the map I have let's say if I make a const
+I comment this out code
+Okay, if I comment this code and if you see I made a const result array now, let's say I
+Clear this and I say node map dot js
+You see I didn't get error
+But we are adding something to it. So for reference data type const will work like a let but
+It's a standard that you would declare them as a constraint itself
+Is that clear?
+Let's say even if I do right
+Even if I do this way, let's say
+const
+Object let's say I have an object
+Also
+And I return something like result
+Let's say i'm returning result comma object
+Okay
+Of object now, let's say i'm trying to just manipulate it. I'll undo this one or whatever. I'm trying to do it
+Let's say object dot
+Like whenever you don't know the value like you can do array of i
+And you can say
+Square of this one
+Okay, now let's see what will be the output of it
+If you see what I got and the output object for the 2 the square value is 4 for the 3
+It is 9 for the 4 it is 16 5 25 6 36
+Do you get that even if I declare a const even if i'm manipulating it you can do that
+So for reference data types actually
+uh
+let const behave doesn't behave differently, but it's
+standard practice to declare constraint use
+Uh, I mean the standard practice is wherever you are it's possible to use
+uh
+Const you should go for it until unless there is you are not updating that value again. Don't go for let for the primitives
+Okay
+Uh, so can I mark this as answered uh some bit?
+Great, uh any any anything else because any other questions you have
+Okay
+So are you able to catch up guys whatever i'm teaching the concepts wise and everything
+Could be rest operator spread operator destructuring that we have discussed in depth a bit clearer way
+Right great
+Class 10 nodes
+Because my way of understanding logics is that right, uh, basically I try to think like
+Even if I call back, what is the call back in real terms? Like when I say call back or reducing it filtering it
+Mapping each item like i'm mapping it to particular thing. So
+generalized, right
+Any such like when you generalize exactly with uh, use cases like you deal in real time
+You will be able to relate and you know, remember it easily. So that's my idea
+So that's why I try to take those examples
+Also any such gaming revisions for this concept like flex froggy
+Some bit if you see, uh, I don't have
+Anything like uh practicing if you see i've shown you for each example for each higher order function
+I've written a for loop logic. I optimized and written a bit
+I'm not I didn't optimize time complexity or space complexity
+But I made it to write a cleaner code even I took a prefix some even if I give you a prefix some problem
+If you are writing in js, you are supposed to write a for loop, but you can use it to reduce function
+So this will come with a practice
+All the things that you do with a for loop you will try to avoid those for loops writing
+Because you know that on an array or sort of logic you have this higher order functions
+Which can do most of the concepts that you want to do
+Because this will come when you try to go for problem solving pick it up problem solving try to do it in js
+You will be able to see this one
+But there are nothing like specific, uh things that I found it as such, but I'll check and get back to you
+Okay, so it's more of a problem solving in js. You'll be able to select you're using this higher order functions
+Okay
+So guys if everything is clear can we close the session
+If you don't have doubts
+We ended it really quick right two hours 13 minutes or 14 minutes clocked
+Linked to practice, uh
+problem solving functional programming, uh
+Let's say let's say let's say I do I'll show you something guys. I'll show you something
+Do this thing go to the late code
+Right problems pick it anything you have
+I think I have solved some list of problems, but let's say you go for two some anything that you have
+Right, uh, that's fine
+Okay
+You pick it in js simple you can practice it here right anything you can do good anywhere like num sign target value
+You know, so whenever you are trying to calculate you will get to see if there's a target value available
+We can pick it up any uh function like if you go for javascript right abhishek or anyone
+You will be seeing a default as a functional programming language
+That's the reason why I was saying I was saying that hey js is a complete functional program
+You pick this problem or let's say you pick it like let's say I pick something like lru cache lru cache is something a complicated problem
+right
+As I pick a lru cache
+Okay, if you see in javascript
+They you they declared in functions and there are something like prototypes we'll declare we'll understand what prototypes are in future, but
+Everything is a function. You will see a function key
+Uh attached to it. So whenever you write down the logics to it, right you are supposed to use these functions more and more
+So you'll get used to it like how do you do it now lru cache you you you basically if you go for java
+Right, even I think I solved it in java itself if you go for my submissions
+uh
+Right, so i've solved in java, but where when you go for java, you will be able to see like, uh, you know a simple
+Class-based approach, but when you go for javascript, uh
+Uh, you will be again writing in this functions
+I didn't practice in javascript as much because I was a full stack developer. I also work in java
+and for more most of the
+Yeah, i'm talking to both guys I got confused
+But i'm just saying that if you want to practice, uh
+If you want to practice, okay, just go for any problem solving you'll be able to do it
+Okay
+Yeah, thank you maneshwara
+I I would I wish for taking all the classes even I love it because uh
+I get to learn when I teach also because I get to uh study in depth. I study
+With better examples. It's like a revision for me. Also i'm trying to explain people
+And also i'm trying to
+Okay road map sh
+Okay
+So it's it's a really great journey for me also when I thought of becoming an instructor
+so
+Even I'll miss it. But yeah family event one of the big thing. So this is a
+Link shared by ankit
+So he's talking about like roadmaps. Let me ping pin this one for everyone
+One can explore this
+I can do anything share it in whatsapp. I'll pin this in the whatsapp group also, okay
+You have whatsapp you are added in whatsapp group
+Uh share it there i'll pin there for anyone like if you see
+Let's say if I open role-based
+They have really
+Man, I believe one who want to you know increase their followers on instagram like linkedin
+They can use this site and they can keep on pasting roadmaps
+Every day one post
+Uh, it'll get good enough good amount of followers
+But yeah going going into this one or what we have learned till now, okay what we have learned till now
+Let's say we talked about front end right? Uh now
+Even if you think like what we have learned if you think in front front end
+We have covered this now. How does internet work? What is http domain name?
+dns server browser how they work we have covered most of the topics isn't it
+Hosting will learn when you deploy it when you go for build a project and deploy it
+Right and when you go for html, we learned basic. What is semantic html?
+We heard we learned form we didn't learn validation because we'll go learn validation only when
+We know javascript
+We are learning javascript
+Then accessibility i've shown you, uh
+SEO basics and accessibility while i'm trying to generate a report on a apple.com or youtube.com, but i'll discuss that in depth
+Yeah hosting, uh is uh, yeah, you might have hosted it anket, uh, but there's a different ways, right?
+How do you deploy front end back end and combination of them?
+Uh, maybe a simple static project or a dynamic project. There are too many things in hosting
+We'll see what all possible things are there
+and when you
+Come to css. We learned basics. We made our layouts. We made a responsive day designs
+And when it comes to javascript, we learned basics now dom manipulation shashut will cover then i'll build projects once we learn dom manipulation
+Fetch api will be introduced also and for git guys git, uh, those videos are added in archive section or not
+Has anyone seen in archive section does git link is added. Oh
+So
+Okay, uh, i'll i'll do that i'll check with the team again, uh, i've asked them two times to add it, okay
+So we'll do that and once it is added this part will be covered
+then
+Package managers, uh will be using npm package, uh node package manager, which is given by node.js
+We're already using it when we execute using node, then we'll pick a framework we'll pick a for surely I think we'll pick a react
+Okay
+We'll pick a react then we'll start writing css. So we learned, uh tailwind css
+Uh shared cnui is a great one, but we'll talk about this one later
+Uh, we'll pick up tailwind. We'll also build a project using tailwind here and then we will go for css architecture
+I've talked about bem. I've given you a you know article to read on bem. Did I
+When we discuss css, right? So go with that one
+Then css preprocessors, uh, i'll give you a high overview of what sas and post css are
+Like how they use it. This is actually a compilation like how do you use it? Uh preprocessors
+Uh
+This is from a deployment point of view like not from writing code, uh, but how do you write it in a better way?
+And build tools, uh will come to that step by step
+Because these are like, uh depth in depth like when you understand this one
+In testing, uh, we'll learn just
+We'll learn just
+Play write or strip press is out of scope. These are used for automation
+um
+Yeah, uh for bem article, right? Bem, uh
+Bem
+Let's say if you go for this one
+They have a particular bem
+Now you can practice this one
+Where uh, we will be learning testing i'll introduce testing uncle like how do you can you do testing and i'll give you the roadmaps?
+Like actually i'll give you more of a content where you can develop knowledge on it
+Uh, because if I complete this we are covering at most all of the things that you see in this road map
+Okay
+I'll if if i'm not going to teach you something i'll help you out with how can you learn and how can you
+Expand your knowledge on this
+Play write
+Yeah unit testing. Yeah testing as a unit testing, right?
+We'll use a just a package here if someone is uh familiar with java
+They might have used something like j unit, right?
+j unit testing, uh
+and for uh, uh like functional test
+functional
+test in spring
+Functional test, uh framework
+Okay
+J unit is fine, but
+There are other languages other I don't remember the exact one that we used it at paypal
+Mockito is there mockito is for mocking but
+But
+Yeah fun, uh, no no maven is different thing maven is a build tool so
+Seperous is used for automation testing guys like just in browser testing like you're not using it
+But you are making an application to run it like you'll try to write a test
+But you have to explore uh, even I at my office, right what I do
+I write seplus test. I write j unit test. I mean using just also develop code. I write the documentation
+So as a developer you have to do
+Six seven things when you get the complete ownership of a particular thing, right? You're supposed to do all of those things
+so
+Learning like you have to learn this all these things are up to an extent authentication
+We'll use jwt. I'll explain jwt completely
+In depth oauth is something i'll give you a documentation to understand oauth is
+Where you will learn like, you know login with google or gmail or anything, right?
+Yeah
+Yeah, full stack is actually completely bigger module guys to cover it, uh
+right
+so
+I don't think web components are needed typescripts are needed as of now
+Uh server-side rendering I can talk about it, but
+Um as you as you will grow right as you'll grow over the ladder
+um
+You're supposed to know most of this guys you're supposed to know most of this
+Because I see I use graph ql. I use server-side rendering initial page. I use typescript at office
+Right next.js is somewhere. We are uh exploring it, uh, because we use simple react and we have our own crackin framework
+But when xjs is we are in the uh
+We are piloting it using again. Does anyone have heard of this one? Uh module federation
+Someone experienced with react
+So someone came across this module federation
+Did anyone heard this earlier
+So
+uh
+I'll talk about this once we learned uh react right once I completely teach you remind me that time. What is module federation?
+Okay, how can you use this and what are the use cases when it comes across? Okay?
+I'll talk about this one later, but not to pick it up right now, okay
+Then yeah, see where I told you earlier right once you learn react and javascript you will be able to build application in react native
+Which is a mobile-based application and for desktop, uh, there's something like electron
+Electron.js that you can use for desktop web applications like you have flutter here
+right
+And even here, uh, if you see this is not completely things that we are going to learn
+But there are more than this what we are going to learn if we go for node.js
+I'll talk about node.js use history
+Then i'll talk about node.js versus browser. This is something we have already covered node.js versus browser
+Running code in node.js. We have covered
+I do it every day
+uh
+I'll talk about error handling using debugger. I just showed you debugging right? How can you do it in debugging here?
+then
+Handling async errors even all this thing mostly will cover everything guys mostly on top of level it will cover everything
+But if you want to go pick by pick by topic by topic
+Maybe some things we have we won't be covering it, but most of the things we'll be covering it
+Uh, we are going to build web projects since mobile apps are specific to react natives on with
+Our responsive websites, we are going to build a responsive websites
+But mobile apps are like native. It's up that
+That framework we have to use there are some changes once you learn react native react native would be really easy for you
+Okay, we'll learn mongoose document db
+Right. We won't be using a relational db
+And testing will use just
+Again cpress is common across them mocha is common across java and everything for mocking it
+Uh
+Someone can learn memory leaks right garbage collection these two topics in depth
+They're really great
+Will understand fs, uh file system, uh, like library will understand paths
+right
+We'll use uh, like someone want to build a command line application they can use this process, uh arcs commander.js like
+I've i've built one application guys if you want to explore right?
+Uh, I just built something
+Repositories
+Your repository
+I've used node.js one can explore this one. Uh, just i've did it last week itself
+Something called as uh cron parser
+I built a rest api
+Backend application using node.js
+only one api, uh
+I also gave you here exported collection, uh that you can use it in postman directly
+You can go here. You can see that it's an mvc structure. I have also added some test cases
+I've also gave you a documentation that you could clone this, uh npm install run it
+Run the test cases end points and everything. I've given everything like what it will does
+You can do anything that you want again like we can build it we can explore that how we can do
+So
+Keep on building projects because I do it myself you can also do it
+Yeah, yeah, you should do it
+Guys, can we close the session?
+I'll keep on talking
+Trading bot, uh, it would be tricky. Uh
+Okay, uh who will execute trades on my behalf, um, you know, uh other than that one ankit
+I'll tell you something like if you can build one thing
+It's just an interest some bit like you can do that now
+I'll be busy for next week. All else. I keep on doing this in learning point of
+Like let's say, uh web crawler someone did anyone?
+Explore this one anytime in future. What is web crawler?
+so
+Uh somebody if you want to build a uh a tool which will execute trades for you, right?
+but
+For executing trades, you will need information
+Like which stock to buy which stock to sell and when to buy when to sell
+You need information to need if you need that information
+Uh, you want to read maybe multiple business channels or news or anywhere something on internet, right?
+So if you want to consume let's say on six seven websites
+Or data, let's say if you want to understand buy signal, let's say there's an sell signal for hgfc or buy signal for hgfc
+If you want to collect the data
+From our different websites you have to build something like a web crawler or a sprider
+That will keep on reading that sites and will give you the filtered information that which to buy which to sell
+Let's say there are seven sites you are following in seven sites
+They say that six six sites says that buy hgfc today and one will say that one won't talk about hgfc
+So you'll get a clear idea that which one to actually do it. So you you should actually build a web crawler
+Uh to get the information rather than like someone who is executing it
+Okay. This is also a bot. Uh, you can explore in the images
+I mean I got this from my one of the senior director who had built a web crawler
+He does too much of trading
+so
+Like
+He doesn't share the code actually but uh
+Uh, but really insightful if you go and sit with those genius people, right?
+They can explore web crawler. How does it work and how do how can you build it?
+Okay, like web crawler url data url list and you can request an htm like you can do this process engine
+Yeah
+If you if you know, uh web crawlers are like
+Uh products on web crawler like if you if you can build a
+Uh, like if you want to build a business out of it, let's say
+If you want to build a business out of it, how can you do it?
+Uh, like if you have it, uh, let's say you could go you are the person who want to suggest
+Someone to buy someone to sell you can explore this one
+Like data extraction to like this is a data extraction to create webcaller like you pull the data out of it
+Now they are also selling this information
+see
+Crawl and extract data from any website any language any script any location even location sensitive websites
+They found a way to go into that website
+Complex navigation structure complex javascript menu or pagination improvement bypass any bot protection
+Bypass any bot protection these people are saying that we will spy data for you
+Imagine if you can spy anyone's mobile like uh, there was something like uh, you know, if you remember, uh
+That opposition of india had raised the clause that their mobiles has been spied, right?
+Uh, their mobile has been spied and uh
+uh
+Pegasus pegasus right pegasus. Did you heard this word pegasus?
+You know, they use something software called pegasus installed in everyone's mobile and uh,
+Uh, they were trying to read the data now
+What pegasus does?
+Pegasus goes and sits on everyone's mobile
+Mobile sits on everyone's mobile and it's crawling the data. Generally, it's reading the data whatever they are doing
+It's so pegasus in a way
+Is something
+Uh web web crawler instead of web scrawler. It's an app mobile scrawler
+So you can build those but you have to have
+Is it not something it's a crime. That's why they shout it, right?
+Okay
+Yeah, yeah people does it know can I get password people does it but once you are caught you are inside the bar?
+You can uh cannot you cannot go into
+Uh, you know privacy privacy issues
+Uh, like someone private a mobile is a private device, but you can go
+You should understand norms like if you are even reading a data from some websites, right?
+You should know that whether those websites are does not have any rules which are protecting their data
+Let's say you go for get uh geek for geeks
+uh
+Now if I go for geeks for geeks and I read the post from it and I write a linkedin post on it
+They won't uh, uh claim rights, right for that one
+That hey you copied content from me you will I'll file a case against you or suit against you
+If if they are doing those sort of things then you shouldn't go for their uh part while reading the content
+So pegasus is not legal but company pays it because they do it without people knowing it
+And they do it on something like an iphone which says that uh, you know protected device
+You can do anything man if you have a list of learning right learning and exploring things and time
+Time is a main factor
+uh
+I would say
+You know focus on one path and be good at that one. You can do many things many many things you can do
+but
+focus on one part where you can
+uh
+Yeah, job is killing me. I agree. Okay, like that's that's that's uh, that's an issue, right you focus on one part and
+Explore that go into depth understand it. You will do amazing jobs
+right
+but
+If you keep on picking multiple 10 15 items, right you won't be learning one thing in depth and you will not be
+Sure about anything I can talk about any topic, but if you ask me
+What i'm good at
+so i'll say that hey i'm
+Good at what i'm teaching for sure and in depth like
+But after me if I if I go into complete depth, right?
+Even for a whole month stack i've told you when I went through that path, right?
+I've seen like hey, I know this I know that I can teach this I'll teach that
+This is something we have already covered. This is something we'll pick it up in future
+So as soon as you focus as you focus on one thing on on you will be covering all those things
+So don't divert yourself
+Only once you have time enough time once you make good amount of money, then you can focus on 10 15 items if you have
+So just think of anything in that way
+So, okay, then i'll drop for today
+Hope to see you next saturday then have fun. Good night guys. Take care
+Keep learning keep solving assignments. Okay. So guys good night. Bye. Bye. Thanks. Thanks
+You

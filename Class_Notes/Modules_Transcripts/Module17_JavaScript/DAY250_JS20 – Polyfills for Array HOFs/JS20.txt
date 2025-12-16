@@ -1,0 +1,930 @@
+hi all good evening hello all guys am I audible and visible hi Kabir thank you
+nice let me share my screen
+please let me know if you can see my screen share also
+so we are going to end our classes on JavaScript next week isn't it next week
+let me see how many classes are left yeah I think four classes are left on
+JS part so one thing call out is that you know post JS there will be a
+contest and also mock interviews case so I hope you guys are preparing for the
+contest firstly contest like revise all the topics revise all the things that we
+have discussed over the time okay if there is any challenge during any
+of time whatever we have discussed I've been always available whoever ping me I
+try to respond them personally anyway with any way of communication and even
+in case you feel anything there's something left behind to discuss or
+teach or you know topic that is being discussed please bring it up so that we
+can you know discuss on that topics other than anything in curriculum okay
+Kabir so are you talking about asynchronous JavaScript things we have
+discussed on promises and okay so this thing related to promises async await
+keep keep the oops part aside but other than those two classes call blind bind
+apply and we have seen examples related to call bind apply and then we have
+discussed asynchronous JS like those are concepts right in order to introduce
+concepts we have discussed with those examples I've also shown you one of the
+API read JSON builder where you can actually you know communicate with a
+real-time API and how you do it so those concepts are actually not theoretical
+but those concepts are really important like from interview perspective to know
+or answer like if someone asks you what is asynchronous JS how does it execute
+how does things handle what is your promise or promised at all settled race
+conditions you should be knowing all of this stuff because in a way around when
+you actually do good do and you know build a project you are going to come
+across this topics very frequently very very frequently if you remember one of
+the project we build a very small project called weather app in that you
+are actually making an API call to weather API which was giving you a data
+depending upon users input right so you should be knowing it how we are
+actually handled handled it like if you go back into the code now we will be
+able to relate more why async await was added and what is actually happening
+behind the scenes right so it's more of with practice it will come we'll see
+usage of them more and more but you know since those were topics introduction
+that's how it can be thought that's one that's my idea but for more practical
+use cases right when you actually consume more amount of APIs when you
+actually build projects then you will be seeing that part of asynchronous
+okay so if there are any other concerns or any other doubts right related to
+anything topics that we have discussed on the day one of our classes for this
+full stack if you have anything please raise it raise them like we'll have a
+discussion on that part okay let me start stop watch so majority of things
+could be like if you see like all the things that you see in the network tab
+right whatever calls are being made in the network all these things are ready
+to promise itself like how do you consume even the style sheets there
+might be a API call which is actually putting the data that will be an also
+need like you know promise rough-handed you go to any built-in application you
+will see n number of API calls are being done let's say if I reload this page so
+let's say if you see these two calls are done how would you consume their data so
+in order to understand all of them you have to know what's a behind the scenes
+things are happening so we'll come to them each one by one step when you
+actually how you build an API or how do you consume more amount of APIs are
+doing with a post put update calls all of them you'll see great amount of
+examples post react but currently we are introducing a good topics at our length
+right if I overburden you guys with more more amount of more things then it would
+be really difficult to get the understanding about the topics that we
+are discussing so anyone else having any other doubts guys anyone else having
+any other doubts does anyone else feels same as Kabir that the topics that we
+have recently discussed are more like you know or theoretical but connecting
+them with the real-time will take more time for you guys
+I see one thumbs up okay let's bring in chat guys like whatsapp but just let me
+know whether are you able to follow up with whole asynchronous JS have you got
+the understanding about asynchronous JS right
+okay yeah so that things will come guys like with practice like as some bit
+says you if you see building projects is an actual use case where you will be
+seeing it as we build few more projects you'll be seeing them but few things
+comes from our point of view is that actually teaching you the basics of it
+then building things up on that one right so but any any other doubts like
+if you have any other concerns from the topics we have discussed in case if you
+didn't understand any of the use case do let me know okay because asynchronous
+JS is one of the interviewers kind of favorite topic when they want to really
+understand things right how you would you make a series calls now when I say
+that we are all we have discussed in terms of like calls right making series
+consuming data from third source party like it can be file or simple array or
+object or any data source so these are the most common use cases where you're
+going to deal with them at real time how would you consume all of them and how
+would you use use easy use case like this will come with more amount of
+experience like when to make what sort of calls and all those things still I
+see okay but any other things guys if you want to flag if you have any
+challenges but I want to talk about one thing is that again our disclaimer we
+have four classes left in order to complete HTML CSS and JS part this will
+cover all core fundamentals and basics of your web development once these are
+done we'll be moving with the react react JS to be specific make sure that
+you are pretty much clear with each of topic so that we leverage this in a
+better way so that we can understand this thing in a better way I hope this
+point is clear guys so that if you are clear with this each of one you will be
+able to understand this one in a better way if you are lacking somewhere then it
+would be a tricky for you also like why even if I explain multiple times there
+might be a few things that you should be knowing basics of them and these are the
+basics that we have covered hope you revise everything and there will be a
+context coming after this for class so be prepared with them so that you you
+know test your knowledge right so be prepared with that part and try to
+attempt it okay will it be theoretical I'm not exactly sure something let's
+let's not keep it that way let's go and try it out okay it will be 50-50 you can
+say okay there might be some questions asked there might be things on a
+synchronous chairs okay but as I've seen that most of the people who were
+actually attending classes and you know trying to attend the mock sorry contest
+they are doing better and they're also raising flags on questions like how
+there can be multiple answers or the P1 answer is wrong I appreciate your
+efforts and going into you know understanding each of them one by one
+but if there is someone who haven't taken earlier marks right I would request
+everyone of you go and take you know in the practice mode open the can we pick
+it up once we get started with that topic actually because that would be
+better way to explain things on that okay great just a second guys I just
+want to see how we are doing in terms of batch
+anyways so this can we get started with today's content great so let's not wait
+anymore and we'll get started with this class I think good enough people are
+there that's 12 minutes up now so today's class and the class is mostly
+based on some topic called polyphils okay but now I have raised this word
+earlier also but do you know what this polyfill is what why we call it as a
+something called as a polyfill does anyone know this keyword I see one
+thumbs up can you two people can you guys type it down personally to me what
+you understand by a polyfill guys Muneshwar Opendra what's your understanding
+related to it what is an polyfill okay nice Muneshwar are you typing it down
+okay great so there are two definitions that I got it both are actually trying
+to explain what polyfill is but let's see let's understand going back to
+JavaScript right where does this HTML JS and CSS are actually passed into and
+where this are working on which is the machine is actually executing them
+guys I think everyone knows this answer just want to know like where do you
+where you use actually this HTML CSS and where this is actually executed or
+past like where do you open a website what is a tool you use to open a
+website browser right now all these things are done in a browser now if you
+remember browser is providing us some API's right like API's when I say
+inside a window you will see that there is something like document there is
+something like location there are storages most of the things are being
+provided by a browser right guys do you agree that browser is actually providing
+us this list of API's to in order to build or develop now even if I type down
+like array at heart if you see remember in our inspect console tab I used to
+type it down array.prototype right all of those things I used to type it down
+and this array is also defined where if I write down directly in a browser I'm
+able to access array right I'm able to write down console directly logics how
+this is able to work
+this is because whenever you install browser right all JS code is already
+present in that array array related information is there object related
+information is there function function related information is there do you guys
+agree with that part guys that everything is present in the browser
+be pre-packed like if you want to see let's say this is an browser where we
+haven't written any code but if I go into console like I can type down array
+see I'm having this number of arrays I can type down object if you see I'm
+getting this amount of things this all things are actually coming along with
+the browser itself now who is actually building the browser am I are we
+responsible or any companies are responsible or is there any common body
+or everyone have their own set of specifications who is actually owning
+or managing the browsers guys who is actually managing the browsers
+companies like let's say who is who is the owner of Chrome Google everyone
+knows that then if I write Bing who is the owner of Bing Microsoft and then
+Safari
+Apple so even there is one more thing Firefox just Mozilla corporation now are
+the developers of this four companies sitting together and building this apps
+or their each individual team is actually building as per their own
+requirement each everyone is building as per their own use case right whatever
+they want to add that's where that's where this different browsers are like
+we might prefer Chrome better than any other or Bing is preferred better than
+Firefox Safari now the developers specifically prefer Chrome there's a
+reason for that because we were able to debug in a better way we are able to see
+the code write down the things isn't it that's where Chrome is actually better
+application now even if you go these are the latest browsers but do you remember
+something like Internet Explorer Netscape old browsers these are old
+browsers now let's say this is actually managed by Microsoft itself isn't it
+now Microsoft in between left this project and they started this one right
+Bing from scratch again to compete with the world the left Internet Explorer
+they stopped releasing new versions and this they built this one but if you see
+what happened our HTML CSS JS code all is passed into this set of machines and
+this set of machines are not same each company is building own machine and we
+don't know where things will be working right now so what poly fields are let's
+say there are some latest versions let's say there are some functions let's say
+there is some like let's say you say that some methods newly introduced
+mothers let's say promised at all okay we need to see whether this particular
+method is actually supported in all of them we are not sure right we don't know
+whether all these things are supporting that one we know that this promised at
+all is coming from browser we have checked in the chrome but our website is
+not specifically supposed to run in chrome is it supposed to run in all the
+applications right wherever user opens do you guys agree with that point we
+have to build application cross-functional sent it now there is a
+one website do you guys know this can I use this actually websites gives you
+information about actually which feature is available in which browser like it
+shows a browser compatibility let's say if I tried on promised at all and enter
+it what it gives me it gives me the different browsers like chrome it's
+Safari Firefox Opera right now they'll give you actually let's say promised at
+all JavaScript built-in or promised our
+prototype but finally all these methods where they are available if you see in
+the Internet Explorer is not supported anymore okay this this actually website
+gives you information about like which is actually supporting right now in
+case in case let's say if you see opera mini right opera mini that doesn't have
+any information here we don't know if they are supporting it like promised at
+all sector or UC browser do you remember UC browser Chinese browser which used to
+come in mobile right by the browser so there are many things there are
+different machines built by different teams so we don't know whether it is
+actually supported if you see our promised at all sector is actually
+supported for the ninety five percent and promised at all is supported ninety
+six percent but there are some use cases which are not actually supported now but
+how do you deal with them like what if let's say if you see a banks right banks
+even in most of the let's five years back banks used to prefer I browser do
+you know this they used to prefer only Internet Explorer mostly five years back
+they actually used to write now a person like a web developer like us was
+actually building for a crow and this people Microsoft people are not you know
+building this one but whatever we are supporting chrome we are supposed to
+support in this IE then what we used to do right if there is a some API or some
+method like let's say this is a promised at all is available in chrome not
+available in IE then we used to write a custom function like a promise start my
+all which used to actually take care of replicating the behavior what actually
+doing so that we ourselves are building this common API's and so that it is
+supported in cross browsers and this custom function whatever you have
+written which is replicating actual behavior in order to support all the
+application this is called a polyfill polyfills for the non supportive
+browsers or non you know which doesn't have that feature is this point here
+is what is polyfill now so this is actually five years before five years
+this was actually one of the interviews focused questions because they used to
+ask them specifically because web once you develop in one browser it should be
+supporting in other browsers so how would you make it compatible so if you
+are this is a production bug right so no one wants like one working in one web
+not working in other web so you they they used to specifically see whether a
+developer is able to write the code but today's world mostly all the browsers
+are well maintained and they're doing it well the teams are doing well to keep it
+up with you keep it up with in sync with ECMA script but what happened is like
+because this was asked in earlier interviews they're still asking right
+writing up polyfills write a polyfill for let's say some for some dash any
+function whichever you have it in JavaScript they asked you to write your
+own library method is this clear guys what polyfill is and why we have to
+learn it and why the interviewers used to ask and okay so now we have two
+classes on polyfills first okay these are interview specific so one in class
+we will discuss about discuss about HOF in other class we'll discuss about call
+wind up like okay we'll discuss these two topics okay in today's class we'll
+cover HOF where if you see an array with three had three functions map filter
+reduce and for each okay if time permits I'll pick up flat also this five
+functions this five functions without using these functions will write our own
+okay we'll try to implement on our own guys I'll come to that some bit I'll
+come to that we'll talk about that okay but we have to we have other than flat
+we have discussed each of this function isn't it I hope all of you know the
+meaning of it so that we'll get started with this implementation okay let's say
+I go back into our code now if even if you go and see this right filter let's
+say if I search it let's say in global if you see only 17 percent they
+supported all other people are not supporting it like most people are you
+see in Chrome they are not supporting it particularly you can verify like where
+it is supported why it is not supported okay you can use this website well pin
+this one I mean back in my days when I used to code for Deutsche Bank I used to
+use this website because they used to use IE Internet Explorer which was like
+really difficult for me to write any logics and cross browser testing we had
+to do we had to do many things okay and other than this thing guys I have added
+the screenshots which you asked for me like related to this okay guys I hope
+you are able to understand when I when I have written this way I try to replicate
+it what we have written in notes like so that you can figure out the output and
+also I added related to slice and splice because this is also asked in
+interview like what's the difference between array dot slice or array dot
+splice okay hope you go through this one push this code already okay thank you
+guys so let's start with our last coding okay first and foremost polyfill
+that we are going to pick is about for each let's say for the start chase now
+yeah class number 27 right some so guess how do you define for each what do you
+think for each is firstly just want to know what's your understanding on for
+each let's say I have array of 1 2 3 4 5 6 let's say this number numbers are
+there now what for it used to help me out every item in an array it is an
+iterator can I say it is an iterator right let's say if I do array dot for
+each first it used to take a callback function isn't it it takes a callback
+function inside this callback function it used to provide support like what all
+it used to provide support it used to give each element to us also it is to
+provide index right if you remember callback function value current element
+value and index and the array itself like if you need even array you will be
+able to access it let me show you once an outputting this thing how this thing
+looks let's say index and array all of them
+clear node
+okay if you see it here what just happened it prints first number like
+element one then it is you give me index and then it is giving me an array right
+and depending on whatever operation whatever operation I have to do let's
+say if I'm trying to multiply each element let's say I try to say that
+return element into twice okay let's say I'm doing this logic now tell me one
+thing does this for each returns anything or does it for each returns
+anything or it's just like an iterator it's like a for loop do I get anything
+in return by directly or it manipulates existing array what do you think like
+if I do console dot log array what it should be if whether this it will be
+multiplied all the things will be multiplied like two four six eight what
+could be the output here firstly when I print array itself like it should be
+this order or it should be this order it manipulates existing array okay how
+many if you think that it if you think that it is manipulating existing array
+give me thumbs up if you think that it doesn't manipulate existing array give
+me thumbs down okay three people say that it manipulates okay let's see this
+what is actually happening if I try to print it now okay clear it if I try to
+do this do you see it here that it doesn't manipulate existing array
+firstly guys whoever give me four thumbs up it is not actually touching the
+existing array but it you know multiplies each index and whatever you
+need it right you have to store in a new array value okay if you see let's say
+if now whether this will be actually returning here you see here I'm trying
+to store in something in array one whether this will be having anything
+value now what could be the output of area one case firstly I'll come to that
+I'll come to that but do you think that what will do think here output should be
+two four six or here we have figured out that it is one two three itself let's
+it is two four six if you see I'm receiving an undefined check now if I
+want to manipulate let's say if I want to manipulate existing array firstly you
+know remember one thing for each doesn't return new array okay it doesn't return
+new array if I want to if I want to manipulate existing array what I can do
+it here is that I can select array dot index equal to this one is this clear
+if I want to manipulate existing array I have an index I have the current element
+I have an array I can I can take that existing array I can point to each of
+index and update it now let's see this start if it is updating let's say this
+is I'll comment this one let's keep it let's keep it so that you remember that
+it doesn't return anything now do you see this it got updated we are getting
+four two four six now in array also I hope this point is clear related to
+footage it is just like an iterator it doesn't any do anything it is like if
+you want to iterate over the each element it iterates it doesn't do
+anything else I hope you got it it's just like first loop nothing each
+nothing much now if you want to replicate let's say if someone asked you
+in the interview can you can you build this can you build and give me a poly
+fill for this one for the for each function how would you approach it what
+would be your idea let's say now what how I want to execute this let's say for
+I'll say like my footage and I want to do this thing let's say copy everything
+here okay guys now whenever I try to do again I know if I'm again outputting it
+it should be giving me an actual output of four eight to well since once we have
+multiplied it already here we will be replicating again if I try to do a
+console lock below it should be updating it now it's some bits it's create a
+function I takes three parameters okay any anyone else case anyone else having
+ideas like firstly it is available on my array array dot my footage how would I
+how should it be how we can make sure that it is it should be available on
+array dot how should we make make sure that it is available for all the arrays
+because we are building up array I'm in a utility method on an array type and
+it should be supporting each and everything so one thing we can do is
+that let's say I built I build on the top what I'll say that array dot
+prototype now how many of you understand this word prototype is there anyone with
+this who don't understand my prototype okay I hope everyone understands what's
+prototype and why I am writing it this way now let's say here I'm having a
+function okay good now this is the function now on this array now every
+array whichever is built actually you know leveraging on every array my for
+each will be available now once I do this but how this should work they
+should try to replicate the same behavior firstly let's think of this
+thing what my for each is taking what is this what it is taking firstly what is
+for each is taking as a parameter
+approach step by step guys what it is taking a function right and what we can
+call that function as callback function can we say that it's a callback function
+right let's say that it takes a callback function in it right can I say this
+guys no if I if I try to do this let's say if I try to do here now just one
+question guys if you understand this keyword properly just tell me what this
+will point out inside here what will be this pointing to inside inside this
+function it should point out to a function or it should point out to an
+array because we are doing everything is an object which everything is an object
+in JS we have understood behind the scenes right so array should be this
+should be pointing to ARR right because we are calling array dot my for each so
+this keyword will be actually pointing to array which is this one okay once I
+have this now what should be my next step guys this is pretty much simple if
+you are able to think it what does for each is doing
+once have an access to array what what should I do pick up each element now in
+order to pick up each element what should I do it use for loop right let's
+say I have to write a for loop let index I should write the in a for loop on this
+array right on this array which is actually I'm receiving this dot length
+guys are you able to understand this like why I'm writing this for loop now
+inside this for loop for each element for each element am I calling this call
+back function for each element in this array one by one I'm calling this call
+back right same thing I'm doing it right for each of this element I'm actually
+making a calling a call back let's say we we call a call back now while
+executing call back what all things it is expecting the call inside the call
+back it's expecting three things isn't it the current element how can I get an
+access of current middleman can I say this dot index and I can pass on index
+and then I can pass on this right yes I did you understood this one this is an
+actually prototype of for each let's say execute this one let's execute this one
+whether this is working or not now do you see this first a general for each
+function which was returning me once I executed this part on this array it was
+returning multiplied by two four six eight then we built our custom logic my
+for each and we implemented proto fill a polyfill for that one and we executed
+then we got output of four eight well I hope this polyfill is clear to you if
+there is anyone who don't understand this do let me know I'll wait for two
+three minutes here okay if there is anyone I'll wait for two three minutes
+so that you are able to get all the concepts that how we are actually
+creating a function on a library how we are replicating them step by step okay
+is use case of for each is clear again and how does for each works and how can
+you build a proto polyfill for each for the furry if someone asked you in the
+interview would it be able to demonstrate this one taking an example
+and building this again replicating this one yeah I would do that okay so first
+thing remember one thing that for each actually doesn't return you anything
+okay it just like an eye-treater it just I treat over the elements it doesn't do
+anything else okay and it takes a callback function inside it and inside
+the callback function it receives three parameters one is the current element or
+the current index item you can say then you have the index of each item then the
+whole array itself will be available as a third parameter using this you can do
+anything that you want to do in a function body what I've just read is it
+I'm updating the existing array information I wanted to replicate this
+structure building my own custom polyfill such as such that I call it
+like array dot my for each now I'm supposed to make this my for it should
+be firstly available on all array data types so what did I do is that first I
+created I've written this logic that array dot prototype prototype dot my
+forage because it should be available in all array types of data types once this
+is available I was trying to see this behavior firstly okay then I went step
+by step I've seen that hey I have this up this keyword here and this is
+actually pointing to an object now that object can be an array since everything
+is an object in JS I'll be having an access to the array once I have an
+access to array inside this I ran a loop over this which is an array itself and
+call this callback function with these three parameters whichever this call
+the pack is expecting okay is this clear guys
+shadow let's move to new thing called map dot JS let's again I have this array
+itself now what does map do is I just want to know if you remember what does
+map do what's our difference between map and forage does anyone remember it what
+map does it returns a new array right anything else case
+okay let's say let's say that I write array dot map again does it take a
+callback function guys some bit map that's something that you are
+understanding keys and values it's a different thing but I'm talking about
+higher-order function map here pointing to some bit wasn't not you trip some
+bit party so that you understand that on array we have three higher functions map
+filter and radius which are commonly used and extra one is for each okay I'm
+talking about them so hope you are hope you got this point okay so as people are
+suggested okay returns a new array and also again each element right it's an
+iterator and it returns something whatever you do it operation now let's
+say if I have three things again an element again if you see index again I'll
+have whole array here available right once I have this now let's say I can
+return element restrict twice now again again once one question does it still
+changes or manipulates this array if I do a console log let's say if I do
+console log of array what should be the expected output guys here does it affect
+the existing array got it some bit like let's say I store it and again array one
+but what could be the output of ARR what should be the output for this one what
+should be output for this one so Ashish says that it will manipulate the
+existing array also so do you guys agree that it should be two four six and here
+also you are saying that it should be two four six is it so what should be an
+output for this one guys firstly this is really basic concept I hope everyone
+remembers how that what is the difference between for each and map any
+random day anyone can ask you if you're a front-end developer anyone can ask you
+this thing like even a block person right let's say there's too much blocking
+happening on roads or streets in Bangalore or Hyderabad one can put up a
+mic and ask you if you're a front-end developer say difference between map and
+for each you should be able to say that it's really basic so firstly how many
+of you think that the output should be one two three right so let's let's see
+this one firstly I'll
+node map dot JS if you can see this that it doesn't manipulate existing array
+still not not even for each not even map touches your existing data I mean
+data set your existing data structure is not changed in both use cases is that
+point clear first point that in both use cases it doesn't change output of of the
+same data set only a thing a main difference between map and for each is
+that map returns you a new array like if you see I was able to store here in
+array one and I was able to output it whereas in for each I was getting an
+undefined when I was trying to output the array one so for each doesn't return
+anything map returns or something man's map returns as a new array is this point
+clear guys would you be able to answer difference between for each and map from
+now on it's really important because if those are higher order commonly
+reusable functions you will be using day in day out because the only two type of
+data structure that you play around mostly in front-end is array and objects
+so you should be knowing a good amount of like understanding on them okay now
+let me show you our difference between for each and map this is not the right
+article maybe images okay the return value is I hope you are able to see this
+image
+nice is this clear can you guys read it once from your point of view both the
+use cases it doesn't modify original array for each returns as undefined
+whereas map returns is like a new array let's say it says that new array is not
+greater at the end of the method call which is exactly pointing out to the
+second point itself here newer again okay this I mean I don't understand why
+they say that new array maybe they are talking about in different context but I
+hope this first two points are clear to you but what what is actually happening
+right now let's go back to this no can anyone help me out or volunteer me to
+build up route or polyfill for a map it's a completely same as her forage but
+some small change just want to know if can anyone help me out or just I'll give
+you five minutes guys just think of it like how would you build this one say
+what I want to do what I want to do is start let's say I try to copy and paste
+here but I'll say this is array 2 it's array 2 but I'll use my map yeah can
+anyone write it down guys can anyone write it down and send me send the code
+to me like for my map I'll wait for two three minutes they agree with your
+points Ramya in some bit but can you would write it down because if I write
+it down it's just like I can copy and paste off for each and I can change
+something I'll also give you if you want to see this use case I can also give you
+this thing now what would be the only changing thing here
+guys is anyone trying it or everyone waits waiting for me to do it no
+reactions do you want me to do it okay let's let's okay trying it trying great
+guys keep going I'll wait for the for the two minutes
+well what I'll do is that I'll just copy this one I'll keep it here on the
+top now instead of for my each I'll do my map I have to change two things
+inside it I just want to know what would you change it
+yes can I move ahead okay some bad ass ish
+okay somewhere the sing one minute okay
+meanwhile others also can think like what we have to change it because it's
+pretty simple and straightforward there's only one difference have we have
+highlighted is that map returns you something whereas for this doesn't
+return anything great on Ashish right somewhere agree so as ass is suggested
+that we need to create firstly new array with some memory one thing I said is
+that in JavaScript you doesn't really need to specify the size of an array you
+can directly initialize an array with an empty okay you don't really need to say
+that this start length that works but not needed okay if you are using
+constructor function of new array like it should be this way new array only
+when you do this then it can you know it will say it will ask you the length
+like then you can pass on this start length this would be the syntax in case
+if you want to create a new array with the certain length is this point here
+guys like how would you actually create an array with a certain length I hope
+everyone remembers that there's something like constructor function we
+have discussed and every thing should be there so let's say not complicating it
+this should be also working it now and this is something let's say we are
+returning it response and each of the value each of the value I have to be
+adding into this one right again I can do this thing or else I can do this
+thing
+anything works face both the things should work okay now how many of you are
+able to understand this a small chain is that we are trying to create a new array
+and pushing every element line by line because if you see whatever this callback
+function is executing multiplying each index we are adding back into a new
+array which is array one in a way right this array whatever this callback
+function is actually executing it and whatever this function is returning it
+like you can say element into two that we are pushing back into a response
+let's say this is working fine now do you see this guys that my array 2 is
+actually returning 2 4 6 8 10 I hope this logic is pretty much clear simple
+basic and there is if you see here in the differences they talked about one
+more thing guys this last point hoping if you are able to understand this last
+point for each method is not chainable map is chainable what do you think this
+is why do say that chainable not chainable anyone I see one thumbs down
+two now since can I say this in one line that farage doesn't return anything to
+make it a chain map returns you something so that you can add multiple
+operations like you can you can filter things right do you guys agree that if
+you want to do it let's say once you do this you will be able to filter it let's
+say filter again say element return let's say element modulus of 2 now what
+they should do actually what they should do what should be the output of here
+what should my output be here guys this was my output earlier let's say
+everything is even so let's make it odd or else let's let's do some condition
+let's build since they are multiplying by 2 let's make it multiplying by 3 now
+just we know that right we I think I hope we got the understanding what this
+will actually do why changing is possible on my app not on farage okay
+let's say I do this now if you see I'm able to get all the even numbers when
+I'm trying to output of arrow to just like I'm trying to fetch like I can
+filter it this is what a chaining means I hope this point is clear what what was
+that table talking about like third point with the basic differences anyone
+will be able you will be able to recall it right the difference between map and
+forage and once they ask you difference between an app and forage would you be
+able to build their poly fields to the fast great now now we'll move to the
+filter function actually it's again pretty much similar guys again like if
+I pick it up you have to help me out how would you do this let's say I have this
+array and if I do this filter what I can do is that let's say again if you see
+this this the callback function whatever callback function is there it again
+receives three things value in index an array now this is a predicate predicate
+something like based on condition something it does okay now let's say I
+have element index again the whole array now what we'll do is that only if
+element modulus of 2 is triple equal to 2 which I'll say instead of this adding
+condition we can directly return it okay now one more question does filter again
+does filter again change your existing array does it affect ARR would it
+manipulate it or it will return something it would return an array isn't
+it okay let's say I store it here and ARR 1 and I try to do console.log ARR 1
+and again console.log ARR okay now let's recheck this output clearing it node
+filter.js now I hope this point is clear how that filter is working it is returns
+or something and this is also still like you can add any number of chainings that
+you want okay yeah somebody is already thinking like how we can build polyfill
+but I hope this function filter works how it works we know that right and you
+guys give me one thumbs up if you know how does filter works it doesn't
+manipulate existing array and it returns as based on some condition it is trying
+to predicate something like possibility now again I am building something let's
+say array 2 and let's say instead of filter I'll say my filter and if I try
+to output again console.log array 2 it should be array 1 should be actually
+value should be equal to array 2 okay now if I have to build it on my filter
+filter on my array one of the common thing we have to do is like an array
+dot prototype dot filter once I do this I'll have a callback function on this
+callback function I have to do some condition one thing is common is that it
+is still taking callback so let's add a callback cool again cross checking what
+this is pointing to here the still is pointing to ARR isn't it right object
+nice now how would you build a filter here I think Sambit has already done the
+condition guys do you understand that what Sambit written in the chat able to
+follow up so I'll try to write down the logic let's see firstly again
+I treating through the loop I treating through all the items of an array then I
+have to check only if if callback of now callbacks take three things here again
+this start I and then I then this let's say instead of I I can make it again for
+better you know muscle memory takes me to I we are used to DSA people usually
+write IEJ those are things we remember right now only once this is only if this
+condition is true we add it to the response right again response start
+push I should off index I should be doing this start index and I should be
+returning this guys is this logic clear to you let's say I say this mime filter
+not overriding existing library right good now let's say if I execute this one
+again okay if you see we are still getting both the same outputs for the
+array 1 and array 2 so both are working as as expected so I hope this this thing
+is clear but I didn't wait for this one because this is pretty straightforward
+just like based on only condition if it is true whatever callback is executing
+only if that condition is true only then we'll push it or else will exit will not
+do anything if it is returning false right and this is the reason why I
+explained about like whether truthy or falsy condition like how does it works
+like in if condition when there is a particularly there is nothing like
+return type if there is even value how that can be if we go inside the if loop
+okay but I hope my filter for each and map is clear guys these three functions
+you hope you will be able to write polyfill without some revision on it okay
+then there is one thing which is you know reduce.js now how many of you
+remember reduce guys I'll open an example that we discussed interesting
+example I don't remember where it is
+guys do you remember how does reduce works
+it takes okay let's say I'll come to that I've actually shown you an example
+of prefix sum right if you remember prefix sum calculating a prefix sum using
+the reduce right I'll come to that I'll show that example again but let me
+introduce again a reduce once for you all okay let's say again I have an array
+again one two three let's I have this numbers reduce is actually a returns as
+a value let's say it returns as a value not an array but it does such a way
+firstly you know it's a it takes a callback function and it takes a two
+parameters what will be the default value and what will be the let's say
+initial value if I put it as zero why I'm putting it to zero is because I'm
+trying to replicate some of elements let's say some of elements now when
+there is no cancellation is done by default the value is zero it takes three
+parameters one is accumulator then current value let's say if I write down
+exactly the way it is showing previous value and it returns again an array okay
+it is doing three things for us clear firstly also let's say if we what if we
+receive index here the index have they they haven't exposed index in reducer is
+it it should be there okay let's say good now what I can do if I want to use
+this simply I have to do is like previous number plus equal to current
+value this will do my calculations now how many of you recall this example how
+many of you are able to understand this reduce how does it work if there is
+anyone who doesn't understand reduce case give me thumbs down if there is
+someone who don't understand reduce it is reducing all the numbers into a one
+particular number where we are doing some of the all the numbers here
+starting with zero as a previous value previous value is actually pointing
+starting with zero then it keeps on adding with the current number the
+current number will be one then two then three then it will keep on adding all
+the numbers let's see this console dot log result clear mode reduce dot js just
+a second did I make as I didn't return it sorry it should return the number
+right right yes if you see it here we got the whole sum of the all the elements
+I hope this example everyone remembers it so I'll go back to class that we
+have discussed class number 10 where we try to calculate prefix sum and we
+remember that for the prefix sum right we always used to return now everyone
+remember this prefix sum right the sum of the previous all the elements with
+the current element till that point now if you see this I have tried to
+initialize the existing array which will be resulting this is a prefix sum array
+in this callback function I mean two things an accumulator accumulator is a
+previous value till now what is the accumulated data accumulated number and
+the current value so what I say is that if there is if the item is itself first
+number if the index is 0 then directly add it push it to this array the current
+number because for the index one prefix sum of index one will be equal to the
+same number isn't it sorry index 0 isn't it let's say if you have an array of 1 2
+3 prefix sum would be 1 3 6 isn't it for the first index it should be this
+condition right same thing whatever it is there push it into this one then if
+the length is greater than it then I'm getting the previous sum whatever my
+previous sum is there plus current value same use case I hope this example
+everyone recalls it remembers it again rechecking with you if there is anyone
+who don't understand reduce if there is anyone do let me know or else we are
+moving ahead with implementing the polyfill for this one okay take it as
+know that there are no doubts on reduce I hope everyone understands it but now
+let's let's think of this one guys how would you implement this one what would
+it take to build a polyfill for reduce let's say I call it the same logic I'll
+copy this part instead of result I'll say result one and I'll say my reduce okay
+and here on the top I'll basic syntax I'll write down prototype dot my reduce
+on this let's say I have a function and this is what I'm doing same concept
+isn't it Ashish it's it's still same isn't it it's what firstly let's go
+step by step is it taking a callback function inside reduce firstly let's
+decide what should go inside this parameters here first is it taking
+callback function right let's say there's a callback function right it is
+taking an initial value it is taking two parameters isn't it this reduce function
+is saying two parameters callback function till here then no don't go
+inside the callback function somewhere first seen on terms of reduce level
+itself so if I cut down this one I write down const so CP is it taking two things
+inside my reduce
+guys right so we have to say that also along with the callback function I'll
+have something like initial value this is clear guys that it should have
+something like initial value first now what if what if there is no initial
+value provided what should you do if there is no initial value provided let's
+say I try to let's I try to comment this part let's say that we remove this zero
+initial value and I try to print this again what it is taking by default it
+is taking as zero okay now even if I let's say if I try to multiply it it is
+still does it take like one here if it takes zero if it takes zero then it
+multiplication should be zero of everything isn't it you get this point
+guys okay so now what I'll do is that I'll give a break of six seven minutes I
+want everyone to explore like how should you handle the initial value if you see
+for one use case it took it as zero for any use case it took it as one now how
+would you define like what should the exact value what in case if there is no
+initial value provided if it is an undefined how would you handle it okay do
+you need break guys or should we continue I think that people are not
+responding today too much guys I hope everyone is able to follow up it's not
+boring yeah condition for initial value figure out that thing guys that if you
+see I've shown you two use cases I have removed initial value for this
+existing function where I'm trying to find some of values in that condition it
+considered initial value zero but when I try to multiply it multiplying all the
+numbers then it considered as a one is that point here explore that summit I
+will discuss with after the break for the five minutes let's take the break
+for five minutes and come back okay
+I have started break let's meet in five minutes
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+guys is everyone back
+do you guys think what should be the how would you handle if initial value is not
+provided
+okay if not can we can we do it and I'll explain back let's say firstly
+whether whether firstly what we are resulting is like it's a constant value
+right we are resulting in a one constraint value let's say that I have
+a response and it is pointing to let's say initial value itself okay because we
+are supposed to return response okay in between we know that we have this
+operator which is actually giving me the array itself till here no doubts right
+till here no doubts I hope
+guys this point is clear right this is pretty much basic now what I'll do here
+for response I'll check first if response exists what I'm trying to check
+whether response exists what in general what I'm practicing whether initial
+value is provided if not provided this will become undefined isn't it so I hope
+you got this condition so if value is undefined I'll say that pick it up
+initial value initial value of array or else if value is provided in the right
+way then you go on to do the operations what operations you will do again in the
+callback if you see I have something that previous number where I'll store
+it in a response then I have the current number which is this dot I then I'll
+have I then I'll have this initial value points to this dot 0 if undefined right
+right something so this is what this is how you can handle it like if undefined
+will directly go for pointing out to first key then for the all other
+iterations it will you know take from that level if not if it is provided it
+keep on taking that initial values okay I hope that point is clear guys so let's
+execute this one whether this is working as expected say uncomment this logic I
+put back this call back inside here I remove the CB okay let's execute this
+one again no okay I made a constant variable let me make it as lit right
+now I got something is like I've seen for plus let's say first first we'll
+verify for the plus both are 5555 and if I check for the multiplication for the
+both the things with provided value as one first we will check with provided
+value both things are one if I don't give any value even let's verify this
+again both are still resulting in same things so I hope this polyfill is also
+clear guys like how this thing works for reduce function to can I receive one
+final check from you guys like all of you can you give me a wooden please I
+just if all these functions are because these are the three functions that you
+would be asked map reduce filter where people try to grill on they check on
+your kind understanding first you do understand this once you they you say
+that you understand this they might ask you to write a polyfill on that okay if
+this thing is clear I'll talk about one final method which we haven't talked
+about it yet flat dot JS have you anytime heard about flat added or flat
+okay I see no one notice
+now what do you see here this yeah flatten you might have seen like flatten
+the binary tree flatten the linked list these questions you guys came across
+this one anytime what do you generally do in flatten whenever you have a tree
+you would try to arrange them in one an array right one array like if you have a
+iron inside array if you see this is a two level nested level you try to make
+it one level nested is this clear what actually array dot flat does it's the
+same functionality let's say array dot if I take pick it up flat inside flat it
+takes depth what does it exactly mean by depth is that how many levels of
+recursion calls it should do that if I am having this is level of one level
+this is a two level if I write down level one okay and try to store here
+firstly let's see what happens if I store it if I make it level one and try
+to print it no flat dot JS if you see what just happened is it flattened all
+to the level one right it went into the depth of initial array then it went to
+level one let's say if I have it this way okay this is this is 0th level first
+level since second level now let's see what happens if I try to print it again
+do you see that 2 and 3 is still in array if I increase the level further if I
+increase the level further now it will completely flat it up okay generally the
+parameter inside this one is taking like how many times it should you know
+recursively check the condition nested condition how many times it should
+iterate through that I hope that point is clear like what depth is actually
+meant we what are the what is the value I'm actually why I am passing this one
+two or not passing anything if you don't pass anything what happens just let's
+see if you don't pass anything what is a default value also it doesn't do
+anything the depth level is zero it returns whatever array it is so did you
+understand what is flat what do you mean by flat flattening an array right
+this is an algorithm that you have already practiced for the different data
+structure in your DSA can you guys think like how would you do it let's say this
+is like a simple data structure DSA problem right flatten the array let's
+say that I write a function flat and ARR I give an array you just go and do
+this logic part this can be asked in any interview like how can you make an array
+flat any any ideas guys how would you approach this one okay so these are what
+is actually happening if you see this example firstly our array isn't nested
+right nested arrays you have this one top level array which is having one two
+three then a second array inside it in third array right now let's I write a
+for loop here to show you guys better say console.log array.i and also let's
+say I okay now if you see firstly the array looks like this at zero index one
+and then one first index it is two then second index it is three third index it
+is having an another array in nested level that fourth index it is having
+another array now when I say flat is that converting removing this braces
+removing this braces converting this arrays and merging into this existing
+array like if you see here one two three then one two three then again removing
+this array and merging this into the existing array got this so and the
+number of nesting levels is actually defined by the parameter called depth if
+you see it takes something value like like parameter which is depth here if
+you see the maximum if you see the maximum recursion depth it says now
+also if you see the definition it is actually pretty much like DSA it returns
+a new array with all sub-array elements concatenated into it recursively up to
+the specified depth now if someone says that you know a front-end developer
+doesn't need a data section algorithm knowledge ask him to flatten the array
+write polyfill for the flat now without your DSA knowledge do you understand
+sub-array recursion call stack recursion right how would you do that so never
+fall in that trap that hey DSA is not treated everywhere it revolves around
+I've shown you reduce example using you know prefix some so every language does
+it but they have library built it such as that friend and people don't use it
+much extent but we need to know if you want to build the libraries like if you
+want to be a really good at it okay now guys how would you approach this
+question basic which algo will work here hey have you went to lead code
+flatten
+let's have you seen this question
+right there are too many things these are directly asked in interval questions
+okay I'm getting directly related to JS wait this is a question it is asked now
+this is this is where you are trying to apply recursions and trying to go
+through it but here in order to make it more useful what we have given we also
+need a parameter called depth so one thing if you want to approach anything
+right you might have you might have got you might write like what is the way
+that you approach a DSA problem it's like simple right thinking them from a
+brute force and how would you do it what algorithm should apply here right those
+step-by-step things that you whatever you might have learned till now let's
+apply those knowledge itself okay first let me write down the basic syntax array
+dot prototype dot let's say I'm trying to build my flat then you have function
+called my flat let's say this is a simple function doesn't need anything
+name or anything but let's say this is what it is and it takes something called
+as a depth here okay once it has stepped now okay some bits is travels and add it
+into new array and return it cool but that's fine that we are returning it
+let's say okay some with I'll do something like as you suggest let's say
+const response I have array I'm returning this response okay and I'm
+through this I said is dot length now what should I return it how should I
+handle the conditions inside this some bit
+array right you have to think how would you handle this firstly one simple okay
+guys think if you can think hollows I'll solve it pretty basic pretty easy this
+one only one condition you have to do it when to call okay think that firstly
+when to call recursion what would be the condition when to call a recursion or
+when we can directly add element into response array if you answer these two
+things Arun says that when the index has length more than one okay right answer
+right right I would agree with that point anyone else has anyone else the
+other way around I don't can I take that if if you remember last class we have
+discussed to check whether a particular item is item data drive is an array or
+not we can do that thing also right if a particular index value is an array then
+we can excuse it if not we can have to call a recursion on that do you remember
+array dot is array page did you remember array dot is array condition okay yeah
+that's that's a way we can go even Arun's point is also right but think of
+it if you if you have done DP logic also dynamic programming that would be it a
+basic recursion would solve it not needed DP where you try to memorize the
+steps let's say if if I'll solve a basic condition if it's an array then we have
+to do something else I have to directly add a response dot push of this now I
+have to do something here I have to check another condition also here
+the this can you think of it what would be the second condition I have to check
+here firstly other than like yeah another loop here but how many loops you will be
+keep on adding some bit if array is found or because it can be end time nested right
+end time nested in the inside array inside another array inside another array yeah so
+when you have depth level going when you have a chaining depth what could be the right way
+how would you travel for you know like a tree when you have a node then you have its children
+right you travel next or left dot or a right element root dot left or root dot right or
+anything combination but before that before that guys do you see another condition that
+only if I have to come inside this condition only if depth is greater than 0 if depth is
+not greater than 0 I can push an array into it directly right only if depth is greater
+than 0 that many for loops I should add inside it or else that many recursion calls I should
+do it is that point clear firstly guys okay now what is the value of depth is doing now
+when I say that you know depth one it will go and check that okay one two three fine
+now I see that depth one I have to remove this I'll remove this one I'll merge here
+I can see that this is depth level two I won't touch it this one I'll push it as it is again
+this is depth one so I'll add it I'll remain it now this the reason this was left behind
+was this was nested inside nested got this point somewhere this is talking about depth
+only when depth is greater than 0 we should go or else we have to push it directly now
+inside this let's say I don't think why you are not able to think it let's say I have
+to push it again but I have to push it based on some condition whatever array I have whatever
+array I have I'll say that this dot I again in order to call a recursion I'll say that
+get my flat with depth of less than one you guys understand this point what just happened
+I've reduced the depth so that again I'll call this function recursively I'll call it
+again once that is resolved this will be pushed into it yeah guys give me thumbs up thumbs
+down if you are able to understand this logic if not let me know how this is working but let
+me show you this that it is actually supposed to work it I'll keep it on to the top
+yeah just a second let's say I do flat to also I try to make it
+first let's see this if this is working fine clearing it node flat dot JS okay firstly we
+had an input just a second okay I need to call my flat
+yeah this is working fine now also I'll try to output firstly console dot console dot log
+array let's verify this one okay yeah cool so let me go to iPad I think this should be
+basics to you guys once you have completed DSA have you cleared mocks guys right now
+let's say what is the input we have took
+now when this is happening this brace is depth level 0 this level is depth level 1
+this braces depth level 2 firstly is this point clear what is meant by depth okay once now when
+let's say if my depth value is 0 what they are saying is that directly you need not to
+flatten anything there they are they are telling how many levels I should flatten okay if depth
+level is 0 they I can return directly whatever array they have given to me isn't it I need not
+to flatten anything only when they say that a flatten till depth level 1 then I should go
+1 2 3 then 1 then 2 comma 3 then 4 5 6 this is for 1 when they say 2 I can go further
+okay this is what I can do nice is this clear is this point clear now what was happening in
+the code what was happening in the code was if you remember whenever we are actually you
+know coming across this part whenever we are coming across this part we are checking whether
+the value provider depth is greater than 0 if the greater than 0 is there then we were actually
+taking this array whole array taking this whole array and we are calling this function again let's
+say this array 1 2 dot 3 dot my flat reducing depth let's say we passed you we are reducing
+depth by 1 now on this level when this again actually goes by it if it flattens again this
+becomes again this one isn't it so this is what is happening we did a multiple recursion calls
+for this one like for this one we did it two times for this one we did it one time we called
+it three times if I can dry run and show it to you like in the debugging mode what's actually
+let me open a debugger tool
+yes let's say this what's happening firstly this keyword is having five elements with a
+zeroth index pointing at the first zeroth index so this is not an array type so this
+condition is failing it came here and we were pushing that element now then we went on to
+second element then we went on to third element okay now if you see in the local my flat in the
+response array we have stored 0 1 2 which is 1 2 3 items now when we go to the third index index
+number 3 let's see where the call comes here okay what is it firstly it is executing this
+part so let me comment this one I don't need this both things let me let us execute firstly
+directly this one okay I'll move forward for two levels now if you see what just happened when
+I is equal to three the whatever we have stored it is of data type of an array and the current
+depth if you see depth we are talking about is 2 now what just happened here let's see this
+okay when we are saying that we are calling back again my flat with increasing it now and if I try
+to do this let's say if I try to triple lot and of do this this of I okay clear this of I I'm
+getting this an array which I'm spreading it here whole array I'm spreading it and I'm calling on
+my depth because why I'm spreading it here is that actually cleaning up one level of depth I'm just
+trying to remove this like first array like whenever I do let's say there's an array let's
+I store it in the memory called array one I say one two three and let's say I console log
+spreading an array one you see I've removed that array symbol so that's why I've spread it first
+level and then I called my function with reduced depth is this point here guys why I am calling
+back again because my depth is still in still to right once I call this now what just happened
+if you see here we went on to push here firstly now the current array looks like this it has
+at the 0th index it has one if you remember at 0th index it has one and the first index just 2 and
+3 and even in the response array there is nothing else as of now if we keep on adding it if you see
+there are two things present it's now if you see once we have iterated over this part once we have
+completed iteration over this part now what it is stored is 1 2 3 and 1 2 3 because two levels of
+depth recursion calls are completed now then it is going again for this part 2 3 4 ok because I
+is pointing at 4 here I go back again now if I see that depth level is still 1 it will push it
+it will push all the elements and then we'll be able to see the output as I hope I hope this
+example is clear how that array dot flat is working is this anyone who still don't understand
+this to let me know and if this part is clear I think this is it when it comes here when you
+come for higher order functions writing you know polyfills nothing much more than for
+considering higher order functions will be asked okay next class we'll discuss again call bind
+apply and few more things few more important questions let me commit this
+I actually picked it up flat as extra it was not part of thing that I have to
+do but I thought to discuss this because this is something interesting and if someone asks you
+this one you should be able to do it guys again rechecking before I start the doubt
+session is this things clear to you all like what we have discussed in today's class all of the
+topics cool so I'll start doubt session guys then I received very less the amount of thumbs up just
+want to check like again started out session guys but do let me know I can recall few names
+I have to some bits in class Pramod Rajni Hemanki guys are you able to follow up did you guys
+understand upendra right in that case guys keep practicing this one if someone asks you polyfills
+I hope you will be able to explain them using a flat is really simple easy you should be able
+to also build that one someone asked it just want to know when I asked a flat no one told
+me that I would be applying a recursion when do you guys think that recursion should be applied
+yeah Rajni will do that give me a minute I'll open whatsapp and share the link yes when do
+you think that recursion should be applied any idea guys when would you go for recursion
+solving sub problems are solving same sort of problems same problems right when you have
+same sort of problems again and again occurring so you don't write a logics for them so in order
+to call you create a one function you will keep calling that function and amount of time so
+you have that same sort of problems right okay whatsapp web and how would you figure out like
+when DPA should be applied I'm just thinking like you know asking you some random stuff
+when how do you come to know that when if there are like you know DPA should be applied
+right so whenever you come across a point where you see that there are same sub problems like
+whenever you are in recursion if you see that there are some same parameters are being passed
+each time and same time you are getting the same result in that use cases you actually use DPA
+where you try to optimize that hey once if I solve the problem why should I do it again
+let's let's let's you know optimize that logic guys be okay I've shared whatsapp chat actually
+nice there's any any other doubts in our class today's class or anything else if you have
+anything please feel free to ask I'm here for some time or else we can close the session if
+there are no doubts I'll wait for one two minutes how's your appraisers going on this
+month have you got your appraisers write your current form guys no not yet
+okay report to release next week seems to be okay hey why where do you work upendra
+which form is it is it happening with everyone or like bank based out of Bangalore Bangalore
+there's a few people in Jigini and work from and my related works there I've been to Jigini
+start of my career I started with HCL so guys I don't see any doubts coming up so can we close
+the session tonight I hope you get back the one hour that you have and try to solve the
+assignments guys try to keep preparing yourself for the context upcoming context next week
+revise those topics in case you have anything bring me in what's app or in the class we'll
+pick it up and we'll try to discuss that thought topic okay so from my side that's it guys then
+see you in the next class where we pick up few more polyfills and try to revise few more concepts
+like as we did we revise the concept then we went on to build a polyfill happy shivarathri
+all happy happy shivarathri upendra thank you all guys for attending hope to see you soon on the
+Saturday yeah it takes time for the practice I completely agree some bit with with time you
+will get it so whenever I'm explaining I just want to be sure that the topics whatever I'm
+trying to explain you you are able to understand that part and with repeating with you do it
+personally when you type it down you'll get it further it's like when I'm typing it down it's
+like a magic for you guys firstly so until you try to repeat it you won't be able to feel it up
+okay it's like virat koly playing cover drive right until this you don't practice it you won't
+get it we know that okay what is cover drive when the ball is pitching up on the fifth
+side some you guys try to you know play it we know it but it comes with a practice same thing
+so otherwise then with that I'll close the session for today see you on Saturday thank
+you Muneeshwara bye bye guys good night take care again happy shivarathri all

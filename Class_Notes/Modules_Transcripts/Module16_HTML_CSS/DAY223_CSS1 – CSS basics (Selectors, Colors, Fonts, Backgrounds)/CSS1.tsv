@@ -1,0 +1,2800 @@
+start	end	text
+0	2060	you
+30000	33060	you
+60000	62000	you
+70000	74000	hi all good evening
+79000	82000	so how's everyone
+82000	96000	I'll share my screen hope I'm audible guys I'm audible and visible you can see my screen share
+96000	106000	I'll have some timer before we get started with class let's put it 3 minutes
+107000	110000	we'll start exactly at 9.05
+110000	112000	I did
+118000	125000	so any doubts from the previous sessions or like how's your assignment going
+128000	134000	any doubts guys from previous session hope everyone have solved their assignments who are present in the class currently
+134000	137000	I see lower in number but
+138000	141000	very good great munish
+143000	148000	so usually we get a people get drop on Saturday right
+148000	151000	what to choose for submit
+153000	159000	will exactly implement from both but it's like a you know input type or submit button right
+159000	165000	so even if you are getting a button is an you know HTML5 semantic
+165000	170000	like semantic element where you when you select the input type
+170000	177000	input and give type equal to you know submit then it will be used in the same way
+177000	180000	so it is your choice like whether you can use it anything
+180000	181000	okay
+183000	184000	so
+187000	194000	I see less people joining class today can anyone help me or dropping a message in WhatsApp group
+194000	197000	like we are able to get started please join us
+198000	201000	can anyone help me out or should I drop it
+201000	204000	can anyone help me out or should I drop it
+207000	210000	let me do this give me a second guys
+211000	213000	hey thank you munish
+215000	219000	inform of what purpose using method, post or get
+219000	222000	Kabir will see that in future classes okay
+222000	226000	about method, post and get actually when we will build APIs and we will deal with it
+226000	229000	I am supposed to explain completely in depth
+229000	231000	we will take it at that time okay
+231000	236000	currently the agenda is was earlier to understand elements and HTML part
+236000	240000	today we will understand interaction part of CSS then we will go ahead
+243000	248000	it's not mandatory submit it depends on the use cases that you are using
+248000	250000	three of the attributes okay
+250000	254000	attributes are generally enhancing the existing elements
+254000	258000	so whatever attributes you needed you can add as per your specific
+258000	260000	but there is nothing as such mandatory
+262000	264000	action also yes
+264000	268000	everything related to action because it's a redirection right
+268000	272000	URL being changed give me a second guys I will connect iPad
+274000	276000	and we will get started with today's class
+284000	286000	okay
+300000	304000	so I hope everyone is able to see the iPad screen
+304000	306000	okay
+310000	312000	yeah
+312000	314000	two people are there
+314000	316000	we usually have problem with Abhishek's in class
+316000	318000	there are too many Abhishek's in class
+318000	320000	in India we have too some bits
+324000	326000	great guys
+326000	328000	so let's get started
+328000	330000	we have good enough amount of people today
+330000	332000	to get started with
+332000	338000	so the class three today is an introduction to CSS class
+338000	340000	okay
+340000	342000	and we are able to get started with CSS
+342000	344000	but what all things we will be discussing is
+344000	346000	what is CSS
+348000	350000	and when to use it
+350000	352000	we already knew it but it's just a revision
+352000	354000	then we will go with selectors
+354000	358000	then once selectors is done we will talk about fonts
+358000	360000	then we will check
+360000	362000	we will work on colors
+362000	364000	we will discuss some things on colors
+364000	366000	then if time permits
+366000	368000	we will go with the background
+368000	370000	okay
+370000	372000	so
+372000	374000	CSS is a topic
+374000	376000	which people all like you know
+376000	378000	it's a one of the topic
+378000	380000	where people try to avoid it
+380000	382000	or don't think of much
+382000	384000	because it's sometimes people feel it's difficult
+384000	386000	but I will try to make sure that
+386000	388000	it's as easy as possible
+388000	390000	and as comfortable as possible
+390000	392000	okay guys
+392000	394000	so now
+394000	396000	getting started with today's topic
+396000	398000	first topic
+398000	400000	so introduction to CSS
+400000	402000	I think we have already discussed
+402000	404000	when to use CSS
+404000	406000	if anyone remembers the example
+406000	408000	that we discussed
+408000	410000	about house
+410000	412000	building
+412000	414000	and what was the part that
+414000	416000	you have paint right
+416000	418000	anyone else like interiors, paint
+418000	420000	right
+420000	422000	cool
+422000	424000	so this is the part
+424000	426000	if you remember the example of house
+426000	428000	we were considering this part
+428000	430000	so this is same thing
+430000	432000	now we will talk about
+432000	434000	let's say we have built HTML content
+434000	436000	we are at the point
+436000	438000	now we have to decide how to paint it
+438000	440000	or what wall to choose
+440000	442000	how to choose a wall
+442000	444000	okay as I have told you earlier
+444000	446000	in HTML
+446000	448000	you have only two things
+448000	450000	what are the two things that I have told you
+450000	452000	anyone remember those two things
+452000	454000	like only two things
+454000	456000	are there in the HTML
+456000	458000	that you need to remember
+458000	460000	all the things you can
+460000	462000	no worries
+462000	464000	I have told you there are only two things
+464000	466000	which are elements
+466000	468000	or tags
+468000	470000	and then you have something called attributes
+472000	474000	I mean everything comes under these two sections
+474000	476000	there are elements
+476000	478000	or tags
+478000	480000	and each element tag is enriched
+480000	482000	or adding more functionality
+482000	484000	we add it using attributes
+486000	488000	as such when it comes to CSS
+488000	490000	there are three things
+492000	494000	so what are the three basic things
+494000	496000	that you have to deal with it when it comes to CSS
+496000	498000	let's say
+498000	500000	first thing
+502000	504000	is like what
+506000	508000	then where
+508000	510000	and how
+512000	514000	let's take an example of
+514000	516000	like you went to a barber shop
+516000	518000	right
+518000	520000	I am considering a mail
+520000	522000	option guys
+522000	524000	pardon me if I am not taking a gender neutral one
+524000	526000	but let's say you went for a
+526000	528000	barber shop
+528000	530000	where you want to cut your hair
+530000	532000	so let's say
+532000	534000	I am saying that
+534000	536000	I want to cut my hair
+536000	538000	no
+538000	540000	so now
+540000	542000	when you enter the barber shop
+542000	544000	you would explain barber
+544000	546000	which hair you want to cut it
+546000	548000	either hair or the beard
+548000	550000	so you have to define it
+550000	552000	do you agree with me
+552000	554000	you have to tell him explain him
+554000	556000	isn't it
+556000	558000	so if I say
+558000	560000	it's like head hair
+562000	564000	now once it is done
+564000	566000	do you guys agree
+566000	568000	like you have to explain him how
+568000	570000	like what style you need it
+570000	572000	or else what if you make a Mahatma Gandhi style
+572000	574000	like hair style
+574000	576000	so you would be amazed right
+576000	578000	after half an hour or one hour
+578000	580000	after your haircut is done
+580000	582000	so you have to explain him
+582000	584000	the kind of style
+584000	586000	like when it goes to style
+586000	588000	you know
+588000	590000	Koli style
+590000	592000	which get trimmed on the side and somewhat
+592000	594000	in old days
+594000	596000	and few years back
+596000	598000	Dhoni's long hairs were famous
+598000	600000	so even few people
+600000	602000	remove their hair completely
+602000	604000	you can say
+604000	606000	you can say Gandhiji
+606000	608000	because I never seen a picture with
+608000	610000	Gandhiji where having
+610000	612000	too much of hair
+612000	614000	and then
+614000	616000	or the you know many styles
+616000	618000	but are you getting my point
+618000	620000	that whenever you are going
+620000	622000	or like
+622000	624000	wherever you want to beautify your hair
+624000	626000	like when you go to barber
+626000	628000	you will tell what
+628000	630000	cut the hair and which hair
+630000	632000	like where head hair
+632000	634000	then you have to tell him the style
+634000	636000	same thing happens in the
+636000	638000	when it comes to CSS
+638000	640000	now
+640000	642000	cutting the hair
+642000	644000	so when I am cutting the hair
+644000	646000	I mean to say that what all properties
+646000	648000	that I am going to deal with
+648000	650000	like using a color or height
+650000	652000	or let's say
+652000	654000	width
+654000	656000	or font
+656000	658000	right so these are the different
+658000	660000	types that you want to do it
+660000	662000	and for which item you want to do it
+662000	664000	this could be the all
+664000	666000	HTML elements
+666000	668000	okay
+668000	670000	and how would you do it
+670000	672000	is that you will define
+672000	674000	for color could be red
+674000	676000	right height could be 200px
+676000	678000	and width could be 150px
+678000	680000	right
+680000	682000	and font could be again
+682000	684000	12px
+684000	686000	so these are the way how you can do it
+686000	688000	but what is the exact syntax
+688000	690000	like how you define a list of CSS
+690000	692000	like first clause
+692000	694000	goes to the where
+694000	696000	now what do I mean by where
+696000	698000	is like you have to select which HTML
+698000	700000	you want to apply multiple things
+700000	702000	once you open the brace
+702000	704000	then you can define
+704000	706000	each property of hair
+706000	708000	or like I mean what and then
+708000	710000	like how let's say you want to
+710000	712000	make it a color
+712000	714000	let's say what
+714000	716000	and how so this is how the
+716000	718000	combination goes like
+718000	720000	is this
+720000	722000	clear guys
+722000	724000	like how does it work
+724000	726000	basically you have to remember
+726000	728000	these things like first you have to select
+728000	730000	an HTML element
+730000	732000	and then you have a list
+732000	734000	of properties in terms of key value pair
+734000	736000	each property will go for
+736000	738000	what type of changes you want to do
+738000	740000	in style like what is
+740000	742000	the category comes in then
+742000	744000	what is the exact value for that one
+744000	746000	these are the list of things
+746000	748000	let's see
+748000	750000	this one
+750000	752000	let's see this one firstly while taking one example
+754000	756000	let me share
+756000	758000	the code base
+758000	760000	so if you see
+760000	762000	I have created a new folder called
+762000	764000	CSS class 3
+764000	766000	and I will build one of the file called
+766000	768000	let's say index.html
+768000	770000	now
+770000	772000	I say HTML.5
+772000	774000	let's just take one example
+774000	776000	guys
+776000	778000	showing it how you can do it
+790000	792000	now if you want to
+792000	794000	style it right
+794000	796000	as I have told you
+796000	798000	one of the way is to you know
+798000	800000	you write it down in the head
+800000	802000	let me open
+802000	804000	this is coming
+804000	806000	fine
+806000	808000	now let's say I open a style block here
+808000	810000	inside the head
+810000	812000	and I say def
+812000	814000	and I say color
+814000	816000	to be red
+816000	818000	so what did I do here
+818000	820000	I have added a one def tag
+820000	822000	then
+822000	824000	I have told like hey I am selecting
+824000	826000	this particular
+826000	828000	this thing like an element HTML element
+828000	830000	once I selected HTML element
+830000	832000	I have chosen it like what I want to deal
+832000	834000	with this one
+834000	836000	once I selected where and then
+836000	838000	this is the what condition this is how
+838000	840000	right
+840000	842000	I hope this basic thing is clear for you
+844000	846000	is any doubt
+846000	848000	still no like
+848000	850000	yeah
+850000	852000	first thing
+852000	854000	what you have to do is like if you want to
+854000	856000	style any particular thing
+856000	858000	you have to select an HTML element
+858000	860000	now we will see there are too many
+860000	862000	ways of selecting an HTML element
+862000	864000	what I have did is here I have used an element
+864000	866000	selector I have selected this particular
+866000	868000	def and I set it like this def
+868000	870000	I mean to say that
+870000	872000	where I have to do it like I am selecting
+872000	874000	this image this means that I have to
+874000	876000	paint something or do something to this particular
+876000	878000	element once I have
+878000	880000	done that then I can customize
+880000	882000	it using different properties that
+882000	884000	I want to do ok
+884000	886000	let's say I say that font size
+886000	888000	let's say
+888000	890000	larger when I do this
+890000	892000	so you can see the size is increasing or else
+892000	894000	you can use the pixels which are 50px
+894000	896000	ok
+896000	898000	what if there are two diffs something will
+898000	900000	come to that I will come to the many selectors
+900000	902000	ok but this is just
+902000	904000	one file where I am explaining this
+904000	906000	ok like how do
+906000	908000	you do it just introduction to
+908000	910000	CSS now
+910000	912000	there are too many things
+912000	914000	like 3 particular
+914000	916000	ways of selecting like how you can do
+916000	918000	you know add styles
+918000	920000	ways of adding
+920000	922000	CSS
+922000	924000	let's say I
+924000	926000	create a file inside
+926000	928000	this again index.html
+928000	930000	let's rename
+930000	932000	this one
+938000	940000	once you have this
+940000	942000	no
+942000	944000	let's close this
+944000	946000	let's open this one
+948000	950000	open show preview
+956000	958000	let's say ways of
+958000	960000	adding CSS
+962000	964000	ok generally
+964000	966000	you can add CSS like
+966000	968000	to one particular HTML document
+968000	970000	in three ways ok we will discuss
+970000	972000	about the first thing first way
+972000	974000	let's say I have a paragraph
+974000	976000	and I have let's say lorem20
+976000	978000	and I generated a
+978000	980000	paragraph of 20 size and if I
+980000	982000	want to apply a style
+982000	984000	I can do it this way
+984000	986000	where I can say color blue
+988000	990000	or blue violet let's say this one
+990000	992000	ok this type of
+992000	994000	style whenever you are doing it inside
+994000	996000	element itself here
+996000	998000	you need not to select element because
+998000	1000000	the element is already selected
+1000000	1002000	we are writing it directly there what type of properties
+1002000	1004000	you want to add that
+1004000	1006000	whenever you are doing this type of
+1006000	1008000	styling it is generally called as
+1008000	1010000	inline style
+1010000	1012000	is this point clear guys what is
+1012000	1014000	inline style and one way of writing
+1014000	1016000	styles to an HTML element
+1016000	1018000	now then there is a
+1018000	1020000	second way what you can do is that
+1020000	1022000	let's say you have another p tag
+1024000	1026000	let's say s lorem
+1026000	1028000	20
+1028000	1030000	5
+1030000	1032000	ok now
+1036000	1038000	let's say I have a style
+1040000	1042000	inside this if I do p and
+1042000	1044000	this way and I say color
+1046000	1048000	and I say brown
+1050000	1052000	now if you see
+1052000	1054000	this is
+1054000	1056000	now what I did is like I went
+1056000	1058000	I created a style block inside
+1058000	1060000	the head tag that's where you have to
+1060000	1062000	create a style block inside
+1062000	1064000	this style element I have added
+1064000	1066000	one p like I have selected p selector
+1066000	1068000	I mean generally
+1068000	1070000	it is called as element selector we will come back to
+1070000	1072000	those each type of selectors
+1072000	1074000	but I selected p and then I have added
+1074000	1076000	a color called as brown
+1076000	1078000	ok so
+1078000	1080000	this type of whenever you
+1080000	1082000	write down this like inside a style block right
+1082000	1084000	then it is generally called as
+1086000	1088000	internal css
+1090000	1092000	ok guys
+1092000	1094000	what is internal css what is inline
+1094000	1096000	css whenever you add
+1096000	1098000	onto that element directly
+1098000	1100000	that is called as inline css
+1100000	1102000	whenever you add inside a style block
+1102000	1104000	but in the same file
+1104000	1106000	ok you are defining all the styles then it is called
+1106000	1108000	as internal css
+1108000	1110000	is this clear guys
+1112000	1114000	no reactions
+1116000	1118000	why don't we mention
+1118000	1120000	which p need to be selected in red
+1120000	1122000	how it is represented
+1122000	1124000	so I shall come to that now
+1124000	1126000	if you see it here one question I would
+1126000	1128000	generally you know
+1128000	1130000	one should come to your mind
+1130000	1132000	is like hey I have defined
+1132000	1134000	p colored brown
+1134000	1136000	now both tags are
+1136000	1138000	p but this color
+1138000	1140000	is still blue violet
+1140000	1142000	and this color is still
+1142000	1144000	in brown color
+1144000	1146000	right like both
+1146000	1148000	should be brown or like one
+1148000	1150000	like both should be brown right that's what
+1150000	1152000	we are expecting or like which is getting
+1152000	1154000	priority or how it is getting handled
+1154000	1156000	so remember one thing
+1156000	1158000	whenever you have multiple
+1158000	1160000	types of css are defined right
+1160000	1162000	most you know css
+1162000	1164000	is executed or any html file
+1164000	1166000	is executed from top to bottom
+1166000	1168000	now whenever you are executing from top to bottom
+1168000	1170000	let's say your style block is defined
+1170000	1172000	here head will be passed
+1172000	1174000	anyways first now once it is being
+1174000	1176000	passed you have told that hey p selected
+1176000	1178000	to be brown now once you
+1178000	1180000	selected p equal to brown but
+1180000	1182000	when you come down and you are passing this one
+1182000	1184000	you have defined again style
+1184000	1186000	color to be blue violet
+1186000	1188000	that overridden it now let's say if
+1188000	1190000	I you are overriding
+1190000	1192000	color but what if you have a font size
+1192000	1194000	and let's say I have till 15
+1194000	1196000	pixel now if you see
+1196000	1198000	the font size is affecting both the things
+1200000	1202000	font size is affecting both the things now but
+1202000	1204000	again if I override it here let's say
+1204000	1206000	I override here saying font size
+1208000	1210000	20 pixel
+1210000	1212000	you see this
+1212000	1214000	it is so what I mean
+1214000	1216000	to explain here is that
+1216000	1218000	css or html is being passed
+1218000	1220000	from top to bottom now whatever
+1220000	1222000	you have defined here doesn't
+1222000	1224000	matter if you are writing inline
+1224000	1226000	style that will get a priority
+1228000	1230000	yeah you can say weightage of inline
+1230000	1232000	overrides always but
+1232000	1234000	you have to understand
+1234000	1236000	this so that how it is actually why is happening
+1236000	1238000	behind the scenes when you are coming from top
+1238000	1240000	to bottom it is executed top to bottom
+1240000	1242000	and this is the last line
+1242000	1244000	to get executed and when you are defining
+1244000	1246000	here directly it is supposed to
+1246000	1248000	attach those styles
+1248000	1250000	is that clear guys?
+1254000	1256000	okay
+1256000	1258000	I hope like inline and internal
+1258000	1260000	are clear now
+1260000	1262000	then there is another way where you can have
+1262000	1264000	your own style sheets like
+1264000	1266000	let's say I say that style.
+1266000	1268000	css file I have created a
+1268000	1270000	news file now
+1270000	1272000	I have to link this file now
+1272000	1274000	these two files are you know separate
+1274000	1276000	but I have to tell that hey I want to link
+1276000	1278000	this particular
+1280000	1282000	let's
+1282000	1284000	focus on this guys then I will take the questions
+1284000	1286000	okay now
+1286000	1288000	let's say I have the style
+1288000	1290000	file separately now
+1290000	1292000	I have to link those particular
+1292000	1294000	style.css file with this index.html
+1294000	1296000	file anyone knows like how we can
+1296000	1298000	do that
+1302000	1304000	no so let's
+1304000	1306000	say you have one tag
+1306000	1308000	again here link tag
+1308000	1310000	okay
+1310000	1312000	not in the style but I have to write
+1312000	1314000	above style let's say
+1314000	1316000	link
+1316000	1318000	okay once you have link
+1318000	1320000	tag right
+1322000	1324000	okay inside link
+1324000	1326000	tag you can always you know
+1326000	1328000	you can give href whenever we are saying
+1328000	1330000	href we mean to say that
+1330000	1332000	location of the file
+1332000	1334000	location of the url so I am saying
+1334000	1336000	that I have to go into the same folder
+1336000	1338000	and then select the style.css file
+1338000	1340000	once I select that then
+1340000	1342000	I have to write the other attribute
+1342000	1344000	is like type or
+1344000	1346000	like relation now
+1346000	1348000	what is the relation to this
+1348000	1350000	how that css file is related to
+1350000	1352000	this html file
+1352000	1354000	we say that as a style sheet
+1362000	1364000	now
+1364000	1366000	let's say once now we
+1366000	1368000	have defined let's say I have another
+1368000	1370000	p tag where
+1370000	1372000	I have let's say
+1372000	1374000	50
+1374000	1376000	I have a bigger paragraph
+1376000	1378000	now the brown color is
+1378000	1380000	being applied now let's say if I
+1380000	1382000	go in here and I
+1382000	1384000	say that color should
+1384000	1386000	be tomato
+1386000	1388000	what would be
+1388000	1390000	your guess guys
+1390000	1392000	I didn't save it yet but
+1392000	1394000	do you think tomato color should be applied
+1394000	1396000	to any of these paragraphs
+1400000	1402000	right one says yes
+1404000	1406000	two people says yes
+1406000	1408000	why do you think charm
+1410000	1412000	or hariprasad
+1414000	1416000	it will be all
+1416000	1418000	on all three ok dhanraj says all three
+1418000	1420000	ok let's see
+1420000	1422000	now I will save this
+1422000	1424000	if you see I applied tomato
+1424000	1426000	do you see anywhere that tomato is
+1426000	1428000	being applied
+1428000	1430000	no right now let's do one thing
+1430000	1432000	what if I comment this line
+1432000	1434000	let's say what if I comment this line
+1436000	1438000	let's say comment this line
+1440000	1442000	do you see that now tomato is being applied
+1444000	1446000	so what's happening as I just told you right now
+1446000	1448000	that you know all the things
+1448000	1450000	that whatever you write it
+1450000	1452000	is being passed from top to bottom
+1452000	1454000	I have defined a link stylesheet here
+1454000	1456000	so it will download it here
+1456000	1458000	then it will see that hey
+1458000	1460000	paragraph tag color says you know
+1460000	1462000	p tag color says tomato
+1462000	1464000	then fine again a style tag is
+1464000	1466000	defined here p tag says that brown in
+1466000	1468000	color so the tomato is left
+1468000	1470000	behind because new
+1470000	1472000	color has been given now
+1472000	1474000	when you go to the here now the color
+1474000	1476000	is overwritten but till for this
+1476000	1478000	two paragraph tags the color is not yet
+1478000	1480000	overwritten
+1480000	1482000	is this clear why tomato
+1482000	1484000	is not coming guys
+1484000	1486000	this is happening in the
+1486000	1488000	hierarchy from top to bottom
+1488000	1490000	now let's say what if I pull this link
+1490000	1492000	and I put it
+1492000	1494000	here down
+1494000	1496000	what do you think
+1496000	1498000	it applied that style
+1498000	1500000	now is this point
+1500000	1502000	clear when I pull it up from top
+1502000	1504000	and putting bottom now the orange is
+1504000	1506000	being applied is this reasoning
+1506000	1508000	clear enough to you all guys
+1508000	1510000	right so CSS generally
+1510000	1512000	passed from top to bottom
+1512000	1514000	now and by and
+1514000	1516000	the second point that we learned is like
+1516000	1518000	what are the different types of adding
+1518000	1520000	CSS like this is called
+1520000	1522000	something called as external CSS
+1526000	1528000	okay so generally
+1528000	1530000	you have three types of ways of writing
+1530000	1532000	a CSS one is internal one is
+1532000	1534000	external and one is
+1534000	1536000	inline CSS
+1538000	1540000	okay so
+1540000	1542000	always you can believe that preference
+1542000	1544000	will be inline
+1544000	1546000	but whenever you have definition
+1546000	1548000	I don't want to say that
+1548000	1550000	hey remember two things just remember this way
+1550000	1552000	that execution happens from top to
+1552000	1554000	bottom and whenever
+1554000	1556000	however you have defined whatever comes
+1556000	1558000	at the last that will be attached because
+1558000	1560000	that is overriding that particular property
+1560000	1562000	to this particular HTML element
+1562000	1564000	is this clear guys like
+1564000	1566000	how we are able to apply
+1566000	1568000	we are selecting a particular element
+1568000	1570000	we are grouping multiple properties
+1570000	1572000	to it and attaching it
+1572000	1574000	so I hope this three things
+1574000	1576000	how we are making it
+1576000	1578000	like you know work you got it
+1578000	1580000	but let's say
+1580000	1582000	okay this is fine now we will go
+1582000	1584000	to types of selectors
+1584000	1586000	if you see here
+1586000	1588000	what did I do is like each and every time
+1588000	1590000	like
+1590000	1592000	what I did is like I have always selected
+1592000	1594000	p tag right always selected
+1594000	1596000	p tag and I have applied
+1596000	1598000	it this way do you think that this
+1598000	1600000	would be suffice in the
+1600000	1602000	world like real time world like only
+1602000	1604000	selecting directly HTML elements
+1604000	1606000	and applying CSS you would be able
+1606000	1608000	to handle all the complexities
+1608000	1610000	that exist in the world this is
+1610000	1612000	isn't it and this is not enough right
+1612000	1614000	or like you have you can have multiple
+1614000	1616000	divs inside div
+1616000	1618000	and you can have ten layers of div
+1618000	1620000	acting as a section right
+1620000	1622000	so for dealing with all those cases
+1622000	1624000	right different cases
+1624000	1626000	we have many different types of
+1626000	1628000	you know the selectors
+1628000	1630000	we will discuss one by one
+1630000	1632000	like selectors using
+1632000	1634000	I have built one of the you know
+1634000	1636000	best way to teachers like
+1636000	1638000	using a question and answer type
+1638000	1640000	format so let's say
+1640000	1642000	we will take questions
+1642000	1644000	like format like one by one questions and then we will
+1644000	1646000	understand okay let's say
+1646000	1648000	I create a folder called selectors
+1648000	1650000	and I create one I say
+1650000	1652000	q1 question one dot html
+1652000	1654000	okay we have this
+1654000	1656000	question one dot html
+1656000	1658000	let me copy the question guys
+1672000	1674000	so
+1674000	1676000	show
+1680000	1682000	so if you see this one guys
+1682000	1684000	like
+1684000	1686000	what's being done here
+1686000	1688000	so there are multiple h1
+1688000	1690000	tags which says I am paragraph
+1690000	1692000	help me to become h1
+1692000	1694000	okay h1 dot
+1694000	1696000	now what the
+1696000	1698000	question is add CSS
+1698000	1700000	styles to the all h1 tags making
+1700000	1702000	it blue okay
+1702000	1704000	any suggestions guys how we can
+1704000	1706000	do this
+1706000	1708000	make all the
+1708000	1710000	h1 tags
+1710000	1712000	like blue in color
+1714000	1716000	we have just seen now I hope
+1716000	1718000	like everyone can write down
+1718000	1720000	inline style
+1724000	1726000	I think I have received
+1726000	1728000	good enough answers
+1728000	1730000	so few questions also
+1730000	1732000	so what while teaching
+1732000	1734000	it right while teaching it I will use
+1734000	1736000	this you know internal CSS
+1736000	1738000	to write it down since it would be
+1738000	1740000	difficult for me to switch the files I will write down
+1740000	1742000	all in the style block itself okay
+1742000	1744000	so here so first thing I have
+1744000	1746000	since if you see the question I
+1746000	1748000	have to make all the h1s
+1748000	1750000	to the blue so I have to
+1750000	1752000	select only first like h1 tag
+1752000	1754000	so when I am selecting h1
+1754000	1756000	then I am opening the brace now I have to say
+1756000	1758000	that color equal to blue
+1758000	1760000	as many of I have already
+1760000	1762000	suggested okay now
+1762000	1764000	what type of selector is
+1764000	1766000	this what type of
+1766000	1768000	selector is this
+1768000	1770000	anyone any idea what type
+1770000	1772000	of selector what we call this type of
+1772000	1774000	selectors or
+1774000	1776000	what is a h1
+1776000	1778000	no
+1778000	1780000	no I am not talking about internal
+1780000	1782000	CSS or external CSS
+1782000	1784000	I agree with you this is an
+1784000	1786000	internal CSS but when I am
+1786000	1788000	going to select h1
+1788000	1790000	yeah some
+1790000	1792000	people think tag selector
+1792000	1794000	something element selector so guys
+1794000	1796000	we call this as element selector
+1796000	1798000	okay
+1798000	1800000	so whenever
+1800000	1802000	you are directly selecting this
+1802000	1804000	whenever you are selecting directly
+1804000	1806000	like using this HTML
+1806000	1808000	elements like whatever you are
+1808000	1810000	picking that item and applying styles
+1810000	1812000	to it directly that is what we
+1812000	1814000	call as element selector is this clear
+1814000	1816000	element selector you will remember right
+1816000	1818000	everyone
+1818000	1820000	so we will move to the question
+1820000	1822000	two ways let's say
+1822000	1824000	let me pick the question two
+1826000	1828000	yeah
+1830000	1832000	q2.html
+1836000	1838000	let me copy this
+1844000	1846000	so I will give you some chance
+1846000	1848000	you know to read this question first
+1848000	1850000	then I will open the preview
+1850000	1852000	so that you know everyone can see it
+1852000	1854000	so what this
+1854000	1856000	you know question is talking about
+1858000	1860000	select the obvious p tags
+1860000	1862000	and make class one
+1862000	1864000	as blue
+1864000	1866000	and class two as red
+1866000	1868000	okay
+1868000	1870000	class is used to share common list of
+1870000	1872000	cells for different elements that's okay
+1872000	1874000	that's a quote that I might have written
+1874000	1876000	earlier but
+1876000	1878000	what we are trying to say is that
+1878000	1880000	hey you have now
+1880000	1882000	all the p tags right
+1882000	1884000	do you guys agree you have all the p tags
+1884000	1886000	now as
+1886000	1888000	we have solved this last problem
+1888000	1890000	if we go and select
+1890000	1892000	the p tag and make it color blue
+1892000	1894000	or you know red
+1894000	1896000	this question might not be
+1896000	1898000	wouldn't be solved right because it would be affecting
+1898000	1900000	these randoms also
+1900000	1902000	right
+1902000	1904000	so we have to
+1904000	1906000	individually select
+1906000	1908000	individually select them
+1908000	1910000	and make it red and blue
+1910000	1912000	okay now when we want to
+1912000	1914000	solve this particular type of things
+1914000	1916000	right
+1916000	1918000	we tend to use all
+1918000	1920000	attributes that are available
+1920000	1922000	okay now what was
+1922000	1924000	the attribute available for us
+1924000	1926000	which type of attribute is
+1926000	1928000	available for us to deal with this
+1928000	1930000	class right
+1930000	1932000	so now
+1932000	1934000	if you want to add a style
+1934000	1936000	to any class right
+1936000	1938000	now if you see I have a class one and
+1938000	1940000	class two as an E
+1940000	1942000	firstly I have to select let's say
+1942000	1944000	class one element what I will do is that
+1944000	1946000	I use a dot operator
+1946000	1948000	I say that hey
+1948000	1950000	class one so whenever
+1950000	1952000	we are using we are defining
+1952000	1954000	a CSS for a class type of
+1954000	1956000	attribute we use a dot operator
+1956000	1958000	okay remember that thing
+1958000	1960000	now it is asking me
+1960000	1962000	make me blue so I will select
+1962000	1964000	that color and blue
+1964000	1966000	okay now if you see
+1966000	1968000	only class one got
+1968000	1970000	this particular thing got affected nothing else
+1970000	1972000	got affected similarly I will
+1972000	1974000	go and do this class two
+1976000	1978000	and I will make it red
+1982000	1984000	is this clear guys
+1984000	1986000	how class can be utilized
+1986000	1988000	and how element selector can be
+1988000	1990000	utilized if you let's say
+1990000	1992000	if I want to attach a common
+1992000	1994000	like you know let's say I want to make all
+1994000	1996000	the tags
+1996000	1998000	that are present
+1998000	2000000	like fonts as equal to 16
+2000000	2002000	how can how can I make
+2002000	2004000	it
+2006000	2008000	how can I make it if I want to make all
+2008000	2010000	the fonts that are present here in the page
+2010000	2012000	equal to 16 pixels
+2012000	2014000	I will come to pixel
+2014000	2016000	whatever whenever I am using
+2016000	2018000	PX I will come to that
+2018000	2020000	but now Upendra and
+2020000	2022000	Chandni are suggesting let's go select
+2022000	2024000	the P tag and make font size
+2024000	2026000	equal to 16 pixels
+2026000	2028000	because we want to apply
+2028000	2030000	for the everything
+2030000	2032000	when we are applying for everything by
+2032000	2034000	default we can select all the P tags
+2034000	2036000	right
+2038000	2040000	32
+2040000	2042000	is this clear guys
+2042000	2044000	apply to body
+2044000	2046000	so one says apply to the body
+2046000	2048000	but what would be the right way
+2048000	2050000	of doing it was to apply
+2050000	2052000	to the P tag directly right
+2054000	2056000	you can apply to the body also but
+2056000	2058000	I don't want to do that let's say
+2058000	2060000	18 pixels
+2060000	2062000	so I hope when to use element
+2062000	2064000	selector when to use class selector is
+2064000	2066000	clear now going with the
+2066000	2068000	next question
+2070000	2072000	give me a second guys I will pick it up
+2072000	2074000	okay
+2074000	2076000	I have
+2076000	2078000	Q3
+2078000	2080000	question 3.
+2080000	2082000	HTML
+2082000	2084000	again closing this
+2084000	2086000	let's keep this open
+2086000	2088000	okay
+2098000	2100000	so now earlier
+2100000	2102000	someone had asked me question like
+2102000	2104000	whether a style block should be
+2104000	2106000	only present inside head tag
+2106000	2108000	right or what if I can
+2108000	2110000	add somewhere else you can surely
+2110000	2112000	add anywhere else but I would suggest
+2112000	2114000	you know to add it inside the head
+2114000	2116000	tag that's I'm just showing for you
+2116000	2118000	guys like you can add it bottom also
+2118000	2120000	okay but
+2120000	2122000	you should follow best practices
+2122000	2124000	go and add it in the head tag actually
+2124000	2126000	generally you don't write
+2126000	2128000	mostly you know
+2128000	2130000	internal CSS or inline CSS
+2130000	2132000	as you go for the frameworks
+2132000	2134000	always will be something will be preferred
+2134000	2136000	as external CSS okay
+2136000	2138000	now so coming back to the question
+2138000	2140000	guys here
+2140000	2142000	if you see here
+2142000	2144000	what's happening here
+2144000	2146000	so they are saying that select
+2146000	2148000	S2 with the ID
+2148000	2150000	the one and make it blue
+2150000	2152000	so they are saying what they are saying is that
+2152000	2154000	only this thing okay
+2154000	2156000	what is our like select me
+2156000	2158000	they are asking us to select only
+2158000	2160000	that particular HTML element
+2160000	2162000	and make it blue
+2162000	2164000	any ideas like if you know the
+2164000	2166000	answer you know write it down to me
+2166000	2168000	personally like don't write
+2168000	2170000	it down in the comment chat
+2170000	2172000	but any guesses guys do you think here
+2172000	2174000	I can apply element selector
+2174000	2176000	or the class selector
+2178000	2180000	if I apply element
+2180000	2182000	selector it will apply all the random
+2182000	2184000	and select me if I apply
+2184000	2186000	class selector then
+2186000	2188000	if you see here all
+2188000	2190000	this randoms also will be selected right
+2190000	2192000	because this is also S2 class
+2194000	2196000	right so when
+2196000	2198000	you have this thing right now
+2198000	2200000	what whenever you have this type of problem
+2200000	2202000	right all the attacks are same type of elements
+2202000	2204000	all the classes are also having
+2204000	2206000	like common classes
+2206000	2208000	then you should go and see that hey
+2208000	2210000	which attribute I can use
+2210000	2212000	do you see there is a one unique attribute
+2212000	2214000	for select me
+2214000	2216000	ID right as Muneshwara
+2216000	2218000	suggested
+2218000	2220000	so what we will do is like
+2220000	2222000	we will go and select ID
+2222000	2224000	now if you want to select an ID
+2224000	2226000	type of attribute right you have
+2226000	2228000	to use hash key
+2228000	2230000	and you should write the one
+2230000	2232000	ok
+2232000	2234000	let's say I have to
+2234000	2236000	make it blue so I will
+2236000	2238000	make it as blue
+2238000	2240000	and we will open this in preview
+2242000	2244000	ok now
+2246000	2248000	do you guys understand this how to add
+2248000	2250000	ID whenever you
+2250000	2252000	use ID selector you have to use
+2252000	2254000	hash key ok
+2254000	2256000	currently the things we have discussed
+2256000	2258000	this we write element
+2258000	2260000	selector ID selector and class
+2260000	2262000	selector these are really common and you will
+2262000	2264000	be using it across now
+2264000	2266000	so whoever asked me like whether I can use
+2266000	2268000	style block below let's say I go
+2268000	2270000	and put it below the body
+2270000	2272000	still it works because it's still
+2272000	2274000	passing the one means
+2274000	2276000	like if you see the ID
+2276000	2278000	whichever the ID is
+2278000	2280000	the value
+2280000	2282000	of it
+2284000	2286000	ok now but following
+2286000	2288000	the standard guys I will go
+2288000	2290000	and put it in the head itself style is supposed
+2290000	2292000	to be there ok
+2294000	2296000	yeah ok
+2296000	2298000	to clear the supendra's doubt
+2298000	2300000	so let's say I have style
+2300000	2302000	here guys now
+2302000	2304000	let's say this is an
+2304000	2306000	internal CSS right what
+2306000	2308000	if I go and write down
+2308000	2310000	style here and I make
+2310000	2312000	color equal to blue
+2312000	2314000	or color equal to red
+2314000	2316000	which color should
+2316000	2318000	apply blue or red
+2322000	2324000	ok how many people are suggesting red
+2324000	2326000	give me thumbs up for the red and thumbs
+2326000	2328000	down for the blue
+2328000	2330000	so all the people are going with
+2330000	2332000	red ok let's say I will make it
+2332000	2334000	red
+2336000	2338000	ok spelling mistake
+2338000	2340000	ok
+2340000	2342000	no so what happened here
+2344000	2346000	ok so for this thing
+2346000	2348000	how this is getting executed
+2348000	2350000	is like
+2350000	2352000	so whose question was this
+2352000	2354000	I just want to open
+2354000	2356000	now why this happened right
+2356000	2358000	though we told that
+2358000	2360000	hey from top to bottom
+2360000	2362000	whatever style should define
+2362000	2364000	it should override it now the
+2364000	2366000	style block is defined at the bottom
+2366000	2368000	and the blue is not overriding it
+2368000	2370000	that would be basic question right
+2370000	2372000	that's a confusing statement again
+2372000	2374000	but behind the scenes what's happening is
+2374000	2376000	like when your DOM is created
+2376000	2378000	I will come back to it but like when we talk
+2378000	2380000	about DOM like how DOM tree is
+2380000	2382000	created from that perspective
+2382000	2384000	this things right
+2384000	2386000	this style block
+2386000	2388000	it last right whenever you are creating
+2388000	2390000	this type of structure let's say
+2390000	2392000	I will go and
+2392000	2394000	show it to you guys
+2398000	2400000	ok
+2400000	2402000	now if you see
+2402000	2404000	how tree you know DOM
+2404000	2406000	tree is formed is first we know that
+2406000	2408000	there is an HTML element it has
+2408000	2410000	two things head and body
+2410000	2412000	ok
+2412000	2414000	then head
+2414000	2416000	might have some meta attacks
+2416000	2418000	right style links
+2418000	2420000	then this have
+2420000	2422000	multiple piece
+2422000	2424000	right
+2424000	2426000	now similarly
+2426000	2428000	when you are building a DOM
+2428000	2430000	DOM is generally
+2430000	2432000	built for you know this one
+2432000	2434000	what we say
+2434000	2436000	HTML element but there is something called
+2436000	2438000	Syscom
+2438000	2440000	ok
+2440000	2442000	Syscom is applied to
+2442000	2444000	you know define which CSS should apply
+2444000	2446000	now this tree
+2446000	2448000	generally when it is applying right
+2448000	2450000	firstly it will go through
+2450000	2452000	like external
+2452000	2454000	any if there are any
+2454000	2456000	internal right it will try to read it
+2456000	2458000	now there is a
+2458000	2460000	clarity firstly who is winning
+2460000	2462000	between them is decided
+2462000	2464000	now after that whenever you are
+2464000	2466000	building a tree right let's say whenever
+2466000	2468000	you are applying let's say body
+2468000	2470000	is there here now
+2470000	2472000	all the
+2472000	2474000	P tags are here let's say
+2474000	2476000	in external
+2476000	2478000	file you have defined color as
+2478000	2480000	red and in internal you
+2480000	2482000	made it blue considering
+2482000	2484000	link is added
+2484000	2486000	above style
+2486000	2488000	in internal
+2488000	2490000	ok so first
+2490000	2492000	it is red then overridden with blue
+2492000	2494000	now let's say for this one you have
+2494000	2496000	added inline
+2496000	2498000	ok now firstly
+2498000	2500000	all these things are resolved but when
+2500000	2502000	you are building a tree right actually
+2502000	2504000	it will say that hey I am building a
+2504000	2506000	P tag I will check what are the colors
+2506000	2508000	anything is there that I have to apply
+2508000	2510000	it says that blue ok
+2510000	2512000	applied here also blue applied
+2512000	2514000	here also blue here let's say
+2514000	2516000	for inline you made it here
+2516000	2518000	again red let's say so red will be
+2518000	2520000	updated so this is how it happens
+2520000	2522000	like structure it like
+2522000	2524000	inline will be preferred at max
+2524000	2526000	like there is also
+2526000	2528000	one of the other rules that we will see
+2528000	2530000	like what like there is one
+2530000	2532000	something that specificity
+2532000	2534000	we will see in the future classes
+2534000	2536000	when it comes to it what are the rules
+2536000	2538000	like which style will be applied
+2538000	2540000	ok for that reason
+2540000	2542000	what I usually say right
+2542000	2544000	you know if you don't want to confuse
+2544000	2546000	yourself right always
+2546000	2548000	add the style block on to the top
+2548000	2550000	of it don't focus
+2550000	2552000	don't confuse yourself keep it clarity
+2552000	2554000	because you are the developer there wouldn't
+2554000	2556000	be anyone asking you to add
+2556000	2558000	style below or why didn't you add up
+2558000	2560000	so following coding standards there
+2560000	2562000	will be a clarity to you it's not like
+2562000	2564000	multiple ways of doing it
+2564000	2566000	what is the right way of doing it
+2566000	2568000	is that fine guys
+2570000	2572000	I will explain again how html
+2572000	2574000	and syscom like
+2574000	2576000	dom and syscom is there then
+2576000	2578000	how a
+2578000	2580000	aom is built actually
+2580000	2582000	which is like exactly a copy of a browser
+2582000	2584000	web screenshot of website
+2584000	2586000	we will see in the future classes
+2586000	2588000	I will pick it up I will also share you a document
+2588000	2590000	which you can refer to and understand
+2590000	2592000	how actually all these things like
+2592000	2594000	once we understand javascript
+2594000	2596000	html and sys how these three
+2596000	2598000	are combined and how they work all together
+2598000	2600000	okay now
+2600000	2602000	going back to next
+2602000	2604000	question guys
+2606000	2608000	q4
+2608000	2610000	dot html
+2612000	2614000	let's say this one
+2624000	2626000	now if you see this
+2626000	2628000	question here
+2628000	2630000	yeah inline will override always something
+2630000	2632000	but understand behind
+2632000	2634000	the reasons why it would be that no one
+2634000	2636000	like rules happen built
+2636000	2638000	simply generically
+2638000	2640000	you should understand how behind the scenes
+2640000	2642000	are happening we will see that in the
+2642000	2644000	future classes okay
+2644000	2646000	now but coming back to this
+2646000	2648000	question guys if you see here there's a
+2648000	2650000	form element it says you know
+2650000	2652000	input button type button
+2652000	2654000	it says click me and select me
+2654000	2656000	now
+2656000	2658000	so what it is saying
+2658000	2660000	and select the input element with the
+2660000	2662000	value select me and make it
+2662000	2664000	make its background color blue
+2664000	2666000	okay
+2666000	2668000	so do you see anything that you can
+2668000	2670000	apply by the knowledge you have till now
+2670000	2672000	do you think that
+2672000	2674000	element selector would work
+2674000	2676000	or you know any selector
+2676000	2678000	that's there here do you see any
+2678000	2680000	class or id
+2682000	2684000	no right even the type is like
+2684000	2686000	buttons are same
+2686000	2688000	so always always
+2688000	2690000	look at it this way like always look at
+2690000	2692000	it this way whenever you are not sure
+2692000	2694000	of doing anything look at like
+2694000	2696000	attributes do you
+2696000	2698000	say one attribute is differing here
+2698000	2700000	value right
+2700000	2702000	yeah so they just suggest
+2702000	2704000	that attribute selector now we'll see what
+2704000	2706000	is like attribute selector is like how do
+2706000	2708000	you handle that attributes because
+2708000	2710000	each type of selector whenever you are writing
+2710000	2712000	there's a different definition of
+2712000	2714000	writing it right like how you define them
+2714000	2716000	now let's say this is an attribute
+2716000	2718000	selector
+2720000	2722000	okay
+2722000	2724000	now how do you use it attribute selector
+2724000	2726000	now what type of
+2726000	2728000	element is this guys that we want to
+2728000	2730000	select
+2730000	2732000	what type of element is this
+2732000	2734000	HTML element
+2734000	2736000	input right first you
+2736000	2738000	write down input then you
+2738000	2740000	write down like value
+2740000	2742000	okay
+2742000	2744000	so first select the HTML element
+2744000	2746000	in bracket you define the
+2746000	2748000	attribute that you want to select
+2748000	2750000	select me
+2750000	2752000	once you do this
+2752000	2754000	then open the brace and let's say
+2754000	2756000	background color
+2756000	2758000	to the blue
+2758000	2760000	now let's open the
+2760000	2762000	preview
+2762000	2764000	do you see this
+2764000	2766000	background color blue is added
+2768000	2770000	so this is how you write
+2770000	2772000	down attribute selector like any
+2772000	2774000	attribute other than class
+2774000	2776000	id or you know element
+2776000	2778000	if you have let's say
+2778000	2780000	generically you can add any number of attributes
+2780000	2782000	let's say even if you say
+2782000	2784000	let's say data
+2784000	2786000	test id this
+2786000	2788000	doesn't exist though I'm making
+2788000	2790000	it let's say I say this
+2790000	2792000	is a one
+2792000	2794000	and let's say I go in here
+2794000	2796000	add input
+2796000	2798000	data
+2798000	2800000	test id
+2800000	2802000	let's say I select
+2802000	2804000	this
+2810000	2812000	and I say
+2812000	2814000	this is a one
+2814000	2816000	background
+2816000	2818000	color
+2818000	2820000	to be
+2820000	2822000	brown
+2822000	2824000	if you see this you can add anything
+2824000	2826000	let's say in randomly you have
+2826000	2828000	something like let's say you want to select it uniquely
+2828000	2830000	but you don't have anything common
+2830000	2832000	so you can select any
+2832000	2834000	attribute that you have and attributes
+2834000	2836000	can be anything any number of attributes you can
+2836000	2838000	define for one html element
+2838000	2840000	there are few defined by html
+2840000	2842000	few you can define anything now I use
+2842000	2844000	like this some random is this clear guys
+2846000	2848000	attribute selector clear
+2848000	2850000	so I hope all the four type
+2850000	2852000	of selectors are clear till now element
+2852000	2854000	id class and
+2854000	2856000	attribute selector and now next
+2856000	2858000	will go to some you know
+2858000	2860000	bit of
+2860000	2862000	combinatorics like this are simple one
+2862000	2864000	let's say I go for
+2864000	2866000	q5
+2868000	2870000	dot html
+2870000	2872000	let's say
+2872000	2874000	I copy this
+2874000	2876000	and
+2882000	2884000	let's
+2884000	2886000	close this
+2886000	2888000	let's open now
+2888000	2890000	if you see here what this is talking
+2890000	2892000	about so it is talking about
+2892000	2894000	write css selector to select the obvious
+2894000	2896000	list of items to make it blue
+2896000	2898000	so
+2898000	2900000	what it is saying that select
+2900000	2902000	me whatever select means there right li
+2902000	2904000	tags li tags inside
+2904000	2906000	this diff ol and li
+2906000	2908000	so it is asking us to
+2908000	2910000	select them and make it blue
+2910000	2912000	now till now I told that
+2912000	2914000	hey if you have an element
+2914000	2916000	do it if you have an attribute
+2916000	2918000	pick that one but here we don't have
+2918000	2920000	ability
+2920000	2922000	to pick it element selector because
+2922000	2924000	if I pick li tag directly
+2924000	2926000	this will be also converted
+2926000	2928000	into blue right and we don't have
+2928000	2930000	any attributes also to make it
+2930000	2932000	blue so
+2932000	2934000	do you see any possibility that
+2934000	2936000	we can use our current knowledge
+2936000	2938000	in selectors and solve this question
+2938000	2940000	use diff
+2940000	2942000	so okay
+2942000	2944000	I make a diff
+2944000	2946000	and let's say I will also
+2946000	2948000	have a diff here
+2948000	2950000	to make it further difficult
+2950000	2952000	I will have a diff here
+2956000	2958000	let's say okay
+2958000	2960000	diff also works fine let's say
+2960000	2962000	I have a diff then also it will solve that
+2964000	2966000	so how many of you guys agree that
+2966000	2968000	selection of diff will solve the problem
+2972000	2974000	okay now
+2974000	2976000	let's say
+2978000	2980000	I go to style block
+2980000	2982000	I open diff
+2982000	2984000	and let's say color
+2984000	2986000	equal to blue
+2986000	2988000	okay
+2988000	2990000	so it is making all blue
+2990000	2992000	but is there any
+2992000	2994000	other way that you want to do let's say
+2994000	2996000	you also have
+2996000	2998000	ol tag
+2998000	3000000	there is an extra ol tag here
+3000000	3002000	let's say this is something present
+3002000	3004000	now so
+3004000	3006000	as I made this complicated
+3006000	3008000	now think of this way
+3008000	3010000	like if I have
+3010000	3012000	let's say this is a ul tag here
+3012000	3014000	specifically
+3014000	3016000	okay
+3016000	3018000	on order at least
+3018000	3020000	think of it like if you want to select only
+3020000	3022000	select me here
+3022000	3024000	now I am having
+3024000	3026000	both the things have made it
+3026000	3028000	to blue
+3028000	3030000	I have to make it only one
+3030000	3032000	like select me only
+3032000	3034000	so Teja says
+3034000	3036000	diff ol
+3036000	3038000	okay
+3038000	3040000	so
+3040000	3042000	guys I want to introduce here
+3042000	3044000	a new type of selector what we call it
+3044000	3046000	like this is
+3046000	3048000	a combination
+3048000	3050000	okay
+3050000	3052000	you have to use combinations
+3052000	3054000	of
+3054000	3056000	different selectors from
+3056000	3058000	now on
+3058000	3060000	since only one
+3060000	3062000	like directly if I select
+3062000	3064000	diff I am not able to solve
+3064000	3066000	because earlier using diff
+3066000	3068000	you were able to solve but I made
+3068000	3070000	complicated now like using a diff
+3070000	3072000	you might not be able to select this one
+3072000	3074000	right using
+3074000	3076000	li you won't be able to select it
+3076000	3078000	now whenever you are not able to select it
+3078000	3080000	and attributes are not helpful
+3080000	3082000	you should go for the combinations you have to search
+3082000	3084000	firstly directly element
+3084000	3086000	then attributes if attributes are
+3086000	3088000	not supportive then go for combination
+3088000	3090000	okay now writing
+3090000	3092000	a combination there is one type
+3092000	3094000	of combination that you can use is
+3094000	3096000	called as descendant selector
+3102000	3104000	okay descendant
+3104000	3106000	selector now let's see google
+3106000	3108000	descendant
+3108000	3110000	this
+3110000	3112000	I have to
+3114000	3116000	okay
+3120000	3122000	so what it is telling guys
+3122000	3124000	if you can see this
+3126000	3128000	can anyone I hope you are reading
+3128000	3130000	this one originating or coming
+3130000	3132000	from a ancestor stalker source
+3132000	3134000	right whenever you say that
+3134000	3136000	have anyone have seen
+3136000	3138000	any code notices or anything
+3138000	3140000	like they write you know descendants of
+3140000	3142000	this person
+3142000	3144000	like whenever you have something ancestor
+3144000	3146000	property coming to your name
+3146000	3148000	so you are considered your descendants of
+3148000	3150000	your four grandfathers
+3150000	3152000	right
+3152000	3154000	so whenever you are saying
+3154000	3156000	that descendant selector you mean to say
+3156000	3158000	that like defining
+3158000	3160000	what is parent and direct child
+3160000	3162000	like let's say now what do I exactly mean by
+3162000	3164000	is that that now if you see
+3164000	3166000	I have div tag
+3166000	3168000	I will select for surely because this is something
+3168000	3170000	like a grandfather let's say I have
+3170000	3172000	selected div now
+3172000	3174000	after that what I can
+3174000	3176000	do is like I can directly say
+3176000	3178000	li tag
+3178000	3180000	div
+3180000	3182000	li color
+3182000	3184000	blue
+3184000	3186000	okay now if you see
+3186000	3188000	when I am selecting li
+3188000	3190000	I am making it blue both but
+3190000	3192000	if I want to make it you know different
+3192000	3194000	I have to select ol
+3194000	3196000	okay as already
+3196000	3198000	Teja has suggested
+3198000	3200000	but how do we define
+3200000	3202000	this this is like a descendant
+3202000	3204000	now whenever you select one parent
+3204000	3206000	let's say I can always
+3206000	3208000	I can also do this
+3208000	3210000	using let's say
+3210000	3212000	you can like you can use it
+3212000	3214000	anyways like from body also you can start
+3214000	3216000	it like descendant goes from
+3216000	3218000	top parent like this is a
+3218000	3220000	parent element and these are the children
+3220000	3222000	element okay similarly
+3222000	3224000	this is the grandfather you can say
+3224000	3226000	parent and then child so multi
+3226000	3228000	levels so what we are doing
+3228000	3230000	is like from descendant so you are getting from
+3230000	3232000	ancestral you know tag
+3232000	3234000	html element you are talking about
+3234000	3236000	like what is a wrapper first wrapper
+3236000	3238000	you are starting from there then you are
+3238000	3240000	selecting here div inside div select
+3240000	3242000	the ol
+3242000	3244000	is this clear guys descendant selector
+3244000	3246000	how this works so
+3246000	3248000	here we have combined
+3248000	3250000	what if we have to color only
+3250000	3252000	select okay what if we have to color
+3252000	3254000	only select right now
+3254000	3256000	I will show you this
+3256000	3258000	but some bit I will come
+3258000	3260000	back to this one let's say there is an nth
+3260000	3262000	child I will select one
+3264000	3266000	give me a second then I have to
+3266000	3268000	go to li
+3268000	3270000	okay if you
+3270000	3272000	see this what did I make I have
+3272000	3274000	chosen grand parent
+3274000	3276000	parent child
+3276000	3278000	inside that if I have multiple
+3278000	3280000	childs I have selected
+3280000	3282000	first child out of it
+3284000	3286000	this is okay some bit I will remove it as
+3286000	3288000	of now I have just answered your question
+3288000	3290000	just let's focus
+3290000	3292000	on descendant selector okay
+3292000	3294000	because this notes will be referred again
+3294000	3296000	for your sake
+3296000	3298000	so I hope this question is cleared
+3298000	3300000	but coming back to
+3300000	3302000	next question guys
+3302000	3304000	now let's say there is another
+3304000	3306000	type of combination you can
+3306000	3308000	use
+3308000	3310000	let's say I use q6
+3312000	3314000	dot html
+3326000	3328000	okay I am again closing this
+3328000	3330000	please read through so what I am saying
+3330000	3332000	is that select I am
+3332000	3334000	direction and make it blue
+3338000	3340000	guys we have just now
+3340000	3342000	learned descendant selector
+3342000	3344000	think of it we have learned
+3344000	3346000	actually too many selectors now
+3346000	3348000	think of it like if you can apply any one
+3348000	3350000	of them
+3352000	3354000	if you can apply any one of them like
+3354000	3356000	you have element selector
+3356000	3358000	you have id selector
+3358000	3360000	you have attribute selector
+3360000	3362000	you have class selector
+3362000	3364000	we started with
+3364000	3366000	combinations we went and
+3366000	3368000	thought of like descendant selector
+3368000	3370000	if you go from descendant
+3370000	3372000	you start from top level
+3372000	3374000	even you go from body
+3374000	3376000	or you go from div
+3376000	3378000	think of it like
+3382000	3384000	someone says div h1
+3384000	3386000	span
+3386000	3388000	okay
+3388000	3390000	let's see this
+3390000	3392000	what I will do is
+3394000	3396000	div h1
+3396000	3398000	span
+3402000	3404000	color blue
+3408000	3410000	now I will open
+3410000	3412000	show preview
+3412000	3414000	so here there is something happening guys
+3416000	3418000	do you think our question is solved
+3422000	3424000	no right
+3424000	3426000	so combinations
+3426000	3428000	can be used here but
+3428000	3430000	there is a different type of combinations
+3430000	3432000	here we have to use
+3432000	3434000	we can add a class
+3434000	3436000	and we can solve some with anyways
+3436000	3438000	right but here we have to use
+3438000	3440000	a combination so
+3440000	3442000	one of the other type of combination
+3442000	3444000	that we can discuss is something called
+3444000	3446000	as children selector
+3448000	3450000	okay
+3450000	3452000	so children is something we say
+3452000	3454000	that who is next
+3454000	3456000	to our life like let's say if I
+3456000	3458000	if I have a future my
+3458000	3460000	babies I will say that they are my children
+3460000	3462000	right but my grandfather cannot say
+3462000	3464000	that they are my children he will say that they are my
+3464000	3466000	granddaughters and grandsons right
+3466000	3468000	do you
+3468000	3470000	agree with this frame first like
+3470000	3472000	in future if you have babies
+3472000	3474000	they will say that they are your children but grandfather
+3474000	3476000	will say that grandchildren so whenever
+3476000	3478000	we are saying that children selector right
+3478000	3480000	you have to be specific
+3480000	3482000	so whenever we are going through that
+3482000	3484000	hierarchy series so when
+3484000	3486000	we see that this is our dev tag
+3486000	3488000	then h1 tag and span
+3488000	3490000	so div will say hey
+3490000	3492000	if you see here inside div
+3492000	3494000	if I want to select this specifically
+3494000	3496000	this one right inside this
+3496000	3498000	this child is h1 so I will say that hey
+3498000	3500000	for selecting child I will use this
+3500000	3502000	greater than symbol
+3502000	3504000	whenever I use greater than symbol I mean
+3504000	3506000	to say that hey dev child
+3506000	3508000	h1 h1 child
+3508000	3510000	span
+3510000	3512000	do you see this
+3512000	3514000	how it is working
+3514000	3516000	so when I am saying that whenever you are using
+3516000	3518000	children selector you have
+3518000	3520000	to define a complete relationship
+3520000	3522000	till that element
+3522000	3524000	till the element you reach it
+3524000	3526000	like you have to reach you want to reach this element
+3526000	3528000	what if you want to reach
+3528000	3530000	this element what if you want to reach
+3530000	3532000	this element like you can say
+3532000	3534000	dev
+3534000	3536000	span
+3536000	3538000	and let's say color red
+3538000	3540000	okay
+3540000	3542000	so I am saying that whatever inside
+3542000	3544000	this wrapper anything is there
+3544000	3546000	make it red or else if you want to
+3546000	3548000	specifically go and touch this span
+3548000	3550000	right you have to keep on writing
+3550000	3552000	the children selector h1
+3552000	3554000	then again span
+3554000	3556000	is this clear
+3556000	3558000	like how you can use
+3558000	3560000	children selector how you can write down
+3560000	3562000	this series so children
+3562000	3564000	goes for like each level
+3566000	3568000	like if I write
+3568000	3570000	down like statement I have
+3570000	3572000	written one statement if you want to remember
+3572000	3574000	this try to remember it this way
+3574000	3576000	you have to reach
+3576000	3578000	that particular html
+3578000	3580000	if you want to remember this way
+3580000	3582000	don't stop it in mid layer you can
+3582000	3584000	always do div greater than h1
+3584000	3586000	and that will apply color blue
+3586000	3588000	but you know one thing
+3588000	3590000	I would want to say that whenever using
+3590000	3592000	combinations right even when you are in projects
+3592000	3594000	go till that target element
+3594000	3596000	and only then
+3596000	3598000	apply the css
+3598000	3600000	so that it doesn't affect in the future
+3600000	3602000	okay so I hope
+3602000	3604000	guys all the six questions are clear
+3604000	3606000	to you like the different types of selectors
+3606000	3608000	we introduced till now
+3608000	3610000	I think I have one more
+3610000	3612000	I question I guess
+3612000	3614000	let me search for it
+3622000	3624000	let's say I have
+3624000	3626000	one interesting question
+3626000	3628000	this is just a confusion
+3628000	3630000	confusing question just want to
+3630000	3632000	see like
+3632000	3634000	how we can solve this
+3642000	3644000	okay
+3644000	3646000	now if you see it here
+3646000	3648000	so what it is talking about is select the element
+3648000	3650000	with the multiple classes m1 and m2
+3650000	3652000	make them blue
+3654000	3656000	okay they are talking about
+3656000	3658000	like select me
+3658000	3660000	like they are asking us to make this blue
+3660000	3662000	not me or not me
+3662000	3664000	this one m1 m2
+3664000	3666000	if I
+3666000	3668000	do m1
+3668000	3670000	and make it blue
+3670000	3672000	this will make both this blue
+3674000	3676000	okay if I make m2
+3676000	3678000	and make it blue this will make both
+3678000	3680000	blue
+3680000	3682000	okay this is also one of the
+3682000	3684000	combination type of combination
+3684000	3686000	only but this is on a class
+3686000	3688000	you know class
+3688000	3690000	selector
+3690000	3692000	firstly we know right how we can write a class
+3692000	3694000	selector
+3696000	3698000	okay
+3698000	3700000	I have received one answer
+3700000	3702000	but
+3702000	3704000	right we remember class selector right
+3704000	3706000	what if I can if I want to
+3706000	3708000	go to specific item right if I want to
+3708000	3710000	point at one specific item
+3710000	3712000	can I consider
+3712000	3714000	this class name as m1 m2
+3714000	3716000	itself
+3718000	3720000	you know those both class
+3720000	3722000	are there I just go have to
+3722000	3724000	get that name right specific element
+3724000	3726000	I am targeting so I will do that
+3726000	3728000	same thing whenever there is a class selector I will say that
+3728000	3730000	dot m1
+3730000	3732000	and dot m2
+3732000	3734000	and let's say
+3734000	3736000	color blue
+3738000	3740000	let's see if this is applying
+3748000	3750000	okay it didn't happen
+3750000	3752000	give me a second
+3752000	3754000	yeah so there shouldn't be space
+3754000	3756000	whenever you are writing continuous elements
+3756000	3758000	okay only for descendant happen
+3758000	3760000	since this is a name right
+3760000	3762000	we are using add a name and
+3762000	3764000	classes generally use you
+3764000	3766000	use dot operator okay
+3766000	3768000	I hope this is clear guys
+3768000	3770000	how can you access this multiple classes
+3770000	3772000	just go by name
+3772000	3774000	okay
+3774000	3776000	so
+3776000	3778000	is this clear guys like
+3778000	3780000	I hope everyone
+3780000	3782000	is having a good understanding on this
+3782000	3784000	okay nice
+3784000	3786000	isn't it m1 and m2
+3786000	3788000	a single class
+3788000	3790000	yeah somewhere that is what I was talking about
+3790000	3792000	m1 and m2
+3792000	3794000	consider this as a
+3794000	3796000	single class and
+3796000	3798000	this one as a different classes
+3798000	3800000	so
+3800000	3802000	m1 m2
+3802000	3804000	okay let's say this
+3804000	3806000	way it wouldn't work whenever
+3806000	3808000	whatever you are defining inside
+3808000	3810000	a class right you use
+3810000	3812000	you need to use a dot operator
+3812000	3814000	even let's say I have
+3814000	3816000	id here
+3816000	3818000	let's say this is
+3818000	3820000	m1 id cannot be
+3820000	3822000	having a multiple things firstly id should be unique
+3822000	3824000	classes can be common
+3824000	3826000	that's how it works
+3826000	3828000	okay why dot in between
+3828000	3830000	then hey guys
+3830000	3832000	this is one class name
+3832000	3834000	this is another class name I am using this
+3834000	3836000	combination
+3836000	3838000	I am specifically
+3838000	3840000	pointing this on these are two whenever
+3840000	3842000	you want to apply multiple classes let's say
+3842000	3844000	this is m3 and you have
+3844000	3846000	m4 multiple classes if you have
+3846000	3848000	let's say one m3 class
+3848000	3850000	dot m3 class is having some other properties
+3850000	3852000	also font size
+3854000	3856000	right let's say 20 pixel
+3856000	3858000	so you want to apply
+3858000	3860000	them right you cannot
+3860000	3862000	yeah so
+3862000	3864000	you have to use dots for each type of
+3864000	3866000	class name because there is a space
+3866000	3868000	space is given only when you have to add multiple
+3868000	3870000	classes to one particular html
+3870000	3872000	element you can have
+3872000	3874000	n number of classes attached
+3874000	3876000	to one class okay it's a
+3876000	3878000	like it takes multiple things
+3878000	3880000	okay so
+3880000	3882000	nice so going back
+3882000	3884000	removing this too
+3888000	3890000	okay then there is another question
+3890000	3892000	guys let's say
+3892000	3894000	I think I have
+3894000	3896000	solve this solve this
+3898000	3900000	this is something
+3900000	3902000	again a combination
+3902000	3904000	think of this like how would you solve this
+3904000	3906000	q8
+3912000	3914000	q8.html
+3916000	3918000	typo mistake okay
+3918000	3920000	did I make anything here
+3920000	3922000	okay
+3922000	3924000	fine close this
+3924000	3926000	now coming
+3926000	3928000	back to this one I'm
+3928000	3930000	pasting this question guys please go through it
+3930000	3932000	so here
+3932000	3934000	what it is saying is to select
+3934000	3936000	direct sun and make it blue
+3936000	3938000	so the
+3938000	3940000	direct sun right and the direct sun is present
+3940000	3942000	inside the dev track
+3942000	3944000	first children which is p
+3944000	3946000	here it is present here this way
+3946000	3948000	now think of it how would you
+3948000	3950000	deal with this one
+3952000	3954000	there are many ways of writing this one
+3954000	3956000	so think of this one
+3962000	3964000	you can apply
+3964000	3966000	to c2
+3966000	3968000	one way I agree
+3968000	3970000	open draw
+3970000	3972000	one way is directly selecting
+3972000	3974000	c2 and the
+3974000	3976000	other suggestion Ashish has
+3976000	3978000	given
+3978000	3980000	you are targeting wrong element
+3980000	3982000	I believe right if you see dev span and
+3982000	3984000	p it says that I am in direction
+3984000	3986000	but we want to target
+3986000	3988000	under direction
+3988000	3990000	now okay
+3990000	3992000	shambhure says
+3992000	3994000	dev children selector p
+3994000	3996000	right okay cool
+3996000	3998000	okay
+3998000	4000000	now so there are many ways
+4000000	4002000	of doing it so I'll write down all possible
+4002000	4004000	things one was .c2
+4004000	4006000	okay and making it color
+4006000	4008000	blue okay
+4010000	4012000	so this is like when you have enough knowledge
+4012000	4014000	right you will be able to see there are many things
+4014000	4016000	that you can do one is c2 directly
+4016000	4018000	then the other suggestion that I got
+4018000	4020000	was use children selector
+4020000	4022000	dev and then p
+4022000	4024000	then go for color blue
+4026000	4028000	right this is also one
+4028000	4030000	way now the third way
+4030000	4032000	that I was thinking about is like
+4032000	4034000	combination of let's say I use
+4034000	4036000	.c1
+4036000	4038000	and
+4038000	4040000	let's say combination of this one
+4040000	4042000	p
+4046000	4048000	right what I did
+4048000	4050000	what I did is like I have combined two
+4050000	4052000	elements like using children selector
+4052000	4054000	the c1 class and p
+4054000	4056000	right so
+4056000	4058000	three ways of solving this problem
+4058000	4060000	is this clear guys like
+4060000	4062000	you can directly select that element
+4062000	4064000	or you can go from parent to child using
+4064000	4066000	element selector what did I
+4066000	4068000	combine here I have combined
+4068000	4070000	element selector and class selector
+4070000	4072000	and I have used a combinator
+4072000	4074000	using children selectors
+4074000	4076000	okay now
+4076000	4078000	good good guys
+4078000	4080000	I think you are able to understand this one
+4080000	4082000	better now
+4082000	4084000	one thing I have
+4084000	4086000	is I think I have completed exhausted all
+4086000	4088000	the things that I want to cover
+4090000	4092000	give me a second
+4092000	4094000	eight okay one question
+4094000	4096000	I have guys I will give it as a homework
+4096000	4098000	you have selected
+4098000	4100000	like let's say q9
+4100000	4102000	q9.html
+4102000	4104000	okay
+4104000	4106000	I will give it as homework I don't need
+4106000	4108000	anyone answering it so that
+4108000	4110000	you can answer it whenever
+4110000	4112000	you have time
+4112000	4114000	or I will ask in the
+4114000	4116000	next class like I will push this anyways in
+4116000	4118000	the get up okay think of
+4118000	4120000	this one okay if you
+4120000	4122000	see here what was this
+4122000	4124000	select the element with select me and make it
+4124000	4126000	simple so these are the
+4126000	4128000	two things p tag and
+4128000	4130000	div tag okay
+4130000	4132000	I have wantedly made
+4132000	4134000	some cumbersome this one
+4134000	4136000	there are c1 c2
+4136000	4138000	applying it multiple places so you
+4138000	4140000	cannot use
+4140000	4142000	actually I shouldn't talk about
+4142000	4144000	you will get any all the hints that
+4144000	4146000	you can think of you can eliminate the processes
+4146000	4148000	and you can think of it I will push
+4148000	4150000	this code okay now
+4150000	4152000	coming back to
+4152000	4154000	one of the things guys
+4154000	4156000	you know these are the list of selectors that we
+4156000	4158000	have seen but if you
+4158000	4160000	remember one person someone
+4160000	4162000	have questioned me
+4162000	4164000	in one question like I have written
+4164000	4166000	somewhere nth child right nth child
+4166000	4168000	which question I have written I
+4168000	4170000	don't remember okay
+4170000	4172000	yeah please try it some bit I will also
+4172000	4174000	what we will say what we will do is we will start a doubt
+4174000	4176000	session after this sorry
+4176000	4178000	doubt session I meant to say break I will
+4178000	4180000	keep that open tab okay you can
+4180000	4182000	think of it okay
+4186000	4188000	but I was wanted to use something
+4188000	4190000	okay no
+4190000	4192000	where is button
+4192000	4194000	give me a second guys I am trying
+4194000	4196000	to find okay coming back to this question
+4196000	4198000	let's open this in the
+4198000	4200000	preview now
+4200000	4202000	guys have you observed many times that
+4202000	4204000	you know yeah I will push the code
+4204000	4206000	but have you observed this thing many times that
+4206000	4208000	whenever you go and write
+4208000	4210000	hover over something
+4210000	4212000	the button comes up or there's some
+4212000	4214000	style changes are happening
+4214000	4216000	or images coming up right whenever you
+4216000	4218000	go move your cursor on it
+4218000	4220000	right like
+4220000	4222000	all those things are happening do you
+4222000	4224000	do you know how we haven't seen
+4224000	4226000	that thing right how we handle such behaviors
+4226000	4228000	now that
+4228000	4230000	that sort of things are called as pseudo
+4230000	4232000	selectors okay now
+4232000	4234000	we have covered simple selectors but
+4234000	4236000	that comes under the pseudo selector I will
+4236000	4238000	I will show you one of the examples how we
+4238000	4240000	can do it just let's say I
+4240000	4242000	want to make this button
+4242000	4244000	background color change
+4244000	4246000	yeah so let's say input
+4246000	4248000	data test ID
+4248000	4250000	to insert I will make it one
+4250000	4252000	again okay
+4252000	4254000	now
+4254000	4256000	what I can do
+4256000	4258000	is like all the behaviors right there are
+4258000	4260000	too many behaviors to be specific
+4260000	4262000	you can explore it
+4262000	4264000	what you can do is like if you want to add any
+4264000	4266000	pseudo selectors you can use double
+4266000	4268000	dots once you have double dots
+4268000	4270000	you can go below right
+4270000	4272000	you will have something called hover
+4272000	4274000	okay if you
+4274000	4276000	see this hover so what it
+4276000	4278000	means is that whenever you hover over
+4278000	4280000	this button or like select me button
+4280000	4282000	I will change something let's
+4282000	4284000	say what I will make is like you know
+4284000	4286000	add a border
+4286000	4288000	I will come to the border properties guys everything
+4288000	4290000	we will discuss is discuss this
+4290000	4292000	but let's say I make one pixel
+4292000	4294000	solid tomato
+4294000	4296000	okay
+4296000	4298000	what do I mean is that now if you see
+4298000	4300000	this here the behavior if I
+4300000	4302000	go and hover over click me nothing is
+4302000	4304000	much happening because this is by default
+4304000	4306000	we are getting this what
+4306000	4308000	is of data test ID I have made
+4308000	4310000	it just a random attribute to show
+4310000	4312000	that you can add multiple attributes
+4312000	4314000	into any
+4314000	4316000	HTML random
+4316000	4318000	okay so
+4318000	4320000	now let's see if I go over select
+4320000	4322000	hover me right if you see this
+4322000	4324000	there is something orange is added
+4324000	4326000	let me make 10 pixel
+4326000	4328000	to show it if you see
+4328000	4330000	this orange is coming up by
+4330000	4332000	whenever I hover over it
+4332000	4334000	so this side of this
+4334000	4336000	things right you have to explore
+4336000	4338000	further like what are properties can be
+4338000	4340000	as of now this class
+4340000	4342000	covers like how can you
+4342000	4344000	select one particular element in multiple
+4344000	4346000	ways and how can you reach that
+4346000	4348000	so that you can add multiple behaviors
+4348000	4350000	to it okay
+4350000	4352000	we will see in future classes how we can deal
+4352000	4354000	with hover or other things upcoming
+4354000	4356000	clear guys
+4356000	4358000	and also what I did
+4358000	4360000	is like
+4360000	4362000	what did I do it is that
+4362000	4364000	if you go in the links right
+4364000	4366000	show preview
+4366000	4368000	right so I have added here
+4368000	4370000	CSS selectors this link I will
+4370000	4372000	push the code you can refer to this
+4372000	4374000	you know and you can explore
+4374000	4376000	all the things because this will need
+4376000	4378000	reading time I try to make
+4378000	4380000	a questionnaire such that you know we can cover
+4380000	4382000	all the type of questions and understand and
+4382000	4384000	one can go through it anytime
+4384000	4386000	but if you want to read a documentation
+4386000	4388000	docs by specific you can use
+4388000	4390000	CSS selector hyperlink you can
+4390000	4392000	go to it okay
+4392000	4394000	now coming back to this one
+4394000	4396000	I just want to summarize what we
+4396000	4398000	have discussed in terms of selectors
+4402000	4404000	right we have
+4404000	4406000	we have discussed different types
+4406000	4408000	of selectors can anyone help
+4408000	4410000	me out naming what type of
+4410000	4412000	things we have covered till now
+4420000	4422000	right anyone
+4424000	4426000	we covered something called
+4426000	4428000	element
+4428000	4430000	class
+4432000	4434000	ID
+4434000	4436000	attribute
+4438000	4440000	then we went for
+4440000	4442000	descended
+4444000	4446000	then we went for children
+4448000	4450000	right these are the
+4450000	4452000	things that we have used right
+4452000	4454000	when you go for class
+4454000	4456000	you have to use dot operator and
+4456000	4458000	class name you go for ID you have
+4458000	4460000	to use hash key and when you go for
+4460000	4462000	attribute you have to give element
+4462000	4464000	name
+4466000	4468000	and in array bracket
+4468000	4470000	you have to define attribute value
+4470000	4472000	go for descend descendant
+4472000	4474000	any level you
+4474000	4476000	can define the parent like dev
+4476000	4478000	and li it will work
+4478000	4480000	for descendant when it comes to
+4480000	4482000	children you have to define the exact
+4482000	4484000	hierarchy of elements reaching
+4484000	4486000	the target value when you go for
+4486000	4488000	element you can directly select any
+4488000	4490000	element that you have and make
+4490000	4492000	you know add styles to it
+4492000	4494000	okay I hope this this all selectors
+4494000	4496000	are clear to you so if this
+4496000	4498000	thing is clear we'll
+4498000	4500000	go for the five minutes break guys
+4502000	4504000	I'll see there's a one question for
+4504000	4506000	me that was
+4506000	4508000	we want to add a transition speed and
+4508000	4510000	all and hover should we add
+4514000	4516000	some ways I'll cover that in doubt session
+4516000	4518000	that's a big thing like I'll
+4518000	4520000	since it's an introduction I will discuss
+4520000	4522000	that okay
+4522000	4524000	cool so
+4524000	4526000	do you want me to take a break
+4526000	4528000	or do you want me to continue guys
+4528000	4530000	you need a break or you want me to please
+4530000	4532000	push the code before break so we need
+4532000	4534000	sure sure I'll push the code
+4534000	4536000	five minutes
+4536000	4538000	continue so people are
+4538000	4540000	like let me know if you want
+4540000	4542000	me to continue please give me thumbs up
+4542000	4544000	if you need a break give me thumbs down
+4546000	4548000	if you allow me to continue we'll
+4548000	4550000	close the class certainly
+4552000	4554000	okay
+4556000	4558000	git add dot
+4558000	4560000	git commit
+4560000	4562000	minus nm
+4562000	4564000	selectors
+4566000	4568000	git push
+4568000	4570000	I'll give you the
+4570000	4572000	link
+4572000	4574000	give me a second
+4592000	4594000	so guys
+4594000	4596000	I forgot the
+4596000	4598000	poll that I asked like whether to continue
+4598000	4600000	thumbs up was for continue
+4600000	4602000	or break
+4604000	4606000	what we are supposed to do when we go for
+4606000	4608000	thumbs down we have to continue is it
+4608000	4610000	I was trying to
+4610000	4612000	commit the code push the code
+4616000	4618000	thumbs down for the break okay
+4618000	4620000	let's get the five minutes
+4620000	4622000	break guys and we'll come back
+4622000	4624000	you please go through the code that
+4624000	4626000	have pushed any doubts you have anything
+4626000	4628000	please let me know okay
+4628000	4630000	and
+4632000	4634000	meanwhile also
+4634000	4636000	check this link you know that link
+4636000	4638000	that I have give you on links dot md
+4638000	4640000	you can go and let's say
+4640000	4642000	I open that here itself
+4642000	4644000	okay
+4644000	4646000	which link I was talking about
+4646000	4648000	go to self study
+4648000	4650000	open this md file
+4650000	4652000	okay you click this one
+4652000	4654000	this will redirect you to
+4654000	4656000	you know web dev web dev is
+4656000	4658000	best for understanding HTML
+4658000	4660000	CSS according to me at least
+4660000	4662000	it gives you clear you know
+4662000	4664000	idea so go through this
+4664000	4666000	explore things also
+4666000	4668000	like you have pseudo classes and
+4668000	4670000	pseudo elements how you can deal with them
+4670000	4672000	so one of the thing that I have already showed you is
+4672000	4674000	nth child like you can how you can deal
+4674000	4676000	with it and hover thing
+4676000	4678000	but there are many other properties
+4678000	4680000	that you have to read and understand
+4680000	4682000	because everything cannot be done it
+4682000	4684000	in projects when we are building I will show
+4684000	4686000	multiple use cases of them
+4686000	4688000	okay
+4688000	4690000	sure
+4690000	4692000	I hope you go and check
+4692000	4694000	all the things that I have shared
+4694000	4696000	okay
+4696000	4698000	please take break guys
+4712000	4714000	you
+4742000	4744000	you
+4772000	4774000	you
+4802000	4804000	you
+4832000	4834000	you
+4862000	4864000	you
+4892000	4894000	you
+4922000	4924000	you
+4952000	4954000	you
+4982000	4984000	you
+4984000	4986000	you
+4986000	4988000	you
+4988000	4990000	you
+4990000	4992000	you
+4992000	4994000	you
+4994000	4996000	you
+4996000	4998000	you
+4998000	5000000	back
+5000000	5002000	reactions any
+5002000	5004000	reactions guys
+5004000	5006000	so
+5006000	5008000	if you
+5008000	5010000	stay in the call like
+5010000	5016640	We can end the class really like not stretching it that much because the content that I want to discuss now
+5016640	5018760	Or two topics are left. Okay?
+5019580	5023180	Because selectors was big one because I had too many questions to cover
+5025660	5030840	Let me just say like compare, you know recheck it if I have covered everything Oh
+5031600	5033600	Oh
+5037480	5041180	All right, I've covered this one this one done this one done
+5042520	5043640	cool
+5043640	5050360	So any answers guys that went nine questions anyone had thought of it or?
+5051840	5055000	Like anything any combinations that you want to use on this
+5060840	5062840	Oh
+5063760	5070800	This actually this question can be solved if you have understood those first eight questions anyone tried it
+5077920	5079920	Guys did anyone try
+5083040	5086960	Okay, no worries, let's let's move ahead let's move it guys no
+5087640	5090680	So now if we have to discuss something called us
+5092280	5097560	Colors, okay colors in CSS
+5101040	5104240	Say I have an index dot HTML file
+5107480	5110840	HTML5 now, let's say I have something like
+5110840	5112840	A
+5114520	5118520	Diff tag or P tag again lower M
+5120320	5122320	20
+5123840	5126360	Now if I open the show preview
+5128280	5130280	Now let's say I
+5131040	5138160	Try to add something called as like let's say color or to this one. I'll use a style block here and
+5139040	5141040	I'll use element selector
+5142240	5146520	And let's say I say color to be
+5149320	5152520	Dodger blue, okay. Now I made this color
+5153040	5158560	No ways how many colors you would be able to remember or you will be able to type
+5160360	5164080	Do you think there would be limitation on this
+5165080	5171640	Like seven max to seven or ten right you remember I hardly even remember eight to nine
+5171760	5177680	but if you have any time gone to like, you know any paint shop and
+5178640	5182320	Like if someone has built their home or painted their home, you have to select
+5183200	5185200	color from your catalog, right
+5185960	5191360	Have anyone experienced it like selecting a color from a catalog color code?
+5191400	5193400	You have to you have a color code, right
+5194000	5198000	Does anyone remember that color code how it was represented?
+5198560	5200800	How that color code was represented? I?
+5203960	5205960	Worry like
+5206280	5210000	Some some people are saying hash code and hex right hex. So
+5211400	5215560	Do you alright so what happened right that way like?
+5216520	5219200	Generally in world right if you go for any any places
+5219880	5225880	The colors like this way right whenever you name colors like Dodger blue even I think Dodger blue or something
+5226720	5234160	People might not remember it or know it like can I have a Dodger blue shirt t-shirt this I remember because I was having
+5234160	5239960	That same type of t-shirt. I was searching like how we can get the sky blue or there are different types of blues
+5240200	5242200	So that was one of the Dodger blue
+5242280	5248200	But there is a limitation on this type of color. How many does HTML browser support?
+5248560	5252600	For this we have only 140 colors as a limitation
+5253040	5260940	But if you want to go ahead, right if you want further more colors like same way as we have a different, you know shades of
+5261880	5265560	colors like in like when you see it
+5266760	5272840	Similarly you have if you want to remember multiple like list of things right you go you have like
+5273640	5276120	Defined it in the hex code format now
+5276560	5283440	If you go and see let's say I I say that this is a h3. Let's say I make it this h3
+5286560	5292800	Okay, and let's say I use element selector again. I do h3 and color
+5293640	5300000	No, there's other way as you as you all suggested that we can use a hash code like hash code
+5300520	5303080	Again starts with six letters after that
+5304040	5311760	Okay, there are once you say that hash key there are six things now six things inside this how it goes is like
+5312960	5314960	Let me write down in the comments
+5315640	5317640	This is like hash
+5317960	5319800	red red
+5319800	5321800	green green
+5321840	5323480	blue blue
+5323480	5324640	Okay
+5324640	5328360	So what we say that first like first two letters stands for our
+5328960	5336160	Our is go for it now, let's say if I'd elect and this range right this value of range can grow from
+5337000	5345160	Any number any letter out of this six things can go from range of zero to nine and a to F
+5346000	5351860	Okay, the combination of this. Let's say I define one sort of combination, which is nine a
+5354080	5356080	Nine four
+5356120	5357680	BC
+5357680	5360660	So this is giving us some hash type of color. Okay
+5361440	5363920	So this is giving you this sort of inside the blue
+5364120	5369320	This is giving you some other sort of color and as a developer guys you need not to worry about colors
+5369320	5371240	This is a UX designer headache
+5371240	5377340	But we just should need should need to know that how we can different ways we can use to color a particular element
+5377600	5381360	What are the abilities one is using a direct?
+5382520	5383840	color name
+5383840	5391000	The other way one is using a hex code and the hex code is generally starts with a hash and it goes with RGB
+5391360	5392680	Okay
+5392680	5398720	multiple treat three different things where first RR goes for red Gigi goes for green and blue and
+5399200	5405160	This is how it is made even if I go for any Asian paint shop or anywhere, right? They mix
+5405600	5407600	two to three colors
+5407600	5415680	And generate a new color because they have a fixed formula that how much quantity which one is treated now when I say nine a
+5416280	5423880	It starts from zero to nine and a to F zero being very less and you are F being too much height
+5423880	5425880	Okay. Now if you see
+5426080	5432360	They say that in nine a the adding a less amount of red in it. They're adding
+5433240	5434880	and
+5434920	5436840	And good amount of green in it
+5436840	5442680	But they had more amount of blue in it when you go for B and C because it is going from zero nine a F
+5442800	5446420	So BC is more it means that blue color is more
+5446640	5452760	That's the reason why if you see when I'm over a word it is showing actually inside blue color only you have selected the light
+5452760	5454760	shit
+5455520	5459560	You are able to relate this case like how that color change is happening
+5460400	5462160	Okay
+5462160	5468720	So this is how hex code is used then there is another one. Okay, then there is another one some people might not
+5469440	5475640	That is also not enough for them. So what they have designed is they use some other thing. Let's let's say this is again
+5476280	5478280	h4 tag
+5478280	5480280	Lorem 50
+5480840	5484560	Okay, what they have done no sir. Hey, I don't
+5485560	5493580	It's the same way how this has been represented there is a one extra property you can use it which is called RGB
+5494160	5495240	Okay
+5495240	5499520	Generally, it is defined using RGB itself RGB is a function
+5499520	5505040	We know that we haven't started function, but since you have already completed
+5505680	5509660	We know DSA you might be knowing a basic definition of a function
+5510180	5516100	What it is giving me now when I'm defining RGB RGB goes for again red green blue combination itself
+5516220	5523300	But here you have to define how much percentage you need each value can go up to maximum
+5523860	5525860	240 the range is again
+5526380	5528380	0 to 240, okay
+5529180	5531180	0 to 240
+5531700	5535280	Now let's say if I select 240 as this one
+5536340	5538180	Adding too much of red
+5538180	5540960	Green being completely 0 blue being 0
+5544260	5545780	Okay, and
+5545780	5551500	Alpha this is a opacity. I will come to that. Okay, let's make it one if you see this
+5552420	5559340	Do you see this when I give completely 240 as for the red it is selected last more straight
+5559580	5564460	If I add let's say somewhat of green, let's say I add 100% of green to it
+5564460	5566620	Now if you see this as completed to orange
+5567300	5570700	Because I'm adding green to it. Now, let's say if I add blue to it
+5570900	5573180	Let's say I add much of blue to it
+5573300	5577420	Now if you see the color is changing and the fourth parameter
+5577420	5582180	Which is one what I mean is like opacity how much you want to see clearly if I give it zero
+5582180	5586220	You cannot see it anything if I give 0.5. This is like light shaded
+5587500	5589500	0.6 or 0.7
+5590060	5596100	We can use RGB RGB color like hex code and RGB and simple color
+5596700	5601800	There are three different types of defining it and this is one one among this now
+5602900	5603900	if
+5603900	5608500	Any doubts guys any doubts till now in the whole class that we have discussed
+5608980	5613140	Because I will show one more thing which is called has a HSL
+5615260	5618540	This is actually rarely used actually I
+5618740	5620740	I
+5621620	5623620	Never have written myself
+5624740	5628300	Okay, but I'll show it like how does it work if you see it here
+5629020	5635820	This is like a when you say a photographer who edits right photos like once you have done it they add
+5636340	5638340	hue saturation and lightness
+5638980	5640140	so
+5640140	5646580	Considered this one this both saturation and lightness are working by percentage systems which goes from 0 to 100
+5647100	5655140	Hue is something which is going from 0 to 360 in circle. Okay, when I say hue you goes for different colors
+5655140	5662620	Okay, you were something like you can say that the different colors in a circle whenever you are rotating rotating like a clock, right?
+5662620	5664820	We are pointing to different thing color will keep changing
+5664820	5668300	Like if I show you if I do this one, right if you see orange yellow
+5668860	5674900	Green and everything is changing colors will be keep changing. Okay, that's how hue works
+5675900	5681100	Coming back at the last if you come back at after 360 degrees again to the zero it will be ready itself
+5681580	5685220	You but when it comes to lightness if you give complete lightness
+5686060	5688060	100% you won't be able to see anything
+5688060	5694860	It would be white even if you if you give zero it will become completely darkness like without any light in the night
+5694860	5698180	How you can say complete dark lightness stands for that thing?
+5699220	5704140	Okay, and is this clear guys how light lightness and hue works?
+5705260	5709120	Because I'll apply it but this is you know, better interface to show it
+5710340	5716580	Okay. Similarly, there's something called saturation. Now, let's say if I go for saturation what is happening if you see here
+5717500	5722020	This is you know adding a shade to that particular color. You have selected red color
+5722020	5726540	You have given the lightness but how much light is shade you want to add like
+5727100	5733260	Different shades of that particular color only the that is used for a saturation you wanted a saturation same thing
+5733260	5739220	You go for your anything editing your profile any picture right in your mobiles also
+5739220	5745700	You will able to see these three options like lightness which is brightness and saturation and hue the same thing
+5746060	5750820	Okay, this is something we get rarely utilized when we are coding it
+5750820	5758000	But this is a one of the way that you can use to color the no elements. Okay. I'll show you one of the thing
+5758000	5759340	Let's say
+5759340	5761340	Again, I'll use a hedge fight ag
+5762340	5764340	It's a lorem5
+5766180	5768860	And let's say h5
+5771260	5774820	Going with the color then let's say HSL I
+5776220	5778540	Give you as a let's say 0 to
+5780060	5785620	360 so let's say I give 2 3 3 then saturation is in terms of percentage. Let's say 23%
+5786620	5788620	Then let's say lightness could be
+5789460	5791460	34%
+5791500	5796900	You see I've added something like a black in color. Let's say we make this one as a
+5798740	5805840	45% if you see this had become a blue, let's say if we change this 335 it will be still that 70
+5806260	5808260	It will change the color
+5808840	5813660	Okay, I hope you got the basic idea of like what are the different types of you know
+5813700	5818140	We have colors like I'm in different types of ways of adding a color to an
+5819300	5820900	HTML element
+5820900	5824940	Right. So let's summarize this one guys on the iPad
+5836140	5838500	Okay when it comes to colors right
+5838500	5844060	Coloring any HTML element you have four things specifically one is directly color
+5845460	5851420	But it has a limitation since the colors can exist only from a max of 140
+5853420	5855820	Okay, when it comes to hex codes
+5856820	5861140	You have a hex code of defining it. This is mostly used
+5861860	5866420	At least my workplace of the experience that I have mostly I've used hex codes
+5866700	5870660	Mostly I've used hex codes to code to add colors to an any
+5871140	5875740	You know attribute any HTML elements or content, okay?
+5876740	5882060	Xcode generally after hash you have six letters, which is rrbbgg
+5883700	5891660	Okay, and this range is going from 0 to 9 and then a to f 0 being less
+5891660	5893660	F being highest
+5899180	5901940	Okay, then you had something called RGB
+5902700	5910380	Function where you can directly define the collect the percentage of RGB now this goes from 0 to
+5910580	5912580	240 you can give our
+5912940	5917240	Range from 0 to 240 it need to you need to pass three
+5917940	5919940	parameters to it
+5920460	5922460	Sorry arguments to it
+5927060	5929060	0 to 240
+5929740	5935140	Similarly you has also HSL is stand for you you is having 0 to
+5935540	5940460	360 degrees which can you can use color then saturation and
+5943420	5945420	Let's say
+5946260	5948260	And
+5949260	5951260	Lightness
+5951820	5957100	Both are having 0 to 100% of in terms of percentage
+5959500	5963580	Okay RGB is still 255
+5965820	5967820	Give me a second
+5969780	5971780	RGB is still 255 is it
+5975420	5977420	Oh
+5980420	5982420	Just a second 255
+5983780	5985780	Let me confirm this guys
+5986900	5990820	Yeah, sorry 255 pardon me guys. Thank you for correcting me
+5992580	5996140	The rich it goes for 255 inch
+6000980	6002980	Okay 0 to 255 inch
+6003980	6005620	Okay
+6005620	6009220	So guys, I hope this is this might not be much interesting one
+6009220	6015260	But this is how you add multiple types of colors. I hope this is clear. There's nothing much
+6015980	6017980	Interesting in it, isn't it?
+6022980	6026700	No reactions guys, I hope this is clear guys any doubts in this
+6027380	6030220	Okay, so I have one quiz for you
+6030820	6033380	Okay, let's say I'll play the quiz
+6037580	6044520	Okay, I didn't share my okay fine I've corrected this 255 I'll launch the quiz guys
+6046300	6048300	Yeah, yeah sure
+6051540	6054460	Can anyone see this see the quiz
+6060220	6062220	I
+6068340	6075100	See eight users have participated at least like 70% of them should answer it
+6081740	6083980	Come on like I
+6087340	6089220	See
+6089220	6091580	Fifty more than 50% of them have answered
+6093020	6097780	So I'll end the quiz guys now if you see the people who have
+6098340	6101660	Voted 67% or 140. That's right
+6101660	6107980	I've just written on the iPad and I have also on the screen this one right if you go and see I've told
+6108060	6112420	Right. There are only 140 like things that you can write it down
+6113460	6115020	There's a limitation on the class
+6115020	6122940	That's a reason why we went to X code then RGB X code and RGB both are saying same thing where you are adding a green
+6123740	6126340	red green and blue combination and
+6127420	6128620	making
+6128620	6131240	So this is also our return and reverse
+6132780	6134780	GP
+6134780	6136500	Okay
+6136500	6140100	So that's how colors are working now
+6141020	6143180	till now let's let's
+6143940	6150980	Let's move to the next topic as like so on this itself. I want to add one more thing is that
+6153020	6159540	Have you seen newspapers with like unique fonts like anytime like unique unique fonts
+6161020	6165340	Like if you see some newspapers are having different styling, right?
+6166380	6169540	Calligraphy sort of things and some are having different things
+6170380	6172380	right
+6173260	6175260	How can you deal with that? Let's say now
+6175980	6180500	Here we are having color. Now this this is some type of content
+6180820	6184580	That is there which is like first lorem, which is in the paragraph time
+6184700	6188020	Now let's say if you want to have different types of it, right?
+6188020	6192660	Let's say I had go if you want to apply different types of font style font cells
+6192660	6198780	You have to go for font family first. Then you have to select it. Okay, you have many things which are existing
+6198780	6205420	Okay, let's say I go and select Times New Roman because this is something everyone have seen it or
+6206060	6210960	Like whenever you go for Microsoft Word, many people have might have used Times New Roman, right?
+6212100	6214100	a font family
+6214140	6219380	Or else let's say you go and apply different types of it. Let's say what all available
+6221420	6226020	Let's say Helvetica now if you see this this thing has got changed now, but
+6226660	6233340	There are also limitations on this there are also limitations on this like but now how can you
+6234380	6238420	Get it like now if you see this there are also limitations on this
+6238420	6242780	But how can you add it like for colors? We had this limitation. We got something new
+6243460	6251860	And something new and something new extra options that you can manage with but for fonts, right what happened is like, you know this
+6252780	6255300	Google has given us one site where
+6257700	6263160	Like if you go for Google font family site, right they gave you all the list of you know
+6263160	6267620	different types of fonts that you can select because if you say this is something like a
+6269060	6272540	Different Mongolian language, right if you go and see this one
+6273460	6278060	If you want to write in Mongolian, you can use this like how how would you use this?
+6278100	6280620	I'll show it like but there are too many different
+6281060	6285740	You know types of fonts that you can write down and you can use it in your
+6286380	6288380	projects, okay
+6288820	6290660	Now let's say if you select one thing
+6290660	6297540	This is something you have seen in the cartoons maybe because that's where that's how you know, the headings used to come in childhood
+6298220	6301140	Like everyone has a right to fit this particular thing
+6301900	6308460	But if you see the newspaper one that I was talking about I'm scrolling through trying to find that one a
+6310340	6312340	Bit of a calligraphy type of font
+6315660	6317660	Not able to found
+6317940	6322200	But let's do one thing. Let's use something. Okay, let's use this one. Okay
+6322380	6329820	So now whenever you want to use a particular font, right you can go to the particular who are providing us
+6329820	6332420	One way of is getting is like this one Google fonts
+6332660	6336780	Now let's say I what you can do is like you can click on the plus here on the right side and
+6337300	6339940	Here you will have a link link shades
+6339940	6345460	Like if you see I can what I'll do is like I'll copy this link shades. Let's say I go and
+6346140	6348140	copy in our code base
+6348660	6353300	Now all the links should be added in meta because body doesn't need to have anything
+6353740	6357020	Now one of the link that we earlier added is like, you know
+6358020	6363980	Relation was style sheet now something we are added is like in href. We gave Google fonts link
+6364420	6370700	And we also given the other Google API's. We are importing them like what we are importing
+6370700	6373900	We are hitting their URL with family as a tech tool
+6374220	6376220	Okay, and we defined style sheet
+6376620	6382540	Relation as style sheet now once we have done this now what we can do is like we can go back and use this particular
+6382540	6384700	Style that we have done. How would you do that?
+6384780	6389340	It's also defined here itself, like let's say I copy this font family and
+6390300	6391420	I
+6391420	6395660	Go and let's say I update this particular thing second thing which is history
+6395820	6398880	Now if you see that particular type of font is applied
+6399780	6407580	Okay. So if you want to build any unique websites, right which are having different fonts and different things of you know, reading
+6407980	6414620	Ability you can always use Google fonts and download those fonts and use it. Okay, wherever you want to use
+6414700	6418380	Let's say let's play around with something else. Also, let's let's do
+6419540	6421060	some
+6421060	6424380	Let's try to add this Chinese one whether this would work
+6425100	6430100	Okay, let's remove this. Let's go down and add this
+6435020	6437020	Click on the plus
+6437980	6441860	Okay, why am I able to not access this
+6445700	6447700	Give me a second guys
+6455660	6457660	I'm getting this now
+6457660	6460420	Let's say I again copy this all the slings
+6460740	6466780	We can remove few of the things that we don't need again, which are duplicating it. Let's say I see this
+6467900	6469900	We need this link
+6470140	6475540	We need won't we don't need this font Google API's because this is something we have already used it
+6476060	6478060	removing this one and
+6478100	6484340	Preconnect also I don't need I just need extra link which is trying to download this particular font
+6484660	6487580	No, what I'll do is like I'll go and copy this particular
+6489020	6491760	Okay font family, let's say this family
+6493100	6496500	And I'll add it to this particular h4
+6496500	6502180	Okay, now if you see this what happened guys
+6504940	6511860	Okay, if you see the font here it's something like different you see here notice hands are like showing different thing
+6511940	6518780	But if you convert into two and again into English, this is how it will look like but here what we applied is like this
+6519100	6521780	comma sanctuary like how this is like
+6522540	6527260	Working is like you should understand is that if there is something like content is written this way
+6527260	6530260	Let's say I copy that content. Also. I copy this content
+6533060	6537640	Let's say I copy this content it would reflect still that in the same way
+6540700	6542700	If you see
+6542940	6549340	It makes that font much readable and much better and way to understand and view like all these fonts
+6549660	6554460	Okay, that's how Mongolian have they added specific to Mongolian because
+6555060	6559380	Mongolian, maybe they need that right amount of spaces and way to understand better
+6559940	6564740	Okay, so you have to use the respective font families and different type of things that you have
+6564860	6568900	But you know one thing that I want to say is that all this work, right?
+6568900	6573100	Which one to select which type of color to select is not a
+6574060	6577900	Friend and developer job or a full stack developers job. This is something
+6578780	6580260	designers do
+6580260	6582260	Designers are the people who try to
+6582820	6588180	Select the color and give it to you. You are just a person like hey where I have to use how to use they already
+6588180	6590980	Tell told us that we are the developers will you just develop that thing?
+6591420	6598200	Okay, but I'm just showing it like if you're building something anything personal project how you can access the different types of fonts. Okay
+6599160	6601160	So
+6601280	6605440	Any doubts guys with respect to how we can access the fonts or how we can do it
+6606440	6609040	I'll add this link also Google links
+6610280	6616560	Fonts, let's say I'm not pinning in the chat because I'm adding all here. Okay
+6628800	6633200	What if the font is installed in that doesn't work that way
+6633920	6639920	Open the it like because you are rendering it on a browser, right? If browser supports you can deal with it
+6642200	6648600	Yeah, it's it's how that HTML parsing is happening if it is supported by that browser browser will be able to understand it
+6648920	6653120	Because these are the API is that you're downloading that particular font at the runtime
+6653120	6656120	These are converting the type of format that should be rendered
+6656320	6658320	Okay
+6658960	6663720	Because this HTML is entered in browser you have to all think thing in terms of perspective of browser
+6667560	6669560	Can we upload somewhere
+6669560	6675600	Use yeah, this is how they have done it right? They uploaded on the cloud and you are using it
+6676160	6678160	Using a link tank. That's it
+6678160	6682400	But you cannot do it on a browser because you are not some more person like
+6682440	6687200	They don't have they have not made that open right that someone can upload it and can be reused it
+6687200	6690280	So is that you don't define it and you automatically get it
+6693240	6695240	Okay
+6695800	6698800	Cool so guess we covered
+6700240	6705160	Colors now one thing that left is we have to cover background properties
+6705160	6709040	I'll just go to the background properties and then I'll go to the background properties
+6709040	6711920	Left is we have to cover background properties
+6711920	6719440	I'll show you one of the things like one of the topic that how you can deal with a background property
+6719760	6724160	Of CSS, let's say I create a background. I create a HTML file
+6724760	6726760	index.html
+6726960	6728960	so let's say
+6729080	6731080	HTML5 and
+6733200	6735200	Background
+6735720	6736960	Properties
+6736960	6741640	So this is one of the unique property that for people to face challenge to understand this
+6742280	6745200	Reason I'll tell you let's say I copy some content for you
+6747200	6749200	Our diff tag
+6751080	6754000	Say I have this and I render this
+6755400	6757080	No
+6757080	6759080	Let's say
+6759360	6767480	No, so have any anyone observed right there are many use cases where you see that there's a image behind the scene a content
+6767480	6769040	on top of it like
+6769040	6771320	There is an image like behind the scene
+6771320	6776140	You see that there is something like a river image and there's some messages coming over it
+6776440	6781840	Like on the channels or the on the pictures whenever you print some greetings or stuff, right?
+6782840	6789840	So that is where the background comes in like let's see how you can add those images and how can you deal with that?
+6790200	6793440	Okay, what I am doing it here is that I'm adding a style block
+6794240	6800800	Again, let's say style inside this since I have a class background attached. I'll use a dot class
+6801960	6803960	I'm a class
+6804680	6808960	Element, I mean class attribute, you know ways of select selector
+6809680	6810960	now
+6811040	6812680	one property
+6812680	6818840	To have a background image or anything is that you have to select background image
+6819240	6827640	Property itself, but here you cannot give an image PNG or anything always this files are in terms of like bigger in size
+6827800	6831000	So you are always supposed to give a URL to it. Okay
+6832360	6837560	Now inside this URL function you are supposed to pass a particular website
+6838400	6843520	Or the location of particular that you are where it is. Well, where can I get that you are now?
+6843520	6846320	Let's say I go into any particular side
+6849440	6851440	River images
+6854200	6861240	Let's say I have this I go and select this let's say copy image address
+6867600	6874720	If you see this now, there's a unique interesting problem guys now, do you see what's happening here?
+6877160	6879840	Can anyone tell me what's actually happening here
+6883600	6890320	Repeat is happening image repeat is happening, right? So this this behavior, right only this behavior people
+6891240	6895120	Fail to handle it. Now, let's say I give some background
+6898000	6899920	Size also
+6899920	6904600	Okay, like like let's say we define a size. Let's say we say that 400 pixel
+6905200	6911800	Now if you see the picture is getting disoriented if I give 400, let's say if I give 450 also
+6913080	6915360	Okay, or let's say 500
+6917320	6921080	If I give 550 it won't repeat it will get it will come only one time
+6921080	6926080	But you see this picture is getting disoriented now for those reuse cases, right?
+6926920	6934320	You what you have to deal how you can do it, right? You have one of the property called like background repeat
+6938640	6940640	So you can say one thing is that
+6941240	6946860	Like you can say that if you want to repeat or you would want to repeat you how you want to deal it
+6946860	6952080	Like let's say no repeat. It will say that whatever size of picture is there now by default it will take that
+6952560	6954560	But there are some pictures
+6954560	6959260	Where you want to only repeat it on x-axis like let's say on the horizontal way
+6959680	6963760	Like when I say x-axis like only one thing you don't want to repeat multiple times
+6963760	6967320	Let's say so you can say that repeat x and you do it
+6967320	6971900	It will come for only one row if you want to do it for y you can do it for only one way
+6972640	6975520	But if you give repeat it will repeat it all the time
+6976560	6981260	Is this property clear guys how you can do handle this repeat property?
+6982180	6983700	Okay
+6983700	6991180	So if you if you are having an image and your background image and that background image is not supporting if that size is
+6991460	6994460	Small and you know content is way too high
+6994700	6999980	Then you can use one three things one is once you give URL you can use background repeat
+7000060	7002320	Then you can play around with let's say
+7003060	7004860	background size
+7004860	7007140	And you say you say 200 pixel
+7007980	7009980	Now let's say you say that
+7010700	7012700	Repeat X
+7012940	7017100	Okay, but I have one of the image that I had it
+7017580	7020020	So like if you do know one
+7020660	7022660	unsplash.com
+7027420	7032500	This is actually a site which gives you actually really beautiful images
+7033020	7038580	Like if you want to use any time right you can go and get it rather than directly going to Chrome
+7038780	7042420	I'll also do one thing like I'll have it here
+7043060	7046420	Like if you want to build your personal project, and then you want to use
+7048380	7051140	Fetch the images, let's say
+7055500	7057500	How do I write clean images?
+7057780	7059780	Then
+7065100	7070900	Then let's say if I write beautiful images I feel like bit yeah free images
+7073940	7076860	Okay, let's say we go to this
+7077620	7082300	Site let's say we copy this now you can always like go
+7083180	7090140	And copy image address so no one will you know copyright issues you
+7095660	7097460	Know if you see
+7097460	7102420	Still that image seems to be short for us like if I because I've given a background size to it
+7102420	7104420	Let's say remove this
+7104580	7109200	Now the picture is way too big for this one content, okay?
+7110200	7113680	Let's say I gave this I say this as a 400 pixel
+7126840	7128840	So I make 300
+7130000	7135080	Okay, anyways, I have one image readily so I'll copy that and I'll show it to you
+7136080	7141840	But where did I get that images like again unsplash let me minimize this
+7144320	7152320	Delete this particular thing I'll copy it. So what did I selected one random person who was actually a fishing it and
+7155040	7157040	Let's say I make a no repeat
+7157040	7164680	This should come actually in write-in size, but it's not coming up let's say I can give another property, which is
+7165560	7167560	background
+7168720	7170720	Position so it will help us to
+7171680	7179200	Yeah, it is help us to move that to different positions one of what I'm using is like I'm using Center and
+7180680	7183880	So one of the suggestions that I got from Teja was to
+7183960	7189360	So one of the suggestions that I got from Teja was that to use background size cover
+7190480	7192480	Let's say if I use cover
+7194360	7196600	Okay, yeah that works too Teja
+7197840	7199480	So I comment this
+7199480	7201200	But it's not coming in Center
+7201200	7206040	It will cover the whole content as you said that it will cover the whole content whatever it is needed
+7206400	7212360	But if you want to pull that again image into Center, you have to use this and let's say I say background
+7213000	7215600	Repeat to no repeat
+7216640	7221440	Okay, so this is how you can play with a different background, you know
+7222480	7229160	Properties that you have many people face challenge in putting it in right way. Like how you can you deal with it?
+7229400	7232880	So this is how you can use it on multiple places
+7235440	7238480	So there's any doubts on this
+7238480	7242040	Till now any any doubts like if you have any doubts, please
+7242760	7244280	Let me know
+7244280	7247080	Because this is what the content that I want to cover today
+7247080	7249400	The content part is over for today
+7249400	7255080	Like one thing we can do is like if you want me to build HTML right for the
+7255600	7263120	That portfolio project I can build that but today's content related to whatever CSS. I want to get started with it is covered
+7263880	7271640	Transform scale in images that that thing is bit advanced will show it like in project specific itself some bit
+7276000	7278000	Okay
+7279440	7283160	But yeah, there are too many things to explore on CSS terms
+7283160	7287160	Right. There are too many things to explore since today is an interaction class itself
+7287160	7289160	So I will show you how to do that
+7289240	7295720	There are too many things to explore since today is an interaction class itself where we have introduced a different
+7296360	7297800	types of
+7297800	7299800	Firstly, what is CSS then?
+7300240	7307680	Different ways of adding a CSS like maybe in a file writing in style block or internal external once you have cleared on that
+7308280	7311920	Different ways of selecting a tag then applying CSS styles to it
+7311920	7319120	I've seen colors like different types then background images font styles. We have covered good part of content it content
+7319280	7323680	Then tomorrow will have more on like on the next class next week
+7324040	7327420	The classes are going to be much interesting because we'll see
+7329200	7337480	Responsive layouts box model right flex boxes grid so that that that would be really interesting things will be having it in next week
+7340280	7344240	Okay, so nice can I start out session
+7350120	7356720	Will come we'll cover that some within next week, okay, I see one thumbs down
+7359680	7362260	Okay, let's let's start with a doubt session guys
+7362880	7365680	If you have any doubts, please stay in class
+7366360	7372240	If you don't have doubts, you can feel free to drop off and enjoy your weekend. Please do assignments guys
+7373760	7375420	Let me know if you have any challenge
+7375420	7382660	I know I've seen few comments about you know compiler not being working rightly like the test cases are not working rightly
+7383500	7390260	Right. So I have flagged it to the team because that's developers team who have to handle it scalar
+7390540	7393740	That they have to write a right unit test cases, right?
+7394180	7401340	Like when they are cheap when they're doing it and the processing speed is also slow. So the work is on
+7401640	7405140	So your feedback works really in a positive way for us
+7405340	7411600	So we'll we'll start to improve it because even if you see right if you go
+7412500	7417140	Anywhere like you want to go and solve any like problems based on?
+7418260	7422980	HTML or CSS there are no websites build assets now like if you go for problem-solving
+7424440	7426440	You go for
+7426960	7428960	Elite code you go for
+7429400	7434120	Like, you know geek for cakes you go for a scalar you go for an interview bit
+7434240	7437720	There are multiple people who have already built those in sons in
+7438160	7444200	Like engines and passing that code now if you want to write some unit test cases, which is passing
+7445320	7447320	Understanding HTML and writing it down
+7447480	7452320	People are trying to solve that bigger problem as of now because once scalar does it properly
+7452440	7455480	Maybe they'll be built it like an interview bit for the friends folks
+7456040	7460520	Because now that domain on the front-end right is having a different scope
+7460520	7465440	Now people are coming up learning front-end in like, you know in depth and that
+7465880	7473240	Domain is being built as strong as the back-end and even the full stackers. So this is going there's a huge scope down the lane
+7473960	7475320	right
+7475320	7478600	So even someone can build an engine which can
+7479240	7482880	Understand and pass this like, you know this problem-solving unit test cases
+7483480	7489720	That's really cool problem to solve even if you think from a problem-solving perspective as of now
+7489720	7492600	What's running behind the scene is node.js server?
+7493560	7496480	Which is running the unit test cases like checking
+7497680	7500840	Generating a dom like if someone who understands the dom
+7501800	7503800	Once your HTML is submitted
+7504800	7511240	Whatever you have to write written down that goes on to the server now that that once they receive that
+7511880	7514800	they have written some list of unit test cases, which
+7515600	7520720	Generates a dom of your copy and then the check the particular thing is there or not there
+7521560	7527960	So that's where you know, and even as somebody pointed out standardization code for HTML
+7528120	7530120	Oh
+7531000	7537480	Standardization, you know, there are multiple formats like you know, the one is a older HTML
+7537480	7541240	Now is there's a there's a HTML 5, right?
+7541440	7546580	so if you see right, let's whenever I write down even the HTML right, let's say if I
+7548120	7550520	Create a index.html file. I
+7551960	7557160	Say HTML you see I'm getting three types of image itself if I use HTML Excel
+7557360	7559360	So this is something, you know
+7559960	7565420	W3 or 1999 is the old format right if I write simple HTML
+7565420	7569520	This is like third version then there is something called HTML 5
+7569880	7574840	Where when I generate this by default, I'm getting one of the meta tag, which is saying this
+7575760	7582680	X UA compatible content IE edge what this is saying is that well if you remember we hired one of the
+7583040	7585400	You know daily browser Internet Explorer
+7585920	7589760	Which was bit old because Microsoft never paid attention to it
+7589760	7595840	They started a different project called Microsoft edge, right and they didn't add new releases on that
+7596080	7599480	now when someone like banks, right the
+7600080	7605560	Whatever banks has been in the Europe or the most of the banks what they used to prefer is they used to prefer
+7606120	7609600	Internet Explorer because that was used to come with a default software
+7610240	7618120	Default of Microsoft software because Windows was a powerful OS that was installed in every desktop and desktop was a
+7618640	7624300	Mode of using a computer in 1990s till 2005 7 till that laptops
+7625000	7629240	Error came in. Okay. So Internet Explorer was a major
+7631320	7638720	Important browser other than this Netscape or Mozilla Firefox Chrome was a different generation level
+7638760	7643720	Okay, so this meta tax what they're saying is that hey Internet Explorer
+7643720	7650360	Please use newest HTTP equivalent compatible rendering engine to pass this HTML code
+7650680	7657200	so we are specifically saying that you know browser to use this this is not needed anymore because
+7658680	7664120	Microsoft itself has removed support for Internet Explorer and that is that project is being shut down
+7664480	7668040	Right. There is no support for that. I mean there is no engineer
+7668720	7673680	Will help you out even if you face any challenge or struck on that, right? So
+7674880	7681200	Similarly, if you see this utf character 8 also utf 8. So if you know like we have
+7682160	7684380	Does anyone know this word ask I?
+7685400	7688720	I mean you have done already
+7690320	7696080	DSSO you should be knowing right ask a ask a someone like which is having a to Z
+7696800	7699120	Then capital a to capital Z
+7699800	7705280	Then you have zero to nine, right all this support which comes under asking like
+7706000	7712600	encoding, but this is not enough to render a Chinese language or they'll go for or
+7713080	7719600	Tamil type Malayali type right fonts. So this I mean this type of messages are not able to end
+7719600	7721760	So under utf 8, right?
+7722280	7729880	This has a very large encoding pattern this was developed after the ask I which can ask I is only supported for
+7730080	7737680	English format, but if you go for other languages, you need this utf 8 encoding to convert those HTML now imagine
+7738080	7742800	That we have copied one code, right of a different Mongolian language format
+7742960	7748960	If you don't have this utf 8 character some browser engines might not be able to parse it
+7749360	7752920	Still chrome might be a smart enough to handle it by itself
+7753040	7758320	But there are some older browsers which don't have support. They need some extra additional
+7759400	7762240	Information that they have to use this right?
+7762840	7768560	So there are some smart people there are not some so smart people. So yeah, Unicode encoding, right?
+7770000	7776280	So and yeah, this is for responsiveness this I'll explain like what is exactly happening here once we start with
+7776920	7778920	responsive websites
+7779080	7782360	Okay, this is pretty simple, but straightforward. I'll explain
+7783840	7790860	So standardization of HTML comes with browser support guys if you have let's say there is no
+7791560	7793840	Who is pioneering browser? What do you think?
+7796960	7801880	Who is pioneering browser like which browser do Firefox?
+7803720	7805720	Chrome
+7806480	7810320	Go do you know on this thing? Do you know this thing?
+7812680	7816560	Google right since this is a doubt session. I'll talk for some time
+7819240	7824040	Let's say how much Google pays
+7827280	7833400	To keep chrome as default
+7836720	7842200	So the pioneer right the pioneer
+7843040	7851080	The pioneer is chrome. I'll tell you I mean Firefox team is the Netscape team, right? Firefox is someone who has written
+7853320	7855320	DnDocs
+7858400	7861900	MDN is like people right whoever has been
+7862700	7869100	If you go and ask him anyone right they'll suggest like hey if you want to learn web development go to MDN docs, okay
+7869540	7875220	That's our best thing that you can refer to. Okay, they have been you know updating it since 2005
+7875220	7883060	Which is like almost 18 years. Okay, you can go to understand web API CSS nesting HTML and everything they have
+7883980	7885980	too much depth of
+7886060	7888600	content but for me, right
+7889200	7895040	Like I want something new way to understand read things I found web dev right web dev is really
+7896320	7901920	To the next level. This is again built by this content is actually handled by Google itself
+7902040	7904120	You can explore this one, right?
+7904560	7911280	They have too many things like talking about PWI have score web vitals performance explaining CSS UI designs
+7911360	7916760	Right there too many things need good things are happening around it. You can go and explore learn
+7916960	7923120	What are the links that I've been providing you are from here because they're also what like let's say if I go for HTML
+7923120	7925480	Right if I open go and let's say
+7928040	7929520	Tables
+7929520	7936600	Right you go to a read article some of them also have a you know podcast recorded for that
+7936720	7938720	I'll show you one of the podcast. I
+7940160	7943360	Mean while I was learning it we didn't have this beautiful
+7944360	7946360	website built, okay
+7947160	7948400	I
+7948400	7950400	Learn go back to
+7950680	7955480	CSS I was actually searching for better sites that I can add it
+7956280	7957720	in that
+7957720	7962320	Links, so I went to selectors because I wanted to give now if you see this, there's a podcast
+7963200	7968000	So you can even listen the podcast when you are traveling anywhere. You don't want to see it
+7968000	7975240	Just put a earphone understand the podcast. So your web development is just like going through that. It will be stored in mind like
+7975840	7978860	You go and select us. You'll remember like this
+7979160	7985220	Okay, you don't have no one will come and able will be able to fool you out or you will face any challenge with that
+7986520	7990080	Okay, so go through them. It would be really piece of cake
+7992200	7994000	So
+7994000	8000640	Yeah, now I was talking about Google right they they are actually pioneers in that
+8000880	8006640	They're paying many companies like billions of dollars like somebody has registered
+8007280	8009800	18 billion rupees they paid it to
+8010520	8016140	App to make room as a default engine like in your mobile in your mobile
+8016880	8021160	You hardly go on a different browser other than crew. Do you agree?
+8022760	8026880	You hardly at least for laptop basis you install
+8027840	8030300	Firefox you install if you are on Mac
+8030720	8034160	You might be installing Safari and deleting it right using it
+8034280	8039360	But when it comes to like Android mobiles, of course, they they own it
+8039720	8045680	They have their own OS Android on OS is there's their own India tried to build one OS
+8045680	8050720	I think Bharat OS that didn't click it. We don't have manufacturers in in India
+8051320	8058720	Can support it Bharat OS if you know anyone if anyone knows knows that but Android stack is their own
+8058840	8064680	They keep on developing new and it's stuck. So whoever install that software by default engine is
+8065240	8069380	In mobiles that particular thing is crew. Okay chrome search engine
+8069720	8073440	But if you go for other OS's right which had like, you know some
+8074120	8078580	Chinese companies has their own OS 1 plus has their own OS
+8079020	8081020	Apple has their own OS
+8081020	8088900	But whatever mobile ecosystem so this company Google goes and pay them that hey, please make our
+8089420	8091420	browser as a default
+8091700	8097260	What they're getting in back if you use more you search more they're getting that amount of data
+8097580	8101060	Now data is being king. If you know the data you can write
+8102140	8105260	Models on that like any LED models
+8105820	8113140	Last more you then you can do you can understand people's perspective and you can do many things
+8114140	8116140	So that's why they are paying it
+8117500	8123300	You should be knowing it actually does anyone know the table changes that happened recently
+8124580	8125900	with
+8125900	8127900	open AI company
+8128420	8132620	Everyone knows it right Instagram in Instagram them in many memes on it
+8136220	8138220	Their CEO
+8138860	8146480	Being removed from as a CEO then being bought into Microsoft again resigning from Microsoft going back to that place
+8147020	8149980	Microsoft has also need to release new one chatbot
+8157300	8159300	Copilot I guess
+8159620	8163300	You should explore this this is actually supposed to you know
+8164140	8166740	The is a chat GPT
+8168780	8172180	That will be specific to Windows right Windows OS
+8172180	8177900	I guess you don't need because Windows again whoever own OS right operating system
+8177900	8180420	They have much of abilities to deal with it
+8182540	8188740	So you can explore this that's also one of the unique thing I mean learn one thing be great one skill set
+8188740	8190740	But keep an open eye
+8191740	8196380	So guys I kept on talking for some time, but if you have any doubts, please let me know
+8197500	8205460	Happy to you know take them understand it right if you want to build something unique right unique things
+8205460	8207460	So you want to build something new thing?
+8208180	8212460	if you're facing any challenge share with that get up link and
+8213900	8215900	Write it down in the chat
+8216140	8221140	I can help you out or the others can help you out if you want me to work out work on that
+8221300	8225580	Tack me that tack me the cloud AI completely take our front-end engineers
+8226620	8231780	No, no somebody. It's never going to happen. It's never going to happen. No one can automize automate everything
+8232820	8238900	Can we build like an online editor as a project? You can build anything project are like
+8239820	8241220	I'm
+8241220	8248660	Asking you like if you let's say if you build if you ask right you go and say like if it is some imagine
+8250620	8255420	There's some latency when you are I've gave you already a problem statement you can think of it
+8255900	8259100	like this if you go for lead code if you go for
+8260820	8263220	If you go for lead code or gig for kicks
+8263220	8269660	There's able to parse your code of different languages and they're able to execute it and get your
+8270260	8276260	N-number of test cases like the thousand or two thousand test cases executed and within seconds and they're getting a response back
+8276740	8279260	That's not happening for HTML part
+8279780	8285940	Like if you think that as a problem statement just think of it like what should be done behind the scene
+8286700	8289100	Like how can you write a test cases for that one?
+8289660	8291660	Because if you are able to solve this problem
+8292540	8294540	You might you are getting hired
+8294540	8300300	In inside this team itself like if you come with a problem statement you ping on shuman. Hey, this is happening
+8300300	8303180	I found a problem and this is a solution to it
+8305660	8309260	It would be cool isn't it so you have to just I
+8309780	8314120	Mean if you if you have a major sites, right major sites working in open domain
+8314460	8318580	You being internally you knowing it if you are adding something to their product, right?
+8319020	8323820	You are having really good pitch to them at least like it's like a strong referral
+8325180	8328740	That you are directly you're showcasing by the action
+8330580	8332380	Right, so
+8332380	8339860	Do it that way do something unique try to go like there are many people who try to find problems in the actual sites and reporting them
+8339860	8341260	and
+8341260	8343580	Even right if you see a problem
+8344460	8346060	you
+8346060	8349740	Like there are many websites, right if you go into the github.com
+8350900	8357420	Get up calm simply get up calm. Don't go anywhere like it up calm just find
+8361940	8363940	React
+8364260	8366820	Okay, go for Facebook react, okay
+8367900	8374180	This is a actual react code base, right react code base like whole react project
+8374500	8376860	Whatever project was developed by Facebook itself
+8377460	8378540	now
+8378540	8385300	If I go here and go into the issues, there are too many problems with this framework yet. You see
+8385940	8387940	These many problems are there
+8388300	8395160	There is a bug there are many things that are happening. Why don't you pick one and solve it? This is what opens forces, right?
+8399940	8403620	Like and imagine what this thing is written on
+8404180	8410260	If you go behind the scene what this thing is written on just go and see like, okay react
+8410260	8413620	They have written what are the languages are being used behind us and if you see
+8414740	8417900	same HTML CSS C++
+8419060	8422260	JavaScript typescript coffee script. Okay
+8423020	8426340	See too many things are there JavaScript being
+8426740	8433940	How people found bug in Google Insta website as much as you use it somewhere as you found as your people found bugs in
+8435940	8439940	Scalar editor like whenever typing HTML same way
+8439940	8446060	You have to keep using it to find out and if there is a pattern repeating it same thing. So it's a bug
+8447380	8451660	Okay, you can report the bug or you can suggest three things
+8452420	8459660	Okay, you can report the bug or you can suggest it like typing down email and sending it to big people
+8460660	8466740	Or if you know right there are many people what they do really this this is like they attack people at the LinkedIn itself
+8466740	8468740	Like if this is a bug
+8470260	8474600	And tagging directly if you see this happens with a zero that mostly
+8475300	8476460	because
+8476460	8481100	Yeah, they earn money from it, but it depends on the type of post you are writing it
+8482620	8489660	Because this happened with zero the recently because there is a huge trading volume was happening and their servers were not working as expected
+8490620	8492020	so
+8492020	8495620	What happened then is like people lost their bets too many
+8495620	8499740	so people have tagged them that hey we lost because of this thing this issues because
+8500260	8505780	That on zero that it's something that is happening is real money, right trading things. So imagine
+8506740	8508740	the effect that you have
+8508860	8510940	so
+8510940	8514920	That's how you report a problem or you build your own like solution to it
+8515740	8517740	so both ways works now
+8518620	8524900	Imagine in get out and react project right this person is someone who had large amount of commit and high amount of code return
+8525340	8530640	You see in between he didn't have any contributions added, but he kept doing recently also
+8531420	8536460	Now if you go and search him in the LinkedIn, right you will be able to find his working at
+8537420	8539800	This kind of team itself actual team
+8541180	8546060	He gave his email ID and Twitter. Let's say go for his Twitter handle and x.com
+8546540	8551900	Okay, so let's say is her Dan Abramov. Let's go to LinkedIn and search his name
+8552420	8557540	Where is working and what this is how you reach out people at least I do personally
+8558100	8564900	Because you need any mentor that you have to work with in future or anything. Let's say go into LinkedIn comms
+8571940	8574700	And then what's his spelling
+8590460	8592460	This is not the person
+8592460	8594460	Let's say this is himself
+8595500	8598700	Go below he's working with NASA SpaceX
+8600060	8602060	No, you may not be the person
+8603100	8605100	Who has built this
+8605100	8607500	Maybe we are searching a wrong person, but
+8608220	8616140	I have to see like who people are, you know, handling this reporting this or building your actual frameworks that you are using it
+8616780	8618460	Cool guys
+8618460	8623420	If you don't have any doubts, then let me know we can end the session for today
+8623420	8627580	And we meet back on Tuesday and come back and learn more on it
+8628860	8631100	Hope you are having good time guys
+8631100	8635180	Hope you are able to catch up and able to understand the topics that I am discussing
+8635660	8640620	Because down the road, I am going to be talking about some of the topics that I am going to be talking about
+8640700	8644620	Hope you are able to catch up and able to understand the topics that I am discussing
+8645180	8650540	Because down the line, right? We'll take it up a bit with face where you will be able to you know
+8651500	8656060	If you keep revising, it would be a piece of cake. You won't even know when the full stack was completed
+8656540	8657580	Okay
+8657580	8660620	Just stay still. I'll be there with you to handle things
+8661100	8666700	Okay, just keep doing assignments. Keep revising the notes that I'm saying, you know get up repo
+8667500	8673340	Keep exploring if you don't understand while exploring or reading any content reach me out. I'll try to help you out. Okay
+8674460	8676460	cool guys then
+8676460	8680060	Thank you guys for attending to this session. See you in the next class
+8680700	8682700	Thank you muneshwara
+8683180	8685180	Our assignments enough never
+8686540	8688540	assignments
+8688540	8696060	Are basic that are needed but when it comes to project development, that's that's been that's been uh, you know thing
+8696540	8701500	So somebody has question like our assignments enough to good enough to you know
+8703740	8710940	Able to build projects because uh, mostly that one stack or the java stack or anything that you pick it up front end back end anything
+8712540	8714540	Until unless you build projects, right?
+8715420	8718880	The actual projects where you put the hyperlinks
+8719820	8721820	Till then nothing is enough
+8722780	8723660	Okay
+8723660	8727900	You have to build projects. You have to see how you can build it currently since
+8728380	8734780	We are only on html and css part. You might not be able to build complete projects using that powerful projects
+8735340	8740140	Once we cover things slowly, right once your javascript is covered once your react is covered
+8740620	8746620	So i'll i'll ask you to build projects on react more because that's that's what you are going to put links on
+8747100	8752140	Your resume because i'll help you build few projects three to four projects that you can add directly
+8752860	8758060	On uh, you know get your resume like one of the full stack project that we'll build is
+8758700	8765180	Uh, you know book my show a full stack project where you learn authentication authorization database all things end to end
+8765580	8769660	Which you can link it directly in your resume deploying it on your uh, you know cloud
+8770300	8771820	second thing
+8771900	8777900	I'll also help you build one imdb project which will be completely based on react and redux that you can link it
+8778700	8783500	Okay, the portfolio project that i'll share the code base with you is not good enough
+8783660	8790140	But you can uh, you can you can replicate that one that will be helpful for our practicing html and css
+8790780	8795580	But you have to build projects something that's that's a single statement that I can say
+8796140	8800140	You have to build projects and those projects should be added in your resume
+8802780	8804780	Is that clear like
+8805180	8807020	Okay, yeah
+8807020	8808220	Great guys
+8808220	8811340	then I think i'll keep on speaking guys, uh, so
+8812460	8820700	Thank you for attending today's session. I'll uh, see you on the tuesday class where we learn box model one of the core important concepts
+8820700	8822060	of css
+8822060	8823580	Okay
+8823580	8828380	Yeah, yeah, let's build online id. There's a many projects are going on to on id also
+8828940	8833500	Competing microsoft and google are competing because both people are software companies
+8835020	8842700	Google's id is something new thing. That's idx project ids. I guess you can search on that you can read more on that
+8844460	8846960	Okay, so look I said good night
+8858380	8860460	You
+8888380	8890460	You

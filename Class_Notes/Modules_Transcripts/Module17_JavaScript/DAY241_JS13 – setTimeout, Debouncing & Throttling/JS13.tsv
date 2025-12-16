@@ -1,0 +1,1346 @@
+start	end	text
+0	15320	hi all good evening guys can you give me some quick thumbs up if I'm audible and visible
+15320	25520	okay great let me share my screen
+25520	38160	do let me know if you can see the screen share too
+38160	62240	seems to be my network is slow today
+68240	70000	anyways we'll just speed test
+86720	88160	it's very less isn't it
+88160	96120	no worries if there's any connection issues we'll change the network
+96120	106880	but guys how you doing how's your weekend going on do we have Kiran with us
+106880	117400	yeah Kiran your suggestions great great I've seen you some comments in whatsapp
+117400	124200	group so just wanted to understand your last message do you mind if I unmute you
+124200	129280	and we can discuss over here or you want to take it up in the doubt session I'm
+129400	151160	okay with that and thanks so much for answering questions too yeah okay I think
+151160	156200	somebody has already answered that question yeah any approach like you can
+156200	163400	have you know any number of fixes that you can deal with so even when you you
+163400	170480	have to recheck only only one thing like is it is it easy to go and you know
+170480	175320	play around with CSS updating it or removing it and adding into the term so
+175320	179640	whichever is a costly operation you have to avoid that one and play around with
+179640	185040	those things but those are really minute at their level so anything works Kiran
+185080	190320	as far as you are understanding in the class we have already discussed that we
+190320	195120	can deal with like display block and none or display flex for the for because
+195120	206320	we were using flex there okay do you want me to unmute okay let me do that
+206360	217080	yeah please go ahead again guys I'm not able to listen if anyone is able to
+217080	225320	listen let me know if you're speaking yes I can hear you can yeah so when I
+225320	230000	saw that lecture actually I wasn't attending that so I watched the
+230000	235600	recording recording I saw that we were trying some different thing like array
+235640	243120	making an array then deleting it then recreating it so that was okay but when
+243120	250200	we use that for local storage also no then we have to always take care of that
+250200	257840	deleting and recreating so that when we are updating the local storage it is up
+257840	262400	to date till then so I thought that array would be better if we only use for
+262400	268840	local storage and that filtering part will be only just CSS I mean that's what
+268840	275160	I think but I don't know what consequences it may have later if there
+275160	278960	is a bigger project or some bigger application so I just wanted to know
+278960	283600	your views on that yeah so if you see right whenever I'm filtering things
+283600	288320	logic I never I didn't play around with the local storage here I was just you
+288320	293880	know removing the tickets and recreating whatever needed so when it comes to
+293880	297280	filtering logic because you don't really need to apply on local storage like we
+297280	301280	don't have any other extra parameter like an object whether to show on screen
+301280	306360	or not to show on screen there's no differentiator there if you want to play
+306360	310080	if you want to store anything in local storage that way then whenever you are
+310080	314640	pushing each and every event into local storage you also have to say that is
+314640	319480	this current task is shown on screen or not sure because you again you need a
+319480	324960	new variable right so here I'm just using the array two loops one is filter
+324960	330800	one is just trying to go for for each and create it yeah I mean whenever we
+330800	337360	are trying to create that was a that was I didn't do still that local storage
+337360	343720	part but what my idea was that whenever I'll be creating a ticket at that time
+343760	350080	I'll put it in this local storage that array and deleting it accordingly so
+350080	353640	there will be only two functions which will be interacting with that array so
+353640	360800	there will be no other any interactions so will that work it should be working
+360800	366240	like there I don't see any challenge like whether the party you said that
+366240	372120	whenever we are creating local storage updating we need to check that
+372160	377480	currently what are the tickets there so we will be needing an extra variable for
+377480	383760	that which that same main content main ticket container we have to recreate
+383760	389520	that I mean we initialize that in that function itself but do you know this
+389520	393760	like you won't be able to get all the tickets out of local storage and iterate
+393760	400280	over it like you have three functions get a set and you know remove so there
+400280	403480	is nothing like iteration if you need if you want to go through check locus
+403480	409200	was I get and they've get everything out of it but that will be in my just I mean
+409200	416480	I rewrite okay yeah I think I think I'm just missing a plot maybe you can
+416480	419440	implement and share it with me like maybe we can have a discussion on that
+419440	424120	Kiran works okay okay I haven't implemented the local storage part I'll
+424120	431480	do that and share in the next session yeah sure works thank you thank you yeah
+431480	437920	thank you so I'm muting your back it was Kiran do implement it and let us know
+437920	441200	maybe we'll see your implementation and figure out whether it's right approach
+441200	446840	to this or that will come to that point we'll discuss like why we need to go
+446840	451680	follow one approach or other it would be a great learning for each and every one
+451680	457160	for us okay no and thank you so much for taking those questions are a highly
+457160	469160	appreciated okay so guys I hope we have good amount of people join the class
+469160	474040	today so we'll get started I see we don't need to put any message in the
+474040	479760	chat also and thank you all for joining without any messages and for being on
+479760	487200	time I'll share my iPad give me a second
+487200	511560	guys how many of you enjoyed machine coding problems like the problems we did
+511560	517440	all the real-time use cases right maybe a loader maybe in a comment section and
+517440	524680	I've also shared in last class I pinned two URLs one was related to you know
+524680	530600	many challenges or you can say LLD equations of sample a list of LLD
+530600	534800	equations that you can practice other than this thing whatever we have done
+534800	541000	it in class and also along with that I've also shared you know JS interview
+541000	546400	to get up like you know link where you can go through all the JavaScript
+546400	551400	interview questions right I hope you find them I'll add it them in the repo
+551400	556480	also for reference so do you keep on like whenever you have bandwidth keep
+556480	559920	revising them because I want everything to be present in repo I'll try to do
+559920	569440	that okay great so nice and there's a so today's class is mostly like we'll start
+569480	575160	with something called as on a top level I won't go into this keyword completely
+575160	580400	because we have three classes specifically for understanding this
+580400	588520	keyword in depth okay but today we'll understand on a top level like a
+588520	592280	different meaning for a sink and we'll try to explore that but other than that
+592280	598360	thing right so the few important topics that we have to discuss is set timeout
+599480	605600	so and then we'll understand something called as debouncing and there will
+605600	612320	understand trottling and there are two keywords that are specifically used in
+612320	621240	HTML whenever you link new scripts right when I say scripts it can be JS or CSS
+621240	627440	file or any other file whenever you link a script into the HTML you will be
+627440	633080	finding there is something like async or defer keyword added to them so we'll
+633080	638080	understand these two keywords okay so this is going to the context today and
+638080	643080	these are like really important for interview specific also from theory and
+643080	647920	trying to understand it because this this these two solutions are applied to
+647920	651760	many of the LED questions I mean the concepts will be applied for them okay
+651760	656800	so we'll explore them I'll try to keep it as simple I'll pick really simple
+656800	661800	examples as much as can be so that we are sure that we grab the concept of it
+661800	666040	and then we'll move on before that I just want to know how many of you
+666040	673360	understand know what sent interval does we have discussed this in last class but
+673360	677120	I just want to know what set interval does are you clear with this point what
+677120	692320	set interval does I see one thumbs up okay frequency of execution okay can I
+692320	700200	say this way that set interval is an higher order function which executes a
+700200	707160	callback function after every interval and every interval is the second
+707160	715000	parameter that it takes and this this is interval time right can I say it this
+715000	723200	way guys like what the set interval does no let me so you know the other set
+723200	730040	time set interval and set timeout are a browser API actually browser provided
+730040	734440	higher order functions they are providing for us and you can view you
+734440	739880	will be able to access like if you go right into any browser you go into the
+739880	747080	console and try to do window dot like set timeout you'll be able to see it's
+747080	752600	part of a window object or else you can also access like directly set timeout
+752600	757760	because everything out of the global object you can access directly okay this
+757800	761560	is something that its implementation behind the scenes implementation you
+761560	769600	can always see like what is the implementation of set timeout okay so
+769600	772960	these are the two things provided by browser so we'll explore today what does
+772960	778960	set timeout does now as we know that we have one is for interval which will
+778960	783760	execute like after each and every interval at each and every interval
+783760	789200	whereas set timeout is an again a higher order function which executes a
+789200	794560	callback function after this timestamp or let's say you can say this is the
+794560	801160	delay here we say that once you trigger any function this particular function
+801160	807240	higher order function it will call this callback function after some time did
+807240	814440	you understand this difference calling once and calling after every interval
+815400	821640	the basic difference on top level let's say this is also five thousand when we
+821640	825200	say five thousand five seconds now if this is a timeline let's say zero
+825200	830000	timeline then you have five seconds then you have ten seconds then you have 15
+830000	836240	seconds now just let me know if I execute set interval how many calls I
+836240	842280	will be making it here when I use site interval if this is the time let's say
+842280	853440	we have this 15 seconds right firstly at here then you'll have second then you'll
+853440	859880	have third right I hope you understand when it comes to set timeout when it
+859920	862920	comes to set timeout
+871000	879760	so here even though we have all the timelines 0 5 10 15 it will execute only
+879760	885680	once after the delay of 5 seconds I hope on like your definition of set timeout
+885680	889720	and interval is clear this is clear we'll try to go and see some of the use
+889720	902840	cases examples like just hands on right let's say I create a class 20 I call
+902840	918400	this as set timeout dot HTML and let's say firstly we'll try to actually I
+918400	923200	wanted to do some animation logic I'll try to show like how that is how it's
+923200	926440	different you know what is the difference between this let's say I have
+926440	938480	a H1 tag I can say set timeout and set interval okay then I can say that let's
+938480	947640	say I'm having a container div inside that I say I'm the dev and let's say I
+947680	954400	have a button which is stop the animations okay nothing much interesting
+954400	960160	guys here till now let's say copy this whatever is there inside I copied as a
+960160	967200	document title and let's say I have a style sheets for this one and I just
+967200	972000	have a div tag inside that I'll select a particular height and width let's say
+972000	983360	height to be 100 pixel and width to be 100 pixel and let's say background color
+983360	994320	to be tomato let's say we have this and let's make this as 50-50 as of now and
+994480	1005760	we'll render this one once open with live server no let me go here in the
+1005760	1013600	browser let me open this one now so what I'll try to do is that if you I'll show
+1013600	1017440	it for two differences specific differences let me get an access to this
+1017440	1027040	element firstly here I'll add a script tag inside this const let's say div
+1027040	1038160	document dot query selector let's say I can directly call it as a div since I am
+1038160	1044640	not using any CSS classes and we have only one div here and let's I also say
+1044640	1055160	that button document dot query selector button fine once we have this div now by
+1055160	1060920	default what I want to do is let's say if I use set interval now inside set
+1060920	1069520	interval I'll write some logic but let's say I do it at every two seconds okay
+1069520	1081520	firstly I'll try to output console dot log from set interval and what I'll do
+1081520	1085640	it here is that I'll get an access to this I'll use this div and I'll play
+1085640	1093880	around with its width okay now how can I do it I can just say that div dot let's
+1093920	1101480	say I say the current width how do I can get the width guys do you remember
+1107360	1116280	do you remember how we can get the width that is for up let's say let's say that
+1117120	1132520	let's move this move it here and put a debugger I'll have it here I'll refresh
+1132520	1141280	it once I have it here let's say dev dot style dot width not getting anything as
+1141320	1147080	of now if I want to get width what could be the better thing once I have this
+1147080	1157640	div can I go to class list I don't have classes applied think of it this one
+1157640	1164520	guys how can we access the width because we applied here we didn't have CSS like
+1165360	1173400	the CSS that is applied directly is on to the item level container right rather
+1173400	1178820	than a CSS class like you can explore this one here once you go inside the
+1178820	1182400	body you have it here you see it here background color has been added to this
+1182400	1194960	step okay let's say okay but we haven't added any event here we don't have any
+1194960	1205080	target element okay let's say some chase like dev dot get attribute now what
+1205080	1210000	attribute you want to get it because I don't have any attribute added here on
+1210000	1222480	this step we don't have any attribute okay so let's let me let me do this
+1222480	1228060	thing let us go back and add a one CSS class called dev and let's say if you
+1228060	1236840	are able to make it instead of dev let's say container adding it as a
+1236840	1246120	container no once I do this I go to sources I try to remove this debugger
+1246120	1261520	refresh it once I have here I'll say that dev dot style dot let's see if I
+1261520	1270320	still getting it I'm still not getting it again going back a dev dot class list
+1270320	1280520	dot okay once I get an access to this container I can only get the class but
+1280520	1287320	how can I get the value anyone can anyone think of it any idea how we can
+1287320	1297160	get the current width can anyone think of it
+1297160	1320320	okay let's say I said a dev dot get attribute if I do get attribute let's
+1320320	1325640	say okay dev dot get attribute now inside this what should I pass I should
+1325640	1339320	pass container sorry I should pass class I got the still you know the values
+1339320	1348120	container but I didn't get any CSS values okay I leave it to you guys
+1348120	1352720	explore this one so for now what I'm going to do is like when I'm going for
+1352720	1360640	this interval okay what I'll declare here is that let's say I have a one
+1360640	1375640	width let's say I say this is a 50 pixel okay okay once I have this I'll get that
+1375720	1384160	dev dot style dot width okay I'll try to make it each time whatever width I have
+1384160	1391440	it let's say I remove this one what I do is that I'll multiply two into the
+1391440	1402680	current width plus I'll add pixels also I'll update this width I should be doing
+1402680	1405680	after updating it
+1412040	1420160	okay now the animation that I wanted to show you it was like just let's say if
+1420160	1424880	this is working fine do you see this after each and every
+1424880	1433160	interval this width is getting automatically added I mean even if I
+1433160	1439760	refresh it this like looks like again a loader right now but if you want to
+1439760	1444400	stop this if you want to stop this you know like whatever is playing behind
+1444400	1451880	the scenes what if we want to stop this how we can stop this case last class we
+1451880	1457560	learned it like how we can stop the interval let's say I can say store it
+1457560	1470440	in a here okay what I can say is that if if width is greater than let's say each
+1470440	1476400	time it's multiplying let's say I say that 500 then I can say that clear
+1476400	1488440	interval I can pass intervals here okay so this event how many times should it
+1488440	1490960	execute
+1497720	1503200	think of this thing is how many times it should execute currently we have till
+1503200	1510120	width is less than 500 we started with 50 at 50 width so it multiplied it became
+1510120	1515520	100 100 become 200 200 became 400 only three times right now let's see if this
+1515520	1528960	is okay let me refresh now once twice three okay four times now why did it
+1528960	1536520	happen four times because it fourth time it it came till here then it
+1536520	1540640	verified a condition and once condition was satisfied it cleared its interval
+1540640	1546680	right so I hope this set interval logic do you understand how does it work okay
+1546680	1552120	now then there is another way that if you want to stop let's say using I have
+1552120	1557720	a button now okay when I click someone clicks a button add event listener now
+1557760	1565280	let's say I have this one of the ways to clear interval is like once whenever
+1565280	1573280	someone is clicking a button I'll say that clear interval interval okay so
+1573280	1580800	what if I come stop this now if you see it's continuously progressing but once
+1580800	1587240	I click this it will stop so like I just I just wanted to give you some more
+1587280	1592360	hands-on like how this thing works now I'm going to replace this logic with set
+1592360	1598440	timeout right just I hope you understand this animation like interval and no
+1598440	1604280	difference between that let's say I copy this thing I copy this thing and I say
+1604280	1616480	that this is timeout okay I use this instead of clear interval I can use
+1616520	1622960	clear timeout and I can I have to update this as a variable this one and I can
+1622960	1629880	remove this I can I can say that directly apply width of since it will
+1629880	1643720	execute only once let's say a 400 pixel okay now let's see if this is working
+1643880	1656560	okay okay this thing is still executing so let me stop this refreshing it it
+1656560	1662680	happens only once it updates only once okay so this is just an overview of this
+1662680	1666280	thing guys how do you actually use it and what can be the one of the use case
+1666280	1671200	where you want to play with on its set timeout on interval I hope this is we
+1671200	1675440	were anyways clear with the theory part I just wanted to show in real-time how
+1675440	1681640	can you use this clear interval and clear timeout events also is this clear
+1681640	1690920	one final check if this is clear will go with the debounce concept great so let's
+1690920	1694440	start with something called as debounce
+1694440	1704160	so then there is a one of the you know famous question how many of you have
+1704160	1710960	know that what is type ahead what how many of you know this keyword something
+1710960	1713960	called as type ahead
+1718360	1722560	or let's say auto suggest
+1725440	1736040	this is one of the famous high-level HLD interview questions you will be
+1736040	1744840	learning this one in HLD curriculum but you know there's a concept so this HLD
+1744840	1751200	curriculum whatever we'll be covering was let's say behind the scenes in the
+1751200	1759920	back end so we have to handle some use cases in the front end too so we'll
+1759920	1765240	cover today here one of the example where we leverage something called as
+1765240	1771320	debouncing concept this might be something like sounding like a crazy
+1771320	1775640	what I'm talking about but if I'll take you to the one of the famous websites
+1775640	1781480	like Flipkart and I'll show you not exactly trice yeah trice is a behind-the-scenes
+1781480	1790360	algorithm how do you search it and get it but I'm talking in terms of front end
+1790360	1796080	let's say if I go here and if you see when I say auto suggest or something
+1796080	1804920	like even if I go for Google search right Google search let's say I come
+1804960	1809640	here now if you go and see right each time the search is like when I click it
+1809640	1813640	I'm loaded with few of the suggestions already now where these are suggestions
+1813640	1819720	coming from like if you see these suggestions what what what is the
+1819720	1823120	solution this thing is they are they are applying if you go and see in this
+1823120	1836520	site local storage now if you see it here it is google.com they should be
+1836520	1840040	having this data stored here
+1840040	1861760	okay these are not these are static G static but it should be there in local
+1861760	1866440	storage itself maybe I
+1870680	1889680	not sure why this is not expanding let me try to get the value no let's look at
+1889680	1892920	this one whatever Google search is doing it's
+1892920	1898480	preloading with the some suggestions right Arjun they spoil a bubonic flag or
+1898480	1902480	organ happy Valentine's day wishes course so these are the top most
+1902480	1908320	searched content like KL University Vijayawada, IITJ events results, Jordan Poole,
+1908320	1913840	Swiss Parentals right, Modi UAE visit so these are the most searched content so
+1913840	1918760	what Google is doing like instead of you typing it down it filters out right
+1918760	1923760	let's say once I do this it is giving me some suggestions on
+1923760	1928680	base of that right so these are the pre loaded you'll understand why this thing
+1928680	1933680	works this way but my point of question here is that let's say I've come to this
+1933680	1937920	one of the website flipkart which you might have used in day-to-day life more
+1937920	1945200	and now if I search something let's say a mobile okay let's say search mobile I
+1945200	1949880	just wanted to look at this particular you know API calls which are triggering
+1949880	1961640	for the auto suggest no I filter here auto suggest okay let's say auto suggest
+1961640	1966720	no this has triggered so many calls now let's say what is the keyword exactly
+1966720	1976360	being sent in the payload if you see first it sent for M then it's sent for
+1976360	1982480	mobile which I you know corrected back it went for a movie it went for movie it
+1982480	1987880	went for mobile like do you see like one of the thing is that even if I type down
+1987880	1993960	bigger keywords let's say I remove this one okay
+1995640	2000600	let me clean it up let me just select something big big item guys let's say
+2001360	2008160	washing machine no I typed on such a big thing here and I let's say if you see
+2008160	2012360	how many API calls being made for the suggestions whatever you see it in the
+2012360	2018400	drop down there are only two two API calls been done one is like with W one
+2018400	2022920	is done with washing machine whole thing so do you see this like this is
+2022920	2028080	something where deep on sink comes such that whenever you keep on because this
+2028080	2032280	is an input element right do you agree that this is an input element and there
+2032280	2036360	might be some event listener added to this one and this event listener is
+2036360	2043000	always looking for something like key up once user lifted once user lift any
+2043000	2048400	particular key once you press it like I click W the key is up API call should be
+2048400	2053880	made once I type a key is press keys up again and another API call should be
+2053880	2059080	made okay so if you see for each letter from the logical point of view if you
+2059080	2063080	think from behind the scenes there should have been more than 20 25 API
+2063080	2069240	calls right triggering because we are listening to each and each and every
+2069240	2074760	keyword you know so the what they are doing is they're trying to reduce the
+2074760	2079800	amount of API calls so this is where the optimization comes in like how do you
+2079800	2084240	optimize the amount of API calls you are making when user is trying to do
+2084240	2091160	search something right so feel will figure it out like does it assume the
+2091160	2095280	interval or anything but let's create that problem first okay whatever problem
+2095280	2100680	I talked about like on each keyword you should be able to make an end goal then
+2100680	2105080	we'll figure out from end calls to reduce the amount of course now let's go
+2105080	2115040	to the code first let's build this step by step I'll use something like simple
+2115040	2131000	def I'll say that search okay then let's let me convert this into a label okay
+2131000	2143240	inside this I'll also have an input element and since it's a let's say I
+2143240	2152960	also give a placeholder search here and let's say I go to CSS I add some CSS to
+2152960	2163200	this one just like giving a diff again let me open this on the right side just
+2163200	2172920	trying to build a box a basic CSS display flex align items center justify
+2172920	2189080	center see whatever there's a gap gap of five pixels across then once we have
+2189080	2198660	this which I also have a border of five pixel solid black lavender let's say we
+2198660	2207820	have this also I add some padding to it of 20 pixel okay now once I have this
+2207820	2215780	let's say if you also have something border radius like 8 pixel now once we
+2215780	2221020	have this let's say also I give some margin around it let's say margin would
+2221020	2227140	be 20% of the screen so that I move items into the center nothing much
+2227140	2231780	interesting is how basic thing that we used to do but what I'll do it here is
+2231780	2237740	that I'll go with the usual flow that we can write it out so let's say I have
+2237740	2244780	this const input I'll try to get an access to this input element document
+2244780	2252820	dot query selector once I have this now since I'll let's say I give an input
+2252820	2260420	directly and I'll add a listener to this one input dot add event listener and
+2260420	2267340	something we are looking for is key up once user lifts the key okay or key up
+2267340	2271060	is something deprecated so let's say we say the key down once user is entering
+2271060	2277820	something as soon as that will call something okay now let's say since it
+2277820	2287740	takes us some you know callback function let's say make an API call now
+2287740	2299540	this function let's say console dot log says that making an API call so we are
+2299540	2304500	actually not firing it up but we are trying to see that behavior that's I
+2304500	2311040	provide this callback function here okay now let's go back launch this in
+2311040	2318220	exact browser that we have open with live server can we console log target
+2318220	2321860	also yeah we can do that target what value so that you will be able to see
+2321860	2327380	that for each thing that we are trying to output I'll do that let's say I have
+2327380	2340580	event console dot log event dot target dot value okay now once I come here I'll
+2340580	2348700	try to launch this one now let's go to console now if you see it here if I type
+2348700	2357700	let's say if I type some bits name S A M B I T do you see that for each keyword
+2357700	2369460	we are making N calls like whatever however things however however the
+2369460	2373660	items we are typing it down those in my number of API calls has been triggered
+2373660	2379300	now is this a performance issue or not first let me know if whether this is a
+2379300	2382860	problem or not in real time if you implement let's say you are a front-end
+2382860	2388300	developer and you are given a backend API that hey once you give this keyword
+2388300	2391060	we'll search and we'll give you some list of suggestions that you have to
+2391060	2396140	show it in the drop-down in search field okay but if you keep on making API each
+2396140	2401980	time user clicks first API takes some time to load that data and give you back
+2401980	2405220	and there will be N number of calls you might be triggering in the network
+2405220	2411700	which is like using so many resources behind the scenes right and it's like
+2411700	2423780	we have to limit the number of API calls right that's our basic idea any idea any
+2423780	2430700	ideas guys like how we can you know stop this from happening from the current
+2430700	2437580	knowledge we have in the current knowledge we have any idea like or else
+2437580	2443020	let's think of from basic point right when we should make an API call actually
+2443020	2448300	when we should make an API call once user stop typing should we make an API
+2448300	2455180	call or after user keep typing we should make an API call what could be the right
+2455180	2459340	way of making an API call in search
+2464380	2472460	when user stop typing when a full meaning like okay so some bit says that
+2472460	2477300	time interval of five seconds after key up something like that once user stopped
+2477300	2484540	okay so this basic idea is clear right now what we are saying is that on top
+2484540	2490220	level from this problem statement that we are making N calls here so once user
+2490220	2495340	is like he's a typing typing typing typing now once he stops will calculate
+2495340	2499580	some of interval of time and once even in that interval if you didn't type it
+2499580	2506380	anything will trigger with whatever event value is right let's say he's
+2506380	2511580	typing typing typing typing continuously typed and then he stopped and will
+2511580	2516460	start once he stops will load that interval time and once this interval is
+2516460	2522820	expired will make an API call only once so if we're typing four five keyword four
+2522820	2529980	five keywords are hardly let's say he's typing five words like automatic washing
+2529980	2532220	machine
+2535060	2541560	now depending on users right ability how fast they are on keyboard or how fast
+2541560	2549760	how slow they are so we have to adjust the interval such a way that it should
+2549760	2554160	allow the user to type it everything and we optimize it so it's our call that how
+2554160	2560160	we tune this interval the time okay now let's see like how we can implement this
+2560160	2567640	one will go step by step okay let's say I I write one higher order function okay
+2567640	2579480	I write an higher function calling it as debounce function call okay function
+2579480	2585880	API call let's say we call this one this name maybe not a right way but let's say
+2585880	2591720	this takes a function let's say I cannot say this keyword and then also you have
+2591760	2600360	some delay okay once you have this once you have this what you will do is that
+2600360	2607560	let's say you try to execute you try to execute this one such that you have a
+2607560	2618720	set timeout you call this function you execute this function after that delay
+2618720	2624440	of 3,000 seconds let's say three we are tuning it to the two seconds once user
+2624440	2629480	stop after two seconds we'll make an API call now what I'll do it here is that
+2629480	2634480	I'll instead of calling a make API call I'll call something like debounce
+2634480	2640680	function API call inside that I'll pass make API call and I'll also pass the
+2640680	2650680	delay of let's say 2,000 seconds okay and accept the delay here no so this is
+2650680	2656000	what we can think of like we want to once user stops typing if we want to
+2656000	2660320	make an API call after that delay is expired so some some one of the best
+2660320	2665800	function to use a set timeout isn't it like we have to call only once and only
+2665800	2670600	after the delay is expired that logic is clicking you guys because you have
+2670600	2676920	suggested me that we have to make only after user stops typing
+2677040	2681440	let's see if this is working fine or not first okay let's see if this is working
+2681440	2694240	fine or not now once I go back and let's say I typed on everything okay let's let
+2694240	2699880	me try to type down here still I'll try to type Kiran's name now let's say I
+2699880	2712320	typed on Kiran name okay let me see this has broke or what's wrong with this
+2712320	2736040	let's say I'm calling okay I shouldn't have called this function I should just
+2736040	2741480	only pass a function because it's a callback function that executes my word
+2741480	2749040	now let me go here and try to type down Kiran let me see if this is working
+2749040	2763920	fine okay I don't see API call coming here did I mess up anything here let me
+2763920	2779720	check okay it's it's working fine now let's say comment this for now like
+2779720	2792320	since just say let me comment this thing for now or let's say I add this thing
+2792320	2803800	itself no optional training they shouldn't create an issue now I make
+2803800	2815880	something like call some bit it's not calling that function again again is it
+2815920	2822120	not passing parameter for API okay just a second
+2825320	2837360	zero says that not passing parameter to API function no it shouldn't create a
+2837360	2844840	problem that way like we should be able to access this even then and I'm just
+2844880	2850800	thinking like let's say each time we are passing an API call we are making a
+2850800	2855240	callback function here building it now what what's the difference would be like
+2855240	2859040	if I pull it up and paste it here it should be anyways executing that one
+2859040	2880320	right so in line number 36 I didn't get your point this not passing parameter to
+2880320	2896800	API function this one event you want to say this event is it that shouldn't be
+2896800	2902400	a problem but let's see if the way this is this isn't working to repartee if I
+2902400	2909840	typed on even repartee now each time this listener is clicking let's say just
+2909840	2916960	nothing is working as of now let's say if I try to refresh it okay maybe this
+2916960	2920480	particular line might be creating an issue because I'm getting an undefined
+2920480	2941320	check let's I make this simple fix now once I typed on even then no API call is
+2941320	2955960	being made or nothing is executing it here okay let me refresh it what could
+2955960	2963560	be the issue here once I have this listener it goes here I have received a
+2963560	2967840	make API call function which is which is just a callback function that we should
+2967840	2975520	execute and when I'm passing the delay no right now each time I am typing this
+2975520	2981320	something keyword this listener should listen to it isn't it this listener
+2981320	2991640	should listen to it like a key down event let me refresh this one I am not
+2991640	3000200	exactly sure what's wrong here basic code writer basic lines of code now
+3000200	3007440	let's say I pull it up this one I keep it below only not to be actually should
+3007440	3018640	be on top itself but is anyone able to think what can be the mistake here any
+3018680	3020680	idea
+3031520	3037400	okay let me do one thing I'm not trying able to replicate which I didn't save
+3037400	3045520	this code I again saved it but each firstly it adds a listener that's a
+3045520	3053680	key down listener that's great and this we are the same thing we have called it
+3053680	3063840	and it's taking two things now it passes the expected delay initially it executes
+3063840	3069480	that one then if I type down why this event is not triggering
+3075760	3078760	this is odd
+3079520	3082520	so I say
+3082520	3105920	key down event accepts API as a param but you're calling API just a second I'll
+3105960	3113120	try to understand your point here maybe we need to return the timeout function
+3113120	3128960	let's say that okay let's say I try to return this okay what if we I try to
+3128960	3141760	return it add event listener event target parameters is not type one object
+3150600	3156920	this is fine event is not getting passed to the debounce as param not to call
+3156920	3167520	API function let's say guys I have a piece of code let's see that and
+3167520	3178600	implement this one if it is working fine okay I let's say this is something that
+3178600	3185040	I have written an old class let's say this is an function a callback function
+3185040	3193320	that I have again I do this same logic let's say if I replace here input with
+3193320	3204120	this logic I use it right here okay then I also have something like this function
+3205040	3213120	which I don't want to use it here let's say comment this particular thing and I
+3213160	3220560	also particular this one now let's say instead of this thing returning what if
+3220560	3242760	I return directly as you say return set timeout a function and delay okay I hope
+3242800	3249520	this thing works now still I get an error now I see that number of API calls
+3249520	3263120	are made zero okay let's say I call it inside this one whatever function is
+3263120	3275560	being returned let's say this function is being returned and it's a remove this
+3275560	3288600	timer okay let's understand this thing why did I mess it up here firstly try
+3288600	3294000	chat GPT got it this anyways firstly let's see this why this was not working
+3294000	3306720	earlier so hmm basic mistake so so if you see this this is an higher-order
+3306720	3312800	function where we passed and function and it in order to execute any callback
+3312800	3317600	function like it will be where we should have been returning a function rather
+3317600	3323200	than executing this one somehow but I I'll get back to this logic why this is
+3323200	3328160	working now why not later but let's come back and try to see this one okay that
+3328160	3332960	if you see it again if I typed on each and everything now let's see if I'm able
+3332960	3338920	to access the event also in this function that I have event I try to make
+3338920	3348600	a console log so dot log of even dot target dot value
+3353520	3358960	now let's say I type down some bits okay I am NOT able to get that target value
+3358960	3367320	here or event is not being passed that that something will fix it but let's
+3367320	3376120	say I try to remove it as of now but on a top level I again coming back to this
+3376120	3379080	thing guys whatever I messed up in last ever it's let's figure out that one
+3379080	3384960	later but if you see if I type down a list of six keywords I'm still making
+3384960	3390800	the six API calls now one of the way to you know optimize this call optimize this
+3390800	3395800	one is that pretty straightforward and simple is that what we'll do here is
+3395800	3400080	that we'll use something logic like clear timeout implementation let's say
+3400080	3405520	if I comment this thing remove this thing out and I store it here in a timer
+3405520	3411680	now let's understand firstly at what's happening here line by line if you see
+3411680	3417640	let me write down I in the iPad and try to show what is exactly being done here
+3417640	3427760	so firstly the function that we are returning is having a clear timeout
+3427760	3435560	and we are removing something called as timer okay and we are storing inside
+3435560	3442360	this timer like actual value like this set timeout where we are calling this
+3442360	3450600	callback and with the delay right this is something we are doing it as of now
+3450600	3456760	but let's see how we will be able to apply this first let's understand how
+3456760	3463200	does set timeout works because if you go and see JS files right if you see JS
+3463200	3470880	files what type of language we can call it as JS okay showing browser sorry
+3470920	3478200	guys I again maybe right I hope you are able to see this this function whatever
+3478200	3484800	I have written and okay now now think of JS guys what type of language is that
+3484800	3493120	JS is it single threaded or multi-threaded is it single threaded okay
+3493120	3499400	how many of you say that it's single threaded give me thumbs up for single
+3499400	3504340	threaded and give me thumbs down for multi-threaded or let me know like if
+3504340	3512280	you do you understand what is single thread versus multi-thread I hope you
+3512280	3517640	understand the difference between these two things no idea what threads okay
+3517640	3530360	good no worries now have you watched movie Shivaji Rajnikanth movie now once
+3530360	3536480	he become a don he signs with both the hands right all the documents which are
+3536480	3540240	admission letters for the students he signs with both the hands do you
+3540240	3546720	remember like at same time he's you know doing multi-processing like multiple
+3546720	3553880	things so what what happens in single threaded language is something it focus
+3553880	3559520	on only one thing at a time when it comes to multi-threading it has ability
+3559520	3566400	to focus on multiple things okay to do simultaneously do you understand this
+3566400	3572040	parallel no parallel word like parallely I can do multiple things now when it
+3572040	3583640	comes to single it's like only one thing at a time I hope you got the basic
+3583640	3589260	difference what is single threaded and versus multi-threaded you know if you
+3589260	3594360	know even for the multi-threading languages you can spawn you can spawn
+3594360	3601840	when I say spawn I mean to say that you can create like how many threads you
+3601840	3605860	want that many that you can create in an application when it when you go for
+3605860	3612200	something language like go or C++ or Java they have ability to you know
+3612200	3617080	multitask and you can create like good amount of threads depending upon your
+3617080	3623080	hardware setup how much CPU you have how much but there again even if you go in
+3623080	3626260	depth you will see something like there is a locking mechanism how would you
+3626260	3631680	handle all those things but not a point of concern as of now JS is something is
+3631680	3638880	JS is single threaded language when I say this now single threaded language I
+3638880	3643000	hope you are able to understand that JavaScript does only one thing at a
+3643000	3647240	time if I'm eating food I'll only eat food if I'm writing something I'll do
+3647240	3651280	only something one thing if I'm right reading one part one line of code I'll
+3651280	3655360	read only that line of code I won't be able to read other lines of code is this
+3655360	3663360	clear what JS is now also along with single threaded we also say that it is
+3663360	3670920	synchronous you also say that this is synchronous single threaded language I
+3670920	3675600	added a key another keyword guys now think of it what you can say that
+3675600	3681520	synchronous when I say something like in sync like I'm actually in sync when I
+3681520	3688840	say that generally is that you know again synchronous single threaded are
+3688840	3692800	like both the both are talking about same thing but when it comes to think
+3692800	3699920	like one did they are just talking about both things are like one thing at a time
+3700800	3706040	and when I say synchronous is basically that let's say it's executing a piece of
+3706040	3710920	line it will keep on executing that line once only if this is executed it will
+3710920	3717520	go to next slide and it in JS something pass execution happens from top to down
+3717520	3722920	that we already know isn't it so I hope all this discussion is clear till now
+3722920	3730400	whatever we did about JS language now let's understand what set timeout is
+3730400	3737280	doing or anything we know that earlier we talked about something like happening
+3737280	3742040	in JS let's say your JS code is being passed passed passed and suddenly you
+3742040	3749160	found set timeout and let's say there's a callback function and you have a delay
+3749160	3754680	of three thousand seconds or three thousand milliseconds now once you see
+3754680	3761000	this one and there is a call stack all the things are getting executed and
+3761120	3769440	there is suddenly set timeout now tell me what should actually happen now all
+3769440	3773400	the execution should stop right below code execution stop till this three
+3773400	3778040	thousand seconds are elapsed and this thing is executed nothing should be
+3778040	3787000	working in application right from the definition of JavaScript how many of
+3787000	3790480	you are agreeing with this point like there shouldn't be anything executed
+3790480	3793760	until this three seconds are elapsed and this callback function is executed
+3793760	3800960	right but is this actually happening is that easily is it actually happening what
+3800960	3811600	if I go with set interval imagine set interval like let's say set interval I
+3811600	3815760	say that every five thousand seconds well it executes after five thousand
+3815760	3819560	seconds and it should be keep on executing this piece of code itself it
+3819600	3824360	should not execute the other lines of code right below logics so this would be
+3824360	3833200	a bottleneck for an application isn't it if this is what actually how JS works
+3833560	3839640	right if if like if if you're reading from top to down and you can do only one
+3839640	3844120	thing at a time and if you got stuck here and you're not able to move ahead
+3844320	3854280	then all the other functionalities of your application will be stop right okay
+3854280	3862040	so guys what I was talking about is that firstly is this keyword is clear to you
+3862040	3873120	is this clear keyword clear to you think of a single-threaded language no let's
+3873120	3877920	say you have a piece of code top to down you are keep on reading and in
+3877920	3886760	suddenly you have set time out and there is a callback function and you have
+3886760	3893400	delay and you also have a below some piece of code and when you are
+3893400	3897240	executing when this code is getting excluded in call stack line by line in
+3897240	3903280	execution context okay now all these lines are executed now when when you
+3903280	3911560	encounter this particular line in call stack now since this says that one thing
+3911560	3918480	at a time and in a synchronous way it's a single thread it should be waiting for
+3918480	3922680	this delay to expire and then call execute this callback function creating a
+3922680	3926440	sub execution context only then it should be able to execute below files
+3926440	3934600	isn't it this is what our understanding should be with respect to but what I'm
+3934600	3937920	asking that is it happening that way when you go for something like set
+3937920	3942920	interval instead of let's say set timeout what if there has been set
+3942920	3950640	interval if you had something like set interval and you have a callback
+3950640	3957360	function and let's say you have interval time given now because this is
+3957360	3961560	should be executed once on one time after the other till you clear this
+3961560	3967760	interval the execution will be struck right I mean your application will hang
+3967760	3973400	there isn't it but we are seeing something is that application is working
+3973400	3978920	fine application is working fine somehow so what's actually happening in behind
+3978920	3984920	the scenes right so now all this higher-order functions like set timeout
+3984920	3995120	okay or set interval or are your API calls whichever are like time taking in
+3995120	4003840	nature okay whichever are time taking in nature which let's say it's it might not
+4003840	4007640	be executed right moment but it takes some time so what happens is that
+4007760	4013440	whenever this call stack encounters this use cases right what it does it it takes
+4013440	4023640	out from the call stack put it in some sort of queue let's say timeout one say
+4023640	4033840	interval one say API call one and it stores in the queue only when let's say
+4033840	4039600	when this timeout is expired when I mean say when a deal is expired what it does
+4039600	4044720	is it put backs into the call stack to execute it and when it only when it
+4044720	4048720	would be only able to put is that when this call stack is empty and there is
+4048720	4053040	nothing being executed that moment only then this timeout function water will be
+4053040	4058520	put back and the callback function will be executed similar way once this
+4058520	4063760	interval is like put back it will see that it will call that execute that like
+4063760	4067960	callback function again it will put back into the queue you understand that
+4067960	4076600	rotation what is happening behind the scenes actually guys how many of you are
+4076600	4079320	able to connect with me if there is someone who don't understand this
+4079320	4083320	concept let me know because future classes will be really dependent on this
+4083320	4090400	logic okay okay no no what I mean to say is that let's say there are this events
+4090400	4095920	are based on some time isn't it let's say timeout will execute after some
+4095920	4101600	delay or interval happen after some time and API call will also say take
+4101600	4106240	some time to execute now when these things are happening right now we cannot
+4106240	4110640	we cannot wait for that time because if we wait for that time other part of the
+4110640	4114280	code will be hanged let's say someone is clicking some other events in the
+4114280	4122200	application the listener should be able to listen right okay so they what
+4122200	4125800	basically behind the scenes are happening is like that JavaScript is
+4125800	4131080	removing this this functions like timeout interval from the call stack it
+4131080	4137000	is putting into some of the queue okay one queue and it is waiting this all
+4137000	4142840	things are waiting waiting for what waiting for the timeout the delay or
+4142840	4147200	interval whatever you have given or this API to fetch data from back end
+4147200	4153600	once this time or delay is execute are done then these things are put back into
+4153600	4161800	call stack back into this one so to execute it is this clear guys how that
+4161800	4168880	set timeout and set interval works behind the scenes now this actually is
+4168880	4175000	a part of something called as event loop which will further go in depth which
+4175000	4179240	will go further in depth to understand this one we'll come back to this topic
+4179240	4185520	again we'll explore this one okay so meantime app will be stuck so in mean
+4185520	4189000	times app shouldn't be struck app will only struck when your call stack is
+4189000	4197040	stopped when I'm when call stack is like okay to move forward then it it won't be
+4197040	4202240	stopped right only when call stack is empty this things will be put back I'll
+4202240	4210840	show you that guys I'll show you that one okay let's say no firstly let's let's
+4210840	4218040	come to this one what I'm generally doing it here okay okay firstly let's
+4218040	4224640	understand this logic what's happening now inside this deep bounced I'm
+4224680	4230460	initializing a timer I am putting it to the clear timeout I'll explain this code
+4230460	4234120	I'm coming to this logic okay let's understand this function what's
+4234120	4238920	happening okay I gave some delay like let's say I've gave some delay like 500
+4238920	4245960	milliseconds 0.5 seconds and I say that once you call any user let's say any
+4245960	4250440	user is typing any key event let's say is typing any keyword let's say typing
+4250440	4257720	this th is when is typing it each time we are calling this function and we are
+4257720	4263400	initializing this variable and we are checking we are checking if this clear
+4263400	4270240	timeout if there is any set timeout exist clear that timeout if like if
+4270240	4276080	there is only thing or exist then clear it and then after attach a set timeout
+4276080	4282440	to this timer a variable and execute it now when again let's say this is
+4282440	4288760	happening let's say if I type down t here okay if I type down t here for the
+4288760	4293040	timer there is nothing undefined there's nothing is there okay so it won't do
+4293040	4298400	anything as of now but let's say if I execute this timer and go to the next
+4298400	4306880	line let me you know this is not persisting data but what I'm generally
+4306880	4311760	trying to say it here is that if you see this function if you see this function
+4311760	4316720	whatever we have written let me cut this one
+4328400	4341440	so what I'm saying is that now let's say in call stack okay for each and each
+4341440	4346800	listener right each listener whenever key down event is fired key down event
+4346800	4351840	will be fired for let's say if I typed on some bit it will fire for this one
+4351840	4357240	this one this one is also six times it will fire isn't it it will fire that one
+4357240	4362080	at least now inside this we are calling this debounce timer this function is
+4362080	4366160	being caught now when we call this function we are passing some delay and
+4366160	4371320	a callback function to execute now let's say what I'm trying to do it here is
+4371320	4378440	that I am here having a variable timer in memory and once this set timeout has
+4378440	4385800	been put into the call stack right it has been removed it is put it into the
+4385800	4396080	queue here okay for the first letter s now when again user types a when user
+4396080	4401240	type say I'll come here I'll check whether in memory there is something
+4401240	4406360	attached to the timer so we see that this existing timer is attached to this
+4406360	4412520	keyword so we'll say that can you remove the existing timer clean it up so when
+4412520	4419360	in second event this will be cleaned up and there is nothing okay then once this
+4419360	4424120	is cleaned up again you would take it a event and you make again a set timeout
+4424120	4432800	call okay now again you store it a value into the timer now you have set timeout
+4432800	4440800	for a event and this is again put into here queue and this is again removed
+4440800	4449840	from here okay now again it goes when you type M when you type M again let's
+4449840	4455760	say when you type M you again call the set timeout here before calling the set
+4455760	4458920	timeout you'll check whether there's anything timer exist yeah you see that
+4458920	4463640	this is existing please remove this one also clear it so as you do it keep on
+4463640	4467960	doing it you will come at a point where you will type something like T and you
+4467960	4474200	will stop when you stop it when you keep on cleaning up and when you stop it at
+4474200	4479720	final point right when you stop at this final point there is no one going and
+4479720	4484800	coming out and clearing this event from this queue there is no one clearing out
+4484800	4489720	and once the deal is done it will put into the stack and execute and make an
+4489720	4494400	API call are you able to relate like actually what's happening behind the
+4494400	4500000	scene when you do debounce so all the events whatever are being added into
+4500000	4503560	this queue right whatever being are added first we are clearing all the
+4503560	4517320	older events all the older events function calls are cleaned up okay all
+4517320	4521840	the fun ones like one after the other we are cleaning up only the last set timeout
+4521840	4526440	will persist here and that will be executed because for that time will
+4526440	4534960	elapse and it will get X I hope you understand how debounce works guys how
+4534960	4541360	many of you are still facing challenge understanding this one let me know okay
+4541360	4546280	now if you see it now if you see it how many things we are making like let's say
+4546280	4552440	if I try to type down let's say I typed on my name let me remove this debugger
+4552440	4558600	now let's say if I go and type down clean it up this one I'll refresh it
+4558600	4564240	let's say I typed on my name you see I made only one request like number of
+4564240	4568920	requests count to zero now let's say I typed on something like washing machine
+4569040	4576880	okay I'll type on something like washing machine to see only one API call what if
+4576880	4585000	I want to type down again automatic you see three API calls max how we are able
+4585000	4590960	to optimize this one because we are each time a new event is added we are
+4590960	4594600	clearing the existing events and then we are setting our time with a new the
+4594600	4604880	existing one is this clear guys how this is working I hope you are able to
+4604880	4612040	relate like how this actually works okay but the now one of the most important
+4612040	4617080	use case right when it comes to debounce is like it's really important topic when
+4617080	4621600	you want to actually optimize for you know like this sort of search filter
+4621600	4626560	logic logics because you want to preserve that you know the amount of
+4626560	4629560	API calls you're trying to make it fresh because each time you are making a fetch
+4629560	4633800	you are actually pulling six kilobytes of data over the network and it is
+4633800	4637200	transferred from the somewhere system which is put down on the back ends at
+4637200	4641880	behind the scenes right so that optimization we are doing it here okay
+4641880	4648280	this is what debounce helps us so we'll come back after the break we'll explore
+4648280	4658440	like what throttling doesn't does it okay so do you need break or can I go
+4658440	4670320	ahead by taking like class I need 20 minutes to explain okay break okay let's
+4670360	4681800	take break of six minutes guys I'll give six minutes but before that let me know
+4681800	4686280	are you able to follow up are you able to follow up guys like did you
+4686280	4690120	understand how debounce works behind the scene how set time out on set interval
+4690120	4694560	works those are removed from call stack put it into some queue and will
+4694560	4698520	understand this thing all those things in depth when we pick event loop I'll
+4698560	4701800	show you mechanically how those things won't works and debugger tool and
+4701800	4706920	everything and those are executed once times are elapsed it put back into the
+4706920	4714520	call stack you call stack to execute it okay let's come back in six minutes
+4728520	4731100	you
+4758520	4761140	you
+4788520	4791140	you
+4818520	4820780	you
+4848520	4850780	you
+4878520	4880780	you
+4908520	4910780	you
+4938520	4940780	you
+4968520	4970780	you
+4998520	5000780	you
+5028520	5030780	you
+5058520	5060580	you
+5073280	5077080	guys is everyone back
+5080320	5086600	give me some sir if everyone is back I just want to explain one of the bug that
+5086600	5090760	I was doing and not able to figure out I just was thinking you know for this
+5090760	5098840	four five moments and I do remember here while I was trying to execute set
+5098840	5106680	time or directly instead of returning a function it was not working I was not
+5106680	5111080	able to figure out then but I was thinking in two minutes of time I you
+5111080	5116240	know the moment the the bug here that was created was like whenever you are
+5116240	5122120	really creating a listeners right you are not actually calling a function but
+5122120	5128400	you are writing a callback function attaching a function to it do you
+5128400	5133040	understand the difference between calling and attaching a function to it
+5133040	5139520	it works like a callback function right now whenever I was actually calling this
+5139520	5145000	T bonds and our function I was actually executing this part but it will be only
+5145040	5149840	executed one time but if I want to attach that function I have to know when
+5149840	5155200	if you see this what logic is the happy forming here it is returning a function
+5155200	5158800	and this whatever that function is written will be attached to this key
+5158800	5163280	down event and whenever key down is there this function will be executed is
+5163280	5170080	it it so that's the difference I was making a mistake so I able to understand
+5170080	5175600	what's a mistake I was committing there if there is anyone who don't understand
+5175600	5179320	give me thumbs up thumbs down and explain that thing guys I hope okay see
+5179320	5192200	many people now okay yeah yeah right so let's say whenever you write any event
+5192200	5196640	listener whenever you write event listener okay let's say what could be
+5196680	5202120	the common thing you like a click event okay and you define a callback function
+5202120	5210160	right this is a syntax of it isn't it isn't it this is a syntax of it when you
+5210160	5217800	write it now let's say I write a console dot log console dot log and I let's say
+5217800	5223960	I'm trying to print the event whichever I'm receiving let's say event no I am
+5224000	5231880	defining a function inside the listener but am I executing this function here or
+5231880	5235440	I'm just defining the function declare I'm doing the function declaration only
+5235440	5239880	know writing the definition of function but I'm not calling it I will be only
+5239880	5244680	calling this function when I do this isn't it defining a function and calling
+5244680	5252000	it right away I able to understand the difference between attaching a function
+5252040	5258360	to the listener versus call executing that function now earlier like here in
+5258360	5269840	the listeners we attach a function let me write a cut callback function but we
+5269840	5278200	don't execute it manually that will be taken care where I actually went
+5278360	5282760	function but earlier what I was doing is that if you see I was calling the
+5282760	5289480	debounce optimized function instead of doing here anything I was trying to set
+5289480	5296880	timeout and I was doing function and delay this is again as the principle of
+5296880	5300520	listener right what I'm doing it I'm just calling that function on each click
+5300520	5308440	I'm executing that logic isn't it I'm executing this function are you able to
+5308440	5312640	understand the difference like when actually we should have been attached a
+5312640	5316360	callback function instead of that they are executing a function now when I
+5316360	5323040	return a function here when I return a function from this function this
+5323040	5328860	particular return function is actually being attached to this listener is this
+5328860	5334980	clear guys and I can write down in simple keywords if I have to do it what
+5334980	5342100	actually have been doing it is that let's say this is a keyed-on event now
+5342100	5345740	once keyed-on is event is there like let's say we have this callback
+5345740	5350660	function now here we were doing that same thing let's say I have a timer now
+5350660	5357100	the timer should be art added on the top let's say I can add a timer here let's
+5357100	5364760	say I have a timer here declared okay once I have a timer what I'll do is that
+5364760	5370240	I'll copy this one these two things instead of writing like this function
+5370240	5378820	and delay I'll actually call it opt function and I'll say that 500 okay this
+5378820	5384700	is same as this both lines are actually doing same thing are you able to relate
+5384700	5393820	it now instead of attaching earlier I was calling this guys is this clear
+5393820	5397820	point give me thumbs up thumbs down if you are able to understand it now so for
+5397820	5401780	listeners we attach yeah yeah right somewhere like if you go for any code
+5401780	5408620	let's say we go to Kanban board we have too many events added right now do you
+5408620	5412600	see this we are writing only declaring the function but we are not calling the
+5412600	5418560	function for the double-click event or you go for any other event like let's
+5418560	5423280	say if this particular event how how function function executes only when you
+5423280	5428920	call right let's say I declare a function like function some and I pass
+5428920	5433640	a comma B only then like doesn't matter right that won't execute until as you
+5433640	5438480	call them so calling is not my headache that listener will take care of it
+5438480	5449000	that's what yeah yeah so I hope you got the bug that I was creating and it just
+5449000	5452520	clicked me right moment I just wanted to explain you guys like what could be the
+5452520	5459920	mistake what was the mistake actually okay let me remove this lines of code
+5459920	5467640	no so I hope debounce is clear right to everyone debounce is clear like how does
+5467640	5474480	it work debounce so whenever you want to do whenever you want to do something
+5474480	5478720	like when let's say there are series of events are happening and you want to
+5478720	5484920	execute after user even stop after some time then you that particular process is
+5484920	5493240	called debouncing okay fine I hope now after this I'll say that do you
+5493240	5500720	understand know how async programming work async is something like parallel
+5500720	5507200	whenever you see here this word in cope in programming context you can
+5507200	5514280	understand this as a parallel now in JS since it is a single threaded we don't
+5514280	5519120	have like we have right we can write a multiple multi-threading code logics but
+5519120	5524160	we have something like this mechanism where the costly events are removed from
+5524160	5528520	call stack put somewhere else and only will be executed when it needed to be
+5528520	5537400	that's how we were able to handle costly events like multi-threading concept is
+5537400	5541440	there some proper syntax to deep on so that I can least remember I'll check for
+5541560	5558680	documentation some bit if you see let's say if I go and check for debounce there
+5558680	5566240	might be some use cases but we have to see like if you see this is the same
+5566240	5573440	logic that I used it they are also using function apply this we have to
+5573440	5577920	understand why they are using it but they are also explaining the same
+5577920	5583640	problem using input type text okay but I'll come to that I'll check and I'll
+5583640	5588160	give you a snapshot of a code which can be used for understanding it I try to
+5588160	5592440	pick the very really simple example it's like a three piece of code which is
+5592440	5598600	actually changing it but I hope this debounce is clear okay we'll move on to
+5598600	5609480	the trottling now okay let me let's say I have a new file called trottling dot
+5609480	5618400	HTML and I what I'll do is I'll copy this code I'll paste it here and let me
+5618400	5629280	say that throttling optimized function and I'll call back here and something
+5629280	5634360	that I have to change the logic is in logic is this one like we'll change we'll
+5634360	5639560	be changing the logic here okay but I'll come firstly let's understand what
+5639560	5646240	throttling does and what how does it affect now let's go to flipkart itself
+5646240	5651920	so guys how many of you understand there's something that lazy loading
+5651920	5664040	lazy loading have you heard this keyword lazy loading lazy loading I see three
+5664040	5677040	thumbs down no worries case so let's say a website right a website like flipkart
+5677040	5685680	Netflix they have too much of content right too much of content when you
+5685680	5693320	launch it when you open their sites do you agree with this point like too many
+5693440	5700160	when I say content images images can be heavy in size and the content like the
+5700160	5706280	paragraph contents and everything do you guys agree with that with this part do
+5706280	5712160	you agree at least okay now what happens is to the websites right to optimize to
+5712160	5719440	optimize the page load time okay to optimize page load time page load time
+5719440	5724280	they use one of the concept called lazy loading now the lazy loading is applied
+5724280	5734760	for only costly operations one of the example is that images images are costly
+5734760	5738880	so even when you are pulling from the network they do it only when it is
+5738880	5745680	required when I say when it is required let's say the flipkart page is too long
+5745680	5754640	in nature okay but your viewport view view width is this one so view height is
+5754640	5762360	this one and view width is this much okay this is a screen size you have but
+5762360	5767760	only if you if I load only this part of content when user launch that would be
+5767760	5774240	enough right to show initially whatever your screen is there mobile now then
+5774280	5778240	there is a scroll scroll event is happening here on the left side and
+5778240	5782720	whenever we are scrolling it below do you remember sometimes there's a flashy
+5782720	5787240	images happening like that images keep loading slowly there would be like
+5787240	5793280	animation that you see have you seen any time in your like when you scroll it
+5793280	5797480	suddenly its speed rate you won't see the web page loaded previously but it
+5797480	5803040	keeps on loading it now that is where we say we are loading lazy look we are
+5803040	5808320	easily loading the content I mean we are too much lazy that will load it at a
+5808320	5814720	time so that when you scroll it right API calls are being made to fetch these
+5814720	5820800	images in YouTube in any website in heavy websites where there's a too much
+5820800	5827360	content lazy loading is one of the most opting used concept in order to reduce
+5827360	5831200	the page load time because we will load only whatever required assets are and
+5831680	5836040	then after when user scrolls it depending on whether he's scroll till
+5836040	5841440	here we load this content when he's called here will load this content and
+5841440	5847200	once they loaded they cache it when I say cache it they store here in the
+5847200	5852560	storages so that you again if user goes up and down then don't need to again
+5852560	5859240	load it let's see this in real time let's say that if I go to YouTube okay
+5859280	5865240	no let's say this do you see this this part of thing is loaded like this are
+5865240	5871840	12 boxes nice this 12 boxes now suddenly if I load it do you see this blocks are
+5871840	5876040	getting filled suddenly there was a shade there if I suddenly loaded there's
+5876040	5879440	a shade then the color pictures are coming then the thumbnails are coming
+5879440	5886280	actually do you see this if I load it the below pictures are you able to see
+5886280	5895360	this case no again I'll show you why let's say I go for the inspect if you
+5895360	5900160	see in the network you see in the network
+5900160	5916320	can I okay now let's see what happens when I scroll too many API calls in
+5916320	5925200	YouTube to know but let's say if I scroll it do you see there are pending
+5925200	5930720	requests which are getting fulfilled to fetch the images all this like events
+5930720	5935560	and the images if you see this image this might be the image for something
+5935560	5941120	some YouTube hedge clips or this is you know Aditya music or different images
+5941120	5946080	are being fetched at runtime now this image is let's say Amazon image there
+5946080	5953700	might be somewhere this this person's image okay 80 this one so all these are
+5953700	5957980	thumbnails which are like let's say this one stack versus heap some video may be
+5957980	5962580	content now this person's image so this is somewhere somewhat called as lazy
+5962580	5966300	loading this concept is lazy loading what they're doing it is that only I
+5966300	5972420	loaded only I loaded whatever content is needed one shot and when users cross it
+5972420	5977860	I'll hope I'll like you know I'll do a figure out now you can always figure out
+5977860	5982500	this one what are the listeners attached name if you want to go like you go to
+5982620	5992140	here you know in this you can go to scroll event and explore like what are
+5992140	5996300	the events that are attached okay multiple events you'll see that on page
+5996300	6000620	level if you remove it or this thing will you know stop working whatever you
+6000620	6005700	see that API calls being triggered if you remove it it will stop working okay
+6005700	6010140	there might be many things they might be using it but these are the list of
+6010140	6015900	events you can play around with mouse over key up key down right input element
+6015900	6019980	drag enter drag leave double flick so these are the events that you can see
+6019980	6026020	like what events are attached to your website okay so now coming back here so
+6026020	6031020	I did you understand lazy loading give a thumbs up if you understand now what
+6031020	6039560	lazy loading is how that works no now let's say now let's say what's happening
+6039560	6046760	if I do it again on the flipkart do you see let's say how many pay cost did they
+6046760	6052400	make if you see this they are trying to get fetch the page page numbers now if
+6052400	6057800	you see each page only one page right I had only one page but that page was
+6057800	6065080	divided into multiple pages according to the viewport size do you see this like
+6065080	6075360	let me refresh this one this website and I'll show it okay there might be
+6075360	6079480	somewhere with the API call might have been already made they fetched images
+6079480	6086440	and everything it one shot to loads of you put size images now once I make
+6087440	6092880	now do you see this this this thing made a API call to get the other list of
+6092880	6103120	items of page number two and also it fetched one of the image okay now what
+6103120	6107800	if I go into one section let's say if I go into one section called mobiles let's
+6107800	6114520	say if we have I scroll it down I keep on scrolling now if you see images are
+6114760	6123640	runtime fetch is being made okay let's say the event actually okay these are
+6123640	6128520	like all things are lazily loaded that's what I wanted to show that this is the
+6128520	6133720	real-time concept that whatever we are learning now here just lazy loading is
+6133720	6138760	actually being done using something called as throttling mechanism okay now
+6138760	6144120	let's understand what actually throttling is how we can leverage throttling when
+6144120	6150560	you come to this car like you know lazy loading now what's happening
+6151640	6157360	here would you see on the web page when you reach a particular point when you
+6157360	6163320	scroll up to some extent let's say some height some height of web page that
+6163320	6175080	triggering API call right do you guys agree with this point that that trot
+6175080	6179760	like when you move to the particular height of it they are making a pickle so
+6179760	6187080	now imagine imagine what if this is one of the example like how do you do it
+6187080	6192880	then imagine there is a submit button then this let's say there is a submit
+6192880	6198280	button you created a form you have multiple elements you have filled all
+6198280	6202400	the events then you have a submit button
+6204120	6209720	what if user keep on banging this button each time they keep on pressing this
+6209720	6215080	button again again again again he keep on clicking this button again and again
+6215120	6227000	even then we are making hitting multiple API calls right right like whenever user
+6227000	6230680	is trying to submit a form and he is clicking on submit event again and again
+6230680	6236240	you are trying to hit for on each submit you are making an API call here also what
+6236240	6241680	if user scrolls to this height you make an API call again you go down again you
+6241680	6246680	go up you again make an API call so if you keep on scrolling in a list of API
+6246680	6252440	calls will be happening each time right are you guys do you guys agree with my
+6252440	6259000	point that what I'm talking here like like the user behavior whatever user is
+6259000	6263600	trying to write in order to stop that events are happy for you know triggering
+6263600	6270320	now what we'll do is that once user clicks any event or once user comes to
+6270320	6275720	this crawl we wait for some time
+6275720	6305200	I mean wait till the event happens and then trigger API call okay
+6305920	6317320	it some intervals now when I'm why I'm saying some intervals is let's say this
+6317320	6323200	particular concept also applies it's like same like a debouncing but
+6323200	6329120	debouncing works only like let's say of that input example try to remember like
+6329120	6334000	one example for each one now when you go for input example what was happening is
+6334000	6339240	that we were trying to debounce like we were waiting till user stops once user
+6339240	6344400	stopped I stop it then after we were initiating thus time then we were
+6344400	6348000	initiating the delay and then only we were triggering API call here it doesn't
+6348000	6352640	happen that way once you reach an event API call will be triggered for surely
+6352640	6357440	but after that it will be triggered after again some amount of time it will
+6357440	6361040	be keep on like this works like an interval okay
+6361040	6365760	trottling works like interval where you are trying to reduce the amount of API
+6365760	6372640	calls but it will keep on execute you can make n number of calls okay let me
+6372640	6378920	show you the first let me let us show see this example again okay I'll launch
+6378920	6390040	this one firstly let's say we have this let's I return this function
+6395400	6403080	console dot log instead of console dot log I have to return something like set
+6403120	6414160	timeout again function comma deal nothing much so let's say we are still
+6414160	6420120	executing that same problem if I keep on timing executing it you'll be able to
+6420120	6426840	see all the network calls here okay did I load the wrong file let me load this
+6426840	6442240	throttling let me go back here load this one now I have typed on waiting and
+6442240	6445920	should be executing all the requests this is again going back to that same
+6445920	6450480	problem guys now but what if I what I want to do it here is that I want to
+6450480	6455680	throttle when I when I when I say that let's say when I say this meaning of
+6455680	6465200	throttle is like once user event is click event is clicked our event
+6465200	6467600	happens
+6471400	6483960	throttle the request I mean wait for some time before you execute let let me show
+6483960	6489200	that how that works before I write down anything okay let's see how what happens
+6489200	6493600	here so now when I want to throttle it what I'll do it here is that let's say I
+6493600	6500840	have a flag let's I say that a flag equal to true okay and only when this
+6500840	6511280	flag is true only flag is true I'll do what I'll do is that I'll call this
+6511280	6516880	function whatever function I'm getting I'll execute that function okay and then
+6516880	6522980	I'll make this flag as false now what I'm just doing is that oh just simple
+6522980	6527780	condition let's say I remove this one as of now what I'll do is that simply I'll
+6527780	6532040	check I'll call this function callback function and checking that either the
+6532040	6539360	flag is true and if it is only true then not equally okay triple equal to yeah
+6539360	6544280	triple equal to when only is equal to true then I'll execute the function and
+6544280	6550640	then update flag as false now let's say I also want to update here what I'll do
+6550640	6557720	is that I'll write a set time or logic here not inside this callback function
+6558480	6562560	what I'll do is that I'll give some delay now let's say this delay we are
+6562560	6568240	something we're getting is from the top I have this delay and what I after this
+6568240	6574720	each time delay I'll come convert this into true no what's happening here just
+6574720	6580520	let's figure out if we go from this flow right once the first your trigger this
+6580520	6586600	trottling for callback function let's it is initialized as a true so the function
+6586600	6596120	will be executed at first shot and let me move this inside this one no first
+6596120	6602200	shot the function will be like called and executed then we are making it as a
+6602200	6608600	flag now even after user like when we are calling a set delay okay but user is
+6608600	6613800	keep on pressing some buttons but if we keep on pressing this flag is converted
+6613800	6618440	into false already by here and we won't be triggering this function again again
+6618440	6623800	we won't be calling this function again again till this set time mode executes
+6623800	6627760	and may convert that flag into true
+6634080	6640000	nice are you able to understand what we mean to say that trottel is once user
+6640000	6646440	event happens after one once API call is triggered and we won't trigger an
+6646440	6651480	another API call till there is some delay executed and that delay will define in
+6651480	6656360	the configuration itself so we are trying to rate limit the number of API
+6656360	6663440	calls that will be caught okay let's see this example firstly what I am trying to
+6663440	6671360	say is that let's say I click some bits three-party no I have what let me see
+6671360	6676920	what is a delay I gave 500 milliseconds let's say I give one one second okay or
+6676920	6685880	let's say I make it two seconds I said typed on my name do you see only two API
+6685880	6691560	calls have been made for considering this one the reason here why it happened
+6691560	6697400	is firstly let me go into this logic let me put debuggers and show you two guys
+6697400	6705600	how this works okay now what if I type down again now once let's say clean it
+6705600	6707800	up
+6713400	6720240	let's say I typed on you here once I typed on you now a flag is already true
+6720240	6724800	and it will execute that function and that will put a call API call it will
+6724800	6730440	hit an API call and then we are calling a set timeout okay and this set timeout
+6730440	6735880	will execute only after two seconds of delay okay till then if I typed on
+6735880	6740840	anything if that flag will be false so it won't execute go inside it anything
+6740840	6746360	then once the timeout is updated the flag will be converted into true from
+6746360	6750560	then on if you type anything new that flag will be true and it will call that
+6750560	6757880	function are able to relate this case like should I debug it again and show it
+6757880	6764720	so what we are generally doing it here is that rate limiting
+6772040	6781280	the API calls now why rate limiting the API call works is if you see the in
+6781280	6787240	YouTube or anything the content of videos this least data right that gets
+6787240	6792400	updated as per your personalization profiles again and again because it's a
+6792400	6797760	multi-day multi-device setup now when I scroll it a list of API calls will be
+6797760	6803520	made okay and this API calls will be again if I what if I go go and scroll up
+6803520	6810200	what if this things are getting updated okay
+6811400	6816000	yeah the function here is something like yeah API call that is what we are
+6816000	6821600	assuming it here this particular function
+6825280	6830040	so guys are you able to relate like rate when I say rate limiting the API calls
+6830040	6833720	like we are limiting the amount of calls that API will be triggered or the
+6833720	6836720	function will be called
+6837720	6850080	yes are you able to follow up or did you like you do you didn't understand it give
+6850080	6854640	me one thumbs up some thumbs up so that I can list down the differences I and
+6854640	6858200	we'll be able to understand like actually what is the difference on like
+6858200	6863400	top level what between the bones and this let's say I write down a list of
+6863400	6872960	things let's say I say that this is for D bonds and this is for throttle okay
+6872960	6878920	which I have a pen this one I say purpose what is the purpose for D bonds
+6878920	6886280	so I'll say this is like for delaying let's say this is like for delaying
+6886840	6890880	delay the function execution
+6896040	6904040	until an activity in activity so if you remember this one we are
+6904040	6910440	dealing a like calling of that function or API call from the input element till
+6910440	6915160	the user stops pressing right key events we didn't execute that call we only
+6915160	6919680	execute once user stops it that delays expired only then we make a if they
+6919680	6930400	call right for D bonds and for throttling what we do is that limit
+6930400	6941320	function execution rate and how we are able to limit the function execution rate
+6941320	6946840	by using the simple condition that first time whenever a pay call comes we
+6946840	6951440	make it true that flag is true by default so that a pic of that function
+6951440	6955280	will be executed then we're converting false and this flag will be again
+6955280	6959880	converted to true only after some delay and this is actually this particular set
+6959880	6963560	time what is actually delaying the second API call till that particular
+6963560	6970160	delay have now okay to show this how this happens let's say user event that's I
+6970160	6975880	typed on graphics for this one user event is like do keep on typing events
+6975880	6982240	no then once he stops it this delay will be we will be waiting for this delay
+6982240	6988320	then function execution will happen here for throttling purpose how does it
+6988320	6996200	happen is once the user event is clicked okay we will call that function and we
+6996200	7003760	will load the delay we load the delay and each even if user is typing it down
+7003760	7009640	we won't make any API calls or function execution only this will be done when
+7009640	7014080	this delay is expired we'll call it again and then we'll wait again for some
+7014080	7020800	delay only then we'll load it this is like a set interval only after once this
+7020800	7025000	call is done we'll wait for an interval then we'll again load it so it is like
+7025000	7030760	limit limiting the rate of execution is this clear guys difference between
+7030760	7037960	debounce and throttle okay now when it comes to execution let me write down in
+7037960	7040920	the statement also
+7041920	7046360	let's say executes
+7049160	7052840	after a pass
+7055440	7058760	in which
+7059520	7070640	whereas this one executes at a steady rate and the steady rate is the delay
+7070640	7086120	that you provided now the third thing is let's say event reset timer so when
+7086120	7094760	this thing happened reset event reset no case can anyone answer this thing for
+7094760	7100120	me when that event reset happened in their debounce like going back to this
+7100120	7112560	example can I say on each event this time it timeout is reset on each event
+7112560	7125840	right on each event whereas this one it maintains steady rate there is no
+7125840	7133520	clearing of timer here are we clearing set timeout here in the throttling we
+7133520	7152000	aren't right we are not clearing this timeout right guys no events no actually
+7152000	7163800	I'll write as a no simply or never okay then let's say if I talk about something
+7163800	7167760	like frequency handling
+7171400	7179280	when I say frequency handling like what actually it is doing it how it is how
+7180120	7186680	once delay is over we are not clearing the events right Shambhuja here for
+7186680	7192800	throttling like we are not calling clear timeout anytime we are just using the
+7192800	7198720	flag we are talking at loading okay so I would request everyone to go through
+7198720	7204240	this examples again try to execute it use this table I'll try to upload this
+7204240	7209760	table also a photo of snapshot of this one in the notes so that you will be
+7209760	7224040	able to remember like the position okay so let's say reduces the function calls
+7224440	7228160	during rapid events
+7228160	7235000	like when user is typing we try to reduce the amount of function calls
+7235000	7240120	right at each rapid event like user is keep on typing the keyword will we have
+7240120	7250600	to wait so we are reducing it so now for this one we can say that limit function
+7250600	7262400	call to set interval we are using an interval and only after that interval
+7262400	7269480	this thing is come now what could be the examples for this one where all
+7269480	7276840	debouncing can be used so debouncing function call will never stop yes
+7276840	7282360	function call will never stop when user is keep on typing it okay when user keep
+7282360	7288400	on scrolling it down the page or anytime like what will do is that whenever that
+7288400	7294000	something is happening a function call will not stop but we will be executing
+7294000	7298900	this thing only when this flag is true we will try to execute that one if not
+7298900	7304400	then we won't execute it and each time for each event we are not even attaching
+7304400	7310560	set timeout for each event we won't be able to attach a set timeout we will be
+7310560	7314800	only able to attach that set timeout only for that first if you attach it then
+7314800	7321120	after only delay then we will be able to attach the timeout for that event okay
+7321120	7326240	now examples would be for this one
+7326880	7332640	typing or let's say search suggestion
+7335720	7343400	okay or let's say even you can consider it as a resizing events now resizing
+7343400	7352240	event might not be covered but what we mean to say resizing is that yeah
+7352240	7356320	some bit will show it in the event loop completely will cover it up now if you
+7356320	7363760	see this this is like a resizing event now when I reduce it or increase it if
+7363760	7368760	you see just seen the YouTube API calls if you see in the YouTube API calls if I
+7368760	7377280	resize if I resize the amount of API calls being made that is those are the
+7377280	7380920	resize event for the resizing events also use something like a debouncing
+7380920	7390840	concept okay or in when it comes to throttling you use it for scrolling
+7391680	7397880	mouse events like mouse events mouse over or mouse when you remove it right
+7397880	7410680	the rate limited API's okay so these are the differences guys that you should be
+7410680	7418800	able to remember I'll also add a like actual photo or like you know image
+7418800	7422760	that I made it for position so that you will be able to remember it and I'll try
+7422760	7426480	to add diagrams as much as possible to so that you can figure it out how set
+7426480	7432280	timeout on set interval is working behind the scenes but on let me know if
+7432280	7436080	you are able to relate with this statements first if you are able to
+7436080	7442680	understand this points any doubts till now from the code perspective or logic
+7442680	7447080	perspective I picked it up one sort of example because it should be easy when
+7447080	7450200	you come and see that how this what's the difference between debouncing
+7450200	7455680	throttling it just that at one place we are clearing all the previous events and
+7455680	7460360	then only if we are attaching to the last most user typed event where is
+7460360	7463920	coming to throttling we are not even attaching the set timeout for the all
+7463920	7469160	the things you are too much to process I agree but this is this other you know
+7469160	7472800	if you see the problem these people these two things are solving are big
+7472800	7477640	things and you will be able to process it slowly and you'll get complete
+7477640	7482680	clarity over this one okay but now I have one of the small topic to cover
+7482680	7489360	guys I will talk about that one okay now let's go to some other again big
+7489360	7496640	websites itself I go to this YouTube itself I come here in the head tag now
+7496640	7505440	inside the head tag let's see do I have any scripts present say I say it's
+7505440	7508440	defer
+7514480	7518680	I didn't highlight the defer
+7519360	7546200	okay anyways let's see it in the flipkart inside the head this is metadata
+7546200	7556080	related no guys do you see this keyword here differ in the script tag this
+7556080	7563760	keyword differ no this is really simple guys I'll cover it up not much big
+7563760	7569480	thing it will like just a content part because debouncing throttling will keep
+7569520	7576840	on revising again again so that you will be comfortable with that okay today's
+7576840	7582320	content right so we have to cover this is 10 minutes hardly will complete it to
+7582320	7590560	16 okay so no till now whenever we return in HTML files right whenever we
+7590560	7595960	return something in HTML when we are tracking any scripts files or CSS files
+7595960	7604240	we were giving source and most probably relation right for CSS files other than
+7604240	7608280	this thing we were not providing anything but in general at real time you
+7608280	7613320	have three types of scripts one is simple script one is having something
+7613320	7623560	like async script and then there is something like differ script okay let me
+7623560	7629560	say these are the things which are existing now we know that even HTML is
+7629560	7635680	loaded from top to down isn't it like executed from top to down and whenever
+7635680	7641560	we load script anywhere in head that script sometimes like if you remember
+7641560	7648480	font awesome right font awesome we were linking in the head section right when
+7648480	7654280	we are linking in the head section that font awesome code should be downloaded
+7654280	7658760	right font awesome code should be downloaded before we use it in HTML part
+7658760	7664680	inside the body you know because that that is what we are doing now if you
+7664680	7669160	want to do it that way and if it is happening from top to bottom imagine if
+7669160	7674760	font awesome site is down whether our HTML will be passed after this or it
+7674760	7683600	will be blocked what if that CDN link whatever CDN link we have that website
+7683600	7688040	downloading I mean it yeah so what I mean to say that it's like let's say
+7688040	7694360	font awesome link whatever script we got it from a CDN link now when the HTML is
+7694360	7698800	being passed from top to down and once we find that there's a script tag
+7698800	7702520	related to font awesome and we are trying to get fetch the data from the
+7702520	7711040	CDN whatever JS code they have written and if this CDN is on JS the passing of
+7711040	7717280	HTML would go to the next step it will try to fetch it again okay because this
+7717280	7724560	will be blocked and even if CDN is not down it is too slow what if it's low the
+7724560	7731240	code execution will be blocked at that particular step in the script okay so how
+7731240	7736080	does it happen is let's say this is a timeline in which HTML is being passed
+7736080	7744840	let's say you got a boar head tag here right here is ending the head and you
+7744840	7752840	saw the script related to font awesome now once you saw this font awesome if
+7752840	7758880	the site is slow or down the other parts of code execution will be blocked this is
+7758880	7764360	blocked because we are trying to interact with something which is slow
+7764360	7770160	are you able to understand this one guys now like when you load simple script
+7770160	7775400	what are the challenges you can have when you load on inside the head no the
+7775400	7779120	workaround what we have seen that is something that you can load it at the
+7779120	7784360	end of the body at the end of the body you can do it very well end of the body
+7784360	7789080	only if you have custom written JS logic but if you have something like font
+7789080	7794600	awesome and this particular HTML inside the body tag we are using those icons
+7794600	7800120	then we need this one to be pre downloaded right that logic for that
+7800120	7805880	icon should be pre downloaded those tags so what was a solution provided for this
+7805880	7811480	one was use two types of attributes one is something called async and one is
+7812160	7819760	what async does is let's see I'll write down for async now what we understood by
+7819760	7825360	this keyword earlier what does async says parallel execution isn't it
+7825360	7830280	asynchronous programming or async when you see that pulling out from the call
+7830280	7837040	stack putting into the queue right same way what happens here is let's say this
+7837080	7846000	is a timeline still and once you passing comes to the head it finds a script what
+7846000	7853200	it says is that hey I found a script that needs a time to download so what
+7853200	7857240	will say that it will download separately that script download will
+7857240	7863840	happen but it won't block the queue when you use async keyword it will keep on
+7863840	7871640	executing the other parts of code so parallelly the HTML will be passed in
+7871640	7879600	parallel JS code will be downloaded and once this is downloaded right once this
+7879600	7884760	is downloading is completed then this particular code will be blocked and this
+7884760	7891520	will be executed first then again HTML parsing will happen is this clear when
+7891560	7896240	you use async word in general you are trying to parallelly execute that script
+7896240	7901360	tag fetch the data from the internet parallelly execute that HTML meanwhile
+7901360	7906760	only once this data is downloaded then you execute that JS and then you have to
+7906760	7915200	again pass the HTML is this clear guys how what async keyword in the script tag
+7915200	7923080	does they have received only one thumbs up maybe few more if not clear I can
+7923080	7930760	repeat in the next class also okay then you have something like defer what does
+7930760	7938080	differ does is there's only one change there's only one change that differ and
+7938080	7944560	async have is that once you find a head again you locate that script tag like a
+7944560	7952120	font does some script it will also download it it will also download in
+7952120	7958680	parallel it will also download that script tag in parallel
+7958680	7977120	okay it will download it but till the whole HTML is parsed till whole HTML is
+7977120	7985600	passed this won't be passed once the HTML is passed this will be passed JS
+7985640	7990160	will be passed what was happening in async as soon as download is completed
+7990160	7995200	this was being passed in between itself then again HTML was passing and all
+7995200	7999760	this can happen only one thing at a time because that we have single threaded and
+7999760	8003840	in single threaded environment only one thing can happen at a one time and this
+8003840	8007600	script download is also being put from the call stack put it into some queue
+8007600	8012440	and once this is download is done once this download is done this was put into
+8012440	8017400	the call stack again right that passing is happening then once that is done
+8017400	8023360	that HTML is passed but here only the difference in with defer is till that
+8023360	8028120	HTML is completely pass it won't interrupt once that the passing is done
+8028120	8034080	only then this will be added is this clear guys what is difference between
+8034080	8052320	simple script and script with async keyword script with defer keyword parallel
+8052320	8072120	download instant parsing and this is blocking in nature and this is also
+8072120	8097360	blocking in nature parallel download and wait till HTML is passed this is
+8097360	8113600	non-blocking in nature I still HTML passing I don't use word execution here
+8113600	8119040	consider it as passing okay now if you go to any website if you go to any
+8119040	8123400	website and see you will be almost seeing the differ keyword used more than
+8123400	8128640	the async keyword this particular all this thing sites right they are waiting
+8128640	8134360	to completely this below things are getting completely like you know past
+8134360	8139480	once these are done only then this will be fast because these are you know
+8139480	8143880	static images these are static images they're getting from the CDN if you go
+8143880	8148760	and try to you know see this there might be a URL for this one where they're
+8148760	8153280	getting assets static assets if you see so they're waiting for all this logic
+8153280	8164080	yeah notes okay so guys is this clear like or do I need to repeat it again
+8164080	8168320	somewhere did you get that point did you understand this one or do I need to
+8168320	8179920	repeat again okay I'll repeat it again so guys what is happening in real time
+8179920	8185680	is like script tax since this script tax mostly are used for you know getting
+8185680	8192320	the JS code the JS code can be in the size of KBs MBs sometimes MB sometime
+8192320	8199320	KBs okay now when your HTML like if you remember are we have HTML then we have
+8199320	8205080	head then we have body then we close HTML right this is what our body
+8205080	8210880	structure is but in head tag if we have this JS scripts right we have defined it
+8210880	8219920	and whenever we have like such amount of size KB and MB of size right now to
+8219920	8227120	download this data from network it takes time and we know that HTML will be
+8227120	8231480	passed only from top to down and when we you know when we find there's a script
+8231480	8236440	which is downloading JavaScript which are in size of KB and MB it will stop
+8236440	8241640	the execution below execution it will block the thread it will block the
+8241640	8246600	thread which is single threaded right so it will block the thread and it the
+8246600	8253560	particular thing will be downloaded will be passed and only then the below
+8253560	8258360	things will be passed this is how normally naturally works but async one
+8258360	8266680	what happened with async keyword is once we have HTML head body HTML again
+8266680	8277520	closing so once you find the script it says that hey you download parallely
+8277520	8286000	download in parallel till this download is happening I'll keep on executing
+8286000	8291560	HTML once this download is done this will be blocked this will be execute
+8291560	8300520	passed first right then again this will continue with async whereas what
+8300520	8308080	differ says is doesn't matter
+8309080	8335320	whatever it is you completely pass the HTML then I will pass JS code and
+8335360	8339960	downloading will happen in parallel
+8346680	8353640	so that's the reason why I'm saying that differ tag is like non blocking nature
+8353640	8359320	this both are blocking in nature because these are blocking HTML parsing is this
+8359320	8370320	clear guys now any doubts like when you see this async and differ keyword I hope
+8370320	8375440	can we see in the code how to use this yeah we can do this we can always do
+8375440	8382720	this but in order to do this right you need to have really big files that are
+8382720	8388600	being pulled from the network we don't have real time yeah we can see it in
+8388760	8396080	future uncate it's like I guess we're tired with the content but if you see in
+8396080	8399480	the many websites right you will be able to see the scripts with differ and
+8399480	8406360	async let's say you go for any other website like this one you'll see this
+8406360	8418320	thing being used everywhere you see this script tag is async JavaScript text file
+8418320	8423520	which is like doing that calling this go Google Analytics Google manager dot com
+8423520	8428320	all these things are done in async fashion okay all these four files
+8428320	8435480	whereas you'll also see our differ used okay you'll see this this thing like is
+8435480	8441040	actually fetching the image from the CD and link okay so whichever things that
+8441040	8448080	you think that okay I can I guys like is the if concepts are clear can I start
+8448080	8462480	the doubt session but I hope no no no it doesn't work that way wherever you
+8462480	8468840	define the script it works anywhere in the script like with a script tag with
+8468840	8473240	the script tag wherever you mention in the body below the body anywhere even if
+8473240	8476440	you mention wherever script is there but if you are using something like a
+8476440	8481360	particular HTML tag with async differ that's our nature I'm talking about
+8481360	8492720	nature of this two key attributes like async and differ is that clear okay
+8492720	8498480	great so you can go and see most of the websites right most of the websites what
+8498480	8504040	happens is like this particular like Google Analytics and Google manager this
+8504040	8510200	things right they are like downloaded in async manner all the your respective
+8510200	8514320	code whichever is there like if you see this is a free code camp website all
+8514320	8519280	this free code camp particular related websites are downloaded in a differ mode
+8519280	8524760	because this your respective codes are really what we can say that it might not
+8524760	8530240	be deployed on CDN links they deployed on CDN but it might be on your server so
+8530240	8534640	it takes time to load it or else even your assets will be bigger in size
+8534640	8539840	whereas come to analytics right this need to be loaded at runtime I mean why
+8539840	8544720	they do it at the initial moment of the time is because these are actually
+8544720	8552000	sending multiple events like if you see this is this is not the event but if you
+8552000	8556680	know actually analytics is used to track user events like how much user is
+8556680	8560800	spending on each thing and what not they try to track multiple experimentations
+8560800	8567040	okay for that reason they try to load it as early as possible but when it comes
+8567040	8576720	to the other big files you should prefer the differ keyword okay guys I hope you
+8576720	8583200	understand what is async differ and simple script give me one thumbs up if
+8583200	8586560	this is clear so that I can start doubt session I can clear take the doubts
+8586560	8593920	if you have anything okay good so with this guys I want to end the content for
+8593920	8599840	today's class when we'll meet next class in next class right we'll start with
+8599840	8603280	object-oriented programming we'll take two classes an object-oriented program
+8603280	8607520	will understand how that is being done so it will be more of a behind the
+8607520	8614520	scenes trying to learn JS so I'll try to make it as interesting as possible let
+8614520	8620880	me start doubt session is hope to see you in next class again do you want me
+8620880	8625040	to revise everything guys in doubt session yeah I'll try to make it
+8625040	8641080	interactive ways let's it's really difficult to ask we sunk it here it
+8641080	8649120	doesn't work like the DSA right mostly we'll try to add it as much as possible
+8649120	8657760	right but let's let's go back and revise the content for a second and then okay
+8657760	8663160	what's happening with debounce okay so firstly if we understood two things in
+8663160	8668400	today's class firstly set timeout set interval debouncing and trotting now
+8668400	8673920	timeout works if you want to do a task after some time like delaying it and
+8673920	8679600	execute a particular function a callback function whereas interval it executes a
+8679600	8687400	particular task at each interval okay no so debouncing and throttling you can map
+8687400	8694960	it debouncing to something called a set timeout and you can set throttling to
+8694960	8701600	set interval okay don't exactly think it that way but that's how behind the
+8701600	8706520	scene things works what in the once happens is when user is keep on typing
+8706520	8713520	events we say that we don't want to make all the API calls only once user stops
+8713520	8719840	it we take some delay and the deal is also like we want to wait what if user
+8719840	8725640	again start typing it okay so if he once user stops it we wait for delay and then
+8725640	8730360	we try to execute the function whereas when it comes to throttling we say that
+8730360	8734080	this event can be triggered in number of times like scroll he can do up and down
+8734080	8739560	or it can take the mouse and he can do on there itself like up and down let's
+8739560	8746040	say what do I exactly mean is that let's say if I go to this particular page let's
+8746040	8751160	say the scroll is he at this particular question there triggering API call if I
+8751160	8755600	keep on doing this way the API call will be keep on triggering right behind the
+8755600	8761120	scenes so in order to stop that thing happening we try to reduce the amount of
+8761120	8767760	calls let's say if you see it here what is happening this is if you see this
+8767760	8774240	events right the all the events have one after the other keep on going it let's
+8774240	8779640	say I call it up again so in order to reduce the if there will be many amount
+8779640	8784840	of API calls which are also cancelled okay this events like events are
+8784840	8789320	cancelled to get too many events so this events like why we are why they are
+8789320	8793880	doing it this one is that to throttle it user can you don't try to take
+8793880	8799840	advantage of our services and we'll try to you know do as many requests are as
+8799840	8804880	possible we don't understand exact behavior of human so in order to wait
+8804880	8809520	and do that one right so we try to rate limit the amount of calls we are doing
+8809520	8814120	so for that thing we use throttling what we say that it will make a call first
+8814120	8818560	then again if user is against crawling up and back I won't make a call but I
+8818560	8823400	will make only call after some amount of time so that I'll save the this amount
+8823400	8829120	of API calls being triggered okay so that is how throttling works so trying
+8829120	8834640	to go back to this again definition is that delay the function execution until
+8834640	8840480	activity okay when it comes to this one now when it comes to throttling limiting
+8840480	8846640	the execution rate okay then execute after a pause in events like once user
+8846640	8850360	stops typing and if this executes it's a steady rate all the time till that
+8850360	8854040	moment you are trying to play around and it doesn't mean that it will keep on
+8854040	8858520	executing that call only when events that particular event is triggered in
+8858520	8862120	number of times in those n number of times it will execute three to four
+8862120	8866760	times okay that set interval works only when you are that event is again again
+8866760	8870160	triggered on that same like submit button if you are smashing a submit
+8870160	8874340	button hundred times it will make only three to four API calls doesn't mean
+8874340	8878280	that once you click a submit button it irregular intervals it keep on making an
+8878280	8885120	API call okay now events reset like each time a event is triggered we try to
+8885120	8889240	remove the set time also be on each event reset happens here we don't do it
+8889240	8893680	actually because here we are doing a rate limiting so reduce the function
+8893680	8897760	calls doing that during rapid events here limit function calls to set
+8897760	8903840	interval like that particular interval okay typing and resizing events here when
+8903840	8908520	comes to scrolling a rate limited API's and within we discussed the same thing
+8909520	8919440	I hope this part is anyways clear so there's any doubts I know this might be
+8919440	8926680	overwhelming but I'll again are we going to use this in projects in future yeah
+8926680	8931200	I'll give you one a little question some bit which is really important to them
+8931200	8937160	okay let's say
+8947320	8953360	this question right type at component if you see how many people might have
+8953360	8958440	covered four or five people have covered in the YouTube no if and if you go this
+8958440	8963800	to this one right they might have built this one using Google example now you if
+8963800	8968400	you see this one they'll show you the architecture and complete like how do
+8968400	8975000	you are using it how do you are making a call so this is actually an important
+8975000	8981040	interview question to develop this widget I'll see if this is widget exist
+8981040	8986480	because you have to build this end-to-end let me see if I can build and
+8986480	8992960	give it to you okay but I don't want to do it because I just want to cover the
+8992960	9000200	content which is assigned it maybe other than that one I have to let's do one
+9000200	9006520	thing if someone can build you know LLD repo which ones I'll also contribute in
+9006520	9013760	that okay if you have questions I can also contribute in that but if you see
+9013760	9017440	there are too many let's say this is a Chirag's one this is he's a
+9017440	9025000	constructor it's scalar most senior front-end developer that I know L64
+9025000	9031320	at Microsoft but if you see he have this question this link I will try to give
+9031320	9043480	his link you can go through this one where he has explained this okay
+9044120	9052160	but I was actually searching for some content they are stopping me from even
+9052160	9055720	I'm longing and why didn't all over
+9057160	9070560	sign up okay cool now this is actually explained from behind the you know back
+9070560	9074080	and high level design where you are using a try logic and trying to
+9074080	9078960	understand how do you do searching actually once user query set but we are
+9078960	9083320	trying to you know reduce the amount of queries that are done firstly on the
+9083320	9094800	front-end right let's say type at react
+9094800	9112280	let's say we have front-end LLD
+9112280	9127360	autocomplete if you see this is the example they again this is leading to
+9127360	9134080	the same website but they are actually again doing it from the back end because
+9134080	9140320	they are talking about data model caching mechanism okay client okay
+9140320	9148080	they're given events all the humans that you listen to now if you see they are
+9148080	9152960	talking about debounce timing how much the bonds timing you need so this is the
+9152960	9158960	same they are using but we have to build this one completely from scratch in order
+9158960	9164600	to do that we have to explore this one so they used caches they replicated a
+9164600	9174160	API call and what will be the result so end-to-end complete like you know
+9174160	9199440	let's say I can say I say put strap components the accordion everything is
+9200000	9224360	auto search auto search react MUI now if you see I keep on typing let's say let's
+9224360	9228600	say if you have this list of items which are pre-rendered right now this list of
+9228600	9234560	item suggestions are are actually you have stored on the client side what if
+9234560	9239040	you want to get on from the server side that's when you actually have to reduce
+9239040	9245760	it but they haven't given here I'll search and I'll give it to you like how
+9245760	9250240	can you build this autocomplete completely but we should be building this
+9250240	9254920	one this is one of the most in the interview important question interview
+9255520	9262520	some bit try to focus like how can you leverage debouncing and I'll check on
+9262520	9268840	which site is better content like which is providing us better content like let
+9268840	9279600	me say bit.dev because everywhere that same logic will be that this is a
+9279600	9285560	generic function that is applied for debounce okay debounce is also you get
+9285560	9289040	sometimes but it's not a built-in function but you write one function
+9289040	9307840	generically and you use this everywhere I think this is the thing they have
+9307880	9321000	anyways I'll check on I'll get you I should be a better side right to
+9321000	9327040	understand it anyways I'll repeat for my side the time should you want they have
+9327040	9335200	also given a good you know a reference for this one but if you want if you want
+9335240	9339000	to understand this this keyword right we'll pick it up in next class because
+9339000	9345960	without this understanding this you won't be able to understand okay they
+9348680	9356120	this with this definition will confuse you don't go by this educative site
+9356720	9372560	guys if there are no doubts can we in the session some bit this is it I
+9372560	9378000	believe like you know this is it this is the thing they have you know common
+9378000	9382600	there's a callback function and a delay function the same logic that we have
+9382600	9388320	written I've seen it more than five six sites this is how they are handling but
+9388320	9393000	I'll talk about this how you know spreading you know spread operator and
+9393000	9398360	ask what what they actually meant it now this is actually being done only when
+9398360	9402760	you want to process events right when you want to process the events there we
+9402760	9405680	were getting that we didn't get the events right we can even get those
+9405680	9416040	events the way you can do that one is let's say you have events okay and let's
+9416040	9431800	say you call this okay inside this let's say you also pass on the event here you
+9431800	9437800	will be able to access at runtime all the events will be here and you can pass
+9437800	9446720	it on to the down the chain but wherever you want to use it and this will work
+9446720	9451920	like a function I mean callback function attachment then you can return directly
+9451920	9458640	instead of calling it as a function that that use case also you can handle it
+9459080	9470480	okay let me push the code meanwhile do you guys find it heavy content today it
+9470480	9478960	was it was it heavy to understand but you know do revise this concept try to
+9478960	9483680	read it try to I'll make a notes for this one so that I attach a image or you
+9483680	9502840	can refer to it completely new concept I agree this is first time even when I
+9502840	9510960	studied I was like what is this but it takes time to digest it okay but these
+9510960	9516840	are like one of the core you know principles when you want to optimize
+9516840	9522400	a network calls or optimize the page load time so these are something that
+9522400	9527000	you're going to do enhancements on your websites which you build because you
+9527000	9531680	want to delay all the assets loading right how you want to you don't want to
+9531680	9535560	do it everything at one shot you have to break down your problem and do it at
+9535560	9539640	different so then this concepts will come in and you want how you will be
+9539640	9545400	able to handle it okay so guys I don't see any doubts with that I would like to
+9545400	9549760	end the today's session and we'll meet you back on Tuesday where we'll get to
+9549760	9555960	learn more interesting things like we'll see like what ES6 team has done
+9555960	9562920	converting a functional language into object-oriented language we'll see like
+9562920	9568120	does it actually JavaScript support from the object-oriented programming or is it
+9568120	9572200	something they tried to fake it out we'll come back and we'll explore that
+9572200	9583880	one okay guys so the rest with that hope you have a good night take care happy
+9583880	9588360	weekend see you on Tuesday bye bye
+9589360	9601440	this can be in the session give me one final thumbs up cool so the rest is
+9601440	9607760	right thanks some bits
+9618360	9621400	you
+9648360	9651400	you

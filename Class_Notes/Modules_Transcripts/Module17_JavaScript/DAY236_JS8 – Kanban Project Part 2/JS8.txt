@@ -1,0 +1,1815 @@
+hi all good evening hello himangi I'm having a bit fever but yeah I think you
+can feel it through my voice cold and fever so yeah energy levels are a bit
+low how's everyone doing good good great so guys like are you like how many of
+you have a participate in contest fun and clear give me thumbs up if you
+participated and cleared and if you couldn't clear or you didn't participate
+give me thumbs down that works too okay I see one thumbs down and six thumbs up
+we have few more people who didn't participate in it but just an
+announcement right for a sake because your clearance rate right contest
+clearance rate will matter okay so recently in scaler what they have done
+is if you are not able to clear on on line one then you can go in a excise
+mode like post contest though in when you do it in excise mode you won't be
+your result would not be added on to boredom which is like which happens at
+real time but I would suggest people who didn't participate or who couldn't
+clear rate try to reattempt an exercise mode right like you would be able to
+access that now right is it fine guys like would you be would would you try
+that because I just want you to you know give an attempt and see your test your
+knowledge whenever you have bandwidth just attempt your like contest on
+pretty simple like MCQ based is that clear race
+cool and one more thing I was just a bit worried about is that you know our
+our average PSP's of batch are reducing going down downwards okay just want to
+know if people who are in class are a are solving assignments just about
+assignment problems like is there any challenge who are not able to do it for
+able to do it and you know on track give me thumbs up I see two people gave me
+some sir but we all of you can give me a what's up cool so I say most of them who
+are in the class are you know attempting how much for contest clearance what's a
+percentage yes for contestance is it 50 or 70 what is the percentage doesn't
+even know it 80 okay so 80 percentage so it's an it's a practice mode right
+some bits you can try it in practice mode or exercise mode generally practice
+mode is our term they used where is the contest link okay I don't exactly know
+but I think it should be available your post HTML and CSS classes in the
+curriculum left panel wherever you have your menu okay okay you can check there
+I'll be shake if you didn't find let me know I'll ask someone you know to record
+a video and share it with you guys because I don't have access to your
+dashboards okay
+what's up I don't really know Kiran on that
+it should be there reattempts should be there some bit let me recheck I'll check
+with the you know my contact and we'll come back to you on that yeah after his
+shame and CSS prep shake you can add it without section some bit I'll pick it up
+later yeah we can use script anywhere tag
+could be it's up to you like practice mode is available so please do leverage
+that practice mode and try to solve your assignment problems it you can
+improve the score but as I told you that you know whatever score or podium
+during live contest you got it that will be reflecting but it's always for the
+practice when they say practice it's a practice I mean it practice mode will
+count as a contest clearance but that score like if you have scored earlier
+0 or 100 or 80 that will be fixed but if you need a clearance right contest
+clearance you can attempt it in practice mode that's what I want to say just like
+go through that model like have done that part completely that model okay but
+it throws me okay yeah we'll discuss in discussion set out session anything else
+is everyone is talking to me personally many people might not have contest what
+I'm speaking about whom I'm talking to okay so how's everyone feeling with
+respect to HTML and CSS and the concepts that we have discussed till now is
+everyone feeling good about that like any challenges like are those concepts
+clear to you great I receive one reply okay great guys so font awesome okay so
+Muneshwara asked me related to the script why did I use this font awesome
+script so in order to use yeah we'll do that I mean we'll do that before I start
+so let's get can anyone drop me a you know message in whatsapp group then
+we'll start I'm not exactly sure like if it affects your placements but if you
+are generating a resume through scalar or you are adding your contest results in
+resume that that looks there other than that thing I think if recruiter want to
+reach you out from the scalar point of view right they might see that whether
+you are PSP and contest clearance rates are maintained so with those those
+that's a flag for them right whether this particular student is doing all
+the things he's supposed to do so those are the points they generally try to
+filter you out on while they're trying to reach out nothing at these are so
+just we are getting started
+there's anyone dropped message you're great thank you Muneshwara thank you
+Pradeep let's let's get started so my iPad is working fine right screen
+share you can see it double check no okay give me a second I was writing so
+many things still now guys you can see the screen share okay so I was writing
+many things here about contest and stuff I used it anyways
+so I'll try to you know recap the things that we have done so firstly in
+last class right we started with something called as Kanban board a
+project which we are trying to you know build this using a simple plain native
+HTML CSS and JS right so first we understood what this product is like
+what time what this product is then using SDLC process so when I say
+SDLC software development lifecycle let me write this keyword using using this
+approach we understood that there's a team called product then there is a team
+called UI UX then there is a engineering team or you can say deaf deaf team so
+product is someone who gathers all the requirements that need to be addressed
+or enhancements in the product then UI UX are supposed to build experience and
+interfaces look at you didn't miss so experiences and interfaces then there is
+someone who actually implements and writes code right this work we discussed
+then we started we did this both things we gathered all the requirements then we
+you know did we gathered all the wireframes that we want to see we have
+checked on this then we started with something like they work where we have
+designed all the skeleton of our project using HTML CSS right till this part we
+have covered isn't it so going back to the code if you see here what we have
+covered in last class if you see the whole HTML part we divided into three
+parts like one is toolbox creation where we had an app bar and inside the
+neighbor we had two things one is color panel which we will be developing a
+feature called for useful filtering then there are action buttons like adding a
+new task or removing the new task I mean existing task then if you go for main
+ticket container you have all the tickets which are existing tickets that
+have been created or the tasks that you have that you have to address it in the
+main ticket in the bottom container we have model we have designed a model
+inside the model we had something with text area then we had like all the
+colors that we need like while you are selecting what is status of the ticket
+then similarly for each of this particular classes we have defined the
+styles and this one thing that we have done differently said we you know added
+some extra icons like if you see in the action button container we had two icons
+F a solid F a plus F a solid F a mark this two two things are coming of a font
+awesome in order to download the code from the font awesome we use the script
+which is downloading the JS logic and this script is specific to my this user
+That is my credentials. So this is a dynamic ID generated on my email log
+Okay, so using this script we were able to download the logic icons
+Okay, I hope the things are clear till now guys what we have covered in the last class
+I just try to skim through it. It's we
+Here anyone having any doubts because we will be building more on that today like what we have done last class
+We'll be working on that
+Okay, great. I
+See a few thumbs up. Okay. So now in today's class, right? Mostly
+We will be working on few
+Implementation one is for ticket generation. We'll see how can we you know generate a ticket dynamically with user information
+And use a color now whatever priority color is re-selecting then second thing we'll see like
+Making a dynamic first will make a static then we'll make a dynamic
+Then we'll also see like a delete functionality of our ticket
+Okay, so we are keeping the simple as today's class reason behind it's more of a you know
+What we say conversational class like it's a pair programming when I'm building this project
+So it is something that I'm discussing more with you then you are suggesting me then will be implemented
+In the next class, we'll talk on a locking mechanism then local storage and all that and stuff
+Is that clear this these are the two features we are going to implement and making it dynamic
+Good us let's let's get started with the ticket, you know
+creation part now
+First and foremost thing let's go back and let's launch this project
+opening with live server
+Here is what we have project here. So let me divide this into multiple files. I
+Have it here. Then I need another thing a script file
+Is on the left right?
+Do let me know if the if you are able to see or if I if I need to zoom it in
+Obvious code if it is clearly visible
+Do doesn't even find any challenge. It's clear, right? Great
+No
+no guys like since it was a more of a
+Conversational thing now, let's see what we have done in last class. No in last class
+We made something like, you know, we designed this multiple ticket containers
+We copy wasted and created a list of ticket containers
+Inside main ticket container now if you see here these all are static, but there's no use of this particular things, right?
+So we have to figure it out how we can make it dynamic
+Okay, first and foremost
+Let's see. Let's say that if I have a function
+Which is creating a ticket for me. Let's say I say that const
+Create ticket
+Okay, I have this function now
+You are you guys are going to help me out how we can build this function. So first
+Think of it like if I want to create it, let's not create a dynamic one as of now
+Let's create a one static
+you know what when I said ticket like how would you create how how would you render it onto the
+Existing screen or you can say this piece
+Just see the dome on the left you have this is the same thing Dom will be rendering
+This is how the classes will be rendered. So just think of it like what can be done? What can be the first step?
+First and foremost step like what do you think like it should be there?
+Each and every step that comes to your mind just keep writing it down
+So that will build idea on it. Let's say I just want to create a ticket now
+What is the structure of ticket like I for surely I cannot write down the static content
+Right when I want to create a ticket because user is supposed to be giving me an information, isn't it?
+That point is clear
+You know, so what how this thing will behave is like we are not supposed to be writing anything here
+This will be cons like commented all the tickets that you generate dynamically will be added inside this block now
+Just think of it. Like how can you build this do we need to get a main ticket container?
+There are some create element inside it. Okay, so
+What would be the first step main ticket container?
+So some mid says that we need to get an access to this particular main ticket container and add all the tiles into this
+Container is that point clear race? Are you able to are you aligned with what somebody the idea is?
+So it can you copy paste your?
+personal message to the call of them
+So that everyone can align with your idea or what you suggested
+Or else let me do that
+Give me a second
+So, yeah, thank you something
+So this is what some bit just said like hey get an access to the main ticket container where you look at that
+All created tickets. Now, let's say if I want to get an access to the main ticket container
+How can I do it I'll say that this is a main ticket
+container
+Inside that so I'm supposed to write this few things offline that everyone does know it
+Like document it very selector all then inside this I have to supposed to be selecting the class of this one
+right
+Right
+That's I copy this I basis. I had a hang of this one. No, okay. It's fine. This
+Main ticket container is available now inside this function what I'll be doing it
+How
+And what would you do it? Like let's say there's a ticket firstly. We are focusing on creating a ticket
+How would you do it this function what it would do it?
+specifically like
+How could you write a generate a you know dynamic
+HTML inside JS
+What are the functions in that the document API that we have such that we can create?
+You know HTML elements
+Because all the ticket is like, you know inside this particular container if you see on the left side
+Ticket information is again wrapped inside this container
+Called ticket container
+Do you guys see this
+Just think of this one like I have a ticket container
+Inside this thing. I'll be adding everything dynamic data
+Yeah, so we are supposed to create this particular outer dev, right
+And how can you create a dev just think of a
+And how can you create a dev just think of it, how can you create a dev map is fine when you want to
+You know, I treat to it but just focusing on creating one ticket as of now or
+Create element right now. Let's say firstly what we'll do is like we'll try to create this particular dev. Okay, let's say that
+Let's I say that this is a ticket container
+And I have something like document dot
+Create element
+Inside this and what I'm supposed to pass is which type of element do we need?
+Dev, right
+No
+Once I have this element
+What I'll be doing it just think of it
+Think of it like what we'll be doing it. Let's say we have whole ticket generated here
+Now what would be the thing that we would be doing it?
+What could be use case of this one
+Where you will render this ticket container just think of that one
+Now
+Can you see it in the html this ticket container is rendered inside some part some external dev
+Right inside main ticket
+Is everyone able to see this inside main ticket? All these tickets are supposed to be children of main ticket
+you know
+So how you can you how you would be able to add this ticket? Let's say we have the ticket built now
+How would you add this ticket container append child, right?
+Let's say that I have this ticket built already
+I'll say that ticket build dot
+Append child
+Let's say not this ticket container, but this main cricket container where we have this part
+Main ticket container dot in on main ticket container append
+A new child and the new child would be this ticket container
+Is this point clear guys to everyone?
+Why i'm doing this is anyone still having any doubt?
+What what why I did this or
+Anything like even if you miss small thing do let me know i'm just trying to replicate this behavior
+So i'm thinking i'm assuming that
+I'm having this whole container and I have to add this all the tickets which are generated inside this main ticket container as a child
+That is the thing that I have done
+now
+Now comes the main rule now, let's say
+Do you see any css class applied to this each ticket?
+A common css class
+Right this ticket container right then how let's say this is the day i'm having it
+How can I apply css to this class?
+How can I apply css to this particular container?
+This is something you might have already discussed
+Uh class name works fine like there's a one common function
+Uh, okay class list and add all things are good great
+Yeah set attribute. So does anyone remember all remember set attribute?
+That can be also used to try to add multiple attributes, whatever you have it
+Okay, so
+guys
+People who gave me thumbs up, let's say in the dev whenever you have multiple key value pairs
+All these things are called as attributes. Now if you want to add any attribute
+using javascript
+You can uh, you know add all the things using a function called set attribute on the particular html element
+Let's say if you see set attribute i'm having this function inside this i'll be saying that i'm adding a class
+On this class I can give a class name that is like defined in the css which is ticket.Container
+Is this point clear guys what I just did it
+Uh, I just want to see who gave me thumbstone. I just want to reach a Krishna. Is that clear like why we use set attribute?
+Good
+So once we have done this now what we have done we have created our dev we added a css class to it
+Then we whatever tickets are being generated. We added it to the main container now
+Let's say I pick whole contain contain data
+How can I add an html inside one container in js any ideas like how can we add?
+Let's say this is a dev that we created
+uh and
+Inside this dev
+Wow, great guys
+Thank you for all answers in a text is used for adding text, uh, but inner html is more right
+Thing would be right
+So ticket container dot let's say inner html
+So inside this inner html whatever I have let's say I copy this content
+Let's say copy this content
+And I gave like let's say I put it in a string format
+and
+so since this
+It would not take this. Let's say I give back traces
+And I gave it this way
+now
+So what did I do it here is that I just copy pasted the existing ticket and i'm removing all the tickets that are present currently
+Okay
+Let's say I removed it. I kept this empty dev as of now
+Okay
+Is this point clear guys
+Inner html i'm leveraging it to add an html and then start but the thing we are adding into this main ticket container
+Now comes the main logic
+When we will be calling this create ticket
+Okay, when we should call create ticket
+So
+Won't work with between this one, let's say this this is a multi-line right so that I was thinking this way
+It won't work if you want to comment a multi-line, uh, you should be giving a back back text
+Okay
+On close of model container, uh says
+abhishek
+Else in avo function
+Let's just think of it, uh
+From ticket creation point of view right we created a function
+And this function should be called
+Whenever we are doing some action on this model, isn't it?
+We are doing some action on this model then it is supposed to create a ticket for us
+Now do we have any button here such that we can submit it or click on it?
+Create button we don't have button as of now to create a ticket, right?
+This plus icon is just rendering a model
+so what if I
+select a particular key, uh from a keyboard itself like when a user clicks a particular key from a keyboard
+Then uh, we ask we can say that okay create the container
+Is that fine guys
+So what i'm saying is that
+The rest is that shift button now the discussion comes between
+With that to select an enter button a return button control command shift any button, right?
+so
+The common use cases revolves around two things one is enter and shift key now I
+Don't want to use enter or alt or any other button, right? I
+Why i'm trying to move away from enter first
+Because if you see in the text area if i'm adding a content then if I want to move to the next line, right?
+I'll be using an enter key. Then i'll be entering it
+So when you are typing in the text and by chance if you click and enter
+Uh, the ticket will be created instead of that you go and enter into the second content
+Is that clear guys why I won't be preferring enter at first point
+So let's let's uh take uh, who suggested zero suggested us. Let's pick it up shift key. Okay
+Let's pick it up shift and try to say it now
+firstly
+What type of event we are trying to listen?
+What type of event is like shift? Uh
+Type of thing is like
+key press
+key press
+Inside key press, uh, do you see there are two types of events?
+Have you heard of this thing called?
+key up
+and
+key down
+These two events what this event talks about
+What this event talks about
+So there are two events, okay, let's see let's explore this I was just trying to key up key down
+Okay. Now if you go and see
+Uh
+Now let's say I don't go to this one, but I go to this mdm blocks
+Okay
+So as people suggested key press so key press was actually deprecated
+Okay, that is not more anymore used for that reason you can explore why it was deprecated and uh things
+Instead of this thing we have two things key down and key up. Okay. So what does key down suggest?
+Whenever user is clicking button as soon as it clicks enter click shift
+Make an api call or create or do some function or execute that listener
+Those all things will be done
+Key up is something how it works is like as soon as you click shift. It doesn't execute it
+Only once you leave that button up once it is back in the up like, you know default state
+then the
+Event list will start executed
+Is that basic difference clear? What is key up and key down?
+Like when you press down as soon as you press down
+The listener will be listing it and acting on it
+But key up is once your button is back up, then the code will be executed
+So that's a basic difference
+so
+What you want to prefer whether key down or key up like as soon as you click the key?
+You want to execute it or as soon as you leave the key you want to?
+Execute it. What could be your choice?
+Anything works it key up
+Okay, so most of the people says
+I mean, it doesn't matter like anything will work. So
+Let's say if I go up with a key up how this makes difference. Okay
+Now
+Let's get started now. Firstly, where would you add this key up or key down? Just think of that one first
+Where this event will be added where you want to add a listener to
+Going back here in the project
+Where would you add it?
+This key up event or key down event where you want to listen?
+Text area body
+Or do you mind if I click it outside text area and I create the ticket?
+What if I'm on overall what if I'm on overall this model and click anywhere?
+A shift key it should be created, right?
+Does it find a better idea?
+Whenever on model like anyone clicks shift and we create a ticket, right?
+So let's let's do that same thing. So what I'll do is that
+Since we have already model container, right? Let's copy this model container
+And let's say I say that add event listener
+now
+Let's build using key down then we'll also see key up nothing much difference. Okay
+I was using just you know suggestion, whatever it suggested
+Auto code
+Okay, this is a function like default way where how you add a listener now
+What we are supposed to do here in this list? Just think of it what we are supposed to do
+Once I had event listener
+Right
+Let's say whatever event i'm getting let's say this is an event that i'm receiving
+No
+Let's let's see this. What is this event is talking about?
+What all things that we have in this event?
+Once a user clicks
+Let's say I open this I open shift inspect tool
+And I go to a console log
+I remove this
+I go to console log. Let's say I am here. I click a shift if you see a key mode event it shows
+If I expand this it shows all the information about location and stuff and everything
+Okay
+So if you see it shows the type of key down because we were listening to the key down events
+but
+now
+Think of it here. Do you see any particular thing which helps us to find?
+Like which key we clicked it is there anything
+Which helps us to find out which thing we have clicked inside this message or utility
+Key attribute right key value pair so it shows that
+Code someone says code so shift left and shift right
+So if someone were to be specific right if you only use a click shift left, then we can pick code as a you know
+filter
+Or else we I mean condition or else we can use sir if you want to allow the user left shift or right shift
+We can go with the key
+Is that clear guys if some user
+Whenever on a model we are listening to the all the events by chance if user is clicking a key called shift
+We'll call that create function create ticket. Okay, let's do that same thing
+What I'll say that hey if event dot key
+By chance even dot keep any time is equal to shift
+Let's say shift
+Okay, any chance if it is shift then call this function and execute it
+right
+This is the logic that we wanted to implement isn't it?
+Kiran doubt plus one. Okay
+What if we want type capital let us using shift
+Okay, why why not if you if you want to type it capital letters
+Then it's your choice if you want to use some other button
+Alt key or any you have a caps lock button, right now, let's say even without clicking a shift. I'm trying to type
+capital letters
+Right, so it's it's about your choice like nothing specific that you have to use shift submit or kiran
+Is that point clear guys you can use any button on your keyboard or else you can add a button event
+Button on this overlay, then you can create it. It's you it's up to your design
+Now I have typed, you know capital letters without clicking a shift using a caps lock button
+Yes, please respond
+Is that point clear?
+Clear
+But usually shift is used for capital and we need to mention it exclusively
+So if you use some other keys with a shift even then
+Yeah, event will be triggered. That's how it works. Right whenever key down event
+And in the key down event happens
+There's a shift by chance
+Okay on the model
+So that event will be triggered because that's what we are saying in this js, right?
+Hey add a listener and a key down event by chance if user is clicking shift call that up
+Okay, or else or else you say that if you want to use some other event common event
+Let's say I click here. I'm clicking something like
+Function or let's say options button which is in mac
+you see
+What I got alt key
+So instead of alt we have
+option button
+In mac, so you can use this too if you want to use cap shift for the capital letters
+Is that fine guys?
+Yeah
+so
+Uh, if you can you can make it complicated also, let's say let's say if I if I make it something like
+Uh, you know command s let's say which is a save button
+If you see I got key
+Keys I don't know like how you use combination of keys, but I'll check and let you know
+But let's let's use if you want to use something like alt
+Let's say I use something like alt here for the use case if people are facing challenge with using shift
+Okay, so whatever key is there it's up to you. There's no limitation on that
+Let's say I copy this alt
+And I paste it here alt whenever user clicking alt create a ticket. Okay
+now going back now, let's say I
+Open ticket for sake right for the sake since we have cleaned up everything. Let's refresh our
+Can ban board I still see that it gets here somehow
+Uh
+Let's restart this one
+No, yeah, we don't have anything left here because we cleared this everything fine
+Now if you see, uh, I'm typing some javarish. I'm selecting something and as soon as I click the
+This key
+Do you see there's a ticket getting created if I click again alt alt alt the n number of tickets will be created
+but
+I'll come back to that habesh two buttons, but let's focus on this thing
+Let's focus on actual implementation. We can come back to that for two buttons or combinations of them
+Keyboard events
+Okay
+Now do you see any problem guys? Do you see any problem?
+Firstly here
+As soon as I click it
+Uh other than content too like
+This one do you see by chance that
+No duplicates are fine. Let's say I refresh this again
+If i'm clicking here place and i'm writing some javarish and writing an alt
+Typing it all
+Do you see this firstly model is still sticking?
+Right, it should disappear now firstly
+Okay
+So first let's let's fix that problem. How can you fix that problem? It's like just a toggling that again
+We don't have to deal with uh, you know flag here because when whenever
+You know key down event is happening by default
+User is open. Uh user is doing that key down event on a model which is already open isn't it?
+Do you guys agree with that point that which is already open, so what if I copy this statement?
+And put it here that hey after creating a ticket close the model
+Okay
+Clear
+Now now think of this thing
+Let's say I remove this event I don't need anymore
+Let's go back to the code
+And see this I type some javarish value. Let's say equity and I click alt
+The ticket is created
+What if I recreate?
+Do you see the something here still problem?
+What could be the problem here again guys
+Previous data is there enough so we have to we make sure once your ticket is created you also clean up this existing data
+Isn't it that we should be clear we should be making this earlier code whichever code is there
+We should be focusing on cleaning up that model too
+Now let's do this. Firstly, let's clean up something called as text area
+dot inner text equal to empty string great guys or else we can also use value but
+Firstly, let's select this text area. How can we get an access to text area? Let's say I say that const
+text area
+document dot
+Query selector here inside this I'll use a class called let's say I
+This is a text area container
+Once I select this
+I have it
+Okay
+so firstly
+I've got some bits inside. Hey, we can use inner text
+So inner text is
+Equal to empty. Okay, let's see this
+Firstly, I caught create a ticket. I use query. I click alt again. I reopen it
+Query is still existing
+So
+Do you say this? So what if what if let's say
+I try to
+Text content, okay text content. Okay. Fine
+Let's say
+I use
+Query
+Alt
+Open still there
+Guys this thing is associated with a key called value in the html node
+Right this value is always persisted
+Because it wasn't suggesting inner text so it
+No, no, not that way not that inner text or inner HTML or that way. This is a form value
+inside the form value
+inside form fields it the
+Values of any field is associated with
+It the
+Values of any field is associated with value called as key called as value itself. So
+Like always the the current value is associated with value
+Okay. Now, let's say if I say that a value
+Let's say I say that make it some bit
+Okay, whatever
+I click it. I once I click alt again. I reopen
+Always I'll be you know, even if I edit it again, I open it always it will be some bit
+Do do you understand this like for form fields mostly?
+Inside the html it's a key called value which is holding actual value of your form field like input field or any field
+Yeah, so we will be doing something like an empty string so which will address our problem
+Okay
+So, let's say if I click some gibberish and do this and I click again
+some gibberish and click again
+Okay
+So the issues are fixed isn't it all the issues that we want are after clicking and alt or alt functionality
+The model is closed that cricket ticket has been created
+All these things are being done, isn't it?
+now
+What would be the next thing what would be the next big thing?
+here
+What do you see?
+Right, what do you see here in the common thing in the two tickets?
+Firstly think of it here if you see
+We have generated a dummy ticket right not the user entered information
+firstly
+Right to store the actual data
+Right so for this one
+Let's tackle things one by one. Okay, let's tackle things one by one
+Let's focus on something which can give us a dynamic id
+Anyone any idea like how we can get the dynamic id?
+Like a random uuid timestamp
+Mat dot random mat dot random will generate always between a range of numbers
+But there is a you know a repository
+Like you you id you have something like
+You you id are a bit long, you know in nature
+There is something like called a short id instance
+So they have this particular person who have built this one right has deployed on cdn
+Has deployed on cdn, so it will always generate you
+A dynamic id each time you click it will generate and it is also
+This is like a deprecated package, but you can use it
+Unique this is a unique id generator. Okay, so always it will generate your new unique id whenever you require
+So this thing we are going to use it how we will be able to use this one is that if you see here
+Here he has gave us like his bundled the whole javascript code and gave us a script tag
+The same way we did it for a font awesome this logic whatever this whole repository is there
+He packaged into the script tag and gave back to us
+Okay, this is a source location where his code is deployed
+Okay
+This min dot js file. Let's copy this one
+Let's copy this one go back to
+Your script tag, let's say you put it here
+Once you put it here
+Then if you go back to the documentation what he suggests below if you see he says that
+Just call this function called short id
+You will be able to generate
+ids
+Okay. Now, let's see this if it is actually happening or not. Let's see. Let's try
+This is let's say if I copy this content also
+I put it here something like window dot
+Alert and short id, let's say if i'm doing this, let's say I go back and try to create multiple tickets
+And I click alt if you see I got some gibberish id
+Okay, again if I click this again I go and try to create some other ticket now
+This is a different ticket ID
+Instead of
+Since you have a uo uo id is also a library which keeps you a unique id
+This is also a library which gives you a short id like a small lizard
+Is that clear guys like what is the short id? I'll also give you the github repo if you want to explore this one
+Yeah, i'm pinning this
+Let's refer to this one guys now
+Let's go and do one thing since now if you uh, does anyone know dynamic
+Way of writing, uh, you know inside js like this string when you use backticks
+You can always write a dynamic values inside this
+string, right
+Yeah variable just a second guys so
+Let's say if I use a dollar sign and curly braces
+You know same thing. So what I'll do is like I instead I'll call a function here
+I'll say that hey generate an id here. They should offer that remove this
+Uh
+Sorry guys, I was just asking like how can you write a dynamic, uh, you know string or the value inside uh,
+You know string or the value inside uh, then inside a string generally dynamic value inside a string
+Without no it wouldn't work
+It wouldn't work. It's a string itself
+I think you're referring to uh, this is something called as a template literal guys
+Okay, if I show you
+So template literally something where you use uh backticks and you can give any expression that you want
+Something right you can write a javascript inside between I mean logic you can write it between this thing like a dollar symbol and opening and closing
+Whatever you seen like you just said that between two braces that is that we will see explore and
+Uh react, how can you do that? Why we use that logic? Okay
+but now
+is
+Uh, like how we were generating dynamic id is clear to everyone like logic of dynamic id and how we are creating
+And one more question someone asked me like are we can we create the script tag?
+No, we haven't created the script tag, but we have deployed our code base here
+Their code base is deployed here this particular
+Min.js file
+Okay, we are in order to download this particular thing. Let's say if how i'm downloading this content
+So if you see
+Whenever this particular html will be downloaded inside the network tab
+Okay
+If you see here this short id code was downloaded completely
+Whatever code was written that was downloaded
+So we in in a way if you want to download any resource, uh from the server right on a html file
+You're supposed to define if it has a js logic
+You're supposed to give it in a script tag and give the source location where it is located whether it is in internal project folder
+Or external somewhere deployed in the deployed code so that it will reach out there and will get that code
+Is that clear guys?
+You know, so this is how
+things works now if you see even why we did use fa-solid like if you see all this
+things are coming from there particularly and always if you say and why did I
+Told you earlier that hey you should log in and use it because if you see all the time my token
+My login token was being passed as a request
+every time
+For font awesome
+Whenever I refresh it you see
+This is a request url. They are forming i will come to that. We'll explore this whole things later
+But coming back to it
+So I hope uh short id logic is clear to everyone
+Right, we are able to generate dynamic ids
+Okay now comes next thing text area part
+No, just now we have seen
+Just now we have seen that we were able to access
+Text value here and we were making it as empty
+Can we use somewhere here like a text value and leverage such that instead of lorem epsom something will pass it here
+Instead of this lorem something we can pass it down here
+We can store and then you can use it, let's say I have a dynamic string here. Let's say I say that
+Ticket info, let's say if I say that ticket info that I receive it here
+I declare it here saying that to get in now
+if I pass
+Ticket value here would that would be fine to create this ticket
+Would that would be fine to create this ticket
+Guys is this logic fine like we are passing inside this function
+Text area value and we are receiving it here and trying to output it
+Let's say let's try to see if it is working. Let's say
+Task one guys I use shift key to enter now task by default
+Now if I click alt as soon as possible task one got created now dynamic
+Whatever user is entering that is being done. Let's say task
+two
+And I click again options
+Again, let's say task three
+Right, so we are able to create all the possible task as of now
+Great now what could be the next interesting thing guys? Just think of it when you're creating a ticket
+What part of element you're still not able to leverage or what you're not able to do it
+If you see in the dynamic part
+There is something that you're not able to leverage color, you know
+now
+if you see
+What we just did earlier is that we gave
+A default color ticket color
+You know, we say that there's a default class called ticket color and we made it particularly as a black in color
+Right background color like let's say if you go for the css
+Like if you go for the css and find it out wherever the ticket color is there
+This thing is being by default black is being passed
+right
+This is something we have to you know, provide it dynamically
+Isn't it
+Yes, do you agree with me
+First this point is clear now where that black is coming from so i'm just trying to remove this black here
+and
+We have to figure out
+We have to figure out
+How we can pass a class or a background color to this one?
+How and that too
+that too in a way
+Such that user is clicking on something user is clicking on
+Which all things user is clicking on all these things
+All of these four palettes
+Isn't it whenever is clicking on this one and we have to identify which color is clicking on then we have to
+attach that particular
+color here
+No, think of it what idea comes to your mind firstly, these are the list of colors. We are having it
+Okay. Now on this list of colors, what how would you handle it?
+Get the class name set it to the class
+Okay, you mean to say that a get the class inside the list of classes get the for class and at
+Attach it here. Is that something?
+Is
+Yes, but how would you get this class how would you define like when user is clicking on which one?
+How would you know that where you are which user is clicking add an event to what
+Add an event to parent class which parent class have you done?
+I think of it guys
+Which parent class you would add css priority color container if I add priority color container and if I click on anything
+Uh, how would I know that which part of diff I clicked it?
+It
+Yes, do you see here that I have to add a event listener to all of the diffs all of the color diffs firstly
+Because we are we should be listening to all colors if if i'm clicking light pink
+I should get light pink flag if i'm clicking black. I should get a black of black
+No flag
+So
+They you might have learned one logic where
+Let's say if you want to iterate through all the children elements
+How this app works is like, you know this works like an
+array of elements
+Okay, this is a parent class. Let's say first let's do one thing
+Let's do one thing. Let's get an access to this parent container first and we call it as
+priority
+Color
+Okay, all priority colors, let's say we say that all priority colors now inside this
+I can use this right
+If I if I can use query selector all
+Like comments like class name to get all the elements possible
+So let's try it that way
+Let's say I say that document dot
+Query selector all inside this I give it as this priority color
+Now this all the priority colors are no array of elements because this are the four items there
+Now I'll show you one of the higher order functions that can be leveraged to add at least an event to the each item
+And this higher order function we have already discussed and we have explored up to some extent
+Okay, that higher order function is
+For each because we are doing same activity for each of item
+One
+Isn't it we are adding an event listener to each of these firstly diffs
+Now inside this let's say I get each color element
+Inside each color element now, let's say for once I receive each color element, let's say
+Color element dot add event listener inside this what type of event i'm listening
+What type of event i'm listening
+Let's think of it what type of event click now simple straightforward because we are clicking on a box
+Once we click this
+We have to do something
+Now what we have to do is
+Let's let's
+Think of it now. Let's say think like
+hey
+Let's say that I define like, you know a global variable
+Let's say model
+Priority color and let's say give a
+Default as a black
+Default value no
+Whenever user is clicking whatever user is clicking by from that particular class
+If I can get it if if user is clicking this can you can I get somewhere somehow like light pink?
+Or somewhere somehow I can get light green
+Or somehow I can get
+Light blue my problem would be solved
+I can update model priority color
+And I can directly
+Call it here
+Also with a ticket container, let's say I would say
+Model
+Model priority container
+Model priority color by default is black. I have to just update it
+When user is clicking on this color, are you able to follow up guys? What i'm trying to talk about now? Am I going speed?
+No, right
+So now how would he get it? Like let's say we added event listener to all of them now inside
+You have multiple classes how we can get a first class because if you see here we have
+List of classes this way. How can we get the first class?
+And update this particular value of model priority color now. I have to get this value
+And of this this model priority color, how can I do that?
+First
+Firstly we will have event here get attribute works get attribute works
+But what let's say
+Let's say let's say
+const class list
+Classes
+Like event
+Dot
+Okay, firstly, this is not an element so we won't be getting a set attribute get attribute, pardon me
+It's an event. Okay for the event level. Let's see this. Okay
+uh
+Kiran says a class list of first element array. Let's see if you are able to catch up guys console dot log
+of
+Event
+Let's see this first again now as soon as I am here
+Let's say if you see it
+If you see if i'm clicking on pink
+You know, there's a click event happened
+And do you see here something that we can leverage?
+Okay
+Okay, just a second
+Let's say I put a debugger here
+And I click here now if you see
+on the event if I do something like
+Event dot class list
+Not getting anything surprising
+Sorry
+Event dot target. Yeah dot class list
+Okay, I will start getting it now guys. Are you are you able to see this?
+What I was trying to say is that you know, i'm getting uh for the particular target element
+Get with the list of classes
+Inside this list of classes i'm getting an array of all the classes that are attached
+Inside that if I pick if I pick event dot target dot
+Right this class uh class list of first element my problem would be solved, right?
+Do you guys agree with that point?
+everyone
+Let's do that same thing
+Let's do that same thing. Let's go back here
+Uh here in the model i'll do something like event
+Something like event dot target dot
+Class list of zero element now removing this console log and save it
+Let's remove this debugger
+Okay
+Now let's verify if uh functionality of adding is working fine now i'm entering some gibberish
+I'm selecting green in color. I am selecting alt button
+Now I have got a green color. Now. Let's say I select again gibberish
+I select pink color. I click alt button
+So i'm getting pink color
+Guys, but do you see one fault here?
+Why i'm selecting color? I don't know which color i'm selecting. Isn't it? We don't know which color is selected
+I mean, we're not highlighting that one
+Like if you go for plus
+You are highlighting that here you are clicking plus if you are going for cross. This is something we left yesterday and we thought like
+Uh, we'll do this using dynamic js, isn't it?
+So now now comes one thing
+Is that let's say what if?
+what if I
+Add some background color
+No, the thing is simple like let's go
+And let's say that hey, I have a css
+Let's say that go to css
+And give me let's say I say that this is the css will apply
+Uh, I can say ticket or let's say active
+active status color
+So this is the css class will apply inside this i'll apply just only border I say five pixels solid
+uh
+Light
+Light
+Let's say light slate gray and we'll see how this works firstly, okay
+Here I picked it up this one
+now going back to script
+now
+On this color element i'm supposed to add that particular css, right?
+Whichever button is clicked
+Uh, firstly my question is clear like where how we will add, you know this background color dynamically
+From the js
+If you see for the if you see on the plus when on hover we are adding it or by default
+We are having something here. We have to give some background color
+Uh, sorry border
+On click of this one like if i'm clicking pink I should get a border if I clicking this one green
+I should get this border
+For clicking blue that question is clear from the functionality point of view what i'm trying to stress one
+Now now think of it
+Now think of it like how and when we should add
+Like if you just now we have seen that on a target element
+We have list of css classes available inside that list of classes if we are successfully able to add another css class
+And that css class would be this one then our problem would be solved
+Isn't it from that logic point?
+How many of you got this point in this like just adding these css classes into that class list
+Okay now
+I see
+One thumbs down
+So guys what i'm saying is that if you see in the e for the each element right for the color element
+We are adding listeners and in the in the listener itself to get what type of color is this one
+We are getting from the list of already existing classes
+Inside this class list itself for the target element whichever user is clicking
+If we can add an extra css class into it
+Into this current element and that extra css class would be this one
+So that our problem will be solved
+Class will classless will be changed, right?
+Yeah, when we are adding it in array elements when I push an extra thing where it would be added
+When I do an add class list dot add it is added at the end
+It the it will have added at the end
+Let's let's see this let's see this dynamically once what i'll do is that
+Uh, i'm writing a simple statement guys if you don't understand it, it's completely fine. I'll try to re-explain this step by step
+Uh, not to be in hurry
+Okay
+Let's say
+Simply
+I would say that once you access to zero l tail bit in order to reduce your confusion more
+uh
+Uh like some bit after accessing class list zero itself i'm adding it
+Okay
+Is this clear did anyone understand what did I do here
+Okay
+If you don't understand give me a thumbs down guys, it's completely fine
+If you don't understand this point
+I receive uh two people cool
+three great
+Okay, four people
+Yeah guys, I just just want you know to vote it in so that I understand that how many people are able to follow up
+And how many are not i'll show that in chrome guys
+Okay, if you see
+If you see what's happening here?
+firstly
+Let's open the html elements itself, okay, let's open this
+Now
+Just see this
+Light blue priority color two things are there. Okay, and i'll also put the debuggers
+Where i'll put the debuggers i'll put the debuggers here
+Okay
+In the element as soon as I click on blue
+If you see in the blue when I go for the event target class list i'm having two things
+Light color light blue and priority blue
+Light blue and priority color this thing is clear to everyone. How am I able to access?
+now
+Inside this itself. I'm adding an extra css class called active status color
+Now you would be able to see this like let's say once I once I click play, right now
+Still if you go and see here the class is not applied here. But once again if I click play
+Now if you see active status color is been added into this one and you see this border
+That is added
+Hey, this is the active color that is added
+How many of you are able to understand this point now
+Did all those those seven who gave me thumbs down got this point what I was trying to achieve here
+Just adding an extra css color dynamically. I'm giving and border instead of attaching it to the div
+Because this process will help will be helpful
+When you are actually building div or any elements dynamically from using jasker
+Is it clear right? Yes. No, anyone having if anyone is still having any doubt give me thumbs down
+For one final check others and move it
+Great so I hope everyone got cleared like what we just did now. No
+Just to know which color we are selecting, right? Yes. Yes. Yes
+Yes, we whenever user is selected entering data every year. We were
+Not knowing like which color user is selecting. So for that point
+Okay, okay, so some it says that
+Okay, fine coming back i'm coming to that point itself
+Okay, border will be there now the the two problems. Okay, there are two problems
+Now let's say if I select this one also
+Border is applied to this element
+Now if I apply click on this one also border is color is applied if I click this one also border is applied
+This is again creating a problem, right?
+As you stated some with the party
+So even for the next time even when you click the other box also it is creating a problem border is being added to all
+now now
+Think of it like how can you fix this?
+We still need a border to give a better user experience that which button which color user is selecting
+But think of it like how can you?
+Manage it manage it dynamically
+I
+Think of it. How can you like the question you raised you have written four or five lines
+How can you think like we have to restrict it to one only?
+Okay radio button
+Okay radio button, huh
+It's a really basic thing guys. Just think of it like if you see the code, right?
+I think it should click it to you guys
+first and foremost
+Think of it
+Restricting is not possible. What if user selected one and then he want to update that color?
+status
+While while creating a ticket itself something
+like
+Model container update
+Now
+Think of it this way if we can do something like cleanup activity before
+before
+User is we are adding a classless zero to point a particular or adding a new color. Can we?
+Clean up existing selected box and then we update it
+So
+I I think no one understood this point, but yeah
+Like let's see how many of you understood. Let me write down some one simple logic guys
+What i'll do since all priority colors are this one, right?
+Or this list of css classes, you know inside once anyone a user is clicking any one chill element
+I'm coming inside this function and executing this logic. So i'll say that i'll go through again
+all the existing colors
+Okay
+and
+on each color
+For each let's say color element
+I'll remove
+This existing css. How would I remove current element?
+Let's say color element current element
+current element
+Dot class list dot remove
+Which class will remove will remove this particular class like add and remove two functions are given to our class list
+Now did anyone understand
+This code what have written it's okay
+If you didn't understand you can give me a thumbs down what i'm trying to do. I'm just saying that i'll clean up
+Clean up the existing selection
+Selected option each time user is clicking a new color
+Or even if you're reopening the model I see one thumbs down
+Cool, so i'll explain you this this thing in debugging
+So let's say if I go here firstly i'll show the functionality by default no box is selected if I select one
+Cool works if I select second thing only one box is selected even if I select third one only one box is selected
+Even if I close and reopen
+It this particular thing is selected
+Okay, there's a one thing we have to address it still
+Okay
+Firstly this this
+Okay, we can remove it on alt okay, we can call it a clean up activity on alt also let's let's do this thing
+so one thing i'll do is that let's say I
+Extract this one in a constant
+I say clean up
+Clean up color selection
+And I pull this out
+I paste it here. I call this function firstly
+Okay, each time a cleanup happens then once a user is selecting also I can clean up
+Right
+So what did I do is that I extracted this function. I put it on the top. I've called twice
+Now let's let's retest and i'll come back guys. I'll explain all all of these things
+Whatever we just did it
+Now I got two errors. Now, let's see this what errors i'm getting
+Error is not a function. Uh, just turn it guys
+Okay
+Wrong syntax
+So
+No, i'm i'm able to update this one let's say I select pink and I close it and reopen
+Pink is still selected
+Okay, I on click of plus also i'm even I should be able to
+Alt start click on click of plus also I should be able to call that cleaner, isn't it?
+So
+Uh here so let's do this one thing. Let's pull this reusable logic onto the top
+Okay, and whenever user is playing around with this one, let's call this one
+Okay
+Or else only
+Why we want to do it twice only
+when you are able to render the
+When you are rendering the model clean it up and then render it
+Okay
+Let's say I select this this is fine again if I close it I reopen this is working fine
+Is this clear guys like how i'm able to play around with this one anyone having any challenge to let me know
+Like because ticket creation is something yeah, I mean I will take this post this tick once ticket creation
+I'll try to explain this but
+Give me a thumbs down guys. If anyone faced any challenge I went too slow because I know
+It's difficult to get those ideas and build it now. I did just most of the things that we did it is like through discussion
+Anyone facing any challenge give me a thumbs down any challenge like you if you didn't understand anything do let me know
+and
+One thing i'll do is like i'll push the code
+Before the break so that anyone having any challenge go through it come back after the break. Let me know if you
+Uh, if there is any point of thing that you didn't understand
+Okay
+Create ticket creation
+So
+I don't see any thumbs down. So
+I've pushed the code guys. I think you have the github repo too. Do you want me to reshare it? I'll reshare it
+uh
+So that if anyone is interested they can revisit uh in the break
+So guys, uh now after this, uh, you know
+Uh, firstly, uh final thumbs up all clear till now html css js part whatever we have discussed
+right
+so second thing now
+We will be heading towards break but as as you've seen that what we have thought of correct
+You know taking it up really good first. We created a ticket
+Uh with uh, you know like dummy data
+Directly writing HTML then we made it dynamic using user
+Information now next thing we'll work on something. It's like delete functionality adding an event listener to this one on a click of mode again
+Each ticket we should be able to delete the ticket. Okay, that's a simple thing, but we'll do it post-break
+uh now if you are
+Depending on your comment guys, give me your inputs like how many minutes of break you needed
+Five minutes if it works fine
+Five works cool. I've seen people
+Giving five minutes
+Okay, great guys five minutes
+Let's take five minutes guys, i'll see you back in five minutes
+Starting the timeline if anyone want to go through it code. I've shared it. Okay, please go through it
+You
+You
+You
+You
+You
+You
+You
+You
+You
+You
+Uh, nice is everyone back
+Uh, I see three four good good good guys
+so
+Any doubts guys? I'm just want to recheck with you if anyone's still facing any challenge understanding the logics that we have written do let me know
+Uh, I can repeat it has been a time she wanted
+Just let me know if you
+You need any explanation on things that what we have done till now
+If everything is clear
+Uh, let's move ahead. Let's move ahead and build the next part of logic
+now
+we
+Have addressed all the things around one button called as add button
+right
+We in the event flow or the user experience flow that we have directed user is clicking add
+User is entering content in the text area selecting a color
+Clicking an alt button ticket is created
+All this is fine. One sort of button flow is completed now comes the second button flow
+so
+Firstly we have discussed that this button will be used to know that
+Uh, like once we click on this button
+And then later on whenever you click on any other ticket
+That particular ticket will be cancelled
+So this is a like permission button like since you have seen
+We don't have a delete button specifically
+We have two things on a model event
+listener
+We have key down
+Like whenever user is clicking key down then we are but we haven't added something like click event
+If user is clicking anything, we should delete it and we should be only able to delete it
+When user has already clicked this remove button
+This part of feature flow is clear right to everyone how this delete of ticket will be working
+If anyone don't remember it do let me know I can uh restart the existing project that I have a separate copy I can
+Yeah, I'll just give me a second guys
+I have my
+I have to reopen my older batch code to re-explain and show this
+Just a second
+So now something that we want to implement is this one
+Let's say
+If you see this, uh, we have completed the workflow of this button
+We created this on click of this button. We are able to open the model. We are able to select the color
+We are able to move ahead right and create a ticket
+Now comes the second thing is that on click of this button cross button
+If you see the functionality
+I have to say that delete button has been activated and once you click okay, you see that it is highlighted in red in color
+And once it is highlighted in red in color as soon as I click on any ticket that particular ticket will be canceled
+So this is what we have to build
+Let's say
+Re-repeating uh trying to repeat again guys. We have completed plus icon flow. We have to work on this cross icon
+Once a user clicks his cross icon only then user will be able to delete this task whenever he clicks on a new task
+Now once we are enabling this button, uh, you know
+We'll have alert saying that delete button has been activated and once user clicks, okay
+It's it will be highlighted in red and then you click on any ticket
+Ticket will be deleted
+I hope this flow is clear to everyone like what we are going to do next
+Next
+Clear guys now it's it's pretty straightforward, uh, because you have been able to answer everything
+Uh that what we have done till now
+So I would want first step like what would be the first step like where would you add an event listener?
+Consider this cross button
+Okay, consider this cross button
+and
+Uh, let me know like enabling how would you do that enable activity?
+I need at least one two people comment or writing comments so that
+Because this is a small thing it I can end it up in 10 minutes
+I can set it up to 25 minutes, but it's it's your solution like when you are able to communicate it would be really good
+First step
+What would be the first step like how would you do it
+You need an access to this button isn't it first step
+To listen to this button firstly, hey whether we are able to add, you know activate this button
+Okay
+Guys, uh, I'm audible right
+So let's let's do this thing. Let's get an access to this button first. Okay, let's say that we call it as a remove button
+Document dot query selector
+Remove button cool
+Once we have this remove button
+What i'll do is that i'll add an remove button dot add event listener
+And i'm listening to the click listener inside this click listener
+What we are doing
+Okay, you didn't get this samit
+Uh, so i was just trying to explain this one
+So our functionality what we want to achieve
+Is that uh, we have completed ticket creation, right firstly
+Now we are working on ticket deletion part
+Like once we click a cross button it that particular we saying that hey we now now from now you can
+Delete that thing
+Okay, if you don't have this button deactivated you cannot click on a ticket and delete it
+So if you want to delete this ticket you have to click a cross button once you are
+You know delete button has been activated
+You go on to any ticket and try to click on any ticket. The ticket will be deleted
+I hope the requirement is clear guys to all of you like I repeated it thrice now
+So
+So what I was doing is that I firstly I got an access to this remove button, okay
+If you see the code here, uh
+What I did it is that this line I got an access to this delete button
+Then I added this event listener to the remove button
+Now inside this remove button the first thing what we are doing is that we are adding an alert right window alert
+now let's
+Screen is little blur
+Hey, uh, I think I've been if you have an internet issue
+Okay, great. So
+Once I have this one what I'm supposed to do is that I'll add an window alert
+Window dot alert
+I'll say that delete button
+Uh has been activated
+Okay, once I keep this I'm
+I need
+I need
+some event
+Like first thing let's say I go into a project once I click this I'm able to get this once I click. Okay
+Okay, this is not a project that's the whole thing if I click this I'm getting this uh statement windowed on it
+That's fine. But as soon as I click, okay, this thing is not being converted into red, right?
+Do you see this that showing that this button is activated?
+Any idea like how can we make this one color red?
+How can we make this color red?
+A simple direct css
+Uh said attribute works fine
+But that can be used to add you know
+Multiple attributes new attributes, but there is a class attribute already existing
+You can make a manipulation to that or else you can add a inline styles, right?
+Inline styles kiren, do you remember that?
+Let's say if I do this if I do this, let's say remove on this remove button
+Remove button dot style. I'm getting a style tag. I say that hey, whatever color is there
+Make it red
+Right
+So let's go back
+Let's go back and see in our project once I click this
+Once I click this
+Once I click this I click. Okay color is in red
+but
+Again, are you able to make it white in color?
+Are you able to return back into white color?
+How we disable this button now we enable delete button, that's fine. How do we disable it now? That's a tricky thing
+So this is same way
+as we toggled
+This model isn't it?
+On and off on and off, isn't it?
+This is on and off
+We should be able to do that same thing, right?
+Is anyone able to relate it like
+Click model same thing
+Consider this is a model itself. Once a model is activated you make it red once you click again make that off
+simple thing
+So for that one if you remember we had add task flag in the same way i'll create another flag called
+Let's say if we move task flag false and i'll use this thing if only
+If only true
+Only then do this logic
+And
+Make it white
+Right once we make it white then in order to toggle this remote task i'm just doing that same statement
+Right
+This is point here guys like what I just did here any doubts on this logic?
+Nothing, right?
+Let's see this if this is working as expected I click on a toggle
+It's a red in color if I click back it's white in color
+Click back red in color white in color same as this model
+Line number 18, okay
+so
+Abhinav did you attend how we toggle this model window?
+Okay
+Okay, last class you missed it so what I was trying to do it here is that I initialized a variable
+Global variable in this file as like remove taskbar false like we are not enabling that
+So once you you click a button this line of code will be executed
+We are converting false into true and once it is true, then we are applying this
+Okay next time when you again click the button this flag is already updated as true now when it comes inside
+We are converting true into false again, and then we are executing this color white in color
+Yeah, we can do that disable
+Right got it
+So button has been activated button has been the same deactivated
+Yes, is this point clear to everyone what how we are able to toggle this one and you know
+Add a listener to this one now now comes
+Tricky part. Let's say I create a few list of tasks
+Let's say task one and I give other pink task and I click alt
+Okay
+Then I create another task. Let's say task two
+Then I another select pink. I let's say pink is the default
+Start point. Let's say
+task three
+uh green in color
+alt
+Okay, we have three tasks now even after
+Activating it that the magic is not yet happening it now comes the main interesting logic
+How would you add a listener to each of the ticket?
+That is being created that has been created has been created window dot target dot remove
+Now which thing you would remove and how would you know where listener
+Is there if I click randomly would you remove that kiran?
+Think of it first like on creation task
+Right is every anyone able to think from the abhinav's perspective
+Yeah on only right so some with your point is right also
+That only when remove task flag is true only then we will be deleting the tickets that's cool
+But how would we know is that which ticket to delete it?
+Is was my point so abhinav has given us some hint that hey you have to add listeners
+When we are creating a ticket, so he's saying that somewhere here
+If we can add as listener
+and
+When you add a listener on each ticket and then if whenever this
+Button like whenever remove task flag is true
+And if that particular listener code is executed we can delete the code
+I've told a lot of things
+I don't think anyone understood this point, isn't it?
+As I got it great
+Very good. So
+Okay, I got it
+Right. Great. So
+Really repeating is did does anyone able to like anyone facing challenge to understand like how we would be able to delete a ticket?
+Yeah, we will we still need to listen
+To each of the tickets, right?
+Whenever we are clicking anywhere in the ticket
+We have to listen to this ticket that hey i'm clicking on this and and only
+When i'm clicking on this I have to check that hey if this delete button is activated only then
+I'll validate this click and i'll delete it
+I'm just validating this button check this flag that we have created
+I'll use this as a validation like if this is only true
+Then then id maybe somehow
+Not exactly think of it like
+We can cross check based on short id
+So firstly, let's let's go back to this point firstly
+Someone suggested me to add an event listener. Now if you see once we appended a child
+This ticket container whatever containers we have multiple containers that are we are appending inside main container
+Let's say inside this main container
+Let's explain
+All the tickets this particular tickets we should have listener attached right?
+Firstly, that is what you told me now. Let's say if I attach a listener to this one ticket container
+Add event listener
+Right once anyone is clicking this ticket once anyone is clicking this ticket
+Once if anyone is clicking this ticket
+I'll say
+I'll just say that if if a remove task flag is equal equal to true
+Then delete that ticket, right?
+How can I delete that ticket too
+So
+Can I do this logic guys
+Did anyone understand what I have just done it here
+I'm just saying that hey while creating a ticket
+On each ticket or whatever this div is in a parent level div for the ticket
+I've added a listener. I'm listening to each and every ticket that is being created
+and after creating it
+If a flag is true by chance anytime that delete button is activated and someone is clicking this ticket this part of
+Condition will be executed and ticket will be removed
+But how it will justify which one is which one I got selected now
+How it will justify is that because whenever i'm creating it
+For each ticket a separate listener is created right i'm not creating like one listener to all of them
+Inside create ticket function itself. I'm adding a logic if i'm adding outside that like ticket create ticket
+I'm supposed to know that which ticket user is clicking and how it is being done
+Now i'll show this how this works, okay, give me a second let's let's create some tickets first, okay
+task one
+Let's say I have this and I click alt. Okay now
+First let's see this
+I'll go into the source tag
+Now
+Let's come on to this one
+Now for all the tickets
+Listener is added right all let's say I create another task to
+Say this is our task two
+And I click this one if you see task two also listener was added
+Now if I click on any ticket if I click on any ticket
+This listener click is being executed and if I see this remove task, it's false. So it won't remove the ticket as of now
+Even if I click this part, this is being executed for this own ticket not for the like common generic logic
+So if we need not to identify
+Which ticket we are specifically deleting that will be automatically handled because you are adding a listener to each and every ticket
+When when it is creating itself
+Dom will take care of it
+Is this clear guys
+Did anyone understand this one like
+so
+I'll show you the implementation part. Once again, let's say firstly
+I'll show that whether this feature is working then again i'll repeat it. Okay, let's say that I click on a delete
+Okay, i'll come back to that point kiran let's say firstly
+Let's verify this one is working then i'll come back and see your uh, you know question
+Like i'm clicking delete button is activated once i'm activated. I click on task one
+No
+Once I do this, let's say it is true. Then i'm coming back here
+Inside this ticket container now if you see this ticket container
+Let's say I print the ticket container here
+Okay
+This is having some this id
+I click it play
+And the task one is removed now. Let's say I click on task two
+Okay, I try to print again ticket container
+Now if you see each time i'm getting a different ticket if you see ids are different and everything is different
+dynamically it is handled
+I click it again
+Play now. So if you see I have need not to pass anything information like id or anything
+no
+No
+So why we are adding too many listeners better?
+We add it to the parent and filter event and delete will that work now?
+so
+What kiran is suggesting is that
+Now when I say parent when you say parent kiran, are you talking about this main ticket container?
+Just want to understand your question
+Right now on click of let's say if I add a listener to it, I have a main ticket container
+Inside that now, how would I identify?
+How would I identify?
+Each time a ticket is clicked until unless there is no event listener attached to that ticket
+Bubbling of event
+That concept can be used
+Just let me think of think of it. Okay. Let's just let's
+Just think of it
+Okay, let's say if I have here main ticket container dot add event listener and I have click event, okay
+And let's say I also have event here coming up
+And console dot log of event so firstly i'll implement your idea
+Kiran like we'll figure it out in a break. I mean in doubt session, but let's just understand this logic
+Then i'll come back to your thing
+Okay
+Okay, we'll just understand the existing implementation then we'll come back and we'll explore like there may if it is a better way to do it
+Okay now so one thing is one thing i'll i'll try to you know, clean this mess bit
+Okay, i'll say that hey
+I'll try to write a handle remove logic
+Such that
+And i'll say that this part of idea
+I'll put it here. I'll say that ticket
+So i'm giving this whole ticket to it
+Let's say once you are done it
+I'll say handle remove
+I'll say handle remove inside the spot past the whole ticket
+No
+Guys before implementing a bubble event bubbling logic or even bubbling idea
+Firstly, I just want to know did all of you understood what my idea of implementation was?
+Yes
+Right I i'm just doing that I thought like hey I want to create you know add
+listener on each of the ticket like if you want to
+Like how the click listener works?
+Only when user clicks on a particular thing button or anything div or anything only when you add listener to it
+You will be able to listen. That is what our general basic idea is
+So I have to figure it out where we can add so we thought like we can add it only in the create ticket part
+So what I did is like we are adding a listener to it and whenever user is, you know
+Clicking that particular ticket we are checking that whether delete button is enabled only if delete button is enabled. We are removing that ticket
+Anyone facing challenge understanding this logic
+Like
+Is this point clear firstly like to all of you
+Or if not, give me a thumbs down. I am pretty cool like to re-explain this one. Firstly, this approach should be clear
+Then we'll explore other one
+Give me thumbs down guys. I need few more to re-explain
+Meanwhile, I'll have water
+Cool I have
+Three people four people cool now
+This
+Now just think of it this way
+If I want to act anything on any click of anything do I need a listener?
+Yes, right I need a listener let's say okay now I am creating a ticket one
+On ticket one on click of ticket if I want to delete do I need a listener attached to ticket one?
+Right now so
+What I just said that if I want a listener to be attached to this ticket one such that it can be
+On on click we can listen to this I told I what I just said is I'll attach
+To that ticket whichever ticket is being generated in this function itself create ticket function itself. I'll add a listener to it
+Because I won't be able to have an access to all the list of tickets that are created because those are not
+Statically created that I'll pick it one by one and then attach listeners to it
+Okay, so I
+Did you understand this part of it? Why how I attach listener to each of ticket now?
+So
+Two thumbs up is I receive four thumbs down. So I just expect all of them, you know if if it is clear to them
+Okay
+cool, so
+What we did it is that we know that for any button click or most of the events or pressing alt will add event listener to it
+Right, right. That's that's what idea is
+Once up once we are clicking an alt
+We are executing this function
+It is creating ticket once the ticket is appended in the child like main ticket container
+We also are handling, you know, we are adding a listener to that. I ticket which is created dynamically
+So that all the tickets which are created here will have a someone listener listening it
+This is clear
+Okay, just a second
+Some part of code didn't execute rightly because this model didn't close
+I
+Able to create I got 10 issues
+As I passed ticket here instead of ticket container I have to pass ticket container
+Now the ring trying to refresh so guys i'm trying to repeat repeat again
+For each and every click each and every click or each and every mouse event or keyboard event
+We if you want to react on that we need a listener to be attached to that everything
+So if if I want to attach a listener to the each of the tickets the only way I can do as of now
+My idea is while creating ticket itself because once a ticket is created
+It would be really difficult to select individually uniquely ticket
+Because we don't know like how we'd be able to listen to them
+right
+So while creating ticket once user is clicking alt let's say i'll show you how that happens even the flow
+Let's say here. I now once I click a alt if you see i'm appending this particular ticket here
+Okay
+Once appended i'm also adding a listener to it
+Once listener is attached
+Okay
+Nothing is executed yet
+But if I click that ticket again
+Since listener is attached this particular code will be we executed a callback function inside this event listener
+Is this clear guys at least the idea is clear now how I am doing this way
+If still there is anyone who don't understand this one, let me know
+Okay
+Clear
+Anyone
+Okay, great
+So
+Uh, that is it guys. Actually we don't have anything else to uh, you know
+Experiment on i'll experiment on event bubbling
+So if these points are clear i'll push the code for today's class
+Uh, and i'll end the session today because I know that this is a bit overwhelming
+to
+Understand and do play around with that dom
+Did you did anyone guys felt overwhelming a small functionality?
+You know playing around with that dom was bit tricky
+You know
+So I that's the reason why?
+Kept it as much as interactive as possible
+We'll
+Uh, we'll cover it up in next class promote user usage of log button
+We'll pick it up in next class
+If I talk about log button, uh
+Again, you guys will go a bit crazy and hit me up. You will find my house address and hit me up now
+Remove button logic
+Yeah, uh got it some bit
+No worries. I'll try to make it as simple as possible because since we are going in a beginner batch, right?
+Just remember this thing what what
+The basic idea was
+even the logics the way we have written right we didn't want to make it complicated we
+Made it so simple that
+the basic idea is
+If you are clicking anything if if you want to react on mouse events or you want to do any action on anything
+With your button clicks or anything. There should be someone listening to those events that your user is doing
+Keep that pointing clear if you want to
+Listen to that user events right on click of something and anything
+For that one, we have to add listeners
+For adding those listeners, we had to figure out how we can add it
+So whenever there is a dynamic generation of html
+It is always great to add a listener only when you are trying to generate dynamically at the next step itself
+Because after it's generated dynamically that function will be create function will be called again and again
+Then you will if you don't do it here, you don't have other way around
+to add listener to each of ticket
+Other than something what kiren suggested that there is an event bubbling concept that we can leverage
+Is that point clear guys
+I'm trying to just make it as easy as possible for you to understand
+So
+Uh, I pushed a code
+now
+What I'll do is that I'll play around with this one in doubt session guys if anyone want to stick around
+so initially
+Uh, there are some doubts some people have mentioned like is anyone having any doubt firstly? I'll answer them then I'll play around with things
+Starting doubt session guys feel free to drop
+Okay
+Anyone having any doubts do let me know
+Now
+Trying to understand text area in the create part, okay
+From what coming back to your uh, you know thing
+This
+firstly
+I need ticket info ticket information, right?
+If you see here
+Ticket information whatever user is entering
+Something again user is entering something user is acting on something. I need a listener attached to that one
+So what did I do?
+I selected first text area
+I I got text area document selected text area then
+What did I do here is that inside the text area
+For the value property in the form fields will always have the value whatever user is entering
+Behind the scene behind the scene if you see, uh
+Okay, this is a native one, uh, you won't be able to see this but
+What's happening is that behind the scenes there is also a listener attached to it
+But the the browser is taking care for us like as soon as user is typing it down
+You know this value whatever user is entering typing it down being filled inside this value value property for the text area
+Once I get that value i'm passing down the ticket to dynamically, you know get that info
+And after getting that info i'm closing that model clearing the clearing of that value
+So
+Is that clear ramon did you understand that part?
+Uh, can I unmute you I didn't understand your question completely so I just can you elaborate it so that I can
+Think of it
+Where your way of facing challenge?
+Uh
+Are you typing it down
+If you're typing it down
+No, no, no promo. I'm asking promote
+So promote didn't understand text area part. So i'm just checking with him
+Please go to next out
+Okay
+Cool I'll ask him last. Okay. Great. If you want me to unmute I'll unmute you know
+So some which says that uh, I'll pick it up next uh, fetch feather name tpi token let url const response
+pass temperature
+Okay, everything got
+Hey, I didn't understand you pasted code something what what i'm supposed to do with this
+Okay, I'll unmute you give me a second
+So
+Someday yeah, and we'll try to submit please go ahead
+Uh, can you try to speak yeah, I'm audible. Yes
+Yes
+Yeah, so here right the doubters like if I remove the next five lines after
+pass json
+And then try to
+Catch the error, right? It doesn't work. It doesn't give me the alert
+But if I add those filings like if I do
+Then it works
+Let me copy this logic because I might not be able to understand your point exactly. Give me a second
+I'm copying it
+Let's say I paste it here itself
+Okay, uh, which part you are trying to mention?
+Just let me know which one pass json, right you can see some uh
+Yeah, this one, okay currently const pass json await response dot json, yeah
+Repeat your question again. I'll try to understand there is a try
+There is a try catch here, I guess it has not been copied the catch one
+Okay, uh, give me a second
+Hey, I copied everything that you gave me
+Me
+If you see that code
+The ending part was like set location in a text equal to current location
+This is what it is
+Yeah, do paste it
+Okay, uh, let me copy this
+Yeah, paste it
+Uh, hey, uh, i'm not sure
+This is let me try to close this
+Yeah, so like i'll try to explain the question, uh, what's happening is in this function, right? Um
+If I don't do any updation and only try to you know, get the response and console log it
+And then try to
+In this case, right when there is only console log dot json in this case the catch error doesn't work if I
+Like give an
+Invalid location or like empty string and search it in this case the alert doesn't work
+But if I try to give these updates, right if I ask it to do these update things
+Then this alert thing works else. It doesn't work. Why is it like that? Like
+So you mean to say that you are adding a console log here
+Uh console then you are
+So when you're giving this thing, uh, you also you're saying that this is not going inside the catch block
+Uh, I correct and if I remove all all those lines in the try after console log
+Okay
+Cool. So
+Do you get anything? Uh, you know console here
+Error
+Yeah, I get a console like I even get the error in catch but only the alert doesn't work
+Okay, window alert is like I get the error
+Yeah, I get the error as well like parameter q is missing or something, but the alert doesn't work in this case
+Okay, just let me think of it
+Uh
+So firstly
+This thing will return you the error
+Now catch block when this class block will be executed first. What's your understanding? Let me know that
+When this catch block will be executed firstly
+When there is no json file when there is no response from the api
+No
+So there are two cases, right?
+Okay
+So firstly see
+Catch block will be only executed when there is a mistake here in this logic, you know
+Okay, okay, it doesn't mean that whether your api gives success fail doesn't matter you are console logging here itself, you know
+Okay. Okay. So the console log error was
+From the try itself. Yeah, it was not coming from here. You can do something like
+Inside the console log you have other things also you can use table and try to verify it like or else like
+Let's say you can do console dot error here itself
+Uh, you can check like add an extra parameter. Let's say from try
+Uh
+And do this way yeah, so verify that one, okay
+Okay
+So, yeah, can I go to next question some bit
+Yeah, yeah you can yeah sure muting you thank you. Thank you. Yeah
+So going back to next question guys, uh, sorry for stretching it down
+Kabir says why script is not loading working while adding it in the head. It gives me I cannot read properties of null
+Kabir, can you give me that code base or can you share the screen? Possibly I can talk on it
+If possible you are there in class. Yeah, you're there
+Uh, because I just want to know why because I haven't faced those scenarios. I just want to see how did you
+Where did you mess it up?
+Okay
+And one thing uh
+Like like just a second to answer your doubt, right? I got your question. Well, why did you might have made it mistake?
+Okay, so first thing
+Let's say
+Let's say I'll try to replicate your problem. Okay
+If you see our script.js file
+Whatever script.js file is added to the line number 49
+right
+If I cut this and I put it in head
+Let's say I put it in head itself
+Okay, and I go to browser
+Now even if i'm clicking plus minus or anything it won't work, right?
+It says that cannot read property of null adding event listener. So one thing
+What happened is the script file right js file is loaded before body is executed
+Okay, the script is executed before body is executed now the inside this body only we have this html until unless html is loaded
+Script shouldn't be parsed
+Because script will have the references objects from those nodes
+So it is always suggested when you're whatever script tags that you are using
+And playing around with that body tags, right?
+You have to keep it in the bottom such that first your html content is loaded
+Then you will be able to access all the elements that you are accessing using document dot query selector
+Because the document itself is not loaded before body tag
+Once body tag is executed then document API will be able to access all the query selectors and all those things
+Is that point clear
+Try it around that that's
+yeah
+Yeah, like if you see there are some codes that I use it before
+Because those are only pure js codes
+There you can you can use it even you can pull this one
+Uh that you can put it here on the top no usage
+only
+Where the script files where you are trying to access the elements this way?
+You are trying to access these elements
+Now whenever this script tag is executed line number eight or nine or ten
+This body is not executed and these elements are not available by default on top right
+So you have to make a choice of it like where to load that script
+First code should be available only then load it
+Yeah, great
+so
+Uh, I hope your doubt is resolved or do we have kiren in class kiren you are there no
+Let's let's try this thing. Uh your idea
+Yeah, good night kabir
+So let's let's try that your idea like you were talking about adding a listener to the main event container
+Let's say main ticket container
+Uh, I don't have anything. So let's say I do main ticket
+container
+Let's say I win ticket container dot
+Add event listener and i'll say click event
+Okay
+So, uh, let's say i'm having an event
+And i'm sorry, just let's let's console log, uh event whatever event we are getting, okay
+and
+so
+uh
+Cleaning up
+Okay, let's let's let me do one thing. Let me create multiple task task one
+pink color
+alt key
+Task two pink color and alt key
+Okay, now I have two things now let's say I remove the existing debuggers, uh dom break points
+Script break points remove all break points. I'll go and add it here like let's say this is the main container to reconfirm
+Main container is someone
+Is based on main ticket container main ticket container is a parent element of
+All the tickets in it. Now, let's say if I click on
+Any of the ticket
+right
+If I click on this ticket i'm getting an event here
+As you say that bubbling is happening
+I don't deny that
+But now even if I do this event pointer, let's say event dot, uh target
+Okay
+Dot let's say event dot target if you print it out i'm getting that whole ticket also
+Okay now say next thing, okay, we can do this also like
+Okay
+Once I have this uh event dot target
+Not remove yeah, we can do this thing also
+If I can comment this logic I can comment this logic
+Okay
+Uh, now let me refresh all the things will be erased
+Because we are not storing the task
+task one
+and pink color
+Let's say if I click this it's working fine
+So kind of this is this logic is working fine, but uh, have we covered event bubbling already? Uh
+Is our topic covered
+Muneshwar says no
+Uh, just guys let me let me check that if that is covered in the last classes
+Yeah, I don't have the classes least I have to recheck shashwar did that
+Okay, great
+I go back I check this
+Okay
+Okay, this is my class
+Okay, if event bubbling and even you know, uh that concept is covered
+Like this is also a way we can handle it
+instead of attaching
+To you know every listener as you said it multiple ways
+Okay, I'll I what I'll do is that you know, I'll keep both of these things. Let's say I comment this thing
+Uh, I say that i'll keep it only the parent one that logic you suggested
+Good thought kudos to you kiran
+like if
+You want to
+add listener
+And
+Uh, each ticket and remove it
+Using the concept of event bubbling
+Event dot target will have
+Child ticket
+Okay
+So this is also working as we can use either of the ways
+So I was trying to go to each ticket level also. We need to make sure that we filter only the tickets, right?
+Uh, let's say if I if I
+If I have multiple tickets if I have multiple tickets task two
+And I say that task three
+And when I click it task three only task three will be deleted
+Because in the event dot target in the target value we are exactly getting only the
+Clicked particular child ticket
+Also, we need to make sure we filter only the tickets, right? Uh cause not any child should get
+I'm talking about if there are any other child are shaded tickets other than the thing
+Uh, uh, just a minute. I just want to understand it. May I unmute you if it was possible
+Uh, yeah
+They also will be listening, okay, uh, I mean i'm getting confused and unmuted
+Yeah, please go ahead kiran
+Um, yes, am I audible? Yeah, yeah, I can hear you
+So I was talking about if we uh, will be we're listening to all the childs
+that
+If there is any other child other than tickets that will also get deleted if the
+Without event is added to the parent, right?
+Yeah, yeah agree. So, uh here this condition should be a firstly this condition should be verified
+Okay, first first and foremost thing and then second thing is like that
+Ticket we are specifically adding those tickets into inside the ticket container, right?
+So it is expected that there wouldn't be any other childs other than these tickets
+If there are we need to have to handle those kind of use cases edge cases
+So how can we do that? Actually that was my question
+Okay, how can you do that? So you can see like uh, like let's say, uh, you can once
+Once you get the event or target, right?
+Once once you have that element you can verify the parent level div class css class
+If this is a particular extra condition one is one more extra if condition
+Let's say you store that
+Let's say ticket
+Okay ticket inside this event or target
+Target
+Okay
+Once you have this event or target, uh, let me show you that thing also. I'll write down the logic here. Okay
+And i'll show it. Uh, just let me go back. I'll create a task one
+Okay
+Now let's say I go to debuggers I activate this debugger once I have this let's say
+Once I click this
+Okay, I have to activate this button so that delete can be done
+Once I do this I get inside this
+then let's say
+I have ticket here
+Okay
+Okay
+It's converting into objective let's say
+I'm writing one sort of logic, but there can be a better way of doing this one
+Okay, it's converting me into empty but what all things are available here
+Okay
+Let's say if I get a class list I have the class list available
+Okay. No, it's uh, I can check this if
+Class list is equal to play equal to task area. Uh, this thing I can do I had a condition that
+And
+Event dot
+Target dot class list
+Of zero element is equal to play equal to task area
+because uh, this will help us to identify uh reason behind if you see
+Okay, why i'm getting till ticket info now
+Okay
+So one thing we have to take care here is that kiran like if you see multiple like even
+Like whole div right now
+How i'm getting this current element if you see this one?
+If you see if I would try to print this I'm able to only print
+Whatever thing I'm selecting not the whole ticket container
+Not the whole ticket container
+Like let's say if you see now whatever thing is deleted now only task one is deleted if I click this one
+Only that part of thing is being deleted
+Yes, yes, that's what I was talking about because that okay, okay, okay, I got that so
+Just let me think of it like how we can deal with this one no problem we can do in further classes
+Yeah, i'll explore this one. I'll get back to you. Okay. Yeah, sure. Thank you
+Yeah, thank you kiran. Thank you for pointing this thing. Uh, we'll wait i'll figure out and come back. Okay
+Uh muting your bag
+So guys any other doubts any other doubts
+Any other doubts
+But it's nice thought you know, like I didn't think it
+No one in the earlier batch also mentioned this thought thought uh and
+Yeah, great like
+Particular event target we are removing
+Anyways, I'll come back and let you know guys, uh, so if there are further no doubts guys feel free to drop
+I'm closing the session. Thank you for joining today. Hope to meet you on thursday where we'll close this project
+Uh, we'll end the session. We'll end the project and hopefully you got to you know, revise the concepts
+All the things that we have done maybe think through it, you know
+Hope to see you guys in the next video. Bye
+Come back come back on thursday and complete this and learn more few things. Okay edge cases
+And thank you kiran. Thank you for all the things guys. Thank you for all the doubts
+See you guys and good night. Take care
+Bye
+You

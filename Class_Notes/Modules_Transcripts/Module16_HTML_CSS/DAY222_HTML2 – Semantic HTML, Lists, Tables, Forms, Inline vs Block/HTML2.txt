@@ -1,0 +1,2728 @@
+Hi all, good evening.
+I'm my audible guys, I'm audible and visible, good evening Sambet, thank you.
+So what I'll do is I'll start my screen sharing, please confirm once you can see the screen.
+Start the timer and then we'll have a conversation.
+Can you again confirm guys if you can see the screen share? Thank you.
+So let's have a five minutes timer.
+Okay, great. So I see some of the people have joined the class, we'll wait for the other people.
+Meanwhile, any doubts from your previous classes, previous class guys, like we had only one session.
+Did anyone felt overwhelming the initial concept like how does internet work or what is full stack or it was okay, okay.
+Any beginner who felt overwhelming like discussing all the big jargons initially.
+Okay, I don't think anyone felt overwhelming, it was good enough.
+Then, how was your day guys? Was it a long day? How was your day at office?
+Bad, okay, I meant as bad as a beginner, it's good, perfect, please, as I was able to say, great, great, Maheshwar.
+Yeah, I meant Kabir, how was it? What was it actually?
+Even I had some tough day, I had planned releases that didn't go well.
+I mean, I had an external dependency with other teams was still working on.
+Good day, great, great, Sambit.
+So how many of you were able to solve both the problems, assignments?
+Give me thumbs up if you're able to solve, give me thumbs down if you're not able to solve or didn't attempt it.
+Okay, I see one thumbs down.
+Guys, please vote in again, like I'm asking it again since only nine people voted.
+So can you give me thumbs up if you have solved assignments and if you haven't attempt or haven't touched it, give me thumbs down.
+Okay, no worries Kabir.
+Let's try to stay in, you know, keep it pace, like it will take only, I think, maximum half an hour of your time within two days of time.
+So try to do it, possibly.
+And I see other two people.
+Guys who give thumbs down, any challenges you faced with content or you have any issues or you didn't get time, what was your problem?
+If you want to, you know, message me personally, you can.
+Okay, okay.
+So try to, you know, do assignment problems.
+If you're having any issues, let me know.
+I can help it out.
+I think one of the members have already pinged in the WhatsApp group.
+The other team member has helped it.
+So I face issue after installing Visual Studio Code and Windows machine.
+Shant, can we pick your issue in the doubt session?
+I'll help you out with that, whatever issues you are facing.
+So one thing you can do is Shant is like as soon as you're facing issue, right, post it in WhatsApp group.
+I might reply other whole like we have a bunch of people, right?
+Group of people who are along with us are studying.
+They'll also see that issue and help them out.
+We'll help you out.
+Okay.
+Okay, okay, then Russian issues.
+Please try to keep it up and close it down today or tomorrow whenever you have bandwidth.
+Why semantic?
+That part couldn't get much.
+Okay, and I'll try to repeat that part.
+Let's wait for another minute.
+Then I'll get started.
+Okay.
+Meanwhile, I'll ask if you can see my screen share.
+This is working fine, right?
+Like you can see the iPad screen share.
+Cool.
+How much is necessary for the full stack model?
+I was not able to complete this because of office work.
+I'm still struggling to complete it.
+I have a lot of backlogs currently.
+Atul, I would suggest you one thing.
+I'll take this last question, guys, for Atul or anyone who is having still DSA module pending, right?
+It would be really difficult to travel in both the boards at a time now.
+So DSA being a core element for, you know, cracking interviews.
+I would say the most but post cracking interviews, you will be more spending time on doing what we are learning.
+So keep this basics clear.
+So all the basics that I'm teaching, please, you know, focus on this as of now, because this will build your knowledge on React and NodeJS.
+If you're not able to focus or understand anything, if you have any doubt, do ask me.
+But if these things are clear only, you will be able to learn.
+So whoever having challenges from DSA or any other modules, I would ask you to know deep right eyes that one for now.
+Because what I feel for my opinion is.
+OK, if you have any personal things, we'll take it up in the doubt session again.
+I'll talk more on that.
+Hey, can anyone add or share around like WhatsApp group in the chat?
+And OK, let's get started with class today, guys.
+We are on time.
+So.
+OK.
+OK, so let's let's get started with today's class.
+You know, I'll try to put out the agenda.
+First, what we'll be learning today.
+So as the class name itself suggests, I will be learning two things.
+Firstly, least.
+Table and forms.
+So in a whole web, the whole web context, like whenever you're developing a website or anything, these two things place really great amount of room like forms are the one of the difficult task to create or to delete.
+OK, so people face many challenges.
+I would ask you to know, be patient with me when we are learning.
+We'll try to go deep.
+I will understand each point.
+OK, these three things will be covering it today.
+Along with this, we'll be covering one of the topic is what are inline elements versus block elements.
+So these are the four things that I plan to take it up.
+Other than this thing, I'll take the doubts.
+So one of the doubts that's been asked me asked to me is that, hey, why do this semantic elements were introduced?
+OK, so to divide, you know, there are two things people generally use dev and span.
+OK, so dev and span are the, you know, the user for dividing a sections or like you say that this is one of the area or this is one of the element or the one box or anything.
+People have been using this before.
+Even today, people use this elements itself more commonly, more specifically.
+But when you say dev and span, right, whenever you are defining a box or anything, you don't know what this box is talking about or what this content or what is this HTML is written for until unless you have yourself written it.
+Someone is reading the code.
+He cannot understand it.
+OK, audio is coming.
+Let me check this.
+Give me a second.
+I'm audible better now.
+Anandu.
+OK, great.
+So before HTML 5, they've been using only two things like to divide the sections or write content dev and span.
+But later on in HTML 5, people have introduced more elements which are name specific.
+When I say name specific, what do I exactly mean?
+You can all you can do all the things that you can do with semantic tags using dev and span.
+But to understand HTML to make it more readable or cleaner code, they introduce semantic like elements.
+Like if I write down a few things like header element or footer element, OK, main tag, then section tag.
+OK, then button you have.
+Right, you have now.
+So these whenever I write the things right, whenever I'm writing this thing by definition itself, we know that we are talking about something we are able to relate it.
+But when I say that this div is also acting, this is for acting for head and this the second div is acting for footer.
+We don't know until unless we have written the code, the person the other person is coming and trying to read this using devs.
+It's difficult to understand.
+So semantic tags are more preferred.
+If you are able to write it, it makes your HTML more readable.
+Is that clear is why semantics should have been introduced or how they can help us out.
+OK, great.
+So let's get started with today's content, which is least.
+OK, now, so basically in HTML, we have, you know, three types of least guys like least.
+If you see wherever you go for like you open a word pad or any doc Google Docs now representing navigation and tab Suresh like pains you have navigation like top menus.
+Like on the like I'll show you how navigation can be used.
+OK, you can say navigation panel generally.
+Multiple buttons.
+OK, so coming back to least guys, how many of you have used this list?
+Like if you go for, you know, you make a to do list, you make your noting them down, you note them down using 1234 or use ABC or you define bullet points or you use some sort of, you know, representation.
+So everyone might have came across the least right.
+You might be doing it in your any doc or to do app or any Google Doc.
+Right. Have anyone have hope all you have used this list right now.
+We'll see how they have been actually used.
+OK, how they have been defined or how they can be created.
+OK, so in least in HTML, right, you have basically three things.
+OK, one is unordered least.
+OK, second thing we have is ordered least.
+Third thing we have is description list.
+OK, we'll see them one by one example.
+Let's directly go and code it down.
+OK, let's see and code it down.
+I hope all of the members except the one I see who are facing challenge with results record.
+Everyone have installed it.
+Whoever have installed right, one can code along with me whenever I'm typing it down for better hands on anything you learn.
+Whatever I'm saying, if you understand that wouldn't be enough.
+If you code along with me, that would be really helpful.
+OK, guys, let's say we introduce class to inside this.
+I'll create least dot HTML.
+Again, I'm using Emmet, guys, HTML 5.
+Then once I have this, I'll name this as a least.
+OK, now let's say if you go with like unordered list, right, unordered lists are generally used whenever you don't have specific definition like or like you have a sequence of.
+Whenever you don't have prioritized list like it's just a general list of items that you write down.
+OK, can anyone give me when unordered list can be used?
+Any idea like when unordered list can be used?
+Any any idea when unordered list can be used?
+Or you have seen cart items?
+OK, so anything else, guys, like.
+Any any any else anything else like who doesn't have any, you know, representation.
+Grocery list or something which is whichever doesn't have any priority or the right at that particular places we can use unordered list.
+Let's see how you can write it down.
+So, you know, there's only one thing like if you want to define the list, if you are using unordered list, you have to remember UL.
+UL stands for unordered list.
+OK, once the tag is opening, I'll also close this unordered list tag.
+Once I have closed for each list item, you have to define it specifically.
+OK, this is how you define a list item.
+Let's say we are building a list of like let's say grocery items people have suggested.
+OK, now let's say if you are building groceries.
+Now, let's say you are trying to build on the list of items that you want to buy at the start of month.
+Like recently, many people who are running their homes might have, you know, your parents might have made you to write down the list of things or, you know, add into the cart.
+If someone is doing BlinkIt or like any other app or you might have picked it up from the store.
+Right. So let's say let's let's let's write down something, guys, in the comments, like what what all things you want to add and see this one.
+Let's say I add it. I start with maybe rice, five kgs that is needed for home to run a month with three people living.
+Let's say oil of.
+Two liters.
+OK, then you have a wheat.
+It may be again five kgs. Let's make it 10 kgs.
+And let's say you have tea.
+Right. 500 grams.
+And coffee for sure.
+So now let's see how this these things are represented in order unordered.
+So what I'll do is I've earlier I've shown you one of the ways using live server or secondary.
+Second thing is opening directly, you know, using the file system.
+The third thing that I want to show is like using directly that I have.
+I have installed one extension which which in behind the scene uses live server so that I don't need to switch between tabs of Chrome and, you know, editor.
+So I kept this way.
+OK, so this extension, you can use it directly from your extensions list.
+I'll show you.
+HTML preview.
+If you are practicing practicing any time right, you can see this live preview.
+So you can install this live preview like I'll also copy this and keep it for you guys.
+OK, I'll I'll put it in the like, yeah, scalar editor, you can say.
+So it's it's so if you're practicing any time HTML.
+Not exactly sure somebody if this if they're using the same thing.
+But this is something related same same way, like where you are typing it done parallely.
+It reloads the website.
+You don't need to again open the browser.
+OK, now let's let's get started.
+Now, if you see this coming back to this another list, guys, now anything that you define it by default, you are seeing in the bullet points.
+Now, if you go for another list, you have seen many ways of representing, right?
+You might have circles or the squares.
+If you know, if you remember.
+Like if I write down, so if you want to enhance any attributes, sorry, any elements you type down, you write down many attributes.
+Let's say if I add one and one of the attributes like type and define like, hey, I want maybe square.
+Let's say represent this bullet points in square.
+So when I make it square, you can see this.
+It's represented in square.
+I hope this it's visible.
+Right.
+This is zoom length works or.
+OK, so so you can always represent in many things like one element.
+So you can always represent in many things like one or either circle.
+OK, or circle is gives circle is something which when you define the circle, it's empty circle, guys.
+So by default, if you give a default, it is circle with filled.
+You know, it's filled.
+It's not an empty.
+OK, so generally you have three values when you go for type attribute.
+Like you can define bullet points and square squares or you can use circle or you can use the chain.
+Minimize this default.
+So when you use default, it is an empty or if you sorry by default, this is how you represent the circle.
+Then this square.
+OK, I hope everyone is clear.
+With this unordered list.
+Guys, any doubts till now?
+All right.
+Now, let's get started with something other thing, which is ordered list.
+Now, let's say that you have a sequence of things that you want to do.
+What would be the activity where you want to do a sequence of things?
+Like where how do you do it?
+Like let's say you have a to do list, right?
+A basic to do list.
+Let's say let's build our to do list.
+OK.
+Ordered list.
+Let's have one of the flights from less to high daily routine.
+Yeah, I was talking about daily routine.
+Like when you wake up, what are the things that you do or the next event you do that?
+That's all basic difference, right?
+Whenever you represent something in order list, let's say.
+To do list.
+Daily events.
+People have a habit of writing it down, right?
+Many people don't want to remember things like what are the sequence of things.
+They write it down so that like they'll follow that thing, whatever they have written.
+So it's one of my habit that I keep on doing multiple things at a time.
+So I write down things so that I remember what I have to do back, go back and check.
+So I make a notes of one thing.
+So that's how order list comes into the role for me.
+As Kiran suggested, even recipe, right?
+You need to add if you want to cook a Maggi, you cannot put the Maggi or then water.
+It goes like water, then Maggi, then masala, right?
+So same way, like it's a sequence order.
+So when you go for order list, let's say I want to define daily events.
+So one of the basic event is let's say what we have been taught in school, right?
+Whenever you wake up, firstly, you thank the God for the day, right?
+Pray for your life or pray for the good life that God has given you.
+Or get your day started with prayer, let's say.
+So I'm saying that prayer, OK, first thing, first event of the day.
+Then second event could be brush the teeth.
+Then maybe you have a list of events which you can say getting ready.
+Getting ready involves everything, guys.
+Let's define it that way.
+Then let's say you have office.
+Then let's say you have an assignments to solve.
+OK.
+Maybe then you have class.
+OK, then maybe you have family time.
+Then you can have sleep time or you can say bedtime.
+This is on a top level, right?
+How our day looks like.
+Generally, I've outlined how your day might look like when you're a scalar student along with when you're a working employee, right?
+Do you guys agree, guys?
+Everyone?
+Do you guys agree?
+Great, guys.
+So now, what's the difference in the order list versus an order?
+Now, in order list, if you see, you have a series of events, right?
+One, two, three, four, five, six, seven.
+The numbers are coming for the order list.
+Now, what if I want to change this type of format?
+If you remember, there have been something like, you know, Roman way of representation.
+If you see in childhood, right?
+In childhood, like we have like context, right?
+Whenever you pick any subject book, wherever you have table of context, like all the chapters or anything,
+they used to represent with Roman letters like first chapter, second chapter, third chapter for the math books specifically.
+Does anyone remember it?
+Or everyone left the school back five years, 10 years back.
+Right.
+So let's try out that way.
+Now, even now, if I want to enhance this order list, order list element, right?
+I'll again use a new attribute, the same attribute that I use.
+Now, if you see the amount of things like whatever things that I can put it here.
+Now, I was talking about using Roman description.
+So let's say I give it capital I.
+So if you see, I'm getting this Roman numbers, one, two, three, four, five, six.
+If I want it to be in small, I can give it in small.
+OK.
+Similarly, if I want to give it in alphabets, I can give small abc.
+And also I can make it capital, which will give me capital A to H.
+OK.
+So if I write down what all attributes it can take, let's say the type attribute for the order list, it can take capital A, small a, then capital I, which starts for Roman, you know, numbering, then small i.
+Then by default, you have numbers.
+OK.
+So everyone can play around with this.
+There's nothing much inside order list, I would say, because both follow the same concepts.
+You have to define each list item under the li tag, which stands for li list.
+And if you want to go with order, just remember O goes with order, U goes with unordered.
+OK.
+So any doubts in this case with ordered and unordered?
+It's pretty simple straightforward, isn't it?
+So somebody says, no, somebody with any challenge to have clear, right?
+OK, great, great guys.
+So now the third type of list that I've told you now, if you remember, like I want to give you one example, think of like a restaurant.
+Let's go back to the restaurant.
+If you go for menu, how does menu stands by like they put up one section, they put one section like starters under that one section, you have list of items.
+Again, you go for main menu, you have list of items.
+So it's it's it's comparatively different from ordered and unordered.
+Right.
+Intentation.
+Yeah.
+Yeah, that's how it happens.
+Right.
+Let's compare.
+We cannot build that same thing using ordered and unordered list simply.
+Right.
+Do you guys agree if you want to build a menu or a card that you see menu card like which have a section like a starter section under you have list of items under menu, you have a list of items.
+So now let's see if you want to build that how we can go with.
+Now, if you want to build such kind of things right, then we have something like description list.
+OK.
+Let's say.
+I define it as description list.
+OK.
+Which stands for deal.
+OK.
+Now.
+I'll give deal tag.
+Once I have description list.
+Now, after that, you have another thing.
+This is a very people don't really use them as as much, but they have different things have written wrapper over it.
+But I want to define it for you guys.
+So then you have description term or you can say category.
+Actually, if it's a category status or anything, let's say I define it as starters.
+OK.
+Then this goes for DT.
+Then let's say you have another thing.
+Once you have defined description term, then you have description like.
+Describe the items under it.
+OK.
+So this thing goes for DD.
+OK.
+Generally, when said when they say it is a description of a description term.
+OK.
+All the descriptions of multiple descriptions.
+Let's say if you want to define this one, first thing that you should go is like, let's say define the table like description term.
+Let's say I again go with the starters here.
+If you see.
+I'm able to whenever say we in temptation, it's starts with complete left right categorization like it starts with left.
+Then under that you have some cat items coming in the right.
+Now, let's see if that that is what it is being followed here.
+Now, when I go for a DD, which is describing what all things come under starters, does anyone want to give what all things you see generally in menu for the status case?
+I like my favorite one.
+Manchurian.
+How many of you write like Manchurian?
+Chili paneer.
+Nice.
+Chili paneer.
+Or.
+Dragon chicken.
+OK.
+Again, chicken lollipop.
+OK.
+No, so let's say let's keep it this way.
+Starters are some words like this amount of things.
+Now, if you can, are you able to relate this with a menu item like this is how it looks like.
+And you have a one section under that you get a new section.
+Now, let's say we define another new section, which could be.
+New section could be main menu.
+OK.
+Let's say I say that.
+How you define main menu as main course, right?
+Generally, when we go into buffet system, they define it main menu as a main course.
+Now, let's say what you want to keep it in main course under rotis only you have four or five rotis.
+So let's say I define it as common as all the rotis.
+You under this, you get a room Ali.
+Then you can have Parota.
+OK.
+Multiple things, right?
+Then let's say also you have.
+Biryani, right?
+Let's say I define it again.
+Multiple biryani's here.
+Could be chicken.
+Could be paneer.
+Then you have multiple curries like could be a chicken curry.
+I'm just giving them a broader description in chicken only.
+They don't have 10 dishes in paneer.
+They'll have 10 dishes.
+Right.
+So this is how your main course looks like.
+Now, let's say if you one thing which is which is left to in the menu is like deserts, which is the end part.
+Now, let's say if you one thing which is which is left to in the menu is like deserts, which is the end part.
+Isn't it?
+Now.
+New section.
+Deserts.
+Any suggestions for deserts?
+Gulab jamun.
+How many of you like Gulab jamun?
+Who are the desert fans?
+Okay.
+Great.
+So let's say I define.
+So let's say I define.
+So let's say I define.
+Oh, too many.
+Gulab jamun.
+Gulab jamun.
+Let's say ice cream.
+Let's say ice cream.
+Let's say ice cream.
+Then rasmalai.
+Then rasmalai.
+Then rasmalai.
+So I'm using, you know, more watery.
+Because I like rasmalai too much.
+I only like that thing.
+In childhood we used to have a sweet shop.
+So I use it left eating all those things.
+So I use it left eating all those things.
+Follow the.
+So in general we are halvaiz from future generations.
+So in general we are halvaiz from future generations.
+I want to serve the stomach.
+I want to serve the stomach.
+Brownie.
+So, OK.
+I think this is enough.
+So I hope now you got the basic difference.
+So I think this is enough.
+So I hope now you got the basic difference.
+Like seeing this example.
+When to go for description list.
+When to go for ordered list.
+When to go for unordered list.
+And how you can type.
+Really basic guys.
+Any type of list you have a wrapper.
+Whatever type of wrapper is that you have only three wrappers.
+Order, unorder and description.
+Once you define the wrapper.
+For order and order.
+You can directly define whatever items you have.
+It will take by default.
+Like it will have default style.
+If you want specific to change it.
+You can use type attribute and you can change it.
+You can use type attribute and you can change it.
+When it comes to description list.
+Since it's a menu sort of thing.
+You have to give a category name first.
+Once you define a category name using description term.
+Once you define a category name using description term.
+Then you can define using description items.
+Or description of description term.
+So it goes for DD.
+Now under this DD.
+You can define multiple items.
+This way.
+So any doubts guys.
+With list items.
+Or you are confident about that.
+If someone asks you to define design list items.
+You will be able to do it.
+Do you have any type for descriptions?
+I didn't explore it.
+Let's explore this.
+Type.
+I don't think we have anything guys.
+Never used it.
+Let's say I used one here.
+Nothing will affect.
+Okay.
+Or let's say I give circle also.
+It won't come.
+So description list works this way.
+It's a header.
+Under one header.
+It will have multiple things.
+So in DL right.
+If you go for.
+Under DL tag.
+I didn't explore anything.
+DL element.
+HTML.
+There is nothing.
+As such I guess.
+Even.
+W3 schools haven't defined anything.
+Let's say if you go for MD and docs.
+See.
+No one is using any attribute for a DL.
+That's how it works guys.
+I don't think anyone have anything specifically.
+Can we use nested list?
+Surely you can use.
+Like let's say.
+Let's convert this thing.
+How we can convert this one.
+I will give you an example.
+Let's say we are building again.
+List of items right.
+Now.
+Let's say I start.
+Order list.
+Inside that you have one li.
+Inside this li.
+What if I.
+Leave this list of items.
+Let's say.
+Okay.
+Again the second thing.
+I will again copy this one.
+Just let me copy this again.
+Now let's.
+I don't need tab 9.
+Now if you see.
+Under order list I have copied two things.
+Like I have made two list items.
+Which are coming by section 1 and section 2.
+Okay 1 and 2.
+This is fine.
+Let's see.
+That you can use nested things.
+Okay.
+Great.
+Let's say I make another.
+This one I.
+Give us.
+Third section for better view.
+Okay.
+Alright.
+Let me remove.
+This section from here.
+Deserts.
+So now.
+If you want.
+Since we don't have title.
+If you want since we don't have type operator.
+Now you can see that for each section.
+I have also given numbering system.
+So one as status two as a main course.
+Third as a desert.
+How did I was able to do it.
+Like I used.
+Ordered list.
+And inside that each list item.
+I have used this dldi description.
+And then I have defined category.
+Then I use like items.
+This is fine guys.
+So give me thumbs up guys.
+If you can go ahead with the table.
+Because this is one of the easiest topic.
+That we could have considered today.
+We have much more interesting things to learn today.
+Okay. Cool.
+So at least few more guys.
+Few more thumbs up. We have too many people in the class.
+At least 10 to 15 would really helpful.
+Okay. Didn't get that numbering part.
+Give me a minute.
+So.
+Somewhere I got the question from this is that.
+Can you combine.
+Two types of list.
+Okay. So what I said that.
+Hey you can do that.
+What I did is. Now if you see.
+Earlier whatever description list is.
+Doesn't have any numbering format.
+And we didn't have any type attribute.
+To make it a numbering format.
+So what I did is.
+I created ordered list.
+Which will give me numbers.
+Now inside each list item.
+I will add. So DL element.
+Which will give me a separate section.
+Okay. Same thing I have repeated multiple times.
+Like let's say three items.
+Which will give me three numbers.
+Clear.
+Chalo guys.
+Next topic would be.
+Tables.
+Table start HTML.
+Let's close this one.
+HTML5.
+Alright.
+Let's open the preview.
+Show preview.
+Okay.
+Let's say this is.
+Tables.
+Now.
+Tables is an another.
+You know interesting.
+Use case where you see.
+Too many things are represented.
+In terms of tables right.
+Can you guys give me an example.
+Like where you see tables.
+One thing that I would say.
+If you go for your pay slip right.
+One who awaits to see.
+How many tax it got deducted.
+Or how much you got paid.
+So if you go.
+You have multiple sections divided.
+With each section.
+And you see the divisions right.
+And attendance.
+And even like there are too many examples.
+Like if I give you some examples.
+That I wrote personally.
+Schedules.
+Schedules right.
+Even PSP percentage and scaler.
+Everything is represented in terms of table right.
+Calendar.
+Even IMDB.
+Bill invoice right.
+All those things are represented.
+In terms of table.
+So table is also one of the interesting.
+Way to like represent how you can represent.
+The data in terms of rows and columns.
+Because whenever you see table.
+It's like a 2D matrix isn't it.
+Now let's see how you can define.
+A data in terms of.
+Like these two sections.
+Okay.
+Now.
+Firstly.
+Table generally you know.
+If you go for any table right.
+Basically you have two things.
+By default.
+By default.
+Let's say you have this thing.
+Table element.
+If you want to define a table.
+You have to start with the table attribute.
+That itself stands for that.
+Let's say if I have table.
+Now.
+This is how you start with writing with a table.
+Now inside the table what are the sections.
+That you generally see guys.
+What are the sections you remember.
+Let's say you take an example of.
+The scaler percentage itself.
+Rows and columns.
+That's fine.
+But let's say.
+PSP percentage.
+That's something that you see right.
+I don't exactly know.
+How it is represented.
+But let's say there would be a batch name.
+There would be a person name.
+There would be a PSP percentage and their rank right.
+Let's say if we have such way.
+Now.
+By this we know that each table.
+Will have its header isn't it.
+Table will have a header.
+Which will give the.
+What are the column names.
+Isn't it. Like serial number.
+Name. Grad. Year. PSP.
+Ok guys.
+These are the header names. Now let's say.
+If you want to define any header right.
+By default you have something like.
+Table header if you have to define.
+There is a tier.
+Called T header.
+Which stands for table header items.
+Now let's say if you are defining a table header.
+Let's say I will go and say that.
+Hey give me a T head.
+Once I have T head.
+Now inside T head also.
+You have to always create.
+A row. Inside that you have to create.
+Multiple columns.
+Now for creating rows.
+Ok.
+For creating rows right.
+There is a one tag called table rows.
+If you go with table rows.
+That is defined by TR.
+Ok. Now.
+First I will create a TR.
+Table row. Inside that I will say that.
+Hey I will create.
+TH.
+Now each column.
+Either it is.
+Ok. Now I will say.
+Let's say.
+Each column.
+Can be defined using two tags.
+TH or TD.
+TH is something.
+When you go for heading part.
+Ok. TH goes for.
+Table heading.
+Under that section.
+So all the headings like table headings.
+Now let me minimize this.
+Now again.
+TD goes for.
+Table data.
+Ok.
+So I am writing descriptions here.
+Such that once you refer the notes right.
+You will be able to see why I am defined this thing this way.
+And what it is standing for.
+Ok. Now.
+As you people suggested me.
+There are the four things that can exist right.
+Let's say serial number. Ok.
+Now let's say.
+Second thing we have.
+Let's say.
+You suggested me.
+Instead of grid.
+Instead of serial number.
+Let's say we have name. Which is a unique attribute in itself.
+Then you have subject.
+I am giving very simple guys.
+In order to teach it. Let's not get complicated.
+Let's say we have a PSP.
+Fine.
+Name of a person.
+Subject and its PSP.
+Now if you see.
+Whenever you are defining in TH.
+Whenever you use this right.
+For the table heading.
+This thing will. The table headings will come in like.
+You know bold format.
+Now let's define.
+Content for it.
+Now whenever you go for content right.
+You have to use.
+A tag called table body.
+T body.
+Inside t body itself.
+You will be able to define.
+Throws.
+Now again.
+If you want to define a row.
+Just create a new row.
+Once you create a new row.
+Again you create a TDA element.
+Which is going for data.
+Like for this data.
+Will be aligned exactly with the first.
+TD will take it a space for the TH.
+Which is name.
+Now let's say if I am giving a name as Tejal.
+Okay.
+Once I have Tejal.
+Okay.
+Again I go with TD.
+Now let's say I go for DSA.
+Let's say.
+Is 80%.
+Okay.
+PSP.
+Okay.
+So this is how you can define.
+Table head and table body.
+At least till now.
+Anyone facing any challenge.
+Understanding wise.
+Pretty much clear or how you are facing it.
+How you are feeling it guys.
+Okay.
+So now.
+Let's say I also define this T body.
+Goes for.
+Table content wrapper.
+Similarly what I will do is.
+I will create multiple columns.
+Multiple rows.
+Let's say I have 4.
+With Muneshwara.
+Okay.
+Let's say let's make it 85.
+Let's make another.
+Kabir.
+Don't take anyone personally guys.
+I am giving some random numbers.
+Okay.
+Or else I will change the subject.
+Let's say LLD.
+Okay.
+Computer fundamentals.
+Okay.
+Now let's say.
+Again.
+Let me get another name.
+Shant.
+Okay.
+Let's say same.
+Now if you guys see this.
+Let's give this a 75.
+Let's make.
+Let's keep this.
+Okay.
+Now.
+What we are seeing by this is like.
+Like what we have defined till now.
+Is that we created headers.
+And for that we filled this data.
+Now this table.
+Each table will have a set of.
+Let's say I am using one of the attribute guys.
+You need not to worry with this attribute.
+I will teach them.
+Once we go for CSS part.
+If you see as soon as I write border.
+You can see a border was added.
+I will use one pixel.
+Solid.
+Black.
+Need not to worry about this thing.
+Even if I don't write.
+It will take it as this border.
+Now along with that.
+I will use.
+Let it be this way till now.
+Border.
+You will clear Shant.
+You will clear many great interviews.
+Just be focused.
+Just keep doing it.
+There will be a day.
+Now you will feel proud of yourself.
+Now.
+Till now guys any challenge.
+With understanding basic things.
+Anyone having any challenge.
+With understanding table basics.
+Like table header or table row.
+Or how you define column.
+Please participate guys.
+I have seen only 2-3 people.
+Clear.
+Now.
+Let's say.
+There are 2 things now.
+Let's say I define one thing.
+Under the table body also.
+What if I want to define something like.
+Footer.
+So under.
+Here on this also.
+You have something like table footer for the tape.
+Like I am having problem nested.
+Can you explain show once again.
+I will do it in a minute.
+I will pick it up that nested.
+I will show it back again.
+Let's focus on this.
+Once this is cleared I will go back there.
+Works Ashish.
+Now.
+For the table also I can show.
+Footer.
+For the footer.
+What I am showing is just a summary.
+Or else I will say that.
+Total average.
+What would be average guys?
+Out of this.
+Can anyone get me an average.
+Of this course.
+80, 85.
+80, 75.
+So you can calculate it.
+80.
+Plus 85.
+Plus 80.
+Plus 75.
+Divided by 4.
+It gives me 80.
+Great. Thank you.
+Thank you Sean.
+Let's say 80.
+Now.
+I didn't get T foot added here.
+Let me see why it didn't come up.
+So firstly I have only one row.
+Inside that row I should have.
+TD.
+Because the description that is total average.
+Once I have this is also TD.
+Because it's talking about percentage.
+Now.
+Let's keep back again.
+So do you think guys this is the right way of representation?
+Do you think this total
+average is the right way of representation?
+Like what can we make it?
+Like to make it look better.
+Any ideas like what we can
+look from look wise right?
+What if we can extend
+this right?
+Total average till here and
+merging the columns right?
+Moving this 80 to this end
+and total average merge
+like column 1 and column 2.
+Right?
+Let's try that. So whenever
+you want to extend right?
+One particular like item.
+To multiple columns.
+Like you want to extend multiple
+columns. Then something that you
+can do is that you can say
+row span.
+Now when I'm saying row span.
+I'm talking about how many
+rows I mean columns
+that it should cover. Sorry.
+Call span.
+So I'm talking about
+how many columns this total average should cover.
+Now when I say that
+I want to cover this name and subject.
+I mean to say that I'll pass a value
+of 2 here. Which will
+say that I'm covering 2 parts.
+So I merged
+2 columns into 1 and I've told
+that hey total average take
+this whole space.
+Is call span clear guys?
+How call span can be used?
+Let me write down here
+for better idea.
+Call span.
+Which defines
+amount of columns.
+It need to cover
+or spread across.
+Similarly there is another
+thing guys. There is another thing. What if
+let's say Teja has
+another subject. Like let's say
+Teja has another subject of
+can say
+LLD.
+And let's say Teja scored
+in LLD let's say 75.
+And let's say there
+is something again.
+Let's say he have also
+another subject which is computer
+fundamentals.
+Okay.
+Let's say he again scored
+inside computer fundamentals and he scored 83.
+Okay.
+Now. Again
+do you think
+here again we can make some
+changes. We merged columns earlier.
+Now we say that we are talking
+about Tejal here.
+And Tejal's name is being repeated thrice.
+What if we can merge
+3 of rows for the name and keep
+DSA LLD fundamentals
+separately.
+Right. Let's try
+that one. How we can do it.
+Now whenever you
+are going for this one. Right. Let's say I
+go and tell that
+I'll say that
+earlier we use something called as call
+span. Now I'll use row span.
+I'll say that 3 names. Okay.
+Now if you see as soon as
+I gave this
+everything got disintegrated.
+Like everything looks odd.
+Now to fix this one what I'll do is
+like I'll remove this name. Okay.
+I don't need this name firstly.
+Now if you see
+if second row and third row
+are having only 2 items.
+First column is
+being spread by this name for the
+3 levels. Like 3 levels
+Tejal has been filled. Now I'm only
+using 2 things to be filled.
+Okay. Which is like
+second column and third column.
+Are you able to relate like how row span
+will work?
+Let's draw
+Okay. Got it. Right. Cool.
+So if anyone having any challenge
+I can explain. Right. What exactly happened
+is once we filled this first column
+in the second column when I'm coming
+I'm seeing that first column is already
+taken. So I
+define only for second and third.
+That's how it works. So I
+hope now row span is also
+clear. But I'll write down this thing here.
+So that next time whenever you
+come it should be clear for you.
+Let me
+copy this.
+Just
+I need to update this as rows.
+Okay.
+I hope
+everything is clear now as of now.
+But one thing is missing guys.
+Footer part. Yeah.
+Scroll down a bit.
+One thing is missing guys.
+How is it taking second instead
+on the first.
+You mean to say here
+like I didn't exactly
+get your question Kabir.
+Are you talking about
+why this
+LLD is taking in the second part
+instead of first
+for Tejan.
+Right. Now. So let's say
+I defined it one item
+which will take three parts of space.
+Okay.
+I've told that hey in the head part
+I'm having only three headers.
+Name, subject and PSP.
+Now I told that hey Tejal
+name will be taken for the first
+three spaces. Now when I say three spaces
+it is already
+when I'm defining a second row the
+first it is already defined.
+So whenever I define the first thing
+it will go for the second place.
+For the same thing
+for the third place.
+Yeah. Okay.
+So it is already specified because headers are constant.
+Clear.
+So somebody was asking
+me to go to the footer part.
+So
+now guys anything is anything missing
+like we are
+saying this table we are having names,
+subject, PSP all great.
+We have used row, span, column,
+span and defined headers
+and all the things. But
+is there something missing?
+Anything missing? I tried footer
+it came at top. Okay.
+Did you?
+I'll check with you Pindra once like in
+doubt session. Let's pick it up that way. Okay.
+Least table name. Yeah.
+Tejal mentioned table name.
+What this table is talking about?
+If someone new person comes
+who is not from computer
+science background or
+not from scalar, he would not
+get the what PSP or what is this
+TSA or LLD right?
+Do you guys agree?
+There should be a context what this table is
+talking about. Isn't it?
+So now if you want to define
+a table name anytime right
+you have one thing
+like you can use caption.
+Whenever you define caption right
+you mean to say that you are talking about
+like what this table
+is talking about in general. Let's say I
+define it as a tracking
+of subjects
+or let's say
+student
+scores
+or like something like
+okay any
+name but in general what my idea was
+like how you can add a
+caption to it.
+I hope this is clear guys.
+How this thing works. Table works.
+Okay.
+Any doubts from the
+context of like
+you know till now whatever
+we have discussed. If anyone is not
+able to follow up or having any
+issues I will pick it up. I will pick it up
+in doubt session. I will ask you to
+change and I will check that. No issues with that
+but generally if you have anything
+do let me know.
+Can the footer be kept bold or to
+achieve that we have to add
+no no not needed.
+If you want to keep a bold right
+always you can do something like let's say
+I'll have a style tag
+don't use it. Don't be worried about this one.
+We'll learn all the things okay.
+Okay.
+Then also you can use
+font.
+So you can use a style tag
+and define what type of things that you want.
+How it is merging.
+Combining the row I had doubt.
+Okay. Now
+so
+coming back to Vigneshwar
+Vigneshwar
+Vigneshwar
+Can we add a
+list of subjects in a table call.
+Give me a second guys. I'll take
+Vigneshwar's question first.
+So Vigneshwar now I'll
+try to re-explain how this row has been
+combined. Earlier right we had
+three places like three subjects
+under the Tejal name DSA, LLD and
+Computer Fundament. I thought like
+why we not combine all the rows
+and use only one Tejal name. Right.
+So what did I do is that I have
+in the first row where Tejal was there
+I have told that hey take this
+name and spread it till
+three rows. Okay. I said
+spread it till three rows. Now whatever
+next three rows are there under that
+Tejal will be automatically added.
+Okay. Then
+what I did in second row is like
+I've added a LLD part
+like I didn't have that first
+TD because it is already occupied
+till the third row.
+Okay. If you see this only three rows
+first row and only defined I
+have spreaded this one and merged
+completely. I haven't
+defined in second row and third row because it is already
+consumed by first row.
+Is that clear Vigneshwar?
+And also I had
+can we add a list of subjects in table column?
+List of
+subjects.
+We can do that. We can do that.
+Let's say
+it's a combination of HTML.
+How do you want to define? Let's say in this
+TD I have again
+unordered list. Okay.
+If you see in unordered list let's say I have
+list item
+inside that I write dsa
+again I can have
+right.
+So you can write all the combination guys.
+Whatever combinations you need you can write down.
+So I'll keep it simple as of now.
+If you have any
+challenges trying out
+combining things
+we'll discuss this later.
+So I hope tables
+and list are clear guys.
+So someone was asking me related to
+combination of list.
+How that list combination
+worked?
+Who was it?
+Ashish.
+So if you see this Ashish
+what did I do here?
+I think the rest equation me.
+Like if you can combine ordered
+and description list or any combination
+of list. So what did I do?
+Generally I went
+and ordered list which are like one,
+two, three. Inside ordered list
+you define each item under the list tag
+li tag right. I've had the simple
+li tag. Now inside
+each li tag again I open
+dl tags. Now if you see
+under dl tag I've described starters
+and under that I've given each list
+of item separately. Now
+I went with the second list of item.
+Again I started dl tag.
+Inside that I've defined another course
+and I've given its subsections.
+Is this clear? Because why did I explain
+this example this way is because we didn't have
+ability to add
+a type attribute to
+dl tag.
+Because type is not supported
+but if you want to add numbering convention
+this is how you can do it.
+So I hope guys this is clear.
+So I want
+to get started with forms.
+Thank you for
+communicating
+replying me
+for the chats.
+Now
+guys please stop chatting
+please focus here.
+Hope you can see ipad guys everyone.
+We are starting with
+html forms.
+So if we cover the topics well
+we'll leave early or else
+we'll cover more on portfolio
+project. It's up to you whatever you choose.
+Anyways I'll share the
+code base with you. It's out of the curriculum.
+I'm giving you but if you want me to cover
+I'll cover that. But it's up to you. Please
+focus so that we can cover that part.
+Now
+forms
+Now whenever
+where all you can
+see the forms generally.
+Where all you can see the forms.
+Give me broader scope like what
+amount of forms that you have seen in general
+life like in day to day
+life.
+Login
+Login
+Give me few more things.
+Sign up
+Registration
+Let's keep it this way
+till this example.
+We have these three things.
+These three things can extend
+up to anything but let's keep it
+these three things.
+If you go for login
+what all things are there?
+What all things are there in login?
+What type of things are there?
+Let's say you go for a page
+let's say you define it
+login. What all things
+do you ask?
+Ok
+username
+let's say this is
+username
+this is password
+and
+captcha
+does anyone
+remember me?
+like forgot
+password that's cool
+I'll add this as a remember me
+ok
+then you have something like
+login
+Now
+let's see how's
+general behavior like what you have observed
+now if I type in this
+thing
+what I'm able to like
+if I'm able to type into the username
+can you see it when you're typing it?
+when you're typing it
+your username you can see right
+so can we say this is of type
+text
+right
+when you type down in the
+password
+can you see password?
+or you see dot dot dot dot
+no right so this is of different
+type this is of different
+type let's say I don't want to define
+what is the type of it but this is of
+different type
+ok but there is something
+happening that user is not able to see
+right similarly
+remember me is something
+like where you get a tick mark isn't it?
+you get a tick mark whenever you
+check mark or you have
+something like right
+now what that thing is called
+anyone know or does anyone know what
+it is called checkbox right
+now
+I want you to
+give me what all things like let's say
+you go for registration right
+as you say in this this is a text
+now this different type is generally
+we call it as a password type
+right so
+we have defined
+or like let's say we define few things
+you have text
+you have password
+you have checkbox
+you have this
+button
+and what all things you can think of
+like what all things different type of things
+can be needed let's say you go for
+registration you go for gender part
+select your gender
+male female or other
+what type of things can come radio button
+right
+okay
+okay
+someone might be asked to like
+drop down
+great
+and what all things
+that you can see
+I agree with small tick
+that's a checkbox Suresh
+or let's say
+someone ask you
+about like
+feedback box or like let's say
+write about yourself
+yeah Rohit says
+text area
+if someone doesn't know
+understand different text and text area
+I will cover it up okay description part
+now and what all
+things you can think of guys
+I have few more things
+whenever you are creating gmail
+you are supposed to
+select your email
+also
+date of birth
+okay next next guys
+anything else anything else
+drop down goes with select
+phone number
+email right email
+phone
+address address
+will be again used for text area
+something
+mandatory fields right
+now but think of something else one thing
+your guys are missing one thing if someone
+guesses it it's really great
+one thing you are missing
+I will give an example where you can think of
+now you ordered something through swiggy
+it reached it but you didn't like
+it's not what you expected
+now you go to health channel and you do something
+upload right great
+this is a file upload
+so
+these are the common generic
+things right these are the type of things that you
+handle in form ratings
+right that's a
+rating itself
+it's a one LLD equation
+how do you design ratings
+okay we will come to that
+but later on pop up that's a overlay
+that's not a form okay sure
+but these are the least
+of things that you generally see on a form right
+these are the least of things type of things that
+you see on a form wherever
+you go so why we say forms
+are difficult is because
+the way the data is hold or the type
+the things that is needed to you know
+handle this one
+is difficult let's see
+how we can do this one
+we will pick it up by simple login
+form then we will go with the
+registration which is a bit difficult part
+we will define each one step by step
+now let me go back
+to the editor
+and let me
+open this
+forms.html
+HTML5
+let's say a form
+let's say this as a
+login form rename it as login form
+login form
+login form
+now
+let me open this preview
+show preview
+okay fine
+now so
+let's say I write down
+as a header to
+login form
+okay
+now
+anything guys
+as of now
+as of now anything that you see
+as like table is wrapped
+under the table like similarly
+if you want to do something for the
+like you know form it should be
+wrapped under the forms thing
+okay now let's say
+first thing that you have to do is
+like it should open and close the form
+okay
+this is a base element
+which lets you to create a form
+okay everything should be inside this form tag
+now
+to handle all the types of attributes
+that you just told me like if I
+tell you all the attributes which I mean to
+say this all things text password
+input radio button drop down
+most of them
+70-80% of them
+comes under only one type of
+you know one type of
+tag which is input tag
+if I type down input tag
+and just close it
+it's a self closing tag there is nothing
+in between you can write
+everything that you have just
+told me like all the suggestions
+that I've got except drop down
+I guess except drop down
+most of the things can be covered
+using input tag is that part
+clear at least till now
+so input tag is
+all the thing that you need
+okay now
+let's say you have the third thing
+is button
+inside our button let's say you
+have submit okay
+this is how our user
+like login form looks like right
+like you have two things like
+you can type it down anything here also
+you can type it down anything but
+this doesn't
+explain us anything like what
+this boxes should be filled with
+so we should give something naming convention
+to it let's say for writing
+inside the box right we have
+something like a attribute called placeholder
+whenever I have user
+placeholder I'll say that
+username whenever I give that
+hey this is username or let's
+say please enter or like
+leave it that way because we are not using much extra
+space let's say name
+username again if I define
+a placeholder I'll say
+that password
+okay now
+even if I do it this way I am typing
+it down it is erasing
+right it is erasing can you see this
+that still it is erasing but
+even then you want to show
+that hey even if it is erased
+I want to know what you have entered what
+I want to remember now let's say there are
+20 fields there are
+20 fields 20
+fields of form you have given place
+holder describing what
+you have to enter but you have
+entered 7 8 fields
+and you went for a break you came back and
+you see that 7 fields are filled you don't
+know what you have filled right because
+you don't have anything describing what
+this field is associated with isn't
+it
+do you guys agree
+okay for that
+we need something which
+tells that hey what this particular
+field is talking about for that
+we need something called as label
+okay
+when you use label let's say
+when I am using a label called
+username
+okay
+when I write username now by
+default you will be able to see that hey
+this is talking about username
+this field let's say I put this inside the
+div
+such that they are
+together okay
+now even this
+is saying that please enter username or
+username even if you type you know that hey this field
+is talking about username by default you can say
+similarly what I will do
+is like I will go with the second part
+I will create another div I will pick this
+input tag I will
+keep it here
+and I will also add a label
+part for it
+which will say password
+okay
+or capital P
+okay now
+let's say you also have
+a brick which is a line
+brick I am using it
+okay which will give us space guys
+nothing else it's not needed
+but you can use using CSS
+but I am just using it for namesake
+okay let's remove it
+we are not introduced it
+we won't use it okay
+so we see that we have two things
+we have defined label now
+but still password
+we are able to see right there is something
+like dotted thing it should be there
+but it's not coming up right
+for doing that part
+you have to use attribute called type
+earlier also
+for defining different types of
+list changing how
+enhancing those right type of
+list with numbering convention or ABC
+or anything we used type
+attribute itself here also we will use type
+attribute itself with let's say I
+say now password when I say password
+and I save it
+why is this
+okay now when I say this as a type
+as a password now if you see whenever
+I am typing it
+okay P A S
+okay now
+if you see whenever I am typing it
+now if you see like I am not
+able to see but this is a trick guys
+does anyone know
+how we can get this password
+without you know
+person asking that person
+let me
+from inspect okay I will
+open inspect so you guys have to
+help me out
+how one can do it this is
+one of the thing that we used to do in our childhood
+but
+so some people know it already
+like let's say
+I typed on user name
+okay I also typed
+on password
+so one thing you can do guys is that
+I will go and
+select this field particular field
+now once I have this type as
+password I can change it to text
+once I change it to text I can see what
+I have typed how many
+of you did this with your friends
+or your girlfriends or boyfriends
+most of them
+great
+so
+okay
+I used to
+use one of the how can we
+add space between the label and input
+without CSS
+some bit
+I actually used a line break
+that's not
+necessary but we can have
+this break okay
+okay if you see this I have
+a break field
+br
+which is break the line
+okay this is how you can give the space
+label and input okay
+label and
+input okay
+give me a second
+now for that thing right
+always one thing you can do is like you can give
+extra space that doesn't work
+but without using CSS
+without using CSS why
+give me a second guys
+without using CSS yeah can we
+I will think about it currently it is nothing
+striking me but we will think about it okay
+and Anandu
+says something y slash n
+this way
+is it
+I am using for slash yeah
+so you know my way of
+writing is like when you go for appear coding
+right whichever thing you are opening it
+please close them
+anything that you are opening please close them
+okay
+okay
+so that's why I was using
+can we use table so that align properly
+we can use it but login forms are
+we will take care about styles
+later on guys don't worry about styles or the
+spaces as of now let's grab the
+concept of table okay
+now coming back to this
+one please give your attention guys
+once we complete login form we will take a break
+and we will come back okay
+how we can align both user and password
+box parallel
+Sambit we will come back to
+styles later okay let's focus on
+forms alignment CSS we will think about
+later okay
+so that the content which we need to cover
+we will cover it up today
+okay
+now
+already I think Suresh
+has given the answer but we will see
+the other things later
+guys how many of you remember
+one thing that whenever
+I click on something like
+this field my cursor
+takes focus inside
+this one like whenever
+I click username my focus
+goes inside this whenever I click
+password my focus goes inside
+this
+did anyone observe this one
+this functionality in forms
+like whenever we click on something
+on label it
+goes inside this let's see if we have
+any site which can show us
+let's see
+scalar.com works or not
+incognito will open
+incognito because
+scalar.com
+say okay
+this thing has a different naming
+you know they have changed
+with CSS
+or any other website let's say
+flip card
+sign up
+too much responsive
+okay they have this simple naming
+convention or let's say
+material UI
+bootstrap
+bootstrap
+bootstrap
+how many of you use bootstrap
+earlier
+I see some of
+the people have used it
+so I am checking guys I am not able
+to see one thing but
+there should be something like
+content I am going for forms
+so form control
+I don't know
+good form control but
+yeah now if I click a password
+now if you guys see this
+what I was talking about now I am not
+going inside this and typing it
+but I am clicking on this
+label itself whatever label is there
+I am clicking on there it is taking
+focus inside so this is what I
+was thinking
+so anyone any idea how we can do this or
+how we can achieve this
+bootstrap is something
+framework which is
+built in components that we can use
+we will talk about that
+in future upendra
+diraj says for in label
+so whenever you are
+clicking this thing that is taking
+focus inside this means there is some
+attribute which is enhancing this
+functionality right
+one thing we have to do is
+lets say for the placeholder
+I will have an id
+now I am using new
+attribute
+id for any
+field or anything that you
+define for each html
+file it should be unique
+try to make it as
+much unique as possible like
+id stands for unique id
+now lets say I give
+as user name itself
+now this id I will associate
+with this label using fur
+so whenever I am writing
+a fur and I am saying that hey
+this particular user name of
+label is associated with this id
+then I say that whenever this thing happens right
+now whenever I click on a user name
+my focus automatically goes inside
+this user name
+now lets say if someone is
+connecting with
+placeholder
+no it doesn't work with a placeholder
+it works with id attribute
+whenever I am clicking this still it goes inside
+is this clear guys how I am able to
+go inside clicking on a
+user name label inside this
+in a same way lets do it
+for the password also
+now once I
+go here I come here
+and id I make it as
+password
+now again I click here
+I am having password
+now
+one thing that
+will do it is like now
+if I click on a submit button
+lets do it on browser
+I think we have opened this on browser already
+no this is incognito window
+lets say this is
+where it is
+now if you see here
+we got the page
+from this local server
+but lets say I type down
+anything
+my name and some random
+data as password and click on submit
+as soon as I click on submit
+if you see there is something happening
+I am not able
+to show it here
+give me a second
+lets say I make it as submit
+once I have this
+I actually
+wanted to show you how
+post data call works
+lets see this
+after break
+once we define
+registration then we will go with
+how this post data
+thing works
+now action part I don't want to introduce
+that attribute to it
+so that changes the url part
+so we will see that
+what if I add a method
+like post
+since we know what post method does
+lets say I have a post
+and I have something
+I click here
+nothing will happen here
+now if you see
+it failed to send
+405 errors it says
+nothing is there
+inside this
+post method
+login form html
+lets see this, we will come back and explore this part
+use get
+get is getting the data
+its not something you should use
+you should use post method when you are posting
+you are also generally posting the data
+sending the data
+so guys
+other than this submit event
+which is not part of
+discussion as of now
+is everyone clear
+like how we can define input tag
+and how we can play around with user name
+password and submit button
+and how we are associating
+whether it is necessary to give id
+100% vigneshwar
+if you have any of the usage of id
+in future classes
+once we will start with css
+and even when you go for react
+how id matters
+but it is surely
+if I am your code reviewer
+I would ask you to add id for your
+whatever
+html content
+structures you are writing
+so
+guys if this everything related to
+login form is clear
+if you want a break we can take a break
+or if you want me to go ahead
+with registration form I can go ahead
+whats your take guys
+for attribute value in the label
+id value must be same
+right yeah for value
+attribute and label and id value
+must be same yes exactly
+break please
+ok 10 minutes break for dinner
+how many
+how to remember valid unique
+id for entire site
+not necessarily
+so now if you say
+each form when you define I am saying
+login form how many times you will have
+user name id
+or please enter user name id
+you cannot have
+more than 2-3 names right
+so you
+define unique names like
+by default because even id
+helps you to
+write unit test cases
+in future we will see in react
+because you use the data test id
+but I will
+talk about that its not about
+remembering unique name its just writing it
+unique name ok it shows
+that why I will tell you
+whenever a DOM is built
+right whenever a DOM is built
+now each thing
+now if you see
+going back
+going back
+now
+lets say
+what happens is if I have
+this div two divs are there
+if I have this id
+we will talk about this in
+future
+lets take a break from that
+we will talk about that in future
+you will have many use cases
+lets go for the break guys
+I will start the timer
+please after css
+yes yes
+so how it will work is that
+you will learn
+JavaScript after that
+you will go for react because react
+works with HTML, CSS, JS
+you have to have a knowledge on DOM
+we will build a project called canban
+after that we will go for
+react so its project
+project driven module mostly
+so we will see that and we will learn
+and we will go with that
+ok how many minutes
+guys 10 minutes is too much guys
+give me thumbs up for 10 minutes
+and thumbs down
+for 5 minutes
+ok I see
+8 and 4
+lets say
+I will
+give it 10 minutes
+but if anyone have any
+doubts I will solve it right away because
+later on the time it goes
+too much if anyone want to ask
+anything they can ask we can discuss
+break is on guys
+I am not discussing anything new
+I am just discussing whatever content is
+discussed till now if you have any doubts
+from content till
+we have discussed
+yesterdays class last class and
+todays class you can ask me I will be there
+ok
+or if you want to add it in the question tag
+please add it there but
+you can take break guys lets see
+meet back in 10 minutes
+yeah
+that's part of CSS
+that you can add it
+in CSS part
+we will see that how that works and
+how you can enhance the input types
+all those things can be done using
+attributes and CSS but
+as of now lets
+keep it simple
+can you show one label for an ID
+ok yeah
+sure I will keep that screen share
+yeah
+yeah
+so I am using label
+for user name and ID is
+associated with the same thing
+ok
+so whenever I am using
+user name when this user name
+is associated with this
+field even if I click on this it
+focuses on user name
+ok
+same for me its not
+working
+do one thing
+kishore can you share me
+your code in whatsapp chat or
+lets connect in the add out session
+ok
+we will figure out
+refresh the screen and
+try once how to remember this
+all HTML attribute types an easy
+way to remember will all this ask for
+interview
+so first thing shanth
+many a times I dont
+remember all of things
+interviewer if interviewer
+is asking you to
+build those forms and types right
+you are allowed to google
+or you can ask him like if I
+can google this I know how we can remember
+basically all other input
+types you need to
+remember categories of it
+its not that everything you will google and type
+it down ok
+attributes or anything
+so I too personally dont
+remember all of things even if I am
+taking any interviews I allow that user
+like you can google you can figure it out
+because its really difficult
+because there is no sense
+there is no meaning remembering
+all of them because
+with one shot of search you will
+get it you will be able to build it
+its just like mugging up right if you are
+remembering there is no
+sense
+so you should be allowed
+like if some
+I would say I cannot guarantee
+100% on anything but
+as for my
+idea my knowledge one should be allowed
+to you know google it
+because this is not something to remember
+ok this is not something where
+I am testing your IQ or your
+coding skills or your knowledge on front end
+ok there are many things that I can test on
+but not on the HTML part
+HTML part they might allow
+they should allow you to search if you are
+stuck anywhere
+yeah understanding depends on person
+to person but most of the things
+I am trying to make it simple
+because even if you see when I was trying
+to write about forms I have asked
+you like how many types of forms field
+can be there and I have told you everything
+comes under only input type
+now once you have typed on input
+and you just give type equal to that particular
+field he will know that this guy
+knows something but he is trying to figure out some other
+part he himself will tell or
+he will help you out directly or you can
+search ok
+on a broader perspective you should understand
+things not completely blank will help
+you out ok
+so anyways I will take
+break for 5 minutes and come back ok
+thanks for watching
+you
+you
+you
+you
+you
+you
+you
+you
+you
+you
+ok
+guys I hope everyone is back
+great
+I see three thumbs up maybe a few more people
+guys, thumbs up, thumbs down,
+if you are back
+so we'll get started with you know another login from guys which is
+registration form create a file registration form dot HTML let's focus
+for some more time guys let's just build this and this is where we'll use most
+amount of the you know different HTML tags that of form types okay let's call
+this as a registration form okay let me open this and show preview and let me
+close this let's keep it this way no inside body again I'll give an header
+h2 which talks about again registration form okay now first thing first like
+every time whenever you're creating a form you need to have a form element
+once you have form defined it inside that you can define define multiple
+things now for form what all things you'll have for registration what all
+things you'll have like let's say name then let's say you have email then let's
+say you also ask persons age then you might ask gender of a person right and
+then you might ask date of birth anything else guys anything else address
+phone number address phone number right you can ask his photo and then it could
+be a submit but right this would be a generic normal form right what wherever
+you go and see upload upload file is a photo that's where we'll have all the
+types of documents that you can upload so this is what a general form would
+look like a recession form where you ask his details and related information and
+submit it and where you store it in your DB okay now let's say we'll try to build
+and even we'll ask him to give his password right if we are registering
+some for him so something last class ask him to give his password right now
+let's start building this one by one guys let's start reading this one by one
+okay now I'll use div sections for each of this okay now I'll show you a new way
+of writing you know this thing where I'll use label inside that I'll say this
+is a name and I'll use input here itself inside this okay so that it is on the
+side of it like a label then type input now let's say here in the type I'm using
+this one as a text okay placeholder would be enter name okay let me okay and
+what I'll do is guys I'll minimize this one for some time till we type it down
+what we have learned till now okay and let's keep this as simple let's let's
+pull this also it down since that is what we have learned till now okay now
+for form of a label I'll use this as a name okay let's say user name and ID
+would be user name this is same now let's say I copy this and paste it for
+here for the email ID okay I say user email let's say user email I copy and
+paste it as for ID for means what we are associating with like this label is
+associated with each with input with which input item which input element so
+IDs are associated on and okay now since this is a email let's say I typed on
+email please enter email for now input type right only from text to convert
+into email you can use this as a email okay now does anyone know how you can
+make a field mandatory how we can make a input field mandatory just by giving
+required here you say just required it will like if you go and don't enter it
+I'll show when you click submit if you give a required attribute by default it
+will become mandatory okay similarly let's build for other things I'll
+minimize this one for a second guys until we build this others let me open
+this here in the live server okay here we will keep seeing everything
+parallely now for going for the password since we have already seen this I'll
+define it in same way this is user password password enter password okay
+and instead of email I'll say a password okay three things no so if I type down
+this way this is working fine till now so here I should be given at the rate
+gmail or at the rate it generally checks for at the rate before we are going for
+the validation part I'll show you how we can check this but now let's just build
+the items okay then if you go for age what should be the age field like how
+should you define age what do you think like what should be the type of age
+like generally it should be a text or a number or what it should be number
+numeric now let's say this let's define it that way again let's take this div
+copy and paste it here and let's say user age I'm using user in order to keep
+it unique age
+age type should be number let's say what is required not mandatory okay if you go
+and see I am getting this number okay now let's say whenever we are making
+some website which should be like only plus 18 people can see and only below
+60 age like we are having a range of people only a load like do you know how
+we can restrict that do you know how we can restrict that like what what age
+people can be there okay for numeric fields right you have two more attributes
+okay min and max so now so let's say I'm giving min as 18 and max as 60 so only
+between those age fields you will be able to select like let's say I go here
+I start with only 18 there's no no more things are going below or like limit or
+a condition you can say and let's say I also have some width here as 100 pixel
+don't ask me currently what is pixel or how we are adding up with we'll discuss
+this in CSS okay but here it's not getting applied is it
+let's say I give it in the style only
+no I'm able to keep this it now what I was trying to show is that minimum when
+you give you a condition right you will be starting from 18 and then you can go
+up to anything like even if I give 64 right when I do it this one this is this
+will be this we are setting a condition like if you hover over it right if you
+see this value must be it says that less than or equal to 60 can you see
+this message coming below here
+at here like if I write down 63 and I come down if you if I hover back it shows
+that value must be less than or equal to 60 so it shows that validation also it
+is it so we have a condition over this counter okay all the values whatever
+user entered is you have to validate again before you are sending it to the
+server okay now once this age is done let's go for gender now what how you
+want to represent gender any suggestions case how we want to represent gender we
+have discussed this already using radio buttons now let's see how you can define
+radio buttons okay firstly I'll have a label gender a common label then again
+to define multiple labels let's say again I have diff inside this we can use also
+drop down right we can use Abhinav both things but I'll use radio I'll use
+drop down for the other field okay let's say I have label again because for each
+input I mean for each radio button you should have label let's say this is male
+and once you have male let's say I have an input type again type would be radio
+okay and let's say similarly you have
+female others let's say this is how this is looking first we are able to get this
+under the gender but how do you make this like associate this one again now
+we said that radio again this should be male should be associated with let's say
+male for male and ID should be male and for should be here again female and here
+also I'll use ID as a female okay same I'll use again for attack this is some
+I'm not focusing because this is something we have discussed already so
+I'm just typing it down guys whatever we have discussed only when there is new
+thing I'm talking about that okay now once we have defined ID now let's see
+one feature one thing guys one buck now radio button is a feature where you can
+select only one thing right you cannot select multiple features right multiple
+things when you have a multiple options multi option you have a checkbox sort
+of thing but when you have a radio button you can only select one night one
+of it right a person cannot be male female and others three altogether right
+do you guys agree right now how we can restrict this one how we can restrict
+this one that well person can only select one or one item out of this how
+we can restrict this one any idea anyone any idea how we can restrict this right
+so if you keep common name right name is attribute I'll talk about this how name
+works give me a second I'll let's say this is talking about gender I'll keep
+it here common name for all of them okay and let me give it value also okay let
+this is male
+it's a female so it should be okay now let's see if this is working first
+using name when I click this then I'm able if I'm able to click this if I'm
+if I'm clicking this this is being removed now right this is working as
+expected now user is only able to select one among three right either he is male
+or female or others right how we did this because we added a same name now
+why we are adding a same name is because a person can be only one type and via
+how how name attribute can be used as whenever you are submitting a form right
+whenever form is submitted usually form contains a data like this right is gender
+what is his gender okay either is male or female you will select it this way
+now how where this value will be coming from okay where this male value or female
+value or other value will be coming from is whatever value you define inside the
+value attribute that will be sent when you click on a submit button from the
+form element is this clear guys how name and value are associated
+does all of you understand how name and value is associated guys a few more
+thumbs up if you are again please write something okay so now whichever field
+you are selecting or you are selecting or anything you are typing it down or
+when it comes to selection of this type right male female or others now
+whenever you are selecting one thing how we should know that what it is
+selected I see value and ID I didn't I don't understand value and ID I see
+value and ID is different but still works for other no please I didn't
+understand your question again other and others yeah yeah see this ID is
+different IDs are like just to be unique among the for each attribute okay
+for this label I am using this ID but here name and gender why why sorry name
+and value when where I'm using is that for each input form right each other
+form so value can be anything value is something user will be typing it now
+whatever value you type it down that is what you are sending back to the server
+right now if if if I'm having this radio button right if I'm forgiven a user a
+gender or the text box he would be either writing male female or other if
+you are giving them already like check radio button the value can be either
+male female or other only right it cannot be nothing it cannot be anything
+it is what whatever user is selecting if we're selecting this other radio button
+by default we will be sending to the server as other is this clear guys how
+name and value key are associated
+okay still anyone having any doubts
+if anyone is still having I'll pick it up in doubt session can anyone explain
+can you explain again age again how is that number or appears okay nice going
+back to the age part what I was doing here in the age part so I gave type as
+a number I've told that hey minimum and maximum like when I've say that minimum
+maximum I'm actually giving it to this field like if I start generally let's
+say I remove this minimum maximum I comment on these two things or let's say
+I cut them and I say I go back here if you see I'm starting from 1 2 3 okay but
+now if I have this min and max the counter is starting from 18 to 60 it
+will go till 60 okay that's how your condition you are restricting it but if
+you are what I was saying is that there's another feature what this shows
+is like when you add 65 right whenever you are trying to increase it it will
+also hover you like that message like a value must be less than or equal to 60
+that was I was talking about but at runtime before sending it to server you
+have to through validation arrow comes in the toggle my question is how arrow
+other this one this arrow generally type equal to number yeah by default this is
+a type
+like for radio button when we say type radio this you can see the circles by
+default it comes that way okay how button is selected now let's say if I go
+for this one guys now let's see I expand this one gender right okay now let's say
+I selected male now whenever I'm going to female now if you see here this all
+the names right firstly how do you think that this form data value of gender
+should be stored value of gender should be stored it should be this way only
+right like how would you do it it would be gender colon male or female or
+others right only three possible things now so we are storing only one person
+gender so I'm saying that all these three inputs will have only one name
+okay we'll have only one name now so if you are selecting one value and then
+you are selecting another value so it will override that selection it is just
+like you type down one password email and you remove that email again and you
+type down something new so it is selecting new value is that clear upendra
+that's how behavior works name act like a variable huh name act like a variable
+the container name like what is the container name like that that's how it
+works okay let's let's move it guys let's move it we have too many things to
+define for going for date of birth again I will pick it up this one let's say I
+have user DOB date of birth once I have here for date of birth type would be
+date okay then ID would be this one enter date of birth and in date of birth
+also you have one ability like you can give a min date and maximum date okay
+let's say type was okay D O P okay
+I so user
+okay here in date of birth also you have an ability to give users like minimum
+date and maximum date okay let's let's before that let's remove this and let's
+see this calendar okay once like how this calendar comes up now if you see
+here in the date of birth once I define type equal to date okay you see you can
+see this calendar you can go to any year and you can select anything that you
+want okay but what if we want to restrict something what if we want to
+restrict something how we can do that for this one also you have same thing as
+min and max let's say I give min value as 20 23 let's say 11th month which is
+this November to 10th date like to then maximum maximum would be like you are
+limiting the range of a user like how from when to when like let's say to well
+let's say 10 so what we did is we gave only 10 month there like one month
+validity okay let's say if I go back in the calendar if you see by default I I
+cannot go and select other years like the fields are disabled okay if I can go
+back into 2023 I have November and December on even if in November since I
+start from 10th date I cannot select any other date okay I can select this one or
+if I go down I can go up to 10th maximum December is this clear how this works
+how we can minimum I put a condition on this one right let me use this width
+since date is not completely visible okay end date don't go beyond current
+date as a but that is that is okay that that by default you can write down the
+logic for that one okay like even if I even if I remove that max date right
+even if I remove that max let's say minimum date is fixed what is what
+maximum date how it takes okay I go I can go back if you see I'm today on 4th
+but I can still give 5th date so type date gives an ability that you can keep
+you can select any date but when you give min and max it restricts that if
+you don't give me a max it is open ended it can go up to anything okay okay the
+format here let's say I I gave in DD year month and date as of now this is in
+format of yyy mm and DD but let's change this and let's see this 10 11 20 23 okay
+how's this is perceiving okay so now if you see it didn't took in that format so
+the right format of giving this ways and reverse format itself like I'll undo so
+this is how it takes it okay there is you I I even don't remember some formats
+it's just that you do it mistake and then you correct back okay no so I hope
+date is clear moving it but the other part let's say I go for the address okay
+let's say user address address now what would be the type for address guys any
+suggestions
+so text but do you think text can be user address will be only one-liner
+address can be of multi lines right or like five six lines where you enter a
+paragraph type so for them right you have some component called component
+text area type which allows you to write multi-line comments like let's say here
+if I type down let me go back text area
+give me a second
+why this didn't work
+sorry it doesn't have an input element but by default you have to define text
+area so these are the things guys only few things which needed a different
+element like other than input let's say this is the one of the element that I
+have text area it's also open and close brace here let's say I have a place
+holder user address and I can have an ID associated with user address okay now if
+you go back and if you see this address right you have here extension you can
+extend till how many lines you want how many ever you wanted so there's like
+there is no restriction but you can also give many attributes to it like you can
+define like what are the like if you go and open the text area right in MDN
+field open let's say if you see here rows and columns if you say let's say
+if we define this rows and columns as 3 5 and 33 what happens okay so by default
+this is given this much space okay if we edit this let's say if we go and edit
+this I am using element selector I go here I say reduce this column by 33 32
+let's say 10 if you see the column size is got reduced completely so now you
+understand it how this rows and columns works and how you can play around with
+the text area if you need it wherever you have multi-line comment like address
+fields you can use a text area part is text area clear guys how we can enable
+spell checker for this type of input spell checker how can we put address
+word in middle hey CSS work will check it in later part spell checker is
+something we cannot do it that needs actually a dictionary right because we
+are validating every word that the type whether it is right in spelling or wrong
+it so this by default we don't have any dictionary as of now so it's an
+external thing that you have to integrate with who you spell checker okay
+right because it's users in area how users can make mistake if you want to
+automate that that's a really great thing if you build that even spell
+checkers that app will be store sold for a good amount of money if you can build
+that which can validate user spelling with less amount of time again now
+coming back to phone number let's just build this phone number again let's have
+dev label phone number and then again have a input tag for phone number you
+have type equal to phone itself once you have type equal to phone and ID could be
+user phone number let's say I go here for the user phone number okay now let's
+go and see how this works if you see here I am having this phone number type
+here generally what happens is whenever you have type right each phone number by
+default it's not available you have to use number itself what happens with
+phone number is people use custom build like you generally see country code
+right one is plus nine one or zero zero or anything so they have one drop down
+and then they have like numbers okay maximum numbers limit you can add we can
+only allow integers like you know if you only write numbers like you I'm trying
+to type down something alphabets I'm not able to but I can write down numbers as
+many as I can okay so that's how you can use it for phone numbers like type
+number now let's go for photo how you can use for photo please select upload
+your profile photo profile picture let's say user profile pic I copy and paste it
+here then this is input type of file so whenever you give type file it will go
+there and you see here you will get a choose a file okay if I click this file
+choose a file it will open you know file system actually like when I click this I
+don't open that okay but this is how we can upload it we can limit a phone
+number up to ten digits yes you can do that yes you can do that let's say you
+I'll go and open this input type number you can go here and we can search this
+okay if you see here these are the list of things that are available you have
+input mode numeric you can also give the pattern rejects or what all things they
+can enter but I will show you how we can use that we can use phone instead of
+number right a phone doesn't exist I guess input type phone so it is like
+tell tell is something used for phone number let's say I replace this with
+okay let's go back and see this if this is there see it tell doesn't work guys
+also I have to give the pattern then only it will work but keeping it a simple
+as of now we'll see how we can develop the phone number phone number is
+actually filled with two drop down or one drop down which selects a country
+code plus nine one or anything like for India then other fields are like having
+a text number where you can have a validations on each form you can have a
+multiple validations I will see how we can add validations in the future
+classes this is just an introduction part not completely ending with this
+because we'll go in depth one by one in future classes okay when we build
+projects
+plus nine one drop down shant that is where you'll get those drop downs right
+but if you want to get the country code like all plus nine one everything
+someone should be there to supply you all the drop down values or you have to
+do it manually if you are doing it in HTM okay now we have covered everything
+let's say for a drop down right let's say I have a drop down value as a degree
+let's say what is a user degree let's add somewhere in this between I didn't
+have select field so I add off before on the top of this one now I have a dip
+section I have a label section I say select your degree okay once you go for
+select your degree what we can do is that for only two things as of now we
+have seen other than input like one is text area the second thing is select
+only two places we are using other than input tag this these are the two taxes
+of now order of all the types that we have chosen okay so it's purely simple
+whenever you're going for forms most of them are built using input tag itself
+now when you go for a drop down you say that hey please select among the least
+of values now each least of value is generally called as a draw option okay
+when you go for here so you have to give options okay inside this option let's
+say you have B tech any else to any other degree guys anyone having my fire
+thing BSE is their computer science master of computer science again any
+other degrees holders not less other than beating BA of any other guys MCA
+okay MBA okay MBA MCA MCA is also there no masters so that way then I should go
+for M tech also
+BSE MSC
+Mbps why would Mbps be in here he would be earning more than us one surgery he
+would we should be go for surgeon M tech let's say okay now so wherever you if
+you see this right can we have nested drop down that is custom component of
+you know that is custom component yeah okay thank you got it okay let's say a
+value whenever you are building something where user is selecting but
+you are not allowing user to add anything manually there you have to have
+this value define what this field is like associated with like or what is
+actually value of this one okay I'm having value for multiple things here
+let's say a BA
+MBA
+MSC then let's say value M tech then lastly I have submit button
+for submit also you have a type attribute which talks about what type of
+buttons is separate okay now so these are the things that we have introduced
+today like you know if you go for degree right now if you see I have BSE BA MBA
+all the things that you can select okay now let's say you type it down all the
+things it's a phone number is this one then you select some random date mail
+ages 23 email is some random thing password is also random I'm just
+selecting if I click submit if I have to see now there's a one validation race if
+you see this validation I haven't introduced anything but can you see on
+script please include at the rate in the email address now if I add just at the
+rate right take it at the rate and gmail.com that validation will go down
+this is coming from a HTML tag itself when we use red red email okay now if I
+submit it one thing is here happening one one only one thing is happening
+which is I want to show you something is that we added like let's say I have one
+thing I want to show you all is that okay let's say I show it in the login
+form itself this is too useful but I'll show what happened here if you see in
+the URL right gender mail got appended where this where this thing how this
+thing got appended anyone any idea how did we got this mail gender mail in the
+URL
+name attribute because we have given a name attribute to it now let's go to
+login form let's do one thing let's do one thing let's go to login form since
+it's a really small thing but before that is everyone clear about this type
+of fields how we are adding it how we are creating all this type of forms clear
+right now let's go back to login form now here we didn't had anything name yet
+here let's say I have a name I say user name here and for the password also I
+have a password as me okay once we add this now let's go back to the login form
+and have some random username some random password once I click submit if
+you see for this one actually I'm sending in the payload now if you see
+how did we got this username and password because we we told that hey
+these are the two input fields whenever we are making an API call let's say now
+we made an API call to the post method also I'll introduce some action method
+please don't take it this one this is a next level thing we'll discuss this
+how we are redirecting to a new page or making an API call how this thing works
+okay just I'll do something is like slash sign in okay nothing nothing much
+more specific here what I what will happen let's see what what will happen
+now going back to our site okay I'll have let's say username and random
+password name once I click this submit now if you see in a header it's showing
+post method but it is not showing the URL change okay we'll see about this
+action just a second type of button submit let's say we don't want it to
+submit let's keep it this way since it's changing the two new path still it is
+sending it anyways so let's remove this method post as of now I want to show you
+the just in the URL part also I've shown there going back still does it send it
+or append it okay 405 okay anyways guys so what I was talking about is like how
+how you can fill the data from the form and how we can send back to the server
+now whenever you are adding any type of input tag or any input tag which you
+need when you're collecting data from the user right you are collecting in
+terms of this name tags like every data that you store let's say you have
+multiple things name password okay if you want to send this email ID right if
+you are sending this user information and you have this key rice out of this
+map whatever keys you have that should be say that should be defined here in
+the name attribute is that clear is what name attribute is about that is where we
+are also using in the gender part like in even if you go for gender part or any
+place that if you if you go and see let's say I have here added multiple
+things you can try it out on this registration form offline like adding
+names and trying to submit this form okay
+so so guys any doubts in the forms as of now just talk about tags and other
+things nothing about like as of now related to methods or action things that
+we haven't introduced yet or how we deal with them we'll talk them about in the
+future classes when you are actually having sending the data to the server or
+when you're collecting data from you know from the user and actually playing
+around in the full stack application okay why value attribute specifically in
+the drop-down okay now not in specifically in the drop-down but we
+also used for the gender if you see here in the gender I've used value attribute
+now all the user entered input right user entered input whenever user is
+having ability to enter input value will be automatically given by the user but
+when you're giving a drop-down or a radio button type of field right then you
+don't have that user will not give any value he'll be selecting itself so what
+I am saying is that if he's selecting mail now if he's selecting this input
+type send value as male if he's selecting this thing send value as female
+okay even in the drop-down if he's selecting BTEC as a drop-down value send
+this BTEC as a value is this clear Suresh and the name would be here like
+degree
+did you understand this user Suresh got it right fine now there's one thing that
+I forgot to add it is this one remember me checkbox since we didn't introduce
+checkbox I'll just add its placeholder we don't need a placeholder here type
+type
+checkbox an ID would be remember me okay now once you have an checkbox then you
+have to also have a label remember now let's see how this looks yeah this is
+how it looks remember me on off no even if I send this data if you see when I'm
+sending this sign in this is how data will be sent in like username password
+now remember me this thing is coming again from the name field which is name
+field this name field so I hope name value type attributes input type how
+labels are associated with you know input type so I hope you got all this
+basics clear guys yeah there is a value will be defined by us or a developer
+wherever user doesn't have an ability to submit it we will be giving them
+options right so wherever you select an option we have to define what type of
+value we have to keep it I mean serving the server back end okay so guys there's
+one topic left actually I have to cover it do you want me to cover it today or
+want me to take it in the next class
+in the next class there's just a inline inline versus okay let's say there's a
+only small thing I have to say talk about inline versus block dot HTML let's
+say HTML 5 now what happens with inline is that let's say I have div
+okay now I'm writing inside this as text let's say text let me open in the show
+preview okay I'm having text now let's say I'm also having another text one
+let's say next thing I'm having a span tag okay text 2 then again I'm having a
+span tag text 3 now do you see any difference in this case do you see any
+difference what is the difference between this
+this is just a one-liner you know thing that will cover it up then again this
+will will see this in the again CSS classes span is coming side by side div
+is taking next line that is only the thing guys that is it that is it so in
+line elements
+takes only the amount of space needed okay so when I say inline element the
+example for inline element is span so text 2 needed only this amount of space
+it took then if you add another span it it will go into text to line this line
+itself because this has this amount of space right empty space but when it
+comes to block level elements
+always starts in new line okay because div is an example for block level
+that's the reason why we say that div is used for sections different type of
+section I want of space okay generally and there are many examples for this
+one let's say I go with hyperlink anchor type so anyone want to do like
+let's say I I'll do it since we are having a less amount of time left let's
+say I have href www.google.com okay let's say this is Google site let's say I
+also have
+Facebook Facebook is rare now or people are moved to Instagram right can you
+see a behavior of anchor tag now you have to say what type of element is
+anchor tag inline right
+okay so anchor tax are also example of inline elements now let's say let's
+think of image okay image now let's I define it here in the image okay image
+let's say I give some random information okay now I added this thing
+let's say I give another image now can you see image is also coming in the same
+line if image is also being placed in same line so that is also inline tag
+because it takes only the amount of space it is needed it doesn't take it
+always doesn't start on newlet whereas div is someone who always start on a new
+line okay that's the basic code difference between inline versus block
+elements okay now if you want me to give for a few more examples of block element
+let's say I go with paragraph okay I'm typing only four five letters okay now
+again I have a new paragraph now I am typing it you so paragraph after this
+thing right there is too much amount of space available in that row in that row
+but it is when I'm introducing new paragraph it is starting in the new
+line right so whenever there is a some element which always starts in new line
+are block level elements but whenever there is an HTML element which takes
+only the amount of space it needed and allows the next element to start from
+there itself that is called inline element is that clear guys so I've given
+few examples of type of elements HTML elements what are like inline or just
+block hope this this is just an introduction we'll see like how we can
+convert an inline element into block block into inline in CSS because we'll
+play around with them for the introduction part let's keep it this
+much because if you go in depth right there's nothing to go in depth just just
+a definition level in elements takes only the amount of space needed allows
+the next element let's say after this span also text is rewrite even if I give
+diff even if I give diff I say some random it will always start a new line
+because this person doesn't care if there is extra space he says that I am
+special I'll come on the new line only
+okay so would you remember what is inline versus block because we'll
+revisit this topic in next class or the other further classes so let's keep it
+this much guys for today let's keep it this much and we'll see like how we can
+cover portfolio part okay portfolio project whenever we are having some
+time we'll build it together okay okay so a with your permission can I start
+doubt session because this is what the content I wanted to discuss today
+so nice nice so starting this doubt session guys give me a second okay so
+I've started doubt session guys whoever have doubts right please stay in the
+call or it's others feel free to drop but one thing I want to say is that you
+know in self-study right I have added few links okay you can go to open preview
+whenever okay whenever you want to like whatever links I'll be adding you can
+refer it directly you click on HTML reference material it will navigate to
+new site I will show you the site how it works it navigated to different page okay
+this was a site that I was referring to this is like web def which will help you
+to you know go with all the things it's just like if you want to read through
+right all the semantic elements metadata attributes what are the types of
+different attributes links least navigation table forms all the things
+that we discussed are there still even the advanced level items are there like
+audio and video how you can connect with audio and video okay we'll see example
+by example how we can take it but this is a plain HTML5 content not completely
+in depth because MDN is someone who maintains that Mozilla this MDN site
+you can refer to this one which have completely in depth but I don't prefer
+you reading through this one because it's it's there way of writing is not
+that up to an extent I mean I don't feel comfortable reading them but this is a
+better site okay that you can refer to for studying the HTML part or referring
+in future even whenever you want to refer anything any attribute or anything
+go to this site let's say if you go for forms right let's say you go for form
+you will able to see that what is our difference between input type submit and
+the button type submit okay so all the things right forms we have seen just now
+like form label now if you see first student is connected with ID student and
+name they have given for select and values they have given for these
+elements okay options and they have given input type submit event okay now
+if you see this is something you can change it okay so all the elements will
+be there here which you can go through and understand in depth if you want to
+skim through it like like skim through it like when I say skim through it like
+just like revise it go to this repo open this particular class because what I am
+doing is like I'm maintaining another readme MD where which will show that
+what topics were covered in which class okay so if you want to go through any
+topic let's say you want to revise forms you go to the class to expand it you
+will be able to see in that okay so how to access this give me a second I'll
+give you the github repo I I have already added in the whatsapp group I
+pinned it but I'll also pin here give me a second so this is a site guys I mean
+get I'm maintaining a github repo for this one now one thing one of the hack
+is like always convert into their format which is online you know convert into
+visual studio code if you want to go through and read some down someday okay
+or you want to open it in editor format okay so you can expand it you can go
+through it open preview okay if you don't want to open it in please share
+the whatsapp link okay give me a second hey anyone I'll pin it here give me a
+second I'll open it I'll pin on this one also let's say I convert into calm
+again so one can go through this readme and also self study right if you expand
+the cell study there is a link dot empty if you have you'll have this links you
+can open one by one yesterday also we have understood how internet works so
+you can go to this site which will explain in short which is scalar topic
+site itself but which is explained in short and there are some FAQs also okay
+in simple terms give me a minute I'll pull what's up should I have multiple
+batches so I'll take this one
+invite group link copy link so I'll pin this case thank you shant for pinning
+this I'm pin this then let me pin back this one also kitab repo for your access
+case okay no so one minute I'll push the code base then I'll take that out
+okay terminal so we have also covered in line versus block level elements so if
+you have any suggestions for me also you can guys you can share with me
+directly also you can write it down there I'll work on that or if you have
+anything you can say to indirectly add that also work get add dot get status
+get commit minus and then class two
+good push so you should be having all the content guys whatever we have done
+today okay so this is how you are contable of content would look like like
+which class what we have discussed so I'm still working on it to make it much
+better if anyone want to contribute they can also contribute taking that kitab
+repo and teach kit upcoming classes some bit there is nothing in curriculum as
+such but I'll ask if we can add or get videos for our batch okay so that you
+can go through and learn okay record I can give you recordings because our
+classes are I mean 50 classes for full stack if I take more right then it would
+be like extending that weeks that wouldn't be good okay yeah well I'll ask
+and I'll keep you updated related to get get videos okay and second thing yeah
+I'll try to share recordings I look at it I read into your archive section so
+I'll go to the doubts anyone having any doubts guys I have to scroll up I only
+demand span tags do we have any tags other tags
+somebody that was yard out itself you push you ping me personally values are
+the unique how to restrict some file upload types yeah Suresh let's say this
+okay for file upload right input type you can always give what are the amount
+of types that you accept okay but you can you you you have to say that input
+type file if you go here right in MDN docs or anywhere I'll show you how we
+can add here it is not available let's go for the MDN itself so if you see here
+you can give what are the accept types of images or the files like image slash
+PNG image slash JPEG or else you can give other types also where you have the
+scene accept docs doc doc X XML MS word VND so this is like you restricting in a
+way is that or what are types of you are accepting you have to tell that but you
+cannot say that I don't want to accept this one okay it's a reverse of what
+you're asking so there's an accept attribute which which you can use to
+deal with this one okay
+anything else yes anything else there are too many things as to remember right
+even if you see it tell is there which which is talking about phone number type
+but you have to give a pattern along with that we'll explore this if needed
+in future but it's just that if you know one basic item right how things works
+how attributes are associated you will be able to go and explore in the world
+like like everything like search is there type search now I haven't covered
+this search but you can go and explore and understand there's nothing new here
+only the type of attribute search is changed now there can be in future HTML
+6 but do you need to upscale again yourself no they might add the same
+same sort of things with a new extra types right now when someone asked me
+what is bootstrap now when I'm saying that hey I'm not building this right
+search box or the search keyword but I'm giving this type equal to search I'm
+getting ran defined by default like this is something popping for me so if you
+want to pop many other components right like all different things you can use
+bootstrap framework which will help you to you know develop its faster rate like
+you can use the different components here like will come to grid and
+everything later but let's say drop down like if you see but mostly things are
+the same like if you see still here there also what they give is like CSS
+classes bootstrap generally allows you to write in a better way like if you
+see it's a curved right curve type and other things like form select
+specifically this select form select group or else like if you say form
+select form select hyphen large and mp3 we'll see this once you cover CSS right
+you will understand how this bootstrap also working I'll just give you an
+overview but not in depth because we'll leverage other frameworks front end is
+like too much use guys too much use too much use to cover everything in industry
+but once we have correct basics right you will be having enough knowledge to
+go and explore and learn okay
+yeah some values are something let's say you are collecting from form now once
+you collect from the form what you would do you want to send to the server and
+database right if I registering a block or doing a login you want to store that
+data whatever user is entering on submit you want to send to the server so
+whenever you want to do this you will of course store it in some key value pairs
+right what this value that user has entered for this particular input field
+now the what has he entered for this field that key name itself so okay so
+with name itself yeah it is a key value pair name whatever you define it in name
+right whatever you define it in name that will become key and whatever user
+is entered that will become value okay
+so guys if all doubts are resolved can we end the session today it's thank you
+Shan there's a lot lot to learn so hope you know you keep on doing assignments
+like everything will be done in the next session so thank you so much for watching
+you keep on doing assignments like everything will be really like once I
+once you leave an assignment two days or three days you keep cap right it would be
+a lot to cover that's why I'm worried about that I'm running back of you that
+hey keep doing it because this is my against a second and a half batch I know
+how things can be difficult for the future time for your guys so I would
+ask you to keep on hands-on because you're learning too much just go through
+the notes that's the reason why I'm putting extra words sharing with you
+whatever possible I can do from I say so that you can refer because the revision
+of this full stack will be difficult when you go for context like mock
+interviews that's why I'm preparing all the things that hey you need anything
+just go to get up report you'll have everything okay so just keep doing
+assignments and keep me if you want anything help from me tag me in the
+WhatsApp group I'll try to pitch in from my side okay so thank you guys thank you
+for attending today's session hope you have a great night and see you in the
+Saturday class hopefully I expect all the people who were today present in the
+class to come on the Saturday to don't skip Saturday class which is a basic
+where we'll start again on Saturday css1
+yeah thank you some with even I felt like kept kept on speaking I'll have a
+water and then something after nice so guys and see you see you in the next
+session thank you all good night guys good night take care
+you

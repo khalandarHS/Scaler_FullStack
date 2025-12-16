@@ -1,0 +1,923 @@
+start	end	text
+0	19520	Hi all good evening so how's your weekend going guys so give me thumbs up from audible
+19520	29920	and visible thank you guys can anyone share the whatsapp group link
+29920	53120	so how's your weekend going guys I have to log in in my system
+59920	75600	how's weather at your respective places is it hot does it feel like summer already
+75600	94680	we feel it completely different like why you know there's no winter in Hyderabad this year
+94680	116240	must be our batch name was scale of instruction okay bangalore even bangalore okay then you
+116240	124840	can say that if Bangalore is hot now Hyderabad is off to be I've been in Bangalore only for
+124840	141760	three months and I have really great time there my voice is echoing okay let me recheck
+142360	153800	is it better now guys can you if I speak okay still the same issue how many of you
+153800	164280	feel that my voice is echoing not clear okay let me try to reconnect it
+201760	214120	guys can you hear me again like I'm trying retrying it I rejoined the class
+214120	228720	now okay is my voice is also good great great so okay there's a water issue in Bangalore
+228720	238040	that's that's really crazy still still like we have much of summer is yet to be started because
+238040	244120	I consider summer according to me is after Holi or Shivaratri specific to specifically
+244120	259600	like isn't it that's how people say to us isn't it so let me share my screen let's test this one
+259600	268840	also yeah someone is off the channel global warming you can see the my screen share right
+268840	279680	guys is my screen share visible cool so let's have three minutes timer then we'll get started
+290160	294640	I'll drop a message here and what's up
+307320	318480	the message no cases is there any challenge with your assignments or like did anyone attempt
+318480	326040	contests in practice mode the last vegetables is this one because I see there is a drop in
+326040	331720	percentages of people who are trying to solve it I usually get the metrics of a bad so I'm
+331720	338360	just thinking from your perspective like is everyone following up with their assignment
+338360	348320	problems are everyone solving it okay I see less amount of people today in class is it because of
+348320	370560	weekend Saturday class no idea okay something I'll come to that point yeah right the topics
+370560	375720	we are discussing yes the problems that you get post class right those are the questions
+375720	390400	that if you are able to solve could good enough okay he monkey has said that she's at school
+390400	404680	it's such night okay notice okay after some revision will solve it okay the only reason
+404680	409920	that I say that keep solving after each class is because the moment you will go for revision
+409920	416760	right I'll be moving towards react I'll be moving towards node J's so it will be really difficult
+416760	421640	to come back and catch it up that's the reason why I would suggest right after each class go
+421640	427200	and try to solve it if you face any challenges to let me know because that's how you can keep
+427200	443360	up in the right way or else it will be a burden for you at the last moment okay okay
+443360	448960	let me set up iPad screen sharing
+473360	487880	guys do let me know if you can see the screen share of iPad can you explain about the filtering
+487880	494560	part we'll come to that coming so we'll come to that we'll cover it up everything so guys
+494560	501400	let's get started I think we are high time isn't it can we get started a final thumbs up if you
+501400	513560	can get started with today's class good so let's do this case till now this is the final class
+513560	525400	for a can ban so we'll be completing all the features we discussed in the starting all features
+525400	534880	then we'll go for deployment so two things that will be doing it okay now when it comes
+534880	545920	to features we have already discussed like create a ticket or create a task delete a task
+545920	571080	like change status of task and filter the task based on status so on top level these are the
+571080	579280	four features right what we are trying to build in can ban would is it so we have addressed all
+579280	585200	of this but first we'll try to recheck like if we have done this and we'll try to go through
+585200	591800	each of this one use cases again revision of this one first we'll get started with this then
+591800	603120	we'll come to something like storages in browser okay once we understand will implement one of one
+603120	609240	of the storage that we use in browsers to our existing application and then we'll see what are
+609240	614920	the advantages we get from out of that okay let's let's get started with the revision guys firstly
+614920	632240	let's move to the code directly and launch the application so okay open here so firstly
+632240	645640	going back again step by step for the each thing okay let's go here in the code now so for firstly
+645640	650280	let me know if that create and delete part is clear now for everyone out of these four features
+650280	655680	because create and delete is something that I have already explained more than two times or
+655680	661360	three times while coding I have talked about it twice then why also explaining and revision
+661840	667200	it in the last as I have done it multiple times so I'll talk about change of change status of a
+667200	675560	task like how we are able to change the status and then filtering the task based on okay give
+675560	686400	me a second I'll share the github link can anyone I'll pin that okay let me fetch it
+686400	697720	this is a github order okay so guys let's let's go back and first let me create the
+697720	703800	task let's say this is our task one I try to set the status of the pink then let's say also
+703800	715240	I have a task to as a pink no once I do this so earlier we have done how we are creating it
+715240	720960	how we are deleting it and how we are able to edit this particular thing right we have done all
+720960	729400	of those use cases and we have implemented this one now let's see again revising the way we have
+729400	734240	handled this change status like once you click on the top of this particular you know bar which
+734240	739720	is pink in color like which is meant to be what we understood by that is the something a task
+739720	744680	which need to be done or which is like not it started we haven't picked up to work on so once
+744680	749920	you click on the top of the pink like it changes into green then to blue then to black this is a
+749920	756360	status of a particular task right now how we have addressed this one is that if you see first and
+756360	760800	foremost thing is we know that we have to have a event listener added to the each of the ticket
+760800	767280	on the top of this bar again we went to the place where we were creating a ticket once we came to
+767280	774160	this ticket we say that handle color function which is supposed to handle all the use cases so we went
+774160	781280	into handle color and we had a ticket for each ticket we try to fetch this particular color band
+781280	787880	okay like which is what I mean what I mean by color band is this is the color band okay once I get
+787880	795320	this color band I added event listener to it okay click event listener then we have written the you
+795320	800400	know statement that we have to do it like find the color of the band then the index of that color
+800400	806000	from the colors array which is this colors array and then we need to update the color of a band
+806000	812520	with the next color of the next index of the color let's say colors array okay this is what
+812520	820240	we have understood it earlier so in order to find like the color which is like existing color we
+820240	825920	have done iteration through the loop because we have discussed like while adding always new color
+825920	831200	get added into the next next and next end status so there are basically two colors on the color
+831200	838920	band two CSS classes specifically if you see it in the here right so what is like ticket color
+838920	845840	which is dynamic in nature which will get light pink black and blue in the ticket color so while
+845840	851760	iterating through the loop we were trying to find which is other than ticket color that is a current
+851760	857920	color okay which is applied of the status then we were getting index out of the current color from
+857920	864000	the colors array which is this one then once we got the index we were getting the new updated
+864000	870560	index like which is an X color which where we have to move the status so once we have updated it to
+870560	877960	handle the edge cases of rotational array or index out of bound we you know we use reminder in colors
+877960	884080	of 10th which will put all the values between 0 to n minus 1 range or whenever you try to get
+884080	890680	access from this particular array then we were removing existing color and adding new color so
+890680	896720	this is something that we have handled it and I hope this is clear by now like how we did this
+896720	905000	one guys is this clear give me thumbs up if you feel this is clear to you all I see one thumbs up
+905000	916960	too cool anyone having any doubt anyone having any doubt on this part okay great but this logic
+916960	922240	only works on the first ticket for me we'll check that on some bit we'll check like why where things
+922240	929640	are failing I'll get back to you we can debug this in the like you know doubt sessions works
+929640	936760	because I'm able to show you right different colors it's having currently okay we'll check
+936760	944360	that now next thing next thing what we have seen is like like on selection of this one let's say
+944360	949960	now you have the different tasks being created with a different statuses what if you want to
+949960	955880	filter the task based on the colors like all that like the status so when I click on a green if you
+955880	964280	see okay let me see this why is this breaking did I miss this up
+964280	976080	or did I do any change here let me reset this code
+976080	984760	okay
+984760	999080	don't save let's recreate the task task hyphen one pink color then let's say you have task
+999080	1005680	hyphen two green in color okay once you have this we should be able to filter this one like
+1006000	1011680	pink and with green or like whenever you click double click you should be able to render all
+1011680	1018280	the tasks depending on whichever thing you click it now how did we address this one was like firstly
+1018280	1022680	again writing a event listener from point of view like because user is clicking somewhere so we
+1022680	1026800	should be able to figure out where user is clicking and how we should be able to add a
+1026800	1032880	listener to this one so if you see from the elements perspective right and I select this
+1032880	1039320	one all these four particular depths which are rendering color there's a common class called as
+1039320	1045520	color so we can do query selector all with this particular color class and fetch all the four
+1045520	1052200	different colors right same thing we have done here in the code that we were trying to fetch the
+1052200	1058720	colors okay query selector all and on this each of this color we were adding an event listener
+1058720	1066240	of click once we added event listener then we from from that click event we were able to find
+1066240	1071400	which color user is selecting this was we were able to do it this one because when you see in
+1071400	1077000	this let's say if user is clicking this one from the class list 0th index belongs to light pink
+1077000	1083560	light green light blue and black so using the first index like 0th index from the class list
+1083560	1089040	we are able to find the current I mean filter that you are clicking user is clicking on once
+1089040	1095160	we get this color we were filtering the existing tickets available from the ticket array where
+1095160	1101360	we stored all the tickets right once we have the filter tickets which is again having an area of
+1101360	1109320	filtered different tasks now then we went on to remove all the tickets existing in the screen
+1109320	1114360	like whatever tickets are there using quick ticket container if you say what is this ticket
+1114360	1120240	container go back and if you see here in the main main card ticket container all the tickets
+1120240	1126480	are basically having a class of ticket content we are selecting all tickets and then trying to
+1126480	1131440	remove all of them which are existing in their dog like on the screen then we are recreating
+1131440	1138200	all the tickets which using the filtered array this was something that we have done in the last
+1138240	1148520	class so I hope this part is clear guys like how this filter is working anyone having still
+1148520	1154080	any doubt on this one if anyone is having doubt they can give me thumbs up they can
+1154080	1164640	state their point I can repeat it no issues because as far as considering the development
+1164760	1170600	mostly we have covered the development part today it will be like you know talking about
+1170600	1177760	some storages and deployment that's it if you have doubts I can repeat it okay great so if
+1177760	1184000	this point is clear I want to show you one of the bug okay now if you see in the console right this
+1184000	1191520	was an array which is having a ticket information now if you see the ticket info says task one now
+1191520	1200160	what if I go and update this ticket information as task zero one okay and I close this one do
+1200160	1206120	you see whether this particular thing is getting updated like this particular array information
+1206120	1210960	where we're storing all the tickets this is not getting updated right so this was the one point
+1210960	1215760	that we missed in the last class that's something that we have to address it so I'll show you the
+1215760	1222000	code just think of it where we can how we can deal with this one let me open that code where
+1222000	1242440	we were adding this one yeah this is the handle lock now if you see it here we were handling the
+1242440	1249480	lock and we were making that container as a editable but here we have to update this
+1249480	1255240	particular ticket right whichever thing is being edited now you can you guys think for one two
+1255240	1262240	minutes and what we can do it here what approach we can follow here use the code base that you
+1262240	1269440	have with you like the github share if you need a reference to go up and move up and down okay go
+1269440	1274920	to this file in the Kanban board script.js just think for a one two minutes if you can come up
+1274920	1280240	with any point or anything that you can address it because on editing each ticket we are not
+1280240	1283520	updating this array it's just that we have to update this array
+1299440	1309680	meanwhile I'll change some code here if anyone are trying to think it please do think it
+1309680	1317160	meanwhile I'll update some changes here let's say I write down on the top say return
+1317160	1334600	ticket array dot find index inside this will get each time I get a new ticket and I have to check
+1334600	1344680	something where ticket ID is equal to ticket ID so we can update the unique ID of a ticket that
+1344680	1348840	is updated and update the content and yeah that's a straightforward thing right Thiraj
+1348840	1355360	thanks for pointing it down so first thing guys I'll come to that point as Thiraj suggested if
+1355360	1362200	you see this is the same code as this one just I've used a find index point like a method a library
+1362200	1367120	method which is provided on arrays like you're trying to find an index where this condition is
+1367120	1373160	meeting like getting the ticket based on the ticket ID I mean from the ticket array whole
+1373160	1376880	tickets array where we are storing all the tickets so I'll remove this part of code just
+1376880	1384720	instead of iterating and doing with this condition now firstly in order to find which ticket we are
+1384720	1390200	doing here we don't have identifier which we have to update it so if we need something here is
+1390200	1396800	ticket ID so let's get that ticket ID first like which ticket we can update it okay I go back here
+1396800	1405040	and they go back here this is handle lock so let me pass here ticket ID so here we have ticket ID
+1405040	1412360	so I'm passing it down once I have ticket ID what I can do it here is that let's say firstly
+1412360	1423800	let's let's get the index okay ticket index from ticket array where we are storing all the tickets
+1423800	1434440	right how we can do this same condition again find instead of like find index and writing this
+1434440	1441920	down I'll use this reusable method just we have below it's a get ticket let's say this is something
+1441920	1455840	that we have and I can pass ticket ID okay once we give this ticket ID we will be getting the
+1455840	1467360	exact ticket we need it okay and let's say I once we have this inside this let's say we'll have a
+1467360	1474040	ticket index inside this one right so out of this object what we'll do is that inside this ticket
+1474040	1484120	array we'll try to get that particular ticket dot whatever we have ticket ticket dot ticket ID get
+1484120	1491560	me that index out of that ticket array then we will be updating the particular task right if you
+1491560	1500440	remember the variable that we were storing while creating it if you go on to top ticket info right
+1500440	1507560	let me get this as a ticket info and we'll update with the content whatever content is there now in
+1507560	1516120	order to get the content also like you can do something here is that ticket task area dot value
+1516120	1531040	isn't it or so what I'm trying to do it here is that just updating the content let's see if this
+1531040	1537520	is working firstly and I don't need this as a let let's make it as a const trying to get the
+1537520	1544680	ticket from the you know using the ticket ID once I get the ticket out of that I'm getting ticket
+1544680	1550800	ID and trying to update the information now let's see if I create something okay ticket
+1550800	1570280	has been already declared let's say what I can say yeah it's a task to be updated
+1575240	1583520	okay now let's see if this is fine yeah now let's create one task saying some gibberish
+1583520	1593240	and let's say I have this okay cannot set property of undefined this thing happened
+1593240	1603880	because something we have done at the position this has failed create ticket 110 handle lock
+1603880	1615520	okay inside this handle lock it got failed now why did I get failed okay so this is trying to
+1615520	1627920	update each time so let's let's cut this word and and we have to do it only when country data
+1628400	1645080	right only when we are trying to edit it or else we can say let's put it here itself but
+1645080	1662480	adding the edge case now the edge case would be only if you are able to get the ticket then do
+1662480	1681200	this one let's see if this is working fine yeah now what I'm trying to do it here is that once
+1681200	1686480	let's say if you have you see go and see the existing ticket I have something serious already
+1686480	1695720	something is written there let me try to update this as a task one okay and let me try to close
+1695720	1704400	this one it didn't execute it but let's say if it is coming inside this part of code let's say I
+1704400	1726640	try to update it again let's see I have this ticket ID and when I say this let's say if
+1726640	1736200	we have something meeting this condition now this is never getting true let's fix this one how can
+1736200	1749080	we do this no okay instead of writing it here only when we are making it as a false when we
+1749080	1754560	are stopping edit right then we can update the content of it let's say if this is working as
+1754560	1772800	expected now once I click here like an edit button and let's say I try to update content
+1772800	1796040	as task hyphen one then once I click this no once I get this task I got 0th index okay first and
+1796040	1800480	foremost thing is that instead of getting a ticket here we are actually getting the index
+1800480	1807480	out of it let me reverse this code give me a second guys or it will break the multiple use
+1807480	1819000	cases yeah whatever I have done let me re-paste this one then it will work
+1819000	1840520	let me remove this let me play this one update this as a task hyphen one and then close it up
+1840520	1847960	once I try to close it up I'm going here then let's say I come to this statement return
+1847960	1853280	statement so I'm getting the ticket information which need to be getting updated and once this
+1853280	1860880	is returned I'll get the ticket here so I'll have a ticket ID okay so I'm having the ticket
+1860880	1871440	ID but not index so I supposed to find index here okay so the method that I was using was
+1871440	1880560	altogether I have to find here from the ticket array using this ticket ID ticket array dot
+1880560	1893800	find index let's say I have ticket inside this ticket I'll get ticket ID dot let's say I have
+1893800	1911440	ticket ID here once I have this I can use directly then update it pardon me guys I'm
+1911440	1923920	trying to confuse you all the one final check let me check this task hyphen one then let me
+1923920	1930000	try to close this button once I have now I have the index as a minus one that's great
+1930000	1946760	hmm why this is happening okay there is nothing as ID here ticket ID is supposed to be this one
+1946760	1970640	so let me do the final check task hyphen one and then let's click close button once we are here
+1970640	1977720	let's hopefully this time it gets the right thing now I got the zeroth index that's great
+1977720	1985480	and I'm trying to get the exact info but when I get this I'm getting as a undefined now ticket
+1985480	1997320	task area let's say I say that ticket task area inside that dot value okay I don't have this one
+1997320	2004000	let me check inner text okay inner text is something that I should be using it for the
+2004000	2018720	text area field this is not a form field form group field so I have to update this way so I
+2018720	2025320	hope you understand how debugging really helps like if you see the way I'm trying to fix the
+2025320	2031600	issues or try to find the you know use cases let's say now I go back here in the console I
+2031600	2042360	have task one I once I close this I'm supposed to update it as a zero one no it is updated here it
+2042360	2047720	is not printing it because the cons yeah it is updated as a task zero one so this was a one of
+2047720	2052240	the edge case that we were missing in the last class I hope this point is clear how this is
+2052280	2062480	working guys guys did I confuse you doing all this stuff parallelly or is it clear
+2062480	2072640	because I was debugging it parallelly I was speaking on that one guys is anyone able to
+2072640	2077200	follow up or give a thumbs down if you didn't understand it it's pretty cool right I can
+2077400	2084640	jump on to it and we explain the things okay great one thumbs down guys let's keep this
+2084640	2094280	interactive okay yeah sure I'm coming back to this code so this the main issue was that we
+2094280	2098760	were not able to you know update the current when we are updating the content we are not
+2098760	2104760	updating this an array memory array that we were using it right this particular ticket array so
+2104800	2112840	what I did is that once user is you know clicking on edit once user is clicking on edit like edit
+2112840	2118880	button and updating the content then locking that particular ticket when user is locking
+2118880	2125840	the ticket I come into this part where user is locking it I go and pick it up the current
+2125840	2132640	ticket index like from the ticket array where all the tickets are stored using this ticket ID
+2132880	2139400	whichever is passed into handle lock using that ID I try to find which particular ticket is where
+2139400	2145160	it is stored the existing ticket which are trying to edit it once I find the index out of it then
+2145160	2153080	I'm going inside the ticket array fetching that particular object of ticket then I'm getting
+2153080	2158760	the ticket info and updating with the existing whichever user has updated the content and how
+2158760	2164120	I'm able to get this because here itself we got the access to this attribute and we were
+2164120	2169400	actually updating the whether it is content available or contained in a true or false condition
+2171400	2183720	now is are you able to relate this one I see only one two three okay great guys so I hope all the
+2183960	2191280	logical paths right from the features of the project those points are clear isn't it like
+2191280	2196960	because we have handled four use cases now if you see handle remove handle lock handle color
+2196960	2205920	the handle color is changing the status now even here even here even here the thing that we have
+2205920	2212800	missed is we have to update this one also isn't it we have to update this one also color when color
+2212920	2218040	status is changing we are still not updating here let's say if I click on a green light
+2218040	2223520	pick is not converted into light green here so we have to update this particular thing also let's
+2223520	2230560	fix this up same thing same thing I'll go on to the top where I'm passing I'll pass the ticket ID
+2230560	2238240	here same thing once I pass a ticket ID I'll go below in the handle color let's say I have
+2238240	2245560	ticket ID once I have ticket ID let's say you're going to handle lock I'll fetch this particular
+2245560	2258320	thing okay and I'll keep it here okay I'll keep here and it should be instead of ticket info I'll
+2258320	2267040	say say it as ticket color because ticket color is something the object that we are trying to
+2267040	2275640	update it and instead of ticket task area dot inner text which is now we don't have here but
+2275640	2282960	something that we have to update it as new color right whichever user is changing it to new color
+2282960	2291440	now let's see if this is affecting here firstly I'll go and create some random task and I'll
+2291440	2299240	create options button once I have this let's say cool if I if I go and check in the console
+2299240	2316280	okay ticket is not printed let's say I edit this task as a task one once I am able to edit it let's
+2316280	2324920	say I try to print the ticket array itself here nothing is printing ticket array okay this is
+2324920	2331600	we are having it 0th index now this sdcd is whatever it is it should be updated with task
+2331600	2341600	FN 1 once this is done okay let me reprint this one ticket array then yeah it is updated as task
+2341600	2347160	FN 1 now let's change the color from light pink to light green now once it is changed let me see
+2347160	2354160	if it is in memory updated or not yeah it is updated as a light green I hope this this is
+2354160	2358820	also clear right same lines I copied but I'm updating the ticket color inside that object
+2358820	2365720	whichever particular ticket I'm selected so we have handled all the use cases edge cases for this
+2365720	2371560	one so I hope this code point is clear like how we are doing handling it what I'll do is
+2371560	2391600	that I'll give a commit as a code completion features completion okay now let's let's do
+2392080	2400080	so guys I have you know modified some of the CSS and things I have stashed the code I will try
+2400080	2411720	to show you what I have done okay let me see this okay I have some made changes I'll show
+2411720	2417560	you those changes now if you see here the changes have done here is that I have added added a new
+2417560	2422240	header okay from the existing changes I'm just trying to teach you because these are something
+2422240	2428720	that doesn't really take time to explain so if you see between this text right light pink light
+2428720	2433400	green light blue black I've added content like to be done in progress validated and completed and
+2433400	2440080	also I've added a new div under this colors like you know having a header as a Kanban board and
+2440080	2446880	added one image from the particular website okay which keeps a Kanban to do list side of thing one
+2446880	2453440	then again going back to the colors wherever you have colors have added the content to verify so
+2453440	2459320	that we know it by the whenever you add it in resume you need to know like what when you select
+2459320	2465280	particular color what you are exactly doing it okay so I hope this this changes are fine right
+2465280	2475280	easily understandable whatever changes I made in HTML okay then going back to CSS if you see
+2475280	2483400	right let me go back to the CSS part I've just added for whatever header I've created same
+2483400	2488400	display properties and for the image whatever image I added in the header I've added some
+2488400	2494480	height and width same I've manipulated some height and widths nothing much more interesting
+2494480	2500840	things now let's see once how does our project look once we loaded it now if you see it here
+2500840	2508080	well how what changes I made I have made it every box as a rounded edge to be done in progress and
+2508080	2515400	validate and completed then I've manipulated the CSS also now let's say you create a task one and
+2515400	2521960	say that here task needs to be done and you click this one tickets also how these are getting
+2521960	2529120	created I've moved from the center to the start now let's see if I create another task task hyphen
+2529120	2534440	2 and let's say this task is already in progress I want to keep it in progress now this is talking
+2534440	2538840	about progress let's say if I want to filter it which are the tasks which need to be started on
+2538840	2543520	you can always check that to be done or else if you want to check which task is in progress
+2543520	2549160	the by wording you will be able to find us and when user clicks double click you will all be you
+2549160	2554400	will be able to again reload back okay again still all those functionalities will be still working
+2554400	2561360	like if you want to delete it you can still delete it okay so does this look better guys
+2561360	2569120	after some CSS changes and things that I try to play around with cool so let me push this code
+2569120	2599080	also let me push this code to okay now cool let's get back on to the browser
+2599080	2604480	and let's create one task let's create one simple task as a task on itself now comes
+2604480	2609120	the one of the feature that is the last feature that we have to work on once I create a task
+2609120	2616400	and if I let's say if I close this browser or if I refresh this page we are not able to
+2616400	2622360	persist this task isn't it the task are gone because all the tasks that are trying to store
+2622360	2628280	is real-time memory which is like when the script file is loaded and this script file is always
+2628280	2635280	loaded as a new file whenever your HTML file is loaded isn't it once you load HTML this script
+2635280	2639680	file is loaded and each time the script file is loaded if you see on the top itself we are
+2639680	2646840	creating an empty ticket array you know so all the time whenever we are not able to store this
+2646840	2654240	data anywhere so now we'll try and find out what are the possible you know abilities of features
+2654240	2659640	that browser provides or where we can store these tickets or what we can do around around
+2659640	2672120	these things okay now let's go to iPad no I will talk about bit storages okay no why firstly why
+2672120	2680520	we do need storages let's talk on that part actually storages in browser first thing if
+2680560	2688280	you remember all the websites right you go for Facebook or Instagram or any of the websites
+2688280	2697000	YouTube your scalar right scalar website or something you might be also using a sleep code
+2697000	2703800	right each time you go to the sites you need not to log in like once you log in there somehow it
+2703800	2712320	remembers your username and password and whenever you try to log like load it to your website you
+2712320	2720800	are automatically logging back into the system isn't it have you seen that use case right now
+2720800	2729320	how this is possible how this is possible any any idea guess how this is working that once you
+2729320	2735920	log in into an application you need not to log in again and again so just think of in a
+2735920	2748400	way where your username and passwords are stored like once you enter somehow your browser remembers
+2748400	2760960	your credentials or the okay so one of the suggestions I got is cookies any other ideas
+2760960	2775440	case browser cache it how many of you have got through this keywords browser cache and cookies
+2775440	2781080	how many of you heard this one in your life I hope everyone have heard this keywords right
+2781080	2798880	okay great now I'll talk about few things here from storage perspective right so this all the
+2798880	2815480	development in web its perspective web it happened before HTML 5 after HTML 5 okay now
+2815480	2823480	this cookies whatever cookies are there now this cookies were used before HTML 5 and this
+2823480	2835840	was our data storage our data storage was provided by browser and accessible you can
+2835840	2846160	always access on document API okay on document API you will always able to access the cookies
+2846160	2856080	now let's see if I go on to my browser and I try to load scaler.com let it load now
+2856080	2875200	once I open the inspect tool parallelly it's working too slow my voice and internet is fine
+2875240	2879680	right you are able to hear me out now I am not sure why scaler is loading so slow
+2910680	2915360	okay my system started working slow
+2924160	2932560	okay give me a second yeah it's lagging a bit right
+2940400	2949760	okay I'll rejoin the class give me a second I'll rejoin the class now this looks this looks better
+2949760	2956240	is it okay I'll rejoin the class give me a second I'll try to load it again once this is working fine
+2956240	2964280	once I rejoin it okay it's not working I think I have to restart the browser yeah give me a
+2964280	2965560	second yes I'll rejoin it
+2978160	2982600	okay I'm not able to cut the call even cut the class call
+2994280	3003480	okay let me rejoin it
+3085280	3094280	guys rechecking sorry for disturbance am I audible and visible now
+3094280	3110400	okay great let me try to reshare the screen okay let's do this
+3110400	3119480	I think I didn't restart my system from long that's an issue but do let me know if you can
+3119480	3131000	see the screen share good no let's try to load scaler.com yeah thank God it's loading
+3131000	3142200	it's loading quite fast now so coming back to the console now let's see there are too many things
+3142200	3149040	are happening but I was talking about talking about cookies now as I say that cookies will be
+3149040	3161160	part of document API let's say if you say document dot okay okay you will be able to print all the
+3161160	3167080	cookies that you are actually you know actually a scaler is using no cookies are the one of the
+3167080	3175560	solution that was earlier used okay earlier used before HTML5 was introduced as one of the storage
+3175560	3182400	capacity okay this cookies if you see they have already you know converted this cookies into a
+3182400	3187680	different language or they have you know what you can say mask this data with different things like
+3187680	3194040	encryption format so you might be seeing like a different visitors and everything but now let's
+3194040	3200880	say if I go back into that application if you see if I go back into applications and I go into cookies
+3200880	3207360	part let's say if I go into cookies part and let's say if I clear this cookies but if I let's say
+3207360	3216880	if I clear all the cookies if you see here whatever my if you see my name is here you can see right I
+3216880	3227640	have logged in as a thumb now if I refresh it you see I got logged out so it what what we can infer
+3227640	3234800	from here is that at least this cookies is storing some information about my user details isn't it
+3234800	3242760	username and password or authentication details can we say that so cookies were used before
+3242760	3253160	HTML5 but still they are used till today's date where you store user info and you can
+3253160	3264960	have personalization data like the if you see I have something like a mentee access
+3264960	3272000	instructor access so this thing will be also present inside this here itself in the cookies
+3272000	3279120	now why this cookies comes into the rule is like earlier if you want to share information right
+3279120	3285240	let's say this is a client and this is a server whenever there is an exchange of resources happening
+3285240	3292200	yeah it's storing inside the browser somewhere so whenever there's an exchange of information
+3292200	3299040	is having whenever you send a request and response to the server each time you send a request to the
+3299040	3303800	server server should be able to identify that hey this particular user is trying to get the resource
+3303800	3312000	resource right now in order to identify for each API call you make you are supposed to send user
+3312000	3318600	information along with that credentials which can be identified on the server okay so once
+3318600	3325040	user locks in what this do is once the user you know login into any website this particular
+3325040	3336640	website they what they do is the store credentials store credentials inside cookies and each time
+3336640	3343240	you make an API request each time you make an API request to the server they always also share
+3343240	3349600	credit credentials in the request to the server so that server can authenticate and give back
+3349600	3358160	the response and user need not to log in each time each time he is trying to interact with the
+3358160	3368840	server I are you able to follow up guys yeah okay let me try to re-explain this logic what I was
+3368840	3373720	talking about now what I was saying is that earlier I've just shown you in from the scaler
+3373720	3379160	website where once I cleared the cookies you know I got locked off automatically so we can
+3379480	3384440	infer from that particular perspective is that you know we are storing something like user
+3384440	3395840	information user personalization information okay okay so in a same way for how these cookies
+3395840	3402760	are used even in today's date is that like you have two things client and server once you have
+3402760	3408240	this client and server like let's say I'm trying to getting into interact with some other servers
+3408320	3413320	which are present in the back end now each time I go and try to get me get information I'll say
+3413320	3418160	that hey can you give me this information to this meeting or this data or anything I have to
+3418160	3422400	authenticate right I have to say that I'm a genuine person I have access to your content
+3422400	3429240	can you give me this credit this information so each time once user logs in what in what we
+3429240	3436520	does in website is that you know like we store user credentials in like cookie and each and
+3436560	3442800	every time whenever you make a request to the server you also send this cookies in the request
+3442800	3449720	object to the server and server will parse that authenticate whether the request is valid okay
+3449720	3458800	once only we find that this request is valid only then it sends back the response is this clear
+3458800	3468840	guys what I'm trying to explain here what cookies does okay so cookies were used in real time only
+3468840	3476080	nowadays only when you're trying to communicate between two systems this is all cool but now
+3476080	3484800	cookies have a limitations cookies have a limitation with respect to size you cannot
+3484800	3491680	store GBs of amount of data in it so only 4 KB amount of data that you can store 4 kilobytes
+3491680	3500240	of data okay only 4 kilobytes of data that you can store in it and this thing will be in terms
+3500240	3507400	of a string data type like if you see whatever I printed here earlier okay whatever I printed
+3508080	3519520	in the console let's say even if you try to get the cookie now let me try to clean this up and log
+3519600	3529320	in okay now I just got logged in into this one let me do this
+3529320	3548160	okay
+3548160	3567600	now once I log in back and I show you that you know document.cookie and guys is my screen lagging
+3567600	3572960	again like I see there is too much slowness let me see my internet connection
+3584960	3592120	okay it's fine right now if you see each time right each time you make a request
+3592120	3599080	each time you make any API calls right let me explore this one
+3599080	3614440	now let's say you are trying to fetch this one whenever you are trying to make a request
+3614440	3622440	right you will be sending all the cookies along with it like in each in request headers there
+3622440	3630240	is something called as request headers let me see this one expand this one
+3630240	3643800	inside the request URL itself they are appending it okay now if you go and try to compare this one
+3643800	3652560	right all these things let's say if I copy and paste it and in console you will be able to see
+3652560	3660680	all these parameters right here somewhere kept so you'll see you what I generally meant to say is
+3660680	3666320	that whatever details are there here all those details are being generally sent over each API
+3666320	3673720	call to the server to identify and you know get the access for us from the server and get the data
+3673720	3682960	back okay this is what cookie does on top level is this clear what cookies does what's the role
+3682960	3688600	of cookies in real time and this cookies comes with another another use case which is like having
+3688600	3695800	expiry date now if you see if I try to minimize this one each cookie will have its expiry date
+3695800	3701040	you can always when when you are setting up the cookie right you can always give it like what is
+3701040	3711800	expiry date if you go and say the console and try to find here expiry date okay they
+3711800	3719640	haven't introduced here expiry date okay but only when user is logging out the cookies are
+3719640	3726480	getting clean but there is no expiry date for this one as of now okay now if this point is clear
+3726480	3732640	I'll come to the other parts what happened in the history of web development after HTML5 was
+3732640	3741840	introduced okay so after HTML5 it got introduced in web there were two other sort of browsers those
+3741840	3749040	came into the role one thing is called as local storage the other one is called a session storage
+3749040	3758160	now how many of you have heard this two words I think something session storage is something
+3758160	3768240	like really like day-to-day used word isn't it okay now these two words let's explore this what
+3768240	3774200	are the common things that this helps us and how they are really helpful okay now first and
+3774200	3779280	foremost thing since these are acting as a databases or a storages on the client side
+3779280	3789640	now what first use case they did it is that in browser level they added more space let's
+3789640	3795800	say I write down some differences space amount of data that you can store when it come to local
+3795800	3802960	storage they say that you can add a 10 MB of data and when it comes to session storage they say that
+3802960	3814200	5 MB of data can be stored 5 MB okay now this one what they say is that if you want if you want
+3814200	3822360	let's say if you go if you go if you see this if I go back on a scalar and what if I close if I
+3822360	3830480	close this and I reopen this scalar academy right still I have locked into it right now but if you
+3830520	3835880	want to clean up once the user is closing that app once user is closing the tab or going to the
+3835880	3840820	next tab if you're if user is doing that thing if you want a particular you know user to be
+3840820	3848720	logged out then you can use something called a session storage what do I exactly mean is
+3848720	3853720	that let me write down the sentence that it will be able you will be able to understand this one
+3853720	3859560	like let's say expiration date
+3865320	3882440	okay as soon as browser is closed or tab is closed so what do we exactly mean is
+3882440	3888440	that once a user is closing the browser or the tab right in which website is loading if you are
+3888440	3894960	closing that by any chance all this 5 MB free space will be freed up okay and this is not
+3894960	3900400	particular one for you know but these are particular for websites okay and for when
+3900400	3907720	comes to local storage there is no expiration date until unless user manually clears it
+3913120	3922760	clears the memory is this clear guys like what is a basic difference like between local storage
+3922760	3928320	and session storage related to expiration date session storage is like something related to
+3928320	3934880	particular session and how do you define a session until unless user is logging out from the website
+3934880	3941440	closing that app or closing the browser itself once you user closes the particular website or
+3941440	3946960	thing it means that session for that particular use case is completed once that session is closed
+3946960	3954160	this memory will be freed up and when it comes to local storage it like until unless you go user
+3954160	3962080	goes and particularly clean it up this memory will be there all the time okay guys is this clear a
+3962080	3966880	basic difference between local storage and session storage I got only one thumbs up I have good
+3966880	3971280	amount of people in class I just need few more if there is anyone who don't are not able to
+3971280	3987880	follow up difference between cookie local storage and session storage okay this was
+3987880	4003480	used for communication between networks okay and only 4 KB of size and so they were storing string
+4003480	4012720	format content okay and like you know this like both on client side and server side you'll have
+4013560	4022200	and this cookie is provided by browser under the document API when it comes to local storage this
+4022200	4030560	was used in HTML 5 once HTML 5 was introduced to store like this is an actual DB on a client
+4030560	4035880	side where it acts like a database until unless you manually clears it the data will be there
+4035880	4050920	okay 10 MB of data that you can store and this is a persistent data source until unless user clears it
+4050920	4066120	memory no when it comes to session storage 5 MB of data and when whenever user is closing the
+4066120	4072280	tab or you know ending the like closing the browser so you know this this memory will be
+4072280	4078960	freed up and reset it okay those points so I hope the top level basic difference is clear now
+4079000	4085840	according to our project use case just let me know what could be the type of storage that we
+4085840	4102200	want to use what type of storage that we want to use local storage any any any suggestions guys
+4102200	4107080	why do you think local storage why not cookies or any other thing
+4113080	4120160	firstly we have tickets and the tickets are the objects in size and they can go the content
+4120160	4126720	can be greater and we might need more amount of space and we want those tickets to be persistent
+4126880	4134000	those tickets to be you know persistent like they stay in the browser with us okay not that
+4134000	4141880	once we close the tab that all the tasks are gone isn't it so we don't have user credentials
+4141880	4146760	because we don't have login details we don't have server we need to authenticate so cookies
+4146760	4151960	is out of picture session storage we don't need it because that's use case is completely different
+4151960	4156440	we are not building something like a bank website where once user clicks a close on a tab
+4156440	4164240	or closing a browser we want to erase all the data isn't it so clearing like using local storage
+4164240	4170280	where user manually deletes or you know play around with the local storage directly that
+4170280	4176360	gives us more user control as some bits is so I hope everyone agreeing with point like why we
+4176360	4183400	are actually choosing local storage over the other things that point should be clear which
+4183400	4191200	one to use in which use case okay now let's say I try to discard this change as of now no
+4191200	4198400	so for interacting with local storage right let's go back to the browser okay my browser is here
+4198400	4207520	okay by default we if you want to access a local storage right you have three methods let's say
+4207520	4214080	if I go and type down local storage dot set item okay whenever you are trying to add it you can
+4214080	4221440	always set it now in while you're setting it up this function takes two things key and value now
+4221440	4230360	inside the key let's say I say that my username okay and inside value I can always pass on any
+4230360	4236160	string it should be string objects needs to be serialized when you're trying to store it inside
+4236160	4243360	the local storage now once I click enter here let's see once I click enter and I go into this
+4243360	4253040	application storage and I open the local storage okay so if you see here my username is got stored
+4253040	4258200	inside this database inside the key value pair this looks like a no SQL database okay at runtime
+4258200	4264840	but doesn't have so many features as you have it in no SQL okay now if you want to get any
+4264840	4271000	information right if you want to get any information out of this local storage you have to use get item
+4271000	4278680	and you have to pass on the key this works like a hash map where you see in a hash map you store
+4278680	4284800	this was a hash map of string comma string general use cases like that once I do this local sure to
+4284800	4290480	get item I'm able to access whatever value is set and if I want to clean up I can say
+4290480	4309160	local storage dot remove item okay and I can pass on the key my username once I do this if I go
+4309160	4317120	back inside the application if you see there is no key present here so one way of doing this one
+4317120	4322400	is like let's say one way of doing this one is like doing it using code the other way around is
+4322400	4327200	let's say that you once you set this item the other way of clearing this one is like you go
+4327200	4333600	back here you manually clear it up you manually clear it up using this key okay and there's
+4333600	4337480	the other way around like you can go and say that empty the cache and hard reload once you
+4337480	4341880	do empty a cache and hard reload you are trying to remove the cache which is present inside the
+4341880	4348360	browser so I hope these points are clear like how can you set it get the like local storage
+4348360	4355160	item and how can you remove the item then there is another thing another method that is used which
+4355160	4361880	is clear once you clear it right you manually are doing same thing which is like clear the
+4361880	4369480	cache and hard reload okay the clearing the whole local storage from the code okay if this thing is
+4369480	4378520	clear can we go and implement this logic case in our code can we do this let's let's do this
+4378520	4389040	guys let's implement this one let's go step-by-step firstly we'll go to create ticket let's go to
+4389040	4395600	create ticket wherever ticket is being created now when this ticket is being created when this
+4395600	4401960	ticket is being created one thing we have to do how is what we have to do is like let's say local
+4401960	4410400	storage dot set item setting the item and we can say that what type of let's say we say that a task
+4410400	4419280	okay I can say all the tasks and since it stores only strings as I have told you what I'll do is
+4419280	4426800	that I'll do JSON dot stringify to convert an array into string object okay then I'll pass inside
+4426800	4435240	that ticket array once I do this once I do this okay let's see if we are able to store all the
+4435240	4442080	tasks that we are creating inside this local storage this way going back to browser loading
+4442640	4456200	launch our website again let's say once we have this I go to inspect okay let me have application
+4456200	4465840	open parallely inside the local storage if you see currently whenever I launched it there was
+4465840	4472640	already a ticket task present okay let me clean this manually firstly and let's create a task
+4472640	4481720	step-by-step okay now I'll say that a task one and I say to be done and once I click this let
+4481720	4489000	me remove this debugger and let's go back to application storage now if you see inside this
+4489000	4501360	task one got stored okay now let's create another task as a task two now if I refresh
+4501360	4508280	if I refresh do you think still like we have information stored okay that's fine we have two
+4508280	4514840	tickets we are able to store this data but what if if I refresh the script will be automatically
+4514840	4520360	loaded and be running from top to down isn't it the script will be loaded from top to down
+4520360	4536720	now in order to address that issue right in order to address that issue or in the use case that when
+4536720	4544720	whenever we close the tab and reopen the tab what I have to do is that each time this ticket get you
+4544720	4550760	know created a ticket array empty I have to do one condition is that I'll check in this as a
+4550760	4559400	local storage get items and I'll see that if there are tasks already what was the exact key
+4559400	4568360	plural task okay if there are already present tasks in local storage if there are tasks hey do
+4568360	4574560	one thing get this ticket array update this ticket array by getting this information how
+4574560	4582280	can you do this let's say local storage again dot get item of task but the trick here is
+4582280	4591680	that since since it will give is give us like instinct format I'll have to pass this code I
+4592400	4600200	have to pass this code convert this into array isn't it whatever the string is there I have to
+4600200	4605080	pass that to convert back into an array and upgrade this ticket array once this ticket
+4605080	4614840	array is updated I have to recreate all the tickets which are present inside inside ticket
+4615680	4626080	let's say I have each ticket now for creating each ticket we were using earlier create ticket
+4626080	4632720	inside this create ticket we were passing three informations earlier if you see if I
+4632720	4643240	find create ticket okay this information isn't it let's copy this and paste it here
+4644840	4658600	so so is this clear guys what I was trying to do it here I'm just updating this array with
+4658600	4663800	the existing information and also trying to recreate them onto the page let's see if this
+4663800	4669800	is working fine as of now now if you see we have two tickets inside this memory anyways it won't
+4669800	4679080	be deleted once it is stored that we know it right even if I refresh it okay it's it's I see
+4679080	4684840	that I'm getting the error assignment to a constant variable let me recheck okay this is
+4684840	4692240	how I have to make it as let okay now going back into the application still I have in memory two
+4692240	4700880	tickets are there task 1 and task 2 if I refresh it I still see one error cannot access create
+4700880	4708240	ticket okay let's let's do one thing since we have used constant variable though the hosting
+4708240	4713000	works hosting works in a different way right we have that those are throwing error because
+4713000	4724120	of ES6 syntaxes now once I had do here add create ticket on top and once I click play now
+4724120	4732240	let's say this task 1 got created but let's see in the application we have two tickets only task
+4732240	4742440	1 got created cannot access handle remove before initialization okay so let me do one thing I have
+4742440	4761760	to move all the methods on to the top also this method
+4761760	4776520	okay now let's see if this is working fine now do you see this ticket task 1 and task 2 got
+4776520	4783960	created automatically I didn't do anything I just refreshed the browser now now let's say if we
+4783960	4790120	create if I even if I close this let's say for even if I close this even if I close this and I
+4790120	4798600	reload it let's say I clean this I reload it once I load this and I click play now if you see the
+4798600	4806320	task 1 task 2 got created automatically because in memory this task was present is this clear
+4806320	4817080	guys how local storage is helping us now now these are use cases completely handled is our
+4817080	4821320	use cases completely handled do you think we have still use cases that we have to handle here
+4821320	4831960	adding part is done we have to handle remove also isn't it whenever user is deleting a ticket we
+4831960	4842360	have to update the local shortage also right so let's go to that part let's go to that part where
+4842360	4851840	we go for removing that items okay now if I go and check for the remove we are already slicing
+4851840	4859520	you know if we are already splicing the ticket array so what if instead of using a remove item
+4859520	4870400	I go to local storage let's say I try to find local storage I just do this thing again there
+4872360	4880240	let's say I do this again so why I'm doing this again is that because ticket array is being
+4880240	4885280	updated here ticket array got updated when we removed one item from it again I'm updating this
+4885280	4891960	local storage with the updated array simple you are able to understand this point right why I'm
+4891960	4902340	writing it this way again instead of using remove item okay so I hope this point is clear now once
+4902340	4908700	I let's say once we go check this let's say if I go and click the delete once delete button is
+4908700	4917580	activated if you see here we have two tasks 0th and first index bottom let me minimize this one
+4917580	4926820	okay and I go and click on this task to if you see the 0th task task one got deleted here okay
+4926820	4933380	so that's how we are handling remove part also no do you still think that every use case is
+4933380	4945100	handled think of this guys if is all use cases handled update is left isn't it no what if I
+4945100	4954820	copy this content again go to handle log and update it here itself because again if you see
+4954820	4962140	ticket array is getting kept in sync again so ticket array is having updated information I'm
+4962140	4970100	just updating the local storage using set same thought process okay that's the reason why I have
+4970100	4974500	everywhere I'm using set item that's the reason why earlier I for it first time itself I've taught
+4974500	4979660	you that how all the methods you can use it what are the what are the all methods that you can
+4979660	4986060	leverage it okay now let's say if we want to convert this into task one once I create into
+4986060	4992780	task one and I close this back you see here this also got updated as task one let's say if I go
+4992780	5001340	and update as a task zero one and I update this one this has been updated as task zero one you
+5001340	5006780	find this good guys like everything is stored in your database on each click it is getting
+5006780	5013620	updated in your database local database right and imagine if I deploy and give it to you you can
+5013620	5019420	actually use as a to-do task for to-do list for yourself in day-to-day life can man more you can
+5019420	5024460	keep on adding more features I thought like if you're going to add this in your resume I should
+5024460	5029060	make it bit more look neat and tidy that's the reason why I try to make it everything rounded
+5029060	5036220	I didn't play it on one use case which is this ticket one you can make this ticket look really
+5036220	5042260	beautiful depending on the your wish like how you want to do it I would be really happy if anyone
+5042260	5047580	want to you know play around with this one because tomorrow is Sunday if I even receive one PR I would
+5047580	5053980	be really happy with that would anyone would be interested contributing this one like make it
+5053980	5060500	look beautiful add it into your resume because we'll deploy this what you can do is like you can
+5060500	5065640	always add a bookmark like I have a bookmark you can always bookmark as a Kanban board you can
+5065640	5070400	maintain your to-do list in your browser that you have built it so you will say that hey this is
+5070400	5077440	application built by me and I'm using it it would feel good that you are building something and you
+5077440	5082400	know the real-time production bucks you've won't fix it whatever features you want to add it okay
+5082400	5090000	now yeah I'll talk about how to deploy but all the logic still now I hope everything is clear
+5090000	5096920	everything is clear right no what I'll do is that
+5096920	5105840	guys can I remove this file because I want to when I go for deploy I don't need this
+5105840	5112240	script file to be present here so I'll delete this file anyways I have taught you like how
+5112240	5120560	can you handle that even bubbling okay yeah we can host this I'll talk about that so let's say
+5120560	5132560	I push this code as a code completion get commit minus nm code Kanban board
+5140560	5148760	now I have one assignment guys one feature one thing that I want to give it to you is that let's
+5148760	5156360	say you go back tomorrow if some if you try to implement that's all good or else if you want me
+5156360	5163160	to implement I'll do that it as a offline because it's a homework for us all of us okay just I'll
+5163160	5169520	tell you what you can do it is that if you see here we are able to filter the task based on a
+5169520	5176000	status isn't it we are able to filter based on a status but what if we want to filter based on the
+5176000	5182720	task content if you go into any e-commerce site right you go into e-commerce site you have a
+5182720	5193600	search bar right always search bar right this thing just think of it how can you implement it
+5193600	5200240	let's just like let's write down the lines right let's say if I try to write down what we can do
+5200240	5204960	it here if you want to implement this let's say this is an extra add-on feature
+5204960	5220040	okay what you can do it is that you keep a like let's say key up key up event okay when I say
+5220040	5226720	key up event whenever user is typing it down when user leaves that key listener will be
+5226720	5240440	listener will listen right now whenever user types down anything you go pick this
+5240440	5257960	ticket array okay filter it and render firstly filter it filter it and store and remove all
+5258080	5274960	the tickets and render filtered tickets now you have to write only this filter function
+5274960	5283680	now the filter function will apply on this ticket array task info object and also you
+5283680	5292240	can use task ID also this seems to be easy enough when you go and see from our project
+5292240	5298680	perspective if you want to go and implement this search on straightforward even you can
+5298680	5303840	find each piece of code already in our that script file you have to just pick it right
+5303840	5309280	things and build it if I have to build it it will take me 15 minutes hardly I can build it
+5309280	5317960	but what I want where the logic part you will be able to do it in half an hour 30 minutes but
+5317960	5326400	where I am trying to push you guys is that I made design changes now you think of it how would you
+5326400	5334480	accommodate search bar and how would you allow user to do it and how you make it better experience
+5334480	5340960	build experience now as a product developer or engineer you also have to think right how
+5340960	5348320	can you improve your existing application so I hope the problem statement is clear like what
+5350080	5355760	yeah maybe under the Kanban board or anything if you want to reduce this font and give it you have
+5355760	5361600	to think go and research the existing thing you go and check myntra flipkart Amazon or whatever
+5361600	5368000	they have how how you can do it okay so just think of it that way or you want to add a toggle
+5368000	5373840	button which will toggle between this filters and a search bar like anything that you want or else
+5373840	5378320	you want to give it a create and delete button as a different thing it's up to you anything that
+5378320	5386560	you can do but it's it's your choice so I want some innovation from your side also spend some
+5386560	5392480	time this will push you to you know rewatch this whole code go through this code and then come back
+5393840	5400240	so guys if you allow me 10 minutes we'll end the class for today can we go ahead and deploy this
+5400240	5410080	application okay let's let's do this guys let's do this so for deployment also right this is a
+5410160	5418080	static website isn't it when I say static website when I say static website what I exactly means
+5418080	5428320	is that there is no specific interaction with real-time server okay only it has three things
+5428320	5441760	html css js with no api calls being triggered okay so this static website you can always
+5441760	5448240	you know there are a few set of deployments that you can use for static website so have anyone
+5448240	5454880	explored something like github pages have anyone heard github pages
+5458640	5460480	okay let me show you github pages
+5462720	5466480	if I have I think I have one two projects guys I can show you
+5468160	5476880	let me see if I have it give me a second guys I will go through my repository and see
+5488640	5497760	so I'll show you this thing firstly let's say github also provides an ability to deploy your app
+5497760	5504960	okay it's pretty straightforward like you can what whenever you create a repository right you
+5504960	5516560	can go to repository once you create it okay then once you have updated it you can go to repository
+5516560	5523680	create it give me a second they haven't provided everything here
+5528640	5529600	okay terminal
+5535120	5541520	okay they are showing through github let's say if I do this do this do this
+5546880	5551120	okay let me see if I have any websites that I deployed I remember I have deployed but I
+5551120	5555520	have to recheck it I've done some time back
+5564960	5568960	this was something that I deployed when I was learning react long time back
+5569840	5575840	okay like this is again you know add a meetup if you want to add a new meetup like you can
+5575840	5585600	add something dummy data uh let's say www.google.com
+5589680	5594800	okay I gave the right url now let's say image url uh images
+5606320	5619600	okay yeah so this was one of the website but this is not the thing oh let me recheck if I have
+5630080	5631200	yeah maybe this one
+5631920	5637760	okay this is an empty repository but so I'll share you guys like how you can leverage github
+5637760	5644800	pages okay but if you see this this is something that I deployed on worcel now worcel is actually
+5644800	5654160	built by uh next.js team uh same team who built uh firstly react okay you can deploy your
+5654240	5660400	applications here also like just if you click on start deploy okay once you connect with your
+5660400	5666480	github repo once I authorize this one
+5670640	5676640	okay now uh let's say I import this one
+5676960	5679280	uh let's say I import this one
+5682000	5686160	and it keeps me directly deploy button I don't need this way but
+5690960	5695040	this is something that I deployed earlier so if you see this is the same website
+5695760	5702080	but inside github pages also have deployed things I just want to know where did I do this
+5707520	5712720	hmm anyways I'll come back to that one guys how did I do it on github pages github pages
+5712720	5717200	is really simple you can do it directly on github you don't need any other website
+5717200	5720320	uh you it's it's straightforward completely
+5724720	5728240	I'll show you that one anyway straight one okay fine
+5728240	5732000	but something that we are going to use today is netlify
+5732000	5738320	okay have you heard of this one netlify earlier
+5740720	5745040	so I was talking about three things right as of now if you see github pages
+5748800	5757520	then you have let's say worcel and netlify these are really commonly used because for
+5757600	5762400	static websites they allow you to freely deploy applications okay if you want a
+5762400	5768000	free deployment you can use most probably github pages that's a really easy one like
+5768000	5772160	you can go through documentation it will be written inside git only when you try to create
+5772160	5778400	a repository but when you go for netlify this is a third party uh you know application which is
+5778400	5784240	used to host your websites so let's see how you can do it this is pretty simple it's a one-step
+5784240	5790720	game like let's say if i go into netlify and log in let's see if i have logins
+5792720	5794720	uh let's say i log in with github
+5798640	5804880	and okay did i deploy any applications earlier
+5807280	5811680	okay we'll anyways build this in future guys there's one more application that i deployed
+5811680	5818480	for the last patch but now if you if you want to deploy any other new website right uh let's say
+5818480	5828800	go to sites add new site deploy if i hear what i'll do is like i'll i'll select deploy manually
+5828800	5834960	and what i'll do it is that i'll pull the code and paste the code here okay so how would i do
+5834960	5845440	that i'll click the browse to upload okay i'll uh have to go to dev full stack manjan
+5846160	5852160	uh projects part uh let's say kanban board once i do this here we have three files index html
+5852960	5860320	script js and style.css let's say click on upload just upload okay if you see
+5860320	5869280	okay automatically everything will be handled for us now okay uh let's see if you see here
+5869280	5875520	uh the initialization building deploying clean up everything is skipped but you know everything
+5875520	5881600	was deployed the code is uploaded into this one and if you go and click this one right or open
+5881600	5890160	production deploy your application is actually deployed so i made this fonts really less i guess
+5890160	5897040	i have to play around with this fonts by default my browser was zoomed at 250 but can anyone check
+5897040	5905760	if this is url is working for you try to access this url if anyone is able to access this kanban board
+5912640	5918160	okay so it starts that straightforward you can try to create your own task check this
+5919040	5924240	check this like once you let's say what i can what you can do is that let's say i bookmark this
+5926000	5933360	okay instead of scalar let's say i make it to bookmarks bar kanban board now if i want to do
+5933360	5940160	play around with this one let's say i'll open the kanban board and then let's say task one is to
+5940160	5946000	complete assignments let's say i want to make it this one to be done uh assignments
+5948160	5954560	okay and click options now once you do this let's say to be done maybe in progress then validate
+5954560	5958640	once it is done you can do can complete and also you can delete that as whatever you want
+5959280	5963760	okay this is something that i'm doing on production base so this is one of the way that
+5963760	5969120	you can deploy it it's really simple when you can we add custom we can do that we can do that
+5970240	5976080	we can do that uh let me explore this one i go to deploy settings
+5977040	5979040	uh
+5983360	5984800	okay configure
+5990960	5994080	not this one pretty let's say this documentation
+5996400	5999600	uh this doesn't allow us custom uh url
+6006080	6009600	so
+6021760	6025120	okay this is a site id that i got change the site name if you see
+6026160	6030400	uh let's say this is a site name i can say kanban board
+6030400	6041120	uh let's say it is it i say uttam uh i save it now once i did this i updated this as a site name
+6042000	6048000	and site id will be consistent let's say if i go back to site overview
+6049280	6055440	and i try to open this now so if you see i made this custom url upendra
+6055440	6063600	so if you see i made this custom url upendra so just go into settings uh you will be able to update
+6063600	6070080	it how the way you want to do it okay not a big deal so there's one more thing that if you want
+6070080	6077920	to redeploy right uh let's say you go and uh let's say now that's fine uh let's say even if
+6077920	6080240	we can do the lighthouse testing for this one plug in
+6083040	6090800	uh okay key kanban board as i wrote kan board okay fine anyways
+6094480	6099520	you can anyways i'll go back and update i'll show you back again how can how we can do this site
+6099520	6110400	configuration uh change site name i say instead of this kanban board
+6115520	6122800	let's say kanban board scale be appropriate okay now the site will be updated as this one
+6123200	6132880	okay fine anyways like if you see uh for each one right now i'll have one question to you
+6132880	6140880	just think of it like if it's if it is clicking to you now i have something like kanban board
+6140880	6148240	and also i have something like local application which is running now i have this ticket one got
+6148240	6153280	created here and for kanban board if you see tickets are not there here
+6156000	6160080	why do you think it's not there for why it is this particular
+6160080	6166400	thing is having like even if i refresh task on this day though if you see go and explore in the
+6167360	6173280	application local storage i'm having this task if i go to kanban board
+6173600	6179520	if i go to application in the local storage i don't have it
+6181360	6188320	no why do you think this is how it is behaving it's so we earlier when i taught you this one
+6188320	6196720	like having of 10 mb uh size so that 10 mb size is per one site you can have 10 sites
+6196720	6204160	have 10 sites loading in a browser so each site can have 10 mb of data that can store in the
+6204160	6210800	local storage that's the reason why when you keep on adding more and more websites right more and
+6210800	6217040	more tabs the more amount of data that browser need to handle and the more amount of passing more
+6217040	6223840	amount of things that are happening at long time if you see if you have 10 15 websites you can see
+6223840	6230160	amount of the cpu consumption that is done by actually browser it's that makes really you know
+6230160	6234880	slow your application your all sites are slow if you've just seen that in the earlier class
+6234880	6240960	i had many websites open parallely for me okay so that's the reason why some it's it's not
+6240960	6246160	suggestible that you know you do it that way sometimes you have a strong application which
+6246160	6252560	is using more amount of memory from your let's say 32 gb 64 gb rams then it works fine but it
+6252560	6257120	is supposed to try to use as many like let's say eight nine tabs not more than that
+6258080	6263840	but i hope you got this point that you know the 10 mb size is not per a website not for the
+6263840	6268320	particular key but it is for different all websites will have its own 10 mb and 5 mb
+6270560	6273760	and 4 kb of data that point is clear right
+6274400	6283040	uh guys so did you guys enjoy kanban board completely we have spent more than eight to nine
+6283040	6290080	hours so do let me know if you have any doubts or any things that you want to share with me okay
+6290720	6297520	but as of now i would say that this development part for kanban board from my side is completed
+6298240	6303920	this development part for kanban board from my side is completed i hope someone goes and
+6303920	6309040	implement that search filter and make some design changes and share it with me if it is something
+6309040	6315120	that you can add on that i'll go and teach that subsequent batches also that this is done by a
+6315120	6322640	previous batch some student then i'll name you there then we can bring it back okay someone
+6322640	6327200	else will add on more future features then someone else will do right so i want to make
+6327200	6336480	this as a proactive development task okay so guys if this is clear i would like to end the
+6336480	6341840	session today here itself i'll start the doubt session uh you have enough time i would say that
+6341840	6349600	have you know enjoy the weekend take rest uh get back with new energy where we'll learn
+6349600	6354080	machine coding from the next session that's going to be further interesting things guys
+6355760	6361680	please join me back in the tuesday's class okay so let me start the doubt session
+6366000	6366480	okay
+6369680	6374400	guys i have started the doubt session now anyone having any doubts they can post their doubts
+6374640	6383600	uh and we can discuss this further uh if everything is clear feel free to drop uh and
+6385280	6389600	can we go forget okay uh let me do one thing guys i'll share one website
+6392160	6397600	i'm not sure guys like why they are not adding it i'll flag this one
+6397600	6400800	um
+6403520	6403840	okay
+6411520	6417120	okay i'll i'll try to teach you basics of gits that i do in day to day okay now let's have since
+6417120	6425120	we have some time now okay let's do this i'll take 10 15 minutes of kit class also i'll teach
+6425120	6431920	you whatever i know okay so
+6438960	6441920	how many of you understand something called remote repository
+6446640	6448000	and local repository
+6448000	6450000	okay
+6454800	6461520	can we add domain name like uh canbatboard.com uh no that won't be possible up in there
+6461520	6466320	because you have to buy that canbanboard.com uh domain only then you could be able to do
+6467200	6473680	because for domain names you have to buy it yeah i'll share that can but uh canbanboard link
+6474400	6482000	uh let's say i also started i thought someone will ask okay this test uh this is still working
+6482000	6488080	but let me go to netlify and share the exact sites
+6488320	6494480	so
+6498640	6505520	i'll pin this kabir zoom it to 250 percent you can refix this one you know
+6507840	6514560	the sizes of things like i i'll fix it up later but you can fix it up okay so coming back to this
+6514640	6518720	one guys how many of you know understand this something called remote and local repository
+6526160	6529040	does anyone understand this local and remote repository
+6531760	6535920	no right so remote repository something which is present on your github
+6537040	6539920	okay local repository something present on your machine
+6540480	6547760	both can be pointing to same thing let's say if in our case fullstack jan batch fullstack jan
+6547760	6557040	okay this is the github repository let's say we have this is this is on github now as soon as you
+6557040	6563680	make any changes in everyday code whenever i'm making any changes or adding changes so i'm making
+6563680	6569840	changes so i'm making changes in my local repository every time after my class i'm trying
+6569840	6577200	to push something onto my report remote repository right so if you go and see if i show you something
+6577760	6587120	in my here let's say i write down git remote okay if you see origin uh get a remote
+6594160	6601200	okay so if you see there are a list of things if you see that what what it is showing like you can
+6601200	6609600	add n number of things like git remote you can add a new urls set url okay remove the urls also
+6609600	6614800	whatever things you have you can play around with this on you where you want to push this code now
+6614800	6621280	when i say origin when it says origin now if you go and see in the github right let's say if i go
+6621760	6630160	on open the github account uh this was a batch right now this main branch is something like
+6630160	6636400	acting as my origin now if you see this is a particular uh link where i'm trying to push code
+6636400	6643760	this https code right in general i'm interacting with this one okay this is the url which can be
+6643760	6648960	helpful to clone it and this is the remote url where i'll be pushing my code using the local
+6648960	6654720	repository this point is clear what is remote and local and whenever you are making changes
+6654720	6660160	you are making it local you have to push them into remote repository so that changes can be
+6660160	6667920	added here okay so this is just a theory as of now now so here whenever you do git remote
+6668720	6671280	in local you will be able to see what is the
+6671280	6681120	uh like remote repository url you will be able to see that okay or here we got an origin because
+6681120	6686160	we are using only one branch as of now if you have multiple folks you will be able to see
+6686160	6694960	uh exact url but now whenever i'm making changes okay now in order to push the code to here right
+6695920	6701600	it goes through certain steps firstly all the changes that you do let's say if i show you the
+6701600	6707280	changes that i do let's say i make some changes as a uh add something here extra string
+6709120	6716080	okay now i am adding an extra string here and i save this if you see here in the vs code i can
+6716080	6722800	see that there are changes now when i click plus there is something you can see as a staged
+6722800	6730960	staged changes staged changes this one now let's say here i clear
+6733040	6738080	git status if you see when i do git status
+6740400	6747520	here if you see this changes to be committed changes to be committed if something is in green
+6748480	6753840	whenever you use git commit this whatever in green color there that will be pushed
+6754480	6761200	that is going to be pushed with this origin main why origin origin is some remote repository
+6761200	6767200	as i've shown you remote repository url and it will be pushed to this particular branch called as main
+6768240	6774640	now whenever you are doing this now let's say if i do this minus again i've added into changes now
+6774640	6780560	let's see what is happening now if you see changes are not staged so it says that red in
+6780560	6787360	color if you want to uh like you know add if you want to commit these changes you have to move this
+6787360	6794880	to stage so what happens is whenever you are making any changes in your local right whenever
+6794880	6800400	you are making changes you have to add them into called something called the staging area
+6800400	6808640	staging area you can do it using git add file name
+6812720	6817040	or git add dot when you do dot
+6817040	6817680	dot
+6826320	6832000	whenever you do dot you are adding all the files once you are added onto staging area then
+6832960	6839440	you would be able to commit that code now whenever you want to commit it if you see here
+6839440	6845600	it is also suggesting the command like it's it also keeps the suggestions like you can say git
+6845600	6852000	add git commit so one of the best ways right if you stuck anywhere in the kit you can do something
+6852000	6859120	like git help it will give you all the definitions like uh branch details commit merge rebase switch
+6859120	6865040	tag you know fetch pull push now i'll come to what is like fetch full pull and push okay now
+6865680	6871920	let's say if i want to push this change let's say i don't want to push this change but i'll
+6871920	6879760	add some change let's say i say that i want to push something called as colors array i'm
+6879760	6885680	adding this comment and i want to push this now once if you see in my change i'm adding colors
+6885680	6891920	array i have added let's say i remove this now if you see if i do again git status
+6893440	6899520	it is not added into staging area changes are not staged for the commit once i click git add
+6900240	6906880	dot and i do git status again if you see changes are to be committed do you see the
+6906880	6911440	difference between these two things once you make changes you have to move something from
+6911440	6922080	changes to staging area is this point clear okay once we make this then we have to commit the code
+6922080	6927840	let's say if i when i'm committing it what do i mean i'm saying that hey this is store this as
+6927840	6933920	a one of the memory like like with one number like key value pairs only a key with a multiple
+6933920	6946160	files memory now let's say i say that hey comments added no when i go and add it now if you see while
+6946160	6953440	one file change changes got done and one insertion happened now this insertion happened inside this
+6953440	6960560	particular commit inside the main branch but now this commit is still is in local repository
+6962640	6966560	okay then once staging is done git commit
+6968800	6973600	once you committed the code still it is in local repository you are supposed to move these changes
+6973600	6981360	from here to here and you can do this using push the changes to origin so if you see many people
+6981360	6986240	write down git push origin you sometimes when you are directly pointing to origin you need not to
+6986240	6996240	give origin also so if you see if i do git push see that data got written and it is being pushed
+6996240	7005200	into this particular url let me open this url okay now if i go into commits i have committed 34
+7005200	7010480	comments now if you see in the comments commit this was a commit code if you see just now
+7010480	7014320	that we will be able to use the information and everything what we have added
+7016000	7023440	so i hope till now we are able to understand what is git commit git add git push what we are doing
+7023440	7031680	what is local repository and remote repository right now imagine if someone else like you you
+7031680	7038800	might not be alone working right on this git repo and let's say if someone else also added some
+7038800	7049120	changes in your report repositories right let's say two people are working here on full stack chat
+7053200	7059200	uh consider use case when i was teaching and shashut was teaching
+7059280	7066080	right pardon with spelling both were teaching right earlier i was pushing code to remote
+7066080	7072480	repository then shashut jumped in he taught you three classes he pushed code but in my local
+7072480	7080480	repository do i have code what shashut has added into my repository as a collaborator
+7080560	7083360	has added into my repository as a collaborator
+7087040	7091360	by default do i have the code whatever he pushed
+7093520	7097680	guys are you able to follow up i'm or i'm wasting my time like just want to know
+7098960	7105280	like do i have the code what shashut has pushed maybe shashut would have added into this repository
+7105280	7115200	if you go and see if i uh if you see uh intro to dom read me updated
+7115920	7122800	event handling even dynamic dom right these codes were verified by me and he added this code yes
+7123440	7130160	so this thing is present this changes whatever he have pushed into will be present in remote
+7130160	7135600	repository but in local in my machine automatically code won't be downloaded which
+7135600	7144800	is pushed by shashut i have to say can you give me all the information updated information in the
+7144800	7151200	this remote repository when i say get pull i'm trying to pull from a particular branch
+7152000	7159520	i'm updating my local repository on my machine i'm trying to fetch the updated now how can i do that
+7159520	7166000	i can suggest say that git pull when i say git pull it says that already updated
+7166880	7173360	okay let's let me show you something like how can you uh there's a difference how i'll show you
+7173360	7184000	let's say now i go into read me and let me uh fetch some read me changes i'll fetch it from
+7184000	7188240	past patch i'll update the read me let's say i go to read me file
+7192000	7192240	now
+7196080	7197120	this is rendering
+7202880	7207040	let's say i try to push something called as canban board
+7207680	7212080	uh how do i load this
+7217760	7225520	anyways let's say we add something here if i want to edit this one
+7237760	7245040	okay here let's say if i go and add it here okay now if you see it here what i'll do is i like have
+7245040	7251760	to make changes let's say till can bad board one i've added here i missed for the last two classes
+7251760	7260480	read me content let's say i go and update this one okay let's say i add for the next two classes
+7260480	7262400	let's say class 15 and class 16
+7266880	7275040	let's say it is i did this and let's say i commit changes here itself now i commit changes uh update
+7275040	7281600	read me main branch okay now i don't need to push it because i committed changes directly
+7281600	7288400	on remote repository oh hope that point is clear like how did i only with commit this was
+7288400	7297040	100 right now if i go back to my local code do i have the recent commit that was made here
+7298320	7303360	do i have that recent commit made there like can you see can board board 15 16
+7304240	7310800	now if i want some changes which were done on the remote repository into my local let's say
+7310800	7318320	if i want something to be pushed or pull the data whatever updates are done on the remote repository
+7318320	7325760	if i want to get those data okay so if you see if you go into the collaborate section you will
+7325760	7333920	see that it will that fetch and integrate if you when i say git pull it will fetch the data from
+7333920	7340240	the top branch let's say i do git pull now once i do git pull let's see if you see read me file
+7340240	7345760	got updated there are 13 new changes that were added now do you see this can man board can man
+7346080	7352800	changes got added here automatically so do you understand how git pull and git push works
+7352800	7358480	so whenever you are interacting with remote repository you have two things git push and
+7358480	7370720	git pull is this clear so guys i believe i have covered some basics of it
+7371200	7379040	then all the other things you can explore step by step is anyone able to follow up like
+7379040	7382160	are you able to follow up right did you understand this a basics of git
+7383520	7386080	i spent some 20 odd minutes on that okay
+7390480	7391040	great guys
+7392960	7399520	chalo then if this is clear how do you install git in vs code okay you don't need to install
+7399520	7408880	git in vs code by default it will be there and someone was like if you see that if i open my
+7408880	7418720	terminal let's say this is my terminal i have to show you if i have git installed here
+7419360	7429200	git hyphen hyphen version if you say 2.3.81 or 2381 same will be here also git hyphen hyphen
+7429200	7437440	version same version will be there so once you install on your like on your level of your
+7438160	7445120	system that will be auto installed in your git this one also terminal okay kabir have some
+7445120	7449040	small talk can we make task flag equal to false in the model event listener because
+7449040	7452480	while creating a critic paper is an alt key should uh
+7457200	7466480	okay sure we can do that
+7475760	7484480	okay can we make uh yeah we have to install in the system some bit
+7487040	7488480	model event listener
+7495920	7496480	here right
+7496480	7499840	now
+7505920	7507840	it was add or remove
+7511600	7517840	just let me check that keyword because we have two things add and remove
+7517840	7525200	so
+7527440	7532880	this one you want me to update right add task flag kavi
+7535440	7539200	just rechecking with you
+7539200	7542560	so
+7543440	7550000	okay going back to while doing a model container
+7552000	7553040	model container
+7555600	7559200	no this will reset it let's say i launch this
+7561440	7563760	no when i create it
+7563760	7569920	it okay this is breaking then all the time
+7575360	7585120	okay did i make some error 152
+7585120	7594480	okay fine this is working fine thanks kabir
+7600800	7608480	no thank you so even if you want to set up the git right you can go github
+7609040	7616640	uh tutorial i guess github tutorials you can go github docs
+7623840	7629840	let's say you can explore documentation but download github
+7629840	7641600	you can check here like how can you download how can you play around with this one okay
+7641600	7644000	github installation and setup
+7648080	7654080	guys any other things that you want to point or likely can we end the session today
+7660080	7664080	so
+7664320	7666320	you
+7683840	7688160	so i don't see any other doubts guys so i'll end the session today here
+7688880	7696640	so thank you for joining enjoy the your time thank you pendra hope you enjoyed the whole project
+7696640	7702400	project can band board so you have some homework part to be done on this if you're not able to do
+7702400	7706640	even then i can help you out building the search bar because it's straightforward as i've told you
+7708400	7713840	try it out do let me know let's meet back on the tuesday's class where we'll do actual machine
+7713840	7719840	coding rounds because web development can be learned through projects but in interviews
+7719840	7725520	something that you would be tested on is like machine coding rounds okay so let's meet back
+7725520	7732800	and explore them okay so take rest solve the assignment problems let's meet back guys
+7735600	7740800	so thank you for attending tuesday's sessions i'm stopping screen share see you on tuesday guys
+7743920	7744000	you
+7747520	7748000	anyways
+7773840	7775840	You

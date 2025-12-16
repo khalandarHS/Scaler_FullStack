@@ -1,0 +1,512 @@
+Hi all, good evening, hello Kavya and Roshan and you, I'm audible and visible guys, give
+me thumbs up if you can hear me out, great, okay, good evening Sambit, good evening Abhishek,
+hello, guys let me know if screen share is working, I'll just share it, is screen share
+great, let's have seven minutes timer, we'll get started in seven minutes but
+just want to know a few things before we get started with the class,
+okay, I see some good amount of people joined so I just want to know a few things,
+before this I have to share my iPad, give me a second quick time player,
+where is this,
+iPad is also fine right, you are able to see iPad screen,
+okay great, so guys do let me know how many of you are able to maintain 90 and above PSP,
+90 and above, if you are able to maintain 90 and above give me thumbs up, if not give me thumbs
+down, okay great Abhinav, okay I see few people like give me thumbs up, so guys react it please,
+let's need to know like how many, okay I'll write it down, PSP of 90% and above,
+above 90% 99 great, okay so like I see only few people got reacted but there are two people who
+are not able to maintain it, so guys can I help you out, do I have to contribute anything from my side,
+because I just want you to you know, people I know that most of the people who are attending
+my session are able to maintain 90 and above, just have seen few people who are not able to
+like you know come up with like PSP percentage, because what I've seen is this LLD curriculum
+right, this assignment problems hardly take half an hour to solve I guess,
+30 minutes for a race class, not like DSA isn't it, like it's really you can complete it really
+fast speed, okay so I would urge everyone right to keep it up as much as possible
+and kudos to all of you like who are maintaining 90 and above, I've received personal comments
+and chats, great work guys keep doing it, great so one thing I want to talk about is like last
+how many of you were clear about the machine coding problems did we solve,
+whether it's counter
+or a star problem, star rating problem, does it find easy, easy enough like
+are you able to relate it, code it, think in terms of solving a problem,
+great I see three people reacting to it, guys can anyone drop a message in whatsapp chat,
+my first class today excited, yeah excited as well, hope you have a great journey, great learning, so
+we have still three minutes to go ahead, so anyone having any questions from the previous classes do
+let me know if you have anything to ask for or anything you have concerns related to anything
+like related to career or anything you have random points you can talk to me, so three minutes we'll
+wait till then people join then once we once people join we'll get started,
+you can talk to me for three minutes we'll wait till then people join then once we once people
+join we'll get started, okay let me message it in the chat meanwhile
+so
+many people struggling to get full stack dev job,
+okay yeah full stack dev is actually I would say tricky right because
+when you talk about full stack as a profile right
+there are two things front end focused
+or back end focused
+okay this is difficult to get it done because most of the back end systems whatever you see today
+are focused on something which are related to java or you can say go lang like a whole
+scaler is built on ruby and a part of it is having node js also you see there's a share between each
+of them like like there are different shares from the back and when it comes to front end you most
+preferred choice is react and then you have angular up to an extent where it goes to enterprise
+or big companies okay but what we are picking up here to get our capability of full stack build
+we picked it up murn stack such that we'll get good with front end and we'll have better idea
+with node shares when you do this this is really easy out of the all the choices you have to
+understand full end-to-end ecosystem only because it's based on completely javascript
+as a core language once you learn js you will be able to deal with it okay but if you want to
+go with different sorts of thing right it's really difficult so when you go for full stack
+people are expecting a different combinations of things can you imagine it would be really
+difficult for a person to combine and get a job okay but if you are particularly applying
+on a react profiles you will get more options if you go for murn stack you'll see some options
+so you have to pick and take it up you'll have a whole back end and front end things then depending
+on company's requirement you can also learn new languages so you will be able to take it up one
+by one okay so that's what i can tell from my experience okay
+okay what about front end opportunities i see very less nowadays in scalar
+front end opportunities okay i'm not exactly sure in scalar particularly from scalar
+port placement portfolio but you have a good amount abundant amount of opportunities if you
+go in any job or portfolio sites right you may be building the insta higher anything okay
+can we have two event listeners for one element double click yes open there you can have it
+uh whatever which is better for back end java springwood notches expresses abhishek i wouldn't
+say that anything is better everyone is solving a different sort of problem uh you know one thing
+if company needs other thing you should be in situation to like learn and write code it code
+it down because when you go to for the product based companies language is not the skill that
+people try to find it on the you are questioned on uh like your basics and ability to learn things
+okay language is not the parameter on which product this works even if you're from java you
+will be hired in microsoft because there's dot dot net they're working on if you know only golang
+even then you can come to paypal where java works you can go to uber where golang is preferred but
+you can if you know java node they'll take it so language is not a question when it goes to
+bigger companies so you can pick it up anything and do it you should be in a situation to learn
+from non-dick uh job experience when we should start looking for job after js react please go
+after react at least please don't react uh build projects on that only after that try to apply it
+because there's a one your portfolio will be also built up to the next step
+uh you are a ux designer upendra then um i would say uh go with the front end def
+if front end there would be easy and relatable for you like you will be able to relate more
+right having a knowledge is good uh but uh on google stack but prefer to go with friend and
+if you're coming into development compared to angular or react with this problem of course
+react you can go and check github stars on uh either of the code bases but i think we have
+elapsed the time guys we i don't see people jumping into today's class i'm not sure they say
+anything specific okay okay uh back end is difficult right uh nothing is difficult it's
+it's out of interest uh since if you see for friend and we started covering uh we started
+covering from the basics right like if you see we started with html then css then js only then
+we are moving to framework if you see combine all of these things front end will look difficult
+go and ask someone back in person like is it do would you don't would do you want to do it
+friend and he would avoid it okay uh okay so valentine celebrations are basic uh many people
+avoided the class today can be anyways guys so i'll take few more questions if you have anything
+related to career-based things i'll share my opinions on it hope uh you will be able to take
+that and work towards better thing breakup is going on okay yeah then you can patch up again guys
+hopefully so let's get started with today's class guys now in last class we started with machine
+coding uh specifically uh type of questions uh a pattern of questions that can be asked in
+uh like friend and lld interviews so if you see we picked two questions one was a counter
+and one was a star rating problem so we'll move ahead from here so we'll build one a bit complicated
+uh problem which is like nested comments so if you see in facebook or instagram you have
+comment section where on one comment uh you'll be able to add your comment then you can add
+another comment so you keep on replying to one chain so we'll try to replicate this particular
+nested comment uh you know component right we'll try to implement and see what it takes to build
+uh using simple html css js then we also have another question where you have to
+you know play around with the otp like if you remember we have whenever you want to
+enter into any otp you have boxes right uh four boxes or six boxes depending on it so how do
+you build an interface and how do you manage an otp uh like entering field this would be really
+basic but we'll be building this then we'll also build a progress bar uh when i say progress bar
+it's just like low showing that loading uh like how much how you can build a progress bar where
+you have let's say bar and then there's a loading filling it and then going back so we'll try to
+implement these three things hopefully i'll try to make it as interesting as possible and as you
+know i need your support keep keep on adding the comments that you have in your whatever thought
+process you comes by when you see a question so excited guys let's start with the three questions
+that we have because everything is you can see in the social media platform or everything you can
+see across your any apps that you come across these components will be reflected okay so let's
+uh not waste time here on the ipad let's move to the coding directly so first and foremost thing
+i'll show what this nested components look like so we'll try to mimic it now i hope you can see
+browser where you see the first comment let's say this is a dummy comment that has been added
+and once there's an option that i can add a reply to it now once i click add reply do you see there's
+an input element with a form input and there is a submit button now there here you can write some
+let's say second comment uh i'm using some dummy content
+okay now once you submit it what happens you see this a comment has been added
+now what if i want to add a comment here again now do you see when i'm adding a comment i can add here
+second comment so on one layer to the top comment you can add any number of comments and you can
+also add if you want to reply to this one you can add it like a third comment third hyphen one
+commentator okay so are you able to relate uh how this is going to work from a functionality point
+of view like on one comment you can add a number of comments on again n comments you can keep on
+add any number of comments at you so it's a chain that keeps on going building it's a really
+relatable component you go into any social media app where likes and comment sections are available
+there you will be able to see it can we create another parent comment section you can create
+as much as much you wanted something but i was just focusing on like how do you relay
+sub comments to the comment creating initial comment section is really easy
+but the main problem really revolves around like how do you build this chain okay
+so guys uh do you understand what we are uh yeah it's like creating a new ticket in the to do
+something similar yeah uh you can say that yeah uh recursion will come to that uh
+franco so we'll explore this possible steps like but let's let's as i say as we approached in last
+class what we'll do is that once you have understood what's the requirement that we have to build
+now we'll focus on building a layout for this one then a bit of css around it then we'll go
+to the js part where we'll code down the logic for this i hope that point is clear guys
+chalo let's let's approach that one uh
+going back here uh i'll create a new class class 18
+let's say uh we start with uh what i'll do okay let's let's build it in one file itself
+i can say nested comments dot html okay now i'll add a dummy layout
+i can give a title as nested comments
+so one thing i'll do is like i'll minimize this one uh before this i'll open it in the preview
+on the right side so that we can replicate that one now i'll close this for our sake now
+now let's get started guys now one thing really common that we know is that anything that you are
+building you you have something like a container revolving around it so i'll have a container or
+dev container nothing else in that now comes you are you now it's your it's your game guys
+you have to suggest me this let's let's uh just focus on this part as of now
+first comment is static so let's build the static part now what do you think
+where how we should get started with this part
+uh h2 and the spandead uh
+one thing let's say uh do you see this is a first uh again a container i don't say it's a diff
+container somebody is going for h2 uh which is like he's trying to add this then then there is
+something like add reply now let's say uh what it takes what we'll try to build this one and we'll
+try to see you uh so i have some approach in my mind i'll try to show it to you let's say i have
+a comment container let's say this is a container where all comments will be there like okay first
+level comment whichever we are which is this is this part specifically now let's say if you see
+this is like a card which is having a box shadow are you able to relate this one this is a card
+which is having a box shadow so let's let's do that firstly inside comments container i'll have
+like let's say i say all comments in it which will have all comments inside this i'll create a div
+with a card first okay till now i haven't done anything so i created a comment section then i
+went to all comments i created a card just uh subreading the concerns of containers now now comes
+uh like we can have a span tag or we can go with a h2 tag if we if we are providing
+see your styles for this one we can go with span tag and we can deal with this
+let's say first commentator i just add this
+okay let's say i also give a class uh called as a text because this is just a simple text
+what we are adding we'll have a common css for this one added down the line now then we have
+a span tag with a reply uh you know uh span which we say that add reply
+now okay this is what we have designed till now then other than this card other than this card
+we also have something like once you click add reply you have simple two things okay uh input
+element and submit event submit button let's try to replicate that one too
+uh so what we'll do here is that inside all comment section below the cards i'll do something like
+dev uh comments let's say reply container
+once i have this container inside this thing i have again same input element
+uh let's say type equal to text okay it didn't work let's say again uh input element
+type text then also you have a button a submit button so for this one i'll say button submit
+submit okay on a top level this is what we have right let's say i have a class btm and then
+for input element again uh we have let's say if you see here uh write your reply is something
+we are showing it inside uh add reply is clickable huh yes it's clickable if you see
+i'm moving or cursor it is pointing it if i click it only then i'm able to create it caveat
+okay then once i have this uh i'll have a placeholder here which says
+write your reply
+okay once i have write your reply now on a top level on a top really top level we have addressed
+like uh what a particular uh basic layout would look like right because this is where we'll have
+because this is where we'll have uh like let's say
+already added comment
+and this will help us to create new comments
+comments right this is a basic idea that we had now let's let's go and try to make
+a bad bit styles to this one uh one thing i can do it like do you do you want me to add styles
+here itself or create a separate file because this will have a large amount of css guys that
+we have to address what would you prefer guys
+here is fine okay let's let's do it here itself so first and foremost thing i'll go around and
+play around with the card now if you see this card css are specifically uh we can create a
+new file i'll i'll copy it and create it there guys once we understand it while we create there
+okay now let's say we have this card now we are adding uh css to this one so first and foremost
+thing do you see uh box shadow we'll add a box shadow to this one uh let's say
+now do you remember guys what are the different fields of box shadow gives
+guys
+horizontal vertical shadow how much shadow do you need
+and like how much like how where do you want to bend that particular thing then
+so i have prepared this one so i'm entering the values directly but now let's see if this is
+looking like a orbit shadow or will have a color to it so that you can be able to see uh understand
+this one let's say background color rgb let's say i have triple two triple two triple two so that
+you will be able to see a hash color added please repeat the box shadow units okay let's let's do
+this one let's copy this one
+now if you see i'm selecting this thing and as i told you like if you want to play around with
+a box shadow you can always select uh like if you see it here now when i click here now if you see
+offset x offset if i play around if i make it make it 10 pixel let's say 10 pixel now do you see any
+change here so uh let's say if i make other things let's say around the y-axis
+do you see a shadow which is moving across directions when i'm moving it around
+direction of shadow along the x-axis y-axis now those are the first two values then
+you have a blur effect how much blur you need it okay how many pixels of blur you need it then
+you have something like spread how long you want to spread this shadow i hope you are able to see
+this guys uh right firstly x and y axis where you want to move the shadow then how much amount
+of blur you want that shadow to be then how long you want to spread that shadow okay all these
+fields now if i refresh it currently this is how it looks like okay once i added i added here
+till now only two fields a background color so that we can see the box elevated and a box shadow
+now once we have done this let's let's go and someone suggested me to add a border radius
+i'll give let's say 0.8 rem okay once i have this yeah it's look too much curved let's say 6 rem
+still let's look too much curved
+0.4 works
+once we have this let's say i want some differentiator from top i'll give a 10
+pixel differentiator and like getting something margin and let's say also i have padding across
+sites like around the sites i have some padding four sites 10 pixel around the main this this item
+okay once i have this let's say also do i need height or it is automatically taken like i have
+to have to specify height what if what if i give height as auto what do you think the value will
+be applied if i make it auto what do you think auto will make it
+anything guys anyone having any idea some which has same value
+pradeep says auto but can anyone guess like
+so it will automatically calculate as per like you know the container and like firstly according
+to the screen size right it will be automatically calculating exact height that is applied now you
+can always go and see here what is the exact height that is being calculated using like computer step
+using like computer step okay also i think here also you'll be able to see
+width is available but height if you see 18 pixel this got automatically applied calculating
+when you have auto now if i reduce the screen size let's say if i show you how this works
+if i reduce the screen size
+since uh this is about height that's maximum it is uh minimum it is taking but i hope you generally
+have an idea like how does auto works it's calculating based on the content
+okay i will come to that part but now let's move to the second thing uh where you want to
+add color so i would say that let's say i have reply now i can i if i what if i want to apply
+uh just a second guys
+if you see it here inside inside this card you have something like add reply
+this card you have something like add reply okay let's pick this css apply css for this one dot
+reply inside this now what what sort of colors do we see like if you come in here uh see it here
+now if i don't want to let's say if i want to make this as a color this color particular color
+let me go here and i'll do like i have a color already so rgb now i hope everyone remembers rgb
+i read green blue percentages like how many percentages we need and all those stuff
+of combination of them which gives you
+color now if you see that color has been exactly applied then okay yeah cursor should be pointer
+uh as some it says then can i make font weight as bolder
+so that it looks a bit bold now that's fine but let's add you know if you see it here for
+the text part let's add some you know if the text is holding for this all the parts now if you see
+so let's have some content for this one i'll go and select text and on this i'll say that hey
+can i make display block so that what if okay let's say i make a display block and i give font size as
+20 pixel to resemble that one and they'll say i'll say font weight as a bolder
+no that's fine do i need display block if i can convert this into div instead of a span my problem
+would be solved is it isn't it why do i need a span
+doesn't make any sense to have a spandex you know let's say i convert this also into div
+let's say i convert this also into div
+because it doesn't really make we convert a particular thing into other things now so
+is this clear firstly to everyone like how we managing this one
+like first part we created a cards container where we have two things first commentator and
+add reply so if we went on to first select the card on this card we added box shadow
+border radius background color margin top adding height right some basic basic fields
+now add reply now let's say we want to change this now do you see one differentiator that
+there's always a gap coming for the next level element for the each level let's say i write down
+if you see i write it down here for each level the next element whichever child element we are
+creating it it it moves somewhat on the right side right now how can you think like we cannot
+achieve this how can you what can how is it possible for us to achieve this just think of it
+here we have everything can anyone think of any idea left margin is absolutely right but
+on which element you will apply left margin margin left how would you apply
+for each and every element opendra think of that thing like how would you apply margin left
+for each of the new incoming child element so one hint i want to give you is that we have to use a
+pseudo selector we can add margin using j's parent matching plus one rib
+uh okay the rest that's one of the way we can do it but think of like can we do it
+simply using a pseudo selector how many of you remember n child or nth number
+or that sort of thing like how we can access or if you have a multiple child using a parent
+container and then trying to get the children's elements out of it now there is a new pseudo
+selector that we might have might not have got exposed to it let's say i'm selecting all comments
+okay all comments inside that all comments i'm selecting i'm saying that other than
+other than first child can you apply margin first for the each and every child
+can i say this this way
+okay and i give as for them
+other than first child apply margin left to each of the child
+do you see it here like are you able to relate it because this is the first child card then the
+other child is like comments other than the first child apply margin left to the each and every
+next level containers but now do you see that is being applied
+okay did i make any spelling mistakes here
+okay why i cannot see it class applied here
+so
+can anyone think of like where we are failing like let's say
+if i try to search with this in the chrome browser
+not first child selector
+okay see this is the same representation that we are using we are selecting a particular element
+other than for that one except first child give it all get all okay let's see
+if i go to all comments computer styles okay we'll come to that where the whites not applying it
+but let's try to make no problem okay just follow up okay so first thing and foremost
+like let's go to the simple one we'll come back to this one where we are applying it to the
+child what we'll do is like if you see inside this container we also have a button class
+let's try to make a button look the way we want if you go back and see it in the actual app
+it's just adding a border radius color white and you know the color that we have it for add reply
+we have to copy that so let's go let me go and copy the color part
+and make it as a background color and let me give color as white
+and let me copy border radius also
+okay now once we had this then we had something like let's say if you go and see it here
+padding yeah let's add some padding around it
+padding of three pixel around then i can say that i also don't need a border firstly border zero
+because it's giving a black in color which is i don't need it for the button then also i can add
+a box shadow right uh like there's a box shadow elevated which is like really less box shadow
+let's say i go back onto the top i copy the same box shadow that i have for comment section i copy
+i copy and keep it here now all this is fine all this is fine but
+do we see any change in this color or like it's larger and lighter let's make a bit change
+this is fine anyways now coming back to uh do we need anything else guys here on the button give
+border radius to input text also yeah we'll we'll go to the input text let's say we have a class
+input i'll select the class input on this input let me give something
+a particular uh firstly border radius of you can say 0.4 rem once we have this then you can we can
+always add let's say i have a specific height of 25 pixel to show it now i have colored both the
+things like uh button and input now let's go to this container level i should have come in
+the reverse direction let me go to the container now let's talk about this container guys what we
+should be having in the container to make it reflect like as it was looking earlier
+now we see that this is not applying what if i remove and i say that hey all the containers
+wherever you see this one uh keep a margin left of four them right because i've seen that
+uh they should have applied i tried it but maybe we'll fix this one so uh what i'm doing is like
+so uh what i'm doing is like i'm selecting the child kind of size then once we have this then
+let's say any other things guys should i give margin top of 0.4 rem anything else
+guys
+do they look good enough
+do they look good enough let's make uh increase the height of it bit
+let's make this as a 30 pixel and also button let's add some height to this button
+uh height of 30 pixel
+okay and let's increase this as a 0.6 to reflect uh like the same way now
+padding to the button do we need a padding to the button we had three pixel
+let's make it five okay okay cool no no risk guys uh now let's see like if i even if i give
+some margin right so that they look differentiated to pixel on the left cool now this is clear right
+a basic css that we applied uh and we created for the two elements uh any doubts anyone having
+any doubts on this because this is something really straightforward all the properties we
+have learned cuts cursor to the button great one uh cursor pointer i hope no one have any
+challenge understanding these two things right now we'll go to the actual js part now if you see
+firstly tell me something this will be static or it should be
+generated dynamically from the js part on click of add reply
+dynamically right now let's approach this one step by step okay i'll go below now firstly
+i'll create a script tag uh now what are the two events that we are handling it here firstly what
+are the two events that we are handling if i refresh it one is like add reply and there is
+on click of submit right i understand click uh and everything now uh sorry uh when it comes
+to event i got it but two main core functionalities that i was talking about
+both the events are click i agree with your point uh
+click on replay click on submit right two things now on click of reply what we are doing it
+we are creating this input element right input element uh and submit button
+on click of reply we are doing this right on click of submit we are building this first comment
+or like uh this this particular box and shared isn't it so you are able to what i'm trying to
+say is that firstly not only you build dynamically this particular input element and separate but you
+also have to dynamically generate on click of submit this particular box shadow and same thing
+reflecting whatever we have built it a card are you able to relate that we need both card
+and common supply container to be generated dynamically so for that thing for that thing
+i want to write two things like there are let's say we create two functions firstly creating input
+box okay for replying it like if you let's say i click off reply whenever you click a reply
+you need something like this box so let's say you have a function uh create input box and i'll leave
+it just firstly we won't write any logic in that we'll just write down the out layer firstly okay
+what all things we needed then also we have something like
+can i say a function create comment
+or comment box or i can say
+add reply let's say we say this way add reply so this will create
+it comment
+and add reply to it button two okay so these are the two events that we have to toggle right on
+click of something we have to trigger to these two functions and these two functions should be
+handling all the use cases isn't it this is this general idea are everyone able to follow up
+like on click of anything now now let's do that same drill of handling the click firstly now
+let's say i have a const and i'll say that i'll get an access to comment container
+document dot query selector inside this i have to let's say now the trick comes right the problem
+here is that you should be able to listen all the
+yeah i'll come to that caveat so okay let me re-explain it now you have two events firstly
+when you click on add reply you're creating an input element and submit button so for that thing
+whenever you click on this thing i have to write logic in this create input box is this clear
+like what does we mean when i say input box what i meant it now then if there is something user
+entered it and clicking submit we need to create this comment right comment and add reply button
+so for that one we'll have this function once you enter the data and click submit
+so two functions solving both the problems now when it comes to query selector what event we
+will be listening to is if you see here we have to listen all the ad replies in the whole page
+right because we can click here this button anytime we can click this button anytime we
+can click this button to anytime right any any ad reply button we should be able to listen
+and newly generated too so now for that reason now let's say i'll use that event bubbling concept
+okay using event bubbling what should be the thing that we should be selecting it
+what is a parent of all the things
+first parent from the bubbling concept like when you go for it by default it's a bubbling whenever
+you add an event listener so what should be the first parent that you see here
+a parent class that will be targeting
+let's say comment container
+right let's pick this one let's pick this one okay let's pick comment container
+so now on this comment container we'll be able to listen all the events that are happening on
+this buttons right any button anything you click will be able to figure it out
+right anything that's happening in whole page will be able to figure out in the comment container
+because this is a parent for the whole page
+guys are you able to relate why i'm selecting comment container here
+is anyone if there is anyone let me know if someone is not understanding why did we pick it up
+okay i see two people cool please keep responding so that i understand that whether you are able
+to follow up or not both some bits not didn't understand great so coming back to this one guys
+why not main container you pick it anything you pick it anything even if you want to pick
+it up this one all comments you can be pick it you can pick it this container also
+you can pick it anything as people suggested here in the chat that's why i picked it one thing
+okay now why i have to select any of like a parent container this reason
+because if i click on any reply let's say i click on this reply i should be able to listen if i
+click on this reply i should be able to listen if i click on this i should be able to listen
+now if why should i add a event listener to each one of them so for that reason since this is
+a one logic that we want to handle it i am saying is that anyways you click on any event if you had
+a event listener to the parent and you are listening to the click event you will be able to you know
+handle there at that particular position right that's the reason why i was asking like which
+parent container should we select okay so i'm picking up a comment container also you can pick
+it up all content all comments you can pick it up this container also since these are parent level
+hierarchy you can pick it up anything somewhere did you get this point why i'm trying to access
+that particular thing now i'll it will be more clear when we actually debug this one okay now
+let's say now let's say i i go and add a listener to this one comment container dot add event
+listener i'm listening to the click event let's say i have a function okay and i have an event here
+i let's say i close this now now console dot lock let's say uh i'm just trying to print event
+let's say i'm saying that someone is click something now if you go to this project right
+and open the console even if i click add reply event will be printed even if i click submit
+it even if i click submit event will be printed that's the reason leveraging or even bubbling
+i've added it to the parent container and then i'm listening to both the things is this point here
+guys how why i'm adding to it parent level now what if instead of comment container i'll give
+it to all comments even if i do this i should be able to listen events right
+even if i do this i would be able to listen all of this
+is this clear there is no difference if you select anything even bubbling will go to the
+topmost element from the root target element so that's the reason why i'm selecting any of the
+containers let's say we select this common container itself which is the parent for the
+all the comments okay now once we have this once we have this
+let's say you uh from this event if we try to get
+okay uh let's build like how would you listen to add reply or create submit will come to that part
+but let's fix uh build this one because that's the how would you add a listener to each and
+everything would be a bit tricky i'll come to that part let's let's build add reply here first
+when you are creating uh add reply like this is the content let's say this is something you are
+trying to build expect that you will receive some text inside this function uh what i'm trying to
+do is start let's say uh again a simple logic where firstly i'll create an element uh let's
+say element and i'll say the document dot create element i'll give a diff okay and inside that
+i'll also have a element dot let's say set attribute inside this attribute i'll add a
+particular class which will say all comments now if you see this i'm adding all comments here
+here
+inside this all comments i'll write down the whole inner html part
+now inside this inner html i'll write simple basically i'll copy whatever thing you see it
+here that card uh example i'll copy this i'll put it here once i have this also i'll
+make it this one as a dynamic adding a text here and once i'm build this element i have to append
+this element so but what i'll do is that i'll return this particular uh element that created
+whatever we created uh so that i have element dot inner html is this clear guys like how we are
+creating add reply i'm just copy paste and created that element i'm returning from this
+nothing new it's just that i'm replicating whatever we have done it on top now for
+consider this one if you want to create an input box how would you create an input box
+for creating input box we don't need any parameter uh like here because it's just
+that it's a simple input like this both things so but we have this particular class we have to
+create a day for that one let's say again i create a const element simple document dot create element
+inside that i select as a dev and once i have this element i'll say that element dot set attribute
+inside that i say that i want to add a class and inside this i'll i'll have this class
+uh sorry this class added once i have this then i'll go to this element dot inner html inside this
+let's say i add all the things that i have it here two things
+right once we do this i'll also return div from here or element from here
+right so i hope this is clear this is pretty basic right uh like whatever we have done there
+we have replicated so i hope these functions are clear to everyone
+anyone having any challenge understanding these functions or the html css part we did till now
+anyone having any challenge now what i'll do is that i'll comment this one because we have to
+let's say we have to create this container or call this call this input box
+create input box function when you click a reply right when you click a reply you should be able
+to call this and append to the dom right now now think of it how would you do that one how would
+you do that one how would you know what who has clicked and what
+now just like everything it will be is before your eyes you we have done this multiple times
+i just want you to think it like how can we access it
+can i say that if if particular let's say this if you see add reply if you click on this particular
+div or uh like if someone is clicking something or text or a container and if that particular
+element is having a class of reply we will call this one can i say that text this is a dynamic
+value right when we are creating an ad reply this comment should be coming from the text
+i'll come to that some with how that works
+so somebody says e dot target dot class name
+if it is having a reply call that function right how many of you think that would be
+right way to do it
+this idea are you able to follow up are you able to follow up with my idea
+so let's say that what somebody is suggesting let me do that uh e dot target dot class name
+let's say out of this uh instead of class name or what if we get a class list
+uh and let's say i say that if it is containing
+since this is a class list will give you an array of elements uh because sometimes it's
+better to use class list rather than a particular class name and we can say that if it is containing
+reply if it is containing reply then call that function so i'll say that get me that element
+element how would i get this element i'll say that create input box
+okay i'll create this input box and now where should i append it
+where should i append this one once i have this element
+which will be returned from this one where should i append it comments container
+and let's say i say that as you say comment container dot append child element now let's
+say if i do this let's see this what could be the behavior of this one if i click add reply
+that's cool if i click add reply that's cool it's working fine right
+guys are you able to understand how we are able to achieve this part firstly
+simple basic uh thing right adding a listener and listening to a class now let's say if a
+particular event if a particular event e.target.classlist contains
+now if you see here when you click a button you have a class button right if there is
+if there is something someone is clicking a button then we'll have this one no firstly
+once we have this now you have to get the text let's say if i even if i want to call the const
+element if i want to call this function where we are trying to create add reply i have to pass on
+the content text into it like what user is writing it down okay let's say then simple again
+comments dot append child element same line i have written it but now when i click a add reply
+when i click a add reply i have the text here no the text is getting added into this one right
+this element or sorry this input element which is having class input
+so what i can do it here is that if i need that text whatever user is entering
+i can say const text document dot query selector get me the text
+can i say this guys
+out of after getting that text now what i have to get out of that value
+get input dot value says some bit simple text dot value or else let's say i say this as an
+input element input element i can say input element dot value
+guys are you able to follow up whatever i'm saying it
+now let's see this this got failed now can anyone help me out where we might have
+okay this is firstly this is not in text this is an input because here we added
+class input item was type text okay now let's say i created something i click submit i'm able to add
+it that's fine but are you able to see a particular thing let's say if i try to check this one if i
+try to do all the comments all other comments other than the first child like when i say this
+this is other than this container other than the first container whatever subsequent containers
+that you're creating it should have a margin of four uh margin left of four so let's say if i
+create this i'm able to do this one but do you see something that we have to remove
+we pass the param into the function right here we pass that param into the function
+but here when i'm clicking submit i have to do something what i have to do
+okay someone says that hey are you that content is not being updated the content is not being
+updated whatever you have entered here that
